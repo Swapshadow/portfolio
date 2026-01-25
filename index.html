@@ -14,14 +14,29 @@
   <header class="site-header">
     <div class="container nav">
       <span class="logo">JBT</span>
-      <nav class="nav-links">
-        <a href="index.html">Accueil</a>
-        <a href="parcours.html">Parcours & Certifications</a>
-        <a href="veille.html">Veille</a>
-        <a href="projets.html">Projets</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
+        <span class="menu-toggle-label">Menu</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
     </div>
+    <nav class="site-nav" id="site-menu">
+      <div class="site-nav-panel">
+        <div class="site-nav-header">
+          <span class="logo">JBT</span>
+          <button class="menu-close" type="button" aria-label="Fermer le menu">
+            ✕
+          </button>
+        </div>
+        <ul class="site-nav-links">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="parcours.html">Parcours</a></li>
+          <li><a href="certifications.html">Certifications</a></li>
+          <li><a href="veille.html">Veille</a></li>
+          <li><a href="projets.html">Projets</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
   </header>
 
   <main>
@@ -29,7 +44,7 @@
       <div class="container">
         <div class="hero-card">
           <div>
-            <p class="hero-eyebrow">Journal de progression</p>
+            <p class="hero-eyebrow">Infrastructure & cybersécurité</p>
             <h1>Jean-Baptiste Terrazzoni</h1>
             <p class="hero-role">Administrateur d’infrastructures sécurisées · Pentester junior</p>
             <div class="hero-badges">
@@ -38,16 +53,22 @@
               <span class="tag">Audit & veille</span>
             </div>
             <p class="hero-summary">
-              J’explore la sécurité des infrastructures comme une quête longue durée :
-              cartographier les systèmes, renforcer les défenses et partager un savoir utile.
+              Spécialisé dans l’analyse et la protection des infrastructures, je combine rigueur
+              opérationnelle, veille active et approche méthodique pour renforcer la sécurité
+              des systèmes critiques.
             </p>
             <div class="hero-cta">
-              <a class="button" href="parcours.html">Explorer mon parcours</a>
-              <a class="button button-secondary" href="projets.html">Voir mes missions</a>
+              <a class="button" href="parcours.html">Découvrir mon parcours</a>
+              <a class="button button-secondary" href="projets.html">Voir mes projets</a>
             </div>
           </div>
-          <div class="hero-illustration">
-            <img src="assets/enchanted-book.svg" alt="Illustration d’un livre enchanté représentant la connaissance en cybersécurité">
+          <div class="hero-visual" aria-hidden="true">
+            <div class="voxel-stack">
+              <span class="voxel voxel-primary"></span>
+              <span class="voxel voxel-secondary"></span>
+              <span class="voxel voxel-tertiary"></span>
+              <span class="voxel voxel-glow"></span>
+            </div>
           </div>
         </div>
       </div>
@@ -55,12 +76,17 @@
 
     <section class="section">
       <div class="container section-card">
-        <h2 class="section-title">Carte du territoire</h2>
+        <h2 class="section-title">Domaines clés</h2>
         <div class="grid grid-2">
           <article class="card">
-            <h3>Parcours & certifications</h3>
-            <p>Un fil chronologique pour comprendre mes étapes d’apprentissage, mes compétences et mes badges officiels.</p>
-            <a class="tag" href="parcours.html">Ouvrir le grimoire →</a>
+            <h3>Parcours académique</h3>
+            <p>Formation structurée autour de l’administration système, réseau et de la sécurité des infrastructures.</p>
+            <a class="tag" href="parcours.html">Voir le parcours →</a>
+          </article>
+          <article class="card">
+            <h3>Certifications</h3>
+            <p>Certifications et attestations techniques pour valider la montée en compétences.</p>
+            <a class="tag" href="certifications.html">Voir les certifications →</a>
           </article>
           <article class="card">
             <h3>Veille cybersécurité</h3>
@@ -68,12 +94,12 @@
             <a class="tag" href="veille.html">Consulter la veille →</a>
           </article>
           <article class="card">
-            <h3>Projets & quêtes</h3>
+            <h3>Projets techniques</h3>
             <p>Des missions axées sur l’infrastructure, l’audit et l’analyse de vulnérabilités.</p>
-            <a class="tag" href="projets.html">Explorer les quêtes →</a>
+            <a class="tag" href="projets.html">Explorer les projets →</a>
           </article>
           <article class="card">
-            <h3>Contact & alliances</h3>
+            <h3>Contact</h3>
             <p>Les canaux pour me joindre, collaborer ou suivre mes activités.</p>
             <a class="tag" href="contact.html">Établir le contact →</a>
           </article>
@@ -83,10 +109,10 @@
 
     <section class="section">
       <div class="container section-card">
-        <h2 class="section-title">Profil joueur</h2>
+        <h2 class="section-title">Profil technique</h2>
         <div class="profile-card">
           <strong>TryHackMe — Swapshadow</strong>
-          <p>Suivi de progression et des compétences en cybersécurité via les labs TryHackMe.</p>
+          <p>Suivi des compétences techniques et des laboratoires de cybersécurité via TryHackMe.</p>
           <a class="button" href="https://tryhackme.com/p/Swapshadow" target="_blank" rel="noreferrer">Voir le profil TryHackMe</a>
         </div>
       </div>
@@ -111,8 +137,9 @@
 
   <footer class="footer">
     <div class="container">
-      <p>Portfolio cybersécurité — pensée Apple-like, narration RPG. © 2025 Jean-Baptiste Terrazzoni.</p>
+      <p>Portfolio cybersécurité — interface sobre, détails pixel subtils. © 2025 Jean-Baptiste Terrazzoni.</p>
     </div>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>

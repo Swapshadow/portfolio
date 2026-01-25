@@ -1,7 +1,54 @@
 document.addEventListener('DOMContentLoaded', () => {
+  initMenu();
   initCarousel();
   initRssFeeds();
 });
+
+function initMenu() {
+  const toggle = document.querySelector('.menu-toggle');
+  const menu = document.querySelector('.site-nav');
+  const close = document.querySelector('.menu-close');
+
+  if (!toggle || !menu) return;
+
+  const openMenu = () => {
+    menu.classList.add('is-open');
+    toggle.setAttribute('aria-expanded', 'true');
+    document.body.classList.add('menu-open');
+  };
+
+  const closeMenu = () => {
+    menu.classList.remove('is-open');
+    toggle.setAttribute('aria-expanded', 'false');
+    document.body.classList.remove('menu-open');
+  };
+
+  toggle.addEventListener('click', () => {
+    if (menu.classList.contains('is-open')) {
+      closeMenu();
+    } else {
+      openMenu();
+    }
+  });
+
+  close?.addEventListener('click', closeMenu);
+
+  menu.addEventListener('click', (event) => {
+    if (event.target === menu) {
+      closeMenu();
+    }
+  });
+
+  menu.querySelectorAll('a').forEach((link) => {
+    link.addEventListener('click', closeMenu);
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && menu.classList.contains('is-open')) {
+      closeMenu();
+    }
+  });
+}
 
 function initCarousel() {
   const carousel = document.querySelector('[data-carousel]');
@@ -19,6 +66,9 @@ function initCarousel() {
     const card = track.querySelector('.carousel-card');
     if (!card) return;
     const cardWidth = card.getBoundingClientRect().width + 16;
+    const visibleCards = Math.max(Math.floor(carousel.offsetWidth / cardWidth), 1);
+    const maxIndex = Math.max(track.children.length - visibleCards, 0);
+    index = Math.min(index, maxIndex);
     track.style.transform = `translateX(-${index * cardWidth}px)`;
   };
 
@@ -29,7 +79,11 @@ function initCarousel() {
 
   next.addEventListener('click', () => {
     const total = track.children.length;
-    const maxIndex = Math.max(total - 1, 0);
+    const card = track.querySelector('.carousel-card');
+    if (!card) return;
+    const cardWidth = card.getBoundingClientRect().width + 16;
+    const visibleCards = Math.max(Math.floor(carousel.offsetWidth / cardWidth), 1);
+    const maxIndex = Math.max(total - visibleCards, 0);
     index = Math.min(index + 1, maxIndex);
     update();
   });
