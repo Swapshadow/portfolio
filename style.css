@@ -60,6 +60,12 @@
   --glass-blur-mobile: 6px;
 }
 
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   background-color: var(--bg);
@@ -138,11 +144,19 @@ a {
   padding: 0 24px;
 }
 
+@supports (padding: max(0px)) {
+  .container {
+    padding-left: max(24px, env(safe-area-inset-left));
+    padding-right: max(24px, env(safe-area-inset-right));
+  }
+}
+
 .page {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   position: relative;
+  overflow-x: hidden;
 }
 
 .page > * {
@@ -501,7 +515,7 @@ body[data-animations="off"] #animated-background .shooting-star {
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   .sun,
   .moon {
     width: 90px;
@@ -1168,7 +1182,7 @@ body[data-animations="off"] #animated-background .shooting-star {
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   :is(.hero-card, .section-card, .card, .timeline-item, .certification-card, .rss-card) {
     backdrop-filter: blur(var(--glass-blur-mobile)) saturate(1.1);
     -webkit-backdrop-filter: blur(var(--glass-blur-mobile)) saturate(1.1);
@@ -1259,9 +1273,80 @@ body[data-animations="off"] #animated-background .shooting-star {
   font-size: 1.1rem;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
+  .container {
+    padding: 0 18px;
+  }
+
+  .site-header {
+    padding: 16px 0 8px;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-actions {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .nav-icon-button,
+  .animations-toggle,
+  .menu-toggle {
+    min-height: 44px;
+  }
+
+  .menu-toggle {
+    padding: 8px 14px;
+  }
+
+  .hero {
+    padding: 24px 0 48px;
+  }
+
   .hero-card {
-    padding: 32px;
+    padding: 28px;
+    grid-template-columns: 1fr;
+    text-align: center;
+    justify-items: center;
+  }
+
+  .hero-summary {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-badges,
+  .hero-cta {
+    justify-content: center;
+  }
+
+  .section-card {
+    padding: 24px;
+  }
+
+  .section-title {
+    text-align: center;
+  }
+
+  .section-header {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .grid {
+    justify-items: center;
+  }
+
+  .card,
+  .timeline-item,
+  .rss-card {
+    width: 100%;
+    max-width: 520px;
   }
 
   .certification-card {
@@ -1278,6 +1363,34 @@ body[data-animations="off"] #animated-background .shooting-star {
 
   .footer-contact {
     width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 14px;
+  }
+
+  .animations-toggle {
+    padding: 8px 12px;
+    font-size: 0.8rem;
+  }
+
+  .animations-toggle-label {
+    display: none;
+  }
+
+  .nav-icon-button {
+    width: 44px;
+    height: 44px;
+  }
+
+  .hero-card {
+    padding: 22px;
+  }
+
+  .section {
+    padding: 32px 0;
   }
 }
 .nav-icon-button {
