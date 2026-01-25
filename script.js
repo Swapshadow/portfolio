@@ -86,42 +86,72 @@ function initCarousel() {
   if (!carousel) return;
 
   const track = carousel.querySelector('[data-carousel-track]');
-  const prev = carousel.querySelector('[data-carousel-prev]');
-  const next = carousel.querySelector('[data-carousel-next]');
+  if (!track) return;
 
-  if (!track || !prev || !next) return;
+  const cards = Array.from(track.children);
+  if (!cards.length) return;
 
-  let index = 0;
+  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (!prefersReducedMotion) {
+    cards.forEach((card) => {
+      const clone = card.cloneNode(true);
+      clone.classList.add('is-clone');
+      clone.setAttribute('aria-hidden', 'true');
+      track.appendChild(clone);
+    });
+  } else {
+    return;
+  }
 
-  const update = () => {
-    const card = track.querySelector('.carousel-card');
-    if (!card) return;
-    const cardWidth = card.getBoundingClientRect().width + 16;
-    const visibleCards = Math.max(Math.floor(carousel.offsetWidth / cardWidth), 1);
-    const maxIndex = Math.max(track.children.length - visibleCards, 0);
-    index = Math.min(index, maxIndex);
-    track.style.transform = `translateX(-${index * cardWidth}px)`;
+  let isPaused = false;
+  let rafId;
+  const speed = 0.4;
+
+  const tick = () => {
+    if (!isPaused) {
+      carousel.scrollLeft += speed;
+      if (carousel.scrollLeft >= track.scrollWidth / 2) {
+        carousel.scrollLeft = 0;
+      }
+    }
+    rafId = requestAnimationFrame(tick);
   };
 
-  prev.addEventListener('click', () => {
-    index = Math.max(index - 1, 0);
-    update();
+  const start = () => {
+    if (!rafId) {
+      rafId = requestAnimationFrame(tick);
+    }
+  };
+
+  start();
+
+  const supportsHover = window.matchMedia('(hover: hover)').matches;
+  if (supportsHover) {
+    carousel.addEventListener('mouseenter', () => {
+      isPaused = true;
+    });
+
+    carousel.addEventListener('mouseleave', () => {
+      isPaused = false;
+    });
+  }
+
+  let resumeTimeout;
+  const scheduleResume = () => {
+    clearTimeout(resumeTimeout);
+    resumeTimeout = setTimeout(() => {
+      isPaused = false;
+    }, 1200);
+  };
+
+  carousel.addEventListener('pointerdown', () => {
+    isPaused = true;
   });
 
-  next.addEventListener('click', () => {
-    const total = track.children.length;
-    const card = track.querySelector('.carousel-card');
-    if (!card) return;
-    const cardWidth = card.getBoundingClientRect().width + 16;
-    const visibleCards = Math.max(Math.floor(carousel.offsetWidth / cardWidth), 1);
-    const maxIndex = Math.max(total - visibleCards, 0);
-    index = Math.min(index + 1, maxIndex);
-    update();
-  });
-
-  window.addEventListener('resize', update);
-  update();
+  carousel.addEventListener('pointerup', scheduleResume);
+  carousel.addEventListener('pointercancel', scheduleResume);
 }
+
 
 function initRssFeeds() {
   const feeds = [
