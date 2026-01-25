@@ -2,6 +2,8 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio de Jean-Baptiste Terrazzoni, développeur web full stack junior.">
   <title>Portfolio - Jean-Baptiste Terrazzoni</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,63 +12,120 @@
 </head>
 <body>
 
-  <header>
-    <h1>Jean-Baptiste Terrazzoni</h1>
-    <p>Développeur web full stack junior</p>
+  <header class="hero">
+    <div class="container">
+      <nav class="nav">
+        <span class="logo">JBT</span>
+        <div class="nav-links">
+          <a href="#a-propos">À propos</a>
+          <a href="#projets">Projets</a>
+          <a href="#competences">Compétences</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+      <div class="hero-content">
+        <div>
+          <p class="hero-eyebrow">Portfolio</p>
+          <h1>Jean-Baptiste Terrazzoni</h1>
+          <p class="hero-role">Développeur web full stack junior</p>
+          <p class="hero-summary">
+            Je construis des interfaces propres, accessibles et performantes,
+            avec une attention particulière aux détails.
+          </p>
+        </div>
+        <div class="hero-cta">
+          <a class="button" href="#projets">Voir mes projets</a>
+          <a class="button button-secondary" href="#contact">Me contacter</a>
+        </div>
+      </div>
+    </div>
   </header>
 
-  <section>
-    <h2>À propos</h2>
-    <p>
-      Je débute en développement web et je construis ce portfolio
-      pour présenter mes projets et mes compétences.
-    </p>
-  </section>
+  <main>
+    <section id="a-propos" class="section">
+      <div class="container">
+        <h2>À propos</h2>
+        <p>
+          Je débute en développement web et je construis ce portfolio
+          pour présenter mes projets et mes compétences. Mon objectif est
+          d’intégrer une équipe produit où je pourrai progresser sur des projets concrets.
+        </p>
+      </div>
+    </section>
 
-  <section class="projects">
-  <h2>Projets</h2>
+    <section id="projets" class="section">
+      <div class="container">
+        <h2>Projets</h2>
+        <div class="projects">
+          <article class="project-card">
+            <div>
+              <h3>Portfolio personnel</h3>
+              <p>
+                Site web personnel réalisé en HTML et CSS pour présenter
+                mes projets et compétences.
+              </p>
+            </div>
+            <a href="https://github.com/Swapshadow/portfolio" target="_blank" rel="noreferrer">
+              Voir le code sur GitHub →
+            </a>
+          </article>
 
-  <div class="project-card">
-    <h3>Portfolio personnel</h3>
-    <p>
-      Site web personnel réalisé en HTML et CSS pour présenter
-      mes projets et compétences.
-    </p>
-    <a href="https://github.com/Swapshadow/portfolio" target="_blank">
-      Voir le code sur GitHub →
-    </a>
-  </div>
+          <article class="project-card">
+            <div>
+              <h3>Projet à venir</h3>
+              <p>Application web en cours de développement.</p>
+            </div>
+            <span class="project-status">En préparation</span>
+          </article>
+        </div>
+      </div>
+    </section>
 
-  <div class="project-card">
-    <h3>Projet à venir</h3>
-    <p>Application web en cours de développement.</p>
-  </div>
-</section>
+    <section id="competences" class="section">
+      <div class="container">
+        <h2>Compétences</h2>
+        <div class="skills">
+          <div>
+            <h3>Front-end</h3>
+            <ul>
+              <li>HTML sémantique & accessibilité</li>
+              <li>CSS moderne, responsive, animations</li>
+              <li>JavaScript (bases solides)</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Back-end & outils</h3>
+            <ul>
+              <li>Node.js & Express (notions)</li>
+              <li>Git & GitHub</li>
+              <li>Figma (lecture de maquettes)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
-
-
-  <section>
-  <h2>Contact</h2>
-  <p>
-    Email :
-    <a href="mailto:terrazzoni.corsica@proton.me">terrazzoni.corsica@proton.me</a>
-  </p>
-  <p>
-    GitHub :
-    <a href="https://github.com/swapshadow" target="_blank">
-      https://github.com/swapshadow
-    </a>
-  </p>
-  <p>
-    LinkedIn :
-    <a href="https://www.linkedin.com/in/jean-baptiste-terrazzoni" target="_blank">
-      https://www.linkedin.com/in/jean-baptiste-terrazzoni
-    </a>
-  </p>
-  </section>
-
-
-
-
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>
+          Email :
+          <a href="mailto:terrazzoni.corsica@proton.me">terrazzoni.corsica@proton.me</a>
+        </p>
+        <p>
+          GitHub :
+          <a href="https://github.com/swapshadow" target="_blank" rel="noreferrer">
+            https://github.com/swapshadow
+          </a>
+        </p>
+        <p>
+          LinkedIn :
+          <a href="https://www.linkedin.com/in/jean-baptiste-terrazzoni" target="_blank" rel="noreferrer">
+            https://www.linkedin.com/in/jean-baptiste-terrazzoni
+          </a>
+        </p>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
