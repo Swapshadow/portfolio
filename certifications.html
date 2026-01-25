@@ -12,6 +12,29 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body class="page">
+  <div class="background-scene" aria-hidden="true">
+    <div class="sky-layer">
+      <div class="sun"></div>
+      <div class="moon"></div>
+      <div class="stars"></div>
+      <div class="shooting-star"></div>
+      <svg class="cloud cloud-1" viewBox="0 0 160 80" aria-hidden="true">
+        <path d="M40 65h70a25 25 0 0 0 0-50 35 35 0 0 0-66-8A22 22 0 0 0 40 65z" fill="currentColor" />
+      </svg>
+      <svg class="cloud cloud-2" viewBox="0 0 180 90" aria-hidden="true">
+        <path d="M45 70h80a28 28 0 0 0 0-56 38 38 0 0 0-72-10A24 24 0 0 0 45 70z" fill="currentColor" />
+      </svg>
+    </div>
+    <div class="content-layer"></div>
+    <div class="sea-layer">
+      <svg class="sea-waves" viewBox="0 0 1200 120" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0 67 C 150 110 350 10 600 55 C 850 100 1050 20 1200 60 V120 H0 Z"></path>
+      </svg>
+      <svg class="sea-waves sea-waves-secondary" viewBox="0 0 1200 120" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0 60 C 200 20 400 120 600 70 C 800 20 1000 110 1200 65 V120 H0 Z"></path>
+      </svg>
+    </div>
+  </div>
   <header class="site-header">
     <div class="container nav">
       <span class="logo" aria-hidden="true"></span>
@@ -35,6 +58,10 @@
               <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path>
             </svg>
           </span>
+        </button>
+        <button class="animations-toggle" type="button" data-animations-toggle aria-label="Basculer les animations" aria-pressed="true">
+          <span class="animations-toggle-label">Animations</span>
+          <span class="animations-toggle-status" data-animations-status aria-hidden="true">On</span>
         </button>
         <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
           <span class="menu-toggle-label">Menu</span>
