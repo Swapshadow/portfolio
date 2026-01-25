@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initMenu();
   initCarousel();
   initRssFeeds();
+  initShootingStars();
 });
 
 const RSS_CACHE_PREFIX = 'rss-cache-v1';
@@ -217,6 +218,77 @@ function initRssFeeds() {
 
   if (!tasks.length) return;
   Promise.allSettled(tasks);
+}
+
+function initShootingStars() {
+  const star = document.querySelector('.shooting-star');
+  if (!star) return;
+
+  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const isMobile = window.matchMedia('(max-width: 720px)');
+  let timeoutId;
+
+  const canAnimate = () => {
+    return (
+      document.body.dataset.theme === 'dark'
+      && document.body.dataset.animations !== 'off'
+      && !prefersReducedMotion.matches
+      && !isMobile.matches
+    );
+  };
+
+  const scheduleNext = () => {
+    clearTimeout(timeoutId);
+    if (!canAnimate()) {
+      timeoutId = setTimeout(scheduleNext, 2000);
+      return;
+    }
+    const delay = 10000 + Math.random() * 10000;
+    timeoutId = setTimeout(triggerStar, delay);
+  };
+
+  const triggerStar = () => {
+    if (!canAnimate()) {
+      scheduleNext();
+      return;
+    }
+    if (star.classList.contains('is-active')) {
+      scheduleNext();
+      return;
+    }
+    const top = 15 + Math.random() * 20;
+    const left = 60 + Math.random() * 25;
+    const angle = -20 - Math.random() * 15;
+    star.style.top = `${top}%`;
+    star.style.left = `${left}%`;
+    star.style.setProperty('--shooting-star-angle', `${angle}deg`);
+    star.classList.add('is-active');
+    star.addEventListener(
+      'animationend',
+      () => {
+        star.classList.remove('is-active');
+        scheduleNext();
+      },
+      { once: true }
+    );
+  };
+
+  const observer = new MutationObserver(() => {
+    if (!canAnimate()) {
+      star.classList.remove('is-active');
+      scheduleNext();
+    }
+  });
+
+  observer.observe(document.body, {
+    attributes: true,
+    attributeFilter: ['data-theme', 'data-animations'],
+  });
+
+  prefersReducedMotion.addEventListener('change', scheduleNext);
+  isMobile.addEventListener('change', scheduleNext);
+
+  scheduleNext();
 }
 
 async function loadRssFeed({ key, url, label, container }) {
