@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   initTheme();
+  initAnimationsToggle();
   initMenu();
   initCarousel();
   initRssFeeds();
@@ -30,6 +31,45 @@ function initTheme() {
     const nextTheme = document.body.dataset.theme === 'dark' ? 'light' : 'dark';
     applyTheme(nextTheme);
     localStorage.setItem('theme', nextTheme);
+  });
+}
+
+function initAnimationsToggle() {
+  const toggle = document.querySelector('[data-animations-toggle]');
+  if (!toggle) return;
+
+  const status = toggle.querySelector('[data-animations-status]');
+  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const storedPreference = localStorage.getItem('animations');
+  let hasStoredPreference = storedPreference === 'on' || storedPreference === 'off';
+  const initialState = hasStoredPreference
+    ? storedPreference
+    : prefersReducedMotion.matches
+      ? 'off'
+      : 'on';
+
+  const applyState = (state) => {
+    document.body.dataset.animations = state;
+    toggle.setAttribute('aria-pressed', state === 'on');
+    if (status) {
+      status.textContent = state === 'on' ? 'On' : 'Off';
+    }
+  };
+
+  applyState(initialState);
+
+  toggle.addEventListener('click', () => {
+    const nextState = document.body.dataset.animations === 'off' ? 'on' : 'off';
+    applyState(nextState);
+    localStorage.setItem('animations', nextState);
+    hasStoredPreference = true;
+  });
+
+  prefersReducedMotion.addEventListener('change', (event) => {
+    if (!hasStoredPreference) {
+      const nextState = event.matches ? 'off' : 'on';
+      applyState(nextState);
+    }
   });
 }
 
