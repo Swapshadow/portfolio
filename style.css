@@ -147,13 +147,11 @@ a {
 
 .page > * {
   position: relative;
-  z-index: 1;
 }
 
 main {
   flex: 1;
   position: relative;
-  z-index: 1;
 }
 
 #animated-background {
@@ -567,6 +565,8 @@ body[data-animations="off"] #animated-background .shooting-star {
 
 .site-header {
   padding: 24px 0 8px;
+  position: relative;
+  z-index: 100;
 }
 
 .nav {
@@ -655,7 +655,7 @@ body[data-animations="off"] #animated-background .shooting-star {
   visibility: hidden;
   pointer-events: none;
   transition: opacity 0.3s ease, visibility 0.3s ease;
-  z-index: 20;
+  z-index: 1000;
 }
 
 .site-nav.is-open {
