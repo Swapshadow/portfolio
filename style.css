@@ -52,12 +52,12 @@
   --sea-start: #9fd0ff;
   --sea-end: #6ea7e4;
   --sea-wave: rgba(255, 255, 255, 0.55);
-  --glass-bg: rgba(255, 255, 255, 0.65);
-  --glass-bg-fallback: rgba(255, 255, 255, 0.78);
-  --glass-border: rgba(255, 255, 255, 0.55);
-  --glass-highlight: rgba(255, 255, 255, 0.75);
-  --glass-blur: 18px;
-  --glass-blur-mobile: 12px;
+  --glass-bg: rgba(255, 255, 255, 0.48);
+  --glass-bg-fallback: rgba(255, 255, 255, 0.62);
+  --glass-border: rgba(255, 255, 255, 0.45);
+  --glass-highlight: rgba(255, 255, 255, 0.62);
+  --glass-blur: 14px;
+  --glass-blur-mobile: 10px;
 }
 
 body {
@@ -116,10 +116,10 @@ body[data-theme="dark"] {
   --sea-start: #1b2a44;
   --sea-end: #141e33;
   --sea-wave: rgba(154, 182, 235, 0.3);
-  --glass-bg: rgba(18, 24, 38, 0.58);
-  --glass-bg-fallback: rgba(20, 26, 40, 0.72);
-  --glass-border: rgba(255, 255, 255, 0.12);
-  --glass-highlight: rgba(255, 255, 255, 0.18);
+  --glass-bg: rgba(18, 24, 38, 0.42);
+  --glass-bg-fallback: rgba(20, 26, 40, 0.58);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-highlight: rgba(255, 255, 255, 0.16);
 }
 
 img {
@@ -257,11 +257,23 @@ body[data-theme="dark"] .moon {
     radial-gradient(1px 1px at 15% 60%, var(--stars-color) 40%, transparent 42%),
     radial-gradient(1px 1px at 55% 55%, var(--stars-color) 40%, transparent 42%),
     radial-gradient(1px 1px at 75% 70%, var(--stars-color) 40%, transparent 42%),
-    radial-gradient(1.5px 1.5px at 30% 75%, var(--stars-color) 40%, transparent 42%);
+    radial-gradient(1.5px 1.5px at 30% 75%, var(--stars-color) 40%, transparent 42%),
+    radial-gradient(1px 1px at 10% 20%, var(--stars-color) 40%, transparent 42%),
+    radial-gradient(1px 1px at 28% 15%, var(--stars-color) 40%, transparent 42%),
+    radial-gradient(1.5px 1.5px at 60% 12%, var(--stars-color) 40%, transparent 42%),
+    radial-gradient(1px 1px at 82% 18%, var(--stars-color) 40%, transparent 42%),
+    radial-gradient(1.5px 1.5px at 12% 42%, var(--stars-color) 40%, transparent 42%),
+    radial-gradient(1px 1px at 35% 38%, var(--stars-color) 40%, transparent 42%),
+    radial-gradient(1.5px 1.5px at 62% 42%, var(--stars-color) 40%, transparent 42%),
+    radial-gradient(1px 1px at 88% 52%, var(--stars-color) 40%, transparent 42%),
+    radial-gradient(1.5px 1.5px at 22% 82%, var(--stars-color) 40%, transparent 42%),
+    radial-gradient(1px 1px at 48% 78%, var(--stars-color) 40%, transparent 42%),
+    radial-gradient(1.5px 1.5px at 68% 82%, var(--stars-color) 40%, transparent 42%),
+    radial-gradient(1px 1px at 90% 74%, var(--stars-color) 40%, transparent 42%);
 }
 
 body[data-theme="dark"] .stars {
-  opacity: 0.75;
+  opacity: 0.85;
 }
 
 .day-meteors {
@@ -307,6 +319,22 @@ body[data-theme="dark"] .stars {
   width: 70px;
   animation-delay: 18s;
   animation-duration: 28s;
+}
+
+.day-meteor.meteor-4 {
+  top: 26%;
+  left: 80%;
+  width: 60px;
+  animation-delay: 7s;
+  animation-duration: 23s;
+}
+
+.day-meteor.meteor-5 {
+  top: 12%;
+  left: 46%;
+  width: 85px;
+  animation-delay: 14s;
+  animation-duration: 21s;
 }
 
 body[data-theme="dark"] .day-meteors {
