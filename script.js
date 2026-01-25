@@ -14,12 +14,14 @@ function initMenu() {
   const openMenu = () => {
     menu.classList.add('is-open');
     toggle.setAttribute('aria-expanded', 'true');
+    menu.setAttribute('aria-hidden', 'false');
     document.body.classList.add('menu-open');
   };
 
   const closeMenu = () => {
     menu.classList.remove('is-open');
     toggle.setAttribute('aria-expanded', 'false');
+    menu.setAttribute('aria-hidden', 'true');
     document.body.classList.remove('menu-open');
   };
 
