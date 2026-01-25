@@ -44,7 +44,7 @@
   --sun-glow: rgba(255, 214, 92, 0.55);
   --cloud-color: rgba(245, 250, 255, 0.68);
   --stars-color: rgba(255, 255, 255, 0.8);
-  --meteor-color: rgba(255, 209, 140, 0.6);
+  --meteor-color: rgba(255, 175, 95, 0.9);
   --moon-core: #e5e7eb;
   --moon-highlight: #f8fafc;
   --moon-edge: #cdd3df;
@@ -52,12 +52,12 @@
   --sea-start: #9fd0ff;
   --sea-end: #6ea7e4;
   --sea-wave: rgba(255, 255, 255, 0.55);
-  --glass-bg: rgba(255, 255, 255, 0.48);
-  --glass-bg-fallback: rgba(255, 255, 255, 0.62);
-  --glass-border: rgba(255, 255, 255, 0.45);
-  --glass-highlight: rgba(255, 255, 255, 0.62);
-  --glass-blur: 14px;
-  --glass-blur-mobile: 10px;
+  --glass-bg: rgba(255, 255, 255, 0.22);
+  --glass-bg-fallback: rgba(255, 255, 255, 0.3);
+  --glass-border: rgba(255, 255, 255, 0.28);
+  --glass-highlight: rgba(255, 255, 255, 0.36);
+  --glass-blur: 8px;
+  --glass-blur-mobile: 6px;
 }
 
 body {
@@ -108,7 +108,7 @@ body[data-theme="dark"] {
   --sun-glow: rgba(255, 214, 92, 0.4);
   --cloud-color: rgba(226, 236, 255, 0.22);
   --stars-color: rgba(210, 225, 255, 0.8);
-  --meteor-color: rgba(255, 209, 140, 0.25);
+  --meteor-color: rgba(255, 198, 120, 0.6);
   --moon-core: #e5e7eb;
   --moon-highlight: #f3f5f8;
   --moon-edge: #c7ceda;
@@ -116,10 +116,10 @@ body[data-theme="dark"] {
   --sea-start: #1b2a44;
   --sea-end: #141e33;
   --sea-wave: rgba(154, 182, 235, 0.3);
-  --glass-bg: rgba(18, 24, 38, 0.42);
-  --glass-bg-fallback: rgba(20, 26, 40, 0.58);
-  --glass-border: rgba(255, 255, 255, 0.1);
-  --glass-highlight: rgba(255, 255, 255, 0.16);
+  --glass-bg: rgba(18, 24, 38, 0.2);
+  --glass-bg-fallback: rgba(18, 24, 38, 0.3);
+  --glass-border: rgba(255, 255, 255, 0.16);
+  --glass-highlight: rgba(255, 255, 255, 0.22);
 }
 
 img {
@@ -269,11 +269,33 @@ body[data-theme="dark"] .moon {
     radial-gradient(1.5px 1.5px at 22% 82%, var(--stars-color) 40%, transparent 42%),
     radial-gradient(1px 1px at 48% 78%, var(--stars-color) 40%, transparent 42%),
     radial-gradient(1.5px 1.5px at 68% 82%, var(--stars-color) 40%, transparent 42%),
-    radial-gradient(1px 1px at 90% 74%, var(--stars-color) 40%, transparent 42%);
+    radial-gradient(1px 1px at 90% 74%, var(--stars-color) 40%, transparent 42%),
+    radial-gradient(1px 1px at 6% 12%, var(--stars-color) 40%, transparent 42%),
+    radial-gradient(1.5px 1.5px at 18% 8%, var(--stars-color) 40%, transparent 42%),
+    radial-gradient(1px 1px at 26% 28%, var(--stars-color) 40%, transparent 42%),
+    radial-gradient(1.5px 1.5px at 44% 22%, var(--stars-color) 40%, transparent 42%),
+    radial-gradient(1px 1px at 52% 8%, var(--stars-color) 40%, transparent 42%),
+    radial-gradient(1px 1px at 64% 28%, var(--stars-color) 40%, transparent 42%),
+    radial-gradient(1.5px 1.5px at 78% 12%, var(--stars-color) 40%, transparent 42%),
+    radial-gradient(1px 1px at 94% 18%, var(--stars-color) 40%, transparent 42%),
+    radial-gradient(1px 1px at 8% 34%, var(--stars-color) 40%, transparent 42%),
+    radial-gradient(1.5px 1.5px at 18% 48%, var(--stars-color) 40%, transparent 42%),
+    radial-gradient(1px 1px at 28% 58%, var(--stars-color) 40%, transparent 42%),
+    radial-gradient(1px 1px at 42% 62%, var(--stars-color) 40%, transparent 42%),
+    radial-gradient(1.5px 1.5px at 58% 64%, var(--stars-color) 40%, transparent 42%),
+    radial-gradient(1px 1px at 72% 60%, var(--stars-color) 40%, transparent 42%),
+    radial-gradient(1px 1px at 82% 54%, var(--stars-color) 40%, transparent 42%),
+    radial-gradient(1.5px 1.5px at 94% 46%, var(--stars-color) 40%, transparent 42%),
+    radial-gradient(1px 1px at 6% 74%, var(--stars-color) 40%, transparent 42%),
+    radial-gradient(1.5px 1.5px at 14% 88%, var(--stars-color) 40%, transparent 42%),
+    radial-gradient(1px 1px at 36% 88%, var(--stars-color) 40%, transparent 42%),
+    radial-gradient(1.5px 1.5px at 56% 84%, var(--stars-color) 40%, transparent 42%),
+    radial-gradient(1px 1px at 78% 88%, var(--stars-color) 40%, transparent 42%),
+    radial-gradient(1px 1px at 92% 90%, var(--stars-color) 40%, transparent 42%);
 }
 
 body[data-theme="dark"] .stars {
-  opacity: 0.85;
+  opacity: 0.95;
 }
 
 .day-meteors {
@@ -281,60 +303,92 @@ body[data-theme="dark"] .stars {
   inset: 0;
   pointer-events: none;
   z-index: 1;
-  opacity: 0.9;
+  opacity: 1;
 }
 
 .day-meteor {
   position: absolute;
-  width: 90px;
-  height: 2px;
+  width: 110px;
+  height: 2.5px;
   top: 18%;
   left: 68%;
   opacity: 0;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0), var(--meteor-color));
   transform: rotate(-22deg);
-  filter: blur(0.2px);
-  animation: day-meteor 22s ease-in-out infinite;
+  filter: blur(0.1px);
+  animation: day-meteor 12s ease-in-out infinite;
 }
 
 .day-meteor.meteor-1 {
   top: 20%;
   left: 72%;
-  width: 80px;
-  animation-delay: 4s;
-  animation-duration: 24s;
+  width: 95px;
+  animation-delay: -1s;
+  animation-duration: 11s;
 }
 
 .day-meteor.meteor-2 {
-  top: 32%;
-  left: 60%;
-  width: 95px;
-  animation-delay: 11s;
-  animation-duration: 26s;
+  top: 28%;
+  left: 62%;
+  width: 120px;
+  animation-delay: -4s;
+  animation-duration: 13s;
 }
 
 .day-meteor.meteor-3 {
   top: 15%;
-  left: 52%;
-  width: 70px;
-  animation-delay: 18s;
-  animation-duration: 28s;
+  left: 54%;
+  width: 90px;
+  animation-delay: -7s;
+  animation-duration: 12s;
 }
 
 .day-meteor.meteor-4 {
-  top: 26%;
-  left: 80%;
-  width: 60px;
-  animation-delay: 7s;
-  animation-duration: 23s;
+  top: 24%;
+  left: 78%;
+  width: 85px;
+  animation-delay: -2s;
+  animation-duration: 10s;
 }
 
 .day-meteor.meteor-5 {
-  top: 12%;
-  left: 46%;
-  width: 85px;
-  animation-delay: 14s;
-  animation-duration: 21s;
+  top: 10%;
+  left: 44%;
+  width: 110px;
+  animation-delay: -6s;
+  animation-duration: 12s;
+}
+
+.day-meteor.meteor-6 {
+  top: 34%;
+  left: 70%;
+  width: 120px;
+  animation-delay: -9s;
+  animation-duration: 14s;
+}
+
+.day-meteor.meteor-7 {
+  top: 8%;
+  left: 60%;
+  width: 100px;
+  animation-delay: -5s;
+  animation-duration: 11s;
+}
+
+.day-meteor.meteor-8 {
+  top: 22%;
+  left: 50%;
+  width: 130px;
+  animation-delay: -8s;
+  animation-duration: 13s;
+}
+
+.day-meteor.meteor-9 {
+  top: 30%;
+  left: 40%;
+  width: 90px;
+  animation-delay: -3s;
+  animation-duration: 10s;
 }
 
 body[data-theme="dark"] .day-meteors {
@@ -343,7 +397,7 @@ body[data-theme="dark"] .day-meteors {
 
 .shooting-star {
   position: absolute;
-  width: 140px;
+  width: 160px;
   height: 2px;
   top: 25%;
   left: 70%;
@@ -360,7 +414,7 @@ body[data-theme="dark"] .shooting-star {
 }
 
 .shooting-star.is-active {
-  animation: shooting-star 1.8s ease-out forwards;
+  animation: shooting-star var(--shooting-star-duration, 1.6s) ease-out forwards;
 }
 
 .sea-layer {
@@ -521,37 +575,37 @@ body[data-animations="off"] #animated-background .shooting-star {
     opacity: 0;
     transform: translate3d(0, 0, 0) rotate(var(--shooting-star-angle, -25deg));
   }
-  45% {
-    opacity: 0.35;
-    transform: translate3d(-70px, 50px, 0) rotate(var(--shooting-star-angle, -25deg));
+  40% {
+    opacity: 0.6;
+    transform: translate3d(-85px, 60px, 0) rotate(var(--shooting-star-angle, -25deg));
   }
-  60% {
+  65% {
     opacity: 0;
-    transform: translate3d(-110px, 80px, 0) rotate(var(--shooting-star-angle, -25deg));
+    transform: translate3d(-130px, 95px, 0) rotate(var(--shooting-star-angle, -25deg));
   }
   100% {
     opacity: 0;
-    transform: translate3d(-110px, 80px, 0) rotate(var(--shooting-star-angle, -25deg));
+    transform: translate3d(-130px, 95px, 0) rotate(var(--shooting-star-angle, -25deg));
   }
 }
 
 @keyframes day-meteor {
   0%,
-  70% {
+  55% {
     opacity: 0;
     transform: translate3d(0, 0, 0) rotate(-22deg);
   }
-  78% {
-    opacity: 0.35;
-    transform: translate3d(-45px, 30px, 0) rotate(-22deg);
+  62% {
+    opacity: 0.75;
+    transform: translate3d(-55px, 38px, 0) rotate(-22deg);
   }
-  84% {
+  72% {
     opacity: 0;
-    transform: translate3d(-65px, 45px, 0) rotate(-22deg);
+    transform: translate3d(-85px, 60px, 0) rotate(-22deg);
   }
   100% {
     opacity: 0;
-    transform: translate3d(-65px, 45px, 0) rotate(-22deg);
+    transform: translate3d(-85px, 60px, 0) rotate(-22deg);
   }
 }
 

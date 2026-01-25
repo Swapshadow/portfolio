@@ -221,8 +221,8 @@ function initRssFeeds() {
 }
 
 function initShootingStars() {
-  const star = document.querySelector('.shooting-star');
-  if (!star) return;
+  const stars = Array.from(document.querySelectorAll('.shooting-star'));
+  if (!stars.length) return;
 
   const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
   const isMobile = window.matchMedia('(max-width: 720px)');
@@ -243,31 +243,37 @@ function initShootingStars() {
       timeoutId = setTimeout(scheduleNext, 2000);
       return;
     }
-    const delay = 6000 + Math.random() * 6000;
-    timeoutId = setTimeout(triggerStar, delay);
+    const delay = 1500 + Math.random() * 2000;
+    timeoutId = setTimeout(() => {
+      triggerStar();
+      scheduleNext();
+    }, delay);
   };
 
   const triggerStar = () => {
     if (!canAnimate()) {
-      scheduleNext();
       return;
     }
-    if (star.classList.contains('is-active')) {
-      scheduleNext();
+    const available = stars.filter((item) => !item.classList.contains('is-active'));
+    if (!available.length) {
       return;
     }
-    const top = 15 + Math.random() * 20;
-    const left = 60 + Math.random() * 25;
-    const angle = -20 - Math.random() * 15;
+    const star = available[Math.floor(Math.random() * available.length)];
+    const top = 12 + Math.random() * 26;
+    const left = 55 + Math.random() * 30;
+    const angle = -18 - Math.random() * 18;
+    const duration = 1.3 + Math.random() * 0.7;
+    const width = 130 + Math.random() * 70;
     star.style.top = `${top}%`;
     star.style.left = `${left}%`;
+    star.style.width = `${width}px`;
     star.style.setProperty('--shooting-star-angle', `${angle}deg`);
+    star.style.setProperty('--shooting-star-duration', `${duration}s`);
     star.classList.add('is-active');
     star.addEventListener(
       'animationend',
       () => {
         star.classList.remove('is-active');
-        scheduleNext();
       },
       { once: true }
     );
@@ -275,7 +281,7 @@ function initShootingStars() {
 
   const observer = new MutationObserver(() => {
     if (!canAnimate()) {
-      star.classList.remove('is-active');
+      stars.forEach((item) => item.classList.remove('is-active'));
       scheduleNext();
     }
   });
