@@ -243,7 +243,7 @@ function initShootingStars() {
       timeoutId = setTimeout(scheduleNext, 2000);
       return;
     }
-    const delay = 10000 + Math.random() * 10000;
+    const delay = 6000 + Math.random() * 6000;
     timeoutId = setTimeout(triggerStar, delay);
   };
 
