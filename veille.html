@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Veille cybersécurité : flux CERT-FR et The Hacker News.">
+  <title>Veille cybersécurité - Jean-Baptiste Terrazzoni</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page">
+  <header class="site-header">
+    <div class="container nav">
+      <span class="logo">JBT</span>
+      <nav class="nav-links">
+        <a href="index.html">Accueil</a>
+        <a href="parcours.html">Parcours & Certifications</a>
+        <a href="veille.html">Veille</a>
+        <a href="projets.html">Projets</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container section-card">
+        <h1 class="section-title">Veille cybersécurité</h1>
+        <p>Flux RSS agrégés côté client pour suivre les alertes et tendances en sécurité.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container section-card">
+        <h2 class="section-title">CERT-FR</h2>
+        <div class="rss-grid" data-rss-container="cert-fr">
+          <p>Chargement des alertes…</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container section-card">
+        <h2 class="section-title">The Hacker News</h2>
+        <div class="rss-grid" data-rss-container="hacker-news">
+          <p>Chargement des actualités…</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Données mises à jour automatiquement via flux RSS.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
