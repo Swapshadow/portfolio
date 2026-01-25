@@ -1,8 +1,33 @@
 document.addEventListener('DOMContentLoaded', () => {
+  initTheme();
   initMenu();
   initCarousel();
   initRssFeeds();
 });
+
+function initTheme() {
+  const toggle = document.querySelector('[data-theme-toggle]');
+  const storedTheme = localStorage.getItem('theme');
+  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initialTheme = storedTheme || (prefersDark ? 'dark' : 'light');
+
+  const applyTheme = (theme) => {
+    document.body.dataset.theme = theme;
+    if (toggle) {
+      toggle.setAttribute('aria-pressed', theme === 'dark');
+    }
+  };
+
+  applyTheme(initialTheme);
+
+  if (!toggle) return;
+
+  toggle.addEventListener('click', () => {
+    const nextTheme = document.body.dataset.theme === 'dark' ? 'light' : 'dark';
+    applyTheme(nextTheme);
+    localStorage.setItem('theme', nextTheme);
+  });
+}
 
 function initMenu() {
   const toggle = document.querySelector('.menu-toggle');

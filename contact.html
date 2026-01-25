@@ -15,10 +15,32 @@
   <header class="site-header">
     <div class="container nav">
       <span class="logo" aria-hidden="true"></span>
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
-        <span class="menu-toggle-label">Menu</span>
-        <span class="menu-toggle-icon" aria-hidden="true"><span></span></span>
-      </button>
+      <div class="nav-actions">
+        <a class="nav-icon-button" href="index.html" aria-label="Retour à l'accueil">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M3 10.5L12 3l9 7.5"></path>
+            <path d="M5 9.5V21h14V9.5"></path>
+            <path d="M9 21v-6h6v6"></path>
+          </svg>
+        </a>
+        <button class="nav-icon-button theme-toggle" type="button" data-theme-toggle aria-label="Basculer le thème" aria-pressed="false">
+          <span class="theme-icon theme-icon-moon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 14.5a8.5 8.5 0 1 1-11-11 7 7 0 0 0 11 11z"></path>
+            </svg>
+          </span>
+          <span class="theme-icon theme-icon-sun" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="4"></circle>
+              <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path>
+            </svg>
+          </span>
+        </button>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
+          <span class="menu-toggle-label">Menu</span>
+          <span class="menu-toggle-icon" aria-hidden="true"><span></span></span>
+        </button>
+      </div>
     </div>
     <nav class="site-nav" id="site-menu" aria-hidden="true">
       <div class="site-nav-panel">
