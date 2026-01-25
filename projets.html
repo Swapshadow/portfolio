@@ -14,20 +14,35 @@
   <header class="site-header">
     <div class="container nav">
       <span class="logo">JBT</span>
-      <nav class="nav-links">
-        <a href="index.html">Accueil</a>
-        <a href="parcours.html">Parcours & Certifications</a>
-        <a href="veille.html">Veille</a>
-        <a href="projets.html">Projets</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
+        <span class="menu-toggle-label">Menu</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
     </div>
+    <nav class="site-nav" id="site-menu">
+      <div class="site-nav-panel">
+        <div class="site-nav-header">
+          <span class="logo">JBT</span>
+          <button class="menu-close" type="button" aria-label="Fermer le menu">
+            ✕
+          </button>
+        </div>
+        <ul class="site-nav-links">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="parcours.html">Parcours</a></li>
+          <li><a href="certifications.html">Certifications</a></li>
+          <li><a href="veille.html">Veille</a></li>
+          <li><a href="projets.html">Projets</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
   </header>
 
   <main>
     <section class="section">
       <div class="container section-card">
-        <h1 class="section-title">Projets & quêtes</h1>
+        <h1 class="section-title">Projets</h1>
         <p>Une sélection de missions axées sur l’infrastructure, l’audit et la sécurité offensive.</p>
       </div>
     </section>
@@ -38,7 +53,7 @@
           <article class="card">
             <span class="tag">Projet principal</span>
             <h3>Portfolio cybersécurité</h3>
-            <p>Conception d’un portfolio immersif orienté cybersécurité, avec veille RSS et narratif RPG.</p>
+            <p>Conception d’un portfolio orienté cybersécurité, avec veille RSS et interface claire.</p>
             <a class="tag" href="https://github.com/Swapshadow/portfolio" target="_blank" rel="noreferrer">Code source →</a>
           </article>
           <article class="card">
@@ -66,5 +81,6 @@
       <p>D’autres missions sont en cours de préparation.</p>
     </div>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
