@@ -52,6 +52,12 @@
   --sea-start: #9fd0ff;
   --sea-end: #6ea7e4;
   --sea-wave: rgba(255, 255, 255, 0.55);
+  --glass-bg: rgba(255, 255, 255, 0.65);
+  --glass-bg-fallback: rgba(255, 255, 255, 0.78);
+  --glass-border: rgba(255, 255, 255, 0.55);
+  --glass-highlight: rgba(255, 255, 255, 0.75);
+  --glass-blur: 18px;
+  --glass-blur-mobile: 12px;
 }
 
 body {
@@ -110,6 +116,10 @@ body[data-theme="dark"] {
   --sea-start: #1b2a44;
   --sea-end: #141e33;
   --sea-wave: rgba(154, 182, 235, 0.3);
+  --glass-bg: rgba(18, 24, 38, 0.58);
+  --glass-bg-fallback: rgba(20, 26, 40, 0.72);
+  --glass-border: rgba(255, 255, 255, 0.12);
+  --glass-highlight: rgba(255, 255, 255, 0.18);
 }
 
 img {
@@ -1050,6 +1060,45 @@ body[data-animations="off"] #animated-background .shooting-star {
   border: 1px solid var(--border);
   box-shadow: var(--shadow-soft);
   transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+:is(.hero-card, .section-card, .card, .timeline-item, .certification-card, .rss-card) {
+  background: var(--glass-bg-fallback);
+  border-color: var(--glass-border);
+  position: relative;
+  overflow: hidden;
+}
+
+:is(.hero-card, .section-card, .card, .timeline-item, .certification-card, .rss-card)::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  box-shadow: inset 0 1px 0 var(--glass-highlight);
+}
+
+@supports ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  :is(.hero-card, .section-card, .card, .timeline-item, .certification-card, .rss-card) {
+    background: var(--glass-bg);
+    backdrop-filter: blur(var(--glass-blur)) saturate(1.2);
+    -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(1.2);
+  }
+}
+
+@media (max-width: 720px) {
+  :is(.hero-card, .section-card, .card, .timeline-item, .certification-card, .rss-card) {
+    backdrop-filter: blur(var(--glass-blur-mobile)) saturate(1.1);
+    -webkit-backdrop-filter: blur(var(--glass-blur-mobile)) saturate(1.1);
+  }
+}
+
+@media (prefers-reduced-transparency: reduce) {
+  :is(.hero-card, .section-card, .card, .timeline-item, .certification-card, .rss-card) {
+    background: var(--glass-bg-fallback);
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
 }
 
 .rss-card h3 {
