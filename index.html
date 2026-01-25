@@ -3,129 +3,116 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Portfolio de Jean-Baptiste Terrazzoni, développeur web full stack junior.">
+  <meta name="description" content="Portfolio cybersécurité de Jean-Baptiste Terrazzoni, administrateur d’infrastructures sécurisées et pentester junior.">
   <title>Portfolio - Jean-Baptiste Terrazzoni</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-
-  <header class="hero">
-    <div class="container">
-      <nav class="nav">
-        <span class="logo">JBT</span>
-        <div class="nav-links">
-          <a href="#a-propos">À propos</a>
-          <a href="#projets">Projets</a>
-          <a href="#competences">Compétences</a>
-          <a href="#contact">Contact</a>
-        </div>
+<body class="page">
+  <header class="site-header">
+    <div class="container nav">
+      <span class="logo">JBT</span>
+      <nav class="nav-links">
+        <a href="index.html">Accueil</a>
+        <a href="parcours.html">Parcours & Certifications</a>
+        <a href="veille.html">Veille</a>
+        <a href="projets.html">Projets</a>
+        <a href="contact.html">Contact</a>
       </nav>
-      <div class="hero-content">
-        <div>
-          <p class="hero-eyebrow">Portfolio</p>
-          <h1>Jean-Baptiste Terrazzoni</h1>
-          <p class="hero-role">Développeur web full stack junior</p>
-          <p class="hero-summary">
-            Je construis des interfaces propres, accessibles et performantes,
-            avec une attention particulière aux détails.
-          </p>
-        </div>
-        <div class="hero-cta">
-          <a class="button" href="#projets">Voir mes projets</a>
-          <a class="button button-secondary" href="#contact">Me contacter</a>
-        </div>
-      </div>
     </div>
   </header>
 
   <main>
-    <section id="a-propos" class="section">
+    <section class="hero">
       <div class="container">
-        <h2>À propos</h2>
-        <p>
-          Je débute en développement web et je construis ce portfolio
-          pour présenter mes projets et mes compétences. Mon objectif est
-          d’intégrer une équipe produit où je pourrai progresser sur des projets concrets.
-        </p>
-      </div>
-    </section>
-
-    <section id="projets" class="section">
-      <div class="container">
-        <h2>Projets</h2>
-        <div class="projects">
-          <article class="project-card">
-            <div>
-              <h3>Portfolio personnel</h3>
-              <p>
-                Site web personnel réalisé en HTML et CSS pour présenter
-                mes projets et compétences.
-              </p>
-            </div>
-            <a href="https://github.com/Swapshadow/portfolio" target="_blank" rel="noreferrer">
-              Voir le code sur GitHub →
-            </a>
-          </article>
-
-          <article class="project-card">
-            <div>
-              <h3>Projet à venir</h3>
-              <p>Application web en cours de développement.</p>
-            </div>
-            <span class="project-status">En préparation</span>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="competences" class="section">
-      <div class="container">
-        <h2>Compétences</h2>
-        <div class="skills">
+        <div class="hero-card">
           <div>
-            <h3>Front-end</h3>
-            <ul>
-              <li>HTML sémantique & accessibilité</li>
-              <li>CSS moderne, responsive, animations</li>
-              <li>JavaScript (bases solides)</li>
-            </ul>
+            <p class="hero-eyebrow">Journal de progression</p>
+            <h1>Jean-Baptiste Terrazzoni</h1>
+            <p class="hero-role">Administrateur d’infrastructures sécurisées · Pentester junior</p>
+            <div class="hero-badges">
+              <span class="tag">Cybersécurité</span>
+              <span class="tag">Infrastructure</span>
+              <span class="tag">Audit & veille</span>
+            </div>
+            <p class="hero-summary">
+              J’explore la sécurité des infrastructures comme une quête longue durée :
+              cartographier les systèmes, renforcer les défenses et partager un savoir utile.
+            </p>
+            <div class="hero-cta">
+              <a class="button" href="parcours.html">Explorer mon parcours</a>
+              <a class="button button-secondary" href="projets.html">Voir mes missions</a>
+            </div>
           </div>
-          <div>
-            <h3>Back-end & outils</h3>
-            <ul>
-              <li>Node.js & Express (notions)</li>
-              <li>Git & GitHub</li>
-              <li>Figma (lecture de maquettes)</li>
-            </ul>
+          <div class="hero-illustration">
+            <img src="assets/enchanted-book.svg" alt="Illustration d’un livre enchanté représentant la connaissance en cybersécurité">
           </div>
         </div>
       </div>
     </section>
 
-    <section id="contact" class="section">
-      <div class="container">
-        <h2>Contact</h2>
-        <p>
-          Email :
-          <a href="mailto:terrazzoni.corsica@proton.me">terrazzoni.corsica@proton.me</a>
-        </p>
-        <p>
-          GitHub :
-          <a href="https://github.com/swapshadow" target="_blank" rel="noreferrer">
-            https://github.com/swapshadow
-          </a>
-        </p>
-        <p>
-          LinkedIn :
-          <a href="https://www.linkedin.com/in/jean-baptiste-terrazzoni" target="_blank" rel="noreferrer">
-            https://www.linkedin.com/in/jean-baptiste-terrazzoni
-          </a>
-        </p>
+    <section class="section">
+      <div class="container section-card">
+        <h2 class="section-title">Carte du territoire</h2>
+        <div class="grid grid-2">
+          <article class="card">
+            <h3>Parcours & certifications</h3>
+            <p>Un fil chronologique pour comprendre mes étapes d’apprentissage, mes compétences et mes badges officiels.</p>
+            <a class="tag" href="parcours.html">Ouvrir le grimoire →</a>
+          </article>
+          <article class="card">
+            <h3>Veille cybersécurité</h3>
+            <p>Flux CERT-FR et The Hacker News réunis dans un tableau de bord clair et actualisé.</p>
+            <a class="tag" href="veille.html">Consulter la veille →</a>
+          </article>
+          <article class="card">
+            <h3>Projets & quêtes</h3>
+            <p>Des missions axées sur l’infrastructure, l’audit et l’analyse de vulnérabilités.</p>
+            <a class="tag" href="projets.html">Explorer les quêtes →</a>
+          </article>
+          <article class="card">
+            <h3>Contact & alliances</h3>
+            <p>Les canaux pour me joindre, collaborer ou suivre mes activités.</p>
+            <a class="tag" href="contact.html">Établir le contact →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container section-card">
+        <h2 class="section-title">Profil joueur</h2>
+        <div class="profile-card">
+          <strong>TryHackMe — Swapshadow</strong>
+          <p>Suivi de progression et des compétences en cybersécurité via les labs TryHackMe.</p>
+          <a class="button" href="https://tryhackme.com/p/Swapshadow" target="_blank" rel="noreferrer">Voir le profil TryHackMe</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container section-card">
+        <h2 class="section-title">Choix techniques</h2>
+        <div class="grid grid-2">
+          <article class="card">
+            <h3>Statique & GitHub Pages</h3>
+            <p>Le site est volontairement léger : HTML, CSS et JavaScript sans backend pour rester fiable et rapide.</p>
+          </article>
+          <article class="card">
+            <h3>Veille automatisée</h3>
+            <p>Les flux RSS CERT-FR et The Hacker News sont chargés côté client via un proxy public compatible GitHub Pages.</p>
+          </article>
+        </div>
       </div>
     </section>
   </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Portfolio cybersécurité — pensée Apple-like, narration RPG. © 2025 Jean-Baptiste Terrazzoni.</p>
+    </div>
+  </footer>
 </body>
 </html>
