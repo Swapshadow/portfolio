@@ -124,15 +124,28 @@ function initMenu() {
 
   if (!toggle || !menu) return;
 
+  let scrollPosition = 0;
+
   const setMenuState = (isOpen) => {
-    menu.classList.toggle('is-open', isOpen);
+    menu.classList.toggle('open', isOpen);
     toggle.setAttribute('aria-expanded', String(isOpen));
     menu.setAttribute('aria-hidden', String(!isOpen));
     document.body.classList.toggle('menu-open', isOpen);
+    if (isOpen) {
+      scrollPosition = window.scrollY || window.pageYOffset;
+      document.body.style.top = `-${scrollPosition}px`;
+      document.body.style.position = 'fixed';
+      document.body.style.width = '100%';
+    } else {
+      document.body.style.position = '';
+      document.body.style.top = '';
+      document.body.style.width = '';
+      window.scrollTo(0, scrollPosition);
+    }
   };
 
   toggle.addEventListener('click', () => {
-    setMenuState(!menu.classList.contains('is-open'));
+    setMenuState(!menu.classList.contains('open'));
   });
 
   close?.addEventListener('click', () => setMenuState(false));
@@ -148,7 +161,7 @@ function initMenu() {
   });
 
   document.addEventListener('keydown', (event) => {
-    if (event.key === 'Escape' && menu.classList.contains('is-open')) {
+    if (event.key === 'Escape' && menu.classList.contains('open')) {
       setMenuState(false);
     }
   });
