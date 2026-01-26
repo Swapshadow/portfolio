@@ -118,24 +118,103 @@
     <section class="section" id="veille" data-section="veille">
       <div class="container section-card reveal-on-scroll" data-reveal>
         <h1 class="section-title">Veille cybersécurité</h1>
-        <p>Flux RSS agrégés côté client pour suivre les alertes et tendances en sécurité.</p>
+        <p>Flux RSS agrégés côté client pour suivre les alertes, l’exploitation et l’actualité cyber.</p>
       </div>
     </section>
 
     <section class="section" id="cert-fr" data-section="cert-fr">
       <div class="container section-card reveal-on-scroll" data-reveal>
-        <h2 class="section-title">CERT-FR</h2>
-        <div class="rss-grid" data-rss-container="cert-fr">
-          <p>Chargement des alertes…</p>
+        <div class="rss-category">
+          <div class="rss-category-header">
+            <h2 class="section-title">🚨 Alertes &amp; vulnérabilités</h2>
+            <p>Alertes officielles, bulletins CERT et CVE à surveiller en priorité.</p>
+          </div>
+          <div class="rss-sources">
+            <article class="rss-source" data-rss-feed="cert-fr">
+              <div class="rss-source-header">
+                <h3>CERT-FR</h3>
+                <p class="rss-source-description">Alertes, avis et bulletins du CERT-FR.</p>
+              </div>
+              <div class="rss-items" data-rss-items></div>
+              <button class="rss-more" type="button" data-rss-more>Voir plus</button>
+              <p class="rss-status" data-rss-status>Chargement en cours…</p>
+            </article>
+            <article class="rss-source" data-rss-feed="cisa">
+              <div class="rss-source-header">
+                <h3>CISA</h3>
+                <p class="rss-source-description">Advisories et alertes critiques internationales.</p>
+              </div>
+              <div class="rss-items" data-rss-items></div>
+              <button class="rss-more" type="button" data-rss-more>Voir plus</button>
+              <p class="rss-status" data-rss-status>Chargement en cours…</p>
+            </article>
+            <article class="rss-source" data-rss-feed="nvd">
+              <div class="rss-source-header">
+                <h3>NVD (CVE)</h3>
+                <p class="rss-source-description">Nouvelles CVE publiées dans le National Vulnerability Database.</p>
+              </div>
+              <div class="rss-items" data-rss-items></div>
+              <button class="rss-more" type="button" data-rss-more>Voir plus</button>
+              <p class="rss-status" data-rss-status>Chargement en cours…</p>
+            </article>
+          </div>
+        </div>
+        <div class="rss-category">
+          <div class="rss-category-header">
+            <h2 class="section-title">🐞 Exploitation</h2>
+            <p>Proof of concept, techniques d’exploitation et bases de données exploitables.</p>
+          </div>
+          <div class="rss-sources">
+            <article class="rss-source" data-rss-feed="exploit-db">
+              <div class="rss-source-header">
+                <h3>Exploit-DB</h3>
+                <p class="rss-source-description">Dernières preuves de concept et exploits publics.</p>
+              </div>
+              <div class="rss-items" data-rss-items></div>
+              <button class="rss-more" type="button" data-rss-more>Voir plus</button>
+              <p class="rss-status" data-rss-status>Chargement en cours…</p>
+            </article>
+          </div>
         </div>
       </div>
     </section>
 
     <section class="section" id="hacker-news" data-section="hacker-news">
       <div class="container section-card reveal-on-scroll" data-reveal>
-        <h2 class="section-title">The Hacker News</h2>
-        <div class="rss-grid" data-rss-container="hacker-news">
-          <p>Chargement des actualités…</p>
+        <div class="rss-category">
+          <div class="rss-category-header">
+            <h2 class="section-title">🧠 Analyse &amp; actualité</h2>
+            <p>Analyses, retours d’expérience et actualités cyber à suivre.</p>
+          </div>
+          <div class="rss-sources">
+            <article class="rss-source" data-rss-feed="hacker-news">
+              <div class="rss-source-header">
+                <h3>The Hacker News</h3>
+                <p class="rss-source-description">Actualités cyber et tendances globales.</p>
+              </div>
+              <div class="rss-items" data-rss-items></div>
+              <button class="rss-more" type="button" data-rss-more>Voir plus</button>
+              <p class="rss-status" data-rss-status>Chargement en cours…</p>
+            </article>
+            <article class="rss-source" data-rss-feed="zataz">
+              <div class="rss-source-header">
+                <h3>ZATAZ</h3>
+                <p class="rss-source-description">Veille francophone et incidents récents.</p>
+              </div>
+              <div class="rss-items" data-rss-items></div>
+              <button class="rss-more" type="button" data-rss-more>Voir plus</button>
+              <p class="rss-status" data-rss-status>Chargement en cours…</p>
+            </article>
+            <article class="rss-source" data-rss-feed="krebs">
+              <div class="rss-source-header">
+                <h3>Krebs on Security</h3>
+                <p class="rss-source-description">Analyses approfondies et enquêtes de référence.</p>
+              </div>
+              <div class="rss-items" data-rss-items></div>
+              <button class="rss-more" type="button" data-rss-more>Voir plus</button>
+              <p class="rss-status" data-rss-status>Chargement en cours…</p>
+            </article>
+          </div>
         </div>
       </div>
     </section>
