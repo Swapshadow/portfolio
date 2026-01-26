@@ -58,6 +58,7 @@
   --glass-highlight: rgba(255, 255, 255, 0.36);
   --glass-blur: 8px;
   --glass-blur-mobile: 6px;
+  --header-height: 0px;
 }
 
 html,
@@ -177,6 +178,7 @@ button:focus-visible {
 main {
   flex: 1;
   position: relative;
+  padding-top: var(--header-height);
 }
 
 #animated-background {
@@ -688,9 +690,12 @@ body[data-animations="off"] .reveal-on-scroll {
 
 .site-header {
   padding: 16px 0 10px;
-  position: sticky;
+  position: fixed;
   top: 0;
-  z-index: 100;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1100;
   background: var(--glass-bg-fallback);
   border-bottom: 1px solid var(--glass-border);
   backdrop-filter: blur(var(--glass-blur));
@@ -802,7 +807,7 @@ body[data-animations="off"] .reveal-on-scroll {
   visibility: hidden;
   pointer-events: none;
   transition: opacity 0.3s ease, visibility 0.3s ease;
-  z-index: 1000;
+  z-index: 1200;
 }
 
 .site-nav.is-open {
