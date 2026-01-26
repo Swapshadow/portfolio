@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initTheme();
   initAnimationsToggle();
   initMenu();
+  initStickyHeader();
   initScrollSpy();
   initRevealOnScroll();
   initCarousel();
@@ -12,6 +13,46 @@ document.addEventListener('DOMContentLoaded', () => {
 const RSS_CACHE_PREFIX = 'rss-cache-v1';
 const RSS_CACHE_TTL = 15 * 60 * 1000;
 const RSS_TIMEOUT_MS = 8000;
+const RSS_INITIAL_ITEMS = 5;
+const RSS_MAX_ITEMS = 8;
+
+const RSS_FEEDS = [
+  {
+    key: 'cert-fr',
+    url: 'https://cert.ssi.gouv.fr/feed/',
+    label: 'CERT-FR',
+  },
+  {
+    key: 'cisa',
+    url: 'https://www.cisa.gov/cybersecurity-advisories/all.xml',
+    label: 'CISA',
+  },
+  {
+    key: 'nvd',
+    url: 'https://nvd.nist.gov/feeds/xml/cve/misc/nvd-rss.xml',
+    label: 'NVD (CVE)',
+  },
+  {
+    key: 'exploit-db',
+    url: 'https://www.exploit-db.com/rss.xml',
+    label: 'Exploit-DB',
+  },
+  {
+    key: 'hacker-news',
+    url: 'https://feeds.feedburner.com/TheHackersNews',
+    label: 'The Hacker News',
+  },
+  {
+    key: 'zataz',
+    url: 'https://www.zataz.com/feed/',
+    label: 'ZATAZ',
+  },
+  {
+    key: 'krebs',
+    url: 'https://krebsonsecurity.com/feed/',
+    label: 'Krebs on Security',
+  },
+];
 
 function initTheme() {
   const toggle = document.querySelector('[data-theme-toggle]');
@@ -122,6 +163,24 @@ function initMenu() {
       closeMenu();
     }
   });
+}
+
+function initStickyHeader() {
+  const header = document.querySelector('.site-header');
+  if (!header) return;
+
+  const sentinel = document.createElement('div');
+  sentinel.className = 'header-sentinel';
+  header.parentNode?.insertBefore(sentinel, header);
+
+  const observer = new IntersectionObserver(
+    ([entry]) => {
+      header.classList.toggle('is-sticky', !entry.isIntersecting);
+    },
+    { threshold: [0] }
+  );
+
+  observer.observe(sentinel);
 }
 
 function initScrollSpy() {
@@ -295,22 +354,11 @@ function initCarousel() {
 
 
 function initRssFeeds() {
-  const feeds = [
-    {
-      key: 'cert-fr',
-      url: 'https://cert.ssi.gouv.fr/feed/',
-      label: 'CERT-FR',
-    },
-    {
-      key: 'hacker-news',
-      url: 'https://feeds.feedburner.com/TheHackersNews',
-      label: 'The Hacker News',
-    },
-  ];
+  const feeds = RSS_FEEDS;
 
   const tasks = feeds
     .map((feed) => {
-      const container = document.querySelector(`[data-rss-container="${feed.key}"]`);
+      const container = document.querySelector(`[data-rss-feed="${feed.key}"]`);
       if (!container) return null;
       return loadRssFeed({ ...feed, container });
     })
@@ -402,28 +450,35 @@ async function loadRssFeed({ key, url, label, container }) {
   const cached = readRssCache(cacheKey);
   const now = Date.now();
   const isFresh = cached && now - cached.timestamp < RSS_CACHE_TTL;
+  const status = container.querySelector('[data-rss-status]');
 
   if (cached?.items?.length) {
-    renderRssItems(cached.items, container, label);
+    renderRssItems({ items: cached.items, container, label, key });
   }
 
   if (isFresh) {
+    if (status) {
+      status.textContent = 'Mis à jour récemment.';
+    }
     return;
   }
 
   container.setAttribute('aria-busy', 'true');
+  if (status) {
+    status.textContent = 'Mise à jour en cours…';
+  }
 
   try {
     const items = await fetchRssFeed(url);
     if (items.length) {
       writeRssCache(cacheKey, { timestamp: now, items });
-      renderRssItems(items, container, label);
+      renderRssItems({ items, container, label, key });
     } else {
-      renderRssEmpty(container);
+      renderRssEmpty(container, status);
     }
   } catch (error) {
     if (!cached?.items?.length) {
-      renderRssError(container);
+      renderRssError(container, status);
     }
   } finally {
     container.removeAttribute('aria-busy');
@@ -454,52 +509,108 @@ function parseRssItems(xmlText) {
     throw new Error('Flux invalide');
   }
   return Array.from(xml.querySelectorAll('item'))
-    .slice(0, 6)
+    .slice(0, RSS_MAX_ITEMS)
     .map((item) => {
       const title = item.querySelector('title')?.textContent?.trim() || 'Sans titre';
       const link = item.querySelector('link')?.textContent?.trim() || '#';
-      const pubDate = item.querySelector('pubDate')?.textContent ?? '';
-      const date = pubDate ? new Date(pubDate).toLocaleDateString('fr-FR') : 'Date inconnue';
-      return { title, link, date };
+      const pubDate =
+        item.querySelector('pubDate')?.textContent
+        || item.querySelector('dc\\:date')?.textContent
+        || item.querySelector('updated')?.textContent
+        || '';
+      const description =
+        item.querySelector('description')?.textContent
+        || item.querySelector('content\\:encoded')?.textContent
+        || item.querySelector('summary')?.textContent
+        || '';
+      const date = formatRssDate(pubDate);
+      const excerpt = buildExcerpt(description);
+      return { title, link, date, excerpt };
     });
 }
 
-function renderRssItems(items, container, label) {
-  container.innerHTML = '';
-  items.forEach((item) => {
-    const card = document.createElement('article');
-    card.className = 'rss-card';
+function renderRssItems({ items, container, label, key }) {
+  const list = container.querySelector('[data-rss-items]');
+  const status = container.querySelector('[data-rss-status]');
+  const moreButton = container.querySelector('[data-rss-more]');
 
-    const title = document.createElement('h3');
-    title.textContent = item.title;
+  if (!list) return;
 
-    const meta = document.createElement('p');
-    meta.className = 'timeline-meta';
-    meta.textContent = `${label} · ${item.date}`;
+  const visibleItems = items.slice(0, RSS_INITIAL_ITEMS);
+  list.innerHTML = '';
 
-    const link = document.createElement('a');
-    link.href = item.link;
-    link.target = '_blank';
-    link.rel = 'noreferrer';
-    link.textContent = 'Lire l’article →';
+  const renderSet = (set) => {
+    list.innerHTML = '';
+    set.forEach((item) => {
+      const card = document.createElement('article');
+      card.className = 'rss-item';
 
-    card.appendChild(title);
-    card.appendChild(meta);
-    card.appendChild(link);
-    container.appendChild(card);
-  });
+      const meta = document.createElement('div');
+      meta.className = 'rss-item-meta';
+      meta.innerHTML = `<span>${label}</span><span>${item.date}</span>`;
 
-  if (!items.length) {
-    renderRssEmpty(container);
+      const title = document.createElement('h4');
+      const link = document.createElement('a');
+      link.href = item.link;
+      link.target = '_blank';
+      link.rel = 'noreferrer';
+      link.textContent = item.title;
+      title.appendChild(link);
+
+      const excerpt = document.createElement('p');
+      excerpt.className = 'rss-item-excerpt';
+      excerpt.textContent = item.excerpt;
+
+      card.appendChild(meta);
+      card.appendChild(title);
+      card.appendChild(excerpt);
+      list.appendChild(card);
+    });
+  };
+
+  if (items.length) {
+    renderSet(visibleItems);
+    if (status) {
+      status.textContent = `Dernière mise à jour · ${items[0].date}`;
+    }
+  } else {
+    renderRssEmpty(container, status);
+  }
+
+  if (moreButton) {
+    if (items.length > visibleItems.length) {
+      moreButton.hidden = false;
+      moreButton.onclick = () => {
+        renderSet(items);
+        moreButton.hidden = true;
+        if (status) {
+          status.textContent = `Affichage complet (${items.length} articles)`;
+        }
+      };
+    } else {
+      moreButton.hidden = true;
+    }
   }
 }
 
-function renderRssEmpty(container) {
-  container.innerHTML = '<p>Aucune entrée disponible pour le moment.</p>';
+function renderRssEmpty(container, status) {
+  const list = container.querySelector('[data-rss-items]');
+  if (list) {
+    list.innerHTML = '<p>Aucune entrée disponible pour le moment.</p>';
+  }
+  if (status) {
+    status.textContent = 'Aucune entrée disponible.';
+  }
 }
 
-function renderRssError(container) {
-  container.innerHTML = '<p>Impossible de charger le flux pour le moment.</p>';
+function renderRssError(container, status) {
+  const list = container.querySelector('[data-rss-items]');
+  if (list) {
+    list.innerHTML = '<p>Impossible de charger le flux pour le moment.</p>';
+  }
+  if (status) {
+    status.textContent = 'Chargement indisponible.';
+  }
 }
 
 function readRssCache(key) {
@@ -517,4 +628,34 @@ function writeRssCache(key, value) {
   } catch (error) {
     // Ignore storage errors.
   }
+}
+
+function formatRssDate(value) {
+  if (!value) return 'Date inconnue';
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) {
+    return 'Date inconnue';
+  }
+  return date.toLocaleDateString('fr-FR', {
+    day: '2-digit',
+    month: 'short',
+    year: 'numeric',
+  });
+}
+
+function buildExcerpt(raw) {
+  if (!raw) {
+    return 'Extrait indisponible.';
+  }
+  const parser = new DOMParser();
+  const doc = parser.parseFromString(raw, 'text/html');
+  const text = (doc.body?.textContent || '').replace(/\s+/g, ' ').trim();
+  if (!text) {
+    return 'Extrait indisponible.';
+  }
+  const maxLength = 140;
+  if (text.length <= maxLength) {
+    return text;
+  }
+  return `${text.slice(0, maxLength).trim()}…`;
 }
