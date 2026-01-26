@@ -5,6 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Veille cybersécurité : flux CERT-FR et The Hacker News.">
   <title>Veille cybersécurité - Jean-Baptiste Terrazzoni</title>
+  <meta property="og:title" content="Veille cybersécurité - Jean-Baptiste Terrazzoni">
+  <meta property="og:description" content="Veille cybersécurité : flux CERT-FR et The Hacker News.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://swapshadow.github.io/portfolio/veille.html">
+  <meta property="og:image" content="assets/favicon.png">
+  <meta property="og:site_name" content="Jean-Baptiste Terrazzoni">
+  <meta property="og:locale" content="fr_FR">
+  <meta name="twitter:card" content="summary">
   <link rel="icon" type="image/png" href="assets/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -97,21 +105,25 @@
           <li><a href="certifications.html">Certifications</a></li>
           <li><a href="veille.html">Veille</a></li>
           <li><a href="projets.html">Projets</a></li>
+          <li class="site-nav-title">Sections</li>
+          <li><a href="#veille" data-section-link="veille">Intro</a></li>
+          <li><a href="#cert-fr" data-section-link="cert-fr">CERT-FR</a></li>
+          <li><a href="#hacker-news" data-section-link="hacker-news">The Hacker News</a></li>
         </ul>
       </div>
     </nav>
   </header>
 
   <main>
-    <section class="section">
-      <div class="container section-card">
+    <section class="section" id="veille" data-section="veille">
+      <div class="container section-card reveal-on-scroll" data-reveal>
         <h1 class="section-title">Veille cybersécurité</h1>
         <p>Flux RSS agrégés côté client pour suivre les alertes et tendances en sécurité.</p>
       </div>
     </section>
 
-    <section class="section">
-      <div class="container section-card">
+    <section class="section" id="cert-fr" data-section="cert-fr">
+      <div class="container section-card reveal-on-scroll" data-reveal>
         <h2 class="section-title">CERT-FR</h2>
         <div class="rss-grid" data-rss-container="cert-fr">
           <p>Chargement des alertes…</p>
@@ -119,8 +131,8 @@
       </div>
     </section>
 
-    <section class="section">
-      <div class="container section-card">
+    <section class="section" id="hacker-news" data-section="hacker-news">
+      <div class="container section-card reveal-on-scroll" data-reveal>
         <h2 class="section-title">The Hacker News</h2>
         <div class="rss-grid" data-rss-container="hacker-news">
           <p>Chargement des actualités…</p>
@@ -162,6 +174,6 @@
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </body>
 </html>
