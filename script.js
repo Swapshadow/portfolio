@@ -184,18 +184,45 @@ function initStickyHeader() {
 }
 
 function initScrollSpy() {
-  const sectionLinks = Array.from(document.querySelectorAll('[data-section-link]'));
+  const menuLinks = Array.from(
+    document.querySelectorAll('.site-nav-links a:not([data-section-link])')
+  );
   const sections = Array.from(document.querySelectorAll('[data-section]'));
-  if (!sectionLinks.length || !sections.length) return;
+  if (!menuLinks.length || !sections.length) return;
 
-  const setActiveLink = (sectionId) => {
-    sectionLinks.forEach((link) => {
-      const isActive = link.dataset.sectionLink === sectionId;
-      link.classList.toggle('is-active', isActive);
+  const linkBySection = new Map();
+
+  menuLinks.forEach((link) => {
+    const href = link.getAttribute('href') || '';
+    const hashIndex = href.indexOf('#');
+    if (hashIndex !== -1) {
+      const sectionId = href.slice(hashIndex + 1);
+      if (sectionId) {
+        linkBySection.set(sectionId, link);
+      }
+    }
+  });
+
+  if (linkBySection.size === 0) {
+    const currentPath = window.location.pathname.split('/').pop() || 'index.html';
+    const pageLink =
+      menuLinks.find((link) => link.getAttribute('href') === currentPath)
+      || menuLinks.find((link) => link.getAttribute('href') === './' + currentPath);
+    if (pageLink) {
+      sections.forEach((section) => {
+        linkBySection.set(section.dataset.section, pageLink);
+      });
+    }
+  }
+
+  const setActiveLink = (link) => {
+    menuLinks.forEach((menuLink) => {
+      const isActive = menuLink === link;
+      menuLink.classList.toggle('active', isActive);
       if (isActive) {
-        link.setAttribute('aria-current', 'location');
+        menuLink.setAttribute('aria-current', 'location');
       } else {
-        link.removeAttribute('aria-current');
+        menuLink.removeAttribute('aria-current');
       }
     });
   };
@@ -207,7 +234,11 @@ function initScrollSpy() {
       const mostVisible = visibleSections.sort(
         (a, b) => b.intersectionRatio - a.intersectionRatio
       )[0];
-      setActiveLink(mostVisible.target.dataset.section);
+      const sectionId = mostVisible.target.dataset.section;
+      const activeLink = linkBySection.get(sectionId);
+      if (activeLink) {
+        setActiveLink(activeLink);
+      }
     },
     {
       rootMargin: '-40% 0px -45% 0px',
@@ -216,18 +247,6 @@ function initScrollSpy() {
   );
 
   sections.forEach((section) => observer.observe(section));
-
-  const hash = window.location.hash.replace('#', '');
-  const initialSection = sections.find((section) => section.dataset.section === hash) || sections[0];
-  if (initialSection) {
-    setActiveLink(initialSection.dataset.section);
-  }
-
-  window.addEventListener('hashchange', () => {
-    const nextHash = window.location.hash.replace('#', '');
-    if (!nextHash) return;
-    setActiveLink(nextHash);
-  });
 }
 
 function initRevealOnScroll() {
