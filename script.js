@@ -124,43 +124,32 @@ function initMenu() {
 
   if (!toggle || !menu) return;
 
-  const openMenu = () => {
-    menu.classList.add('is-open');
-    toggle.setAttribute('aria-expanded', 'true');
-    menu.setAttribute('aria-hidden', 'false');
-    document.body.classList.add('menu-open');
-  };
-
-  const closeMenu = () => {
-    menu.classList.remove('is-open');
-    toggle.setAttribute('aria-expanded', 'false');
-    menu.setAttribute('aria-hidden', 'true');
-    document.body.classList.remove('menu-open');
+  const setMenuState = (isOpen) => {
+    menu.classList.toggle('is-open', isOpen);
+    toggle.setAttribute('aria-expanded', String(isOpen));
+    menu.setAttribute('aria-hidden', String(!isOpen));
+    document.body.classList.toggle('menu-open', isOpen);
   };
 
   toggle.addEventListener('click', () => {
-    if (menu.classList.contains('is-open')) {
-      closeMenu();
-    } else {
-      openMenu();
-    }
+    setMenuState(!menu.classList.contains('is-open'));
   });
 
-  close?.addEventListener('click', closeMenu);
+  close?.addEventListener('click', () => setMenuState(false));
 
   menu.addEventListener('click', (event) => {
     if (event.target === menu) {
-      closeMenu();
+      setMenuState(false);
     }
   });
 
   menu.querySelectorAll('a').forEach((link) => {
-    link.addEventListener('click', closeMenu);
+    link.addEventListener('click', () => setMenuState(false));
   });
 
   document.addEventListener('keydown', (event) => {
     if (event.key === 'Escape' && menu.classList.contains('is-open')) {
-      closeMenu();
+      setMenuState(false);
     }
   });
 }
@@ -168,6 +157,13 @@ function initMenu() {
 function initStickyHeader() {
   const header = document.querySelector('.site-header');
   if (!header) return;
+
+  const setHeaderHeight = () => {
+    document.documentElement.style.setProperty('--header-height', `${header.offsetHeight}px`);
+  };
+
+  setHeaderHeight();
+  window.addEventListener('resize', setHeaderHeight);
 
   const sentinel = document.createElement('div');
   sentinel.className = 'header-sentinel';
