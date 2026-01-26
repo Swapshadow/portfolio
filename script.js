@@ -2,6 +2,8 @@ document.addEventListener('DOMContentLoaded', () => {
   initTheme();
   initAnimationsToggle();
   initMenu();
+  initScrollSpy();
+  initRevealOnScroll();
   initCarousel();
   initRssFeeds();
   initShootingStars();
@@ -119,6 +121,104 @@ function initMenu() {
     if (event.key === 'Escape' && menu.classList.contains('is-open')) {
       closeMenu();
     }
+  });
+}
+
+function initScrollSpy() {
+  const sectionLinks = Array.from(document.querySelectorAll('[data-section-link]'));
+  const sections = Array.from(document.querySelectorAll('[data-section]'));
+  if (!sectionLinks.length || !sections.length) return;
+
+  const setActiveLink = (sectionId) => {
+    sectionLinks.forEach((link) => {
+      const isActive = link.dataset.sectionLink === sectionId;
+      link.classList.toggle('is-active', isActive);
+      if (isActive) {
+        link.setAttribute('aria-current', 'location');
+      } else {
+        link.removeAttribute('aria-current');
+      }
+    });
+  };
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      const visibleSections = entries.filter((entry) => entry.isIntersecting);
+      if (!visibleSections.length) return;
+      const mostVisible = visibleSections.sort(
+        (a, b) => b.intersectionRatio - a.intersectionRatio
+      )[0];
+      setActiveLink(mostVisible.target.dataset.section);
+    },
+    {
+      rootMargin: '-40% 0px -45% 0px',
+      threshold: [0.2, 0.4, 0.6, 0.8],
+    }
+  );
+
+  sections.forEach((section) => observer.observe(section));
+
+  const hash = window.location.hash.replace('#', '');
+  const initialSection = sections.find((section) => section.dataset.section === hash) || sections[0];
+  if (initialSection) {
+    setActiveLink(initialSection.dataset.section);
+  }
+
+  window.addEventListener('hashchange', () => {
+    const nextHash = window.location.hash.replace('#', '');
+    if (!nextHash) return;
+    setActiveLink(nextHash);
+  });
+}
+
+function initRevealOnScroll() {
+  const elements = Array.from(document.querySelectorAll('[data-reveal]'));
+  if (!elements.length) return;
+
+  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  let observer;
+
+  const reveal = (element) => {
+    element.classList.add('is-visible');
+  };
+
+  const createObserver = () => {
+    observer?.disconnect();
+    observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            reveal(entry.target);
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { rootMargin: '0px 0px -10% 0px', threshold: 0.2 }
+    );
+
+    elements.forEach((element) => {
+      if (!element.classList.contains('is-visible')) {
+        observer.observe(element);
+      }
+    });
+  };
+
+  const applyMotionPreference = () => {
+    if (prefersReducedMotion.matches || document.body.dataset.animations === 'off') {
+      elements.forEach(reveal);
+      observer?.disconnect();
+    } else {
+      createObserver();
+    }
+  };
+
+  applyMotionPreference();
+  prefersReducedMotion.addEventListener('change', applyMotionPreference);
+
+  const bodyObserver = new MutationObserver(applyMotionPreference);
+  bodyObserver.observe(document.body, {
+    attributes: true,
+    attributeFilter: ['data-animations'],
   });
 }
 

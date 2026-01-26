@@ -66,6 +66,11 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 120px;
+}
+
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   background-color: var(--bg);
@@ -136,6 +141,12 @@ img {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
 }
 
 .container {
@@ -494,7 +505,17 @@ body[data-animations="off"] #animated-background .shooting-star {
   opacity: 0;
 }
 
+body[data-animations="off"] .reveal-on-scroll {
+  opacity: 1;
+  transform: none;
+  transition: none;
+}
+
 @media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
   #animated-background *,
   #animated-background *::before,
   #animated-background *::after {
@@ -512,6 +533,12 @@ body[data-animations="off"] #animated-background .shooting-star {
 
   .sea-shader {
     opacity: 0.6;
+  }
+
+  .reveal-on-scroll {
+    opacity: 1;
+    transform: none;
+    transition: none;
   }
 }
 
@@ -660,9 +687,14 @@ body[data-animations="off"] #animated-background .shooting-star {
 }
 
 .site-header {
-  padding: 24px 0 8px;
-  position: relative;
+  padding: 16px 0 10px;
+  position: sticky;
+  top: 0;
   z-index: 100;
+  background: var(--glass-bg-fallback);
+  border-bottom: 1px solid var(--glass-border);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
 }
 
 .nav {
@@ -697,7 +729,16 @@ body[data-animations="off"] #animated-background .shooting-star {
   font-weight: 500;
   color: var(--text);
   box-shadow: var(--shadow-soft);
-  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+.menu-toggle:hover {
+  transform: translateY(-1px);
+}
+
+.menu-toggle:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
 }
 
 .menu-toggle-label {
@@ -799,21 +840,36 @@ body[data-animations="off"] #animated-background .shooting-star {
   gap: 14px;
 }
 
+.site-nav-title {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  color: var(--muted);
+  margin-top: 6px;
+}
+
 .site-nav-links a {
   font-size: 1.05rem;
   color: var(--text);
   padding: 10px 12px;
   border-radius: 12px;
-  transition: background 0.2s ease;
+  transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
 }
 
 .site-nav-links a:hover,
 .site-nav-links a:focus {
   background: var(--accent-soft);
+  transform: translateX(4px);
+}
+
+.site-nav-links a.is-active {
+  background: var(--accent-soft);
+  color: var(--accent);
 }
 
 .hero {
   padding: 32px 0 64px;
+  scroll-margin-top: 120px;
 }
 
 .hero-card {
@@ -867,12 +923,13 @@ body[data-animations="off"] #animated-background .shooting-star {
   background: var(--accent);
   color: #fff;
   font-weight: 500;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
   box-shadow: 0 12px 24px rgba(75, 91, 255, 0.25);
 }
 
 .button:hover {
   transform: translateY(-1px);
+  filter: brightness(1.02);
 }
 
 .button-secondary {
@@ -880,6 +937,10 @@ body[data-animations="off"] #animated-background .shooting-star {
   color: var(--text);
   border: 1px solid var(--border);
   box-shadow: none;
+}
+
+.button-secondary:hover {
+  background: var(--surface-muted);
 }
 
 .hero-illustration {
@@ -954,6 +1015,7 @@ body[data-animations="off"] #animated-background .shooting-star {
 
 .section {
   padding: 40px 0;
+  scroll-margin-top: 120px;
 }
 
 .section-card {
@@ -964,6 +1026,17 @@ body[data-animations="off"] #animated-background .shooting-star {
   position: relative;
   overflow: hidden;
   transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal-on-scroll.is-visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .section-title {

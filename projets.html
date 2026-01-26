@@ -5,6 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Projets et missions en cybersécurité et infrastructure.">
   <title>Projets - Jean-Baptiste Terrazzoni</title>
+  <meta property="og:title" content="Projets - Jean-Baptiste Terrazzoni">
+  <meta property="og:description" content="Projets et missions en cybersécurité et infrastructure.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://swapshadow.github.io/portfolio/projets.html">
+  <meta property="og:image" content="assets/favicon.png">
+  <meta property="og:site_name" content="Jean-Baptiste Terrazzoni">
+  <meta property="og:locale" content="fr_FR">
+  <meta name="twitter:card" content="summary">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -97,21 +105,25 @@
           <li><a href="certifications.html">Certifications</a></li>
           <li><a href="veille.html">Veille</a></li>
           <li><a href="projets.html">Projets</a></li>
+          <li class="site-nav-title">Sections</li>
+          <li><a href="#projets" data-section-link="projets">Présentation</a></li>
+          <li><a href="#missions" data-section-link="missions">Missions</a></li>
+          <li><a href="#portfolio-bts" data-section-link="portfolio-bts">Portfolio BTS</a></li>
         </ul>
       </div>
     </nav>
   </header>
 
   <main>
-    <section class="section">
-      <div class="container section-card">
+    <section class="section" id="projets" data-section="projets">
+      <div class="container section-card reveal-on-scroll" data-reveal>
         <h1 class="section-title">Projets</h1>
         <p>Une sélection de missions axées sur l’infrastructure, l’audit et la sécurité offensive.</p>
       </div>
     </section>
 
-    <section class="section">
-      <div class="container section-card">
+    <section class="section" id="missions" data-section="missions">
+      <div class="container section-card reveal-on-scroll" data-reveal>
         <div class="grid grid-2">
           <article class="card">
             <span class="tag">Projet principal</span>
@@ -138,8 +150,8 @@
       </div>
     </section>
 
-    <section class="section">
-      <div class="container section-card">
+    <section class="section" id="portfolio-bts" data-section="portfolio-bts">
+      <div class="container section-card reveal-on-scroll" data-reveal>
         <h2 class="section-title">Portfolio BTS SIO (Mahara)</h2>
         <div class="grid grid-2">
           <article class="card">
@@ -187,6 +199,6 @@
       </div>
     </div>
   </footer>
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </body>
 </html>

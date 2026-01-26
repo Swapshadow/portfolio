@@ -5,6 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Certifications en cybersécurité et infrastructure de Jean-Baptiste Terrazzoni.">
   <title>Certifications - Jean-Baptiste Terrazzoni</title>
+  <meta property="og:title" content="Certifications - Jean-Baptiste Terrazzoni">
+  <meta property="og:description" content="Certifications en cybersécurité et infrastructure de Jean-Baptiste Terrazzoni.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://swapshadow.github.io/portfolio/certifications.html">
+  <meta property="og:image" content="assets/favicon.png">
+  <meta property="og:site_name" content="Jean-Baptiste Terrazzoni">
+  <meta property="og:locale" content="fr_FR">
+  <meta name="twitter:card" content="summary">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -97,21 +105,24 @@
           <li><a href="certifications.html">Certifications</a></li>
           <li><a href="veille.html">Veille</a></li>
           <li><a href="projets.html">Projets</a></li>
+          <li class="site-nav-title">Sections</li>
+          <li><a href="#certifications" data-section-link="certifications">Présentation</a></li>
+          <li><a href="#liste-certifications" data-section-link="liste-certifications">Liste</a></li>
         </ul>
       </div>
     </nav>
   </header>
 
   <main>
-    <section class="section">
-      <div class="container section-card">
+    <section class="section" id="certifications" data-section="certifications">
+      <div class="container section-card reveal-on-scroll" data-reveal>
         <h1 class="section-title">Certifications</h1>
         <p>Une sélection de certifications validant mes compétences en sécurité, réseau et conformité.</p>
       </div>
     </section>
 
-    <section class="section certifications-section">
-      <div class="container section-card">
+    <section class="section certifications-section" id="liste-certifications" data-section="liste-certifications">
+      <div class="container section-card reveal-on-scroll" data-reveal>
         <div class="section-header">
           <div>
             <h2 class="section-title">Certifications & Formations</h2>
@@ -304,6 +315,6 @@
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </body>
 </html>

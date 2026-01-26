@@ -5,6 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Parcours académique et certifications en cybersécurité de Jean-Baptiste Terrazzoni.">
   <title>Parcours & Certifications - Jean-Baptiste Terrazzoni</title>
+  <meta property="og:title" content="Parcours & Certifications - Jean-Baptiste Terrazzoni">
+  <meta property="og:description" content="Parcours académique et certifications en cybersécurité de Jean-Baptiste Terrazzoni.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://swapshadow.github.io/portfolio/parcours.html">
+  <meta property="og:image" content="assets/favicon.png">
+  <meta property="og:site_name" content="Jean-Baptiste Terrazzoni">
+  <meta property="og:locale" content="fr_FR">
+  <meta name="twitter:card" content="summary">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -97,21 +105,24 @@
           <li><a href="certifications.html">Certifications</a></li>
           <li><a href="veille.html">Veille</a></li>
           <li><a href="projets.html">Projets</a></li>
+          <li class="site-nav-title">Sections</li>
+          <li><a href="#parcours" data-section-link="parcours">Parcours</a></li>
+          <li><a href="#formations" data-section-link="formations">Formations</a></li>
         </ul>
       </div>
     </nav>
   </header>
 
   <main>
-    <section class="section">
-      <div class="container section-card">
+    <section class="section" id="parcours" data-section="parcours">
+      <div class="container section-card reveal-on-scroll" data-reveal>
         <h1 class="section-title">Parcours académique</h1>
         <p>Une chronologie claire des formations suivies, avec les compétences clés acquises à chaque étape.</p>
       </div>
     </section>
 
-    <section class="section">
-      <div class="container section-card">
+    <section class="section" id="formations" data-section="formations">
+      <div class="container section-card reveal-on-scroll" data-reveal>
         <h2 class="section-title">Étapes de formation</h2>
         <div class="timeline">
           <article class="timeline-item">
@@ -214,6 +225,6 @@
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </body>
 </html>
