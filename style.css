@@ -2213,6 +2213,28 @@ body[data-theme="dark"] .theme-icon-moon {
   gap: 12px;
 }
 
+.blog-entry-feature {
+  grid-column: span 2;
+}
+
+.blog-entry-media {
+  display: block;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35);
+}
+
+.blog-entry-media img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.blog-entry-title {
+  color: inherit;
+}
+
 .blog-entry h3 {
   font-size: 1.1rem;
   color: #f5f7ff;
@@ -2239,6 +2261,87 @@ body[data-theme="dark"] .theme-icon-moon {
 
 .blog-link:hover {
   color: #cdd9ff;
+}
+
+.blog-article-section {
+  padding: 96px 0 120px;
+}
+
+.blog-article-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: rgba(210, 220, 255, 0.9);
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.blog-article-card {
+  background: rgba(7, 10, 20, 0.78);
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 40px;
+  box-shadow: 0 24px 50px rgba(0, 0, 0, 0.4);
+}
+
+.blog-article-content {
+  display: grid;
+  gap: 20px;
+  color: rgba(233, 238, 255, 0.92);
+}
+
+.blog-article-content h1 {
+  font-size: clamp(2rem, 2.6vw, 2.6rem);
+  color: #f5f7ff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 16px;
+}
+
+.blog-article-content h2 {
+  font-size: 1.6rem;
+  color: #f2f5ff;
+  margin-top: 8px;
+}
+
+.blog-article-content h3 {
+  font-size: 1.2rem;
+  color: #eef2ff;
+}
+
+.blog-article-content p,
+.blog-article-content li {
+  color: rgba(225, 232, 255, 0.88);
+}
+
+.blog-article-content ul,
+.blog-article-content ol {
+  padding-left: 20px;
+  display: grid;
+  gap: 6px;
+}
+
+.blog-article-content blockquote {
+  border-left: 3px solid rgba(155, 183, 255, 0.8);
+  padding-left: 16px;
+  color: rgba(220, 230, 255, 0.9);
+  font-style: italic;
+}
+
+.blog-article-content pre {
+  background: rgba(6, 12, 28, 0.8);
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  overflow-x: auto;
+}
+
+.blog-article-content code {
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+  font-size: 0.92rem;
+}
+
+.blog-article-content pre code {
+  color: #dbe6ff;
 }
 
 body[data-animations="off"] #blog .blog-space *,
@@ -2274,6 +2377,14 @@ body[data-animations="off"] #blog .blog-meteor {
     padding: 32px;
   }
 
+  .blog-entry-feature {
+    grid-column: auto;
+  }
+
+  .blog-article-card {
+    padding: 32px;
+  }
+
   .planet.jupiter,
   .planet.saturn {
     opacity: 0.6;
@@ -2287,6 +2398,14 @@ body[data-animations="off"] #blog .blog-meteor {
 
   .blog-card {
     padding: 28px;
+  }
+
+  .blog-article-section {
+    padding: 72px 0 96px;
+  }
+
+  .blog-article-card {
+    padding: 24px;
   }
 
   .planet.jupiter,
