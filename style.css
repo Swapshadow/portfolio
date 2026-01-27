@@ -171,6 +171,32 @@ button:focus-visible {
   overflow-x: hidden;
 }
 
+.page-blog {
+  --blog-space-bg: radial-gradient(circle at 10% 20%, rgba(64, 90, 160, 0.35), transparent 45%),
+    radial-gradient(circle at 90% 10%, rgba(140, 120, 220, 0.25), transparent 40%),
+    linear-gradient(160deg, #06070f 0%, #0b1022 45%, #05070d 100%);
+  background: var(--blog-space-bg);
+}
+
+.page-blog #animated-background {
+  display: none;
+}
+
+.page-blog .site-header {
+  background: rgba(6, 10, 20, 0.45);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+}
+
+.page-blog .site-header.is-sticky {
+  background: rgba(6, 10, 20, 0.6);
+}
+
+.page-blog .footer {
+  background: transparent;
+}
+
 .page > * {
   position: relative;
 }
@@ -1974,9 +2000,9 @@ body[data-theme="dark"] .theme-icon-moon {
   inset: 0;
   z-index: 0;
   overflow: hidden;
-  background: radial-gradient(circle at 10% 20%, rgba(64, 90, 160, 0.35), transparent 45%),
+  background: var(--blog-space-bg, radial-gradient(circle at 10% 20%, rgba(64, 90, 160, 0.35), transparent 45%),
     radial-gradient(circle at 90% 10%, rgba(140, 120, 220, 0.25), transparent 40%),
-    linear-gradient(160deg, #06070f 0%, #0b1022 45%, #05070d 100%);
+    linear-gradient(160deg, #06070f 0%, #0b1022 45%, #05070d 100%));
   pointer-events: none;
 }
 
