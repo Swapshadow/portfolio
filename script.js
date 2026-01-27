@@ -368,6 +368,19 @@ function initRevealOnScroll() {
     element.classList.add('is-visible');
   };
 
+  const isInViewport = (element) => {
+    const rect = element.getBoundingClientRect();
+    return rect.top < window.innerHeight * 0.95 && rect.bottom > 0;
+  };
+
+  const revealIfInView = (element) => {
+    if (isInViewport(element)) {
+      reveal(element);
+      return true;
+    }
+    return false;
+  };
+
   const createObserver = () => {
     observer?.disconnect();
     observer = new IntersectionObserver(
@@ -394,6 +407,13 @@ function initRevealOnScroll() {
       elements.forEach(reveal);
       observer?.disconnect();
     } else {
+      // Ensure initially visible elements appear on mobile even if the observer
+      // doesn't fire when the page loads with animations enabled.
+      elements.forEach((element) => {
+        if (!element.classList.contains('is-visible')) {
+          revealIfInView(element);
+        }
+      });
       createObserver();
     }
   };
