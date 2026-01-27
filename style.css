@@ -1236,6 +1236,8 @@ body[data-animations="off"] .reveal-on-scroll {
   gap: 18px;
   align-items: stretch;
   width: max-content;
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
 }
 
 .certification-card {

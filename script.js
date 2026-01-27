@@ -481,24 +481,51 @@ function initCarousel() {
   if (!cards.length) return;
 
   const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  if (!prefersReducedMotion) {
-    cards.forEach((card) => {
-      const clone = card.cloneNode(true);
-      clone.classList.add('is-clone');
-      clone.setAttribute('aria-hidden', 'true');
-      track.appendChild(clone);
-    });
-  } else {
+  if (prefersReducedMotion) {
     return;
   }
+
+  cards.forEach((card) => {
+    const clone = card.cloneNode(true);
+    clone.classList.add('is-clone');
+    clone.setAttribute('aria-hidden', 'true');
+    track.appendChild(clone);
+  });
 
   let isPaused = false;
   let rafId;
   let lastTime;
   let offset = 0;
-  let loopPoint = track.scrollWidth / 2;
+  let loopPoint = 0;
   const SPEED_PX_PER_SEC = 48;
   const RESUME_DELAY = 900;
+
+  const getGapSize = () => {
+    const styles = getComputedStyle(track);
+    const gap = parseFloat(styles.columnGap || styles.gap || '0');
+    return Number.isNaN(gap) ? 0 : gap;
+  };
+
+  const measureLoopPoint = () => {
+    const gap = getGapSize();
+    const baseWidth = cards.reduce((total, card) => total + card.getBoundingClientRect().width, 0);
+    const totalGap = gap * Math.max(cards.length - 1, 0);
+    return baseWidth + totalGap;
+  };
+
+  const ensureCloneCoverage = () => {
+    const baseWidth = measureLoopPoint();
+    if (!baseWidth) return baseWidth;
+    while (track.scrollWidth < baseWidth + carousel.clientWidth) {
+      cards.forEach((card) => {
+        const clone = card.cloneNode(true);
+        clone.classList.add('is-clone');
+        clone.setAttribute('aria-hidden', 'true');
+        track.appendChild(clone);
+      });
+    }
+    return baseWidth;
+  };
 
   const tick = (time) => {
     if (!lastTime) lastTime = time;
@@ -512,21 +539,23 @@ function initCarousel() {
     rafId = requestAnimationFrame(tick);
   };
 
+  const updateLoopPoint = () => {
+    const baseWidth = ensureCloneCoverage();
+    loopPoint = baseWidth || track.scrollWidth / 2;
+    if (loopPoint > 0) {
+      offset = offset % loopPoint;
+      track.style.transform = `translate3d(${-offset}px, 0, 0)`;
+    }
+  };
+
   const start = () => {
     if (!rafId) {
       rafId = requestAnimationFrame(tick);
     }
   };
 
+  updateLoopPoint();
   start();
-
-  const updateLoopPoint = () => {
-    loopPoint = track.scrollWidth / 2;
-    if (loopPoint > 0) {
-      offset = offset % loopPoint;
-      track.style.transform = `translate3d(${-offset}px, 0, 0)`;
-    }
-  };
 
   window.addEventListener('resize', updateLoopPoint);
   window.addEventListener('load', updateLoopPoint);
