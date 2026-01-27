@@ -911,6 +911,10 @@ body[data-animations="off"] .reveal-on-scroll {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+.hero-card > * {
+  min-width: 0;
+}
+
 .hero-eyebrow {
   text-transform: uppercase;
   font-size: 0.72rem;
@@ -989,6 +993,7 @@ body[data-animations="off"] .reveal-on-scroll {
   background: transparent;
   position: relative;
   overflow: visible;
+  min-width: 0;
   transition: background-color 0.3s ease;
 }
 
@@ -1000,6 +1005,8 @@ body[data-animations="off"] .reveal-on-scroll {
   position: relative;
   z-index: 1;
   width: 100%;
+  max-width: 100%;
+  min-width: 0;
   overflow: hidden;
   touch-action: pan-y;
   scrollbar-width: none;
@@ -1023,17 +1030,6 @@ body[data-animations="off"] .reveal-on-scroll {
 
 .hero-carousel.is-dragging {
   cursor: grabbing;
-}
-
-.carousel-drag-layer {
-  display: flex;
-  width: max-content;
-  will-change: transform;
-  transform: translate3d(var(--drag-offset, 0px), 0, 0);
-}
-
-[data-carousel-track].is-animated {
-  animation: carousel-scroll var(--carousel-duration, 32s) linear infinite;
 }
 
 .hero-carousel-item {
@@ -1243,6 +1239,9 @@ body[data-animations="off"] .reveal-on-scroll {
   scrollbar-width: none;
   overscroll-behavior-x: none;
   cursor: grab;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
 }
 
 .certifications-carousel::-webkit-scrollbar {
@@ -1266,15 +1265,6 @@ body[data-animations="off"] .reveal-on-scroll {
   pointer-events: none;
   -webkit-user-drag: none;
   user-select: none;
-}
-
-@keyframes carousel-scroll {
-  from {
-    transform: translate3d(0, 0, 0);
-  }
-  to {
-    transform: translate3d(calc(-1 * var(--carousel-distance, 0px)), 0, 0);
-  }
 }
 
 .certification-card {
