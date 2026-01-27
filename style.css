@@ -1460,6 +1460,72 @@ body[data-animations="off"] .reveal-on-scroll {
   height: 20px;
 }
 
+.contact-modal {
+  position: fixed;
+  inset: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 1200;
+}
+
+.contact-modal.open {
+  display: flex;
+}
+
+.contact-modal__overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(10, 12, 16, 0.6);
+}
+
+.contact-modal__content {
+  position: relative;
+  z-index: 1;
+  width: min(90vw, 360px);
+  padding: 24px;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  text-align: center;
+  box-shadow: 0 16px 40px rgba(10, 12, 16, 0.35);
+}
+
+.contact-modal__title {
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+}
+
+.contact-modal__value {
+  font-size: 1rem;
+}
+
+.contact-modal__value a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.contact-modal__value a:hover,
+.contact-modal__value a:focus-visible {
+  text-decoration: underline;
+}
+
+.contact-modal__close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background: transparent;
+  color: inherit;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
 .hero-badges {
   display: flex;
   flex-wrap: wrap;
