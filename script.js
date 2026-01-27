@@ -354,6 +354,13 @@ function initRevealOnScroll() {
   const elements = Array.from(document.querySelectorAll('[data-reveal]'));
   if (!elements.length) return;
 
+  if (!('IntersectionObserver' in window)) {
+    elements.forEach((element) => {
+      element.classList.add('is-visible');
+    });
+    return;
+  }
+
   const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
   let observer;
 
