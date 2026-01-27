@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initScrollSpy();
   initRevealOnScroll();
   initCarousel();
+  initVeilleTabs();
   initRssFeeds();
   initShootingStars();
 });
@@ -29,11 +30,6 @@ const RSS_FEEDS = [
     label: 'CISA',
   },
   {
-    key: 'nvd',
-    url: 'https://nvd.nist.gov/feeds/xml/cve/misc/nvd-rss.xml',
-    label: 'NVD (CVE)',
-  },
-  {
     key: 'exploit-db',
     url: 'https://www.exploit-db.com/rss.xml',
     label: 'Exploit-DB',
@@ -54,6 +50,17 @@ const RSS_FEEDS = [
     label: 'Krebs on Security',
   },
 ];
+
+const RSS_TAB_MAP = {
+  'cert-fr': 'alertes',
+  cisa: 'alertes',
+  'exploit-db': 'exploitation',
+  'hacker-news': 'actualite',
+  zataz: 'actualite',
+  krebs: 'actualite',
+};
+
+const RSS_TAB_COUNTS = new Map();
 
 function initTheme() {
   const toggle = document.querySelector('[data-theme-toggle]');
@@ -394,6 +401,48 @@ function initRevealOnScroll() {
   });
 }
 
+function initVeilleTabs() {
+  const tabList = document.querySelector('[data-veille-tabs]');
+  if (!tabList) return;
+
+  const tabs = Array.from(tabList.querySelectorAll('[data-veille-tab]'));
+  const panels = Array.from(document.querySelectorAll('[data-veille-panel]'));
+  if (!tabs.length || !panels.length) return;
+
+  const storedTab = sessionStorage.getItem('veille-tab');
+  const initialTab =
+    tabs.find((tab) => tab.dataset.veilleTab === storedTab)?.dataset.veilleTab
+    || tabs[0]?.dataset.veilleTab;
+
+  const setActiveTab = (tabKey, { shouldStore = true } = {}) => {
+    if (!tabKey) return;
+
+    tabs.forEach((tab) => {
+      const isActive = tab.dataset.veilleTab === tabKey;
+      tab.classList.toggle('active', isActive);
+      tab.setAttribute('aria-selected', String(isActive));
+    });
+
+    panels.forEach((panel) => {
+      const isActive = panel.dataset.veillePanel === tabKey;
+      panel.classList.toggle('active', isActive);
+      panel.setAttribute('aria-hidden', String(!isActive));
+    });
+
+    if (shouldStore) {
+      sessionStorage.setItem('veille-tab', tabKey);
+    }
+  };
+
+  setActiveTab(initialTab, { shouldStore: false });
+
+  tabList.addEventListener('click', (event) => {
+    const button = event.target.closest('[data-veille-tab]');
+    if (!button) return;
+    setActiveTab(button.dataset.veilleTab);
+  });
+}
+
 function initCarousel() {
   const carousel = document.querySelector('[data-carousel]');
   if (!carousel) return;
@@ -642,6 +691,23 @@ function parseRssItems(xmlText) {
     });
 }
 
+function updateRssTabCount(feedKey, count) {
+  const tabKey = RSS_TAB_MAP[feedKey];
+  if (!tabKey) return;
+
+  if (!RSS_TAB_COUNTS.has(tabKey)) {
+    RSS_TAB_COUNTS.set(tabKey, new Map());
+  }
+  const feedCounts = RSS_TAB_COUNTS.get(tabKey);
+  feedCounts.set(feedKey, count);
+
+  const total = Array.from(feedCounts.values()).reduce((sum, value) => sum + value, 0);
+  const badge = document.querySelector(`[data-veille-count="${tabKey}"]`);
+  if (badge) {
+    badge.textContent = total;
+  }
+}
+
 function renderRssItems({ items, container, label, key }) {
   const list = container.querySelector('[data-rss-items]');
   const status = container.querySelector('[data-rss-status]');
@@ -686,6 +752,7 @@ function renderRssItems({ items, container, label, key }) {
     if (status) {
       status.textContent = `Dernière mise à jour · ${items[0].date}`;
     }
+    updateRssTabCount(key, items.length);
   } else {
     renderRssEmpty(container, status);
   }
@@ -714,6 +781,9 @@ function renderRssEmpty(container, status) {
   if (status) {
     status.textContent = 'Aucune entrée disponible.';
   }
+  if (container.dataset.rssFeed) {
+    updateRssTabCount(container.dataset.rssFeed, 0);
+  }
 }
 
 function renderRssError(container, status) {
@@ -723,6 +793,9 @@ function renderRssError(container, status) {
   }
   if (status) {
     status.textContent = 'Chargement indisponible.';
+  }
+  if (container.dataset.rssFeed) {
+    updateRssTabCount(container.dataset.rssFeed, 0);
   }
 }
 

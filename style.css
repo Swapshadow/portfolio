@@ -1244,6 +1244,77 @@ body[data-animations="off"] .reveal-on-scroll {
   font-size: 0.9rem;
 }
 
+.veille-tabs {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 12px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  box-shadow: var(--shadow-soft);
+}
+
+.veille-tab {
+  border: 1px solid var(--border);
+  background: var(--surface-contrast);
+  border-radius: 999px;
+  padding: 8px 16px;
+  font-weight: 600;
+  color: var(--text);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+}
+
+.veille-tab:hover {
+  transform: translateY(-1px);
+}
+
+.veille-tab.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.veille-tab-count {
+  min-width: 28px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.veille-tab.active .veille-tab-count {
+  background: rgba(255, 255, 255, 0.22);
+  color: #fff;
+}
+
+.veille-panels {
+  margin-top: 24px;
+}
+
+.veille-panel {
+  display: none;
+}
+
+.veille-panel.active {
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .veille-tab {
+    flex: 1 1 auto;
+    justify-content: center;
+  }
+}
+
 .rss-category {
   display: grid;
   gap: 20px;
@@ -1361,6 +1432,14 @@ body[data-animations="off"] .reveal-on-scroll {
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .veille-tab {
+    transition: none;
+  }
+
+  .veille-tab:hover {
+    transform: none;
+  }
+
   .rss-source,
   .rss-more {
     transition: none;
