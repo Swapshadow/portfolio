@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initVeilleTabs();
   initRssFeeds();
   initShootingStars();
+  initBlogSpaceEffects();
 });
 
 const RSS_CACHE_PREFIX = 'rss-cache-v1';
@@ -732,6 +733,113 @@ function initShootingStars() {
   isMobile.addEventListener('change', scheduleNext);
 
   scheduleNext();
+}
+
+function initBlogSpaceEffects() {
+  const section = document.querySelector('#blog');
+  if (!section) return;
+
+  const shootingLayer = section.querySelector('[data-blog-shooting]');
+  const meteorLayer = section.querySelector('[data-blog-meteors]');
+  if (!shootingLayer || !meteorLayer) return;
+
+  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const isMobile = window.matchMedia('(max-width: 720px)');
+  let shootingTimeoutId;
+  let meteorTimeoutId;
+
+  const canAnimate = () => {
+    return (
+      document.body.dataset.animations !== 'off'
+      && !prefersReducedMotion.matches
+      && !isMobile.matches
+    );
+  };
+
+  const clearLayers = () => {
+    shootingLayer.innerHTML = '';
+    meteorLayer.innerHTML = '';
+  };
+
+  const spawnShootingStar = () => {
+    if (!canAnimate()) return;
+    const star = document.createElement('span');
+    star.className = 'blog-shooting-star';
+    const top = 10 + Math.random() * 45;
+    const left = 5 + Math.random() * 70;
+    const distanceX = 220 + Math.random() * 180;
+    const distanceY = 120 + Math.random() * 160;
+    const duration = 1.2 + Math.random() * 0.8;
+    star.style.top = `${top}%`;
+    star.style.left = `${left}%`;
+    star.style.setProperty('--shooting-distance-x', `${distanceX}px`);
+    star.style.setProperty('--shooting-distance-y', `${distanceY}px`);
+    star.style.setProperty('--shooting-duration', `${duration}s`);
+    star.addEventListener('animationend', () => star.remove(), { once: true });
+    shootingLayer.appendChild(star);
+  };
+
+  const spawnMeteor = () => {
+    if (!canAnimate()) return;
+    const meteor = document.createElement('span');
+    meteor.className = 'blog-meteor';
+    const top = 15 + Math.random() * 55;
+    const left = 0 + Math.random() * 60;
+    const distanceX = 260 + Math.random() * 200;
+    const distanceY = 160 + Math.random() * 180;
+    const duration = 2.4 + Math.random() * 1.2;
+    meteor.style.top = `${top}%`;
+    meteor.style.left = `${left}%`;
+    meteor.style.setProperty('--meteor-distance-x', `${distanceX}px`);
+    meteor.style.setProperty('--meteor-distance-y', `${distanceY}px`);
+    meteor.style.setProperty('--meteor-duration', `${duration}s`);
+    meteor.addEventListener('animationend', () => meteor.remove(), { once: true });
+    meteorLayer.appendChild(meteor);
+  };
+
+  const scheduleShootingStars = () => {
+    clearTimeout(shootingTimeoutId);
+    if (!canAnimate()) {
+      shootingTimeoutId = setTimeout(scheduleShootingStars, 2000);
+      return;
+    }
+    const delay = 1400 + Math.random() * 2200;
+    shootingTimeoutId = setTimeout(() => {
+      spawnShootingStar();
+      scheduleShootingStars();
+    }, delay);
+  };
+
+  const scheduleMeteors = () => {
+    clearTimeout(meteorTimeoutId);
+    if (!canAnimate()) {
+      meteorTimeoutId = setTimeout(scheduleMeteors, 3000);
+      return;
+    }
+    const delay = 4200 + Math.random() * 4200;
+    meteorTimeoutId = setTimeout(() => {
+      spawnMeteor();
+      scheduleMeteors();
+    }, delay);
+  };
+
+  const refreshAnimationState = () => {
+    if (!canAnimate()) {
+      clearLayers();
+    }
+    scheduleShootingStars();
+    scheduleMeteors();
+  };
+
+  const observer = new MutationObserver(refreshAnimationState);
+  observer.observe(document.body, {
+    attributes: true,
+    attributeFilter: ['data-animations'],
+  });
+
+  prefersReducedMotion.addEventListener('change', refreshAnimationState);
+  isMobile.addEventListener('change', refreshAnimationState);
+  refreshAnimationState();
 }
 
 async function loadRssFeed({ key, url, label, container }) {
