@@ -539,6 +539,18 @@ function initCarousel() {
 
   carousel.addEventListener('pointerup', scheduleResume);
   carousel.addEventListener('pointercancel', scheduleResume);
+
+  carousel.addEventListener(
+    'wheel',
+    (event) => {
+      if (Math.abs(event.deltaY) <= Math.abs(event.deltaX)) return;
+      event.preventDefault();
+      isPaused = true;
+      carousel.scrollLeft += event.deltaY;
+      scheduleResume();
+    },
+    { passive: false },
+  );
 }
 
 
