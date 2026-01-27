@@ -483,26 +483,9 @@ function initCarousel() {
     const track = carousel.querySelector('[data-carousel-track]');
     if (!track) return;
 
-    const baseTemplate = Array.from(track.children).map((item) => {
-      const clone = item.cloneNode(true);
-      clone.dataset.carouselItem = 'base';
-      return clone;
-    });
+    const baseTemplate = Array.from(track.children).map((item) => item.cloneNode(true));
 
     if (!baseTemplate.length) return;
-
-    const ensureDragLayer = () => {
-      let dragLayer = carousel.querySelector('.carousel-drag-layer');
-      if (!dragLayer) {
-        dragLayer = document.createElement('div');
-        dragLayer.className = 'carousel-drag-layer';
-        track.parentNode.insertBefore(dragLayer, track);
-        dragLayer.appendChild(track);
-      }
-      return dragLayer;
-    };
-
-    const dragLayer = ensureDragLayer();
 
     const getGapSize = () => {
       const styles = getComputedStyle(track);
@@ -516,31 +499,53 @@ function initCarousel() {
       return totalWidth + totalGap;
     };
 
+    let baseWidth = 0;
+    let offset = 0;
+    let isDragging = false;
+    let lastPointerX = 0;
+    let rafId = null;
+    let lastFrameTime = 0;
+
+    const updateTransform = () => {
+      track.style.transform = `translate3d(${offset}px, 0, 0)`;
+    };
+
+    const wrapOffset = () => {
+      if (baseWidth <= 0) return;
+      while (offset <= -baseWidth) {
+        offset += baseWidth;
+      }
+      while (offset > 0) {
+        offset -= baseWidth;
+      }
+    };
+
     const buildTrack = () => {
       track.innerHTML = '';
-      baseTemplate.forEach((item) => {
-        const clone = item.cloneNode(true);
-        clone.dataset.carouselItem = 'base';
-        track.appendChild(clone);
-      });
-
       const gap = getGapSize();
-      let baseItems = Array.from(track.children);
-      let baseWidth = measureWidth(baseItems, gap);
+      const minWidth = carousel.clientWidth + gap;
+      const baseItems = [];
 
-      while (baseWidth > 0 && baseWidth < carousel.clientWidth + gap) {
-        baseItems.forEach((item) => {
+      const appendBaseSet = () => {
+        baseTemplate.forEach((item) => {
           const clone = item.cloneNode(true);
           clone.dataset.carouselItem = 'base';
+          clone.setAttribute('draggable', 'false');
+          clone.querySelectorAll('img').forEach((img) => {
+            img.setAttribute('draggable', 'false');
+          });
           track.appendChild(clone);
+          baseItems.push(clone);
         });
-        baseItems = Array.from(track.children);
+      };
+
+      appendBaseSet();
+      baseWidth = measureWidth(baseItems, gap);
+
+      while (baseWidth > 0 && baseWidth < minWidth) {
+        appendBaseSet();
         baseWidth = measureWidth(baseItems, gap);
       }
-
-      baseItems.forEach((item) => {
-        item.setAttribute('draggable', 'false');
-      });
 
       baseItems.forEach((item) => {
         const clone = item.cloneNode(true);
@@ -550,40 +555,51 @@ function initCarousel() {
         track.appendChild(clone);
       });
 
-      const loopDistance = baseWidth + gap;
-      if (loopDistance > 0) {
-        track.style.setProperty('--carousel-distance', `${loopDistance}px`);
-        track.style.setProperty('--carousel-duration', `${loopDistance / SPEED_PX_PER_SEC}s`);
-        track.classList.add('is-animated');
+      offset = 0;
+      wrapOffset();
+      updateTransform();
+    };
+
+    const animate = (time) => {
+      if (!lastFrameTime) lastFrameTime = time;
+      const delta = time - lastFrameTime;
+      lastFrameTime = time;
+
+      if (!isDragging) {
+        offset -= (SPEED_PX_PER_SEC * delta) / 1000;
+        wrapOffset();
+        updateTransform();
       }
+      rafId = window.requestAnimationFrame(animate);
     };
 
-    buildTrack();
-    window.addEventListener('resize', buildTrack);
-    window.addEventListener('load', buildTrack);
-
-    let isDragging = false;
-    let lastPointerX = 0;
-    let dragOffset = 0;
-
-    const updateDragOffset = () => {
-      dragLayer.style.setProperty('--drag-offset', `${dragOffset}px`);
+    const stopAnimation = () => {
+      if (rafId) {
+        window.cancelAnimationFrame(rafId);
+        rafId = null;
+      }
+      lastFrameTime = 0;
     };
 
-    carousel.addEventListener('pointerdown', (event) => {
+    const startAnimation = () => {
+      stopAnimation();
+      rafId = window.requestAnimationFrame(animate);
+    };
+
+    const startDrag = (clientX) => {
       isDragging = true;
-      lastPointerX = event.clientX;
+      lastPointerX = clientX;
       carousel.classList.add('is-dragging');
-      carousel.setPointerCapture(event.pointerId);
-    });
+    };
 
-    carousel.addEventListener('pointermove', (event) => {
+    const moveDrag = (clientX) => {
       if (!isDragging) return;
-      const deltaX = event.clientX - lastPointerX;
-      lastPointerX = event.clientX;
-      dragOffset += deltaX;
-      updateDragOffset();
-    });
+      const deltaX = clientX - lastPointerX;
+      lastPointerX = clientX;
+      offset += deltaX;
+      wrapOffset();
+      updateTransform();
+    };
 
     const endDrag = () => {
       if (!isDragging) return;
@@ -591,8 +607,37 @@ function initCarousel() {
       carousel.classList.remove('is-dragging');
     };
 
-    carousel.addEventListener('pointerup', endDrag);
-    carousel.addEventListener('pointercancel', endDrag);
+    buildTrack();
+    startAnimation();
+    window.addEventListener('resize', () => {
+      buildTrack();
+    });
+
+    carousel.addEventListener('dragstart', (event) => event.preventDefault());
+
+    carousel.addEventListener('mousedown', (event) => {
+      startDrag(event.clientX);
+    });
+
+    window.addEventListener('mousemove', (event) => {
+      moveDrag(event.clientX);
+    });
+
+    window.addEventListener('mouseup', endDrag);
+
+    carousel.addEventListener('touchstart', (event) => {
+      if (!event.touches.length) return;
+      startDrag(event.touches[0].clientX);
+    }, { passive: true });
+
+    carousel.addEventListener('touchmove', (event) => {
+      if (!isDragging || !event.touches.length) return;
+      moveDrag(event.touches[0].clientX);
+      event.preventDefault();
+    }, { passive: false });
+
+    carousel.addEventListener('touchend', endDrag);
+    carousel.addEventListener('touchcancel', endDrag);
   });
 }
 
