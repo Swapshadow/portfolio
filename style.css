@@ -993,12 +993,7 @@ body[data-animations="off"] .reveal-on-scroll {
 }
 
 .hero-visual::after {
-  content: "";
-  position: absolute;
-  inset: 14px;
-  border-radius: var(--radius-md);
-  border: 1px solid rgba(47, 91, 255, 0.18);
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.6);
+  content: none;
 }
 
 .hero-carousel {
@@ -1026,23 +1021,17 @@ body[data-animations="off"] .reveal-on-scroll {
 
 .hero-carousel-item {
   flex: 0 0 auto;
-  height: clamp(100px, 14vw, 120px);
-  border-radius: 14px;
-  border: 1px solid rgba(47, 91, 255, 0.12);
-  background: var(--surface);
-  background: color-mix(in srgb, var(--surface) 90%, white 10%);
-  box-shadow: 0 8px 16px rgba(16, 24, 40, 0.08);
+  height: clamp(120px, 18vw, 165px);
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px 16px;
-  backdrop-filter: blur(6px);
+  padding: 0;
 }
 
 .hero-carousel-item img {
-  height: clamp(88px, 12vw, 110px);
+  height: clamp(110px, 16vw, 150px);
   width: auto;
-  max-width: 160px;
+  max-width: 200px;
   object-fit: contain;
   filter: drop-shadow(0 6px 14px rgba(20, 30, 60, 0.12));
 }
