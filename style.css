@@ -719,11 +719,43 @@ body[data-animations="off"] .reveal-on-scroll {
   gap: 24px;
 }
 
-.logo {
-  font-weight: 600;
-  letter-spacing: 0.3em;
-  font-size: 0.9rem;
-  text-transform: uppercase;
+.logo-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  border-radius: 10px;
+  color: inherit;
+  text-decoration: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.logo-link:hover {
+  opacity: 0.85;
+  transform: translateY(-1px);
+}
+
+.logo-link:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.site-logo {
+  display: block;
+  height: 28px;
+  width: auto;
+}
+
+@media (max-width: 768px) {
+  .site-logo {
+    height: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .site-logo {
+    height: 22px;
+  }
 }
 
 .nav-actions {
