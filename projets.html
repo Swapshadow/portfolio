@@ -171,10 +171,15 @@
     <div class="container footer-content">
       <p>D’autres missions sont en cours de préparation.</p>
       <div class="footer-contact" aria-label="Coordonnées">
-        <a class="footer-icon" href="mailto:terrazzoni.corsica@proton.me" aria-label="Envoyer un email">
+        <a class="footer-icon" href="#" data-contact-label="Email" data-contact-value="terrazzoni.corsica@proton.me" data-contact-href="mailto:terrazzoni.corsica@proton.me" aria-label="Envoyer un email">
           <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
             <polyline points="22,6 12,13 2,6"></polyline>
+          </svg>
+        </a>
+        <a class="footer-icon" href="#" data-contact-label="Téléphone" data-contact-value="0778102076" data-contact-href="tel:0778102076" aria-label="Téléphone">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.86 19.86 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
           </svg>
         </a>
         <a class="footer-icon" href="https://www.linkedin.com/in/jean-baptiste-terrazzoni" target="_blank" rel="noreferrer" aria-label="LinkedIn">
@@ -199,6 +204,14 @@
       </div>
     </div>
   </footer>
+  <div class="contact-modal" id="contact-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="contact-modal-title">
+    <div class="contact-modal__overlay" data-modal-close></div>
+    <div class="contact-modal__content">
+      <button class="contact-modal__close" type="button" data-modal-close aria-label="Fermer">×</button>
+      <h2 class="contact-modal__title" id="contact-modal-title">Contact</h2>
+      <p class="contact-modal__value"><a id="contact-modal-link" href="#">Contact</a></p>
+    </div>
+  </div>
   <script src="script.js" defer></script>
 </body>
 </html>
