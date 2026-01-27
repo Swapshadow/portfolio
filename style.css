@@ -983,12 +983,12 @@ body[data-animations="off"] .reveal-on-scroll {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 220px;
-  padding: 18px;
-  border-radius: var(--radius-lg);
-  background: linear-gradient(145deg, var(--hero-visual-start), var(--hero-visual-end));
+  min-height: auto;
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   transition: background-color 0.3s ease;
 }
 
@@ -1034,6 +1034,7 @@ body[data-animations="off"] .reveal-on-scroll {
   max-width: 200px;
   object-fit: contain;
   filter: drop-shadow(0 6px 14px rgba(20, 30, 60, 0.12));
+  mix-blend-mode: multiply;
 }
 
 .voxel-stack {
