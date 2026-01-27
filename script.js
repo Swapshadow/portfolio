@@ -648,20 +648,54 @@ async function loadRssFeed({ key, url, label, container }) {
 }
 
 async function fetchRssFeed(url) {
-  const proxyUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`;
-  const controller = new AbortController();
-  const timeoutId = setTimeout(() => controller.abort(), RSS_TIMEOUT_MS);
+  const sources = [
+    { type: 'xml', url: `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}` },
+    { type: 'json', url: `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(url)}` },
+  ];
+  let lastError = null;
 
-  try {
-    const response = await fetch(proxyUrl, { signal: controller.signal, cache: 'no-store' });
-    if (!response.ok) {
-      throw new Error('Flux inaccessible');
+  for (const source of sources) {
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), RSS_TIMEOUT_MS);
+    try {
+      const response = await fetch(source.url, { signal: controller.signal, cache: 'no-store' });
+      if (!response.ok) {
+        throw new Error('Flux inaccessible');
+      }
+      if (source.type === 'json') {
+        const payload = await response.json();
+        const items = parseRssJsonItems(payload);
+        if (items.length) {
+          return items;
+        }
+        continue;
+      }
+      const text = await response.text();
+      const items = parseRssItems(text);
+      if (items.length) {
+        return items;
+      }
+    } catch (error) {
+      lastError = error;
+    } finally {
+      clearTimeout(timeoutId);
     }
-    const text = await response.text();
-    return parseRssItems(text);
-  } finally {
-    clearTimeout(timeoutId);
   }
+
+  throw lastError || new Error('Flux inaccessible');
+}
+
+function parseRssJsonItems(payload) {
+  const items = Array.isArray(payload?.items) ? payload.items : [];
+  return items.slice(0, RSS_MAX_ITEMS).map((item) => {
+    const title = item?.title?.trim() || 'Sans titre';
+    const link = item?.link || item?.guid || '#';
+    const pubDate = item?.pubDate || item?.published || '';
+    const description = item?.description || item?.content || '';
+    const date = formatRssDate(pubDate);
+    const excerpt = buildExcerpt(description);
+    return { title, link, date, excerpt };
+  });
 }
 
 function parseRssItems(xmlText) {
