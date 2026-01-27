@@ -1,0 +1,971 @@
+define.alias("@glimmer/component/-private/ember-component-manager","publishing-entity/component-managers/glimmer")
+define("publishing-entity/components/-dynamic-element-alt",["exports","@glimmer/component"],(function(e,t){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+class n extends t.default{}e.default=n}))
+define("publishing-entity/components/-dynamic-element",["exports","@glimmer/component"],(function(e,t){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+class n extends t.default{}e.default=n}))
+define.alias("ember-accordion/components/accordion-header","publishing-entity/components/accordion-header")
+define.alias("ember-accordion/components/accordion-item","publishing-entity/components/accordion-item")
+define.alias("ember-accordion/components/accordion-list","publishing-entity/components/accordion-list")
+define.alias("ember-accordion/components/accordion-panel","publishing-entity/components/accordion-panel")
+define("publishing-entity/components/add-photo-prompt",["exports","@ember/template-factory","@ember/component/template-only","@ember/component","ember-cli-pemberly-i18n/helpers/t","hue-web-icons/components/illustration"],(function(e,t,n,i,l,o){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+const s=(0,i.setComponentTemplate)((0,t.createTemplateFactory)({id:"0CE8ef5G",block:'[[[1,"\\n"],[1,"  "],[10,0],[14,0,"publishing-entity-header__add-photo-prompt"],[14,"data-test-publishing-entity-add-photo-prompt","true"],[12],[1,"\\n    "],[10,"figure"],[14,0,"mr2"],[12],[1,"\\n      "],[8,[32,0],null,[["@type","@name","@size"],["microspot","camera","small"]],null],[1,"\\n    "],[13],[1,"\\n    "],[10,0],[12],[1,"\\n      "],[10,"h2"],[14,0,"t-14 t-black t-bold mb1"],[12],[1,"\\n        "],[1,[28,[32,1],["i18n_add_newsletter_photo_headline","publishing-entity/components/add-photo-prompt"],null]],[1,"\\n      "],[13],[1,"\\n      "],[10,2],[14,0,"t-14 t-black"],[12],[1,"\\n        "],[1,[28,[32,1],["i18n_add_newsletter_photo_subheadline","publishing-entity/components/add-photo-prompt"],null]],[1,"\\n      "],[13],[1,"\\n    "],[13],[1,"\\n  "],[13],[1,"\\n"]],[],false,[]]',moduleName:"publishing-entity/components/add-photo-prompt.gts",scope:()=>[o.default,l.default],isStrictMode:!0}),(0,n.default)("add-photo-prompt","AddPhotoPrompt"))
+e.default=s}))
+define.alias("address-ui/components/address-entity-lockup","publishing-entity/components/address-entity-lockup")
+define.alias("address-ui/components/address-field-set","publishing-entity/components/address-field-set")
+define.alias("address-ui/components/address-form","publishing-entity/components/address-form")
+define.alias("ember-customer-onboarding/components/customer-verification/address-selection","publishing-entity/components/address-selection")
+define.alias("ember-tax/components/addresses-cell","publishing-entity/components/addresses-cell")
+define.alias("helpcenter-in-product-ember/components/ai-search-discovery","publishing-entity/components/ai-search-discovery")
+define.alias("helpcenter-in-product-ember/components/ai-summary","publishing-entity/components/ai-summary")
+define("publishing-entity/components/analytics-entrypoint",["exports","@babel/runtime/helpers/esm/initializerDefineProperty","@babel/runtime/helpers/esm/defineProperty","@babel/runtime/helpers/esm/applyDecoratedDescriptor","@babel/runtime/helpers/esm/initializerWarningHelper","@ember/template-factory","@ember/component","@glimmer/component","@ember/service","artdeco-card/components/artdeco-card","app-aware-link/components/app-aware-link","ember-cli-pemberly-tracking/modifiers/track-interaction","analytics-tools-shared/components/trend-text","text-view-model/components/text-view-model-v2","hue-web-icons/components/icon","ember-cli-pemberly-i18n/helpers/t"],(function(e,t,n,i,l,o,s,a,r,p,d,c,m,u,b,h){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+var y,f,g
+e.default=(0,s.setComponentTemplate)((0,o.createTemplateFactory)({id:"QaYhipjS",block:'[[[1,"\\n"],[1,"    "],[8,[32,0],[[24,0,"publishing-entity-analytics-entrypoint"],[24,"data-test-publishing-entity-analytics-entrypoint",""]],null,[["default"],[[[[1,"\\n      "],[8,[32,1],[[16,"aria-label",[28,[32,2],["i18n_analytics_entrypoint_a11y","publishing-entity/components/analytics-entrypoint"],[["totalCount","unit","trendText","description"],[[30,0,["analyticsBannerData","totalCount"]],[30,0,["analyticsBannerData","unit","text"]],[30,0,["trendA11yText"]],[30,0,["analyticsBannerData","description","text"]]]]]],[24,0,"display-flex justify-space-between"],[24,"data-test-publishing-entity-analytics-entrypoint-link",""],[4,[32,3],["newsletter_anlaytics_banner"],null]],[["@href"],[[30,0,["ctaUrl"]]]],[["default"],[[[[1,"\\n        "],[10,1],[14,0,"display-flex justify-space-between"],[12],[1,"\\n          "],[10,"h3"],[14,0,"text-body-small-bold t-black"],[14,"data-test-publishing-entity-analytics-entrypoint-title",""],[12],[1,"\\n            "],[1,[28,[32,2],["i18n_num_subscriber","publishing-entity/components/analytics-entrypoint"],[["value"],[[30,0,["analyticsBannerData","totalCount"]]]]]],[1,"\\n            "],[8,[32,4],null,[["@tvm"],[[30,0,["analyticsBannerData","unit"]]]],null],[1,"\\n          "],[13],[1,"\\n          "],[10,0],[14,0,"display-flex ml2"],[12],[1,"\\n            "],[8,[32,5],null,[["@percentageChange"],[[30,0,["analyticsBannerData","percentageChange"]]]],null],[1,"\\n            "],[10,1],[14,0,"text-body-xsmall align-items-center t-black--light inline-flex ml1 mr2"],[14,"data-test-publishing-entity-analytics-entrypoint-description",""],[12],[1,"\\n"],[41,[30,0,["analyticsBannerData","description"]],[[[1,"                "],[8,[32,4],null,[["@tvm"],[[30,0,["analyticsBannerData","description"]]]],null],[1,"\\n"]],[]],null],[1,"            "],[13],[1,"\\n          "],[13],[1,"\\n        "],[13],[1,"\\n        "],[10,1],[14,0,"display-flex align-items-center ml2"],[14,"data-test-publishing-entity-analytics-entrypoint-view-analytics",""],[12],[1,"\\n          "],[10,"h3"],[14,0,"t-14 t-bold t-black--light"],[14,"data-test-publishing-entity-analytics-entrypoint-view-analytics-text",""],[12],[1,"\\n            "],[1,[28,[32,2],["i18n_analytics_entrypoint_right_cta","publishing-entity/components/analytics-entrypoint"],null]],[1,"\\n          "],[13],[1,"\\n          "],[10,1],[14,0,"align-items-center inline-flex ml1 t-black--light"],[14,"data-test-publishing-entity-analytics-entrypoint-view-analytics-icon",""],[12],[1,"\\n            "],[8,[32,6],null,[["@type","@size","@name"],["system","small","arrow-right"]],null],[1,"\\n          "],[13],[1,"\\n        "],[13],[1,"\\n      "]],[]]]]],[1,"\\n    "]],[]]]]],[1,"\\n  "]],[],false,["if"]]',moduleName:"publishing-entity/components/analytics-entrypoint.gjs",scope:()=>[p.default,d.default,h.default,c.default,u.default,m.default,b.default],isStrictMode:!0}),(y=(0,r.inject)("i18n"),f=class e extends a.default{constructor(){super(...arguments);(0,t.default)(this,"i18n",g,this)}get analyticsBannerData(){return this.args.analyticsBanner}get ctaUrl(){return this.analyticsBannerData.ctaUrl}get percentChangeDirection(){const{percentageChange:e}=this.analyticsBannerData
+return e>0?"increase":e<0?"decrease":"neutral"}get trendA11yText(){const{percentChangeDirection:t,i18n:n}=this
+return("neutral"===t?n.lookupTranslation(e,"i18n_i18n_analytics_entrypoint_trend_neutral_a11y")():n.lookupTranslation(e,"i18n_analytics_entrypoint_trend_a11y")([{trend:t,percent:this.analyticsBannerData.percentageChange}]))??""}},g=(0,i.default)(f.prototype,"i18n",[y],{configurable:!0,enumerable:!0,writable:!0,initializer:null}),f))}))
+define.alias("helpcenter-in-product-ember/components/announcement-list-view","publishing-entity/components/announcement-list-view")
+define.alias("helpcenter-in-product-ember/components/announcement-view","publishing-entity/components/announcement-view")
+define.alias("artdeco-button/components/artdeco-button","publishing-entity/components/artdeco-button")
+define.alias("artdeco-datepicker/components/artdeco-calendar","publishing-entity/components/artdeco-calendar")
+define.alias("artdeco-card/components/artdeco-card-image","publishing-entity/components/artdeco-card-image")
+define.alias("artdeco-card/components/artdeco-card","publishing-entity/components/artdeco-card")
+define.alias("artdeco-carousel/components/artdeco-carousel-item","publishing-entity/components/artdeco-carousel-item")
+define.alias("artdeco-carousel/components/artdeco-carousel-slider","publishing-entity/components/artdeco-carousel-slider")
+define.alias("artdeco-carousel/components/artdeco-carousel-title","publishing-entity/components/artdeco-carousel-title")
+define.alias("artdeco-carousel/components/artdeco-carousel","publishing-entity/components/artdeco-carousel")
+define.alias("artdeco-completeness-meter-linear/components/artdeco-completeness-meter-linear","publishing-entity/components/artdeco-completeness-meter-linear")
+define.alias("artdeco-modal/components/artdeco-confirmation-dialog","publishing-entity/components/artdeco-confirmation-dialog")
+define.alias("artdeco-datepicker/components/artdeco-datepicker-embedded-cal","publishing-entity/components/artdeco-datepicker-embedded-cal")
+define.alias("artdeco-datepicker/components/artdeco-datepicker","publishing-entity/components/artdeco-datepicker")
+define.alias("artdeco-datepicker/components/artdeco-daterange-embedded-cal","publishing-entity/components/artdeco-daterange-embedded-cal")
+define.alias("artdeco-datepicker/components/artdeco-daterange","publishing-entity/components/artdeco-daterange")
+define.alias("artdeco-dropdown/components/artdeco-dropdown-content","publishing-entity/components/artdeco-dropdown-content")
+define.alias("artdeco-dropdown/components/artdeco-dropdown-header","publishing-entity/components/artdeco-dropdown-header")
+define.alias("artdeco-dropdown/components/artdeco-dropdown-item","publishing-entity/components/artdeco-dropdown-item")
+define.alias("artdeco-dropdown/components/artdeco-dropdown-trigger","publishing-entity/components/artdeco-dropdown-trigger")
+define.alias("artdeco-dropdown/components/artdeco-dropdown","publishing-entity/components/artdeco-dropdown")
+define.alias("artdeco-empty-state/components/artdeco-empty-state","publishing-entity/components/artdeco-empty-state")
+define.alias("artdeco-entity-lockup/components/artdeco-entity-lockup-badge","publishing-entity/components/artdeco-entity-lockup-badge")
+define.alias("artdeco-entity-lockup/components/artdeco-entity-lockup-caption","publishing-entity/components/artdeco-entity-lockup-caption")
+define.alias("artdeco-entity-lockup/components/artdeco-entity-lockup-content","publishing-entity/components/artdeco-entity-lockup-content")
+define.alias("artdeco-entity-lockup/components/artdeco-entity-lockup-image","publishing-entity/components/artdeco-entity-lockup-image")
+define.alias("artdeco-entity-lockup/components/artdeco-entity-lockup-metadata","publishing-entity/components/artdeco-entity-lockup-metadata")
+define.alias("artdeco-entity-lockup/components/artdeco-entity-lockup-subtitle","publishing-entity/components/artdeco-entity-lockup-subtitle")
+define.alias("artdeco-entity-lockup/components/artdeco-entity-lockup-title","publishing-entity/components/artdeco-entity-lockup-title")
+define.alias("artdeco-entity-lockup/components/artdeco-entity-lockup","publishing-entity/components/artdeco-entity-lockup")
+define.alias("artdeco-entity-pile/components/artdeco-entity-pile","publishing-entity/components/artdeco-entity-pile")
+define.alias("artdeco-hoverables/components/artdeco-hoverable-content","publishing-entity/components/artdeco-hoverable-content")
+define.alias("artdeco-hoverables/components/artdeco-hoverable-trigger","publishing-entity/components/artdeco-hoverable-trigger")
+define.alias("artdeco-inline-feedback/components/artdeco-inline-feedback","publishing-entity/components/artdeco-inline-feedback")
+define.alias("artdeco-loader/components/artdeco-loader","publishing-entity/components/artdeco-loader")
+define.alias("artdeco-modal/components/container","publishing-entity/components/artdeco-modal-container")
+define.alias("artdeco-modal/components/artdeco-modal-content","publishing-entity/components/artdeco-modal-content")
+define.alias("artdeco-modal/components/artdeco-modal-footer","publishing-entity/components/artdeco-modal-footer")
+define.alias("artdeco-modal/components/artdeco-modal-header","publishing-entity/components/artdeco-modal-header")
+define.alias("artdeco-modal/components/artdeco-modal","publishing-entity/components/artdeco-modal")
+define.alias("artdeco-table-styles/components/artdeco-models-table/cell","publishing-entity/components/artdeco-models-table/cell")
+define.alias("artdeco-table-styles/components/artdeco-models-table/columns-dropdown","publishing-entity/components/artdeco-models-table/columns-dropdown")
+define.alias("artdeco-table-styles/components/artdeco-models-table/global-filter","publishing-entity/components/artdeco-models-table/global-filter")
+define.alias("artdeco-table-styles/components/artdeco-models-table/page-size-select","publishing-entity/components/artdeco-models-table/page-size-select")
+define.alias("artdeco-table-styles/components/artdeco-models-table/pagination-numeric","publishing-entity/components/artdeco-models-table/pagination-numeric")
+define.alias("artdeco-table-styles/components/artdeco-models-table/row-filtering-cell","publishing-entity/components/artdeco-models-table/row-filtering-cell")
+define.alias("artdeco-table-styles/components/artdeco-models-table/row-sorting-cell","publishing-entity/components/artdeco-models-table/row-sorting-cell")
+define.alias("artdeco-table-styles/components/artdeco-models-table/row","publishing-entity/components/artdeco-models-table/row")
+define.alias("artdeco-table-styles/components/artdeco-models-table/v4/cell","publishing-entity/components/artdeco-models-table/v4/cell")
+define.alias("artdeco-table-styles/components/artdeco-models-table/v4/columns-dropdown","publishing-entity/components/artdeco-models-table/v4/columns-dropdown")
+define.alias("artdeco-table-styles/components/artdeco-models-table/v4/global-filter","publishing-entity/components/artdeco-models-table/v4/global-filter")
+define.alias("artdeco-table-styles/components/artdeco-models-table/v4/page-size-select","publishing-entity/components/artdeco-models-table/v4/page-size-select")
+define.alias("artdeco-table-styles/components/artdeco-models-table/v4/pagination-numeric","publishing-entity/components/artdeco-models-table/v4/pagination-numeric")
+define.alias("artdeco-table-styles/components/artdeco-models-table/v4/row-filtering-cell","publishing-entity/components/artdeco-models-table/v4/row-filtering-cell")
+define.alias("artdeco-table-styles/components/artdeco-models-table/v4/row-sorting-cell","publishing-entity/components/artdeco-models-table/v4/row-sorting-cell")
+define.alias("artdeco-table-styles/components/artdeco-models-table/v4/row","publishing-entity/components/artdeco-models-table/v4/row")
+define.alias("artdeco-notification-badge/components/artdeco-notification-badge","publishing-entity/components/artdeco-notification-badge")
+define.alias("artdeco-pagination/components/artdeco-pagination-ellipsis","publishing-entity/components/artdeco-pagination-ellipsis")
+define.alias("artdeco-pagination/components/artdeco-pagination-indicator","publishing-entity/components/artdeco-pagination-indicator")
+define.alias("artdeco-pagination/components/artdeco-pagination","publishing-entity/components/artdeco-pagination")
+define.alias("artdeco-pill/components/artdeco-pill-choice-group","publishing-entity/components/artdeco-pill-choice-group")
+define.alias("artdeco-pill/components/artdeco-pill-choice","publishing-entity/components/artdeco-pill-choice")
+define.alias("artdeco-pill/components/artdeco-pill-dismiss","publishing-entity/components/artdeco-pill-dismiss")
+define.alias("artdeco-pill/components/artdeco-pill-input","publishing-entity/components/artdeco-pill-input")
+define.alias("artdeco-pill/components/artdeco-pill-link","publishing-entity/components/artdeco-pill-link")
+define.alias("artdeco-pill/components/artdeco-pill-toggle","publishing-entity/components/artdeco-pill-toggle")
+define.alias("artdeco-slider/components/artdeco-slider","publishing-entity/components/artdeco-slider")
+define.alias("ember-cli-artdeco-tabs/components/artdeco-spotlight-tab","publishing-entity/components/artdeco-spotlight-tab")
+define.alias("ember-cli-artdeco-tabs/components/artdeco-spotlight-tablist","publishing-entity/components/artdeco-spotlight-tablist")
+define.alias("ember-cli-artdeco-tabs/components/artdeco-tab","publishing-entity/components/artdeco-tab")
+define.alias("ember-cli-artdeco-tabs/components/artdeco-tablist","publishing-entity/components/artdeco-tablist")
+define.alias("ember-cli-artdeco-tabs/components/artdeco-tabpanel","publishing-entity/components/artdeco-tabpanel")
+define.alias("ember-cli-artdeco-tabs/components/artdeco-tabs","publishing-entity/components/artdeco-tabs")
+define.alias("artdeco-text-input/components/artdeco-text-input-multi","publishing-entity/components/artdeco-text-input-multi")
+define.alias("artdeco-text-input/components/artdeco-text-input-single","publishing-entity/components/artdeco-text-input-single")
+define.alias("artdeco-text-input/components/artdeco-text-input","publishing-entity/components/artdeco-text-input")
+define.alias("artdeco-toast/components/artdeco-toast-item","publishing-entity/components/artdeco-toast-item")
+define.alias("artdeco-toast/components/artdeco-toasts","publishing-entity/components/artdeco-toasts")
+define.alias("artdeco-toggle/components/artdeco-toggle","publishing-entity/components/artdeco-toggle")
+define.alias("ember-cli-artdeco-typeahead/components/artdeco-typeahead-input","publishing-entity/components/artdeco-typeahead-input")
+define.alias("ember-cli-artdeco-typeahead/components/artdeco-typeahead-result","publishing-entity/components/artdeco-typeahead-result")
+define.alias("ember-cli-artdeco-typeahead/components/artdeco-typeahead-results-list","publishing-entity/components/artdeco-typeahead-results-list")
+define.alias("ember-cli-artdeco-typeahead/components/artdeco-typeahead","publishing-entity/components/artdeco-typeahead")
+define.alias("helpcenter-in-product-ember/components/article-link","publishing-entity/components/article-link")
+define.alias("helpcenter-in-product-ember/components/article-view","publishing-entity/components/article-view")
+define.alias("ember-semaphore/components/block-profile","publishing-entity/components/block-profile")
+define.alias("ember-customer-onboarding/components/business-entity-lockup","publishing-entity/components/business-entity-lockup")
+define.alias("ember-customer-onboarding/components/business-information-container","publishing-entity/components/business-information-container")
+define.alias("ember-customer-onboarding/components/business-information-container/add-business-info","publishing-entity/components/business-information-container/add-business-info")
+define.alias("ember-customer-onboarding/components/business-information-container/add-business-info/address-selection-modal","publishing-entity/components/business-information-container/add-business-info/address-selection-modal")
+define.alias("ember-customer-onboarding/components/business-information-container/add-business-info/country-dropdown","publishing-entity/components/business-information-container/add-business-info/country-dropdown")
+define.alias("ember-customer-onboarding/components/business-information-container/add-business-info/manual-flow","publishing-entity/components/business-information-container/add-business-info/manual-flow")
+define.alias("ember-customer-onboarding/components/business-information-container/business-info-header","publishing-entity/components/business-information-container/business-info-header")
+define.alias("ember-customer-onboarding/components/business-information-container/business-info-lockup-view","publishing-entity/components/business-information-container/business-info-lockup-view")
+define.alias("ember-customer-onboarding/components/business-information-container/business-info-lockup","publishing-entity/components/business-information-container/business-info-lockup")
+define.alias("ember-customer-onboarding/components/business-information-container/business-information-list","publishing-entity/components/business-information-container/business-information-list")
+define.alias("ember-customer-onboarding/components/business-information-container/business-information-locked-view","publishing-entity/components/business-information-container/business-information-locked-view")
+define.alias("ember-customer-onboarding/components/business-information-container/business-information-provider","publishing-entity/components/business-information-container/business-information-provider")
+define.alias("ember-tax/components/business-tax-id-entry","publishing-entity/components/business-tax-id-entry")
+define.alias("ember-tax/components/business-tax-id-entry/ui","publishing-entity/components/business-tax-id-entry/ui")
+define.alias("helpcenter-in-product-ember/components/checklist","publishing-entity/components/checklist")
+define.alias("ember-semaphore/components/cleared-content-modal-v2","publishing-entity/components/cleared-content-modal-v2")
+define.alias("ember-semaphore/components/cleared-content-modal","publishing-entity/components/cleared-content-modal")
+define.alias("ember-accordion/components/collapsible-list","publishing-entity/components/collapsible-list")
+define.alias("ember-customer-onboarding/components/common/company-image","publishing-entity/components/common/company-image")
+define.alias("ember-customer-onboarding/components/common/tooltip","publishing-entity/components/common/tooltip")
+define("publishing-entity/components/company-entity-header",["exports","@ember/template-factory","@ember/component","publishing-entity/components/entity-header","app-aware-link/components/app-aware-link","ember-cli-pemberly-i18n/helpers/t","@glimmer/component","ember-vector-images/components/lazy-image"],(function(e,t,n,i,l,o,s,a){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+class r extends s.default{get entityNavigationUrl(){var e,t,n
+return null===(e=this.args.entity)||void 0===e||null===(t=e.author)||void 0===t||null===(n=t.companyUrn)||void 0===n?void 0:n.url}get entityAuthorName(){var e,t,n
+return null===(e=this.args.entity)||void 0===e||null===(t=e.author)||void 0===t||null===(n=t.companyUrn)||void 0===n?void 0:n.name}get entityAuthorLogo(){var e,t,n,i
+return null===(e=this.args.entity)||void 0===e||null===(t=e.author)||void 0===t||null===(n=t.companyUrn)||void 0===n||null===(i=n.logoResolutionResult)||void 0===i?void 0:i.vectorImage}}e.default=r;(0,n.setComponentTemplate)((0,t.createTemplateFactory)({id:"9IEqCl9V",block:'[[[1,"\\n"],[1,"    "],[8,[32,0],null,[["@displayFlippedButtons","@entity","@entityType","@isConfirmationModalEnabled","@isSubscribed","@isUserAuthor","@onCopyLink","@onFollowClick","@urlToShare","@updateField"],[[30,1],[30,2],[30,3],[30,4],[30,5],[30,6],[30,7],[30,8],[30,9],[30,10]]],[["author"],[[[[1,"\\n        "],[8,[32,1],[[24,"control-name","view_company"],[24,"data-test-publishing-author-company-route-link","true"]],[["@href"],[[30,0,["entityNavigationUrl"]]]],[["default"],[[[[1,"\\n          "],[10,0],[14,0,"display-flex align-items-center"],[12],[1,"\\n            "],[8,[32,2],[[24,"data-test-publishing-company-image","true"]],[["@alt","@class","@image","@ghostType","@width"],["","EntityPhoto-square-3 mr4",[30,0,["entityAuthorLogo"]],"company",40]],null],[1,"\\n            "],[10,0],[14,0,"t-12 publishing-entity-author-data"],[12],[1,"\\n              "],[10,2],[14,0,"t-12 truncate"],[14,"data-test-publishing-company-name","true"],[12],[1,"\\n                "],[1,[28,[32,3],["i18n_company_author_name","publishing-entity/components/company-entity-header"],[["authorName"],[[30,0,["entityAuthorName"]]]]]],[1,"\\n              "],[13],[1,"\\n\\n              "],[10,2],[14,0,"t-12 t-black--light truncate"],[14,"data-test-publishing-company-follow","true"],[12],[1,"\\n                "],[1,[28,[32,3],["i18n_company_followers","publishing-entity/components/company-entity-header"],[["count"],[[30,11]]]]],[1,"\\n              "],[13],[1,"\\n            "],[13],[1,"\\n          "],[13],[1,"\\n        "]],[]]]]],[1,"\\n      "]],[]]]]],[1,"\\n  "]],["@displayFlippedButtons","@entity","@entityType","@isConfirmationModalEnabled","@isSubscribed","@isUserAuthor","@onCopyLink","@onFollowClick","@urlToShare","@updateField","@followerCount"],false,[]]',moduleName:"publishing-entity/components/company-entity-header.gjs",scope:()=>[i.default,l.default,a.default,o.default],isStrictMode:!0}),r)}))
+define("publishing-entity/components/company-newsletter",["exports","@babel/runtime/helpers/esm/initializerDefineProperty","@babel/runtime/helpers/esm/defineProperty","@babel/runtime/helpers/esm/applyDecoratedDescriptor","@babel/runtime/helpers/esm/initializerWarningHelper","@ember/template-factory","@ember/component","@ember/destroyable","rsvp","organization-manage-community/utils/data-providers","global-helpers/helpers/load","@glimmer/tracking","@glimmer/component","@ember/service","@ember/runloop","@ember/object","scaffold-layout/components/layout","community-panel/components/community-panel","publishing-entity/components/company-entity-header","ember-cli-pemberly-i18n/helpers/t","publishing-entity/components/newsletter-edition-info","@ember/render-modifiers/modifiers/did-insert","global-helpers/helpers/and","global-helpers/helpers/not","publishing-entity/components/entity-feed-empty-state","scaffold-finite-scroll/components/finite-scroll","feed-shared/components/update/generic-update","boosting/components/member/boost-header","ads/components/ad-banner","organization-manage-community/components/manage-card","global-helpers/helpers/or","ember-set-helper/helpers/set","@ember/helper","text-view-model/components/text-view-model-v2","global-footer/components/global-footer-compact","organization-manage-community/components/all-events-modal","artdeco-empty-state/components/artdeco-empty-state","events-form-modal/components/create-event-modal","publishing-entity/components/analytics-entrypoint","publishing-shared/components/-private/i18n-strings"],(function(e,t,n,i,l,o,s,a,r,p,d,c,m,u,b,h,y,f,g,w,v,_,k,x,C,O,E,j,M,S,P,T,D,z,N,U,A,F,L,I){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+var q,B,R,H,V,W,G,Y,$,Q
+e.default=(0,s.setComponentTemplate)((0,o.createTemplateFactory)({id:"+4KOfCY4",block:'[[[1,"\\n"],[1,"    "],[8,[32,0],null,[["@template","@hasSidebarToggle"],["sidebar-main-aside",true]],[["sidebar","main","aside"],[[[[1,"\\n        "],[8,[30,1,["Sticky"]],null,null,[["default"],[[[[1,"\\n          "],[8,[32,1],[[24,0,"left-rail-container artdeco-card overflow-hidden"],[24,"data-test-newsletter-left-community-panel","true"]],[["@packages"],[[30,2,["entitiesFollowed"]]]],null],[1,"\\n        "]],[]]]]],[1,"\\n      "]],[1]],[[[1,"\\n"],[41,[30,2,["newsletter","analyticsBanner"]],[[[1,"          "],[8,[32,2],null,[["@analyticsBanner"],[[30,2,["newsletter","analyticsBanner"]]]],null],[1,"\\n"]],[]],null],[1,"        "],[10,"section"],[14,0,"core-rail"],[12],[1,"\\n          "],[8,[32,3],null,[["@displayFlippedButtons","@entity","@entityType","@followerCount","@isConfirmationModalEnabled","@isSubscribed","@isUserAuthor","@onCopyLink","@onFollowClick","@urlToShare","@updateField"],[[30,3],[30,2,["newsletter"]],[28,[32,4],["i18n_newsletter_title","publishing-entity/components/company-newsletter"],null],[30,2,["newsletterAuthorCompany","followingState","followerCount"]],[30,4],[30,5],[30,0,["isCompanyAdminOfAuthor"]],[30,6],[30,7],[30,2,["newsletter","shareableLink"]],[30,8]]],null],[1,"\\n\\n          "],[8,[32,5],null,[["@issueCount","@isViewerAuthor","@onCreateNewEditionClick"],[[30,2,["newsletter","issueCount"]],[30,0,["isCompanyAdminOfAuthor"]],[30,9]]],null],[1,"\\n\\n"],[41,[30,10],[[[1,"            "],[10,"section"],[12],[1,"\\n              "],[8,[32,6],null,[["@headline","@message","@illustration","@mercadoSize"],[[30,0,["i18nErrorLoadingUpdatesTitle"]],[30,0,["i18nErrorLoadingUpdatesDescription"]],"error-server",2]],null],[1,"\\n            "],[13],[1,"\\n"]],[]],[[[1,"            "],[11,"section"],[24,0,"publishing-entity-feed"],[4,[32,7],[[30,11]],null],[12],[1,"\\n"],[41,[28,[32,8],[[30,0,["isCompanyAdminOfAuthor"]],[28,[32,9],[[30,2,["articles","elements","length"]]],null]],null],[[[1,"                "],[8,[32,10],null,[["@isPageAuthor"],[true]],null],[1,"\\n"]],[]],[[[1,"                "],[8,[32,11],null,[["@isDisabled","@items","@onTrigger"],[[28,[32,9],[[30,12]],null],[30,2,["articles","elements"]],[30,13]]],[["content"],[[[[1,"\\n"],[42,[28,[31,2],[[28,[31,2],[[30,15]],null]],null],null,[[[1,"                      "],[8,[30,14],null,[["@index"],[[30,17]]],[["default"],[[[[1,"\\n"],[41,[30,16,["boostHeader"]],[[[1,"                          "],[8,[32,12],[[24,0,"publishing-entity-feed-update__boost-header"]],[["@model","@additionalArgs"],[[30,16,["boostHeader"]],[28,[32,13],null,[["entrypoint","componentStyles"],["newsletter-feed",[28,[32,13],null,[["textClasses","actionClasses","tooltipTriggerClasses","tooltipContentClasses","tooltipContainerClasses"],["text-body-small inline-block","mlA","t-black--light","publishing-entity-feed-update__disclaimer-hovercard","publishing-entity-feed-update__boost-more-info-btn"]]]]]]]],null],[1,"\\n"]],[]],null],[1,"                        "],[8,[32,14],[[16,0,[52,[30,16,["boostHeader"]],"publishing-entity-feed-update__generic-update--has-boost-header"]]],[["@model","@isDashEnabled","@hideSocialActions","@hideBottomBorder","@hideCaEntryPoint"],[[30,16],true,true,true,true]],null],[1,"\\n                      "]],[]]]]],[1,"\\n"]],[16,17]],null],[1,"                  "]],[14,15]]]]],[1,"\\n"]],[]]],[1,"            "],[13],[1,"\\n"]],[]]],[1,"        "],[13],[1,"\\n      "]],[]],[[[1,"\\n        "],[8,[30,18,["Sticky"]],null,null,[["default"],[[[[1,"\\n          "],[8,[32,15],[[16,0,[29,["artdeco-card pt1 ",[52,[30,0,["isCompanyAdminOfAuthor"]],"mb3"]]]],[24,"data-test-newsletter-ad-right-module","true"]],[["@pageZone","@slotSize","@zone"],["PAGE_ZONE_BODY_RIGHT","300x250","NOTIFICATIONS"]],null],[1,"\\n"],[41,[30,0,["isCompanyAdminOfAuthor"]],[[[1,"            "],[8,[32,16],null,[["@asyncDataCollection"],[[28,[32,17],[[30,0,["eventsListPromise"]],[30,0,["newslettersAsyncData"]]],null]]],[["default"],[[[[1,"\\n"],[41,[28,[32,18],[[30,2,["newsletterAuthorCompany","viewerPermissions","canReadEvents"]],[30,0,["canCreateEvent"]]],null],[[[1,"                "],[8,[30,19,["Tab"]],[[24,0,"artdeco-list__item"],[24,"data-test-org-admin-manage-card-events","true"]],[["@header","@createBtnLabel","@errorText","@loadingText","@tabIconName","@createBtnIconName","@footerButton","@createInteractionName","@canCreate","@asyncData","@createHandler"],[[28,[32,4],["i18n_events_module_newsletter_header","publishing-entity/components/company-newsletter"],null],[28,[32,4],["i18n_events_create_event_newsletter_cta_a11y","publishing-entity/components/company-newsletter"],[["organizerName"],[[30,2,["newsletterAuthorCompany","name"]]]]],[28,[32,4],["i18n_newsletter_unable_to_load_events","publishing-entity/components/company-newsletter"],[["organizerName"],[[30,2,["newsletterAuthorCompany","name"]]]]],[28,[32,4],["i18n_events_newsletter_loading_cta_a11y","publishing-entity/components/company-newsletter"],[["organizerName"],[[30,2,["newsletterAuthorCompany","name"]]]]],"calendar","add",[28,[32,13],null,[["action","controlName","label","type"],[[28,[32,19],[[30,0],"showManageEventsModal",true],null],"see_all_events_from_page_admin_right_rail",[28,[32,4],["i18n_events_newsletter_show_all_events_cta","publishing-entity/components/company-newsletter"],null],"button"]]],"create_event_from_page_admin_right_rail",[30,0,["canCreateEvent"]],[30,0,["eventsListPromise"]],[52,[30,20],[28,[32,20],[[30,0,["openCreateEventModal"]],"PAGE-EVENT-MODULE-PLUS"],null]]]],[["default"],[[[[1,"\\n"],[41,[30,2,["newsletterAuthorCompany","viewerPermissions","canReadEvents"]],[[[42,[28,[31,2],[[28,[31,2],[[30,21,["loadedItemsToShow"]]],null]],null],null,[[[1,"                      "],[8,[30,19,["Item"]],null,null,[["default"],[[[[1,"\\n                        "],[8,[30,23,["Title"]],null,null,[["default"],[[[[1,"\\n                          "],[8,[32,21],null,[["@tvm"],[[30,22,["title"]]]],null],[1,"\\n                        "]],[]]]]],[1,"\\n                        "],[8,[30,23,["Subtitle"]],null,null,[["default"],[[[[1,"\\n                          "],[8,[32,21],null,[["@tvm"],[[30,22,["primarySubtitle"]]]],null],[1,"\\n                        "]],[]]]]],[1,"\\n                      "]],[23]]]]],[1,"\\n"]],[22]],null]],[]],null],[1,"                "]],[21]]]]],[1,"\\n"]],[]],null],[41,[30,2,["newsletterAuthorCompany","viewerPermissions","canCreateOrganicShare"]],[[[1,"                "],[8,[30,19,["Tab"]],[[24,0,"artdeco-list__item"],[24,"data-test-org-admin-manage-card-newsletters","true"]],[["@header","@createBtnLabel","@errorText","@loadingText","@tabIconName","@asyncData"],[[28,[32,4],["i18n_newsletter_module_header_entity_page","publishing-entity/components/company-newsletter"],null],[28,[32,4],["i18n_newsletter_edit_cta_entity_page_a11y","publishing-entity/components/company-newsletter"],[["organizerName"],[[30,2,["newsletterAuthorCompany","name"]]]]],[28,[32,4],["i18n_unable_to_load_newsletters_entity_page","publishing-entity/components/company-newsletter"],[["organizerName"],[[30,2,["newsletterAuthorCompany","name"]]]]],[28,[32,4],["i18n_newsletters_loading_cta_entity_page_a11y","publishing-entity/components/company-newsletter"],[["organizerName"],[[30,2,["newsletterAuthorCompany","name"]]]]],"newspaper",[30,0,["newslettersAsyncData"]]]],[["default"],[[[[1,"\\n"],[42,[28,[31,2],[[28,[31,2],[[30,24,["loadedItemsToShow"]]],null]],null],null,[[[1,"                    "],[8,[30,19,["Item"]],null,null,[["default"],[[[[1,"\\n                      "],[8,[30,26,["Title"]],null,null,[["default"],[[[[1,"\\n                        "],[10,1],[14,0,"t-14 t-bold"],[14,"dir","ltr"],[14,"data-test-newsletter__name","true"],[12],[1,"\\n                          "],[1,[30,25,["title"]]],[1,"\\n                        "],[13],[1,"\\n                      "]],[]]]]],[1,"\\n                      "],[8,[30,26,["Subtitle"]],null,null,[["default"],[[[[1,"\\n                        "],[10,2],[14,0,"t-12 t-black--light"],[14,"data-test-newsletter__subscriber-count","true"],[12],[1,"\\n                          "],[1,[28,[32,4],["i18n_newsletter_module_follower_entity_page","publishing-entity/components/company-newsletter"],[["subscriberCount"],[[30,25,["subscribeAction","subscriberCount"]]]]]],[1,"\\n                        "],[13],[1,"\\n                      "]],[]]]]],[1,"\\n                    "]],[26]]]]],[1,"\\n"]],[25]],null],[1,"                "]],[24]]]]],[1,"\\n"]],[]],null],[1,"            "]],[19]]]]],[1,"\\n"]],[]],null],[1,"          "],[8,[32,22],null,null,null],[1,"\\n        "]],[]]]]],[1,"\\n\\n      "]],[18]]]]],[1,"\\n\\n"],[41,[30,0,["isCompanyAdminOfAuthor"]],[[[41,[28,[32,8],[[30,2,["newsletterAuthorCompany","viewerPermissions","canReadEvents"]],[30,0,["showManageEventsModal"]]],null],[[[1,"        "],[8,[32,23],null,[["@organizer","@isMemberViewer","@isOpen","@dismissModal","@organizerName"],[[30,2,["newsletterAuthorCompany","preDashEntityUrn"]],false,[30,0,["showManageEventsModal"]],[28,[32,19],[[30,0],"showManageEventsModal",false],null],[30,2,["newsletterAuthorCompany","name"]]]],[["default"],[[[[1,"\\n"],[41,[30,2,["newsletterAuthorCompany","viewerPermissions","canEditEvents"]],[[[1,"            "],[8,[30,27,["upcomingEventsEmptyState"]],null,null,[["default"],[[[[1,"\\n              "],[8,[32,6],[[24,"data-test-upcoming-events-list-empty","true"]],[["@illustration","@headline","@message","@actionText","@onButtonClick","@ctaDataControlName"],["blank-page-true",[28,[32,4],["i18n_no_upcoming_events_newsletter_heading","publishing-entity/components/company-newsletter"],null],[28,[32,4],["i18n_empty_state_events_newsletter_description","publishing-entity/components/company-newsletter"],null],[52,[30,0,["isCreateEventFeatureEnabled"]],[28,[32,4],["i18n_create_event","publishing-entity/components/company-newsletter"],null]],[28,[32,20],[[30,0,["closeManageEventsModalAndOpenCreateEventModal"]],"PAGE-EVENTS-UPCOMING-EMPTY-STATE"],null],"no_upcoming_events_create_event"]],null],[1,"\\n            "]],[]]]]],[1,"\\n            "],[8,[30,27,["pastEventsEmptyState"]],null,null,[["default"],[[[[1,"\\n              "],[8,[32,6],[[24,"data-test-past-events-list-empty","true"]],[["@illustration","@headline","@message","@actionText","@onButtonClick","@ctaDataControlName"],["blank-page-muted",[28,[32,4],["i18n_no_past_events_newsletter_heading","publishing-entity/components/company-newsletter"],null],[28,[32,4],["i18n_empty_state_events_newsletter_description","publishing-entity/components/company-newsletter"],null],[52,[30,20],[28,[32,4],["i18n_create_event","publishing-entity/components/company-newsletter"],null]],[28,[32,20],[[30,0,["closeManageEventsModalAndOpenCreateEventModal"]],"PAGE-EVENTS-PAST-EMPTY-STATE"],null],"no_past_events_create_event"]],null],[1,"\\n            "]],[]]]]],[1,"\\n"]],[]],[[[1,"            "],[8,[30,27,["upcomingEventsEmptyState"]],null,null,[["default"],[[[[1,"\\n              "],[8,[32,6],[[24,"data-test-upcoming-events-list-empty","true"]],[["@illustration","@headline","@message"],["blank-page-muted",[28,[32,4],["i18n_no_upcoming_events_newsletter_heading","publishing-entity/components/company-newsletter"],null],[28,[32,4],["i18n_empty_state_description_cannot_edit_events_newsletter","publishing-entity/components/company-newsletter"],null]]],null],[1,"\\n            "]],[]]]]],[1,"\\n            "],[8,[30,27,["pastEventsEmptyState"]],null,null,[["default"],[[[[1,"\\n              "],[8,[32,6],[[24,"data-test-past-events-list-empty","true"]],[["@illustration","@headline","@message"],["blank-page-muted",[28,[32,4],["i18n_no_past_events_newsletter_heading","publishing-entity/components/company-newsletter"],null],[28,[32,4],["i18n_empty_state_description_cannot_edit_events_newsletter","publishing-entity/components/company-newsletter"],null]]],null],[1,"\\n            "]],[]]]]],[1,"\\n"]],[]]],[1,"          "],[8,[30,27,["pastEventsListHelpText"]],null,null,[["default"],[[[[1,"\\n            "],[10,0],[14,0,"t-14 t-black--light mh5 pt3"],[14,"data-test-all-events-paginated-list-info","true"],[12],[1,"\\n              "],[1,[28,[32,4],["i18n_event_newsletter_archive_info","publishing-entity/components/company-newsletter"],[["noOfMonths"],[[30,0,["noOfMonthsForEventsArchiving"]]]]]],[1,"\\n            "],[13],[1,"\\n          "]],[]]]]],[1,"\\n        "]],[27]]]]],[1,"\\n"]],[]],null],[1,"\\n"],[41,[30,2,["newsletterAuthorCompany","viewerPermissions","canEditEvents"]],[[[41,[30,20],[[[1,"          "],[8,[32,24],null,[["@context","@closeModal","@isModalOpen","@defaultOrganizingEntity"],[[30,0,["cieEventKey"]],[28,[32,19],[[30,0],"showCreateEventModal",false],null],[30,0,["showCreateEventModal"]],[30,2,["newsletterAuthorCompany"]]]],null],[1,"\\n"]],[]],null]],[]],null]],[]],null],[1,"  "]],["Sidebar","@model","@displayFlippedButtons","@isConfirmationModalEnabled","@isSubscribed","@onCopyLink","@onFollowClick","@updateField","@onCreateNewEditionClick","@caughtErrorLoadingUpdates","@onFeedUpdateLoad","@canInfiniteScroll","@onInfiniteScroll","ItemContainer","items","update","index","Aside","card","@isCreateEventFeatureEnabled","tab","loadedItemToShow","item","tab","loadedItemToShow","item","layout"],false,["if","each","-track-array"]]',moduleName:"publishing-entity/components/company-newsletter.gjs",scope:()=>[y.default,f.default,L.default,g.default,w.default,v.default,A.default,_.default,k.default,x.default,C.default,O.default,j.default,D.hash,E.default,M.default,S.default,D.array,P.default,T.default,D.fn,z.default,N.default,U.default,F.default],isStrictMode:!0}),(q=(0,u.inject)("i18n"),B=(0,u.inject)("locale"),R=(0,u.inject)("@linkedin/ember-restli-graphql@graphql"),H=class extends m.default{constructor(){super(...arguments);(0,t.default)(this,"i18n",V,this);(0,t.default)(this,"locale",W,this);(0,t.default)(this,"graphql",G,this);(0,t.default)(this,"showManageEventsModal",Y,this);(0,t.default)(this,"cieEventKey",$,this);(0,t.default)(this,"showCreateEventModal",Q,this);(0,n.default)(this,"noOfMonthsForEventsArchiving",6)}get canCreateEvent(){return this.args.isCreateEventFeatureEnabled&&(0,h.get)(this.args.model,"newsletterAuthorCompany.viewerPermissions.canEditEvents")}get eventsListPromise(){return this.isCompanyAdminOfAuthor?(0,d.load)(this.fetchEventsHostedByOrganization()):null}get i18nErrorLoadingUpdatesTitle(){return this.i18n.lookupTranslation(I.default,"i18n_error_something_went_wrong")}get i18nErrorLoadingUpdatesDescription(){return this.i18n.lookupTranslation(I.default,"i18n_error_try_refreshing_page")}get isCompanyAdminOfAuthor(){return(0,h.get)(this.args.model,"newsletterAuthorCompany.viewerPermissions.canCreateOrganicShare")}get isCreateEventFeatureEnabled(){const e="cn"===this.locale.requestIpCountryCode
+return this.isCompanyAdminOfAuthor&&!e}get newslettersAsyncData(){return(0,d.load)([(0,h.get)(this.args.model,"newsletter")])}closeManageEventsModalAndOpenCreateEventModal(e){this.openCreateEventModal=!1;(0,b.schedule)("afterRender",(()=>{this.openCreateEventModal(e)}))}fetchEventsHostedByOrganization(){return(0,h.get)(this.args.model,"newsletterAuthorCompany.viewerPermissions.canReadEvents")?this.graphql.executeQuery(...(0,p.getEventsHostedByOrganization)((0,h.get)(this.args.model,"newsletterAuthorCompany.preDashEntityUrn"),[],0,!1,3)).then((e=>{var t
+if(!(0,a.isDestroying)(this))return null===(t=e.data.searchDashClustersByAll.elements)||void 0===t?void 0:t[0]})):(0,r.resolve)()}openCreateEventModal(e){this.showCreateEventModal=!0
+this.cieEventKey=e}},V=(0,i.default)(H.prototype,"i18n",[q],{configurable:!0,enumerable:!0,writable:!0,initializer:null}),W=(0,i.default)(H.prototype,"locale",[B],{configurable:!0,enumerable:!0,writable:!0,initializer:null}),G=(0,i.default)(H.prototype,"graphql",[R],{configurable:!0,enumerable:!0,writable:!0,initializer:null}),Y=(0,i.default)(H.prototype,"showManageEventsModal",[c.tracked],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return!1}}),$=(0,i.default)(H.prototype,"cieEventKey",[c.tracked],{configurable:!0,enumerable:!0,writable:!0,initializer:null}),Q=(0,i.default)(H.prototype,"showCreateEventModal",[c.tracked],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return!1}}),(0,i.default)(H.prototype,"closeManageEventsModalAndOpenCreateEventModal",[h.action],Object.getOwnPropertyDescriptor(H.prototype,"closeManageEventsModalAndOpenCreateEventModal"),H.prototype),(0,i.default)(H.prototype,"fetchEventsHostedByOrganization",[h.action],Object.getOwnPropertyDescriptor(H.prototype,"fetchEventsHostedByOrganization"),H.prototype),(0,i.default)(H.prototype,"openCreateEventModal",[h.action],Object.getOwnPropertyDescriptor(H.prototype,"openCreateEventModal"),H.prototype),H))}))
+define.alias("helpcenter-in-product-ember/components/contextual-help","publishing-entity/components/contextual-help")
+define("publishing-entity/components/copy-subscribe-modal",["exports","@babel/runtime/helpers/esm/initializerDefineProperty","@babel/runtime/helpers/esm/defineProperty","@babel/runtime/helpers/esm/classPrivateMethodGet","@babel/runtime/helpers/esm/applyDecoratedDescriptor","@babel/runtime/helpers/esm/initializerWarningHelper","@ember/template-factory","@ember/component","global-utils/utils/url","@glimmer/component","@ember/service","@glimmer/tracking","@ember/object","artdeco-modal/components/artdeco-modal","ember-cli-pemberly-i18n/helpers/t","@ember/helper","artdeco-button/components/artdeco-button","ember-cli-pemberly-tracking/modifiers/track-interaction","global-helpers/helpers/eq","artdeco-inline-feedback/components/artdeco-inline-feedback","@ember/modifier"],(function(e,t,n,i,l,o,s,a,r,p,d,c,m,u,b,h,y,f,g,w,v){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+var _,k,x,C,O,E,j,M
+e.default=(0,a.setComponentTemplate)((0,s.createTemplateFactory)({id:"LkSunTFb",block:'[[[1,"\\n"],[1,"    "],[8,[32,0],[[24,"data-test-copy-subscribe-modal",""]],[["@size","@isOpen","@dismissModal"],["large",[30,1],[30,0,["onDismiss"]]]],[["default"],[[[[1,"\\n      "],[8,[30,2,["artdeco-modal-header"]],null,null,[["default"],[[[[1,"\\n        "],[10,"h2"],[14,1,"copy-subscribe-modal-header"],[12],[1,"\\n          "],[1,[28,[32,1],["i18n_subscribe_on_linkedin","publishing-entity/components/copy-subscribe-modal"],null]],[1,"\\n        "],[13],[1,"\\n      "]],[]]]]],[1,"\\n\\n      "],[8,[30,2,["artdeco-modal-content"]],null,null,[["default"],[[[[1,"\\n        "],[10,2],[14,0,"text-body-small mb5"],[12],[1,"\\n          "],[1,[28,[32,1],["i18n_modal_description","publishing-entity/components/copy-subscribe-modal"],null]],[1,"\\n        "],[13],[1,"\\n        "],[10,2],[14,0,"text-body-small"],[12],[1,"\\n          "],[1,[28,[32,1],["i18n_terms_of_use","publishing-entity/components/copy-subscribe-modal"],[["termsUrl"],[[28,[32,2],null,[["target","rel","href","data-test-copy-subscribe-modal-terms-of-use","data-control-name"],["_blank","noopener noreferrer",[30,0,["termsOfUse"]],"true","subscribe_link_terms"]]]]]]],[1,"\\n        "],[13],[1,"\\n        "],[10,"hr"],[14,0,"artdeco-divider"],[12],[13],[1,"\\n\\n        "],[10,2],[14,0,"t-16 t-black mb4"],[12],[1,"\\n          "],[1,[28,[32,1],["i18n_subscribe_link","publishing-entity/components/copy-subscribe-modal"],null]],[1,"\\n        "],[13],[1,"\\n\\n        "],[10,0],[14,0,"display-flex justify-space-between align-items-center"],[12],[1,"\\n          "],[10,0],[14,0,"publishing-entity-copy-subscribe-modal--link-area"],[12],[1,"\\n            "],[1,[30,0,["oneClickSubscribeText"]]],[1,"\\n          "],[13],[1,"\\n          "],[8,[32,3],[[24,"data-test-copy-subscribe-modal-copy-link-button",""],[4,[32,4],["click",[30,0,["copyLink"]]],null],[4,[32,5],["subscribe_link_copy_link"],null]],[["@size","@icon","@type","@text"],[2,"add","secondary",[28,[32,1],["i18n_copy_link","publishing-entity/components/copy-subscribe-modal"],null]]],null],[1,"\\n        "],[13],[1,"\\n\\n        "],[10,2],[14,0,"t-16 t-black mt3 mb4"],[12],[1,"\\n          "],[1,[28,[32,1],["i18n_subscribe_button","publishing-entity/components/copy-subscribe-modal"],null]],[1,"\\n        "],[13],[1,"\\n\\n        "],[10,0],[14,0,"display-flex justify-space-between align-items-center"],[12],[1,"\\n          "],[10,0],[14,0,"publishing-entity-copy-subscribe-modal--code-area"],[12],[1,"\\n            "],[8,[32,3],[[24,"tabindex","-1"]],[["@type","@text"],["primary",[28,[32,1],["i18n_subscribe_on_linkedin","publishing-entity/components/copy-subscribe-modal"],null]]],null],[1,"\\n          "],[13],[1,"\\n          "],[8,[32,3],[[24,"data-test-copy-subscribe-modal-copy-code-button",""],[4,[32,4],["click",[30,0,["copyCode"]]],null],[4,[32,5],["subscribe_link_copy_code"],null]],[["@icon","@size","@type","@text"],["add",2,"secondary",[28,[32,1],["i18n_copy_code","publishing-entity/components/copy-subscribe-modal"],null]]],null],[1,"\\n        "],[13],[1,"\\n      "]],[]]]]],[1,"\\n\\n      "],[8,[30,2,["artdeco-modal-footer"]],[[24,0,"display-flex justify-space-between align-items-center flex-row-reverse"]],null,[["default"],[[[[1,"\\n        "],[8,[32,3],[[24,"data-test-copy-subscribe-modal-done-button",""],[4,[32,4],["click",[30,0,["onDismiss"]]],null],[4,[32,5],["subscribe_link_done"],null]],[["@type","@text"],["primary",[28,[32,1],["i18n_done","publishing-entity/components/copy-subscribe-modal"],null]]],null],[1,"\\n"],[41,[28,[32,6],[[30,0,["copiedItem"]],"link"],null],[[[1,"          "],[8,[32,7],null,[["@type","@message"],["success",[28,[32,1],["i18n_link_copied","publishing-entity/components/copy-subscribe-modal"],null]]],null],[1,"\\n"]],[]],[[[41,[28,[32,6],[[30,0,["copiedItem"]],"code"],null],[[[1,"          "],[8,[32,7],null,[["@type","@message"],["success",[28,[32,1],["i18n_code_copied","publishing-entity/components/copy-subscribe-modal"],null]]],null],[1,"\\n"]],[]],[[[41,[28,[32,6],[[30,0,["copiedItem"]],"error"],null],[[[1,"          "],[8,[32,7],null,[["@type","@message"],["error",[28,[32,1],["i18n_copying_error","publishing-entity/components/copy-subscribe-modal"],null]]],null],[1,"\\n        "]],[]],null]],[]]]],[]]],[1,"      "]],[]]]]],[1,"\\n    "]],[2]]]]],[1,"\\n  "]],["@isOpen","modal"],false,["if"]]',moduleName:"publishing-entity/components/copy-subscribe-modal.gjs",scope:()=>[u.default,b.default,h.hash,y.default,v.on,f.default,g.default,w.default],isStrictMode:!0}),(_=(0,d.inject)("global-services@clipboard"),k=(0,d.inject)("i18n"),x=(j=new WeakSet,M=new WeakSet,class e extends p.default{constructor(){super(...arguments)
+M.add(this)
+j.add(this);(0,t.default)(this,"clipboard",C,this);(0,t.default)(this,"i18n",O,this);(0,t.default)(this,"copiedItem",E,this);(0,n.default)(this,"termsOfUse",`https://legal.${(0,r.getDomainWithoutWWW)()}/plugin-terms-of-use`)}get subscribeOnLinkedInText(){return this.i18n.lookupTranslation(e,"i18n_subscribe_on_linkedin")()}get oneClickSubscribeText(){return`${this.subscribeOnLinkedInText} ${(0,i.default)(this,j,S).call(this)}`}copyCode(){const e=`<a class="libutton" href="${(0,i.default)(this,j,S).call(this)}" target="_blank">${this.subscribeOnLinkedInText}</a>`;(0,i.default)(this,M,P).call(this,'<style>\n      .libutton {\n        display: flex;\n        flex-direction: column;\n        justify-content: center;\n        padding: 7px;\n        text-align: center;\n        outline: none;\n        text-decoration: none !important;\n        color: #ffffff !important;\n        width: 200px;\n        height: 32px;\n        border-radius: 16px;\n        background-color: #0A66C2;\n        font-family: "SF Pro Text", Helvetica, sans-serif;\n      }\n    </style>\r\n'+e,"code")}copyLink(){(0,i.default)(this,M,P).call(this,this.oneClickSubscribeText,"link")}onDismiss(){var e
+null===(e=this.args)||void 0===e||e.onDismiss()
+this.copiedItem=""}}),C=(0,l.default)(x.prototype,"clipboard",[_],{configurable:!0,enumerable:!0,writable:!0,initializer:null}),O=(0,l.default)(x.prototype,"i18n",[k],{configurable:!0,enumerable:!0,writable:!0,initializer:null}),E=(0,l.default)(x.prototype,"copiedItem",[c.tracked],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return""}}),(0,l.default)(x.prototype,"copyCode",[m.action],Object.getOwnPropertyDescriptor(x.prototype,"copyCode"),x.prototype),(0,l.default)(x.prototype,"copyLink",[m.action],Object.getOwnPropertyDescriptor(x.prototype,"copyLink"),x.prototype),(0,l.default)(x.prototype,"onDismiss",[m.action],Object.getOwnPropertyDescriptor(x.prototype,"onDismiss"),x.prototype),x))
+function S(){const e={entityUrn:(0,m.get)(this.args,"newsletterId")}
+return(0,r.addQueryParams)(`${(0,r.getDomainUrl)()}/build-relation/newsletter-follow`,e)}function P(e,t){this.clipboard.canCopyToClipboard&&this.clipboard.copyToClipboard(e)?this.copiedItem=t:this.copiedItem="error"}}))
+define.alias("ember-vector-images/components/custom-image","publishing-entity/components/custom-image")
+define.alias("ember-customer-onboarding/components/customer-verification","publishing-entity/components/customer-verification")
+define.alias("ember-customer-onboarding/components/customer-verification/form-element/header","publishing-entity/components/customer-verification/form-element/header")
+define.alias("ember-tax/components/date-cell","publishing-entity/components/date-cell")
+define("publishing-entity/components/draggable-object-target",["exports","ember-drag-drop/components/draggable-object-target"],(function(e,t){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+e.default=t.default}))
+define("publishing-entity/components/draggable-object",["exports","ember-drag-drop/components/draggable-object"],(function(e,t){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+e.default=t.default}))
+define.alias("ember-cloud-filepicker/components/dropbox-file-picker","publishing-entity/components/dropbox-file-picker")
+define.alias("ember-semaphore/components/ember-semaphore","publishing-entity/components/ember-semaphore")
+define.alias("ember-wormhole/components/ember-wormhole","publishing-entity/components/ember-wormhole")
+define("publishing-entity/components/entity-feed-empty-state",["exports","@ember/template-factory","@ember/component/template-only","@ember/component","ember-cli-pemberly-i18n/helpers/t","ember-engines/components/link-to-external","hue-web-icons/components/illustration"],(function(e,t,n,i,l,o,s){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+const a=(0,i.setComponentTemplate)((0,t.createTemplateFactory)({id:"s1M+1p1q",block:'[[[1,"\\n"],[1,"  "],[10,0],[14,0,"artdeco-card display-flex align-items-center flex-column text-align-center p4"],[14,"data-test-publishing-entity-feed-empty-state","true"],[12],[1,"\\n    "],[10,0],[14,0,"mb4"],[12],[1,"\\n      "],[8,[32,0],null,[["@type","@name","@size"],["spot","empty-waiting","small"]],null],[1,"\\n    "],[13],[1,"\\n    "],[10,"h4"],[14,0,"mb2"],[12],[1,"\\n      "],[1,[28,[32,1],["i18n_publishing_entity_feed_empty_state_heading","publishing-entity/components/entity-feed-empty-state"],null]],[1,"\\n    "],[13],[1,"\\n    "],[10,2],[14,0,"t-14 t-black mb2"],[12],[1,"\\n      "],[1,[52,[30,1],[28,[32,1],["i18n_publishing_entity_feed_empty_state_pages_subheading","publishing-entity/components/entity-feed-empty-state"],null],[28,[32,1],["i18n_publishing_entity_feed_empty_state_member_subheading","publishing-entity/components/entity-feed-empty-state"],null]]],[1,"\\n    "],[13],[1,"\\n    "],[8,[32,2],[[24,0,"artdeco-button artdeco-button--secondary"]],[["@route"],["article-editor.index.new"]],[["default"],[[[[1,"\\n      "],[1,[28,[32,1],["i18n_write_article","publishing-entity/components/entity-feed-empty-state"],null]],[1,"\\n    "]],[]]]]],[1,"\\n  "],[13],[1,"\\n"]],["@isPageAuthor"],false,["if"]]',moduleName:"publishing-entity/components/entity-feed-empty-state.gts",scope:()=>[s.default,l.default,o.default],isStrictMode:!0}),(0,n.default)("entity-feed-empty-state","EntityFeedEmptyState"))
+e.default=a}))
+define("publishing-entity/components/entity-header",["exports","@babel/runtime/helpers/esm/initializerDefineProperty","@babel/runtime/helpers/esm/defineProperty","@babel/runtime/helpers/esm/applyDecoratedDescriptor","@babel/runtime/helpers/esm/initializerWarningHelper","@ember/template-factory","@ember/component","global-utils/utils/urn-converter","publishing-entity/utils/constants","global-utils/utils/url","@glimmer/tracking","@glimmer/component","@ember/service","@ember/object","@ember/debug","publishing-entity/components/entity-options-dropdown","publishing-entity/components/entity-summary","global-helpers/helpers/and","global-helpers/helpers/not","publishing-entity/components/add-photo-prompt","ember-cli-pemberly-i18n/helpers/t","@ember/modifier","artdeco-inline-feedback/components/artdeco-inline-feedback","artdeco-button/components/artdeco-button","publishing-entity/components/entity-share-dropdown","publishing-shared/components/subscribe-button","publishing-shared/components/series-modal","publishing-shared/components/subscribers-modal","relationship-building-button/components/confirmation-modal","global-helpers/helpers/get-class-hash"],(function(e,t,n,i,l,o,s,a,r,p,d,c,m,u,b,h,y,f,g,w,v,_,k,x,C,O,E,j,M,S){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+var P,T,D,z,N,U,A,F,L,I
+e.default=(0,s.setComponentTemplate)((0,o.createTemplateFactory)({id:"m1yXKSLD",block:'[[[1,"\\n"],[1,"    "],[10,"section"],[14,0,"artdeco-card mb3 display-flex flex-column p0"],[12],[1,"\\n      "],[10,0],[14,0,"p4 relative"],[12],[1,"\\n        "],[8,[32,0],null,[["@authorSemaphoreId","@entity","@isSubscribed","@isUserAuthor","@onCopyLink","@onFollowClick","@urlToShare"],[[30,0,["dashAuthorUrn"]],[30,1],[30,2],[30,3],[30,4],[30,5],[30,6]]],null],[1,"\\n\\n        "],[8,[32,1],null,[["@description","@entityType","@logo","@title","@entityUrn"],[[30,1,["description"]],[30,7],[30,0,["entityLogo"]],[30,1,["title"]],[30,1,["entityUrn"]]]],null],[1,"\\n\\n"],[41,[28,[32,2],[[30,3],[28,[32,3],[[30,1,["logo"]]],null]],null],[[[1,"          "],[8,[32,4],null,null,null],[1,"\\n"]],[]],null],[1,"\\n        "],[10,0],[14,0,"display-flex flex-wrap justify-space-between"],[12],[1,"\\n\\n          "],[18,11,null],[1,"\\n\\n          "],[10,0],[14,0,"display-flex align-items-baseline flex-column justify-center"],[12],[1,"\\n            "],[10,2],[14,0,"t-12 t-black--light"],[14,"data-test-publishing-frequency","true"],[12],[1,"\\n"],[41,[30,0,["seriesCadence","isMonthly"]],[[[1,"                "],[1,[28,[32,5],["i18n_series_monthly_publish_frequency","publishing-entity/components/entity-header"],null]],[1,"\\n"]],[]],[[[41,[30,0,["seriesCadence","isBiweekly"]],[[[1,"                "],[1,[28,[32,5],["i18n_series_biweekly_publish_frequency","publishing-entity/components/entity-header"],null]],[1,"\\n"]],[]],[[[41,[30,0,["seriesCadence","isWeekly"]],[[[1,"                "],[1,[28,[32,5],["i18n_series_weekly_publish_frequency","publishing-entity/components/entity-header"],null]],[1,"\\n"]],[]],[[[41,[30,0,["seriesCadence","isDaily"]],[[[1,"                "],[1,[28,[32,5],["i18n_series_daily_publish_frequency","publishing-entity/components/entity-header"],null]],[1,"\\n              "]],[]],null]],[]]]],[]]]],[]]],[1,"            "],[13],[1,"\\n\\n"],[41,[30,3],[[[1,"              "],[11,"button"],[16,"aria-label",[28,[32,5],["i18n_subcriber_count_a11y","publishing-entity/components/entity-header"],null]],[24,0,"publishing-entity-header__subscribers-button"],[24,"data-test-publishing-subscribers-button","true"],[24,4,"button"],[4,[32,6],["click",[30,0,["onToggleSubscribersModal"]]],null],[12],[1,"\\n                "],[1,[28,[32,5],["i18n_subcriber_count_v2","publishing-entity/components/entity-header"],[["subscriberCount"],[[30,0,["subscriberCount"]]]]]],[1,"\\n              "],[13],[1,"\\n"]],[]],[[[1,"              "],[10,2],[14,0,"t-12 t-black--light"],[14,"data-test-publishing-subscribers-text","true"],[12],[1,"\\n                "],[1,[28,[32,5],["i18n_subcriber_count_v2","publishing-entity/components/entity-header"],[["subscriberCount"],[[30,0,["subscriberCount"]]]]]],[1,"\\n              "],[13],[1,"\\n"]],[]]],[1,"          "],[13],[1,"\\n\\n        "],[13],[1,"\\n      "],[13],[1,"\\n\\n"],[41,[30,1,["annotation"]],[[[1,"        "],[8,[32,7],[[16,"data-test-newsletter-annotation",true]],[["@class","@linkText","@message","@onClick","@type"],[[29,["ph3 ",[28,[32,8],["pb4"],null]]],[30,1,["annotation","link","text"]],[30,1,["annotation","text"]],[30,0,["onLearnMoreClick"]],"yield"]],null],[1,"\\n"]],[]],null],[1,"\\n      "],[10,"hr"],[14,0,"artdeco-divider m0"],[12],[13],[1,"\\n\\n      "],[10,0],[14,0,"display-flex p3"],[12],[1,"\\n"],[41,[30,3],[[[1,"          "],[8,[32,9],[[16,"aria-label",[28,[32,5],["i18n_edit_button_a11y","publishing-entity/components/entity-header"],null]],[24,0,"publishing-entity-header__edit-button"],[24,"data-test-publishing-edit-button","true"],[4,[32,6],["click",[30,0,["onToggleEditModal"]]],null]],[["@color","@icon","@text","@type"],["default","edit",[28,[32,5],["i18n_edit","publishing-entity/components/entity-header"],null],"primary"]],null],[1,"\\n          "],[8,[32,10],null,[["@displayFlippedButtons","@entity","@isUserAuthor"],[false,[30,1],[30,3]]],null],[1,"\\n"]],[]],[[[41,[30,8],[[[1,"          "],[8,[32,10],null,[["@displayFlippedButtons","@entity","@isUserAuthor"],[true,[30,1],[30,3]]],null],[1,"\\n          "],[8,[32,11],[[24,0,"publishing-entity-header__cta-button"],[24,"data-test-button-order-flipped","true"]],[["@entity","@onSubscribeButtonClick","@type","@pemProductName"],[[30,1],[30,5],"secondary","Voyager - Newsletter Entity"]],null],[1,"\\n"]],[]],[[[1,"          "],[8,[32,11],[[24,0,"publishing-entity-header__cta-button"]],[["@entity","@onSubscribeButtonClick","@type","@pemProductName"],[[30,1],[30,5],[52,[30,2],"secondary","primary"],"Voyager - Newsletter Entity"]],null],[1,"\\n          "],[8,[32,10],null,[["@displayFlippedButtons","@entity","@isUserAuthor"],[false,[30,1],[30,3]]],null],[1,"\\n        "]],[]]]],[]]],[1,"      "],[13],[1,"\\n    "],[13],[1,"\\n\\n    "],[8,[32,12],null,[["@contentSeriesUrn","@hasSeries","@isEditForm","@isOpen","@model","@onClose","@pageAuthor","@returnFocusTo","@updateField","@pemProductName"],[[30,1,["entityUrn"]],true,true,[30,0,["isEditModalOpen"]],[30,1],[30,0,["onToggleEditModal"]],[30,0,["isPageAuthor"]],".publishing-entity-header__edit-button",[30,9],"Voyager - Newsletter Entity"]],null],[1,"\\n\\n    "],[8,[32,13],null,[["@contentSeriesUrn","@isSubscribersModalOpen","@onCloseSubscribersModal","@totalSubscribers","@pemProductName"],[[30,1,["entityUrn"]],[30,0,["isSubscribersModalOpen"]],[30,0,["onToggleSubscribersModal"]],[30,0,["subscriberCount"]],"Voyager - Newsletter Entity"]],null],[1,"\\n\\n    "],[8,[32,14],null,[["@isConfirmationModalOpen","@onDismissModal","@entityType","@entityName","@seriesCadence"],[[30,0,["isConfirmationModalOpen"]],[30,0,["onDismissModal"]],"NEWSLETTER",[30,1,["title"]],[30,0,["seriesCadence"]]]],[["default"],[[[[1,"\\n      "],[8,[32,11],null,[["@entity","@type","@isIconDisabled","@onSubscribeButtonClick","@onSubscribeSuccess","@pemProductName"],[[30,1],"primary",true,[30,10,["onPrimaryClick"]],[30,0,["onSubscribeSuccess"]],"Voyager - Newsletter Entity"]],null],[1,"\\n    "]],[10]]]]],[1,"\\n  "]],["@entity","@isSubscribed","@isUserAuthor","@onCopyLink","@onFollowClick","@urlToShare","@entityType","@displayFlippedButtons","@updateField","confirmationModal","&author"],false,["if","yield"]]',moduleName:"publishing-entity/components/entity-header.gjs",scope:()=>[h.default,y.default,f.default,g.default,w.default,v.default,_.on,k.default,S.default,x.default,C.default,O.default,E.default,j.default,M.default],isStrictMode:!0}),(P=(0,m.inject)("tracking"),T=(0,m.inject)("global-services@window"),D=(0,m.inject)("router"),z=class extends c.default{get dashAuthorUrn(){var e,t,n,i,l,o,s,r,p,d,c
+const m=(null===(e=this.args)||void 0===e||null===(t=e.entity.author)||void 0===t||null===(n=t.companyUrn)||void 0===n?void 0:n.entityUrn)||(null===(i=this.args)||void 0===i||null===(l=i.entity.author)||void 0===l||null===(o=l.profileUrn)||void 0===o?void 0:o.entityUrn)
+if(m)return m
+const u=null===(s=this.args)||void 0===s||null===(r=s.entity.author)||void 0===r?void 0:r.companyUrn
+if(u){const{id:e}=(0,a.fromUrn)(u)
+return(0,a.toUrn)("com.linkedin.voyager.dash.common.CompanyUrn",e,!0)}const b=null===(p=this.args)||void 0===p||null===(d=p.entity)||void 0===d||null===(c=d.author)||void 0===c?void 0:c.profileId
+return(0,a.toUrn)("com.linkedin.voyager.dash.common.ProfileUrn",b,!0)}get entityLogo(){var e,t,n,i,l,o
+return null===(e=this.args)||void 0===e||null===(t=e.entity)||void 0===t||null===(n=t.logo)||void 0===n||null===(i=n.attributes)||void 0===i||null===(l=i[0])||void 0===l||null===(o=l.detailData)||void 0===o?void 0:o.vectorImage}get isPageAuthor(){return!!(0,u.get)(this.args,"entity.author.companyUrn")}get seriesCadence(){const e=(0,u.get)(this.args,"entity.publishFrequency"),t=(0,u.get)(e,"duration"),n=(0,u.get)(e,"unit")
+return{isDaily:n===r.SERIES_TYPES.DAILY,isWeekly:n===r.SERIES_TYPES.WEEKLY,isBiweekly:2===t&&n===r.SERIES_TYPES.MONTHLY,isMonthly:1===t&&n===r.SERIES_TYPES.MONTHLY}}get subscriberCount(){var e,t,n
+return(null===(e=this.args)||void 0===e||null===(t=e.entity)||void 0===t||null===(n=t.subscribeAction)||void 0===n?void 0:n.subscriberCount)||0}constructor(){super(...arguments);(0,t.default)(this,"tracking",N,this);(0,t.default)(this,"windowService",U,this);(0,t.default)(this,"router",A,this);(0,t.default)(this,"isEditModalOpen",F,this);(0,t.default)(this,"isSubscribersModalOpen",L,this);(0,t.default)(this,"isConfirmationModalOpen",I,this)
+this.isConfirmationModalOpen=!this.args.isSubscribed&&this.args.isConfirmationModalEnabled}onLearnMoreClick(){const e=(0,u.get)(this.args,"entity.annotation.controlName"),t=(0,u.get)(this.args,"entity.annotation.link.url")
+this.tracking.fireInteractionEvent(e)
+this.windowService.open((0,p.generateUrlByDomain)(t),"_blank")}onToggleEditModal(){this.isEditModalOpen=!this.isEditModalOpen}onToggleSubscribersModal(){const e=this.isSubscribersModalOpen?"publishing-entity.newsletter":"publishing-entity.newsletter.subscribers"
+this.router.transitionTo(e)
+this.isSubscribersModalOpen=!this.isSubscribersModalOpen}onDismissModal(){this.isConfirmationModalOpen=!1}onSubscribeSuccess(){var e,t
+null===(e=(t=this.args).onFollowClick)||void 0===e||e.call(t)
+this.onDismissModal()}},N=(0,i.default)(z.prototype,"tracking",[P],{configurable:!0,enumerable:!0,writable:!0,initializer:null}),U=(0,i.default)(z.prototype,"windowService",[T],{configurable:!0,enumerable:!0,writable:!0,initializer:null}),A=(0,i.default)(z.prototype,"router",[D],{configurable:!0,enumerable:!0,writable:!0,initializer:null}),F=(0,i.default)(z.prototype,"isEditModalOpen",[d.tracked],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return!1}}),L=(0,i.default)(z.prototype,"isSubscribersModalOpen",[d.tracked],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return!1}}),I=(0,i.default)(z.prototype,"isConfirmationModalOpen",[d.tracked],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return!1}}),(0,i.default)(z.prototype,"onLearnMoreClick",[u.action],Object.getOwnPropertyDescriptor(z.prototype,"onLearnMoreClick"),z.prototype),(0,i.default)(z.prototype,"onToggleEditModal",[u.action],Object.getOwnPropertyDescriptor(z.prototype,"onToggleEditModal"),z.prototype),(0,i.default)(z.prototype,"onToggleSubscribersModal",[u.action],Object.getOwnPropertyDescriptor(z.prototype,"onToggleSubscribersModal"),z.prototype),(0,i.default)(z.prototype,"onDismissModal",[u.action],Object.getOwnPropertyDescriptor(z.prototype,"onDismissModal"),z.prototype),(0,i.default)(z.prototype,"onSubscribeSuccess",[u.action],Object.getOwnPropertyDescriptor(z.prototype,"onSubscribeSuccess"),z.prototype),z))}))
+define("publishing-entity/components/entity-options-dropdown",["exports","@babel/runtime/helpers/esm/initializerDefineProperty","@babel/runtime/helpers/esm/defineProperty","@babel/runtime/helpers/esm/applyDecoratedDescriptor","@babel/runtime/helpers/esm/initializerWarningHelper","@ember/template-factory","@ember/component","feed-utils/utils/article-toast-utils","publishing-shared/utils/data-request","publishing-entity/utils/toast-helper","global-utils/utils/urn-converter","@glimmer/tracking","@ember/service","@ember/object","@glimmer/component","@ember/destroyable","artdeco-dropdown/components/artdeco-dropdown","ember-set-helper/helpers/set","ember-cli-pemberly-tracking/modifiers/track-interaction","hue-web-icons/components/icon","ember-cli-pemberly-i18n/helpers/t","artdeco-dropdown/components/artdeco-dropdown-item","@ember/helper","trust/components/reporting-flow-modal","artdeco-modal/components/artdeco-modal","artdeco-button/components/artdeco-button","@ember/modifier","global-helpers/helpers/and","global-helpers/helpers/not"],(function(e,t,n,i,l,o,s,a,r,p,d,c,m,u,b,h,y,f,g,w,v,_,k,x,C,O,E,j,M){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+var S,P,T,D,z,N,U,A,F,L,I,q,B,R
+e.default=(0,s.setComponentTemplate)((0,o.createTemplateFactory)({id:"0aZ3Roz2",block:'[[[1,"\\n"],[1,"    "],[8,[32,0],[[24,0,"absolute feed-shared-update-v2__control-menu"]],[["@isOpen","@useNewFocusModel","@placement","@justification","@onVisibilityChange"],[[30,0,["isDropdownOpen"]],true,"bottom","right",[28,[32,1],[[30,0],"isDropdownOpen"],null]]],[["default"],[[[[1,"\\n      "],[8,[30,1,["dropdown-trigger"]],[[24,1,"publishing-entity-options-dropdown-trigger"],[24,0,"artdeco-button artdeco-button--circle artdeco-button--muted artdeco-button--2 artdeco-button--tertiary ember-view"],[24,"data-test-publishing-share-icon","true"],[4,[32,2],["options"],null]],null,[["default"],[[[[1,"\\n        "],[8,[32,3],null,[["@a11yText","@type","@size","@name"],[[28,[32,4],["i18n_more","publishing-entity/components/entity-options-dropdown"],null],"system","medium","overflow-web-ios"]],null],[1,"\\n      "]],[]]]]],[1,"\\n\\n      "],[8,[30,1,["dropdown-content"]],[[24,"arrowDir","right"],[24,0,"feed-shared-control-menu__content"]],null,[["default"],[[[[1,"\\n        "],[8,[32,5],[[24,0,"publishing-entity-share__dropdown-item"],[24,"role","button"],[4,[32,2],["options_report_this_newsletter"],null]],[["@itemSelected"],[[30,0,["showSemaphoreModal"]]]],[["default"],[[[[1,"\\n          "],[10,1],[14,"data-test-publishing-dropdown-report","true"],[12],[1,"\\n            "],[8,[32,3],[[24,0,"publishing-entity-share__dropdown-item-icon"]],[["@type","@size","@name"],["system","medium","report"]],null],[1,"\\n            "],[1,[28,[32,4],["i18n_report","publishing-entity/components/entity-options-dropdown"],null]],[1,"\\n          "],[13],[1,"\\n        "]],[]]]]],[1,"\\n\\n"],[41,[28,[32,6],[[30,2],[28,[32,7],[[30,0,["isUpdatedDeleteNewsletterEntryEnabled"]]],null]],null],[[[1,"          "],[8,[32,5],[[24,0,"publishing-entity-share__dropdown-item"],[24,"role","button"],[4,[32,2],["series_modal_delete_intent"],null]],[["@itemSelected"],[[28,[32,8],[[30,1,["invokeAndCloseNoRefocus"]],[30,0,["showConfirmationDialog"]]],null]]],[["default"],[[[[1,"\\n            "],[10,1],[14,"data-test-publishing-dropdown-delete","true"],[12],[1,"\\n              "],[8,[32,3],[[24,0,"publishing-entity-share__dropdown-item-icon"]],[["@type","@size","@name"],["system","medium","trash"]],null],[1,"\\n              "],[1,[28,[32,4],["i18n_delete_series","publishing-entity/components/entity-options-dropdown"],null]],[1,"\\n            "],[13],[1,"\\n          "]],[]]]]],[1,"\\n"]],[]],null],[1,"      "]],[]]]]],[1,"\\n    "]],[1]]]]],[1,"\\n\\n"],[41,[30,0,["isReportingFlowModalVisible"]],[[[1,"      "],[8,[32,9],null,[["@entityUrn","@contentSource","@authorUrn","@cancel","@success","@failure","@triggerControlName","@isDisinterestOptionEnabled"],[[30,0,["convertedEntityUrn"]],"CONTENT_SERIES",[30,3],[30,0,["hideSemaphoreModal"]],[30,0,["hideSemaphoreModal"]],[30,0,["showSemaphoreFailure"]],"#publishing-entity-options-dropdown-trigger",false]],null],[1,"\\n"]],[]],null],[1,"\\n"],[41,[28,[32,6],[[30,2],[28,[32,7],[[30,0,["isUpdatedDeleteNewsletterEntryEnabled"]]],null]],null],[[[1,"      "],[8,[32,10],null,[["@isOpen","@size","@dismissModal","@closeButtonInHeader","@alignment","@returnFocusTo"],[[30,0,["isConfirmationDialogOpen"]],"small",[30,0,["hideConfirmationDialog"]],true,"center","#publishing-entity-options-dropdown-trigger"]],[["default"],[[[[1,"\\n        "],[8,[30,4,["artdeco-modal-header"]],null,null,[["default"],[[[[1,"\\n          "],[10,"h2"],[14,1,"publishing-entity-deletion-modal-header"],[14,"data-test-nl-deletion-modal-dialog-title",""],[12],[1,"\\n            "],[1,[28,[32,4],["i18n_series_delete_confirmation_header","publishing-entity/components/entity-options-dropdown"],null]],[1,"\\n          "],[13],[1,"\\n        "]],[]]]]],[1,"\\n        "],[8,[30,4,["artdeco-modal-content"]],null,null,[["default"],[[[[1,"\\n          "],[10,2],[14,0,"text-body-small"],[14,"data-test-nl-deletion-modal-dialog-content",""],[12],[1,[28,[32,4],["i18n_series_delete_limit_confirmation_message_updated","publishing-entity/components/entity-options-dropdown"],null]],[13],[1,"\\n        "]],[]]]]],[1,"\\n        "],[8,[30,4,["artdeco-modal-footer"]],[[24,0,"publishing-entity-share__dropdown-deletion-modal-footer"]],null,[["default"],[[[[1,"\\n          "],[8,[32,11],[[24,0,"publishing-entity-share__dropdown-deletion-modal-delete-button"],[16,"data-test-dialog-secondary-btn",true],[4,[32,12],["click",[30,0,["deleteNewsletter"]]],null]],[["@type","@text"],["secondary",[28,[32,4],["i18n_delete","publishing-entity/components/entity-options-dropdown"],null]]],null],[1,"\\n          "],[8,[32,11],[[16,"data-test-dialog-primary-btn",true],[4,[32,12],["click",[30,0,["hideConfirmationDialog"]]],null]],[["@type","@text"],["primary",[28,[32,4],["i18n_cancel","publishing-entity/components/entity-options-dropdown"],null]]],null],[1,"\\n        "]],[]]]]],[1,"\\n      "]],[4]]]]],[1,"\\n"]],[]],null],[1,"  "]],["dropdown","@isUserAuthor","@authorSemaphoreId","modal"],false,["if"]]',moduleName:"publishing-entity/components/entity-options-dropdown.gjs",scope:()=>[y.default,f.default,g.default,w.default,v.default,_.default,j.default,M.default,k.fn,x.default,C.default,O.default,E.on],isStrictMode:!0}),(S=(0,m.inject)("i18n"),P=(0,m.inject)("persistent-toast-manager@persistent-toast-manager"),T=(0,m.inject)("router"),D=(0,m.inject)("tracking"),z=(0,m.inject)("lix"),N=class e extends b.default{constructor(){super(...arguments);(0,t.default)(this,"i18n",U,this);(0,t.default)(this,"persistentToastManager",A,this);(0,t.default)(this,"router",F,this);(0,t.default)(this,"tracking",L,this);(0,t.default)(this,"lix",I,this);(0,t.default)(this,"isDropdownOpen",q,this);(0,t.default)(this,"isConfirmationDialogOpen",B,this);(0,t.default)(this,"isReportingFlowModalVisible",R,this)}get convertedEntityUrn(){var e
+const t=null===(e=this.args.entity)||void 0===e?void 0:e.entityUrn,{id:n}=(0,d.fromUrn)(t)
+return`urn:li:${(0,d.getSimpleTypeFromDashUrn)(t)}:${n}`}get isUpdatedDeleteNewsletterEntryEnabled(){return this.lix.getTreatmentIsEnabled("voyager.web.publishing-delete-newsletter-entry")}get toastManager(){return new a.default(this.persistentToastManager,this.i18n)}copyLink(){var e,t
+null===(e=(t=this.args).onCopyLink)||void 0===e||e.call(t)
+this.isDropdownOpen=!1}deleteNewsletter(){var t
+this.tracking.fireInteractionEvent("series_modal_delete")
+this.args.entity.destroyRecord(...(0,r.deleteContentSeries)({entityUrn:null===(t=this.args.entity)||void 0===t?void 0:t.entityUrn,pemProductName:"Voyager - Newsletter Entity"})).then((()=>{if(!(0,h.isDestroying)(this)){this.router.transitionTo("feed")
+this.persistentToastManager.success({message:this.i18n.lookupTranslation(e,"i18n_series_delete_confirmation")(),ctaText:this.i18n.lookupTranslation(e,"i18n_series_delete_confirmation_cta")(),ctaRouteName:"article-editor.index.manage.published"})}})).catch((t=>{if((0,h.isDestroying)(this))throw t
+this.persistentToastManager.error({message:this.i18n.lookupTranslation(e,"i18n_series_delete_error")()})
+throw t}))}hideConfirmationDialog(){this.tracking.fireInteractionEvent("series_modal_delete_cancel")
+this.isConfirmationDialogOpen=!1}hideSemaphoreModal(){this.isReportingFlowModalVisible=!1}showSemaphoreFailure(){(0,p.showGenericNetworkErrorToast)(this.i18n,this.persistentToastManager)
+this.isReportingFlowModalVisible=!1}showConfirmationDialog(){this.isConfirmationDialogOpen=!0}showSemaphoreModal(){this.isReportingFlowModalVisible=!0}},U=(0,i.default)(N.prototype,"i18n",[S],{configurable:!0,enumerable:!0,writable:!0,initializer:null}),A=(0,i.default)(N.prototype,"persistentToastManager",[P],{configurable:!0,enumerable:!0,writable:!0,initializer:null}),F=(0,i.default)(N.prototype,"router",[T],{configurable:!0,enumerable:!0,writable:!0,initializer:null}),L=(0,i.default)(N.prototype,"tracking",[D],{configurable:!0,enumerable:!0,writable:!0,initializer:null}),I=(0,i.default)(N.prototype,"lix",[z],{configurable:!0,enumerable:!0,writable:!0,initializer:null}),q=(0,i.default)(N.prototype,"isDropdownOpen",[c.tracked],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return!1}}),B=(0,i.default)(N.prototype,"isConfirmationDialogOpen",[c.tracked],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return!1}}),R=(0,i.default)(N.prototype,"isReportingFlowModalVisible",[c.tracked],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return!1}}),(0,i.default)(N.prototype,"copyLink",[u.action],Object.getOwnPropertyDescriptor(N.prototype,"copyLink"),N.prototype),(0,i.default)(N.prototype,"deleteNewsletter",[u.action],Object.getOwnPropertyDescriptor(N.prototype,"deleteNewsletter"),N.prototype),(0,i.default)(N.prototype,"hideConfirmationDialog",[u.action],Object.getOwnPropertyDescriptor(N.prototype,"hideConfirmationDialog"),N.prototype),(0,i.default)(N.prototype,"hideSemaphoreModal",[u.action],Object.getOwnPropertyDescriptor(N.prototype,"hideSemaphoreModal"),N.prototype),(0,i.default)(N.prototype,"showSemaphoreFailure",[u.action],Object.getOwnPropertyDescriptor(N.prototype,"showSemaphoreFailure"),N.prototype),(0,i.default)(N.prototype,"showConfirmationDialog",[u.action],Object.getOwnPropertyDescriptor(N.prototype,"showConfirmationDialog"),N.prototype),(0,i.default)(N.prototype,"showSemaphoreModal",[u.action],Object.getOwnPropertyDescriptor(N.prototype,"showSemaphoreModal"),N.prototype),N))}))
+define("publishing-entity/components/entity-share-dropdown",["exports","@babel/runtime/helpers/esm/initializerDefineProperty","@babel/runtime/helpers/esm/defineProperty","@babel/runtime/helpers/esm/applyDecoratedDescriptor","@babel/runtime/helpers/esm/initializerWarningHelper","@ember/template-factory","@ember/component","global-utils/utils/urn-id-helpers","@glimmer/tracking","@ember/object","social-share/utils/social-share-constants","@ember/service","@glimmer/component","social-share/components/social-share","ember-cli-pemberly-i18n/helpers/t","@ember/helper","ember-cli-pemberly-tracking/modifiers/track-interaction","publishing-entity/components/copy-subscribe-modal"],(function(e,t,n,i,l,o,s,a,r,p,d,c,m,u,b,h,y,f){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+var g,w,v,_
+e.default=(0,s.setComponentTemplate)((0,o.createTemplateFactory)({id:"gjwm3tDz",block:'[[[1,"\\n"],[1,"    "],[8,[32,0],[[16,0,[52,[30,1],"mr2","ml2"]]],[["@enabledSocialMediaOptions","@onUrlOptionsClick","@showUrlOptions","@shareOrigin","@returnFocusTo"],[[30,0,["socialShareOptions"]],[30,0,["openCopySubscribeModal"]],[30,2],"PUBLISHING","#publishing-entity-share-dropdown-trigger"]],[["default"],[[[[1,"\\n      "],[8,[30,3,["dropdown-trigger"]],[[16,"data-test-publishing-share-button",true],[24,1,"publishing-entity-share-dropdown-trigger"],[4,[32,3],["share_start"],null]],[["@aria-label","@class"],[[28,[32,1],["i18n_share_btn_a11y","publishing-entity/components/entity-share-dropdown"],null],[28,[32,2],["artdeco-button full-width",[52,[30,1]," artdeco-button--primary"," artdeco-button--secondary"]],null]]],[["default"],[[[[1,"\\n        "],[10,1],[14,0,"artdeco-button__text"],[12],[1,[28,[32,1],["i18n_share_btn_name","publishing-entity/components/entity-share-dropdown"],null]],[13],[1,"\\n      "]],[]]]]],[1,"\\n    "]],[3]]]]],[1,"\\n\\n"],[41,[30,2],[[[1,"      "],[8,[32,4],null,[["@onDismiss","@isOpen","@newsletterId"],[[30,0,["closeCopySubscribeModal"]],[30,0,["isCopySubscribeModalOpen"]],[30,0,["newsletterId"]]]],null],[1,"\\n"]],[]],null],[1,"  "]],["@displayFlippedButtons","@isUserAuthor","dropdown"],false,["if"]]',moduleName:"publishing-entity/components/entity-share-dropdown.gjs",scope:()=>[u.default,b.default,h.concat,y.default,f.default],isStrictMode:!0}),(g=(0,c.inject)("locale"),w=class extends m.default{constructor(){super(...arguments);(0,t.default)(this,"locale",v,this);(0,t.default)(this,"isCopySubscribeModalOpen",_,this)}get newsletterId(){var e
+const t=null===(e=this.args.entity)||void 0===e?void 0:e.id
+return(0,a.extractUrnParts)(t)[1]??""}get socialShareOptions(){const{interfaceLocale:e,requestIpCountryCode:t}=this.locale
+return"zh_CN"===e||"cn"===t?{}:{[d.SHARE_OPTIONS.FACEBOOK]:{},[d.SHARE_OPTIONS.TWITTER]:{shareMessage:{text:void 0}}}}openCopySubscribeModal(){this.isCopySubscribeModalOpen=!0}closeCopySubscribeModal(){this.isCopySubscribeModalOpen=!1}},v=(0,i.default)(w.prototype,"locale",[g],{configurable:!0,enumerable:!0,writable:!0,initializer:null}),_=(0,i.default)(w.prototype,"isCopySubscribeModalOpen",[r.tracked],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return!1}}),(0,i.default)(w.prototype,"openCopySubscribeModal",[p.action],Object.getOwnPropertyDescriptor(w.prototype,"openCopySubscribeModal"),w.prototype),(0,i.default)(w.prototype,"closeCopySubscribeModal",[p.action],Object.getOwnPropertyDescriptor(w.prototype,"closeCopySubscribeModal"),w.prototype),w))}))
+define("publishing-entity/components/entity-summary",["exports","@babel/runtime/helpers/esm/initializerDefineProperty","@babel/runtime/helpers/esm/defineProperty","@babel/runtime/helpers/esm/applyDecoratedDescriptor","@babel/runtime/helpers/esm/initializerWarningHelper","@ember/template-factory","@ember/component","global-utils/utils/api-compat","global-utils/utils/is-browser","ember-vector-images/utils/vector-url","@glimmer/tracking","@ember/service","@glimmer/component","ember-vector-images/components/lazy-image","ember-cli-pemberly-i18n/helpers/t","hue-web-icons/components/icon","global-utils/utils/get-location"],(function(e,t,n,i,l,o,s,a,r,p,d,c,m,u,b,h,y){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+var f,g,w,v
+e.default=(0,s.setComponentTemplate)((0,o.createTemplateFactory)({id:"v7sagtHH",block:'[[[1,"\\n"],[1,"    "],[10,"section"],[14,0,"align-items-center display-flex mb2"],[12],[1,"\\n      "],[10,"figure"],[14,0,"align-self-flex-start mr4"],[12],[1,"\\n        "],[8,[32,0],[[16,"alt",[28,[32,1],["i18n_series_logo","publishing-entity/components/entity-summary"],null]],[24,0,"square-entity-logo-container size-8 publishing-entity-summary__image"],[24,"data-test-publishing-logo","true"],[16,"data-chameleon-hovercard",[30,0,["chameleonData"]]],[16,"data-chameleon-hovercard-behavior",[30,0,["chameleonBehavior"]]]],[["@desiredHeight","@ghostType","@image"],[128,"content",[30,1]]],null],[1,"\\n      "],[13],[1,"\\n      "],[10,0],[14,0,"overflow-hidden"],[12],[1,"\\n        "],[10,1],[14,0,"t-12 t-bold t-black--light publishing-entity-summary__type"],[14,"data-test-publishing-type","true"],[12],[1,"\\n          "],[8,[32,2],[[24,0,"v-align-sub"]],[["@type","@size","@name"],["system","small","newspaper"]],null],[1,"\\n          "],[1,[30,2]],[1,"\\n        "],[13],[1,"\\n        "],[10,"h1"],[14,0,"t-32 t-bold mv1 publishing-entity-summary__title"],[14,"data-test-publishing-title","true"],[12],[1,[30,3]],[13],[1,"\\n        "],[10,2],[14,0,"t-14"],[14,"data-test-publishing-description","true"],[12],[1,[30,4]],[13],[1,"\\n      "],[13],[1,"\\n    "],[13],[1,"\\n  "]],["@logo","@entityType","@title","@description"],false,[]]',moduleName:"publishing-entity/components/entity-summary.gjs",scope:()=>[u.default,b.default,h.default],isStrictMode:!0}),(f=(0,c.inject)("global-services@local-storage"),g=class extends m.default{constructor(){var e
+super(...arguments);(0,t.default)(this,"isChameleonEnabled",w,this);(0,t.default)(this,"localStorage",v,this)
+this.isChameleonEnabled="true"===(null===(e=this.localStorage)||void 0===e?void 0:e.getItemWithoutPrefix("chameleon-extension-enabled"))}get chameleonData(){let e
+if(r.default){e=((0,y.default)()||window.location).href}return this.isChameleonEnabled?encodeURIComponent(JSON.stringify({value:(0,a.entityUrnToId)(this.args.entityUrn),displayName:this.args.title,previewUrl:e,metadata:{entityType:"contentSeries"}})):null}get chameleonBehavior(){if(this.isChameleonEnabled){const e=(0,p.default)(this.args.logo,40,40)
+return encodeURIComponent(JSON.stringify({hovercardDisplay:{imageUrl:e,title:"Chameleon",headline:this.args.title,actionText:"Add"},cartPath:["changes","0","treatments","0","injections"]}))}return null}},w=(0,i.default)(g.prototype,"isChameleonEnabled",[d.tracked],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return!1}}),v=(0,i.default)(g.prototype,"localStorage",[f],{configurable:!0,enumerable:!0,writable:!0,initializer:null}),g))}))
+define.alias("helpcenter-in-product-ember/components/external-link","publishing-entity/components/external-link")
+define.alias("helpcenter-in-product-ember/components/feature-launcher","publishing-entity/components/feature-launcher")
+define.alias("address-ui/components/field-error-message","publishing-entity/components/field-error-message")
+define.alias("ember-cloud-filepicker/components/file-picker","publishing-entity/components/file-picker")
+define.alias("ember-finite-scroll/components/finite-scroll","publishing-entity/components/finite-scroll")
+define.alias("ember-semaphore/components/gen-ai-feedback","publishing-entity/components/gen-ai-feedback")
+define.alias("ember-cloud-filepicker/components/google-drive-file-picker","publishing-entity/components/google-drive-file-picker")
+define.alias("helpcenter-in-product-ember/components/header","publishing-entity/components/header")
+define.alias("ember-highcharts/components/high-charts","publishing-entity/components/high-charts")
+define.alias("ember-tax/components/id-cell","publishing-entity/components/id-cell")
+define.alias("image-editor/components/image-editor-loader","publishing-entity/components/image-editor-loader")
+define.alias("image-editor/components/image-editor","publishing-entity/components/image-editor")
+define.alias("helpcenter-in-product-ember/components/inline-svg-empty-room-dark","publishing-entity/components/inline-svg-empty-room-dark")
+define.alias("helpcenter-in-product-ember/components/inline-svg-empty-room","publishing-entity/components/inline-svg-empty-room")
+define.alias("helpcenter-in-product-ember/components/iph-widget-container","publishing-entity/components/iph-widget-container")
+define.alias("helpcenter-in-product-ember/components/iph-widget-placeholder","publishing-entity/components/iph-widget-placeholder")
+define.alias("helpcenter-in-product-ember/components/iph-widget-trigger-icon","publishing-entity/components/iph-widget-trigger-icon")
+define.alias("helpcenter-in-product-ember/components/iph-widget-trigger","publishing-entity/components/iph-widget-trigger")
+define.alias("helpcenter-in-product-ember/components/iph-widget","publishing-entity/components/iph-widget")
+define.alias("ember-finite-scroll/components/item-container","publishing-entity/components/item-container")
+define.alias("ember-vector-images/components/lazy-background","publishing-entity/components/lazy-background")
+define.alias("ember-vector-images/components/lazy-image","publishing-entity/components/lazy-image")
+define.alias("ember-line-clamp/components/line-clamp","publishing-entity/components/line-clamp")
+define.alias("artdeco-icons-web/components/linkedin-logo","publishing-entity/components/linkedin-logo")
+define.alias("address-ui/components/loading-input-placeholder","publishing-entity/components/loading-input-placeholder")
+define.alias("ember-cloud-filepicker/components/local-file-input","publishing-entity/components/local-file-input")
+define.alias("ember-media-player/components/media-player","publishing-entity/components/media-player")
+define("publishing-entity/components/member-entity-header",["exports","@ember/template-factory","@ember/component","publishing-entity/components/entity-header","ember-engines/components/link-to-external","ember-cli-pemberly-tracking/modifiers/track-interaction","ember-cli-pemberly-i18n/helpers/t","ember-cli-pemberly-i18n/helpers/format-name","hue-web-icons/components/icon","@glimmer/component","ember-vector-images/components/lazy-image"],(function(e,t,n,i,l,o,s,a,r,p,d){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+class c extends p.default{get authorFirstName(){var e,t,n
+return null===(e=this.args.entity)||void 0===e||null===(t=e.author)||void 0===t||null===(n=t.profileUrn)||void 0===n?void 0:n.firstName}get authorLastName(){var e,t,n
+return null===(e=this.args.entity)||void 0===e||null===(t=e.author)||void 0===t||null===(n=t.profileUrn)||void 0===n?void 0:n.lastName}get authorIsInfluencer(){var e,t,n
+return null===(e=this.args.entity)||void 0===e||null===(t=e.author)||void 0===t||null===(n=t.profileUrn)||void 0===n?void 0:n.influencer}get authorLogo(){var e,t,n,i,l
+return null===(e=this.args.entity)||void 0===e||null===(t=e.author)||void 0===t||null===(n=t.profileUrn)||void 0===n||null===(i=n.profilePicture)||void 0===i||null===(l=i.displayImageReferenceResolutionResult)||void 0===l?void 0:l.vectorImage}get authorOccupation(){var e,t,n
+return null===(e=this.args.entity)||void 0===e||null===(t=e.author)||void 0===t||null===(n=t.profileUrn)||void 0===n?void 0:n.headline}get authorPublicIdentifer(){var e,t,n
+return null===(e=this.args.entity)||void 0===e||null===(t=e.author)||void 0===t||null===(n=t.profileUrn)||void 0===n?void 0:n.publicIdentifier}}e.default=c;(0,n.setComponentTemplate)((0,t.createTemplateFactory)({id:"thDCYe3n",block:'[[[1,"\\n"],[1,"    "],[8,[32,0],null,[["@displayFlippedButtons","@entity","@entityType","@isConfirmationModalEnabled","@isSubscribed","@isUserAuthor","@onCopyLink","@onFollowClick","@urlToShare","@updateField"],[[30,1],[30,2],[30,3],[30,4],[30,5],[30,6],[30,7],[30,8],[30,9],[30,10]]],[["author"],[[[[1,"\\n        "],[8,[32,1],[[24,"data-test-publishing-author-profile-route-link","true"],[4,[32,2],["view_profile"],null]],[["@model","@route"],[[30,0,["authorPublicIdentifer"]],"profile.common.profile"]],[["default"],[[[[1,"\\n          "],[10,0],[14,0,"display-flex align-items-center"],[12],[1,"\\n            "],[8,[32,3],[[24,"data-test-publishing-author-image","true"]],[["@alt","@class","@image","@title","@ghostType","@width"],[[28,[32,4],null,[["firstName","lastName","type"],[[30,0,["authorFirstName"]],[30,0,["authorLastName"]],"full"]]],"EntityPhoto-circle-3 mr4",[30,0,["authorLogo"]],[28,[32,4],null,[["firstName","lastName","type"],[[30,0,["authorFirstName"]],[30,0,["authorLastName"]],"full"]]],"person",40]],null],[1,"\\n            "],[10,0],[14,0,"t-12 publishing-entity-author-data"],[12],[1,"\\n              "],[10,2],[14,0,"t-12 truncate"],[14,"data-test-publishing-author-name","true"],[12],[1,"\\n                "],[1,[28,[32,5],["i18n_author_name","publishing-entity/components/member-entity-header"],[["authorName"],[[28,[32,4],null,[["firstName","lastName","type"],[[30,0,["authorFirstName"]],[30,0,["authorLastName"]],"full"]]]]]]],[1,"\\n\\n"],[41,[30,0,["authorIsInfluencer"]],[[[1,"                  "],[10,1],[14,"data-test-publishing-author-badge","true"],[12],[1,"\\n                    "],[8,[32,6],null,[["@a11yText","@name","@size","@type"],[[28,[32,5],["name_is_a_linkedin_influencer","publishing-entity/components/member-entity-header"],[["memberName"],[[28,[32,4],null,[["firstName","lastName","type"],[[30,0,["authorFirstName"]],[30,0,["authorLastName"]],"full"]]]]]],"linkedin-bug-influencer-color","small","system"]],null],[1,"\\n                  "],[13],[1,"\\n"]],[]],null],[1,"              "],[13],[1,"\\n\\n              "],[10,2],[14,0,"t-12 t-black--light truncate"],[14,"data-test-publishing-author-occupation","true"],[12],[1,"\\n                "],[1,[30,0,["authorOccupation"]]],[1,"\\n              "],[13],[1,"\\n            "],[13],[1,"\\n          "],[13],[1,"\\n        "]],[]]]]],[1,"\\n      "]],[]]]]],[1,"\\n  "]],["@displayFlippedButtons","@entity","@entityType","@isConfirmationModalEnabled","@isSubscribed","@isUserAuthor","@onCopyLink","@onFollowClick","@urlToShare","@updateField"],false,["if"]]',moduleName:"publishing-entity/components/member-entity-header.gjs",scope:()=>[i.default,l.default,o.default,d.default,a.default,s.default,r.default],isStrictMode:!0}),c)}))
+define.alias("ember-models-table/components/models-table-server-paginated","publishing-entity/components/models-table-server-paginated")
+define("publishing-entity/components/models-table",["exports","ember-models-table/components/models-table"],(function(e,t){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+e.default=t.default}))
+define.alias("ember-models-table/components/models-table/themes/bootstrap3/row-select-all-checkbox","publishing-entity/components/models-table/themes/bootstrap3/row-select-all-checkbox")
+define.alias("ember-models-table/components/models-table/themes/bootstrap4/columns-dropdown","publishing-entity/components/models-table/themes/bootstrap4/columns-dropdown")
+define.alias("ember-models-table/components/models-table/themes/bootstrap4/data-group-by-select","publishing-entity/components/models-table/themes/bootstrap4/data-group-by-select")
+define.alias("ember-models-table/components/models-table/themes/bootstrap4/global-filter","publishing-entity/components/models-table/themes/bootstrap4/global-filter")
+define.alias("ember-models-table/components/models-table/themes/bootstrap4/row-filtering-cell","publishing-entity/components/models-table/themes/bootstrap4/row-filtering-cell")
+define.alias("ember-models-table/components/models-table/themes/default/cell-column-summary","publishing-entity/components/models-table/themes/default/cell-column-summary")
+define.alias("ember-models-table/components/models-table/themes/default/cell-content-display","publishing-entity/components/models-table/themes/default/cell-content-display")
+define.alias("ember-models-table/components/models-table/themes/default/cell-content-edit","publishing-entity/components/models-table/themes/default/cell-content-edit")
+define.alias("ember-models-table/components/models-table/themes/default/cell-edit-toggle","publishing-entity/components/models-table/themes/default/cell-edit-toggle")
+define.alias("ember-models-table/components/models-table/themes/default/cell","publishing-entity/components/models-table/themes/default/cell")
+define.alias("ember-models-table/components/models-table/themes/default/columns-dropdown","publishing-entity/components/models-table/themes/default/columns-dropdown")
+define.alias("ember-models-table/components/models-table/themes/default/columns-hidden","publishing-entity/components/models-table/themes/default/columns-hidden")
+define.alias("ember-models-table/components/models-table/themes/default/data-group-by-select","publishing-entity/components/models-table/themes/default/data-group-by-select")
+define.alias("ember-models-table/components/models-table/themes/default/expand-all-toggle","publishing-entity/components/models-table/themes/default/expand-all-toggle")
+define.alias("ember-models-table/components/models-table/themes/default/expand-toggle","publishing-entity/components/models-table/themes/default/expand-toggle")
+define.alias("ember-models-table/components/models-table/themes/default/footer","publishing-entity/components/models-table/themes/default/footer")
+define.alias("ember-models-table/components/models-table/themes/default/global-filter","publishing-entity/components/models-table/themes/default/global-filter")
+define.alias("ember-models-table/components/models-table/themes/default/group-summary-row","publishing-entity/components/models-table/themes/default/group-summary-row")
+define.alias("ember-models-table/components/models-table/themes/default/grouped-header","publishing-entity/components/models-table/themes/default/grouped-header")
+define.alias("ember-models-table/components/models-table/themes/default/icons/caret","publishing-entity/components/models-table/themes/default/icons/caret")
+define.alias("ember-models-table/components/models-table/themes/default/icons/clear-all-filters","publishing-entity/components/models-table/themes/default/icons/clear-all-filters")
+define.alias("ember-models-table/components/models-table/themes/default/icons/clear-filter","publishing-entity/components/models-table/themes/default/icons/clear-filter")
+define.alias("ember-models-table/components/models-table/themes/default/icons/collapse-all-rows","publishing-entity/components/models-table/themes/default/icons/collapse-all-rows")
+define.alias("ember-models-table/components/models-table/themes/default/icons/collapse-row","publishing-entity/components/models-table/themes/default/icons/collapse-row")
+define.alias("ember-models-table/components/models-table/themes/default/icons/column-hidden","publishing-entity/components/models-table/themes/default/icons/column-hidden")
+define.alias("ember-models-table/components/models-table/themes/default/icons/column-visible","publishing-entity/components/models-table/themes/default/icons/column-visible")
+define.alias("ember-models-table/components/models-table/themes/default/icons/deselect-all-rows","publishing-entity/components/models-table/themes/default/icons/deselect-all-rows")
+define.alias("ember-models-table/components/models-table/themes/default/icons/deselect-row","publishing-entity/components/models-table/themes/default/icons/deselect-row")
+define.alias("ember-models-table/components/models-table/themes/default/icons/expand-all-rows","publishing-entity/components/models-table/themes/default/icons/expand-all-rows")
+define.alias("ember-models-table/components/models-table/themes/default/icons/expand-row","publishing-entity/components/models-table/themes/default/icons/expand-row")
+define.alias("ember-models-table/components/models-table/themes/default/icons/nav-first","publishing-entity/components/models-table/themes/default/icons/nav-first")
+define.alias("ember-models-table/components/models-table/themes/default/icons/nav-last","publishing-entity/components/models-table/themes/default/icons/nav-last")
+define.alias("ember-models-table/components/models-table/themes/default/icons/nav-next","publishing-entity/components/models-table/themes/default/icons/nav-next")
+define.alias("ember-models-table/components/models-table/themes/default/icons/nav-prev","publishing-entity/components/models-table/themes/default/icons/nav-prev")
+define.alias("ember-models-table/components/models-table/themes/default/icons/select-all-rows","publishing-entity/components/models-table/themes/default/icons/select-all-rows")
+define.alias("ember-models-table/components/models-table/themes/default/icons/select-row","publishing-entity/components/models-table/themes/default/icons/select-row")
+define.alias("ember-models-table/components/models-table/themes/default/icons/select-some-rows","publishing-entity/components/models-table/themes/default/icons/select-some-rows")
+define.alias("ember-models-table/components/models-table/themes/default/icons/sort-asc","publishing-entity/components/models-table/themes/default/icons/sort-asc")
+define.alias("ember-models-table/components/models-table/themes/default/icons/sort-desc","publishing-entity/components/models-table/themes/default/icons/sort-desc")
+define.alias("ember-models-table/components/models-table/themes/default/no-data","publishing-entity/components/models-table/themes/default/no-data")
+define.alias("ember-models-table/components/models-table/themes/default/page-size-select","publishing-entity/components/models-table/themes/default/page-size-select")
+define.alias("ember-models-table/components/models-table/themes/default/pagination-numeric","publishing-entity/components/models-table/themes/default/pagination-numeric")
+define.alias("ember-models-table/components/models-table/themes/default/pagination-simple","publishing-entity/components/models-table/themes/default/pagination-simple")
+define.alias("ember-models-table/components/models-table/themes/default/row-expand","publishing-entity/components/models-table/themes/default/row-expand")
+define.alias("ember-models-table/components/models-table/themes/default/row-filtering-cell","publishing-entity/components/models-table/themes/default/row-filtering-cell")
+define.alias("ember-models-table/components/models-table/themes/default/row-filtering","publishing-entity/components/models-table/themes/default/row-filtering")
+define.alias("ember-models-table/components/models-table/themes/default/row-group-toggle","publishing-entity/components/models-table/themes/default/row-group-toggle")
+define.alias("ember-models-table/components/models-table/themes/default/row-grouping","publishing-entity/components/models-table/themes/default/row-grouping")
+define.alias("ember-models-table/components/models-table/themes/default/row-select-all-checkbox","publishing-entity/components/models-table/themes/default/row-select-all-checkbox")
+define.alias("ember-models-table/components/models-table/themes/default/row-select-checkbox","publishing-entity/components/models-table/themes/default/row-select-checkbox")
+define.alias("ember-models-table/components/models-table/themes/default/row-sorting-cell","publishing-entity/components/models-table/themes/default/row-sorting-cell")
+define.alias("ember-models-table/components/models-table/themes/default/row-sorting","publishing-entity/components/models-table/themes/default/row-sorting")
+define.alias("ember-models-table/components/models-table/themes/default/row","publishing-entity/components/models-table/themes/default/row")
+define.alias("ember-models-table/components/models-table/themes/default/select","publishing-entity/components/models-table/themes/default/select")
+define.alias("ember-models-table/components/models-table/themes/default/summary","publishing-entity/components/models-table/themes/default/summary")
+define.alias("ember-models-table/components/models-table/themes/default/table-body","publishing-entity/components/models-table/themes/default/table-body")
+define.alias("ember-models-table/components/models-table/themes/default/table-footer","publishing-entity/components/models-table/themes/default/table-footer")
+define.alias("ember-models-table/components/models-table/themes/default/table-header","publishing-entity/components/models-table/themes/default/table-header")
+define.alias("ember-models-table/components/models-table/themes/default/table","publishing-entity/components/models-table/themes/default/table")
+define.alias("ember-models-table/components/models-table/themes/ember-bootstrap-v4/columns-dropdown","publishing-entity/components/models-table/themes/ember-bootstrap-v4/columns-dropdown")
+define.alias("ember-models-table/components/models-table/themes/ember-bootstrap-v4/data-group-by-select","publishing-entity/components/models-table/themes/ember-bootstrap-v4/data-group-by-select")
+define.alias("ember-models-table/components/models-table/themes/ember-bootstrap-v4/global-filter","publishing-entity/components/models-table/themes/ember-bootstrap-v4/global-filter")
+define.alias("ember-models-table/components/models-table/themes/ember-bootstrap-v4/row-filtering-cell","publishing-entity/components/models-table/themes/ember-bootstrap-v4/row-filtering-cell")
+define.alias("ember-models-table/components/models-table/themes/ember-bootstrap-v4/summary","publishing-entity/components/models-table/themes/ember-bootstrap-v4/summary")
+define.alias("ember-models-table/components/models-table/themes/ember-bootstrap-v5/columns-dropdown","publishing-entity/components/models-table/themes/ember-bootstrap-v5/columns-dropdown")
+define.alias("ember-models-table/components/models-table/themes/ember-bootstrap-v5/data-group-by-select","publishing-entity/components/models-table/themes/ember-bootstrap-v5/data-group-by-select")
+define.alias("ember-models-table/components/models-table/themes/ember-bootstrap-v5/global-filter","publishing-entity/components/models-table/themes/ember-bootstrap-v5/global-filter")
+define.alias("ember-models-table/components/models-table/themes/ember-bootstrap-v5/page-size-select","publishing-entity/components/models-table/themes/ember-bootstrap-v5/page-size-select")
+define.alias("ember-models-table/components/models-table/themes/ember-bootstrap-v5/pagination-numeric","publishing-entity/components/models-table/themes/ember-bootstrap-v5/pagination-numeric")
+define.alias("ember-models-table/components/models-table/themes/ember-bootstrap-v5/pagination-simple","publishing-entity/components/models-table/themes/ember-bootstrap-v5/pagination-simple")
+define.alias("ember-models-table/components/models-table/themes/ember-bootstrap-v5/row-filtering-cell","publishing-entity/components/models-table/themes/ember-bootstrap-v5/row-filtering-cell")
+define.alias("ember-models-table/components/models-table/themes/ember-bootstrap-v5/summary","publishing-entity/components/models-table/themes/ember-bootstrap-v5/summary")
+define.alias("ember-models-table/components/models-table/themes/plain-html/columns-dropdown","publishing-entity/components/models-table/themes/plain-html/columns-dropdown")
+define.alias("ember-models-table/components/models-table/themes/plain-html/global-filter","publishing-entity/components/models-table/themes/plain-html/global-filter")
+define.alias("ember-models-table/components/models-table/themes/plain-html/row-filtering-cell","publishing-entity/components/models-table/themes/plain-html/row-filtering-cell")
+define.alias("ember-models-table/components/models-table/themes/plain-html/summary","publishing-entity/components/models-table/themes/plain-html/summary")
+define("publishing-entity/components/newsletter-edition-info",["exports","@ember/template-factory","@ember/component/template-only","@ember/component","ember-cli-pemberly-i18n/helpers/t","artdeco-button/components/artdeco-button","@ember/modifier"],(function(e,t,n,i,l,o,s){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+const a=(0,i.setComponentTemplate)((0,t.createTemplateFactory)({id:"FVxbGU/w",block:'[[[1,"\\n"],[1,"  "],[10,0],[14,0,"artdeco-card p4 mb3 display-flex justify-space-between"],[12],[1,"\\n    "],[10,0],[14,0,"display-flex align-items-center"],[14,"data-test-editions-count",""],[12],[1,"\\n      "],[10,1],[14,0,"t-bold mr1"],[12],[1,[30,1]],[13],[1,"\\n      "],[10,1],[12],[1,"\\n        "],[1,[28,[32,0],["i18n_editions_v2","publishing-entity/components/newsletter-edition-info"],[["editionCount"],[[30,1]]]]],[13],[1,"\\n    "],[13],[1,"\\n"],[41,[30,2],[[[1,"      "],[8,[32,1],[[24,"data-test-create-new-edition",""],[4,[32,2],["click",[30,3]],null]],[["@color","@text","@type"],["default",[28,[32,0],["i18n_create_new_edition","publishing-entity/components/newsletter-edition-info"],null],"secondary"]],null],[1,"\\n"]],[]],null],[1,"  "],[13],[1,"\\n"]],["@issueCount","@isViewerAuthor","@onCreateNewEditionClick"],false,["if"]]',moduleName:"publishing-entity/components/newsletter-edition-info.gts",scope:()=>[l.default,o.default,s.on],isStrictMode:!0}),(0,n.default)("newsletter-edition-info","NewsletterEditionInfo"))
+e.default=a}))
+define("publishing-entity/components/object-bin",["exports","ember-drag-drop/components/object-bin"],(function(e,t){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+e.default=t.default}))
+define.alias("ember-customer-onboarding/components/customer-verification/onboarding-field-set","publishing-entity/components/onboarding-field-set")
+define.alias("ember-cloud-filepicker/components/onedrive-file-picker","publishing-entity/components/onedrive-file-picker")
+define.alias("ember-payments-wallet/components/payment-intent-container","publishing-entity/components/payment-intent-container")
+define.alias("ember-payments-wallet/components/payment-intent-manager-container","publishing-entity/components/payment-intent-manager-container")
+define.alias("ember-payments-wallet/components/payment-method-container","publishing-entity/components/payment-method-container")
+define.alias("ember-payments-wallet/components/payment-method-lockup","publishing-entity/components/payment-method-lockup")
+define.alias("ember-payments-wallet/components/payments-wallet/actions-cell","publishing-entity/components/payments-wallet/actions-cell")
+define.alias("ember-payments-wallet/components/payments-wallet/add-payment-method-button","publishing-entity/components/payments-wallet/add-payment-method-button")
+define.alias("ember-payments-wallet/components/payments-wallet/adyen-gvi-accordion-item","publishing-entity/components/payments-wallet/adyen-gvi-accordion-item")
+define.alias("ember-payments-wallet/components/payments-wallet/adyen-gvi-iframe","publishing-entity/components/payments-wallet/adyen-gvi-iframe")
+define.alias("ember-payments-wallet/components/payments-wallet/adyen-gvi-next-action-handler","publishing-entity/components/payments-wallet/adyen-gvi-next-action-handler")
+define.alias("ember-payments-wallet/components/payments-wallet/adyen-gvi-panel-header","publishing-entity/components/payments-wallet/adyen-gvi-panel-header")
+define.alias("ember-payments-wallet/components/payments-wallet/adyen-gvi-panel","publishing-entity/components/payments-wallet/adyen-gvi-panel")
+define.alias("ember-payments-wallet/components/payments-wallet/auth-progress-indicator","publishing-entity/components/payments-wallet/auth-progress-indicator")
+define.alias("ember-payments-wallet/components/payments-wallet/authorization-charge-message","publishing-entity/components/payments-wallet/authorization-charge-message")
+define.alias("ember-payments-wallet/components/payments-wallet/cancel-payment-authentication","publishing-entity/components/payments-wallet/cancel-payment-authentication")
+define.alias("ember-payments-wallet/components/payments-wallet/chevron-indicator","publishing-entity/components/payments-wallet/chevron-indicator")
+define.alias("ember-payments-wallet/components/payments-wallet/contact-info","publishing-entity/components/payments-wallet/contact-info")
+define.alias("ember-payments-wallet/components/payments-wallet/country","publishing-entity/components/payments-wallet/country")
+define.alias("ember-payments-wallet/components/payments-wallet/create-payment-method","publishing-entity/components/payments-wallet/create-payment-method")
+define.alias("ember-payments-wallet/components/payments-wallet/credit-card-accordion-item","publishing-entity/components/payments-wallet/credit-card-accordion-item")
+define.alias("ember-payments-wallet/components/payments-wallet/credit-card-contact-cell","publishing-entity/components/payments-wallet/credit-card-contact-cell")
+define.alias("ember-payments-wallet/components/payments-wallet/credit-card-expiry-cell","publishing-entity/components/payments-wallet/credit-card-expiry-cell")
+define.alias("ember-payments-wallet/components/payments-wallet/credit-card-panel-header","publishing-entity/components/payments-wallet/credit-card-panel-header")
+define.alias("ember-payments-wallet/components/payments-wallet/credit-card-panel","publishing-entity/components/payments-wallet/credit-card-panel")
+define.alias("ember-payments-wallet/components/payments-wallet/default-badge","publishing-entity/components/payments-wallet/default-badge")
+define.alias("ember-payments-wallet/components/payments-wallet/dfp-iframe","publishing-entity/components/payments-wallet/dfp-iframe")
+define.alias("ember-payments-wallet/components/payments-wallet/edit-adyen-gvi-container","publishing-entity/components/payments-wallet/edit-adyen-gvi-container")
+define.alias("ember-payments-wallet/components/payments-wallet/edit-credit-card-container","publishing-entity/components/payments-wallet/edit-credit-card-container")
+define.alias("ember-payments-wallet/components/payments-wallet/edit-ideal-container","publishing-entity/components/payments-wallet/edit-ideal-container")
+define.alias("ember-payments-wallet/components/payments-wallet/edit-payment-method-button","publishing-entity/components/payments-wallet/edit-payment-method-button")
+define.alias("ember-payments-wallet/components/payments-wallet/edit-sepa-container","publishing-entity/components/payments-wallet/edit-sepa-container")
+define.alias("ember-payments-wallet/components/payments-wallet/edit-upi-container","publishing-entity/components/payments-wallet/edit-upi-container")
+define.alias("ember-payments-wallet/components/payments-wallet/error-processing","publishing-entity/components/payments-wallet/error-processing")
+define.alias("ember-payments-wallet/components/payments-wallet/ideal-panel","publishing-entity/components/payments-wallet/ideal-panel")
+define.alias("ember-payments-wallet/components/payments-wallet/loader","publishing-entity/components/payments-wallet/loader")
+define.alias("ember-payments-wallet/components/payments-wallet/logos/american-express","publishing-entity/components/payments-wallet/logos/american-express")
+define.alias("ember-payments-wallet/components/payments-wallet/logos/applepay","publishing-entity/components/payments-wallet/logos/applepay")
+define.alias("ember-payments-wallet/components/payments-wallet/logos/diners-club","publishing-entity/components/payments-wallet/logos/diners-club")
+define.alias("ember-payments-wallet/components/payments-wallet/logos/discover","publishing-entity/components/payments-wallet/logos/discover")
+define.alias("ember-payments-wallet/components/payments-wallet/logos/googlepay","publishing-entity/components/payments-wallet/logos/googlepay")
+define.alias("ember-payments-wallet/components/payments-wallet/logos/ideal","publishing-entity/components/payments-wallet/logos/ideal")
+define.alias("ember-payments-wallet/components/payments-wallet/logos/jcb","publishing-entity/components/payments-wallet/logos/jcb")
+define.alias("ember-payments-wallet/components/payments-wallet/logos/mastercard","publishing-entity/components/payments-wallet/logos/mastercard")
+define.alias("ember-payments-wallet/components/payments-wallet/logos/paypal-wordmark","publishing-entity/components/payments-wallet/logos/paypal-wordmark")
+define.alias("ember-payments-wallet/components/payments-wallet/logos/paypal","publishing-entity/components/payments-wallet/logos/paypal")
+define.alias("ember-payments-wallet/components/payments-wallet/logos/rupay","publishing-entity/components/payments-wallet/logos/rupay")
+define.alias("ember-payments-wallet/components/payments-wallet/logos/sepa","publishing-entity/components/payments-wallet/logos/sepa")
+define.alias("ember-payments-wallet/components/payments-wallet/logos/sofort","publishing-entity/components/payments-wallet/logos/sofort")
+define.alias("ember-payments-wallet/components/payments-wallet/logos/upi","publishing-entity/components/payments-wallet/logos/upi")
+define.alias("ember-payments-wallet/components/payments-wallet/logos/visa","publishing-entity/components/payments-wallet/logos/visa")
+define.alias("ember-payments-wallet/components/payments-wallet/name","publishing-entity/components/payments-wallet/name")
+define.alias("ember-payments-wallet/components/payments-wallet/payment-authorization-error-manager","publishing-entity/components/payments-wallet/payment-authorization-error-manager")
+define.alias("ember-payments-wallet/components/payments-wallet/payment-consent-checkbox","publishing-entity/components/payments-wallet/payment-consent-checkbox")
+define.alias("ember-payments-wallet/components/payments-wallet/payment-intent-confirmation-input-manager","publishing-entity/components/payments-wallet/payment-intent-confirmation-input-manager")
+define.alias("ember-payments-wallet/components/payments-wallet/payment-intent-manager","publishing-entity/components/payments-wallet/payment-intent-manager")
+define.alias("ember-payments-wallet/components/payments-wallet/payment-method-action-already-set-default-confirmation","publishing-entity/components/payments-wallet/payment-method-action-already-set-default-confirmation")
+define.alias("ember-payments-wallet/components/payments-wallet/payment-method-action-confirmation","publishing-entity/components/payments-wallet/payment-method-action-confirmation")
+define.alias("ember-payments-wallet/components/payments-wallet/payment-method-action-delete-active-confirmation","publishing-entity/components/payments-wallet/payment-method-action-delete-active-confirmation")
+define.alias("ember-payments-wallet/components/payments-wallet/payment-method-action-delete-confirmation","publishing-entity/components/payments-wallet/payment-method-action-delete-confirmation")
+define.alias("ember-payments-wallet/components/payments-wallet/payment-method-action-edit-apple-pay-confirmation","publishing-entity/components/payments-wallet/payment-method-action-edit-apple-pay-confirmation")
+define.alias("ember-payments-wallet/components/payments-wallet/payment-method-action-edit-google-pay-confirmation","publishing-entity/components/payments-wallet/payment-method-action-edit-google-pay-confirmation")
+define.alias("ember-payments-wallet/components/payments-wallet/payment-method-action-edit-paypal-confirmation","publishing-entity/components/payments-wallet/payment-method-action-edit-paypal-confirmation")
+define.alias("ember-payments-wallet/components/payments-wallet/payment-method-action-edit-sepa-confirmation","publishing-entity/components/payments-wallet/payment-method-action-edit-sepa-confirmation")
+define.alias("ember-payments-wallet/components/payments-wallet/payment-method-action-edit-tokenization-confirmation","publishing-entity/components/payments-wallet/payment-method-action-edit-tokenization-confirmation")
+define.alias("ember-payments-wallet/components/payments-wallet/payment-method-action-edit-upi-confirmation","publishing-entity/components/payments-wallet/payment-method-action-edit-upi-confirmation")
+define.alias("ember-payments-wallet/components/payments-wallet/payment-method-action-expired-card-cannot-be-set-default-confirmation","publishing-entity/components/payments-wallet/payment-method-action-expired-card-cannot-be-set-default-confirmation")
+define.alias("ember-payments-wallet/components/payments-wallet/payment-method-action-set-default-apple-pay-confirmation","publishing-entity/components/payments-wallet/payment-method-action-set-default-apple-pay-confirmation")
+define.alias("ember-payments-wallet/components/payments-wallet/payment-method-action-set-default-confirmation","publishing-entity/components/payments-wallet/payment-method-action-set-default-confirmation")
+define.alias("ember-payments-wallet/components/payments-wallet/payment-method-action-set-default-google-pay-confirmation","publishing-entity/components/payments-wallet/payment-method-action-set-default-google-pay-confirmation")
+define.alias("ember-payments-wallet/components/payments-wallet/payment-method-action-set-default-sepa-confirmation","publishing-entity/components/payments-wallet/payment-method-action-set-default-sepa-confirmation")
+define.alias("ember-payments-wallet/components/payments-wallet/payment-method-action-set-default-upi-confirmation","publishing-entity/components/payments-wallet/payment-method-action-set-default-upi-confirmation")
+define.alias("ember-payments-wallet/components/payments-wallet/payment-method-contact-and-exp","publishing-entity/components/payments-wallet/payment-method-contact-and-exp")
+define.alias("ember-payments-wallet/components/payments-wallet/payment-method-details-cell","publishing-entity/components/payments-wallet/payment-method-details-cell")
+define.alias("ember-payments-wallet/components/payments-wallet/payment-method-logo","publishing-entity/components/payments-wallet/payment-method-logo")
+define.alias("ember-payments-wallet/components/payments-wallet/payment-method-option-list-header","publishing-entity/components/payments-wallet/payment-method-option-list-header")
+define.alias("ember-payments-wallet/components/payments-wallet/payment-method-option-list","publishing-entity/components/payments-wallet/payment-method-option-list")
+define.alias("ember-payments-wallet/components/payments-wallet/payment-method-option","publishing-entity/components/payments-wallet/payment-method-option")
+define.alias("ember-payments-wallet/components/payments-wallet/payment-methods-dropdown","publishing-entity/components/payments-wallet/payment-methods-dropdown")
+define.alias("ember-payments-wallet/components/payments-wallet/payment-methods-tables","publishing-entity/components/payments-wallet/payment-methods-tables")
+define.alias("ember-payments-wallet/components/payments-wallet/payment-processing-timer","publishing-entity/components/payments-wallet/payment-processing-timer")
+define.alias("ember-payments-wallet/components/payments-wallet/paypal-accordion-item","publishing-entity/components/payments-wallet/paypal-accordion-item")
+define.alias("ember-payments-wallet/components/payments-wallet/paypal-panel","publishing-entity/components/payments-wallet/paypal-panel")
+define.alias("ember-payments-wallet/components/payments-wallet/product-name","publishing-entity/components/payments-wallet/product-name")
+define.alias("ember-payments-wallet/components/payments-wallet/redirect-auth","publishing-entity/components/payments-wallet/redirect-auth")
+define.alias("ember-payments-wallet/components/payments-wallet/secure-checkout","publishing-entity/components/payments-wallet/secure-checkout")
+define.alias("ember-payments-wallet/components/payments-wallet/sepa-accordion-item","publishing-entity/components/payments-wallet/sepa-accordion-item")
+define.alias("ember-payments-wallet/components/payments-wallet/sepa-panel-header","publishing-entity/components/payments-wallet/sepa-panel-header")
+define.alias("ember-payments-wallet/components/payments-wallet/sepa-panel","publishing-entity/components/payments-wallet/sepa-panel")
+define.alias("ember-payments-wallet/components/payments-wallet/sofort-panel","publishing-entity/components/payments-wallet/sofort-panel")
+define.alias("ember-payments-wallet/components/payments-wallet/threeds-auth","publishing-entity/components/payments-wallet/threeds-auth")
+define.alias("ember-payments-wallet/components/payments-wallet/tokenization-banner","publishing-entity/components/payments-wallet/tokenization-banner")
+define.alias("ember-payments-wallet/components/payments-wallet/upi-accordion-item","publishing-entity/components/payments-wallet/upi-accordion-item")
+define.alias("ember-payments-wallet/components/payments-wallet/upi-panel-header","publishing-entity/components/payments-wallet/upi-panel-header")
+define.alias("ember-payments-wallet/components/payments-wallet/upi-panel","publishing-entity/components/payments-wallet/upi-panel")
+define.alias("ember-payments-wallet/components/payments-wallet/upi-processing","publishing-entity/components/payments-wallet/upi-processing")
+define.alias("helpcenter-in-product-ember/components/recommendation","publishing-entity/components/recommendation")
+define.alias("helpcenter-in-product-ember/components/recommendations-list","publishing-entity/components/recommendations-list")
+define.alias("ember-tax/components/region-cell","publishing-entity/components/region-cell")
+define.alias("ember-payments-wallet/components/saved-payment-methods","publishing-entity/components/saved-payment-methods")
+define.alias("helpcenter-in-product-ember/components/search-bar","publishing-entity/components/search-bar")
+define.alias("helpcenter-in-product-ember/components/search-results-list","publishing-entity/components/search-results-list")
+define.alias("ember-finite-scroll/components/sentinel","publishing-entity/components/sentinel")
+define.alias("ember-tax/components/shared/actions-cell","publishing-entity/components/shared/actions-cell")
+define.alias("ember-tax/components/shared/tax-input","publishing-entity/components/shared/tax-input")
+define.alias("helpcenter-in-product-ember/components/shimmer-loading-skeleton","publishing-entity/components/shimmer-loading-skeleton")
+define.alias("ember-cloud-filepicker/components/slideshare-file-picker","publishing-entity/components/slideshare-file-picker")
+define("publishing-entity/components/sortable-objects",["exports","ember-drag-drop/components/sortable-objects"],(function(e,t){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+e.default=t.default}))
+define.alias("ember-tax/components/status-cell","publishing-entity/components/status-cell")
+define.alias("helpcenter-in-product-ember/components/survey-form","publishing-entity/components/survey-form")
+define.alias("helpcenter-in-product-ember/components/survey-question","publishing-entity/components/survey-question")
+define.alias("ember-tax/components/tax-disclosures","publishing-entity/components/tax-disclosures")
+define.alias("ember-tax/components/tax-id-delete-modal","publishing-entity/components/tax-id-delete-modal")
+define.alias("ember-tax/components/tax-id-display","publishing-entity/components/tax-id-display")
+define.alias("ember-tax/components/tax-id-entry-modal","publishing-entity/components/tax-id-entry-modal")
+define.alias("ember-tax/components/tax-id-entry","publishing-entity/components/tax-id-entry")
+define.alias("ember-tax/components/tax-id-mobile-cell-title","publishing-entity/components/tax-id-mobile-cell-title")
+define.alias("ember-tax/components/tax-id-table","publishing-entity/components/tax-id-table")
+define.alias("ember-tax/components/tax-typeahead","publishing-entity/components/tax-typeahead")
+define.alias("ember-tax/components/tax-uin-entry","publishing-entity/components/tax-uin-entry")
+define.alias("ember-tax/components/tax-warning","publishing-entity/components/tax-warning")
+define.alias("helpcenter-in-product-ember/components/tooltip","publishing-entity/components/tooltip")
+define.alias("ember-tax/components/transactions-cell","publishing-entity/components/transactions-cell")
+define.alias("ember-payments-wallet/components/wallet-container-locked-view","publishing-entity/components/wallet-container-locked-view")
+define.alias("ember-payments-wallet/components/wallet-container","publishing-entity/components/wallet-container")
+define("publishing-entity/config/environment",["exports"],(function(e){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+let t
+try{const e="publishing-entity/config/environment",n=document.querySelector('meta[name="'+e+'"]').getAttribute("content")
+t=JSON.parse(unescape(n))}catch(e){t={}}e.default=t}))
+define("publishing-entity/controllers/newsletter",["exports","@babel/runtime/helpers/esm/initializerDefineProperty","@babel/runtime/helpers/esm/defineProperty","@babel/runtime/helpers/esm/applyDecoratedDescriptor","@babel/runtime/helpers/esm/initializerWarningHelper","@ember/destroyable","@ember/controller","@ember/object","@ember/service","rsvp","feed-utils/utils/article-toast-utils","publishing-entity/utils/toast-helper","publishing-entity/utils/publishing-entity-requests","@glimmer/tracking","publishing-shared/components/-private/i18n-strings"],(function(e,t,n,i,l,o,s,a,r,p,d,c,m,u,b){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+var h,y,f,g,w,v,_,k,x,C,O,E,j,M,S,P,T,D,z,N,U,A
+e.default=(h=(0,r.inject)("global-services@clipboard"),y=(0,r.inject)("@linkedin/ember-restli-graphql@graphql"),f=(0,r.inject)("i18n"),g=(0,r.inject)("jet"),w=(0,r.inject)("persistent-toast-manager@persistent-toast-manager"),v=(0,r.inject)("router"),_=(0,r.inject)("tracking"),k=(0,r.inject)("social-counts-service@social-counts"),x=class extends s.default{constructor(){super(...arguments);(0,n.default)(this,"queryParams",["displayConfirmation"]);(0,t.default)(this,"clipboard",C,this);(0,t.default)(this,"graphql",O,this);(0,t.default)(this,"i18n",E,this);(0,t.default)(this,"jet",j,this);(0,t.default)(this,"persistentToastManager",M,this);(0,t.default)(this,"router",S,this);(0,t.default)(this,"tracking",P,this);(0,t.default)(this,"socialCountsService",T,this);(0,t.default)(this,"hasNextPage",D,this);(0,t.default)(this,"pagination",z,this);(0,t.default)(this,"subscribedOnLoad",N,this);(0,t.default)(this,"subscribeButtonToggled",U,this);(0,t.default)(this,"displayConfirmation",A,this)}get isConfirmationModalEnabled(){return!0===this.displayConfirmation}get authorMiniProfile(){return(0,a.get)(this.model,"newsletter.author.name.attributes.0.miniProfile")}get displayFlippedButtons(){return!!this.subscribedOnLoad||(0,a.get)(this.model,"newsletter.subscribeAction.subscribed")&&!this.subscribeButtonToggled}get isSubscribed(){return(0,a.get)(this.model,"newsletter.subscribeAction.subscribed")}get toastManager(){return new d.default(this.persistentToastManager,this.i18n)}get i18nErrorLoadingUpdatesTitle(){return this.i18n.lookupTranslation(b.default,"i18n_error_something_went_wrong")}get i18nErrorLoadingUpdatesDescription(){return this.i18n.lookupTranslation(b.default,"i18n_error_try_refreshing_page")}get paginationData(){const{count:e,start:t,total:n}=(0,a.get)(this,"model.articles.paging")
+return{count:e,start:t,total:n}}onFeedUpdateLoad(){this.tracking.firePageViewEvent("flagship3_series_entity_updates")}onSubscribeToNewsletter(){this.subscribeButtonToggled||(this.subscribedOnLoad=(0,a.get)(this.model,"newsletter.subscribeAction.subscribed"))
+this.subscribeButtonToggled=!0}copyLink(){(0,c.copyToClipboard)(this.clipboard,this.i18n,this.persistentToastManager,(0,a.get)(this,"model.newsletter.shareableLink"))}onCreateNewEditionClick(){var e,t,n
+const i=(0,a.get)(this,"model.newsletterAuthorCompany")?null===(e=this.model.newsletterAuthorCompany)||void 0===e?void 0:e.entityUrn:null===(t=this.model.newsletter.author)||void 0===t||null===(n=t.profileUrn)||void 0===n?void 0:n.entityUrn
+this.router.transitionTo("article-editor.index.new",{queryParams:{author:i}}).data={series:(0,a.get)(this,"model.newsletter")}}onInfiniteScroll(){if(this.caughtErrorLoadingUpdates||!this.pagination)return(0,p.reject)(null)
+if(!this.hasNextPage)return(0,p.resolve)(null)
+const e=this.pagination.start+this.pagination.count+m.UPDATE_PAGE_SIZE>this.pagination.total?Math.max(0,this.pagination.total-(this.pagination.start+this.pagination.count)):m.UPDATE_PAGE_SIZE,t=this.pagination.start+this.pagination.count
+this.pagination.count=e
+this.pagination.start=t
+this.hasNextPage=this.pagination.start+this.pagination.count<this.pagination.total
+return this.graphql.executeQuery(...(0,m.getPublishingSeriesUpdatesGraphQL)({count:this.pagination.count,start:this.pagination.start,urn:this.model.newsletter.entityUrn})).then((e=>{var t,n,i
+if((0,o.isDestroying)(this))return
+const l=null==e||null===(t=e.data)||void 0===t||null===(n=t.feedDashSeriesUpdatesByContentSeriesUrn)||void 0===n?void 0:n.elements
+if(l){this.socialCountsService.registerElementsList(l)
+this.model.articles.elements=[...this.model.articles.elements,...l]}return null==e||null===(i=e.data)||void 0===i?void 0:i.feedDashSeriesUpdatesByContentSeriesUrn})).catch((e=>{if((0,o.isDestroying)(this))throw e
+this.jet.logError(new Error(`Network request failed while attempting to retrieve the newsletter updates with urn ${this.model.newsletter.entityUrn}`),"publishing-entity-get-newsletter-updates",!1)
+this.caughtErrorLoadingUpdates=!0
+throw e}))}updateField(e,t){(0,a.set)(this.model,`newsletter.${e}`,t)}},C=(0,i.default)(x.prototype,"clipboard",[h],{configurable:!0,enumerable:!0,writable:!0,initializer:null}),O=(0,i.default)(x.prototype,"graphql",[y],{configurable:!0,enumerable:!0,writable:!0,initializer:null}),E=(0,i.default)(x.prototype,"i18n",[f],{configurable:!0,enumerable:!0,writable:!0,initializer:null}),j=(0,i.default)(x.prototype,"jet",[g],{configurable:!0,enumerable:!0,writable:!0,initializer:null}),M=(0,i.default)(x.prototype,"persistentToastManager",[w],{configurable:!0,enumerable:!0,writable:!0,initializer:null}),S=(0,i.default)(x.prototype,"router",[v],{configurable:!0,enumerable:!0,writable:!0,initializer:null}),P=(0,i.default)(x.prototype,"tracking",[_],{configurable:!0,enumerable:!0,writable:!0,initializer:null}),T=(0,i.default)(x.prototype,"socialCountsService",[k],{configurable:!0,enumerable:!0,writable:!0,initializer:null}),D=(0,i.default)(x.prototype,"hasNextPage",[u.tracked],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return this.paginationData.count<this.paginationData.total}}),z=(0,i.default)(x.prototype,"pagination",[u.tracked],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return{count:this.paginationData.count>this.paginationData.total?this.paginationData.total:this.paginationData.count,start:this.paginationData.start,total:this.paginationData.total||1/0}}}),N=(0,i.default)(x.prototype,"subscribedOnLoad",[u.tracked],{configurable:!0,enumerable:!0,writable:!0,initializer:null}),U=(0,i.default)(x.prototype,"subscribeButtonToggled",[u.tracked],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return!1}}),A=(0,i.default)(x.prototype,"displayConfirmation",[u.tracked],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return!1}}),(0,i.default)(x.prototype,"onFeedUpdateLoad",[a.action],Object.getOwnPropertyDescriptor(x.prototype,"onFeedUpdateLoad"),x.prototype),(0,i.default)(x.prototype,"onSubscribeToNewsletter",[a.action],Object.getOwnPropertyDescriptor(x.prototype,"onSubscribeToNewsletter"),x.prototype),(0,i.default)(x.prototype,"copyLink",[a.action],Object.getOwnPropertyDescriptor(x.prototype,"copyLink"),x.prototype),(0,i.default)(x.prototype,"onCreateNewEditionClick",[a.action],Object.getOwnPropertyDescriptor(x.prototype,"onCreateNewEditionClick"),x.prototype),(0,i.default)(x.prototype,"onInfiniteScroll",[a.action],Object.getOwnPropertyDescriptor(x.prototype,"onInfiniteScroll"),x.prototype),(0,i.default)(x.prototype,"updateField",[a.action],Object.getOwnPropertyDescriptor(x.prototype,"updateField"),x.prototype),x)}))
+define("publishing-entity/controllers/newsletter/subscribers",["exports","@babel/runtime/helpers/esm/initializerDefineProperty","@babel/runtime/helpers/esm/defineProperty","@babel/runtime/helpers/esm/applyDecoratedDescriptor","@babel/runtime/helpers/esm/initializerWarningHelper","@ember/controller","@ember/object","@ember/service"],(function(e,t,n,i,l,o,s,a){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+var r,p,d
+e.default=(r=(0,a.inject)("router"),p=class extends o.default{constructor(){super(...arguments);(0,t.default)(this,"router",d,this)}onCloseSubscribersModal(){this.router.transitionTo("publishing-entity.newsletter")}},d=(0,i.default)(p.prototype,"router",[r],{configurable:!0,enumerable:!0,writable:!0,initializer:null}),(0,i.default)(p.prototype,"onCloseSubscribersModal",[s.action],Object.getOwnPropertyDescriptor(p.prototype,"onCloseSubscribersModal"),p.prototype),p)}))
+define("publishing-entity/engine",["exports","@babel/runtime/helpers/esm/defineProperty","@ember/engine","ember-load-initializers","strict-resolver"],(function(e,t,n,i,l){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+const o="publishing-entity",s=class extends n.default{constructor(){super(...arguments);(0,t.default)(this,"modulePrefix",o);(0,t.default)(this,"Resolver",l.default)}};(0,i.default)(s,o)
+e.default=s}))
+define.alias("ember-truth-helpers/helpers/and","publishing-entity/helpers/and")
+define.alias("ember-composable-helpers/helpers/append","publishing-entity/helpers/append")
+define.alias("artdeco-datepicker/helpers/artdeco-adjust-date-for-timezone","publishing-entity/helpers/artdeco-adjust-date-for-timezone")
+define.alias("artdeco-datepicker/helpers/artdeco-is-between-dates","publishing-entity/helpers/artdeco-is-between-dates")
+define.alias("ember-media-player/helpers/autoplay-media","publishing-entity/helpers/autoplay-media")
+define.alias("artdeco-datepicker/helpers/cal-dates-equal","publishing-entity/helpers/cal-dates-equal")
+define.alias("ember-composable-helpers/helpers/call","publishing-entity/helpers/call")
+define.alias("ember-cli-string-helpers/helpers/camelize","publishing-entity/helpers/camelize")
+define.alias("ember-concurrency/helpers/cancel-all","publishing-entity/helpers/cancel-all")
+define.alias("ember-cli-string-helpers/helpers/capitalize","publishing-entity/helpers/capitalize")
+define.alias("ember-composable-helpers/helpers/chunk","publishing-entity/helpers/chunk")
+define.alias("ember-cli-string-helpers/helpers/classify","publishing-entity/helpers/classify")
+define.alias("ember-composable-helpers/helpers/compact","publishing-entity/helpers/compact")
+define.alias("ember-composable-helpers/helpers/compute","publishing-entity/helpers/compute")
+define.alias("ember-cli-string-helpers/helpers/dasherize","publishing-entity/helpers/dasherize")
+define.alias("ember-composable-helpers/helpers/dec","publishing-entity/helpers/dec")
+define.alias("ember-composable-helpers/helpers/drop","publishing-entity/helpers/drop")
+define.alias("ember-element-helper/helpers/element","publishing-entity/helpers/element")
+define.alias("ember-holy-futuristic-template-namespacing-batman/helpers/-translate-dynamic-2","publishing-entity/helpers/ember-holy-futuristic-template-namespacing-batman-translate-dynamic-2")
+define("publishing-entity/helpers/ensure-safe-component",["exports","@embroider/util"],(function(e,t){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+Object.defineProperty(e,"default",{enumerable:!0,get:function(){return t.EnsureSafeComponentHelper}})}))
+define.alias("ember-composable-helpers/helpers/entries","publishing-entity/helpers/entries")
+define.alias("ember-truth-helpers/helpers/eq","publishing-entity/helpers/eq")
+define.alias("ember-composable-helpers/helpers/filter-by","publishing-entity/helpers/filter-by")
+define.alias("ember-composable-helpers/helpers/filter","publishing-entity/helpers/filter")
+define.alias("ember-composable-helpers/helpers/find-by","publishing-entity/helpers/find-by")
+define.alias("ember-composable-helpers/helpers/flatten","publishing-entity/helpers/flatten")
+define.alias("ember-media-player/helpers/format-autoplay","publishing-entity/helpers/format-autoplay")
+define.alias("ember-cli-pemberly-i18n/helpers/format-number","publishing-entity/helpers/format-number")
+define.alias("ember-semaphore/helpers/format-title","publishing-entity/helpers/format-title")
+define.alias("ember-composable-helpers/helpers/from-entries","publishing-entity/helpers/from-entries")
+define.alias("hue-web-icons/helpers/get-asset-url","publishing-entity/helpers/get-asset-url")
+define.alias("ember-composable-helpers/helpers/group-by","publishing-entity/helpers/group-by")
+define.alias("ember-truth-helpers/helpers/gt","publishing-entity/helpers/gt")
+define.alias("ember-truth-helpers/helpers/gte","publishing-entity/helpers/gte")
+define.alias("ember-composable-helpers/helpers/has-next","publishing-entity/helpers/has-next")
+define.alias("ember-composable-helpers/helpers/has-previous","publishing-entity/helpers/has-previous")
+define.alias("ember-payments-wallet/helpers/hash-merge","publishing-entity/helpers/hash-merge")
+define.alias("ember-cli-string-helpers/helpers/html-safe","publishing-entity/helpers/html-safe")
+define.alias("@linkedin/hue-web-artdeco-migration-runtime/helpers/convert-to-icon-name","publishing-entity/helpers/hue-web-artdeco-icon-migration-runtime")
+define.alias("@linkedin/hue-web-artdeco-migration-runtime/helpers/convert-to-icon-v2","publishing-entity/helpers/hue-web-artdeco-li-icon-migration-runtime-v2")
+define.alias("@linkedin/hue-web-artdeco-migration-runtime/helpers/convert-to-icon-path","publishing-entity/helpers/hue-web-artdeco-li-icon-migration-runtime")
+define.alias("@linkedin/hue-web-artdeco-migration-runtime/helpers/convert-argument","publishing-entity/helpers/hue-web-artdeco-migration-runtime")
+define.alias("ember-cli-string-helpers/helpers/humanize","publishing-entity/helpers/humanize")
+define.alias("ember-composable-helpers/helpers/inc","publishing-entity/helpers/inc")
+define.alias("helpcenter-in-product-ember/helpers/includes","publishing-entity/helpers/includes")
+define.alias("ember-composable-helpers/helpers/intersect","publishing-entity/helpers/intersect")
+define.alias("ember-composable-helpers/helpers/invoke","publishing-entity/helpers/invoke")
+define.alias("ember-payments-wallet/helpers/is-add-operation-allowed","publishing-entity/helpers/is-add-operation-allowed")
+define.alias("ember-truth-helpers/helpers/is-array","publishing-entity/helpers/is-array")
+define.alias("ember-payments-wallet/helpers/is-edit-operation-allowed","publishing-entity/helpers/is-edit-operation-allowed")
+define.alias("ember-truth-helpers/helpers/is-empty","publishing-entity/helpers/is-empty")
+define.alias("ember-truth-helpers/helpers/is-equal","publishing-entity/helpers/is-equal")
+define.alias("ember-payments-wallet/helpers/is-payment-method-editable","publishing-entity/helpers/is-payment-method-editable")
+define.alias("ember-composable-helpers/helpers/join","publishing-entity/helpers/join")
+define.alias("ember-composable-helpers/helpers/keys","publishing-entity/helpers/keys")
+define.alias("artdeco-icons-web/helpers/li-icon","publishing-entity/helpers/li-icon")
+define.alias("ember-async-data/helpers/load","publishing-entity/helpers/load")
+define.alias("ember-css-modules/helpers/local-class","publishing-entity/helpers/local-class")
+define.alias("ember-cli-string-helpers/helpers/lowercase","publishing-entity/helpers/lowercase")
+define.alias("ember-truth-helpers/helpers/lt","publishing-entity/helpers/lt")
+define.alias("ember-truth-helpers/helpers/lte","publishing-entity/helpers/lte")
+define.alias("ember-composable-helpers/helpers/map-by","publishing-entity/helpers/map-by")
+define.alias("ember-composable-helpers/helpers/map","publishing-entity/helpers/map")
+define.alias("ember-composable-helpers/helpers/next","publishing-entity/helpers/next")
+define.alias("ember-composable-helpers/helpers/noop","publishing-entity/helpers/noop")
+define.alias("ember-truth-helpers/helpers/not-eq","publishing-entity/helpers/not-eq")
+define.alias("ember-truth-helpers/helpers/not","publishing-entity/helpers/not")
+define.alias("ember-composable-helpers/helpers/object-at","publishing-entity/helpers/object-at")
+define.alias("ember-composable-helpers/helpers/optional","publishing-entity/helpers/optional")
+define.alias("ember-truth-helpers/helpers/or","publishing-entity/helpers/or")
+define.alias("ember-concurrency/helpers/perform","publishing-entity/helpers/perform")
+define.alias("ember-composable-helpers/helpers/pick","publishing-entity/helpers/pick")
+define.alias("ember-composable-helpers/helpers/pipe-action","publishing-entity/helpers/pipe-action")
+define.alias("ember-composable-helpers/helpers/pipe","publishing-entity/helpers/pipe")
+define.alias("ember-popper-modifier/helpers/popper-modifier","publishing-entity/helpers/popper-modifier")
+define.alias("ember-composable-helpers/helpers/previous","publishing-entity/helpers/previous")
+define.alias("ember-composable-helpers/helpers/queue","publishing-entity/helpers/queue")
+define.alias("ember-composable-helpers/helpers/range","publishing-entity/helpers/range")
+define.alias("ember-composable-helpers/helpers/reduce","publishing-entity/helpers/reduce")
+define("publishing-entity/helpers/ref-to",["exports","ember-ref-bucket/helpers/ref-to"],(function(e,t){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+Object.defineProperty(e,"default",{enumerable:!0,get:function(){return t.default}})
+Object.defineProperty(e,"refTo",{enumerable:!0,get:function(){return t.default}})}))
+define.alias("ember-composable-helpers/helpers/reject-by","publishing-entity/helpers/reject-by")
+define.alias("ember-payments-wallet/helpers/render-with-html","publishing-entity/helpers/render-with-html")
+define.alias("ember-composable-helpers/helpers/repeat","publishing-entity/helpers/repeat")
+define.alias("ember-composable-helpers/helpers/reverse","publishing-entity/helpers/reverse")
+define.alias("ember-app-scheduler/helpers/route-idle","publishing-entity/helpers/route-idle")
+define.alias("ember-media-player/helpers/seek-media","publishing-entity/helpers/seek-media")
+define.alias("ember-set-helper/helpers/set","publishing-entity/helpers/set")
+define.alias("ember-composable-helpers/helpers/shuffle","publishing-entity/helpers/shuffle")
+define.alias("ember-composable-helpers/helpers/slice","publishing-entity/helpers/slice")
+define.alias("ember-composable-helpers/helpers/sort-by","publishing-entity/helpers/sort-by")
+define.alias("ember-cli-pemberly-i18n/helpers/t","publishing-entity/helpers/t")
+define.alias("ember-composable-helpers/helpers/take","publishing-entity/helpers/take")
+define.alias("ember-concurrency/helpers/task","publishing-entity/helpers/task")
+define.alias("ember-cli-string-helpers/helpers/titleize","publishing-entity/helpers/titleize")
+define.alias("ember-composable-helpers/helpers/toggle-action","publishing-entity/helpers/toggle-action")
+define.alias("ember-composable-helpers/helpers/toggle","publishing-entity/helpers/toggle")
+define.alias("ember-cli-string-helpers/helpers/trim","publishing-entity/helpers/trim")
+define.alias("ember-cli-string-helpers/helpers/truncate","publishing-entity/helpers/truncate")
+define.alias("ember-cli-string-helpers/helpers/underscore","publishing-entity/helpers/underscore")
+define.alias("ember-composable-helpers/helpers/union","publishing-entity/helpers/union")
+define.alias("ember-cli-string-helpers/helpers/uppercase","publishing-entity/helpers/uppercase")
+define.alias("ember-composable-helpers/helpers/values","publishing-entity/helpers/values")
+define.alias("ember-cli-string-helpers/helpers/w","publishing-entity/helpers/w")
+define.alias("ember-composable-helpers/helpers/without","publishing-entity/helpers/without")
+define.alias("ember-truth-helpers/helpers/xor","publishing-entity/helpers/xor")
+define.alias("ember-uuid","publishing-entity/index")
+define("publishing-entity/initializers/coordinator-setup",["exports","publishing-entity/models/coordinator"],(function(e,t){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+e.default={name:"setup coordinator",initialize:function(){(arguments[1]||arguments[0]).register("drag:coordinator",t.default)}}}))
+define("publishing-entity/initializers/ensure-local-class-included",["exports","ember-css-modules/templates/static-helpers-hack"],(function(e,t){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+e.default={initialize(){}}}))
+define("publishing-entity/initializers/icons",["exports","artdeco-icons-web/src/icons","publishing-entity/config/environment"],(function(e,t,n){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+function i(e){throw e}e.default={name:"icons",initialize:function(){const{environment:e,APP:l}=n.default
+let o,s
+l&&({artdecoCustomSpriteUrl:o,artdecoCustomSpriteName:s}=l)
+const a="test"!==e
+t.default.load(a,o,s).catch(i)}}}))
+define.alias("ember-cli-pemberly-lix/initializers/lix","publishing-entity/initializers/lix")
+define.alias("ember-m3/initializers/m3-store","publishing-entity/initializers/m3-store")
+define("publishing-entity/instance-initializers/artdeco",["exports","artdeco-eyeglass"],(function(e,t){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+e.initialize=l
+const n=[t.default.contextClasses,t.default.floatingLabel,t.default.focusOutline]
+function i(e,t){const i=e[t]
+e[t]=function(){n.forEach((e=>e&&"function"==typeof e.teardown&&e.teardown()))
+i&&"function"==typeof i&&i.call(e)}}function l(e){if("undefined"!=typeof document){n.forEach((e=>e.install()))
+"function"==typeof e.willDestroy?i(e,"willDestroy"):"function"==typeof e.destroy&&i(e,"destroy")}}e.default={name:"artdeco",initialize:l}}))
+define.alias("ember-ref-bucket/instance-initializers/global-ref-cleanup","publishing-entity/instance-initializers/global-ref-cleanup")
+define.alias("video/instance-initializers/media-plugins","publishing-entity/instance-initializers/media-plugins")
+define.alias("tracking-overlay-service/instance-initializers/tracking-overlay","publishing-entity/instance-initializers/tracking-overlay")
+define("publishing-entity/models/coordinator",["exports","@ember/object","@ember/object/evented","publishing-entity/models/obj-hash","ember-drag-drop/utils/proxy-unproxy-objects"],(function(e,t,n,i,l){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+e.default=t.default.extend(n.default,{objectMap:(0,t.computed)((function(){return i.default.create()})),getObject:function(e,t){t=t||{}
+var n=this.get("objectMap").getObj(e)
+if(n.ops.source&&!n.ops.source.isDestroying&&!n.ops.source.isDestroyed){const e=n.ops.source.action
+"function"==typeof e&&e(n.obj)
+"string"==typeof e&&"function"==typeof n.ops.source.target[e]&&n.ops.source.target[e](n.obj)}if(n.ops.target&&!n.ops.target.isDestroying&&!n.ops.target.isDestroyed){const e=n.ops.target.action
+"function"==typeof e&&e(n.obj)
+"string"==typeof e&&"function"==typeof n.ops.target.source[e]&&n.ops.target.source[e](n.obj)}this.trigger("objectMoved",{obj:(0,l.unwrapper)(n.obj),source:n.ops.source,target:t.target})
+return(0,l.unwrapper)(n.obj)},setObject:function(e,t){t=t||{}
+return this.get("objectMap").add({obj:e,ops:t})}})}))
+define("publishing-entity/models/obj-hash",["exports","@ember/object","@ember/object/computed","@ember/array"],(function(e,t,n,i){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+e.default=t.default.extend({contentLength:0,length:(0,n.alias)("contentLength"),init:function(){this._super()
+this.content={}},add:function(e){var t=this.generateId()
+this.get("content")[t]=e
+this.incrementProperty("contentLength")
+return t},getObj:function(e){var t=this.get("content")[e]
+if(!t)throw new Error("no obj for key "+e)
+return t},generateId:function(){var e=1e12*Math.random()
+return e=""+(e=parseInt(e))},keys:function(){var e=[]
+for(var t in this.get("content"))e.push(t)
+return(0,i.A)(e)}})}))
+define.alias("artdeco-datepicker/modifiers/artdeco-calendar-click-watcher","publishing-entity/modifiers/artdeco-calendar-click-watcher")
+define.alias("ember-ref-bucket/modifiers/create-ref","publishing-entity/modifiers/create-ref")
+define.alias("ember-css-transitions/modifiers/css-transition","publishing-entity/modifiers/css-transition")
+define.alias("@ember/render-modifiers/modifiers/did-insert","publishing-entity/modifiers/did-insert")
+define.alias("ember-scroll-modifiers/modifiers/did-intersect","publishing-entity/modifiers/did-intersect")
+define.alias("ember-resize-modifier/modifiers/did-resize","publishing-entity/modifiers/did-resize")
+define.alias("@ember/render-modifiers/modifiers/did-update","publishing-entity/modifiers/did-update")
+define.alias("ember-finite-scroll/modifiers/ember-finite-scroll/focus","publishing-entity/modifiers/ember-finite-scroll/focus")
+define.alias("image-editor/modifiers/fabric","publishing-entity/modifiers/fabric")
+define.alias("ember-iframe-resizer-modifier/modifiers/iframe-resizer","publishing-entity/modifiers/iframe-resizer")
+define("publishing-entity/modifiers/on-dom-insert",["exports","ember-modifier"],(function(e,t){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+e.default=(0,t.modifier)((function(e,t){let[n]=t
+n(e)
+return()=>{}}))}))
+define.alias("ember-accordion/modifiers/on-item-render","publishing-entity/modifiers/on-item-render")
+define.alias("ember-payments-wallet/modifiers/payments-wallet/focus","publishing-entity/modifiers/payments-wallet/focus")
+define.alias("ember-payments-wallet/modifiers/payments-wallet/post-message","publishing-entity/modifiers/payments-wallet/post-message")
+define.alias("ember-payments-wallet/modifiers/payments-wallet/redirect-with-post","publishing-entity/modifiers/payments-wallet/redirect-with-post")
+define.alias("ember-payments-wallet/modifiers/payments-wallet/setup-paypal-button","publishing-entity/modifiers/payments-wallet/setup-paypal-button")
+define.alias("ember-payments-wallet/modifiers/payments-wallet/window-resize","publishing-entity/modifiers/payments-wallet/window-resize")
+define.alias("ember-popper-modifier/modifiers/popper-tooltip","publishing-entity/modifiers/popper-tooltip")
+define.alias("ember-popper-modifier/modifiers/popper","publishing-entity/modifiers/popper")
+define.alias("ember-prop-modifier","publishing-entity/modifiers/prop")
+define.alias("ember-scroll-modifiers/modifiers/scroll-into-view","publishing-entity/modifiers/scroll-into-view")
+define.alias("ember-accordion/modifiers/set-attributes","publishing-entity/modifiers/set-attributes")
+define.alias("ember-sortable/modifiers/sortable-group","publishing-entity/modifiers/sortable-group")
+define.alias("ember-sortable/modifiers/sortable-handle","publishing-entity/modifiers/sortable-handle")
+define.alias("ember-sortable/modifiers/sortable-item","publishing-entity/modifiers/sortable-item")
+define.alias("@ember/render-modifiers/modifiers/will-destroy","publishing-entity/modifiers/will-destroy")
+define.alias("ember-cloud-filepicker/providers/base-provider","publishing-entity/providers/base-provider")
+define.alias("ember-cloud-filepicker/providers/dropbox-provider","publishing-entity/providers/dropbox-provider")
+define.alias("ember-cloud-filepicker/providers/onedrive-provider","publishing-entity/providers/onedrive-provider")
+define("publishing-entity/providers/slideshare-provider",["exports","ember-cloud-filepicker/providers/slideshare-provider"],(function(e,t){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+var n={}
+Object.defineProperty(e,"default",{enumerable:!0,get:function(){return t.default}})
+Object.keys(t).forEach((function(i){"default"!==i&&"__esModule"!==i&&(Object.prototype.hasOwnProperty.call(n,i)||i in e&&e[i]===t[i]||Object.defineProperty(e,i,{enumerable:!0,get:function(){return t[i]}}))}))}))
+define("publishing-entity/routes/newsletter",["exports","@babel/runtime/helpers/esm/initializerDefineProperty","@babel/runtime/helpers/esm/defineProperty","@babel/runtime/helpers/esm/applyDecoratedDescriptor","@babel/runtime/helpers/esm/initializerWarningHelper","@ember/destroyable","@ember/routing/route","@ember/object","@ember/service","rsvp","feed-utils/utils/authenticated-member-actor","community-panel/utils/community-panel-query","publishing-entity/utils/publishing-entity-requests","publishing-shared/utils/data-request","global-utils/utils/urn-converter","graphql-queries/queries/organizations/admin-company-by-urn.graphql","@linkedin/ember-pem/utils/degradation-tracking-metadata"],(function(e,t,n,i,l,o,s,a,r,p,d,c,m,u,b,h,y){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+var f,g,w,v,_,k,x,C,O,E,j,M,S,P,T,D,z
+e.default=(f=(0,r.inject)("authentication@authenticated-user"),g=(0,r.inject)("client-sensor-web@client-sensor"),w=(0,r.inject)("@linkedin/ember-restli-graphql@graphql"),v=(0,r.inject)("jet"),_=(0,r.inject)("global-services@store-shim"),k=(0,r.inject)("social-counts-service@social-counts"),x=(0,r.inject)("community-panel@interest-package-data-manager"),C=(0,r.inject)("organization-custom-tracking@module-tracking"),O=class extends s.default{constructor(){super(...arguments);(0,t.default)(this,"user",E,this);(0,t.default)(this,"clientSensor",j,this);(0,t.default)(this,"graphql",M,this);(0,t.default)(this,"jet",S,this);(0,t.default)(this,"storeShim",P,this);(0,t.default)(this,"socialCountsService",T,this);(0,t.default)(this,"interestPackageDataManager",D,this);(0,t.default)(this,"moduleTracking",z,this)}beforeModel(){this.contentSeriesSlug=this.paramsFor(this.routeName).newsletterUrn
+const e=function(){const e=(arguments.length>0&&void 0!==arguments[0]?arguments[0]:"").split("-")
+return e&&e.length?e[e.length-1]:""}(this.contentSeriesSlug)
+this.contentSeriesDashUrn=(0,b.toUrn)("publishing/dash-content-series",e)
+return(0,d.default)(this.storeShim,this.user)}model(){if((0,o.isDestroying)(this))return
+const{contentSeriesSlug:e}=this,t=this._getNewsletterEntity(e)
+return(0,p.hash)({articles:this._getNewsletterArticles(this.contentSeriesDashUrn),entitiesFollowed:(0,c.default)({interestPackageDataManager:this.interestPackageDataManager,clientSensor:this.clientSensor,graphql:this.graphql,jet:this.jet}),newsletter:t,newsletterAuthorCompany:t.then((e=>{var t,n
+if((0,o.isDestroying)(this))return
+const i=null==e||null===(t=e.author)||void 0===t||null===(n=t.companyUrn)||void 0===n?void 0:n.entityUrn
+return i?this._getCompanyAdminData(i):null}))})}afterModel(e){if((0,o.isDestroying)(this))return
+super.afterModel(...arguments)
+e.newsletterAuthorCompany&&this.moduleTracking.setOrganization(e.newsletterAuthorCompany)
+const t=(0,a.get)(e,"articles.elements")
+t&&this.socialCountsService.registerElementsList(t)}setupController(e,t){(0,o.isDestroying)(this)||(0,a.setProperties)(e,{caughtErrorLoadingUpdates:!!this.caughtErrorLoadingUpdates,model:t})}resetController(e,t){super.resetController(...arguments)
+t&&(e.showManageEventsModal=!1)}_getCompanyAdminData(e){const t=(0,b.fromUrn)(e).id
+return this.graphql.executeQuery(h.default,{companyUrns:[`urn:li:fsd_company:${t}`]},{adapterOptions:{degradations:[new y.default("fetch-company-admin-by-urn","failed",{productName:"Voyager - Newsletter Entity"})],degradedEntityIDsToRemove:[]},reload:!0}).then((e=>{if(!(0,o.isDestroying)(this))return(0,a.get)(e,"data.organizationDashCompaniesByIds.0")}))}_getNewsletterArticles(e){return this.graphql.executeQuery(...(0,m.getPublishingSeriesUpdatesGraphQL)({urn:e})).then((e=>{var t
+if(!(0,o.isDestroying)(this))return null==e||null===(t=e.data)||void 0===t?void 0:t.feedDashSeriesUpdatesByContentSeriesUrn})).catch((t=>{if((0,o.isDestroying)(this))throw t
+this.jet.logError(new Error(`Network request failed while attempting to retrieve the newsletter updates with urn ${e}`),"publishing-entity-get-newsletter-updates",!1)
+this.caughtErrorLoadingUpdates=!0
+throw t}))}_getNewsletterEntity(e){return this.graphql.executeQuery(...(0,u.getNewsletterBySlugGraphQL)({slug:e,adapterOptions:{degradations:[new y.default("fetch-series-by-slug","failed",{productName:"Voyager - Newsletter Entity"})],degradedEntityIDsToRemove:[]}})).then((e=>{var t,n,i,l,s,a
+if((0,o.isDestroying)(this))return
+const r=null==e||null===(t=e.data)||void 0===t||null===(n=t.publishingDashContentSeriesBySlug)||void 0===n||null===(i=n.elements)||void 0===i?void 0:i[0]
+r&&null!=r&&r.entityUrn&&null!=r&&r.title&&null!=r&&r.description&&null!=r&&r.issueCount||this.jet.error(new Error(`Newsletter missing data. Values - entityUrn: ${null==r?void 0:r.entityUrn}, title: ${null==r?void 0:r.title}, description: ${null==r?void 0:r.description}, issueCount: ${null==r?void 0:r.issueCount}`),["publishing-entity-get-newsletter-data-not-found"],{shouldRethrow:!1})
+return null==e||null===(l=e.data)||void 0===l||null===(s=l.publishingDashContentSeriesBySlug)||void 0===s||null===(a=s.elements)||void 0===a?void 0:a[0]})).catch((t=>{if((0,o.isDestroying)(this))throw t
+this.jet.logError(new Error(`Network request failed while retrieving the newsletter content series with slug ${e}`),"publishing-entity-get-newsletter",!1)
+throw t}))}},E=(0,i.default)(O.prototype,"user",[f],{configurable:!0,enumerable:!0,writable:!0,initializer:null}),j=(0,i.default)(O.prototype,"clientSensor",[g],{configurable:!0,enumerable:!0,writable:!0,initializer:null}),M=(0,i.default)(O.prototype,"graphql",[w],{configurable:!0,enumerable:!0,writable:!0,initializer:null}),S=(0,i.default)(O.prototype,"jet",[v],{configurable:!0,enumerable:!0,writable:!0,initializer:null}),P=(0,i.default)(O.prototype,"storeShim",[_],{configurable:!0,enumerable:!0,writable:!0,initializer:null}),T=(0,i.default)(O.prototype,"socialCountsService",[k],{configurable:!0,enumerable:!0,writable:!0,initializer:null}),D=(0,i.default)(O.prototype,"interestPackageDataManager",[x],{configurable:!0,enumerable:!0,writable:!0,initializer:null}),z=(0,i.default)(O.prototype,"moduleTracking",[C],{configurable:!0,enumerable:!0,writable:!0,initializer:null}),O)}))
+define("publishing-entity/routes/newsletter/index",["exports","@babel/runtime/helpers/esm/defineProperty","@ember/routing/route"],(function(e,t,n){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+class i extends n.default{constructor(){super(...arguments);(0,t.default)(this,"pageKey","flagship3_series_entity")}}e.default=i}))
+define("publishing-entity/routes/newsletter/subscribers",["exports","@babel/runtime/helpers/esm/initializerDefineProperty","@babel/runtime/helpers/esm/defineProperty","@babel/runtime/helpers/esm/applyDecoratedDescriptor","@babel/runtime/helpers/esm/initializerWarningHelper","@ember/destroyable","@ember/routing/route","@ember/service","@ember/object","rsvp"],(function(e,t,n,i,l,o,s,a,r,p){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+var d,c,m
+e.default=(d=(0,a.inject)("router"),c=class extends s.default{constructor(){super(...arguments);(0,t.default)(this,"router",m,this)}model(){if((0,o.isDestroying)(this))return
+const{newsletter:e,newsletterAuthorCompany:t}=this.modelFor("newsletter");(function(e,t){return t?(0,r.get)(t,"viewerPermissions.canCreateOrganicShare")&&(0,r.get)(t,"viewerPermissions.canUpdateOrganizationProfile"):(0,r.get)(e,"viewerAuthor")})(e,t)||this.router.replaceWith("publishing-entity.newsletter")
+return(0,p.hash)({subscriberCount:(0,r.get)(e,"subscribeAction.subscriberCount"),entityUrn:(0,r.get)(e,"entityUrn")})}},m=(0,i.default)(c.prototype,"router",[d],{configurable:!0,enumerable:!0,writable:!0,initializer:null}),c)}))
+define.alias("@embroider/util/services/ensure-registered","publishing-entity/services/-ensure-registered")
+define.alias("ember-accordion/services/accordion","publishing-entity/services/accordion")
+define.alias("address-ui/services/address","publishing-entity/services/address")
+define.alias("artdeco-hoverables/services/artdeco-hoverable","publishing-entity/services/artdeco-hoverable")
+define.alias("artdeco-modal/services/artdeco-modal","publishing-entity/services/artdeco-modal")
+define.alias("artdeco-table-styles/services/artdeco-models-table-theme","publishing-entity/services/artdeco-models-table-theme")
+define.alias("artdeco-toast/services/artdeco-toast","publishing-entity/services/artdeco-toast")
+define.alias("client-sensor-web/services/client-sensor","publishing-entity/services/client-sensor")
+define.alias("ember-customer-onboarding/services/customer-onboarding/business-information-details-api","publishing-entity/services/customer-onboarding/business-information-details-api")
+define.alias("ember-customer-onboarding/services/customer-onboarding/business-purchase-profile-api","publishing-entity/services/customer-onboarding/business-purchase-profile-api")
+define.alias("ember-customer-onboarding/services/customer-onboarding/customer-notification-api","publishing-entity/services/customer-onboarding/customer-notification-api")
+define.alias("ember-customer-onboarding/services/customer-onboarding/field-validation","publishing-entity/services/customer-onboarding/field-validation")
+define.alias("ember-customer-onboarding/services/customer-onboarding/lix-wrapper","publishing-entity/services/customer-onboarding/lix-wrapper")
+define.alias("ember-customer-onboarding/services/customer-onboarding/typeahead","publishing-entity/services/customer-onboarding/typeahead")
+define.alias("ember-customer-onboarding/services/customer-onboarding/verification-api","publishing-entity/services/customer-onboarding/verification-api")
+define.alias("ember-customer-onboarding/services/customer-onboarding/verification-form-config","publishing-entity/services/customer-onboarding/verification-form-config")
+define.alias("ember-customer-onboarding/services/customer-onboarding/xhr","publishing-entity/services/customer-onboarding/xhr")
+define.alias("ember-date-service/services/date","publishing-entity/services/date")
+define("publishing-entity/services/drag-coordinator",["exports","ember-drag-drop/services/drag-coordinator"],(function(e,t){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+e.default=t.default}))
+define.alias("ember-sortable/services/ember-sortable-internal-state","publishing-entity/services/ember-sortable-internal-state")
+define.alias("ember-models-table/services/emt-themes/bootstrap3","publishing-entity/services/emt-themes/bootstrap3")
+define.alias("ember-models-table/services/emt-themes/bootstrap4","publishing-entity/services/emt-themes/bootstrap4")
+define.alias("ember-models-table/services/emt-themes/default","publishing-entity/services/emt-themes/default")
+define.alias("ember-models-table/services/emt-themes/ember-bootstrap-v4","publishing-entity/services/emt-themes/ember-bootstrap-v4")
+define.alias("ember-models-table/services/emt-themes/ember-bootstrap-v5","publishing-entity/services/emt-themes/ember-bootstrap-v5")
+define.alias("ember-models-table/services/emt-themes/plain-html","publishing-entity/services/emt-themes/plain-html")
+define.alias("@linkedin/ember-restli-graphql/services/graphql","publishing-entity/services/graphql")
+define.alias("image-editor/services/image-editor-loader","publishing-entity/services/image-editor-loader")
+define.alias("@linkedin/ember-pem/services/internal-event-utils","publishing-entity/services/internal-event-utils")
+define.alias("@linkedin/ember-pem/services/internal-pem-tracking","publishing-entity/services/internal-pem-tracking")
+define.alias("helpcenter-in-product-ember/services/iph-service","publishing-entity/services/iph-service")
+define.alias("ember-cli-pemberly-lix/services/lix","publishing-entity/services/lix")
+define.alias("ember-m3/services/m3-schema-manager","publishing-entity/services/m3-schema-manager")
+define.alias("ember-media-player/services/media-player","publishing-entity/services/media-player")
+define.alias("ember-payments-wallet/services/payments-wallet/payment-intent","publishing-entity/services/payments-wallet/payment-intent")
+define.alias("ember-payments-wallet/services/payments-wallet/payment-methods","publishing-entity/services/payments-wallet/payment-methods")
+define.alias("ember-payments-wallet/services/payments-wallet/performance-measurement","publishing-entity/services/payments-wallet/performance-measurement")
+define.alias("ember-payments-wallet/services/payments-wallet/wallet-container","publishing-entity/services/payments-wallet/wallet-container")
+define.alias("ember-payments-wallet/services/payments-wallet/xhr","publishing-entity/services/payments-wallet/xhr")
+define.alias("@linkedin/ember-pem/services/pem-response-metadata","publishing-entity/services/pem-response-metadata")
+define.alias("@linkedin/ember-pem/services/pem-tracking","publishing-entity/services/pem-tracking")
+define("publishing-entity/services/pemberly-network",["exports","fetch","rsvp","@ember/service","@ember/application","@ember/object","restli-utils"],(function(e,t,n,i,l,o,s){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+e.default=i.default.extend({computeUseFetch:e=>!!(e&&e.EmberENV&&!1===e.EmberENV._JQUERY_INTEGRATION)||"undefined"==typeof $,useFetch:(0,o.computed)((function(){let e=(0,l.getOwner)(this).resolveRegistration("config:environment")
+return this.computeUseFetch(e)})),_fetchRequest(e,i){if(!this.useFetch){const t=this._jqueryAjax(e,i)
+return i.returnXHR?t:n.Promise.resolve(t)}const l=n.Promise.resolve((0,t.default)(e,i))
+return i.returnXHR?l:l.then((e=>function(e){if(e.ok)return e
+const t=e.statusText?e.statusText:e.status,n=new Error(t)
+n.name="ResponseError"
+n.response=e
+throw n}(e).json()))},fetch(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{}
+if("undefined"==typeof FastBoot){t.method=t.method||t.type||"GET"
+t.headers=t.headers||{}
+const n=s.default.queryTunnel.queryTunnelRequest(e,t)
+e=n.url
+Object.assign(t,n.request)
+this.useFetch?delete t.data:delete t.body
+if("GET"===t.method){t.processData=!1
+t.restliparam=!0}t.credentials=t.credentials||"same-origin"
+return this._fetchRequest(e,t)}},_jqueryAjax:(e,t)=>$.ajax(e,t)})}))
+define.alias("persistent-toast-manager/services/persistent-toast-manager","publishing-entity/services/persistent-toast-manager")
+define.alias("@linkedin/ember-qualtrics/services/qualtrics-surveys","publishing-entity/services/qualtrics-surveys")
+define.alias("ember-media-player/services/static-asset-loader","publishing-entity/services/static-asset-loader")
+define.alias("ember-cli-pemberly-m3/services/store","publishing-entity/services/store")
+define.alias("ember-cli-pemberly-litms/services/tag-manager","publishing-entity/services/tag-manager")
+define.alias("ember-tax/services/tax-api","publishing-entity/services/tax-api")
+define.alias("ember-tax/services/tax-xhr","publishing-entity/services/tax-xhr")
+define.alias("@linkedin/ember-pem/services/tracer","publishing-entity/services/tracer")
+define.alias("ember-cli-pemberly-litms/services/tracking-adapter-for-tag-manager","publishing-entity/services/tracking-adapter-for-tag-manager")
+define("publishing-entity/template-registry",[],(function(){}))
+define("publishing-entity/templates/application",["exports","@ember/template-factory"],(function(e,t){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+e.default=(0,t.createTemplateFactory)({id:"ihBqnymU",block:'[[[46,[28,[37,1],null,null],null,null,null]],[],false,["component","-outlet"]]',moduleName:"publishing-entity/templates/application.hbs",isStrictMode:!1})}))
+define("publishing-entity/templates/components/draggable-object-target",["exports","@ember/template-factory"],(function(e,t){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+e.default=(0,t.createTemplateFactory)({id:"EvT4XuOf",block:'[[[41,[30,1],[[[1,"  "],[11,3],[24,6,"#"],[4,[38,1],[[30,0,["acceptForDrop"]]],null],[12],[1,"\\n    "],[18,2,null],[1,"\\n  "],[13],[1,"\\n"]],[]],[[[1,"  "],[18,2,null],[1,"\\n"]],[]]]],["@enableClicking","&default"],false,["if","fn","yield"]]',moduleName:"publishing-entity/templates/components/draggable-object-target.hbs",isStrictMode:!1})}))
+define("publishing-entity/templates/components/draggable-object",["exports","@ember/template-factory"],(function(e,t){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+e.default=(0,t.createTemplateFactory)({id:"PMjnDcum",block:'[[[41,[30,1],[[[1,"  "],[11,3],[24,6,"#"],[4,[38,1],[[30,0,["selectForDrag"]]],null],[12],[1,"\\n    "],[18,2,null],[1,"\\n  "],[13],[1,"\\n"]],[]],[[[1,"  "],[18,2,null],[1,"\\n"]],[]]]],["@enableClicking","&default"],false,["if","fn","yield"]]',moduleName:"publishing-entity/templates/components/draggable-object.hbs",isStrictMode:!1})}))
+define("publishing-entity/templates/components/sortable-objects",["exports","@ember/template-factory"],(function(e,t){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+e.default=(0,t.createTemplateFactory)({id:"C/NYUKTP",block:'[[[18,1,null]],["&default"],false,["yield"]]',moduleName:"publishing-entity/templates/components/sortable-objects.hbs",isStrictMode:!1})}))
+define("publishing-entity/templates/helpers/toast-constants",["exports","@ember/template-factory"],(function(e,t){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+e.default=(0,t.createTemplateFactory)({id:"Qe/Ex5uu",block:"[[],[],false,[]]",moduleName:"publishing-entity/templates/helpers/toast-constants.hbs",isStrictMode:!1})}))
+define("publishing-entity/templates/newsletter",["exports","@ember/template-factory"],(function(e,t){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+e.default=(0,t.createTemplateFactory)({id:"wABjTowl",block:'[[[41,[30,0,["model","newsletterAuthorCompany"]],[[[1,"  "],[8,[39,1],null,[["@canInfiniteScroll","@caughtErrorLoadingUpdates","@displayFlippedButtons","@isSubscribed","@model","@onCopyLink","@onCreateNewEditionClick","@onFeedUpdateLoad","@onFollowClick","@onInfiniteScroll","@isConfirmationModalEnabled","@updateField"],[[30,0,["hasNextPage"]],[30,0,["caughtErrorLoadingUpdates"]],[30,0,["displayFlippedButtons"]],[30,0,["isSubscribed"]],[30,0,["model"]],[30,0,["copyLink"]],[30,0,["onCreateNewEditionClick"]],[30,0,["onFeedUpdateLoad"]],[30,0,["onSubscribeToNewsletter"]],[30,0,["onInfiniteScroll"]],[30,0,["isConfirmationModalEnabled"]],[30,0,["updateField"]]]],null],[1,"\\n"]],[]],[[[1,"  "],[8,[39,2],null,[["@template","@hasSidebarToggle"],["sidebar-main-aside",true]],[["sidebar","main","aside"],[[[[1,"\\n      "],[8,[30,1,["Sticky"]],null,null,[["default"],[[[[1,"\\n        "],[8,[39,3],[[24,0,"left-rail-container artdeco-card overflow-hidden"],[24,"data-test-newsletter-left-community-panel","true"]],[["@packages"],[[30,0,["model","entitiesFollowed"]]]],null],[1,"\\n      "]],[]]]]],[1,"\\n    "]],[1]],[[[1,"\\n"],[41,[30,0,["model","newsletter","analyticsBanner"]],[[[1,"        "],[8,[39,4],null,[["@analyticsBanner"],[[30,0,["model","newsletter","analyticsBanner"]]]],null],[1,"\\n"]],[]],null],[1,"      "],[10,"section"],[14,0,"core-rail"],[12],[1,"\\n        "],[8,[39,5],null,[["@displayFlippedButtons","@entity","@entityType","@isSubscribed","@isUserAuthor","@onCopyLink","@onFollowClick","@urlToShare","@isConfirmationModalEnabled","@updateField"],[[30,0,["displayFlippedButtons"]],[30,0,["model","newsletter"]],[28,[37,6],["i18n_newsletter_title","publishing-entity/templates/newsletter"],null],[30,0,["isSubscribed"]],[30,0,["model","newsletter","viewerAuthor"]],[30,0,["copyLink"]],[30,0,["onSubscribeToNewsletter"]],[30,0,["model","newsletter","shareableLink"]],[30,0,["isConfirmationModalEnabled"]],[30,0,["updateField"]]]],null],[1,"\\n\\n        "],[8,[39,7],null,[["@issueCount","@isViewerAuthor","@onCreateNewEditionClick"],[[30,0,["model","newsletter","issueCount"]],[30,0,["model","newsletter","viewerAuthor"]],[30,0,["onCreateNewEditionClick"]]]],null],[1,"\\n\\n"],[41,[30,0,["caughtErrorLoadingUpdates"]],[[[1,"          "],[10,"section"],[12],[1,"\\n            "],[8,[39,8],null,[["@headline","@message","@illustration","@mercadoSize"],[[30,0,["i18nErrorLoadingUpdatesTitle"]],[30,0,["i18nErrorLoadingUpdatesDescription"]],"error-server",2]],null],[1,"\\n          "],[13],[1,"\\n"]],[]],[[[1,"          "],[11,"section"],[24,0,"publishing-entity-feed"],[4,[38,9],[[30,0,["onFeedUpdateLoad"]]],null],[12],[1,"\\n"],[41,[28,[37,10],[[30,0,["model","newsletter","viewerAuthor"]],[28,[37,11],[[30,0,["model","articles","elements","length"]]],null]],null],[[[1,"              "],[8,[39,12],null,null,null],[1,"\\n"]],[]],[[[1,"              "],[8,[39,13],null,[["@isDisabled","@items","@onTrigger"],[[28,[37,11],[[30,0,["hasNextPage"]]],null],[30,0,["model","articles","elements"]],[30,0,["onInfiniteScroll"]]]],[["content"],[[[[1,"\\n"],[42,[28,[37,15],[[28,[37,15],[[30,3]],null]],null],null,[[[1,"                    "],[8,[30,2],null,[["@index"],[[30,5]]],[["default"],[[[[1,"\\n                      "],[8,[39,16],null,[["@model","@isDashEnabled","@hideSocialActions","@hideBottomBorder","@hideCaEntryPoint","@hideCommentsWithoutInteraction"],[[30,4],true,true,true,true,true]],null],[1,"\\n                    "]],[]]]]],[1,"\\n"]],[4,5]],null],[1,"                "]],[2,3]]]]],[1,"\\n"]],[]]],[1,"          "],[13],[1,"\\n"]],[]]],[1,"      "],[13],[1,"\\n    "]],[]],[[[1,"\\n      "],[8,[30,6,["Sticky"]],null,null,[["default"],[[[[1,"\\n        "],[8,[39,17],[[24,0,"artdeco-card pt1 mb3"],[24,"data-test-newsletter-ad-right-module","true"]],[["@pageZone","@slotSize","@zone"],["PAGE_ZONE_BODY_RIGHT","300x250","NOTIFICATIONS"]],null],[1,"\\n        "],[8,[39,18],null,null,null],[1,"\\n      "]],[]]]]],[1,"\\n    "]],[6]]]]],[1,"\\n"]],[]]],[46,[28,[37,20],null,null],null,null,null]],["Sidebar","ItemContainer","items","update","index","Aside"],false,["if","publishing-entity@company-newsletter","scaffold-layout@layout","community-panel@community-panel","publishing-entity@analytics-entrypoint","publishing-entity@member-entity-header","t","publishing-entity@newsletter-edition-info","artdeco-empty-state@artdeco-empty-state","did-insert","global-helpers@and","global-helpers@not","publishing-entity@entity-feed-empty-state","scaffold-finite-scroll@finite-scroll","each","-track-array","feed-shared@update/generic-update","ads@ad-banner","global-footer@global-footer-compact","component","-outlet"]]',moduleName:"publishing-entity/templates/newsletter.hbs",isStrictMode:!1})}))
+define("publishing-entity/templates/newsletter/subscribers",["exports","@ember/template-factory"],(function(e,t){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.default=void 0
+e.default=(0,t.createTemplateFactory)({id:"9wA+OD1k",block:'[[[8,[39,0],null,[["@contentSeriesUrn","@isSubscribersModalOpen","@onCloseSubscribersModal","@totalSubscribers"],[[30,0,["model","entityUrn"]],true,[30,0,["onCloseSubscribersModal"]],[30,0,["model","subscriberCount"]]]],null]],[],false,["publishing-shared@subscribers-modal"]]',moduleName:"publishing-entity/templates/newsletter/subscribers.hbs",isStrictMode:!1})}))
+define.alias("ember-async-data/tracked-async-data","publishing-entity/tracked-async-data")
+define.alias("address-ui/utils/address-constants","publishing-entity/utils/address-constants")
+define.alias("address-ui/utils/address-entity","publishing-entity/utils/address-entity")
+define("publishing-entity/utils/asset-utils",["exports","ember-cloud-filepicker/utils/asset-utils"],(function(e,t){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+var n={}
+Object.defineProperty(e,"default",{enumerable:!0,get:function(){return t.default}})
+Object.keys(t).forEach((function(i){"default"!==i&&"__esModule"!==i&&(Object.prototype.hasOwnProperty.call(n,i)||i in e&&e[i]===t[i]||Object.defineProperty(e,i,{enumerable:!0,get:function(){return t[i]}}))}))}))
+define.alias("ember-highcharts/utils/build-options","publishing-entity/utils/build-options")
+define("publishing-entity/utils/constants",["exports"],(function(e){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.SERIES_TYPES=void 0
+e.SERIES_TYPES={DAILY:"DAY",MONTHLY:"MONTH",WEEKLY:"WEEK"}}))
+define.alias("address-ui/utils/csrf-token","publishing-entity/utils/csrf-token")
+define.alias("ember-models-table/utils/emt/fmt.function","publishing-entity/utils/emt/fmt.function")
+define("publishing-entity/utils/file-error",["exports","ember-cloud-filepicker/utils/file-error"],(function(e,t){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+var n={}
+Object.defineProperty(e,"default",{enumerable:!0,get:function(){return t.default}})
+Object.keys(t).forEach((function(i){"default"!==i&&"__esModule"!==i&&(Object.prototype.hasOwnProperty.call(n,i)||i in e&&e[i]===t[i]||Object.defineProperty(e,i,{enumerable:!0,get:function(){return t[i]}}))}))}))
+define("publishing-entity/utils/file-result",["exports","ember-cloud-filepicker/utils/file-result"],(function(e,t){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+var n={}
+Object.defineProperty(e,"default",{enumerable:!0,get:function(){return t.default}})
+Object.keys(t).forEach((function(i){"default"!==i&&"__esModule"!==i&&(Object.prototype.hasOwnProperty.call(n,i)||i in e&&e[i]===t[i]||Object.defineProperty(e,i,{enumerable:!0,get:function(){return t[i]}}))}))}))
+define("publishing-entity/utils/get-app-config",["exports","ember-cloud-filepicker/utils/get-app-config"],(function(e,t){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+var n={}
+Object.defineProperty(e,"default",{enumerable:!0,get:function(){return t.default}})
+Object.keys(t).forEach((function(i){"default"!==i&&"__esModule"!==i&&(Object.prototype.hasOwnProperty.call(n,i)||i in e&&e[i]===t[i]||Object.defineProperty(e,i,{enumerable:!0,get:function(){return t[i]}}))}))}))
+define.alias("ember-cli-artdeco-tabs/utils/get-box-model-width","publishing-entity/utils/get-box-model-width")
+define.alias("client-sensor-web/utils/helpers","publishing-entity/utils/helpers")
+define.alias("@linkedin/hue-web-artdeco-migration-runtime/utils/mapping-data","publishing-entity/utils/mapping-data")
+define("publishing-entity/utils/mime-type-utils",["exports","ember-cloud-filepicker/utils/mime-type-utils"],(function(e,t){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+var n={}
+Object.defineProperty(e,"default",{enumerable:!0,get:function(){return t.default}})
+Object.keys(t).forEach((function(i){"default"!==i&&"__esModule"!==i&&(Object.prototype.hasOwnProperty.call(n,i)||i in e&&e[i]===t[i]||Object.defineProperty(e,i,{enumerable:!0,get:function(){return t[i]}}))}))}))
+define("publishing-entity/utils/publishing-entity-requests",["exports","@ember/debug","graphql-queries/queries/publishing/series-updates-by-id.graphql","@linkedin/ember-pem/utils/degradation-tracking-metadata"],(function(e,t,n,i){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.UPDATE_PAGE_SIZE=void 0
+e.getPublishingSeriesUpdatesGraphQL=function(e){let{count:t=6,start:l=0,urn:o}=e
+return[n.default,{count:t,seriesUrn:o,start:l},{adapterOptions:{degradations:[new i.default("fetch-series-updates","failed",{productName:"Voyager - Newsletter Entity"})],degradedEntityIDsToRemove:[]}}]}
+e.UPDATE_PAGE_SIZE=6}))
+define.alias("ember-cli-string-helpers/utils/titleize","publishing-entity/utils/titleize")
+define("publishing-entity/utils/toast-helper",["exports","@ember/object"],(function(e,t){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+e.copyToClipboard=function(e,i,l,o){if((0,t.get)(e,"canCopyToClipboard")){const t=i.lookupTranslation(n,"i18n_link_copied")(),s=i.lookupTranslation(n,"i18n_view_newsletter")()
+e.copyToClipboard(o)
+l.success({ctaText:s,ctaUrl:jSecure.sanitizeUrl(o),message:t})}}
+e.showGenericNetworkErrorToast=function(e,t){const i=e.lookupTranslation(n,"i18n_generic_network_failure")()
+t.error({message:i})}
+const n="publishing-entity@helpers/toast-constants"}))
+define.alias("@linkedin/ember-customer-onboarding/utils/urn-generators","publishing-entity/utils/urn-generators")
+define.alias("address-ui/utils/urn","publishing-entity/utils/urn")
+define("publishing-entity/utils/uuid-generator",["exports","ember-uuid/utils/uuid-generator"],(function(e,t){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+Object.defineProperty(e,"default",{enumerable:!0,get:function(){return t.default}})
+Object.defineProperty(e,"parse",{enumerable:!0,get:function(){return t.parse}})
+Object.defineProperty(e,"unparse",{enumerable:!0,get:function(){return t.unparse}})
+Object.defineProperty(e,"v1",{enumerable:!0,get:function(){return t.v1}})
+Object.defineProperty(e,"v4",{enumerable:!0,get:function(){return t.v4}})}))
+define("publishing-entity/utils/validation-helpers",["exports","ember-cloud-filepicker/utils/validation-helpers"],(function(e,t){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+var n={}
+Object.defineProperty(e,"default",{enumerable:!0,get:function(){return t.default}})
+Object.keys(t).forEach((function(i){"default"!==i&&"__esModule"!==i&&(Object.prototype.hasOwnProperty.call(n,i)||i in e&&e[i]===t[i]||Object.defineProperty(e,i,{enumerable:!0,get:function(){return t[i]}}))}))}))
+define.alias("ember-vector-images/utils/vector-url","publishing-entity/utils/vector-url")
+define("publishing-entity/utils/window-helpers",["exports","ember-cloud-filepicker/utils/window-helpers"],(function(e,t){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0})
+var n={}
+Object.defineProperty(e,"default",{enumerable:!0,get:function(){return t.default}})
+Object.keys(t).forEach((function(i){"default"!==i&&"__esModule"!==i&&(Object.prototype.hasOwnProperty.call(n,i)||i in e&&e[i]===t[i]||Object.defineProperty(e,i,{enumerable:!0,get:function(){return t[i]}}))}))}))
+define.alias("@linkedin/ember-tracked-validations/validators/alias","publishing-entity/validators/alias")
+define.alias("@linkedin/ember-tracked-validations/validators/belongs-to","publishing-entity/validators/belongs-to")
+define.alias("@linkedin/ember-tracked-validations/validators/collection","publishing-entity/validators/collection")
+define.alias("@linkedin/ember-tracked-validations/validators/confirmation","publishing-entity/validators/confirmation")
+define.alias("@linkedin/ember-tracked-validations/validators/date","publishing-entity/validators/date")
+define.alias("@linkedin/ember-tracked-validations/validators/dependent","publishing-entity/validators/dependent")
+define.alias("@linkedin/ember-tracked-validations/validators/ds-error","publishing-entity/validators/ds-error")
+define.alias("@linkedin/ember-tracked-validations/validators/exclusion","publishing-entity/validators/exclusion")
+define.alias("@linkedin/ember-tracked-validations/validators/format","publishing-entity/validators/format")
+define.alias("@linkedin/ember-tracked-validations/validators/has-many","publishing-entity/validators/has-many")
+define.alias("@linkedin/ember-tracked-validations/validators/inclusion","publishing-entity/validators/inclusion")
+define.alias("@linkedin/ember-tracked-validations/validators/inline","publishing-entity/validators/inline")
+define.alias("@linkedin/ember-tracked-validations/validators/length","publishing-entity/validators/length")
+define.alias("@linkedin/ember-tracked-validations/validators/messages","publishing-entity/validators/messages")
+define.alias("@linkedin/ember-tracked-validations/validators/number","publishing-entity/validators/number")
+define.alias("@linkedin/ember-tracked-validations/validators/presence","publishing-entity/validators/presence")
+
+//# sourceMappingURL=engine.map
