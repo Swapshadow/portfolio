@@ -494,13 +494,18 @@ function initCarousel() {
 
   let isPaused = false;
   let rafId;
-  const speed = 0.4;
+  let lastTime;
+  const speed = 22;
 
-  const tick = () => {
+  const tick = (time) => {
+    if (!lastTime) lastTime = time;
+    const delta = time - lastTime;
+    lastTime = time;
+
     if (!isPaused) {
-      carousel.scrollLeft += speed;
+      carousel.scrollLeft += (delta / 1000) * speed;
       if (carousel.scrollLeft >= track.scrollWidth / 2) {
-        carousel.scrollLeft = 0;
+        carousel.scrollLeft -= track.scrollWidth / 2;
       }
     }
     rafId = requestAnimationFrame(tick);
