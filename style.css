@@ -911,6 +911,10 @@ body[data-animations="off"] .reveal-on-scroll {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+.hero-card > * {
+  min-width: 0;
+}
+
 .hero-eyebrow {
   text-transform: uppercase;
   font-size: 0.72rem;
@@ -989,6 +993,7 @@ body[data-animations="off"] .reveal-on-scroll {
   background: transparent;
   position: relative;
   overflow: visible;
+  min-width: 0;
   transition: background-color 0.3s ease;
 }
 
@@ -1000,12 +1005,14 @@ body[data-animations="off"] .reveal-on-scroll {
   position: relative;
   z-index: 1;
   width: 100%;
-  overflow-x: auto;
-  overflow-y: hidden;
-  -webkit-overflow-scrolling: touch;
+  max-width: 100%;
+  min-width: 0;
+  overflow: hidden;
+  touch-action: pan-y;
   scrollbar-width: none;
-  overscroll-behavior-x: contain;
+  overscroll-behavior-x: none;
   padding: 10px 6px;
+  cursor: grab;
 }
 
 .hero-carousel::-webkit-scrollbar {
@@ -1019,6 +1026,10 @@ body[data-animations="off"] .reveal-on-scroll {
   width: max-content;
   will-change: transform;
   transform: translate3d(0, 0, 0);
+}
+
+.hero-carousel.is-dragging {
+  cursor: grabbing;
 }
 
 .hero-carousel-item {
@@ -1037,6 +1048,9 @@ body[data-animations="off"] .reveal-on-scroll {
   object-fit: contain;
   filter: drop-shadow(0 6px 14px rgba(20, 30, 60, 0.12));
   mix-blend-mode: multiply;
+  pointer-events: none;
+  -webkit-user-drag: none;
+  user-select: none;
 }
 
 .voxel-stack {
@@ -1218,13 +1232,16 @@ body[data-animations="off"] .reveal-on-scroll {
 
 .certifications-carousel {
   position: relative;
-  overflow-x: auto;
-  overflow-y: hidden;
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
+  overflow: hidden;
+  touch-action: pan-y;
+  scroll-snap-type: none;
   padding-bottom: 6px;
   scrollbar-width: none;
-  overscroll-behavior-x: contain;
+  overscroll-behavior-x: none;
+  cursor: grab;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
 }
 
 .certifications-carousel::-webkit-scrollbar {
@@ -1238,6 +1255,16 @@ body[data-animations="off"] .reveal-on-scroll {
   width: max-content;
   will-change: transform;
   transform: translate3d(0, 0, 0);
+}
+
+.certifications-carousel.is-dragging {
+  cursor: grabbing;
+}
+
+[data-carousel] img {
+  pointer-events: none;
+  -webkit-user-drag: none;
+  user-select: none;
 }
 
 .certification-card {

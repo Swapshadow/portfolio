@@ -471,157 +471,174 @@ function initVeilleTabs() {
 }
 
 function initCarousel() {
-  const carousel = document.querySelector('[data-carousel]');
-  if (!carousel) return;
-
-  const track = carousel.querySelector('[data-carousel-track]');
-  if (!track) return;
-
-  const cards = Array.from(track.children);
-  if (!cards.length) return;
+  const carousels = Array.from(document.querySelectorAll('[data-carousel]'));
+  if (!carousels.length) return;
 
   const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  if (prefersReducedMotion) {
-    return;
-  }
+  if (prefersReducedMotion) return;
 
-  cards.forEach((card) => {
-    const clone = card.cloneNode(true);
-    clone.classList.add('is-clone');
-    clone.setAttribute('aria-hidden', 'true');
-    track.appendChild(clone);
-  });
-
-  let isPaused = false;
-  let rafId;
-  let lastTime;
-  let offset = 0;
-  let loopPoint = 0;
   const SPEED_PX_PER_SEC = 48;
-  const RESUME_DELAY = 900;
 
-  const getGapSize = () => {
-    const styles = getComputedStyle(track);
-    const gap = parseFloat(styles.columnGap || styles.gap || '0');
-    return Number.isNaN(gap) ? 0 : gap;
-  };
+  carousels.forEach((carousel) => {
+    const track = carousel.querySelector('[data-carousel-track]');
+    if (!track) return;
 
-  const measureLoopPoint = () => {
-    const gap = getGapSize();
-    const baseWidth = cards.reduce((total, card) => total + card.getBoundingClientRect().width, 0);
-    const totalGap = gap * Math.max(cards.length - 1, 0);
-    return baseWidth + totalGap;
-  };
+    const baseTemplate = Array.from(track.children).map((item) => item.cloneNode(true));
 
-  const ensureCloneCoverage = () => {
-    const baseWidth = measureLoopPoint();
-    if (!baseWidth) return baseWidth;
-    while (track.scrollWidth < baseWidth + carousel.clientWidth) {
-      cards.forEach((card) => {
-        const clone = card.cloneNode(true);
+    if (!baseTemplate.length) return;
+
+    const getGapSize = () => {
+      const styles = getComputedStyle(track);
+      const gap = parseFloat(styles.columnGap || styles.gap || '0');
+      return Number.isNaN(gap) ? 0 : gap;
+    };
+
+    const measureWidth = (items, gap) => {
+      const totalWidth = items.reduce((total, item) => total + item.getBoundingClientRect().width, 0);
+      const totalGap = gap * Math.max(items.length - 1, 0);
+      return totalWidth + totalGap;
+    };
+
+    let baseWidth = 0;
+    let offset = 0;
+    let isDragging = false;
+    let lastPointerX = 0;
+    let rafId = null;
+    let lastFrameTime = 0;
+
+    const updateTransform = () => {
+      track.style.transform = `translate3d(${offset}px, 0, 0)`;
+    };
+
+    const wrapOffset = () => {
+      if (baseWidth <= 0) return;
+      while (offset <= -baseWidth) {
+        offset += baseWidth;
+      }
+      while (offset > 0) {
+        offset -= baseWidth;
+      }
+    };
+
+    const buildTrack = () => {
+      track.innerHTML = '';
+      const gap = getGapSize();
+      const minWidth = carousel.clientWidth + gap;
+      const baseItems = [];
+
+      const appendBaseSet = () => {
+        baseTemplate.forEach((item) => {
+          const clone = item.cloneNode(true);
+          clone.dataset.carouselItem = 'base';
+          clone.setAttribute('draggable', 'false');
+          clone.querySelectorAll('img').forEach((img) => {
+            img.setAttribute('draggable', 'false');
+          });
+          track.appendChild(clone);
+          baseItems.push(clone);
+        });
+      };
+
+      appendBaseSet();
+      baseWidth = measureWidth(baseItems, gap);
+
+      while (baseWidth > 0 && baseWidth < minWidth) {
+        appendBaseSet();
+        baseWidth = measureWidth(baseItems, gap);
+      }
+
+      baseItems.forEach((item) => {
+        const clone = item.cloneNode(true);
+        clone.dataset.carouselItem = 'clone';
         clone.classList.add('is-clone');
         clone.setAttribute('aria-hidden', 'true');
         track.appendChild(clone);
       });
-    }
-    return baseWidth;
-  };
 
-  const tick = (time) => {
-    if (!lastTime) lastTime = time;
-    const delta = Math.min(time - lastTime, 48);
-    lastTime = time;
+      offset = 0;
+      wrapOffset();
+      updateTransform();
+    };
 
-    if (!isPaused && loopPoint > 0) {
-      offset = (offset + (delta / 1000) * SPEED_PX_PER_SEC) % loopPoint;
-      track.style.transform = `translate3d(${-offset}px, 0, 0)`;
-    }
-    rafId = requestAnimationFrame(tick);
-  };
+    const animate = (time) => {
+      if (!lastFrameTime) lastFrameTime = time;
+      const delta = time - lastFrameTime;
+      lastFrameTime = time;
 
-  const updateLoopPoint = () => {
-    const baseWidth = ensureCloneCoverage();
-    loopPoint = baseWidth || track.scrollWidth / 2;
-    if (loopPoint > 0) {
-      offset = offset % loopPoint;
-      track.style.transform = `translate3d(${-offset}px, 0, 0)`;
-    }
-  };
-
-  const start = () => {
-    if (!rafId) {
-      rafId = requestAnimationFrame(tick);
-    }
-  };
-
-  updateLoopPoint();
-  start();
-
-  window.addEventListener('resize', updateLoopPoint);
-  window.addEventListener('load', updateLoopPoint);
-
-  const supportsHover = window.matchMedia('(hover: hover)').matches;
-  if (supportsHover) {
-    carousel.addEventListener('mouseenter', () => {
-      isPaused = true;
-    });
-
-    carousel.addEventListener('mouseleave', () => {
-      isPaused = false;
-    });
-  }
-
-  let resumeTimeout;
-  const scheduleResume = () => {
-    clearTimeout(resumeTimeout);
-    resumeTimeout = setTimeout(() => {
-      isPaused = false;
-    }, RESUME_DELAY);
-  };
-
-  let isDragging = false;
-  let lastPointerX = 0;
-
-  carousel.addEventListener('pointerdown', (event) => {
-    isPaused = true;
-    isDragging = true;
-    lastPointerX = event.clientX;
-    carousel.setPointerCapture(event.pointerId);
-  });
-
-  carousel.addEventListener('pointermove', (event) => {
-    if (!isDragging || loopPoint <= 0) return;
-    const deltaX = event.clientX - lastPointerX;
-    lastPointerX = event.clientX;
-    offset = (offset - deltaX) % loopPoint;
-    if (offset < 0) offset += loopPoint;
-    track.style.transform = `translate3d(${-offset}px, 0, 0)`;
-  });
-
-  const endDrag = () => {
-    if (!isDragging) return;
-    isDragging = false;
-    scheduleResume();
-  };
-
-  carousel.addEventListener('pointerup', endDrag);
-  carousel.addEventListener('pointercancel', endDrag);
-
-  carousel.addEventListener(
-    'wheel',
-    (event) => {
-      if (Math.abs(event.deltaY) <= Math.abs(event.deltaX)) return;
-      event.preventDefault();
-      isPaused = true;
-      if (loopPoint > 0) {
-        offset = (offset + event.deltaY) % loopPoint;
-        if (offset < 0) offset += loopPoint;
-        track.style.transform = `translate3d(${-offset}px, 0, 0)`;
-        scheduleResume();
+      if (!isDragging) {
+        offset -= (SPEED_PX_PER_SEC * delta) / 1000;
+        wrapOffset();
+        updateTransform();
       }
-    },
-    { passive: false },
-  );
+      rafId = window.requestAnimationFrame(animate);
+    };
+
+    const stopAnimation = () => {
+      if (rafId) {
+        window.cancelAnimationFrame(rafId);
+        rafId = null;
+      }
+      lastFrameTime = 0;
+    };
+
+    const startAnimation = () => {
+      stopAnimation();
+      rafId = window.requestAnimationFrame(animate);
+    };
+
+    const startDrag = (clientX) => {
+      isDragging = true;
+      lastPointerX = clientX;
+      carousel.classList.add('is-dragging');
+    };
+
+    const moveDrag = (clientX) => {
+      if (!isDragging) return;
+      const deltaX = clientX - lastPointerX;
+      lastPointerX = clientX;
+      offset += deltaX;
+      wrapOffset();
+      updateTransform();
+    };
+
+    const endDrag = () => {
+      if (!isDragging) return;
+      isDragging = false;
+      carousel.classList.remove('is-dragging');
+    };
+
+    buildTrack();
+    startAnimation();
+    window.addEventListener('resize', () => {
+      buildTrack();
+    });
+
+    carousel.addEventListener('dragstart', (event) => event.preventDefault());
+
+    carousel.addEventListener('mousedown', (event) => {
+      startDrag(event.clientX);
+    });
+
+    window.addEventListener('mousemove', (event) => {
+      moveDrag(event.clientX);
+    });
+
+    window.addEventListener('mouseup', endDrag);
+
+    carousel.addEventListener('touchstart', (event) => {
+      if (!event.touches.length) return;
+      startDrag(event.touches[0].clientX);
+    }, { passive: true });
+
+    carousel.addEventListener('touchmove', (event) => {
+      if (!isDragging || !event.touches.length) return;
+      moveDrag(event.touches[0].clientX);
+      event.preventDefault();
+    }, { passive: false });
+
+    carousel.addEventListener('touchend', endDrag);
+    carousel.addEventListener('touchcancel', endDrag);
+  });
 }
 
 
