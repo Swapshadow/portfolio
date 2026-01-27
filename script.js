@@ -481,29 +481,71 @@ function initCarousel() {
   if (!cards.length) return;
 
   const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  if (!prefersReducedMotion) {
-    cards.forEach((card) => {
-      const clone = card.cloneNode(true);
-      clone.classList.add('is-clone');
-      clone.setAttribute('aria-hidden', 'true');
-      track.appendChild(clone);
-    });
-  } else {
+  if (prefersReducedMotion) {
     return;
   }
 
+  cards.forEach((card) => {
+    const clone = card.cloneNode(true);
+    clone.classList.add('is-clone');
+    clone.setAttribute('aria-hidden', 'true');
+    track.appendChild(clone);
+  });
+
   let isPaused = false;
   let rafId;
-  const speed = 0.4;
+  let lastTime;
+  let offset = 0;
+  let loopPoint = 0;
+  const SPEED_PX_PER_SEC = 48;
+  const RESUME_DELAY = 900;
 
-  const tick = () => {
-    if (!isPaused) {
-      carousel.scrollLeft += speed;
-      if (carousel.scrollLeft >= track.scrollWidth / 2) {
-        carousel.scrollLeft = 0;
-      }
+  const getGapSize = () => {
+    const styles = getComputedStyle(track);
+    const gap = parseFloat(styles.columnGap || styles.gap || '0');
+    return Number.isNaN(gap) ? 0 : gap;
+  };
+
+  const measureLoopPoint = () => {
+    const gap = getGapSize();
+    const baseWidth = cards.reduce((total, card) => total + card.getBoundingClientRect().width, 0);
+    const totalGap = gap * Math.max(cards.length - 1, 0);
+    return baseWidth + totalGap;
+  };
+
+  const ensureCloneCoverage = () => {
+    const baseWidth = measureLoopPoint();
+    if (!baseWidth) return baseWidth;
+    while (track.scrollWidth < baseWidth + carousel.clientWidth) {
+      cards.forEach((card) => {
+        const clone = card.cloneNode(true);
+        clone.classList.add('is-clone');
+        clone.setAttribute('aria-hidden', 'true');
+        track.appendChild(clone);
+      });
+    }
+    return baseWidth;
+  };
+
+  const tick = (time) => {
+    if (!lastTime) lastTime = time;
+    const delta = Math.min(time - lastTime, 48);
+    lastTime = time;
+
+    if (!isPaused && loopPoint > 0) {
+      offset = (offset + (delta / 1000) * SPEED_PX_PER_SEC) % loopPoint;
+      track.style.transform = `translate3d(${-offset}px, 0, 0)`;
     }
     rafId = requestAnimationFrame(tick);
+  };
+
+  const updateLoopPoint = () => {
+    const baseWidth = ensureCloneCoverage();
+    loopPoint = baseWidth || track.scrollWidth / 2;
+    if (loopPoint > 0) {
+      offset = offset % loopPoint;
+      track.style.transform = `translate3d(${-offset}px, 0, 0)`;
+    }
   };
 
   const start = () => {
@@ -512,7 +554,11 @@ function initCarousel() {
     }
   };
 
+  updateLoopPoint();
   start();
+
+  window.addEventListener('resize', updateLoopPoint);
+  window.addEventListener('load', updateLoopPoint);
 
   const supportsHover = window.matchMedia('(hover: hover)').matches;
   if (supportsHover) {
@@ -530,15 +576,52 @@ function initCarousel() {
     clearTimeout(resumeTimeout);
     resumeTimeout = setTimeout(() => {
       isPaused = false;
-    }, 1200);
+    }, RESUME_DELAY);
   };
 
-  carousel.addEventListener('pointerdown', () => {
+  let isDragging = false;
+  let lastPointerX = 0;
+
+  carousel.addEventListener('pointerdown', (event) => {
     isPaused = true;
+    isDragging = true;
+    lastPointerX = event.clientX;
+    carousel.setPointerCapture(event.pointerId);
   });
 
-  carousel.addEventListener('pointerup', scheduleResume);
-  carousel.addEventListener('pointercancel', scheduleResume);
+  carousel.addEventListener('pointermove', (event) => {
+    if (!isDragging || loopPoint <= 0) return;
+    const deltaX = event.clientX - lastPointerX;
+    lastPointerX = event.clientX;
+    offset = (offset - deltaX) % loopPoint;
+    if (offset < 0) offset += loopPoint;
+    track.style.transform = `translate3d(${-offset}px, 0, 0)`;
+  });
+
+  const endDrag = () => {
+    if (!isDragging) return;
+    isDragging = false;
+    scheduleResume();
+  };
+
+  carousel.addEventListener('pointerup', endDrag);
+  carousel.addEventListener('pointercancel', endDrag);
+
+  carousel.addEventListener(
+    'wheel',
+    (event) => {
+      if (Math.abs(event.deltaY) <= Math.abs(event.deltaX)) return;
+      event.preventDefault();
+      isPaused = true;
+      if (loopPoint > 0) {
+        offset = (offset + event.deltaY) % loopPoint;
+        if (offset < 0) offset += loopPoint;
+        track.style.transform = `translate3d(${-offset}px, 0, 0)`;
+        scheduleResume();
+      }
+    },
+    { passive: false },
+  );
 }
 
 
