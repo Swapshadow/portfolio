@@ -495,18 +495,19 @@ function initCarousel() {
   let isPaused = false;
   let rafId;
   let lastTime;
-  const speed = 22;
+  let offset = 0;
+  let loopPoint = track.scrollWidth / 2;
+  const SPEED_PX_PER_SEC = 48;
+  const RESUME_DELAY = 900;
 
   const tick = (time) => {
     if (!lastTime) lastTime = time;
-    const delta = time - lastTime;
+    const delta = Math.min(time - lastTime, 48);
     lastTime = time;
 
-    if (!isPaused) {
-      carousel.scrollLeft += (delta / 1000) * speed;
-      if (carousel.scrollLeft >= track.scrollWidth / 2) {
-        carousel.scrollLeft -= track.scrollWidth / 2;
-      }
+    if (!isPaused && loopPoint > 0) {
+      offset = (offset + (delta / 1000) * SPEED_PX_PER_SEC) % loopPoint;
+      track.style.transform = `translate3d(${-offset}px, 0, 0)`;
     }
     rafId = requestAnimationFrame(tick);
   };
@@ -518,6 +519,17 @@ function initCarousel() {
   };
 
   start();
+
+  const updateLoopPoint = () => {
+    loopPoint = track.scrollWidth / 2;
+    if (loopPoint > 0) {
+      offset = offset % loopPoint;
+      track.style.transform = `translate3d(${-offset}px, 0, 0)`;
+    }
+  };
+
+  window.addEventListener('resize', updateLoopPoint);
+  window.addEventListener('load', updateLoopPoint);
 
   const supportsHover = window.matchMedia('(hover: hover)').matches;
   if (supportsHover) {
@@ -535,15 +547,36 @@ function initCarousel() {
     clearTimeout(resumeTimeout);
     resumeTimeout = setTimeout(() => {
       isPaused = false;
-    }, 1200);
+    }, RESUME_DELAY);
   };
 
-  carousel.addEventListener('pointerdown', () => {
+  let isDragging = false;
+  let lastPointerX = 0;
+
+  carousel.addEventListener('pointerdown', (event) => {
     isPaused = true;
+    isDragging = true;
+    lastPointerX = event.clientX;
+    carousel.setPointerCapture(event.pointerId);
   });
 
-  carousel.addEventListener('pointerup', scheduleResume);
-  carousel.addEventListener('pointercancel', scheduleResume);
+  carousel.addEventListener('pointermove', (event) => {
+    if (!isDragging || loopPoint <= 0) return;
+    const deltaX = event.clientX - lastPointerX;
+    lastPointerX = event.clientX;
+    offset = (offset - deltaX) % loopPoint;
+    if (offset < 0) offset += loopPoint;
+    track.style.transform = `translate3d(${-offset}px, 0, 0)`;
+  });
+
+  const endDrag = () => {
+    if (!isDragging) return;
+    isDragging = false;
+    scheduleResume();
+  };
+
+  carousel.addEventListener('pointerup', endDrag);
+  carousel.addEventListener('pointercancel', endDrag);
 
   carousel.addEventListener(
     'wheel',
@@ -551,8 +584,12 @@ function initCarousel() {
       if (Math.abs(event.deltaY) <= Math.abs(event.deltaX)) return;
       event.preventDefault();
       isPaused = true;
-      carousel.scrollLeft += event.deltaY;
-      scheduleResume();
+      if (loopPoint > 0) {
+        offset = (offset + event.deltaY) % loopPoint;
+        if (offset < 0) offset += loopPoint;
+        track.style.transform = `translate3d(${-offset}px, 0, 0)`;
+        scheduleResume();
+      }
     },
     { passive: false },
   );

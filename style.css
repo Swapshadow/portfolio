@@ -1017,6 +1017,8 @@ body[data-animations="off"] .reveal-on-scroll {
   align-items: center;
   gap: 16px;
   width: max-content;
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
 }
 
 .hero-carousel-item {
