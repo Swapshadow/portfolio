@@ -1959,10 +1959,9 @@ body[data-theme="dark"] .theme-icon-moon {
   position: relative;
   padding: 96px 0;
   color: #f5f7ff;
-  background: radial-gradient(circle at 10% 20%, rgba(64, 90, 160, 0.35), transparent 45%),
-    radial-gradient(circle at 90% 10%, rgba(140, 120, 220, 0.25), transparent 40%),
-    linear-gradient(160deg, #06070f 0%, #0b1022 45%, #05070d 100%);
+  background: transparent;
   overflow: hidden;
+  isolation: isolate;
 }
 
 .blog-section .blog-content {
@@ -1975,6 +1974,10 @@ body[data-theme="dark"] .theme-icon-moon {
   inset: 0;
   z-index: 0;
   overflow: hidden;
+  background: radial-gradient(circle at 10% 20%, rgba(64, 90, 160, 0.35), transparent 45%),
+    radial-gradient(circle at 90% 10%, rgba(140, 120, 220, 0.25), transparent 40%),
+    linear-gradient(160deg, #06070f 0%, #0b1022 45%, #05070d 100%);
+  pointer-events: none;
 }
 
 .blog-space::before {
