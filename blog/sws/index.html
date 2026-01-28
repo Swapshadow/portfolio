@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Guide de sécurisation Windows Server 2025 : BitLocker, comptes, RDP, audit et durcissement avancé.">
+  <title>Sécurisation Windows Server 2025 - Blog</title>
+  <meta property="og:title" content="Sécurisation Windows Server 2025 - Blog">
+  <meta property="og:description" content="Guide de sécurisation Windows Server 2025 : BitLocker, comptes, RDP, audit et durcissement avancé.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://swapshadow.github.io/portfolio/blog/sws/">
+  <meta property="og:image" content="../../assets/blog/sws.png">
+  <meta property="og:site_name" content="Jean-Baptiste Terrazzoni">
+  <meta property="og:locale" content="fr_FR">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="../../assets/favicon.png">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body class="page page-blog page-blog-article">
+  <header class="site-header">
+    <div class="container nav">
+      <div class="nav-actions">
+        <a class="nav-icon-button" href="../../index.html" aria-label="Retour à l'accueil">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M3 10.5L12 3l9 7.5"></path>
+            <path d="M5 9.5V21h14V9.5"></path>
+            <path d="M9 21v-6h6v6"></path>
+          </svg>
+        </a>
+        <button class="nav-icon-button theme-toggle" type="button" data-theme-toggle aria-label="Basculer le thème" aria-pressed="false">
+          <span class="theme-icon theme-icon-moon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 14.5a8.5 8.5 0 1 1-11-11 7 7 0 0 0 11 11z"></path>
+            </svg>
+          </span>
+          <span class="theme-icon theme-icon-sun" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="4"></circle>
+              <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path>
+            </svg>
+          </span>
+        </button>
+        <button class="animations-toggle" type="button" data-animations-toggle aria-label="Basculer les animations" aria-pressed="true">
+          <span class="animations-toggle-label">Animations</span>
+          <span class="animations-toggle-status" data-animations-status aria-hidden="true">On</span>
+        </button>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
+          <span class="menu-toggle-label">Menu</span>
+          <span class="menu-toggle-icon" aria-hidden="true"><span></span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+  <nav class="site-nav" id="site-menu" aria-hidden="true">
+    <div class="site-nav-panel">
+      <div class="site-nav-header">
+        <button class="menu-close" type="button" aria-label="Fermer le menu">
+          ✕
+        </button>
+      </div>
+      <ul class="site-nav-links">
+        <li><a href="../../index.html">Accueil</a></li>
+        <li><a href="../../parcours.html">Parcours</a></li>
+        <li><a href="../../certifications.html">Certifications</a></li>
+        <li><a href="../../veille.html">Veille</a></li>
+        <li><a href="../">Blog</a></li>
+        <li><a href="../../projets.html">Projets</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section class="section blog-article-section">
+      <div class="container">
+        <a class="blog-article-back" href="../">← Retour au blog</a>
+        <div class="blog-article-card">
+          <div class="blog-article-content" id="blog-article-content" aria-live="polite"></div>
+          <noscript>
+            <p>Veuillez activer JavaScript pour afficher l’article.</p>
+          </noscript>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>Copyright © 2026 Jean-Baptiste Terrazzoni. All rights reserved.</p>
+      <div class="footer-contact" aria-label="Coordonnées">
+        <a class="footer-icon" href="#" data-contact-label="Email" data-contact-value="terrazzoni.corsica@proton.me" data-contact-href="mailto:terrazzoni.corsica@proton.me" aria-label="Envoyer un email">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+            <polyline points="22,6 12,13 2,6"></polyline>
+          </svg>
+        </a>
+        <a class="footer-icon" href="#" data-contact-label="Téléphone" data-contact-value="0778102076" data-contact-href="tel:0778102076" aria-label="Téléphone">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.86 19.86 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+          </svg>
+        </a>
+        <a class="footer-icon" href="https://www.linkedin.com/in/jean-baptiste-terrazzoni" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="2" y="9" width="4" height="12"></rect>
+            <circle cx="4" cy="4" r="2"></circle>
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+          </svg>
+        </a>
+        <a class="footer-icon" href="https://github.com/swapshadow" target="_blank" rel="noreferrer" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M9 19c-5 1.5-5-2.5-7-3"></path>
+            <path d="M16 22v-3.9a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+          </svg>
+        </a>
+        <a class="footer-icon" href="https://tryhackme.com/p/Swapshadow" target="_blank" rel="noreferrer" aria-label="TryHackMe">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+            <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.6"></circle>
+            <text x="12" y="15" text-anchor="middle" font-size="7" font-family="Inter, sans-serif" font-weight="600" fill="currentColor">THM</text>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <div class="contact-modal" id="contact-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="contact-modal-title">
+    <div class="contact-modal__overlay" data-modal-close></div>
+    <div class="contact-modal__content">
+      <button class="contact-modal__close" type="button" data-modal-close aria-label="Fermer">×</button>
+      <h2 class="contact-modal__title" id="contact-modal-title">Contact</h2>
+      <p class="contact-modal__value"><a id="contact-modal-link" href="#">Contact</a></p>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="../../script.js" defer></script>
+  <script>
+    const markdownTarget = document.getElementById('blog-article-content');
+    const markdownUrl = '../../content/blog/sws.md';
+
+    fetch(markdownUrl)
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error('Erreur lors du chargement de l’article');
+        }
+        return response.text();
+      })
+      .then((markdown) => {
+        if (window.marked) {
+          markdownTarget.innerHTML = marked.parse(markdown);
+        } else {
+          markdownTarget.textContent = markdown;
+        }
+      })
+      .catch(() => {
+        markdownTarget.innerHTML = '<p>Impossible de charger l’article pour le moment.</p>';
+      });
+  </script>
+</body>
+</html>
