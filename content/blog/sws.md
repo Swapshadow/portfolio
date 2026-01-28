@@ -398,5 +398,3 @@ Get-Service | Sort-Object Status, Name
 * [AD et verrouillage des comptes](https://www.it-connect.fr/tuto-active-directory-et-le-verrouillage-des-comptes/)
 
 ---
-
-Si tu veux, je peux aussi te fournir une petite section “Checklist de validation” (10–15 points) à coller en fin d’article pour vérifier rapidement que tout est en place.
