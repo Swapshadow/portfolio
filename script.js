@@ -41,6 +41,17 @@ const RSS_FEEDS = [
     label: 'The Hacker News',
   },
   {
+    key: 'cybermalveillance',
+    url: 'https://www.cybermalveillance.gouv.fr/feed/atom-flux-complet',
+    label: 'Cybermalveillance',
+    sources: [
+      {
+        type: 'xml',
+        url: 'https://r.jina.ai/http://https://www.cybermalveillance.gouv.fr/feed/atom-flux-complet',
+      },
+    ],
+  },
+  {
     key: 'zataz',
     url: 'https://www.zataz.com/feed/',
     label: 'ZATAZ',
@@ -50,6 +61,11 @@ const RSS_FEEDS = [
     url: 'https://krebsonsecurity.com/feed/',
     label: 'Krebs on Security',
   },
+  {
+    key: 'hibp-leaks',
+    url: 'https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches',
+    label: 'Have I Been Pwned',
+  },
 ];
 
 const RSS_TAB_MAP = {
@@ -57,8 +73,10 @@ const RSS_TAB_MAP = {
   cisa: 'alertes',
   'exploit-db': 'exploitation',
   'hacker-news': 'actualite',
+  cybermalveillance: 'actualite',
   zataz: 'actualite',
   krebs: 'actualite',
+  'hibp-leaks': 'leaks',
 };
 
 const RSS_TAB_COUNTS = new Map();
@@ -842,7 +860,7 @@ function initBlogSpaceEffects() {
   refreshAnimationState();
 }
 
-async function loadRssFeed({ key, url, label, container }) {
+async function loadRssFeed({ key, url, label, container, sources }) {
   const cacheKey = `${RSS_CACHE_PREFIX}:${key}`;
   const cached = readRssCache(cacheKey);
   const now = Date.now();
@@ -866,7 +884,7 @@ async function loadRssFeed({ key, url, label, container }) {
   }
 
   try {
-    const items = await fetchRssFeed(url);
+    const items = await fetchRssFeed(url, sources);
     if (items.length) {
       writeRssCache(cacheKey, { timestamp: now, items });
       renderRssItems({ items, container, label, key });
@@ -882,11 +900,16 @@ async function loadRssFeed({ key, url, label, container }) {
   }
 }
 
-async function fetchRssFeed(url) {
-  const sources = [
+function buildRssSources(url, customSources = []) {
+  return [
+    ...customSources,
     { type: 'xml', url: `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}` },
     { type: 'json', url: `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(url)}` },
   ];
+}
+
+async function fetchRssFeed(url, customSources = []) {
+  const sources = buildRssSources(url, customSources);
   let lastError = null;
 
   for (const source of sources) {
@@ -939,20 +962,28 @@ function parseRssItems(xmlText) {
   if (xml.querySelector('parsererror')) {
     throw new Error('Flux invalide');
   }
-  return Array.from(xml.querySelectorAll('item'))
+  return Array.from(xml.querySelectorAll('item, entry'))
     .slice(0, RSS_MAX_ITEMS)
-    .map((item) => {
-      const title = item.querySelector('title')?.textContent?.trim() || 'Sans titre';
-      const link = item.querySelector('link')?.textContent?.trim() || '#';
+    .map((entry) => {
+      const title = entry.querySelector('title')?.textContent?.trim() || 'Sans titre';
+      const linkElement =
+        entry.querySelector('link[rel="alternate"]')
+        || entry.querySelector('link');
+      const link =
+        linkElement?.getAttribute('href')
+        || linkElement?.textContent?.trim()
+        || '#';
       const pubDate =
-        item.querySelector('pubDate')?.textContent
-        || item.querySelector('dc\\:date')?.textContent
-        || item.querySelector('updated')?.textContent
+        entry.querySelector('pubDate')?.textContent
+        || entry.querySelector('dc\\:date')?.textContent
+        || entry.querySelector('updated')?.textContent
+        || entry.querySelector('published')?.textContent
         || '';
       const description =
-        item.querySelector('description')?.textContent
-        || item.querySelector('content\\:encoded')?.textContent
-        || item.querySelector('summary')?.textContent
+        entry.querySelector('description')?.textContent
+        || entry.querySelector('content\\:encoded')?.textContent
+        || entry.querySelector('summary')?.textContent
+        || entry.querySelector('content')?.textContent
         || '';
       const date = formatRssDate(pubDate);
       const excerpt = buildExcerpt(description);
