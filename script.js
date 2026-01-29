@@ -41,6 +41,11 @@ const RSS_FEEDS = [
     label: 'The Hacker News',
   },
   {
+    key: 'cybermalveillance',
+    url: 'https://www.cybermalveillance.gouv.fr/feed/atom-flux-complet',
+    label: 'Cybermalveillance',
+  },
+  {
     key: 'zataz',
     url: 'https://www.zataz.com/feed/',
     label: 'ZATAZ',
@@ -50,6 +55,11 @@ const RSS_FEEDS = [
     url: 'https://krebsonsecurity.com/feed/',
     label: 'Krebs on Security',
   },
+  {
+    key: 'hibp-leaks',
+    url: 'https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches',
+    label: 'Have I Been Pwned',
+  },
 ];
 
 const RSS_TAB_MAP = {
@@ -57,8 +67,10 @@ const RSS_TAB_MAP = {
   cisa: 'alertes',
   'exploit-db': 'exploitation',
   'hacker-news': 'actualite',
+  cybermalveillance: 'actualite',
   zataz: 'actualite',
   krebs: 'actualite',
+  'hibp-leaks': 'leaks',
 };
 
 const RSS_TAB_COUNTS = new Map();

@@ -109,6 +109,7 @@
         <li><a href="#veille" data-section-link="veille">Intro</a></li>
         <li><a href="#cert-fr" data-section-link="cert-fr">CERT-FR</a></li>
         <li><a href="#hacker-news" data-section-link="hacker-news">The Hacker News</a></li>
+        <li><a href="#veille-leaks" data-section-link="veille-leaks">Leaks</a></li>
       </ul>
     </div>
   </nav>
@@ -154,6 +155,18 @@
           >
             Actualité
             <span class="veille-tab-count" data-veille-count="actualite">0</span>
+          </button>
+          <button
+            class="veille-tab"
+            type="button"
+            role="tab"
+            id="veille-tab-leaks"
+            aria-selected="false"
+            aria-controls="veille-leaks"
+            data-veille-tab="leaks"
+          >
+            Leaks
+            <span class="veille-tab-count" data-veille-count="leaks">0</span>
           </button>
         </div>
         <div class="veille-panels">
@@ -252,10 +265,46 @@
                   <button class="rss-more" type="button" data-rss-more>Voir plus</button>
                   <p class="rss-status" data-rss-status>Chargement en cours…</p>
                 </article>
+                <article class="rss-source" data-rss-feed="cybermalveillance">
+                  <div class="rss-source-header">
+                    <h3>Cybermalveillance</h3>
+                    <p class="rss-source-description">Actualités et ressources officielles francophones.</p>
+                  </div>
+                  <div class="rss-items" data-rss-items></div>
+                  <button class="rss-more" type="button" data-rss-more>Voir plus</button>
+                  <p class="rss-status" data-rss-status>Chargement en cours…</p>
+                </article>
                 <article class="rss-source" data-rss-feed="krebs">
                   <div class="rss-source-header">
                     <h3>Krebs on Security</h3>
                     <p class="rss-source-description">Analyses approfondies et enquêtes de référence.</p>
+                  </div>
+                  <div class="rss-items" data-rss-items></div>
+                  <button class="rss-more" type="button" data-rss-more>Voir plus</button>
+                  <p class="rss-status" data-rss-status>Chargement en cours…</p>
+                </article>
+              </div>
+            </div>
+          </section>
+          <section
+            class="veille-panel"
+            id="veille-leaks"
+            role="tabpanel"
+            tabindex="0"
+            aria-labelledby="veille-tab-leaks"
+            data-veille-panel="leaks"
+            data-section="veille-leaks"
+          >
+            <div class="rss-category">
+              <div class="rss-category-header">
+                <h2 class="section-title">🧨 Leaks &amp; breaches</h2>
+                <p>Signalements de fuites de données et brèches récemment divulguées.</p>
+              </div>
+              <div class="rss-sources">
+                <article class="rss-source" data-rss-feed="hibp-leaks">
+                  <div class="rss-source-header">
+                    <h3>Have I Been Pwned</h3>
+                    <p class="rss-source-description">Dernières fuites de données recensées.</p>
                   </div>
                   <div class="rss-items" data-rss-items></div>
                   <button class="rss-more" type="button" data-rss-more>Voir plus</button>
