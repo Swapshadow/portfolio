@@ -44,6 +44,12 @@ const RSS_FEEDS = [
     key: 'cybermalveillance',
     url: 'https://www.cybermalveillance.gouv.fr/feed/atom-flux-complet',
     label: 'Cybermalveillance',
+    sources: [
+      {
+        type: 'xml',
+        url: 'https://r.jina.ai/http://https://www.cybermalveillance.gouv.fr/feed/atom-flux-complet',
+      },
+    ],
   },
   {
     key: 'zataz',
@@ -854,7 +860,7 @@ function initBlogSpaceEffects() {
   refreshAnimationState();
 }
 
-async function loadRssFeed({ key, url, label, container }) {
+async function loadRssFeed({ key, url, label, container, sources }) {
   const cacheKey = `${RSS_CACHE_PREFIX}:${key}`;
   const cached = readRssCache(cacheKey);
   const now = Date.now();
@@ -878,7 +884,7 @@ async function loadRssFeed({ key, url, label, container }) {
   }
 
   try {
-    const items = await fetchRssFeed(url);
+    const items = await fetchRssFeed(url, sources);
     if (items.length) {
       writeRssCache(cacheKey, { timestamp: now, items });
       renderRssItems({ items, container, label, key });
@@ -894,11 +900,16 @@ async function loadRssFeed({ key, url, label, container }) {
   }
 }
 
-async function fetchRssFeed(url) {
-  const sources = [
+function buildRssSources(url, customSources = []) {
+  return [
+    ...customSources,
     { type: 'xml', url: `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}` },
     { type: 'json', url: `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(url)}` },
   ];
+}
+
+async function fetchRssFeed(url, customSources = []) {
+  const sources = buildRssSources(url, customSources);
   let lastError = null;
 
   for (const source of sources) {
