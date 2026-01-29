@@ -951,20 +951,28 @@ function parseRssItems(xmlText) {
   if (xml.querySelector('parsererror')) {
     throw new Error('Flux invalide');
   }
-  return Array.from(xml.querySelectorAll('item'))
+  return Array.from(xml.querySelectorAll('item, entry'))
     .slice(0, RSS_MAX_ITEMS)
-    .map((item) => {
-      const title = item.querySelector('title')?.textContent?.trim() || 'Sans titre';
-      const link = item.querySelector('link')?.textContent?.trim() || '#';
+    .map((entry) => {
+      const title = entry.querySelector('title')?.textContent?.trim() || 'Sans titre';
+      const linkElement =
+        entry.querySelector('link[rel="alternate"]')
+        || entry.querySelector('link');
+      const link =
+        linkElement?.getAttribute('href')
+        || linkElement?.textContent?.trim()
+        || '#';
       const pubDate =
-        item.querySelector('pubDate')?.textContent
-        || item.querySelector('dc\\:date')?.textContent
-        || item.querySelector('updated')?.textContent
+        entry.querySelector('pubDate')?.textContent
+        || entry.querySelector('dc\\:date')?.textContent
+        || entry.querySelector('updated')?.textContent
+        || entry.querySelector('published')?.textContent
         || '';
       const description =
-        item.querySelector('description')?.textContent
-        || item.querySelector('content\\:encoded')?.textContent
-        || item.querySelector('summary')?.textContent
+        entry.querySelector('description')?.textContent
+        || entry.querySelector('content\\:encoded')?.textContent
+        || entry.querySelector('summary')?.textContent
+        || entry.querySelector('content')?.textContent
         || '';
       const date = formatRssDate(pubDate);
       const excerpt = buildExcerpt(description);
