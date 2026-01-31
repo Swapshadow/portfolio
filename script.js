@@ -371,17 +371,24 @@ function initTryHackMeLogo() {
     frontMaterial,
     backMaterial,
   ]);
-  logoMesh.rotation.x = -0.08;
-  logoMesh.rotation.y = 0.16;
   group.add(logoMesh);
 
-  const maxRotationX = 0.6;
-  const maxRotationY = 0.8;
+  const maxRotation = (25 * Math.PI) / 180;
+  const baseRotation = { x: -0.08, y: 0.16 };
+  const hoverRotation = { x: -0.14, y: 0.22 };
+  group.rotation.x = baseRotation.x;
+  group.rotation.y = baseRotation.y;
+
+  const maxRotationX = maxRotation;
+  const maxRotationY = maxRotation;
   const rotationSpeed = 0.005;
   const damping = 0.92;
+  const returnSpeed = 0.08;
   let velocityX = 0;
   let velocityY = 0;
   let isDragging = false;
+  let isHovering = false;
+  let isAnimating = false;
   let lastX = 0;
   let lastY = 0;
 
@@ -394,10 +401,13 @@ function initTryHackMeLogo() {
   // Gestion du drag souris/tactile avec inertie douce.
   const handlePointerDown = (event) => {
     isDragging = true;
+    isHovering = true;
     container.classList.add('is-dragging');
+    container.classList.add('is-hovered');
     lastX = event.clientX;
     lastY = event.clientY;
     renderer.domElement.setPointerCapture(event.pointerId);
+    startAnimation();
   };
 
   const handlePointerMove = (event) => {
@@ -417,11 +427,21 @@ function initTryHackMeLogo() {
     isDragging = false;
     container.classList.remove('is-dragging');
     renderer.domElement.releasePointerCapture(event.pointerId);
+    startAnimation();
   };
 
   const handlePointerLeave = () => {
     isDragging = false;
+    isHovering = false;
     container.classList.remove('is-dragging');
+    container.classList.remove('is-hovered');
+    startAnimation();
+  };
+
+  const handlePointerEnter = () => {
+    isHovering = true;
+    container.classList.add('is-hovered');
+    startAnimation();
   };
 
   const handleResize = () => {
@@ -446,6 +466,7 @@ function initTryHackMeLogo() {
   renderer.domElement.addEventListener('pointermove', handlePointerMove, { signal });
   renderer.domElement.addEventListener('pointerup', handlePointerUp, { signal });
   renderer.domElement.addEventListener('pointerleave', handlePointerLeave, { signal });
+  renderer.domElement.addEventListener('pointerenter', handlePointerEnter, { signal });
   window.addEventListener('resize', handleResize, { signal });
 
   const animate = () => {
@@ -456,13 +477,39 @@ function initTryHackMeLogo() {
       velocityY *= damping;
       if (Math.abs(velocityX) < 0.0001) velocityX = 0;
       if (Math.abs(velocityY) < 0.0001) velocityY = 0;
-      clampRotation();
     }
+
+    const targetRotation = isHovering ? hoverRotation : baseRotation;
+    if (!isDragging) {
+      group.rotation.x += (targetRotation.x - group.rotation.x) * returnSpeed;
+      group.rotation.y += (targetRotation.y - group.rotation.y) * returnSpeed;
+    }
+
+    clampRotation();
     renderer.render(scene, camera);
+
+    const shouldContinue =
+      isHovering ||
+      isDragging ||
+      Math.abs(velocityX) > 0.0001 ||
+      Math.abs(velocityY) > 0.0001 ||
+      Math.abs(group.rotation.x - baseRotation.x) > 0.001 ||
+      Math.abs(group.rotation.y - baseRotation.y) > 0.001;
+
+    if (shouldContinue) {
+      requestAnimationFrame(animate);
+    } else {
+      isAnimating = false;
+    }
+  };
+
+  const startAnimation = () => {
+    if (isAnimating) return;
+    isAnimating = true;
     requestAnimationFrame(animate);
   };
 
-  animate();
+  startAnimation();
 
   window.addEventListener(
     'pagehide',

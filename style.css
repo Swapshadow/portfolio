@@ -1474,19 +1474,22 @@ body[data-animations="off"] .reveal-on-scroll {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 14px;
+  gap: 18px;
   text-align: center;
   flex-wrap: wrap;
 }
 
 .tryhackme-3d {
-  width: min(260px, 100%);
-  aspect-ratio: 1 / 1;
-  min-height: 220px;
+  width: min(180px, 40vw);
+  height: min(180px, 40vw);
   flex: 0 0 auto;
-  cursor: grab;
+  cursor: default;
   touch-action: none;
   user-select: none;
+}
+
+.tryhackme-3d.is-hovered {
+  cursor: grab;
 }
 
 .tryhackme-3d.is-dragging {
@@ -1522,7 +1525,7 @@ body[data-animations="off"] .reveal-on-scroll {
 }
 
 .tryhackme-badge {
-  width: min(260px, 100%);
+  width: clamp(320px, 70vw, 420px);
   height: auto;
   display: block;
 }
