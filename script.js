@@ -312,7 +312,7 @@ function initTryHackMeLogo() {
   const textureLoader = new THREE.TextureLoader();
   let logoMesh;
   const logoTexture = textureLoader.load(
-    './assets/certif/tryhackme/101logo.png',
+    '/assets/certif/tryhackme/101logo.png',
     (texture) => {
       texture.colorSpace = THREE.SRGBColorSpace;
       const { width, height } = texture.image || {};

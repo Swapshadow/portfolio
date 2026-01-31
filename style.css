@@ -1469,19 +1469,19 @@ body[data-animations="off"] .reveal-on-scroll {
   font-weight: 500;
 }
 
-.tryhackme-showcase {
+.certif-tryhackme {
   margin-top: 24px;
   display: flex;
+  gap: 32px;
   align-items: center;
   justify-content: center;
-  gap: 18px;
-  text-align: center;
   flex-wrap: wrap;
+  text-align: center;
 }
 
 .thm-logo-3d {
-  width: clamp(160px, 28vw, 180px);
-  height: clamp(160px, 28vw, 180px);
+  width: 180px;
+  height: 180px;
   flex: 0 0 auto;
   cursor: default;
   touch-action: none;
@@ -1508,14 +1508,15 @@ body[data-animations="off"] .reveal-on-scroll {
   display: block;
 }
 
-.tryhackme-badge {
-  width: clamp(320px, 70vw, 420px);
+.thm-certif-img {
+  max-width: 420px;
+  width: 100%;
   height: auto;
   display: block;
 }
 
 @media (max-width: 700px) {
-  .tryhackme-showcase {
+  .certif-tryhackme {
     flex-direction: column;
   }
 }
