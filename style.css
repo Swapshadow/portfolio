@@ -1469,6 +1469,49 @@ body[data-animations="off"] .reveal-on-scroll {
   font-weight: 500;
 }
 
+.tryhackme-showcase {
+  margin-top: 24px;
+  display: grid;
+  place-items: center;
+  gap: 14px;
+  text-align: center;
+}
+
+.tryhackme-3d {
+  width: min(260px, 100%);
+  aspect-ratio: 1 / 1;
+  cursor: grab;
+  touch-action: none;
+  user-select: none;
+}
+
+.tryhackme-3d.is-dragging {
+  cursor: grabbing;
+}
+
+.tryhackme-3d-surface {
+  width: 100%;
+  height: 100%;
+  border-radius: 18px;
+  overflow: hidden;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tryhackme-3d canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.tryhackme-badge {
+  width: min(260px, 100%);
+  height: auto;
+  display: block;
+}
+
 .card-meta {
   color: var(--muted);
   font-size: 0.9rem;
