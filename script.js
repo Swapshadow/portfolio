@@ -288,7 +288,7 @@ function initTryHackMeLogo() {
   // Vérifie la disponibilité de WebGL avant d'initialiser la scène 3D.
   if (typeof THREE === 'undefined' || !window.WebGLRenderingContext) {
     const fallback = document.createElement('img');
-    fallback.src = './assets/certif/tryhackme/101.png';
+    fallback.src = './assets/certif/tryhackme/101logo.png';
     fallback.alt = 'Logo TryHackMe';
     fallback.loading = 'lazy';
     fallback.decoding = 'async';
@@ -322,7 +322,7 @@ function initTryHackMeLogo() {
   const textureLoader = new THREE.TextureLoader();
   let logoMesh;
   let edgeMesh;
-  const logoTexture = textureLoader.load('./assets/certif/tryhackme/101.png', (texture) => {
+  const logoTexture = textureLoader.load('./assets/certif/tryhackme/101logo.png', (texture) => {
     texture.colorSpace = THREE.SRGBColorSpace;
     const { width, height } = texture.image || {};
     if (width && height && logoMesh && edgeMesh) {
