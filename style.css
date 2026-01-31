@@ -1499,12 +1499,23 @@ body[data-animations="off"] .reveal-on-scroll {
   border-radius: 18px;
   overflow: hidden;
   background: transparent;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.tryhackme-3d-fallback {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 .tryhackme-3d canvas {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
   display: block;

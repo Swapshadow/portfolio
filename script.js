@@ -282,20 +282,25 @@ function initContactModal() {
 function initTryHackMeLogo() {
   const container = document.querySelector('[data-tryhackme-3d]');
   const surface = document.querySelector('[data-tryhackme-surface]');
+  const fallbackImage = surface?.querySelector('.tryhackme-3d-fallback');
 
   if (!container || !surface) return;
 
   // Vérifie la disponibilité de WebGL avant d'initialiser la scène 3D.
   if (typeof THREE === 'undefined' || !window.WebGLRenderingContext) {
-    const fallback = document.createElement('img');
-    fallback.src = './assets/certif/tryhackme/101logo.png';
-    fallback.alt = 'Logo TryHackMe';
-    fallback.loading = 'lazy';
-    fallback.decoding = 'async';
-    fallback.style.width = '100%';
-    fallback.style.height = '100%';
-    fallback.style.objectFit = 'contain';
-    surface.appendChild(fallback);
+    if (fallbackImage) {
+      fallbackImage.hidden = false;
+    } else {
+      const fallback = document.createElement('img');
+      fallback.src = './assets/certif/tryhackme/101logo.png';
+      fallback.alt = 'Logo TryHackMe';
+      fallback.loading = 'lazy';
+      fallback.decoding = 'async';
+      fallback.style.width = '100%';
+      fallback.style.height = '100%';
+      fallback.style.objectFit = 'contain';
+      surface.appendChild(fallback);
+    }
     return;
   }
 
@@ -317,47 +322,58 @@ function initTryHackMeLogo() {
   const group = new THREE.Group();
   scene.add(group);
 
-  // Logo en PlaneGeometry avec un léger effet de profondeur via un plan arrière.
-  const geometry = new THREE.PlaneGeometry(1, 1);
+  // Logo en BoxGeometry pour un rendu 3D avec épaisseur.
+  const geometry = new THREE.BoxGeometry(1, 1, 0.08);
   const textureLoader = new THREE.TextureLoader();
   let logoMesh;
-  let edgeMesh;
-  const logoTexture = textureLoader.load('./assets/certif/tryhackme/101logo.png', (texture) => {
-    texture.colorSpace = THREE.SRGBColorSpace;
-    const { width, height } = texture.image || {};
-    if (width && height && logoMesh && edgeMesh) {
-      const aspect = width / height;
-      logoMesh.scale.set(aspect, 1, 1);
-      edgeMesh.scale.set(1.02 * aspect, 1.02, 1);
+  const logoTexture = textureLoader.load(
+    './assets/certif/tryhackme/101logo.png',
+    (texture) => {
+      texture.colorSpace = THREE.SRGBColorSpace;
+      fallbackImage?.remove();
+      const { width, height } = texture.image || {};
+      if (width && height && logoMesh) {
+        const aspect = width / height;
+        logoMesh.scale.set(aspect, 1, 1);
+      }
+    },
+    undefined,
+    () => {
+      if (fallbackImage) {
+        fallbackImage.hidden = false;
+      }
     }
-  });
+  );
   logoTexture.colorSpace = THREE.SRGBColorSpace;
 
-  const logoMaterial = new THREE.MeshStandardMaterial({
+  const frontMaterial = new THREE.MeshStandardMaterial({
     map: logoTexture,
     transparent: true,
     roughness: 0.45,
     metalness: 0.08,
   });
-
-  logoMesh = new THREE.Mesh(geometry, logoMaterial);
-  logoMesh.rotation.x = -0.08;
-  logoMesh.rotation.y = 0.16;
-  group.add(logoMesh);
-
-  const edgeMaterial = new THREE.MeshStandardMaterial({
+  const sideMaterial = new THREE.MeshStandardMaterial({
+    color: 0x0f172a,
+    roughness: 0.8,
+    metalness: 0.05,
+  });
+  const backMaterial = new THREE.MeshStandardMaterial({
     color: 0x111827,
-    transparent: true,
-    opacity: 0.35,
     roughness: 0.85,
     metalness: 0.05,
   });
-  edgeMesh = new THREE.Mesh(geometry.clone(), edgeMaterial);
-  edgeMesh.position.z = -0.03;
-  edgeMesh.scale.set(1.02, 1.02, 1);
-  edgeMesh.rotation.x = -0.08;
-  edgeMesh.rotation.y = 0.16;
-  group.add(edgeMesh);
+
+  logoMesh = new THREE.Mesh(geometry, [
+    sideMaterial,
+    sideMaterial,
+    sideMaterial,
+    sideMaterial,
+    frontMaterial,
+    backMaterial,
+  ]);
+  logoMesh.rotation.x = -0.08;
+  logoMesh.rotation.y = 0.16;
+  group.add(logoMesh);
 
   const maxRotationX = 0.6;
   const maxRotationY = 0.8;
@@ -454,8 +470,9 @@ function initTryHackMeLogo() {
       controller.abort();
       resizeObserver?.disconnect();
       geometry.dispose();
-      logoMaterial.dispose();
-      edgeMaterial.dispose();
+      frontMaterial.dispose();
+      sideMaterial.dispose();
+      backMaterial.dispose();
       logoTexture.dispose();
       renderer.dispose();
     },
