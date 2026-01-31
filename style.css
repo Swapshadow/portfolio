@@ -1471,15 +1471,19 @@ body[data-animations="off"] .reveal-on-scroll {
 
 .tryhackme-showcase {
   margin-top: 24px;
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 14px;
   text-align: center;
+  flex-wrap: wrap;
 }
 
 .tryhackme-3d {
   width: min(260px, 100%);
   aspect-ratio: 1 / 1;
+  min-height: 220px;
+  flex: 0 0 auto;
   cursor: grab;
   touch-action: none;
   user-select: none;
@@ -1510,6 +1514,12 @@ body[data-animations="off"] .reveal-on-scroll {
   width: min(260px, 100%);
   height: auto;
   display: block;
+}
+
+@media (max-width: 700px) {
+  .tryhackme-showcase {
+    flex-direction: column;
+  }
 }
 
 .card-meta {

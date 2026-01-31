@@ -288,7 +288,7 @@ function initTryHackMeLogo() {
   // Vérifie la disponibilité de WebGL avant d'initialiser la scène 3D.
   if (typeof THREE === 'undefined' || !window.WebGLRenderingContext) {
     const fallback = document.createElement('img');
-    fallback.src = 'assets/certif/tryhackme/101.png';
+    fallback.src = './assets/certif/tryhackme/101.png';
     fallback.alt = 'Logo TryHackMe';
     fallback.loading = 'lazy';
     fallback.decoding = 'async';
@@ -322,7 +322,7 @@ function initTryHackMeLogo() {
   const textureLoader = new THREE.TextureLoader();
   let logoMesh;
   let edgeMesh;
-  const logoTexture = textureLoader.load('assets/certif/tryhackme/101.png', (texture) => {
+  const logoTexture = textureLoader.load('./assets/certif/tryhackme/101.png', (texture) => {
     texture.colorSpace = THREE.SRGBColorSpace;
     const { width, height } = texture.image || {};
     if (width && height && logoMesh && edgeMesh) {
@@ -341,6 +341,8 @@ function initTryHackMeLogo() {
   });
 
   logoMesh = new THREE.Mesh(geometry, logoMaterial);
+  logoMesh.rotation.x = -0.08;
+  logoMesh.rotation.y = 0.16;
   group.add(logoMesh);
 
   const edgeMaterial = new THREE.MeshStandardMaterial({
@@ -353,6 +355,8 @@ function initTryHackMeLogo() {
   edgeMesh = new THREE.Mesh(geometry.clone(), edgeMaterial);
   edgeMesh.position.z = -0.03;
   edgeMesh.scale.set(1.02, 1.02, 1);
+  edgeMesh.rotation.x = -0.08;
+  edgeMesh.rotation.y = 0.16;
   group.add(edgeMesh);
 
   const maxRotationX = 0.6;
