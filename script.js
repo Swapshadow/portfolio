@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initScrollSpy();
   initRevealOnScroll();
   initCarousel();
+  initTryHackMeLogo();
   initVeilleTabs();
   initRssFeeds();
   initShootingStars();
@@ -276,6 +277,190 @@ function initContactModal() {
       firstFocusable?.focus();
     }
   });
+}
+
+function initTryHackMeLogo() {
+  const container = document.querySelector('[data-tryhackme-3d]');
+  const surface = document.querySelector('[data-tryhackme-surface]');
+
+  if (!container || !surface) return;
+
+  // Vérifie la disponibilité de WebGL avant d'initialiser la scène 3D.
+  if (typeof THREE === 'undefined' || !window.WebGLRenderingContext) {
+    const fallback = document.createElement('img');
+    fallback.src = './assets/certif/tryhackme/101.png';
+    fallback.alt = 'Logo TryHackMe';
+    fallback.loading = 'lazy';
+    fallback.decoding = 'async';
+    fallback.style.width = '100%';
+    fallback.style.height = '100%';
+    fallback.style.objectFit = 'contain';
+    surface.appendChild(fallback);
+    return;
+  }
+
+  // Renderer transparent et performant pour un canvas limité au bloc.
+  const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+  renderer.setClearColor(0x000000, 0);
+  surface.appendChild(renderer.domElement);
+
+  const scene = new THREE.Scene();
+  const camera = new THREE.PerspectiveCamera(35, 1, 0.1, 100);
+  camera.position.z = 2.6;
+
+  const ambientLight = new THREE.AmbientLight(0xffffff, 0.8);
+  const keyLight = new THREE.DirectionalLight(0xffffff, 0.7);
+  keyLight.position.set(1.2, 1.1, 2.6);
+  scene.add(ambientLight, keyLight);
+
+  const group = new THREE.Group();
+  scene.add(group);
+
+  // Logo en PlaneGeometry avec un léger effet de profondeur via un plan arrière.
+  const geometry = new THREE.PlaneGeometry(1, 1);
+  const textureLoader = new THREE.TextureLoader();
+  let logoMesh;
+  let edgeMesh;
+  const logoTexture = textureLoader.load('./assets/certif/tryhackme/101.png', (texture) => {
+    texture.colorSpace = THREE.SRGBColorSpace;
+    const { width, height } = texture.image || {};
+    if (width && height && logoMesh && edgeMesh) {
+      const aspect = width / height;
+      logoMesh.scale.set(aspect, 1, 1);
+      edgeMesh.scale.set(1.02 * aspect, 1.02, 1);
+    }
+  });
+  logoTexture.colorSpace = THREE.SRGBColorSpace;
+
+  const logoMaterial = new THREE.MeshStandardMaterial({
+    map: logoTexture,
+    transparent: true,
+    roughness: 0.45,
+    metalness: 0.08,
+  });
+
+  logoMesh = new THREE.Mesh(geometry, logoMaterial);
+  logoMesh.rotation.x = -0.08;
+  logoMesh.rotation.y = 0.16;
+  group.add(logoMesh);
+
+  const edgeMaterial = new THREE.MeshStandardMaterial({
+    color: 0x111827,
+    transparent: true,
+    opacity: 0.35,
+    roughness: 0.85,
+    metalness: 0.05,
+  });
+  edgeMesh = new THREE.Mesh(geometry.clone(), edgeMaterial);
+  edgeMesh.position.z = -0.03;
+  edgeMesh.scale.set(1.02, 1.02, 1);
+  edgeMesh.rotation.x = -0.08;
+  edgeMesh.rotation.y = 0.16;
+  group.add(edgeMesh);
+
+  const maxRotationX = 0.6;
+  const maxRotationY = 0.8;
+  const rotationSpeed = 0.005;
+  const damping = 0.92;
+  let velocityX = 0;
+  let velocityY = 0;
+  let isDragging = false;
+  let lastX = 0;
+  let lastY = 0;
+
+  // Limite la rotation pour éviter des angles trop extrêmes.
+  const clampRotation = () => {
+    group.rotation.x = Math.max(-maxRotationX, Math.min(maxRotationX, group.rotation.x));
+    group.rotation.y = Math.max(-maxRotationY, Math.min(maxRotationY, group.rotation.y));
+  };
+
+  // Gestion du drag souris/tactile avec inertie douce.
+  const handlePointerDown = (event) => {
+    isDragging = true;
+    container.classList.add('is-dragging');
+    lastX = event.clientX;
+    lastY = event.clientY;
+    renderer.domElement.setPointerCapture(event.pointerId);
+  };
+
+  const handlePointerMove = (event) => {
+    if (!isDragging) return;
+    const deltaX = event.clientX - lastX;
+    const deltaY = event.clientY - lastY;
+    group.rotation.y += deltaX * rotationSpeed;
+    group.rotation.x += deltaY * rotationSpeed;
+    velocityY = deltaX * rotationSpeed;
+    velocityX = deltaY * rotationSpeed;
+    lastX = event.clientX;
+    lastY = event.clientY;
+    clampRotation();
+  };
+
+  const handlePointerUp = (event) => {
+    isDragging = false;
+    container.classList.remove('is-dragging');
+    renderer.domElement.releasePointerCapture(event.pointerId);
+  };
+
+  const handlePointerLeave = () => {
+    isDragging = false;
+    container.classList.remove('is-dragging');
+  };
+
+  const handleResize = () => {
+    const { width, height } = surface.getBoundingClientRect();
+    if (!width || !height) return;
+    renderer.setSize(width, height, false);
+    camera.aspect = width / height;
+    camera.updateProjectionMatrix();
+  };
+
+  let resizeObserver = null;
+  if (typeof ResizeObserver !== 'undefined') {
+    resizeObserver = new ResizeObserver(handleResize);
+    resizeObserver.observe(surface);
+  }
+  handleResize();
+
+  const controller = new AbortController();
+  const { signal } = controller;
+
+  renderer.domElement.addEventListener('pointerdown', handlePointerDown, { signal });
+  renderer.domElement.addEventListener('pointermove', handlePointerMove, { signal });
+  renderer.domElement.addEventListener('pointerup', handlePointerUp, { signal });
+  renderer.domElement.addEventListener('pointerleave', handlePointerLeave, { signal });
+  window.addEventListener('resize', handleResize, { signal });
+
+  const animate = () => {
+    if (!isDragging) {
+      group.rotation.x += velocityX;
+      group.rotation.y += velocityY;
+      velocityX *= damping;
+      velocityY *= damping;
+      if (Math.abs(velocityX) < 0.0001) velocityX = 0;
+      if (Math.abs(velocityY) < 0.0001) velocityY = 0;
+      clampRotation();
+    }
+    renderer.render(scene, camera);
+    requestAnimationFrame(animate);
+  };
+
+  animate();
+
+  window.addEventListener(
+    'pagehide',
+    () => {
+      controller.abort();
+      resizeObserver?.disconnect();
+      geometry.dispose();
+      logoMaterial.dispose();
+      edgeMaterial.dispose();
+      logoTexture.dispose();
+      renderer.dispose();
+    },
+    { once: true }
+  );
 }
 
 function initStickyHeader() {
