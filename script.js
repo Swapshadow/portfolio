@@ -280,27 +280,12 @@ function initContactModal() {
 }
 
 function initTryHackMeLogo() {
-  const container = document.querySelector('[data-tryhackme-3d]');
-  const surface = document.querySelector('[data-tryhackme-surface]');
-  const fallbackImage = surface?.querySelector('.tryhackme-3d-fallback');
+  const container = document.querySelector('.thm-logo-3d');
 
-  if (!container || !surface) return;
+  if (!container) return;
 
   // Vérifie la disponibilité de WebGL avant d'initialiser la scène 3D.
   if (typeof THREE === 'undefined' || !window.WebGLRenderingContext) {
-    if (fallbackImage) {
-      fallbackImage.hidden = false;
-    } else {
-      const fallback = document.createElement('img');
-      fallback.src = './assets/certif/tryhackme/101logo.png';
-      fallback.alt = 'Logo TryHackMe';
-      fallback.loading = 'lazy';
-      fallback.decoding = 'async';
-      fallback.style.width = '100%';
-      fallback.style.height = '100%';
-      fallback.style.objectFit = 'contain';
-      surface.appendChild(fallback);
-    }
     return;
   }
 
@@ -308,7 +293,7 @@ function initTryHackMeLogo() {
   const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
   renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
   renderer.setClearColor(0x000000, 0);
-  surface.appendChild(renderer.domElement);
+  container.appendChild(renderer.domElement);
 
   const scene = new THREE.Scene();
   const camera = new THREE.PerspectiveCamera(35, 1, 0.1, 100);
@@ -323,26 +308,20 @@ function initTryHackMeLogo() {
   scene.add(group);
 
   // Logo en BoxGeometry pour un rendu 3D avec épaisseur.
-  const geometry = new THREE.BoxGeometry(1, 1, 0.08);
+  const geometry = new THREE.BoxGeometry(1, 1, 0.06);
   const textureLoader = new THREE.TextureLoader();
   let logoMesh;
   const logoTexture = textureLoader.load(
     './assets/certif/tryhackme/101logo.png',
     (texture) => {
       texture.colorSpace = THREE.SRGBColorSpace;
-      fallbackImage?.remove();
       const { width, height } = texture.image || {};
       if (width && height && logoMesh) {
         const aspect = width / height;
         logoMesh.scale.set(aspect, 1, 1);
       }
     },
-    undefined,
-    () => {
-      if (fallbackImage) {
-        fallbackImage.hidden = false;
-      }
-    }
+    undefined
   );
   logoTexture.colorSpace = THREE.SRGBColorSpace;
 
@@ -374,16 +353,17 @@ function initTryHackMeLogo() {
   group.add(logoMesh);
 
   const maxRotation = (25 * Math.PI) / 180;
-  const baseRotation = { x: -0.08, y: 0.16 };
-  const hoverRotation = { x: -0.14, y: 0.22 };
+  const baseRotation = { x: 0, y: 0 };
+  let targetRotationX = baseRotation.x;
+  let targetRotationY = baseRotation.y;
   group.rotation.x = baseRotation.x;
   group.rotation.y = baseRotation.y;
 
   const maxRotationX = maxRotation;
   const maxRotationY = maxRotation;
-  const rotationSpeed = 0.005;
-  const damping = 0.92;
-  const returnSpeed = 0.08;
+  const rotationSpeed = 0.0045;
+  const damping = 0.9;
+  const returnSpeed = 0.12;
   let velocityX = 0;
   let velocityY = 0;
   let isDragging = false;
@@ -396,6 +376,19 @@ function initTryHackMeLogo() {
   const clampRotation = () => {
     group.rotation.x = Math.max(-maxRotationX, Math.min(maxRotationX, group.rotation.x));
     group.rotation.y = Math.max(-maxRotationY, Math.min(maxRotationY, group.rotation.y));
+  };
+
+  const clampTarget = (value) => Math.max(-maxRotation, Math.min(maxRotation, value));
+
+  const updateTargetFromPointer = (event) => {
+    const rect = container.getBoundingClientRect();
+    if (!rect.width || !rect.height) return;
+    const relativeX = (event.clientX - rect.left) / rect.width;
+    const relativeY = (event.clientY - rect.top) / rect.height;
+    const offsetX = (relativeX - 0.5) * 2;
+    const offsetY = (relativeY - 0.5) * 2;
+    targetRotationY = clampTarget(offsetX * maxRotation);
+    targetRotationX = clampTarget(-offsetY * maxRotation);
   };
 
   // Gestion du drag souris/tactile avec inertie douce.
@@ -411,16 +404,22 @@ function initTryHackMeLogo() {
   };
 
   const handlePointerMove = (event) => {
-    if (!isDragging) return;
-    const deltaX = event.clientX - lastX;
-    const deltaY = event.clientY - lastY;
-    group.rotation.y += deltaX * rotationSpeed;
-    group.rotation.x += deltaY * rotationSpeed;
-    velocityY = deltaX * rotationSpeed;
-    velocityX = deltaY * rotationSpeed;
-    lastX = event.clientX;
-    lastY = event.clientY;
-    clampRotation();
+    if (isDragging) {
+      const deltaX = event.clientX - lastX;
+      const deltaY = event.clientY - lastY;
+      group.rotation.y += deltaX * rotationSpeed;
+      group.rotation.x += deltaY * rotationSpeed;
+      velocityY = deltaX * rotationSpeed;
+      velocityX = deltaY * rotationSpeed;
+      lastX = event.clientX;
+      lastY = event.clientY;
+      clampRotation();
+      return;
+    }
+
+    if (!isHovering) return;
+    updateTargetFromPointer(event);
+    startAnimation();
   };
 
   const handlePointerUp = (event) => {
@@ -435,17 +434,28 @@ function initTryHackMeLogo() {
     isHovering = false;
     container.classList.remove('is-dragging');
     container.classList.remove('is-hovered');
-    startAnimation();
+    velocityX = 0;
+    velocityY = 0;
+    targetRotationX = baseRotation.x;
+    targetRotationY = baseRotation.y;
+    group.rotation.x = baseRotation.x;
+    group.rotation.y = baseRotation.y;
+    clampRotation();
+    renderer.render(scene, camera);
+    isAnimating = false;
   };
 
-  const handlePointerEnter = () => {
+  const handlePointerEnter = (event) => {
     isHovering = true;
     container.classList.add('is-hovered');
+    lastX = event.clientX;
+    lastY = event.clientY;
+    updateTargetFromPointer(event);
     startAnimation();
   };
 
   const handleResize = () => {
-    const { width, height } = surface.getBoundingClientRect();
+    const { width, height } = container.getBoundingClientRect();
     if (!width || !height) return;
     renderer.setSize(width, height, false);
     camera.aspect = width / height;
@@ -455,7 +465,7 @@ function initTryHackMeLogo() {
   let resizeObserver = null;
   if (typeof ResizeObserver !== 'undefined') {
     resizeObserver = new ResizeObserver(handleResize);
-    resizeObserver.observe(surface);
+    resizeObserver.observe(container);
   }
   handleResize();
 
@@ -479,10 +489,9 @@ function initTryHackMeLogo() {
       if (Math.abs(velocityY) < 0.0001) velocityY = 0;
     }
 
-    const targetRotation = isHovering ? hoverRotation : baseRotation;
-    if (!isDragging) {
-      group.rotation.x += (targetRotation.x - group.rotation.x) * returnSpeed;
-      group.rotation.y += (targetRotation.y - group.rotation.y) * returnSpeed;
+    if (isHovering && !isDragging) {
+      group.rotation.x += (targetRotationX - group.rotation.x) * returnSpeed;
+      group.rotation.y += (targetRotationY - group.rotation.y) * returnSpeed;
     }
 
     clampRotation();
@@ -493,8 +502,9 @@ function initTryHackMeLogo() {
       isDragging ||
       Math.abs(velocityX) > 0.0001 ||
       Math.abs(velocityY) > 0.0001 ||
-      Math.abs(group.rotation.x - baseRotation.x) > 0.001 ||
-      Math.abs(group.rotation.y - baseRotation.y) > 0.001;
+      (isHovering &&
+        (Math.abs(group.rotation.x - targetRotationX) > 0.001 ||
+          Math.abs(group.rotation.y - targetRotationY) > 0.001));
 
     if (shouldContinue) {
       requestAnimationFrame(animate);
@@ -509,7 +519,7 @@ function initTryHackMeLogo() {
     requestAnimationFrame(animate);
   };
 
-  startAnimation();
+  renderer.render(scene, camera);
 
   window.addEventListener(
     'pagehide',

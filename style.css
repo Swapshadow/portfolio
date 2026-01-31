@@ -1479,44 +1479,28 @@ body[data-animations="off"] .reveal-on-scroll {
   flex-wrap: wrap;
 }
 
-.tryhackme-3d {
-  width: min(180px, 40vw);
-  height: min(180px, 40vw);
+.thm-logo-3d {
+  width: clamp(160px, 28vw, 180px);
+  height: clamp(160px, 28vw, 180px);
   flex: 0 0 auto;
   cursor: default;
   touch-action: none;
   user-select: none;
-}
-
-.tryhackme-3d.is-hovered {
-  cursor: grab;
-}
-
-.tryhackme-3d.is-dragging {
-  cursor: grabbing;
-}
-
-.tryhackme-3d-surface {
-  width: 100%;
-  height: 100%;
-  border-radius: 18px;
-  overflow: hidden;
-  background: transparent;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.tryhackme-3d-fallback {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
+.thm-logo-3d.is-hovered {
+  cursor: grab;
 }
 
-.tryhackme-3d canvas {
+.thm-logo-3d.is-dragging {
+  cursor: grabbing;
+}
+
+.thm-logo-3d canvas {
   position: absolute;
   inset: 0;
   width: 100%;
