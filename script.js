@@ -496,7 +496,7 @@ function initCarousel() {
   const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   if (prefersReducedMotion) return;
 
-  const SPEED_PX_PER_SEC = 48;
+  const SPEED_PX_PER_SEC = 36;
 
   carousels.forEach((carousel) => {
     const track = carousel.querySelector('[data-carousel-track]');
@@ -524,6 +524,7 @@ function initCarousel() {
     let lastPointerX = 0;
     let rafId = null;
     let lastFrameTime = 0;
+    let isRebuildScheduled = false;
 
     const updateTransform = () => {
       track.style.transform = `translate3d(${offset}px, 0, 0)`;
@@ -581,7 +582,7 @@ function initCarousel() {
 
     const animate = (time) => {
       if (!lastFrameTime) lastFrameTime = time;
-      const delta = time - lastFrameTime;
+      const delta = Math.min(time - lastFrameTime, 64);
       lastFrameTime = time;
 
       if (!isDragging) {
@@ -625,6 +626,23 @@ function initCarousel() {
       isDragging = false;
       carousel.classList.remove('is-dragging');
     };
+
+    const scheduleRebuild = () => {
+      if (isRebuildScheduled) return;
+      isRebuildScheduled = true;
+      window.requestAnimationFrame(() => {
+        isRebuildScheduled = false;
+        buildTrack();
+      });
+    };
+
+    baseTemplate.forEach((item) => {
+      item.querySelectorAll('img').forEach((img) => {
+        if (img.complete) return;
+        img.addEventListener('load', scheduleRebuild, { once: true });
+        img.addEventListener('error', scheduleRebuild, { once: true });
+      });
+    });
 
     buildTrack();
     startAnimation();
