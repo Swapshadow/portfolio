@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  initTheme();
-  initAnimationsToggle();
+  initDisplayPreferences();
   initMenu();
   initContactModal();
   initStickyHeader();
@@ -81,65 +80,108 @@ const RSS_TAB_MAP = {
 
 const RSS_TAB_COUNTS = new Map();
 
-function initTheme() {
-  const toggle = document.querySelector('[data-theme-toggle]');
-  const storedTheme = localStorage.getItem('theme');
-  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const initialTheme = storedTheme || (prefersDark ? 'dark' : 'light');
+function initDisplayPreferences() {
+  const menu = document.querySelector('[data-settings-menu]');
+  const toggle = document.querySelector('[data-settings-toggle]');
+  const panel = document.querySelector('[data-settings-panel]');
+  if (!toggle || !panel) return;
 
-  const applyTheme = (theme) => {
-    document.body.dataset.theme = theme;
-    if (toggle) {
-      toggle.setAttribute('aria-pressed', theme === 'dark');
-    }
-  };
-
-  applyTheme(initialTheme);
-
-  if (!toggle) return;
-
-  toggle.addEventListener('click', () => {
-    const nextTheme = document.body.dataset.theme === 'dark' ? 'light' : 'dark';
-    applyTheme(nextTheme);
-    localStorage.setItem('theme', nextTheme);
-  });
-}
-
-function initAnimationsToggle() {
-  const toggle = document.querySelector('[data-animations-toggle]');
-  if (!toggle) return;
-
-  const status = toggle.querySelector('[data-animations-status]');
+  const themeInputs = Array.from(panel.querySelectorAll('input[name="theme-mode"]'));
+  const animationInputs = Array.from(panel.querySelectorAll('input[name="animations-mode"]'));
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
   const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
-  const storedPreference = localStorage.getItem('animations');
-  let hasStoredPreference = storedPreference === 'on' || storedPreference === 'off';
-  const initialState = hasStoredPreference
-    ? storedPreference
+
+  const storedThemeMode = localStorage.getItem('theme-mode');
+  const legacyTheme = localStorage.getItem('theme');
+  const themeMode = ['auto', 'light', 'dark'].includes(storedThemeMode)
+    ? storedThemeMode
+    : legacyTheme === 'light' || legacyTheme === 'dark'
+      ? legacyTheme
+      : 'auto';
+
+  const storedAnimations = localStorage.getItem('animations');
+  let hasStoredAnimations = storedAnimations === 'on' || storedAnimations === 'off';
+  const animationsMode = hasStoredAnimations
+    ? storedAnimations
     : prefersReducedMotion.matches
       ? 'off'
       : 'on';
 
-  const applyState = (state) => {
-    document.body.dataset.animations = state;
-    toggle.setAttribute('aria-pressed', state === 'on');
-    if (status) {
-      status.textContent = state === 'on' ? 'On' : 'Off';
+  const applyThemeMode = (mode) => {
+    const resolvedTheme = mode === 'auto'
+      ? (prefersDark.matches ? 'dark' : 'light')
+      : mode;
+    document.body.dataset.theme = resolvedTheme;
+    toggle.dataset.themeMode = mode;
+    themeInputs.forEach((input) => {
+      input.checked = input.value === mode;
+    });
+  };
+
+  const applyAnimationsMode = (mode) => {
+    document.body.dataset.animations = mode;
+    toggle.dataset.animationsMode = mode;
+    animationInputs.forEach((input) => {
+      input.checked = input.value === mode;
+    });
+  };
+
+  const setMenuOpen = (open) => {
+    panel.hidden = !open;
+    toggle.setAttribute('aria-expanded', String(open));
+    if (menu) {
+      menu.classList.toggle('is-open', open);
     }
   };
 
-  applyState(initialState);
+  applyThemeMode(themeMode);
+  applyAnimationsMode(animationsMode);
 
   toggle.addEventListener('click', () => {
-    const nextState = document.body.dataset.animations === 'off' ? 'on' : 'off';
-    applyState(nextState);
-    localStorage.setItem('animations', nextState);
-    hasStoredPreference = true;
+    setMenuOpen(panel.hidden);
+  });
+
+  themeInputs.forEach((input) => {
+    input.addEventListener('change', (event) => {
+      const mode = event.target.value;
+      applyThemeMode(mode);
+      localStorage.setItem('theme-mode', mode);
+      localStorage.removeItem('theme');
+    });
+  });
+
+  animationInputs.forEach((input) => {
+    input.addEventListener('change', (event) => {
+      const mode = event.target.value;
+      applyAnimationsMode(mode);
+      localStorage.setItem('animations', mode);
+      hasStoredAnimations = true;
+    });
+  });
+
+  prefersDark.addEventListener('change', () => {
+    if ((localStorage.getItem('theme-mode') || 'auto') === 'auto') {
+      applyThemeMode('auto');
+    }
   });
 
   prefersReducedMotion.addEventListener('change', (event) => {
-    if (!hasStoredPreference) {
-      const nextState = event.matches ? 'off' : 'on';
-      applyState(nextState);
+    if (!hasStoredAnimations) {
+      applyAnimationsMode(event.matches ? 'off' : 'on');
+    }
+  });
+
+  document.addEventListener('click', (event) => {
+    if (panel.hidden) return;
+    const target = event.target;
+    if (!menu || !target || menu.contains(target)) return;
+    setMenuOpen(false);
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && !panel.hidden) {
+      setMenuOpen(false);
+      toggle.focus();
     }
   });
 }
