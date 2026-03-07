@@ -67,23 +67,27 @@
             <path d="M9 21v-6h6v6"></path>
           </svg>
         </a>
-        <button class="nav-icon-button theme-toggle" type="button" data-theme-toggle aria-label="Basculer le thème" aria-pressed="false">
-          <span class="theme-icon theme-icon-moon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M21 14.5a8.5 8.5 0 1 1-11-11 7 7 0 0 0 11 11z"></path>
+        <div class="settings-menu" data-settings-menu>
+          <button class="nav-icon-button settings-toggle" type="button" data-settings-toggle aria-label="Préférences d’affichage" aria-expanded="false" aria-controls="settings-panel">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="3"></circle>
+              <path d="M19.4 15a1.7 1.7 0 0 0 .34 1.87l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.7 1.7 0 0 0-1.87-.34 1.7 1.7 0 0 0-1 1.55V21a2 2 0 1 1-4 0v-.09a1.7 1.7 0 0 0-1-1.55 1.7 1.7 0 0 0-1.87.34l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.7 1.7 0 0 0 .34-1.87 1.7 1.7 0 0 0-1.55-1H3a2 2 0 1 1 0-4h.09a1.7 1.7 0 0 0 1.55-1 1.7 1.7 0 0 0-.34-1.87l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.7 1.7 0 0 0 1.87.34H9a1.7 1.7 0 0 0 1-1.55V3a2 2 0 1 1 4 0v.09a1.7 1.7 0 0 0 1 1.55h.09a1.7 1.7 0 0 0 1.87-.34l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.7 1.7 0 0 0-.34 1.87V9c0 .65.38 1.24.97 1.5.19.08.39.12.59.12H21a2 2 0 1 1 0 4h-.09c-.69 0-1.31.4-1.51 1.03z"></path>
             </svg>
-          </span>
-          <span class="theme-icon theme-icon-sun" aria-hidden="true">
-            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="12" cy="12" r="4"></circle>
-              <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path>
-            </svg>
-          </span>
-        </button>
-        <button class="animations-toggle" type="button" data-animations-toggle aria-label="Basculer les animations" aria-pressed="true">
-          <span class="animations-toggle-label">Animations</span>
-          <span class="animations-toggle-status" data-animations-status aria-hidden="true">On</span>
-        </button>
+          </button>
+          <div class="settings-panel" id="settings-panel" data-settings-panel hidden>
+            <fieldset class="settings-group" data-theme-group>
+              <legend>Thème</legend>
+              <label><input type="radio" name="theme-mode" value="auto"> Système</label>
+              <label><input type="radio" name="theme-mode" value="light"> Jour</label>
+              <label><input type="radio" name="theme-mode" value="dark"> Nuit</label>
+            </fieldset>
+            <fieldset class="settings-group" data-animations-group>
+              <legend>Animations</legend>
+              <label><input type="radio" name="animations-mode" value="on"> On</label>
+              <label><input type="radio" name="animations-mode" value="off"> Off</label>
+            </fieldset>
+          </div>
+        </div>
         <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
           <span class="menu-toggle-label">Menu</span>
           <span class="menu-toggle-icon" aria-hidden="true"><span></span></span>
@@ -107,6 +111,7 @@
         <li><a href="projets.html">Projets</a></li>
         <li class="site-nav-title">Sections</li>
         <li><a href="#accueil" data-section-link="accueil">Présentation</a></li>
+        <li><a href="#blog-carousel" data-section-link="blog-carousel">Accéder aux derniers articles</a></li>
         <li><a href="#domaines" data-section-link="domaines">Domaines clés</a></li>
       </ul>
     </div>
@@ -166,6 +171,65 @@
       </div>
     </section>
 
+    <div class="section-jump">
+      <a class="section-jump-button" href="#blog-carousel" aria-label="Descendre vers Accéder aux derniers articles">
+        <span aria-hidden="true">↓</span>
+      </a>
+    </div>
+
+    <section class="section" id="blog-carousel" data-section="blog-carousel">
+      <div class="container section-card reveal-on-scroll" data-reveal>
+        <div class="section-heading">
+          <h2 class="section-title">Accéder aux derniers articles</h2>
+        </div>
+        <div class="blog-carousel" data-carousel aria-label="Carrousel des articles du blog">
+          <div class="blog-carousel-track" data-carousel-track>
+            <a class="blog-carousel-card" href="blog/nagios-docker/" aria-label="Lire l’article Déployer Nagios facilement avec Docker">
+              <img src="assets/blog/dockerxnagios.png" alt="Vignette de l’article Déployer Nagios facilement avec Docker">
+              <div class="blog-carousel-overlay">
+                <span class="blog-carousel-category">Supervision</span>
+                <h3>Déployer Nagios facilement avec Docker</h3>
+                <span class="blog-carousel-cta">Lire l’article →</span>
+              </div>
+            </a>
+            <a class="blog-carousel-card" href="blog/pfsense-ha/" aria-label="Lire l’article pfSense HA avec CARP">
+              <img src="assets/blog/pfsence-blog.png" alt="Vignette de l’article pfSense HA avec CARP">
+              <div class="blog-carousel-overlay">
+                <span class="blog-carousel-category">Firewall</span>
+                <h3>pfSense HA avec CARP</h3>
+                <span class="blog-carousel-cta">Lire l’article →</span>
+              </div>
+            </a>
+            <a class="blog-carousel-card" href="blog/dl/" aria-label="Lire l’article Durcissement Linux (Ubuntu 24.04)">
+              <img src="assets/blog/dl.png" alt="Vignette de l’article Durcissement Linux (Ubuntu 24.04)">
+              <div class="blog-carousel-overlay">
+                <span class="blog-carousel-category">Durcissement</span>
+                <h3>Durcissement Linux (Ubuntu 24.04)</h3>
+                <span class="blog-carousel-cta">Lire l’article →</span>
+              </div>
+            </a>
+            <a class="blog-carousel-card" href="blog/sws/" aria-label="Lire l’article Sécurisation Windows Server 2025">
+              <img src="assets/blog/sws.png" alt="Vignette de l’article Sécurisation Windows Server 2025">
+              <div class="blog-carousel-overlay">
+                <span class="blog-carousel-category">Durcissement</span>
+                <h3>Sécurisation Windows Server 2025</h3>
+                <span class="blog-carousel-cta">Lire l’article →</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-jump section-jump-double">
+      <a class="section-jump-button" href="#accueil" aria-label="Remonter vers Présentation">
+        <span aria-hidden="true">↑</span>
+      </a>
+      <a class="section-jump-button" href="#domaines" aria-label="Descendre vers Domaines clés">
+        <span aria-hidden="true">↓</span>
+      </a>
+    </div>
+
     <section class="section" id="domaines" data-section="domaines">
       <div class="container section-card reveal-on-scroll" data-reveal>
         <h2 class="section-title">Domaines clés</h2>
@@ -199,42 +263,11 @@
       </div>
     </section>
 
-    <section class="section" id="blog-carousel" data-section="blog-carousel">
-      <div class="container section-card reveal-on-scroll" data-reveal>
-        <div class="section-heading">
-          <h2 class="section-title">Accéder aux derniers articles</h2>
-          <p>Un aperçu rapide des publications du blog avec un carrousel fluide.</p>
-        </div>
-        <div class="blog-carousel" data-carousel aria-label="Carrousel des articles du blog">
-          <div class="blog-carousel-track" data-carousel-track>
-            <a class="blog-carousel-card" href="blog/pfsense-ha/" aria-label="Lire l’article pfSense HA avec CARP">
-              <img src="assets/blog/pfsence-blog.png" alt="Vignette de l’article pfSense HA avec CARP">
-              <div class="blog-carousel-overlay">
-                <span class="blog-carousel-category">Firewall</span>
-                <h3>pfSense HA avec CARP</h3>
-                <span class="blog-carousel-cta">Lire l’article →</span>
-              </div>
-            </a>
-            <a class="blog-carousel-card" href="blog/dl/" aria-label="Lire l’article Durcissement Linux (Ubuntu 24.04)">
-              <img src="assets/blog/dl.png" alt="Vignette de l’article Durcissement Linux (Ubuntu 24.04)">
-              <div class="blog-carousel-overlay">
-                <span class="blog-carousel-category">Durcissement</span>
-                <h3>Durcissement Linux (Ubuntu 24.04)</h3>
-                <span class="blog-carousel-cta">Lire l’article →</span>
-              </div>
-            </a>
-            <a class="blog-carousel-card" href="blog/sws/" aria-label="Lire l’article Sécurisation Windows Server 2025">
-              <img src="assets/blog/sws.png" alt="Vignette de l’article Sécurisation Windows Server 2025">
-              <div class="blog-carousel-overlay">
-                <span class="blog-carousel-category">Durcissement</span>
-                <h3>Sécurisation Windows Server 2025</h3>
-                <span class="blog-carousel-cta">Lire l’article →</span>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
+    <div class="section-jump">
+      <a class="section-jump-button" href="#blog-carousel" aria-label="Remonter vers Accéder aux derniers articles">
+        <span aria-hidden="true">↑</span>
+      </a>
+    </div>
 
   </main>
 
