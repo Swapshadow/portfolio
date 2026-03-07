@@ -2064,6 +2064,10 @@ body.modal-open {
   z-index: 30;
 }
 
+.settings-panel[hidden] {
+  display: none;
+}
+
 .settings-group {
   border: none;
   margin: 0;
