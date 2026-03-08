@@ -67,23 +67,27 @@
             <path d="M9 21v-6h6v6"></path>
           </svg>
         </a>
-        <button class="nav-icon-button theme-toggle" type="button" data-theme-toggle aria-label="Basculer le thème" aria-pressed="false">
-          <span class="theme-icon theme-icon-moon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M21 14.5a8.5 8.5 0 1 1-11-11 7 7 0 0 0 11 11z"></path>
+        <div class="settings-menu" data-settings-menu>
+          <button class="nav-icon-button settings-toggle" type="button" data-settings-toggle aria-label="Préférences d’affichage" aria-expanded="false" aria-controls="settings-panel">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="3"></circle>
+              <path d="M19.4 15a1.7 1.7 0 0 0 .34 1.87l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.7 1.7 0 0 0-1.87-.34 1.7 1.7 0 0 0-1 1.55V21a2 2 0 1 1-4 0v-.09a1.7 1.7 0 0 0-1-1.55 1.7 1.7 0 0 0-1.87.34l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.7 1.7 0 0 0 .34-1.87 1.7 1.7 0 0 0-1.55-1H3a2 2 0 1 1 0-4h.09a1.7 1.7 0 0 0 1.55-1 1.7 1.7 0 0 0-.34-1.87l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.7 1.7 0 0 0 1.87.34H9a1.7 1.7 0 0 0 1-1.55V3a2 2 0 1 1 4 0v.09a1.7 1.7 0 0 0 1 1.55h.09a1.7 1.7 0 0 0 1.87-.34l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.7 1.7 0 0 0-.34 1.87V9c0 .65.38 1.24.97 1.5.19.08.39.12.59.12H21a2 2 0 1 1 0 4h-.09c-.69 0-1.31.4-1.51 1.03z"></path>
             </svg>
-          </span>
-          <span class="theme-icon theme-icon-sun" aria-hidden="true">
-            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="12" cy="12" r="4"></circle>
-              <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path>
-            </svg>
-          </span>
-        </button>
-        <button class="animations-toggle" type="button" data-animations-toggle aria-label="Basculer les animations" aria-pressed="true">
-          <span class="animations-toggle-label">Animations</span>
-          <span class="animations-toggle-status" data-animations-status aria-hidden="true">On</span>
-        </button>
+          </button>
+          <div class="settings-panel" id="settings-panel" data-settings-panel hidden>
+            <fieldset class="settings-group" data-theme-group>
+              <legend>Thème</legend>
+              <label><input type="radio" name="theme-mode" value="auto"> Système</label>
+              <label><input type="radio" name="theme-mode" value="light"> Jour</label>
+              <label><input type="radio" name="theme-mode" value="dark"> Nuit</label>
+            </fieldset>
+            <fieldset class="settings-group" data-animations-group>
+              <legend>Animations</legend>
+              <label><input type="radio" name="animations-mode" value="on"> On</label>
+              <label><input type="radio" name="animations-mode" value="off"> Off</label>
+            </fieldset>
+          </div>
+        </div>
         <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
           <span class="menu-toggle-label">Menu</span>
           <span class="menu-toggle-icon" aria-hidden="true"><span></span></span>
