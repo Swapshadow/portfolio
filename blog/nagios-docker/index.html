@@ -178,6 +178,18 @@
     const markdownTarget = document.getElementById('blog-article-content');
     const markdownUrl = '../../content/blog/nagios-docker.md';
 
+    const enhanceArticleContent = (container) => {
+      if (!container) return;
+
+      container.querySelectorAll('table').forEach((table) => {
+        if (table.parentElement?.classList.contains('table-scroll')) return;
+        const wrapper = document.createElement('div');
+        wrapper.className = 'table-scroll';
+        table.parentNode.insertBefore(wrapper, table);
+        wrapper.appendChild(table);
+      });
+    };
+
     fetch(markdownUrl)
       .then((response) => {
         if (!response.ok) {
@@ -188,6 +200,7 @@
       .then((markdown) => {
         if (window.marked) {
           markdownTarget.innerHTML = marked.parse(markdown);
+          enhanceArticleContent(markdownTarget);
         } else {
           markdownTarget.textContent = markdown;
         }
