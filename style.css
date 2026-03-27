@@ -2981,6 +2981,102 @@ body[data-animations="off"] #blog .blog-meteor {
   box-shadow: 0 14px 30px rgba(16, 128, 52, 0.42);
 }
 
+.game-tracks-heading {
+  margin-bottom: 20px;
+}
+
+.game-tracks-heading p {
+  color: rgba(205, 249, 217, 0.82);
+}
+
+.tracks-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+@media (min-width: 1200px) {
+  .tracks-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+.track-card {
+  display: block;
+  padding: 14px;
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(76, 243, 131, 0.22);
+  background: linear-gradient(170deg, rgba(4, 12, 7, 0.88), rgba(2, 7, 4, 0.92));
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.track-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(101, 255, 157, 0.44);
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.5);
+}
+
+.track-thumb {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 14px;
+  border-radius: 14px;
+  border: 1px solid rgba(120, 241, 156, 0.22);
+  aspect-ratio: 16 / 9;
+  background: #000;
+}
+
+.track-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.45s ease, filter 0.45s ease;
+  filter: saturate(0.85) contrast(1.04);
+}
+
+.track-card:hover .track-thumb img {
+  transform: scale(1.04);
+  filter: saturate(1) contrast(1.08);
+}
+
+.track-thumb::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.34));
+}
+
+.track-play-icon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  place-items: center;
+  color: #d5ffe3;
+  background: rgba(12, 34, 17, 0.68);
+  border: 1px solid rgba(102, 255, 157, 0.45);
+  box-shadow: 0 0 20px rgba(76, 247, 133, 0.35);
+  z-index: 1;
+}
+
+.track-title {
+  display: block;
+  font-size: 1.03rem;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.track-subtitle {
+  display: block;
+  font-size: 0.82rem;
+  color: rgba(185, 237, 200, 0.85);
+}
+
 .footer-game {
   background: rgba(0, 0, 0, 0.62);
   border-top: 1px solid rgba(79, 241, 130, 0.22);
@@ -2999,16 +3095,24 @@ body[data-animations="off"] #blog .blog-meteor {
   .game-card {
     padding: 24px;
   }
+
+  .tracks-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 body[data-animations="off"] .game-card,
-body[data-animations="off"] .game-access-button {
+body[data-animations="off"] .game-access-button,
+body[data-animations="off"] .track-card,
+body[data-animations="off"] .track-thumb img {
   transition: none;
 }
 
 @media (prefers-reduced-motion: reduce) {
   .game-card,
-  .game-access-button {
+  .game-access-button,
+  .track-card,
+  .track-thumb img {
     transition: none;
   }
 }
