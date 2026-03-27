@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Game Zone: mini-games et expériences cyber interactives.">
+  <title>Game Zone - Jean-Baptiste Terrazzoni</title>
+  <meta property="og:title" content="Game Zone - Jean-Baptiste Terrazzoni">
+  <meta property="og:description" content="Interactive cyber experiments, mini-games, and security-inspired demos.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://swapshadow.github.io/portfolio/game.html">
+  <meta property="og:image" content="assets/favicon.png">
+  <meta property="og:site_name" content="Jean-Baptiste Terrazzoni">
+  <meta property="og:locale" content="fr_FR">
+  <meta name="twitter:card" content="summary">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page page-game">
+  <canvas class="matrix-canvas" data-matrix-canvas aria-hidden="true"></canvas>
+
+  <header class="site-header">
+    <div class="container nav">
+      <div class="nav-actions">
+        <a class="nav-icon-button" href="index.html" aria-label="Retour à l'accueil">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M3 10.5L12 3l9 7.5"></path>
+            <path d="M5 9.5V21h14V9.5"></path>
+            <path d="M9 21v-6h6v6"></path>
+          </svg>
+        </a>
+        <div class="settings-menu" data-settings-menu>
+          <button class="nav-icon-button settings-toggle" type="button" data-settings-toggle aria-label="Préférences d’affichage" aria-expanded="false" aria-controls="settings-panel">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="3"></circle>
+              <path d="M19.4 15a1.7 1.7 0 0 0 .34 1.87l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.7 1.7 0 0 0-1.87-.34 1.7 1.7 0 0 0-1 1.55V21a2 2 0 1 1-4 0v-.09a1.7 1.7 0 0 0-1-1.55 1.7 1.7 0 0 0-1.87.34l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.7 1.7 0 0 0 .34-1.87 1.7 1.7 0 0 0-1.55-1H3a2 2 0 1 1 0-4h.09a1.7 1.7 0 0 0 1.55-1 1.7 1.7 0 0 0-.34-1.87l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.7 1.7 0 0 0 1.87.34H9a1.7 1.7 0 0 0 1-1.55V3a2 2 0 1 1 4 0v.09a1.7 1.7 0 0 0 1 1.55h.09a1.7 1.7 0 0 0 1.87-.34l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.7 1.7 0 0 0-.34 1.87V9c0 .65.38 1.24.97 1.5.19.08.39.12.59.12H21a2 2 0 1 1 0 4h-.09c-.69 0-1.31.4-1.51 1.03z"></path>
+            </svg>
+          </button>
+          <div class="settings-panel" id="settings-panel" data-settings-panel hidden>
+            <fieldset class="settings-group" data-theme-group>
+              <legend>Thème</legend>
+              <label><input type="radio" name="theme-mode" value="auto"> Système</label>
+              <label><input type="radio" name="theme-mode" value="light"> Jour</label>
+              <label><input type="radio" name="theme-mode" value="dark"> Nuit</label>
+            </fieldset>
+            <fieldset class="settings-group" data-animations-group>
+              <legend>Animations</legend>
+              <label><input type="radio" name="animations-mode" value="on"> On</label>
+              <label><input type="radio" name="animations-mode" value="off"> Off</label>
+            </fieldset>
+          </div>
+        </div>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
+          <span class="menu-toggle-label">Menu</span>
+          <span class="menu-toggle-icon" aria-hidden="true"><span></span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+  <nav class="site-nav" id="site-menu" aria-hidden="true">
+    <div class="site-nav-panel">
+      <div class="site-nav-header">
+        <button class="menu-close" type="button" aria-label="Fermer le menu">
+          ✕
+        </button>
+      </div>
+      <ul class="site-nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="parcours.html">Parcours</a></li>
+        <li><a href="certifications.html">Certifications</a></li>
+        <li><a href="veille.html">Veille</a></li>
+        <li><a href="blog/">Blog</a></li>
+        <li><a href="projets.html">Projets</a></li>
+        <li><a href="game.html">Game Zone</a></li>
+        <li class="site-nav-title">Sections</li>
+        <li><a href="#game-hero" data-section-link="game-hero">Présentation</a></li>
+        <li><a href="#game-list" data-section-link="game-list">Jeu en vedette</a></li>
+        <li><a href="#featured-tracks" data-section-link="featured-tracks">Featured Tracks</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section class="game-hero" id="game-hero" data-section="game-hero">
+      <div class="container">
+        <div class="game-hero-card reveal-on-scroll" data-reveal>
+          <p class="game-eyebrow">Cyber Playground</p>
+          <h1>Game Zone</h1>
+          <p class="game-subtitle">Interactive cyber experiments, mini-games, and security-inspired demos</p>
+          <a class="button game-access-button" href="#game-list">Access</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="game-list" data-section="game-list">
+      <div class="container game-showcase">
+        <article class="game-card game-card-featured reveal-on-scroll" data-reveal>
+          <span class="game-status-badge">Playable now</span>
+          <h2>Mainframe</h2>
+          <p>Retro hacking mini-game built with Phaser</p>
+          <a class="button game-launch-button" href="./games/mainframe/">Launch Mainframe</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="featured-tracks" data-section="featured-tracks">
+      <div class="container">
+        <div class="section-heading game-tracks-heading reveal-on-scroll" data-reveal>
+          <h2 class="section-title">Featured Tracks</h2>
+          <p>Une sélection sonore cyber pour accompagner les sessions Game Zone.</p>
+        </div>
+
+        <div class="tracks-grid">
+          <a class="track-card reveal-on-scroll" data-reveal href="https://youtu.be/oJ5PfRQB93o?si=V6t1hNHUDvbvtfXD" target="_blank" rel="noreferrer">
+            <figure class="track-thumb">
+              <img src="https://img.youtube.com/vi/oJ5PfRQB93o/hqdefault.jpg" alt="Miniature YouTube du titre Freeze Rael" loading="lazy" decoding="async">
+              <span class="track-play-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                  <path d="M8 6v12l10-6z"></path>
+                </svg>
+              </span>
+            </figure>
+            <span class="track-title">Freeze Rael</span>
+            <span class="track-subtitle">Open on YouTube</span>
+          </a>
+
+          <a class="track-card reveal-on-scroll" data-reveal href="https://youtu.be/rXdKoAcbzhM?si=xMPbM-YLOJ2YUnMt" target="_blank" rel="noreferrer">
+            <figure class="track-thumb">
+              <img src="https://img.youtube.com/vi/rXdKoAcbzhM/hqdefault.jpg" alt="Miniature YouTube du titre Kevin Mitnick" loading="lazy" decoding="async">
+              <span class="track-play-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                  <path d="M8 6v12l10-6z"></path>
+                </svg>
+              </span>
+            </figure>
+            <span class="track-title">Kevin Mitnick</span>
+            <span class="track-subtitle">Open on YouTube</span>
+          </a>
+
+          <a class="track-card reveal-on-scroll" data-reveal href="https://youtu.be/OQOeePhNj-I?si=xPpb5tvaD6_DObbw" target="_blank" rel="noreferrer">
+            <figure class="track-thumb">
+              <img src="https://img.youtube.com/vi/OQOeePhNj-I/hqdefault.jpg" alt="Miniature YouTube du titre Mr. Robot" loading="lazy" decoding="async">
+              <span class="track-play-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                  <path d="M8 6v12l10-6z"></path>
+                </svg>
+              </span>
+            </figure>
+            <span class="track-title">Mr. Robot</span>
+            <span class="track-subtitle">Open on YouTube</span>
+          </a>
+
+          <a class="track-card reveal-on-scroll" data-reveal href="https://youtu.be/kf_J-QAdH24?si=P44dKT3KD1d1ys7V" target="_blank" rel="noreferrer">
+            <figure class="track-thumb">
+              <img src="https://img.youtube.com/vi/kf_J-QAdH24/hqdefault.jpg" alt="Miniature YouTube du titre PGP" loading="lazy" decoding="async">
+              <span class="track-play-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                  <path d="M8 6v12l10-6z"></path>
+                </svg>
+              </span>
+            </figure>
+            <span class="track-title">PGP</span>
+            <span class="track-subtitle">Open on YouTube</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer footer-game">
+    <div class="container footer-content">
+      <p>Game Zone accueille désormais Mainframe, et d’autres jeux arrivent bientôt.</p>
+      <div class="footer-contact" aria-label="Coordonnées">
+        <a class="footer-icon" href="#" data-contact-label="Email" data-contact-value="terrazzoni.corsica@proton.me" data-contact-href="mailto:terrazzoni.corsica@proton.me" aria-label="Envoyer un email">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+            <polyline points="22,6 12,13 2,6"></polyline>
+          </svg>
+        </a>
+        <a class="footer-icon" href="https://github.com/swapshadow" target="_blank" rel="noreferrer" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M9 19c-5 1.5-5-2.5-7-3"></path>
+            <path d="M16 22v-3.9a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <div class="contact-modal" id="contact-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="contact-modal-title">
+    <div class="contact-modal__overlay" data-modal-close></div>
+    <div class="contact-modal__content">
+      <button class="contact-modal__close" type="button" data-modal-close aria-label="Fermer">×</button>
+      <h2 class="contact-modal__title" id="contact-modal-title">Contact</h2>
+      <p class="contact-modal__value"><a id="contact-modal-link" href="#">Contact</a></p>
+    </div>
+  </div>
+  <script src="script.js" defer></script>
+  <script src="game.js" defer></script>
+</body>
+</html>
