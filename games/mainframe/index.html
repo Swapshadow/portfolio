@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>MAINFRAME</title>
+	<script src="phaser.min.js"></script>
+	<script src="js/Boot.js"></script>
+	<script src="js/Preloader.js"></script>
+	<script src="js/MainMenu.js"></script>
+	<script src="js/Credits.js"></script>
+	<script src="js/MainScreen.js"></script>
+	<script src="js/VictoryScreen.js"></script>
+	<script src="js/DeathScreen.js"></script>
+	<script src="js/PasswordCracker.js"></script>
+	<script src="js/Firewall.js"></script>
+	<script src="js/Worm.js"></script>
+	<script src="js/SQLInject.js"></script>
+	<script src="js/BotnetDDoS.js"></script>
+	<script src="js/StackOverflow.js"></script>
+	<script src="js/PacketSniffer.js"></script>
+	<script src="js/VoiceCracker.js"></script>
+
+	<style>
+		body {
+			background-color: #1b1b1b;
+		}
+
+	</style>
+
+</head>
+<body>
+
+
+<div id="gameContainer"></div>
+
+<script type="text/javascript">
+
+window.onload = function() {
+
+	var game = new Phaser.Game(960, 540, Phaser.AUTO, 'gameContainer');
+
+	game.state.add('Boot', Mainframe.Boot);
+	game.state.add('Preloader', Mainframe.Preloader);
+	game.state.add('MainMenu', Mainframe.MainMenu);
+	game.state.add('Credits', Mainframe.Credits);
+	game.state.add('MainScreen', Mainframe.MainScreen);
+	game.state.add('VictoryScreen', Mainframe.VictoryScreen);
+	game.state.add('DeathScreen', Mainframe.DeathScreen);
+	game.state.add('PasswordCracker', Mainframe.PasswordCracker);
+	game.state.add('Firewall', Mainframe.Firewall);
+	game.state.add('Worm', Mainframe.Worm);
+	game.state.add('SQLInject', Mainframe.SQLInject);
+	game.state.add('BotnetDDoS', Mainframe.BotnetDDoS);
+	game.state.add('StackOverflow', Mainframe.StackOverflow);
+	game.state.add('PacketSniffer', Mainframe.PacketSniffer);
+	game.state.add('VoiceCracker', Mainframe.VoiceCracker);
+
+	//	Now start the Boot state.
+	game.state.start('Boot');
+
+};
+
+</script>
+
+</body>
+</html>
