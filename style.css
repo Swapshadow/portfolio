@@ -2791,3 +2791,186 @@ body[data-animations="off"] #blog .blog-meteor {
 .blog-stars-twinkle .twinkle-8 { top: 74%; left: 8%; animation-delay: 1.6s; }
 .blog-stars-twinkle .twinkle-9 { top: 82%; left: 34%; animation-delay: 0.3s; }
 .blog-stars-twinkle .twinkle-10 { top: 88%; left: 70%; animation-delay: 1s; }
+
+/* Game Zone */
+.page-game {
+  --bg: #020302;
+  --text: #effff2;
+  --muted: #9ad9a7;
+  --accent: #32f06a;
+  --accent-soft: rgba(50, 240, 106, 0.14);
+  --accent-glow: rgba(50, 240, 106, 0.3);
+  background: #000;
+  color: var(--text);
+}
+
+.page-game #animated-background {
+  display: none;
+}
+
+.page-game main {
+  z-index: 1;
+}
+
+.page-game .site-header {
+  background: rgba(0, 0, 0, 0.58);
+  border-bottom: 1px solid rgba(78, 255, 136, 0.24);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+}
+
+.page-game .site-header.is-sticky {
+  background: rgba(0, 0, 0, 0.74);
+}
+
+.page-game .site-nav {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.page-game .site-nav-panel {
+  background: linear-gradient(170deg, rgba(4, 10, 5, 0.96), rgba(1, 5, 2, 0.96));
+  border: 1px solid rgba(68, 231, 120, 0.26);
+}
+
+.matrix-canvas {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  z-index: -2;
+  pointer-events: none;
+}
+
+.page-game::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle at 50% 35%, rgba(16, 50, 21, 0.16), transparent 62%);
+  z-index: -1;
+  pointer-events: none;
+}
+
+.game-hero {
+  min-height: min(72vh, 780px);
+  display: flex;
+  align-items: center;
+  padding: clamp(112px, 20vh, 180px) 0 64px;
+}
+
+.game-hero-card {
+  width: min(760px, 100%);
+  margin: 0 auto;
+  text-align: center;
+  padding: clamp(28px, 5vw, 48px);
+  border-radius: var(--radius-lg);
+  background: rgba(2, 8, 3, 0.62);
+  border: 1px solid rgba(82, 255, 141, 0.28);
+  box-shadow: 0 22px 54px rgba(0, 0, 0, 0.58), 0 0 38px rgba(50, 240, 106, 0.15);
+  backdrop-filter: blur(8px);
+}
+
+.game-eyebrow {
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-size: 0.76rem;
+  color: rgba(133, 239, 162, 0.9);
+  margin-bottom: 12px;
+}
+
+.game-hero-card h1 {
+  font-size: clamp(2.3rem, 6.5vw, 4.4rem);
+  line-height: 1.06;
+  margin-bottom: 12px;
+}
+
+.game-subtitle {
+  max-width: 56ch;
+  margin: 0 auto;
+  color: rgba(205, 249, 217, 0.9);
+}
+
+.game-access-button {
+  margin-top: 28px;
+  min-width: 150px;
+  background: linear-gradient(135deg, #32f06a, #19b84a);
+  color: #051008;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 22px rgba(50, 240, 106, 0.33);
+}
+
+.game-access-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 26px rgba(50, 240, 106, 0.42);
+}
+
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+  padding-bottom: 80px;
+}
+
+.game-card {
+  padding: 28px;
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(66, 225, 118, 0.22);
+  background: linear-gradient(165deg, rgba(4, 10, 6, 0.88), rgba(2, 5, 3, 0.92));
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.45);
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.game-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(80, 255, 139, 0.44);
+  box-shadow: 0 18px 36px rgba(0, 0, 0, 0.52);
+}
+
+.game-card h2 {
+  font-size: 1.35rem;
+  margin-bottom: 10px;
+}
+
+.game-card p {
+  color: rgba(205, 249, 217, 0.85);
+}
+
+.footer-game {
+  background: rgba(0, 0, 0, 0.62);
+  border-top: 1px solid rgba(79, 241, 130, 0.22);
+}
+
+@media (max-width: 980px) {
+  .game-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 680px) {
+  .game-hero {
+    min-height: auto;
+    padding-top: clamp(104px, 24vh, 140px);
+  }
+
+  .game-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    padding-bottom: 64px;
+  }
+
+  .game-card {
+    padding: 24px;
+  }
+}
+
+body[data-animations="off"] .game-card,
+body[data-animations="off"] .game-access-button {
+  transition: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .game-card,
+  .game-access-button {
+    transition: none;
+  }
+}
