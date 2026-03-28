@@ -3082,6 +3082,51 @@ body[data-animations="off"] #blog .blog-meteor {
   border-top: 1px solid rgba(79, 241, 130, 0.22);
 }
 
+.page-game .nav-icon-button,
+.page-game .menu-toggle {
+  background: linear-gradient(160deg, rgba(3, 14, 7, 0.78), rgba(1, 7, 3, 0.9));
+  border-color: rgba(84, 255, 143, 0.35);
+  color: rgba(214, 255, 225, 0.95);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.45), 0 0 14px rgba(50, 240, 106, 0.16);
+}
+
+.page-game .nav-icon-button:hover,
+.page-game .menu-toggle:hover {
+  background: linear-gradient(160deg, rgba(5, 19, 10, 0.84), rgba(1, 10, 4, 0.95));
+  border-color: rgba(111, 255, 165, 0.5);
+}
+
+.page-game .nav-icon-button:focus-visible,
+.page-game .menu-toggle:focus-visible,
+.page-game .footer-icon:focus-visible {
+  outline: 2px solid rgba(119, 255, 172, 0.88);
+  outline-offset: 2px;
+}
+
+.page-game .settings-menu.is-open .settings-toggle {
+  background: linear-gradient(160deg, rgba(7, 22, 11, 0.86), rgba(3, 12, 6, 0.96));
+  border-color: rgba(120, 255, 171, 0.52);
+}
+
+.page-game .menu-toggle-icon span,
+.page-game .menu-toggle-icon::before,
+.page-game .menu-toggle-icon::after {
+  background: rgba(212, 255, 224, 0.94);
+}
+
+.page-game .footer-icon {
+  border-color: rgba(84, 255, 143, 0.34);
+  background: linear-gradient(165deg, rgba(3, 14, 7, 0.82), rgba(1, 8, 3, 0.92));
+  color: rgba(216, 255, 226, 0.94);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.44), 0 0 15px rgba(50, 240, 106, 0.14);
+}
+
+.page-game .footer-icon:hover {
+  background: linear-gradient(165deg, rgba(6, 20, 10, 0.9), rgba(2, 10, 4, 0.95));
+  border-color: rgba(120, 255, 171, 0.5);
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.52), 0 0 18px rgba(50, 240, 106, 0.22);
+}
+
 @media (max-width: 680px) {
   .game-hero {
     min-height: auto;
@@ -3115,4 +3160,18 @@ body[data-animations="off"] .track-thumb img {
   .track-thumb img {
     transition: none;
   }
+}
+
+.section-game-zone-entry {
+  padding-top: 20px;
+}
+
+.section-card-highlight {
+  border-color: rgba(124, 152, 255, 0.34);
+  background: linear-gradient(160deg, rgba(255, 255, 255, 0.92), rgba(242, 246, 255, 0.9));
+}
+
+.game-zone-entry-cta {
+  margin-top: 18px;
+  display: flex;
 }
