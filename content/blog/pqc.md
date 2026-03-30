@@ -1,5 +1,7 @@
 # 🔐 RSA, c’est la fin ? Place à la cryptographie post-quantique
 
+![Miniature de l’article sur la cryptographie post-quantique](../../assets/blog/pqc.png)
+
 ## 🧠 L’informatique quantique arrive à grands pas
 
 Depuis plusieurs années, les géants technologiques comme Google, IBM ou Microsoft investissent massivement dans l’informatique quantique.
