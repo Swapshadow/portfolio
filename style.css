@@ -3167,8 +3167,35 @@ body[data-animations="off"] .track-thumb img {
 }
 
 .section-card-highlight {
-  border-color: rgba(124, 152, 255, 0.34);
-  background: linear-gradient(160deg, rgba(255, 255, 255, 0.92), rgba(242, 246, 255, 0.9));
+  border: 1px solid rgba(126, 156, 255, 0.3);
+  background:
+    radial-gradient(circle at 12% 20%, rgba(92, 126, 255, 0.2), transparent 48%),
+    radial-gradient(circle at 88% 0%, rgba(62, 214, 255, 0.12), transparent 42%),
+    linear-gradient(160deg, rgba(10, 16, 34, 0.9), rgba(7, 12, 26, 0.86));
+  box-shadow:
+    0 24px 44px rgba(0, 0, 0, 0.42),
+    inset 0 1px 0 rgba(196, 213, 255, 0.16),
+    0 0 28px rgba(84, 128, 255, 0.14);
+}
+
+.section-card-highlight .section-title {
+  color: #eef3ff;
+  border-bottom-color: rgba(132, 168, 255, 0.34);
+}
+
+.section-card-highlight .section-heading p {
+  color: rgba(215, 226, 255, 0.9);
+}
+
+.section-card-highlight .button {
+  background: linear-gradient(135deg, #5d7bff, #4bcbff);
+  color: #f8fbff;
+  box-shadow: 0 14px 28px rgba(60, 118, 255, 0.34);
+}
+
+.section-card-highlight .button:hover {
+  filter: brightness(1.06);
+  box-shadow: 0 16px 30px rgba(60, 118, 255, 0.42);
 }
 
 .game-zone-entry-cta {
