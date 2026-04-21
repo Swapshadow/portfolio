@@ -3,27 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Guide de durcissement pour Ubuntu 24.04 : comptes, SSH, audit et réduction de la surface d’attaque.">
-  <title>Durcissement Linux (Ubuntu 24.04) - Blog</title>
-  <meta property="og:title" content="Durcissement Linux (Ubuntu 24.04) - Blog">
-  <meta property="og:description" content="Guide de durcissement pour Ubuntu 24.04 : comptes, SSH, audit et réduction de la surface d’attaque.">
-  <meta property="og:type" content="article">
-  <meta property="og:url" content="https://swapshadow.github.io/portfolio/blog/dl/">
-  <meta property="og:image" content="../../assets/blog/dl.png">
+  <meta name="description" content="Hack Zone: surveillance live des cybermenaces et univers cybersécurité offensive.">
+  <title>Hack Zone - Jean-Baptiste Terrazzoni</title>
+  <meta property="og:title" content="Hack Zone - Jean-Baptiste Terrazzoni">
+  <meta property="og:description" content="Live cyber threat map, offensive security watch, and hacking universe insights.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://swapshadow.github.io/portfolio/hackzone.html">
+  <meta property="og:image" content="assets/favicon.png">
   <meta property="og:site_name" content="Jean-Baptiste Terrazzoni">
   <meta property="og:locale" content="fr_FR">
-  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:card" content="summary">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" href="../../assets/favicon.png">
-  <link rel="stylesheet" href="../../style.css">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="stylesheet" href="style.css">
 </head>
-<body class="page page-blog page-blog-article">
+<body class="page page-hack">
+  <canvas class="matrix-canvas" data-matrix-canvas aria-hidden="true"></canvas>
+
   <header class="site-header">
     <div class="container nav">
       <div class="nav-actions">
-        <a class="nav-icon-button" href="../../index.html" aria-label="Retour à l'accueil">
+        <a class="nav-icon-button" href="index.html" aria-label="Retour à l'accueil">
           <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M3 10.5L12 3l9 7.5"></path>
             <path d="M5 9.5V21h14V9.5"></path>
@@ -66,35 +68,67 @@
         </button>
       </div>
       <ul class="site-nav-links">
-        <li><a href="../../index.html">Accueil</a></li>
-        <li><a href="../../parcours.html">Parcours</a></li>
-        <li><a href="../../certifications.html">Certifications</a></li>
-        <li><a href="../../veille.html">Veille</a></li>
-        <li><a href="../">Blog</a></li>
-        <li><a href="../../projets.html">Projets</a></li>
-        <li><a href="../../game.html">Game Zone</a></li>
-        <li><a href="../../hackzone.html">Hack Zone</a></li>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="parcours.html">Parcours</a></li>
+        <li><a href="certifications.html">Certifications</a></li>
+        <li><a href="veille.html">Veille</a></li>
+        <li><a href="blog/">Blog</a></li>
+        <li><a href="projets.html">Projets</a></li>
+        <li><a href="game.html">Game Zone</a></li>
+        <li><a href="hackzone.html">Hack Zone</a></li>
+        <li class="site-nav-title">Sections</li>
+        <li><a href="#hack-hero" data-section-link="hack-hero">Présentation</a></li>
+        <li><a href="#live-threat-map" data-section-link="live-threat-map">Live Cyber Threat Map</a></li>
       </ul>
     </div>
   </nav>
 
   <main>
-    <section class="section blog-article-section">
+    <section class="game-hero hack-hero" id="hack-hero" data-section="hack-hero">
       <div class="container">
-        <a class="blog-article-back" href="../">← Retour au blog</a>
-        <div class="blog-article-card">
-          <div class="blog-article-content" id="blog-article-content" aria-live="polite"></div>
-          <noscript>
-            <p>Veuillez activer JavaScript pour afficher l’article.</p>
-          </noscript>
+        <div class="game-hero-card hack-hero-card reveal-on-scroll" data-reveal>
+          <p class="game-eyebrow">Offensive Intelligence Space</p>
+          <h1>Hack Zone</h1>
+          <p class="game-subtitle">Observation en direct des menaces cyber, contexte offensif et vision live de l'écosystème hacking universe.</p>
+          <a class="button game-access-button hack-access-button" href="#live-threat-map">Enter Live Feed</a>
         </div>
+      </div>
+    </section>
+
+    <section class="section" id="live-threat-map" data-section="live-threat-map">
+      <div class="container">
+        <article class="hack-threat-card reveal-on-scroll" data-reveal>
+          <div class="section-heading hack-section-heading">
+            <h2 class="section-title">Live Cyber Threat Map</h2>
+            <p>
+              Flux de visualisation temps réel des cyberattaques mondiales pour soutenir la veille opérationnelle,
+              l’observation des tendances d’attaque et la sensibilisation défensive.
+            </p>
+          </div>
+
+          <div class="threat-embed-shell" data-threat-shell>
+            <iframe
+              class="threat-embed"
+              data-threat-iframe
+              src="https://threatmap.checkpoint.com/"
+              title="Live Cyber Threat Map by Check Point"
+              loading="lazy"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allow="fullscreen"
+            ></iframe>
+            <div class="threat-embed-fallback" data-threat-fallback hidden>
+              <p class="threat-fallback-label">Accès externe recommandé</p>
+              <a class="button hack-open-button" href="https://threatmap.checkpoint.com/" target="_blank" rel="noreferrer">Cliquer pour voir en direct</a>
+            </div>
+          </div>
+        </article>
       </div>
     </section>
   </main>
 
-  <footer class="footer">
+  <footer class="footer footer-game">
     <div class="container footer-content">
-      <p>Copyright © 2026 Jean-Baptiste Terrazzoni. All rights reserved.</p>
+      <p>Hack Zone centralise une vue live des menaces pour la veille cyber et l’analyse contextuelle.</p>
       <div class="footer-contact" aria-label="Coordonnées">
         <a class="footer-icon" href="#" data-contact-label="Email" data-contact-value="terrazzoni.corsica@proton.me" data-contact-href="mailto:terrazzoni.corsica@proton.me" aria-label="Envoyer un email">
           <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -102,23 +136,10 @@
             <polyline points="22,6 12,13 2,6"></polyline>
           </svg>
         </a>
-        <a class="footer-icon" href="https://www.linkedin.com/in/jean-baptiste-terrazzoni" target="_blank" rel="noreferrer" aria-label="LinkedIn">
-          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <rect x="2" y="9" width="4" height="12"></rect>
-            <circle cx="4" cy="4" r="2"></circle>
-            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-          </svg>
-        </a>
         <a class="footer-icon" href="https://github.com/swapshadow" target="_blank" rel="noreferrer" aria-label="GitHub">
           <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M9 19c-5 1.5-5-2.5-7-3"></path>
             <path d="M16 22v-3.9a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-          </svg>
-        </a>
-        <a class="footer-icon" href="https://tryhackme.com/p/Swapshadow" target="_blank" rel="noreferrer" aria-label="TryHackMe">
-          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
-            <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.6"></circle>
-            <text x="12" y="15" text-anchor="middle" font-size="7" font-family="Inter, sans-serif" font-weight="600" fill="currentColor">THM</text>
           </svg>
         </a>
       </div>
@@ -132,29 +153,8 @@
       <p class="contact-modal__value"><a id="contact-modal-link" href="#">Contact</a></p>
     </div>
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-  <script src="../../script.js" defer></script>
-  <script>
-    const markdownTarget = document.getElementById('blog-article-content');
-    const markdownUrl = '../../content/blog/dl.md';
-
-    fetch(markdownUrl)
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error('Erreur lors du chargement de l’article');
-        }
-        return response.text();
-      })
-      .then((markdown) => {
-        if (window.marked) {
-          markdownTarget.innerHTML = marked.parse(markdown);
-        } else {
-          markdownTarget.textContent = markdown;
-        }
-      })
-      .catch(() => {
-        markdownTarget.innerHTML = '<p>Impossible de charger l’article pour le moment.</p>';
-      });
-  </script>
+  <script src="script.js" defer></script>
+  <script src="game.js" defer></script>
+  <script src="hackzone.js" defer></script>
 </body>
 </html>
