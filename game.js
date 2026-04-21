@@ -12,6 +12,9 @@ function initGameMatrix() {
   const root = document.body;
   const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
   const characters = ['0', '1'];
+  const isHackTheme = root.classList.contains('page-hack');
+  const rainHeadColor = isHackTheme ? '#ffd2db' : '#b8ffbc';
+  const rainTrailColor = isHackTheme ? '#ff3f69' : '#36d65f';
 
   let width = 0;
   let height = 0;
@@ -69,7 +72,7 @@ function initGameMatrix() {
       const x = index * fontSize;
       const y = drops[index] * fontSize;
 
-      context.fillStyle = Math.random() > 0.9 ? '#b8ffbc' : '#36d65f';
+      context.fillStyle = Math.random() > 0.9 ? rainHeadColor : rainTrailColor;
       context.fillText(text, x, y);
 
       if (y > height && Math.random() > 0.975) {
