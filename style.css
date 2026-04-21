@@ -997,6 +997,33 @@ body[data-animations="off"] .reveal-on-scroll {
   max-width: 54ch;
 }
 
+.hero-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(120px, 1fr));
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.hero-metric {
+  padding: 14px 12px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: color-mix(in srgb, var(--surface) 70%, var(--accent-soft));
+}
+
+.hero-metric-value {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.hero-metric-label {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.4;
+}
+
 .hero-cta {
   display: flex;
   gap: 14px;
@@ -1192,6 +1219,54 @@ body[data-animations="off"] .reveal-on-scroll {
   outline-offset: 2px;
 }
 
+.section-signal {
+  padding-top: 0;
+}
+
+.signal-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.signal-card {
+  background: color-mix(in srgb, var(--surface) 84%, var(--accent-soft));
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-soft);
+  padding: 20px;
+  display: grid;
+  gap: 8px;
+  min-height: 146px;
+  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.signal-card:hover,
+.signal-card:focus-visible {
+  transform: translateY(-3px);
+  border-color: color-mix(in srgb, var(--accent) 35%, var(--border));
+  box-shadow: var(--shadow);
+}
+
+.signal-card-label {
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.signal-card strong {
+  font-size: 1.02rem;
+  line-height: 1.35;
+}
+
+.signal-card-link {
+  margin-top: auto;
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 0.92rem;
+}
+
 .section-card {
   background: var(--surface);
   padding: 36px;
@@ -1261,6 +1336,10 @@ body[data-animations="off"] .reveal-on-scroll {
 .card:hover {
   transform: translateY(-3px);
   box-shadow: 0 18px 36px rgba(15, 23, 42, 0.08);
+}
+
+.card p {
+  color: var(--muted);
 }
 
 .tag {
@@ -1956,6 +2035,25 @@ body.modal-open {
     justify-content: center;
   }
 
+  .hero-metrics {
+    grid-template-columns: repeat(2, minmax(120px, 1fr));
+    width: 100%;
+    max-width: 460px;
+  }
+
+  .section-signal {
+    padding-top: 6px;
+  }
+
+  .signal-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .signal-card {
+    min-height: auto;
+    text-align: left;
+  }
+
   .section-card {
     padding: 24px;
   }
@@ -2023,6 +2121,10 @@ body.modal-open {
 
   .hero-card {
     padding: 22px;
+  }
+
+  .hero-metrics {
+    grid-template-columns: 1fr;
   }
 
   .section {
