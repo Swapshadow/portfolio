@@ -120,7 +120,7 @@
         <li class="site-nav-title">Sections</li>
         <li><a href="#accueil" data-section-link="accueil">Présentation</a></li>
         <li><a href="#blog-carousel" data-section-link="blog-carousel">Accéder aux derniers articles</a></li>
-        <li><a href="#domaines" data-section-link="domaines">Domaines clés</a></li>
+        <li><a href="#domaines" data-section-link="domaines">Domaines d’expertise</a></li>
       </ul>
     </div>
   </nav>
@@ -172,58 +172,29 @@
       </div>
     </section>
 
-    <section class="section section-certifications" id="certifications-showcase" data-section="certifications-showcase">
+    <section class="section" id="build-now" data-section="build-now">
       <div class="container section-card reveal-on-scroll" data-reveal>
         <div class="section-heading">
-          <h2 class="section-title" data-i18n="certs.title">Certifications & apprentissage continu</h2>
-          <p data-i18n="certs.intro">Un aperçu des badges techniques validés et des parcours de montée en compétences en cybersécurité et infrastructure.</p>
+          <h2 class="section-title" data-i18n="build.title">Ce que je construis actuellement</h2>
+          <p data-i18n="build.intro">Une sélection de projets et travaux en cours autour de l’infrastructure, de la cybersécurité, de la gouvernance et de la documentation technique.</p>
         </div>
-        <div class="hero-carousel certifications-carousel" data-carousel aria-label="Carrousel des certifications">
-          <div class="carousel-track hero-carousel-track" data-carousel-track>
-            <div class="hero-carousel-item">
-              <img src="assets/certif/cisco/eh.png" alt="Badge Cisco Ethical Hacker" loading="eager" decoding="async">
-            </div>
-            <div class="hero-carousel-item">
-              <img src="assets/certif/cisco/ensa.png" alt="Badge Cisco Enterprise Network Security Associate" loading="lazy" decoding="async">
-            </div>
-            <div class="hero-carousel-item">
-              <img src="assets/certif/cisco/introduction_cybersécurité.png" alt="Badge Cisco Introduction à la cybersécurité" loading="lazy" decoding="async">
-            </div>
-            <div class="hero-carousel-item">
-              <img src="assets/certif/cisco/python_1.png" alt="Badge Cisco Python Essentials 1" loading="lazy" decoding="async">
-            </div>
-            <div class="hero-carousel-item">
-              <img src="assets/certif/cisco/srwe.png" alt="Badge Cisco Switching, Routing, and Wireless Essentials" loading="lazy" decoding="async">
-            </div>
-            <div class="hero-carousel-item">
-              <img src="assets/certif/fortinet/itl.png" alt="Badge Fortinet ITL" loading="lazy" decoding="async">
-            </div>
-            <div class="hero-carousel-item">
-              <img src="assets/certif/tryhackme/cyber-security-101-sec1.png" alt="Badge TryHackMe Cyber Security 101" loading="lazy" decoding="async">
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-signal" aria-label="Accès rapide">
-      <div class="container">
-        <div class="signal-grid reveal-on-scroll" data-reveal>
-          <a class="signal-card" href="certifications.html">
-            <span class="signal-card-label">Certifications</span>
-            <strong>Parcours validé et progression continue</strong>
-            <span class="signal-card-link">Explorer →</span>
-          </a>
-          <a class="signal-card" href="veille.html">
-            <span class="signal-card-label">Veille cyber</span>
-            <strong>Tableau de bord actualisé CERT-FR / THN</strong>
-            <span class="signal-card-link">Consulter →</span>
-          </a>
-          <a class="signal-card" href="blog/">
-            <span class="signal-card-label">Articles techniques</span>
-            <strong>Guides pratiques et analyses défensives</strong>
-            <span class="signal-card-link">Lire →</span>
-          </a>
+        <div class="grid grid-2 build-grid">
+          <article class="card">
+            <h3 data-i18n="build.card1.title">Intranet professionnel</h3>
+            <p data-i18n="build.card1.text">Développement d’un intranet moderne avec annuaire, actualités, accès métiers et intégration progressive à l’environnement Microsoft/Active Directory.</p>
+          </article>
+          <article class="card">
+            <h3 data-i18n="build.card2.title">Cartographie & inventaire SI</h3>
+            <p data-i18n="build.card2.text">Mise en place d’une vision structurée des actifs, applications, VLAN, serveurs et services critiques pour renforcer la gouvernance cyber.</p>
+          </article>
+          <article class="card">
+            <h3 data-i18n="build.card3.title">Gouvernance & conformité</h3>
+            <p data-i18n="build.card3.text">Travaux autour de la PSSI, du PCA/PRA, de NIS 2 et des bonnes pratiques ANSSI/NIST.</p>
+          </article>
+          <article class="card">
+            <h3 data-i18n="build.card4.title">Labs cybersécurité</h3>
+            <p data-i18n="build.card4.text">Environnements de test autour de Docker, GLPI, NetBox, supervision, durcissement Linux/Windows et analyse réseau.</p>
+          </article>
         </div>
       </div>
     </section>
@@ -317,14 +288,14 @@
       <a class="section-jump-button" href="#accueil" aria-label="Remonter vers Présentation">
         <span aria-hidden="true">↑</span>
       </a>
-      <a class="section-jump-button" href="#domaines" aria-label="Descendre vers Domaines clés">
+      <a class="section-jump-button" href="#domaines" aria-label="Descendre vers Domaines d’expertise">
         <span aria-hidden="true">↓</span>
       </a>
     </div>
 
     <section class="section" id="domaines" data-section="domaines">
       <div class="container section-card reveal-on-scroll" data-reveal>
-        <h2 class="section-title">Domaines clés</h2>
+        <h2 class="section-title">Domaines d’expertise</h2>
         <div class="grid grid-2">
           <article class="card">
             <h3 data-i18n="domains.academic.title">Parcours académique</h3>
@@ -351,6 +322,20 @@
             <p data-i18n="domains.blog.text">Guides pratiques, retours d’expérience et analyses techniques sur le durcissement, l’administration et la défense des SI.</p>
             <a class="tag" href="blog/">Explorer le blog →</a>
           </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-final-cta" id="explorer" data-section="explorer">
+      <div class="container section-card reveal-on-scroll" data-reveal>
+        <div class="section-heading">
+          <h2 class="section-title" data-i18n="finalCta.title">Explorer mon univers cyber</h2>
+          <p data-i18n="finalCta.text">Accédez à mes projets, certifications et contenus de veille depuis les pages dédiées.</p>
+        </div>
+        <div class="hero-cta final-cta-buttons">
+          <a class="button" href="projets.html" data-i18n="finalCta.projects">Voir mes projets</a>
+          <a class="button button-secondary" href="certifications.html" data-i18n="finalCta.certs">Voir mes certifications</a>
+          <a class="button button-secondary" href="veille.html" data-i18n="finalCta.watch">Lire ma veille</a>
         </div>
       </div>
     </section>
