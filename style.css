@@ -963,7 +963,7 @@ body[data-animations="off"] .reveal-on-scroll {
 }
 
 .hero {
-  padding: 32px 0 120px;
+  padding: 24px 0 72px;
   scroll-margin-top: 120px;
 }
 
@@ -978,7 +978,7 @@ body[data-animations="off"] .reveal-on-scroll {
   background: color-mix(in srgb, var(--surface) 90%, transparent);
   border: 1px solid color-mix(in srgb, var(--border) 86%, transparent);
   border-radius: var(--radius-lg);
-  padding: clamp(32px, 6vw, 56px);
+  padding: clamp(26px, 4.8vw, 44px);
   box-shadow: var(--shadow);
   position: relative;
   overflow: visible;
@@ -1019,7 +1019,7 @@ body[data-animations="off"] .reveal-on-scroll {
   line-height: 1.65;
 }
 
-.hero-floating-card {
+.home-watch-card {
   position: relative;
   display: inline-flex;
   flex-direction: column;
@@ -1028,7 +1028,7 @@ body[data-animations="off"] .reveal-on-scroll {
   width: fit-content;
   min-width: 220px;
   max-width: 280px;
-  margin: 1.75rem auto 0;
+  margin: 0 auto;
   padding: 12px 16px;
   border-radius: 14px;
   border: 1px solid color-mix(in srgb, var(--border) 72%, transparent);
@@ -1043,14 +1043,14 @@ body[data-animations="off"] .reveal-on-scroll {
   transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
 }
 
-.hero-floating-card:hover,
-.hero-floating-card:focus-visible {
+.home-watch-card:hover,
+.home-watch-card:focus-visible {
   border-color: color-mix(in srgb, var(--accent) 34%, var(--border));
   background: color-mix(in srgb, var(--surface) 78%, transparent);
   box-shadow: 0 14px 30px rgba(15, 23, 42, 0.18);
 }
 
-.hero-floating-card__value {
+.home-watch-card__value {
   font-size: 1.35rem;
   font-weight: 700;
   line-height: 1.1;
@@ -1063,24 +1063,20 @@ body[data-animations="off"] .reveal-on-scroll {
   animation: text-shift 6s ease-in-out infinite;
 }
 
-.hero-floating-card__label {
+.home-watch-card__label {
   color: var(--muted);
   font-size: 0.88rem;
   line-height: 1.35;
 }
 
-.hero-floating-card-standalone {
-  margin: 0 auto;
-}
-
 .section-watch-entry {
-  padding-top: 8px;
+  padding-top: 2px;
+  padding-bottom: 8px;
 }
 
-.section-watch-entry .section-card {
+.section-watch-entry .container {
   display: flex;
   justify-content: center;
-  padding: clamp(18px, 3vw, 24px);
 }
 
 .section-jump {
@@ -2111,7 +2107,11 @@ body.modal-open {
   }
 
   .hero {
-    padding: 24px 0 72px;
+    padding: 20px 0 44px;
+  }
+
+  .hero-shell {
+    max-width: 100%;
   }
 
   .hero-shell {
@@ -2142,16 +2142,27 @@ body.modal-open {
     justify-content: center;
   }
 
-  .hero-floating-card {
-    position: relative;
-    display: inline-flex;
-    margin-top: 1rem;
-    margin-right: auto;
-    margin-left: auto;
+  .home-watch-card {
     width: 100%;
     max-width: 280px;
     min-width: 0;
-    text-align: center;
+  }
+
+  .zone-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .zone-card {
+    padding: 22px;
+  }
+
+  .zone-cta {
+    justify-content: center;
+  }
+
+  .zone-card .button {
+    width: 100%;
   }
 
   .zone-grid {
