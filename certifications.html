@@ -18,6 +18,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" href="assets/favicon.png">
   <link rel="stylesheet" href="style.css">
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="4ebf12c8-65e1-4212-921f-f1ebd7af5b0d"></script>
 </head>
 <body class="page">
   <div id="animated-background" aria-hidden="true">
@@ -88,6 +89,9 @@
             </fieldset>
           </div>
         </div>
+        <button class="nav-icon-button language-toggle" type="button" data-language-toggle aria-label="Switch language to English" title="Switch language">
+          🇬🇧
+        </button>
         <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
           <span class="menu-toggle-label">Menu</span>
           <span class="menu-toggle-icon" aria-hidden="true"><span></span></span>
@@ -103,16 +107,17 @@
         </button>
       </div>
       <ul class="site-nav-links">
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="parcours.html">Parcours</a></li>
-        <li><a href="certifications.html">Certifications</a></li>
-        <li><a href="veille.html">Veille</a></li>
-        <li><a href="blog/">Blog</a></li>
-        <li><a href="projets.html">Projets</a></li>
+        <li><a href="index.html" data-i18n="nav.home">Accueil</a></li>
+        <li><a href="parcours.html" data-i18n="nav.journey">Parcours</a></li>
+        <li><a href="certifications.html" data-i18n="nav.certs">Certifications</a></li>
+        <li><a href="veille.html" data-i18n="nav.watch">Veille</a></li>
+        <li><a href="blog/" data-i18n="nav.blog">Blog</a></li>
+        <li><a href="projets.html" data-i18n="nav.projects">Projets</a></li>
         <li><a href="game.html">Game Zone</a></li>
         <li><a href="hackzone.html">Hack Zone</a></li>
         <li class="site-nav-title">Sections</li>
         <li><a href="#certifications" data-section-link="certifications">Présentation</a></li>
+        <li><a href="#certifications-apprentissage" data-section-link="certifications-apprentissage">Badges & apprentissage</a></li>
         <li><a href="#liste-certifications" data-section-link="liste-certifications">Liste</a></li>
       </ul>
     </div>
@@ -121,8 +126,45 @@
   <main>
     <section class="section" id="certifications" data-section="certifications">
       <div class="container section-card reveal-on-scroll" data-reveal>
-        <h1 class="section-title">Certifications</h1>
-        <p>Une sélection de certifications validant mes compétences en sécurité, réseau et conformité.</p>
+        <h1 class="section-title" data-i18n="cert.page.title">Certifications</h1>
+        <p data-i18n="cert.page.intro">Une sélection de certifications validant mes compétences en sécurité, réseau et conformité.</p>
+      </div>
+    </section>
+
+    <section class="section" id="certifications-apprentissage" data-section="certifications-apprentissage">
+      <div class="container section-card reveal-on-scroll" data-reveal>
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Certifications & apprentissage continu</h2>
+            <p>Retrouvez une sélection de certifications, badges et formations validées autour des réseaux, systèmes, cybersécurité et cloud.</p>
+          </div>
+          <a class="button" href="https://www.credly.com/users/jean-baptiste-terrazzoni" target="_blank" rel="noopener noreferrer">Voir mon profil Credly</a>
+        </div>
+        <div class="hero-carousel badge-showcase-carousel" data-carousel aria-label="Carrousel des badges de certifications">
+          <div class="carousel-track hero-carousel-track" data-carousel-track>
+            <div class="hero-carousel-item">
+              <img src="assets/certif/cisco/eh.png" alt="Badge Cisco Ethical Hacker" loading="eager" decoding="async">
+            </div>
+            <div class="hero-carousel-item">
+              <img src="assets/certif/cisco/ensa.png" alt="Badge Cisco Enterprise Network Security Associate" loading="lazy" decoding="async">
+            </div>
+            <div class="hero-carousel-item">
+              <img src="assets/certif/cisco/introduction_cybersécurité.png" alt="Badge Cisco Introduction à la cybersécurité" loading="lazy" decoding="async">
+            </div>
+            <div class="hero-carousel-item">
+              <img src="assets/certif/cisco/python_1.png" alt="Badge Cisco Python Essentials 1" loading="lazy" decoding="async">
+            </div>
+            <div class="hero-carousel-item">
+              <img src="assets/certif/cisco/srwe.png" alt="Badge Cisco Switching, Routing, and Wireless Essentials" loading="lazy" decoding="async">
+            </div>
+            <div class="hero-carousel-item">
+              <img src="assets/certif/fortinet/itl.png" alt="Badge Fortinet ITL" loading="lazy" decoding="async">
+            </div>
+            <div class="hero-carousel-item">
+              <img src="assets/certif/tryhackme/cyber-security-101-sec1.png" alt="Badge TryHackMe Cyber Security 101" loading="lazy" decoding="async">
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 

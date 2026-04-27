@@ -18,6 +18,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" href="../assets/favicon.png">
   <link rel="stylesheet" href="../style.css">
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="4ebf12c8-65e1-4212-921f-f1ebd7af5b0d"></script>
 </head>
 <body class="page page-blog">
   <div id="animated-background" aria-hidden="true">
@@ -88,6 +89,9 @@
             </fieldset>
           </div>
         </div>
+        <button class="nav-icon-button language-toggle" type="button" data-language-toggle aria-label="Switch language to English" title="Switch language">
+          🇬🇧
+        </button>
         <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
           <span class="menu-toggle-label">Menu</span>
           <span class="menu-toggle-icon" aria-hidden="true"><span></span></span>
@@ -103,12 +107,12 @@
         </button>
       </div>
       <ul class="site-nav-links">
-        <li><a href="../index.html">Accueil</a></li>
-        <li><a href="../parcours.html">Parcours</a></li>
-        <li><a href="../certifications.html">Certifications</a></li>
-        <li><a href="../veille.html">Veille</a></li>
-        <li><a href="index.html">Blog</a></li>
-        <li><a href="../projets.html">Projets</a></li>
+        <li><a href="../index.html" data-i18n="nav.home">Accueil</a></li>
+        <li><a href="../parcours.html" data-i18n="nav.journey">Parcours</a></li>
+        <li><a href="../certifications.html" data-i18n="nav.certs">Certifications</a></li>
+        <li><a href="../veille.html" data-i18n="nav.watch">Veille</a></li>
+        <li><a href="index.html" data-i18n="nav.blog">Blog</a></li>
+        <li><a href="../projets.html" data-i18n="nav.projects">Projets</a></li>
         <li><a href="../game.html">Game Zone</a></li>
         <li><a href="../hackzone.html">Hack Zone</a></li>
         <li class="site-nav-title">Sections</li>
@@ -166,7 +170,7 @@
       <div class="container blog-content">
         <div class="blog-card reveal-on-scroll" data-reveal>
           <p class="blog-eyebrow">Journal de veille</p>
-          <h1 class="section-title">Blog</h1>
+          <h1 class="section-title" data-i18n="blog.page.title">Blog</h1>
           <p class="blog-intro">
             Analyses, retours d’expérience et synthèses sur la cybersécurité, l’administration
             système et les réseaux, avec un focus sur les bonnes pratiques opérationnelles.
@@ -265,7 +269,7 @@
 
   <footer class="footer">
     <div class="container footer-content">
-      <p>Copyright © 2026 Jean-Baptiste Terrazzoni. All rights reserved.</p>
+      <p>Copyright © 2026 Jean-Baptiste Terrazzoni. Tous droits réservés.</p>
       <div class="footer-contact" aria-label="Coordonnées">
         <a class="footer-icon" href="#" data-contact-label="Email" data-contact-value="terrazzoni.corsica@proton.me" data-contact-href="mailto:terrazzoni.corsica@proton.me" aria-label="Envoyer un email">
           <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
