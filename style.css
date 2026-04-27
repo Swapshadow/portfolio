@@ -790,37 +790,14 @@ body[data-animations="off"] .reveal-on-scroll {
   gap: 12px;
 }
 
-.language-switch {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  background: color-mix(in srgb, var(--surface) 84%, transparent);
-  padding: 6px 10px;
-  box-shadow: var(--shadow-soft);
+.language-toggle {
+  font-size: 1rem;
+  line-height: 1;
 }
 
-.language-switch__option {
-  border: none;
-  background: transparent;
-  color: var(--muted);
-  font-weight: 600;
-  font-size: 0.75rem;
-  letter-spacing: 0.08em;
-  padding: 2px 0;
-  cursor: pointer;
-  transition: color 0.2s ease, transform 0.2s ease;
-}
-
-.language-switch__option.is-active {
-  color: var(--text);
-}
-
-.language-switch__option:hover,
-.language-switch__option:focus-visible {
-  color: var(--accent);
-  transform: translateY(-1px);
+.theme-toggle-emoji {
+  font-size: 1.05rem;
+  line-height: 1;
 }
 
 .menu-toggle {
@@ -1043,6 +1020,15 @@ body[data-animations="off"] .reveal-on-scroll {
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
   animation: hero-float 4.2s ease-in-out infinite;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hero-floating-card:hover,
+.hero-floating-card:focus-visible {
+  border-color: color-mix(in srgb, var(--accent) 30%, var(--border));
+  box-shadow: 0 16px 28px rgba(15, 23, 42, 0.14);
 }
 
 .hero-floating-card__value {
@@ -2085,8 +2071,8 @@ body.modal-open {
     justify-self: center;
   }
 
-  .language-switch {
-    padding: 6px 8px;
+  .language-toggle {
+    font-size: 0.95rem;
   }
 
   .hero {
@@ -2247,6 +2233,7 @@ body.modal-open {
 }
 
 .settings-panel {
+  display: none !important;
   position: absolute;
   top: calc(100% + 10px);
   right: 0;
