@@ -128,68 +128,77 @@
     <section class="hero" id="accueil" data-section="accueil">
       <div class="container">
         <div class="hero-card reveal-on-scroll" data-reveal>
-          <div>
+          <div class="hero-content">
             <p class="hero-eyebrow" data-i18n="hero.eyebrow">Infrastructure & cybersécurité</p>
             <h1 data-i18n="hero.title">Jean-Baptiste Terrazzoni</h1>
             <p class="hero-role" data-i18n="hero.role">Administrateur d’infrastructures sécurisées · Cybersécurité · Pentest junior</p>
             <p class="hero-summary" data-i18n="hero.summary1">
-              Je conçois, sécurise et documente des environnements systèmes, réseaux et cloud avec une approche orientée infrastructure, audit, conformité et amélioration continue.
-            </p>
-            <p class="hero-summary hero-summary-subtle" data-i18n="hero.summary2">
-              Actuellement en alternance, je construis une expertise orientée infrastructures critiques, sécurité opérationnelle et conformité cyber.
+              Je conçois et sécurise des environnements systèmes, réseaux et cloud avec une approche orientée audit, conformité et amélioration continue.
             </p>
             <div class="hero-badges">
               <span class="tag" data-i18n="hero.badge1">Infrastructure sécurisée</span>
               <span class="tag" data-i18n="hero.badge2">Administration système & réseau</span>
               <span class="tag" data-i18n="hero.badge3">Audit & durcissement</span>
-              <span class="tag" data-i18n="hero.badge4">Veille cyber</span>
-              <span class="tag" data-i18n="hero.badge5">Pentest junior</span>
-            </div>
-            <div class="hero-metrics" aria-label="Chiffres clés du portfolio">
-              <article class="hero-metric">
-                <p class="hero-metric-value">15+</p>
-                <p class="hero-metric-label" data-i18n="hero.metric1">Projets, labs & déploiements techniques</p>
-              </article>
-              <article class="hero-metric">
-                <p class="hero-metric-value">10+</p>
-                <p class="hero-metric-label" data-i18n="hero.metric2">Certifications & formations validées</p>
-              </article>
-              <article class="hero-metric">
-                <p class="hero-metric-value">24/7</p>
-                <p class="hero-metric-label" data-i18n="hero.metric3">Veille cybersécurité & CTI</p>
-              </article>
             </div>
             <div class="hero-cta">
               <a class="button" href="parcours.html" data-i18n="hero.cta1">Découvrir mon parcours</a>
               <a class="button button-secondary" href="projets.html" data-i18n="hero.cta2">Voir mes projets</a>
-              <a class="button button-tertiary" href="veille.html" data-i18n="hero.cta3">Consulter ma veille cyber</a>
             </div>
+            <p class="hero-secondary-link">
+              <a href="veille.html" data-i18n="hero.linkWatch">Consulter ma veille cyber</a>
+            </p>
           </div>
-          <div class="hero-visual">
-            <div class="hero-carousel" data-carousel aria-label="Carrousel des certifications Cisco">
-              <div class="carousel-track hero-carousel-track" data-carousel-track>
-                <div class="hero-carousel-item">
-                  <img src="assets/certif/cisco/eh.png" alt="Badge Cisco Ethical Hacker" loading="eager" decoding="async">
-                </div>
-                <div class="hero-carousel-item">
-                  <img src="assets/certif/cisco/ensa.png" alt="Badge Cisco Enterprise Network Security Associate" loading="lazy" decoding="async">
-                </div>
-                <div class="hero-carousel-item">
-                  <img src="assets/certif/cisco/introduction_cybersécurité.png" alt="Badge Cisco Introduction à la cybersécurité" loading="lazy" decoding="async">
-                </div>
-                <div class="hero-carousel-item">
-                  <img src="assets/certif/cisco/python_1.png" alt="Badge Cisco Python Essentials 1" loading="lazy" decoding="async">
-                </div>
-                <div class="hero-carousel-item">
-                  <img src="assets/certif/cisco/srwe.png" alt="Badge Cisco Switching, Routing, and Wireless Essentials" loading="lazy" decoding="async">
-                </div>
-                <div class="hero-carousel-item">
-                  <img src="assets/certif/fortinet/itl.png" alt="Badge Fortinet ITL" loading="lazy" decoding="async">
-                </div>
-                <div class="hero-carousel-item">
-                  <img src="assets/certif/tryhackme/cyber-security-101-sec1.png" alt="Badge TryHackMe Cyber Security 101" loading="lazy" decoding="async">
-                </div>
-              </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-stats" aria-label="Statistiques clés">
+      <div class="container">
+        <div class="stats-grid reveal-on-scroll" data-reveal>
+          <article class="stats-card">
+            <p class="stats-value">15+</p>
+            <p class="stats-label" data-i18n="stats.item1">Projets, labs & déploiements techniques</p>
+          </article>
+          <article class="stats-card">
+            <p class="stats-value">10+</p>
+            <p class="stats-label" data-i18n="stats.item2">Certifications & formations validées</p>
+          </article>
+          <article class="stats-card">
+            <p class="stats-value">24/7</p>
+            <p class="stats-label" data-i18n="stats.item3">Veille cybersécurité & CTI</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-certifications" id="certifications-showcase" data-section="certifications-showcase">
+      <div class="container section-card reveal-on-scroll" data-reveal>
+        <div class="section-heading">
+          <h2 class="section-title" data-i18n="certs.title">Certifications & apprentissage continu</h2>
+          <p data-i18n="certs.intro">Un aperçu des badges techniques validés et des parcours de montée en compétences en cybersécurité et infrastructure.</p>
+        </div>
+        <div class="hero-carousel certifications-carousel" data-carousel aria-label="Carrousel des certifications">
+          <div class="carousel-track hero-carousel-track" data-carousel-track>
+            <div class="hero-carousel-item">
+              <img src="assets/certif/cisco/eh.png" alt="Badge Cisco Ethical Hacker" loading="eager" decoding="async">
+            </div>
+            <div class="hero-carousel-item">
+              <img src="assets/certif/cisco/ensa.png" alt="Badge Cisco Enterprise Network Security Associate" loading="lazy" decoding="async">
+            </div>
+            <div class="hero-carousel-item">
+              <img src="assets/certif/cisco/introduction_cybersécurité.png" alt="Badge Cisco Introduction à la cybersécurité" loading="lazy" decoding="async">
+            </div>
+            <div class="hero-carousel-item">
+              <img src="assets/certif/cisco/python_1.png" alt="Badge Cisco Python Essentials 1" loading="lazy" decoding="async">
+            </div>
+            <div class="hero-carousel-item">
+              <img src="assets/certif/cisco/srwe.png" alt="Badge Cisco Switching, Routing, and Wireless Essentials" loading="lazy" decoding="async">
+            </div>
+            <div class="hero-carousel-item">
+              <img src="assets/certif/fortinet/itl.png" alt="Badge Fortinet ITL" loading="lazy" decoding="async">
+            </div>
+            <div class="hero-carousel-item">
+              <img src="assets/certif/tryhackme/cyber-security-101-sec1.png" alt="Badge TryHackMe Cyber Security 101" loading="lazy" decoding="async">
             </div>
           </div>
         </div>
