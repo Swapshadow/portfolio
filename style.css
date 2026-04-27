@@ -790,6 +790,39 @@ body[data-animations="off"] .reveal-on-scroll {
   gap: 12px;
 }
 
+.language-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--surface) 84%, transparent);
+  padding: 6px 10px;
+  box-shadow: var(--shadow-soft);
+}
+
+.language-switch__option {
+  border: none;
+  background: transparent;
+  color: var(--muted);
+  font-weight: 600;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  padding: 2px 0;
+  cursor: pointer;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.language-switch__option.is-active {
+  color: var(--text);
+}
+
+.language-switch__option:hover,
+.language-switch__option:focus-visible {
+  color: var(--accent);
+  transform: translateY(-1px);
+}
+
 .menu-toggle {
   display: inline-flex;
   align-items: center;
@@ -958,19 +991,18 @@ body[data-animations="off"] .reveal-on-scroll {
 }
 
 .hero-card {
-  background: var(--surface);
+  background: color-mix(in srgb, var(--surface) 90%, transparent);
+  border: 1px solid color-mix(in srgb, var(--border) 86%, transparent);
   border-radius: var(--radius-lg);
-  padding: 48px;
+  padding: clamp(32px, 6vw, 56px);
   box-shadow: var(--shadow);
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 32px;
-  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.hero-card > * {
-  min-width: 0;
+.hero-content {
+  max-width: 640px;
 }
 
 .hero-eyebrow {
@@ -993,35 +1025,83 @@ body[data-animations="off"] .reveal-on-scroll {
 }
 
 .hero-summary {
-  margin-bottom: 24px;
-  max-width: 54ch;
+  margin-bottom: 20px;
+  max-width: 60ch;
+  font-size: 1.02rem;
+  line-height: 1.65;
 }
 
-.hero-metrics {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(120px, 1fr));
-  gap: 12px;
-  margin-bottom: 24px;
+.hero-secondary-link {
+  margin-top: 14px;
 }
 
-.hero-metric {
-  padding: 14px 12px;
-  border-radius: 14px;
-  border: 1px solid var(--border);
-  background: color-mix(in srgb, var(--surface) 70%, var(--accent-soft));
-}
-
-.hero-metric-value {
-  font-size: 1.2rem;
-  font-weight: 600;
-  line-height: 1.2;
-}
-
-.hero-metric-label {
-  margin-top: 4px;
+.hero-secondary-link a {
   color: var(--muted);
-  font-size: 0.82rem;
-  line-height: 1.4;
+  font-size: 0.92rem;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.hero-secondary-link a:hover {
+  color: var(--accent);
+}
+
+.section-stats {
+  padding-top: 0;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.stats-card {
+  padding: 18px 16px;
+  border-radius: var(--radius-md);
+  border: 1px solid color-mix(in srgb, var(--border) 85%, transparent);
+  background: color-mix(in srgb, var(--surface) 88%, transparent);
+  box-shadow: var(--shadow-soft);
+  text-align: center;
+}
+
+.stats-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.stats-label {
+  color: var(--muted);
+  line-height: 1.45;
+  font-size: 0.88rem;
+}
+
+.section-certifications {
+  padding-top: 18px;
+}
+
+.certifications-carousel {
+  padding-block: 6px;
+  border-radius: var(--radius-md);
+  border: 1px solid color-mix(in srgb, var(--border) 85%, transparent);
+  background: color-mix(in srgb, var(--surface) 92%, transparent);
+}
+
+.certifications-carousel .hero-carousel-item {
+  height: clamp(105px, 14vw, 140px);
+}
+
+.certifications-carousel .hero-carousel-item img {
+  height: clamp(90px, 12vw, 122px);
+}
+
+.section-jump {
+  margin: 10px 0 16px;
+}
+
+.build-grid {
+  margin-bottom: 18px;
 }
 
 .hero-cta {
@@ -1268,7 +1348,8 @@ body[data-animations="off"] .reveal-on-scroll {
 }
 
 .section-card {
-  background: var(--surface);
+  background: color-mix(in srgb, var(--surface) 90%, transparent);
+  border: 1px solid color-mix(in srgb, var(--border) 88%, transparent);
   padding: 36px;
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-soft);
@@ -1324,10 +1405,10 @@ body[data-animations="off"] .reveal-on-scroll {
 }
 
 .card {
-  background: var(--surface);
+  background: color-mix(in srgb, var(--surface) 88%, transparent);
   border-radius: var(--radius-sm);
   padding: 22px;
-  border: 1px solid var(--border);
+  border: 1px solid color-mix(in srgb, var(--border) 86%, transparent);
   box-shadow: var(--shadow-soft);
   position: relative;
   transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, transform 0.25s ease, box-shadow 0.25s ease;
@@ -1335,7 +1416,8 @@ body[data-animations="off"] .reveal-on-scroll {
 
 .card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 18px 36px rgba(15, 23, 42, 0.08);
+  border-color: color-mix(in srgb, var(--accent) 28%, var(--border));
+  box-shadow: 0 18px 36px rgba(15, 23, 42, 0.12);
 }
 
 .card p {
@@ -1352,6 +1434,10 @@ body[data-animations="off"] .reveal-on-scroll {
   color: var(--accent);
   font-size: 0.8rem;
   font-weight: 500;
+}
+
+.build-grid .card {
+  min-height: 180px;
 }
 
 .timeline {
@@ -1984,7 +2070,7 @@ body.modal-open {
   .nav-actions {
     width: 100%;
     display: grid;
-    grid-template-columns: 44px 44px auto;
+    grid-template-columns: 44px 44px auto auto;
     align-items: center;
     justify-content: center;
     justify-items: center;
@@ -2014,15 +2100,21 @@ body.modal-open {
     justify-self: center;
   }
 
+  .language-switch {
+    padding: 6px 8px;
+  }
+
   .hero {
     padding: 24px 0 72px;
   }
 
   .hero-card {
     padding: 28px;
-    grid-template-columns: 1fr;
     text-align: center;
-    justify-items: center;
+  }
+
+  .hero-content {
+    margin: 0 auto;
   }
 
   .hero-summary {
@@ -2030,15 +2122,19 @@ body.modal-open {
     margin-right: auto;
   }
 
+  .hero-secondary-link {
+    text-align: center;
+  }
+
   .hero-badges,
   .hero-cta {
     justify-content: center;
   }
 
-  .hero-metrics {
-    grid-template-columns: repeat(2, minmax(120px, 1fr));
-    width: 100%;
-    max-width: 460px;
+  .stats-grid {
+    grid-template-columns: 1fr;
+    max-width: 520px;
+    margin: 0 auto;
   }
 
   .section-signal {
@@ -2123,10 +2219,6 @@ body.modal-open {
     padding: 22px;
   }
 
-  .hero-metrics {
-    grid-template-columns: 1fr;
-  }
-
   .section {
     padding: 32px 0;
   }
@@ -2134,7 +2226,7 @@ body.modal-open {
 
 @media (max-width: 430px) {
   .nav-actions {
-    grid-template-columns: 44px 44px minmax(44px, auto);
+    grid-template-columns: 44px 44px auto minmax(44px, auto);
     gap: 8px;
   }
 
