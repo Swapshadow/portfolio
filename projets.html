@@ -18,6 +18,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" href="assets/favicon.png">
   <link rel="stylesheet" href="style.css">
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="4ebf12c8-65e1-4212-921f-f1ebd7af5b0d"></script>
 </head>
 <body class="page">
   <div id="animated-background" aria-hidden="true">
@@ -88,6 +89,9 @@
             </fieldset>
           </div>
         </div>
+        <button class="nav-icon-button language-toggle" type="button" data-language-toggle aria-label="Switch language to English" title="Switch language">
+          🇬🇧
+        </button>
         <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
           <span class="menu-toggle-label">Menu</span>
           <span class="menu-toggle-icon" aria-hidden="true"><span></span></span>
@@ -103,16 +107,17 @@
         </button>
       </div>
       <ul class="site-nav-links">
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="parcours.html">Parcours</a></li>
-        <li><a href="certifications.html">Certifications</a></li>
-        <li><a href="veille.html">Veille</a></li>
-        <li><a href="blog/">Blog</a></li>
-        <li><a href="projets.html">Projets</a></li>
+        <li><a href="index.html" data-i18n="nav.home">Accueil</a></li>
+        <li><a href="parcours.html" data-i18n="nav.journey">Parcours</a></li>
+        <li><a href="certifications.html" data-i18n="nav.certs">Certifications</a></li>
+        <li><a href="veille.html" data-i18n="nav.watch">Veille</a></li>
+        <li><a href="blog/" data-i18n="nav.blog">Blog</a></li>
+        <li><a href="projets.html" data-i18n="nav.projects">Projets</a></li>
         <li><a href="game.html">Game Zone</a></li>
         <li><a href="hackzone.html">Hack Zone</a></li>
         <li class="site-nav-title">Sections</li>
         <li><a href="#projets" data-section-link="projets">Présentation</a></li>
+        <li><a href="#build-now" data-section-link="build-now">En cours</a></li>
         <li><a href="#missions" data-section-link="missions">Missions</a></li>
         <li><a href="#portfolio-bts" data-section-link="portfolio-bts">Portfolio BTS</a></li>
       </ul>
@@ -122,8 +127,35 @@
   <main>
     <section class="section" id="projets" data-section="projets">
       <div class="container section-card reveal-on-scroll" data-reveal>
-        <h1 class="section-title">Projets</h1>
-        <p>Une sélection de missions axées sur l’infrastructure, l’audit et la sécurité offensive.</p>
+        <h1 class="section-title" data-i18n="projects.page.title">Projets</h1>
+        <p data-i18n="projects.page.intro">Une sélection de missions axées sur l’infrastructure, l’audit et la sécurité offensive.</p>
+      </div>
+    </section>
+
+    <section class="section" id="build-now" data-section="build-now">
+      <div class="container section-card reveal-on-scroll" data-reveal>
+        <div class="section-heading">
+          <h2 class="section-title" data-i18n="projects.now.title">Ce que je construis actuellement</h2>
+          <p data-i18n="projects.now.intro">Une sélection de projets et travaux en cours autour de l’infrastructure, de la cybersécurité, de la gouvernance et de la documentation technique.</p>
+        </div>
+        <div class="grid grid-2 build-grid">
+          <article class="card">
+            <h3>Intranet professionnel</h3>
+            <p>Développement d’un intranet moderne avec annuaire, actualités, accès métiers et intégration progressive à l’environnement Microsoft/Active Directory.</p>
+          </article>
+          <article class="card">
+            <h3>Cartographie & inventaire SI</h3>
+            <p>Mise en place d’une vision structurée des actifs, applications, VLAN, serveurs et services critiques pour renforcer la gouvernance cyber.</p>
+          </article>
+          <article class="card">
+            <h3>Gouvernance & conformité</h3>
+            <p>Travaux autour de la PSSI, du PCA/PRA, de NIS 2 et des bonnes pratiques ANSSI/NIST.</p>
+          </article>
+          <article class="card">
+            <h3>Labs cybersécurité</h3>
+            <p>Environnements de test autour de Docker, GLPI, NetBox, supervision, durcissement Linux/Windows et analyse réseau.</p>
+          </article>
+        </div>
       </div>
     </section>
 

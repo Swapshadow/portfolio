@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   initDisplayPreferences();
+  initLanguageSwitcher();
   initMenu();
   initContactModal();
   initStickyHeader();
@@ -80,108 +81,166 @@ const RSS_TAB_MAP = {
 
 const RSS_TAB_COUNTS = new Map();
 
+const I18N_MESSAGES = {
+  fr: {
+    'nav.home': 'Accueil',
+    'nav.journey': 'Parcours',
+    'nav.certs': 'Certifications',
+    'nav.watch': 'Veille',
+    'nav.blog': 'Blog',
+    'nav.projects': 'Projets',
+    'hero.eyebrow': 'Infrastructure & cybersécurité',
+    'hero.title': 'Jean-Baptiste Terrazzoni',
+    'hero.role': 'Administrateur d’infrastructures sécurisées · Cybersécurité · Pentest junior',
+    'hero.summary1': 'Je conçois et sécurise des environnements systèmes, réseaux et cloud avec une approche orientée audit, conformité et amélioration continue.',
+    'hero.badge1': 'Infrastructure sécurisée',
+    'hero.badge2': 'Administration système & réseau',
+    'hero.badge3': 'Audit & durcissement',
+    'hero.cta1': 'Découvrir mon parcours',
+    'hero.cta2': 'Voir mes projets',
+    'domains.academic.title': 'Parcours académique',
+    'domains.academic.text': 'Formation spécialisée en administration d’infrastructures sécurisées, systèmes, réseaux et cybersécurité.',
+    'domains.cert.title': 'Certifications',
+    'domains.cert.text': 'Certifications techniques et formations continues validant la progression en infrastructure, réseau, sécurité et cloud.',
+    'domains.watch.title': 'Veille cybersécurité',
+    'domains.watch.text': 'Suivi des vulnérabilités, alertes CERT-FR, tendances cyber, ransomware, CTI et durcissement défensif.',
+    'domains.projects.title': 'Projets techniques',
+    'domains.projects.text': 'Déploiements, labs et documentations autour de Docker, GLPI, NetBox, supervision, systèmes Linux/Windows et sécurité réseau.',
+    'domains.blog.title': 'Blog cybersécurité',
+    'domains.blog.text': 'Guides pratiques, retours d’expérience et analyses techniques sur le durcissement, l’administration et la défense des SI.',
+    'home.latest.title': 'Accéder aux derniers articles',
+    'home.latest.cta': 'Voir tous les articles',
+    'home.domains.title': 'Domaines d’expertise',
+    'projects.page.title': 'Projets',
+    'projects.page.intro': 'Une sélection de missions axées sur l’infrastructure, l’audit et la sécurité offensive.',
+    'projects.now.title': 'Ce que je construis actuellement',
+    'projects.now.intro': 'Une sélection de projets et travaux en cours autour de l’infrastructure, de la cybersécurité, de la gouvernance et de la documentation technique.',
+    'cert.page.title': 'Certifications',
+    'cert.page.intro': 'Une sélection de certifications validant mes compétences en sécurité, réseau et conformité.',
+    'watch.page.title': 'Veille cybersécurité',
+    'blog.page.title': 'Blog',
+    'zones.game.text': 'Explorez des démonstrations interactives, mini-jeux et parcours cyber immersifs.',
+    'zones.game.cta': 'Ouvrir la Game Zone',
+    'zones.hack.text': 'Explorez un univers cyber immersif avec visualisation d’attaques, veille offensive et démonstrations interactives.',
+    'zones.hack.cta': 'Ouvrir la Hack Zone',
+  },
+  en: {
+    'nav.home': 'Home',
+    'nav.journey': 'Journey',
+    'nav.certs': 'Certifications',
+    'nav.watch': 'Watch',
+    'nav.blog': 'Blog',
+    'nav.projects': 'Projects',
+    'hero.eyebrow': 'Infrastructure & Cybersecurity',
+    'hero.title': 'Jean-Baptiste Terrazzoni',
+    'hero.role': 'Secure Infrastructure Administrator · Cybersecurity · Junior Pentester',
+    'hero.summary1': 'I design and secure systems, network, and cloud environments with a focus on auditing, compliance, and continuous improvement.',
+    'hero.badge1': 'Secure Infrastructure',
+    'hero.badge2': 'System & Network Administration',
+    'hero.badge3': 'Audit & Hardening',
+    'hero.cta1': 'Explore my journey',
+    'hero.cta2': 'View my projects',
+    'domains.academic.title': 'Academic Journey',
+    'domains.academic.text': 'Specialized training in secure infrastructure administration, systems, networking, and cybersecurity.',
+    'domains.cert.title': 'Certifications',
+    'domains.cert.text': 'Technical certifications and continuous training validating progression in infrastructure, network, security, and cloud.',
+    'domains.watch.title': 'Cybersecurity Watch',
+    'domains.watch.text': 'Monitoring vulnerabilities, CERT-FR alerts, cyber trends, ransomware, CTI, and defensive hardening.',
+    'domains.projects.title': 'Technical Projects',
+    'domains.projects.text': 'Deployments, labs, and documentation around Docker, GLPI, NetBox, monitoring, Linux/Windows systems, and network security.',
+    'domains.blog.title': 'Cybersecurity Blog',
+    'domains.blog.text': 'Practical guides, field feedback, and technical analyses on hardening, administration, and IS defense.',
+    'home.latest.title': 'Read the latest articles',
+    'home.latest.cta': 'View all articles',
+    'home.domains.title': 'Areas of expertise',
+    'projects.page.title': 'Projects',
+    'projects.page.intro': 'A selection of missions focused on infrastructure, auditing, and offensive security.',
+    'projects.now.title': 'What I am currently building',
+    'projects.now.intro': 'A selection of ongoing projects around infrastructure, cybersecurity, governance, and technical documentation.',
+    'cert.page.title': 'Certifications',
+    'cert.page.intro': 'A selection of certifications validating my skills in security, networking, and compliance.',
+    'watch.page.title': 'Cybersecurity watch',
+    'blog.page.title': 'Blog',
+    'zones.game.text': 'Explore interactive demos, mini-games, and immersive cyber tracks.',
+    'zones.game.cta': 'Open Game Zone',
+    'zones.hack.text': 'Explore an immersive cyber universe with attack visualizations, offensive watch, and interactive demos.',
+    'zones.hack.cta': 'Open Hack Zone',
+  },
+};
+
 function initDisplayPreferences() {
-  const menu = document.querySelector('[data-settings-menu]');
   const toggle = document.querySelector('[data-settings-toggle]');
   const panel = document.querySelector('[data-settings-panel]');
-  if (!toggle || !panel) return;
+  if (!toggle) return;
 
-  const themeInputs = Array.from(panel.querySelectorAll('input[name="theme-mode"]'));
-  const animationInputs = Array.from(panel.querySelectorAll('input[name="animations-mode"]'));
   const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
   const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
-
-  const storedThemeMode = localStorage.getItem('theme-mode');
+  const storedTheme = localStorage.getItem('siteTheme');
+  const legacyThemeMode = localStorage.getItem('theme-mode');
   const legacyTheme = localStorage.getItem('theme');
-  const themeMode = ['auto', 'light', 'dark'].includes(storedThemeMode)
-    ? storedThemeMode
-    : legacyTheme === 'light' || legacyTheme === 'dark'
-      ? legacyTheme
-      : 'auto';
+  const initialTheme = ['light', 'dark'].includes(storedTheme)
+    ? storedTheme
+    : ['light', 'dark'].includes(legacyThemeMode)
+      ? legacyThemeMode
+      : ['light', 'dark'].includes(legacyTheme)
+        ? legacyTheme
+        : (prefersDark.matches ? 'dark' : 'light');
 
   const storedAnimations = localStorage.getItem('animations');
-  let hasStoredAnimations = storedAnimations === 'on' || storedAnimations === 'off';
+  const hasStoredAnimations = storedAnimations === 'on' || storedAnimations === 'off';
   const animationsMode = hasStoredAnimations
     ? storedAnimations
     : prefersReducedMotion.matches
       ? 'off'
       : 'on';
 
-  const applyThemeMode = (mode) => {
-    const resolvedTheme = mode === 'auto'
-      ? (prefersDark.matches ? 'dark' : 'light')
-      : mode;
-    document.body.dataset.theme = resolvedTheme;
-    toggle.dataset.themeMode = mode;
-    themeInputs.forEach((input) => {
-      input.checked = input.value === mode;
-    });
+  const updateThemeButton = (theme) => {
+    const nextTheme = theme === 'dark' ? 'light' : 'dark';
+    const icon = theme === 'dark' ? '☀️' : '🌙';
+    const label = theme === 'dark' ? 'Activer le thème clair' : 'Activer le thème sombre';
+    const title = theme === 'dark' ? 'Passer en mode clair' : 'Passer en mode sombre';
+    toggle.classList.add('theme-toggle-emoji');
+    toggle.textContent = icon;
+    toggle.dataset.theme = theme;
+    toggle.dataset.nextTheme = nextTheme;
+    toggle.setAttribute('aria-label', label);
+    toggle.setAttribute('title', title);
+  };
+
+  const applyTheme = (theme) => {
+    document.body.dataset.theme = theme;
+    localStorage.setItem('siteTheme', theme);
+    localStorage.setItem('theme-mode', theme);
+    localStorage.removeItem('theme');
+    updateThemeButton(theme);
   };
 
   const applyAnimationsMode = (mode) => {
     document.body.dataset.animations = mode;
-    toggle.dataset.animationsMode = mode;
-    animationInputs.forEach((input) => {
-      input.checked = input.value === mode;
-    });
+    localStorage.setItem('animations', mode);
   };
 
-  const setMenuOpen = (open) => {
-    panel.hidden = !open;
-    toggle.setAttribute('aria-expanded', String(open));
-    if (menu) {
-      menu.classList.toggle('is-open', open);
-    }
-  };
+  if (panel) {
+    panel.hidden = true;
+  }
 
-  applyThemeMode(themeMode);
+  applyTheme(initialTheme);
   applyAnimationsMode(animationsMode);
 
   toggle.addEventListener('click', () => {
-    setMenuOpen(panel.hidden);
+    const nextTheme = document.body.dataset.theme === 'dark' ? 'light' : 'dark';
+    applyTheme(nextTheme);
   });
 
-  themeInputs.forEach((input) => {
-    input.addEventListener('change', (event) => {
-      const mode = event.target.value;
-      applyThemeMode(mode);
-      localStorage.setItem('theme-mode', mode);
-      localStorage.removeItem('theme');
-    });
-  });
-
-  animationInputs.forEach((input) => {
-    input.addEventListener('change', (event) => {
-      const mode = event.target.value;
-      applyAnimationsMode(mode);
-      localStorage.setItem('animations', mode);
-      hasStoredAnimations = true;
-    });
-  });
-
-  prefersDark.addEventListener('change', () => {
-    if ((localStorage.getItem('theme-mode') || 'auto') === 'auto') {
-      applyThemeMode('auto');
+  prefersDark.addEventListener('change', (event) => {
+    if (!localStorage.getItem('siteTheme')) {
+      applyTheme(event.matches ? 'dark' : 'light');
     }
   });
 
   prefersReducedMotion.addEventListener('change', (event) => {
     if (!hasStoredAnimations) {
       applyAnimationsMode(event.matches ? 'off' : 'on');
-    }
-  });
-
-  document.addEventListener('click', (event) => {
-    if (panel.hidden) return;
-    const target = event.target;
-    if (!menu || !target || menu.contains(target)) return;
-    setMenuOpen(false);
-  });
-
-  document.addEventListener('keydown', (event) => {
-    if (event.key === 'Escape' && !panel.hidden) {
-      setMenuOpen(false);
-      toggle.focus();
     }
   });
 }
@@ -233,6 +292,45 @@ function initMenu() {
     if (event.key === 'Escape' && menu.classList.contains('open')) {
       setMenuState(false);
     }
+  });
+}
+
+function initLanguageSwitcher() {
+  const languageToggle = document.querySelector('[data-language-toggle]');
+  if (!languageToggle) return;
+
+  const applyLanguage = (lang) => {
+    const locale = lang === 'en' ? 'en' : 'fr';
+    document.documentElement.lang = locale;
+    document.body.dataset.lang = locale;
+    localStorage.setItem('siteLanguage', locale);
+
+    if (locale === 'fr') {
+      languageToggle.textContent = '🇬🇧';
+      languageToggle.setAttribute('aria-label', 'Switch language to English');
+      languageToggle.setAttribute('title', 'Switch language to English');
+    } else {
+      languageToggle.textContent = '🇫🇷';
+      languageToggle.setAttribute('aria-label', 'Passer le site en français');
+      languageToggle.setAttribute('title', 'Passer le site en français');
+    }
+
+    const dictionary = I18N_MESSAGES[locale] || I18N_MESSAGES.fr;
+    document.querySelectorAll('[data-i18n]').forEach((node) => {
+      const key = node.dataset.i18n;
+      const translation = dictionary[key];
+      if (translation) {
+        node.textContent = translation;
+      }
+    });
+  };
+
+  const storedLanguage = localStorage.getItem('siteLanguage') || localStorage.getItem('site-language');
+  applyLanguage(storedLanguage === 'en' ? 'en' : 'fr');
+
+  languageToggle.addEventListener('click', () => {
+    const nextLanguage = document.documentElement.lang === 'fr' ? 'en' : 'fr';
+    applyLanguage(nextLanguage);
   });
 }
 
