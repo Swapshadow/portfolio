@@ -1112,6 +1112,17 @@ body[data-animations="off"] .reveal-on-scroll {
   background: var(--surface-muted);
 }
 
+.button-tertiary {
+  background: color-mix(in srgb, var(--accent-soft) 60%, var(--surface));
+  color: var(--accent);
+  border: 1px solid color-mix(in srgb, var(--accent) 28%, var(--border));
+  box-shadow: none;
+}
+
+.button-tertiary:hover {
+  background: color-mix(in srgb, var(--accent-soft) 76%, var(--surface));
+}
+
 .hero-illustration {
   background: radial-gradient(circle at top, var(--hero-illustration-glow), transparent 60%);
   border-radius: var(--radius-lg);
@@ -2094,6 +2105,10 @@ body.modal-open {
   .hero-summary {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .hero-secondary-link {
+    text-align: center;
   }
 
   .hero-badges,
