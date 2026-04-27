@@ -125,8 +125,8 @@
 
   <main>
     <section class="hero" id="accueil" data-section="accueil">
-      <div class="container">
-        <div class="hero-card reveal-on-scroll" data-reveal>
+      <div class="container hero-shell reveal-on-scroll" data-reveal>
+        <div class="hero-card">
           <div class="hero-content">
             <p class="hero-eyebrow" data-i18n="hero.eyebrow">Infrastructure & cybersécurité</p>
             <h1 data-i18n="hero.title">Jean-Baptiste Terrazzoni</h1>
@@ -144,10 +144,6 @@
               <a class="button button-secondary" href="projets.html" data-i18n="hero.cta2">Voir mes projets</a>
             </div>
           </div>
-          <a class="hero-floating-card" href="veille.html" aria-label="Accéder à la veille cybersécurité" title="Accéder à la veille cybersécurité">
-            <p class="hero-floating-card__value">24/7</p>
-            <p class="hero-floating-card__label">Veille cybersécurité & CTI</p>
-          </a>
         </div>
       </div>
     </section>
@@ -255,41 +251,46 @@
       </div>
     </section>
 
-    <section class="section section-final-cta" id="explorer" data-section="explorer">
+    <section class="section section-watch-entry" id="watch-entry" data-section="watch-entry">
       <div class="container section-card reveal-on-scroll" data-reveal>
-        <div class="section-heading">
-          <h2 class="section-title" data-i18n="finalCta.title">Explorer mon univers cyber</h2>
-          <p data-i18n="finalCta.text">Accédez à mes projets, certifications et contenus de veille depuis les pages dédiées.</p>
-        </div>
-        <div class="hero-cta final-cta-buttons">
-          <a class="button" href="projets.html" data-i18n="finalCta.projects">Voir mes projets</a>
-          <a class="button button-secondary" href="certifications.html" data-i18n="finalCta.certs">Voir mes certifications</a>
-          <a class="button button-secondary" href="veille.html" data-i18n="finalCta.watch">Lire ma veille</a>
-        </div>
+        <a class="hero-floating-card hero-floating-card-standalone" href="veille.html" aria-label="Accéder à la veille cybersécurité" title="Accéder à la veille cybersécurité">
+          <p class="hero-floating-card__value">24/7</p>
+          <p class="hero-floating-card__label">Veille cybersécurité & CTI</p>
+        </a>
       </div>
     </section>
 
-    <section class="section section-game-zone-entry" id="game-zone-entry" data-section="game-zone-entry">
-      <div class="container section-card section-card-highlight reveal-on-scroll" data-reveal>
-        <div class="section-heading">
-          <h2 class="section-title">Game Zone</h2>
-          <p data-i18n="zones.game.text">Explorez des démonstrations interactives, mini-jeux et parcours cyber immersifs.</p>
-        </div>
-        <div class="game-zone-entry-cta">
-          <a class="button" href="./game.html" data-i18n="zones.game.cta">Ouvrir la Game Zone</a>
-        </div>
-      </div>
-    </section>
+    <section class="section section-zone-showcase" id="zones" data-section="zones">
+      <div class="container zone-grid reveal-on-scroll" data-reveal>
+        <article class="zone-card zone-card-game">
+          <span class="zone-label">Interactive</span>
+          <h2 class="zone-title">Game Zone</h2>
+          <p class="zone-subtitle">Mini-jeux, démos interactives et expériences cyber immersives.</p>
+          <p class="zone-description">Explorez des modules ludiques autour de la logique, de la cybersécurité et de la culture numérique.</p>
+          <div class="zone-badges" aria-label="Points forts Game Zone">
+            <span class="tag">Mini-jeux</span>
+            <span class="tag">Démos interactives</span>
+            <span class="tag">Expériences cyber</span>
+          </div>
+          <div class="zone-cta">
+            <a class="button" href="./game.html" data-i18n="zones.game.cta">Ouvrir la Game Zone</a>
+          </div>
+        </article>
 
-    <section class="section section-game-zone-entry section-hack-zone-entry" id="hack-zone-entry" data-section="hack-zone-entry">
-      <div class="container section-card section-card-highlight section-card-hackzone reveal-on-scroll" data-reveal>
-        <div class="section-heading">
-          <h2 class="section-title">Hack Zone</h2>
-          <p data-i18n="zones.hack.text">Explorez un univers cyber immersif avec visualisation d’attaques, veille offensive et démonstrations interactives.</p>
-        </div>
-        <div class="game-zone-entry-cta">
-          <a class="button button-hackzone" href="./hackzone.html" data-i18n="zones.hack.cta">Ouvrir la Hack Zone</a>
-        </div>
+        <article class="zone-card zone-card-hack">
+          <span class="zone-label">Cyber Watch</span>
+          <h2 class="zone-title">Hack Zone</h2>
+          <p class="zone-subtitle">Visualisation, veille offensive et démonstrations cybersécurité.</p>
+          <p class="zone-description">Accédez à un espace immersif dédié aux cartes de menaces, signaux cyber et ressources orientées sécurité offensive défensive.</p>
+          <div class="zone-badges" aria-label="Points forts Hack Zone">
+            <span class="tag">Threat map</span>
+            <span class="tag">Veille offensive</span>
+            <span class="tag">Cyber lab</span>
+          </div>
+          <div class="zone-cta">
+            <a class="button button-hackzone" href="./hackzone.html" data-i18n="zones.hack.cta">Ouvrir la Hack Zone</a>
+          </div>
+        </article>
       </div>
     </section>
 
