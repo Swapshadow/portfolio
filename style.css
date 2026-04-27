@@ -967,24 +967,30 @@ body[data-animations="off"] .reveal-on-scroll {
   scroll-margin-top: 120px;
 }
 
+.hero-shell {
+  position: relative;
+  max-width: 920px;
+  margin: 0 auto;
+  overflow: visible;
+}
+
 .hero-card {
   background: color-mix(in srgb, var(--surface) 90%, transparent);
   border: 1px solid color-mix(in srgb, var(--border) 86%, transparent);
   border-radius: var(--radius-lg);
   padding: clamp(32px, 6vw, 56px);
   box-shadow: var(--shadow);
-  max-width: 900px;
-  margin: 0 auto;
   position: relative;
   overflow: visible;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .hero-content {
-  max-width: 640px;
+  max-width: 820px;
+  margin: 0 auto;
   position: relative;
   z-index: 2;
-  padding-right: clamp(80px, 18vw, 220px);
+  text-align: center;
 }
 
 .hero-eyebrow {
@@ -1014,30 +1020,34 @@ body[data-animations="off"] .reveal-on-scroll {
 }
 
 .hero-floating-card {
-  position: absolute;
-  right: 9%;
-  bottom: 16%;
-  z-index: 5;
-  width: max-content;
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
   min-width: 220px;
-  max-width: 260px;
-  padding: 14px 16px;
-  border-radius: 16px;
-  border: 1px solid color-mix(in srgb, var(--border) 86%, transparent);
-  background: color-mix(in srgb, var(--surface) 86%, transparent);
-  box-shadow: var(--shadow-soft);
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
+  max-width: 280px;
+  margin: 1.75rem auto 0;
+  padding: 12px 16px;
+  border-radius: 14px;
+  border: 1px solid color-mix(in srgb, var(--border) 72%, transparent);
+  background: color-mix(in srgb, var(--surface) 68%, transparent);
+  box-shadow: 0 10px 26px rgba(15, 23, 42, 0.14);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   animation: floatY 4s ease-in-out infinite;
   text-decoration: none;
+  text-align: center;
   cursor: pointer;
-  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
 }
 
 .hero-floating-card:hover,
 .hero-floating-card:focus-visible {
-  border-color: color-mix(in srgb, var(--accent) 30%, var(--border));
-  box-shadow: 0 16px 28px rgba(15, 23, 42, 0.14);
+  border-color: color-mix(in srgb, var(--accent) 34%, var(--border));
+  background: color-mix(in srgb, var(--surface) 78%, transparent);
+  box-shadow: 0 14px 30px rgba(15, 23, 42, 0.18);
 }
 
 .hero-floating-card__value {
@@ -1076,6 +1086,7 @@ body[data-animations="off"] .reveal-on-scroll {
   display: flex;
   gap: 14px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .button {
@@ -2021,6 +2032,7 @@ body.modal-open {
   flex-wrap: wrap;
   gap: 10px;
   margin-bottom: 18px;
+  justify-content: center;
 }
 
 .profile-card {
@@ -2088,6 +2100,10 @@ body.modal-open {
     padding: 24px 0 72px;
   }
 
+  .hero-shell {
+    max-width: 100%;
+  }
+
   .hero-card {
     padding: 28px;
     text-align: center;
@@ -2095,7 +2111,7 @@ body.modal-open {
 
   .hero-content {
     margin: 0 auto;
-    padding-right: 0;
+    text-align: center;
   }
 
   .hero-summary {
@@ -2113,7 +2129,8 @@ body.modal-open {
   }
 
   .hero-floating-card {
-    position: static;
+    position: relative;
+    display: inline-flex;
     margin-top: 1rem;
     margin-right: auto;
     margin-left: auto;
