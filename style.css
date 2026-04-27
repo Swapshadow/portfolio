@@ -1069,6 +1069,20 @@ body[data-animations="off"] .reveal-on-scroll {
   line-height: 1.35;
 }
 
+.hero-floating-card-standalone {
+  margin: 0 auto;
+}
+
+.section-watch-entry {
+  padding-top: 8px;
+}
+
+.section-watch-entry .section-card {
+  display: flex;
+  justify-content: center;
+  padding: clamp(18px, 3vw, 24px);
+}
+
 .section-jump {
   margin: 10px 0 16px;
 }
@@ -2138,6 +2152,23 @@ body.modal-open {
     max-width: 280px;
     min-width: 0;
     text-align: center;
+  }
+
+  .zone-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .zone-card {
+    padding: 22px;
+  }
+
+  .zone-cta {
+    justify-content: center;
+  }
+
+  .zone-card .button {
+    width: 100%;
   }
 
   .section-card {
@@ -3347,47 +3378,135 @@ body[data-animations="off"] .track-thumb img {
   }
 }
 
-.section-game-zone-entry {
+.section-zone-showcase {
   padding-top: 20px;
 }
 
-.section-card-highlight {
-  border: 1px solid rgba(126, 156, 255, 0.3);
+.zone-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  align-items: stretch;
+}
+
+.zone-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-height: 100%;
+  padding: clamp(24px, 3vw, 34px);
+  border-radius: 24px;
+  border: 1px solid rgba(128, 160, 255, 0.24);
+  background: color-mix(in srgb, var(--surface) 80%, transparent);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 18px 34px rgba(15, 23, 42, 0.18), inset 0 1px 0 rgba(255, 255, 255, 0.24);
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+}
+
+.zone-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+.zone-card:hover,
+.zone-card:focus-within {
+  transform: translateY(-4px);
+}
+
+.zone-card-game {
+  border-color: rgba(110, 146, 255, 0.34);
   background:
-    radial-gradient(circle at 12% 20%, rgba(92, 126, 255, 0.2), transparent 48%),
-    radial-gradient(circle at 88% 0%, rgba(62, 214, 255, 0.12), transparent 42%),
-    linear-gradient(160deg, rgba(10, 16, 34, 0.9), rgba(7, 12, 26, 0.86));
-  box-shadow:
-    0 24px 44px rgba(0, 0, 0, 0.42),
-    inset 0 1px 0 rgba(196, 213, 255, 0.16),
-    0 0 28px rgba(84, 128, 255, 0.14);
+    radial-gradient(circle at 12% 16%, rgba(99, 130, 255, 0.22), transparent 44%),
+    radial-gradient(circle at 88% 10%, rgba(88, 214, 255, 0.16), transparent 40%),
+    color-mix(in srgb, var(--surface) 84%, transparent);
 }
 
-.section-card-highlight .section-title {
-  color: #eef3ff;
-  border-bottom-color: rgba(132, 168, 255, 0.34);
+.zone-card-game:hover,
+.zone-card-game:focus-within {
+  border-color: rgba(116, 174, 255, 0.56);
+  box-shadow: 0 22px 38px rgba(15, 23, 42, 0.24), 0 0 18px rgba(86, 140, 255, 0.24);
 }
 
-.section-card-highlight .section-heading p {
-  color: rgba(215, 226, 255, 0.9);
+.zone-card-hack {
+  border-color: rgba(84, 230, 152, 0.32);
+  background:
+    radial-gradient(circle at 10% 14%, rgba(64, 208, 148, 0.2), transparent 42%),
+    radial-gradient(circle at 90% 18%, rgba(74, 198, 232, 0.14), transparent 38%),
+    color-mix(in srgb, var(--surface) 82%, transparent);
 }
 
-.section-card-highlight .button {
-  background: linear-gradient(135deg, #5d7bff, #4bcbff);
-  color: #f8fbff;
-  box-shadow: 0 14px 28px rgba(60, 118, 255, 0.34);
+.zone-card-hack:hover,
+.zone-card-hack:focus-within {
+  border-color: rgba(104, 242, 176, 0.58);
+  box-shadow: 0 22px 38px rgba(13, 32, 28, 0.3), 0 0 18px rgba(74, 204, 166, 0.24);
 }
 
-.section-card-highlight .button:hover {
-  filter: brightness(1.06);
-  box-shadow: 0 16px 30px rgba(60, 118, 255, 0.42);
+.zone-label {
+  display: inline-flex;
+  align-self: flex-start;
+  padding: 0.32rem 0.72rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--muted);
+  background: color-mix(in srgb, var(--accent-soft) 40%, transparent);
+  border: 1px solid color-mix(in srgb, var(--border) 70%, transparent);
 }
 
-.game-zone-entry-cta {
-  margin-top: 18px;
+.zone-title {
+  margin: 4px 0 0;
+  font-size: clamp(1.5rem, 2.2vw, 1.9rem);
+}
+
+.zone-subtitle {
+  margin: 0;
+  font-weight: 600;
+  color: color-mix(in srgb, var(--text) 86%, var(--muted));
+}
+
+.zone-description {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.zone-badges {
+  margin-top: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.zone-badges .tag {
+  background: color-mix(in srgb, var(--surface) 75%, var(--accent-soft));
+  border-color: color-mix(in srgb, var(--border) 70%, var(--accent));
+}
+
+.zone-cta {
+  margin-top: auto;
   display: flex;
 }
 
+.zone-card .button {
+  box-shadow: 0 12px 24px rgba(75, 91, 255, 0.24);
+}
+
+.zone-card-hack .button-hackzone {
+  box-shadow: 0 12px 24px rgba(15, 115, 58, 0.26);
+}
+
+
+@media (max-width: 980px) {
+  .zone-grid {
+    grid-template-columns: 1fr;
+  }
+}
 /* Hack Zone */
 .page-hack {
   --bg: #020302;
