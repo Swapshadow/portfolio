@@ -18,6 +18,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" href="assets/favicon.png">
   <link rel="stylesheet" href="style.css">
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="4ebf12c8-65e1-4212-921f-f1ebd7af5b0d"></script>
 </head>
 <body class="page">
   <div id="animated-background" aria-hidden="true">
@@ -88,6 +89,11 @@
             </fieldset>
           </div>
         </div>
+        <div class="language-switch" role="group" aria-label="Sélecteur de langue">
+          <button type="button" class="language-switch__option is-active" data-lang-option="fr" aria-pressed="true">FR</button>
+          <span aria-hidden="true">|</span>
+          <button type="button" class="language-switch__option" data-lang-option="en" aria-pressed="false">EN</button>
+        </div>
         <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
           <span class="menu-toggle-label">Menu</span>
           <span class="menu-toggle-icon" aria-hidden="true"><span></span></span>
@@ -114,7 +120,7 @@
         <li class="site-nav-title">Sections</li>
         <li><a href="#accueil" data-section-link="accueil">Présentation</a></li>
         <li><a href="#blog-carousel" data-section-link="blog-carousel">Accéder aux derniers articles</a></li>
-        <li><a href="#domaines" data-section-link="domaines">Domaines clés</a></li>
+        <li><a href="#domaines" data-section-link="domaines">Domaines d’expertise</a></li>
       </ul>
     </div>
   </nav>
@@ -123,88 +129,57 @@
     <section class="hero" id="accueil" data-section="accueil">
       <div class="container">
         <div class="hero-card reveal-on-scroll" data-reveal>
-          <div>
-            <p class="hero-eyebrow">Infrastructure & cybersécurité</p>
-            <h1>Jean-Baptiste Terrazzoni</h1>
-            <p class="hero-role">Administrateur d’infrastructures sécurisées · Pentester junior</p>
-            <div class="hero-badges">
-              <span class="tag">Cybersécurité</span>
-              <span class="tag">Infrastructure</span>
-              <span class="tag">Audit & veille</span>
-            </div>
-            <p class="hero-summary">
-              Spécialisé dans l’analyse et la protection des infrastructures, je combine rigueur
-              opérationnelle, veille active et approche méthodique pour renforcer la sécurité
-              des systèmes critiques.
+          <div class="hero-content">
+            <p class="hero-eyebrow" data-i18n="hero.eyebrow">Infrastructure & cybersécurité</p>
+            <h1 data-i18n="hero.title">Jean-Baptiste Terrazzoni</h1>
+            <p class="hero-role" data-i18n="hero.role">Administrateur d’infrastructures sécurisées · Cybersécurité · Pentest junior</p>
+            <p class="hero-summary" data-i18n="hero.summary1">
+              Je conçois et sécurise des environnements systèmes, réseaux et cloud avec une approche orientée audit, conformité et amélioration continue.
             </p>
-            <div class="hero-metrics" aria-label="Chiffres clés du portfolio">
-              <article class="hero-metric">
-                <p class="hero-metric-value">15+</p>
-                <p class="hero-metric-label">Projets & labs sécurité</p>
-              </article>
-              <article class="hero-metric">
-                <p class="hero-metric-value">10+</p>
-                <p class="hero-metric-label">Certifications validées</p>
-              </article>
-              <article class="hero-metric">
-                <p class="hero-metric-value">24/7</p>
-                <p class="hero-metric-label">Veille active & CTI</p>
-              </article>
+            <div class="hero-badges">
+              <span class="tag" data-i18n="hero.badge1">Infrastructure sécurisée</span>
+              <span class="tag" data-i18n="hero.badge2">Administration système & réseau</span>
+              <span class="tag" data-i18n="hero.badge3">Audit & durcissement</span>
             </div>
             <div class="hero-cta">
-              <a class="button" href="parcours.html">Découvrir mon parcours</a>
-              <a class="button button-secondary" href="projets.html">Voir mes projets</a>
+              <a class="button" href="parcours.html" data-i18n="hero.cta1">Découvrir mon parcours</a>
+              <a class="button button-secondary" href="projets.html" data-i18n="hero.cta2">Voir mes projets</a>
             </div>
-          </div>
-          <div class="hero-visual">
-            <div class="hero-carousel" data-carousel aria-label="Carrousel des certifications Cisco">
-              <div class="carousel-track hero-carousel-track" data-carousel-track>
-                <div class="hero-carousel-item">
-                  <img src="assets/certif/cisco/eh.png" alt="Badge Cisco Ethical Hacker" loading="eager" decoding="async">
-                </div>
-                <div class="hero-carousel-item">
-                  <img src="assets/certif/cisco/ensa.png" alt="Badge Cisco Enterprise Network Security Associate" loading="lazy" decoding="async">
-                </div>
-                <div class="hero-carousel-item">
-                  <img src="assets/certif/cisco/introduction_cybersécurité.png" alt="Badge Cisco Introduction à la cybersécurité" loading="lazy" decoding="async">
-                </div>
-                <div class="hero-carousel-item">
-                  <img src="assets/certif/cisco/python_1.png" alt="Badge Cisco Python Essentials 1" loading="lazy" decoding="async">
-                </div>
-                <div class="hero-carousel-item">
-                  <img src="assets/certif/cisco/srwe.png" alt="Badge Cisco Switching, Routing, and Wireless Essentials" loading="lazy" decoding="async">
-                </div>
-                <div class="hero-carousel-item">
-                  <img src="assets/certif/fortinet/itl.png" alt="Badge Fortinet ITL" loading="lazy" decoding="async">
-                </div>
-                <div class="hero-carousel-item">
-                  <img src="assets/certif/tryhackme/cyber-security-101-sec1.png" alt="Badge TryHackMe Cyber Security 101" loading="lazy" decoding="async">
-                </div>
-              </div>
-            </div>
+            <p class="hero-secondary-link">
+              <a href="veille.html" data-i18n="hero.linkWatch">Consulter ma veille cyber</a>
+            </p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section section-signal" aria-label="Accès rapide">
+    <section class="section section-stats" aria-label="Statistiques clés">
       <div class="container">
-        <div class="signal-grid reveal-on-scroll" data-reveal>
-          <a class="signal-card" href="certifications.html">
-            <span class="signal-card-label">Certifications</span>
-            <strong>Parcours validé et progression continue</strong>
-            <span class="signal-card-link">Explorer →</span>
-          </a>
-          <a class="signal-card" href="veille.html">
-            <span class="signal-card-label">Veille cyber</span>
-            <strong>Tableau de bord actualisé CERT-FR / THN</strong>
-            <span class="signal-card-link">Consulter →</span>
-          </a>
-          <a class="signal-card" href="blog/">
-            <span class="signal-card-label">Articles techniques</span>
-            <strong>Guides pratiques et analyses défensives</strong>
-            <span class="signal-card-link">Lire →</span>
-          </a>
+        <div class="stats-grid reveal-on-scroll" data-reveal>
+          <article class="stats-card">
+            <p class="stats-value">15+</p>
+            <p class="stats-label" data-i18n="stats.item1">Projets, labs & déploiements techniques</p>
+          </article>
+          <article class="stats-card">
+            <p class="stats-value">10+</p>
+            <p class="stats-label" data-i18n="stats.item2">Certifications & formations validées</p>
+          </article>
+          <article class="stats-card">
+            <p class="stats-value">24/7</p>
+            <p class="stats-label" data-i18n="stats.item3">Veille cybersécurité & CTI</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-projects-teaser" id="projects-teaser" data-section="projects-teaser">
+      <div class="container section-card reveal-on-scroll" data-reveal>
+        <div class="section-heading">
+          <h2 class="section-title">Découvrez mes projets techniques</h2>
+          <p>Retrouvez mes travaux autour de l’infrastructure, de la cybersécurité, de la gouvernance et des labs techniques.</p>
+        </div>
+        <div class="hero-cta">
+          <a class="button" href="projets.html">Voir mes projets</a>
         </div>
       </div>
     </section>
@@ -271,38 +246,38 @@
       <a class="section-jump-button" href="#accueil" aria-label="Remonter vers Présentation">
         <span aria-hidden="true">↑</span>
       </a>
-      <a class="section-jump-button" href="#domaines" aria-label="Descendre vers Domaines clés">
+      <a class="section-jump-button" href="#domaines" aria-label="Descendre vers Domaines d’expertise">
         <span aria-hidden="true">↓</span>
       </a>
     </div>
 
     <section class="section" id="domaines" data-section="domaines">
       <div class="container section-card reveal-on-scroll" data-reveal>
-        <h2 class="section-title">Domaines clés</h2>
+        <h2 class="section-title">Domaines d’expertise</h2>
         <div class="grid grid-2">
           <article class="card">
-            <h3>Parcours académique</h3>
-            <p>Formation structurée autour de l’administration système, réseau et de la sécurité des infrastructures.</p>
+            <h3 data-i18n="domains.academic.title">Parcours académique</h3>
+            <p data-i18n="domains.academic.text">Formation spécialisée en administration d’infrastructures sécurisées, systèmes, réseaux et cybersécurité.</p>
             <a class="tag" href="parcours.html">Voir le parcours →</a>
           </article>
           <article class="card">
-            <h3>Certifications</h3>
-            <p>Certifications et attestations techniques pour valider la montée en compétences.</p>
+            <h3 data-i18n="domains.cert.title">Certifications</h3>
+            <p data-i18n="domains.cert.text">Certifications techniques et formations continues validant la progression en infrastructure, réseau, sécurité et cloud.</p>
             <a class="tag" href="certifications.html">Voir les certifications →</a>
           </article>
           <article class="card">
-            <h3>Veille cybersécurité</h3>
-            <p>Flux CERT-FR et The Hacker News réunis dans un tableau de bord clair et actualisé.</p>
+            <h3 data-i18n="domains.watch.title">Veille cybersécurité</h3>
+            <p data-i18n="domains.watch.text">Suivi des vulnérabilités, alertes CERT-FR, tendances cyber, ransomware, CTI et durcissement défensif.</p>
             <a class="tag" href="veille.html">Consulter la veille →</a>
           </article>
           <article class="card">
-            <h3>Projets techniques</h3>
-            <p>Des missions axées sur l’infrastructure, l’audit et l’analyse de vulnérabilités.</p>
+            <h3 data-i18n="domains.projects.title">Projets techniques</h3>
+            <p data-i18n="domains.projects.text">Déploiements, labs et documentations autour de Docker, GLPI, NetBox, supervision, systèmes Linux/Windows et sécurité réseau.</p>
             <a class="tag" href="projets.html">Explorer les projets →</a>
           </article>
           <article class="card">
-            <h3>Blog cybersécurité</h3>
-            <p>Analyses et guides pratiques pour le durcissement Linux et Windows Server.</p>
+            <h3 data-i18n="domains.blog.title">Blog cybersécurité</h3>
+            <p data-i18n="domains.blog.text">Guides pratiques, retours d’expérience et analyses techniques sur le durcissement, l’administration et la défense des SI.</p>
             <a class="tag" href="blog/">Explorer le blog →</a>
           </article>
         </div>
@@ -313,10 +288,10 @@
       <div class="container section-card section-card-highlight reveal-on-scroll" data-reveal>
         <div class="section-heading">
           <h2 class="section-title">Game Zone</h2>
-          <p>Explore interactive cyber demos, mini-games, and curated tracks.</p>
+          <p data-i18n="zones.game.text">Explorez des démonstrations interactives, mini-jeux et parcours cyber immersifs.</p>
         </div>
         <div class="game-zone-entry-cta">
-          <a class="button" href="./game.html">Open Game Zone</a>
+          <a class="button" href="./game.html" data-i18n="zones.game.cta">Ouvrir la Game Zone</a>
         </div>
       </div>
     </section>
@@ -325,10 +300,10 @@
       <div class="container section-card section-card-highlight section-card-hackzone reveal-on-scroll" data-reveal>
         <div class="section-heading">
           <h2 class="section-title">Hack Zone</h2>
-          <p>Dive into a live cyber threat universe with real-time attack visualization and offensive monitoring insights.</p>
+          <p data-i18n="zones.hack.text">Explorez un univers cyber immersif avec visualisation d’attaques, veille offensive et démonstrations interactives.</p>
         </div>
         <div class="game-zone-entry-cta">
-          <a class="button button-hackzone" href="./hackzone.html">Open Hack Zone</a>
+          <a class="button button-hackzone" href="./hackzone.html" data-i18n="zones.hack.cta">Ouvrir la Hack Zone</a>
         </div>
       </div>
     </section>
@@ -343,7 +318,7 @@
 
   <footer class="footer">
     <div class="container footer-content">
-      <p>Copyright © 2026 Jean-Baptiste Terrazzoni. All rights reserved.</p>
+      <p>Copyright © 2026 Jean-Baptiste Terrazzoni. Tous droits réservés.</p>
       <div class="footer-contact" aria-label="Coordonnées">
         <a class="footer-icon" href="#" data-contact-label="Email" data-contact-value="terrazzoni.corsica@proton.me" data-contact-href="mailto:terrazzoni.corsica@proton.me" aria-label="Envoyer un email">
           <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">

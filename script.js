@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   initDisplayPreferences();
+  initLanguageSwitcher();
   initMenu();
   initContactModal();
   initStickyHeader();
@@ -79,6 +80,67 @@ const RSS_TAB_MAP = {
 };
 
 const RSS_TAB_COUNTS = new Map();
+
+const I18N_MESSAGES = {
+  fr: {
+    'hero.eyebrow': 'Infrastructure & cybersécurité',
+    'hero.title': 'Jean-Baptiste Terrazzoni',
+    'hero.role': 'Administrateur d’infrastructures sécurisées · Cybersécurité · Pentest junior',
+    'hero.summary1': 'Je conçois et sécurise des environnements systèmes, réseaux et cloud avec une approche orientée audit, conformité et amélioration continue.',
+    'hero.badge1': 'Infrastructure sécurisée',
+    'hero.badge2': 'Administration système & réseau',
+    'hero.badge3': 'Audit & durcissement',
+    'hero.cta1': 'Découvrir mon parcours',
+    'hero.cta2': 'Voir mes projets',
+    'hero.linkWatch': 'Consulter ma veille cyber',
+    'stats.item1': 'Projets, labs & déploiements techniques',
+    'stats.item2': 'Certifications & formations validées',
+    'stats.item3': 'Veille cybersécurité & CTI',
+    'domains.academic.title': 'Parcours académique',
+    'domains.academic.text': 'Formation spécialisée en administration d’infrastructures sécurisées, systèmes, réseaux et cybersécurité.',
+    'domains.cert.title': 'Certifications',
+    'domains.cert.text': 'Certifications techniques et formations continues validant la progression en infrastructure, réseau, sécurité et cloud.',
+    'domains.watch.title': 'Veille cybersécurité',
+    'domains.watch.text': 'Suivi des vulnérabilités, alertes CERT-FR, tendances cyber, ransomware, CTI et durcissement défensif.',
+    'domains.projects.title': 'Projets techniques',
+    'domains.projects.text': 'Déploiements, labs et documentations autour de Docker, GLPI, NetBox, supervision, systèmes Linux/Windows et sécurité réseau.',
+    'domains.blog.title': 'Blog cybersécurité',
+    'domains.blog.text': 'Guides pratiques, retours d’expérience et analyses techniques sur le durcissement, l’administration et la défense des SI.',
+    'zones.game.text': 'Explorez des démonstrations interactives, mini-jeux et parcours cyber immersifs.',
+    'zones.game.cta': 'Ouvrir la Game Zone',
+    'zones.hack.text': 'Explorez un univers cyber immersif avec visualisation d’attaques, veille offensive et démonstrations interactives.',
+    'zones.hack.cta': 'Ouvrir la Hack Zone',
+  },
+  en: {
+    'hero.eyebrow': 'Infrastructure & Cybersecurity',
+    'hero.title': 'Jean-Baptiste Terrazzoni',
+    'hero.role': 'Secure Infrastructure Administrator · Cybersecurity · Junior Pentester',
+    'hero.summary1': 'I design and secure systems, network, and cloud environments with a focus on auditing, compliance, and continuous improvement.',
+    'hero.badge1': 'Secure Infrastructure',
+    'hero.badge2': 'System & Network Administration',
+    'hero.badge3': 'Audit & Hardening',
+    'hero.cta1': 'Explore my journey',
+    'hero.cta2': 'View my projects',
+    'hero.linkWatch': 'Read my cyber watch',
+    'stats.item1': 'Projects, labs & technical deployments',
+    'stats.item2': 'Certifications & completed training',
+    'stats.item3': 'Cybersecurity watch & CTI',
+    'domains.academic.title': 'Academic Journey',
+    'domains.academic.text': 'Specialized training in secure infrastructure administration, systems, networking, and cybersecurity.',
+    'domains.cert.title': 'Certifications',
+    'domains.cert.text': 'Technical certifications and continuous training validating progression in infrastructure, network, security, and cloud.',
+    'domains.watch.title': 'Cybersecurity Watch',
+    'domains.watch.text': 'Monitoring vulnerabilities, CERT-FR alerts, cyber trends, ransomware, CTI, and defensive hardening.',
+    'domains.projects.title': 'Technical Projects',
+    'domains.projects.text': 'Deployments, labs, and documentation around Docker, GLPI, NetBox, monitoring, Linux/Windows systems, and network security.',
+    'domains.blog.title': 'Cybersecurity Blog',
+    'domains.blog.text': 'Practical guides, field feedback, and technical analyses on hardening, administration, and IS defense.',
+    'zones.game.text': 'Explore interactive demos, mini-games, and immersive cyber tracks.',
+    'zones.game.cta': 'Open Game Zone',
+    'zones.hack.text': 'Explore an immersive cyber universe with attack visualizations, offensive watch, and interactive demos.',
+    'zones.hack.cta': 'Open Hack Zone',
+  },
+};
 
 function initDisplayPreferences() {
   const menu = document.querySelector('[data-settings-menu]');
@@ -233,6 +295,42 @@ function initMenu() {
     if (event.key === 'Escape' && menu.classList.contains('open')) {
       setMenuState(false);
     }
+  });
+}
+
+function initLanguageSwitcher() {
+  const languageOptions = Array.from(document.querySelectorAll('[data-lang-option]'));
+  if (languageOptions.length === 0) return;
+
+  const applyLanguage = (lang) => {
+    const locale = lang === 'en' ? 'en' : 'fr';
+    document.documentElement.lang = locale;
+    document.body.dataset.lang = locale;
+    localStorage.setItem('site-language', locale);
+
+    languageOptions.forEach((button) => {
+      const isActive = button.dataset.langOption === locale;
+      button.classList.toggle('is-active', isActive);
+      button.setAttribute('aria-pressed', String(isActive));
+    });
+
+    const dictionary = I18N_MESSAGES[locale] || I18N_MESSAGES.fr;
+    document.querySelectorAll('[data-i18n]').forEach((node) => {
+      const key = node.dataset.i18n;
+      const translation = dictionary[key];
+      if (translation) {
+        node.textContent = translation;
+      }
+    });
+  };
+
+  const storedLanguage = localStorage.getItem('site-language');
+  applyLanguage(storedLanguage === 'en' ? 'en' : 'fr');
+
+  languageOptions.forEach((button) => {
+    button.addEventListener('click', () => {
+      applyLanguage(button.dataset.langOption);
+    });
   });
 }
 
