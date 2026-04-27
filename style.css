@@ -1384,12 +1384,8 @@ body[data-animations="off"] .reveal-on-scroll {
   min-height: 180px;
 }
 
-.section-final-cta {
+.section-projects-teaser {
   padding-top: 12px;
-}
-
-.final-cta-buttons {
-  gap: 10px;
 }
 
 .badge-showcase-carousel {
@@ -2116,6 +2112,10 @@ body.modal-open {
     grid-template-columns: 1fr;
     max-width: 520px;
     margin: 0 auto;
+  }
+
+  .section-projects-teaser .hero-cta {
+    justify-content: center;
   }
 
   .section-card {
