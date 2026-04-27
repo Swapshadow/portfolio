@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initLanguageSwitcher();
   initMenu();
   initContactModal();
+  initWatchCardCleanup();
   initStickyHeader();
   initScrollSpy();
   initRevealOnScroll();
@@ -80,6 +81,63 @@ const RSS_TAB_MAP = {
 };
 
 const RSS_TAB_COUNTS = new Map();
+
+function initWatchCardCleanup() {
+  const hero = document.querySelector('.hero#accueil');
+  let watchSection = document.querySelector('.watch-card-section');
+
+  document
+    .querySelectorAll('.hero-floating-card, .home-watch-card, .standalone-watch-card, .section-watch-entry')
+    .forEach((node) => node.remove());
+
+  if (!watchSection && hero) {
+    watchSection = document.createElement('section');
+    watchSection.className = 'watch-card-section';
+    watchSection.id = 'watch-entry';
+    watchSection.dataset.section = 'watch-entry';
+    hero.insertAdjacentElement('afterend', watchSection);
+  }
+
+  if (!watchSection) return;
+
+  const watchCards = Array.from(document.querySelectorAll('.watch-card'));
+  const canonicalCard = watchCards.find((card) => card.closest('.watch-card-section') === watchSection) || watchCards[0] || null;
+
+  watchCards.forEach((card) => {
+    if (card !== canonicalCard) {
+      card.remove();
+    }
+  });
+
+  let card = canonicalCard;
+
+  if (!card) {
+    card = document.createElement('a');
+    watchSection.appendChild(card);
+  }
+
+  card.className = 'watch-card';
+  card.setAttribute('href', 'veille.html');
+  card.setAttribute('aria-label', 'Accéder à la veille cybersécurité');
+  card.setAttribute('title', 'Accéder à la veille cybersécurité');
+  card.innerHTML = '<span class="watch-card-number">24/7</span><span class="watch-card-label">Veille cybersécurité & CTI</span>';
+
+  document.querySelectorAll('.watch-card-section').forEach((section) => {
+    if (section !== watchSection) {
+      section.remove();
+    }
+  });
+
+  document.querySelectorAll('.watch-card-number, .watch-card-label').forEach((node) => {
+    if (!node.closest('.watch-card')) {
+      node.remove();
+    }
+  });
+
+  if (hero && hero.nextElementSibling !== watchSection) {
+    hero.insertAdjacentElement('afterend', watchSection);
+  }
+}
 
 const I18N_MESSAGES = {
   fr: {
