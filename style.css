@@ -975,11 +975,16 @@ body[data-animations="off"] .reveal-on-scroll {
   box-shadow: var(--shadow);
   max-width: 900px;
   margin: 0 auto;
+  position: relative;
+  overflow: visible;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .hero-content {
   max-width: 640px;
+  position: relative;
+  z-index: 2;
+  padding-right: clamp(80px, 18vw, 220px);
 }
 
 .hero-eyebrow {
@@ -1009,9 +1014,13 @@ body[data-animations="off"] .reveal-on-scroll {
 }
 
 .hero-floating-card {
-  margin-top: 16px;
-  margin-left: auto;
-  width: min(250px, 100%);
+  position: absolute;
+  right: 9%;
+  bottom: 16%;
+  z-index: 5;
+  width: max-content;
+  min-width: 220px;
+  max-width: 260px;
   padding: 14px 16px;
   border-radius: 16px;
   border: 1px solid color-mix(in srgb, var(--border) 86%, transparent);
@@ -1019,7 +1028,7 @@ body[data-animations="off"] .reveal-on-scroll {
   box-shadow: var(--shadow-soft);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
-  animation: hero-float 4.2s ease-in-out infinite;
+  animation: floatY 4s ease-in-out infinite;
   text-decoration: none;
   cursor: pointer;
   transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
@@ -1391,13 +1400,13 @@ body[data-animations="off"] .reveal-on-scroll {
   height: clamp(90px, 12vw, 122px);
 }
 
-@keyframes hero-float {
+@keyframes floatY {
   0%,
   100% {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-6px);
+    transform: translateY(-8px);
   }
 }
 
@@ -2086,6 +2095,7 @@ body.modal-open {
 
   .hero-content {
     margin: 0 auto;
+    padding-right: 0;
   }
 
   .hero-summary {
@@ -2103,8 +2113,13 @@ body.modal-open {
   }
 
   .hero-floating-card {
+    position: static;
+    margin-top: 1rem;
     margin-right: auto;
     margin-left: auto;
+    width: 100%;
+    max-width: 280px;
+    min-width: 0;
     text-align: center;
   }
 
