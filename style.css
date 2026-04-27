@@ -2114,6 +2114,10 @@ body.modal-open {
     max-width: 100%;
   }
 
+  .hero-shell {
+    max-width: 100%;
+  }
+
   .hero-card {
     padding: 28px;
     text-align: center;
@@ -2142,6 +2146,23 @@ body.modal-open {
     width: 100%;
     max-width: 280px;
     min-width: 0;
+  }
+
+  .zone-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .zone-card {
+    padding: 22px;
+  }
+
+  .zone-cta {
+    justify-content: center;
+  }
+
+  .zone-card .button {
+    width: 100%;
   }
 
   .zone-grid {
