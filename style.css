@@ -963,7 +963,7 @@ body[data-animations="off"] .reveal-on-scroll {
 }
 
 .hero {
-  padding: 24px 0 72px;
+  padding: 20px 0 58px;
   scroll-margin-top: 120px;
 }
 
@@ -1019,7 +1019,7 @@ body[data-animations="off"] .reveal-on-scroll {
   line-height: 1.65;
 }
 
-.home-watch-card {
+.watch-card {
   position: relative;
   display: inline-flex;
   flex-direction: column;
@@ -1028,8 +1028,8 @@ body[data-animations="off"] .reveal-on-scroll {
   width: fit-content;
   min-width: 220px;
   max-width: 280px;
-  margin: 0 auto;
-  padding: 12px 16px;
+  margin: 2rem auto 0;
+  padding: 1rem 1.4rem;
   border-radius: 14px;
   border: 1px solid color-mix(in srgb, var(--border) 72%, transparent);
   background: color-mix(in srgb, var(--surface) 68%, transparent);
@@ -1043,14 +1043,14 @@ body[data-animations="off"] .reveal-on-scroll {
   transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
 }
 
-.home-watch-card:hover,
-.home-watch-card:focus-visible {
+.watch-card:hover,
+.watch-card:focus-visible {
   border-color: color-mix(in srgb, var(--accent) 34%, var(--border));
   background: color-mix(in srgb, var(--surface) 78%, transparent);
   box-shadow: 0 14px 30px rgba(15, 23, 42, 0.18);
 }
 
-.home-watch-card__value {
+.watch-card-number {
   font-size: 1.35rem;
   font-weight: 700;
   line-height: 1.1;
@@ -1063,15 +1063,15 @@ body[data-animations="off"] .reveal-on-scroll {
   animation: text-shift 6s ease-in-out infinite;
 }
 
-.home-watch-card__label {
+.watch-card-label {
   color: var(--muted);
   font-size: 0.88rem;
   line-height: 1.35;
 }
 
 .section-watch-entry {
-  padding-top: 2px;
-  padding-bottom: 8px;
+  padding-top: 4px;
+  padding-bottom: 10px;
 }
 
 .section-watch-entry .container {
@@ -2114,10 +2114,6 @@ body.modal-open {
     max-width: 100%;
   }
 
-  .hero-shell {
-    max-width: 100%;
-  }
-
   .hero-card {
     padding: 28px;
     text-align: center;
@@ -2142,27 +2138,10 @@ body.modal-open {
     justify-content: center;
   }
 
-  .home-watch-card {
+  .watch-card {
     width: 100%;
     max-width: 280px;
     min-width: 0;
-  }
-
-  .zone-grid {
-    grid-template-columns: 1fr;
-    gap: 16px;
-  }
-
-  .zone-card {
-    padding: 22px;
-  }
-
-  .zone-cta {
-    justify-content: center;
-  }
-
-  .zone-card .button {
-    width: 100%;
   }
 
   .zone-grid {
