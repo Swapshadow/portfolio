@@ -967,14 +967,19 @@ body[data-animations="off"] .reveal-on-scroll {
   scroll-margin-top: 120px;
 }
 
+.hero-shell {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  overflow: visible;
+}
+
 .hero-card {
   background: color-mix(in srgb, var(--surface) 90%, transparent);
   border: 1px solid color-mix(in srgb, var(--border) 86%, transparent);
   border-radius: var(--radius-lg);
   padding: clamp(32px, 6vw, 56px);
   box-shadow: var(--shadow);
-  max-width: 900px;
-  margin: 0 auto;
   position: relative;
   overflow: visible;
   transition: background-color 0.3s ease, color 0.3s ease;
@@ -1015,9 +1020,9 @@ body[data-animations="off"] .reveal-on-scroll {
 
 .hero-floating-card {
   position: absolute;
-  right: 9%;
-  bottom: 16%;
-  z-index: 5;
+  right: -2rem;
+  bottom: 20%;
+  z-index: 10;
   width: max-content;
   min-width: 220px;
   max-width: 260px;
@@ -2088,6 +2093,10 @@ body.modal-open {
     padding: 24px 0 72px;
   }
 
+  .hero-shell {
+    max-width: 100%;
+  }
+
   .hero-card {
     padding: 28px;
     text-align: center;
@@ -2114,6 +2123,8 @@ body.modal-open {
 
   .hero-floating-card {
     position: static;
+    right: auto;
+    bottom: auto;
     margin-top: 1rem;
     margin-right: auto;
     margin-left: auto;
