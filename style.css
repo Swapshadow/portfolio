@@ -790,6 +790,39 @@ body[data-animations="off"] .reveal-on-scroll {
   gap: 12px;
 }
 
+.language-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--surface) 84%, transparent);
+  padding: 6px 10px;
+  box-shadow: var(--shadow-soft);
+}
+
+.language-switch__option {
+  border: none;
+  background: transparent;
+  color: var(--muted);
+  font-weight: 600;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  padding: 2px 0;
+  cursor: pointer;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.language-switch__option.is-active {
+  color: var(--text);
+}
+
+.language-switch__option:hover,
+.language-switch__option:focus-visible {
+  color: var(--accent);
+  transform: translateY(-1px);
+}
+
 .menu-toggle {
   display: inline-flex;
   align-items: center;
@@ -958,7 +991,8 @@ body[data-animations="off"] .reveal-on-scroll {
 }
 
 .hero-card {
-  background: var(--surface);
+  background: color-mix(in srgb, var(--surface) 90%, transparent);
+  border: 1px solid color-mix(in srgb, var(--border) 86%, transparent);
   border-radius: var(--radius-lg);
   padding: 48px;
   box-shadow: var(--shadow);
@@ -995,6 +1029,12 @@ body[data-animations="off"] .reveal-on-scroll {
 .hero-summary {
   margin-bottom: 24px;
   max-width: 54ch;
+}
+
+.hero-summary-subtle {
+  margin-top: -12px;
+  margin-bottom: 18px;
+  color: var(--muted);
 }
 
 .hero-metrics {
@@ -1057,6 +1097,17 @@ body[data-animations="off"] .reveal-on-scroll {
 
 .button-secondary:hover {
   background: var(--surface-muted);
+}
+
+.button-tertiary {
+  background: color-mix(in srgb, var(--accent-soft) 60%, var(--surface));
+  color: var(--accent);
+  border: 1px solid color-mix(in srgb, var(--accent) 28%, var(--border));
+  box-shadow: none;
+}
+
+.button-tertiary:hover {
+  background: color-mix(in srgb, var(--accent-soft) 76%, var(--surface));
 }
 
 .hero-illustration {
@@ -1268,7 +1319,8 @@ body[data-animations="off"] .reveal-on-scroll {
 }
 
 .section-card {
-  background: var(--surface);
+  background: color-mix(in srgb, var(--surface) 90%, transparent);
+  border: 1px solid color-mix(in srgb, var(--border) 88%, transparent);
   padding: 36px;
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-soft);
@@ -1324,10 +1376,10 @@ body[data-animations="off"] .reveal-on-scroll {
 }
 
 .card {
-  background: var(--surface);
+  background: color-mix(in srgb, var(--surface) 88%, transparent);
   border-radius: var(--radius-sm);
   padding: 22px;
-  border: 1px solid var(--border);
+  border: 1px solid color-mix(in srgb, var(--border) 86%, transparent);
   box-shadow: var(--shadow-soft);
   position: relative;
   transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, transform 0.25s ease, box-shadow 0.25s ease;
@@ -1335,7 +1387,8 @@ body[data-animations="off"] .reveal-on-scroll {
 
 .card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 18px 36px rgba(15, 23, 42, 0.08);
+  border-color: color-mix(in srgb, var(--accent) 28%, var(--border));
+  box-shadow: 0 18px 36px rgba(15, 23, 42, 0.12);
 }
 
 .card p {
@@ -1352,6 +1405,10 @@ body[data-animations="off"] .reveal-on-scroll {
   color: var(--accent);
   font-size: 0.8rem;
   font-weight: 500;
+}
+
+.build-grid .card {
+  min-height: 180px;
 }
 
 .timeline {
@@ -1984,7 +2041,7 @@ body.modal-open {
   .nav-actions {
     width: 100%;
     display: grid;
-    grid-template-columns: 44px 44px auto;
+    grid-template-columns: 44px 44px auto auto;
     align-items: center;
     justify-content: center;
     justify-items: center;
@@ -2014,6 +2071,10 @@ body.modal-open {
     justify-self: center;
   }
 
+  .language-switch {
+    padding: 6px 8px;
+  }
+
   .hero {
     padding: 24px 0 72px;
   }
@@ -2028,6 +2089,10 @@ body.modal-open {
   .hero-summary {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .hero-summary-subtle {
+    margin-top: -8px;
   }
 
   .hero-badges,
@@ -2134,7 +2199,7 @@ body.modal-open {
 
 @media (max-width: 430px) {
   .nav-actions {
-    grid-template-columns: 44px 44px minmax(44px, auto);
+    grid-template-columns: 44px 44px auto minmax(44px, auto);
     gap: 8px;
   }
 
