@@ -1028,7 +1028,7 @@ body[data-animations="off"] .reveal-on-scroll {
   width: fit-content;
   min-width: 220px;
   max-width: 280px;
-  margin: 2rem auto 0;
+  margin: 0 auto;
   padding: 1rem 1.4rem;
   border-radius: 14px;
   border: 1px solid color-mix(in srgb, var(--border) 72%, transparent);
@@ -1069,14 +1069,11 @@ body[data-animations="off"] .reveal-on-scroll {
   line-height: 1.35;
 }
 
-.section-watch-entry {
-  padding-top: 4px;
-  padding-bottom: 10px;
-}
-
-.section-watch-entry .container {
+.watch-card-section {
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin: 2rem auto 3rem;
 }
 
 .section-jump {
@@ -2136,6 +2133,11 @@ body.modal-open {
   .hero-badges,
   .hero-cta {
     justify-content: center;
+  }
+
+  .watch-card-section {
+    margin: 1.25rem auto 2rem;
+    padding: 0 18px;
   }
 
   .watch-card {
