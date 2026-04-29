@@ -370,7 +370,7 @@ function initMenu() {
 }
 
 function initLanguageSwitcher() {
-  const navActions = document.querySelectorAll('.nav-actions');
+  const navActions = document.querySelectorAll('.nav-actions, .nav-controls, .header-actions');
   navActions.forEach((navAction) => {
     if (navAction.querySelector('[data-language-toggle]')) return;
     const languageToggle = document.createElement('button');
@@ -382,15 +382,14 @@ function initLanguageSwitcher() {
     else navAction.appendChild(languageToggle);
   });
 
-  const languageToggles = document.querySelectorAll('[data-language-toggle]');
+  const languageToggles = document.querySelectorAll('[data-language-toggle], .language-toggle');
   if (!languageToggles.length) return;
 
   const applyLanguage = (lang) => {
     const locale = lang === 'en' ? 'en' : 'fr';
     document.documentElement.lang = locale;
     document.body.dataset.lang = locale;
-    localStorage.setItem('siteLanguage', locale);
-    localStorage.setItem('site-language', locale);
+    localStorage.setItem('portfolio-lang', locale);
 
     languageToggles.forEach((languageToggle) => {
       if (locale === 'fr') {
@@ -417,7 +416,7 @@ function initLanguageSwitcher() {
     });
   };
 
-  const storedLanguage = localStorage.getItem('siteLanguage') || localStorage.getItem('site-language');
+  const storedLanguage = localStorage.getItem('portfolio-lang') || localStorage.getItem('siteLanguage') || localStorage.getItem('site-language');
   applyLanguage(storedLanguage === 'en' ? 'en' : 'fr');
 
   languageToggles.forEach((languageToggle) => {
