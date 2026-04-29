@@ -69,14 +69,14 @@
         </button>
       </div>
       <ul class="site-nav-links">
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="parcours.html">Parcours</a></li>
-        <li><a href="certifications.html">Certifications</a></li>
-        <li><a href="veille.html">Veille</a></li>
-        <li><a href="blog/">Blog</a></li>
-        <li><a href="projets.html">Projets</a></li>
-        <li><a href="game.html">Game Zone</a></li>
-        <li><a href="hackzone.html">Hack Zone</a></li>
+        <li><a href="index.html" data-i18n="nav.home">Accueil</a></li>
+        <li><a href="parcours.html" data-i18n="nav.journey">Parcours</a></li>
+        <li><a href="certifications.html" data-i18n="nav.certs">Certifications</a></li>
+        <li><a href="veille.html" data-i18n="nav.watch">Veille</a></li>
+        <li><a href="blog/" data-i18n="nav.blog">Blog</a></li>
+        <li><a href="projets.html" data-i18n="nav.projects">Projets</a></li>
+        <li><a href="game.html" data-i18n="nav.game">Game Zone</a></li>
+        <li><a href="hackzone.html" data-i18n="nav.hack">Hack Zone</a></li>
         <li class="site-nav-title">Sections</li>
         <li><a href="#game-hero" data-section-link="game-hero">Présentation</a></li>
         <li><a href="#game-list" data-section-link="game-list">Jeu en vedette</a></li>
@@ -175,7 +175,7 @@
   <footer class="footer footer-game">
     <div class="container footer-content">
       <p>Game Zone accueille désormais Mainframe, et d’autres jeux arrivent bientôt.</p>
-      <div class="footer-contact" aria-label="Coordonnées">
+      <div class="footer-contact" aria-label="Coordonnées" data-i18n-aria-label="footer.contactAria">
         <a class="footer-icon" href="#" data-contact-label="Email" data-contact-value="terrazzoni.corsica@proton.me" data-contact-href="mailto:terrazzoni.corsica@proton.me" aria-label="Envoyer un email">
           <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
@@ -195,8 +195,8 @@
     <div class="contact-modal__overlay" data-modal-close></div>
     <div class="contact-modal__content">
       <button class="contact-modal__close" type="button" data-modal-close aria-label="Fermer">×</button>
-      <h2 class="contact-modal__title" id="contact-modal-title">Contact</h2>
-      <p class="contact-modal__value"><a id="contact-modal-link" href="#">Contact</a></p>
+      <h2 class="contact-modal__title" id="contact-modal-title"> <span data-i18n="contact.title">Contact</span></h2>
+      <p class="contact-modal__value"><a id="contact-modal-link" href="#"> <span data-i18n="contact.title">Contact</span></a></p>
     </div>
   </div>
   <script src="script.js" defer></script>
