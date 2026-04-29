@@ -105,18 +105,10 @@
             <p data-i18n="hack.fbmap.desc">Visualisation interactive des incidents et fuites de données recensés par FrenchBreaches, avec filtres par pays, sévérité, secteur et groupe ransomware.</p>
             <p data-i18n="hack.fbmap.source">Source : FrenchBreaches</p>
           </div>
-          <iframe
-            class="frenchbreaches-map-frame"
-            src="https://map.frenchbreaches.com/"
-            title="Carte mondiale des fuites de données FrenchBreaches"
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-            allowfullscreen
-            data-frenchbreaches-frame
-          ></iframe>
-          <div class="frenchbreaches-map-fallback" data-frenchbreaches-fallback hidden>
+          <div class="frenchbreaches-map-fallback" data-frenchbreaches-fallback>
             <div class="frenchbreaches-map-badges"><span>Open Source</span><span>External Map</span></div>
             <p data-i18n="hack.fbmap.fallback">La carte FrenchBreaches semble bloquée dans l’iframe. Vous pouvez l’ouvrir dans un nouvel onglet.</p>
+            <p data-i18n="hack.fbmap.error">Erreur observée : map.frenchbreaches.com a refusé de se connecter (blocage iframe côté navigateur/serveur).</p>
           </div>
           <div class="frenchbreaches-map-actions">
             <a class="button button-hackzone" href="https://map.frenchbreaches.com/" target="_blank" rel="noopener noreferrer" data-i18n="hack.fbmap.cta">Ouvrir la carte FrenchBreaches →</a>

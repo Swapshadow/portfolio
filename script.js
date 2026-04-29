@@ -214,6 +214,7 @@ const I18N_MESSAGES = {
     'hack.fbmap.source': 'Source : FrenchBreaches',
     'hack.fbmap.cta': 'Ouvrir la carte FrenchBreaches →',
     'hack.fbmap.fallback': 'La carte FrenchBreaches semble bloquée dans l’iframe. Vous pouvez l’ouvrir dans un nouvel onglet.',
+    'hack.fbmap.error': 'Erreur observée : map.frenchbreaches.com a refusé de se connecter (blocage iframe côté navigateur/serveur).',
     'blog.page.title': 'Blog',
     'zones.game.text': 'Explorez des démonstrations interactives, mini-jeux et parcours cyber immersifs.',
     'zones.game.cta': 'Ouvrir la Game Zone',
@@ -300,6 +301,7 @@ const I18N_MESSAGES = {
     'hack.fbmap.source': 'Source: FrenchBreaches',
     'hack.fbmap.cta': 'Open the FrenchBreaches map →',
     'hack.fbmap.fallback': 'The FrenchBreaches map seems blocked in the iframe. You can open it in a new tab.',
+    'hack.fbmap.error': 'Observed error: map.frenchbreaches.com refused to connect (browser/server iframe blocking).',
     'blog.page.title': 'Blog',
     'zones.game.text': 'Explore interactive demos, mini-games, and immersive cyber tracks.',
     'zones.game.cta': 'Open Game Zone',
@@ -1020,21 +1022,6 @@ function initRssFeeds() {
   if (!tasks.length) return;
   Promise.allSettled(tasks).finally(() => updateWatchDashboard());
   initWatchFilters();
-}
-
-function initFrenchBreachesEmbed() {
-  const frame = document.querySelector('[data-frenchbreaches-frame]');
-  const fallback = document.querySelector('[data-frenchbreaches-fallback]');
-  if (!frame || !fallback) return;
-  let loaded = false;
-  frame.addEventListener('load', () => { loaded = true; fallback.hidden = true; });
-  frame.addEventListener('error', () => { loaded = false; fallback.hidden = false; });
-  setTimeout(() => {
-    if (!loaded) {
-      fallback.hidden = false;
-      frame.classList.add('is-blocked');
-    }
-  }, 5000);
 }
 
 function initShootingStars() {
