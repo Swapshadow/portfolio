@@ -1532,6 +1532,7 @@ function renderRssItems({ items, container, label, key }) {
   }
   RSS_ALL_ITEMS.push(...items.map((item) => ({ ...item, key, label })));
   updateWatchDashboard();
+  document.dispatchEvent(new CustomEvent('rss:updated'));
 }
 
 function computeSeverity(text) {
@@ -1687,6 +1688,7 @@ function initWatchReader() {
   const nextBtn = card.querySelector('[data-reader-next]');
   const copyBtn = card.querySelector('[data-reader-copy]');
   const listBtn = card.querySelector('[data-reader-toggle-list]');
+  const topListBtn = document.querySelector('button[data-reader-toggle-list]:not(.watch-reader-actions button)');
   const chips = Array.from(document.querySelectorAll('[data-reader-filter]'));
   let idx = 0;
   let currentFilter = 'all';
@@ -1702,7 +1704,14 @@ function initWatchReader() {
     return s;
   };
 
-  const filtered = () => RSS_ALL_ITEMS
+  const buildItems = () => (RSS_ALL_ITEMS.length ? RSS_ALL_ITEMS : Array.from(document.querySelectorAll('.rss-item')).map((el) => ({
+    title: el.querySelector('h4 a')?.textContent || '',
+    link: el.querySelector('h4 a')?.href || '#',
+    date: el.querySelector('.rss-item-meta span:last-child')?.textContent || '',
+    excerpt: el.querySelector('.rss-item-excerpt')?.textContent || '',
+    label: el.querySelector('.rss-item-meta span:first-child')?.textContent || 'Source'
+  })));
+  const filtered = () => buildItems()
     .map((i) => ({ ...i, severity: computeSeverity(`${i.title} ${i.excerpt}`) }))
     .filter((i) => currentFilter === 'all' || `${i.title} ${i.excerpt} ${i.label}`.toLowerCase().includes(currentFilter))
     .sort((a,b) => score(b)-score(a));
@@ -1711,15 +1720,24 @@ function initWatchReader() {
     const items = filtered();
     document.querySelectorAll('.veille-panels').forEach((el)=> el.hidden = !showList);
     if (!items.length) {
-      title.textContent = 'Aucune alerte disponible pour ce filtre.';
+      title.textContent = 'Aucune alerte disponible';
       meta.textContent = '';
       excerpt.textContent = '';
       progress.textContent = 'Article 0 / 0';
       link.href = '#';
       return;
     }
-    idx = Math.min(idx, items.length - 1);
+    if (idx >= items.length) {
+      title.textContent = 'Vous avez consulté toutes les alertes.';
+      meta.textContent = '';
+      excerpt.textContent = '';
+      progress.textContent = `Article ${items.length} / ${items.length}`;
+      link.href = '#';
+      nextBtn.textContent = 'Recommencer';
+      return;
+    }
     const item = items[idx];
+    nextBtn.textContent = 'Suivant';
     title.textContent = item.title;
     meta.textContent = `${item.label} · ${item.date} · ${item.severity.label}`;
     excerpt.textContent = item.excerpt;
@@ -1728,9 +1746,11 @@ function initWatchReader() {
     progressBar.style.width = `${((idx + 1) / items.length) * 100}%`;
   };
 
-  nextBtn?.addEventListener('click', () => { idx += 1; render(); });
+  nextBtn?.addEventListener('click', () => { idx += 1; if (nextBtn.textContent.includes('Recommencer')) idx = 0; render(); });
   copyBtn?.addEventListener('click', async () => { await navigator.clipboard.writeText(`${title.textContent}\n${meta.textContent}\n${excerpt.textContent}\n${link.href}`); });
-  listBtn?.addEventListener('click', () => { showList = !showList; listBtn.textContent = showList ? 'Revenir à la lecture' : 'Voir la liste complète'; render(); });
+  const toggleList = (btn) => { showList = !showList; if (btn) btn.textContent = showList ? 'Revenir à la lecture' : 'Voir la liste complète'; if (listBtn && btn !== listBtn) listBtn.textContent = btn?.textContent || listBtn.textContent; if (topListBtn && btn !== topListBtn) topListBtn.textContent = btn?.textContent || topListBtn.textContent; render(); };
+  listBtn?.addEventListener('click', () => toggleList(listBtn));
+  topListBtn?.addEventListener('click', () => toggleList(topListBtn));
   chips.forEach((chip) => chip.addEventListener('click', () => {
     chips.forEach((c) => c.classList.remove('active'));
     chip.classList.add('active');
@@ -1741,7 +1761,8 @@ function initWatchReader() {
   card.addEventListener('touchstart', (e) => { card.dataset.touchX = String(e.changedTouches[0].clientX); }, { passive: true });
   card.addEventListener('touchend', (e) => { const dx = (parseFloat(card.dataset.touchX||'0') - e.changedTouches[0].clientX); if (dx > 45) { idx += 1; render(); } }, { passive: true });
   document.addEventListener('keydown', (e) => { if (e.key === 'ArrowRight' || e.key === ' ') { idx += 1; render(); } });
-  setInterval(render, 2000);
+  document.addEventListener('rss:updated', render);
+  setInterval(render, 1500);
 }
 
 function initPwaInstall() {

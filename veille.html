@@ -162,16 +162,15 @@
           </article>
         </section>
         <p class="watch-goal" data-i18n="watch.page.goal">Objectif : collecter, filtrer, qualifier et prioriser les informations utiles.</p>
-        <div class="watch-stats-grid">
+        <div class="watch-stats-grid watch-stats-grid-minimal">
           <article class="watch-stat-card"><h3 data-i18n="watch.stats.alerts">Alertes &amp; CVE</h3><p data-watch-stat="alerts">0</p></article>
           <article class="watch-stat-card"><h3 data-i18n="watch.stats.exploitation">Exploitation active</h3><p data-watch-stat="exploitation">0</p></article>
-          <article class="watch-stat-card"><h3 data-i18n="watch.stats.news">Actualité cyber</h3><p data-watch-stat="news">0</p></article>
-          <article class="watch-stat-card"><h3 data-i18n="watch.stats.leaks">Fuites de données</h3><p data-watch-stat="leaks">0</p></article>
-          <article class="watch-stat-card"><h3 data-i18n="watch.stats.sources">Sources surveillées</h3><p data-watch-stat="sources">0</p></article>
           <article class="watch-stat-card"><h3 data-i18n="watch.stats.updated">Dernière mise à jour</h3><p data-watch-stat="updated">--:--</p></article>
         </div>
-        <input class="watch-search" type="search" data-watch-search data-i18n-placeholder="watch.search.placeholder" placeholder="Rechercher une CVE, un éditeur, une menace, un mot-clé...">
-        <div class="watch-toolbar">
+        <details class="watch-advanced">
+          <summary>Recherche et filtres avancés</summary>
+          <input class="watch-search" type="search" data-watch-search data-i18n-placeholder="watch.search.placeholder" placeholder="Rechercher une CVE, un éditeur, une menace, un mot-clé...">
+          <div class="watch-toolbar">
           <label><span data-i18n="watch.view">Vue</span>
             <select data-watch-view>
               <option value="source" data-i18n="watch.view.source">Vue par source</option>
@@ -189,9 +188,10 @@
           <label><input type="checkbox" data-watch-compact-toggle> <span data-i18n="watch.compact">Vue compacte</span></label>
           <button class="watch-reset" type="button" data-watch-reset data-i18n="watch.reset">Réinitialiser</button>
           <button class="watch-reset" type="button" data-pwa-install data-i18n="pwa.install" hidden>Installer l’application</button>
-        </div>
+          </div>
+        </details>
         <p class="watch-install-hint" data-pwa-ios-hint data-i18n="pwa.ios" hidden>Sur iPhone : Partager → Ajouter à l’écran d’accueil</p>
-        <div class="watch-chips">
+        <div class="watch-chips watch-main-chips">
           <button class="watch-chip" type="button" data-watch-filter="critical" data-i18n="watch.severity.critical">Critique</button>
           <button class="watch-chip" type="button" data-watch-filter="high" data-i18n="watch.severity.high">Élevée</button>
           <button class="watch-chip" type="button" data-watch-filter="info" data-i18n="watch.severity.info">Information</button>
@@ -199,7 +199,6 @@
           <button class="watch-chip" type="button" data-watch-filter="ransomware">Ransomware</button>
           <button class="watch-chip" type="button" data-watch-filter="exploitation active">Exploitation active</button>
           <button class="watch-chip" type="button" data-watch-filter="fuite de données">Fuite de données</button>
-          <button class="watch-chip" type="button" data-watch-filter="favorites" data-i18n="watch.favorites">Favoris</button>
         </div>
         <p class="watch-results-count" data-watch-results-count>0 résultats affichés sur 0</p>
         <p class="watch-priority-banner" data-watch-priority-banner data-i18n="watch.priority.enabled" hidden>Mode prioritaire activé — seuls les signaux critiques ou sensibles sont affichés.</p>
@@ -207,10 +206,7 @@
           <p data-i18n="watch.noResults">Aucun signal ne correspond à vos filtres.</p>
           <button class="watch-reset" type="button" data-watch-reset data-i18n="watch.reset">Réinitialiser les filtres</button>
         </div>
-        <section class="watch-summary" data-watch-summary>
-          <h2 data-i18n="watch.summary">Synthèse de veille</h2>
-          <p data-watch-summary-text></p>
-        </section>
+        <button class="watch-reset" type="button" data-reader-toggle-list>Voir la liste complète</button>
         <div class="veille-tabs" role="tablist" aria-label="Catégories de veille" data-veille-tabs>
           <button
             class="veille-tab active"
