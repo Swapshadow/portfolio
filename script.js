@@ -10,6 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
   initCarousel();
   initVeilleTabs();
   initRssFeeds();
+  initPwaInstall();
+  initWatchReader();
   initShootingStars();
   initBlogSpaceEffects();
 });
@@ -30,6 +32,11 @@ const RSS_FEEDS = [
     key: 'cisa',
     url: 'https://www.cisa.gov/cybersecurity-advisories/all.xml',
     label: 'CISA',
+  },
+  {
+    key: 'cyberveille-esante',
+    url: 'https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml',
+    label: 'Cyberveille eSanté — Alertes & vulnérabilités',
   },
   {
     key: 'exploit-db',
@@ -58,6 +65,11 @@ const RSS_FEEDS = [
     label: 'ZATAZ',
   },
   {
+    key: 'flipboard-cybercrime',
+    url: 'https://flipboard.com/topic/fr-cybercriminalit%C3%A9.rss',
+    label: 'Flipboard — Cybercriminalité',
+  },
+  {
     key: 'krebs',
     url: 'https://krebsonsecurity.com/feed/',
     label: 'Krebs on Security',
@@ -72,15 +84,18 @@ const RSS_FEEDS = [
 const RSS_TAB_MAP = {
   'cert-fr': 'alertes',
   cisa: 'alertes',
+  'cyberveille-esante': 'alertes',
   'exploit-db': 'exploitation',
   'hacker-news': 'actualite',
   cybermalveillance: 'actualite',
   zataz: 'actualite',
+  'flipboard-cybercrime': 'actualite',
   krebs: 'actualite',
   'hibp-leaks': 'leaks',
 };
 
 const RSS_TAB_COUNTS = new Map();
+const RSS_ALL_ITEMS = [];
 
 function initWatchCardCleanup() {
   const hero = document.querySelector('.hero#accueil');
@@ -147,6 +162,8 @@ const I18N_MESSAGES = {
     'nav.watch': 'Veille',
     'nav.blog': 'Blog',
     'nav.projects': 'Projets',
+    'nav.game': 'Game Zone',
+    'nav.hack': 'Hack Zone',
     'hero.eyebrow': 'Infrastructure & cybersécurité',
     'hero.title': 'Jean-Baptiste Terrazzoni',
     'hero.role': 'Administrateur d’infrastructures sécurisées · Cybersécurité · Pentest junior',
@@ -176,11 +193,75 @@ const I18N_MESSAGES = {
     'cert.page.title': 'Certifications',
     'cert.page.intro': 'Une sélection de certifications validant mes compétences en sécurité, réseau et conformité.',
     'watch.page.title': 'Veille cybersécurité',
+    'watch.page.intro': 'Cette page centralise une veille cybersécurité orientée vulnérabilités, exploitation active, cybercriminalité, fuites de données et actualité opérationnelle. Les flux sont agrégés automatiquement afin de faciliter le suivi quotidien des signaux cyber pertinents.',
+    'watch.page.goal': 'Objectif : collecter, filtrer, qualifier et prioriser les informations utiles.',
+    'watch.search.placeholder': 'Rechercher une CVE, un éditeur, une menace, un mot-clé...',
+    'watch.readSource': 'Lire la source →',
+    'watch.showMore': 'Afficher plus',
+    'watch.showLess': 'Réduire',
+    'watch.stats.alerts': 'Alertes & CVE',
+    'watch.stats.exploitation': 'Exploitation active',
+    'watch.stats.news': 'Actualité cyber',
+    'watch.stats.leaks': 'Fuites de données',
+    'watch.stats.sources': 'Sources surveillées',
+    'watch.stats.updated': 'Dernière mise à jour',
+    'watch.alerts.title': '🚨 Alertes & vulnérabilités',
+    'watch.alerts.desc': 'Alertes officielles et bulletins CERT à surveiller en priorité.',
+    'watch.severity.critical': 'Critique',
+    'watch.severity.high': 'Élevée',
+    'watch.severity.info': 'Information',
+    'hack.fbmap.title': 'Carte mondiale des fuites de données',
+    'hack.fbmap.desc': 'La carte FrenchBreaches recense des incidents et fuites de données à travers le monde avec des filtres par pays, sévérité, secteur et groupe ransomware.',
+    'hack.fbmap.cta': 'Ouvrir la carte FrenchBreaches →',
+    'hack.threat.desc': 'Visualisation temps réel des cyberattaques mondiales, utile pour la veille opérationnelle, l’observation des tendances d’attaque et la sensibilisation défensive.',
+    'hack.threat.cta': 'Ouvrir la Live Cyber Threat Map →',
+    'watch.noResults': 'Aucun signal ne correspond à vos filtres.',
+    'watch.reset': 'Réinitialiser les filtres',
+    'watch.results': 'résultats affichés',
+    'watch.view': 'Vue',
+    'watch.view.global': 'Vue globale',
+    'watch.view.source': 'Vue par source',
+    'watch.sort': 'Trier par',
+    'watch.sort.recent': 'Plus récent',
+    'watch.sort.severity': 'Criticité',
+    'watch.sort.source': 'Source',
+    'watch.priority': 'À traiter en priorité',
+    'watch.copy': 'Copier',
+    'watch.copied': 'Copié',
+    'watch.favorites': 'Favoris',
+    'watch.priority.mode': 'Mode prioritaire',
+    'watch.priority.enabled': 'Mode prioritaire activé — seuls les signaux critiques ou sensibles sont affichés.',
+    'watch.compact': 'Vue compacte',
+    'watch.summary': 'Synthèse de veille',
+    'watch.results.of': 'résultats affichés sur',
+    'pwa.install': 'Installer l’application',
+    'pwa.ios': 'Sur iPhone : Partager → Ajouter à l’écran d’accueil',
+    'pwa.installed': 'Application installée',
     'blog.page.title': 'Blog',
     'zones.game.text': 'Explorez des démonstrations interactives, mini-jeux et parcours cyber immersifs.',
     'zones.game.cta': 'Ouvrir la Game Zone',
     'zones.hack.text': 'Explorez un univers cyber immersif avec visualisation d’attaques, veille offensive et démonstrations interactives.',
     'zones.hack.cta': 'Ouvrir la Hack Zone',
+
+    'blog.back': '← Retour au blog',
+    'blog.enableJs': 'Veuillez activer JavaScript pour afficher l’article.',
+    'footer.copy': 'Copyright © 2026 Jean-Baptiste Terrazzoni. Tous droits réservés.',
+    'footer.contactAria': 'Coordonnées',
+    'contact.title': 'Contact',
+    'parcours.title': 'Parcours académique',
+    'parcours.intro': 'Une chronologie structurée de mes formations en cybersécurité, infrastructure et gouvernance, avec les compétences clés développées à chaque étape.',
+    'parcours.badge1': 'Cybersécurité experte',
+    'parcours.badge2': 'Infrastructure sécurisée',
+    'parcours.badge3': 'GRC & conformité',
+    'parcours.milestones': 'Étapes de formation',
+    'parcours.label.ongoing': 'Diplôme · En cours',
+    'parcours.skills.subtitle': 'Compétences acquises / en cours d’acquisition',
+    'parcours.skill1': 'Architecture de sécurité avancée',
+    'parcours.skill2': 'Gouvernance, risque et conformité',
+    'parcours.skill3': 'Threat intelligence & veille cyber',
+    'parcours.skill4': 'Gestion de crise et réponse à incident',
+    'parcours.skill5': 'Audit, conformité et amélioration continue',
+    'parcours.skill6': 'Stratégie de cybersécurité d’entreprise',
   },
   en: {
     'nav.home': 'Home',
@@ -189,6 +270,8 @@ const I18N_MESSAGES = {
     'nav.watch': 'Watch',
     'nav.blog': 'Blog',
     'nav.projects': 'Projects',
+    'nav.game': 'Game Zone',
+    'nav.hack': 'Hack Zone',
     'hero.eyebrow': 'Infrastructure & Cybersecurity',
     'hero.title': 'Jean-Baptiste Terrazzoni',
     'hero.role': 'Secure Infrastructure Administrator · Cybersecurity · Junior Pentester',
@@ -218,11 +301,75 @@ const I18N_MESSAGES = {
     'cert.page.title': 'Certifications',
     'cert.page.intro': 'A selection of certifications validating my skills in security, networking, and compliance.',
     'watch.page.title': 'Cybersecurity watch',
+    'watch.page.intro': 'This page centralizes cybersecurity monitoring focused on vulnerabilities, active exploitation, cybercrime, data leaks, and operational news. Feeds are aggregated automatically to streamline daily tracking of relevant cyber signals.',
+    'watch.page.goal': 'Goal: collect, filter, qualify, and prioritize useful intelligence.',
+    'watch.search.placeholder': 'Search for a CVE, vendor, threat, keyword...',
+    'watch.readSource': 'Read source →',
+    'watch.showMore': 'Show more',
+    'watch.showLess': 'Collapse',
+    'watch.stats.alerts': 'Alerts & CVEs',
+    'watch.stats.exploitation': 'Active exploitation',
+    'watch.stats.news': 'Cyber news',
+    'watch.stats.leaks': 'Data leaks',
+    'watch.stats.sources': 'Monitored sources',
+    'watch.stats.updated': 'Last update',
+    'watch.alerts.title': '🚨 Alerts & vulnerabilities',
+    'watch.alerts.desc': 'Official alerts and CERT advisories to monitor as a priority.',
+    'watch.severity.critical': 'Critical',
+    'watch.severity.high': 'High',
+    'watch.severity.info': 'Information',
+    'hack.fbmap.title': 'Global data breach map',
+    'hack.fbmap.desc': 'The FrenchBreaches map tracks incidents and data breaches worldwide with filters by country, severity, sector and ransomware group.',
+    'hack.fbmap.cta': 'Open the FrenchBreaches map →',
+    'hack.threat.desc': 'Real-time visualization of global cyberattacks, useful for operational monitoring, observing attack trends and defensive awareness.',
+    'hack.threat.cta': 'Open the Live Cyber Threat Map →',
+    'watch.noResults': 'No signal matches your filters.',
+    'watch.reset': 'Reset filters',
+    'watch.results': 'results displayed',
+    'watch.view': 'View',
+    'watch.view.global': 'Global view',
+    'watch.view.source': 'By source',
+    'watch.sort': 'Sort by',
+    'watch.sort.recent': 'Most recent',
+    'watch.sort.severity': 'Severity',
+    'watch.sort.source': 'Source',
+    'watch.priority': 'Priority items',
+    'watch.copy': 'Copy',
+    'watch.copied': 'Copied',
+    'watch.favorites': 'Favorites',
+    'watch.priority.mode': 'Priority mode',
+    'watch.priority.enabled': 'Priority mode enabled — only critical or sensitive signals are displayed.',
+    'watch.compact': 'Compact view',
+    'watch.summary': 'Watch summary',
+    'watch.results.of': 'results displayed out of',
+    'pwa.install': 'Install app',
+    'pwa.ios': 'On iPhone: Share → Add to Home Screen',
+    'pwa.installed': 'App installed',
     'blog.page.title': 'Blog',
     'zones.game.text': 'Explore interactive demos, mini-games, and immersive cyber tracks.',
     'zones.game.cta': 'Open Game Zone',
     'zones.hack.text': 'Explore an immersive cyber universe with attack visualizations, offensive watch, and interactive demos.',
     'zones.hack.cta': 'Open Hack Zone',
+
+    'blog.back': '← Back to blog',
+    'blog.enableJs': 'Please enable JavaScript to display the article.',
+    'footer.copy': 'Copyright © 2026 Jean-Baptiste Terrazzoni. All rights reserved.',
+    'footer.contactAria': 'Contact details',
+    'contact.title': 'Contact',
+    'parcours.title': 'Academic background',
+    'parcours.intro': 'A structured timeline of my cybersecurity, infrastructure, and governance studies, with the core skills developed at each step.',
+    'parcours.badge1': 'Expert cybersecurity',
+    'parcours.badge2': 'Secure infrastructure',
+    'parcours.badge3': 'GRC & compliance',
+    'parcours.milestones': 'Education milestones',
+    'parcours.label.ongoing': 'Degree · Ongoing',
+    'parcours.skills.subtitle': 'Skills acquired / currently being developed',
+    'parcours.skill1': 'Advanced security architecture',
+    'parcours.skill2': 'Governance, risk, and compliance',
+    'parcours.skill3': 'Threat intelligence & cyber watch',
+    'parcours.skill4': 'Crisis management and incident response',
+    'parcours.skill5': 'Audit, compliance, and continuous improvement',
+    'parcours.skill6': 'Enterprise cybersecurity strategy',
   },
 };
 
@@ -354,41 +501,68 @@ function initMenu() {
 }
 
 function initLanguageSwitcher() {
-  const languageToggle = document.querySelector('[data-language-toggle]');
-  if (!languageToggle) return;
+  const navActions = document.querySelectorAll('.nav-actions, .nav-controls, .header-actions');
+  navActions.forEach((navAction) => {
+    if (navAction.querySelector('[data-language-toggle]')) return;
+    const languageToggle = document.createElement('button');
+    languageToggle.className = 'nav-icon-button language-toggle';
+    languageToggle.type = 'button';
+    languageToggle.dataset.languageToggle = '';
+    const menuToggle = navAction.querySelector('.menu-toggle');
+    if (menuToggle) navAction.insertBefore(languageToggle, menuToggle);
+    else navAction.appendChild(languageToggle);
+  });
+
+  const languageToggles = document.querySelectorAll('[data-language-toggle], .language-toggle');
+  if (!languageToggles.length) return;
 
   const applyLanguage = (lang) => {
     const locale = lang === 'en' ? 'en' : 'fr';
     document.documentElement.lang = locale;
     document.body.dataset.lang = locale;
-    localStorage.setItem('siteLanguage', locale);
+    localStorage.setItem('portfolio-lang', locale);
 
-    if (locale === 'fr') {
-      languageToggle.textContent = '🇬🇧';
-      languageToggle.setAttribute('aria-label', 'Switch language to English');
-      languageToggle.setAttribute('title', 'Switch language to English');
-    } else {
-      languageToggle.textContent = '🇫🇷';
-      languageToggle.setAttribute('aria-label', 'Passer le site en français');
-      languageToggle.setAttribute('title', 'Passer le site en français');
-    }
-
-    const dictionary = I18N_MESSAGES[locale] || I18N_MESSAGES.fr;
-    document.querySelectorAll('[data-i18n]').forEach((node) => {
-      const key = node.dataset.i18n;
-      const translation = dictionary[key];
-      if (translation) {
-        node.textContent = translation;
+    languageToggles.forEach((languageToggle) => {
+      if (locale === 'fr') {
+        languageToggle.textContent = '🇬🇧';
+        languageToggle.setAttribute('aria-label', 'Switch to English');
+        languageToggle.setAttribute('title', 'Switch to English');
+      } else {
+        languageToggle.textContent = '🇫🇷';
+        languageToggle.setAttribute('aria-label', 'Passer en français');
+        languageToggle.setAttribute('title', 'Passer en français');
       }
     });
+
+    document.querySelectorAll('[data-i18n]').forEach((node) => {
+      const key = node.dataset.i18n;
+      const translation = I18N_MESSAGES[locale]?.[key];
+      if (translation) node.textContent = translation;
+      else if (key) console.warn(`[i18n] Missing translation for key "${key}" in locale "${locale}"`);
+    });
+
+    document.querySelectorAll('[data-i18n-aria-label]').forEach((node) => {
+      const key = node.dataset.i18nAriaLabel;
+      const translation = I18N_MESSAGES[locale]?.[key];
+      if (translation) node.setAttribute('aria-label', translation);
+    });
+    document.querySelectorAll('[data-i18n-placeholder]').forEach((node) => {
+      const key = node.dataset.i18nPlaceholder;
+      const translation = I18N_MESSAGES[locale]?.[key];
+      if (translation) node.setAttribute('placeholder', translation);
+    });
+
+    document.dispatchEvent(new CustomEvent('portfolio:languagechange', { detail: { lang: locale } }));
   };
 
-  const storedLanguage = localStorage.getItem('siteLanguage') || localStorage.getItem('site-language');
+  const storedLanguage = localStorage.getItem('portfolio-lang') || localStorage.getItem('siteLanguage') || localStorage.getItem('site-language');
   applyLanguage(storedLanguage === 'en' ? 'en' : 'fr');
 
-  languageToggle.addEventListener('click', () => {
-    const nextLanguage = document.documentElement.lang === 'fr' ? 'en' : 'fr';
-    applyLanguage(nextLanguage);
+  languageToggles.forEach((languageToggle) => {
+    languageToggle.addEventListener('click', () => {
+      const nextLanguage = document.documentElement.lang === 'fr' ? 'en' : 'fr';
+      applyLanguage(nextLanguage);
+    });
   });
 }
 
@@ -889,7 +1063,8 @@ function initRssFeeds() {
     .filter(Boolean);
 
   if (!tasks.length) return;
-  Promise.allSettled(tasks);
+  Promise.allSettled(tasks).finally(() => updateWatchDashboard());
+  initWatchFilters();
 }
 
 function initShootingStars() {
@@ -1230,8 +1405,11 @@ function renderRssItems({ items, container, label, key }) {
   const moreButton = container.querySelector('[data-rss-more]');
 
   if (!list) return;
+  const locale = document.documentElement.lang === 'en' ? 'en' : 'fr';
+  const t = (k, f) => I18N_MESSAGES[locale]?.[k] || f;
+  const favorites = new Set(JSON.parse(localStorage.getItem('watchFavorites') || '[]'));
 
-  const visibleItems = items.slice(0, RSS_INITIAL_ITEMS);
+  const visibleItems = items.slice(0, 6);
   list.innerHTML = '';
 
   const renderSet = (set) => {
@@ -1239,10 +1417,22 @@ function renderRssItems({ items, container, label, key }) {
     set.forEach((item) => {
       const card = document.createElement('article');
       card.className = 'rss-item';
+      const severity = computeSeverity(`${item.title} ${item.excerpt}`);
+      card.dataset.severity = severity.level;
+      const panelKey = card.closest('.veille-panel')?.dataset.veillePanel || '';
+      card.dataset.search = `${item.title} ${item.excerpt} ${label} ${item.date} ${panelKey} ${severity.label}`.toLowerCase();
 
       const meta = document.createElement('div');
       meta.className = 'rss-item-meta';
       meta.innerHTML = `<span>${label}</span><span>${item.date}</span>`;
+      const sevBadge = document.createElement('span');
+      sevBadge.className = `rss-severity rss-severity-${severity.level}`;
+      sevBadge.textContent = severity.label;
+      meta.appendChild(sevBadge);
+      const priorityBadge = document.createElement('span');
+      priorityBadge.className = 'rss-priority-score';
+      priorityBadge.textContent = `${locale === 'en' ? 'Priority' : 'Priorité'} ${computePriorityScore(card.dataset.search, severity.level)}`;
+      meta.appendChild(priorityBadge);
 
       const title = document.createElement('h4');
       const link = document.createElement('a');
@@ -1255,10 +1445,55 @@ function renderRssItems({ items, container, label, key }) {
       const excerpt = document.createElement('p');
       excerpt.className = 'rss-item-excerpt';
       excerpt.textContent = item.excerpt;
+      const cta = document.createElement('a');
+      cta.className = 'rss-read-more';
+      cta.href = item.link;
+      cta.target = '_blank';
+      cta.rel = 'noopener noreferrer';
+      cta.dataset.i18n = 'watch.readSource';
+      cta.textContent = t('watch.readSource', 'Lire la source →');
+      const actions = document.createElement('div');
+      actions.className = 'rss-item-actions';
+      const copyBtn = document.createElement('button');
+      copyBtn.type = 'button';
+      copyBtn.className = 'rss-copy';
+      copyBtn.textContent = t('watch.copy', 'Copier');
+      copyBtn.addEventListener('click', async () => {
+        const payload = `[${severity.label}] ${item.title}\nSource : ${label}\nDate : ${item.date}\nCatégorie : ${key}\nRésumé : ${item.excerpt}\nLien : ${item.link}`;
+        await navigator.clipboard.writeText(payload).catch(() => {});
+        copyBtn.textContent = t('watch.copied', 'Copié');
+        setTimeout(() => { copyBtn.textContent = t('watch.copy', 'Copier'); }, 1000);
+      });
+      const favBtn = document.createElement('button');
+      favBtn.type = 'button';
+      favBtn.className = 'rss-favorite';
+      const favKey = item.link;
+      const refreshFav = () => { favBtn.textContent = favorites.has(favKey) ? '★' : '☆'; card.dataset.favorite = favorites.has(favKey) ? '1' : ''; };
+      favBtn.addEventListener('click', () => {
+        if (favorites.has(favKey)) favorites.delete(favKey); else favorites.add(favKey);
+        localStorage.setItem('watchFavorites', JSON.stringify(Array.from(favorites)));
+        refreshFav();
+      });
+      refreshFav();
+      actions.append(copyBtn, favBtn);
+      const tags = detectWatchTags(`${item.title} ${item.excerpt}`);
+      if (tags.length) {
+        const wrap = document.createElement('div');
+        wrap.className = 'rss-tags';
+        tags.forEach((tag) => {
+          const s = document.createElement('span');
+          s.className = 'rss-tag';
+          s.textContent = tag;
+          wrap.appendChild(s);
+        });
+        card.appendChild(wrap);
+      }
 
       card.appendChild(meta);
       card.appendChild(title);
       card.appendChild(excerpt);
+      card.appendChild(cta);
+      card.appendChild(actions);
       list.appendChild(card);
     });
   };
@@ -1266,7 +1501,7 @@ function renderRssItems({ items, container, label, key }) {
   if (items.length) {
     renderSet(visibleItems);
     if (status) {
-      status.textContent = `Dernière mise à jour · ${items[0].date}`;
+      status.textContent = `${t('watch.stats.updated', 'Dernière mise à jour')} · ${items[0].date}`;
     }
     updateRssTabCount(key, items.length);
   } else {
@@ -1278,15 +1513,265 @@ function renderRssItems({ items, container, label, key }) {
       moreButton.hidden = false;
       moreButton.onclick = () => {
         renderSet(items);
-        moreButton.hidden = true;
+        moreButton.dataset.expanded = 'true';
+        moreButton.textContent = t('watch.showLess', 'Réduire');
+        moreButton.onclick = () => {
+          renderSet(visibleItems);
+          moreButton.dataset.expanded = 'false';
+          moreButton.textContent = t('watch.showMore', 'Afficher plus');
+        };
         if (status) {
           status.textContent = `Affichage complet (${items.length} articles)`;
         }
       };
+      moreButton.textContent = t('watch.showMore', 'Afficher plus');
     } else {
       moreButton.hidden = true;
     }
   }
+  RSS_ALL_ITEMS.push(...items.map((item) => ({ ...item, key, label })));
+  updateWatchDashboard();
+}
+
+function computeSeverity(text) {
+  const locale = document.documentElement.lang === 'en' ? 'en' : 'fr';
+  const t = (k, f) => I18N_MESSAGES[locale]?.[k] || f;
+  const value = (text || '').toLowerCase();
+  const critical = ['critical', 'critique', 'rce', 'remote code execution', '0-day', 'zero-day', 'exploited', 'exploitation active', 'ransomware', 'cvss 9', 'cvss 10'];
+  const high = ['cve', 'vulnérabilité', 'vulnerability', 'patch', 'security update', 'compromission', 'malware'];
+  if (critical.some((k) => value.includes(k))) return { level: 'critical', label: t('watch.severity.critical', 'Critique') };
+  if (high.some((k) => value.includes(k))) return { level: 'high', label: t('watch.severity.high', 'Élevée') };
+  return { level: 'info', label: t('watch.severity.info', 'Information') };
+}
+
+function detectWatchTags(text) {
+  const value = (text || '').toLowerCase();
+  const rules = ['CVE', 'Ransomware', 'Exploitation active', 'Patch', 'Microsoft', 'Fortinet', 'Cisco', 'Oracle', 'Linux', 'Cloud', 'Santé', 'Data leak', 'Malware'];
+  return rules.filter((tag) => value.includes(tag.toLowerCase()));
+}
+
+function computePriorityScore(haystack, severity) {
+  let score = severity === 'critical' ? 50 : severity === 'high' ? 20 : 0;
+  const add = (k, v) => { if (haystack.includes(k)) score += v; };
+  add('rce', 30); add('0-day', 30); add('zero-day', 30); add('exploited', 30); add('exploitation active', 30);
+  add('ransomware', 25); add('cisa kev', 25); add('cvss 9', 25); add('cvss 10', 25);
+  add('sante', 15); add('esante', 15); add('hospital', 15); add('healthcare', 15);
+  add('cve', 10); add('patch', 5); add('security update', 5);
+  return score;
+}
+
+function initWatchFilters() {
+  const search = document.querySelector('[data-watch-search]');
+  if (!search) return;
+  const chips = Array.from(document.querySelectorAll('.watch-chip'));
+  const resetButton = document.querySelector('[data-watch-reset]');
+  const noResults = document.querySelector('[data-watch-no-results]');
+  const resultsCount = document.querySelector('[data-watch-results-count]');
+  const viewSelect = document.querySelector('[data-watch-view]');
+  const sortSelect = document.querySelector('[data-watch-sort]');
+  const priorityBox = document.querySelector('[data-watch-priority]');
+  const priorityToggle = document.querySelector('[data-watch-priority-toggle]');
+  const compactToggle = document.querySelector('[data-watch-compact-toggle]');
+  const priorityBanner = document.querySelector('[data-watch-priority-banner]');
+  const summaryText = document.querySelector('[data-watch-summary-text]');
+  if (viewSelect) viewSelect.value = localStorage.getItem('watch-view') || 'source';
+  if (sortSelect) sortSelect.value = localStorage.getItem('watch-sort') || 'recent';
+  if (priorityToggle) priorityToggle.checked = localStorage.getItem('watch-priority') === '1';
+  if (compactToggle) compactToggle.checked = localStorage.getItem('watch-compact') === '1';
+
+  const normalize = (value) => (value || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  const update = () => {
+    const term = normalize(search.value);
+    const activeFilters = chips.filter((chip) => chip.classList.contains('active')).map((chip) => normalize(chip.dataset.watchFilter));
+    const activeTab = document.querySelector('.veille-panel.active')?.dataset.veillePanel || '';
+    const viewMode = viewSelect?.value || localStorage.getItem('watch-view') || 'source';
+    const sortMode = sortSelect?.value || localStorage.getItem('watch-sort') || 'recent';
+    const priorityMode = priorityToggle?.checked;
+    const compactMode = compactToggle?.checked;
+    let visible = 0;
+    let totalInTab = 0;
+    const visibleCards = [];
+
+    document.querySelectorAll('.rss-item').forEach((card) => {
+      const inActiveTab = card.closest('.veille-panel')?.dataset.veillePanel === activeTab;
+      const haystack = normalize(card.dataset.search || '');
+      const severity = normalize(card.dataset.severity || '');
+      const matchesSearch = !term || haystack.includes(term);
+      const matchesFilters = activeFilters.every((filter) => haystack.includes(filter) || severity.includes(filter));
+      const isPriority = card.dataset.severity === 'critical' || ['rce','0-day','zero-day','exploited','exploitation active','ransomware','cisa kev','cvss 9','cvss 10','sante','esante','hospital','healthcare','compromission','fuite de donnees majeure','vulnerabilite critique'].some((k)=> haystack.includes(normalize(k)));
+      if (inActiveTab) totalInTab += 1;
+      const isVisible = inActiveTab && matchesSearch && matchesFilters && (!priorityMode || isPriority);
+      card.hidden = !isVisible;
+      card.classList.toggle('rss-item-compact', !!compactMode);
+      card.dataset.priorityScore = String(computePriorityScore(haystack, card.dataset.severity));
+      if (isVisible) visible += 1;
+      if (isVisible) visibleCards.push(card);
+    });
+
+    if (sortMode === 'source') visibleCards.sort((a,b)=> (a.dataset.search||'').localeCompare(b.dataset.search||''));
+    if (sortMode === 'severity') visibleCards.sort((a,b)=> ({critical:3,high:2,info:1}[b.dataset.severity]-({critical:3,high:2,info:1}[a.dataset.severity])));
+    visibleCards.forEach((card)=> card.parentElement?.appendChild(card));
+
+    document.body.dataset.watchView = viewMode;
+    document.querySelectorAll('.rss-sources').forEach((group)=> group.classList.toggle('watch-global-view', viewMode==='global'));
+
+    document.querySelectorAll('.rss-source').forEach((source) => {
+      const hasVisible = Array.from(source.querySelectorAll('.rss-item')).some((item) => !item.hidden);
+      source.hidden = !hasVisible;
+    });
+
+    if (resultsCount) {
+      const locale = document.documentElement.lang === 'en' ? 'en' : 'fr';
+      const suffix = I18N_MESSAGES[locale]?.['watch.results.of'] || 'résultats affichés sur';
+      resultsCount.textContent = term
+        ? `${visible} ${I18N_MESSAGES[locale]?.['watch.results'] || 'résultats affichés'} "${search.value}"`
+        : `${visible} ${suffix} ${totalInTab}`;
+    }
+    if (noResults) noResults.hidden = visible !== 0;
+    if (priorityBanner) priorityBanner.hidden = !priorityMode;
+    if (summaryText) {
+      const critical = visibleCards.filter((c)=> c.dataset.severity === 'critical').length;
+      const tags = visibleCards.flatMap((c)=> Array.from(c.querySelectorAll('.rss-tag')).map((n)=>n.textContent)).slice(0,4).join(', ');
+      summaryText.textContent = `${critical} ${locale === 'en' ? 'critical signals detected.' : 'signaux critiques détectés.'} ${locale === 'en' ? 'Main topics:' : 'Thèmes dominants :'} ${tags || 'CVE, ransomware'}.`;
+    }
+  };
+
+  search.addEventListener('input', update);
+  chips.forEach((chip) => {
+    chip.addEventListener('click', () => {
+      chip.classList.toggle('active');
+      update();
+    });
+  });
+  viewSelect?.addEventListener('change', () => { localStorage.setItem('watch-view', viewSelect.value); update(); });
+  sortSelect?.addEventListener('change', () => { localStorage.setItem('watch-sort', sortSelect.value); update(); });
+  priorityToggle?.addEventListener('change', () => { localStorage.setItem('watch-priority', priorityToggle.checked ? '1' : '0'); update(); });
+  compactToggle?.addEventListener('change', () => { localStorage.setItem('watch-compact', compactToggle.checked ? '1' : '0'); update(); });
+  resetButton?.addEventListener('click', () => {
+    search.value = '';
+    chips.forEach((chip) => chip.classList.remove('active'));
+    const firstTab = document.querySelector('[data-veille-tab]');
+    firstTab?.click();
+    update();
+  });
+  document.querySelector('[data-veille-tabs]')?.addEventListener('click', () => setTimeout(update, 0));
+  document.addEventListener('portfolio:languagechange', update);
+  update();
+}
+
+function updateWatchDashboard() {
+  const set = (key, value) => {
+    const node = document.querySelector(`[data-watch-stat="${key}"]`);
+    if (node) node.textContent = value;
+  };
+  const bySeverity = { critical: 0, high: 0, info: 0 };
+  RSS_ALL_ITEMS.forEach((item) => bySeverity[computeSeverity(`${item.title} ${item.excerpt}`).level] += 1);
+  set('alerts', RSS_TAB_COUNTS.get('alertes') ? Array.from(RSS_TAB_COUNTS.get('alertes').values()).reduce((a,b)=>a+b,0) : 0);
+  set('exploitation', RSS_TAB_COUNTS.get('exploitation') ? Array.from(RSS_TAB_COUNTS.get('exploitation').values()).reduce((a,b)=>a+b,0) : 0);
+  set('news', RSS_TAB_COUNTS.get('actualite') ? Array.from(RSS_TAB_COUNTS.get('actualite').values()).reduce((a,b)=>a+b,0) : 0);
+  set('leaks', RSS_TAB_COUNTS.get('leaks') ? Array.from(RSS_TAB_COUNTS.get('leaks').values()).reduce((a,b)=>a+b,0) : 0);
+  set('sources', document.querySelectorAll('[data-rss-feed]').length);
+  set('updated', new Date().toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' }));
+}
+
+function initWatchReader() {
+  const card = document.querySelector('[data-reader-card]');
+  if (!card) return;
+  const title = card.querySelector('[data-reader-title]');
+  const meta = card.querySelector('[data-reader-meta]');
+  const excerpt = card.querySelector('[data-reader-excerpt]');
+  const link = card.querySelector('[data-reader-link]');
+  const progress = card.querySelector('[data-reader-progress]');
+  const progressBar = card.querySelector('[data-reader-progress-bar]');
+  const nextBtn = card.querySelector('[data-reader-next]');
+  const copyBtn = card.querySelector('[data-reader-copy]');
+  const listBtn = card.querySelector('[data-reader-toggle-list]');
+  const chips = Array.from(document.querySelectorAll('[data-reader-filter]'));
+  let idx = 0;
+  let currentFilter = 'all';
+  let showList = false;
+
+  const score = (item) => {
+    const txt = `${item.title} ${item.excerpt}`.toLowerCase();
+    let s = 0; if (computeSeverity(txt).level === 'critical') s += 100;
+    if (txt.includes('exploitation active') || txt.includes('exploited') || txt.includes('rce') || txt.includes('0-day')) s += 80;
+    if (txt.includes('fuite') || txt.includes('leak')) s += 60;
+    if (txt.includes('ransomware')) s += 50;
+    if (txt.includes('cve')) s += 30;
+    return s;
+  };
+
+  const filtered = () => RSS_ALL_ITEMS
+    .map((i) => ({ ...i, severity: computeSeverity(`${i.title} ${i.excerpt}`) }))
+    .filter((i) => currentFilter === 'all' || `${i.title} ${i.excerpt} ${i.label}`.toLowerCase().includes(currentFilter))
+    .sort((a,b) => score(b)-score(a));
+
+  const render = () => {
+    const items = filtered();
+    document.querySelectorAll('.veille-panels').forEach((el)=> el.hidden = !showList);
+    if (!items.length) {
+      title.textContent = 'Aucune alerte disponible pour ce filtre.';
+      meta.textContent = '';
+      excerpt.textContent = '';
+      progress.textContent = 'Article 0 / 0';
+      link.href = '#';
+      return;
+    }
+    idx = Math.min(idx, items.length - 1);
+    const item = items[idx];
+    title.textContent = item.title;
+    meta.textContent = `${item.label} · ${item.date} · ${item.severity.label}`;
+    excerpt.textContent = item.excerpt;
+    link.href = item.link;
+    progress.textContent = `Article ${idx + 1} / ${items.length}`;
+    progressBar.style.width = `${((idx + 1) / items.length) * 100}%`;
+  };
+
+  nextBtn?.addEventListener('click', () => { idx += 1; render(); });
+  copyBtn?.addEventListener('click', async () => { await navigator.clipboard.writeText(`${title.textContent}\n${meta.textContent}\n${excerpt.textContent}\n${link.href}`); });
+  listBtn?.addEventListener('click', () => { showList = !showList; listBtn.textContent = showList ? 'Revenir à la lecture' : 'Voir la liste complète'; render(); });
+  chips.forEach((chip) => chip.addEventListener('click', () => {
+    chips.forEach((c) => c.classList.remove('active'));
+    chip.classList.add('active');
+    currentFilter = chip.dataset.readerFilter;
+    idx = 0;
+    render();
+  }));
+  card.addEventListener('touchstart', (e) => { card.dataset.touchX = String(e.changedTouches[0].clientX); }, { passive: true });
+  card.addEventListener('touchend', (e) => { const dx = (parseFloat(card.dataset.touchX||'0') - e.changedTouches[0].clientX); if (dx > 45) { idx += 1; render(); } }, { passive: true });
+  document.addEventListener('keydown', (e) => { if (e.key === 'ArrowRight' || e.key === ' ') { idx += 1; render(); } });
+  setInterval(render, 2000);
+}
+
+function initPwaInstall() {
+  const btn = document.querySelector('[data-pwa-install]');
+  const hint = document.querySelector('[data-pwa-ios-hint]');
+  const installed = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone;
+  if (installed) {
+    if (hint) { hint.hidden = false; hint.textContent = I18N_MESSAGES[document.documentElement.lang === 'en' ? 'en' : 'fr']['pwa.installed']; }
+    if (btn) btn.hidden = true;
+    return;
+  }
+  let deferredPrompt = null;
+  window.addEventListener('beforeinstallprompt', (event) => {
+    event.preventDefault();
+    deferredPrompt = event;
+    if (btn) btn.hidden = false;
+  });
+  btn?.addEventListener('click', async () => {
+    if (!deferredPrompt) return;
+    await deferredPrompt.prompt();
+    deferredPrompt = null;
+    btn.hidden = true;
+  });
+  const isIOS = /iphone|ipad|ipod/i.test(navigator.userAgent);
+  if (isIOS && hint) hint.hidden = false;
+}
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/portfolio/sw.js').catch((error) => console.warn('Service worker registration failed:', error));
+  });
 }
 
 function renderRssEmpty(container, status) {
