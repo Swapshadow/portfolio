@@ -210,11 +210,13 @@ const I18N_MESSAGES = {
     'watch.severity.high': 'Élevée',
     'watch.severity.info': 'Information',
     'hack.fbmap.title': 'Carte mondiale des fuites de données',
-    'hack.fbmap.desc': 'La carte FrenchBreaches recense des incidents et fuites de données à travers le monde avec des filtres par pays, sévérité, secteur et groupe ransomware. L’intégration directe en iframe n’étant pas fonctionnelle sur GitHub Pages, la carte est proposée via un accès externe.',
-    'hack.fbmap.open': 'Outil open source, utilisation libre pour tous.',
+    'hack.fbmap.desc': 'La carte FrenchBreaches recense des incidents et fuites de données à travers le monde avec des filtres par pays, sévérité, secteur et groupe ransomware.',
     'hack.fbmap.cta': 'Ouvrir la carte FrenchBreaches →',
     'hack.threat.desc': 'Visualisation temps réel des cyberattaques mondiales, utile pour la veille opérationnelle, l’observation des tendances d’attaque et la sensibilisation défensive.',
     'hack.threat.cta': 'Ouvrir la Live Cyber Threat Map →',
+    'watch.noResults': 'Aucun résultat pour cette recherche.',
+    'watch.reset': 'Réinitialiser les filtres',
+    'watch.results': 'résultats affichés',
     'blog.page.title': 'Blog',
     'zones.game.text': 'Explorez des démonstrations interactives, mini-jeux et parcours cyber immersifs.',
     'zones.game.cta': 'Ouvrir la Game Zone',
@@ -297,11 +299,13 @@ const I18N_MESSAGES = {
     'watch.severity.high': 'High',
     'watch.severity.info': 'Information',
     'hack.fbmap.title': 'Global data breach map',
-    'hack.fbmap.desc': 'The FrenchBreaches map tracks incidents and data breaches worldwide with filters by country, severity, sector and ransomware group. Since direct iframe embedding is not functional on GitHub Pages, the map is provided through an external access link.',
-    'hack.fbmap.open': 'Open-source tool, free for everyone to use.',
+    'hack.fbmap.desc': 'The FrenchBreaches map tracks incidents and data breaches worldwide with filters by country, severity, sector and ransomware group.',
     'hack.fbmap.cta': 'Open the FrenchBreaches map →',
     'hack.threat.desc': 'Real-time visualization of global cyberattacks, useful for operational monitoring, observing attack trends and defensive awareness.',
     'hack.threat.cta': 'Open the Live Cyber Threat Map →',
+    'watch.noResults': 'No results for this search.',
+    'watch.reset': 'Reset filters',
+    'watch.results': 'results displayed',
     'blog.page.title': 'Blog',
     'zones.game.text': 'Explore interactive demos, mini-games, and immersive cyber tracks.',
     'zones.game.cta': 'Open Game Zone',
@@ -1373,7 +1377,8 @@ function renderRssItems({ items, container, label, key }) {
       card.className = 'rss-item';
       const severity = computeSeverity(`${item.title} ${item.excerpt}`);
       card.dataset.severity = severity.level;
-      card.dataset.search = `${item.title} ${item.excerpt} ${label}`.toLowerCase();
+      const panelKey = card.closest('.veille-panel')?.dataset.veillePanel || '';
+      card.dataset.search = `${item.title} ${item.excerpt} ${label} ${item.date} ${panelKey} ${severity.label}`.toLowerCase();
 
       const meta = document.createElement('div');
       meta.className = 'rss-item-meta';
@@ -1459,23 +1464,58 @@ function computeSeverity(text) {
 function initWatchFilters() {
   const search = document.querySelector('[data-watch-search]');
   if (!search) return;
-  const apply = () => {
-    const term = (search.value || '').trim().toLowerCase();
+  const chips = Array.from(document.querySelectorAll('.watch-chip'));
+  const resetButton = document.querySelector('[data-watch-reset]');
+  const noResults = document.querySelector('[data-watch-no-results]');
+  const resultsCount = document.querySelector('[data-watch-results-count]');
+
+  const normalize = (value) => (value || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  const update = () => {
+    const term = normalize(search.value);
+    const activeFilters = chips.filter((chip) => chip.classList.contains('active')).map((chip) => normalize(chip.dataset.watchFilter));
+    const activeTab = document.querySelector('.veille-panel.active')?.dataset.veillePanel || '';
+    let visible = 0;
+
     document.querySelectorAll('.rss-item').forEach((card) => {
-      const matchesTerm = !term || card.dataset.search?.includes(term);
-      const activeChip = document.querySelector('.watch-chip.active')?.dataset.watchFilter || '';
-      const matchesChip = !activeChip || card.dataset.search?.includes(activeChip) || card.dataset.severity === activeChip;
-      card.hidden = !(matchesTerm && matchesChip);
+      const inActiveTab = card.closest('.veille-panel')?.dataset.veillePanel === activeTab;
+      const haystack = normalize(card.dataset.search || '');
+      const severity = normalize(card.dataset.severity || '');
+      const matchesSearch = !term || haystack.includes(term);
+      const matchesFilters = activeFilters.every((filter) => haystack.includes(filter) || severity.includes(filter));
+      const isVisible = inActiveTab && matchesSearch && matchesFilters;
+      card.hidden = !isVisible;
+      if (isVisible) visible += 1;
     });
+
+    document.querySelectorAll('.rss-source').forEach((source) => {
+      const hasVisible = Array.from(source.querySelectorAll('.rss-item')).some((item) => !item.hidden);
+      source.hidden = !hasVisible;
+    });
+
+    if (resultsCount) {
+      const locale = document.documentElement.lang === 'en' ? 'en' : 'fr';
+      resultsCount.textContent = `${visible} ${I18N_MESSAGES[locale]?.['watch.results'] || 'résultats affichés'}`;
+    }
+    if (noResults) noResults.hidden = visible !== 0;
   };
-  search.addEventListener('input', apply);
-  document.querySelectorAll('.watch-chip').forEach((chip) => {
+
+  search.addEventListener('input', update);
+  chips.forEach((chip) => {
     chip.addEventListener('click', () => {
-      document.querySelectorAll('.watch-chip').forEach((c) => c.classList.remove('active'));
-      if (!chip.classList.contains('active')) chip.classList.add('active');
-      apply();
+      chip.classList.toggle('active');
+      update();
     });
   });
+  resetButton?.addEventListener('click', () => {
+    search.value = '';
+    chips.forEach((chip) => chip.classList.remove('active'));
+    const firstTab = document.querySelector('[data-veille-tab]');
+    firstTab?.click();
+    update();
+  });
+  document.querySelector('[data-veille-tabs]')?.addEventListener('click', () => setTimeout(update, 0));
+  document.addEventListener('portfolio:languagechange', update);
+  update();
 }
 
 function updateWatchDashboard() {
