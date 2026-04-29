@@ -69,17 +69,18 @@
         </button>
       </div>
       <ul class="site-nav-links">
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="parcours.html">Parcours</a></li>
-        <li><a href="certifications.html">Certifications</a></li>
-        <li><a href="veille.html">Veille</a></li>
-        <li><a href="blog/">Blog</a></li>
-        <li><a href="projets.html">Projets</a></li>
-        <li><a href="game.html">Game Zone</a></li>
-        <li><a href="hackzone.html">Hack Zone</a></li>
+        <li><a href="index.html" data-i18n="nav.home">Accueil</a></li>
+        <li><a href="parcours.html" data-i18n="nav.journey">Parcours</a></li>
+        <li><a href="certifications.html" data-i18n="nav.certs">Certifications</a></li>
+        <li><a href="veille.html" data-i18n="nav.watch">Veille</a></li>
+        <li><a href="blog/" data-i18n="nav.blog">Blog</a></li>
+        <li><a href="projets.html" data-i18n="nav.projects">Projets</a></li>
+        <li><a href="game.html" data-i18n="nav.game">Game Zone</a></li>
+        <li><a href="hackzone.html" data-i18n="nav.hack">Hack Zone</a></li>
         <li class="site-nav-title">Sections</li>
         <li><a href="#hack-hero" data-section-link="hack-hero">Présentation</a></li>
         <li><a href="#live-threat-map" data-section-link="live-threat-map">Live Cyber Threat Map</a></li>
+        <li><a href="#frenchbreaches-map" data-section-link="frenchbreaches-map">FrenchBreaches Map</a></li>
       </ul>
     </div>
   </nav>
@@ -102,8 +103,7 @@
           <div class="section-heading hack-section-heading">
             <h2 class="section-title">Live Cyber Threat Map</h2>
             <p>
-              Flux de visualisation temps réel des cyberattaques mondiales pour soutenir la veille opérationnelle,
-              l’observation des tendances d’attaque et la sensibilisation défensive.
+              <span data-i18n="hack.threat.desc">Visualisation temps réel des cyberattaques mondiales, utile pour la veille opérationnelle, l’observation des tendances d’attaque et la sensibilisation défensive.</span>
             </p>
           </div>
 
@@ -117,6 +117,26 @@
               allow="fullscreen"
             ></iframe>
           </div>
+          <div class="frenchbreaches-map-actions">
+            <a class="button button-hackzone" href="https://threatmap.checkpoint.com/" target="_blank" rel="noopener noreferrer" data-i18n="hack.threat.cta">Ouvrir la Live Cyber Threat Map →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section frenchbreaches-map-section" id="frenchbreaches-map" data-section="frenchbreaches-map">
+      <div class="container">
+        <article class="frenchbreaches-map-card reveal-on-scroll" data-reveal>
+          <div class="section-heading hack-section-heading">
+            <h2 class="section-title" data-i18n="hack.fbmap.title">Carte mondiale des fuites de données</h2>
+            <p data-i18n="hack.fbmap.desc">La carte FrenchBreaches recense des incidents et fuites de données à travers le monde avec des filtres par pays, sévérité, secteur et groupe ransomware.</p>
+          </div>
+          <div class="frenchbreaches-map-fallback" data-frenchbreaches-fallback>
+            <div class="frenchbreaches-map-badges"><span>Open Source</span><span>External Map</span><span>Data Breaches</span></div>
+          </div>
+          <div class="frenchbreaches-map-actions">
+            <a class="button button-hackzone" href="https://map.frenchbreaches.com/" target="_blank" rel="noopener noreferrer" data-i18n="hack.fbmap.cta">Ouvrir la carte FrenchBreaches →</a>
+          </div>
         </article>
       </div>
     </section>
@@ -125,7 +145,7 @@
   <footer class="footer footer-game">
     <div class="container footer-content">
       <p>Hack Zone centralise une vue live des menaces pour la veille cyber et l’analyse contextuelle.</p>
-      <div class="footer-contact" aria-label="Coordonnées">
+      <div class="footer-contact" aria-label="Coordonnées" data-i18n-aria-label="footer.contactAria">
         <a class="footer-icon" href="#" data-contact-label="Email" data-contact-value="terrazzoni.corsica@proton.me" data-contact-href="mailto:terrazzoni.corsica@proton.me" aria-label="Envoyer un email">
           <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
@@ -145,8 +165,8 @@
     <div class="contact-modal__overlay" data-modal-close></div>
     <div class="contact-modal__content">
       <button class="contact-modal__close" type="button" data-modal-close aria-label="Fermer">×</button>
-      <h2 class="contact-modal__title" id="contact-modal-title">Contact</h2>
-      <p class="contact-modal__value"><a id="contact-modal-link" href="#">Contact</a></p>
+      <h2 class="contact-modal__title" id="contact-modal-title"> <span data-i18n="contact.title">Contact</span></h2>
+      <p class="contact-modal__value"><a id="contact-modal-link" href="#"> <span data-i18n="contact.title">Contact</span></a></p>
     </div>
   </div>
   <script src="script.js" defer></script>

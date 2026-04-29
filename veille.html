@@ -128,7 +128,31 @@
     <section class="section" id="veille" data-section="veille">
       <div class="container section-card reveal-on-scroll" data-reveal>
         <h1 class="section-title" data-i18n="watch.page.title">Veille cybersécurité</h1>
-        <p>Flux RSS agrégés côté client pour suivre les alertes, l’exploitation et l’actualité cyber.</p>
+        <p data-i18n="watch.page.intro">Cette page centralise une veille cybersécurité orientée vulnérabilités, exploitation active, cybercriminalité, fuites de données et actualité opérationnelle. Les flux sont agrégés automatiquement afin de faciliter le suivi quotidien des signaux cyber pertinents.</p>
+        <p class="watch-goal" data-i18n="watch.page.goal">Objectif : collecter, filtrer, qualifier et prioriser les informations utiles.</p>
+        <div class="watch-stats-grid">
+          <article class="watch-stat-card"><h3 data-i18n="watch.stats.alerts">Alertes &amp; CVE</h3><p data-watch-stat="alerts">0</p></article>
+          <article class="watch-stat-card"><h3 data-i18n="watch.stats.exploitation">Exploitation active</h3><p data-watch-stat="exploitation">0</p></article>
+          <article class="watch-stat-card"><h3 data-i18n="watch.stats.news">Actualité cyber</h3><p data-watch-stat="news">0</p></article>
+          <article class="watch-stat-card"><h3 data-i18n="watch.stats.leaks">Fuites de données</h3><p data-watch-stat="leaks">0</p></article>
+          <article class="watch-stat-card"><h3 data-i18n="watch.stats.sources">Sources surveillées</h3><p data-watch-stat="sources">0</p></article>
+          <article class="watch-stat-card"><h3 data-i18n="watch.stats.updated">Dernière mise à jour</h3><p data-watch-stat="updated">--:--</p></article>
+        </div>
+        <input class="watch-search" type="search" data-watch-search data-i18n-placeholder="watch.search.placeholder" placeholder="Rechercher une CVE, un éditeur, une menace, un mot-clé...">
+        <div class="watch-chips">
+          <button class="watch-chip" type="button" data-watch-filter="critical" data-i18n="watch.severity.critical">Critique</button>
+          <button class="watch-chip" type="button" data-watch-filter="high" data-i18n="watch.severity.high">Élevée</button>
+          <button class="watch-chip" type="button" data-watch-filter="info" data-i18n="watch.severity.info">Information</button>
+          <button class="watch-chip" type="button" data-watch-filter="cve">CVE</button>
+          <button class="watch-chip" type="button" data-watch-filter="ransomware">Ransomware</button>
+          <button class="watch-chip" type="button" data-watch-filter="exploitation active">Exploitation active</button>
+          <button class="watch-chip" type="button" data-watch-filter="fuite de données">Fuite de données</button>
+        </div>
+        <p class="watch-results-count" data-watch-results-count>0 résultats affichés</p>
+        <div class="watch-no-results" data-watch-no-results hidden>
+          <p data-i18n="watch.noResults">Aucun résultat pour cette recherche.</p>
+          <button class="watch-reset" type="button" data-watch-reset data-i18n="watch.reset">Réinitialiser les filtres</button>
+        </div>
         <div class="veille-tabs" role="tablist" aria-label="Catégories de veille" data-veille-tabs>
           <button
             class="veille-tab active"
@@ -139,7 +163,7 @@
             aria-controls="cert-fr"
             data-veille-tab="alertes"
           >
-            Alertes
+            <span data-i18n="watch.stats.alerts">Alertes &amp; CVE</span>
             <span class="veille-tab-count" data-veille-count="alertes">0</span>
           </button>
           <button
@@ -151,7 +175,7 @@
             aria-controls="veille-exploitation"
             data-veille-tab="exploitation"
           >
-            Exploitation
+            <span data-i18n="watch.stats.exploitation">Exploitation active</span>
             <span class="veille-tab-count" data-veille-count="exploitation">0</span>
           </button>
           <button
@@ -163,7 +187,7 @@
             aria-controls="hacker-news"
             data-veille-tab="actualite"
           >
-            Actualité
+            <span data-i18n="watch.stats.news">Actualité cyber</span>
             <span class="veille-tab-count" data-veille-count="actualite">0</span>
           </button>
           <button
@@ -175,7 +199,7 @@
             aria-controls="veille-leaks"
             data-veille-tab="leaks"
           >
-            Leaks
+            <span data-i18n="watch.stats.leaks">Fuites de données</span>
             <span class="veille-tab-count" data-veille-count="leaks">0</span>
           </button>
         </div>
@@ -191,8 +215,8 @@
           >
             <div class="rss-category">
               <div class="rss-category-header">
-                <h2 class="section-title">🚨 Alertes &amp; vulnérabilités</h2>
-                <p>Alertes officielles et bulletins CERT à surveiller en priorité.</p>
+                <h2 class="section-title" data-i18n="watch.alerts.title">🚨 Alertes &amp; vulnérabilités</h2>
+                <p data-i18n="watch.alerts.desc">Alertes officielles et bulletins CERT à surveiller en priorité.</p>
               </div>
               <div class="rss-sources">
                 <article class="rss-source" data-rss-feed="cert-fr">
@@ -212,6 +236,10 @@
                   <div class="rss-items" data-rss-items></div>
                   <button class="rss-more" type="button" data-rss-more>Voir plus</button>
                   <p class="rss-status" data-rss-status>Chargement en cours…</p>
+                </article>
+                <article class="rss-source" data-rss-feed="cyberveille-esante">
+                  <div class="rss-source-header"><h3>Cyberveille eSanté</h3><p class="rss-source-description">Alertes et vulnérabilités sectorielles santé.</p></div>
+                  <div class="rss-items" data-rss-items></div><button class="rss-more" type="button" data-rss-more>Voir plus</button><p class="rss-status" data-rss-status>Chargement en cours…</p>
                 </article>
               </div>
             </div>
@@ -293,6 +321,10 @@
                   <button class="rss-more" type="button" data-rss-more>Voir plus</button>
                   <p class="rss-status" data-rss-status>Chargement en cours…</p>
                 </article>
+                <article class="rss-source" data-rss-feed="flipboard-cybercrime">
+                  <div class="rss-source-header"><h3>Flipboard — Cybercriminalité</h3><p class="rss-source-description">Curation d’actualités liées à la cybercriminalité.</p></div>
+                  <div class="rss-items" data-rss-items></div><button class="rss-more" type="button" data-rss-more>Voir plus</button><p class="rss-status" data-rss-status>Chargement en cours…</p>
+                </article>
               </div>
             </div>
           </section>
@@ -324,6 +356,16 @@
             </div>
           </section>
         </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container section-card">
+        <h2 class="section-title" data-i18n="watch.stats.sources">Sources surveillées</h2>
+        <div class="watch-sources-list">
+          <span>CERT-FR</span><span>ANSSI</span><span>Cyberveille eSanté</span><span>CISA</span><span>Flipboard — Cybercriminalité</span><span>The Hacker News</span><span>BleepingComputer</span>
+          <a href="https://frenchbreaches.com/" target="_blank" rel="noopener noreferrer">FrenchBreaches</a>
+        </div>
+        <p>Suivi des fuites françaises — flux RSS public non identifié.</p>
       </div>
     </section>
   </main>
