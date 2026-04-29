@@ -214,7 +214,7 @@ const I18N_MESSAGES = {
     'hack.fbmap.cta': 'Ouvrir la carte FrenchBreaches →',
     'hack.threat.desc': 'Visualisation temps réel des cyberattaques mondiales, utile pour la veille opérationnelle, l’observation des tendances d’attaque et la sensibilisation défensive.',
     'hack.threat.cta': 'Ouvrir la Live Cyber Threat Map →',
-    'watch.noResults': 'Aucun résultat pour cette recherche.',
+    'watch.noResults': 'Aucun signal ne correspond à vos filtres.',
     'watch.reset': 'Réinitialiser les filtres',
     'watch.results': 'résultats affichés',
     'watch.view': 'Vue',
@@ -228,6 +228,11 @@ const I18N_MESSAGES = {
     'watch.copy': 'Copier',
     'watch.copied': 'Copié',
     'watch.favorites': 'Favoris',
+    'watch.priority.mode': 'Mode prioritaire',
+    'watch.priority.enabled': 'Mode prioritaire activé — seuls les signaux critiques ou sensibles sont affichés.',
+    'watch.compact': 'Vue compacte',
+    'watch.summary': 'Synthèse de veille',
+    'watch.results.of': 'résultats affichés sur',
     'blog.page.title': 'Blog',
     'zones.game.text': 'Explorez des démonstrations interactives, mini-jeux et parcours cyber immersifs.',
     'zones.game.cta': 'Ouvrir la Game Zone',
@@ -314,7 +319,7 @@ const I18N_MESSAGES = {
     'hack.fbmap.cta': 'Open the FrenchBreaches map →',
     'hack.threat.desc': 'Real-time visualization of global cyberattacks, useful for operational monitoring, observing attack trends and defensive awareness.',
     'hack.threat.cta': 'Open the Live Cyber Threat Map →',
-    'watch.noResults': 'No results for this search.',
+    'watch.noResults': 'No signal matches your filters.',
     'watch.reset': 'Reset filters',
     'watch.results': 'results displayed',
     'watch.view': 'View',
@@ -328,6 +333,11 @@ const I18N_MESSAGES = {
     'watch.copy': 'Copy',
     'watch.copied': 'Copied',
     'watch.favorites': 'Favorites',
+    'watch.priority.mode': 'Priority mode',
+    'watch.priority.enabled': 'Priority mode enabled — only critical or sensitive signals are displayed.',
+    'watch.compact': 'Compact view',
+    'watch.summary': 'Watch summary',
+    'watch.results.of': 'results displayed out of',
     'blog.page.title': 'Blog',
     'zones.game.text': 'Explore interactive demos, mini-games, and immersive cyber tracks.',
     'zones.game.cta': 'Open Game Zone',
@@ -1412,6 +1422,10 @@ function renderRssItems({ items, container, label, key }) {
       sevBadge.className = `rss-severity rss-severity-${severity.level}`;
       sevBadge.textContent = severity.label;
       meta.appendChild(sevBadge);
+      const priorityBadge = document.createElement('span');
+      priorityBadge.className = 'rss-priority-score';
+      priorityBadge.textContent = `${locale === 'en' ? 'Priority' : 'Priorité'} ${computePriorityScore(card.dataset.search, severity.level)}`;
+      meta.appendChild(priorityBadge);
 
       const title = document.createElement('h4');
       const link = document.createElement('a');
@@ -1529,6 +1543,16 @@ function detectWatchTags(text) {
   return rules.filter((tag) => value.includes(tag.toLowerCase()));
 }
 
+function computePriorityScore(haystack, severity) {
+  let score = severity === 'critical' ? 50 : severity === 'high' ? 20 : 0;
+  const add = (k, v) => { if (haystack.includes(k)) score += v; };
+  add('rce', 30); add('0-day', 30); add('zero-day', 30); add('exploited', 30); add('exploitation active', 30);
+  add('ransomware', 25); add('cisa kev', 25); add('cvss 9', 25); add('cvss 10', 25);
+  add('sante', 15); add('esante', 15); add('hospital', 15); add('healthcare', 15);
+  add('cve', 10); add('patch', 5); add('security update', 5);
+  return score;
+}
+
 function initWatchFilters() {
   const search = document.querySelector('[data-watch-search]');
   if (!search) return;
@@ -1539,9 +1563,14 @@ function initWatchFilters() {
   const viewSelect = document.querySelector('[data-watch-view]');
   const sortSelect = document.querySelector('[data-watch-sort]');
   const priorityBox = document.querySelector('[data-watch-priority]');
-  const priorityList = document.querySelector('[data-watch-priority-list]');
+  const priorityToggle = document.querySelector('[data-watch-priority-toggle]');
+  const compactToggle = document.querySelector('[data-watch-compact-toggle]');
+  const priorityBanner = document.querySelector('[data-watch-priority-banner]');
+  const summaryText = document.querySelector('[data-watch-summary-text]');
   if (viewSelect) viewSelect.value = localStorage.getItem('watch-view') || 'source';
   if (sortSelect) sortSelect.value = localStorage.getItem('watch-sort') || 'recent';
+  if (priorityToggle) priorityToggle.checked = localStorage.getItem('watch-priority') === '1';
+  if (compactToggle) compactToggle.checked = localStorage.getItem('watch-compact') === '1';
 
   const normalize = (value) => (value || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   const update = () => {
@@ -1550,7 +1579,10 @@ function initWatchFilters() {
     const activeTab = document.querySelector('.veille-panel.active')?.dataset.veillePanel || '';
     const viewMode = viewSelect?.value || localStorage.getItem('watch-view') || 'source';
     const sortMode = sortSelect?.value || localStorage.getItem('watch-sort') || 'recent';
+    const priorityMode = priorityToggle?.checked;
+    const compactMode = compactToggle?.checked;
     let visible = 0;
+    let totalInTab = 0;
     const visibleCards = [];
 
     document.querySelectorAll('.rss-item').forEach((card) => {
@@ -1559,8 +1591,12 @@ function initWatchFilters() {
       const severity = normalize(card.dataset.severity || '');
       const matchesSearch = !term || haystack.includes(term);
       const matchesFilters = activeFilters.every((filter) => haystack.includes(filter) || severity.includes(filter));
-      const isVisible = inActiveTab && matchesSearch && matchesFilters;
+      const isPriority = card.dataset.severity === 'critical' || ['rce','0-day','zero-day','exploited','exploitation active','ransomware','cisa kev','cvss 9','cvss 10','sante','esante','hospital','healthcare','compromission','fuite de donnees majeure','vulnerabilite critique'].some((k)=> haystack.includes(normalize(k)));
+      if (inActiveTab) totalInTab += 1;
+      const isVisible = inActiveTab && matchesSearch && matchesFilters && (!priorityMode || isPriority);
       card.hidden = !isVisible;
+      card.classList.toggle('rss-item-compact', !!compactMode);
+      card.dataset.priorityScore = String(computePriorityScore(haystack, card.dataset.severity));
       if (isVisible) visible += 1;
       if (isVisible) visibleCards.push(card);
     });
@@ -1579,16 +1615,17 @@ function initWatchFilters() {
 
     if (resultsCount) {
       const locale = document.documentElement.lang === 'en' ? 'en' : 'fr';
-      resultsCount.textContent = `${visible} ${I18N_MESSAGES[locale]?.['watch.results'] || 'résultats affichés'}`;
+      const suffix = I18N_MESSAGES[locale]?.['watch.results.of'] || 'résultats affichés sur';
+      resultsCount.textContent = term
+        ? `${visible} ${I18N_MESSAGES[locale]?.['watch.results'] || 'résultats affichés'} "${search.value}"`
+        : `${visible} ${suffix} ${totalInTab}`;
     }
     if (noResults) noResults.hidden = visible !== 0;
-
-    if (priorityBox && priorityList) {
-      const keywords = ['exploited','exploitation active','ransomware','0-day','rce','cisa kev','cvss 9','cvss 10','sante','esante','hospital','healthcare'];
-      const picks = visibleCards.filter((card)=> card.dataset.severity==='critical' || keywords.some((k)=> normalize(card.dataset.search||'').includes(normalize(k)))).slice(0,5);
-      priorityList.innerHTML = '';
-      picks.forEach((card)=> priorityList.appendChild(card.cloneNode(true)));
-      priorityBox.hidden = picks.length === 0;
+    if (priorityBanner) priorityBanner.hidden = !priorityMode;
+    if (summaryText) {
+      const critical = visibleCards.filter((c)=> c.dataset.severity === 'critical').length;
+      const tags = visibleCards.flatMap((c)=> Array.from(c.querySelectorAll('.rss-tag')).map((n)=>n.textContent)).slice(0,4).join(', ');
+      summaryText.textContent = `${critical} ${locale === 'en' ? 'critical signals detected.' : 'signaux critiques détectés.'} ${locale === 'en' ? 'Main topics:' : 'Thèmes dominants :'} ${tags || 'CVE, ransomware'}.`;
     }
   };
 
@@ -1601,6 +1638,8 @@ function initWatchFilters() {
   });
   viewSelect?.addEventListener('change', () => { localStorage.setItem('watch-view', viewSelect.value); update(); });
   sortSelect?.addEventListener('change', () => { localStorage.setItem('watch-sort', sortSelect.value); update(); });
+  priorityToggle?.addEventListener('change', () => { localStorage.setItem('watch-priority', priorityToggle.checked ? '1' : '0'); update(); });
+  compactToggle?.addEventListener('change', () => { localStorage.setItem('watch-compact', compactToggle.checked ? '1' : '0'); update(); });
   resetButton?.addEventListener('click', () => {
     search.value = '';
     chips.forEach((chip) => chip.classList.remove('active'));

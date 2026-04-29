@@ -153,6 +153,8 @@
               <option value="source" data-i18n="watch.sort.source">Source</option>
             </select>
           </label>
+          <label><input type="checkbox" data-watch-priority-toggle> <span data-i18n="watch.priority.mode">Mode prioritaire</span></label>
+          <label><input type="checkbox" data-watch-compact-toggle> <span data-i18n="watch.compact">Vue compacte</span></label>
           <button class="watch-reset" type="button" data-watch-reset data-i18n="watch.reset">Réinitialiser</button>
         </div>
         <div class="watch-chips">
@@ -165,14 +167,15 @@
           <button class="watch-chip" type="button" data-watch-filter="fuite de données">Fuite de données</button>
           <button class="watch-chip" type="button" data-watch-filter="favorites" data-i18n="watch.favorites">Favoris</button>
         </div>
-        <p class="watch-results-count" data-watch-results-count>0 résultats affichés</p>
+        <p class="watch-results-count" data-watch-results-count>0 résultats affichés sur 0</p>
+        <p class="watch-priority-banner" data-watch-priority-banner data-i18n="watch.priority.enabled" hidden>Mode prioritaire activé — seuls les signaux critiques ou sensibles sont affichés.</p>
         <div class="watch-no-results" data-watch-no-results hidden>
-          <p data-i18n="watch.noResults">Aucun résultat pour cette recherche.</p>
+          <p data-i18n="watch.noResults">Aucun signal ne correspond à vos filtres.</p>
           <button class="watch-reset" type="button" data-watch-reset data-i18n="watch.reset">Réinitialiser les filtres</button>
         </div>
-        <section class="watch-priority" data-watch-priority hidden>
-          <h2 data-i18n="watch.priority">À traiter en priorité</h2>
-          <div class="watch-priority-list" data-watch-priority-list></div>
+        <section class="watch-summary" data-watch-summary>
+          <h2 data-i18n="watch.summary">Synthèse de veille</h2>
+          <p data-watch-summary-text></p>
         </section>
         <div class="veille-tabs" role="tablist" aria-label="Catégories de veille" data-veille-tabs>
           <button

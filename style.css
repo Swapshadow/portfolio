@@ -3758,3 +3758,7 @@ body[data-animations="off"] .track-thumb img {
 .watch-priority{margin:10px 0 16px;padding:12px;border:1px solid var(--border);border-radius:14px;background:rgba(120,180,255,.08)}
 .watch-priority-list{display:grid;gap:10px}
 .watch-global-view{display:grid;grid-template-columns:1fr;gap:10px}
+.watch-priority-banner{margin:8px 0;padding:8px 10px;border-radius:10px;background:rgba(255,190,80,.14);border:1px solid rgba(255,190,80,.35)}
+.watch-summary{margin:8px 0 14px;padding:10px;border:1px solid var(--border);border-radius:12px;background:rgba(120,180,255,.08)}
+.rss-priority-score{font-size:.7rem;padding:2px 7px;border-radius:999px;border:1px solid var(--border);opacity:.85}
+.rss-item-compact .rss-item-excerpt,.rss-item-compact .rss-tags,.rss-item-compact .rss-item-actions .rss-copy{display:none}
