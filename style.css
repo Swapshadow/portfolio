@@ -3763,3 +3763,7 @@ body[data-animations="off"] .track-thumb img {
 .rss-priority-score{font-size:.7rem;padding:2px 7px;border-radius:999px;border:1px solid var(--border);opacity:.85}
 .rss-item-compact .rss-item-excerpt,.rss-item-compact .rss-tags,.rss-item-compact .rss-item-actions .rss-copy{display:none}
 .watch-install-hint{font-size:.85rem;opacity:.8;margin:4px 0 8px}
+.watch-reader{margin:14px 0 18px}.watch-reader-card{padding:16px;border:1px solid var(--border);border-radius:18px;background:var(--surface);box-shadow:var(--shadow-soft)}
+.watch-reader-progress{height:6px;background:rgba(148,163,184,.2);border-radius:999px;margin:8px 0}.watch-reader-progress span{display:block;height:100%;background:var(--accent);border-radius:999px;width:0}
+.watch-reader-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}.watch-reader-filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px}
+.watch-reader-card h2{margin:.4rem 0}.watch-reader-subtitle{opacity:.85}

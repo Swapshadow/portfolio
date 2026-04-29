@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initVeilleTabs();
   initRssFeeds();
   initPwaInstall();
+  initWatchReader();
   initShootingStars();
   initBlogSpaceEffects();
   initFrenchBreachesEmbed();
@@ -1672,6 +1673,75 @@ function updateWatchDashboard() {
   set('leaks', RSS_TAB_COUNTS.get('leaks') ? Array.from(RSS_TAB_COUNTS.get('leaks').values()).reduce((a,b)=>a+b,0) : 0);
   set('sources', document.querySelectorAll('[data-rss-feed]').length);
   set('updated', new Date().toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' }));
+}
+
+function initWatchReader() {
+  const card = document.querySelector('[data-reader-card]');
+  if (!card) return;
+  const title = card.querySelector('[data-reader-title]');
+  const meta = card.querySelector('[data-reader-meta]');
+  const excerpt = card.querySelector('[data-reader-excerpt]');
+  const link = card.querySelector('[data-reader-link]');
+  const progress = card.querySelector('[data-reader-progress]');
+  const progressBar = card.querySelector('[data-reader-progress-bar]');
+  const nextBtn = card.querySelector('[data-reader-next]');
+  const copyBtn = card.querySelector('[data-reader-copy]');
+  const listBtn = card.querySelector('[data-reader-toggle-list]');
+  const chips = Array.from(document.querySelectorAll('[data-reader-filter]'));
+  let idx = 0;
+  let currentFilter = 'all';
+  let showList = false;
+
+  const score = (item) => {
+    const txt = `${item.title} ${item.excerpt}`.toLowerCase();
+    let s = 0; if (computeSeverity(txt).level === 'critical') s += 100;
+    if (txt.includes('exploitation active') || txt.includes('exploited') || txt.includes('rce') || txt.includes('0-day')) s += 80;
+    if (txt.includes('fuite') || txt.includes('leak')) s += 60;
+    if (txt.includes('ransomware')) s += 50;
+    if (txt.includes('cve')) s += 30;
+    return s;
+  };
+
+  const filtered = () => RSS_ALL_ITEMS
+    .map((i) => ({ ...i, severity: computeSeverity(`${i.title} ${i.excerpt}`) }))
+    .filter((i) => currentFilter === 'all' || `${i.title} ${i.excerpt} ${i.label}`.toLowerCase().includes(currentFilter))
+    .sort((a,b) => score(b)-score(a));
+
+  const render = () => {
+    const items = filtered();
+    document.querySelectorAll('.veille-panels').forEach((el)=> el.hidden = !showList);
+    if (!items.length) {
+      title.textContent = 'Aucune alerte disponible pour ce filtre.';
+      meta.textContent = '';
+      excerpt.textContent = '';
+      progress.textContent = 'Article 0 / 0';
+      link.href = '#';
+      return;
+    }
+    idx = Math.min(idx, items.length - 1);
+    const item = items[idx];
+    title.textContent = item.title;
+    meta.textContent = `${item.label} · ${item.date} · ${item.severity.label}`;
+    excerpt.textContent = item.excerpt;
+    link.href = item.link;
+    progress.textContent = `Article ${idx + 1} / ${items.length}`;
+    progressBar.style.width = `${((idx + 1) / items.length) * 100}%`;
+  };
+
+  nextBtn?.addEventListener('click', () => { idx += 1; render(); });
+  copyBtn?.addEventListener('click', async () => { await navigator.clipboard.writeText(`${title.textContent}\n${meta.textContent}\n${excerpt.textContent}\n${link.href}`); });
+  listBtn?.addEventListener('click', () => { showList = !showList; listBtn.textContent = showList ? 'Revenir à la lecture' : 'Voir la liste complète'; render(); });
+  chips.forEach((chip) => chip.addEventListener('click', () => {
+    chips.forEach((c) => c.classList.remove('active'));
+    chip.classList.add('active');
+    currentFilter = chip.dataset.readerFilter;
+    idx = 0;
+    render();
+  }));
+  card.addEventListener('touchstart', (e) => { card.dataset.touchX = String(e.changedTouches[0].clientX); }, { passive: true });
+  card.addEventListener('touchend', (e) => { const dx = (parseFloat(card.dataset.touchX||'0') - e.changedTouches[0].clientX); if (dx > 45) { idx += 1; render(); } }, { passive: true });
+  document.addEventListener('keydown', (e) => { if (e.key === 'ArrowRight' || e.key === ' ') { idx += 1; render(); } });
+  setInterval(render, 2000);
 }
 
 function initPwaInstall() {

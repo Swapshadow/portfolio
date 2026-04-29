@@ -137,6 +137,30 @@
       <div class="container section-card reveal-on-scroll" data-reveal>
         <h1 class="section-title" data-i18n="watch.page.title">Veille cybersécurité</h1>
         <p data-i18n="watch.page.intro">Cette page centralise une veille cybersécurité orientée vulnérabilités, exploitation active, cybercriminalité, fuites de données et actualité opérationnelle. Les flux sont agrégés automatiquement afin de faciliter le suivi quotidien des signaux cyber pertinents.</p>
+        <section class="watch-reader" data-watch-reader>
+          <p class="watch-reader-subtitle">Lecture rapide des alertes, CVE, exploitation active, ransomware et fuites de données.</p>
+          <div class="watch-reader-filters">
+            <button type="button" class="watch-chip active" data-reader-filter="all">Tout</button>
+            <button type="button" class="watch-chip" data-reader-filter="critical">Critique</button>
+            <button type="button" class="watch-chip" data-reader-filter="exploitation active">Exploitation active</button>
+            <button type="button" class="watch-chip" data-reader-filter="fuite">Fuites de données</button>
+            <button type="button" class="watch-chip" data-reader-filter="ransomware">Ransomware</button>
+            <button type="button" class="watch-chip" data-reader-filter="cve">CVE</button>
+          </div>
+          <article class="watch-reader-card" data-reader-card>
+            <p data-reader-progress>Article 0 / 0</p>
+            <div class="watch-reader-progress"><span data-reader-progress-bar></span></div>
+            <h2 data-reader-title>Chargement…</h2>
+            <p data-reader-meta></p>
+            <p data-reader-excerpt></p>
+            <div class="watch-reader-actions">
+              <a class="button" href="#" data-reader-link target="_blank" rel="noopener noreferrer">Lire la source</a>
+              <button class="watch-reset" type="button" data-reader-copy>Copier</button>
+              <button class="button button-secondary" type="button" data-reader-next>Suivant</button>
+              <button class="watch-reset" type="button" data-reader-toggle-list>Voir la liste complète</button>
+            </div>
+          </article>
+        </section>
         <p class="watch-goal" data-i18n="watch.page.goal">Objectif : collecter, filtrer, qualifier et prioriser les informations utiles.</p>
         <div class="watch-stats-grid">
           <article class="watch-stat-card"><h3 data-i18n="watch.stats.alerts">Alertes &amp; CVE</h3><p data-watch-stat="alerts">0</p></article>
