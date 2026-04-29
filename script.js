@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initRssFeeds();
   initShootingStars();
   initBlogSpaceEffects();
+  initFrenchBreachesEmbed();
 });
 
 const RSS_CACHE_PREFIX = 'rss-cache-v1';
