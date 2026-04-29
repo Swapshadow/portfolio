@@ -139,6 +139,22 @@
           <article class="watch-stat-card"><h3 data-i18n="watch.stats.updated">Dernière mise à jour</h3><p data-watch-stat="updated">--:--</p></article>
         </div>
         <input class="watch-search" type="search" data-watch-search data-i18n-placeholder="watch.search.placeholder" placeholder="Rechercher une CVE, un éditeur, une menace, un mot-clé...">
+        <div class="watch-toolbar">
+          <label><span data-i18n="watch.view">Vue</span>
+            <select data-watch-view>
+              <option value="source" data-i18n="watch.view.source">Vue par source</option>
+              <option value="global" data-i18n="watch.view.global">Vue globale</option>
+            </select>
+          </label>
+          <label><span data-i18n="watch.sort">Trier par</span>
+            <select data-watch-sort>
+              <option value="recent" data-i18n="watch.sort.recent">Plus récent</option>
+              <option value="severity" data-i18n="watch.sort.severity">Criticité</option>
+              <option value="source" data-i18n="watch.sort.source">Source</option>
+            </select>
+          </label>
+          <button class="watch-reset" type="button" data-watch-reset data-i18n="watch.reset">Réinitialiser</button>
+        </div>
         <div class="watch-chips">
           <button class="watch-chip" type="button" data-watch-filter="critical" data-i18n="watch.severity.critical">Critique</button>
           <button class="watch-chip" type="button" data-watch-filter="high" data-i18n="watch.severity.high">Élevée</button>
@@ -147,12 +163,17 @@
           <button class="watch-chip" type="button" data-watch-filter="ransomware">Ransomware</button>
           <button class="watch-chip" type="button" data-watch-filter="exploitation active">Exploitation active</button>
           <button class="watch-chip" type="button" data-watch-filter="fuite de données">Fuite de données</button>
+          <button class="watch-chip" type="button" data-watch-filter="favorites" data-i18n="watch.favorites">Favoris</button>
         </div>
         <p class="watch-results-count" data-watch-results-count>0 résultats affichés</p>
         <div class="watch-no-results" data-watch-no-results hidden>
           <p data-i18n="watch.noResults">Aucun résultat pour cette recherche.</p>
           <button class="watch-reset" type="button" data-watch-reset data-i18n="watch.reset">Réinitialiser les filtres</button>
         </div>
+        <section class="watch-priority" data-watch-priority hidden>
+          <h2 data-i18n="watch.priority">À traiter en priorité</h2>
+          <div class="watch-priority-list" data-watch-priority-list></div>
+        </section>
         <div class="veille-tabs" role="tablist" aria-label="Catégories de veille" data-veille-tabs>
           <button
             class="veille-tab active"

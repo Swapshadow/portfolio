@@ -3750,3 +3750,11 @@ body[data-animations="off"] .track-thumb img {
 .frenchbreaches-map-badges{display:flex;gap:8px;margin-bottom:.75rem}
 .frenchbreaches-map-badges span{padding:4px 8px;border-radius:999px;border:1px solid var(--border);font-size:.75rem}
 @media (max-width:768px){.frenchbreaches-map-frame{min-height:560px}}
+.watch-toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:8px 0 12px}
+.watch-toolbar label{display:flex;gap:8px;align-items:center}.watch-toolbar select{border:1px solid var(--border);border-radius:10px;padding:6px 8px;background:var(--surface);color:var(--text)}
+.watch-results-count{font-size:.9rem;opacity:.85}.watch-no-results{margin:10px 0}
+.rss-item-actions{display:flex;gap:8px;margin-top:8px}.rss-copy,.rss-favorite,.watch-reset{border:1px solid var(--border);background:var(--surface);color:var(--text);border-radius:10px;padding:5px 9px;cursor:pointer}
+.rss-tags{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0}.rss-tag{font-size:.72rem;padding:3px 8px;border-radius:999px;border:1px solid var(--border);opacity:.9}
+.watch-priority{margin:10px 0 16px;padding:12px;border:1px solid var(--border);border-radius:14px;background:rgba(120,180,255,.08)}
+.watch-priority-list{display:grid;gap:10px}
+.watch-global-view{display:grid;grid-template-columns:1fr;gap:10px}

@@ -217,6 +217,17 @@ const I18N_MESSAGES = {
     'watch.noResults': 'Aucun résultat pour cette recherche.',
     'watch.reset': 'Réinitialiser les filtres',
     'watch.results': 'résultats affichés',
+    'watch.view': 'Vue',
+    'watch.view.global': 'Vue globale',
+    'watch.view.source': 'Vue par source',
+    'watch.sort': 'Trier par',
+    'watch.sort.recent': 'Plus récent',
+    'watch.sort.severity': 'Criticité',
+    'watch.sort.source': 'Source',
+    'watch.priority': 'À traiter en priorité',
+    'watch.copy': 'Copier',
+    'watch.copied': 'Copié',
+    'watch.favorites': 'Favoris',
     'blog.page.title': 'Blog',
     'zones.game.text': 'Explorez des démonstrations interactives, mini-jeux et parcours cyber immersifs.',
     'zones.game.cta': 'Ouvrir la Game Zone',
@@ -306,6 +317,17 @@ const I18N_MESSAGES = {
     'watch.noResults': 'No results for this search.',
     'watch.reset': 'Reset filters',
     'watch.results': 'results displayed',
+    'watch.view': 'View',
+    'watch.view.global': 'Global view',
+    'watch.view.source': 'By source',
+    'watch.sort': 'Sort by',
+    'watch.sort.recent': 'Most recent',
+    'watch.sort.severity': 'Severity',
+    'watch.sort.source': 'Source',
+    'watch.priority': 'Priority items',
+    'watch.copy': 'Copy',
+    'watch.copied': 'Copied',
+    'watch.favorites': 'Favorites',
     'blog.page.title': 'Blog',
     'zones.game.text': 'Explore interactive demos, mini-games, and immersive cyber tracks.',
     'zones.game.cta': 'Open Game Zone',
@@ -1366,6 +1388,9 @@ function renderRssItems({ items, container, label, key }) {
   const moreButton = container.querySelector('[data-rss-more]');
 
   if (!list) return;
+  const locale = document.documentElement.lang === 'en' ? 'en' : 'fr';
+  const t = (k, f) => I18N_MESSAGES[locale]?.[k] || f;
+  const favorites = new Set(JSON.parse(localStorage.getItem('watchFavorites') || '[]'));
 
   const visibleItems = items.slice(0, 6);
   list.innerHTML = '';
@@ -1406,11 +1431,48 @@ function renderRssItems({ items, container, label, key }) {
       cta.rel = 'noopener noreferrer';
       cta.dataset.i18n = 'watch.readSource';
       cta.textContent = t('watch.readSource', 'Lire la source →');
+      const actions = document.createElement('div');
+      actions.className = 'rss-item-actions';
+      const copyBtn = document.createElement('button');
+      copyBtn.type = 'button';
+      copyBtn.className = 'rss-copy';
+      copyBtn.textContent = t('watch.copy', 'Copier');
+      copyBtn.addEventListener('click', async () => {
+        const payload = `[${severity.label}] ${item.title}\nSource : ${label}\nDate : ${item.date}\nCatégorie : ${key}\nRésumé : ${item.excerpt}\nLien : ${item.link}`;
+        await navigator.clipboard.writeText(payload).catch(() => {});
+        copyBtn.textContent = t('watch.copied', 'Copié');
+        setTimeout(() => { copyBtn.textContent = t('watch.copy', 'Copier'); }, 1000);
+      });
+      const favBtn = document.createElement('button');
+      favBtn.type = 'button';
+      favBtn.className = 'rss-favorite';
+      const favKey = item.link;
+      const refreshFav = () => { favBtn.textContent = favorites.has(favKey) ? '★' : '☆'; card.dataset.favorite = favorites.has(favKey) ? '1' : ''; };
+      favBtn.addEventListener('click', () => {
+        if (favorites.has(favKey)) favorites.delete(favKey); else favorites.add(favKey);
+        localStorage.setItem('watchFavorites', JSON.stringify(Array.from(favorites)));
+        refreshFav();
+      });
+      refreshFav();
+      actions.append(copyBtn, favBtn);
+      const tags = detectWatchTags(`${item.title} ${item.excerpt}`);
+      if (tags.length) {
+        const wrap = document.createElement('div');
+        wrap.className = 'rss-tags';
+        tags.forEach((tag) => {
+          const s = document.createElement('span');
+          s.className = 'rss-tag';
+          s.textContent = tag;
+          wrap.appendChild(s);
+        });
+        card.appendChild(wrap);
+      }
 
       card.appendChild(meta);
       card.appendChild(title);
       card.appendChild(excerpt);
       card.appendChild(cta);
+      card.appendChild(actions);
       list.appendChild(card);
     });
   };
@@ -1461,6 +1523,12 @@ function computeSeverity(text) {
   return { level: 'info', label: t('watch.severity.info', 'Information') };
 }
 
+function detectWatchTags(text) {
+  const value = (text || '').toLowerCase();
+  const rules = ['CVE', 'Ransomware', 'Exploitation active', 'Patch', 'Microsoft', 'Fortinet', 'Cisco', 'Oracle', 'Linux', 'Cloud', 'Santé', 'Data leak', 'Malware'];
+  return rules.filter((tag) => value.includes(tag.toLowerCase()));
+}
+
 function initWatchFilters() {
   const search = document.querySelector('[data-watch-search]');
   if (!search) return;
@@ -1468,13 +1536,22 @@ function initWatchFilters() {
   const resetButton = document.querySelector('[data-watch-reset]');
   const noResults = document.querySelector('[data-watch-no-results]');
   const resultsCount = document.querySelector('[data-watch-results-count]');
+  const viewSelect = document.querySelector('[data-watch-view]');
+  const sortSelect = document.querySelector('[data-watch-sort]');
+  const priorityBox = document.querySelector('[data-watch-priority]');
+  const priorityList = document.querySelector('[data-watch-priority-list]');
+  if (viewSelect) viewSelect.value = localStorage.getItem('watch-view') || 'source';
+  if (sortSelect) sortSelect.value = localStorage.getItem('watch-sort') || 'recent';
 
   const normalize = (value) => (value || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   const update = () => {
     const term = normalize(search.value);
     const activeFilters = chips.filter((chip) => chip.classList.contains('active')).map((chip) => normalize(chip.dataset.watchFilter));
     const activeTab = document.querySelector('.veille-panel.active')?.dataset.veillePanel || '';
+    const viewMode = viewSelect?.value || localStorage.getItem('watch-view') || 'source';
+    const sortMode = sortSelect?.value || localStorage.getItem('watch-sort') || 'recent';
     let visible = 0;
+    const visibleCards = [];
 
     document.querySelectorAll('.rss-item').forEach((card) => {
       const inActiveTab = card.closest('.veille-panel')?.dataset.veillePanel === activeTab;
@@ -1485,7 +1562,15 @@ function initWatchFilters() {
       const isVisible = inActiveTab && matchesSearch && matchesFilters;
       card.hidden = !isVisible;
       if (isVisible) visible += 1;
+      if (isVisible) visibleCards.push(card);
     });
+
+    if (sortMode === 'source') visibleCards.sort((a,b)=> (a.dataset.search||'').localeCompare(b.dataset.search||''));
+    if (sortMode === 'severity') visibleCards.sort((a,b)=> ({critical:3,high:2,info:1}[b.dataset.severity]-({critical:3,high:2,info:1}[a.dataset.severity])));
+    visibleCards.forEach((card)=> card.parentElement?.appendChild(card));
+
+    document.body.dataset.watchView = viewMode;
+    document.querySelectorAll('.rss-sources').forEach((group)=> group.classList.toggle('watch-global-view', viewMode==='global'));
 
     document.querySelectorAll('.rss-source').forEach((source) => {
       const hasVisible = Array.from(source.querySelectorAll('.rss-item')).some((item) => !item.hidden);
@@ -1497,6 +1582,14 @@ function initWatchFilters() {
       resultsCount.textContent = `${visible} ${I18N_MESSAGES[locale]?.['watch.results'] || 'résultats affichés'}`;
     }
     if (noResults) noResults.hidden = visible !== 0;
+
+    if (priorityBox && priorityList) {
+      const keywords = ['exploited','exploitation active','ransomware','0-day','rce','cisa kev','cvss 9','cvss 10','sante','esante','hospital','healthcare'];
+      const picks = visibleCards.filter((card)=> card.dataset.severity==='critical' || keywords.some((k)=> normalize(card.dataset.search||'').includes(normalize(k)))).slice(0,5);
+      priorityList.innerHTML = '';
+      picks.forEach((card)=> priorityList.appendChild(card.cloneNode(true)));
+      priorityBox.hidden = picks.length === 0;
+    }
   };
 
   search.addEventListener('input', update);
@@ -1506,6 +1599,8 @@ function initWatchFilters() {
       update();
     });
   });
+  viewSelect?.addEventListener('change', () => { localStorage.setItem('watch-view', viewSelect.value); update(); });
+  sortSelect?.addEventListener('change', () => { localStorage.setItem('watch-sort', sortSelect.value); update(); });
   resetButton?.addEventListener('click', () => {
     search.value = '';
     chips.forEach((chip) => chip.classList.remove('active'));
