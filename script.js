@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initRssFeeds();
   initShootingStars();
   initBlogSpaceEffects();
+  initFrenchBreachesEmbed();
 });
 
 const RSS_CACHE_PREFIX = 'rss-cache-v1';
@@ -212,6 +213,7 @@ const I18N_MESSAGES = {
     'hack.fbmap.desc': 'Visualisation interactive des incidents et fuites de données recensés par FrenchBreaches, avec filtres par pays, sévérité, secteur et groupe ransomware.',
     'hack.fbmap.source': 'Source : FrenchBreaches',
     'hack.fbmap.cta': 'Ouvrir la carte FrenchBreaches →',
+    'hack.fbmap.fallback': 'La carte FrenchBreaches semble bloquée dans l’iframe. Vous pouvez l’ouvrir dans un nouvel onglet.',
     'blog.page.title': 'Blog',
     'zones.game.text': 'Explorez des démonstrations interactives, mini-jeux et parcours cyber immersifs.',
     'zones.game.cta': 'Ouvrir la Game Zone',
@@ -297,6 +299,7 @@ const I18N_MESSAGES = {
     'hack.fbmap.desc': 'Interactive visualization of incidents and data breaches tracked by FrenchBreaches, with filters by country, severity, sector and ransomware group.',
     'hack.fbmap.source': 'Source: FrenchBreaches',
     'hack.fbmap.cta': 'Open the FrenchBreaches map →',
+    'hack.fbmap.fallback': 'The FrenchBreaches map seems blocked in the iframe. You can open it in a new tab.',
     'blog.page.title': 'Blog',
     'zones.game.text': 'Explore interactive demos, mini-games, and immersive cyber tracks.',
     'zones.game.cta': 'Open Game Zone',
@@ -1017,6 +1020,21 @@ function initRssFeeds() {
   if (!tasks.length) return;
   Promise.allSettled(tasks).finally(() => updateWatchDashboard());
   initWatchFilters();
+}
+
+function initFrenchBreachesEmbed() {
+  const frame = document.querySelector('[data-frenchbreaches-frame]');
+  const fallback = document.querySelector('[data-frenchbreaches-fallback]');
+  if (!frame || !fallback) return;
+  let loaded = false;
+  frame.addEventListener('load', () => { loaded = true; fallback.hidden = true; });
+  frame.addEventListener('error', () => { loaded = false; fallback.hidden = false; });
+  setTimeout(() => {
+    if (!loaded) {
+      fallback.hidden = false;
+      frame.classList.add('is-blocked');
+    }
+  }, 5000);
 }
 
 function initShootingStars() {

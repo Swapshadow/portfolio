@@ -3745,4 +3745,8 @@ body[data-animations="off"] .track-thumb img {
 .frenchbreaches-map-card{margin-top:2rem;padding:1rem;border-radius:24px;background:rgba(8,12,28,.72);border:1px solid rgba(148,163,184,.22);box-shadow:0 24px 80px rgba(0,0,0,.35);overflow:hidden}
 .frenchbreaches-map-frame{width:100%;min-height:720px;border:0;border-radius:18px;background:#020617;display:block}
 .frenchbreaches-map-actions{margin-top:1rem;display:flex;justify-content:flex-end}
+.frenchbreaches-map-frame.is-blocked{display:none}
+.frenchbreaches-map-fallback{margin-top:1rem;padding:1rem;border-radius:14px;border:1px solid rgba(148,163,184,.22);background:rgba(2,6,23,.72)}
+.frenchbreaches-map-badges{display:flex;gap:8px;margin-bottom:.75rem}
+.frenchbreaches-map-badges span{padding:4px 8px;border-radius:999px;border:1px solid var(--border);font-size:.75rem}
 @media (max-width:768px){.frenchbreaches-map-frame{min-height:560px}}
