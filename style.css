@@ -3741,3 +3741,8 @@ body[data-animations="off"] .track-thumb img {
 .rss-severity{margin-left:auto;padding:2px 8px;border-radius:999px;font-size:.72rem}.rss-severity-critical{background:rgba(255,80,80,.15);color:#ff8e8e}.rss-severity-high{background:rgba(255,190,80,.15);color:#ffcb7e}.rss-severity-info{background:rgba(120,180,255,.15);color:#9ec7ff}
 .rss-read-more{font-weight:600}
 .watch-sources-list{display:flex;flex-wrap:wrap;gap:8px}.watch-sources-list span,.watch-sources-list a{padding:7px 10px;border:1px solid var(--border);border-radius:999px;text-decoration:none;color:var(--text)}
+
+.frenchbreaches-map-card{margin-top:2rem;padding:1rem;border-radius:24px;background:rgba(8,12,28,.72);border:1px solid rgba(148,163,184,.22);box-shadow:0 24px 80px rgba(0,0,0,.35);overflow:hidden}
+.frenchbreaches-map-frame{width:100%;min-height:720px;border:0;border-radius:18px;background:#020617}
+.frenchbreaches-map-actions{margin-top:1rem;display:flex;justify-content:flex-end}
+@media (max-width:768px){.frenchbreaches-map-frame{min-height:560px}}

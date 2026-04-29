@@ -197,6 +197,21 @@ const I18N_MESSAGES = {
     'watch.readSource': 'Lire la source →',
     'watch.showMore': 'Afficher plus',
     'watch.showLess': 'Réduire',
+    'watch.stats.alerts': 'Alertes & CVE',
+    'watch.stats.exploitation': 'Exploitation active',
+    'watch.stats.news': 'Actualité cyber',
+    'watch.stats.leaks': 'Fuites de données',
+    'watch.stats.sources': 'Sources surveillées',
+    'watch.stats.updated': 'Dernière mise à jour',
+    'watch.alerts.title': '🚨 Alertes & vulnérabilités',
+    'watch.alerts.desc': 'Alertes officielles et bulletins CERT à surveiller en priorité.',
+    'watch.severity.critical': 'Critique',
+    'watch.severity.high': 'Élevée',
+    'watch.severity.info': 'Information',
+    'hack.fbmap.title': 'Carte mondiale des fuites de données',
+    'hack.fbmap.desc': 'Visualisation interactive des incidents et fuites de données recensés par FrenchBreaches, avec filtres par pays, sévérité, secteur et groupe ransomware.',
+    'hack.fbmap.source': 'Source : FrenchBreaches',
+    'hack.fbmap.cta': 'Ouvrir la carte FrenchBreaches →',
     'blog.page.title': 'Blog',
     'zones.game.text': 'Explorez des démonstrations interactives, mini-jeux et parcours cyber immersifs.',
     'zones.game.cta': 'Ouvrir la Game Zone',
@@ -267,6 +282,21 @@ const I18N_MESSAGES = {
     'watch.readSource': 'Read source →',
     'watch.showMore': 'Show more',
     'watch.showLess': 'Collapse',
+    'watch.stats.alerts': 'Alerts & CVEs',
+    'watch.stats.exploitation': 'Active exploitation',
+    'watch.stats.news': 'Cyber news',
+    'watch.stats.leaks': 'Data leaks',
+    'watch.stats.sources': 'Monitored sources',
+    'watch.stats.updated': 'Last update',
+    'watch.alerts.title': '🚨 Alerts & vulnerabilities',
+    'watch.alerts.desc': 'Official alerts and CERT advisories to monitor as a priority.',
+    'watch.severity.critical': 'Critical',
+    'watch.severity.high': 'High',
+    'watch.severity.info': 'Information',
+    'hack.fbmap.title': 'Global data breach map',
+    'hack.fbmap.desc': 'Interactive visualization of incidents and data breaches tracked by FrenchBreaches, with filters by country, severity, sector and ransomware group.',
+    'hack.fbmap.source': 'Source: FrenchBreaches',
+    'hack.fbmap.cta': 'Open the FrenchBreaches map →',
     'blog.page.title': 'Blog',
     'zones.game.text': 'Explore interactive demos, mini-games, and immersive cyber tracks.',
     'zones.game.cta': 'Open Game Zone',
@@ -1365,7 +1395,7 @@ function renderRssItems({ items, container, label, key }) {
       cta.target = '_blank';
       cta.rel = 'noopener noreferrer';
       cta.dataset.i18n = 'watch.readSource';
-      cta.textContent = 'Lire la source →';
+      cta.textContent = t('watch.readSource', 'Lire la source →');
 
       card.appendChild(meta);
       card.appendChild(title);
@@ -1378,7 +1408,7 @@ function renderRssItems({ items, container, label, key }) {
   if (items.length) {
     renderSet(visibleItems);
     if (status) {
-      status.textContent = `Dernière mise à jour · ${items[0].date}`;
+      status.textContent = `${t('watch.stats.updated', 'Dernière mise à jour')} · ${items[0].date}`;
     }
     updateRssTabCount(key, items.length);
   } else {
@@ -1391,17 +1421,17 @@ function renderRssItems({ items, container, label, key }) {
       moreButton.onclick = () => {
         renderSet(items);
         moreButton.dataset.expanded = 'true';
-        moreButton.textContent = 'Réduire';
+        moreButton.textContent = t('watch.showLess', 'Réduire');
         moreButton.onclick = () => {
           renderSet(visibleItems);
           moreButton.dataset.expanded = 'false';
-          moreButton.textContent = 'Afficher plus';
+          moreButton.textContent = t('watch.showMore', 'Afficher plus');
         };
         if (status) {
           status.textContent = `Affichage complet (${items.length} articles)`;
         }
       };
-      moreButton.textContent = 'Afficher plus';
+      moreButton.textContent = t('watch.showMore', 'Afficher plus');
     } else {
       moreButton.hidden = true;
     }
@@ -1411,12 +1441,14 @@ function renderRssItems({ items, container, label, key }) {
 }
 
 function computeSeverity(text) {
+  const locale = document.documentElement.lang === 'en' ? 'en' : 'fr';
+  const t = (k, f) => I18N_MESSAGES[locale]?.[k] || f;
   const value = (text || '').toLowerCase();
   const critical = ['critical', 'critique', 'rce', 'remote code execution', '0-day', 'zero-day', 'exploited', 'exploitation active', 'ransomware', 'cvss 9', 'cvss 10'];
   const high = ['cve', 'vulnérabilité', 'vulnerability', 'patch', 'security update', 'compromission', 'malware'];
-  if (critical.some((k) => value.includes(k))) return { level: 'critical', label: 'Critique' };
-  if (high.some((k) => value.includes(k))) return { level: 'high', label: 'Élevée' };
-  return { level: 'info', label: 'Information' };
+  if (critical.some((k) => value.includes(k))) return { level: 'critical', label: t('watch.severity.critical', 'Critique') };
+  if (high.some((k) => value.includes(k))) return { level: 'high', label: t('watch.severity.high', 'Élevée') };
+  return { level: 'info', label: t('watch.severity.info', 'Information') };
 }
 
 function initWatchFilters() {
@@ -1528,3 +1560,5 @@ function buildExcerpt(raw) {
   }
   return `${text.slice(0, maxLength).trim()}…`;
 }
+  const locale = document.documentElement.lang === 'en' ? 'en' : 'fr';
+  const t = (k, f) => I18N_MESSAGES[locale]?.[k] || f;
