@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initPwaInstall();
   initShootingStars();
   initBlogSpaceEffects();
+  initFrenchBreachesEmbed();
 });
 
 const RSS_CACHE_PREFIX = 'rss-cache-v1';
@@ -1776,3 +1777,5 @@ function buildExcerpt(raw) {
   }
   return `${text.slice(0, maxLength).trim()}…`;
 }
+  const locale = document.documentElement.lang === 'en' ? 'en' : 'fr';
+  const t = (k, f) => I18N_MESSAGES[locale]?.[k] || f;
