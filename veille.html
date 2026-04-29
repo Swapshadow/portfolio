@@ -136,9 +136,7 @@
     <section class="section" id="veille" data-section="veille">
       <div class="container section-card reveal-on-scroll" data-reveal>
         <h1 class="section-title" data-i18n="watch.page.title">Veille cybersécurité</h1>
-        <p data-i18n="watch.page.intro">Cette page centralise une veille cybersécurité orientée vulnérabilités, exploitation active, cybercriminalité, fuites de données et actualité opérationnelle. Les flux sont agrégés automatiquement afin de faciliter le suivi quotidien des signaux cyber pertinents.</p>
         <section class="watch-reader" data-watch-reader>
-          <p class="watch-reader-subtitle">Lecture rapide des alertes, CVE, exploitation active, ransomware et fuites de données.</p>
           <div class="watch-reader-filters">
             <button type="button" class="watch-chip active" data-reader-filter="all">Tout</button>
             <button type="button" class="watch-chip" data-reader-filter="critical">Critique</button>
@@ -156,17 +154,11 @@
             <div class="watch-reader-actions">
               <a class="button" href="#" data-reader-link target="_blank" rel="noopener noreferrer">Lire la source</a>
               <button class="watch-reset" type="button" data-reader-copy>Copier</button>
+              <button class="button button-secondary" type="button" data-reader-prev>Précédent</button>
               <button class="button button-secondary" type="button" data-reader-next>Suivant</button>
-              <button class="watch-reset" type="button" data-reader-toggle-list>Voir la liste complète</button>
             </div>
           </article>
         </section>
-        <p class="watch-goal" data-i18n="watch.page.goal">Objectif : collecter, filtrer, qualifier et prioriser les informations utiles.</p>
-        <div class="watch-stats-grid watch-stats-grid-minimal">
-          <article class="watch-stat-card"><h3 data-i18n="watch.stats.alerts">Alertes &amp; CVE</h3><p data-watch-stat="alerts">0</p></article>
-          <article class="watch-stat-card"><h3 data-i18n="watch.stats.exploitation">Exploitation active</h3><p data-watch-stat="exploitation">0</p></article>
-          <article class="watch-stat-card"><h3 data-i18n="watch.stats.updated">Dernière mise à jour</h3><p data-watch-stat="updated">--:--</p></article>
-        </div>
         <details class="watch-advanced">
           <summary>Recherche et filtres avancés</summary>
           <input class="watch-search" type="search" data-watch-search data-i18n-placeholder="watch.search.placeholder" placeholder="Rechercher une CVE, un éditeur, une menace, un mot-clé...">
@@ -206,7 +198,7 @@
           <p data-i18n="watch.noResults">Aucun signal ne correspond à vos filtres.</p>
           <button class="watch-reset" type="button" data-watch-reset data-i18n="watch.reset">Réinitialiser les filtres</button>
         </div>
-        <button class="watch-reset" type="button" data-reader-toggle-list>Voir la liste complète</button>
+        <h2 class="section-title">Toutes les alertes</h2>
         <div class="veille-tabs" role="tablist" aria-label="Catégories de veille" data-veille-tabs>
           <button
             class="veille-tab active"

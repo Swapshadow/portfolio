@@ -1686,13 +1686,11 @@ function initWatchReader() {
   const progress = card.querySelector('[data-reader-progress]');
   const progressBar = card.querySelector('[data-reader-progress-bar]');
   const nextBtn = card.querySelector('[data-reader-next]');
+  const prevBtn = card.querySelector('[data-reader-prev]');
   const copyBtn = card.querySelector('[data-reader-copy]');
-  const listBtn = card.querySelector('[data-reader-toggle-list]');
-  const topListBtn = document.querySelector('button[data-reader-toggle-list]:not(.watch-reader-actions button)');
   const chips = Array.from(document.querySelectorAll('[data-reader-filter]'));
   let idx = 0;
   let currentFilter = 'all';
-  let showList = false;
 
   const score = (item) => {
     const txt = `${item.title} ${item.excerpt}`.toLowerCase();
@@ -1718,7 +1716,7 @@ function initWatchReader() {
 
   const render = () => {
     const items = filtered();
-    document.querySelectorAll('.veille-panels').forEach((el)=> el.hidden = !showList);
+    document.querySelectorAll('.veille-panels').forEach((el)=> el.hidden = false);
     if (!items.length) {
       title.textContent = 'Aucune alerte disponible';
       meta.textContent = '';
@@ -1733,7 +1731,7 @@ function initWatchReader() {
       excerpt.textContent = '';
       progress.textContent = `Article ${items.length} / ${items.length}`;
       link.href = '#';
-      nextBtn.textContent = 'Recommencer';
+      nextBtn.textContent = 'Suivant';
       return;
     }
     const item = items[idx];
@@ -1746,11 +1744,9 @@ function initWatchReader() {
     progressBar.style.width = `${((idx + 1) / items.length) * 100}%`;
   };
 
-  nextBtn?.addEventListener('click', () => { idx += 1; if (nextBtn.textContent.includes('Recommencer')) idx = 0; render(); });
+  nextBtn?.addEventListener('click', () => { idx = Math.min(idx + 1, Math.max(filtered().length - 1, 0)); render(); });
+  prevBtn?.addEventListener('click', () => { idx = Math.max(idx - 1, 0); render(); });
   copyBtn?.addEventListener('click', async () => { await navigator.clipboard.writeText(`${title.textContent}\n${meta.textContent}\n${excerpt.textContent}\n${link.href}`); });
-  const toggleList = (btn) => { showList = !showList; if (btn) btn.textContent = showList ? 'Revenir à la lecture' : 'Voir la liste complète'; if (listBtn && btn !== listBtn) listBtn.textContent = btn?.textContent || listBtn.textContent; if (topListBtn && btn !== topListBtn) topListBtn.textContent = btn?.textContent || topListBtn.textContent; render(); };
-  listBtn?.addEventListener('click', () => toggleList(listBtn));
-  topListBtn?.addEventListener('click', () => toggleList(topListBtn));
   chips.forEach((chip) => chip.addEventListener('click', () => {
     chips.forEach((c) => c.classList.remove('active'));
     chip.classList.add('active');
@@ -1759,8 +1755,20 @@ function initWatchReader() {
     render();
   }));
   card.addEventListener('touchstart', (e) => { card.dataset.touchX = String(e.changedTouches[0].clientX); }, { passive: true });
-  card.addEventListener('touchend', (e) => { const dx = (parseFloat(card.dataset.touchX||'0') - e.changedTouches[0].clientX); if (dx > 45) { idx += 1; render(); } }, { passive: true });
-  document.addEventListener('keydown', (e) => { if (e.key === 'ArrowRight' || e.key === ' ') { idx += 1; render(); } });
+  card.addEventListener('touchend', (e) => { const dx = (parseFloat(card.dataset.touchX||'0') - e.changedTouches[0].clientX); if (dx > 45) { idx = Math.min(idx + 1, Math.max(filtered().length - 1, 0)); render(); } else if (dx < -45) { idx = Math.max(idx - 1, 0); render(); } }, { passive: true });
+  document.addEventListener('keydown', (e) => { if (e.key === 'ArrowRight' || e.key === ' ') { idx = Math.min(idx + 1, Math.max(filtered().length - 1, 0)); render(); } if (e.key === 'ArrowLeft') { idx = Math.max(idx - 1, 0); render(); } });
+  document.addEventListener('click', (e) => {
+    const itemCard = e.target.closest('.rss-item');
+    if (!itemCard) return;
+    const t = itemCard.querySelector('h4 a')?.textContent;
+    const items = filtered();
+    const found = items.findIndex((it) => it.title === t);
+    if (found >= 0) {
+      idx = found;
+      render();
+      window.scrollTo({ top: card.getBoundingClientRect().top + window.scrollY - 90, behavior: 'smooth' });
+    }
+  });
   document.addEventListener('rss:updated', render);
   setInterval(render, 1500);
 }
