@@ -2676,9 +2676,19 @@ body.modal-open {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  color: rgba(210, 220, 255, 0.9);
+  color: var(--text);
   margin-bottom: 20px;
-  font-weight: 500;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.blog-article-back:hover {
+  color: var(--accent);
+}
+
+.blog-article-back:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
 }
 
 .blog-article-card {

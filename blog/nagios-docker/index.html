@@ -119,7 +119,7 @@
   <main>
     <section class="section blog-article-section">
       <div class="container">
-        <a class="blog-article-back" href="../"><span data-i18n="blog.back">← Retour au blog</span></a>
+        <a class="blog-article-back" href="../" data-i18n="blog.back">← Retour au blog</a>
         <div class="blog-article-card">
           <div class="blog-article-content" id="blog-article-content" aria-live="polite"></div>
           <noscript>
@@ -174,7 +174,10 @@
   <script src="../../script.js" defer></script>
   <script>
     const markdownTarget = document.getElementById('blog-article-content');
-    const markdownUrl = '../../content/blog/nagios-docker.md';
+    const markdownUrls = {
+      fr: '../../content/blog/nagios-docker.md',
+      en: '../../content/blog/nagios-docker.en.md',
+    };
 
     const enhanceArticleContent = (container) => {
       if (!container) return;
@@ -188,24 +191,31 @@
       });
     };
 
-    fetch(markdownUrl)
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error('Erreur lors du chargement de l’article');
-        }
-        return response.text();
-      })
-      .then((markdown) => {
-        if (window.marked) {
-          markdownTarget.innerHTML = marked.parse(markdown);
-          enhanceArticleContent(markdownTarget);
-        } else {
-          markdownTarget.textContent = markdown;
-        }
-      })
-      .catch(() => {
-        markdownTarget.innerHTML = '<p>Impossible de charger l’article pour le moment.</p>';
-      });
+    const renderArticle = (lang) => {
+      const locale = lang === 'en' ? 'en' : 'fr';
+      const markdownUrl = markdownUrls[locale] || markdownUrls.fr;
+      fetch(markdownUrl)
+        .then((response) => {
+          if (!response.ok) throw new Error('Article load error');
+          return response.text();
+        })
+        .then((markdown) => {
+          if (window.marked) {
+            markdownTarget.innerHTML = marked.parse(markdown);
+            enhanceArticleContent(markdownTarget);
+          } else {
+            markdownTarget.textContent = markdown;
+          }
+        })
+        .catch(() => {
+          markdownTarget.innerHTML = locale === 'en'
+            ? '<p>Unable to load the article right now.</p>'
+            : '<p>Impossible de charger l’article pour le moment.</p>';
+        });
+    };
+
+    renderArticle(localStorage.getItem('portfolio-lang') || document.documentElement.lang);
+    document.addEventListener('portfolio:languagechange', (event) => renderArticle(event.detail?.lang));
   </script>
 </body>
 </html>

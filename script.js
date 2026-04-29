@@ -189,6 +189,20 @@ const I18N_MESSAGES = {
     'footer.copy': 'Copyright © 2026 Jean-Baptiste Terrazzoni. Tous droits réservés.',
     'footer.contactAria': 'Coordonnées',
     'contact.title': 'Contact',
+    'parcours.title': 'Parcours académique',
+    'parcours.intro': 'Une chronologie structurée de mes formations en cybersécurité, infrastructure et gouvernance, avec les compétences clés développées à chaque étape.',
+    'parcours.badge1': 'Cybersécurité experte',
+    'parcours.badge2': 'Infrastructure sécurisée',
+    'parcours.badge3': 'GRC & conformité',
+    'parcours.milestones': 'Étapes de formation',
+    'parcours.label.ongoing': 'Diplôme · En cours',
+    'parcours.skills.subtitle': 'Compétences acquises / en cours d’acquisition',
+    'parcours.skill1': 'Architecture de sécurité avancée',
+    'parcours.skill2': 'Gouvernance, risque et conformité',
+    'parcours.skill3': 'Threat intelligence & veille cyber',
+    'parcours.skill4': 'Gestion de crise et réponse à incident',
+    'parcours.skill5': 'Audit, conformité et amélioration continue',
+    'parcours.skill6': 'Stratégie de cybersécurité d’entreprise',
   },
   en: {
     'nav.home': 'Home',
@@ -239,6 +253,20 @@ const I18N_MESSAGES = {
     'footer.copy': 'Copyright © 2026 Jean-Baptiste Terrazzoni. All rights reserved.',
     'footer.contactAria': 'Contact details',
     'contact.title': 'Contact',
+    'parcours.title': 'Academic background',
+    'parcours.intro': 'A structured timeline of my cybersecurity, infrastructure, and governance studies, with the core skills developed at each step.',
+    'parcours.badge1': 'Expert cybersecurity',
+    'parcours.badge2': 'Secure infrastructure',
+    'parcours.badge3': 'GRC & compliance',
+    'parcours.milestones': 'Education milestones',
+    'parcours.label.ongoing': 'Degree · Ongoing',
+    'parcours.skills.subtitle': 'Skills acquired / currently being developed',
+    'parcours.skill1': 'Advanced security architecture',
+    'parcours.skill2': 'Governance, risk, and compliance',
+    'parcours.skill3': 'Threat intelligence & cyber watch',
+    'parcours.skill4': 'Crisis management and incident response',
+    'parcours.skill5': 'Audit, compliance, and continuous improvement',
+    'parcours.skill6': 'Enterprise cybersecurity strategy',
   },
 };
 
@@ -407,6 +435,7 @@ function initLanguageSwitcher() {
       const key = node.dataset.i18n;
       const translation = I18N_MESSAGES[locale]?.[key];
       if (translation) node.textContent = translation;
+      else if (key) console.warn(`[i18n] Missing translation for key "${key}" in locale "${locale}"`);
     });
 
     document.querySelectorAll('[data-i18n-aria-label]').forEach((node) => {
@@ -414,6 +443,8 @@ function initLanguageSwitcher() {
       const translation = I18N_MESSAGES[locale]?.[key];
       if (translation) node.setAttribute('aria-label', translation);
     });
+
+    document.dispatchEvent(new CustomEvent('portfolio:languagechange', { detail: { lang: locale } }));
   };
 
   const storedLanguage = localStorage.getItem('portfolio-lang') || localStorage.getItem('siteLanguage') || localStorage.getItem('site-language');
