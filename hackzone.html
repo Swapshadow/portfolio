@@ -105,7 +105,15 @@
             <p data-i18n="hack.fbmap.desc">Visualisation interactive des incidents et fuites de données recensés par FrenchBreaches, avec filtres par pays, sévérité, secteur et groupe ransomware.</p>
             <p data-i18n="hack.fbmap.source">Source : FrenchBreaches</p>
           </div>
-          <iframe class="frenchbreaches-map-frame" src="https://map.frenchbreaches.com/" title="Carte mondiale des fuites de données FrenchBreaches" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          <iframe
+            class="frenchbreaches-map-frame"
+            src="https://map.frenchbreaches.com/"
+            title="Carte mondiale des fuites de données FrenchBreaches"
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allow="fullscreen; clipboard-read; clipboard-write; geolocation"
+            allowfullscreen
+          ></iframe>
           <div class="frenchbreaches-map-actions">
             <a class="button button-hackzone" href="https://map.frenchbreaches.com/" target="_blank" rel="noopener noreferrer" data-i18n="hack.fbmap.cta">Ouvrir la carte FrenchBreaches →</a>
           </div>
