@@ -19,6 +19,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script defer src="https://cloud.umami.is/script.js" data-website-id="4ebf12c8-65e1-4212-921f-f1ebd7af5b0d"></script>
+
+  <link rel="manifest" href="/portfolio/manifest.webmanifest">
+  <meta name="theme-color" content="#0f172a">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Cyber Watch">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="apple-touch-icon" href="/portfolio/assets/favicon.png">
 </head>
 <body class="page">
   <div id="animated-background" aria-hidden="true">
@@ -156,7 +164,9 @@
           <label><input type="checkbox" data-watch-priority-toggle> <span data-i18n="watch.priority.mode">Mode prioritaire</span></label>
           <label><input type="checkbox" data-watch-compact-toggle> <span data-i18n="watch.compact">Vue compacte</span></label>
           <button class="watch-reset" type="button" data-watch-reset data-i18n="watch.reset">Réinitialiser</button>
+          <button class="watch-reset" type="button" data-pwa-install data-i18n="pwa.install" hidden>Installer l’application</button>
         </div>
+        <p class="watch-install-hint" data-pwa-ios-hint data-i18n="pwa.ios" hidden>Sur iPhone : Partager → Ajouter à l’écran d’accueil</p>
         <div class="watch-chips">
           <button class="watch-chip" type="button" data-watch-filter="critical" data-i18n="watch.severity.critical">Critique</button>
           <button class="watch-chip" type="button" data-watch-filter="high" data-i18n="watch.severity.high">Élevée</button>

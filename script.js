@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initCarousel();
   initVeilleTabs();
   initRssFeeds();
+  initPwaInstall();
   initShootingStars();
   initBlogSpaceEffects();
   initFrenchBreachesEmbed();
@@ -233,6 +234,9 @@ const I18N_MESSAGES = {
     'watch.compact': 'Vue compacte',
     'watch.summary': 'Synthèse de veille',
     'watch.results.of': 'résultats affichés sur',
+    'pwa.install': 'Installer l’application',
+    'pwa.ios': 'Sur iPhone : Partager → Ajouter à l’écran d’accueil',
+    'pwa.installed': 'Application installée',
     'blog.page.title': 'Blog',
     'zones.game.text': 'Explorez des démonstrations interactives, mini-jeux et parcours cyber immersifs.',
     'zones.game.cta': 'Ouvrir la Game Zone',
@@ -338,6 +342,9 @@ const I18N_MESSAGES = {
     'watch.compact': 'Compact view',
     'watch.summary': 'Watch summary',
     'watch.results.of': 'results displayed out of',
+    'pwa.install': 'Install app',
+    'pwa.ios': 'On iPhone: Share → Add to Home Screen',
+    'pwa.installed': 'App installed',
     'blog.page.title': 'Blog',
     'zones.game.text': 'Explore interactive demos, mini-games, and immersive cyber tracks.',
     'zones.game.cta': 'Open Game Zone',
@@ -1665,6 +1672,37 @@ function updateWatchDashboard() {
   set('leaks', RSS_TAB_COUNTS.get('leaks') ? Array.from(RSS_TAB_COUNTS.get('leaks').values()).reduce((a,b)=>a+b,0) : 0);
   set('sources', document.querySelectorAll('[data-rss-feed]').length);
   set('updated', new Date().toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' }));
+}
+
+function initPwaInstall() {
+  const btn = document.querySelector('[data-pwa-install]');
+  const hint = document.querySelector('[data-pwa-ios-hint]');
+  const installed = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone;
+  if (installed) {
+    if (hint) { hint.hidden = false; hint.textContent = I18N_MESSAGES[document.documentElement.lang === 'en' ? 'en' : 'fr']['pwa.installed']; }
+    if (btn) btn.hidden = true;
+    return;
+  }
+  let deferredPrompt = null;
+  window.addEventListener('beforeinstallprompt', (event) => {
+    event.preventDefault();
+    deferredPrompt = event;
+    if (btn) btn.hidden = false;
+  });
+  btn?.addEventListener('click', async () => {
+    if (!deferredPrompt) return;
+    await deferredPrompt.prompt();
+    deferredPrompt = null;
+    btn.hidden = true;
+  });
+  const isIOS = /iphone|ipad|ipod/i.test(navigator.userAgent);
+  if (isIOS && hint) hint.hidden = false;
+}
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/portfolio/sw.js').catch((error) => console.warn('Service worker registration failed:', error));
+  });
 }
 
 function renderRssEmpty(container, status) {
