@@ -147,6 +147,8 @@ const I18N_MESSAGES = {
     'nav.watch': 'Veille',
     'nav.blog': 'Blog',
     'nav.projects': 'Projets',
+    'nav.game': 'Game Zone',
+    'nav.hack': 'Hack Zone',
     'hero.eyebrow': 'Infrastructure & cybersécurité',
     'hero.title': 'Jean-Baptiste Terrazzoni',
     'hero.role': 'Administrateur d’infrastructures sécurisées · Cybersécurité · Pentest junior',
@@ -181,6 +183,12 @@ const I18N_MESSAGES = {
     'zones.game.cta': 'Ouvrir la Game Zone',
     'zones.hack.text': 'Explorez un univers cyber immersif avec visualisation d’attaques, veille offensive et démonstrations interactives.',
     'zones.hack.cta': 'Ouvrir la Hack Zone',
+
+    'blog.back': '← Retour au blog',
+    'blog.enableJs': 'Veuillez activer JavaScript pour afficher l’article.',
+    'footer.copy': 'Copyright © 2026 Jean-Baptiste Terrazzoni. Tous droits réservés.',
+    'footer.contactAria': 'Coordonnées',
+    'contact.title': 'Contact',
   },
   en: {
     'nav.home': 'Home',
@@ -189,6 +197,8 @@ const I18N_MESSAGES = {
     'nav.watch': 'Watch',
     'nav.blog': 'Blog',
     'nav.projects': 'Projects',
+    'nav.game': 'Game Zone',
+    'nav.hack': 'Hack Zone',
     'hero.eyebrow': 'Infrastructure & Cybersecurity',
     'hero.title': 'Jean-Baptiste Terrazzoni',
     'hero.role': 'Secure Infrastructure Administrator · Cybersecurity · Junior Pentester',
@@ -223,6 +233,12 @@ const I18N_MESSAGES = {
     'zones.game.cta': 'Open Game Zone',
     'zones.hack.text': 'Explore an immersive cyber universe with attack visualizations, offensive watch, and interactive demos.',
     'zones.hack.cta': 'Open Hack Zone',
+
+    'blog.back': '← Back to blog',
+    'blog.enableJs': 'Please enable JavaScript to display the article.',
+    'footer.copy': 'Copyright © 2026 Jean-Baptiste Terrazzoni. All rights reserved.',
+    'footer.contactAria': 'Contact details',
+    'contact.title': 'Contact',
   },
 };
 
@@ -354,41 +370,60 @@ function initMenu() {
 }
 
 function initLanguageSwitcher() {
-  const languageToggle = document.querySelector('[data-language-toggle]');
-  if (!languageToggle) return;
+  const navActions = document.querySelectorAll('.nav-actions, .nav-controls, .header-actions');
+  navActions.forEach((navAction) => {
+    if (navAction.querySelector('[data-language-toggle]')) return;
+    const languageToggle = document.createElement('button');
+    languageToggle.className = 'nav-icon-button language-toggle';
+    languageToggle.type = 'button';
+    languageToggle.dataset.languageToggle = '';
+    const menuToggle = navAction.querySelector('.menu-toggle');
+    if (menuToggle) navAction.insertBefore(languageToggle, menuToggle);
+    else navAction.appendChild(languageToggle);
+  });
+
+  const languageToggles = document.querySelectorAll('[data-language-toggle], .language-toggle');
+  if (!languageToggles.length) return;
 
   const applyLanguage = (lang) => {
     const locale = lang === 'en' ? 'en' : 'fr';
     document.documentElement.lang = locale;
     document.body.dataset.lang = locale;
-    localStorage.setItem('siteLanguage', locale);
+    localStorage.setItem('portfolio-lang', locale);
 
-    if (locale === 'fr') {
-      languageToggle.textContent = '🇬🇧';
-      languageToggle.setAttribute('aria-label', 'Switch language to English');
-      languageToggle.setAttribute('title', 'Switch language to English');
-    } else {
-      languageToggle.textContent = '🇫🇷';
-      languageToggle.setAttribute('aria-label', 'Passer le site en français');
-      languageToggle.setAttribute('title', 'Passer le site en français');
-    }
+    languageToggles.forEach((languageToggle) => {
+      if (locale === 'fr') {
+        languageToggle.textContent = '🇬🇧';
+        languageToggle.setAttribute('aria-label', 'Switch to English');
+        languageToggle.setAttribute('title', 'Switch to English');
+      } else {
+        languageToggle.textContent = '🇫🇷';
+        languageToggle.setAttribute('aria-label', 'Passer en français');
+        languageToggle.setAttribute('title', 'Passer en français');
+      }
+    });
 
-    const dictionary = I18N_MESSAGES[locale] || I18N_MESSAGES.fr;
     document.querySelectorAll('[data-i18n]').forEach((node) => {
       const key = node.dataset.i18n;
-      const translation = dictionary[key];
-      if (translation) {
-        node.textContent = translation;
-      }
+      const translation = I18N_MESSAGES[locale]?.[key];
+      if (translation) node.textContent = translation;
+    });
+
+    document.querySelectorAll('[data-i18n-aria-label]').forEach((node) => {
+      const key = node.dataset.i18nAriaLabel;
+      const translation = I18N_MESSAGES[locale]?.[key];
+      if (translation) node.setAttribute('aria-label', translation);
     });
   };
 
-  const storedLanguage = localStorage.getItem('siteLanguage') || localStorage.getItem('site-language');
+  const storedLanguage = localStorage.getItem('portfolio-lang') || localStorage.getItem('siteLanguage') || localStorage.getItem('site-language');
   applyLanguage(storedLanguage === 'en' ? 'en' : 'fr');
 
-  languageToggle.addEventListener('click', () => {
-    const nextLanguage = document.documentElement.lang === 'fr' ? 'en' : 'fr';
-    applyLanguage(nextLanguage);
+  languageToggles.forEach((languageToggle) => {
+    languageToggle.addEventListener('click', () => {
+      const nextLanguage = document.documentElement.lang === 'fr' ? 'en' : 'fr';
+      applyLanguage(nextLanguage);
+    });
   });
 }
 

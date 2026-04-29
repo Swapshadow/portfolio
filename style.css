@@ -791,8 +791,13 @@ body[data-animations="off"] .reveal-on-scroll {
 }
 
 .language-toggle {
-  font-size: 1rem;
+  min-width: 42px;
+  padding: 8px 10px;
+  font-size: 1.05rem;
   line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .theme-toggle-emoji {
