@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initRssFeeds();
   initShootingStars();
   initBlogSpaceEffects();
+  initFrenchBreachesEmbed();
 });
 
 const RSS_CACHE_PREFIX = 'rss-cache-v1';
@@ -30,6 +31,11 @@ const RSS_FEEDS = [
     key: 'cisa',
     url: 'https://www.cisa.gov/cybersecurity-advisories/all.xml',
     label: 'CISA',
+  },
+  {
+    key: 'cyberveille-esante',
+    url: 'https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml',
+    label: 'Cyberveille eSanté — Alertes & vulnérabilités',
   },
   {
     key: 'exploit-db',
@@ -58,6 +64,11 @@ const RSS_FEEDS = [
     label: 'ZATAZ',
   },
   {
+    key: 'flipboard-cybercrime',
+    url: 'https://flipboard.com/topic/fr-cybercriminalit%C3%A9.rss',
+    label: 'Flipboard — Cybercriminalité',
+  },
+  {
     key: 'krebs',
     url: 'https://krebsonsecurity.com/feed/',
     label: 'Krebs on Security',
@@ -72,15 +83,18 @@ const RSS_FEEDS = [
 const RSS_TAB_MAP = {
   'cert-fr': 'alertes',
   cisa: 'alertes',
+  'cyberveille-esante': 'alertes',
   'exploit-db': 'exploitation',
   'hacker-news': 'actualite',
   cybermalveillance: 'actualite',
   zataz: 'actualite',
+  'flipboard-cybercrime': 'actualite',
   krebs: 'actualite',
   'hibp-leaks': 'leaks',
 };
 
 const RSS_TAB_COUNTS = new Map();
+const RSS_ALL_ITEMS = [];
 
 function initWatchCardCleanup() {
   const hero = document.querySelector('.hero#accueil');
@@ -147,6 +161,8 @@ const I18N_MESSAGES = {
     'nav.watch': 'Veille',
     'nav.blog': 'Blog',
     'nav.projects': 'Projets',
+    'nav.game': 'Game Zone',
+    'nav.hack': 'Hack Zone',
     'hero.eyebrow': 'Infrastructure & cybersécurité',
     'hero.title': 'Jean-Baptiste Terrazzoni',
     'hero.role': 'Administrateur d’infrastructures sécurisées · Cybersécurité · Pentest junior',
@@ -176,11 +192,53 @@ const I18N_MESSAGES = {
     'cert.page.title': 'Certifications',
     'cert.page.intro': 'Une sélection de certifications validant mes compétences en sécurité, réseau et conformité.',
     'watch.page.title': 'Veille cybersécurité',
+    'watch.page.intro': 'Cette page centralise une veille cybersécurité orientée vulnérabilités, exploitation active, cybercriminalité, fuites de données et actualité opérationnelle. Les flux sont agrégés automatiquement afin de faciliter le suivi quotidien des signaux cyber pertinents.',
+    'watch.page.goal': 'Objectif : collecter, filtrer, qualifier et prioriser les informations utiles.',
+    'watch.search.placeholder': 'Rechercher une CVE, un éditeur, une menace, un mot-clé...',
+    'watch.readSource': 'Lire la source →',
+    'watch.showMore': 'Afficher plus',
+    'watch.showLess': 'Réduire',
+    'watch.stats.alerts': 'Alertes & CVE',
+    'watch.stats.exploitation': 'Exploitation active',
+    'watch.stats.news': 'Actualité cyber',
+    'watch.stats.leaks': 'Fuites de données',
+    'watch.stats.sources': 'Sources surveillées',
+    'watch.stats.updated': 'Dernière mise à jour',
+    'watch.alerts.title': '🚨 Alertes & vulnérabilités',
+    'watch.alerts.desc': 'Alertes officielles et bulletins CERT à surveiller en priorité.',
+    'watch.severity.critical': 'Critique',
+    'watch.severity.high': 'Élevée',
+    'watch.severity.info': 'Information',
+    'hack.fbmap.title': 'Carte mondiale des fuites de données',
+    'hack.fbmap.desc': 'Visualisation interactive des incidents et fuites de données recensés par FrenchBreaches, avec filtres par pays, sévérité, secteur et groupe ransomware.',
+    'hack.fbmap.source': 'Source : FrenchBreaches',
+    'hack.fbmap.cta': 'Ouvrir la carte FrenchBreaches →',
+    'hack.fbmap.fallback': 'La carte FrenchBreaches semble bloquée dans l’iframe. Vous pouvez l’ouvrir dans un nouvel onglet.',
     'blog.page.title': 'Blog',
     'zones.game.text': 'Explorez des démonstrations interactives, mini-jeux et parcours cyber immersifs.',
     'zones.game.cta': 'Ouvrir la Game Zone',
     'zones.hack.text': 'Explorez un univers cyber immersif avec visualisation d’attaques, veille offensive et démonstrations interactives.',
     'zones.hack.cta': 'Ouvrir la Hack Zone',
+
+    'blog.back': '← Retour au blog',
+    'blog.enableJs': 'Veuillez activer JavaScript pour afficher l’article.',
+    'footer.copy': 'Copyright © 2026 Jean-Baptiste Terrazzoni. Tous droits réservés.',
+    'footer.contactAria': 'Coordonnées',
+    'contact.title': 'Contact',
+    'parcours.title': 'Parcours académique',
+    'parcours.intro': 'Une chronologie structurée de mes formations en cybersécurité, infrastructure et gouvernance, avec les compétences clés développées à chaque étape.',
+    'parcours.badge1': 'Cybersécurité experte',
+    'parcours.badge2': 'Infrastructure sécurisée',
+    'parcours.badge3': 'GRC & conformité',
+    'parcours.milestones': 'Étapes de formation',
+    'parcours.label.ongoing': 'Diplôme · En cours',
+    'parcours.skills.subtitle': 'Compétences acquises / en cours d’acquisition',
+    'parcours.skill1': 'Architecture de sécurité avancée',
+    'parcours.skill2': 'Gouvernance, risque et conformité',
+    'parcours.skill3': 'Threat intelligence & veille cyber',
+    'parcours.skill4': 'Gestion de crise et réponse à incident',
+    'parcours.skill5': 'Audit, conformité et amélioration continue',
+    'parcours.skill6': 'Stratégie de cybersécurité d’entreprise',
   },
   en: {
     'nav.home': 'Home',
@@ -189,6 +247,8 @@ const I18N_MESSAGES = {
     'nav.watch': 'Watch',
     'nav.blog': 'Blog',
     'nav.projects': 'Projects',
+    'nav.game': 'Game Zone',
+    'nav.hack': 'Hack Zone',
     'hero.eyebrow': 'Infrastructure & Cybersecurity',
     'hero.title': 'Jean-Baptiste Terrazzoni',
     'hero.role': 'Secure Infrastructure Administrator · Cybersecurity · Junior Pentester',
@@ -218,11 +278,53 @@ const I18N_MESSAGES = {
     'cert.page.title': 'Certifications',
     'cert.page.intro': 'A selection of certifications validating my skills in security, networking, and compliance.',
     'watch.page.title': 'Cybersecurity watch',
+    'watch.page.intro': 'This page centralizes cybersecurity monitoring focused on vulnerabilities, active exploitation, cybercrime, data leaks, and operational news. Feeds are aggregated automatically to streamline daily tracking of relevant cyber signals.',
+    'watch.page.goal': 'Goal: collect, filter, qualify, and prioritize useful intelligence.',
+    'watch.search.placeholder': 'Search for a CVE, vendor, threat, keyword...',
+    'watch.readSource': 'Read source →',
+    'watch.showMore': 'Show more',
+    'watch.showLess': 'Collapse',
+    'watch.stats.alerts': 'Alerts & CVEs',
+    'watch.stats.exploitation': 'Active exploitation',
+    'watch.stats.news': 'Cyber news',
+    'watch.stats.leaks': 'Data leaks',
+    'watch.stats.sources': 'Monitored sources',
+    'watch.stats.updated': 'Last update',
+    'watch.alerts.title': '🚨 Alerts & vulnerabilities',
+    'watch.alerts.desc': 'Official alerts and CERT advisories to monitor as a priority.',
+    'watch.severity.critical': 'Critical',
+    'watch.severity.high': 'High',
+    'watch.severity.info': 'Information',
+    'hack.fbmap.title': 'Global data breach map',
+    'hack.fbmap.desc': 'Interactive visualization of incidents and data breaches tracked by FrenchBreaches, with filters by country, severity, sector and ransomware group.',
+    'hack.fbmap.source': 'Source: FrenchBreaches',
+    'hack.fbmap.cta': 'Open the FrenchBreaches map →',
+    'hack.fbmap.fallback': 'The FrenchBreaches map seems blocked in the iframe. You can open it in a new tab.',
     'blog.page.title': 'Blog',
     'zones.game.text': 'Explore interactive demos, mini-games, and immersive cyber tracks.',
     'zones.game.cta': 'Open Game Zone',
     'zones.hack.text': 'Explore an immersive cyber universe with attack visualizations, offensive watch, and interactive demos.',
     'zones.hack.cta': 'Open Hack Zone',
+
+    'blog.back': '← Back to blog',
+    'blog.enableJs': 'Please enable JavaScript to display the article.',
+    'footer.copy': 'Copyright © 2026 Jean-Baptiste Terrazzoni. All rights reserved.',
+    'footer.contactAria': 'Contact details',
+    'contact.title': 'Contact',
+    'parcours.title': 'Academic background',
+    'parcours.intro': 'A structured timeline of my cybersecurity, infrastructure, and governance studies, with the core skills developed at each step.',
+    'parcours.badge1': 'Expert cybersecurity',
+    'parcours.badge2': 'Secure infrastructure',
+    'parcours.badge3': 'GRC & compliance',
+    'parcours.milestones': 'Education milestones',
+    'parcours.label.ongoing': 'Degree · Ongoing',
+    'parcours.skills.subtitle': 'Skills acquired / currently being developed',
+    'parcours.skill1': 'Advanced security architecture',
+    'parcours.skill2': 'Governance, risk, and compliance',
+    'parcours.skill3': 'Threat intelligence & cyber watch',
+    'parcours.skill4': 'Crisis management and incident response',
+    'parcours.skill5': 'Audit, compliance, and continuous improvement',
+    'parcours.skill6': 'Enterprise cybersecurity strategy',
   },
 };
 
@@ -354,41 +456,68 @@ function initMenu() {
 }
 
 function initLanguageSwitcher() {
-  const languageToggle = document.querySelector('[data-language-toggle]');
-  if (!languageToggle) return;
+  const navActions = document.querySelectorAll('.nav-actions, .nav-controls, .header-actions');
+  navActions.forEach((navAction) => {
+    if (navAction.querySelector('[data-language-toggle]')) return;
+    const languageToggle = document.createElement('button');
+    languageToggle.className = 'nav-icon-button language-toggle';
+    languageToggle.type = 'button';
+    languageToggle.dataset.languageToggle = '';
+    const menuToggle = navAction.querySelector('.menu-toggle');
+    if (menuToggle) navAction.insertBefore(languageToggle, menuToggle);
+    else navAction.appendChild(languageToggle);
+  });
+
+  const languageToggles = document.querySelectorAll('[data-language-toggle], .language-toggle');
+  if (!languageToggles.length) return;
 
   const applyLanguage = (lang) => {
     const locale = lang === 'en' ? 'en' : 'fr';
     document.documentElement.lang = locale;
     document.body.dataset.lang = locale;
-    localStorage.setItem('siteLanguage', locale);
+    localStorage.setItem('portfolio-lang', locale);
 
-    if (locale === 'fr') {
-      languageToggle.textContent = '🇬🇧';
-      languageToggle.setAttribute('aria-label', 'Switch language to English');
-      languageToggle.setAttribute('title', 'Switch language to English');
-    } else {
-      languageToggle.textContent = '🇫🇷';
-      languageToggle.setAttribute('aria-label', 'Passer le site en français');
-      languageToggle.setAttribute('title', 'Passer le site en français');
-    }
-
-    const dictionary = I18N_MESSAGES[locale] || I18N_MESSAGES.fr;
-    document.querySelectorAll('[data-i18n]').forEach((node) => {
-      const key = node.dataset.i18n;
-      const translation = dictionary[key];
-      if (translation) {
-        node.textContent = translation;
+    languageToggles.forEach((languageToggle) => {
+      if (locale === 'fr') {
+        languageToggle.textContent = '🇬🇧';
+        languageToggle.setAttribute('aria-label', 'Switch to English');
+        languageToggle.setAttribute('title', 'Switch to English');
+      } else {
+        languageToggle.textContent = '🇫🇷';
+        languageToggle.setAttribute('aria-label', 'Passer en français');
+        languageToggle.setAttribute('title', 'Passer en français');
       }
     });
+
+    document.querySelectorAll('[data-i18n]').forEach((node) => {
+      const key = node.dataset.i18n;
+      const translation = I18N_MESSAGES[locale]?.[key];
+      if (translation) node.textContent = translation;
+      else if (key) console.warn(`[i18n] Missing translation for key "${key}" in locale "${locale}"`);
+    });
+
+    document.querySelectorAll('[data-i18n-aria-label]').forEach((node) => {
+      const key = node.dataset.i18nAriaLabel;
+      const translation = I18N_MESSAGES[locale]?.[key];
+      if (translation) node.setAttribute('aria-label', translation);
+    });
+    document.querySelectorAll('[data-i18n-placeholder]').forEach((node) => {
+      const key = node.dataset.i18nPlaceholder;
+      const translation = I18N_MESSAGES[locale]?.[key];
+      if (translation) node.setAttribute('placeholder', translation);
+    });
+
+    document.dispatchEvent(new CustomEvent('portfolio:languagechange', { detail: { lang: locale } }));
   };
 
-  const storedLanguage = localStorage.getItem('siteLanguage') || localStorage.getItem('site-language');
+  const storedLanguage = localStorage.getItem('portfolio-lang') || localStorage.getItem('siteLanguage') || localStorage.getItem('site-language');
   applyLanguage(storedLanguage === 'en' ? 'en' : 'fr');
 
-  languageToggle.addEventListener('click', () => {
-    const nextLanguage = document.documentElement.lang === 'fr' ? 'en' : 'fr';
-    applyLanguage(nextLanguage);
+  languageToggles.forEach((languageToggle) => {
+    languageToggle.addEventListener('click', () => {
+      const nextLanguage = document.documentElement.lang === 'fr' ? 'en' : 'fr';
+      applyLanguage(nextLanguage);
+    });
   });
 }
 
@@ -889,7 +1018,23 @@ function initRssFeeds() {
     .filter(Boolean);
 
   if (!tasks.length) return;
-  Promise.allSettled(tasks);
+  Promise.allSettled(tasks).finally(() => updateWatchDashboard());
+  initWatchFilters();
+}
+
+function initFrenchBreachesEmbed() {
+  const frame = document.querySelector('[data-frenchbreaches-frame]');
+  const fallback = document.querySelector('[data-frenchbreaches-fallback]');
+  if (!frame || !fallback) return;
+  let loaded = false;
+  frame.addEventListener('load', () => { loaded = true; fallback.hidden = true; });
+  frame.addEventListener('error', () => { loaded = false; fallback.hidden = false; });
+  setTimeout(() => {
+    if (!loaded) {
+      fallback.hidden = false;
+      frame.classList.add('is-blocked');
+    }
+  }, 5000);
 }
 
 function initShootingStars() {
@@ -1231,7 +1376,7 @@ function renderRssItems({ items, container, label, key }) {
 
   if (!list) return;
 
-  const visibleItems = items.slice(0, RSS_INITIAL_ITEMS);
+  const visibleItems = items.slice(0, 6);
   list.innerHTML = '';
 
   const renderSet = (set) => {
@@ -1239,10 +1384,17 @@ function renderRssItems({ items, container, label, key }) {
     set.forEach((item) => {
       const card = document.createElement('article');
       card.className = 'rss-item';
+      const severity = computeSeverity(`${item.title} ${item.excerpt}`);
+      card.dataset.severity = severity.level;
+      card.dataset.search = `${item.title} ${item.excerpt} ${label}`.toLowerCase();
 
       const meta = document.createElement('div');
       meta.className = 'rss-item-meta';
       meta.innerHTML = `<span>${label}</span><span>${item.date}</span>`;
+      const sevBadge = document.createElement('span');
+      sevBadge.className = `rss-severity rss-severity-${severity.level}`;
+      sevBadge.textContent = severity.label;
+      meta.appendChild(sevBadge);
 
       const title = document.createElement('h4');
       const link = document.createElement('a');
@@ -1255,10 +1407,18 @@ function renderRssItems({ items, container, label, key }) {
       const excerpt = document.createElement('p');
       excerpt.className = 'rss-item-excerpt';
       excerpt.textContent = item.excerpt;
+      const cta = document.createElement('a');
+      cta.className = 'rss-read-more';
+      cta.href = item.link;
+      cta.target = '_blank';
+      cta.rel = 'noopener noreferrer';
+      cta.dataset.i18n = 'watch.readSource';
+      cta.textContent = t('watch.readSource', 'Lire la source →');
 
       card.appendChild(meta);
       card.appendChild(title);
       card.appendChild(excerpt);
+      card.appendChild(cta);
       list.appendChild(card);
     });
   };
@@ -1266,7 +1426,7 @@ function renderRssItems({ items, container, label, key }) {
   if (items.length) {
     renderSet(visibleItems);
     if (status) {
-      status.textContent = `Dernière mise à jour · ${items[0].date}`;
+      status.textContent = `${t('watch.stats.updated', 'Dernière mise à jour')} · ${items[0].date}`;
     }
     updateRssTabCount(key, items.length);
   } else {
@@ -1278,15 +1438,72 @@ function renderRssItems({ items, container, label, key }) {
       moreButton.hidden = false;
       moreButton.onclick = () => {
         renderSet(items);
-        moreButton.hidden = true;
+        moreButton.dataset.expanded = 'true';
+        moreButton.textContent = t('watch.showLess', 'Réduire');
+        moreButton.onclick = () => {
+          renderSet(visibleItems);
+          moreButton.dataset.expanded = 'false';
+          moreButton.textContent = t('watch.showMore', 'Afficher plus');
+        };
         if (status) {
           status.textContent = `Affichage complet (${items.length} articles)`;
         }
       };
+      moreButton.textContent = t('watch.showMore', 'Afficher plus');
     } else {
       moreButton.hidden = true;
     }
   }
+  RSS_ALL_ITEMS.push(...items.map((item) => ({ ...item, key, label })));
+  updateWatchDashboard();
+}
+
+function computeSeverity(text) {
+  const locale = document.documentElement.lang === 'en' ? 'en' : 'fr';
+  const t = (k, f) => I18N_MESSAGES[locale]?.[k] || f;
+  const value = (text || '').toLowerCase();
+  const critical = ['critical', 'critique', 'rce', 'remote code execution', '0-day', 'zero-day', 'exploited', 'exploitation active', 'ransomware', 'cvss 9', 'cvss 10'];
+  const high = ['cve', 'vulnérabilité', 'vulnerability', 'patch', 'security update', 'compromission', 'malware'];
+  if (critical.some((k) => value.includes(k))) return { level: 'critical', label: t('watch.severity.critical', 'Critique') };
+  if (high.some((k) => value.includes(k))) return { level: 'high', label: t('watch.severity.high', 'Élevée') };
+  return { level: 'info', label: t('watch.severity.info', 'Information') };
+}
+
+function initWatchFilters() {
+  const search = document.querySelector('[data-watch-search]');
+  if (!search) return;
+  const apply = () => {
+    const term = (search.value || '').trim().toLowerCase();
+    document.querySelectorAll('.rss-item').forEach((card) => {
+      const matchesTerm = !term || card.dataset.search?.includes(term);
+      const activeChip = document.querySelector('.watch-chip.active')?.dataset.watchFilter || '';
+      const matchesChip = !activeChip || card.dataset.search?.includes(activeChip) || card.dataset.severity === activeChip;
+      card.hidden = !(matchesTerm && matchesChip);
+    });
+  };
+  search.addEventListener('input', apply);
+  document.querySelectorAll('.watch-chip').forEach((chip) => {
+    chip.addEventListener('click', () => {
+      document.querySelectorAll('.watch-chip').forEach((c) => c.classList.remove('active'));
+      if (!chip.classList.contains('active')) chip.classList.add('active');
+      apply();
+    });
+  });
+}
+
+function updateWatchDashboard() {
+  const set = (key, value) => {
+    const node = document.querySelector(`[data-watch-stat="${key}"]`);
+    if (node) node.textContent = value;
+  };
+  const bySeverity = { critical: 0, high: 0, info: 0 };
+  RSS_ALL_ITEMS.forEach((item) => bySeverity[computeSeverity(`${item.title} ${item.excerpt}`).level] += 1);
+  set('alerts', RSS_TAB_COUNTS.get('alertes') ? Array.from(RSS_TAB_COUNTS.get('alertes').values()).reduce((a,b)=>a+b,0) : 0);
+  set('exploitation', RSS_TAB_COUNTS.get('exploitation') ? Array.from(RSS_TAB_COUNTS.get('exploitation').values()).reduce((a,b)=>a+b,0) : 0);
+  set('news', RSS_TAB_COUNTS.get('actualite') ? Array.from(RSS_TAB_COUNTS.get('actualite').values()).reduce((a,b)=>a+b,0) : 0);
+  set('leaks', RSS_TAB_COUNTS.get('leaks') ? Array.from(RSS_TAB_COUNTS.get('leaks').values()).reduce((a,b)=>a+b,0) : 0);
+  set('sources', document.querySelectorAll('[data-rss-feed]').length);
+  set('updated', new Date().toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' }));
 }
 
 function renderRssEmpty(container, status) {
@@ -1361,3 +1578,5 @@ function buildExcerpt(raw) {
   }
   return `${text.slice(0, maxLength).trim()}…`;
 }
+  const locale = document.documentElement.lang === 'en' ? 'en' : 'fr';
+  const t = (k, f) => I18N_MESSAGES[locale]?.[k] || f;
