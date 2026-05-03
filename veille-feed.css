@@ -1,0 +1,17 @@
+.cyber-feed-layout{max-width:1040px;margin:0 auto;display:grid;gap:1rem}
+.cyber-feed-hero{padding:1.2rem 1.3rem;border:1px solid var(--border-color,#32415e);border-radius:14px;background:linear-gradient(160deg,rgba(8,16,35,.78),rgba(16,30,52,.62));}
+.cyber-feed-hero h1{margin:0 0 .5rem}
+.cyber-feed-hero p{margin:0;opacity:.9}
+.feed-heading{margin:.2rem 0 .3rem;font-weight:600}
+.feed-state{padding:.8rem 1rem;border:1px dashed var(--border-color,#32415e);border-radius:10px;opacity:.9}
+.feed-list{display:grid;gap:.85rem}
+.feed-item{padding:1rem;border:1px solid var(--border-color,#32415e);border-radius:12px;background:var(--surface-color,rgba(8,12,24,.45))}
+.feed-meta{display:flex;justify-content:space-between;font-size:.82rem;opacity:.8}
+.feed-badges{display:flex;gap:.5rem;flex-wrap:wrap;margin:.45rem 0}
+.badge{font-size:.73rem;padding:.2rem .48rem;border-radius:999px;border:1px solid var(--border-color,#425371)}
+.sev-critique{background:rgba(220,38,38,.13)} .sev-elevee{background:rgba(245,158,11,.14)} .sev-moyenne{background:rgba(59,130,246,.12)} .sev-info{background:rgba(148,163,184,.16)}
+.feed-item h3{margin:.35rem 0;font-size:1.02rem}
+.feed-item p{margin:.2rem 0 .7rem;line-height:1.45}
+.feed-link{font-size:.9rem}
+.feed-more-wrap{display:flex;justify-content:center}.feed-more{padding:.55rem .9rem}
+@media (max-width:768px){.cyber-feed-hero{padding:1rem}.feed-item{padding:.85rem}}
