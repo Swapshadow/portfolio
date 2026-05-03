@@ -1294,8 +1294,11 @@ async function loadRssFeed({ key, url, label, container, sources }) {
 }
 
 function buildRssSources(url, customSources = []) {
+  const normalized = url.replace(/^https?:\/\//, '');
   return [
     ...customSources,
+    { type: 'xml', url: `https://r.jina.ai/http://${normalized}` },
+    { type: 'xml', url: `https://r.jina.ai/http://https://${normalized}` },
     { type: 'xml', url: `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}` },
     { type: 'json', url: `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(url)}` },
   ];
