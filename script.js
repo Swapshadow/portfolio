@@ -69,7 +69,7 @@ const RSS_FEEDS = [
   {
     key: 'flipboard-cybercrime',
     url: 'https://flipboard.com/topic/fr-cybercriminalit%C3%A9.rss',
-    label: 'Flipboard — Cybercriminalité',
+    label: 'Cybercriminalité FR',
   },
   {
     key: 'krebs',
@@ -1345,7 +1345,7 @@ function parseRssJsonItems(payload) {
     const description = item?.description || item?.content || '';
     const date = formatRssDate(pubDate);
     const excerpt = buildExcerpt(description);
-    return { title, link, date, excerpt };
+    return { title, link, pubDate, description, date, excerpt };
   });
 }
 
@@ -1380,7 +1380,7 @@ function parseRssItems(xmlText) {
         || '';
       const date = formatRssDate(pubDate);
       const excerpt = buildExcerpt(description);
-      return { title, link, date, excerpt };
+      return { title, link, pubDate, description, date, excerpt };
     });
 }
 
@@ -1881,6 +1881,19 @@ function buildExcerpt(raw) {
   const t = (k, f) => I18N_MESSAGES[locale]?.[k] || f;
 
 
+
+async function fetchRssItems(feed) {
+  const entries = await fetchRssFeed(feed.url, feed.sources || []);
+  return entries
+    .map((item) => ({
+      title: item.title || '',
+      link: item.link || '',
+      pubDate: item.pubDate || item.date || '',
+      description: item.description || item.excerpt || '',
+    }))
+    .filter((item) => item.title && item.link);
+}
+
 function initCyberFeed() {
   const list = document.querySelector('[data-cyber-list]');
   if (!list) return;
@@ -1938,22 +1951,22 @@ function initCyberFeed() {
     const text = `${it.title || ''} ${it.description || ''}`;
     baseItems.push({ ...it, source: feed.label, category: classifyCategory(text), severity: classifySeverity(text) });
   })))).then((results) => {
-    baseItems = baseItems.filter((it) => it.title && it.link).sort((a, b) => new Date(b.pubDate || 0) - new Date(a.pubDate || 0));
-    const todays = baseItems.filter((it) => isToday(it.pubDate));
+    const mergedItems = baseItems.filter((it) => it.title && it.link).sort((a, b) => new Date(b.pubDate || 0) - new Date(a.pubDate || 0));
+    const todays = mergedItems.filter((it) => isToday(it.pubDate));
     const now = new Date();
     if (heading) heading.textContent = todays.length
       ? `Aujourd’hui — ${now.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}`
       : 'Dernières actualités disponibles';
-    if (todays.length) baseItems = todays;
+    baseItems = todays.length ? todays : mergedItems;
 
-    const sources = [...new Set(baseItems.map((i) => i.source))].sort();
+    const sources = [...new Set(mergedItems.map((i) => i.source))].sort();
     sourceSelect.innerHTML = '<option value="all">Toutes les sources</option>' + sources.map((src) => `<option value="${src}">${src}</option>`).join('');
 
-    const hasNoData = baseItems.length === 0;
+    const hasNoData = mergedItems.length === 0;
     if (disclaimer) {
-      disclaimer.hidden = !hasNoData;
+      disclaimer.hidden = !(hasNoData || results.some((r) => r.status === 'rejected'));
       disclaimer.textContent = hasNoData
-        ? 'Aucun article disponible pour le moment. Merci de réessayer plus tard.'
+        ? 'Impossible de charger les flux RSS. Vérifier la console navigateur.'
         : (results.some((r) => r.status === 'rejected') ? 'Certaines sources sont temporairement indisponibles.' : '');
     }
     render();
