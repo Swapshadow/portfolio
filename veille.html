@@ -123,11 +123,6 @@
         <li><a href="projets.html" data-i18n="nav.projects">Projets</a></li>
         <li><a href="game.html">Game Zone</a></li>
         <li><a href="hackzone.html">Hack Zone</a></li>
-        <li class="site-nav-title">Sections</li>
-        <li><a href="#veille" data-section-link="veille">Intro</a></li>
-        <li><a href="#cert-fr" data-section-link="cert-fr">CERT-FR</a></li>
-        <li><a href="#hacker-news" data-section-link="hacker-news">The Hacker News</a></li>
-        <li><a href="#veille-leaks" data-section-link="veille-leaks">Leaks</a></li>
       </ul>
     </div>
   </nav>
@@ -136,28 +131,12 @@
     <section class="section" id="veille" data-section="veille">
       <div class="container section-card reveal-on-scroll cyber-feed" data-reveal>
         <header class="cyber-feed-header">
-          <h1 class="section-title" data-cyber-heading>Aujourd’hui —</h1>
+          <h1 class="section-title">Cyber Feed</h1>
           <p class="cyber-feed-subtitle">Flux cybersécurité consolidé, trié du plus récent au plus ancien.</p>
         </header>
 
-        <div class="cyber-feed-toolbar">
-          <input class="cyber-feed-search" type="search" data-cyber-search placeholder="Rechercher une CVE, un éditeur ou un incident...">
-          <div class="cyber-feed-filters" data-cyber-filters>
-            <button class="watch-chip active" type="button" data-feed-filter="all">Tous</button>
-            <button class="watch-chip" type="button" data-feed-filter="news">NEWS</button>
-            <button class="watch-chip" type="button" data-feed-filter="leak">LEAK</button>
-            <button class="watch-chip" type="button" data-feed-filter="cve">CVE</button>
-          </div>
-          <div class="cyber-source-filter-wrap">
-            <label for="cyber-source-filter">Source</label>
-            <select id="cyber-source-filter" data-cyber-source-filter>
-              <option value="all">Toutes les sources</option>
-            </select>
-          </div>
-        </div>
-
         <div class="cyber-feed-list" data-cyber-list></div>
-        <p class="cyber-feed-disclaimer" data-cyber-disclaimer hidden>Certaines sources sont temporairement indisponibles.</p>
+        <p class="cyber-feed-disclaimer" data-cyber-disclaimer hidden>Impossible de charger les flux RSS pour le moment.</p>
       </div>
     </section>
   </main>
