@@ -63,7 +63,7 @@ const RSS_FEEDS = [
   },
   {
     key: 'zataz',
-    url: 'https://www.zataz.com/feed/',
+    url: 'https://www.zataz.com/rss/zataz-news.rss',
     label: 'ZATAZ',
   },
   {
@@ -1294,8 +1294,11 @@ async function loadRssFeed({ key, url, label, container, sources }) {
 }
 
 function buildRssSources(url, customSources = []) {
+  const normalized = url.replace(/^https?:\/\//, '');
   return [
     ...customSources,
+    { type: 'xml', url: `https://r.jina.ai/http://${normalized}` },
+    { type: 'xml', url: `https://r.jina.ai/http://https://${normalized}` },
     { type: 'xml', url: `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}` },
     { type: 'json', url: `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(url)}` },
   ];
@@ -1897,25 +1900,11 @@ async function fetchRssItems(feed) {
 function initCyberFeed() {
   const list = document.querySelector('[data-cyber-list]');
   if (!list) return;
-  const heading = document.querySelector('[data-cyber-heading]');
-  const searchInput = document.querySelector('[data-cyber-search]');
-  const sourceSelect = document.querySelector('[data-cyber-source-filter]');
-  const filterButtons = Array.from(document.querySelectorAll('[data-feed-filter]'));
   const disclaimer = document.querySelector('[data-cyber-disclaimer]');
-  let activeFilter = 'all';
-  let query = '';
-  let activeSource = 'all';
-  let baseItems = [];
+  let allItems = [];
 
   const normalize = (v) => (v || '').toLowerCase();
   const containsAny = (text, terms) => terms.some((term) => text.includes(term));
-
-  const classifyCategory = (text) => {
-    const t = normalize(text);
-    if (containsAny(t, ['cve', 'vulnerability', 'vulnérabilité', 'exploit', 'zero-day', 'patch', 'security update', 'kev'])) return 'CVE';
-    if (containsAny(t, ['leak', 'leaked', 'data breach', 'breach', 'fuite', 'données exposées', 'database', 'stolen data', 'dark web'])) return 'LEAK';
-    return 'NEWS';
-  };
 
   const classifySeverity = (text) => {
     const t = normalize(text);
@@ -1925,59 +1914,27 @@ function initCyberFeed() {
     return 'Info';
   };
 
-  const isToday = (dateStr) => {
-    const d = new Date(dateStr);
-    const now = new Date();
-    return !Number.isNaN(d.getTime()) && d.toDateString() === now.toDateString();
-  };
-
-  function matchFilter(item) {
-    if (activeSource !== 'all' && item.source !== activeSource) return false;
-    if (query && !(`${item.title} ${item.description} ${item.source}`.toLowerCase().includes(query))) return false;
-    if (activeFilter === 'all') return true;
-    return item.category.toLowerCase() === activeFilter;
-  }
-
   function render() {
-    const filtered = baseItems.filter(matchFilter);
-    if (!filtered.length) {
-      list.innerHTML = '<p class="cyber-feed-empty">Aucun article ne correspond aux filtres actuels.</p>';
+    if (!allItems.length) {
+      list.innerHTML = '';
       return;
     }
-    list.innerHTML = filtered.map((it) => `<article class="cyber-feed-card"><div class="cyber-feed-meta"><span>Source : ${escapeHtml(it.source)}</span><span>${formatDate(it.pubDate)}</span></div><div class="cyber-feed-tags"><span class="rss-tag">Catégorie : ${it.category}</span><span class="rss-severity rss-severity-${it.severity.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')}">Criticité : ${it.severity}</span></div><h3>Titre : ${escapeHtml(it.title)}</h3><p>${escapeHtml(truncateText(it.description || '', 170))}</p><div class="cyber-feed-card-actions"><a class="button" href="${it.link}" target="_blank" rel="noopener noreferrer">Lire la source</a></div></article>`).join('');
+    list.innerHTML = allItems.map((it) => `<article class="cyber-feed-card"><div class="cyber-feed-meta"><span>Source : ${escapeHtml(it.source)}</span><span>${formatDate(it.pubDate)}</span></div><div class="cyber-feed-tags"><span class="rss-severity rss-severity-${it.severity.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')}">Criticité : ${it.severity}</span></div><h3>${escapeHtml(it.title)}</h3><p>${escapeHtml(truncateText(it.description || '', 170))}</p><div class="cyber-feed-card-actions"><a class="button" href="${it.link}" target="_blank" rel="noopener noreferrer">Lire la source</a></div></article>`).join('');
   }
 
   Promise.allSettled(RSS_FEEDS.map((feed) => fetchRssItems(feed).then((feedItems) => feedItems.forEach((it) => {
     const text = `${it.title || ''} ${it.description || ''}`;
-    baseItems.push({ ...it, source: feed.label, category: classifyCategory(text), severity: classifySeverity(text) });
+    allItems.push({ ...it, source: feed.label, severity: classifySeverity(text) });
   })))).then((results) => {
-    const mergedItems = baseItems.filter((it) => it.title && it.link).sort((a, b) => new Date(b.pubDate || 0) - new Date(a.pubDate || 0));
-    const todays = mergedItems.filter((it) => isToday(it.pubDate));
-    const now = new Date();
-    if (heading) heading.textContent = todays.length
-      ? `Aujourd’hui — ${now.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}`
-      : 'Dernières actualités disponibles';
-    baseItems = todays.length ? todays : mergedItems;
-
-    const sources = [...new Set(mergedItems.map((i) => i.source))].sort();
-    sourceSelect.innerHTML = '<option value="all">Toutes les sources</option>' + sources.map((src) => `<option value="${src}">${src}</option>`).join('');
-
-    const hasNoData = mergedItems.length === 0;
+    allItems = allItems.filter((it) => it.title && it.link).sort((a, b) => new Date(b.pubDate || 0) - new Date(a.pubDate || 0));
+    const hasNoData = allItems.length === 0;
     if (disclaimer) {
-      disclaimer.hidden = !(hasNoData || results.some((r) => r.status === 'rejected'));
-      disclaimer.textContent = hasNoData
-        ? 'Impossible de charger les flux RSS. Vérifier la console navigateur.'
-        : (results.some((r) => r.status === 'rejected') ? 'Certaines sources sont temporairement indisponibles.' : '');
+      disclaimer.hidden = !hasNoData;
+      disclaimer.textContent = 'Impossible de charger les flux RSS pour le moment.';
     }
+    results.filter((r) => r.status === 'rejected').forEach((errorResult) => {
+      console.error('[CyberFeed] RSS source indisponible:', errorResult.reason);
+    });
     render();
   });
-
-  filterButtons.forEach((b) => b.addEventListener('click', () => {
-    filterButtons.forEach((x) => x.classList.remove('active'));
-    b.classList.add('active');
-    activeFilter = b.dataset.feedFilter;
-    render();
-  }));
-  searchInput?.addEventListener('input', (e) => { query = e.target.value.trim().toLowerCase(); render(); });
-  sourceSelect?.addEventListener('change', (e) => { activeSource = e.target.value; render(); });
 }
