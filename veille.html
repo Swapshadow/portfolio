@@ -136,22 +136,17 @@
     <section class="section" id="veille" data-section="veille">
       <div class="container section-card reveal-on-scroll cyber-feed" data-reveal>
         <header class="cyber-feed-header">
-          <h1 class="section-title">Cyber Feed</h1>
-          <p class="cyber-feed-subtitle">Veille cybersécurité, vulnérabilités, exploitation active, fuites de données et actualité opérationnelle.</p>
+          <h1 class="section-title" data-cyber-heading>Aujourd’hui —</h1>
+          <p class="cyber-feed-subtitle">Flux cybersécurité consolidé, trié du plus récent au plus ancien.</p>
         </header>
 
         <div class="cyber-feed-toolbar">
           <input class="cyber-feed-search" type="search" data-cyber-search placeholder="Rechercher une CVE, un éditeur ou un incident...">
           <div class="cyber-feed-filters" data-cyber-filters>
             <button class="watch-chip active" type="button" data-feed-filter="all">Tous</button>
-            <button class="watch-chip" type="button" data-feed-filter="alertes">Alertes</button>
-            <button class="watch-chip" type="button" data-feed-filter="cve">Vulnérabilités / CVE</button>
-            <button class="watch-chip" type="button" data-feed-filter="exploitation">Exploitation active</button>
-            <button class="watch-chip" type="button" data-feed-filter="ransomware">Ransomware</button>
-            <button class="watch-chip" type="button" data-feed-filter="fuite">Fuites de données</button>
-            <button class="watch-chip" type="button" data-feed-filter="institution">Institutions / ANSSI / CISA / CERT</button>
-            <button class="watch-chip" type="button" data-feed-filter="fr">Sources françaises</button>
-            <button class="watch-chip" type="button" data-feed-filter="intl">Sources internationales</button>
+            <button class="watch-chip" type="button" data-feed-filter="news">NEWS</button>
+            <button class="watch-chip" type="button" data-feed-filter="leak">LEAK</button>
+            <button class="watch-chip" type="button" data-feed-filter="cve">CVE</button>
           </div>
           <div class="cyber-source-filter-wrap">
             <label for="cyber-source-filter">Source</label>
@@ -162,9 +157,6 @@
         </div>
 
         <div class="cyber-feed-list" data-cyber-list></div>
-        <div class="cyber-feed-actions">
-          <button class="button button-secondary" type="button" data-cyber-more hidden>Charger plus</button>
-        </div>
         <p class="cyber-feed-disclaimer" data-cyber-disclaimer hidden>Certaines sources sont temporairement indisponibles.</p>
       </div>
     </section>
@@ -173,6 +165,7 @@
   <footer class="footer">
     <div class="container footer-content">
       <p>Données mises à jour automatiquement via flux RSS.</p>
+      <p>© 2026 Jean-Baptiste Terrazzoni — Tous droits réservés.</p>
       <div class="footer-contact" aria-label="Coordonnées">
         <a class="footer-icon" href="#" data-contact-label="Email" data-contact-value="terrazzoni.corsica@proton.me" data-contact-href="mailto:terrazzoni.corsica@proton.me" aria-label="Envoyer un email">
           <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">

@@ -1884,66 +1884,87 @@ function buildExcerpt(raw) {
 function initCyberFeed() {
   const list = document.querySelector('[data-cyber-list]');
   if (!list) return;
+  const heading = document.querySelector('[data-cyber-heading]');
   const searchInput = document.querySelector('[data-cyber-search]');
   const sourceSelect = document.querySelector('[data-cyber-source-filter]');
   const filterButtons = Array.from(document.querySelectorAll('[data-feed-filter]'));
-  const moreBtn = document.querySelector('[data-cyber-more]');
   const disclaimer = document.querySelector('[data-cyber-disclaimer]');
-  let activeFilter = 'all'; let visible = 12; let query = ''; let activeSource = 'all';
-  let failed = 0;
+  let activeFilter = 'all';
+  let query = '';
+  let activeSource = 'all';
+  let baseItems = [];
 
-  const inferSeverity = (txt) => {
-    const t = txt.toLowerCase();
-    if (/(exploited|active exploitation|zero-day|ransomware|critical|kev|cisa|\brce\b|cvss\s?(9|10))/i.test(t)) return 'Critique';
-    if (/(vulnerability|\bcve\b|patch|exploit|breach|malware)/i.test(t)) return 'Élevée';
-    if (/(warning|advisory|phishing|campaign)/i.test(t)) return 'Moyenne';
-    if (/(report|analysis|guidance|publication)/i.test(t)) return 'Info';
-    return 'Faible';
+  const normalize = (v) => (v || '').toLowerCase();
+  const containsAny = (text, terms) => terms.some((term) => text.includes(term));
+
+  const classifyCategory = (text) => {
+    const t = normalize(text);
+    if (containsAny(t, ['cve', 'vulnerability', 'vulnérabilité', 'exploit', 'zero-day', 'patch', 'security update', 'kev'])) return 'CVE';
+    if (containsAny(t, ['leak', 'leaked', 'data breach', 'breach', 'fuite', 'données exposées', 'database', 'stolen data', 'dark web'])) return 'LEAK';
+    return 'NEWS';
   };
 
-  const inferCategory = (txt, source) => {
-    const t = `${txt} ${source}`.toLowerCase();
-    if (/(ransomware)/.test(t)) return 'Ransomware';
-    if (/(exploited|active exploitation|zero-day|exploit-db|rce)/.test(t)) return 'Exploitation active';
-    if (/(leak|breach|pwned|fuite)/.test(t)) return 'Fuites de données';
-    if (/(cve|vulnerability|advisory|cert|anssi|cisa)/.test(t)) return 'Vulnérabilités / CVE';
-    return 'Alertes';
+  const classifySeverity = (text) => {
+    const t = normalize(text);
+    if (containsAny(t, ['zero-day', 'active exploitation', 'exploited', 'ransomware', 'kev', 'rce', 'cvss 9', 'cvss 10'])) return 'Critique';
+    if (containsAny(t, ['cve', 'vulnerability', 'exploit', 'breach', 'malware', 'phishing'])) return 'Élevée';
+    if (containsAny(t, ['warning', 'advisory', 'campaign', 'report'])) return 'Moyenne';
+    return 'Info';
   };
 
-  const countryLabel = (k) => ['cert-fr','cyberveille-esante','zataz','cybermalveillance'].includes(k) ? 'fr' : 'intl';
-  const items = [];
-  Promise.allSettled(RSS_FEEDS.map((feed) => fetchRssItems(feed).then((feedItems) => feedItems.slice(0, 20).forEach((it) => {
-    const text = `${it.title} ${it.description}`;
-    items.push({ ...it, source: feed.label, sourceKey: feed.key, severity: inferSeverity(text), category: inferCategory(text, feed.label), geo: countryLabel(feed.key) });
-  })))).then((results) => {
-    failed = results.filter((r) => r.status === 'rejected').length;
-    const sources = [...new Set(items.map((i) => i.source))].sort();
-    sourceSelect.insertAdjacentHTML('beforeend', sources.map((src) => `<option value="${src}">${src}</option>`).join(''));
-    render();
-  });
+  const isToday = (dateStr) => {
+    const d = new Date(dateStr);
+    const now = new Date();
+    return !Number.isNaN(d.getTime()) && d.toDateString() === now.toDateString();
+  };
 
   function matchFilter(item) {
     if (activeSource !== 'all' && item.source !== activeSource) return false;
     if (query && !(`${item.title} ${item.description} ${item.source}`.toLowerCase().includes(query))) return false;
-    const t = `${item.title} ${item.description} ${item.source} ${item.category}`.toLowerCase();
     if (activeFilter === 'all') return true;
-    if (activeFilter === 'institution') return /(cert|anssi|cisa)/.test(t);
-    if (activeFilter === 'fr' || activeFilter === 'intl') return item.geo === activeFilter;
-    if (activeFilter === 'alertes') return ['alertes','vulnérabilités / cve'].includes(item.category.toLowerCase());
-    return t.includes(activeFilter);
+    return item.category.toLowerCase() === activeFilter;
   }
 
   function render() {
-    const filtered = items.filter(matchFilter).sort((a,b)=> new Date(b.pubDate)-new Date(a.pubDate));
-    const slice = filtered.slice(0, visible);
-    list.innerHTML = slice.map((it) => `<article class="cyber-feed-card"><div class="cyber-feed-meta"><span>${it.source}</span><span>${formatDate(it.pubDate)}</span></div><div class="cyber-feed-tags"><span class="rss-severity rss-severity-${it.severity.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'')}">${it.severity}</span><span class="rss-tag">${it.category}</span></div><h3>${escapeHtml(it.title)}</h3><p>${escapeHtml(truncateText(it.description || '', 180))}</p><div class="cyber-feed-card-actions"><a class="button" href="${it.link}" target="_blank" rel="noopener noreferrer">Lire la source</a><button class="rss-copy" type="button" data-link="${it.link}">Copier le lien</button></div></article>`).join('');
-    moreBtn.hidden = filtered.length <= visible;
-    disclaimer.hidden = failed === 0;
-    list.querySelectorAll('.rss-copy').forEach((btn)=>btn.addEventListener('click', ()=> navigator.clipboard?.writeText(btn.dataset.link || '')));
+    const filtered = baseItems.filter(matchFilter);
+    if (!filtered.length) {
+      list.innerHTML = '<p class="cyber-feed-empty">Aucun article ne correspond aux filtres actuels.</p>';
+      return;
+    }
+    list.innerHTML = filtered.map((it) => `<article class="cyber-feed-card"><div class="cyber-feed-meta"><span>Source : ${escapeHtml(it.source)}</span><span>${formatDate(it.pubDate)}</span></div><div class="cyber-feed-tags"><span class="rss-tag">Catégorie : ${it.category}</span><span class="rss-severity rss-severity-${it.severity.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')}">Criticité : ${it.severity}</span></div><h3>Titre : ${escapeHtml(it.title)}</h3><p>${escapeHtml(truncateText(it.description || '', 170))}</p><div class="cyber-feed-card-actions"><a class="button" href="${it.link}" target="_blank" rel="noopener noreferrer">Lire la source</a></div></article>`).join('');
   }
 
-  filterButtons.forEach((b)=> b.addEventListener('click', ()=>{filterButtons.forEach((x)=>x.classList.remove('active')); b.classList.add('active'); activeFilter=b.dataset.feedFilter; visible=12; render();}));
-  searchInput?.addEventListener('input', (e)=>{query=e.target.value.trim().toLowerCase(); visible=12; render();});
-  sourceSelect?.addEventListener('change', (e)=>{activeSource=e.target.value; visible=12; render();});
-  moreBtn?.addEventListener('click', ()=>{visible += 12; render();});
+  Promise.allSettled(RSS_FEEDS.map((feed) => fetchRssItems(feed).then((feedItems) => feedItems.forEach((it) => {
+    const text = `${it.title || ''} ${it.description || ''}`;
+    baseItems.push({ ...it, source: feed.label, category: classifyCategory(text), severity: classifySeverity(text) });
+  })))).then((results) => {
+    baseItems = baseItems.filter((it) => it.title && it.link).sort((a, b) => new Date(b.pubDate || 0) - new Date(a.pubDate || 0));
+    const todays = baseItems.filter((it) => isToday(it.pubDate));
+    const now = new Date();
+    if (heading) heading.textContent = todays.length
+      ? `Aujourd’hui — ${now.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}`
+      : 'Dernières actualités disponibles';
+    if (todays.length) baseItems = todays;
+
+    const sources = [...new Set(baseItems.map((i) => i.source))].sort();
+    sourceSelect.innerHTML = '<option value="all">Toutes les sources</option>' + sources.map((src) => `<option value="${src}">${src}</option>`).join('');
+
+    const hasNoData = baseItems.length === 0;
+    if (disclaimer) {
+      disclaimer.hidden = !hasNoData;
+      disclaimer.textContent = hasNoData
+        ? 'Aucun article disponible pour le moment. Merci de réessayer plus tard.'
+        : (results.some((r) => r.status === 'rejected') ? 'Certaines sources sont temporairement indisponibles.' : '');
+    }
+    render();
+  });
+
+  filterButtons.forEach((b) => b.addEventListener('click', () => {
+    filterButtons.forEach((x) => x.classList.remove('active'));
+    b.classList.add('active');
+    activeFilter = b.dataset.feedFilter;
+    render();
+  }));
+  searchInput?.addEventListener('input', (e) => { query = e.target.value.trim().toLowerCase(); render(); });
+  sourceSelect?.addEventListener('change', (e) => { activeSource = e.target.value; render(); });
 }
