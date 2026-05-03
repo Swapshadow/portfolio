@@ -18,8 +18,9 @@
     const toShow = items.slice(0, shown);
     list.innerHTML = toShow.map((it) => {
       const sev = it.severity.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z]/g, '');
+      const typeClass = `type-${(it.type || 'NEWS').toLowerCase()}`;
       const image = it.imageUrl ? `<a class="cyber-feed-image-link" href="${esc(it.url)}" target="_blank" rel="noopener noreferrer"><img class="cyber-feed-image" src="${esc(it.imageUrl)}" alt="" loading="lazy"></a>` : '';
-      return `<article class="feed-item ${it.imageUrl ? '' : 'no-image'}">${image}<div class="cyber-feed-content"><div class="feed-meta"><span>${esc(it.source)}</span><span>${rel(it.publishedAt)}</span></div><div class="feed-badges"><span class="badge badge-type">${esc(it.type)}</span><span class="badge sev-${sev}">${esc(it.severity)}</span></div><h3>${esc(it.title)}</h3><p>${esc((it.summary || '').slice(0, 180))}</p><a class="feed-link" href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">Lire la source</a></div></article>`;
+      return `<article class="feed-item cyber-feed-card ${it.imageUrl ? '' : 'no-image'}">${image}<div class="cyber-feed-content"><div class="feed-meta cyber-feed-meta"><span>${esc(it.source)}</span><span>${rel(it.publishedAt)}</span></div><div class="feed-badges"><span class="badge badge-type ${typeClass}">${esc(it.type)}</span><span class="badge badge-severity sev-${sev}">${esc(it.severity)}</span></div><h3 class="cyber-feed-title"><a href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">${esc(it.title)}</a></h3><p class="cyber-feed-summary">${esc((it.summary || '').slice(0, 180))}</p><a class="feed-link cyber-feed-read" href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">Lire la source</a></div></article>`;
     }).join('');
     list.querySelectorAll('.cyber-feed-image').forEach((img) => {
       img.onerror = () => {
