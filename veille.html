@@ -18,6 +18,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="veille-feed.css">
   <script defer src="https://cloud.umami.is/script.js" data-website-id="4ebf12c8-65e1-4212-921f-f1ebd7af5b0d"></script>
 
   <link rel="manifest" href="/portfolio/manifest.webmanifest">
@@ -129,14 +130,15 @@
 
   <main>
     <section class="section" id="veille" data-section="veille">
-      <div class="container section-card reveal-on-scroll cyber-feed" data-reveal>
-        <header class="cyber-feed-header">
+      <div class="container section-card reveal-on-scroll cyber-feed-layout" data-reveal data-cyber-feed-root>
+        <header class="cyber-feed-hero">
           <h1 class="section-title">Cyber Feed</h1>
-          <p class="cyber-feed-subtitle">Flux cybersécurité consolidé, trié du plus récent au plus ancien.</p>
+          <p>Signaux cyber récents : vulnérabilités, alertes CERT, fuites de données, ransomware et threat intelligence.</p>
         </header>
-
-        <div class="cyber-feed-list" data-cyber-list></div>
-        <p class="cyber-feed-disclaimer" data-cyber-disclaimer hidden>Impossible de charger les flux RSS pour le moment.</p>
+        
+        <p class="feed-state" data-feed-state>Chargement du Cyber Feed…</p>
+        <div class="feed-list" data-feed-list></div>
+        <div class="feed-more-wrap"><button class="button feed-more" type="button" data-load-more hidden>Charger plus</button></div>
       </div>
     </section>
   </main>
@@ -184,5 +186,6 @@
   </div>
 
   <script src="script.js" defer></script>
+  <script src="veille-feed.js" defer></script>
 </body>
 </html>
