@@ -3767,3 +3767,23 @@ body[data-animations="off"] .track-thumb img {
 .watch-reader-progress{height:6px;background:rgba(148,163,184,.2);border-radius:999px;margin:8px 0}.watch-reader-progress span{display:block;height:100%;background:var(--accent);border-radius:999px;width:0}
 .watch-reader-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}.watch-reader-filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px}
 .watch-reader-card h2{margin:.4rem 0}.watch-reader-subtitle{opacity:.85}
+
+.cyber-feed { max-width: 920px; }
+.cyber-feed-header { margin-bottom: 1rem; }
+.cyber-feed-subtitle { opacity: .9; margin-top: .4rem; }
+.cyber-feed-toolbar { display: grid; gap: .8rem; margin: 1rem 0 1.2rem; }
+.cyber-feed-search { width: 100%; padding: .7rem .9rem; border-radius: .7rem; border: 1px solid var(--border-color, #2f3b57); background: var(--surface-color, rgba(8,12,24,.55)); color: inherit; }
+.cyber-feed-filters { display: flex; gap: .5rem; overflow-x: auto; padding-bottom: .2rem; }
+.cyber-source-filter-wrap { display:flex; align-items:center; gap:.6rem; font-size:.9rem; }
+.cyber-source-filter-wrap select { padding:.45rem .6rem; border-radius:.6rem; background: var(--surface-color, rgba(8,12,24,.55)); color:inherit; border:1px solid var(--border-color, #2f3b57); }
+.cyber-feed-list { display:grid; gap:.8rem; }
+.cyber-feed-card { padding: .95rem; border: 1px solid var(--border-color, #2f3b57); border-radius: .9rem; background: var(--surface-color, rgba(8,12,24,.55)); }
+.cyber-feed-meta { display:flex; justify-content:space-between; gap:.6rem; font-size:.82rem; opacity:.8; }
+.cyber-feed-tags { display:flex; gap:.45rem; margin:.5rem 0; flex-wrap:wrap; }
+.cyber-feed-card h3 { font-size:1rem; margin:.35rem 0; }
+.cyber-feed-card p { margin:0 0 .7rem; font-size:.92rem; }
+.cyber-feed-card-actions { display:flex; gap:.5rem; align-items:center; }
+.cyber-feed-card-actions .button { padding:.45rem .7rem; font-size:.85rem; }
+.cyber-feed-card-actions .rss-copy { font-size:.8rem; }
+.cyber-feed-actions { margin-top: 1rem; display:flex; justify-content:center; }
+.cyber-feed-disclaimer { margin-top:.8rem; font-size:.85rem; opacity:.75; text-align:center; }
