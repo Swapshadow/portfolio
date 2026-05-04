@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T14:08:24.246Z",
+  "generatedAt": "2026-05-04T14:16:23.931Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,7 +17,7 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 102
+      "items": 104
     },
     {
       "name": "Exploit-DB",
@@ -275,6 +275,28 @@
       "publishedAt": "2026-05-04T03:43:06.000Z",
       "summary": "In April 2026, the gaming community &lt;a href=\"https://reborngaming.net/threads/6120/\" target=\"_blank\" rel=\"noopener\"&gt;Reborn Gaming suffered a data breach due to a vulnerabilit",
       "type": "LEAK",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "1ac1403dce972aad1d22b5ace0549ef55d3e741f",
+      "title": "SailPoint Technologies - CVE-2026-5712",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/sailpoint-technologies-cve-2026-5712-2026-05-04",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-05-04T02:11:59.000Z",
+      "summary": "&lt;p&gt;Il s’agit d’une vulnérabilité d’autorisation incorrecte dans SailPoint IdentityIQ.&lt;/p&gt; &lt;p&gt;SailPoint IdentityIQ est une solution de gestion des identités et des",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "40b2854ea1f2bcd98a211d092dd926e4e94e0164",
+      "title": "IBM - CVE-2026-6543",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/ibm-cve-2026-6543-2026-05-04",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-05-04T02:06:47.000Z",
+      "summary": "&lt;p&gt;Il s’agit d’une vulnérabilité d’injection de code dans Langflow.&lt;/p&gt; &lt;p&gt;Langflow est une application web permettant de concevoir et d’exécuter des flux de trai",
+      "type": "CVE",
       "severity": "Élevée",
       "imageUrl": null
     },
@@ -2245,28 +2267,6 @@
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans la &lt;strong&gt;gestion des privilèges&lt;/strong&gt; d'&lt;strong&gt;IBM WebSphere Application Server Liberty&lt;/strong&gt;.&lt;/p&gt",
       "type": "CVE",
       "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "594eadea42ebf0b78acc2e0d340058e184a9615f",
-      "title": "Carnival - 7,531,359 breached accounts",
-      "url": "https://haveibeenpwned.com/Breach/Carnival",
-      "source": "Have I Been Pwned",
-      "publishedAt": "2026-04-24T01:58:19.000Z",
-      "summary": "In April 2026, the notorious hacking collective &lt;a href=\"https://cyberinsider.com/carnival-corporation-probes-data-breach-after-claims-of-8-7m-records-theft/\" target=\"_blank\" re",
-      "type": "LEAK",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "1e1703245c75de9af42ccf1e37f8fe0d7a8eb26a",
-      "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (24 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0495/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-04-24T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une attein",
-      "type": "CVE",
-      "severity": "Info",
       "imageUrl": null
     }
   ]
