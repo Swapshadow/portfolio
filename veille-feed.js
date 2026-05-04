@@ -85,6 +85,16 @@
   };
 
   function render() {
+    if (mode === 'leak') {
+      list.innerHTML = '';
+      list.hidden = true;
+      btn.hidden = true;
+      stateEl.hidden = true;
+      leakView?.toggleAttribute('hidden', false);
+      if (leakView) leakView.style.display = 'block';
+      return;
+    }
+
     const dataset = mode === 'cve' ? cveItems : items;
     const toShow = dataset.slice(0, shown);
     list.innerHTML = toShow.map((it) => {
@@ -194,6 +204,7 @@
       titleEl.textContent = 'Leak';
       subtitleEl.textContent = 'Sources et signaux publics autour des fuites de données françaises.';
       stateEl.hidden = true;
+      render();
       return;
     }
     titleEl.textContent = 'Cyber Feed';
