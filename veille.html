@@ -146,6 +146,7 @@
           <div class="cyber-feed-tabs" role="tablist" aria-label="Navigation de la veille">
             <button type="button" class="cyber-feed-tab is-active" id="showCyberFeed" aria-selected="true">Cyber Feed</button>
             <button type="button" class="cyber-feed-tab cyber-feed-tab-cve" id="showCveFeed" aria-selected="false">CVE</button>
+            <button type="button" class="cyber-feed-tab cyber-feed-tab-leak" id="showLeakFeed" aria-selected="false">Leak</button>
           </div>
           <h1 class="section-title">Cyber Feed</h1>
           <p>Signaux cyber récents : vulnérabilités, alertes CERT, fuites de données, ransomware et threat intelligence.</p>
@@ -154,6 +155,19 @@
         <div class="cyber-feed-feedback" id="cyberFeedFeedback" aria-live="polite"></div>
         <p class="feed-state" data-feed-state>Chargement du Cyber Feed…</p>
         <div class="feed-list" data-feed-list></div>
+        <div class="leak-view" data-leak-view hidden>
+          <article class="leak-source-card">
+            <a class="leak-source-visual" href="https://frenchbreaches.com/" target="_blank" rel="noopener noreferrer" aria-label="French Breaches">
+              <img src="assets/veille/frenchbreaches.png" alt="French Breaches" loading="lazy" onerror="this.style.display='none'; this.parentElement.classList.add('is-fallback');">
+            </a>
+            <div class="leak-source-content">
+              <span class="leak-source-badge">Leak Intelligence</span>
+              <h2><a href="https://frenchbreaches.com/" target="_blank" rel="noopener noreferrer">French Breaches</a></h2>
+              <p>référence n°1 sur les fuites de données en France</p>
+              <a class="leak-source-link" href="https://frenchbreaches.com/" target="_blank" rel="noopener noreferrer">Consulter French Breaches</a>
+            </div>
+          </article>
+        </div>
         <div class="feed-more-wrap"><button class="button feed-more" type="button" data-load-more hidden>Charger plus</button></div>
       </div>
     </section>
