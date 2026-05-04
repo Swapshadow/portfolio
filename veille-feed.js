@@ -128,10 +128,12 @@
       console.info(`[Cyber Feed] JSON généré le ${data.generatedAt}`);
       if (failed.length) console.warn('[Cyber Feed] Sources en erreur :', failed);
       render();
+      if (forceRefresh) showFeedback('Flux mis à jour');
     } catch (e) {
       list.innerHTML = '';
       stateEl.hidden = false;
       stateEl.textContent = 'Le flux cyber est temporairement indisponible. Une mise à jour automatique est prévue prochainement.';
+      if (forceRefresh) showFeedback('Actualisation impossible');
     }
   }
 
