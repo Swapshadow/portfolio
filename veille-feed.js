@@ -5,9 +5,13 @@
   const stateEl = root.querySelector('[data-feed-state]');
   const heading = root.querySelector('[data-feed-heading]');
   const btn = root.querySelector('[data-load-more]');
+  const refreshBtn = root.querySelector('#refreshCyberFeed');
+  const shareBtn = root.querySelector('#shareCyberFeed');
+  const feedbackEl = root.querySelector('#cyberFeedFeedback');
   const STEP = 30;
   let items = [];
   let shown = STEP;
+  let feedbackTimer;
 
   const frDate = (d) => new Date(d).toLocaleDateString('fr-FR', { day: '2-digit', month: 'long', year: 'numeric', timeZone: 'Europe/Paris' });
   const rel = (d) => { const ms = Date.now() - new Date(d).getTime(); const h = Math.floor(ms / 3600000); if (h < 24) return `il y a ${Math.max(h, 1)}h`; return frDate(d); };
@@ -47,6 +51,15 @@
     }
   };
 
+  const showFeedback = (message) => {
+    if (!feedbackEl) return;
+    feedbackEl.textContent = message;
+    clearTimeout(feedbackTimer);
+    feedbackTimer = setTimeout(() => {
+      feedbackEl.textContent = '';
+    }, 2500);
+  };
+
   function render() {
     const toShow = items.slice(0, shown);
     list.innerHTML = toShow.map((it) => {
@@ -74,11 +87,15 @@
     btn.hidden = shown >= items.length;
   }
 
-  async function init() {
-    stateEl.textContent = 'Chargement du Cyber Feed…';
+  async function init({ forceRefresh = false } = {}) {
+    stateEl.textContent = forceRefresh ? 'Actualisation…' : 'Chargement du Cyber Feed…';
+    stateEl.hidden = false;
+    list.innerHTML = '';
+    shown = STEP;
     if (heading) heading.remove();
     try {
-      const res = await fetch('data/cyber-feed.json', { cache: 'no-store' });
+      const cacheBuster = forceRefresh ? `?t=${Date.now()}` : '';
+      const res = await fetch(`data/cyber-feed.json${cacheBuster}`, { cache: 'no-store' });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
       items = (data.items || []).filter((i) => i?.title && i?.url).sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
@@ -89,13 +106,42 @@
       console.info(`[Cyber Feed] JSON généré le ${data.generatedAt}`);
       if (failed.length) console.warn('[Cyber Feed] Sources en erreur :', failed);
       render();
+      if (forceRefresh) showFeedback('Flux mis à jour');
     } catch (e) {
       list.innerHTML = '';
       stateEl.hidden = false;
       stateEl.textContent = 'Le flux cyber est temporairement indisponible. Une mise à jour automatique est prévue prochainement.';
+      if (forceRefresh) showFeedback('Actualisation impossible');
     }
   }
 
   btn.addEventListener('click', () => { shown += STEP; render(); });
+  refreshBtn?.addEventListener('click', async () => {
+    refreshBtn.disabled = true;
+    refreshBtn.textContent = '↻';
+    await init({ forceRefresh: true });
+    refreshBtn.disabled = false;
+    refreshBtn.textContent = '↻';
+  });
+
+  shareBtn?.addEventListener('click', async () => {
+    const shareData = {
+      title: 'Cyber Feed - Jean-Baptiste Terrazzoni',
+      text: 'Veille cybersécurité : vulnérabilités, alertes CERT, fuites de données, ransomware et threat intelligence.',
+      url: 'https://swapshadow.github.io/portfolio/veille.html'
+    };
+    try {
+      if (navigator.share) {
+        await navigator.share(shareData);
+      } else if (navigator.clipboard?.writeText) {
+        await navigator.clipboard.writeText(shareData.url);
+        showFeedback('Lien copié');
+      } else {
+        showFeedback('Impossible de partager');
+      }
+    } catch {
+      showFeedback('Impossible de partager');
+    }
+  });
   init();
 })();
