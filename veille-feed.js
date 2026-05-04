@@ -74,11 +74,15 @@
     btn.hidden = shown >= items.length;
   }
 
-  async function init() {
-    stateEl.textContent = 'Chargement du Cyber Feed…';
+  async function init({ forceRefresh = false } = {}) {
+    stateEl.textContent = forceRefresh ? 'Actualisation…' : 'Chargement du Cyber Feed…';
+    stateEl.hidden = false;
+    list.innerHTML = '';
+    shown = STEP;
     if (heading) heading.remove();
     try {
-      const res = await fetch('data/cyber-feed.json', { cache: 'no-store' });
+      const cacheBuster = forceRefresh ? `?t=${Date.now()}` : '';
+      const res = await fetch(`data/cyber-feed.json${cacheBuster}`, { cache: 'no-store' });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
       items = (data.items || []).filter((i) => i?.title && i?.url).sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
