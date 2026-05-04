@@ -118,10 +118,10 @@
   btn.addEventListener('click', () => { shown += STEP; render(); });
   refreshBtn?.addEventListener('click', async () => {
     refreshBtn.disabled = true;
-    refreshBtn.textContent = 'Actualisation…';
+    refreshBtn.textContent = '↻';
     await init({ forceRefresh: true });
     refreshBtn.disabled = false;
-    refreshBtn.textContent = 'Actualiser';
+    refreshBtn.textContent = '↻';
   });
 
   shareBtn?.addEventListener('click', async () => {
