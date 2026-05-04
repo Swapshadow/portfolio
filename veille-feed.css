@@ -2,16 +2,21 @@
 .cyber-feed-shell{position:relative}
 .cyber-feed-hero{padding:1.2rem 1.3rem;border:1px solid rgba(15,23,42,.12);border-radius:14px;background:linear-gradient(160deg,rgba(255,255,255,.9),rgba(248,250,252,.95));color:#0f172a;box-shadow:0 12px 35px rgba(15,23,42,.08)}
 .cyber-feed-hero h1{margin:0 0 .5rem}.cyber-feed-hero p{margin:0;color:#334155}
+.cyber-feed-tabs{display:flex;gap:.55rem;flex-wrap:wrap;margin:0 0 .8rem}
+.cyber-feed-tab{display:inline-flex;align-items:center;justify-content:center;border:1px solid rgba(15,23,42,.12);background:rgba(255,255,255,.78);color:#0f172a;border-radius:999px;padding:.45rem .8rem;font-weight:700;cursor:pointer}
+.cyber-feed-tab.is-active{background:#fff;box-shadow:0 10px 25px rgba(15,23,42,.12)}
+.cyber-feed-cve-tab{display:inline-flex;align-items:center;justify-content:center;border:1px solid rgba(239,68,68,.45);background:rgba(127,29,29,.12);color:#dc2626;border-radius:999px;padding:.55rem .9rem;font-weight:800;letter-spacing:.04em;text-transform:uppercase;cursor:pointer;box-shadow:0 0 0 rgba(239,68,68,0);transition:background .2s ease,transform .2s ease,box-shadow .2s ease}
+.cyber-feed-cve-tab:hover,.cyber-feed-cve-tab:focus-visible,.cyber-feed-cve-tab.is-active{background:rgba(239,68,68,.16);box-shadow:0 0 22px rgba(239,68,68,.22);transform:translateY(-1px)}
 .cyber-feed-toolbar{position:absolute;top:1rem;right:1rem;z-index:5;display:flex;gap:.5rem;align-items:center}
 .cyber-feed-icon-btn{width:2.45rem;height:2.45rem;display:inline-flex;align-items:center;justify-content:center;border:1px solid rgba(15,23,42,.12);background:rgba(255,255,255,.9);color:#0f172a;border-radius:999px;font-weight:800;font-size:1rem;line-height:1;cursor:pointer;backdrop-filter:blur(12px);box-shadow:0 10px 25px rgba(15,23,42,.1);transition:transform .2s ease,box-shadow .2s ease,background .2s ease}
 .cyber-feed-icon-btn:hover,.cyber-feed-icon-btn:focus-visible{background:#fff;transform:translateY(-1px);box-shadow:0 14px 30px rgba(15,23,42,.14);outline:none}
 .cyber-feed-icon-btn:focus-visible{box-shadow:0 0 0 2px rgba(37,99,235,.45),0 14px 30px rgba(15,23,42,.14)}
 .cyber-feed-icon-btn:disabled{opacity:.6;cursor:wait;transform:none}
-.cyber-feed-feedback{margin-top:.75rem;font-size:.9rem;color:#475569;min-height:1.2em}
 .feed-heading{margin:.2rem 0 .3rem;font-weight:700;color:#0f172a}.feed-state{padding:.8rem 1rem;border:1px dashed rgba(15,23,42,.2);border-radius:10px;color:#334155;background:rgba(255,255,255,.75)}
 .feed-list{display:grid;gap:.9rem}
 .cyber-feed-card{display:grid;grid-template-columns:220px 1fr;align-items:stretch;gap:1rem;padding:1rem;border:1px solid rgba(15,23,42,.1);border-radius:14px;background:rgba(255,255,255,.78);box-shadow:0 18px 45px rgba(15,23,42,.1);color:#0f172a;overflow:hidden;transition:transform .2s ease,box-shadow .2s ease,background .2s ease}
 .cyber-feed-card:hover{background:rgba(255,255,255,.92);transform:translateY(-2px);box-shadow:0 22px 55px rgba(15,23,42,.14)}
+.cyber-feed-card.is-cve-focus{border-left:4px solid rgba(239,68,68,.72)}
 .cyber-feed-card.no-image{display:block}.cyber-feed-card.no-image .cyber-feed-content{width:100%}
 .cyber-feed-image-link{flex:0 0 220px;width:220px;aspect-ratio:16 / 10;overflow:hidden;border-radius:14px;background:linear-gradient(135deg,#e2e8f0,#f8fafc);border:1px solid rgba(15,23,42,.08)}
 .cyber-feed-image{width:100%;height:100%;display:block;object-fit:cover;object-position:center}
@@ -33,6 +38,6 @@ body.dark .cyber-feed-summary,.dark .cyber-feed-summary{color:#cbd5e1}
 body.dark .cyber-feed-meta,.dark .cyber-feed-meta{color:#94a3b8}
 body.dark .cyber-feed-icon-btn,.dark .cyber-feed-icon-btn{border-color:rgba(148,163,184,.3);background:rgba(15,23,42,.75);color:#e2e8f0}
 body.dark .cyber-feed-icon-btn:hover,body.dark .cyber-feed-icon-btn:focus-visible,.dark .cyber-feed-icon-btn:hover,.dark .cyber-feed-icon-btn:focus-visible{background:rgba(30,41,59,.95);box-shadow:0 10px 25px rgba(2,6,23,.5)}
-body.dark .cyber-feed-feedback,.dark .cyber-feed-feedback{color:#94a3b8}
+body.dark .cyber-feed-tab,.dark .cyber-feed-tab{border-color:rgba(148,163,184,.3);background:rgba(15,23,42,.75);color:#e2e8f0}
 @media (max-width:768px){.cyber-feed-hero{padding:1rem}.cyber-feed-card,.cyber-feed-card.no-image{grid-template-columns:1fr;padding:.85rem}.cyber-feed-image-link{width:100%;flex-basis:auto;aspect-ratio:16 / 9}}
 @media (max-width:640px){.cyber-feed-toolbar{position:static;justify-content:flex-end;margin-bottom:.75rem}}

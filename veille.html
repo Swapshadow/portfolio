@@ -143,6 +143,10 @@
           <button type="button" class="cyber-feed-icon-btn" id="shareCyberFeed" aria-label="Partager la veille cybersécurité" title="Partager">↗</button>
         </div>
         <header class="cyber-feed-hero">
+          <div class="cyber-feed-tabs" role="tablist" aria-label="Navigation de la veille">
+            <button type="button" class="cyber-feed-tab is-active" id="showCyberFeed" aria-selected="true">Cyber Feed</button>
+            <button type="button" class="cyber-feed-cve-tab" id="showCveFeed" aria-selected="false">CVE</button>
+          </div>
           <h1 class="section-title">Cyber Feed</h1>
           <p>Signaux cyber récents : vulnérabilités, alertes CERT, fuites de données, ransomware et threat intelligence.</p>
           <div class="cyber-feed-actions">
@@ -151,6 +155,7 @@
           </div>
           <div class="cyber-feed-feedback" id="cyberFeedFeedback" aria-live="polite"></div>
         </header>
+        <div class="cyber-feed-feedback" id="cyberFeedFeedback" aria-live="polite"></div>
         <p class="feed-state" data-feed-state>Chargement du Cyber Feed…</p>
         <div class="feed-list" data-feed-list></div>
         <div class="feed-more-wrap"><button class="button feed-more" type="button" data-load-more hidden>Charger plus</button></div>
