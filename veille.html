@@ -3,22 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Veille cybersécurité : flux CERT-FR et The Hacker News.">
+  <meta name="description" content="Cyber Feed : veille cybersécurité, vulnérabilités, alertes CERT, fuites de données, ransomware et threat intelligence.">
   <title>Veille cybersécurité - Jean-Baptiste Terrazzoni</title>
   <meta property="og:title" content="Veille cybersécurité - Jean-Baptiste Terrazzoni">
-  <meta property="og:description" content="Veille cybersécurité : flux CERT-FR et The Hacker News.">
+  <meta property="og:description" content="Cyber Feed : veille cybersécurité, vulnérabilités, alertes CERT, fuites de données, ransomware et threat intelligence.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://swapshadow.github.io/portfolio/veille.html">
-  <meta property="og:image" content="assets/favicon.png">
+  <meta property="og:image" content="https://swapshadow.github.io/portfolio/assets/veille/cyberfeed.png">
+  <meta property="og:image:secure_url" content="https://swapshadow.github.io/portfolio/assets/veille/cyberfeed.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:alt" content="Cyber Feed - veille cybersécurité et OSINT par Jean-Baptiste Terrazzoni">
   <meta property="og:site_name" content="Jean-Baptiste Terrazzoni">
   <meta property="og:locale" content="fr_FR">
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Veille cybersécurité - Jean-Baptiste Terrazzoni">
+  <meta name="twitter:description" content="Cyber Feed : veille cybersécurité, vulnérabilités, alertes CERT, fuites de données, ransomware et threat intelligence.">
+  <meta name="twitter:image" content="https://swapshadow.github.io/portfolio/assets/veille/cyberfeed.png">
+  <meta name="twitter:image:alt" content="Cyber Feed - veille cybersécurité et OSINT par Jean-Baptiste Terrazzoni">
   <link rel="icon" type="image/png" href="assets/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="veille-feed.css">
+  <link rel="stylesheet" href="veille-feed.css?v=20260504">
   <script defer src="https://cloud.umami.is/script.js" data-website-id="4ebf12c8-65e1-4212-921f-f1ebd7af5b0d"></script>
 
   <link rel="manifest" href="/portfolio/manifest.webmanifest">
@@ -130,12 +137,20 @@
 
   <main>
     <section class="section" id="veille" data-section="veille">
-      <div class="container section-card reveal-on-scroll cyber-feed-layout" data-reveal data-cyber-feed-root>
+      <div class="container section-card reveal-on-scroll cyber-feed-layout cyber-feed-shell" data-reveal data-cyber-feed-root>
+        <div class="cyber-feed-toolbar">
+          <button type="button" class="cyber-feed-icon-btn" id="refreshCyberFeed" aria-label="Actualiser le Cyber Feed" title="Actualiser">↻</button>
+          <button type="button" class="cyber-feed-icon-btn" id="shareCyberFeed" aria-label="Partager la veille cybersécurité" title="Partager">↗</button>
+        </div>
         <header class="cyber-feed-hero">
+          <div class="cyber-feed-tabs" role="tablist" aria-label="Navigation de la veille">
+            <button type="button" class="cyber-feed-tab is-active" id="showCyberFeed" aria-selected="true">Cyber Feed</button>
+            <button type="button" class="cyber-feed-tab cyber-feed-tab-cve" id="showCveFeed" aria-selected="false">CVE</button>
+          </div>
           <h1 class="section-title">Cyber Feed</h1>
           <p>Signaux cyber récents : vulnérabilités, alertes CERT, fuites de données, ransomware et threat intelligence.</p>
         </header>
-        
+        <div class="cyber-feed-feedback" id="cyberFeedFeedback" aria-live="polite"></div>
         <p class="feed-state" data-feed-state>Chargement du Cyber Feed…</p>
         <div class="feed-list" data-feed-list></div>
         <div class="feed-more-wrap"><button class="button feed-more" type="button" data-load-more hidden>Charger plus</button></div>
@@ -186,6 +201,6 @@
   </div>
 
   <script src="script.js" defer></script>
-  <script src="veille-feed.js" defer></script>
+  <script src="veille-feed.js?v=20260504" defer></script>
 </body>
 </html>
