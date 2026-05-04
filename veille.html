@@ -145,6 +145,11 @@
         <header class="cyber-feed-hero">
           <h1 class="section-title">Cyber Feed</h1>
           <p>Signaux cyber récents : vulnérabilités, alertes CERT, fuites de données, ransomware et threat intelligence.</p>
+          <div class="cyber-feed-actions">
+            <button type="button" class="cyber-feed-action-btn" id="refreshCyberFeed" aria-label="Actualiser le Cyber Feed">Actualiser</button>
+            <button type="button" class="cyber-feed-action-btn" id="shareCyberFeed" aria-label="Partager la veille cybersécurité">Partager</button>
+          </div>
+          <div class="cyber-feed-feedback" id="cyberFeedFeedback" aria-live="polite"></div>
         </header>
         <div class="cyber-feed-feedback" id="cyberFeedFeedback" aria-live="polite"></div>
         <p class="feed-state" data-feed-state>Chargement du Cyber Feed…</p>
