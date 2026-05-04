@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T13:14:50.665Z",
+  "generatedAt": "2026-05-04T14:08:24.246Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,7 +17,7 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 99
+      "items": 102
     },
     {
       "name": "Exploit-DB",
@@ -125,9 +125,9 @@
       "imageUrl": "https://cdn-s-www.leprogres.fr/images/AAFC6FDE-5692-4ED5-9BBB-16D5E433296C/FB1200/photo-1777892168.jpg"
     },
     {
-      "id": "d6e2330c70f9a9073b6dce9b8b4a35b0158a0135",
+      "id": "a745a0ebb911bf29396594bb56a1648780485e04",
       "title": "Ça n'aurait jamais dû arriver : la méthode invraisemblable derrière le piratage ANTS",
-      "url": "https://www.frandroid.com/culture-tech/securite-applications/3086647_cest-inquietant-le-piratage-de-lants-france-titres-viendrait-dune-faille-absurde?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "url": "https://www.frandroid.com/culture-tech/securite-applications/3086647_cest-inquietant-le-piratage-de-lants-france-titres-viendrait-dune-faille-absurde?amp%3Butm_content=topic%2Ffr-technologie",
       "source": "Cybercriminalité FR",
       "publishedAt": "2026-05-04T10:16:44.000Z",
       "summary": "Pour le piratage de France Titres (ANTS), le hacker aurait exploité une faille IDOR. Une méthode vieille et très connue qui n’aurait jamais dû berner …",
@@ -276,6 +276,105 @@
       "summary": "In April 2026, the gaming community &lt;a href=\"https://reborngaming.net/threads/6120/\" target=\"_blank\" rel=\"noopener\"&gt;Reborn Gaming suffered a data breach due to a vulnerabilit",
       "type": "LEAK",
       "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "9284e7b74f1e78a327930bd44c781116f263d52e",
+      "title": "Dell Technologies - CVE-2026-35155",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/dell-technologies-cve-2026-35155-2026-05-04",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-05-04T02:02:36.000Z",
+      "summary": "&lt;p&gt;Il s’agit d’une vulnérabilité de condition de course dans Dell iDRAC10.&lt;/p&gt; &lt;p&gt;Dell iDRAC10 est un contrôleur de gestion hors bande intégré aux serveurs Dell, ",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "f2d6140a89eaa2162507b46b002e14d787734382",
+      "title": "Wireshark Foundation - CVE-2026-5402",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/wireshark-foundation-cve-2026-5402-2026-05-04",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-05-04T01:56:22.000Z",
+      "summary": "&lt;p&gt;Il s’agit d’une vulnérabilité de dépassement de mémoire sur le tas dans Wireshark.&lt;/p&gt; &lt;p&gt;Wireshark est un analyseur de protocoles réseau utilisé pour l’inspec",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "388b43c6ad5c54d28ef5503dbf66ed4490274210",
+      "title": "GitHub - CVE-2026-3854 | modifié le 04-05-2026",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/github-cve-2026-3854-2026-05-04",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-05-04T01:42:56.000Z",
+      "summary": "&lt;p&gt;Il s’agit d’une vulnérabilité d’injection de commande dans GitHub Enterprise Server.&lt;/p&gt; &lt;p&gt;GitHub Enterprise Server est une plateforme DevOps auto‑hébergée pe",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "d9f9e8fd8eeb15255db26cb621a0735721b627c4",
+      "title": "[local] Linux Kernel proc_readdir_de() 6.18-rc5 - Local Privilege Escalation",
+      "url": "https://www.exploit-db.com/exploits/52550",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-05-04T00:00:00.000Z",
+      "summary": "Linux Kernel proc_readdir_de() 6.18-rc5 - Local Privilege Escalation",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "2b89233c9ff593082bba3bb95be5096b1975f576",
+      "title": "[local] Linux nf_tables 6.19.3 - Local Privilege Escalation",
+      "url": "https://www.exploit-db.com/exploits/52549",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-05-04T00:00:00.000Z",
+      "summary": "Linux nf_tables 6.19.3 - Local Privilege Escalation",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "5798dda6bf54c9d422ad44e51bc8f39860b5ee35",
+      "title": "[hardware] Linksys E1200 2.0.04 - Authenticated Stack Buffer Overflow (RCE)",
+      "url": "https://www.exploit-db.com/exploits/52548",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-05-04T00:00:00.000Z",
+      "summary": "Linksys E1200 2.0.04 - Authenticated Stack Buffer Overflow (RCE)",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": null
+    },
+    {
+      "id": "91ad852e34cf7b487dde0308600f171cabf71c4e",
+      "title": "[webapps] MindsDB 25.9.1.1 - Path Traversal",
+      "url": "https://www.exploit-db.com/exploits/52547",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-05-04T00:00:00.000Z",
+      "summary": "MindsDB 25.9.1.1 - Path Traversal",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "bce10de1ac44922ad43fa1f5ac841eec0009d65d",
+      "title": "[local] Windows 11 24H2 - Local Privilege Escalation",
+      "url": "https://www.exploit-db.com/exploits/52546",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-05-04T00:00:00.000Z",
+      "summary": "Windows 11 24H2 - Local Privilege Escalation",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "c46cb4fc410959a4fdeb6135f2157017126ba37f",
+      "title": "[webapps] Traccar GPS Tracking System 6.11.1 - Cross-Site WebSocket Hijacking (CSWSH)",
+      "url": "https://www.exploit-db.com/exploits/52545",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-05-04T00:00:00.000Z",
+      "summary": "Traccar GPS Tracking System 6.11.1 - Cross-Site WebSocket Hijacking (CSWSH)",
+      "type": "CVE",
+      "severity": "Info",
       "imageUrl": null
     },
     {
@@ -2166,105 +2265,6 @@
       "source": "CERT-FR",
       "publishedAt": "2026-04-24T00:00:00.000Z",
       "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une attein",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "2d57fe6a424f23099586b0d2c61601c87264b40b",
-      "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (24 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0497/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-04-24T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteint",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "53f65c5f605fc029a5956d57816e679f1ef89d01",
-      "title": "Vulnérabilité dans les produits Microsoft (24 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0494/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-04-24T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans les produits Microsoft. Elle permet à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "c8893b134abf46b997a29315a9233b151d765623",
-      "title": "Multiples vulnérabilités dans Synology DSM (24 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0491/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-04-24T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Synology DSM. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la c",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "497e412fce04bc5f0cd9c6a8f97957beb8172e39",
-      "title": "Vulnérabilité dans les produits Tenable (24 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0489/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-04-24T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans les produits Tenable. Elle permet à un attaquant de provoquer une exécution de code arbitraire et une atteinte à l'intégrité des données.",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "57d71a278ded7ab78ac3812d8ec81d24a4e38f31",
-      "title": "Multiples vulnérabilités dans Spring Boot (24 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0488/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-04-24T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Spring Boot. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une at",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "75220800c49a1281596c21174f2b08539d29656e",
-      "title": "Multiples vulnérabilités dans les produits IBM (24 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0492/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-04-24T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, u",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "3c940f968908a92810bd5376544f60c195b66ec7",
-      "title": "Vulnérabilité dans Microsoft Edge (24 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0493/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-04-24T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans Microsoft Edge. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "09aac09c7064ed61340df74922386bedf1ff2c60",
-      "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (24 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0496/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-04-24T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "f29846903f843b3ca2a4d38eeef21a6a84fa6628",
-      "title": "Multiples vulnérabilités dans Traefik (24 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0490/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-04-24T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Traefik. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la p",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
