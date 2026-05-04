@@ -172,7 +172,8 @@
     showCyberFeedBtn?.setAttribute('aria-selected', String(nextMode === 'cyber'));
     showCveFeedBtn?.setAttribute('aria-selected', String(nextMode === 'cve'));
     showLeakFeedBtn?.setAttribute('aria-selected', String(nextMode === 'leak'));
-    leakView.hidden = nextMode !== 'leak';
+    leakView?.toggleAttribute('hidden', nextMode !== 'leak');
+    if (leakView) leakView.style.display = nextMode === 'leak' ? 'block' : 'none';
     list.hidden = nextMode === 'leak';
     btn.hidden = nextMode === 'leak';
     if (nextMode === 'cve') {
@@ -209,7 +210,8 @@
     refreshBtn.disabled = true;
     try {
       if (mode === 'leak') {
-        leakView.hidden = false;
+        leakView?.toggleAttribute('hidden', false);
+        if (leakView) leakView.style.display = 'block';
       } else if (mode === 'cve') {
         await loadCveFeed();
         render();

@@ -49,6 +49,8 @@ body.dark .cyber-feed-feedback,.dark .cyber-feed-feedback{color:#94a3b8}
 @media (max-width:700px){.cyber-feed-toolbar{position:static;justify-content:flex-end;margin-bottom:.9rem}.cyber-feed-hero{padding:1.25rem}.cyber-feed-tabs{margin-bottom:1rem}.cyber-feed-tab{padding:.5rem .8rem;font-size:.85rem}}
 .cyber-feed-tab-leak{border-color:rgba(168,85,247,.35);background:rgba(250,245,255,.88);color:#7e22ce;letter-spacing:.04em}
 .cyber-feed-tab-leak:hover,.cyber-feed-tab-leak:focus-visible,.cyber-feed-tab-leak.is-active{background:rgba(243,232,255,.96);box-shadow:0 0 24px rgba(168,85,247,.22)}
+.leak-view{display:block}
+.leak-view[hidden]{display:none}
 .leak-source-card{display:grid;grid-template-columns:280px 1fr;gap:1.25rem;align-items:stretch;margin-top:1.25rem;padding:1rem;border-radius:22px;background:linear-gradient(135deg,rgba(15,23,42,.94),rgba(88,28,135,.88));border:1px solid rgba(216,180,254,.24);box-shadow:0 24px 70px rgba(88,28,135,.24);color:#f8fafc;overflow:hidden}
 .leak-source-visual{display:block;min-height:190px;border-radius:16px;overflow:hidden;background:rgba(15,23,42,.6);border:1px solid rgba(216,180,254,.18)}
 .leak-source-visual.is-fallback{background:linear-gradient(145deg,rgba(15,23,42,.9),rgba(88,28,135,.75))}
