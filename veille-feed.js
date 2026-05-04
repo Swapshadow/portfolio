@@ -41,6 +41,7 @@
       .replace(/https?:\/\/\S+/gi, ' ')
       .replace(/href\s*=\s*["'][^"']*["']/gi, ' ')
       .replace(/data-entity-[^\s=]+\s*=\s*["'][^"']*["']/gi, ' ')
+      .replace(/&[a-z0-9#]+;/gi, ' ')
       .replace(/\s+/g, ' ')
       .trim();
     return text.slice(0, 180);
