@@ -3,7 +3,7 @@
 .cyber-feed-hero{padding:1.2rem 1.3rem;border:1px solid rgba(15,23,42,.12);border-radius:14px;background:linear-gradient(160deg,rgba(255,255,255,.9),rgba(248,250,252,.95));color:#0f172a;box-shadow:0 12px 35px rgba(15,23,42,.08)}
 .cyber-feed-hero h1{margin:0 0 .5rem}.cyber-feed-hero p{margin:0;color:#334155}
 .cyber-feed-toolbar{position:absolute;top:1rem;right:1rem;z-index:5;display:flex;gap:.5rem;align-items:center}
-.cyber-feed-icon-btn{border:1px solid rgba(15,23,42,.12);background:rgba(255,255,255,.86);color:#0f172a;border-radius:999px;padding:.5rem .75rem;font-weight:700;font-size:.9rem;cursor:pointer;backdrop-filter:blur(12px);box-shadow:0 10px 25px rgba(15,23,42,.1);transition:transform .2s ease,box-shadow .2s ease,background .2s ease}
+.cyber-feed-icon-btn{width:2.45rem;height:2.45rem;display:inline-flex;align-items:center;justify-content:center;border:1px solid rgba(15,23,42,.12);background:rgba(255,255,255,.9);color:#0f172a;border-radius:999px;font-weight:800;font-size:1rem;line-height:1;cursor:pointer;backdrop-filter:blur(12px);box-shadow:0 10px 25px rgba(15,23,42,.1);transition:transform .2s ease,box-shadow .2s ease,background .2s ease}
 .cyber-feed-icon-btn:hover,.cyber-feed-icon-btn:focus-visible{background:#fff;transform:translateY(-1px);box-shadow:0 14px 30px rgba(15,23,42,.14);outline:none}
 .cyber-feed-icon-btn:focus-visible{box-shadow:0 0 0 2px rgba(37,99,235,.45),0 14px 30px rgba(15,23,42,.14)}
 .cyber-feed-icon-btn:disabled{opacity:.6;cursor:wait;transform:none}
@@ -35,4 +35,4 @@ body.dark .cyber-feed-icon-btn,.dark .cyber-feed-icon-btn{border-color:rgba(148,
 body.dark .cyber-feed-icon-btn:hover,body.dark .cyber-feed-icon-btn:focus-visible,.dark .cyber-feed-icon-btn:hover,.dark .cyber-feed-icon-btn:focus-visible{background:rgba(30,41,59,.95);box-shadow:0 10px 25px rgba(2,6,23,.5)}
 body.dark .cyber-feed-feedback,.dark .cyber-feed-feedback{color:#94a3b8}
 @media (max-width:768px){.cyber-feed-hero{padding:1rem}.cyber-feed-card,.cyber-feed-card.no-image{grid-template-columns:1fr;padding:.85rem}.cyber-feed-image-link{width:100%;flex-basis:auto;aspect-ratio:16 / 9}}
-@media (max-width:640px){.cyber-feed-toolbar{position:static;justify-content:flex-end;margin-bottom:.75rem}.cyber-feed-icon-btn{font-size:.85rem;padding:.45rem .7rem}}
+@media (max-width:640px){.cyber-feed-toolbar{position:static;justify-content:flex-end;margin-bottom:.75rem}}
