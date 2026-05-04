@@ -10,8 +10,10 @@
   const feedbackEl = root.querySelector('#cyberFeedFeedback');
   const showCyberFeedBtn = root.querySelector('#showCyberFeed');
   const showCveFeedBtn = root.querySelector('#showCveFeed');
+  const showLeakFeedBtn = root.querySelector('#showLeakFeed');
   const titleEl = root.querySelector('.section-title');
   const subtitleEl = root.querySelector('.cyber-feed-hero p');
+  const leakView = root.querySelector('[data-leak-view]');
   const STEP = 30;
   const CVE_STEP = 20;
   const CVE_FEED_SOURCE = { name: 'Tenable Newest CVEs', url: 'https://www.tenable.com/cve/feeds?sort=newest', defaultType: 'CVE' };
@@ -166,8 +168,14 @@
     shown = nextMode === 'cve' ? CVE_STEP : STEP;
     showCyberFeedBtn?.classList.toggle('is-active', nextMode === 'cyber');
     showCveFeedBtn?.classList.toggle('is-active', nextMode === 'cve');
+    showLeakFeedBtn?.classList.toggle('is-active', nextMode === 'leak');
     showCyberFeedBtn?.setAttribute('aria-selected', String(nextMode === 'cyber'));
     showCveFeedBtn?.setAttribute('aria-selected', String(nextMode === 'cve'));
+    showLeakFeedBtn?.setAttribute('aria-selected', String(nextMode === 'leak'));
+    leakView?.toggleAttribute('hidden', nextMode !== 'leak');
+    if (leakView) leakView.style.display = nextMode === 'leak' ? 'block' : 'none';
+    list.hidden = nextMode === 'leak';
+    btn.hidden = nextMode === 'leak';
     if (nextMode === 'cve') {
       titleEl.textContent = 'Dernières CVE';
       subtitleEl.textContent = 'Flux CVE récent basé sur Tenable, trié du plus récent au plus ancien.';
@@ -179,21 +187,32 @@
         showFeedback('Impossible de charger les dernières CVE pour le moment.');
         return;
       }
-    } else {
-      titleEl.textContent = 'Cyber Feed';
-      subtitleEl.textContent = 'Signaux cyber récents : vulnérabilités, alertes CERT, fuites de données, ransomware et threat intelligence.';
-      if (!items.length) await init();
+      render();
+      return;
     }
+    if (nextMode === 'leak') {
+      titleEl.textContent = 'Leak';
+      subtitleEl.textContent = 'Sources et signaux publics autour des fuites de données françaises.';
+      stateEl.hidden = true;
+      return;
+    }
+    titleEl.textContent = 'Cyber Feed';
+    subtitleEl.textContent = 'Signaux cyber récents : vulnérabilités, alertes CERT, fuites de données, ransomware et threat intelligence.';
+    if (!items.length) await init();
     render();
   };
 
   btn.addEventListener('click', () => { shown += mode === 'cve' ? CVE_STEP : STEP; render(); });
   showCyberFeedBtn?.addEventListener('click', () => switchMode('cyber'));
   showCveFeedBtn?.addEventListener('click', () => switchMode('cve'));
+  showLeakFeedBtn?.addEventListener('click', () => switchMode('leak'));
   refreshBtn?.addEventListener('click', async () => {
     refreshBtn.disabled = true;
     try {
-      if (mode === 'cve') {
+      if (mode === 'leak') {
+        leakView?.toggleAttribute('hidden', false);
+        if (leakView) leakView.style.display = 'block';
+      } else if (mode === 'cve') {
         await loadCveFeed();
         render();
       } else {
