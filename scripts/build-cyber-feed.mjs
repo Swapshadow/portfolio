@@ -12,6 +12,7 @@ export const RSS_SOURCES = [
   { name: 'Cybermalveillance', url: 'https://www.cybermalveillance.gouv.fr/feed/atom-flux-complet', defaultType: 'NEWS' },
   { name: 'Zataz', url: 'https://www.zataz.com/rss/zataz-news.rss', defaultType: 'NEWS' },
   { name: 'Cybercriminalité FR', url: 'https://flipboard.com/topic/fr-cybercriminalit%C3%A9.rss', defaultType: 'NEWS' },
+  { name: 'Flipboard — Cryptographie FR', url: 'https://flipboard.com/topic/fr-cryptographie.rss', defaultType: 'NEWS' },
   { name: 'BleepingComputer', url: 'https://www.bleepingcomputer.com/feed/', defaultType: 'NEWS' },
   { name: 'Krebs on Security', url: 'https://krebsonsecurity.com/feed/', defaultType: 'NEWS' },
   { name: 'Have I Been Pwned', url: 'https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches', defaultType: 'LEAK' }
@@ -34,7 +35,7 @@ function extractImageFromItem(block) {
   return normalizeUrl(fromMediaContent || fromMediaThumb || fromEnclosure || fromContentImg || fromDescImg || '');
 }
 
-const type = (t, d = 'NEWS') => /(cve|vulnerability|vulnérabilité|exploit|exploited|zero-day|patch|security update|kev|cvss|rce)/i.test(t) ? 'CVE' : /(leak|leaked|fuite|data breach|breach|données exposées|stolen data|database|dark web|exfiltration)/i.test(t) ? 'LEAK' : d;
+const type = (t, d = 'NEWS') => /(cve|vulnerability|vulnérabilité|exploit|exploited|zero-day|patch|security update|kev|cvss|rce)/i.test(t) ? 'CVE' : /(leak|leaked|fuite de données|fuite|data breach|breach|données exposées|stolen data|database|dark web|exfiltration|identifiants compromis)/i.test(t) ? 'LEAK' : d;
 const sev = (t) => /(zero-day|active exploitation|actively exploited|exploited in the wild|ransomware|kev|rce|cvss\s?9|cvss\s?10|critical vulnerability)/i.test(t) ? 'Critique' : /(cve|vulnerability|exploit|breach|malware|phishing|backdoor|trojan|botnet)/i.test(t) ? 'Élevée' : /(warning|advisory|campaign|report|threat actor|espionage)/i.test(t) ? 'Moyenne' : 'Info';
 
 const statuses = [], merged = [];
