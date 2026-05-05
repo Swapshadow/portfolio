@@ -20,6 +20,7 @@ export const RSS_SOURCES = [
 const generatedAt = new Date().toISOString();
 const stripHtml = (v = '') => v.replace(/<!\[CDATA\[|\]\]>/g, '').replace(/<img[^>]*>/gi, ' ').replace(/<[^>]*>/g, ' ').replace(/&nbsp;/gi, ' ').replace(/\s+/g, ' ').trim();
 const pick = (block, tags) => { for (const t of tags) { const m = block.match(new RegExp(`<${t}[^>]*>([\\s\\S]*?)<\\/${t}>`, 'i')); if (m) return m[1].trim(); const m2 = block.match(new RegExp(`<${t}[^>]*href="([^"]+)"[^>]*/?>`, 'i')); if (m2) return m2[1].trim(); } return ''; };
+const normalizeSourceName = (name = '') => name.replace(/^Flipboard\s*[—-]\s*/i, '').trim();
 const normalizeUrl = (u = '') => { try { const x = new URL(u.trim()); ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content', 'fbclid', 'gclid'].forEach((p) => x.searchParams.delete(p)); x.hash = ''; return x.toString(); } catch { return u.trim(); } };
 
 function extractImageFromItem(block) {
@@ -54,11 +55,12 @@ for (const s of RSS_SOURCES) {
       const d = new Date(dRaw);
       const publishedAt = Number.isNaN(d.getTime()) ? generatedAt : d.toISOString();
       const ctx = `${title} ${summary}`;
-      merged.push({ id: crypto.createHash('sha1').update(`${url}|${s.name}`).digest('hex'), title, url, source: s.name, publishedAt, summary, type: type(ctx, s.defaultType), severity: sev(ctx), imageUrl });
+      const sourceName = normalizeSourceName(s.name);
+      merged.push({ id: crypto.createHash('sha1').update(`${url}|${sourceName}`).digest('hex'), title, url, source: sourceName, publishedAt, summary, type: type(ctx, s.defaultType), severity: sev(ctx), imageUrl });
       count++;
     }
-    statuses.push({ name: s.name, url: s.url, status: 'ok', items: count });
-  } catch (e) { statuses.push({ name: s.name, url: s.url, status: 'error', items: 0, error: String(e.message || e) }); }
+    statuses.push({ name: normalizeSourceName(s.name), url: s.url, status: 'ok', items: count });
+  } catch (e) { statuses.push({ name: normalizeSourceName(s.name), url: s.url, status: 'error', items: 0, error: String(e.message || e) }); }
 }
 const unique = new Map();
 for (const i of merged) { const k = normalizeUrl(i.url) || `${i.title.toLowerCase()}|${i.source.toLowerCase()}`; if (!unique.has(k)) unique.set(k, i); }
