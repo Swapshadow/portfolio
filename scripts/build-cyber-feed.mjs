@@ -12,6 +12,7 @@ export const RSS_SOURCES = [
   { name: 'Cybermalveillance', url: 'https://www.cybermalveillance.gouv.fr/feed/atom-flux-complet', defaultType: 'NEWS' },
   { name: 'Zataz', url: 'https://www.zataz.com/rss/zataz-news.rss', defaultType: 'NEWS' },
   { name: 'Cybercriminalité FR', url: 'https://flipboard.com/topic/fr-cybercriminalit%C3%A9.rss', defaultType: 'NEWS' },
+  { name: 'Cryptographie FR', url: 'https://flipboard.com/topic/fr-cryptographie.rss', defaultType: 'NEWS' },
   { name: 'BleepingComputer', url: 'https://www.bleepingcomputer.com/feed/', defaultType: 'NEWS' },
   { name: 'Krebs on Security', url: 'https://krebsonsecurity.com/feed/', defaultType: 'NEWS' },
   { name: 'Have I Been Pwned', url: 'https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches', defaultType: 'LEAK' }
