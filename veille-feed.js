@@ -22,6 +22,7 @@
   let shown = STEP;
   let mode = 'cyber';
   let feedbackTimer;
+  let isCyberFeedLoading = false;
 
   const frDate = (d) => new Date(d).toLocaleDateString('fr-FR', { day: '2-digit', month: 'long', year: 'numeric', timeZone: 'Europe/Paris' });
   const rel = (d) => { const ms = Date.now() - new Date(d).getTime(); const h = Math.floor(ms / 3600000); if (h < 24) return `il y a ${Math.max(h, 1)}h`; return frDate(d); };
@@ -122,15 +123,22 @@
     btn.hidden = shown >= dataset.length;
   }
 
+  const withCacheBuster = (url) => {
+    const separator = url.includes('?') ? '&' : '?';
+    return `${url}${separator}_=${Date.now()}`;
+  };
+
   async function init({ forceRefresh = false } = {}) {
+    if (isCyberFeedLoading) return;
+    isCyberFeedLoading = true;
     stateEl.textContent = forceRefresh ? 'Actualisation…' : 'Chargement du Cyber Feed…';
     stateEl.hidden = false;
     list.innerHTML = '';
     shown = STEP;
     if (heading) heading.remove();
     try {
-      const cacheBuster = forceRefresh ? `?t=${Date.now()}` : '';
-      const res = await fetch(`data/cyber-feed.json${cacheBuster}`, { cache: 'no-store' });
+      const feedUrl = forceRefresh ? withCacheBuster('data/cyber-feed.json') : 'data/cyber-feed.json';
+      const res = await fetch(feedUrl, { cache: 'no-store' });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
       items = (data.items || []).filter((i) => i?.title && i?.url).sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
@@ -139,7 +147,10 @@
       const failed = (data.sources || []).filter((s) => s.status === 'error').map((s) => s.name);
       console.info(`[Cyber Feed] ${items.length} articles chargés depuis data/cyber-feed.json`);
       console.info(`[Cyber Feed] JSON généré le ${data.generatedAt}`);
-      if (failed.length) console.warn('[Cyber Feed] Sources en erreur :', failed);
+      if (failed.length) {
+        console.warn('[Cyber Feed] Sources en erreur :', failed);
+        showFeedback('Impossible de charger certains flux pour le moment.');
+      }
       render();
       if (forceRefresh) showFeedback('Flux mis à jour');
     } catch (e) {
@@ -147,6 +158,8 @@
       stateEl.hidden = false;
       stateEl.textContent = 'Le flux cyber est temporairement indisponible. Une mise à jour automatique est prévue prochainement.';
       if (forceRefresh) showFeedback('Actualisation impossible');
+    } finally {
+      isCyberFeedLoading = false;
     }
   }
 
@@ -240,5 +253,11 @@
       else if (navigator.clipboard?.writeText) { await navigator.clipboard.writeText(shareData.url); showFeedback('Lien copié'); }
     } catch { showFeedback('Impossible de partager'); }
   });
-  init();
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => {
+      init({ forceRefresh: true });
+    });
+  } else {
+    init({ forceRefresh: true });
+  }
 })();
