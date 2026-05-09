@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-09T20:49:40.233Z",
+  "generatedAt": "2026-05-09T22:50:44.278Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -23,7 +23,7 @@
       "name": "Exploit-DB",
       "url": "https://www.exploit-db.com/rss.xml",
       "status": "ok",
-      "items": 0
+      "items": 50
     },
     {
       "name": "The Hacker News",
@@ -85,17 +85,6 @@
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8HLwOMzo20kbZmflPvJJmY7su6wWOWgDLV-dJNx-k76m5ivbwVoCkFrnsLXkyO4PHAyLSkPXinjK71SDmWabyOcTlKb3juZgkXTzOVuMvZk6-LUFMhoJ-UGFvv0qEby7QmYcjTWn1m1L19VTKeB7CdmKvpvIP5ifniLO92ARSLjtf8rcXIbm8AFMZei-M/s1600/cpanel-3.jpg"
-    },
-    {
-      "id": "d69ba8a5beaa8dffcc19263cf00e8056286898ae",
-      "title": "Urssaf",
-      "url": "https://www.20minutes.fr/dossier/urssaf?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-08T20:29:17.000Z",
-      "summary": "Cybercriminalité•17 nov. 2025 Sauvegarder l'article FAKE OFF•31 oct. 2025 Sauvegarder l'article phobie administrative ?•2 oct. 2025 Sauvegarder …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://img.20mn.fr/2RwcyKLjStWO1IxCeOr47Sk/1444x920_france-salbris-11-octobre-2025-illustrations-d-un-bureau-de-france-services-a-salbris-dans-le-loir-et-cher-photographe-jean-michel-delage-hans-lucas-france-salbris-11-octobre-2025-illustrations-d-une-maison-desservie-par-la-france-a-salbris-dans-le-loir-et-cher-photo-jean-michel-delage-hans-lucas-photo-de-jean-michel-delage-hans-lucas-via-afp"
     },
     {
       "id": "4021989f2f961148ac1d412f28b6cd09f6077d65",
@@ -483,6 +472,17 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGun7lMQJXWH3IQiR3ml3RMzAbb1QJcWEtgqDrKTjPbvBhTsDPaCWmI1vTAnevTVPx0lg4xvPkOcpx_86_Znxdgpj-hynQXGEHqf94dvYwOy5VqqnqBWEWrJ3MEkQcLVBVt00Y8pUqVWj4W-hYYepmDmtX9PRQh87qZC7XbJCwdEaLsBY-vTsbkS0yqikd/s1600/pypi.jpg"
     },
     {
+      "id": "845d718deb3a3caf44f7afac06bd8232b34927bb",
+      "title": "La cyberguerre met les infrastructures européennes sous pression",
+      "url": "https://www.swissinfo.ch/fre/affaires-etrangeres/la-cyberguerre-met-les-infrastructures-europ%C3%A9ennes-sous-pression/91339703?amp%3Butm_campaign=swi-rss&amp%3Butm_medium=rss&amp%3Butm_content=o",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-05-07T07:15:00.000Z",
+      "summary": "À mesure que les conflits armés s’intensifient et que l’intelligence artificielle progresse, les infrastructures critiques helvétiques – réseaux …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/swissinfo.ch/11c2de92d2d8eff7640f59d79b9ae39546e4c5ce/_xlarge.jpeg"
+    },
+    {
       "id": "0a1d36e778dec36cf7b861b5f5bcb51bf1e4d1ed",
       "title": "Cybersécurité : en Guadeloupe, le mot de passe reste la première faille face aux cyberattaques",
       "url": "https://la1ere.franceinfo.fr/guadeloupe/cybersecurite-en-guadeloupe-le-mot-de-passe-reste-la-premiere-faille-face-aux-cyberattaques-1698322.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -698,6 +698,72 @@
       "source": "CERT-FR",
       "publishedAt": "2026-05-07T00:00:00.000Z",
       "summary": "De multiples vulnérabilités ont été découvertes dans Spring Cloud Config. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, un contourneme",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "0db88df3083917a26c7d9d91780d402c9f61cae6",
+      "title": "[remote] telnetd 2.7 - Buffer Overflow",
+      "url": "https://www.exploit-db.com/exploits/52556",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-05-07T00:00:00.000Z",
+      "summary": "telnetd 2.7 - Buffer Overflow",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "07d60b3fec8a7e4ae5dde30e31cc8a7e4a2f4623",
+      "title": "[webapps] Ghost CMS 6.19.0 - SQLi",
+      "url": "https://www.exploit-db.com/exploits/52555",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-05-07T00:00:00.000Z",
+      "summary": "Ghost CMS 6.19.0 - SQLi",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "dac966cf9efbadf1a04999be44f9b9b9b9fbe7fc",
+      "title": "[webapps] LuaJIT 2.1.1774638290 - Arbitrary Code Execution",
+      "url": "https://www.exploit-db.com/exploits/52554",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-05-07T00:00:00.000Z",
+      "summary": "LuaJIT 2.1.1774638290 - Arbitrary Code Execution",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "feac3180e63dab19134c72c511a0580453742bc2",
+      "title": "[webapps] Bludit CMS 3.18.4 - RCE",
+      "url": "https://www.exploit-db.com/exploits/52553",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-05-07T00:00:00.000Z",
+      "summary": "Bludit CMS 3.18.4 - RCE",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": null
+    },
+    {
+      "id": "f2bccb0b1da796d2d7018a21f4b5b34aeff1dc2c",
+      "title": "[local] NocoBase 2.0.27 - VM Sandbox Escape",
+      "url": "https://www.exploit-db.com/exploits/52552",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-05-07T00:00:00.000Z",
+      "summary": "NocoBase 2.0.27 - VM Sandbox Escape",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "94074da62455e8c93b40f61fcf7f7ecf4169b9ae",
+      "title": "[webapps] ThingsBoard IoT Platform 4.2.0 - Server-Side Request Forgery (SSRF)",
+      "url": "https://www.exploit-db.com/exploits/52551",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-05-07T00:00:00.000Z",
+      "summary": "ThingsBoard IoT Platform 4.2.0 - Server-Side Request Forgery (SSRF)",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1682,6 +1748,72 @@
       "imageUrl": null
     },
     {
+      "id": "d9f9e8fd8eeb15255db26cb621a0735721b627c4",
+      "title": "[local] Linux Kernel proc_readdir_de() 6.18-rc5 - Local Privilege Escalation",
+      "url": "https://www.exploit-db.com/exploits/52550",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-05-04T00:00:00.000Z",
+      "summary": "Linux Kernel proc_readdir_de() 6.18-rc5 - Local Privilege Escalation",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "2b89233c9ff593082bba3bb95be5096b1975f576",
+      "title": "[local] Linux nf_tables 6.19.3 - Local Privilege Escalation",
+      "url": "https://www.exploit-db.com/exploits/52549",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-05-04T00:00:00.000Z",
+      "summary": "Linux nf_tables 6.19.3 - Local Privilege Escalation",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "5798dda6bf54c9d422ad44e51bc8f39860b5ee35",
+      "title": "[hardware] Linksys E1200 2.0.04 - Authenticated Stack Buffer Overflow (RCE)",
+      "url": "https://www.exploit-db.com/exploits/52548",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-05-04T00:00:00.000Z",
+      "summary": "Linksys E1200 2.0.04 - Authenticated Stack Buffer Overflow (RCE)",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": null
+    },
+    {
+      "id": "91ad852e34cf7b487dde0308600f171cabf71c4e",
+      "title": "[webapps] MindsDB 25.9.1.1 - Path Traversal",
+      "url": "https://www.exploit-db.com/exploits/52547",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-05-04T00:00:00.000Z",
+      "summary": "MindsDB 25.9.1.1 - Path Traversal",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "bce10de1ac44922ad43fa1f5ac841eec0009d65d",
+      "title": "[local] Windows 11 24H2 - Local Privilege Escalation",
+      "url": "https://www.exploit-db.com/exploits/52546",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-05-04T00:00:00.000Z",
+      "summary": "Windows 11 24H2 - Local Privilege Escalation",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "c46cb4fc410959a4fdeb6135f2157017126ba37f",
+      "title": "[webapps] Traccar GPS Tracking System 6.11.1 - Cross-Site WebSocket Hijacking (CSWSH)",
+      "url": "https://www.exploit-db.com/exploits/52545",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-05-04T00:00:00.000Z",
+      "summary": "Traccar GPS Tracking System 6.11.1 - Cross-Site WebSocket Hijacking (CSWSH)",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
       "id": "0bb4a155ebb501e567ac76fa6fd760625095b502",
       "title": "Marcus &amp; Millichap - 1,837,078 breached accounts",
       "url": "https://haveibeenpwned.com/Breach/MarcusMillichap",
@@ -2133,146 +2265,14 @@
       "imageUrl": null
     },
     {
-      "id": "e9ee00f53c072860b1a0ed521672297eec57a76e",
-      "title": "Adapting Zero Trust Principles to Operational Technology",
-      "url": "https://www.cisa.gov/resources-tools/resources/adapting-zero-trust-principles-operational-technology",
-      "source": "CISA",
-      "publishedAt": "2026-04-29T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a class=\"c-button\" href=\"https://www.cisa.gov/sites/default/files/2026-04/joint-guide-adapting-zero-trust-principles-to-operational-technology_508c.pdf\"&gt;Adapting Ze",
+      "id": "d63a1ef681e4c9d1a9d1d8ec6f2bc542b1f37b83",
+      "title": "[webapps] FUXA 1.2.8 - Authentication Bypass + RCE Exploit",
+      "url": "https://www.exploit-db.com/exploits/52544",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-04-30T00:00:00.000Z",
+      "summary": "FUXA 1.2.8 - Authentication Bypass + RCE Exploit",
       "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "f1ac3f9086a09116167171e0e7954eed509cd0b8",
-      "title": "ProFTPD - CVE-2026-42167",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/proftpd-cve-2026-42167-2026-04-29",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-04-29T02:20:30.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité d'&lt;strong&gt;injection SQL&lt;/strong&gt; dans le module &lt;strong&gt;mod_sql&lt;/strong&gt; de &lt;strong&gt;ProFTPD&lt;/strong&gt;.&lt;",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "c65805c70ededbe1f9ad21dde5a007031d67b941",
-      "title": "Citrix - CVE-2026-23558",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/citrix-cve-2026-23558-2026-04-29",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-04-29T02:17:05.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans l'&lt;strong&gt;hyperviseur XenServer&lt;/strong&gt; affectant l'isolation entre les &lt;strong&gt;machines virtuelles invitées&lt;/stro",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "c33c6523aec996d3be7d0786e22967eff477b74f",
-      "title": "Google - CVE-2026-7337",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/google-cve-2026-7337-2026-04-29",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-04-29T02:16:07.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;confusion de type&lt;/strong&gt; (type confusion) dans le moteur JavaScript &lt;strong&gt;V8&lt;/strong&gt; de &lt;strong&gt",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "5c8c082e556028c969c4b54ef714eb1ef73b576c",
-      "title": "Mozilla - CVE-2026-7322",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/mozilla-cve-2026-7322-2026-04-29",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-04-29T02:14:18.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;corruption mémoire&lt;/strong&gt; affectant le moteur de rendu de &lt;strong&gt;Mozilla Firefox&lt;/strong&gt; et &lt;strong",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "aa1c4c4e0fdf342cc29d4daed96bcd0482c456b5",
-      "title": "Nutanix - CVE-2026-5944",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/nutanix-cve-2026-5944-2026-04-29",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-04-29T02:12:03.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;contrôle d'accès manquant&lt;/strong&gt; dans le &lt;strong&gt;Cisco Intersight Device Connector&lt;/strong&gt; pour &lt;str",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "68f4750861154aa792af9f20260a5a40fa1920a7",
-      "title": "Multiples vulnérabilités dans Curl (29 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0514/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-04-29T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Curl. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la poli",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "6b15f3f21c277a69e29e55341980c10a20fb8cfc",
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/04/28/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "source": "CISA",
-      "publishedAt": "2026-04-28T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA has added&amp;nbsp;two&amp;nbsp;new&amp;nbsp;vulnerabilities&amp;nbsp;to its&amp;nbsp;&lt;a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"&gt;Kno",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "4ab511f765aa110d32e137bc4844de5ed42a80d4",
-      "title": "NSA GRASSMARLIN",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-118-01",
-      "source": "CISA",
-      "publishedAt": "2026-04-28T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-118-01.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "91d150e2508249873332060572540e770069d243",
-      "title": "Le Q-Day approche : êtes-vous prêts ?",
-      "url": "https://www.journaldunet.com/cybersecurite/1549921-le-q-day-approche-etes-vous-prets/?amp%3Butm_content=topic%2Ffr-cryptographie",
-      "source": "Cryptographie FR",
-      "publishedAt": "2026-04-28T09:49:05.000Z",
-      "summary": "Avec l'essor du quantique, les systèmes de chiffrement actuels pourraient devenir obsolètes d'ici 2030, imposant d'anticiper dès aujourd'hui la …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/journaldunet.com/6ca369d1b33a0bfd926bc4b23ef7975d8a325f82/_xlarge.jpeg"
-    },
-    {
-      "id": "2d35ff5199307d3cc26c4e197fa4bbc1d074b3c7",
-      "title": "ProjeQtor - CVE-2026-41462",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/projeqtor-cve-2026-41462-2026-04-28",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-04-28T02:41:30.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité d'&lt;strong&gt;injection SQL&lt;/strong&gt; dans la page d'&lt;strong&gt;authentification&lt;/strong&gt; de &lt;strong&gt;ProjeQtor&lt;/stro",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "1bb841629b753d92a25b800562a5dbfa49aeb0ca",
-      "title": "Spring - CVE-2026-40967",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/spring-cve-2026-40967-2026-04-28",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-04-28T02:40:33.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité d'&lt;strong&gt;injection dans les expressions de filtre&lt;/strong&gt; des implémentations &lt;strong&gt;FilterExpressionConverter&lt;/stron",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "5e1914e25f6f8b9dc8c7fcdee3a9db2ec8b13006",
-      "title": "Apache - CVE-2026-40453",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/apache-cve-2026-40453-2026-04-28",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-04-28T02:38:51.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans les stratégies de filtrage d'en-têtes non-HTTP d'&lt;strong&gt;Apache Camel&lt;/strong&gt; (camel-jms, camel-sjms, camel-coap, camel-goo",
-      "type": "CVE",
-      "severity": "Élevée",
+      "severity": "Critique",
       "imageUrl": null
     }
   ]
