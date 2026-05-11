@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-11T11:26:58.612Z",
+  "generatedAt": "2026-05-11T15:16:25.190Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,7 +17,7 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 100
+      "items": 131
     },
     {
       "name": "Exploit-DB",
@@ -76,6 +76,50 @@
   ],
   "items": [
     {
+      "id": "4133214fcbe2f28143505f90bcb66b6277184c73",
+      "title": "Cyberespionnage: une vaste opération chinoise infiltre ministères, gouvernements et réseaux sensibles sur plusieurs continents, de l’Asie à l’Europe en passant par l’Amérique",
+      "url": "https://www.bfmtv.com/tech/cybersecurite/cyberespionnage-une-vaste-operation-chinoise-infiltre-ministeres-gouvernements-et-reseaux-sensibles-sur-plusieurs-continents-de-l-asie-a-l-europe-en-passant-par-l-amerique_AN-202605110615.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-05-11T14:38:14.000Z",
+      "summary": "Une vaste opération de cyberespionnage chinoise, révélée par l’entreprise de cybersécurité Trend Micro, a infiltré des ministères, des gouvernements …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/bfmtv.com/098b25e280ec4fdbcdfeabff9332bbe0a7cd3af8/_xlarge.jpeg"
+    },
+    {
+      "id": "bdff887ecf9d8108a263f762c2f3c8317b5775db",
+      "title": "Nouvelle cyberattaque sur Windows et Linux : ce logiciel gratuit, utilisé par des millions d'utilisateurs, a été piégé",
+      "url": "https://www.01net.com/actualites/nouvelle-cyberattaque-sur-windows-et-linux-ce-logiciel-gratuit-utilise-par-des-millions-dutilisateurs-a-ete-piege.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-05-11T14:24:27.000Z",
+      "summary": "Pendant plus de 24 heures, le site officiel de JDownloader a distribué des fichiers d’installation piégés. Un virus, capable de prendre le contrôle …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/7a0c0257e77a58ff3d0a7ec0dae6bf6bc906c68c/_xlarge.jpeg"
+    },
+    {
+      "id": "f4245093462cc0adf33b81fb89e61e62c1c3d09e",
+      "title": "⚡ Weekly Recap: Linux Rootkit, macOS Crypto Stealer, WebSocket Skimmers and More",
+      "url": "https://thehackernews.com/2026/05/weekly-recap-linux-rootkit-macos-crypto.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-05-11T12:36:00.000Z",
+      "summary": "Rough Monday. Somebody poisoned a trusted download again, somebody else turned cloud servers into public housing, and a few crews are still getting into boxes with bugs that should",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiD4a3gzeAEAv4Bs5FqWbHG1cRyNqIOjygeSxxpNoChwyyMUWlbZHzkG0n8ysGpoAYuKqklfMtTKRct0OeYktaKLhdXpRH5pKH94tVaMX7iPeNDf7vZjFky3myBkFPJPl1xIdsWDlIYP30IeR7IZGhQZ5p82yHRdRO1OGkpAtTWgZcQSG3zXqh9tLbSSrgP/s1600/cyber-recap.jpg"
+    },
+    {
+      "id": "0b3dbfc046c31ee5083925a630589f6135e229ae",
+      "title": "Your Purple Team Isn't Purple — It's Just Red and Blue in the Same Room",
+      "url": "https://thehackernews.com/2026/05/your-purple-team-isnt-purple-its-just.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-05-11T11:30:00.000Z",
+      "summary": "Defending a network at 2 am looks a lot like this: an analyst copy-pasting a hash from a PDF into a SIEM query. A red team script is being rewritten by hand so the blue team can us",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0dlupn761jekig7BbPagwo6DtccMFQV8oESHiCBIs04DdhvoVtfwhe7OVEh8VvyFpa-VFo9GKWL8tx2ZKTSn3qA7iAFCvTfoevjyPFYNb3eAmpp4pkWk3mcQd_AulszHJoxUa6z_k_Nr_KB9Ny_hoZWy1VVA-U9BV2nPvESGGqPE5r4_AbNlid_BK-M8/s1600/picus.jpg"
+    },
+    {
       "id": "2f0ae8f13d8a3f3f3ca8f44d59a5f270c37939ee",
       "title": "Piratage confirmé : si vous avez “installé” ce célèbre logiciel de téléchargement entre le 6 et le 7 mai, vous êtes une victime potentielle",
       "url": "https://www.presse-citron.net/piratage-confirme-celebre-logiciel-de-telechargement/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -84,7 +128,18 @@
       "summary": "Le site web du gestionnaire de téléchargement JDownloader a été victime d’un piratage, ce mois de mai. Les hackers ont remplacé certains liens qui …",
       "type": "NEWS",
       "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/presse-citron.net/4e83e908b6642884cae9b7ba9c48142fa372bef4/_xlarge.jpeg"
+      "imageUrl": "https://ic-cdn.flipboard.com/presse-citron.net/e8eaefa027f19cc19dea59057bac436b41c6a0f3/_xlarge.jpeg"
+    },
+    {
+      "id": "9712dfb10829b3f6bc0d72c2b3f5b3be1645a1db",
+      "title": "Bouygues Telecom : nouvelle fuite confirmée, vos informations personnelles sont encore dans la nature",
+      "url": "https://www.lesnumeriques.com/societe-numerique/bouygues-telecom-nouvelle-fuite-confirmee-vos-informations-personnelles-sont-encore-dans-la-nature-n255748.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-05-11T10:29:00.000Z",
+      "summary": "Nouvelle fuite de données de la base clients de Bouygues Telecom confirmée. Vos informations personnelles sont encore une fois connues de tous. Au …",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://cdn.lesnumeriques.com/optim/news/25/255748/458973ef-bouygues-telecom-encore-une-fuite-de-donnees-clients-dans-le-plus-grand-des-calmes__1200_678__0-340-6003-3491.jpg"
     },
     {
       "id": "e65029684f89f7e449c963d5f83224404f29b685",
@@ -131,17 +186,6 @@
       "imageUrl": "https://ic-cdn.flipboard.com/journaldugeek.com/a329153664425e02a52b8a0a9e59380dba648c1b/_xlarge.jpeg"
     },
     {
-      "id": "42daf74b439beaf0494ebe67961bb333a305a26e",
-      "title": "La sensibilisation cyber n'échappe pas à l'IA générative - ZDNET",
-      "url": "https://www.zdnet.fr/cybersecurite/la-sensibilisation-cyber-nechappe-pas-a-lia-generative-494812.htm",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-11T07:30:00.000Z",
-      "summary": "Les entreprises spécialisées dans la sensibilisation des employés au risque cyber tentent d'adopter les outils d'intelligence artificielle générative …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2024/03/artificial-intelligence-shutterstock-1218220324-1.jpg"
-    },
-    {
       "id": "cc7000366d2164f62243eac3718767f2bc41d90d",
       "title": "Fake OpenAI Privacy Filter Repo Hits #1 on Hugging Face, Draws 244K Downloads",
       "url": "https://thehackernews.com/2026/05/fake-openai-privacy-filter-repo-hits-1.html",
@@ -184,6 +228,149 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/b6c1c781939e25423b706ee99df1e8adc52c7e07/_xlarge.jpeg"
+    },
+    {
+      "id": "209d640a3c203508b877a678aac544214d9aa59e",
+      "title": "L'Anssi dévoile son rapport 2025 avec 3 586 événements de sécurité et une baisse des alertes de 22% - ZDNET",
+      "url": "https://www.zdnet.fr/actualites/lanssi-devoile-son-rapport-2025-avec-3-586-evenements-de-securite-et-une-baisse-des-alertes-de-22-494841.htm",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-05-11T04:05:42.000Z",
+      "summary": "Le cyber-pompier de l’État vient de publier son rapport annuel, un document de 60 pages qui fait le point sur son action. Voici ce qu'il faut en …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2025/06/anssi-5-scaled.jpg"
+    },
+    {
+      "id": "30d06ac180bc9c0e505231d30fcd9fe7f682332c",
+      "title": "Eclipse - CVE-2026-7411",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/eclipse-cve-2026-7411-2026-05-11",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-05-11T02:18:57.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;traversée de chemin&lt;/strong&gt; dans l'API HTTP Submodel d'Eclipse BaSyx Java Server SDK.&lt;/p&gt; &lt;p&gt;Eclipse BaSy",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "0ff784725ba49b50233c7a32d9d0ed8b53d636dd",
+      "title": "Mozilla - CVE-2026-8090",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/mozilla-cve-2026-8090-2026-05-11",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-05-11T02:17:12.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de type &lt;strong&gt;use-after-free&lt;/strong&gt; dans le composant &lt;strong&gt;DOM : Networking&lt;/strong&gt; de Firefox et Thunderbird",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "4ac72b2e89459dbb0ab8d6f2d23d4945528df37c",
+      "title": "LiteLLM - CVE-2026-42208",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/litellm-cve-2026-42208-2026-05-11",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-05-11T02:12:26.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité d'&lt;strong&gt;injection SQL&lt;/strong&gt; dans le chemin de vérification des clés API de LiteLLM.&lt;/p&gt; &lt;p&gt;LiteLLM est un proxy ",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "b1ea304b54f55501eb3f4b6a2b4a18fdd781ea51",
+      "title": "openvpn-auth-oauth2 - CVE-2026-41070",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/openvpn-auth-oauth2-cve-2026-41070-2026-05-11",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-05-11T02:10:33.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;contournement d'authentification&lt;/strong&gt; dans openvpn-auth-oauth2, uniquement en &lt;strong&gt;mode plugin expériment",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "f93e4d488d19b6a8393de688c0a64257c4086a6d",
+      "title": "Ivanti - CVE-2026-6973",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/ivanti-cve-2026-6973-2026-05-11",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-05-11T02:09:16.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;validation insuffisante des entrées&lt;/strong&gt; dans Ivanti EPMM.&lt;/p&gt; &lt;p&gt;Ivanti Endpoint Manager Mobile (EPMM",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "ac38e36cc624cd165b977649bec37bdb15e924f4",
+      "title": "Bulletin d'actualité CERTFR-2026-ACT-021 (11 mai 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-021/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-05-11T00:00:00.000Z",
+      "summary": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble de",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "c6b9a73cea4606b77bdcb79ea715c9d2e1b092d2",
+      "title": "Multiples vulnérabilités dans les produits VMware (11 mai 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0556/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-05-11T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits VMware. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "c98d6540d49bb48623147fd1b7aaafa5b43a37df",
+      "title": "Multiples vulnérabilités dans les produits Spring (11 mai 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0554/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-05-11T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Spring. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "0652960883cd86d2a25ffc2b8e4d8054a3ccce41",
+      "title": "Multiples vulnérabilités dans Microsoft Azure Linux (11 mai 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0558/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-05-11T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Azure Linux. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "454094ecfb8258a3c0e5266b09c06d04c4249491",
+      "title": "Multiples vulnérabilités dans PHP (11 mai 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0553/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-05-11T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans PHP. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une injection SQL (SQLi) et ",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "0a346f30121d356e3ab5effc2741b35d6fbd34d7",
+      "title": "Multiples vulnérabilités dans Microsoft Edge (11 mai 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0557/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-05-11T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "48ed6686d260df520cb81ff61f77e9f739115235",
+      "title": "Multiples vulnérabilités dans les produits Mozilla (11 mai 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0555/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-05-11T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Elles permettent à un attaquant de provoquer une exécution de code arbitraire et un problème de sécurité ",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
     },
     {
       "id": "7de647695dc4c0d3032fc484cdf59b9dc5e05418",
@@ -472,17 +659,6 @@
       "imageUrl": null
     },
     {
-      "id": "42d9ad894a44c95ab7801f7429a7661fa3b535fa",
-      "title": "Vous décrochez et personne ne vous parle ? En quoi consiste l'arnaque à l'appel silencieux et comment s'en protéger | TF1 Info",
-      "url": "https://www.tf1info.fr/high-tech/vous-decrochez-et-personne-ne-vous-parle-en-quoi-consiste-l-arnaque-a-l-appel-silencieux-et-comment-s-en-proteger-2440092.html?amp%3Butm_content=topic%2Ffr-technologie",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-08T07:00:00.000Z",
-      "summary": "Cela vous est peut-être déjà arrivé. Votre téléphone sonne et, lorsque vous répondez, personne ne vous répond au bout du fil. Cela pourrait être un …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/tf1info.fr/2cac21c69433de1ad8ad0e7f683581a936870f7b/_xlarge.jpeg"
-    },
-    {
       "id": "d2530383cec540760adf716403f0aea586c3cb6e",
       "title": "Linux Kernel Dirty Frag LPE Exploit Enables Root Access Across Major Distributions",
       "url": "https://thehackernews.com/2026/05/linux-kernel-dirty-frag-lpe-exploit.html",
@@ -503,17 +679,6 @@
       "type": "LEAK",
       "severity": "Élevée",
       "imageUrl": "https://krebsonsecurity.com/wp-content/uploads/2026/05/shinyhunters-instructure-canvas.png"
-    },
-    {
-      "id": "692cab999eb7857b94474643f290dd072350008b",
-      "title": "Stanford, Berkeley, Columbia… De nombreuses universités américaines affectées par une cyberattaque",
-      "url": "https://www.lefigaro.fr/international/stanford-berkeley-columbia-de-nombreuses-universites-americaines-affectees-par-une-cyberattaque-20260508?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-07T23:22:25.000Z",
-      "summary": "La plateforme éducative Canvas, utilisée par de nombreuses universités américaines, était inaccessible jeudi, à la suite d’une cyberattaque …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://i.f1g.fr/media/cms/1200x630_crop/2026/05/08/f743c200f5b3e11e54e58697d087d8e1332f3c8fdcffa48f8d943c6edb990d72.jpg"
     },
     {
       "id": "5cab8ef47f76ed9c84f86cf50f5e0232da28a88b",
@@ -602,17 +767,6 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhA-FbTXMB7fJu_4ZxIlvKU2wHShSiMZaCQBah-p33256FjWEUsO0kd4s-LXOT_YQoS39Mj5f7nhj-ERtNF2EPNU9WG91ZWJXpl4cwYFoWz8npaMpVWzAhYjVVB-JnPyoycvPmik7Y5IsihIDXp7_mHvh4DYUz9vqkkVRYgylDqKeezcDEwqRJNs4F_2scA/s1600/paloalto-rce.jpg"
-    },
-    {
-      "id": "18b28c79877230189873654be6302a786c1776d3",
-      "title": "Les appels silencieux intempestifs visent-ils à voler votre voix pour la reproduire par IA pour des arnaques ?",
-      "url": "https://video.lefigaro.fr/figaro/secteur/high-tech/les-appels-silencieux-intempestifs-visent-ils-a-voler-votre-voix-pour-la-reproduire-par-ia-pour-des-arnaques-20260507?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-07T13:18:49.000Z",
-      "summary": "Et si les appels silencieux intempestifs - lors desquels personne ne parle quand on décroche - visaient à voler notre voix pour la reproduire par IA …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://i.f1g.fr/media/ext/1200x630_crop/api-video-public.lefigaro.fr/assets/24/6d/05/246d05e0b8714d83dd8560b175a49fb8.jpeg"
     },
     {
       "id": "8c7ee9be7219ddc91894f718cffbdd6bff61aa59",
@@ -1187,9 +1341,9 @@
       "imageUrl": null
     },
     {
-      "id": "767c7cfb9ddf785722d8b19c933817248656a9f1",
+      "id": "c65a88f589bbe6243d002a0c0740e58a5ab501c5",
       "title": "Palo Alto Networks - CVE-2026-0300",
-      "url": "https://cyberveille.esante.gouv.fr/index%2ephp/alertes/palo-alto-networks-cve-2026-0300-2026-05-06",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/palo-alto-networks-cve-2026-0300-2026-05-06",
       "source": "Cyberveille Santé",
       "publishedAt": "2026-05-06T02:47:45.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le service &lt;strong&gt;User-ID Authentication Portal&lt;/strong&gt; (également appelé &lt;strong&gt;Captive Portal&lt;/strong&gt;) de ",
@@ -2001,17 +2155,6 @@
       "imageUrl": null
     },
     {
-      "id": "1847fccb769698fb73009ed258f9c251529827f8",
-      "title": "PyTorch Lightning and Intercom-client Hit in Supply Chain Attacks to Steal Credentials",
-      "url": "https://thehackernews.com/2026/04/pytorch-lightning-compromised-in-pypi.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-04-30T16:31:00.000Z",
-      "summary": "In yet another software supply chain attack, threat actors have managed to compromise the popular Python package Lightning to push two malicious versions to conduct credential thef",
-      "type": "NEWS",
-      "severity": "Moyenne",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7hiQfVCFzoPBzfr5xqJ06qMjzv-zw_qiUcDTgyEM8RbEVk3PDztg9U5Vlkgvz6j7nX8ODtXwnTCC2wB78lupEmRjcxJTz74GJGSslsMQM-e5b8vG0W2gLFnbEzYAPKw05ZelkaNfy50VyLJeb-3EhwiGKfIP9qHNRpNG4MnFUnTBBOJ95vRJb-RbcFVxX/s1600/python.png"
-    },
-    {
       "id": "5ecd3ab37800da75e0674eb0dad5cd57ab2de313",
       "title": "Anti-DDoS Firm Heaped Attacks on Brazilian ISPs",
       "url": "https://krebsonsecurity.com/2026/04/anti-ddos-firm-heaped-attacks-on-brazilian-isps/",
@@ -2021,17 +2164,6 @@
       "type": "NEWS",
       "severity": "Élevée",
       "imageUrl": "https://krebsonsecurity.com/wp-content/uploads/2026/04/tpllink-ax21.png"
-    },
-    {
-      "id": "c7c9a5a6dc4ddc5d829e61d8ac3e4b899d44ee50",
-      "title": "ThreatsDay Bulletin: SMS Blaster Busts, OpenEMR Flaws, 600K Roblox Hacks and 25 More Stories",
-      "url": "https://thehackernews.com/2026/04/threatsday-bulletin-sms-blaster-busts.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-04-30T13:55:00.000Z",
-      "summary": "The internet is noisy this week. We are seeing some wild new tactics, like people using fake cell towers to send scam texts, while some developers are accidentally downloading tool",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwfqxUhPz38fAoq0CZr2tW8KqGW-Cr0zJloN9kS_80QO2e7yyah4N-nMKNxoSllB2tpyjKO25s2f8eFJNd2bBo50XRAVatMKnnk8ZAbRbz6kfQUhVUoD5vutOmFpYzojybY8aJZhA6KGL3sawNEyaqjlW63hAeEwrTsj8lnpou-4mThnzwCzO442aue-R0/s1600/threats.jpg"
     },
     {
       "id": "cab03e15476eb4e83521e11ab22c91eb25acd09a",
@@ -2141,138 +2273,6 @@
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;contournement d'authentification&lt;/strong&gt; dans le flux de connexion et de chargement de session du démon cpsrvd.&lt;/p",
       "type": "CVE",
       "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "854c9f81044ef59eabf0723208f1556a11b669b3",
-      "title": "Linux - CVE-2026-31431 | modifié le 04-05-2026",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/linux-cve-2026-31431-2026-04-30",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-04-30T01:51:27.000Z",
-      "summary": "&lt;p&gt;Il s’agit d’une vulnérabilité dans l’interface &lt;strong&gt;algif_aead&lt;/strong&gt; du noyau Linux qui traite des opérations &lt;strong&gt;AEAD&lt;/strong&gt; via des s",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "6cd81cdcbeeb8c0914b3397c31238b0341834242",
-      "title": "Wazuh - CVE-2026-30893",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/wazuh-cve-2026-30893-2026-04-30",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-04-30T01:45:58.000Z",
-      "summary": "&lt;p&gt;Il s’agit d’une &lt;strong&gt;vulnérabilité de traversée de chemin&lt;/strong&gt; dans la routine d’extraction de &lt;strong&gt;synchronisation de cluster&lt;/strong&gt;, ",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "4e60225f4286b591c5a3a0bc122756a7820522bf",
-      "title": "Vulnérabilité dans les produits Netgate (30 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0516/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-04-30T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans les produits Netgate. Elle permet à un attaquant de provoquer une injection de code indirecte à distance (XSS).",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "0ddaeab5523f1e508dcf7841f0822e93a34ca4f5",
-      "title": "Multiples vulnérabilités dans Exim (30 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0524/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-04-30T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Exim. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "7be039e3db78cfb09d6443021c8d780d0a405128",
-      "title": "Multiples vulnérabilités dans Wireshark (30 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0518/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-04-30T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Wireshark. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à dista",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "e59f110ecc3a3234fb7279db6c3e3d5868585b2f",
-      "title": "Multiples vulnérabilités dans les produits IBM (30 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0523/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-04-30T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, u",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "4a895460ca7c5a91d0575b90872f85f6f3dd3c13",
-      "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (30 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0521/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-04-30T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "1f7ec38109bf213cb7c1386e0ed7b7bed6080576",
-      "title": "Multiples vulnérabilités dans MISP (30 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0515/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-04-30T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans MISP. Elles permettent à un attaquant de provoquer une élévation de privilèges, une injection SQL (SQLi) et un contournement de",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "9e15309642fdf827e7791d334118d4c4a4383c6c",
-      "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (30 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0522/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-04-30T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une attein",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "845c87bd2342f23d27f5fdf741a9680558f8ceeb",
-      "title": "Multiples vulnérabilités dans les produits SonicWall (30 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0517/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-04-30T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits SonicWall. Elles permettent à un attaquant de provoquer un déni de service à distance et un contournement de la po",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "ff04451e08f64d4a607bbb4cf08dd5738c1bc695",
-      "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (30 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0520/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-04-30T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service et un prob",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "3c029ccca6e22090dbecb6d7ee1eddada2e7296d",
-      "title": "Multiples vulnérabilités dans Microsoft Azure Linux (30 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0519/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-04-30T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Azure Linux. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "type": "CVE",
-      "severity": "Info",
       "imageUrl": null
     }
   ]
