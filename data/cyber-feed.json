@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-12T14:31:26.977Z",
+  "generatedAt": "2026-05-12T18:01:47.325Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -76,6 +76,39 @@
   ],
   "items": [
     {
+      "id": "1503eec71b3041b43ffce0db9146381d569e5712",
+      "title": "New Exim BDAT Vulnerability Exposes GnuTLS Builds to Potential Code Execution",
+      "url": "https://thehackernews.com/2026/05/new-exim-bdat-vulnerability-exposes.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-05-12T16:44:00.000Z",
+      "summary": "Exim has released security updates to address a severe security issue affecting certain configurations that could enable memory corruption and potential code execution. Exim is an ",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrSn3emm_NbwXDi3elR0wo5ErHhg-gPT4-u4zk7MHZg4u0ruMmj2_KGgPF8fz06Riv6Gu5NXMN3eBP8H5bVf6dmvOz-lvb-qrvhLlssLUzl97ZVmIWoIOmMPOGrupv864dt0d4V_dxgaaxYYNuy2z9rbZMWIOcjlwZaiifq4-ktRqlEBCJ6a_m3MFiwq65/s1600/exim.jpg"
+    },
+    {
+      "id": "08d00d0f035ca2fc6f6f0073fd3cfd7d56ae18dc",
+      "title": "RubyGems Suspends New Signups After Hundreds of Malicious Packages Are Uploaded",
+      "url": "https://thehackernews.com/2026/05/rubygems-suspends-new-signups-after.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-05-12T14:47:00.000Z",
+      "summary": "RubyGems, the standard package manager for the Ruby programming language, has temporarily paused account sign ups following what has been described as a \"major malicious attack.\" \"",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggIbYm86Vn45Nd86Hd5IEqHufRIS5Ud3spGUy5JWHy-My-NBVocyj-aR7E3gBKibPnrWd5DRYnDfmbaHUMuaYcNn_paUIDN11VLySLNUsXwFwVIALsNo419985zWvtepK7NVp9J4W3d7uHGWkQFgqI6zY_9Y5LWe5hsTLk-c9ZMKQ4TDlUMcMh8-_vhdIH/s1600/rubygems.jpg"
+    },
+    {
+      "id": "25c7ac2415bfdf15c3d2fc105ecdefffd9299a46",
+      "title": "Une plateforme de LFI visée par une cyberattaque",
+      "url": "https://www.lemonde.fr/pixels/article/2026/05/12/une-plateforme-de-lfi-visee-par-une-cyberattaque_6688259_4408996.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-05-12T14:26:21.000Z",
+      "summary": "Un pirate a revendiqué, jeudi 7 mai, le vol de données issues de la plateforme Action populaire, lancée à l’occasion de la campagne présidentielle de …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://img.lemde.fr/2026/05/07/0/0/5079/3386/1440/960/60/0/bf2eb95_ftp-1-0m7rrvt982zw-5971573-01-06.jpg"
+    },
+    {
       "id": "80fc0a8f748d3ad3d44f3b0037ba03857cc3b56a",
       "title": "New TrickMo Variant Uses TON C2 and SOCKS5 to Create Android Network Pivots",
       "url": "https://thehackernews.com/2026/05/new-trickmo-variant-uses-ton-c2-and.html",
@@ -98,12 +131,78 @@
       "imageUrl": null
     },
     {
+      "id": "ea15927b52f09f4792fc0acb21b3999b4bba8318",
+      "title": "ABB AC500 V3 Stack Buffer Overflow in Cryptographic Message Syntax",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-132-05",
+      "source": "CISA",
+      "publishedAt": "2026-05-12T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-132-05.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "f43c6c707d51a7f257b682bcee77a318cca5e80a",
+      "title": "Subnet Solutions PowerSYSTEM Center",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-132-02",
+      "source": "CISA",
+      "publishedAt": "2026-05-12T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-132-02.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
       "id": "7bb889e406854d109cd3cba38a51d247f19446e0",
       "title": "Software Bill of Materials for AI - Minimum Elements",
       "url": "https://www.cisa.gov/resources-tools/resources/software-bill-materials-ai-minimum-elements",
       "source": "CISA",
       "publishedAt": "2026-05-12T12:00:00.000Z",
       "summary": "&lt;p&gt;CISA and the Group of Seven (G7) international partners—Germany, Canada, France, Italy, Japan, the United Kingdom, and the European Union—have released joint guidance, &lt",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "49142a6e8b10c888340c4fcd7adef167818848ee",
+      "title": "ABB WebPro SNMP Card PowerValue Multiple Vulnerabilities",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-132-06",
+      "source": "CISA",
+      "publishedAt": "2026-05-12T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-132-06.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "6337262da36d66880e358a07513be84ef8da7bb4",
+      "title": "ABB AC500 V3 Multiple Vulnerabilities",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-132-03",
+      "source": "CISA",
+      "publishedAt": "2026-05-12T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-132-03.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "31056f5a66ef141a9c2780c0eb4bf6d6533aa16b",
+      "title": "ABB Automation Builder Gateway for Windows",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-132-04",
+      "source": "CISA",
+      "publishedAt": "2026-05-12T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-132-04.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "dcfc4c28edd37a2efb7f62ef0c00a3e38e592963",
+      "title": "Fuji Electric Tellus",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-132-01",
+      "source": "CISA",
+      "publishedAt": "2026-05-12T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-132-01.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -125,7 +224,7 @@
       "url": "https://thehackernews.com/2026/05/mini-shai-hulud-worm-compromises.html",
       "source": "The Hacker News",
       "publishedAt": "2026-05-12T11:46:00.000Z",
-      "summary": "TeamPCP, the threat actor behind the recent supply chain attack spree, has been linked to the compromise of the npm and PyPI packages from TanStack, UiPath, Mistral AI, OpenSearch,",
+      "summary": "TeamPCP, the threat actor behind the recentsupply chain attack spree, has been linked to the compromise of the npm and PyPI packages from TanStack, UiPath, Mistral AI, OpenSearch, ",
       "type": "NEWS",
       "severity": "Moyenne",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXIhs2kZt0YGdDcd-Io67mq1GIN_iI_71LYhuin4qqmlgUgCuZ3fGUvglg_5nh5DK8kfPP8RHki86yMyqh4rTE27PGgPBh4RQjkh91-QGoB8cav5NUsYAwcV3ZJ7aEf-uEoH3pLGQ2eWuCh8lZSWAlTIa2U5I6eeB3HZmYMn4q-YoV7Ytmkpr1tN0lC2rG/s1600/mistral.jpg"
@@ -173,28 +272,6 @@
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": "https://ic-cdn.flipboard.com/bfmtv.com/2e72e01ea538f477a74e4c7c6182d88e49d8945a/_xlarge.jpeg"
-    },
-    {
-      "id": "ac57a767c8ba19d6666bca53cb49b4c0f7eaa677",
-      "title": "Cette nouvelle arnaque au smartphone neuf siphonne toutes vos données",
-      "url": "https://www.journaldugeek.com/2026/05/12/cette-nouvelle-arnaque-au-smartphone-neuf-siphonne-toutes-vos-donnees/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-12T09:03:31.000Z",
-      "summary": "Un nouveau spyware Android baptisé LunaSpy inquiète les chercheurs en cybersécurité. Le malware serait préinstallé sur des smartphones envoyés …",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://ic-cdn.flipboard.com/journaldugeek.com/02a08b9a9c625771e86ae4747461315d1cc5e66e/_xlarge.jpeg"
-    },
-    {
-      "id": "ad6752dc33cb83bd34bad37351b6089500ebb026",
-      "title": "Cybercriminalité : La Bibliothèque de Frameries propose un atelier pour apprendre à se protéger en ligne",
-      "url": "https://www.dhnet.be/regions/mons/borinage/2026/05/12/cybercriminalite-la-bibliotheque-de-frameries-propose-un-atelier-pour-apprendre-a-se-proteger-en-ligne-H5QSO5YWDJFIHKJHB7QSFY2N6I/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-12T09:01:00.000Z",
-      "summary": "Une aide bienvenue vu l'ampleur de la problématique. Chaque jour, les cybercriminels redoublent d'ingéniosité pour piéger les internautes : faux …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.dhnet.be/resizer/v2/M7ASS5KY7RDILMNVF6H4R5Z2SE.jpg?auth=3528c6fd95b83ef813aaef39c0f6caa6d88c1c8f76669c430b7941ac39d6dd89&amp%3Bwidth=1200&amp%3Bheight=630&amp%3Bquality=85&amp%3Bfocal=550%2C366"
     },
     {
       "id": "304f76dbc3dd639d9b078e54fa6c48c09d4bddbe",
@@ -613,6 +690,17 @@
       "type": "LEAK",
       "severity": "Info",
       "imageUrl": "https://www.zataz.com/wp-content/uploads/fr-leak-old.jpg"
+    },
+    {
+      "id": "24b5a6da4ee5818487699b7e7ed859e8bf474212",
+      "title": "Il vole des logiciels de l’armée américaine … en se faisant passer pour l’un des leurs",
+      "url": "https://www.journaldugeek.com/2026/05/11/il-vole-des-logiciels-de-larmee-americaine-en-se-faisant-passer-pour-lun-des-leurs/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-05-11T07:33:37.000Z",
+      "summary": "Pendant plusieurs années, un ingénieur chinois est parvenu à obtenir des logiciels militaires américains simplement en usurpant l’identité de …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/journaldugeek.com/a329153664425e02a52b8a0a9e59380dba648c1b/_xlarge.jpeg"
     },
     {
       "id": "cc7000366d2164f62243eac3718767f2bc41d90d",
@@ -1836,17 +1924,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcz8_PjYKknoot4F_PnjDZ7F1HhyphenhyphenIATFohYVF1OQYLSUFwiOPknnFF3ShgQKtKtfOEUbwUcfB-xhQAbi3dBsUvKki_ooKqYmQR3KfzcC1U443sR89JlLu5oPDJcEz9GXfEo5GwtMNj8s7HGg5-qsaR0sqqkSOUBsNFcqrz9NPDPyU6lQNl2RRtADTFzK0f/s1600/chinese-hackers-2.jpg"
     },
     {
-      "id": "0daac6ec7bc2eae6d755cf75606ea4acd4502120",
-      "title": "ABB B&amp;R Automation Runtime",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-03",
-      "source": "CISA",
-      "publishedAt": "2026-05-05T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-125-03.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
       "id": "a667aaaa83f50560d79453c2615b1e26b58bb1e1",
       "title": "Hitachi Energy PCM600",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-01",
@@ -1875,6 +1952,17 @@
       "source": "CISA",
       "publishedAt": "2026-05-05T12:00:00.000Z",
       "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-125-02.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "0daac6ec7bc2eae6d755cf75606ea4acd4502120",
+      "title": "ABB B&amp;R Automation Runtime",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-03",
+      "source": "CISA",
+      "publishedAt": "2026-05-05T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-125-03.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -2067,28 +2155,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_j3mVDqxMVjGlF1qpGV3nSUfIhHsxGDl7Nt6QQFwRUA-qOtj22zKVcE7B7UTCcjLdUrsjLPB5N7TiX8Hzjx8Hq8LPy_GdAfcO_AqMwDDWRyQ6dWdeXzFOQa1KYm8rUUDCgwCbR9kN7OCheQyc0Ijz2MuXGkY6bsqHwlBtV34Q6xH2VAPRDUjFFThKk46X/s1600/CYBERRECAP.jpg"
     },
     {
-      "id": "e43287f6dec3901e99bee43bec4e8a5878105f18",
-      "title": "2026: The Year of AI-Assisted Attacks",
-      "url": "https://thehackernews.com/2026/05/2026-year-of-ai-assisted-attacks.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-05-04T11:58:00.000Z",
-      "summary": "On December 4, 2025, a 17-year-old was arrested in Osaka under Japan’s Unauthorized Access Prohibition Act. The young man had run malicious code to extract the personal data of ove",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEji6GV4hhCDB_wJkm6REZZfugW5H5hF8g8X27oGcUHnOSxYst1aJJspKKl6joygytGLwgKYvfDU_DD8DFHQ-vPt-_Tc1yzG8fJl_0tHuyOLgJC3eHKGFM_YZA_OIYoL7wI8lUWZrpGO_E2Sjunen7Y9g2fY7sRTi6cvk4DgBW5plToR5U-Je5GQeJsKuqY/s1600/ai-cyberattacks.png"
-    },
-    {
-      "id": "8350927a6f5242a51f7b2b050d90de6338755380",
-      "title": "Silver Fox Deploys ABCDoor Malware via Tax-Themed Phishing in India and Russia",
-      "url": "https://thehackernews.com/2026/05/silver-fox-deploys-abcdoor-malware-via.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-05-04T11:57:00.000Z",
-      "summary": "The China-based cybercrime group known as Silver Fox (aka Monarch, SwimSnake, The Great Thief of Valley, UTG-Q-1000, and Void Arachne) has been linked to a new campaign targeting o",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjfw7HlDQIzbgA8xy1bk-sUkn-TVS85DGaL4vQkuTNYu3SGabQGuPKBD7C1qkCcpxwEFfdW6I9DJoSnmMmbkAu24SN1R_B2HNYwi-niSiST1LJqwMQ7tspMjxMyHXJtZUxGZbb2Hb1k-_2ywcG5hWFhOKQubJsYXiq8hyphenhyphenFfLyVewIet_ZcdTmNZEc9-Fum/s1600/godd.png"
-    },
-    {
       "id": "afe896af92d1be1b726776b4e3e27cdfa49a6629",
       "title": "Reborn Gaming - 126 breached accounts",
       "url": "https://haveibeenpwned.com/Breach/RebornGaming",
@@ -2207,72 +2273,6 @@
       "summary": "Windows 11 24H2 - Local Privilege Escalation",
       "type": "CVE",
       "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "c46cb4fc410959a4fdeb6135f2157017126ba37f",
-      "title": "[webapps] Traccar GPS Tracking System 6.11.1 - Cross-Site WebSocket Hijacking (CSWSH)",
-      "url": "https://www.exploit-db.com/exploits/52545",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-05-04T00:00:00.000Z",
-      "summary": "Traccar GPS Tracking System 6.11.1 - Cross-Site WebSocket Hijacking (CSWSH)",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "0bb4a155ebb501e567ac76fa6fd760625095b502",
-      "title": "Marcus &amp; Millichap - 1,837,078 breached accounts",
-      "url": "https://haveibeenpwned.com/Breach/MarcusMillichap",
-      "source": "Have I Been Pwned",
-      "publishedAt": "2026-05-03T22:53:12.000Z",
-      "summary": "In April 2026, the commercial real estate brokerage firm &lt;a href=\"https://www.scworld.com/brief/multiple-other-companies-purportedly-breached-by-shinyhunters-over-9m-record-leak",
-      "type": "LEAK",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "530da519c1481c5a1ca4ab634670e4d3e36b0058",
-      "title": "Satoshi Nakamoto : l’identité du créateur du Bitcoin enfin révélée ?",
-      "url": "https://www.futura-sciences.com/tech/actualites/technologie-satoshi-nakamoto-identite-createur-bitcoin-enfin-revelee-133763/",
-      "source": "Cryptographie FR",
-      "publishedAt": "2026-05-03T05:21:29.000Z",
-      "summary": "Derrière le bitcoin, invention qui a bouleversé la finance mondiale, se cache l’une des plus grandes énigmes du numérique : Satoshi Nakamoto. …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/futura-sciences.com/41e61e8a25f150c2d9696a1f4438b50b6c6aa7fc/_xlarge.jpeg"
-    },
-    {
-      "id": "395a5857722b6cbf9c08e1aa08b57b4bb661217f",
-      "title": "ZenBusiness - 5,118,184 breached accounts",
-      "url": "https://haveibeenpwned.com/Breach/ZenBusiness",
-      "source": "Have I Been Pwned",
-      "publishedAt": "2026-05-02T05:53:38.000Z",
-      "summary": "In March 2026, &lt;a href=\"https://cybernews.com/security/zenbusiness-shinyhunters-data-breach-mark-cuban/\" target=\"_blank\" rel=\"noopener\"&gt;the hacker and extortion group \"ShinyH",
-      "type": "LEAK",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "6242ecf464021efd503dcc21f68e5049b9e704e4",
-      "title": "Careful Adoption of Agentic AI Services",
-      "url": "https://www.cisa.gov/resources-tools/resources/careful-adoption-agentic-ai-services",
-      "source": "CISA",
-      "publishedAt": "2026-05-01T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA, in collaboration with the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC) and other international and U.S. partners, released guidance",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "e497375da17b2c9a6d01608ca32c7112ea8b3d6e",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/05/01/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "source": "CISA",
-      "publishedAt": "2026-05-01T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA has added one new vulnerability to its &lt;a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\" data-entity-type=\"node\" data-entity-uuid=\"79453b83-86",
-      "type": "CVE",
-      "severity": "Élevée",
       "imageUrl": null
     }
   ]
