@@ -64,3 +64,6 @@ body.dark .cyber-feed-feedback,.dark .cyber-feed-feedback{color:#94a3b8}
 .leak-source-link{width:fit-content;display:inline-flex;align-items:center;justify-content:center;border-radius:999px;padding:.65rem .95rem;background:rgba(236,72,153,.95);color:#fff;font-weight:800;text-decoration:none;box-shadow:0 14px 34px rgba(236,72,153,.28);transition:transform .18s ease,box-shadow .18s ease,background .18s ease}
 .leak-source-link:hover,.leak-source-link:focus-visible{background:rgba(219,39,119,1);transform:translateY(-1px);box-shadow:0 18px 42px rgba(236,72,153,.34)}
 @media (max-width:760px){.leak-source-card{grid-template-columns:1fr;padding:.85rem}.leak-source-visual{min-height:175px}.leak-source-content{padding:.2rem}}
+.cyber-feed-last-update{margin:.45rem 0 0;color:#64748b;font-size:.82rem;font-weight:600;letter-spacing:.01em}
+body.dark .cyber-feed-last-update,.dark .cyber-feed-last-update{color:#94a3b8}
+.cyber-feed-shell::before{content:'';position:absolute;inset:0;border-radius:24px;padding:1px;background:linear-gradient(120deg,rgba(37,99,235,.26),rgba(236,72,153,.16),rgba(6,182,212,.22));-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;pointer-events:none}

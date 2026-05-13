@@ -8,6 +8,7 @@
   const refreshBtn = root.querySelector('#refreshCyberFeed');
   const shareBtn = root.querySelector('#shareCyberFeed');
   const feedbackEl = root.querySelector('#cyberFeedFeedback');
+  const lastUpdateEl = root.querySelector('#cyberFeedLastUpdate');
   const showCyberFeedBtn = root.querySelector('#showCyberFeed');
   const showCveFeedBtn = root.querySelector('#showCveFeed');
   const showLeakFeedBtn = root.querySelector('#showLeakFeed');
@@ -23,6 +24,8 @@
   let mode = 'cyber';
   let feedbackTimer;
   let isCyberFeedLoading = false;
+  let autoRefreshTimer;
+  const AUTO_REFRESH_MS = 5 * 60 * 1000;
 
   const frDate = (d) => new Date(d).toLocaleDateString('fr-FR', { day: '2-digit', month: 'long', year: 'numeric', timeZone: 'Europe/Paris' });
   const rel = (d) => { const ms = Date.now() - new Date(d).getTime(); const h = Math.floor(ms / 3600000); if (h < 24) return `il y a ${Math.max(h, 1)}h`; return frDate(d); };
@@ -34,9 +37,13 @@
     return textarea.value;
   };
 
+  const normalizeApostrophes = (value = '') => value
+    .replace(/[’‘`´]/g, "'")
+    .replace(/[ʼ‘’′]/g, "'");
+
   const cleanSummary = (raw = '') => {
-    let text = decodeHtmlEntities(raw);
-    text = decodeHtmlEntities(text);
+    let text = normalizeApostrophes(decodeHtmlEntities(raw));
+    text = normalizeApostrophes(decodeHtmlEntities(text));
     text = text.replace(/<script[\s\S]*?<\/script>/gi, ' ')
       .replace(/<style[\s\S]*?<\/style>/gi, ' ')
       .replace(/<img[^>]*>/gi, ' ')
@@ -45,6 +52,7 @@
       .replace(/href\s*=\s*["'][^"']*["']/gi, ' ')
       .replace(/data-entity-[^\s=]+\s*=\s*["'][^"']*["']/gi, ' ')
       .replace(/&[a-z0-9#]+;/gi, ' ')
+      .replace(/[​-‍﻿]/g, '')
       .replace(/\s+/g, ' ')
       .trim();
     return text.slice(0, 180);
@@ -61,6 +69,19 @@
     } catch {
       return false;
     }
+  };
+
+  const updateLastRefreshText = (date = new Date()) => {
+    if (!lastUpdateEl) return;
+    const formatted = new Intl.DateTimeFormat('fr-FR', {
+      day: '2-digit',
+      month: '2-digit',
+      year: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit',
+      timeZone: 'Europe/Paris'
+    }).format(date);
+    lastUpdateEl.textContent = `Dernière actualisation : ${formatted} (Paris)`;
   };
 
   const showFeedback = (message) => {
@@ -152,6 +173,7 @@
         showFeedback('Impossible de charger certains flux pour le moment.');
       }
       render();
+      updateLastRefreshText(new Date());
       if (forceRefresh) showFeedback('Flux mis à jour');
     } catch (e) {
       list.innerHTML = '';
@@ -226,6 +248,34 @@
     render();
   };
 
+  const refreshCurrentMode = async ({ silent = false } = {}) => {
+    if (mode === 'leak') {
+      leakView?.toggleAttribute('hidden', false);
+      if (leakView) leakView.style.display = 'block';
+      return;
+    }
+    if (mode === 'cve') {
+      await loadCveFeed();
+      render();
+      updateLastRefreshText(new Date());
+      if (!silent) showFeedback('Flux CVE mis à jour');
+      return;
+    }
+    await init({ forceRefresh: true });
+  };
+
+  const setupAutoRefresh = () => {
+    clearInterval(autoRefreshTimer);
+    autoRefreshTimer = setInterval(() => {
+      if (document.hidden) return;
+      refreshCurrentMode({ silent: true }).catch(() => {});
+    }, AUTO_REFRESH_MS);
+
+    document.addEventListener('visibilitychange', () => {
+      if (!document.hidden) refreshCurrentMode({ silent: true }).catch(() => {});
+    });
+  };
+
   btn.addEventListener('click', () => { shown += mode === 'cve' ? CVE_STEP : STEP; render(); });
   showCyberFeedBtn?.addEventListener('click', () => switchMode('cyber'));
   showCveFeedBtn?.addEventListener('click', () => switchMode('cve'));
@@ -233,15 +283,7 @@
   refreshBtn?.addEventListener('click', async () => {
     refreshBtn.disabled = true;
     try {
-      if (mode === 'leak') {
-        leakView?.toggleAttribute('hidden', false);
-        if (leakView) leakView.style.display = 'block';
-      } else if (mode === 'cve') {
-        await loadCveFeed();
-        render();
-      } else {
-        await init({ forceRefresh: true });
-      }
+      await refreshCurrentMode();
     } finally {
       refreshBtn.disabled = false;
     }
@@ -256,8 +298,10 @@
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', () => {
       init({ forceRefresh: true });
+      setupAutoRefresh();
     });
   } else {
     init({ forceRefresh: true });
+    setupAutoRefresh();
   }
 })();
