@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T23:06:48.283Z",
+  "generatedAt": "2026-05-14T03:39:42.151Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -22,8 +22,9 @@
     {
       "name": "Exploit-DB",
       "url": "https://www.exploit-db.com/rss.xml",
-      "status": "ok",
-      "items": 50
+      "status": "error",
+      "items": 0,
+      "error": "fetch failed"
     },
     {
       "name": "The Hacker News",
@@ -75,6 +76,17 @@
     }
   ],
   "items": [
+    {
+      "id": "fa165067ae631fc0c20adeac1d6b84f2992e21c0",
+      "title": "Sénégal: le Trésor public ciblé par une cyberattaque, la troisième institution publique visée en six mois",
+      "url": "https://www.rfi.fr/fr/afrique/20260514-s%C3%A9n%C3%A9gal-le-tr%C3%A9sor-public-cibl%C3%A9-par-une-cyberattaque-la-troisi%C3%A8me-institution-publique-vis%C3%A9e-en-six-mois?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-05-14T00:30:04.000Z",
+      "summary": "Le Sénégal est cette semaine victime d’une troisième cyberattaque sur une institution publique en moins de 6 mois. Après le site des impôts en octobre, le Département chargé de dél",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/rfi.fr/95426869a7f36f90fec06e35146816772e9c021c/_xlarge.jpeg"
+    },
     {
       "id": "208c8f72960c6cee5bd8061d85454fea53e8158e",
       "title": "SFR : encore une fuite chez l’opérateur, 730 millions de données compromises",
@@ -164,6 +176,17 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOfGXVOYqF2EcrcnYIDCnTYdmWpV-uaZ5nV0_0ukZ8uCk19wFFOax_VvgwO8LtlIkVo8pvcSSBs8Afc66yo2PbiMDjq4UDqnytAqP-Nq8CqTOfEtqwuWRmjbUpRYzqaAXFnRiXozR34fXAPE8O6Gcix6f08Sped3oVUXcjIOTE04N8IInA0qVeG0Sc6LzB/s1600/energy-cyberattack.jpg"
     },
     {
+      "id": "3e751b4ef6378660839cc57ff568b282383465c5",
+      "title": "Pédocriminalité : Une enquête ouverte contre le forum de discussion legarçon.net",
+      "url": "https://www.20minutes.fr/societe/4223376-20260513-pedocriminalite-enquete-ouverte-contre-forum-discussion-legarcon-net?at_medium=display&amp%3Bat_campaign=149",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-05-13T12:11:03.000Z",
+      "summary": "Legarcon.net est « soupçonné d’être destiné aux hommes attirés par les mineurs ». Une enquête a été ouverte contre ce forum de discussion, a indiqué …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://img.20mn.fr/ZMg2vCImQtmrW9mcBm_L3Ck/1444x920_capture-ecran-du-site-legarcon-net-accuse-de-pedocriminalite"
+    },
+    {
       "id": "9674f824fa3d01122f9c12f635f2d4b29bd38c41",
       "title": "[Webinar] How Modern Attack Paths Cross Code, Pipelines, and Cloud",
       "url": "https://thehackernews.com/2026/05/webinar-why-your-appsec-tools-miss.html",
@@ -206,17 +229,6 @@
       "type": "NEWS",
       "severity": "Moyenne",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg70Fxtk3MEmUdZjXl_ocBSlT80rWfXtIj2kxPvypzCSlEK4cqkm8lo16NXHjvyCw9niiPk2gKSPhgTjSFTZpetxg2As7QL0AyWWHoTuvtcp1Ok-ALMfcUwaUMAyE8asDu-KjVDoUP4VLCOSDPWHru7V-ix6Xs-VSHvHDJ8KRn6NLq_EJJBm0B4xwa9vbLp/s1600/pentera.jpg"
-    },
-    {
-      "id": "a01d6e10f01fce557f207d1d023b47852bbbe6f5",
-      "title": "Pédocriminalité : une enquête ouverte sur le forum legarçon.net",
-      "url": "https://www.lemonde.fr/societe/article/2026/05/13/pedocriminalite-une-enquete-ouverte-sur-le-forum-legarcon-net_6688682_3224.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-13T11:13:25.000Z",
-      "summary": "La section de lutte contre la cybercriminalité du parquet de Paris soupçonne le forum « d’être destiné aux hommes attirés par les mineurs », après …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://img.lemde.fr/2023/04/17/0/0/3000/2000/1440/960/60/0/7d862d7_1681734878727-rghytbnd.jpg"
     },
     {
       "id": "3ce08a9a206bf2a2d4eb06e15f6f2d42a465758a",
@@ -648,50 +660,6 @@
       "imageUrl": null
     },
     {
-      "id": "8394796845aeac008142c6a9c20600441d040a91",
-      "title": "[webapps] Ninja Forms Uploads - Unauthenticated PHP File Upload",
-      "url": "https://www.exploit-db.com/exploits/52560",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-05-13T00:00:00.000Z",
-      "summary": "Ninja Forms Uploads - Unauthenticated PHP File Upload",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "19153dfd27ce88ed326290fb763f3f7f1795b8b7",
-      "title": "[webapps] glances 4.5.2 - command injection",
-      "url": "https://www.exploit-db.com/exploits/52559",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-05-13T00:00:00.000Z",
-      "summary": "glances 4.5.2 - command injection",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "e588fb7ef1b8c1933ca9184a43d1304d20d0b7eb",
-      "title": "[webapps] coreruleset 4.21.0 - Firewall Bypass",
-      "url": "https://www.exploit-db.com/exploits/52558",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-05-13T00:00:00.000Z",
-      "summary": "coreruleset 4.21.0 - Firewall Bypass",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "54401a9d7aa0388cf19c3bbfce6df7577566132c",
-      "title": "[webapps] Flowise &lt; 3.0.5 - Missing Authentication for Critical Function",
-      "url": "https://www.exploit-db.com/exploits/52557",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-05-13T00:00:00.000Z",
-      "summary": "Flowise &lt; 3.0.5 - Missing Authentication for Critical Function",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
       "id": "e0729808db8c93f276a7b5e1de18d1be05b02935",
       "title": "Patch Tuesday, May 2026 Edition",
       "url": "https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/",
@@ -701,6 +669,17 @@
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
+    },
+    {
+      "id": "1d4d1c5236e5f99dbae7913acb5ad81dee3ccb83",
+      "title": "« Plusieurs attaques cybercriminelles » : LFI victime d’un piratage des données de ses militants",
+      "url": "https://www.leparisien.fr/politique/plusieurs-attaques-cybercriminelles-lfi-victime-dun-piratage-des-donnees-de-ses-militants-12-05-2026-I6GPVQZFFRCJPOSGN2FQLHU6FY.php?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-05-12T17:02:01.000Z",
+      "summary": "Il y a quelques jours, le mouvement mélenchoniste a été victime d’une fuite de milliers de données personnelles issues de son réseau social militant …",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://www.leparisien.fr/resizer/Z_NuRWB3_SCX0uoRzPduxYgAE90=/1200x675/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/VBSNOFR3RRCL5MHOVJVQKUKGD4.jpg"
     },
     {
       "id": "1503eec71b3041b43ffce0db9146381d569e5712",
@@ -1220,17 +1199,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgF329-zAoI4gwIW3h3gRYiDJjcRSyWPM4DLHFQwNNGfLTVaROqIfQZ0QB1FwWGmvMGuyNAF9Q6QBYcwLsqMsCka5Lqu82CzUbrBULnUDQwtY_4z6KiOEKSETes6as77XfUCaJVBUOCovZz8jajp6vBp9AAjHiS7BEviANEH0FxmzZwdrTapD3R-gPQWKJ1/s1600/ai-hacker.jpg"
     },
     {
-      "id": "86a47e739f175341af4a17740ff9fe2f06a08980",
-      "title": "La France insoumise : des dizaines de milliers d’adhérents victimes d’une fuite de données",
-      "url": "https://www.liberation.fr/politique/la-france-insoumise-des-dizaines-de-milliers-dadherents-victimes-dune-fuite-de-donnees-20260511_HX4X5XUB4FFADKS6WRKSVYYY4Y/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-11T15:40:48.000Z",
-      "summary": "Près de 120 000 adresses mails et 20 000 numéros de téléphone dérobés : c’est l’ampleur de la cyberattaque dont ont récemment été victimes des …",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/liberation.fr/3f55fdb9fd26af635099c0a772bd6b5d4da7f546/_xlarge.jpeg"
-    },
-    {
       "id": "4133214fcbe2f28143505f90bcb66b6277184c73",
       "title": "Cyberespionnage: une vaste opération chinoise infiltre ministères, gouvernements et réseaux sensibles sur plusieurs continents, de l’Asie à l’Europe en passant par l’Amérique",
       "url": "https://www.bfmtv.com/tech/cybersecurite/cyberespionnage-une-vaste-operation-chinoise-infiltre-ministeres-gouvernements-et-reseaux-sensibles-sur-plusieurs-continents-de-l-asie-a-l-europe-en-passant-par-l-amerique_AN-202605110615.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -1297,15 +1265,15 @@
       "imageUrl": "https://cdn.lesnumeriques.com/optim/news/25/255748/458973ef-bouygues-telecom-encore-une-fuite-de-donnees-clients-dans-le-plus-grand-des-calmes__1200_678__0-340-6003-3491.jpg"
     },
     {
-      "id": "964694e8d384103cf5e39256dbdbab9f1b125126",
-      "title": "Mythos (Anthropic) : pourquoi l’autorité allemande réclame des mesures immédiates contre les cyberattaques",
-      "url": "https://www.latribune.fr/article/tech/intelligence-artificielle/29340652307224/mythos-anthropic-pourquoi-l-autorite-allemande-reclame-des-mesures-immediates-contre-les-cyberattaques?amp%3Butm_content=topic%2Ffr-technologie",
+      "id": "e65029684f89f7e449c963d5f83224404f29b685",
+      "title": "Le cauchemar des militants de La France Insoumise : leurs adresses personnelles exposées",
+      "url": "https://www.frandroid.com/culture-tech/securite-applications/3093747_les-cyberattaques-touchent-le-monde-politique-les-donnees-des-militants-la-france-insoumise-dans-la-nature?amp%3Butm_content=topic%2Ffr-technologie",
       "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-11T10:21:15.000Z",
-      "summary": "En Allemagne, l’autorité de cybersécurité BSI tire la sonnette d’alarme : la nouvelle IA d’Anthropic, Mythos, peut aider à trouver et exploiter des …",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": "https://ic-cdn.flipboard.com/latribune.fr/0e8d9ebfb964f75921c1c7c309628505b268cec8/_large.jpeg"
+      "publishedAt": "2026-05-11T08:38:06.000Z",
+      "summary": "La vague de cyberattaques continue en France. Cette fois, ce n’est pas un opérateur ou une boutique qui est touchée, mais un groupe politique : La …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://c0.lestechnophiles.com/images.frandroid.com/wp-content/uploads/2026/05/la-france-insoumise-hacked.jpg?resize=1600%2C900&amp%3Bkey=91c6c66c&amp%3Bwatermark="
     },
     {
       "id": "cc7000366d2164f62243eac3718767f2bc41d90d",
@@ -1328,17 +1296,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/b6c1c781939e25423b706ee99df1e8adc52c7e07/_xlarge.jpeg"
-    },
-    {
-      "id": "209d640a3c203508b877a678aac544214d9aa59e",
-      "title": "L'Anssi dévoile son rapport 2025 avec 3 586 événements de sécurité et une baisse des alertes de 22% - ZDNET",
-      "url": "https://www.zdnet.fr/actualites/lanssi-devoile-son-rapport-2025-avec-3-586-evenements-de-securite-et-une-baisse-des-alertes-de-22-494841.htm",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-11T04:05:42.000Z",
-      "summary": "Le cyber-pompier de l’État vient de publier son rapport annuel, un document de 60 pages qui fait le point sur son action. Voici ce qu'il faut en …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2025/06/anssi-5-scaled.jpg"
     },
     {
       "id": "30d06ac180bc9c0e505231d30fcd9fe7f682332c",
@@ -1858,72 +1815,6 @@
       "imageUrl": null
     },
     {
-      "id": "0db88df3083917a26c7d9d91780d402c9f61cae6",
-      "title": "[remote] telnetd 2.7 - Buffer Overflow",
-      "url": "https://www.exploit-db.com/exploits/52556",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-05-07T00:00:00.000Z",
-      "summary": "telnetd 2.7 - Buffer Overflow",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "07d60b3fec8a7e4ae5dde30e31cc8a7e4a2f4623",
-      "title": "[webapps] Ghost CMS 6.19.0 - SQLi",
-      "url": "https://www.exploit-db.com/exploits/52555",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-05-07T00:00:00.000Z",
-      "summary": "Ghost CMS 6.19.0 - SQLi",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "dac966cf9efbadf1a04999be44f9b9b9b9fbe7fc",
-      "title": "[webapps] LuaJIT 2.1.1774638290 - Arbitrary Code Execution",
-      "url": "https://www.exploit-db.com/exploits/52554",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-05-07T00:00:00.000Z",
-      "summary": "LuaJIT 2.1.1774638290 - Arbitrary Code Execution",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "feac3180e63dab19134c72c511a0580453742bc2",
-      "title": "[webapps] Bludit CMS 3.18.4 - RCE",
-      "url": "https://www.exploit-db.com/exploits/52553",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-05-07T00:00:00.000Z",
-      "summary": "Bludit CMS 3.18.4 - RCE",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": null
-    },
-    {
-      "id": "f2bccb0b1da796d2d7018a21f4b5b34aeff1dc2c",
-      "title": "[local] NocoBase 2.0.27 - VM Sandbox Escape",
-      "url": "https://www.exploit-db.com/exploits/52552",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-05-07T00:00:00.000Z",
-      "summary": "NocoBase 2.0.27 - VM Sandbox Escape",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "94074da62455e8c93b40f61fcf7f7ecf4169b9ae",
-      "title": "[webapps] ThingsBoard IoT Platform 4.2.0 - Server-Side Request Forgery (SSRF)",
-      "url": "https://www.exploit-db.com/exploits/52551",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-05-07T00:00:00.000Z",
-      "summary": "ThingsBoard IoT Platform 4.2.0 - Server-Side Request Forgery (SSRF)",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
       "id": "c1ba98e1a2ef1c28c43eb567edcfe9c9d04b7974",
       "title": "Mirai-Based xlabs_v1 Botnet Exploits ADB to Hijack IoT Devices for DDoS Attacks",
       "url": "https://thehackernews.com/2026/05/mirai-based-xlabsv1-botnet-exploits-adb.html",
@@ -2271,6 +2162,116 @@
       "source": "Cyberveille Santé",
       "publishedAt": "2026-05-05T01:37:25.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;contournement d'authentification&lt;/strong&gt; dans les &lt;strong&gt;interfaces de port de commande du backend de service&",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "afe896af92d1be1b726776b4e3e27cdfa49a6629",
+      "title": "Reborn Gaming - 126 breached accounts",
+      "url": "https://haveibeenpwned.com/Breach/RebornGaming",
+      "source": "Have I Been Pwned",
+      "publishedAt": "2026-05-04T03:43:06.000Z",
+      "summary": "In April 2026, the gaming community &lt;a href=\"https://reborngaming.net/threads/6120/\" target=\"_blank\" rel=\"noopener\"&gt;Reborn Gaming suffered a data breach due to a vulnerabilit",
+      "type": "LEAK",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "1ac1403dce972aad1d22b5ace0549ef55d3e741f",
+      "title": "SailPoint Technologies - CVE-2026-5712",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/sailpoint-technologies-cve-2026-5712-2026-05-04",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-05-04T02:11:59.000Z",
+      "summary": "&lt;p&gt;Il s’agit d’une vulnérabilité d’autorisation incorrecte dans SailPoint IdentityIQ.&lt;/p&gt; &lt;p&gt;SailPoint IdentityIQ est une solution de gestion des identités et des",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "40b2854ea1f2bcd98a211d092dd926e4e94e0164",
+      "title": "IBM - CVE-2026-6543",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/ibm-cve-2026-6543-2026-05-04",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-05-04T02:06:47.000Z",
+      "summary": "&lt;p&gt;Il s’agit d’une vulnérabilité d’injection de code dans Langflow.&lt;/p&gt; &lt;p&gt;Langflow est une application web permettant de concevoir et d’exécuter des flux de trai",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "9284e7b74f1e78a327930bd44c781116f263d52e",
+      "title": "Dell Technologies - CVE-2026-35155",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/dell-technologies-cve-2026-35155-2026-05-04",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-05-04T02:02:36.000Z",
+      "summary": "&lt;p&gt;Il s’agit d’une vulnérabilité de condition de course dans Dell iDRAC10.&lt;/p&gt; &lt;p&gt;Dell iDRAC10 est un contrôleur de gestion hors bande intégré aux serveurs Dell, ",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "f2d6140a89eaa2162507b46b002e14d787734382",
+      "title": "Wireshark Foundation - CVE-2026-5402",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/wireshark-foundation-cve-2026-5402-2026-05-04",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-05-04T01:56:22.000Z",
+      "summary": "&lt;p&gt;Il s’agit d’une vulnérabilité de dépassement de mémoire sur le tas dans Wireshark.&lt;/p&gt; &lt;p&gt;Wireshark est un analyseur de protocoles réseau utilisé pour l’inspec",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "388b43c6ad5c54d28ef5503dbf66ed4490274210",
+      "title": "GitHub - CVE-2026-3854 | modifié le 04-05-2026",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/github-cve-2026-3854-2026-05-04",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-05-04T01:42:56.000Z",
+      "summary": "&lt;p&gt;Il s’agit d’une vulnérabilité d’injection de commande dans GitHub Enterprise Server.&lt;/p&gt; &lt;p&gt;GitHub Enterprise Server est une plateforme DevOps auto‑hébergée pe",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "0bb4a155ebb501e567ac76fa6fd760625095b502",
+      "title": "Marcus &amp; Millichap - 1,837,078 breached accounts",
+      "url": "https://haveibeenpwned.com/Breach/MarcusMillichap",
+      "source": "Have I Been Pwned",
+      "publishedAt": "2026-05-03T22:53:12.000Z",
+      "summary": "In April 2026, the commercial real estate brokerage firm &lt;a href=\"https://www.scworld.com/brief/multiple-other-companies-purportedly-breached-by-shinyhunters-over-9m-record-leak",
+      "type": "LEAK",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "530da519c1481c5a1ca4ab634670e4d3e36b0058",
+      "title": "Satoshi Nakamoto : l’identité du créateur du Bitcoin enfin révélée ?",
+      "url": "https://www.futura-sciences.com/tech/actualites/technologie-satoshi-nakamoto-identite-createur-bitcoin-enfin-revelee-133763/",
+      "source": "Cryptographie FR",
+      "publishedAt": "2026-05-03T05:21:29.000Z",
+      "summary": "Derrière le bitcoin, invention qui a bouleversé la finance mondiale, se cache l’une des plus grandes énigmes du numérique : Satoshi Nakamoto. …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/futura-sciences.com/41e61e8a25f150c2d9696a1f4438b50b6c6aa7fc/_xlarge.jpeg"
+    },
+    {
+      "id": "395a5857722b6cbf9c08e1aa08b57b4bb661217f",
+      "title": "ZenBusiness - 5,118,184 breached accounts",
+      "url": "https://haveibeenpwned.com/Breach/ZenBusiness",
+      "source": "Have I Been Pwned",
+      "publishedAt": "2026-05-02T05:53:38.000Z",
+      "summary": "In March 2026, &lt;a href=\"https://cybernews.com/security/zenbusiness-shinyhunters-data-breach-mark-cuban/\" target=\"_blank\" rel=\"noopener\"&gt;the hacker and extortion group \"ShinyH",
+      "type": "LEAK",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "e497375da17b2c9a6d01608ca32c7112ea8b3d6e",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/05/01/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "source": "CISA",
+      "publishedAt": "2026-05-01T12:00:00.000Z",
+      "summary": "&lt;p&gt;CISA has added one new vulnerability to its &lt;a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\" data-entity-type=\"node\" data-entity-uuid=\"79453b83-86",
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": null
