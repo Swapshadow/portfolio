@@ -41,6 +41,8 @@
     .replace(/[’‘`´]/g, "'")
     .replace(/[ʼ‘’′]/g, "'");
 
+  const cleanText = (raw = '') => normalizeApostrophes(decodeHtmlEntities(decodeHtmlEntities(String(raw)))).replace(/\s+/g, ' ').trim();
+
   const cleanSummary = (raw = '') => {
     let text = normalizeApostrophes(decodeHtmlEntities(raw));
     text = normalizeApostrophes(decodeHtmlEntities(text));
@@ -124,7 +126,7 @@
       const typeClass = `type-${(it.type || 'NEWS').toLowerCase()}`;
       const imageOk = isValidImageUrl(it.imageUrl);
       const image = imageOk ? `<a class="cyber-feed-image-link" href="${esc(it.url)}" target="_blank" rel="noopener noreferrer"><img class="cyber-feed-image" src="${esc(it.imageUrl)}" alt="" loading="lazy"></a>` : '';
-      return `<article class="feed-item cyber-feed-card ${imageOk ? '' : 'no-image'} ${mode === 'cve' ? 'is-cve-focus' : ''}">${image}<div class="cyber-feed-content"><div class="feed-meta cyber-feed-meta"><span>${esc(it.source)}</span><span>${rel(it.publishedAt)}</span></div><div class="feed-badges"><span class="badge badge-type ${typeClass}">${esc(it.type)}</span><span class="badge badge-severity sev-${sev}">${esc(it.severity)}</span></div><h3 class="cyber-feed-title"><a href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">${esc(it.title)}</a></h3><p class="cyber-feed-summary">${esc(cleanSummary(it.summary || ''))}</p><a class="feed-link cyber-feed-read" href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">Lire la source</a></div></article>`;
+      return `<article class="feed-item cyber-feed-card ${imageOk ? '' : 'no-image'} ${mode === 'cve' ? 'is-cve-focus' : ''}">${image}<div class="cyber-feed-content"><div class="feed-meta cyber-feed-meta"><span>${esc(cleanText(it.source))}</span><span>${rel(it.publishedAt)}</span></div><div class="feed-badges"><span class="badge badge-type ${typeClass}">${esc(cleanText(it.type))}</span><span class="badge badge-severity sev-${sev}">${esc(cleanText(it.severity))}</span></div><h3 class="cyber-feed-title"><a href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">${esc(cleanText(it.title))}</a></h3><p class="cyber-feed-summary">${esc(cleanSummary(it.summary || ''))}</p><a class="feed-link cyber-feed-read" href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">Lire la source</a></div></article>`;
     }).join('');
 
     list.querySelectorAll('.cyber-feed-image').forEach((img) => {
@@ -199,8 +201,8 @@
       publishedAt: item.pubDate || new Date().toISOString(),
       type: 'CVE',
       severity: inferSeverity(item.title || '', item.description || ''),
-      title: item.title || 'CVE',
-      summary: item.description || '',
+      title: cleanText(item.title || 'CVE'),
+      summary: cleanText(item.description || ''),
       url: item.link || CVE_FEED_SOURCE.url,
       imageUrl: ''
     })).sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
