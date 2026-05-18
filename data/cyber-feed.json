@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-18T08:53:28.243Z",
+  "generatedAt": "2026-05-18T13:49:54.101Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,7 +17,7 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 129
+      "items": 124
     },
     {
       "name": "Exploit-DB",
@@ -76,15 +76,158 @@
   ],
   "items": [
     {
-      "id": "56c3a66221c00a71587c9af793f9f4862364bdd5",
-      "title": "Cyberattaque : Gîtes de France victime d’un vol de données, près de 400 000 clients potentiellement concernés",
-      "url": "https://www.ouest-france.fr/societe/cyberattaque/cyberattaque-gites-de-france-victime-dun-vol-de-donnees-pres-de-400-000-clients-potentiellement-concernes-f62b2acc-528d-11f1-a581-dbcdabdf1915?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "id": "aa3df7d493d63ff97ed740458ccd528cdb12e4ee",
+      "title": "ChimeraZ, le pirate qui cible le tourisme français",
+      "url": "https://www.zataz.com/chimeraz-le-pirate-qui-cible-le-tourisme-francais/",
+      "source": "Zataz",
+      "publishedAt": "2026-05-18T13:08:51.000Z",
+      "summary": "ChimeraZ revendique des fuites visant le tourisme français et décrit la vente de bases sensibles. Il annonce aussi de nouvelles fuites !",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://www.zataz.com/wp-content/uploads/Chimeraz-pirate.jpg"
+    },
+    {
+      "id": "f3a596e90fa03fe121c3c27f6431a768ea8cbac9",
+      "title": "How to Reduce Phishing Exposure Before It Turns into Business Disruption",
+      "url": "https://thehackernews.com/2026/05/how-to-reduce-phishing-exposure-before.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-05-18T13:00:00.000Z",
+      "summary": "What happens when a phishing email looks clean enough to pass through security, but dangerous enough to expose the business after one click? That is the gap many SOCs still struggl",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiu4cbMji6f7O37Q6sBOEkOEXWMs7Eg4ixA0RdW8AiO6cIPai9yYqLTvVVkUH9ApXP8XycVeezSCvDMXhldVsCiaA-_kr5SwWJ4EjTfkyX0RdUacOUF3plBO9C6PHCLsUGM-L-ZthpQA7mhdPmH4nLgPPQIVBWK9BZUNQf7V17Y_5jVVvZ0FNaiOsG7mvs/s1600/anyrun-main.jpg"
+    },
+    {
+      "id": "5ab56fd0de58843508a8659841b4df927626afcd",
+      "title": "Cette faille Windows a été découverte en 2020, et elle n'est toujours pas corrigée",
+      "url": "https://www.01net.com/actualites/cette-faille-windows-decouverte-2020-toujours-pas-corrigee.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
       "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-18T08:11:39.000Z",
-      "summary": "Après les groupes Pierre et Vacances-Center Parcs et Belambra, le réseau d’hébergements Gîtes de France a été victime samedi 16 mai d’un vol de …",
+      "publishedAt": "2026-05-18T12:20:20.000Z",
+      "summary": "Une faille de sécurité critique baptisée « MiniPlasma » a été découverte sur Windows… en 2020. Six ans plus tard, et malgré un correctif, la …",
       "type": "NEWS",
       "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/3baaf8f1f9e76e3038bcfcff4af79855f70203f0/_xlarge.jpeg"
+      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/4224cfd7d617452e9f17c9deafc8899f9ee3b035/_xlarge.jpeg"
+    },
+    {
+      "id": "e33d8ff82fbf97c8528d1147d6bfd76fbca7a68c",
+      "title": "Mistral AI touchée par une cyberattaque visant son code source",
+      "url": "https://siecledigital.fr/2026/05/18/mistral-ai-touchee-par-une-cyberattaque-visant-son-code-source/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-05-18T11:40:50.000Z",
+      "summary": "La pépite française de l'intelligence artificielle a subi une intrusion via sa chaîne d'approvisionnement logicielle. Les pirates ont réussi à publier …",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://siecledigital.fr/wp-content/uploads/2026/05/mistralai.jpg"
+    },
+    {
+      "id": "9dfa1a23ce3f4253945717f8b28b09143b881ab9",
+      "title": "Comment l'IA aide les hackers à contourner la double authentification ?",
+      "url": "https://siecledigital.fr/2026/05/18/comment-lia-aide-les-hackers-a-contourner-la-double-authentification/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-05-18T11:35:17.000Z",
+      "summary": "Google vient d'étudier le premier cas avéré d'une faille zero day découverte et exploitée grâce à l'intelligence artificielle. La brèche permet de …",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": "https://siecledigital.fr/wp-content/uploads/2026/05/ia-hackers-authentification.jpg"
+    },
+    {
+      "id": "abe525d5113224a98f44d2ecd359b7a5077104fd",
+      "title": "Developer Workstations Are Now Part of the Software Supply Chain",
+      "url": "https://thehackernews.com/2026/05/developer-workstations-are-now-part-of.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-05-18T11:23:41.000Z",
+      "summary": "Supply chain attackers are not only trying to slip malicious code into trusted software. They are trying to steal the access that makes trusted software possible. Recently, three s",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjylLL25uQ3uU6RshKkTv9isR22Y_6_b4uJJ4koE1MqtmGs4IWdz88_aH8up_7WDxghA7-GeMbm6gpoKUXRw99Cm1ljO03H8bdcv91vvO_ch313e_JAwtYH-CewZJF2WkNrYWtcp-acMiPTvSs5aan7v2DLpEjVSBuEarfJ-eCLEHCL2WK9zjxOho_gj3k/s1600/git.gif"
+    },
+    {
+      "id": "8135efca2f743393276ba616f69172b5245c9715",
+      "title": "Sites de vacances : pourquoi leurs données sont piratées | TF1 Info",
+      "url": "https://www.tf1info.fr/justice-faits-divers/videos/video-sites-de-vacances-pourquoi-leurs-donnees-sont-piratees-76874-2442163.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-05-18T10:57:58.000Z",
+      "summary": "Une fuite massive de données touche actuellement le secteur des vacances. Trois géants du secteur viennent d’être victimes de cyberattaque en à peine …",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://photos.tf1info.fr/images/1280/720/sites-de-vacances-pourquoi-leurs-donnees-sont-piratees-d8c227-0@1x.jpeg?overlayImage=bG9nby10ZjFpbmZvLWRlZmF1bHQucG5n&amp%3BoverlayWidth=18&amp%3BoverlayGravity=northwest&amp%3Bs=78c802"
+    },
+    {
+      "id": "d413f8790740f8272607a8d56fa760fce22208ed",
+      "title": "Ivanti, Fortinet, SAP, VMware, n8n Patch RCE, SQL Injection, Privilege Escalation Flaws",
+      "url": "https://thehackernews.com/2026/05/ivanti-fortinet-sap-vmware-n8n-patch.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-05-18T10:54:05.000Z",
+      "summary": "Ivanti, Fortinet, n8n, SAP, and VMware have released security fixes for various vulnerabilities that could be exploited by bad actors to bypass authentication and execute arbitrary",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2iqd3uRuOdLaM83LyZC9GOeOLeP9BnBVQQQzF7LZUeBTXfGo6e6b9c7PSC0Tkt_vhN_FUFUiDwnLXXNmzpIubE5bI0rA7dRaDhuiV35uiNTcMab7o8E_1ehn3CzUUsfno-6fYECbYzGNS1dyNof1ihn-hf4QYjLn7ZD53y_byQigukme9w-LAeBKDWXAg/s1600/patches.jpg"
+    },
+    {
+      "id": "1126dbcf0051bda659534ecacef6d5098bfcd5c7",
+      "title": "La panne de Salt vendredi dernier n’était pas due à un problème technique, mais bien à une cyberattaque",
+      "url": "https://www.24heures.ch/salt-ce-netait-pas-un-probleme-technique-mais-une-cyberattaque-319151599329?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-05-18T10:09:30.000Z",
+      "summary": "Vendredi vers 19 h, les clients de Salt ont été privés de connexion internet fixe pendant environ quarante minutes. Cette interruption n’était pas …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://cdn.unitycms.io/images/AJLkrw1OazQ8AZ74MPk0eS.jpg?op=ocroped&amp%3Bval=1200%2C600%2C1000%2C750%2C0%2C0&amp%3Bsum=DlHuGv-pCLI"
+    },
+    {
+      "id": "99c841bdace62a8aea0040fe30a11d28560e898c",
+      "title": "Cyberattaques : le tourisme massivement ciblé par un hacker ce week-end",
+      "url": "https://www.lechotouristique.com/article/cyberattaques-le-tourisme-massivement-cible-par-un-hacker-ce-week-end?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-05-18T09:46:23.000Z",
+      "summary": "Pierre &amp; Vacances/Center Parcs, Belambra et Gîtes de France ont subi des cyberattaques d’ampleur ces derniers jours. Mais pourquoi les hackers …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.lechotouristique.com/wp-content/uploads/2026/05/cyberattaque-tourisme.jpg"
+    },
+    {
+      "id": "1a783950d34fdc3e7cc9a98b96ff453a0e31b104",
+      "title": "Des « données relatives aux dossiers de réservation » : les Gîtes de France se sont fait voler les données d’au moins 389 000 personnes",
+      "url": "https://www.lavoixdunord.fr/1703962/article/2026-05-18/des-donnees-relatives-aux-dossiers-de-reservation-les-gites-de-france-se-sont?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-05-18T09:16:00.000Z",
+      "summary": "Après Pierre et Vacances-Center Parcs et Belambra, le site des Gîtes de France est à son tour victime d’un vol de données massif. Un hacker s’est …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://lvdneng.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_extra_big/2026/05/18/node_1703962/68273576/public/2026/05/18/80276195.jpeg?itok=QBHXK7Kp1779095882"
+    },
+    {
+      "id": "ed65785caa9497187903ceb99a37c2a14da01311",
+      "title": "MiniPlasma Windows 0-Day Enables SYSTEM Privilege Escalation on Fully Patched Systems",
+      "url": "https://thehackernews.com/2026/05/miniplasma-windows-0-day-enables-system.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-05-18T08:57:34.000Z",
+      "summary": "Chaotic Eclipse, the security researcher behind the recently disclosed Windows flaws, YellowKey and GreenPlasma, has released a proof-of-concept (PoC) for a Windows privilege escal",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvmx8dRRiQKx4cT0aT1-zTuzdjfThwxmlbzb2ikeeqIXUXGdcJhRrq4BykcdBB572URpoAHQhSTSyahR3M7TyvOsLSCekQGCUFM8sTcdsxkrpRFrT41wF8EqKA5LjzYHpzUtro2136Iy55cKQ_wixFUSsFDnilkUNCvrDvJbHBKK3k_IelHt9lOmbW01_u/s1600/windows-exploits.jpg"
+    },
+    {
+      "id": "4750e3df9d02dda4af86bfa181a5853c8a76a075",
+      "title": "Four Malicious npm Packages Deliver Infostealers and Phantom Bot DDoS Malware",
+      "url": "https://thehackernews.com/2026/05/four-malicious-npm-packages-deliver.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-05-18T08:57:26.000Z",
+      "summary": "Cybersecurity researchers have discovered four new npm packages containing information-stealing malware, one of which is a clone of the Shai-Hulud worm open-sourced by TeamPCP. The",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbN7WbW1cUkMzMJl0HPvRrQQUc5MQEE3Pvrc735aG7RGwpguum4POxa4yeQjyYIyiAYBDj_Zl6Ud8esex0AnQSG2J6TVWat57BLALA4WTi3gr5mfrLC2AHloSuvzx6fg9bTxZUvO-aA5VwHjyqbYecAWm2DnM9SRyt0M1GaqYzlBBKdgUR8BXV3xIDVnVN/s1600/npm-hacking.jpg"
+    },
+    {
+      "id": "1edfe2a2f3788477688106a675d7abb6c091ab63",
+      "title": "Une simple clé USB suffit à faire sauter le chiffrement de Windows 11",
+      "url": "https://www.frandroid.com/marques/microsoft/3101075_bitlocker-le-chiffrement-de-windows-11-est-troue-et-ca-pourrait-etre-volontaire-de-la-part-de-microsoft?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-05-18T08:11:54.000Z",
+      "summary": "Une faille béante touchant le logiciel responsable du chiffrement des données sur Windows 11 vient d’être découverte. Si le potentiel d’attaque est …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://c0.lestechnophiles.com/images.frandroid.com/wp-content/uploads/2026/01/787a40c8-4251-4847-8f92-988066b1b2d4-platformqna.jpg?resize=1600%2C900&amp%3Bkey=a7d0858b&amp%3Bwatermark="
     },
     {
       "id": "8d4f1970c44aa45798d36de050d81949df9de891",
@@ -98,9 +241,9 @@
       "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/07c8e414e70fc3da3401ef8197bc3759ac27d1f5/_xlarge.jpeg"
     },
     {
-      "id": "e71b04e24e258b876060b02af60dcfea588e50a4",
+      "id": "9b8054e19aa786b4247c6b0cfaa98b5110a00186",
       "title": "OpenAI confirme un vol de données : mettez à jour ChatGPT de toute urgence !",
-      "url": "https://www.journaldugeek.com/2026/05/18/openai-confirme-un-vol-de-donnees-mettez-a-jour-chatgpt-de-toute-urgence/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "url": "https://www.journaldugeek.com/2026/05/18/openai-confirme-un-vol-de-donnees-mettez-a-jour-chatgpt-de-toute-urgence/?amp%3Butm_content=topic%2Ffr-technologie",
       "source": "Cybercriminalité FR",
       "publishedAt": "2026-05-18T08:01:33.000Z",
       "summary": "Le géant derrière ChatGPT frappé par des hackers. Après une cyberattaque visant des employés d’OpenAI, certains utilisateurs Mac vont devoir mettre à …",
@@ -120,26 +263,26 @@
       "imageUrl": "https://ic-cdn.flipboard.com/begeek.fr/b80abb45c213ebf0d6c300a917a9cbe297a86bac/_xlarge.jpeg"
     },
     {
-      "id": "bc458d917638be727cf07d48eca07c90561cdcd2",
-      "title": "\"La France est une passoire en matière de cybersécurité\": Gîtes de France confirme avoir été victime d'une attaque, plus de 389.000 clients pourraient être concernés",
-      "url": "https://www.bfmtv.com/tech/cybersecurite/la-france-est-une-passoire-en-matiere-de-cybersecurite-gites-de-france-confirme-avoir-ete-victime-d-une-attaque-plus-de-389-000-clients-pourraient-concernes_AD-202605180324.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-18T07:58:18.000Z",
-      "summary": "Après Pierre et vacances et Belambra, le même hacker a frappé une troisième fois, et c'est au service Gîtes de France de confirmer avoir été attaqué …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/bfmtv.com/00606b9cbb5270c70024dcf64c54ad0803ff295c/_xlarge.jpeg"
-    },
-    {
-      "id": "0784314428ccb4f5980583e587e81be7e89235eb",
+      "id": "fef3b33362447585aa0a2e9b45cd667ce1dec842",
       "title": "3 fuites de données en un week-end : les informations de 5 millions de Français volées, la série noire continue",
-      "url": "https://www.01net.com/actualites/3-fuites-de-donnees-en-un-week-end-les-informations-de-5-millions-de-francais-ont-ete-volees-la-serie-noire-continue.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "url": "https://www.01net.com/actualites/3-fuites-de-donnees-en-un-week-end-les-informations-de-5-millions-de-francais-ont-ete-volees-la-serie-noire-continue.html?amp%3Butm_content=topic%2Ffr-voyages",
       "source": "Cybercriminalité FR",
       "publishedAt": "2026-05-18T07:36:11.000Z",
       "summary": "En l’espace d’un seul week-end, trois géants du tourisme français, à savoir Pierre et Vacances-Center Parcs, Belambra et Gîtes de France, ont été …",
       "type": "LEAK",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/01net.com/cc358f3c35ec2cdb889ed3670b4a280cf54c9a0a/_xlarge.jpeg"
+    },
+    {
+      "id": "a6b13533f85666b90d4b1364f54a86f40e501f26",
+      "title": "L’armée chinoise distance l’Occident sur le quantique militaire, le Pentagone réagit",
+      "url": "https://www.buzzarena.com/larmee-chinoise-distance-loccident-sur-le-quantique-militaire-le-pentagone-reagit-4554997?amp%3Butm_content=topic%2Ffr-cryptographie",
+      "source": "Cryptographie FR",
+      "publishedAt": "2026-05-18T07:00:00.000Z",
+      "summary": "L’armée chinoise creuse son avance face à l’Occident sur l’informatique quantique militaire. Le 6 mai 2026, le Pentagone a publié un avis …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.buzzarena.com/wp-content/uploads/2026/05/Armee-quantique-Chine-F-35.jpg"
     },
     {
       "id": "03e1bcd617926311411be354a4cfa004a7af7c17",
@@ -162,6 +305,17 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/20min.ch/7cebf228c1171c6e181f4f1e9e7e63663cb14dc2/_large.jpeg"
+    },
+    {
+      "id": "8c89eaffec3809ead4db54c589567238fdc1ea01",
+      "title": "Cyberattaque massive chez Gîtes de France, près de 400.000 clients concernés par le vol de données, troisième acteur du tourisme hacké en 3 jours",
+      "url": "https://france3-regions.franceinfo.fr/occitanie/haute-garonne/toulouse/cyberattaque-massive-chez-gites-de-france-pres-de-400-000-clients-concernes-par-le-vol-de-donnees-troisieme-acteur-du-tourisme-hacke-en-3-jours-3352276.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-05-18T06:14:21.000Z",
+      "summary": "Le réseau d'hébergements Gîtes de France a confirmé dimanche 18 mai avoir été victime d'un vol de données qui concernerait près de 400.000 clients. …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/e0b049e09f01c293434a2712dfee7c7fb6e2fa67/_large.jpeg"
     },
     {
       "id": "c2767cc22d5627a5923f54919e0b4af2e434e617",
@@ -197,17 +351,6 @@
       "imageUrl": "https://ic-cdn.flipboard.com/lexpress.fr/f5ecc6476408af1b8b0329ba6fc18ff2dd15457d/_xlarge.jpeg"
     },
     {
-      "id": "ed65785caa9497187903ceb99a37c2a14da01311",
-      "title": "MiniPlasma Windows 0-Day Enables SYSTEM Privilege Escalation on Fully Patched Systems",
-      "url": "https://thehackernews.com/2026/05/miniplasma-windows-0-day-enables-system.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-05-18T04:59:21.000Z",
-      "summary": "Chaotic Eclipse, the security researcher behind the recently disclosed Windows flaws, YellowKey and GreenPlasma, has released a proof-of-concept (PoC) for a Windows privilege escal",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvmx8dRRiQKx4cT0aT1-zTuzdjfThwxmlbzb2ikeeqIXUXGdcJhRrq4BykcdBB572URpoAHQhSTSyahR3M7TyvOsLSCekQGCUFM8sTcdsxkrpRFrT41wF8EqKA5LjzYHpzUtro2136Iy55cKQ_wixFUSsFDnilkUNCvrDvJbHBKK3k_IelHt9lOmbW01_u/s1600/windows-exploits.jpg"
-    },
-    {
       "id": "636bbd7706875ed34d70a7e030be1b648f01cbdf",
       "title": "Les 5 infos suisses du jour: Crans-Montana est en galère financière à cause de l'incendie du 1er janvier",
       "url": "https://www.blick.ch/fr/fr/suisse/crans-montana-la-commune-est-en-difficulte-financiere-id21957158.html",
@@ -215,6 +358,39 @@
       "publishedAt": "2026-05-18T03:32:29.000Z",
       "summary": "Au programme de ce lundi 8 mai: les difficultés financières de Crans-Montana, les chiffres du regroupement familial, une cyberattaque chez Salt, un …",
       "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "bbd337de51fd3d82f5f7d18690678bc7cad0ca22",
+      "title": "Bulletin d'actualité CERTFR-2026-ACT-022 (18 mai 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-022/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-05-18T00:00:00.000Z",
+      "summary": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble de",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "f844ccf06093dc10b77a9220004a320b009d0de3",
+      "title": "Multiples vulnérabilités dans Microsoft Azure Linux (18 mai 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0608/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-05-18T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Azure Linux. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "58efd0b1b304ca25570de4cc87736a9df0bf4ca3",
+      "title": "Multiples vulnérabilités dans Microsoft Edge (18 mai 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0607/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-05-18T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un contournement de l",
+      "type": "CVE",
       "severity": "Info",
       "imageUrl": null
     },
@@ -239,6 +415,17 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/nationalgeographic.fr/e6f0a31042c1b53868cc476253c58aff9a680a19/_xlarge.jpeg"
+    },
+    {
+      "id": "3340829f8433f6a1c0960031b563d0d91a5a6467",
+      "title": "Quand l’IA devient l’arme des hackers : la double authentification piratée !",
+      "url": "https://android-mt.ouest-france.fr/news/quand-lia-devient-larme-des-hackers-la-double-authentification-piratee/201502/?amp%3Butm_content=topic%2Ffr-technologie",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-05-17T14:18:31.000Z",
+      "summary": "Un cap historique dans la cybercriminalité C’est une première mondiale, et elle ne présage rien de bon. Le Google Threat Intelligence Group (GTIG) a …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/df03c4ed000c7f7bbf3768ef5525e56fb9ac123f/_xlarge.jpeg"
     },
     {
       "id": "7261203847d3b32892c1aa6d5a27b4a22ab3a739",
@@ -285,6 +472,17 @@
       "imageUrl": "https://ic-cdn.flipboard.com/futura-sciences.com/31c2bfe7993d5884766a67446d38fc8fdb6e1f65/_xlarge.jpeg"
     },
     {
+      "id": "52ae4bff4f23111d872eb7885d736096f4061d7a",
+      "title": "Une fuite de données qui pourrait concerner plus de 400.000 personnes: après le groupe Pierre et Vacances, Belambra confirme à son tour avoir identifié \"un incident de sécurité\" concernant les dossiers de réservation de ses clients",
+      "url": "https://www.bfmtv.com/tech/cybersecurite/une-fuite-de-donnees-qui-pourrait-concerner-plus-de-400-000-personnes-apres-le-groupe-pierre-et-vacances-belambra-confirme-a-son-tour-avoir-identifie-un-incident-de-securite-concernant-les-dossiers-de-reservation-de-ses-clients_AD-202605170183.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-05-17T09:55:32.000Z",
+      "summary": "Le groupe de clubs et hôtels touristiques Belambra a reconnu samedi avoir été touché par une fuite de données. Deux jours plus tôt, le groupe Pierre …",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/bfmtv.com/7be2a0694c7943a7eb85a8e2c9a91aa071cec943/_xlarge.jpeg"
+    },
+    {
       "id": "b145f1bd4c73762b77128bcb9bb6df280434f3fa",
       "title": "Mythos : la boîte de Pandore de la cybersécurité est ouverte",
       "url": "https://www.wedemain.fr/societe-de-demain/nouvelles-technologies/mythos-la-boite-de-pandore-de-la-cybersecurite-est-ouverte-1152171?amp%3Butm_content=topic%2Ffr-technologie",
@@ -305,17 +503,6 @@
       "type": "LEAK",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNcCJY0s2GwOwFeSuqVz941pWrGK3theum-FBFyYO97JnK22OamMheCtr9yEEFfHMvurI7UBgl72blFK6Hm9u358g1V9HbZOk5vocuYMvgjfYLmf2XPNsSG1IiFxlbLvnRaotutjUB5I7sVLVTf1HTozz9FoeVxA3DJOn9wAOolL-HwmATDLlAD-Mgs-tO/s1600/grafana.jpg"
-    },
-    {
-      "id": "feb81e62c5750cc10ee60179bc7cf76e148ddc1c",
-      "title": "Fuite de données : après Pierre &amp; Vacances-Center Parcs, le groupe de tourisme Belambra aussi touché",
-      "url": "https://www.lefigaro.fr/secteur/high-tech/fuite-de-donnees-apres-pierre-vacances-center-parcs-le-groupe-de-tourisme-belambra-aussi-touche-20260516?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-16T21:26:31.000Z",
-      "summary": "Le hacker revendique avoir eu accès à six mois de données: plus de 41.000 réservations détaillées, plus de 42.000 réservations clients et environ …",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://i.f1g.fr/media/cms/1200x630_crop/2026/05/16/ccd557ccf2dc63d1cb492ed86d891dada374160bce27d7ff0610c3356b8710b8.jpg"
     },
     {
       "id": "dedd2bb45df3a258b6866c9d998d467eb56f04bb",
@@ -349,17 +536,6 @@
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": "https://i.f1g.fr/media/cms/1200x630_crop/2026/05/16/c4163a580216fc3a9f5f7b6a6573ee48bf1dadb743f37f1235f4721fa2a30c1c.jpg"
-    },
-    {
-      "id": "15d653050c23cb8f5d23af89247b19f0a90d13e3",
-      "title": "Le groupe Pierre et Vacances-Center Parcs victime d’une fuite de données concernant 1,6 million de réservations",
-      "url": "https://www.20minutes.fr/high-tech/by-the-web/4223774-20260516-groupe-pierre-vacances-center-parcs-victime-fuite-donnees-concernant-1-6-million-reservations?at_medium=display&amp%3Bat_campaign=149",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-16T12:32:28.000Z",
-      "summary": "Nouvelle cyberattaque ciblant une entreprise. Le groupe Pierre et Vacances-Center Parcs (PVCP) a indiqué ce vendredi avoir déposé plainte pour une …",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://img.20mn.fr/Ing4bALRS2aiVaugjzi6Aw/1444x920_center-parcs-hattigny-moselle"
     },
     {
       "id": "82fd55e7f6593c3d6dc81d1c081e1611e0209530",
@@ -439,17 +615,6 @@
       "imageUrl": "https://www.zataz.com/wp-content/uploads/concours-supply-chain-1.jpg"
     },
     {
-      "id": "1154d72b77602f9ffbb2a509425f5a95cf5822ce",
-      "title": "Cyberattaques IA : Google révèle que des hackers ont trouvé le moyen de contourner la double authentification, c'est une première",
-      "url": "https://www.01net.com/actualites/cyberattaques-ia-google-revele-hackers-trouve-moyen-contourner-double-authentification-premiere.html?amp%3Butm_content=01net%2Fmagazine%2F01net",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-16T07:01:31.000Z",
-      "summary": "Pour la première fois, des hackers ont utilisé une intelligence artificielle pour découvrir et exploiter une faille zero day dans un logiciel. Comme …",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/0845fec60bb72b2680c017da7512540d04c99ee8/_xlarge.jpeg"
-    },
-    {
       "id": "49a342451e7b2e96eeedb5d755f52215cd46bdd4",
       "title": "THORChain perd 10,7 millions de dollars",
       "url": "https://www.zataz.com/thorchain-perd-107-millions-de-dollars/",
@@ -472,39 +637,6 @@
       "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/498a71cb394706296bdc8bddea38588fd0fe43da/_xlarge.jpeg"
     },
     {
-      "id": "cc1ff5adc2bbb9eca13f1c04fd2f26d3554a5edf",
-      "title": "Des stations-service américaines visées par une série de cyberattaques, l’Iran soupçonné",
-      "url": "https://www.leparisien.fr/international/etats-unis/des-stations-service-americaines-visees-par-une-serie-de-cyberattaques-liran-soupconne-16-05-2026-V3J3ELBT2FH3HOVFXHZQHEOZHA.php?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-16T03:12:00.000Z",
-      "summary": "Les autorités américaines soupçonnent des hackers iraniens d’avoir modifié les indications affichées sur des réservoirs de carburant. Un préambule à …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.leparisien.fr/resizer/3BZJgcTzBst-UttLpbzBZkL8_bQ=/1200x675/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/UKNFVKHXTJCMNBOCAOTGHMWEMM.jpg"
-    },
-    {
-      "id": "80ced2ef3641ecf2cbc6c8341339221ed83ea0c4",
-      "title": "Fuite de données : plus de 4 millions de clients de Center Parcs et Pierre et Vacances piratés, êtes-vous touché ?",
-      "url": "https://www.capital.fr/conso/fuite-de-donnees-plus-de-4-millions-de-clients-de-center-parcs-et-pierre-et-vacances-pirates-etes-vous-touche-1526608?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-15T19:34:24.000Z",
-      "summary": "Le groupe Pierre &amp; Vacances-Center Parcs est victime d’une cyberattaque. Les données personnelles de plus de 4 millions de clients sur les deux …",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/capital.fr/7f242a992b386b35c81a737dbee7da1ddcf0d1a9/_xlarge.jpeg"
-    },
-    {
-      "id": "27fbbfe3b1cbd058be4f4f0d3ca3bbbe1fa66abb",
-      "title": "Pierre et Vacances-Center Parcs : 1,6 million de réservations affectées par une fuite de données | TF1 Info",
-      "url": "https://www.tf1info.fr/justice-faits-divers/pierre-et-vacances-center-parcs-1-6-million-de-reservations-affectees-par-une-fuite-de-donnees-2441774.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-15T18:06:38.000Z",
-      "summary": "Après les chaînes hôtelières Logis Hôtels France et Brit Hotel en avril, le groupe Pierre et Vacances-Center Parcs a annoncé vendredi 15 mai avoir …",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://photos.tf1info.fr/images/1280/720/pierre-et-vacances-illustration-62e39b-0@1x.jpeg?overlayImage=bG9nby10ZjFpbmZvLWRlZmF1bHQucG5n&amp%3BoverlayWidth=18&amp%3BoverlayGravity=northwest&amp%3Bs=78c802"
-    },
-    {
       "id": "786f881363c53ce436f9f7c8056b6b59f7404050",
       "title": "Turla Turns Kazuar Backdoor Into Modular P2P Botnet for Persistent Access",
       "url": "https://thehackernews.com/2026/05/turla-turns-kazuar-backdoor-into.html",
@@ -514,17 +646,6 @@
       "type": "NEWS",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8BT1AOScncZQM_A-0WBdCzTDAHGHSey48_Mywhij-TJupCdzP3s3o-MIImRtMZcoV2OqX3RjRV4COpVqkB1mrH3d_zjwvSTwCEXOq_2m80HgDo-xwAZ1KpR1h8eN9dAHGcKN_PpcE0cBsnv67FcthDycHLBJMYs8NkPszWNiQqdbhyL0YIlwVJn4NtgaR/s1600/code.jpg"
-    },
-    {
-      "id": "0960681057a870763fd6a00485b2cefad62e3d22",
-      "title": "Campgane UDC, forfaits fiscaux, travaux à la prison de Lonay: l’essentiel du vendredi 15 mai 2026",
-      "url": "https://www.24heures.ch/lessentiel-des-informations-du-vendredi-15-mai-2026-210046234164?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-15T15:30:50.000Z",
-      "summary": "Un million de francs anonyme finance la campagne de l’UDC Le Contrôle fédéral des finances publie les budgets de campagne pour l’initiative «Pas de …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://cdn.unitycms.io/images/3Nk5feOjqciBax8zpAXgxF.jpg?op=ocroped&amp%3Bval=1200%2C600%2C1000%2C625%2C188%2C0&amp%3Bsum=fkfKg0Yj8og"
     },
     {
       "id": "02bfb8d52349d2d45468af45e21fbd2460d55835",
@@ -598,7 +719,7 @@
       "url": "https://www.cisa.gov/news-events/alerts/2026/05/15/cisa-adds-one-known-exploited-vulnerability-catalog",
       "source": "CISA",
       "publishedAt": "2026-05-15T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA has added one new vulnerability to its &lt;a href=&quot;/known-exploited-vulnerabilities-catalog&quot; data-entity-type=&quot;node&quot; data-entity-uuid=&quot;79453b",
+      "summary": "&lt;p&gt;CISA has added one new vulnerability to its &lt;a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\" data-entity-type=\"node\" data-entity-uuid=\"79453b83-86",
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": null
@@ -624,17 +745,6 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1l4Vq20M4553fkDfGbO9VqLV9Au-6EefivLp8HT2W5QxJvgWf1mr6pg5xsbC5j3FCJzOOCJv_CImY1LjjFYIN_25ajki1iS_EVPvTyeVY7bC3ogcQFzHmE1Xyaz3cRXneilC0rWcb8dLbUapLI_jZ-uBaUkku48absoxM6TG16jS3xxtw9lhhtCvJmemK/s1600/chatgpt.jpg"
-    },
-    {
-      "id": "4a2e2ce380fd2cf6067ba3047fad2bc900e28d67",
-      "title": "La Fondation IFAGE à Genève victime d'une cyberattaque",
-      "url": "https://www.radiolac.ch/actualite/geneve/la-fondation-ifage-a-geneve-victime-dune-cyberattaque/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-15T07:51:58.000Z",
-      "summary": "La Fondation pour la formation des adultes à Genève (IFAGE) a été victime en avril d'une cyberattaque. Aucun système pédagogique ni aucune donnée …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.radiolac.ch/wp-content/uploads/2026/05/20260515095204024-1000x600.jpg"
     },
     {
       "id": "fc1250d00b9056d8d0fc96add3ae296158f69d84",
@@ -670,17 +780,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4XG5z00sF3uL0ZbhtZNiergQ9QVaZJydwP1pXEdPh2o29mwvTS2nPKRbxHftwnEJ1pvxMQS9TQknWqbovk-vW7BRPHUSsBhN4yL2iOwJnlmK7lzCdW9tJbKtKLbnfSZSWgfGlWQ6HO807gjR6dP61VylH1zxWtvfo3c7ui8aBecSjVz5miCG0jHoa8rUA/s1600/cisa-exploit.png"
     },
     {
-      "id": "fcd66c1beeaa5ae1bf4d58fe4c49eab920e31095",
-      "title": "Cybersécurité à Genève: des données sensibles du personnel de l’Ifage dérobées lors d’un piratage",
-      "url": "https://www.24heures.ch/cyberattaque-des-donnees-du-personnel-de-lifage-derobees-979856286719?amp%3Butm_content=topic%2Ffr-actualit%C3%A9sdesuisse",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-15T04:38:00.000Z",
-      "summary": "• Des données sensibles de collaborateurs de l’Ifage ont été volées lors d’une cyberattaque en avril. • L’intrusion n’a affecté ni les systèmes …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://cdn.unitycms.io/images/DDbwUlHna-eALiZprwx_cC.jpg?op=ocroped&amp%3Bval=1200%2C600%2C1000%2C750%2C99%2C0&amp%3Bsum=0Dfpp7C_ajA"
-    },
-    {
       "id": "8d57165b81b6e6268ab246b03b6107d75a8b6d54",
       "title": "Linux - CVE-2026-46300",
       "url": "https://cyberveille.esante.gouv.fr/alertes/linux-cve-2026-46300-2026-05-15",
@@ -692,9 +791,9 @@
       "imageUrl": null
     },
     {
-      "id": "1fbed953815e942e79ab3c6cfb3a3fa9f9952def",
+      "id": "0365dae29c387cee16757b19160aaab035d4d395",
       "title": "Microsoft - CVE-2026-42897",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/microsoft-cve-2026-42897-2026-05-15",
+      "url": "https://cyberveille.esante.gouv.fr/index%2ephp/alertes/microsoft-cve-2026-42897-2026-05-15",
       "source": "Cyberveille Santé",
       "publishedAt": "2026-05-15T01:40:21.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le composant &lt;strong&gt;Outlook Web Access (OWA)&lt;/strong&gt; de &lt;strong&gt;Microsoft Exchange Server&lt;/strong&gt;.&lt;/p&gt; ",
@@ -1016,7 +1115,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-08",
       "source": "CISA",
       "publishedAt": "2026-05-14T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-08.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-08.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1027,7 +1126,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-01",
       "source": "CISA",
       "publishedAt": "2026-05-14T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-01.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1038,7 +1137,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-10",
       "source": "CISA",
       "publishedAt": "2026-05-14T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-10.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-10.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1049,7 +1148,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-12",
       "source": "CISA",
       "publishedAt": "2026-05-14T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-12.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-12.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1060,7 +1159,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-16",
       "source": "CISA",
       "publishedAt": "2026-05-14T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-16.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-16.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1071,7 +1170,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-05",
       "source": "CISA",
       "publishedAt": "2026-05-14T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-05.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-05.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1082,7 +1181,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-17",
       "source": "CISA",
       "publishedAt": "2026-05-14T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-17.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-17.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1093,7 +1192,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-11",
       "source": "CISA",
       "publishedAt": "2026-05-14T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-11.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-11.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1104,7 +1203,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-04",
       "source": "CISA",
       "publishedAt": "2026-05-14T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-04.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-04.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1115,7 +1214,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-03",
       "source": "CISA",
       "publishedAt": "2026-05-14T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-03.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-03.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1126,7 +1225,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-14",
       "source": "CISA",
       "publishedAt": "2026-05-14T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-14.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-14.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1137,7 +1236,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-09",
       "source": "CISA",
       "publishedAt": "2026-05-14T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-09.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-09.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1148,7 +1247,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-02",
       "source": "CISA",
       "publishedAt": "2026-05-14T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-02.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-02.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1159,7 +1258,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-15",
       "source": "CISA",
       "publishedAt": "2026-05-14T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-15.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-15.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1170,7 +1269,7 @@
       "url": "https://www.cisa.gov/news-events/alerts/2026/05/14/cisa-adds-one-known-exploited-vulnerability-catalog",
       "source": "CISA",
       "publishedAt": "2026-05-14T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA has added&amp;nbsp;one&amp;nbsp;new vulnerability&amp;nbsp;to its&amp;nbsp;&lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Know",
+      "summary": "&lt;p&gt;CISA has added&amp;nbsp;one&amp;nbsp;new vulnerability&amp;nbsp;to its&amp;nbsp;&lt;a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"&gt;Known Exploite",
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": null
@@ -1181,7 +1280,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-07",
       "source": "CISA",
       "publishedAt": "2026-05-14T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-07.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-07.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1192,7 +1291,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-06",
       "source": "CISA",
       "publishedAt": "2026-05-14T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-06.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-06.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1203,7 +1302,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-13",
       "source": "CISA",
       "publishedAt": "2026-05-14T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-13.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-13.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1341,17 +1440,6 @@
       "imageUrl": "https://www.zataz.com/wp-content/uploads/entreprise-hack.jpg"
     },
     {
-      "id": "cee282a82c9d2064ce27140ba681c4c9c662fadf",
-      "title": "Coopération sino-américaine contre des escroqueries crypto",
-      "url": "https://www.zataz.com/cooperation-sino-americaine-contre-des-escroqueries-crypto/",
-      "source": "Zataz",
-      "publishedAt": "2026-05-13T15:16:34.000Z",
-      "summary": "États-Unis et Chine démantèlent neuf centres d’arnaque crypto à Dubaï, avec 276 arrestations.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/chine-usa-dubai.jpg"
-    },
-    {
       "id": "b67b1042c1f5c12da51827ff65d0447bcfcc9662",
       "title": "Microsoft's MDASH AI System Finds 16 Windows Flaws Fixed in Patch Tuesday",
       "url": "https://thehackernews.com/2026/05/microsofts-mdash-ai-system-finds-16.html",
@@ -1451,9 +1539,9 @@
       "imageUrl": null
     },
     {
-      "id": "e6d68c1cb342c7b86738dcc1a6e44e8dfcc34b6b",
+      "id": "29d3e87c9e8ed6a383a31ca9755c3343554d2aca",
       "title": "Apache - CVE-2026-43515",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/apache-cve-2026-43515-2026-05-13",
+      "url": "https://cyberveille.esante.gouv.fr/index%2ephp/alertes/apache-cve-2026-43515-2026-05-13",
       "source": "Cyberveille Santé",
       "publishedAt": "2026-05-13T02:25:42.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le moteur d'évaluation des &lt;strong&gt;contraintes de sécurité HTTP&lt;/strong&gt; d'Apache Tomcat.&lt;/p&gt; &lt;p&gt;Apache Tomcat e",
@@ -1473,9 +1561,9 @@
       "imageUrl": null
     },
     {
-      "id": "48fb0eb39726226459cd951463412b506e8e5745",
+      "id": "1c6cafac0fea4da8278ff3d2e7ba32bf0c9ba3b1",
       "title": "Fortinet - CVE-2026-26083",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/fortinet-cve-2026-26083-2026-05-13",
+      "url": "https://cyberveille.esante.gouv.fr/index%2ephp/alertes/fortinet-cve-2026-26083-2026-05-13",
       "source": "Cyberveille Santé",
       "publishedAt": "2026-05-13T02:21:02.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité d'&lt;strong&gt;autorisation manquante&lt;/strong&gt; dans l'&lt;strong&gt;interface web&lt;/strong&gt; (composant GUI) de FortiSandbox.&lt;/",
@@ -1797,7 +1885,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-132-01",
       "source": "CISA",
       "publishedAt": "2026-05-12T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-132-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-132-01.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1808,7 +1896,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-132-06",
       "source": "CISA",
       "publishedAt": "2026-05-12T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-132-06.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-132-06.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1819,7 +1907,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-132-04",
       "source": "CISA",
       "publishedAt": "2026-05-12T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-132-04.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-132-04.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1830,7 +1918,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-132-02",
       "source": "CISA",
       "publishedAt": "2026-05-12T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-132-02.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-132-02.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1841,7 +1929,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-132-03",
       "source": "CISA",
       "publishedAt": "2026-05-12T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-132-03.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-132-03.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1852,7 +1940,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-132-05",
       "source": "CISA",
       "publishedAt": "2026-05-12T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-132-05.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-132-05.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1979,9 +2067,9 @@
       "imageUrl": null
     },
     {
-      "id": "d0f34f08f65290528aa85134c7c9dc7d7361e115",
+      "id": "e4f0663015c48f22768482428dfb77beca4c3da1",
       "title": "PostgreSQL - CVE-2026-7813",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/postgresql-cve-2026-7813-2026-05-12",
+      "url": "https://cyberveille.esante.gouv.fr/index%2ephp/alertes/postgresql-cve-2026-7813-2026-05-12",
       "source": "Cyberveille Santé",
       "publishedAt": "2026-05-12T01:17:24.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de contrôle d'accès défaillant dans le mode serveur de pgAdmin 4.&lt;/p&gt; &lt;p&gt;pgAdmin 4 est l'interface d'administration graphique de ",
@@ -1998,50 +2086,6 @@
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de dépassement de tampon en mémoire tas dans l'implémentation &lt;strong&gt;DHCPv6&lt;/strong&gt; de dnsmasq.&lt;/p&gt; &lt;p&gt;dnsmasq est ",
       "type": "CVE",
       "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "fe1e53f4c179c36705e53ba0178c2dc756ae4738",
-      "title": "Multiples vulnérabilités dans Microsoft Azure (12 mai 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0571/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-05-12T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Azure. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "641b878e8044a3d5d56fd40ac5abab2c61315fe5",
-      "title": "Multiples vulnérabilités dans les produits Nextcloud (12 mai 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0569/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-05-12T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Nextcloud. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des do",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "4143f3ad4649ef9de3b4a1ef0bce35603366a5a9",
-      "title": "Multiples vulnérabilités dans les produits Centreon (12 mai 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0572/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-05-12T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Centreon. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une injection ",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "1a6804a3378a458f8b3d9324a94ab1a3e14203e2",
-      "title": "Multiples vulnérabilités dans Microsoft Edge (12 mai 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0570/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-05-12T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la c",
-      "type": "CVE",
-      "severity": "Info",
       "imageUrl": null
     },
     {
@@ -2111,9 +2155,9 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPtLFShq_XoM9Nzsl5kmSsF2UGsm6VhRoLNodcqRCdq45zqy4ekFVtamokNzEFifQknD502Wc0uFTBUdvLsBsYn4QAeVHSWLmhF2ROBMXutev8T6JjCGrrarzLhkSTUHLBq-nEWrF0WTb2epkX_3Ba5a6Gv_21R7PPQ_zCjhk7OU702Y10tJkcJiYG52D4/s1600/hugging-face-malware.jpg"
     },
     {
-      "id": "30d06ac180bc9c0e505231d30fcd9fe7f682332c",
+      "id": "39fe94eeeb4fabe0012385bee0510af3c8b9f79f",
       "title": "Eclipse - CVE-2026-7411",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/eclipse-cve-2026-7411-2026-05-11",
+      "url": "https://cyberveille.esante.gouv.fr/index%2ephp/alertes/eclipse-cve-2026-7411-2026-05-11",
       "source": "Cyberveille Santé",
       "publishedAt": "2026-05-11T02:18:57.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;traversée de chemin&lt;/strong&gt; dans l'API HTTP Submodel d'Eclipse BaSyx Java Server SDK.&lt;/p&gt; &lt;p&gt;Eclipse BaSy",
@@ -2122,9 +2166,9 @@
       "imageUrl": null
     },
     {
-      "id": "0ff784725ba49b50233c7a32d9d0ed8b53d636dd",
+      "id": "68d6ddec95fd259dbd1d31462e8a8ace839cef56",
       "title": "Mozilla - CVE-2026-8090",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/mozilla-cve-2026-8090-2026-05-11",
+      "url": "https://cyberveille.esante.gouv.fr/index%2ephp/alertes/mozilla-cve-2026-8090-2026-05-11",
       "source": "Cyberveille Santé",
       "publishedAt": "2026-05-11T02:17:12.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de type &lt;strong&gt;use-after-free&lt;/strong&gt; dans le composant &lt;strong&gt;DOM : Networking&lt;/strong&gt; de Firefox et Thunderbird",
@@ -2155,9 +2199,9 @@
       "imageUrl": null
     },
     {
-      "id": "f93e4d488d19b6a8393de688c0a64257c4086a6d",
+      "id": "a8028038da789e2b4664467856e2224fe5b04f1a",
       "title": "Ivanti - CVE-2026-6973",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/ivanti-cve-2026-6973-2026-05-11",
+      "url": "https://cyberveille.esante.gouv.fr/index%2ephp/alertes/ivanti-cve-2026-6973-2026-05-11",
       "source": "Cyberveille Santé",
       "publishedAt": "2026-05-11T02:09:16.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;validation insuffisante des entrées&lt;/strong&gt; dans Ivanti EPMM.&lt;/p&gt; &lt;p&gt;Ivanti Endpoint Manager Mobile (EPMM",
@@ -2221,17 +2265,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBMXgW6K0BZvt0-jhZ_smX3Uy-nsd9wb9g7Gs7d3G7uH-HIlEcNhEt9xpaKD_62iJol_LK5Expt-6qCuvIf7llqtQclB64I9zZm_i8CIC0lMJiIz8nx6r4C-Nj4cUgd3cQEtu3_lGFa7wcmR6q9otQhCLoB1Mbnmn7NgH6-djLs_ScqanZFNC-EVOwYyO7/s1600/android-calls.jpg"
     },
     {
-      "id": "fd7200f08947755e728f993c565a0323e203959f",
-      "title": "One Click, Total Shutdown: The \"Patient Zero\" Webinar on Killing Stealth Breaches",
-      "url": "https://thehackernews.com/2026/05/one-click-total-shutdown-patient-zero.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-05-08T14:01:00.000Z",
-      "summary": "The hardest part of cybersecurity isn't the technology, it’s the people. Every major breach you’ve read about lately usually starts the same way: one employee, one clever email, an",
-      "type": "LEAK",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhz_1BMhUux9JB2X26ToAMnW32GttimEIwRX1fG4_LrlZjedjkjzps_Ad-eiSX-2LlJ1FFIw3g1kvH1kKrgwETmSgTk8wal5a7AJQNIY2IH3317GaUYEj-_3tko2hxjKBc1ms0WQ7UjHHTst0aKtjFz1jOPasyD8x5U_GQW4KdhKxDPHhlmYVOY9TM6vLy_/s1600/zz-webinar.jpg"
-    },
-    {
       "id": "ff8e8653cc0dd15745fc0891dc3adeb0b966b87b",
       "title": "\"Les services secrets n’existent pas que dans les films\" : ils participent à un concours de cryptographie sous l'œil de la DGSE",
       "url": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/haute-savoie/annecy/les-services-secrets-n-existent-pas-que-dans-les-films-ils-participent-a-un-concours-de-cryptographie-sous-l-il-de-la-dgse-3347827.html?amp%3Butm_content=topic%2Ffr-cryptographie",
@@ -2241,39 +2274,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/9d24845662459a38505d8171a23df4b6fd28d4d1/_large.jpeg"
-    },
-    {
-      "id": "5c7d5477884d010387d3e64f370980958319eafe",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/05/08/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "source": "CISA",
-      "publishedAt": "2026-05-08T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA has added&amp;nbsp;one&amp;nbsp;new vulnerability&amp;nbsp;to its&amp;nbsp;&lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Know",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "e36b9b08fff066980667713adacc25f5ef12ba70",
-      "title": "Quasar Linux RAT Steals Developer Credentials for Software Supply Chain Compromise",
-      "url": "https://thehackernews.com/2026/05/quasar-linux-rat-steals-developer.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-05-08T11:00:00.000Z",
-      "summary": "A previously undocumented Linux implant codenamed Quasar Linux RAT (QLNX) is targeting developers' systems to establish a silent foothold as well as facilitate a broad range of pos",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiholjenZRIykmReErkRiguk5xd9RV4BIEEPM0nT-o3LvMvDkCTLpd3G0NpqDGEFHp-f6QyvGRMip6CBhGlllYVlp9wS3XBVoV6xW47CDka7Ig8S_aotcuNlmAv3SYgS4hJzxjLp2nrV4SzqlTXnQLG_w68Cq0Bf5hiOoV6CaN9QZliRDa-StzsvIkJAdSF/s1600/kube.jpg"
-    },
-    {
-      "id": "b468bc68c95721d9b0d0bd57f498b4a71c80008b",
-      "title": "One Missed Threat Per Week: What 25M Alerts Reveal About Low-Severity Risk",
-      "url": "https://thehackernews.com/2026/05/one-missed-threat-per-week-what-25m.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-05-08T10:30:00.000Z",
-      "summary": "The dark secret of enterprise security operations is that defenders have quietly institutionalized the practice of not looking. This is not just anecdotal, but rather backed by a r",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUaPw5V89Ez9z5x8eFLFOhwPphGqXDQVGfd2sI-pX9Q1XTcpYlWEhFiZ6o12fzAyvtCFDQ0zs4AFlHl4HJNnjWH8hUXM9r_-oBl7YMEnU1F41Ho7DL23NJbgG4M3eoqF6CTZWqFtFcw0gOB8QfkCPW1_xQ-HwmvWr3GMzEeRFbC8SLgG5LsdnopTAHDOs/s1600/ai-soc.jpg"
     }
   ]
 }
