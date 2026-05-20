@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-20T07:48:46.822Z",
+  "generatedAt": "2026-05-20T10:53:37.523Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -76,6 +76,17 @@
   ],
   "items": [
     {
+      "id": "52b20ea050df42c79c8fe4dd9f87fd850ac6e873",
+      "title": "Microsoft Releases Mitigation for YellowKey BitLocker Bypass CVE-2026-45585 Exploit",
+      "url": "https://thehackernews.com/2026/05/microsoft-releases-mitigation-for.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-05-20T08:28:26.000Z",
+      "summary": "Microsoft on Tuesday released a mitigation for a BitLocker bypass vulnerability named YellowKey following its public disclosure last week. The zero-day flaw, now tracked as CVE-202",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8DmW5nAG63-9iR2RmnP7i3GVJ9EBtLznscnnjROZ-DWRALYo0zsPNjUm2J6khkqSDJiX5Gmwb8sxPh4jHRcsJWFhKSdxZzz4D2f5bOahbfcnmQrUdvhyphenhyphenNVrE-LFMUhhf6rvSyxG2CoVhEFxbZSpEc0y52PM-qxwn02cDP3K3hEzf1nqcRNZEG1wOTjAiQ/s1600/bitlocker-exploit.png"
+    },
+    {
       "id": "dcf58485645574169eff913c507a0e11551291b9",
       "title": "Grafana GitHub Breach Exposes Source Code via TanStack npm Attack",
       "url": "https://thehackernews.com/2026/05/grafana-github-breach-exposes-source.html",
@@ -88,7 +99,7 @@
     },
     {
       "id": "40e763c6aef46f650aa930c49ef3f150f2e89adb",
-      "title": "GitHub Investigating TeamPCP Claimed Breach of ~4,000 Internal Repositories",
+      "title": "GitHub Breached — Employee Device Hack Led to Exfiltration of 3,800+ Internal Repos",
       "url": "https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html",
       "source": "The Hacker News",
       "publishedAt": "2026-05-20T04:01:15.000Z",
@@ -483,17 +494,6 @@
       "imageUrl": "https://ic-cdn.flipboard.com/bfmtv.com/1e74f0e057f3a491712f122d57d6d93c0f930e9a/_xlarge.jpeg"
     },
     {
-      "id": "5ab56fd0de58843508a8659841b4df927626afcd",
-      "title": "Cette faille Windows a été découverte en 2020, et elle n'est toujours pas corrigée",
-      "url": "https://www.01net.com/actualites/cette-faille-windows-decouverte-2020-toujours-pas-corrigee.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-18T12:20:20.000Z",
-      "summary": "Une faille de sécurité critique baptisée « MiniPlasma » a été découverte sur Windows… en 2020. Six ans plus tard, et malgré un correctif, la …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/4224cfd7d617452e9f17c9deafc8899f9ee3b035/_xlarge.jpeg"
-    },
-    {
       "id": "81ce3754708d3ca40faf1c0b86ac8311225579d2",
       "title": "Arnaques par SMS : cette technique effrayante cible des milliers d’iPhone à la fois",
       "url": "https://www.iphon.fr/post/arnaques-sms-blaster-technique-effrayante-cible-milliers-iphone?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -503,17 +503,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/iphon.fr/8d30b0183ea77716fe6b676e2c3929d55a158d6d/_xlarge.jpeg"
-    },
-    {
-      "id": "e33d8ff82fbf97c8528d1147d6bfd76fbca7a68c",
-      "title": "Mistral AI touchée par une cyberattaque visant son code source",
-      "url": "https://siecledigital.fr/2026/05/18/mistral-ai-touchee-par-une-cyberattaque-visant-son-code-source/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-18T11:40:50.000Z",
-      "summary": "La pépite française de l'intelligence artificielle a subi une intrusion via sa chaîne d'approvisionnement logicielle. Les pirates ont réussi à publier …",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://siecledigital.fr/wp-content/uploads/2026/05/mistralai.jpg"
     },
     {
       "id": "9dfa1a23ce3f4253945717f8b28b09143b881ab9",
@@ -547,17 +536,6 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2iqd3uRuOdLaM83LyZC9GOeOLeP9BnBVQQQzF7LZUeBTXfGo6e6b9c7PSC0Tkt_vhN_FUFUiDwnLXXNmzpIubE5bI0rA7dRaDhuiV35uiNTcMab7o8E_1ehn3CzUUsfno-6fYECbYzGNS1dyNof1ihn-hf4QYjLn7ZD53y_byQigukme9w-LAeBKDWXAg/s1600/patches.jpg"
-    },
-    {
-      "id": "1126dbcf0051bda659534ecacef6d5098bfcd5c7",
-      "title": "La panne de Salt vendredi dernier n’était pas due à un problème technique, mais bien à une cyberattaque",
-      "url": "https://www.24heures.ch/salt-ce-netait-pas-un-probleme-technique-mais-une-cyberattaque-319151599329?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-18T10:09:30.000Z",
-      "summary": "Vendredi vers 19 h, les clients de Salt ont été privés de connexion internet fixe pendant environ quarante minutes. Cette interruption n’était pas …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://cdn.unitycms.io/images/AJLkrw1OazQ8AZ74MPk0eS.jpg?op=ocroped&amp%3Bval=1200%2C600%2C1000%2C750%2C0%2C0&amp%3Bsum=DlHuGv-pCLI"
     },
     {
       "id": "99c841bdace62a8aea0040fe30a11d28560e898c",
@@ -626,17 +604,6 @@
       "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/3baaf8f1f9e76e3038bcfcff4af79855f70203f0/_xlarge.jpeg"
     },
     {
-      "id": "8d4f1970c44aa45798d36de050d81949df9de891",
-      "title": "21 ans de continuité opérationnelle : Kazuar, l'arme cyber la plus ancienne du FSB, mute encore",
-      "url": "https://www.clubic.com/actualite-613156-ans-de-continuite-operationnelle-kazuar-l-arme-cyber-la-plus-ancienne-du-fsb-mute-encore.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-18T08:06:00.000Z",
-      "summary": "Le renseignement russe fait évoluer son malware fétiche depuis 2005. Microsoft vient de documenter sa dernière mue, et elle est redoutable : un …",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/07c8e414e70fc3da3401ef8197bc3759ac27d1f5/_xlarge.jpeg"
-    },
-    {
       "id": "9b8054e19aa786b4247c6b0cfaa98b5110a00186",
       "title": "OpenAI confirme un vol de données : mettez à jour ChatGPT de toute urgence !",
       "url": "https://www.journaldugeek.com/2026/05/18/openai-confirme-un-vol-de-donnees-mettez-a-jour-chatgpt-de-toute-urgence/?amp%3Butm_content=topic%2Ffr-technologie",
@@ -659,17 +626,6 @@
       "imageUrl": "https://ic-cdn.flipboard.com/bfmtv.com/00606b9cbb5270c70024dcf64c54ad0803ff295c/_xlarge.jpeg"
     },
     {
-      "id": "fef3b33362447585aa0a2e9b45cd667ce1dec842",
-      "title": "3 fuites de données en un week-end : les informations de 5 millions de Français volées, la série noire continue",
-      "url": "https://www.01net.com/actualites/3-fuites-de-donnees-en-un-week-end-les-informations-de-5-millions-de-francais-ont-ete-volees-la-serie-noire-continue.html?amp%3Butm_content=topic%2Ffr-voyages",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-18T07:36:11.000Z",
-      "summary": "En l’espace d’un seul week-end, trois géants du tourisme français, à savoir Pierre et Vacances-Center Parcs, Belambra et Gîtes de France, ont été …",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/cc358f3c35ec2cdb889ed3670b4a280cf54c9a0a/_xlarge.jpeg"
-    },
-    {
       "id": "4ee68ee9e808095b3084bd9a8000914afae136ec",
       "title": "Linux : gros signal d'alarme en matière de sécurité, pourquoi c'était inévitable et pourquoi je ne m'en inquiète pas - ZDNET",
       "url": "https://www.zdnet.fr/actualites/linux-gros-signal-dalarme-en-matiere-de-securite-pourquoi-cetait-inevitable-et-pourquoi-je-ne-men-inquiete-pas-495176.htm",
@@ -679,17 +635,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2026/05/linux.webp"
-    },
-    {
-      "id": "689eca53c4220d6a91ee08193f70769ae9b4b0cf",
-      "title": "Vol de données clients : après Belambra et Pierre et Vacances-Center Parcs, Gîtes de France également victime",
-      "url": "https://www.capital.fr/economie-politique/vol-de-donnees-clients-apres-belambra-et-pierre-et-vacances-center-parcs-gites-de-france-egalement-victime-1526641?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-18T07:00:08.000Z",
-      "summary": "Pierre &amp; Vacances-Center Parcs et Belambra, c’est au tour de Gîtes de France d’être la cible d’une cyberattaque, vraisemblablement par le même …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/capital.fr/801eb4fc491fb7c6af78eaf01a4ceeb44881eada/_xlarge.jpeg"
     },
     {
       "id": "a6b13533f85666b90d4b1364f54a86f40e501f26",
@@ -747,17 +692,6 @@
       "imageUrl": null
     },
     {
-      "id": "5dd4cb15ed021ebb5af68705f1179db53cd86752",
-      "title": "Face à la multiplication des cyberattaques, 50 sénateurs réclament une commission d'enquête sur la sécurité de nos données - ZDNET",
-      "url": "https://www.zdnet.fr/actualites/les-senateurs-de-lunion-centriste-demandent-une-commission-denquete-sur-les-cyberattaques-et-les-fuites-de-donnees-495054.htm",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-18T03:05:58.000Z",
-      "summary": "La création d’une telle instance permettrait de faire le point l’état des défenses et la façon de mieux se protéger, expliquent les …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2025/06/nahel-abdul-hadi-flha0kwrrrc-unsplash-scaled.jpg"
-    },
-    {
       "id": "bbd337de51fd3d82f5f7d18690678bc7cad0ca22",
       "title": "Bulletin d'actualité CERTFR-2026-ACT-022 (18 mai 2026)",
       "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-022/",
@@ -813,17 +747,6 @@
       "imageUrl": "https://ic-cdn.flipboard.com/nationalgeographic.fr/e6f0a31042c1b53868cc476253c58aff9a680a19/_xlarge.jpeg"
     },
     {
-      "id": "7261203847d3b32892c1aa6d5a27b4a22ab3a739",
-      "title": "OpenAI et Mistral AI victimes d’une cyberattaque : 5 Go de données dans la nature !",
-      "url": "https://android-mt.ouest-france.fr/news/decryptage/openai-et-mistral-ai-victimes-dune-cyberattaque-5-go-de-donnees-dans-la-nature/201447/?amp%3Butm_content=topic%2Ffr-technologie",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-17T14:16:24.000Z",
-      "summary": "Une attaque par la chaîne d’approvisionnement logicielle Le scénario est désormais bien rodé chez les cybercriminels : plutôt que d’attaquer …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/f4af1b4783f8b65e8290aec8744061651f6676c8/_xlarge.jpeg"
-    },
-    {
       "id": "45464e6f51db686a3086d605d930df9adc920a74",
       "title": "NGINX CVE-2026-42945 Exploited in the Wild, Causing Worker Crashes and Possible RCE",
       "url": "https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html",
@@ -868,6 +791,17 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNcCJY0s2GwOwFeSuqVz941pWrGK3theum-FBFyYO97JnK22OamMheCtr9yEEFfHMvurI7UBgl72blFK6Hm9u358g1V9HbZOk5vocuYMvgjfYLmf2XPNsSG1IiFxlbLvnRaotutjUB5I7sVLVTf1HTozz9FoeVxA3DJOn9wAOolL-HwmATDLlAD-Mgs-tO/s1600/grafana.jpg"
     },
     {
+      "id": "dedd2bb45df3a258b6866c9d998d467eb56f04bb",
+      "title": "Site de réservations vacancières: Une cyberattaque pourrait toucher plus de 400’000 clients",
+      "url": "https://www.blick.ch/fr/fr/monde/arnaque-un-site-de-tourisme-frappe-par-une-fuite-de-donnees-id21954515.html",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-05-16T18:57:21.000Z",
+      "summary": "Une cyberattaque a exposé les données de 1,6 million de réservations du groupe Pierre et Vacances en France. Un hacker revendique aussi un accès à …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
       "id": "91738debe851d9f17b8be0b953d37c74e89a8453",
       "title": "Funnel Builder Flaw Under Active Exploitation Enables WooCommerce Checkout Skimming",
       "url": "https://thehackernews.com/2026/05/funnel-builder-flaw-under-active.html",
@@ -877,6 +811,17 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYS8AhChFEeH6IwT4x1eB5VAeGfriF4VVcwINAxXVIGyap3g0CKx0R2BdI4s99cE3Q5JHr-KUVHqdhAFNfQIrCTJ6p-vq7u5naMTwb-WFjgis4vBdR29M94wAT-Dqh46zsbo4heSJOVdFRxXzR3SgHt2ZoTPPBEbB3cu4azACiFFl7jcIGNxw1d_U7eVU9/s1600/funnel.png"
+    },
+    {
+      "id": "82fd55e7f6593c3d6dc81d1c081e1611e0209530",
+      "title": "Cyberattaque : 1,6 million de dossiers ont été piratés au sein du groupe Pierre &amp; Vacances",
+      "url": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/cyberattaque-1-6-million-de-dossiers-ont-ete-pirates-au-sein-du-groupe-pierre-vacances_8007974.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-05-16T11:59:43.000Z",
+      "summary": "Une fuite de données concerne 1,6 million de réservations du groupe Pierre &amp; Vacances, après une cyberattaque survenue jeudi 14 mai. L’historique des …",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/4ba776f47c78986f846df3c310677e3fb4842500/_xlarge.png"
     },
     {
       "id": "7802f88a1bf4b4f60d798b7338f0cfd8c5d1d446",
@@ -945,6 +890,17 @@
       "imageUrl": "https://www.zataz.com/wp-content/uploads/concours-supply-chain-1.jpg"
     },
     {
+      "id": "1154d72b77602f9ffbb2a509425f5a95cf5822ce",
+      "title": "Cyberattaques IA : Google révèle que des hackers ont trouvé le moyen de contourner la double authentification, c'est une première",
+      "url": "https://www.01net.com/actualites/cyberattaques-ia-google-revele-hackers-trouve-moyen-contourner-double-authentification-premiere.html?amp%3Butm_content=01net%2Fmagazine%2F01net",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-05-16T07:01:31.000Z",
+      "summary": "Pour la première fois, des hackers ont utilisé une intelligence artificielle pour découvrir et exploiter une faille zero day dans un logiciel. Comme …",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/0845fec60bb72b2680c017da7512540d04c99ee8/_xlarge.jpeg"
+    },
+    {
       "id": "49a342451e7b2e96eeedb5d755f52215cd46bdd4",
       "title": "THORChain perd 10,7 millions de dollars",
       "url": "https://www.zataz.com/thorchain-perd-107-millions-de-dollars/",
@@ -954,6 +910,17 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://www.zataz.com/wp-content/uploads/Thorchain_leak.jpg"
+    },
+    {
+      "id": "37926f87d9737e8169eeb76c534c4d8bcd3715cb",
+      "title": "La justice française remet en cause le devoir de conseil des intégrateurs cloud après un piratage de Microsoft Azure",
+      "url": "https://www.clubic.com/actualite-613102-la-justice-francaise-remet-en-cause-le-devoir-de-conseil-des-integrateurs-cloud-apres-un-piratage-de-microsoft-azure.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-05-16T06:28:00.000Z",
+      "summary": "Un cabinet comptable girondin a refusé de payer une facture de 71 521 euros générée par des cybercriminels qui avaient piraté son espace cloud …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/498a71cb394706296bdc8bddea38588fd0fe43da/_xlarge.jpeg"
     },
     {
       "id": "786f881363c53ce436f9f7c8056b6b59f7404050",
@@ -1000,6 +967,17 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgz_tK9S8jS_n5CK694-FLGjQP5_Mmpg7z9ZRiBayWsJLsuFRIm-8j1hTlhH90779FvnvhpiFKeGP9CzI5RCPsxQEnOzAIQsPzUsAJhUWtNm9iwf9C1W9DbDmqoQ_jjHhM7huYDV210OB9o1L9NPoJ0IL6R9Xc-V4JQ91Kn-b47_2ravRJ6-qlZOVrqsuAz/s1600/openclaw.png"
     },
     {
+      "id": "9b25ff62ff5fbce5346164593d7c0a46aa7dc6a8",
+      "title": "Arnaque sur Leboncoin : attention à ces messages frauduleux postés directement dans votre messagerie sécurisée",
+      "url": "https://www.ouest-france.fr/faits-divers/arnaques/arnaque-sur-leboncoin-attention-a-ces-messages-frauduleux-postes-directement-dans-votre-messagerie-securisee-d5f386ac-504c-11f1-a26c-e3a6b5d66f0c?amp%3Butm_content=topic%2Ffr-actualit%C3%A9s",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-05-15T13:25:28.000Z",
+      "summary": "Les escrocs arrivent aussi à détourner la messagerie sécurisée sur Leboncoin. Les victimes reçoivent un message provenant à première vue de la …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/a3b0a4632e5a1db2c9c8572239a82cbecd33fc03/_xlarge.jpeg"
+    },
+    {
       "id": "60862f617373258b7362674b78d35ec578fe88c3",
       "title": "Sommet Donald Trump-Xi Jinping : dans les coulisses de la course mondiale à l'IA",
       "url": "https://www.france24.com/fr/%C3%A9missions/tech-24/20260515-sommet-donald-trump-xi-jinping-dans-les-coulisses-de-la-course-mondiale-%C3%A0-l-ia?amp%3Butm_content=topic%2Ffr-cryptographie",
@@ -1044,6 +1022,17 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1l4Vq20M4553fkDfGbO9VqLV9Au-6EefivLp8HT2W5QxJvgWf1mr6pg5xsbC5j3FCJzOOCJv_CImY1LjjFYIN_25ajki1iS_EVPvTyeVY7bC3ogcQFzHmE1Xyaz3cRXneilC0rWcb8dLbUapLI_jZ-uBaUkku48absoxM6TG16jS3xxtw9lhhtCvJmemK/s1600/chatgpt.jpg"
     },
     {
+      "id": "f64bc0ad038da7559a918118e9d2ac88e1874af5",
+      "title": "Fuite de données chez les rois de l'IA : une cyberattaque massive vient de frapper OpenAI et Mistral",
+      "url": "https://www.01net.com/actualites/fuite-donnees-rois-ia-cyberattaque-massive-frapper-openai-mistral.html?amp%3Butm_content=topic%2Ffr-technologie",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-05-15T09:00:49.000Z",
+      "summary": "OpenAI et Mistral AI se sont retrouvés dans le viseur d’un gang de hackers. En diffusant de fausses mises à jour d’un logiciel populaire, les pirates …",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/fc48f12bf1e82cd8681eb4e104e3206014562bff/_xlarge.jpeg"
+    },
+    {
       "id": "fc1250d00b9056d8d0fc96add3ae296158f69d84",
       "title": "On-Prem Microsoft Exchange Server CVE-2026-42897 Exploited via Crafted Email",
       "url": "https://thehackernews.com/2026/05/on-prem-microsoft-exchange-server-cve.html",
@@ -1053,6 +1042,17 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirN79ZRjEd5wnVbOTlJJsWjQ54cwSj2bM5NDzBSgAFO8f_9LrlIwQRI0ZogQX42iejmhgc1n2YcA91pFrVqtqNKKyAIXblcQ1Yx9LTs1TeNDbNN6JMUBXCKDK1W0IwnwvYl1dhQmcyTPHwakckKT_Kc9fAUDAJRj94g2pENrjy4UyTCCniOXI2rO-q66PC/s1600/Microsoft-Exchange.png"
+    },
+    {
+      "id": "6f12ddae15bb597280e091bc039fb971d885747b",
+      "title": "Plus belle la vie en avance : ce qui vous attend dans l'épisode 585 du mardi 19 mai 2026 [SPOILERS]",
+      "url": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000204164.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-05-15T06:00:00.000Z",
+      "summary": "Dans le prochain épisode de \"Plus belle la vie, encore plus belle\"... Zoé court un grand danger. Pendant ce temps, au Mistral, Luna se glisse dans la …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://fr.web.img5.acsta.net/img/a2/78/a278f18a44da99cc1188a3bb5a237cc1.jpg"
     },
     {
       "id": "5f61aaf21d7bf7f1b31f2bdaf7365ee95d52bb9c",
@@ -1350,6 +1350,17 @@
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
+    },
+    {
+      "id": "045a4620d4ee4e9234a3a2b0524b9e76fd5a6510",
+      "title": "L'IA Mythos d'Anthropic est devenue plus puissante en un mois à peine, les experts s'inquiètent",
+      "url": "https://www.lesnumeriques.com/intelligence-artificielle/l-ia-mythos-d-anthropic-est-devenue-plus-puissante-en-un-mois-a-peine-les-experts-s-inquietent-n255960.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-05-14T19:45:00.000Z",
+      "summary": "Mythos, l'IA d'Anthropic, inquiète les experts en cybersécurité. Le 6 mai 2026, l'AI Security Institute (AISI) a publié un rapport qui confirme que …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://cdn.lesnumeriques.com/optim/news/25/255960/24e5163a-l-ia-mythos-d-anthropic-est-devenue-plus-puissante-en-un-mois-a-peine-les-experts-s-inquietent__1200_678__911-338-5071-2522.jpg"
     },
     {
       "id": "43448f97baff7aa27fcbdf2e866560eb1d392107",
@@ -2219,17 +2230,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzo1TUnQJpFnJbrO50dvjG14LDr2L6gKHsIIr5P73rSCgksrt2B9eVmRGKxPVvJ1qVMF63ka4So6vj5ln9T1nBIt2MV2DcH_dnYyQp1RREL4nbtnPghY7q5SAwZCwv0bN1ZV58DyTZSLw3UN00nP7uUcX_3ZqFQmAjufAvNRFshC5AJCuMdHb2n9kzC3w/s1600/ai-agents.jpg"
-    },
-    {
-      "id": "4c6bf4f4c2000cf36a13a3c7185aa5e43b2f1280",
-      "title": "Instructure Reaches Ransom Agreement with ShinyHunters to Stop 3.65TB Canvas Leak",
-      "url": "https://thehackernews.com/2026/05/instructure-reaches-ransom-agreement.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-05-12T07:37:00.000Z",
-      "summary": "American educational technology company Instructure, the parent company of Canvas, said it reached an \"agreement\" with a decentralized cybercrime extortion group after it breached ",
-      "type": "LEAK",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiq_FVhPeK2Y77CmHxc0azDelzWwpgSb4m8GZPLeJlsr2QvCZU5ChGQK37bJ_2XsGQRaNszalreV1iNyYDzeLt1I8iqafNTvFCPFQ0czKwX3Q6Q23TqdavunyJJsy6X8vxG_jSz__X5BnFZc4AIIqr-kd0XiNcYgx3UnYaahiViFKAywuQ98a7bbtCPnwgo/s1600/ransom-breach.jpg"
     },
     {
       "id": "7bc8b08373d6e4796bf4a8b1d909e5a4012b1179",
