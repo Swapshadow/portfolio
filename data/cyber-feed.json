@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-20T15:29:41.851Z",
+  "generatedAt": "2026-05-20T18:21:03.559Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,7 +17,7 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 120
+      "items": 121
     },
     {
       "name": "Exploit-DB",
@@ -76,6 +76,17 @@
   ],
   "items": [
     {
+      "id": "520a7cba0cab09dc5d6d0b883abd152ec5b16975",
+      "title": "Microsoft Open-Sources RAMPART and Clarity to Secure AI Agents During Development",
+      "url": "https://thehackernews.com/2026/05/microsoft-open-sources-rampart-and.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-05-20T17:06:54.000Z",
+      "summary": "Microsoft has unveiled two new open-source tools called RAMPART and Clarity to assist developers in better testing the security of artificial intelligence (AI) agents. RAMPART, sho",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPuhFp_KGzG3yZEzqIYh-at7Dm3vg4_QX97ilaSXDjsUbfhU7KCmRS-uQ2UrV9D855Nvy8HcBDKe25VMT63dfyzh-B2bzSx649SJQSQhL3bfm4Eitv4KLW4PhzRfE1HvoFOFDu2bB4alNLTFzvr6_IkKWjqxShcuWytNgDR4b3wR1xGE6z06xSyWo6NVg3/s1600/ms-tools.jpg"
+    },
+    {
       "id": "3cd4e14451acd1563d00a17909c3b11057c7e8d1",
       "title": "Microsoft Takes Down Malware-Signing Service Behind Ransomware Attacks",
       "url": "https://thehackernews.com/2026/05/microsoft-takes-down-malware-signing.html",
@@ -96,6 +107,17 @@
       "type": "NEWS",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjt4cD52DtnzH5FM8ZMrW9KyPrD1ysrJURSmqalrw9f6siP8XxYqClsqV6ofHpM8ir7gBnmmvehj5HB1k0aSHdPmLtKKwtLLvjSi4ELa9eMq12maW7p56a2yBdl7xzdfv6893fvQxLIH0kKGYKnzYM_7-3XysWIGsSNiEYXBjmiWFqe0Pe8uq-TkWlQjjv4/s1600/cyberattack-paki.jpg"
+    },
+    {
+      "id": "64cc6d8feb3bc5adb67d4dd6eda540fae8abb381",
+      "title": "CISA Adds Seven Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/05/20/cisa-adds-seven-known-exploited-vulnerabilities-catalog",
+      "source": "CISA",
+      "publishedAt": "2026-05-20T12:00:00.000Z",
+      "summary": "&lt;p&gt;CISA has added seven new vulnerabilities to its &lt;a href=&quot;/known-exploited-vulnerabilities-catalog&quot; data-entity-type=&quot;node&quot; data-entity-uuid=&quot;79",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
     },
     {
       "id": "7ad01dce5604c7991091aa301c8d0f69a85ec842",
@@ -151,6 +173,17 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1N3gjAFZQ-1hptUuKwQmHMjlZwIMDn6H6mKc9UuDELAKWl_3Kow6EcD72IkWpBf8ZB2Db8wrZW86zVxKaEgQZ7_sVrWoDokD1LoLPUqhhCw2lLDl9ODqq2ZkfBrK6SUTrbROBuFNXN16HPtMWtS9EMIFsO3yQsISWCK0JrlwiUWineb9sxIq-un41smHG/s1600/grafana-breach.jpg"
+    },
+    {
+      "id": "ecb213441746f7c7bf8306b54a97f7bfa4474e9a",
+      "title": "Apache - CVE-2026-41919",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/apache-cve-2026-41919-2026-05-20",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-05-20T03:53:00.000Z",
+      "summary": "&lt;p&gt;Cette vulnérabilité est liée au entrées utilisateur qui ne sont pas correctement filtrées et donc injectées directement dans les requêtes LDAP.&lt;/p&gt; &lt;p&gt;C'est un",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
     },
     {
       "id": "f855b9da186bc4664d9760612bc0bf957c55aeef",
@@ -307,6 +340,17 @@
       "imageUrl": null
     },
     {
+      "id": "911ebdbc887ae6e84379ed2a821f45aa79009c3d",
+      "title": "ZKTeco CCTV Cameras",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-04",
+      "source": "CISA",
+      "publishedAt": "2026-05-19T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-139-04.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
       "id": "a6ac1f4b31766c10626ee62be2118545f12ae839",
       "title": "Siemens RUGGEDCOM APE1808 Devices",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-02",
@@ -335,17 +379,6 @@
       "source": "CISA",
       "publishedAt": "2026-05-19T12:00:00.000Z",
       "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-139-03.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "911ebdbc887ae6e84379ed2a821f45aa79009c3d",
-      "title": "ZKTeco CCTV Cameras",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-04",
-      "source": "CISA",
-      "publishedAt": "2026-05-19T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-139-04.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -395,6 +428,17 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi61imbY3-QbM_mT_6WAxBXaFeZ3eXwprN147ox_bMvVqh9NrS69IwqwwL4qu2z1eRA8NfrWwyJi9bIDuREGEVZ-LdBMCGTSxdul92ZApPGrzwqOcr3b6YBKC19N97sk75izvamQxOqBzokKhF-__uaEuw74ZbKQLxKxMQWgRXSCR3FE6ULeHGxbiIhuEso/s1600/nconsole.jpg"
     },
     {
+      "id": "bea5e614629ccc696734b0a79ca9b7bbabbfe50b",
+      "title": "Fuites de données : la France bat un record historique, la CNIL prend des mesures fortes",
+      "url": "https://www.01net.com/actualites/fuites-donnees-france-bat-record-historique-cnil-prend-mesures-fortes.html?amp%3Butm_content=topic%2Ffr-actualit%C3%A9s",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-05-19T07:29:10.000Z",
+      "summary": "En 2025, la France a enregistré 6 167 violations de données personnelles. Suite à ce triste record historique, le gendarme français des données tire …",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/ab59bb89193e91e0f8c140cdd188cf99c6a5aa5f/_xlarge.jpeg"
+    },
+    {
       "id": "8d0ee7f90ffb9304d64939ba1ea0a0163515cf3d",
       "title": "Popular GitHub Action Tags Redirected to Imposter Commit to Steal CI/CD Credentials",
       "url": "https://thehackernews.com/2026/05/github-actions-supply-chain-attack.html",
@@ -406,15 +450,15 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgc7jpVO6HhBuEBTjkwmNjYhKlFmhhmytOqNZHYuGP-dNWrf3AoyE68yoKj77elddOX4Ps2x9jSuwhi5sE-QjK_oEjLXgQW9e6EHx6W0G7qTqYTM3fZh1AQTyrgm2o-PFBeD9ryHnC6fDmK5MYKUzBjU_pJibTilnm1d99WSQkJux6PXXRydkYW5d15Ada-/s1600/step.jpg"
     },
     {
-      "id": "baf951f7d263a43c81012a66ef6166a42e92360d",
-      "title": "Face à un nombre record de violation de données en 2025, la CNIL va renforcer ses contrôles et sanctionner d'avantage",
-      "url": "https://www.radiofrance.fr/franceinter/podcasts/l-info-de-france-inter/face-a-un-nombre-record-de-violation-de-donnees-en-2025-la-cnil-va-renforcer-ses-controles-et-sanctionner-d-avantage-3225102?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "id": "0d494494684a2ed5acc09214824197e3aedcc874",
+      "title": "Windows 11 : BitLocker vulnérable en quelques secondes",
+      "url": "https://android-mt.ouest-france.fr/news/windows-11-bitlocker-vulnerable-en-quelques-secondes/201638/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
       "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-19T05:20:53.000Z",
-      "summary": "Dans son rapport annuel sur 2025, la Commission nationale de l'informatique et des libertés (CNIL) note une augmentation \"record\" des cyberattaques …",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://ic-cdn.flipboard.com/radiofrance.fr/2cab201260632a273dd6f1285de98815c4f557d8/_xlarge.webp"
+      "publishedAt": "2026-05-19T05:21:41.000Z",
+      "summary": "Une manipulation déconcertante de simplicité Contourner BitLocker, le système de chiffrement intégré à Windows 11, ne nécessiterait ni logiciel …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/3c0bb253d330473d0c8891223f32be4c87980ab5/_xlarge.jpeg"
     },
     {
       "id": "7f7190e0c987845c70cdc5165296f3b2e66d0fec",
@@ -747,17 +791,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbN7WbW1cUkMzMJl0HPvRrQQUc5MQEE3Pvrc735aG7RGwpguum4POxa4yeQjyYIyiAYBDj_Zl6Ud8esex0AnQSG2J6TVWat57BLALA4WTi3gr5mfrLC2AHloSuvzx6fg9bTxZUvO-aA5VwHjyqbYecAWm2DnM9SRyt0M1GaqYzlBBKdgUR8BXV3xIDVnVN/s1600/npm-hacking.jpg"
     },
     {
-      "id": "c843e521557e5b018091f551d6128daac4846fcf",
-      "title": "Une simple clé USB suffit à faire sauter le chiffrement de Windows 11",
-      "url": "https://www.frandroid.com/marques/microsoft/3101075_bitlocker-le-chiffrement-de-windows-11-est-troue-et-ca-pourrait-etre-volontaire-de-la-part-de-microsoft?amp%3Butm_content=topic%2Ffr-technologie",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-18T08:11:54.000Z",
-      "summary": "Une faille béante touchant le logiciel responsable du chiffrement des données sur Windows 11 vient d’être découverte. Si le potentiel d’attaque est …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://c0.lestechnophiles.com/images.frandroid.com/wp-content/uploads/2026/01/787a40c8-4251-4847-8f92-988066b1b2d4-platformqna.jpg?resize=1600%2C900&amp%3Bkey=a7d0858b&amp%3Bwatermark="
-    },
-    {
       "id": "56c3a66221c00a71587c9af793f9f4862364bdd5",
       "title": "Cyberattaque : Gîtes de France victime d’un vol de données, près de 400 000 clients potentiellement concernés",
       "url": "https://www.ouest-france.fr/societe/cyberattaque/cyberattaque-gites-de-france-victime-dun-vol-de-donnees-pres-de-400-000-clients-potentiellement-concernes-f62b2acc-528d-11f1-a581-dbcdabdf1915?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -833,6 +866,17 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/20min.ch/7cebf228c1171c6e181f4f1e9e7e63663cb14dc2/_large.jpeg"
+    },
+    {
+      "id": "bd0c715b2f06d68b9903b2126ae3d67313056776",
+      "title": "Pour quelques euros, ce VPN vous protège de toutes les menaces (faux sites, alertes...)",
+      "url": "https://www.bfmtv.com/tech/bons-plans/vpn/pour-quelques-euros-ce-vpn-vous-protege-de-toutes-les-menaces-faux-sites-alertes_AB-202605180005.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-05-18T05:45:00.000Z",
+      "summary": "Il est certain que naviguer sur la toile représente un certain danger. Vous pouvez vous faire dérober vos données personnelles, mais être également …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/bfmtv.com/753271b96c98a8f99889df1595e40e608a557e83/_xlarge.jpeg"
     },
     {
       "id": "f2f7800f2d0442e64e28d7d7258e5c5c5c897102",
@@ -1187,17 +1231,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1l4Vq20M4553fkDfGbO9VqLV9Au-6EefivLp8HT2W5QxJvgWf1mr6pg5xsbC5j3FCJzOOCJv_CImY1LjjFYIN_25ajki1iS_EVPvTyeVY7bC3ogcQFzHmE1Xyaz3cRXneilC0rWcb8dLbUapLI_jZ-uBaUkku48absoxM6TG16jS3xxtw9lhhtCvJmemK/s1600/chatgpt.jpg"
     },
     {
-      "id": "f64bc0ad038da7559a918118e9d2ac88e1874af5",
-      "title": "Fuite de données chez les rois de l'IA : une cyberattaque massive vient de frapper OpenAI et Mistral",
-      "url": "https://www.01net.com/actualites/fuite-donnees-rois-ia-cyberattaque-massive-frapper-openai-mistral.html?amp%3Butm_content=topic%2Ffr-technologie",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-15T09:00:49.000Z",
-      "summary": "OpenAI et Mistral AI se sont retrouvés dans le viseur d’un gang de hackers. En diffusant de fausses mises à jour d’un logiciel populaire, les pirates …",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/fc48f12bf1e82cd8681eb4e104e3206014562bff/_xlarge.jpeg"
-    },
-    {
       "id": "fc1250d00b9056d8d0fc96add3ae296158f69d84",
       "title": "On-Prem Microsoft Exchange Server CVE-2026-42897 Exploited via Crafted Email",
       "url": "https://thehackernews.com/2026/05/on-prem-microsoft-exchange-server-cve.html",
@@ -1242,9 +1275,9 @@
       "imageUrl": null
     },
     {
-      "id": "1fbed953815e942e79ab3c6cfb3a3fa9f9952def",
-      "title": "Microsoft - CVE-2026-42897",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/microsoft-cve-2026-42897-2026-05-15",
+      "id": "272dfaa61f88c69b1fb6fdbdc58f21f4f670fb4a",
+      "title": "Microsoft Exchange - CVE-2026-42897",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/microsoft-exchange-cve-2026-42897-2026-05-15",
       "source": "Cyberveille Santé",
       "publishedAt": "2026-05-15T01:40:21.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le composant &lt;strong&gt;Outlook Web Access (OWA)&lt;/strong&gt; de &lt;strong&gt;Microsoft Exchange Server&lt;/strong&gt;.&lt;/p&gt; ",
@@ -1583,89 +1616,23 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEld5BcqD9rYWVjx7o_XlV5pN_9djvilow0iIYP-LlFEzGReX8fTPZ0gKi9zMGVLTT8qddHu5FyBMaZpQroEzYFpsoPWf96hD7JeTdqsROemmavXW2pDxNwc9kjvpJdhahmXA5Ng88tN1lyO5rqzC3K6JNwPFPWBo7OzSsaiQIN8JJsXvMrGhewMfzpouF/s1600/uk.jpg"
     },
     {
-      "id": "2f096c2dab553ee033f29546db2624b4152dbed0",
-      "title": "Siemens Siemens ROS#",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-08",
+      "id": "3441d070d59844279a0007fe16483fe921dfdfde",
+      "title": "Siemens Solid Edge",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-03",
       "source": "CISA",
       "publishedAt": "2026-05-14T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-08.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-03.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
     },
     {
-      "id": "30dc6c81b8d412f98105d32c87b8aeae3d29b474",
-      "title": "Siemens gWAP",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-01",
+      "id": "9804a2664b2d9f1974ed80a1cc4613fd23aab2d7",
+      "title": "Siemens Opcenter RDnL",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-09",
       "source": "CISA",
       "publishedAt": "2026-05-14T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "9c2b7290d153ff12ce8355ed078855eccda08454",
-      "title": "Siemens SIMATIC",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-10",
-      "source": "CISA",
-      "publishedAt": "2026-05-14T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-10.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "6b323636109602a09e295d8725c203fd7d3dce18",
-      "title": "Siemens Ruggedcom Rox",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-12",
-      "source": "CISA",
-      "publishedAt": "2026-05-14T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-12.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "3bc11f2ff206f8ac1e96fa37ad28af4cc6c95e50",
-      "title": "Siemens Ruggedcom Rox",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-16",
-      "source": "CISA",
-      "publishedAt": "2026-05-14T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-16.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "cbc75917108284b239b8152dff6364404baffbdb",
-      "title": "Siemens Simcenter Femap",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-05",
-      "source": "CISA",
-      "publishedAt": "2026-05-14T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-05.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "4f25751488a17eb1df91eadada1e1f8c8c061887",
-      "title": "Universal Robots Polyscope 5",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-17",
-      "source": "CISA",
-      "publishedAt": "2026-05-14T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-17.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "52731e9d23fcbb2588b655478f1b2796eed50b98",
-      "title": "Siemens Ruggedcom Rox",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-11",
-      "source": "CISA",
-      "publishedAt": "2026-05-14T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-11.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-09.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1682,12 +1649,78 @@
       "imageUrl": null
     },
     {
-      "id": "3441d070d59844279a0007fe16483fe921dfdfde",
-      "title": "Siemens Solid Edge",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-03",
+      "id": "52731e9d23fcbb2588b655478f1b2796eed50b98",
+      "title": "Siemens Ruggedcom Rox",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-11",
       "source": "CISA",
       "publishedAt": "2026-05-14T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-03.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-11.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "4f25751488a17eb1df91eadada1e1f8c8c061887",
+      "title": "Universal Robots Polyscope 5",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-17",
+      "source": "CISA",
+      "publishedAt": "2026-05-14T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-17.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "cbc75917108284b239b8152dff6364404baffbdb",
+      "title": "Siemens Simcenter Femap",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-05",
+      "source": "CISA",
+      "publishedAt": "2026-05-14T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-05.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "3bc11f2ff206f8ac1e96fa37ad28af4cc6c95e50",
+      "title": "Siemens Ruggedcom Rox",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-16",
+      "source": "CISA",
+      "publishedAt": "2026-05-14T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-16.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "6b323636109602a09e295d8725c203fd7d3dce18",
+      "title": "Siemens Ruggedcom Rox",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-12",
+      "source": "CISA",
+      "publishedAt": "2026-05-14T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-12.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "9c2b7290d153ff12ce8355ed078855eccda08454",
+      "title": "Siemens SIMATIC",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-10",
+      "source": "CISA",
+      "publishedAt": "2026-05-14T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-10.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "30dc6c81b8d412f98105d32c87b8aeae3d29b474",
+      "title": "Siemens gWAP",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-01",
+      "source": "CISA",
+      "publishedAt": "2026-05-14T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1699,17 +1732,6 @@
       "source": "CISA",
       "publishedAt": "2026-05-14T12:00:00.000Z",
       "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-14.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "9804a2664b2d9f1974ed80a1cc4613fd23aab2d7",
-      "title": "Siemens Opcenter RDnL",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-09",
-      "source": "CISA",
-      "publishedAt": "2026-05-14T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-09.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1776,6 +1798,17 @@
       "source": "CISA",
       "publishedAt": "2026-05-14T12:00:00.000Z",
       "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-07.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "2f096c2dab553ee033f29546db2624b4152dbed0",
+      "title": "Siemens Siemens ROS#",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-08",
+      "source": "CISA",
+      "publishedAt": "2026-05-14T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-08.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -2144,17 +2177,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrSn3emm_NbwXDi3elR0wo5ErHhg-gPT4-u4zk7MHZg4u0ruMmj2_KGgPF8fz06Riv6Gu5NXMN3eBP8H5bVf6dmvOz-lvb-qrvhLlssLUzl97ZVmIWoIOmMPOGrupv864dt0d4V_dxgaaxYYNuy2z9rbZMWIOcjlwZaiifq4-ktRqlEBCJ6a_m3MFiwq65/s1600/exim.jpg"
     },
     {
-      "id": "08d00d0f035ca2fc6f6f0073fd3cfd7d56ae18dc",
-      "title": "RubyGems Suspends New Signups After Hundreds of Malicious Packages Are Uploaded",
-      "url": "https://thehackernews.com/2026/05/rubygems-suspends-new-signups-after.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-05-12T14:47:00.000Z",
-      "summary": "RubyGems, the standard package manager for the Ruby programming language, has temporarily paused account sign ups following what has been described as a \"major malicious attack.\" \"",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggIbYm86Vn45Nd86Hd5IEqHufRIS5Ud3spGUy5JWHy-My-NBVocyj-aR7E3gBKibPnrWd5DRYnDfmbaHUMuaYcNn_paUIDN11VLySLNUsXwFwVIALsNo419985zWvtepK7NVp9J4W3d7uHGWkQFgqI6zY_9Y5LWe5hsTLk-c9ZMKQ4TDlUMcMh8-_vhdIH/s1600/rubygems.jpg"
-    },
-    {
       "id": "9ec84b270946578b68d654ad2c63db610055b874",
       "title": "Lettres d&rsquo;information",
       "url": "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/lettres-d-information",
@@ -2166,23 +2188,23 @@
       "imageUrl": null
     },
     {
+      "id": "31056f5a66ef141a9c2780c0eb4bf6d6533aa16b",
+      "title": "ABB Automation Builder Gateway for Windows",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-132-04",
+      "source": "CISA",
+      "publishedAt": "2026-05-12T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-132-04.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
       "id": "ea15927b52f09f4792fc0acb21b3999b4bba8318",
       "title": "ABB AC500 V3 Stack Buffer Overflow in Cryptographic Message Syntax",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-132-05",
       "source": "CISA",
       "publishedAt": "2026-05-12T12:00:00.000Z",
       "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-132-05.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "dcfc4c28edd37a2efb7f62ef0c00a3e38e592963",
-      "title": "Fuji Electric Tellus",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-132-01",
-      "source": "CISA",
-      "publishedAt": "2026-05-12T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-132-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -2199,34 +2221,23 @@
       "imageUrl": null
     },
     {
-      "id": "f43c6c707d51a7f257b682bcee77a318cca5e80a",
-      "title": "Subnet Solutions PowerSYSTEM Center",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-132-02",
+      "id": "dcfc4c28edd37a2efb7f62ef0c00a3e38e592963",
+      "title": "Fuji Electric Tellus",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-132-01",
       "source": "CISA",
       "publishedAt": "2026-05-12T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-132-02.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-132-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
     },
     {
-      "id": "31056f5a66ef141a9c2780c0eb4bf6d6533aa16b",
-      "title": "ABB Automation Builder Gateway for Windows",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-132-04",
+      "id": "7bb889e406854d109cd3cba38a51d247f19446e0",
+      "title": "Software Bill of Materials for AI - Minimum Elements",
+      "url": "https://www.cisa.gov/resources-tools/resources/software-bill-materials-ai-minimum-elements",
       "source": "CISA",
       "publishedAt": "2026-05-12T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-132-04.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "49142a6e8b10c888340c4fcd7adef167818848ee",
-      "title": "ABB WebPro SNMP Card PowerValue Multiple Vulnerabilities",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-132-06",
-      "source": "CISA",
-      "publishedAt": "2026-05-12T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-132-06.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;CISA and the Group of Seven (G7) international partners—Germany, Canada, France, Italy, Japan, the United Kingdom, and the European Union—have released joint guidance, &lt",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -2260,17 +2271,6 @@
       "source": "Cyberveille Santé",
       "publishedAt": "2026-05-12T01:21:34.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité d'utilisation de &lt;strong&gt;credentials codés en dur&lt;/strong&gt; dans Dell ECS et Dell ObjectScale.&lt;/p&gt; &lt;p&gt;Dell ECS est une",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "824bf0bfe2b8c23f051ac5a2c71ebb834af841d7",
-      "title": "SAP - CVE-2026-34260",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/sap-cve-2026-34260-2026-05-12",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-05-12T01:20:26.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité d'&lt;strong&gt;injection SQL&lt;/strong&gt; dans le composant SAP Enterprise Search for ABAP de SAP S/4HANA.&lt;/p&gt; &lt;p&gt;SAP S/4HANA ",
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": null
