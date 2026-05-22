@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T10:53:45.179Z",
+  "generatedAt": "2026-05-22T14:44:53.537Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,7 +17,7 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 120
+      "items": 119
     },
     {
       "name": "Exploit-DB",
@@ -76,6 +76,28 @@
   ],
   "items": [
     {
+      "id": "88083a27c6b9d2bcc52795c221a9e739fd919a10",
+      "title": "Megalodon GitHub Attack Targets 5,561 Repos with Malicious CI/CD Workflows",
+      "url": "https://thehackernews.com/2026/05/megalodon-github-attack-targets-5561.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-05-22T11:55:24.000Z",
+      "summary": "Cybersecurity researchers have disclosed details of a new automated campaign called Megalodon that has pushed 5,718 malicious commits to 5,561 GitHub repositories within a six-hour",
+      "type": "NEWS",
+      "severity": "Moyenne",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjC_sjVeLejyyBZJ0DWW2y9-Z2Jvmrzz9h-5XEIKPFTcJvDj49Jlt-z1FNbSp51K9XcQ8FqC9MBDFPPPdZuzRfjqtYvKNaqT0Qzd61oCHVhNq59IcAVcWV3LvDmKCsX5pHn4nU3LclQPEozMp3XsgYZnVHCZEj89AGkWJpqL1EjCjiqMLnvggZLsgb08MYp/s1600/github-worm.jpg"
+    },
+    {
+      "id": "4f7e1d1a5f6c22032831ea507a91e23d1ada8b3c",
+      "title": "Making Vulnerable Drivers Exploitable Without Hardware - The BYOVD Perspective",
+      "url": "https://thehackernews.com/2026/05/making-vulnerable-drivers-exploitable.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-05-22T11:38:12.000Z",
+      "summary": "1 Introduction This article provides a technical analysis of how many Windows kernel mode drivers can be interacted with from user mode without the hardware they were developed for",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUdjbDFZeTbwpdUFibGsmuDSgX_NHbFfTYroqcGYEGB6yvuKR3eUBSHo9XaphMTYmXC3cqmICDOGUjlsBrwwyJOxzkj1Cdh2xZcYxLz1WpHrV9QmloScYivp7jfyynDTiB51MTpsgGffJ9bZgYJeV3VhY6OA32tot8mC08F-g6KpU47zR513SkVqk-hIim/s1600/driver.jpg"
+    },
+    {
       "id": "700cba02de5c2089cdb88df94b7ce23318027c74",
       "title": "Kimwolf DDoS Botnet Operator Arrested in Canada Over DDoS-for-Hire Attacks",
       "url": "https://thehackernews.com/2026/05/kimwolf-ddos-botnet-operator-arrested.html",
@@ -107,6 +129,138 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLweJvl8B70zomibdr4U6WvYgbmZn4gKKOG9F7xDPXzgeENKK0kg2kgK1yvZDS7AJFkY9De2rG2EQzCLvN1FmjrXXDIm-CkmU88QcexbMkr60gKVKexF-d1qtGHusrr6_j5yrtMv31PSUEygioHJikBsifQ0VHW18IU7lu_oItTzQXugwHPLoO_DYNdnYx/s1600/cisco-workload.jpg"
+    },
+    {
+      "id": "71ab547e3da1e8ca8470e44fd1a790e55d07f763",
+      "title": "Vulnérabilité dans SPIP (22 mai 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0635/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-05-22T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans SPIP. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "8d86963fd7c2af1bfe189a26d210902629f6ed46",
+      "title": "Multiples vulnérabilités dans Tenable Sensor Proxy (22 mai 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0630/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-05-22T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Tenable Sensor Proxy. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentia",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "a7d3ba894fc2f459456d3f3b82d670962ceda43f",
+      "title": "Multiples vulnérabilités dans le noyau Linux de Debian (22 mai 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0637/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-05-22T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian. Elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confident",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "0d2dc15e433386f60e3740178eedbbc5c533ad1a",
+      "title": "Multiples vulnérabilités dans Microsoft Edge (22 mai 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0633/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-05-22T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "094bb8bca81a16646b1edf02b57270e65a95560e",
+      "title": "Multiples vulnérabilités dans les produits Mattermost (22 mai 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0632/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-05-22T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mattermost. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "e946a9ea1c2953c00017e30096b01840c9084278",
+      "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (22 mai 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0640/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-05-22T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "3760c3a7a67fdc76b356f570a015f833f5c81950",
+      "title": "Vulnérabilité dans les produits Microsoft (22 mai 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0634/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-05-22T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans les produits Microsoft. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "27857db4210fac1995d16a1b49a8c508297801d0",
+      "title": "Vulnérabilité dans le noyau Linux de Debian LTS (22 mai 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0636/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-05-22T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans le noyau Linux de Debian LTS. Elle permet à un attaquant de provoquer une élévation de privilèges et une atteinte à la confidentialité des d",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "6cdfd2ce47f540b89ae397a6aeddabde8d08b743",
+      "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (22 mai 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0639/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-05-22T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Elles permettent à un attaquant de provoquer un contournement de la politique de sécurité et un problèm",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "c286eff4a5159ac4bd443051aa0e33afe5c44483",
+      "title": "Vulnérabilité dans Stormshield Network Security (22 mai 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0631/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-05-22T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans Stormshield Network Security (SNS). Elle permet à un attaquant de provoquer un déni de service à distance.",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "11c694ad51e4d3cccc8aa3927ba1063145e2a7f3",
+      "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (22 mai 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0638/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-05-22T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Elles permettent à un attaquant de provoquer une élévation de privilèges et un problème de sécurité no",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "b0869b8daad161f56148f29eea7866f02104e97c",
+      "title": "Multiples vulnérabilités dans les produits IBM (22 mai 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0641/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-05-22T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, u",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
     },
     {
       "id": "982c3cce476f565e3badcb8448d84b7792cb408a",
@@ -338,6 +492,17 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://information.tv5monde.com/sites/tv5-info/files/styles/seo_1200/public/2026-05/field_media_image-3014417-Part-PAR-Par7505649-1-1-0.jpg?itok=nhRqV6WO"
+    },
+    {
+      "id": "58f2dfab1fabc65ae07949baef336472920fcbf1",
+      "title": "Face à l'explosion des fuites de données, la Cnil annonce des mesures renforcées",
+      "url": "https://www.lesnumeriques.com/societe-numerique/face-a-l-explosion-des-fuites-de-donnees-la-cnil-annonce-des-mesures-renforcees-n256246.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-05-21T10:04:00.000Z",
+      "summary": "Pour tenter d'endiguer une année 2026 déjà trop riche en piratages de données, la Cnil va prendre des mesures contre les sociétés et administrations …",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://cdn.lesnumeriques.com/optim/news/25/256246/2b984591-face-a-l-explosion-des-fuites-de-donnees-la-cnil-annonce-des-mesures-renforcees__1200_678__591-729-5325-3214.jpg"
     },
     {
       "id": "af91c1dc6f0178ab32f7351fb34a34dff1e5f8d9",
@@ -725,6 +890,17 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLWPxY_gRwc5keQNREyoTXSadlwpCLyUdAq4v1fQA5_lA2tJ0Ia6xOk-FaLuNHwJjV_xaF7M0xzPvqHk4e7aym6R7J2aaGCGm7Bnv8OXh7GScZ-G7ic5pdEgK-0E0_y_yLz16V2A2GL5uTmU7tRPUyoDl5LfzTzQnuMlI1QV7SEhRC9Cli7zci_no9pyk/s1600/ref.jpg"
     },
     {
+      "id": "898004e9cc2606dfb2f1dc875fb6178ba543087d",
+      "title": "Après le piratage par des hackers, le kiosque famille de Roubaix de nouveau accessible",
+      "url": "https://www.lavoixdunord.fr/1704612/article/2026-05-20/apres-le-piratage-par-des-hackers-le-kiosque-famille-de-roubaix-de-nouveau?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-05-20T09:52:00.000Z",
+      "summary": "Une semaine après le piratage du kiosque famille de la ville de Roubaix et la fuite de données de 165 familles, la ville annonce que le portail est …",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://lvdneng.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_extra_big/2026/01/23/node_1704612/68292758/public/2026/01/23/60611393.jpeg?itok=o9U6b62G1779270752"
+    },
+    {
       "id": "682ae00854fdf82efdd0c0bdaa78177c1158d635",
       "title": "GitHub victime d'une cyberattaque : 3 800 répertoires internes compromis via une extension VS Code malveillante - ZDNET",
       "url": "https://www.zdnet.fr/actualites/github-victime-dune-cyberattaque-3-800-repertoires-internes-compromis-via-une-extension-vs-code-malveillante-495336.htm",
@@ -1077,17 +1253,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi61imbY3-QbM_mT_6WAxBXaFeZ3eXwprN147ox_bMvVqh9NrS69IwqwwL4qu2z1eRA8NfrWwyJi9bIDuREGEVZ-LdBMCGTSxdul92ZApPGrzwqOcr3b6YBKC19N97sk75izvamQxOqBzokKhF-__uaEuw74ZbKQLxKxMQWgRXSCR3FE6ULeHGxbiIhuEso/s1600/nconsole.jpg"
     },
     {
-      "id": "bea5e614629ccc696734b0a79ca9b7bbabbfe50b",
-      "title": "Fuites de données : la France bat un record historique, la CNIL prend des mesures fortes",
-      "url": "https://www.01net.com/actualites/fuites-donnees-france-bat-record-historique-cnil-prend-mesures-fortes.html?amp%3Butm_content=topic%2Ffr-actualit%C3%A9s",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-19T07:29:10.000Z",
-      "summary": "En 2025, la France a enregistré 6 167 violations de données personnelles. Suite à ce triste record historique, le gendarme français des données tire …",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/ab59bb89193e91e0f8c140cdd188cf99c6a5aa5f/_xlarge.jpeg"
-    },
-    {
       "id": "8d0ee7f90ffb9304d64939ba1ea0a0163515cf3d",
       "title": "Popular GitHub Action Tags Redirected to Imposter Commit to Steal CI/CD Credentials",
       "url": "https://thehackernews.com/2026/05/github-actions-supply-chain-attack.html",
@@ -1132,9 +1297,9 @@
       "imageUrl": null
     },
     {
-      "id": "2077d55b2199e418328b4c8eca0043bf72930c82",
-      "title": "RysncProject - CVE-2026-43618 | modifié le 21-05-2026",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/rysncproject-cve-2026-43618-2026-05-19",
+      "id": "ae7fbc6f44cf26287a00fd83423d0f3045296764",
+      "title": "RsyncProject - CVE-2026-43618 | modifié le 21-05-2026",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/rsyncproject-cve-2026-43618-2026-05-19",
       "source": "Cyberveille Santé",
       "publishedAt": "2026-05-19T03:14:00.000Z",
       "summary": "&lt;p&gt;Rysnc un outil open source très utilisé pour la synchronisation et le transfert de fichiers entre systèmes.&lt;/p&gt; &lt;p&gt;Un attaquant peut forcer Rsync à lire des zo",
@@ -1385,17 +1550,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbN7WbW1cUkMzMJl0HPvRrQQUc5MQEE3Pvrc735aG7RGwpguum4POxa4yeQjyYIyiAYBDj_Zl6Ud8esex0AnQSG2J6TVWat57BLALA4WTi3gr5mfrLC2AHloSuvzx6fg9bTxZUvO-aA5VwHjyqbYecAWm2DnM9SRyt0M1GaqYzlBBKdgUR8BXV3xIDVnVN/s1600/npm-hacking.jpg"
     },
     {
-      "id": "c843e521557e5b018091f551d6128daac4846fcf",
-      "title": "Une simple clé USB suffit à faire sauter le chiffrement de Windows 11",
-      "url": "https://www.frandroid.com/marques/microsoft/3101075_bitlocker-le-chiffrement-de-windows-11-est-troue-et-ca-pourrait-etre-volontaire-de-la-part-de-microsoft?amp%3Butm_content=topic%2Ffr-technologie",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-18T08:11:54.000Z",
-      "summary": "Une faille béante touchant le logiciel responsable du chiffrement des données sur Windows 11 vient d’être découverte. Si le potentiel d’attaque est …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://c0.lestechnophiles.com/images.frandroid.com/wp-content/uploads/2026/01/787a40c8-4251-4847-8f92-988066b1b2d4-platformqna.jpg?resize=1600%2C900&amp%3Bkey=a7d0858b&amp%3Bwatermark="
-    },
-    {
       "id": "a6b13533f85666b90d4b1364f54a86f40e501f26",
       "title": "L’armée chinoise distance l’Occident sur le quantique militaire, le Pentagone réagit",
       "url": "https://www.buzzarena.com/larmee-chinoise-distance-loccident-sur-le-quantique-militaire-le-pentagone-reagit-4554997?amp%3Butm_content=topic%2Ffr-cryptographie",
@@ -1440,6 +1594,17 @@
       "imageUrl": null
     },
     {
+      "id": "7ee5f1d0c076cbd03eb11abaec5683544ecc7774",
+      "title": "Gîtes de France annonce à son tour avoir été visé par une cyberattaque, après les groupes Pierre et Vacances-Center Parcs et Belambra",
+      "url": "https://www.lemonde.fr/pixels/article/2026/05/18/gites-de-france-annonce-a-son-tour-avoir-ete-vise-par-une-cyberattaque-apres-les-groupes-pierre-et-vacances-center-parcs-et-belambra_6690376_4408996.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-05-18T01:17:53.000Z",
+      "summary": "Un hackeur a revendiqué avoir dérobé des données de réservations du réseau d’hébergement s’étalant sur plus de trente ans, de 1995 à 2026. « Aucune …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://img.lemde.fr/2019/08/05/0/4/4920/3280/1440/960/60/0/62448ce_2AyOBfNJav0jnpsUAZhwwJm_.jpg"
+    },
+    {
       "id": "bbd337de51fd3d82f5f7d18690678bc7cad0ca22",
       "title": "Bulletin d'actualité CERTFR-2026-ACT-022 (18 mai 2026)",
       "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-022/",
@@ -1471,17 +1636,6 @@
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
-    },
-    {
-      "id": "1797d0b5d7ac93257b172885253c432c931c7582",
-      "title": "Le Sri Lanka, nouvel eldorado asiatique de l'arnaque en ligne ?",
-      "url": "https://www.lalibre.be/international/asie/2026/05/17/le-sri-lanka-nouvel-eldorado-asiatique-de-larnaque-en-ligne-J5BQQ2HNCRCD3JRORPD4F3SCXQ/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-17T16:41:23.000Z",
-      "summary": "Le Sri Lanka est-il en passe de devenir un nouveau \"hub\" de la cybercriminalité internationale ? Lourdement réprimés au Cambodge ou en Birmanie, les …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/lalibre.be/192f8b9a179eeb2c64450dcc92e9a845553479fc/_xlarge.jpeg"
     },
     {
       "id": "5a62f467a27722b10d803c52cea2f2a2017c918c",
@@ -1715,116 +1869,6 @@
       "imageUrl": null
     },
     {
-      "id": "a8c1721c590fc9b2ddfe43a5df6d72ebab058204",
-      "title": "Vulnérabilité dans Microsoft Azure (15 mai 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0600/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-05-15T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans Microsoft Azure. Elle permet à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "23e5330ff9c014781bee1488fdec73e68d6d7797",
-      "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (15 mai 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0603/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-05-15T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Elles permettent à un attaquant de provoquer un déni de service et un problème de sécurité non spécifié",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "f5b5227d481104750c584e469e88b211cb8c92ac",
-      "title": "Multiples vulnérabilités dans le noyau Linux de Debian (15 mai 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0605/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-05-15T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian. Elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distan",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "8d2f06df9f5a2f3b0be0f0dd1b4f202c9e82ed34",
-      "title": "Multiples vulnérabilités dans les produits Shibboleth (15 mai 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0597/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-05-15T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découverte dans les produits Shibboleth. Elles permettent à un attaquant de provoquer un déni de service à distance et un contournement de la po",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "6d3282328fb23bf461d427c739bf2cb3483a021d",
-      "title": "Multiples vulnérabilités dans Mattermost Server (15 mai 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0598/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-05-15T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Mattermost Server. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "5f560c1c157b43f3d4fa258b6a726c0afc655922",
-      "title": "Multiples vulnérabilités dans les produits Microsoft (15 mai 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0601/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-05-15T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Microsoft. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un problè",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "e8377927b8d6a5e3fabcb5cafb1ea2b404082c14",
-      "title": "Multiples vulnérabilités dans les produits Palo Alto Networks (15 mai 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0596/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-05-15T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Palo Alto Networks. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitrair",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "869bd4675dff5e9c2591271cff0caca96a61dc85",
-      "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (15 mai 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0602/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-05-15T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une attein",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "e705ad38550515499e3d199104e8286c0a48bca5",
-      "title": "Vulnérabilité dans Microsoft Exchange Server (15 mai 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0599/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-05-15T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans Microsoft Exchange Server. Elle permet à un attaquant de provoquer une injection de code indirecte à distance (XSS) et un contournement de l",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "1732185f9e93a0eb8a6f09431405045a9ebcd975",
-      "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (15 mai 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0604/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-05-15T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
       "id": "bc3e5c38a1919ccfc89fb69abdc7d0906c37df3d",
       "title": "Multiples vulnérabilités dans les produits IBM (15 mai 2026)",
       "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0606/",
@@ -1833,28 +1877,6 @@
       "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, u",
       "type": "CVE",
       "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "a03298a8ab9133e8ea7e78194a4330641308c834",
-      "title": "Multiples vulnérabilités dans PostgreSQL (15 mai 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0595/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-05-15T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans PostgreSQL. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, un déni de service",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "ab40585a3ec664a0a7ad0a0a68a9b6511c93bc1e",
-      "title": "Vulnérabilité dans Microsoft Exchange Server (15 mai 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-005/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-05-15T00:00:00.000Z",
-      "summary": "Le 14 mai 2026, Microsoft a publié un avis de sécurité concernant la vulnérabilité CVE-2026-42897 affectant Exchange Server. Elle permet à un attaquant non authentifié de provoquer",
-      "type": "CVE",
-      "severity": "Élevée",
       "imageUrl": null
     },
     {
@@ -2142,28 +2164,6 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2IaSkdVZD_wyJJT-sODoazviDXhw3MGkn5XHYocnTL1YfLJpgJ-1wNaAm0Rk0phyrIv8vS73SNNkPSmlxRkK9ySAQGnn_tCP9JcVKyqee6lxjlYEp0cs2C_R9cDtgCEXwsjWtx1XnafF5r_fAuDDAvg0CRMOgJk8ZMwSjRsw1Js90uR-97t-rh5yU12Oj/s1600/praison.jpg"
-    },
-    {
-      "id": "22fc9774a4a0cb65e43ce0b9a94bba1273f3ac4c",
-      "title": "How AI Hallucinations Are Creating Real Security Risks",
-      "url": "https://thehackernews.com/2026/05/how-ai-hallucinations-are-creating-real.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-05-14T11:30:00.000Z",
-      "summary": "AI hallucinations are introducing serious security risks into critical infrastructure decision-making by exploiting human trust through highly confident yet incorrect outputs. When",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi45HPlwBwWVoL1fRSEGy7bjtz4Z05lAO8NWxLqPrzQ93c3j5aaj_CaK5gCrJC6aYP0ePV36n27rw33vJv5mUXf3mtdOEItJjHrSkzckVGAdTU2UMp8s-HAVjNUE7jVDeTH0UikGxNZWeB6J3qVNguP2iO5V5-qUgW3g_IqxZ9cMEZy0tS0iEsl8MnSjB0/s1600/keeper.jpg"
-    },
-    {
-      "id": "c12af63adb78bb422e4d2767ce89dd8d51bd5dd0",
-      "title": "Windows Zero-Days Expose BitLocker Bypasses And CTFMON Privilege Escalation",
-      "url": "https://thehackernews.com/2026/05/windows-zero-days-expose-bitlocker.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-05-14T09:25:50.000Z",
-      "summary": "An anonymous cybersecurity researcher who disclosed three Microsoft Defender vulnerabilities has returned with two more zero-days involving a BitLocker bypass and a privilege escal",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXt7ooDl2PwJY4nazAKdW9rmILsmosve2FZaO9usxTk_rkksEEvsLgY-uc_MErXvjvusuWjN7PWRM9KaRXB1OkL75gio7tcqpMsPZxaFNE9XDpYmARH3Dw_gGgddwWXHSt5VUJ-lb56F9bCVzTYghEo7qELWVv8K_W8V1BrWgssgqWkzPJxW6I31i_GyYf/s1600/windowss.jpg"
     },
     {
       "id": "f2addd5bcad9a208a63225abff1c09c79c6062da",
