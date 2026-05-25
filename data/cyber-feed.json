@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-25T19:44:43.665Z",
+  "generatedAt": "2026-05-25T21:12:04.960Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -23,7 +23,7 @@
       "name": "Exploit-DB",
       "url": "https://www.exploit-db.com/rss.xml",
       "status": "ok",
-      "items": 0
+      "items": 50
     },
     {
       "name": "The Hacker News",
@@ -76,9 +76,9 @@
   ],
   "items": [
     {
-      "id": "999c08612d620f35556828836a4eff5485959957",
+      "id": "c46a714edd68409380eb60b0f87d0ddd28612d4a",
       "title": "Lituanie : une fuite massive de données attribuée à un pays étranger",
-      "url": "https://fr.euronews.com/2026/05/25/lituanie-une-fuite-massive-de-donnees-attribuee-a-un-pays-etranger?amp%3Butm_campaign=feed_ukrainecrisis&amp%3Butm_medium=referral",
+      "url": "http://fr.euronews.com/my-europe/2026/05/25/lituanie-une-fuite-massive-de-donnees-attribuee-a-un-pays-etranger",
       "source": "Cybercriminalité FR",
       "publishedAt": "2026-05-25T18:53:21.000Z",
       "summary": "Sans coupable désigné, Lituanie et États baltes sont en alerte face aux tactiques de « guerre hybride » du Kremlin, dont les cyberattaques. Les autorités lituaniennes sont en état ",
@@ -549,15 +549,26 @@
       "imageUrl": "https://www.zataz.com/wp-content/uploads/CyberGend-lookup.jpg"
     },
     {
-      "id": "8ba5eee2ab615e17e935a4e6e8586fd13fea50fa",
+      "id": "e6953137bc0e3fb11f6ae1adab26ef1e35d55353",
       "title": "Selon les services secrets, le G7 représente une «menace élevée» pour la Suisse, et Genève en particulier",
-      "url": "https://www.24heures.ch/g7-geneve-face-a-une-menace-elevee-selon-les-services-secrets-558917332468?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "url": "https://www.tdg.ch/g7-geneve-face-a-une-menace-elevee-selon-les-services-secrets-558917332468?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
       "source": "Cybercriminalité FR",
       "publishedAt": "2026-05-22T15:50:24.000Z",
-      "summary": "• Le chef du SRC juge la menace élevée à la veille du sommet du G7 à Évian. • Terrorisme, extrémisme violent et cyberattaques constituent les trois …",
+      "summary": "Le chef du renseignement Serge Bavaud détaille les trois domaines dans lesquels ses services travaillent en relation avec le sommet à Évian.",
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://cdn.unitycms.io/images/9iVGcPHrKfO9wbGkQFO6s8.jpg?op=ocroped&amp%3Bval=1200%2C600%2C1000%2C667%2C167%2C0&amp%3Bsum=CF4eAySQmcs"
+    },
+    {
+      "id": "97e4919afbb7574e97aa2d05dfd9a002a1c258d7",
+      "title": "Cybersécurité : ce que les dirigeants ne peuvent plus ignorer",
+      "url": "https://www.journaldunet.com/cybersecurite/1550475-cybersecurite-ce-que-les-dirigeants-ne-peuvent-plus-ignorer/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-05-22T15:35:09.000Z",
+      "summary": "Un dirigeant peut-il, aujourd'hui, être sanctionné pour ne pas avoir suffisamment anticipé un risque cyber ? En 2026, la réponse est oui. Et ce …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/journaldunet.com/76e9844d779068a5cdfbf1c613ae4618605a4bb8/_xlarge.jpeg"
     },
     {
       "id": "b2929bbcb0029ef0dae6bef35b91a12949db3e47",
@@ -591,17 +602,6 @@
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUdjbDFZeTbwpdUFibGsmuDSgX_NHbFfTYroqcGYEGB6yvuKR3eUBSHo9XaphMTYmXC3cqmICDOGUjlsBrwwyJOxzkj1Cdh2xZcYxLz1WpHrV9QmloScYivp7jfyynDTiB51MTpsgGffJ9bZgYJeV3VhY6OA32tot8mC08F-g6KpU47zR513SkVqk-hIim/s1600/driver.jpg"
-    },
-    {
-      "id": "a1317771f0ec9af75b0a3f77357d1287550bd17e",
-      "title": "Formation en cybersécurité pour débutant : par où commencer ? - MaFormation",
-      "url": "https://www.maformation.fr/actualites/formation-cybersecurite-debutant-193258?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-22T09:57:31.000Z",
-      "summary": "Se former à la cybersécurité sans background technique, c’est possible. Les parcours accessibles aux débutants vont de la journée de sensibilisation …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/maformation.fr/448edc00c2da2c856e9a0c70d9b49a0058eb80a4/_xlarge.jpeg"
     },
     {
       "id": "700cba02de5c2089cdb88df94b7ce23318027c74",
@@ -1162,6 +1162,61 @@
       "summary": "Une vulnérabilité a été découverte dans Drupal. Elle permet à un attaquant de provoquer une injection SQL (SQLi). L'éditeur précise que la vulnérabilité CVE-2026-9082 affecte uniqu",
       "type": "CVE",
       "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "e14c6aa32b855bb2fabaaaf4fc495c12f53ca924",
+      "title": "[webapps] Cockpit 359 - RCE",
+      "url": "https://www.exploit-db.com/exploits/52572",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-05-21T00:00:00.000Z",
+      "summary": "Cockpit 359 - RCE",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": null
+    },
+    {
+      "id": "9c1770082aa0662a12e275c9f9d4cf1a98f60b09",
+      "title": "[webapps] BookStack 25.12.1 - Denial of Service",
+      "url": "https://www.exploit-db.com/exploits/52571",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-05-21T00:00:00.000Z",
+      "summary": "BookStack 25.12.1 - Denial of Service",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "2c2b5d15d729242f828a16b8cd2941f53102cf46",
+      "title": "[local] Lenovo LegionSpace 1.7.11.2 - 'DAService' Unquoted Service Path",
+      "url": "https://www.exploit-db.com/exploits/52570",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-05-21T00:00:00.000Z",
+      "summary": "Lenovo LegionSpace 1.7.11.2 - 'DAService' Unquoted Service Path",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "079e548877ac90f09e7f86a58cefac1dbcd5c3b4",
+      "title": "[webapps] solaredge - (CSRF-OOB-Injection)",
+      "url": "https://www.exploit-db.com/exploits/52569",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-05-21T00:00:00.000Z",
+      "summary": "solaredge - (CSRF-OOB-Injection)",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "f2a550f0ea2f29ed0427c9b8692b7bd02795276f",
+      "title": "[webapps] FUXA 1.2.9 - RCE",
+      "url": "https://www.exploit-db.com/exploits/52568",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-05-21T00:00:00.000Z",
+      "summary": "FUXA 1.2.9 - RCE",
+      "type": "CVE",
+      "severity": "Critique",
       "imageUrl": null
     },
     {
@@ -2045,6 +2100,39 @@
       "imageUrl": null
     },
     {
+      "id": "3ba5986c3aa230a86fc15b0b6ad0a0ef6cc7a90d",
+      "title": "[local] Windows Snipping Tool - NTLMv2 Hash Hijack",
+      "url": "https://www.exploit-db.com/exploits/52567",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-05-15T00:00:00.000Z",
+      "summary": "Windows Snipping Tool - NTLMv2 Hash Hijack",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "f2ae1a946158b623863b9389517a694615c96a1b",
+      "title": "[local] Remote Sunrise Helper for Windows 2026.14 - Unauthenticated File/Directory Listing",
+      "url": "https://www.exploit-db.com/exploits/52566",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-05-15T00:00:00.000Z",
+      "summary": "Remote Sunrise Helper for Windows 2026.14 - Unauthenticated File/Directory Listing",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "b923a5cac740a39ebfb1e130814c11f7e05528fd",
+      "title": "[local] Remote Sunrise Helper for Windows 2026.14 - Remote Code Execution",
+      "url": "https://www.exploit-db.com/exploits/52565",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-05-15T00:00:00.000Z",
+      "summary": "Remote Sunrise Helper for Windows 2026.14 - Remote Code Execution",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
       "id": "43448f97baff7aa27fcbdf2e866560eb1d392107",
       "title": "Comment Claude a aidé à récupérer 395 000 $ en Bitcoin sans casser la cryptographie | Benzinga France",
       "url": "https://fr.benzinga.com/crypto/comment-claude-a-aide-a-recuperer-395-000-en-bitcoin-sans-casser-la-cryptographie/?amp%3Butm_content=topic%2Ffr-cryptographie",
@@ -2185,94 +2273,6 @@
       "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-02.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "aba1d19d6ba894892a19e43b7ea85dbe3e7bc4d2",
-      "title": "Siemens Industrial Devices",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-06",
-      "source": "CISA",
-      "publishedAt": "2026-05-14T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-06.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "8df2f24fa1300c8b114592b9254f58b14b8839b0",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/05/14/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "source": "CISA",
-      "publishedAt": "2026-05-14T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA has added&amp;nbsp;one&amp;nbsp;new vulnerability&amp;nbsp;to its&amp;nbsp;&lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Know",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "c10519adeeef7f9fa0275a6be86899f1fd877007",
-      "title": "Siemens SIPROTEC 5",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-13",
-      "source": "CISA",
-      "publishedAt": "2026-05-14T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-13.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "3c0c42b4a17a0cc81671e7396c5edc2777eb8376",
-      "title": "Siemens SIMATIC",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-07",
-      "source": "CISA",
-      "publishedAt": "2026-05-14T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-134-07.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "f2addd5bcad9a208a63225abff1c09c79c6062da",
-      "title": "Claude aide à récupérer 395 000 $ en bitcoins bloqués sur un ordinateur depuis des années",
-      "url": "https://www.coindesk.com/fr/tech/2026/05/14/claude-helps-recover-usd395-000-in-bitcoin-trapped-on-a-computer-for-years?amp%3Butm_content=CoinDesk%2Fmagazine%2FCOINDESK+Fran%C3%A7ais",
-      "source": "Cryptographie FR",
-      "publishedAt": "2026-05-14T05:34:15.000Z",
-      "summary": "Le propriétaire tentait depuis huit semaines de forcer le mot de passe de son portefeuille Blockchain.com actuel, testant environ 3,5 billions de …",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/708aa3823548823e0c5fe35094db98ba9ba7a078-1500x997.jpg?auto=format&amp%3Bw=960&amp%3Bh=540&amp%3Bcrop=focalpoint&amp%3Bfit=clip&amp%3Bq=75&amp%3Bfm=jpg"
-    },
-    {
-      "id": "afbce5f8150bf396322052e7d10d7c1a4cad6a8d",
-      "title": "Abrigo - 711,099 breached accounts",
-      "url": "https://haveibeenpwned.com/Breach/Abrigo",
-      "source": "Have I Been Pwned",
-      "publishedAt": "2026-05-14T03:37:50.000Z",
-      "summary": "In April 2026, the fintech software company &lt;a href=\"https://x.com/DailyDarkWeb/status/2046928648393937001\" target=\"_blank\" rel=\"noopener\"&gt;Abrigo was targeted in a \"pay or le",
-      "type": "LEAK",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "4abe8a68f550e02336a071ef1763af4a47d675f9",
-      "title": "Canada Life - 237,810 breached accounts",
-      "url": "https://haveibeenpwned.com/Breach/CanadaLife",
-      "source": "Have I Been Pwned",
-      "publishedAt": "2026-05-13T06:51:17.000Z",
-      "summary": "In April 2026, &lt;a href=\"https://www.scworld.com/brief/multiple-other-companies-purportedly-breached-by-shinyhunters-over-9m-record-leak-warned\" target=\"_blank\" rel=\"noopener\"&gt",
-      "type": "LEAK",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "42d9fc626f5bd0b2d00393b96c9e2fc3a368dc66",
-      "title": "Exim - CVE-2026-45185",
-      "url": "https://cyberveille.esante.gouv.fr/index%2ephp/alertes/exim-cve-2026-45185-2026-05-13",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-05-13T02:27:04.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de type &lt;strong&gt;use-after-free&lt;/strong&gt; dans le traitement des corps de messages &lt;strong&gt;BDAT&lt;/strong&gt; (CHUNKING) ave",
-      "type": "CVE",
-      "severity": "Élevée",
       "imageUrl": null
     }
   ]
