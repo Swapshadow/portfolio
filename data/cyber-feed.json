@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T10:41:09.683Z",
+  "generatedAt": "2026-06-02T16:38:21.882Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -10,14 +10,15 @@
     {
       "name": "CISA",
       "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-      "status": "ok",
-      "items": 30
+      "status": "error",
+      "items": 0,
+      "error": "fetch failed"
     },
     {
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 113
+      "items": 118
     },
     {
       "name": "Exploit-DB",
@@ -76,6 +77,127 @@
   ],
   "items": [
     {
+      "id": "75b24e0ce7b4c8acf18c7796608f08b02276ce83",
+      "title": "Plus de code à taper, plus de plafond : la carte bancaire biométrique s'installe discrètement en France",
+      "url": "https://www.01net.com/actualites/plus-de-code-a-taper-plus-de-plafond-la-carte-bancaire-biometrique-sinstalle-discretement-en-france.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-02T15:12:48.000Z",
+      "summary": "De BNP Paribas au Crédit Agricole en passant par la Société Générale : la carte bancaire biométrique arrive en France. Comment fonctionne l’empreinte …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/5cc97659b4e20771273c3edd384ed03f9b268b14/_xlarge.jpeg"
+    },
+    {
+      "id": "53df23b2b57d3f8e5d514ccb0b9873677fc4ad5c",
+      "title": "L'Administration US en charge de la sécurité des infrastructures critiques (CISA) mise sur le réseau pour protéger les actifs vitaux du pays",
+      "url": "https://www.journaldunet.com/cybersecurite/1550819-l-administration-us-en-charge-de-la-securite-des-infrastructures-critiques-cisa-mise-sur-le-reseau-pour-proteger-les-actifs-vitaux-du-pays/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-02T15:10:00.000Z",
+      "summary": "Face aux menaces sur les systèmes industriels, la défense cyber doit se tourner vers des mécanismes similaires aux protections électriques, bien …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/journaldunet.com/e34779379d40118637dcd7570b89ba286038069d/_xlarge.jpeg"
+    },
+    {
+      "id": "90bf2c6eb6aa3a7c49118babb4cb3dc1a0022e83",
+      "title": "Gilles Galloux a-t-il retrouvé Xavier Dupont de Ligonnès ?",
+      "url": "https://www.radiofrance.fr/franceinter/podcasts/zoom-zoom-zen/zoom-zoom-zen-du-mardi-02-juin-2026-9759127?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-02T15:07:50.000Z",
+      "summary": "Ancien enquêteur de police judiciaire spécialisé en cybercriminalité, Gilles Galloux a participé à la traque de Xavier Dupont de Ligonnès dès 2011. …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/radiofrance.fr/76923cd321123323db50316b500c4dbd0f19af98/_xlarge.webp"
+    },
+    {
+      "id": "4c73d006459a2df287bfc92b91887d1581668652",
+      "title": "Assurance cyber : les entreprises grandes gagnantes de la guerre des prix",
+      "url": "https://www.lesechos.fr/finance-marches/banque-assurances/assurance-cyber-les-entreprises-grandes-gagnantes-de-la-guerre-des-prix-2234615?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-02T14:55:58.000Z",
+      "summary": "La guerre des prix fait rage dans l'assurance cyber. En 2025, les tarifs pour les grands groupes ont reculé, pour la troisième année d'affilée. Les …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://media.lesechos.com/api/v1/images/view/6a1eeefd640dcd6e0c027aa0/1280x720/01901662485494-web-tete.jpg"
+    },
+    {
+      "id": "738ea77c345c3d534c0d14991dd6ca1ccc41e677",
+      "title": "L’IA de Meta aurait permis à des hackers de pirater des comptes Instagram de personnalités, dont celui de Barack Obama",
+      "url": "https://siecledigital.fr/2026/06/02/lia-de-meta-aurait-permis-a-des-hackers-de-pirater-des-comptes-instagram-de-personnalites-dont-celui-de-barack-obama/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-02T14:38:16.000Z",
+      "summary": "Des pirates ont profité d'une grosse faille dans Meta AI pour s'approprier des milliers de comptes Instagram pendant plusieurs mois. Il a suffi de …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://siecledigital.fr/wp-content/uploads/2026/06/hackers-instagram.jpg"
+    },
+    {
+      "id": "6958e6c21ab0b677f318ef6880ca71f1ebdae441",
+      "title": "GTA 5 : le karma frappe 64 000 tricheurs dont les données ont été piratées",
+      "url": "https://www.frandroid.com/produits-android/console/3122849_gta-5-un-outil-de-triche-populaire-pirate-les-donnees-de-64-000-utilisateurs-dans-la-nature?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-02T12:29:53.000Z",
+      "summary": "Un hacker affirme avoir accédé aux systèmes d’un outil connu permettant de tricher dans GTA 5. Les données des utilisateurs ont été publiées sur …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://c0.lestechnophiles.com/images.frandroid.com/wp-content/uploads/2023/07/gta-5-game-pass.jpg?resize=1600%2C900&amp%3Bkey=0b0c422c&amp%3Bwatermark="
+    },
+    {
+      "id": "23cfcdf6a116277383aa023135f020d92ca83621",
+      "title": "AI-Driven Exploitation is Destroying Vulnerability Management. Here’s How to Handle It.",
+      "url": "https://thehackernews.com/2026/06/ai-driven-exploitation-is-destroying.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-06-02T11:58:00.000Z",
+      "summary": "AI-driven exploitation timelines are rapidly shrinking, and they are not going to stop shrinking. Vulnerabilities are being discovered, reproduced, and weaponized faster than ever ",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgC5W9v8FZkEWo3lLXfVm96RBtE2mlXcUmv-T0KxRiUVUsBhQOMm8MG6G-IExq0SIu3KlkO309v-a63s4dCkLdR6CCZ3Mf-XK-qi3a7T-Lp_mJB2jio7dLxMAnvAqxlh4J0-F7fUr7uiSeWOk7ldmBLNki4ORg2A_Y5yJ-tk0b9V6iJjjf7U4CRwD9eAA/s1600/watch.jpg"
+    },
+    {
+      "id": "e8750d200ce184ed112da1b5f2de942369e57206",
+      "title": "How Leading Organizations Are Turning EDR Into Operational Resilience",
+      "url": "https://thehackernews.com/2026/06/how-leading-organizations-are-turning.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-06-02T10:30:00.000Z",
+      "summary": "Most organizations now recognize that endpoint protection alone is no longer sufficient. That's why adoption of endpoint detection and response (EDR) has accelerated rapidly in rec",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdciYseLWNtSuIlPrhxjKI4HId3_-g3E9nr2PmvF-sdPELDdug8zPHASf-hJwZKEUXi9n0pjN08mhpoe-BB_wi241-xBwfKPT8YeJdo41fnHHC9phaZR4TrLiGfTXS8X2SKdlKJMMcwbTuh0LYSbdsHJtNgTfVD5AZU9Y6XzCTqdTg8Vy8qSAVXq254AM/s1600/alert.png"
+    },
+    {
+      "id": "08505ce760f833a2cd055cd35056aea74cb6ad15",
+      "title": "Cyberattaque : un nouveau dispositif déployé pour aider les victimes en Auvergne-Rhône-Alpes",
+      "url": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/rhone/lyon/cyberattaque-un-nouveau-dispositif-deploye-pour-aider-les-victimes-en-auvergne-rhone-alpes-3361123.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-02T10:11:49.000Z",
+      "summary": "En 2025, le ministère de l'Intérieur annonçait plus de 450.000 atteintes numériques dans notre pays. Le chiffre a augmenté de 87% en cinq ans. Face à …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/59316d98071a32467821e2c775467c0e80aca219/_large.jpeg"
+    },
+    {
+      "id": "db0ed1e0bc8f32d023d2f2028a4511566d46324f",
+      "title": "Optic 2000, Auchan Optique, Atol : les lunetiers français ciblés par une cyberattaque sans précédent",
+      "url": "https://www.futura-sciences.com/tech/actualites/cybersecurite-optic-2000-auchan-optique-atol-lunetiers-francais-cibles-cyberattaque-precedent-134800/",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-02T10:07:53.000Z",
+      "summary": "Quatre grandes enseignes d'optique françaises, plus de 6 millions de clients potentiellement exposés, et une faille si simple qu'elle tient en une …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/futura-sciences.com/a1212ec3b0d074a10fe213f8c42d6356c8d657d4/_xlarge.jpeg"
+    },
+    {
+      "id": "2a3af22abef334c60631bda98c3b3ff1fef0944c",
+      "title": "Guerre en Iran : le compte Instagram d’un haut gradé américain détourné pour diffuser de la propagande iranienne",
+      "url": "https://www.leparisien.fr/international/iran/guerre-en-iran-le-compte-instagram-dun-haut-responsable-americain-pirate-pour-diffuser-de-la-propagande-pro-teheran-02-06-2026-626VO45BVJHK5AJADUUXOM7TUQ.php?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-02T09:57:38.000Z",
+      "summary": "Les hackers responsables de l’attaque ont publié dimanche des vidéos de propagande sur le compte Instagram de John Bentivegna, l’un des plus haut …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.leparisien.fr/resizer/EMM9l6nOoSFISbT8ELdrtAq8F0E=/1600x900/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/XCXTRLURV5DQRLQA532K4IN5AI.jpg"
+    },
+    {
       "id": "87ee69705d5546b9600a2af33d9da928cb67710b",
       "title": "Pakistan-Linked SideCopy Targets Afghanistan Finance Ministry with Xeno RAT",
       "url": "https://thehackernews.com/2026/06/pakistan-linked-sidecopy-targets.html",
@@ -87,15 +209,15 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiilTEadDjLrLdKByKVP6n_zfNSbhTTutHu-9BbbIDTBotobmqmIOI7fDdGGHZQQB7wTo00L66NAKZBA3iRBLQpSf_NgH9hKe9Xd-WUoijt7y-CUbdZore_qSZpTmuBhExaAxeXn39EPCVPYugMnJ85c15e161ttOMRmbSAv7NcbUlYrqDV4NnbzHZvw0A5/s1600/paki.gif"
     },
     {
-      "id": "1dcc77e914d44aa1dfa7bdab5ec8fda1dd4f399f",
-      "title": "Aujourd'hui l'économie - Le géant chinois Huawei au cœur d’une fracture européenne entre sécurité et économie",
-      "url": "https://www.rfi.fr/fr/podcasts/aujourd-hui-l-%C3%A9conomie/20260602-le-g%C3%A9ant-chinois-huawei-au-c%C5%93ur-d-une-fracture-europ%C3%A9enne-entre-s%C3%A9curit%C3%A9-et-%C3%A9conomie?amp%3Butm_content=topic%2Ffr-%C3%A9conomie",
+      "id": "0f94bec00057a169a14b2a984bb4d5d7bd31c37d",
+      "title": "Microsoft contre Nightmare Eclipse: la divulgation de failles informatiques par un chercheur en cybersécurité relance un vieux bras de fer entre \"white hats\" et géants du numérique",
+      "url": "https://www.bfmtv.com/tech/cybersecurite/microsoft-contre-nightmare-eclipse-la-divulgation-de-failles-informatiques-par-un-chercheur-en-cybersecurite-relance-un-vieux-bras-de-fer-entre-white-hats-et-geants-du-numerique_AV-202606020354.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
       "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-02T08:07:33.000Z",
-      "summary": "L’Union européenne souhaite renforcer sa cybersécurité en limitant la présence des fournisseurs chinois dans ses infrastructures critiques. Mais cette stratégie se heurte à l’oppos",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://ic-cdn.flipboard.com/rfi.fr/fa5d16f1a159696ee1f109388f2e2e4f7bfb960f/_xlarge.jpeg"
+      "publishedAt": "2026-06-02T08:18:21.000Z",
+      "summary": "Après la publication de plusieurs failles non corrigées touchant des produits Microsoft par un chercheur en sécurité, l'entreprise menace de …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/bfmtv.com/a2a93350efcbc353681512d0313a181dab3f6cc1/_xlarge.jpeg"
     },
     {
       "id": "3a46babc0f76f58cc52e0db805dbf36f1362517b",
@@ -107,17 +229,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/latribune.fr/6ac93fee69599df71f63be8213e99fe78bd7a466/_large.jpeg"
-    },
-    {
-      "id": "036c7ba02ec916a85830d6723569937a6d7e499d",
-      "title": "Cybersécurité : Anthropic ouvre les portes de son IA \"super-hacker\" Mythos à l'Europe - ZDNET",
-      "url": "https://www.zdnet.fr/actualites/cybersecurite-anthropic-ouvre-les-portes-de-son-ia-super-hacker-mythos-a-leurope-495980.htm",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-02T07:13:48.000Z",
-      "summary": "Fin de l'asymétrie transatlantique ? Après des mois d'inquiétude face aux capacités de détection de vulnérabilités de Mythos, Anthropic propose enfin …",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2025/05/anthropic.jpg"
     },
     {
       "id": "1b079db359db5d3b382dc8cdb1c240f9dbd18c69",
@@ -184,6 +295,138 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMY3oQNaqfV2_sMYMZJ_EbUA90VD_t0w342aOV-tTDXEui63NgSB0SPYPhGVW9e5i8ZcEk7P5uudw6PJOi5od9rdsq9GzG0npc8FiqXuQ33r-zg81AMHW53prz_ovs2YbKrjaNfOOAp1tpmjhE3ADsjVymKPDGf4TyikPb1z18MOWk2YH-BteUQ6EUqYFI/s1600/dashlane.png"
+    },
+    {
+      "id": "22ef51eedcc467b43542413757d05c364947a8aa",
+      "title": "Noyau Linux - CVE-2026-46243",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/noyau-linux-cve-2026-46243-2026-06-02",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-02T02:45:24.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;validation insuffisante des entrées&lt;/strong&gt; dans le sous-système &lt;strong&gt;CIFS/SMB du noyau Linux&lt;/strong&gt;",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "fd3ad958f6ea72763911d8048fc139afcd64fec1",
+      "title": "Microsoft - CVE-2026-41089",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/microsoft-cve-2026-41089-2026-06-02",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-02T02:43:55.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;débordement de tampon basé sur la pile&lt;/strong&gt; (stack-based buffer overflow) dans la fonction RPC &lt;strong&gt;NetrS",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "9e242899cef6fa16c54a9642295e9ef61eb723e8",
+      "title": "Ivanti - CVE-2026-9614",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/ivanti-cve-2026-9614-2026-06-02",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-02T02:42:20.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;contrôle d'accès incorrect&lt;/strong&gt; dans Ivanti Neurons for ITSM, affectant les versions cloud et on-premises.&lt;/p&g",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "408414aa6963e9d52d50f1f6e408fc69943a5131",
+      "title": "IBM - CVE-2026-9311",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/ibm-cve-2026-9311-2026-06-02",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-02T02:40:30.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;contournement de contrôles de sécurité&lt;/strong&gt; dans IBM WebSphere Application Server versions 8.5 et 9.0.&lt;/p&gt; &",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "d0cd205b16a01ff5368b2514723bc1e3b8812617",
+      "title": "Google - CVE-2025-48595",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/google-cve-2025-48595-2026-06-02",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-02T02:39:36.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;débordement d'entier&lt;/strong&gt; (integer overflow) dans le composant &lt;strong&gt;Framework&lt;/strong&gt; d'Android, p",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "b05dc8a22cd86f6e53cddf7bc164534b802f8234",
+      "title": "Multiples vulnérabilités dans Mozilla Firefox (02 juin 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0676/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-06-02T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Mozilla Firefox. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "2ce7dd1b01c382e587065ba5ed23cb699cae2357",
+      "title": "Multiples vulnérabilités dans Google Android (02 juin 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0679/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-06-02T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Google Android. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "5248cfbf40901030311e11ac6d35a3496a52337a",
+      "title": "Multiples vulnérabilités dans les produits Microsoft (02 juin 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0681/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-06-02T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Microsoft. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un problème",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "35ac8ae57e4b398c3f5eeb203ac1d80f0c4a3f00",
+      "title": "Multiples vulnérabilités dans GLPI (02 juin 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0675/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-06-02T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans GLPI. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à l'intégrité des données, une injection de c",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "8262a278c6b80e2d5ded67cfbecd66a339a9de4b",
+      "title": "Vulnérabilité dans les produits Ivanti (02 juin 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0677/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-06-02T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans les produits Ivanti. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "61c339ea7b8db8287db26a60be19bb30044966e6",
+      "title": "Vulnérabilité dans Apache Kafka (02 juin 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0678/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-06-02T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans Apache Kafka. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de s",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "51921ffb35bfb5dee62ffa76f124204c78e4adb5",
+      "title": "Multiples vulnérabilités dans Microsoft Edge (02 juin 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0680/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-06-02T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
     },
     {
       "id": "4b1f64c56c67254c4c363fa3d137a05c9333bdd9",
@@ -304,17 +547,6 @@
       "summary": "À l&rsquo;occasion de la 22ème édition du Safer Internet Day, la journée internationale pour un Internet plus sûr, Cybermalveillance.gouv.fr lance Cyber en Clair, une campagne pour",
       "type": "NEWS",
       "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "35ff49b0e793318e0e6d28a8db2dbc8e3bfb73f9",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/06/01/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "source": "CISA",
-      "publishedAt": "2026-06-01T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA has added one new vulnerability to its&amp;nbsp;&lt;a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"&gt;Known Exploited Vulnerabilities (KEV) Cat",
-      "type": "CVE",
-      "severity": "Critique",
       "imageUrl": null
     },
     {
@@ -626,17 +858,6 @@
       "imageUrl": "https://media.lesechos.com/api/v1/images/view/6a1c1e1f06e8b725eb0c6c24/1280x720/01901384758278-web-tete.jpg"
     },
     {
-      "id": "ed9b72c4216cf4f49909b48e7959fa2c536787fb",
-      "title": "Cyberguerre: dans l'ombre du cyberespace, comment les \"groupes APT\" sont devenus les soldats invisibles des affrontements géopolitiques contemporains",
-      "url": "https://www.bfmtv.com/tech/cybersecurite/cyberguerre-dans-l-ombre-du-cyberespace-comment-les-groupes-apt-sont-devenus-les-soldats-invisibles-des-affrontements-geopolitiques-contemporains_AN-202605310027.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-31T07:24:00.000Z",
-      "summary": "SÉRIE CYBERGUERRE. Des groupes de hackers, parfois liés à des États, sont aujourd’hui au cœur du cyberespionnage et du vol de données. Ces “groupes …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/bfmtv.com/57e6131707c1b81395b9544cbfe2426149f3c050/_xlarge.jpeg"
-    },
-    {
       "id": "0ea54a0596430774f58221745765f4ca9c92e944",
       "title": "Atlas Menu - 63,926 breached accounts",
       "url": "https://haveibeenpwned.com/Breach/AtlasMenu",
@@ -668,17 +889,6 @@
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/128d9f398bbe864f843d89bdca5e598792f16885-1280x960.jpg?auto=format&amp%3Bw=960&amp%3Bh=540&amp%3Bcrop=focalpoint&amp%3Bfit=clip&amp%3Bq=75&amp%3Bfm=jpg"
-    },
-    {
-      "id": "3fce4f90e0474b267e23abba8b02b6c1a19b3fb0",
-      "title": "Vie privée : en Italie, ces logiciels espions low cost sont massivement utilisés par la police",
-      "url": "https://www.01net.com/actualites/vie-privee-en-italie-ces-logiciels-espions-low-cost-sont-massivement-utilises-par-la-police.html?amp%3Butm_content=topic%2Ffr-technologie",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-30T14:01:01.000Z",
-      "summary": "En Italie, les enquêteurs utilisent très fréquemment des logiciels espions peu onéreux, développés par plusieurs entreprises locales. Ces outils …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/35643a7279fd9b2cd6e3284493aaf2fc533a2cb3/_xlarge.jpeg"
     },
     {
       "id": "6e4b4e344ee74d24770ede7369165e71c9549984",
@@ -723,17 +933,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://www.zataz.com/wp-content/uploads/Lituanie_leak.jpg"
-    },
-    {
-      "id": "9cde6be9c1eb3ebceed55eb34438c2ede587a78b",
-      "title": "Des sites Web peuvent vous espionner via votre SSD : la faille que personne n’avait vue",
-      "url": "https://www.futura-sciences.com/tech/actualites/cybersecurite-sites-web-peuvent-vous-espionner-via-votre-ssd-faille-personne-navait-vue-134896/",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-30T08:29:20.000Z",
-      "summary": "Une simple page Web peut-elle en apprendre davantage sur votre activité que vous ne l’imaginez ? Des chercheurs viennent de démontrer qu’un mécanisme …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/futura-sciences.com/f7ef244843381f3542b9068d18bf1623ff358ebd/_xlarge.jpeg"
     },
     {
       "id": "ae330866d313f0613a41f4b82822278ee4fd8089",
@@ -868,17 +1067,6 @@
       "imageUrl": "https://www.zataz.com/wp-content/uploads/wc-fifa-titre-2026.jpg"
     },
     {
-      "id": "723856f40d5e27b08e5e4e3fef39eac7f66b0e9e",
-      "title": "L'invisibilité : le nouveau paradigme de la cybersécurité des données",
-      "url": "https://www.journaldunet.com/cybersecurite/1549581-l-invisibilite-le-nouveau-paradigme-de-la-cybersecurite-des-donnees/?amp%3Butm_content=topic%2Ffr-technologie",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-29T14:10:30.000Z",
-      "summary": "Face à des cyberattaques de plus en plus sophistiquées, la cybersécurité doit passer d'une protection visible à une stratégie d'invisibilité et …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/journaldunet.com/49a8683a8c08e5a24658b0c49bf8975d3f24bbb3/_xlarge.jpeg"
-    },
-    {
       "id": "bac64dd605123204ff1e3a0956e7a3474568500d",
       "title": "Un prédateur numérique condamné à 33 ans",
       "url": "https://www.zataz.com/un-predateur-numerique-condamne-a-33-ans/",
@@ -910,17 +1098,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://www.zataz.com/wp-content/uploads/vpn_deepseek.jpg"
-    },
-    {
-      "id": "735061b376e9d2bbf801d6b5c7629c77cc915a12",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/05/29/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "source": "CISA",
-      "publishedAt": "2026-05-29T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA has added one new vulnerability to its &lt;a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\" data-entity-type=\"node\" data-entity-uuid=\"79453b83-86",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
     },
     {
       "id": "1df8e3c77f7521a2712510ed1570146f1905388c",
@@ -956,17 +1133,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9_WTd_LhWXwvu2jTcVVVgE_IpLISA8vfn0awG8fVwVv_vxx1LvLU7XOxFCtSLMbiP6JKPQfFMdpA7cRJy0Phlu-RWtKH8m57ZMUwRI-tz0C-cAiASKIFS2Fytms6DnCCEif9l-CYN0drhFUEbrt71isM3LmzuA8Guqmhn6iiRqrTROcX-9tniNTQsglc/s1600/red.jpg"
     },
     {
-      "id": "25186fbcde6d73efce0253d97568091850af04a5",
-      "title": "« Et ensuite ? » Anthropic dévoile Opus 4.8 mais tous les yeux sont rivés ailleurs",
-      "url": "https://www.numerama.com/tech/2262565-et-ensuite-anthropic-devoile-opus-4-8-mais-tous-les-yeux-sont-rives-ailleurs.html?amp%3Butm_source=flipboard&amp%3Butm_content=directlink&amp%3Butm_campaign=2262565",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-29T09:35:53.000Z",
-      "summary": "Anthropic a mis à jour son modèle phare avec Opus 4.8, sorti le 28 mai. Les benchmarks sont au rendez-vous. Mais le communiqué officiel laisse …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://c0.lestechnophiles.com/www.numerama.com/wp-content/uploads/2026/05/design-sans-titre-2026-05-29t111713501.jpg?resize=1600%2C900&amp%3Bkey=b98034ea&amp%3Bwatermark="
-    },
-    {
       "id": "d2166359c7ac5ce545192d0df40783496a6f5ee2",
       "title": "Malicious Sicoob NuGet Steals Banking Credentials as npm Packages Target Cloud Secrets",
       "url": "https://thehackernews.com/2026/05/malicious-sicoob-nuget-steals-banking.html",
@@ -978,9 +1144,9 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUbmZyAOVZRXrWddG8PMuXbVyex9s5HPD2cH8rDjYP6EHuVadkyj72NdN9PreAnGX9iOCVGxWI2YmSLu818VmdLGEcPkb60qPIUgBYh5oBHsA4KKYufsHbFGhAQDD7SjpZU0In0TPiHN4TxCR4THBwmKa4Bus98vBgx5mO3QTQRpTM5RERk8bFWi4psF7d/s1600/sdk.jpg"
     },
     {
-      "id": "34a839852636a2883694bff84e611d831864fbc7",
+      "id": "fbbc4afd50d43d3f68b9421a3a8a1361d9e8b880",
       "title": "Joomla! - CVE-2026-48898",
-      "url": "https://cyberveille.esante.gouv.fr/index%2ephp/alertes/joomla-cve-2026-48898-2026-05-29",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/joomla-cve-2026-48898-2026-05-29",
       "source": "Cyberveille Santé",
       "publishedAt": "2026-05-29T08:01:41.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le composant &lt;strong&gt;com_users&lt;/strong&gt; de Joomla!.&lt;/p&gt; &lt;p&gt;Joomla! est un système de gestion de contenu (CMS) op",
@@ -989,9 +1155,9 @@
       "imageUrl": null
     },
     {
-      "id": "a96d65fe6cd08bad57b22f59267c3f43b4946698",
+      "id": "9a5a9d51af775910dde4c1ec3cf5c58445420a3f",
       "title": "Veeam - CVE-2026-32998",
-      "url": "https://cyberveille.esante.gouv.fr/index%2ephp/alertes/veeam-cve-2026-32998-2026-05-29",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/veeam-cve-2026-32998-2026-05-29",
       "source": "Cyberveille Santé",
       "publishedAt": "2026-05-29T08:00:10.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le mécanisme de &lt;strong&gt;gestion des alarmes&lt;/strong&gt; de Veeam Service Provider Console.&lt;/p&gt; &lt;p&gt;Veeam Service Pro",
@@ -1000,9 +1166,9 @@
       "imageUrl": null
     },
     {
-      "id": "fe8440bfd6e4e930da3658142dec5819346ad727",
+      "id": "8b98c9c7456d23885c4c903e52c2b252521e1b3d",
       "title": "Delta Electronics - CVE-2026-9642",
-      "url": "https://cyberveille.esante.gouv.fr/index%2ephp/alertes/delta-electronics-cve-2026-9642-2026-05-29",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/delta-electronics-cve-2026-9642-2026-05-29",
       "source": "Cyberveille Santé",
       "publishedAt": "2026-05-29T07:59:02.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;contournement de correctif&lt;/strong&gt; dans Delta Electronics DIAView.&lt;/p&gt; &lt;p&gt;DIAView est un logiciel SCADA (",
@@ -1011,9 +1177,9 @@
       "imageUrl": null
     },
     {
-      "id": "5dc7350343cab4d5c60776a21c6614f9d1db5e65",
+      "id": "451ff2f5afb220580835af4bde4ff527f97e92b4",
       "title": "GitHub - CVE-2026-9312",
-      "url": "https://cyberveille.esante.gouv.fr/index%2ephp/alertes/github-cve-2026-9312-2026-05-29",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/github-cve-2026-9312-2026-05-29",
       "source": "Cyberveille Santé",
       "publishedAt": "2026-05-29T07:56:50.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de type &lt;strong&gt;Server-Side Request Forgery&lt;/strong&gt; dans un &lt;strong&gt;endpoint d'upload&lt;/strong&gt; de GitHub Enterprise ",
@@ -1022,9 +1188,9 @@
       "imageUrl": null
     },
     {
-      "id": "1a8b46bb08b9d0c85a78c51954b6bbf895c9979c",
+      "id": "de33b027dc4516e2d78ae6f05c96e3dd7b8198c2",
       "title": "KubeVirt - CVE-2026-7374",
-      "url": "https://cyberveille.esante.gouv.fr/index%2ephp/alertes/kubevirt-cve-2026-7374-2026-05-29",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/kubevirt-cve-2026-7374-2026-05-29",
       "source": "Cyberveille Santé",
       "publishedAt": "2026-05-29T07:50:22.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le composant &lt;strong&gt;virt-handler&lt;/strong&gt; de KubeVirt.&lt;/p&gt; &lt;p&gt;Red Hat OpenShift Virtualization est une solution",
@@ -1044,9 +1210,9 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJfUl1K-os1XyLN-SBt6PgMia_jFG03ArRa3H0FI2hsiUqNa3lqSWY2NJcvOhY33TArSKJxeookUpkATdERUpEwKw-IUi6iv9ZVuUq4c1A99mLwgQB4ibCxBx4MBR1XXmM98zH7v-QWDO7bhh1AONQ8Op0htvwHhuivwI1Cch9rgLPO-zSGCjjQbvXdDte/s1600/north-korea.png"
     },
     {
-      "id": "bcfab0847ae461894af333128edcbc1f68807755",
+      "id": "aa144d66a3ff4648d5f8f6761de22d6bb881b49c",
       "title": "Oracle - CVE-2026-46840",
-      "url": "https://cyberveille.esante.gouv.fr/index%2ephp/alertes/oracle-cve-2026-46840-2026-05-29",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/oracle-cve-2026-46840-2026-05-29",
       "source": "Cyberveille Santé",
       "publishedAt": "2026-05-29T02:20:11.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le composant &lt;strong&gt;Backend-as-a-Service&lt;/strong&gt; d'&lt;strong&gt;Oracle REST Data Services&lt;/strong&gt;.&lt;/p&gt; &lt;p",
@@ -1055,9 +1221,9 @@
       "imageUrl": null
     },
     {
-      "id": "b318b7824ffd0729f560cb6a173b144cc7693d33",
+      "id": "af551b099363fdaaf984ce307da7c18680f52d01",
       "title": "CloudNativePG - CVE-2026-44477",
-      "url": "https://cyberveille.esante.gouv.fr/index%2ephp/alertes/cloudnativepg-cve-2026-44477-2026-05-29",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/cloudnativepg-cve-2026-44477-2026-05-29",
       "source": "Cyberveille Santé",
       "publishedAt": "2026-05-29T02:18:33.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le &lt;strong&gt;métriques exporter&lt;/strong&gt; de &lt;strong&gt;CloudNativePG&lt;/strong&gt;.&lt;/p&gt; &lt;p&gt;CloudNativePG est u",
@@ -1066,9 +1232,9 @@
       "imageUrl": null
     },
     {
-      "id": "c2d74972bce8f99def2d42ea415177b5474764e9",
+      "id": "6d3c7a5095b8c239d009ed542e0d520f097bafcf",
       "title": "InHand Networks - CVE-2026-38704",
-      "url": "https://cyberveille.esante.gouv.fr/index%2ephp/alertes/inhand-networks-cve-2026-38704-2026-05-29",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/inhand-networks-cve-2026-38704-2026-05-29",
       "source": "Cyberveille Santé",
       "publishedAt": "2026-05-29T02:16:56.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans la &lt;strong&gt;fonctionnalité WireGuard VPN&lt;/strong&gt; des routeurs industriels &lt;strong&gt;InHand Networks IR302, IR305, IR315 ",
@@ -1077,9 +1243,9 @@
       "imageUrl": null
     },
     {
-      "id": "5ae19458f098c6c9fe3ff2e85aeddcd7e55a11bb",
+      "id": "649e9e52891592595a9b4ed7d51552c7e3dfd5fb",
       "title": "Google - CVE-2026-9896",
-      "url": "https://cyberveille.esante.gouv.fr/index%2ephp/alertes/google-cve-2026-9896-2026-05-29",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/google-cve-2026-9896-2026-05-29",
       "source": "Cyberveille Santé",
       "publishedAt": "2026-05-29T02:14:23.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le moteur &lt;strong&gt;JavaScript V8&lt;/strong&gt; de &lt;strong&gt;Google Chrome&lt;/strong&gt;.&lt;/p&gt; &lt;p&gt;Une écriture &lt;",
@@ -1088,9 +1254,9 @@
       "imageUrl": null
     },
     {
-      "id": "95a648e020a14f83e01e76070bdb02bcfbfd626f",
+      "id": "76669bd659cd93c7919cfaf33f2cc7e7e81b8e26",
       "title": "OpenVPN - CVE-2026-9560",
-      "url": "https://cyberveille.esante.gouv.fr/index%2ephp/alertes/openvpn-cve-2026-9560-2026-05-29",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/openvpn-cve-2026-9560-2026-05-29",
       "source": "Cyberveille Santé",
       "publishedAt": "2026-05-29T02:09:46.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le &lt;strong&gt;composant privileged helper&lt;/strong&gt; d'&lt;strong&gt;OpenVPN Connect&lt;/strong&gt; sur &lt;strong&gt;macOS&lt;/s",
@@ -1429,116 +1595,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBnLTRREuP8t8AoMRlakMDVRNoOYCA18IuBTWxA_nms12GdQaSfaU1kgpLSrgUvFFH1goJ_-NOIerDAnZxlD86Oafg_b6QdecLrT4UJdb3_qfmgtxdjrhF8GioeuEZbyZBTVL4cXUcpWqZujpLoI4zBm9y7XvFUjYR5cjF0GmmU_TXlmX0W7zsxlcvV9mW/s1600/tbb.jpg"
     },
     {
-      "id": "71fa657bca0a43e2efacdb7b82a30ec02ef9147a",
-      "title": "MacGregor Voyage Data Recorder (VDR) G4e",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-01",
-      "source": "CISA",
-      "publishedAt": "2026-05-28T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-148-01.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "83a993e18b02205154ea1b1b78df7100347816ac",
-      "title": "ABB EIBPORT",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-03",
-      "source": "CISA",
-      "publishedAt": "2026-05-28T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-148-03.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "e345dbe3847c7904982ef1f16baf8b04491d5979",
-      "title": "Jinan USR IOT Technology Limited (PUSR) USR-W610 RS232/485 to Wi-Fi/Ethernet Converter",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-02",
-      "source": "CISA",
-      "publishedAt": "2026-05-28T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-148-02.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "e70b465fa24e11b2641897572a8a03a6955be893",
-      "title": "ABB Busch-Welcome 2 Wire Door Opener Actuator",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-04",
-      "source": "CISA",
-      "publishedAt": "2026-05-28T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-148-04.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "5177f261727a778803b3e39d4445e99491ec866b",
-      "title": "Fourth Frontier Frontier X Mobile Application, Frontier X2",
-      "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-148-01",
-      "source": "CISA",
-      "publishedAt": "2026-05-28T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsma-26-148-01.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "3232cd1844118714dc58c09efd5e349c1d068d67",
-      "title": "Schneider Electric EcoStruxure Machine Expert HVAC",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-07",
-      "source": "CISA",
-      "publishedAt": "2026-05-28T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-148-07.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "f2380ca110e5222874547a47ae4c174e9e778a1f",
-      "title": "KMW CCTV Security Cameras",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-06",
-      "source": "CISA",
-      "publishedAt": "2026-05-28T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-148-06.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "1edcf1781b00073db3d48ce7b3ca74221b28de3a",
-      "title": "CP Plus 8 Ch. Network Video Recorder",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-05",
-      "source": "CISA",
-      "publishedAt": "2026-05-28T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-148-05.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "f640e871d9cfa7bba842ea2cd0fcfb2a32de5d15",
-      "title": "Supply Chain Compromises Impact Nx Console and GitHub Repositories",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/05/28/supply-chain-compromises-impact-nx-console-and-github-repositories",
-      "source": "CISA",
-      "publishedAt": "2026-05-28T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA is prioritizing the response to multiple emerging software supply chain intrusion campaigns targeting developer ecosystems Continuous Integration/Continuous Developme",
-      "type": "CVE",
-      "severity": "Moyenne",
-      "imageUrl": null
-    },
-    {
-      "id": "2252810d55a6796a66dc6ae79796ebb3b9c59966",
-      "title": "XCharge C6",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-08",
-      "source": "CISA",
-      "publishedAt": "2026-05-28T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-148-08.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
       "id": "e16188fe8fc35257eed33f7e86a1a64570f13ccc",
       "title": "New AI Usage Report: Enterprise AI Risk Is Heavily Concentrated Among a Small Group of AI \"Power users\"",
       "url": "https://thehackernews.com/2026/05/new-ai-usage-report-enterprise-ai-risk.html",
@@ -1682,17 +1738,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6kyKLwKpVhYgitj4fm1vRuvXJPKSpYpf_WcR-b0_8CVkNeFLtcxO158cmOS_GAVNi7G1xTrDOLVcVqBXKW-rI31rDAVXhN-A3Q1g11l_17bAKuedJx_meh5Pf4hoRVLwx55EECim9EGrI0xRCsq2Dx-8nBNlNwIVqEApy16ZBm48DuqDq2Q7BtRKm3AA/s1600/shadow.jpg"
     },
     {
-      "id": "34236ca181960b28d5ce8413264e4eb14182273a",
-      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/05/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
-      "source": "CISA",
-      "publishedAt": "2026-05-27T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA has added&amp;nbsp;three&amp;nbsp;new vulnerabilities&amp;nbsp;to its&amp;nbsp;&lt;a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"&gt;Known Expl",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
       "id": "7a6a9d09583e8995c13d91dc1e5ca32925bbb6d0",
       "title": "GlassWorm Malware Takedown Disrupts Developer Supply Chain Attack Infrastructure",
       "url": "https://thehackernews.com/2026/05/glassworm-malware-takedown-disrupts.html",
@@ -1737,17 +1782,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqt5LC8yrEqRzxRxEUTh3yZSnXovvZU0R11suWWfP1FEKvC5ZOpPnLHpdDjAzUADZarX1C3XucsG5OOXN3Zj4-esPhUnz4DBnAdDxkZw3aEqdH_HHPn4N5Eu03Y-tG_kEmPOxKyMH14wpiOYs9w8jh7U6MlHjHqiS4nNxLH_NpS47oR-mRW5GfuDvX9VFo/s1600/ai-tools.jpg"
     },
     {
-      "id": "a7842b97db946c9e0125e0248c88ba0d0ae369a1",
-      "title": "Catastrophe : votre compte PlayStation en danger à cause d’une cyberattaque massive",
-      "url": "https://www.journaldugeek.com/2026/05/27/catastrophe-votre-compte-playstation-en-danger-a-cause-dune-cyberattaque-massive/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-27T06:46:36.000Z",
-      "summary": "De nombreux joueurs ont perdu accès à leur compte PlayStation en quelques jours à cause de cette faille PSN qui inquiète Sony.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/journaldugeek.com/52a58fc403d1e58d3714fee7b34eb82aeede5466/_xlarge.jpeg"
-    },
-    {
       "id": "a33fc42366375067c2fab3166a9091f748661cfb",
       "title": "Mytheresa - 84,108 breached accounts",
       "url": "https://haveibeenpwned.com/Breach/Mytheresa",
@@ -1770,20 +1804,9 @@
       "imageUrl": "https://ic-cdn.flipboard.com/presse-citron.net/e8eaefa027f19cc19dea59057bac436b41c6a0f3/_xlarge.jpeg"
     },
     {
-      "id": "6e4efb400ae8460013e269c3b72729158377e99e",
-      "title": "Carte bancaire : c'est la fin du code à 4 chiffres, comment cela va-t-il fonctionner dorénavant ?",
-      "url": "https://www.pleinevie.fr/conso-argent/carte-bancaire-cest-la-fin-du-code-a-4-chiffres-comment-cela-va-t-il-fonctionner-dorenavant-207927.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-27T04:53:11.000Z",
-      "summary": "Composer un code à 4 chiffres avant chaque paiement pourrait bientôt appartenir au passé. Les banques françaises accélèrent désormais le déploiement …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://sf1.pleinevie.fr/wp-content/uploads/pleinevie/2026/05/carte-bancaire-cest-la-fin-du-code-a-4-chiffres-comment-cela-va-t-il-fonctionner-dorenavant-.jpg"
-    },
-    {
-      "id": "90d0d15764d4d15257359ed688fa6b217b6fc279",
+      "id": "0638eb4e06b1c05ced8ba3a16b32855497fd8751",
       "title": "7-Zip - CVE-2026-48095",
-      "url": "https://cyberveille.esante.gouv.fr/index%2ephp/alertes/7-zip-cve-2026-48095-2026-05-27",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/7-zip-cve-2026-48095-2026-05-27",
       "source": "Cyberveille Santé",
       "publishedAt": "2026-05-27T02:32:17.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;débordement de tampon tas&lt;/strong&gt; dans le gestionnaire d'archives NTFS de 7-Zip.&lt;/p&gt; &lt;p&gt;7-Zip est un logi",
@@ -1792,9 +1815,9 @@
       "imageUrl": null
     },
     {
-      "id": "ed1eeeab52c7b7d159c4c562581c328f1519f652",
+      "id": "d42e08c81e8f66522bc6790caff50e8751464764",
       "title": "Microsoft - CVE-2026-45659",
-      "url": "https://cyberveille.esante.gouv.fr/index%2ephp/alertes/microsoft-cve-2026-45659-2026-05-27",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/microsoft-cve-2026-45659-2026-05-27",
       "source": "Cyberveille Santé",
       "publishedAt": "2026-05-27T02:29:18.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le mécanisme de &lt;strong&gt;désérialisation de données&lt;/strong&gt; de Microsoft SharePoint Server.&lt;/p&gt; &lt;p&gt;Lors du trait",
@@ -1803,9 +1826,9 @@
       "imageUrl": null
     },
     {
-      "id": "0b8ea4dea3752fbf7a82b7b6168dd8924d96a4b0",
+      "id": "4e48d217b5c7026ab996b76f6be635f11adc3052",
       "title": "GnuTLS - CVE-2026-42013",
-      "url": "https://cyberveille.esante.gouv.fr/index%2ephp/alertes/gnutls-cve-2026-42013-2026-05-27",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/gnutls-cve-2026-42013-2026-05-27",
       "source": "Cyberveille Santé",
       "publishedAt": "2026-05-27T02:27:03.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le mécanisme de &lt;strong&gt;validation des certificats&lt;/strong&gt; de GnuTLS.&lt;/p&gt; &lt;p&gt;GnuTLS est une bibliothèque logici",
@@ -1814,9 +1837,9 @@
       "imageUrl": null
     },
     {
-      "id": "12144b1fd678abd6039aae3141eb4747ad266df4",
+      "id": "ba0768580354e236462a7c17514770b67f2a0553",
       "title": "IBM - CVE-2026-8633",
-      "url": "https://cyberveille.esante.gouv.fr/index%2ephp/alertes/ibm-cve-2026-8633-2026-05-27",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/ibm-cve-2026-8633-2026-05-27",
       "source": "Cyberveille Santé",
       "publishedAt": "2026-05-27T02:23:26.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le composant &lt;strong&gt;Web Server Plug-ins&lt;/strong&gt; d'IBM WebSphere Application Server et WebSphere Application Server Liberty",
@@ -1825,9 +1848,9 @@
       "imageUrl": null
     },
     {
-      "id": "ab765ba1f908fa00d8e1337b79ac3cbda4cfc129",
+      "id": "edf7e982571909474371a3c33f796870486adf7b",
       "title": "Samba - CVE-2026-4480",
-      "url": "https://cyberveille.esante.gouv.fr/index%2ephp/alertes/samba-cve-2026-4480-2026-05-27",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/samba-cve-2026-4480-2026-05-27",
       "source": "Cyberveille Santé",
       "publishedAt": "2026-05-27T02:20:37.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le &lt;strong&gt;sous-système d'impression de Samba&lt;/strong&gt;.&lt;/p&gt; &lt;p&gt;Samba est un logiciel libre d'interopérabilité ré",
@@ -1990,17 +2013,6 @@
       "imageUrl": null
     },
     {
-      "id": "ba93074c95a8eb68e3ee17795e2b58b850f12b9a",
-      "title": "«La situation est urgente» : face à la puissance de l’IA Mythos, la BCE réunit des centaines d'acteurs pour discuter cybersécurité",
-      "url": "https://www.lefigaro.fr/conjoncture/la-situation-est-urgente-face-a-la-puissance-de-l-ia-mythos-la-bce-reunit-des-centaines-d-acteurs-pour-discuter-cybersecurite-20260526?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-26T18:58:20.000Z",
-      "summary": "Le dernier modèle développé par Anthropic est capable d’exploiter les vulnérabilités de n’importe quel système informatique «à une vitesse et à une …",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": "https://i.f1g.fr/media/cms/1200x630_crop/2026/05/26/cddd58642fc318b550a69f6322058be2c53df18bd58d0153c4db0c3ef7bc5ec0.jpg"
-    },
-    {
       "id": "538386c499607cb7290cee9c34ad00ad6d6efcb4",
       "title": "MuddyWater Uses DLL Side-Loading in Espionage Campaign Targeting 9 Countries",
       "url": "https://thehackernews.com/2026/05/muddywater-uses-dll-side-loading-in.html",
@@ -2010,94 +2022,6 @@
       "type": "NEWS",
       "severity": "Moyenne",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkb692n4xA8jDUKZCkwPSIXqiyTaEk_bQhrNaZj33tRhusSP40-iwlk5x7iblb9M63WKWVbj8Gm6oPJZY3bm602-qFyLLnRXuCKsl40iAZG_5-ehqlQ4CYaO442hgo4FBKrspLCO4r_ET1U4U3fPCKCYOc7DFuDn_mv7ZzbzH_IC0NAt2HVVSxwIBNOruk/s1600/cyber-espionage.jpg"
-    },
-    {
-      "id": "3252404d289a8d55611407735282092e4b08ea8d",
-      "title": "ABB B&amp;R Automation Runtime DoS Vulnerability in System Diagnostics Manager (SDM)",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-04",
-      "source": "CISA",
-      "publishedAt": "2026-05-26T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-146-04.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "0b2e172d93b5f48a53441137b86fc8f569b71298",
-      "title": "ABB LVS MConfig",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-06",
-      "source": "CISA",
-      "publishedAt": "2026-05-26T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-146-06.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "7d3a87e4b75cc73824fc9191748bfc1e97d65b09",
-      "title": "Eppendorf BioFlo 320",
-      "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-146-01",
-      "source": "CISA",
-      "publishedAt": "2026-05-26T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsma-26-146-01.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "33bf053641a99a1ca0cf35c8f118f5a06fa2e5c2",
-      "title": "ABB Ability Camera Connect",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-05",
-      "source": "CISA",
-      "publishedAt": "2026-05-26T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-146-05.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "f011c30da7febb3f928421831b0468a6552eabdd",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/05/26/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "source": "CISA",
-      "publishedAt": "2026-05-26T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA has added&amp;nbsp;one&amp;nbsp;new vulnerability&amp;nbsp;to its&amp;nbsp;&lt;a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"&gt;Known Exploite",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "ff02b60eb5284bcc9a0d4c35eb74f1d753dfca20",
-      "title": "ABB AC500 V2",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-02",
-      "source": "CISA",
-      "publishedAt": "2026-05-26T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-146-02.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "e7a6a5bd8028040c5183ba93911a464e830864bd",
-      "title": "ABB Terra AC",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-01",
-      "source": "CISA",
-      "publishedAt": "2026-05-26T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-146-01.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "4474b8507f057ed9a5d638ccb2b03708dea46d57",
-      "title": "ABB Ability Zenon Remote Transport Vulnerability (Update A)",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-03",
-      "source": "CISA",
-      "publishedAt": "2026-05-26T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-146-03.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
     },
     {
       "id": "2009076844a2f3757ee2e4f8d0e134760d45d58e",
@@ -2166,9 +2090,9 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZKxsveHlyTguEODsRiYVuCPiOkIgyd3imCYdnpwwV2NQ0pw9oPEQoVw-2T98HW0KgZvRqQ_zeZIT-4E3b6WH6hE-fxJeZ9YN2S9T5769SS11QP-Pf8E1kf8kk0mbwyX_sjXTgrqKDzbDivmQRRmB_qGQmTKkB673oTFD-gWDet_ptXihujQMioqvryplT/s1600/KnowledgeDeliver.jpg"
     },
     {
-      "id": "11d61d65af0f7b7852d872566f22efc0e512467a",
+      "id": "2713c37ca32a4ac71324c7e43874416cd900ec2d",
       "title": "FreeBSD - CVE-2026-45250",
-      "url": "https://cyberveille.esante.gouv.fr/index%2ephp/alertes/freebsd-cve-2026-45250-2026-05-26",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/freebsd-cve-2026-45250-2026-05-26",
       "source": "Cyberveille Santé",
       "publishedAt": "2026-05-26T02:35:08.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans l'&lt;strong&gt;appel système setcred(2)&lt;/strong&gt; du noyau &lt;strong&gt;FreeBSD&lt;/strong&gt;.&lt;/p&gt; &lt;p&gt;FreeBSD est un",
@@ -2177,9 +2101,9 @@
       "imageUrl": null
     },
     {
-      "id": "694c7e87d3ead91a622f464debb5f983b181a685",
+      "id": "c29186c03ff5b1cc0ef04fe6fe5af1e2929a9a38",
       "title": "Ivanti - CVE-2026-8992",
-      "url": "https://cyberveille.esante.gouv.fr/index%2ephp/alertes/ivanti-cve-2026-8992-2026-05-26",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/ivanti-cve-2026-8992-2026-05-26",
       "source": "Cyberveille Santé",
       "publishedAt": "2026-05-26T02:32:36.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le mécanisme de &lt;strong&gt;validation des certificats&lt;/strong&gt; du client &lt;strong&gt;Ivanti Secure Access Client&lt;/strong&g",
@@ -2188,9 +2112,9 @@
       "imageUrl": null
     },
     {
-      "id": "c1bdcf690001223a59e4b7d7e4588ac086575afd",
+      "id": "06fb5c9578d844a54b3edfeb28379ddee27768fb",
       "title": "HP - CVE-2026-8631",
-      "url": "https://cyberveille.esante.gouv.fr/index%2ephp/alertes/hp-cve-2026-8631-2026-05-26",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/hp-cve-2026-8631-2026-05-26",
       "source": "Cyberveille Santé",
       "publishedAt": "2026-05-26T02:30:27.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le composant &lt;strong&gt;hpcups&lt;/strong&gt; du logiciel &lt;strong&gt;HP Linux Imaging and Printing Software&lt;/strong&gt;.&lt;/p&",
@@ -2199,9 +2123,9 @@
       "imageUrl": null
     },
     {
-      "id": "a9540ef9038967fc795a4ea3dc87d59013c79510",
+      "id": "35deeac2d620430bf11737667e3031bd1187696c",
       "title": "BIND 9 - CVE-2026-3039",
-      "url": "https://cyberveille.esante.gouv.fr/index%2ephp/alertes/bind-9-cve-2026-3039-2026-05-26",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/bind-9-cve-2026-3039-2026-05-26",
       "source": "Cyberveille Santé",
       "publishedAt": "2026-05-26T02:20:31.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le mécanisme de négociation &lt;strong&gt;TKEY&lt;/strong&gt; via &lt;strong&gt;GSS-API&lt;/strong&gt; de &lt;strong&gt;BIND 9&lt;/stron",
@@ -2210,9 +2134,9 @@
       "imageUrl": null
     },
     {
-      "id": "2250701563f55b07930bc3e45ea9baf6afed1682",
+      "id": "6794aa9522721389ae9f7ecd10fb0241fa8ed956",
       "title": "ManageEngine - CVE-2026-2740",
-      "url": "https://cyberveille.esante.gouv.fr/index%2ephp/alertes/manageengine-cve-2026-2740-2026-05-26",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/manageengine-cve-2026-2740-2026-05-26",
       "source": "Cyberveille Santé",
       "publishedAt": "2026-05-26T02:18:05.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le &lt;strong&gt;canal de communication entre le serveur et les agents&lt;/strong&gt; déployés sur les machines clientes de &lt;strong&g",
@@ -2254,17 +2178,6 @@
       "imageUrl": null
     },
     {
-      "id": "7577ef2ba136851516c810e7cbad886025718e5a",
-      "title": "Vulnérabilité dans Nginx (26 mai 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0643/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-05-26T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans Nginx. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
       "id": "6e70776e2f5babd91233c9566b3a4b1aa3c92736",
       "title": "Vulnérabilité dans Spring AI (26 mai 2026)",
       "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0646/",
@@ -2274,6 +2187,94 @@
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
+    },
+    {
+      "id": "74ded92990af128ca636dc471648985894c5a8bd",
+      "title": "Vulnérabilité dans Firefox pour iOS (26 mai 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0645/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-05-26T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans Firefox pour iOS. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "72b2d22034c57ff41a3bb51fad5b8249b7a27110",
+      "title": "[webapps] Grav CMS 2.0.0-beta.2 - Remote Code Execution",
+      "url": "https://www.exploit-db.com/exploits/52578",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-05-26T00:00:00.000Z",
+      "summary": "Grav CMS 2.0.0-beta.2 - Remote Code Execution",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "a33de50e7a3a63fb9dd5bf0e3c1fb95d5c2abfc5",
+      "title": "[webapps] Apache HTTP Server 2.4.66 - 'mod_http2' Double-Free Denial of Service",
+      "url": "https://www.exploit-db.com/exploits/52577",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-05-26T00:00:00.000Z",
+      "summary": "Apache HTTP Server 2.4.66 - 'mod_http2' Double-Free Denial of Service",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "3c3f381210ca5aa4961fd2072ef3d3a8c652f893",
+      "title": "[hardware] D-Link DSL2600U - 'rom-0' Admin Password Disclosure",
+      "url": "https://www.exploit-db.com/exploits/52576",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-05-26T00:00:00.000Z",
+      "summary": "D-Link DSL2600U - 'rom-0' Admin Password Disclosure",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "984dba86920eab4c21c5bd9f2e020d1a36f3cb73",
+      "title": "[webapps] Wordpress Temporary Login Plugin 1.0.0 - 'temp-login-token' Authentication Bypass to Account Takeover",
+      "url": "https://www.exploit-db.com/exploits/52575",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-05-26T00:00:00.000Z",
+      "summary": "Wordpress Temporary Login Plugin 1.0.0 - 'temp-login-token' Authentication Bypass to Account Takeover",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "578f88ae48986e88630a8447e5bbd0615ffbef08",
+      "title": "[webapps] cPanel - CRLF Injection",
+      "url": "https://www.exploit-db.com/exploits/52574",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-05-26T00:00:00.000Z",
+      "summary": "cPanel - CRLF Injection",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "bb879830b90b79d963837773e710c582039fa399",
+      "title": "[local] Linux Kernel 6.8 - Local Privilege Escalation",
+      "url": "https://www.exploit-db.com/exploits/52573",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-05-26T00:00:00.000Z",
+      "summary": "Linux Kernel 6.8 - Local Privilege Escalation",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "7afb52288443415d9d95e943dc71a9fbecc14c7b",
+      "title": "⚡ Weekly Recap: Linux Flaws, Defender 0-Days, Router Botnets, and Supply Chain Chaos",
+      "url": "https://thehackernews.com/2026/05/weekly-recap-linux-flaws-defender-0.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-05-25T14:13:27.000Z",
+      "summary": "Monday recap. Same mess, new week. A sketchy dev tool got people pwned, old bugs came back from the dead, and security products somehow needed protecting from themselves. A bunch o",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8B3KNTIZROmtfiYkIEINzg34cq_-I4prGGMjQ8F8oHbOcrNNB0FyCuQq-bb9ChCEtkO5TxGqm_5YRrG7r3IJAkcsX_eC3vmpR1Va-b3NOfEQynjPDmOm2A_uJ15IZk5VPnrmZzOKKjzA6_kjUFNbUkFHKsEk_Ts92DfPZXa3x4r8o8UQkOpMmNUfBwGxx/s1600/rere.jpg"
     }
   ]
 }
