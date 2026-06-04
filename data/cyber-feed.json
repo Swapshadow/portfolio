@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T12:50:37.768Z",
+  "generatedAt": "2026-06-04T16:55:22.602Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,7 +17,7 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 123
+      "items": 126
     },
     {
       "name": "Exploit-DB",
@@ -76,6 +76,83 @@
   ],
   "items": [
     {
+      "id": "cc50de1a89abcf007a5a3e2c08d4393016479d3c",
+      "title": "Claude Code GitHub Action Flaw Let One Malicious Issue Hijack Repositories",
+      "url": "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-06-04T15:15:26.000Z",
+      "summary": "A security researcher found a flaw in Anthropic's Claude Code GitHub Action that let an attacker take over vulnerable public repositories running it, with nothing more than a singl",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiaBF9jAklPh1ncr_eVPGnV229BSTNgAjkScVm-yTXAn4IcBjjZoLIglasRdu1XEPafCxJhqVZrC3zkNWilyAhN-6Ox8z2HBRjNg2D4aqJsDiRDg02BgAy4zgwU2100ZLIO8yTOtarI0Vxa3AGUQk0GZq1_zKSFQOhNiNoyVsP2AldJZoW8ZJ1rY936ZI/s1600/claude-code-hack.jpg"
+    },
+    {
+      "id": "49234be5aec87dceab4f753c6a7184b4320ca669",
+      "title": "Une vague de cyberattaques déferle sur les réservoirs de carburant",
+      "url": "https://www.01net.com/actualites/reservoirs-carburant-cibles-cyberattaques.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-04T15:00:05.000Z",
+      "summary": "Plusieurs agences fédérales américaines, dont le FBI et la NSA, alertent sur une multiplication des cyberattaques ciblant les systèmes de jaugeage …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/d72afb0e561baf3e953a0776633b3c456334ad87/_xlarge.jpeg"
+    },
+    {
+      "id": "2bb5c0521aea780ed979d96eedc590860212202e",
+      "title": "Le Conseil national veut renforcer le pouvoir de surveillance du Service de renseignement | RTS",
+      "url": "https://www.rts.ch/info/suisse/2026/article/le-conseil-national-veut-renforcer-le-pouvoir-de-surveillance-du-service-de-renseignement-29263683.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-04T14:43:24.000Z",
+      "summary": "L'aggravation des menaces terroristes et numériques nécessite d'étendre encore davantage les pouvoirs du Service de renseignement de la Confédération …",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://img.rts.ch/medias/2026/image/barud1-29263494.image?w=1200&amp%3Bh=630"
+    },
+    {
+      "id": "958c255234c31b8af73ef1ad3710ba653a86642e",
+      "title": "ThreatsDay Bulletin: AI Agents Gone Wrong, Sketchy C2 Tools, ClickFix Tricks, JS Backdoors &amp; 20+ New Stories",
+      "url": "https://thehackernews.com/2026/06/threatsday-bulletin-ai-agents-gone.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-06-04T14:00:49.000Z",
+      "summary": "It got stupid again. The internet still feels held together with tape. Bad plugins, old bugs, fake tools, trusted apps doing shady things. Same mess, new wrapper. And now the weird",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOsPH2SzhBWTxhXi2KCJw0YY29azn2hLkDQwQhyrjmwaRIXQfCAPNIjej3_TBd6VJm1JqWSs2EoI2jiWyVHENmhtd1alqSEqlJC8WxUk4b5zWUqszQ8akhGzRmCHf8OL7wMTZiWLYZDzHRXY8unPcsh2QMTfyTH0XeRszrwCunK2DazuZIF9oNKQUFxlqN/s1600/thh.jpg"
+    },
+    {
+      "id": "bd9a29cf08cf1bcd3aaabd87e420283b646e4b08",
+      "title": "Des sites Web peuvent tomber en 10 secondes : la nouvelle technique qui contourne les défenses et affole les experts",
+      "url": "https://www.futura-sciences.com/tech/actualites/cybersecurite-sites-web-peuvent-tomber-10-secondes-nouvelle-technique-contourne-defenses-affole-experts-135038/",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-04T13:38:30.000Z",
+      "summary": "Au lieu d’une armée massive de botnets, un seul ordinateur peut faire planter un site web ou un service, en menant à lui seul un nouveau type …",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://ic-cdn.flipboard.com/futura-sciences.com/1ab2175f907e2c39dcbe241dbc1a214e4c651d5d/_xlarge.jpeg"
+    },
+    {
+      "id": "0cca19ba001fc74d1d17ee21ce280392bd3ae054",
+      "title": "Une motion du Centre: Le National veut une hotline pour les victimes de cyberattaques",
+      "url": "https://www.blick.ch/fr/fr/suisse/national-une-hotline-pour-les-victimes-de-cyberattaques-id22003131.html",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-04T13:24:02.000Z",
+      "summary": "Le Conseil national soutient une motion de Jacqueline de Quattro pour créer une hotline dédiée aux victimes de cyberattaques. Malgré l'opposition du …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "198f3acb932c979e0fcc3c54bf188cf547990c82",
+      "title": "Cyberattaque du réseau Gîtes de France : les Deux-Sèvres ne seraient pas concernées",
+      "url": "https://www.ouest-france.fr/nouvelle-aquitaine/bressuire-79300/cyberattaque-du-reseau-gites-de-france-les-deux-sevres-ne-seraient-pas-concernees-2812fa76-5a75-11f1-b3f0-aacb0ffa8bfb?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-04T12:41:17.000Z",
+      "summary": "Jeudi 28 mai 2026, l’association Gîtes de France était à Cerizay afin de tenir son assemblée générale. Quelques jours plus tôt, le 17 mai, le site …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/d70bece274d6d3be286819c26941a1758cbd519b/_xlarge.jpeg"
+    },
+    {
       "id": "d441e99e29ccf6415823a3e20afbe7371a68fef7",
       "title": "China-Linked TA4922 Expands Phishing Attacks to UK, Germany, Italy, and South Africa",
       "url": "https://thehackernews.com/2026/06/china-linked-ta4922-expands-phishing.html",
@@ -94,6 +171,61 @@
       "publishedAt": "2026-06-04T12:00:48.000Z",
       "summary": "Le Mois européen de la cybersécurité, Cybermois en France, vise à sensibiliser aux menaces numériques et à promouvoir les bons réflexes.",
       "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "e584206ab78eeae229064e70d61912d0870fad8b",
+      "title": "NAVTOR NavBox",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-01",
+      "source": "CISA",
+      "publishedAt": "2026-06-04T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-155-01.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "f7aa6e35fc491f8136c4c38b325adca4f1e69f12",
+      "title": "Hitachi Energy MACH HiDraw",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-05",
+      "source": "CISA",
+      "publishedAt": "2026-06-04T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-155-05.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "dabf694ff80f74e2ab3f6e7d5ae67dff28123f92",
+      "title": "Hitachi Energy ITT600 Explorer",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-02",
+      "source": "CISA",
+      "publishedAt": "2026-06-04T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-155-02.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "ff0fe548ddd0f891daa6a4ca6dc0dff31706703c",
+      "title": "B&amp;R PPT30 Operating System",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-03",
+      "source": "CISA",
+      "publishedAt": "2026-06-04T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-155-03.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "4bbc12f77196830d96dc4a2d88729b16842edb40",
+      "title": "Hitachi Energy RTU500",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-04",
+      "source": "CISA",
+      "publishedAt": "2026-06-04T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-155-04.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "type": "CVE",
       "severity": "Info",
       "imageUrl": null
     },
@@ -175,17 +307,6 @@
       "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/cdcc4e48daf3846e9c44e8ccbbbd033ab25b3aa6/_xlarge.jpeg"
     },
     {
-      "id": "7096ce4e380720758a182d51e42e8a2f7e5d3ad4",
-      "title": "Cyberespionnage chinois : Europe et Asie sous pression",
-      "url": "https://android-mt.ouest-france.fr/news/decryptage/cyberespionnage-chinois-europe-et-asie-sous-pression/202811/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-04T04:19:06.000Z",
-      "summary": "Une opération de phishing sophistiquée visant l’Europe et Taïwan Les chercheurs de Seqrite Labs ont mis au jour une campagne de cyberespionnage …",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/5866ee3f967327467a16bc10b95505dc35a42904/_xlarge.jpeg"
-    },
-    {
       "id": "684f28b09cb0429b2d1097d90657e918e067f37b",
       "title": "\"C'est un bouleversement radical\" : qu'est-ce que le \"Q-Day\", ce jour que redoutent les experts en cybersécurité ?",
       "url": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/c-est-un-bouleversement-radical-qu-est-ce-que-le-q-day-ce-jour-que-redoutent-les-experts-en-cybersecurite_8042930.html",
@@ -206,6 +327,105 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/sudouest.fr/3c91ef6d362619c157de0742997cfc8969cc6ad7/_xlarge.jpeg"
+    },
+    {
+      "id": "34f0734e160a7ff2323a0ba6beaaac3d0ffc89e0",
+      "title": "GLPI - CVE-2026-42317",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/glpi-cve-2026-42317-2026-06-04",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-04T02:00:33.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;contrôle d'accès manquant&lt;/strong&gt; dans le module de &lt;strong&gt;planning&lt;/strong&gt; de GLPI.&lt;/p&gt; &lt;p&gt",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "b82db55300093e43c9835da9d01892d56e4f20be",
+      "title": "Redis - CVE-2026-23479",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/redis-cve-2026-23479-2026-06-04",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-04T01:59:32.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de type &lt;strong&gt;use-after-free&lt;/strong&gt; dans le flux de &lt;strong&gt;déblocage de client&lt;/strong&gt; de redis-server.&lt;/p&g",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "e49cbcb1f94c951596d4283a0c37e004d8ebe07f",
+      "title": "Cisco - CVE-2026-20230",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/cisco-cve-2026-20230-2026-06-04",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-04T01:57:22.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de type &lt;strong&gt;Server-Side Request Forgery&lt;/strong&gt; dans le composant &lt;strong&gt;WebDialer&lt;/strong&gt; de Cisco Unified CM",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "241870b0001572481f5d908ab524b9897a6766b5",
+      "title": "MISP - CVE-2026-10611",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/misp-cve-2026-10611-2026-06-04",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-04T01:56:14.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;contournement d'authentification multifacteur&lt;/strong&gt; dans le mécanisme d'authentification par &lt;strong&gt;plugin&l",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "f528d509faea79a49a2dfb019d67087b34846466",
+      "title": "Python - CVE-2026-3276",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/python-cve-2026-3276-2026-06-04",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-04T01:54:19.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans la fonction &lt;strong&gt;unicodedata.normalize()&lt;/strong&gt; du module standard &lt;strong&gt;unicodedata&lt;/strong&gt; de CPython.",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "e91708e8df5708dcf630edd0daf5a342c380f91a",
+      "title": "Vulnérabilité dans les produits Cisco (04 juin 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0689/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-06-04T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans les produits Cisco. Elle permet à un attaquant de provoquer une falsification de requêtes côté serveur (SSRF).",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "7bbdd1cbad4749f8eea1cf29442148bdd1d93583",
+      "title": "Multiples vulnérabilités dans les produits NetApp (04 juin 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0686/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-06-04T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits NetApp. Elles permettent à un attaquant de provoquer un contournement de la politique de sécurité.",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "d318beb6393b64faf52b41a16f85e213ebda77c7",
+      "title": "Multiples vulnérabilités dans Synology Chat Server pour DSM (04 juin 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0687/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-06-04T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Synology Chat Server pour DSM. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, un",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "70c7a205bd4ffb4b5435d69f377805d724498af2",
+      "title": "Multiples vulnérabilités dans FreeRadius (04 juin 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0688/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-06-04T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans FreeRadius. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la con",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
     },
     {
       "id": "9998c6350b2e12d9e9bf511d662ad45f0b5f87ee",
@@ -461,17 +681,6 @@
       "imageUrl": "https://images.vrt.be/vrtnws_share/2026/06/03/f3051bc3-b0de-4169-972b-9e3e98b4c316.png"
     },
     {
-      "id": "af9c65f333277b99fd0631b89b15ae2e5b9b5d21",
-      "title": "Piratage de 34 millions de dossiers médicaux : que répond l'Assurance Maladie ?",
-      "url": "https://www.mac4ever.com/securite/196491-piratage-de-34-millions-de-dossiers-medicaux-que-repond-l-assurance-maladie?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-03T07:35:00.000Z",
-      "summary": "Un cybercriminel affirme détenir les données de 34 millions de Français issues du dossier médical partagé. L'Assurance Maladie assure n'avoir …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://img-api.mac4ever.com/1200/0/a4c7cf2e94_piratage-de-34-millions-de-dossiers-medicaux-que-repond-l-assurance-maladie.webp"
-    },
-    {
       "id": "226f6f7c747c2790b777dc6f37cb6cfa3c348c9e",
       "title": "Weedhack Attacks Minecraft Users, CountLoader Hits 86K, Miners Spread via Pirated Content",
       "url": "https://thehackernews.com/2026/06/weedhack-attacks-minecraft-users.html",
@@ -659,17 +868,6 @@
       "imageUrl": "https://ic-cdn.flipboard.com/radiofrance.fr/76923cd321123323db50316b500c4dbd0f19af98/_xlarge.webp"
     },
     {
-      "id": "4c73d006459a2df287bfc92b91887d1581668652",
-      "title": "Assurance cyber : les entreprises grandes gagnantes de la guerre des prix",
-      "url": "https://www.lesechos.fr/finance-marches/banque-assurances/assurance-cyber-les-entreprises-grandes-gagnantes-de-la-guerre-des-prix-2234615?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-02T14:55:58.000Z",
-      "summary": "La guerre des prix fait rage dans l'assurance cyber. En 2025, les tarifs pour les grands groupes ont reculé, pour la troisième année d'affilée. Les …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://media.lesechos.com/api/v1/images/view/6a1eeefd640dcd6e0c027aa0/1280x720/01901662485494-web-tete.jpg"
-    },
-    {
       "id": "738ea77c345c3d534c0d14991dd6ca1ccc41e677",
       "title": "L’IA de Meta aurait permis à des hackers de pirater des comptes Instagram de personnalités, dont celui de Barack Obama",
       "url": "https://siecledigital.fr/2026/06/02/lia-de-meta-aurait-permis-a-des-hackers-de-pirater-des-comptes-instagram-de-personnalites-dont-celui-de-barack-obama/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -791,17 +989,6 @@
       "imageUrl": "https://ic-cdn.flipboard.com/lesnumeriques.com/6590e8b7d059105afe24e11602f7ab097773eec6/_xlarge.jpeg"
     },
     {
-      "id": "b6ffd6b963598c0b65fc2c8119df472de35dcac3",
-      "title": "Chrome bloque le vol de cookies de session : comment fonctionne la nouvelle protection DBSC - ZDNET",
-      "url": "https://www.zdnet.fr/actualites/chrome-bloque-le-vol-de-cookies-de-session-comment-fonctionne-la-nouvelle-protection-dbsc-495982.htm",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-02T04:55:20.000Z",
-      "summary": "Disponible pour tous les utilisateurs Windows, la nouvelle fonctionnalité de sécurité de Chrome bloque les attaquants qui tentent d'usurper votre …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2026/06/google-chrome.jpg"
-    },
-    {
       "id": "ed0224a2cbefa75e36fb5c60106b98b14398dad4",
       "title": "SEALSQ acquiert Miraex SA, consolidant sa pile verticale souveraine quantique et son Quantum Orbital Space Cloud (QOSC)",
       "url": "https://www.lesoleil.com/communiques-de-presse/2026/06/02/sealsq-acquiert-miraex-sa-consolidant-sa-pile-verticale-souveraine-quantique-et-son-quantum-orbital-space-cloud-qosc-4KHIVLLGWJBKBGBWVPFVH3I6CA/?amp%3Butm_content=topic%2Ffr-cryptographie",
@@ -869,7 +1056,7 @@
     },
     {
       "id": "d0cd205b16a01ff5368b2514723bc1e3b8812617",
-      "title": "Google - CVE-2025-48595",
+      "title": "Google - CVE-2025-48595 | modifié le 04-06-2026",
       "url": "https://cyberveille.esante.gouv.fr/alertes/google-cve-2025-48595-2026-06-02",
       "source": "Cyberveille Santé",
       "publishedAt": "2026-06-02T02:39:36.000Z",
@@ -1339,17 +1526,6 @@
       "type": "NEWS",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiU44Ejz__EFKfpIrEypTxhK3KW7XV3oiEIJEWAC-_PyhbhUvOZzmv3SCAmiuGZdFNdzYIDR2GLwOAhX9nIaAoOD4iFXucpEpB4Ym2vMAqvayyi1JkYyqj2uEYAXPGbXe5dzYNw5a__5KnXvrnJsEVtwnJJs6v_zBlfl3sKo0J83QwylgCL1A2Vck1HktJ8/s1600/botnet.png"
-    },
-    {
-      "id": "7aa65f5ad87e0ae36276a294e310aaca615aba45",
-      "title": "Comment un hacker, qui a humilié Apple, Sony et Elon Musk, fait trembler Nvidia",
-      "url": "https://www.mac4ever.com/ia/196372-comment-un-hacker-qui-a-humilie-apple-sony-et-elon-musk-fait-trembler-nvidia?amp%3Butm_content=topic%2Ffr-jeuxvid%C3%A9o",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-05-31T12:05:00.000Z",
-      "summary": "Pendant que les géants de la tech dépensent des centaines de milliards pour empiler des GPU Nvidia, un seul homme s'est mis en tête de briser leur …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://img-api.mac4ever.com/1200/0/7a9c0aad5d_comment-un-hacker-qui-a-humilie-apple-sony-et-elon-musk-fait-trembler-nvidia.webp"
     },
     {
       "id": "0ea54a0596430774f58221745765f4ca9c92e944",
@@ -2056,61 +2232,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBnLTRREuP8t8AoMRlakMDVRNoOYCA18IuBTWxA_nms12GdQaSfaU1kgpLSrgUvFFH1goJ_-NOIerDAnZxlD86Oafg_b6QdecLrT4UJdb3_qfmgtxdjrhF8GioeuEZbyZBTVL4cXUcpWqZujpLoI4zBm9y7XvFUjYR5cjF0GmmU_TXlmX0W7zsxlcvV9mW/s1600/tbb.jpg"
     },
     {
-      "id": "e345dbe3847c7904982ef1f16baf8b04491d5979",
-      "title": "Jinan USR IOT Technology Limited (PUSR) USR-W610 RS232/485 to Wi-Fi/Ethernet Converter",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-02",
-      "source": "CISA",
-      "publishedAt": "2026-05-28T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-148-02.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "e70b465fa24e11b2641897572a8a03a6955be893",
-      "title": "ABB Busch-Welcome 2 Wire Door Opener Actuator",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-04",
-      "source": "CISA",
-      "publishedAt": "2026-05-28T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-148-04.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "5177f261727a778803b3e39d4445e99491ec866b",
-      "title": "Fourth Frontier Frontier X Mobile Application, Frontier X2",
-      "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-148-01",
-      "source": "CISA",
-      "publishedAt": "2026-05-28T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsma-26-148-01.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "83a993e18b02205154ea1b1b78df7100347816ac",
-      "title": "ABB EIBPORT",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-03",
-      "source": "CISA",
-      "publishedAt": "2026-05-28T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-148-03.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "3232cd1844118714dc58c09efd5e349c1d068d67",
-      "title": "Schneider Electric EcoStruxure Machine Expert HVAC",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-07",
-      "source": "CISA",
-      "publishedAt": "2026-05-28T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-148-07.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
       "id": "1edcf1781b00073db3d48ce7b3ca74221b28de3a",
       "title": "CP Plus 8 Ch. Network Video Recorder",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-05",
@@ -2133,12 +2254,12 @@
       "imageUrl": null
     },
     {
-      "id": "71fa657bca0a43e2efacdb7b82a30ec02ef9147a",
-      "title": "MacGregor Voyage Data Recorder (VDR) G4e",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-01",
+      "id": "2252810d55a6796a66dc6ae79796ebb3b9c59966",
+      "title": "XCharge C6",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-08",
       "source": "CISA",
       "publishedAt": "2026-05-28T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-148-01.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-148-08.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -2153,127 +2274,6 @@
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
-    },
-    {
-      "id": "2252810d55a6796a66dc6ae79796ebb3b9c59966",
-      "title": "XCharge C6",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-08",
-      "source": "CISA",
-      "publishedAt": "2026-05-28T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-148-08.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "e16188fe8fc35257eed33f7e86a1a64570f13ccc",
-      "title": "New AI Usage Report: Enterprise AI Risk Is Heavily Concentrated Among a Small Group of AI \"Power users\"",
-      "url": "https://thehackernews.com/2026/05/new-ai-usage-report-enterprise-ai-risk.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-05-28T11:30:00.000Z",
-      "summary": "State of AI Usage Report 2026 (full report here) by LayerX Security reveals the extent of the enterprise AI visibility gap and why most organizations still don't understand where t",
-      "type": "NEWS",
-      "severity": "Moyenne",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXxB1vzDMiskZRwzcQojV8rDdalRXWpzXieLES5nUD0bXfnbXrUwsV00RsMmRFdd-Zd3up_9wAGsvfzTDmWi4MLp70XlajlgakXsuCfdWmOe0uQuy0yIwxC4-fevqlb0Rs3AR_eqInGT1scQfa5oiGqY-TRmswOwkY4Zg2ikCYxlsBF2FQTEGA216b_NF8/s1600/apples.jpg"
-    },
-    {
-      "id": "a61285b541973fff60f0a173518e88c5c1596b2a",
-      "title": "JINX-0164 Targets Cryptocurrency Firms with Fake Recruiter Lures and macOS Malware",
-      "url": "https://thehackernews.com/2026/05/jinx-0164-targets-cryptocurrency-firms.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-05-28T07:54:48.000Z",
-      "summary": "A new campaign orchestrated by a previously undocumented threat actor has targeted cryptocurrency organizations with an aim to facilitate digital asset theft using recruitment-them",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyRUE7TEns58pfRrpwegQH6tBvGORrdclhPKKI7B7l9eNy5bMA1_ra6HAyGPUC_NKD8ZTnpVt7z88AII1Sd8QpA-sqZ7ONKZGwEVFB0u8gNvsBVRtfJuTsvWM4q6V_9MXVj7fX4ug_7mel-x1i2l7qm1GY94gVA1AbyCrvRQA8JcaDmhF1i_tM22NF_RPX/s1600/crypto-hacks.jpg"
-    },
-    {
-      "id": "b24723f2077f6b6577008026d14e76f542a8622f",
-      "title": "Kemper - 269,299 breached accounts",
-      "url": "https://haveibeenpwned.com/Breach/Kemper",
-      "source": "Have I Been Pwned",
-      "publishedAt": "2026-05-28T07:22:18.000Z",
-      "summary": "In April 2026, the American insurance holding company &lt;a href=\"https://cybernews.com/security/kemper-insurance-data-leak-shinyhunters/\" target=\"_blank\" rel=\"noopener\"&gt;Kemper ",
-      "type": "LEAK",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "4422aaeca1eb466c1b3df150f45e5aec1bd087f6",
-      "title": "Vulnérabilité dans les produits NetApp (28 mai 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0656/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-05-28T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans les produits NetApp. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "386197d779b6d7a9536730cdff83941024c15786",
-      "title": "Multiples vulnérabilités dans Google Chrome (28 mai 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0655/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-05-28T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "20c676ff240dd5d2e97f06c39cdc21df1852aaf7",
-      "title": "Vulnérabilité dans Apereo CAS (28 mai 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0654/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-05-28T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans Apereo CAS. Elle permet à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "8f7e5dce80caa2f34966814951f838654a5685c1",
-      "title": "Multiples vulnérabilités dans GitLab (28 mai 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0658/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-05-28T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans GitLab. Elles permettent à un attaquant de provoquer un déni de service à distance et un contournement de la politique de sécur",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "39a1e874440423e5eae8261d10e1e17be1bce867",
-      "title": "Multiples vulnérabilités dans les produits Veeam (28 mai 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0657/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-05-28T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Veeam. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un problème de ",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "f1a7b8a3fb3479423475e5e5273ad68b3b81d9ee",
-      "title": "Grandoreiro Malware and BTMOB RAT Campaigns Target Windows and Android Users",
-      "url": "https://thehackernews.com/2026/05/grandoreiro-malware-and-btmob-rat.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-05-27T16:10:21.000Z",
-      "summary": "Latin America and Europe become the target of two banking trojan campaigns that are designed to infect Windows and Android devices with Grandoreiro and BTMOB malware, respectively.",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLrxY3dAls7M9XrbkVjdGZELLj2DQ4eGof0qKdWXJLGqQgVgcbszD-mSmcUi6ljJEPyuM5qbIzFD2CAkjQMkwdznWW5nXnJpPUOxuLP87xIATaxqvIKByQr0ddq8GnYTJy_O6VX5Z0cv_S9AYbwVUzzMeKM3UoPGGJ3Bzei5FluxHchhuekfAiKxUnBmaa/s1600/android-malware.jpg"
-    },
-    {
-      "id": "a721cb7f9cd576a8f3d630fe0cd69361f2580766",
-      "title": "Malicious npm Package Stole Files From Claude AI User Directory via GitHub",
-      "url": "https://thehackernews.com/2026/05/malicious-npm-package-stole-files-from.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-05-27T15:44:29.000Z",
-      "summary": "Cybersecurity researchers have discovered a new malicious package on the npm registry that comes with information stealing capabilities. According to OX Security, the package, name",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlezHawmKBTFBZSgR52vL_EBxfwIlMa0i4LdDK2xC_c8nw704KQHbRNSHYAy8TY4ShZMFwAJoZKUBSDJBCVnwbORTlz7iE0JI9f9ORbQQ-RB5lA_b9VbUzAsjpVeW2oJ94hdfzOeCWN3zd5Li7zWanNx3s07cF8IRlWuVrLqBNaY0sobbJww1Pa_o2t4JN/s1600/npm-ai.jpg"
     }
   ]
 }
