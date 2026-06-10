@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T13:34:38.321Z",
+  "generatedAt": "2026-06-10T17:22:45.566Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,13 +17,13 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 123
+      "items": 128
     },
     {
       "name": "Exploit-DB",
       "url": "https://www.exploit-db.com/rss.xml",
       "status": "ok",
-      "items": 0
+      "items": 50
     },
     {
       "name": "The Hacker News",
@@ -75,6 +75,72 @@
     }
   ],
   "items": [
+    {
+      "id": "66551611d4c4b59b5cb15c6c31d7085c6eb921bb",
+      "title": "Des géants de la tech soupçonnés d’avoir acheté du coltan du M23",
+      "url": "https://www.radiofrance.fr/franceinter/podcasts/sous-les-radars/sous-les-radars-du-mercredi-10-juin-2026-9713174?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-10T16:50:00.000Z",
+      "summary": "Les géants de la tech Amazon, Sony et Microsoft pourraient avoir acheté du coltan congolais lié aux mines de Rubaya, sous le contrôle du M23. Le …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/radiofrance.fr/224b8110117bb2f8c94f3410283a2393f7d07c43/_xlarge.webp"
+    },
+    {
+      "id": "900751e207f4400d0c61335d296fdcd596ecfe4c",
+      "title": "China-Linked JDY Botnet Expands to 1,500+ Devices for Cyber Reconnaissance",
+      "url": "https://thehackernews.com/2026/06/china-linked-jdy-botnet-expands-to-1500.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-06-10T16:08:42.000Z",
+      "summary": "Cybersecurity researchers have warned of a \"resurgence and expansion\" of JDY, a covert network associated with China-nexus state-sponsored threat actors. \"The JDY botnet comprises ",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQC0_BYMuNpY7re4OHHsytEfC6fW3KsonxN6e2X0Dj03fJoMazI6EZnvPj_hOUZ99yJLq6RrH3ZSCsfDWOB6AgDJVk_1LY5TzgSpP7QFKcI_grjRI7Pm9QGputoI0LM4LH8ZCOAVb_PnzXAs_bMP6n_3u__fPEmxEKVUv5ZZjG5vOJT_fmhvAy551gjCmi/s1600/bot.png"
+    },
+    {
+      "id": "f54fe96b4c0734d376220d88d3552f38a377ae4f",
+      "title": "Ivanti, Fortinet, and SAP Release Patches for Multiple Critical Vulnerabilities",
+      "url": "https://thehackernews.com/2026/06/ivanti-fortinet-and-sap-release-patches.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-06-10T15:10:59.000Z",
+      "summary": "Fortinet, Ivanti, and SAP have released security updates to address multiple critical security vulnerabilities that could result in arbitrary code execution and information disclos",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhs2l0GUUy91D4hHU067eYWpRzvSJGcfOkHce2jcVXZGWI9sld0hgaomhoKTc3dYEXEbz05oZQ5mFzo34eXp-wNJ2j_ofUjXjR7ZR5obszwH7bCRRmah9Q9HY3RSDrwrAf8QD162ca7nvxTRELWzcVW8AbbVMpXJfHXtaYEiSxXAw49VpCG8ep33SbGeLSF/s1600/ivanti.jpg"
+    },
+    {
+      "id": "6a2ce66b5056bb1e13d4f2790f37c45d00dae5a0",
+      "title": "Unpatched Langflow Flaw CVE-2026-5027 Exploited for Unauthenticated RCE",
+      "url": "https://thehackernews.com/2026/06/unpatched-langflow-flaw-cve-2026-5027.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-06-10T15:00:59.000Z",
+      "summary": "A high-severity unpatched security flaw in Langflow, an open-source low-code platform to build artificial intelligence (AI) applications, has come under active exploitation in the ",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidDfz-Q5s2ON-nc6gW-4Lgw1yMocr3YiLP82vXcoWHcs6-_ICHWHZsciCnM2aU4kBZ2yyCJ622deCwKAXZdOFVyIoG41JC7SHyXIG6soj-RrFySsKHp2N51PpbGb7LxJWXvqOXE6GTap75h_QIjH78l0Ys__M_4EtgxMgymWgCS1vfdmWmwgpkW1TIq61I/s1600/lang.png"
+    },
+    {
+      "id": "1e81b155adb30a1f71b531d35cf73f48b2593205",
+      "title": "CISA Adds Cisco, Chrome, and Arista Flaws to KEV Catalog Amid Active Exploitation",
+      "url": "https://thehackernews.com/2026/06/cisa-adds-cisco-chrome-and-arista-flaws.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-06-10T14:44:29.000Z",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, following reports ",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyS_5xYGR8v-Lv2x6gLklggySrwxfhnOTIwaLNXWT0xCUHcG8742JNest-ScZPBIUEqChp4KxYPdOnrWOJUJ-Dcv1VYYBOGY6eMYgwOw5tIxBxD2RPbFM-xR05SpacfiwmIKeL6jAFpw8PScLXjV_gR9ZNRqQ8HmsOBAbom73N_i3JRkAsf-dZVoBpGVlI/s1600/cisaa.jpg"
+    },
+    {
+      "id": "cb4762952ffd2b6ff1e5353a24017eb23b78edc0",
+      "title": "Who Runs the Ransomware Group &#8216;The Gentlemen?&#8217;",
+      "url": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
+      "source": "Krebs on Security",
+      "publishedAt": "2026-06-10T14:03:44.000Z",
+      "summary": "A cybercrime group known as The Gentlemen has emerged as the second most active ransomware gang by victim count, rapidly attracting a talented pool of hackers through an aggressive",
+      "type": "NEWS",
+      "severity": "Critique",
+      "imageUrl": "https://krebsonsecurity.com/wp-content/uploads/2026/06/thegentlemen.png"
+    },
     {
       "id": "64a6e6f91b72234f2f4ae61e560019cab9e7f347",
       "title": "Cybersécurité 2026 : les hackers n'ont plus besoin de pirater votre entreprise, ils s'y connectent",
@@ -131,17 +197,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDOIX9PorKjXDciuKmL8xLL9vrOVtBou5tBhn4T-u7cgllDKei3HRDr8vsXGM-MllL1eb6E_pdEID5s_sRUxbjHiA6AhlLUQLFi6vDXM5v0Mq0hM43eWSh8Pc_qdYtcjqushm7Wl-S64w6qEGg5P6ETD_o9l5VGGoflzGo3VpgFqmL9NhIe2RUuilVAB0c/s1600/windows-patch.jpg"
     },
     {
-      "id": "3192466a33a50b5f62e0b90073eb7a9f13e7923e",
-      "title": "Cyberattaque de Tchap : le parquet de Paris ouvre une enquête après la plainte de la Dinum",
-      "url": "https://www.journaldunet.com/business/action-publique/1551201-cyberattaque-de-tchap-le-parquet-de-paris-ouvre-une-enquete-l-ofac-saisi-lundi-et-la-dinum-porte-plainte-le-meme-jour/?amp%3Butm_content=topic%2Ffr-actualit%C3%A9s",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-10T08:28:36.000Z",
-      "summary": "Le parquet de Paris enquête sur la cyberattaque de Tchap après saisine de l'Ofac et plainte de la Dinum, qui limite les données consultées aux …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/journaldunet.com/737c81711a19b5b2e3ecf297d23e7c4d78ccce7a/_xlarge.jpeg"
-    },
-    {
       "id": "47c901673db1434c2fa5048551111b7db55e7f02",
       "title": "Anthropic Releases Claude Fable 5, Its Most Powerful AI Yet, With Cyber Safeguards",
       "url": "https://thehackernews.com/2026/06/anthropic-releases-claude-fable-5-its.html",
@@ -175,26 +230,15 @@
       "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/dcd266f50586472170f56af623391b06104daa5e/_xlarge.jpeg"
     },
     {
-      "id": "8c2a88b7149ed2bf0a8981a4da1538dada3b148e",
-      "title": "NordVPN brade ses prix, mais pas votre sécurité en ligne",
-      "url": "https://www.bfmtv.com/tech/bons-plans/vpn/nord-vpn-brade-ses-prix-mais-pas-votre-securite-en-ligne_AB-202606100042.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-10T06:29:00.000Z",
-      "summary": "Avec NordVPN, votre connexion Internet est sécurisée et surtout, vous êtes protégés face au phishing, aux sites malveillants et les publicités sont …",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://ic-cdn.flipboard.com/bfmtv.com/eaf44023b9194d830611f0d30b12fd9e61aa22b5/_xlarge.jpeg"
-    },
-    {
       "id": "917f00fa34b70b7d71424df21c4aafeaba6ad512",
-      "title": "Anthropic lance la version sécurisée de Claude Mythos : “Fable 5” s'autocensure sur des questions liées aux cyberattaques, à la biologie ou à la chimie",
+      "title": "Anthropic lance la version sécurisée de Claude Mythos : “Fable 5” s’autocensure sur des questions liées aux cyberattaques, à la biologie ou à la chimie",
       "url": "https://www.journaldugeek.com/2026/06/10/anthropic-lance-la-version-securisee-de-claude-mythos-fable-5-sautocensure-sur-des-questions-liees-aux-cyberattaques-a-la-biologie-ou-a-la-chimie/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
       "source": "Cybercriminalité FR",
       "publishedAt": "2026-06-10T06:18:39.000Z",
-      "summary": "Le grand public a enfin la possibilité de tester la puissance de Claude Mythos, la nouvelle IA d’Anthropic. Hier soir, le laboratoire d’intelligence …",
+      "summary": "Anthropic vient de lancer Claude Fable 5, un modèle d’IA qui est aussi puissant que Mythos, mais qui a été bridé dans certains domaines pour écarter …",
       "type": "NEWS",
       "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/journaldugeek.com/7b6c8e6e9529632eaf2a8ca5ea6ec4737a19eabc/_xlarge.jpeg"
+      "imageUrl": "https://ic-cdn.flipboard.com/journaldugeek.com/94e44951f83686ea780b91cd6361bb8f3a9ae1f1/_xlarge.jpeg"
     },
     {
       "id": "1f38c119fd43224d9e7cd469e8a1e14143c1f3c0",
@@ -228,6 +272,61 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://static.audiomeans.fr/img/episode/3be626c3-67e0-4e41-b28f-6bf778f2ba39.jpg"
+    },
+    {
+      "id": "b3dc1ed35c7837f6c933c5242d455683711fdede",
+      "title": "Veeam - CVE-2026-44963",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/veeam-cve-2026-44963-2026-06-10",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-10T03:17:34.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;désérialisation de données non fiables&lt;/strong&gt; dans Veeam Backup &amp;amp; Replication.&lt;/p&gt; &lt;p&gt;Veeam Back",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "f0700e7c88dfc9cef5f2c868e67362e4c4b7f5c8",
+      "title": "OpenSSL - CVE-2026-45447",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/openssl-cve-2026-45447-2026-06-10",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-10T03:16:10.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de type &lt;strong&gt;use-after-free&lt;/strong&gt; dans la fonction PKCS7_verify() de la bibliothèque OpenSSL.&lt;/p&gt; &lt;p&gt;OpenSSL es",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "4672b367aa63ad4f63bd53f2d2970e67821069f7",
+      "title": "Adobe - CVE-2026-47928",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/adobe-cve-2026-47928-2026-06-10",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-10T03:13:39.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;validation incorrecte des entrées&lt;/strong&gt; dans Adobe ColdFusion.&lt;/p&gt; &lt;p&gt;Adobe ColdFusion est un serveur d",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "2269a41a955e72f2b374b5a19fb542f5d51b00e8",
+      "title": "Microsoft - CVE-2026-45586",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/microsoft-cve-2026-45586-2026-06-10",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-10T03:12:34.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le composant &lt;strong&gt;Windows Collaborative Translation Framework&lt;/strong&gt; (processus ctfmon.exe), connue sous le nom &lt;str",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "5efdb6c20e8e918435aefe440facc5af46b292c2",
+      "title": "Ivanti - CVE-2026-10520",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/ivanti-cve-2026-10520-2026-06-10",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-10T03:11:02.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité d'&lt;strong&gt;injection de commandes OS&lt;/strong&gt; dans le contrôleur Spring Boot de l'application mics.war.&lt;/p&gt; &lt;p&gt;Ivanti ",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
     },
     {
       "id": "14583457faa3f8030f86e9c6ff79b2df049205f9",
@@ -428,15 +527,15 @@
       "imageUrl": null
     },
     {
-      "id": "7b2ca83831edbad9566016bb17e769d94488b585",
-      "title": "Anthropic a dû brider son IA avant de vous la confier : Claude Fable 5 est disponible, sauf pour ces 3 usages interdits",
-      "url": "https://www.presse-citron.net/anthropic-claude-fable-5-disponible-sauf-pour-ces-3-usages-interdits/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "id": "53d4f7c7003be29dae5da93e509dadc0cbe05c2b",
+      "title": "« La France est le deuxième pays au monde pour les fuites de données » : « En pleine tempête, jeter le capitaine à l'eau est-il la solution ? »",
+      "url": "https://www.lesechos.fr/idees-debats/cercle/la-france-est-le-deuxieme-pays-au-monde-pour-les-fuites-de-donnees-en-pleine-tempete-jeter-le-capitaine-a-leau-est-il-la-solution-2235829?amp%3Butm_content=topic%2Ffr-actualit%C3%A9s",
       "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-09T19:19:54.000Z",
-      "summary": "Anthropic lance Claude Fable 5. Ce nouveau modèle d’intelligence artificielle a le même niveau que Claude Mythos, mais il refusera de lancer des …",
-      "type": "NEWS",
+      "publishedAt": "2026-06-09T18:52:46.000Z",
+      "summary": "2025, année record en matière de violations des données, la France figure parmi les pays les plus exposés. Hôpitaux, PME et administrations sont …",
+      "type": "LEAK",
       "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/presse-citron.net/85cd097381a706dc243b8e62ef9f3900e6236ad0/_xlarge.jpeg"
+      "imageUrl": "https://media.lesechos.com/api/v1/images/view/6a27f81a5f112f52d602723d/1280x720/01901673999149-web-tete.jpg"
     },
     {
       "id": "91d964527f00c14d0cbcdbc6e262cbf99dd8f8c4",
@@ -1099,6 +1198,17 @@
       "imageUrl": null
     },
     {
+      "id": "bc82a5ece5e65db348eb7c6fea695e938a64b057",
+      "title": "Instagram : Meta confirme le piratage de 20 000 comptes, voici les gestes à adopter immédiatement",
+      "url": "https://www.iphon.fr/post/instagram-piratage-20-000-comptes?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-08T09:26:03.000Z",
+      "summary": "Le groupe Meta vient de confirmer le piratage. 20 000 comptes sont touchés dans le monde entier.",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/iphon.fr/5013b924bc03baf4c494282eff55a9d923b816cf/_xlarge.jpeg"
+    },
+    {
       "id": "bb7ef2b02b80ced285949668be553b501355869f",
       "title": "UNC3753 Used Vishing and Physical Intrusions in U.S. Data Theft Extortion Campaign",
       "url": "https://thehackernews.com/2026/06/unc3753-used-vishing-and-physical.html",
@@ -1237,6 +1347,17 @@
       "source": "CERT-FR",
       "publishedAt": "2026-06-08T00:00:00.000Z",
       "summary": "De multiples vulnérabilités ont été découvertes dans Spring Micrometer. Elles permettent à un attaquant de provoquer un déni de service à distance.",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "1ccd427752d3897c29f28ac524e817a995cf0fec",
+      "title": "[webapps] OpenEMR 7.0.2 - Arbitrary File Read",
+      "url": "https://www.exploit-db.com/exploits/52610",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-06-08T00:00:00.000Z",
+      "summary": "OpenEMR 7.0.2 - Arbitrary File Read",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1594,6 +1715,17 @@
       "imageUrl": null
     },
     {
+      "id": "501f0d1c70dc784e2ac80b0dab359f94e7a03582",
+      "title": "[webapps] WordPress Contest Gallery 28.1.4 - Unauthenticated Blind SQL Injection",
+      "url": "https://www.exploit-db.com/exploits/52609",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-06-05T00:00:00.000Z",
+      "summary": "WordPress Contest Gallery 28.1.4 - Unauthenticated Blind SQL Injection",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
       "id": "810e9ae3632085d2e12d5855dea67deaf7664439",
       "title": "Cisco Patches CVE-2026-20230 in Unified CM as Exploit Code Goes Public",
       "url": "https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html",
@@ -1770,17 +1902,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpg8pBdHkENT_CKClsSR7f4Rb7BQpM27ynGrkRdJg-bbUfI2NIHQ_rFmkOVHjK8RggTD-XMvVdGGI_qrYyIx-Ml1sfwbRkbjaNo8Fz40cWg8wFWK8h5-f-FaB58HryMM5AYlUHI2uO7x12VFvAB6N3w1gobWmzGgp8xXqHfWMERFh7hVS9lBHxfdu71Xs/s1600/stock-emails.jpg"
     },
     {
-      "id": "3fa001973c0d765d373aff4805a49f048777116a",
-      "title": "DoJ Disrupts Southeast Asia Crypto Fraud Networks, Freezes $3.8 Million in Assets",
-      "url": "https://thehackernews.com/2026/06/doj-disrupts-southeast-asia-crypto.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-04T06:06:25.000Z",
-      "summary": "The U.S. Department of Justice (DoJ) on Wednesday announced the results of a sweeping action undertaken by government authorities and private sector companies to combat cyber-enabl",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTf5wAHnoXtVauiln2MwlVvLc4LxcL8SBTLuW648LfFhUd8QyuOUfjmg0Hd91QlksmWF2u-PQhxHDTDmseMIG64V4Fo2I2lXXGO1o0BncbL_UTeBrGztErg66yXAm0trYlWxqGbE-sKb5VjXjqeyNiCMkxbdcxwX1BDRGexhP-b0s3dZl0lNRpY9u6nsTQ/s1600/police-crypto.jpg"
-    },
-    {
       "id": "14a6a9c9381599a9c6af4d8db4baa3983c329f9b",
       "title": "\"C'est un bouleversement radical\" : qu'est-ce que le \"Q-Day\", ce jour que redoutent les experts en cybersécurité ?",
       "url": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/c-est-un-bouleversement-radical-qu-est-ce-que-le-q-day-ce-jour-que-redoutent-les-experts-en-cybersecurite_8042930.html",
@@ -1856,39 +1977,6 @@
       "type": "LEAK",
       "severity": "Élevée",
       "imageUrl": null
-    },
-    {
-      "id": "df8fb4216da8e992d8e58a56250f0875d066c2f6",
-      "title": "WhatsApp, Slack Notifications Could Hijack Google Gemini on Android",
-      "url": "https://thehackernews.com/2026/06/whatsapp-slack-notifications-could.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-03T19:11:15.000Z",
-      "summary": "A single poisoned notification from WhatsApp, Slack, SMS, Signal, Instagram, or Messenger could have hijacked Google Gemini's voice assistant on Android and made it open a victim's",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCJpW9I-QTgQOkP7AV3rwUtEOEs96ek2ySR06Go-xq5AThZV84qY3mDN1Dkh0oQ-94jZHc7zB21ax9ljU0dW2LtsSW5p7xuuX9ARsvoIZQTGaMSkESGxTjl-PgTy8hrnsI8ucVZpENLEuMa9QzoUYVmfp4aug4OnEZq3XeL3ZELNZVELSegpS398l8vKg/s1600/gemini-prompt.jpg"
-    },
-    {
-      "id": "440710063adcd3e4de2c9d794660b381e78a011b",
-      "title": "Microsoft Fixes One-Click GitHub Dev Attack That Let Attackers Steal OAuth Tokens",
-      "url": "https://thehackernews.com/2026/06/one-click-github-dev-attack-lets.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-03T17:58:00.000Z",
-      "summary": "Cybersecurity researchers have disclosed a one-click attack via Microsoft Visual Studio Code (VS Code) that makes it possible to steal a user's GitHub token. \"Just by clicking a li",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeHvqmNHvAhdxgoBLbfFWsFBMdvH5SbJovunxx8AYHRkq7HOQ2l6I_ZaJGi_PF5WHKOlHEQHK4HyPBhmzOpYNhPS4HJSna2uLVlEwUV9i2j5YuRqGOLUqgKIrhx2ndFm1OSME7usiLk_ohtIBYyR5Xpq5Pzc2eHAjCK0OA_89JwPNxVrrBVDbTDRVbRG6e/s1600/github.jpg"
-    },
-    {
-      "id": "c7f1c54944ca00673a3da685ea242d6db6111b8b",
-      "title": "Autonomous AI Tool Finds 2-Year-Old RCE Flaw in Redis (CVE-2026-23479)",
-      "url": "https://thehackernews.com/2026/06/autonomous-ai-tool-finds-2-year-old-rce.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-03T16:40:00.000Z",
-      "summary": "Redis has patched a use-after-free in its blocking-client code that lets an authenticated user run arbitrary OS commands on the machine hosting the database. The flaw was found by ",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTV6zPqD9KC3Rc5Mz9c8XENLiJntboDT6LIoD3L2FXlTUVC3rsWZ_3YLfe_jmhhyphenhyphenjb5RCwkTsdoyypD9VXxYgj_2GYaAupNMlOyZkycm94qr7XiarmBCpYQdZDN_Gwq6KrOmomzx1dmbz4hpUkw4OZparqEbydJneNKaWQI0fcP5tctpKxsZ7kFP5FCv0/s1600/redis-db.png"
     },
     {
       "id": "120673d49609ad8f038fdfaa4c6791c7ec479895",
@@ -2186,94 +2274,6 @@
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": null
-    },
-    {
-      "id": "2c5e71578f09cb69e147ed06b4be85dfea358942",
-      "title": "OTRS - CVE-2026-48188",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/otrs-cve-2026-48188-2026-06-01",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-06-01T02:03:53.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité d'&lt;strong&gt;injection SQL&lt;/strong&gt; dans le &lt;strong&gt;module de couche base de données&lt;/strong&gt; d'OTRS et ((OTRS)) Communi",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "474dc3b2e2216008b4a6b56136f7020358f68212",
-      "title": "Portainer.io - CVE-2026-44850",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/portainerio-cve-2026-44850-2026-06-01",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-06-01T02:02:30.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le &lt;strong&gt;proxy de l'API Docker&lt;/strong&gt; de Portainer Community Edition, sur le chemin &lt;strong&gt;POST /containers/creat",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "a07f1aa131fdde7e4c407d5bcb6a8838970dc2e1",
-      "title": "Elastic - CVE-2026-42398",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/elastic-cve-2026-42398-2026-06-01",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-06-01T02:01:11.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de type &lt;strong&gt;Server-Side Request Forgery (SSRF)&lt;/strong&gt; dans le composant de &lt;strong&gt;gestion des connecteurs Webhook&lt",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "c38f3e799f1c237fc79ac4750fe408d5256cdb64",
-      "title": "Palo Alto Networks - CVE-2026-0257",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/palo-alto-networks-cve-2026-0257-2026-06-01",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-06-01T02:00:08.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;contournement d'authentification&lt;/strong&gt; dans les composants &lt;strong&gt;portail et passerelle GlobalProtect&lt;/st",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "0ea54a0596430774f58221745765f4ca9c92e944",
-      "title": "Atlas Menu - 63,926 breached accounts",
-      "url": "https://haveibeenpwned.com/Breach/AtlasMenu",
-      "source": "Have I Been Pwned",
-      "publishedAt": "2026-05-30T23:35:29.000Z",
-      "summary": "In May 2026, the GTA V and CS2 cheat service &lt;a href=\"https://atlasmenu.net\" target=\"_blank\" rel=\"noopener\"&gt;Atlas Menu&lt;/a&gt; suffered a data breach. An attacker claimed t",
-      "type": "LEAK",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "6e4b4e344ee74d24770ede7369165e71c9549984",
-      "title": "Ukraine : un réseau de comptes volés ciblait la Californie",
-      "url": "https://www.zataz.com/ukraine-un-reseau-de-comptes-voles-ciblait-la-californie/",
-      "source": "Zataz",
-      "publishedAt": "2026-05-30T11:04:29.000Z",
-      "summary": "Ukraine : un suspect de 18 ans visé après le vol présumé de comptes clients californiens.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/18-suspect.jpg"
-    },
-    {
-      "id": "dde95b75c8a40c037c85ef7c30b4df9ae8b55753",
-      "title": "Fraude au support : deux Américains aidaient des centres d’appels en Inde !",
-      "url": "https://www.zataz.com/fraude-au-support-deux-americains-aidaient-des-centres-dappels-en-inde/",
-      "source": "Zataz",
-      "publishedAt": "2026-05-30T10:51:24.000Z",
-      "summary": "Fraude au support technique : deux entrepreneurs plaident coupable pour avoir aidé des centres d’appels en Inde.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/india-hack.jpg"
-    },
-    {
-      "id": "20a59be7271fddb2b77e2636f6f655bf17321737",
-      "title": "Données de santé volées dans des hôpitaux allemands",
-      "url": "https://www.zataz.com/donnees-de-sante-volees-dans-des-hopitaux-allemands/",
-      "source": "Zataz",
-      "publishedAt": "2026-05-30T10:17:37.000Z",
-      "summary": "Des hôpitaux allemands touchés par un vol de données via Unimed, prestataire externe de facturation.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/All_medic_leak.jpg"
     }
   ]
 }
