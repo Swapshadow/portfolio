@@ -100,25 +100,22 @@ const RSS_TAB_COUNTS = new Map();
 const RSS_ALL_ITEMS = [];
 
 function initWatchCardCleanup() {
-  const hero = document.querySelector('.hero#accueil');
-  let watchSection = document.querySelector('.watch-card-section');
+  const heroCard = document.querySelector('.hero#accueil .hero-card');
+  const heroSummary = heroCard?.querySelector('.hero-summary');
+
+  if (!heroCard) return;
+
+  const legacySections = Array.from(document.querySelectorAll('.section-watch-entry, .watch-card-section'));
+  const legacySectionCards = legacySections.flatMap((section) => Array.from(section.querySelectorAll('.watch-card')));
 
   document
-    .querySelectorAll('.hero-floating-card, .home-watch-card, .standalone-watch-card, .section-watch-entry')
+    .querySelectorAll('.hero-floating-card, .home-watch-card, .standalone-watch-card')
     .forEach((node) => node.remove());
 
-  if (!watchSection && hero) {
-    watchSection = document.createElement('section');
-    watchSection.className = 'watch-card-section';
-    watchSection.id = 'watch-entry';
-    watchSection.dataset.section = 'watch-entry';
-    hero.insertAdjacentElement('afterend', watchSection);
-  }
-
-  if (!watchSection) return;
+  legacySections.forEach((section) => section.remove());
 
   const watchCards = Array.from(document.querySelectorAll('.watch-card'));
-  const canonicalCard = watchCards.find((card) => card.closest('.watch-card-section') === watchSection) || watchCards[0] || null;
+  const canonicalCard = heroCard.querySelector('.watch-card') || watchCards[0] || legacySectionCards[0] || null;
 
   watchCards.forEach((card) => {
     if (card !== canonicalCard) {
@@ -130,30 +127,25 @@ function initWatchCardCleanup() {
 
   if (!card) {
     card = document.createElement('a');
-    watchSection.appendChild(card);
   }
 
-  card.className = 'watch-card';
+  if (heroSummary) {
+    heroSummary.insertAdjacentElement('afterend', card);
+  } else {
+    heroCard.appendChild(card);
+  }
+
+  card.className = 'watch-card cyber-watch-card';
   card.setAttribute('href', 'veille.html');
-  card.setAttribute('aria-label', 'Accéder à la veille cybersécurité');
-  card.setAttribute('title', 'Accéder à la veille cybersécurité');
-  card.innerHTML = '<span class="watch-card-number">24/7</span><span class="watch-card-label">Veille cybersécurité & CTI</span>';
+  card.setAttribute('aria-label', 'Accéder à la veille cybersécurité et CTI');
+  card.setAttribute('title', 'Accéder à la veille cybersécurité et CTI');
+  card.innerHTML = '<span class="watch-card-number">24/7</span><span class="watch-card-label">Veille cybersécurité & CTI</span><span class="watch-card-action">Accéder à la veille</span>';
 
-  document.querySelectorAll('.watch-card-section').forEach((section) => {
-    if (section !== watchSection) {
-      section.remove();
-    }
-  });
-
-  document.querySelectorAll('.watch-card-number, .watch-card-label').forEach((node) => {
+  document.querySelectorAll('.watch-card-number, .watch-card-label, .watch-card-action').forEach((node) => {
     if (!node.closest('.watch-card')) {
       node.remove();
     }
   });
-
-  if (hero && hero.nextElementSibling !== watchSection) {
-    hero.insertAdjacentElement('afterend', watchSection);
-  }
 }
 
 const I18N_MESSAGES = {
@@ -165,7 +157,7 @@ const I18N_MESSAGES = {
     'nav.blog': 'Blog',
     'nav.projects': 'Projets',
     'nav.game': 'Game Zone',
-    'nav.hack': 'Hack Zone',
+    'nav.hack': 'Hack en cours',
     'hero.eyebrow': 'Infrastructure & cybersécurité',
     'hero.title': 'Jean-Baptiste Terrazzoni',
     'hero.role': 'Administrateur d’infrastructures sécurisées · Cybersécurité · Pentest junior',
@@ -192,6 +184,10 @@ const I18N_MESSAGES = {
     'projects.page.intro': 'Une sélection de missions axées sur l’infrastructure, l’audit et la sécurité offensive.',
     'projects.now.title': 'Ce que je construis actuellement',
     'projects.now.intro': 'Une sélection de projets et travaux en cours autour de l’infrastructure, de la cybersécurité, de la gouvernance et de la documentation technique.',
+    'projects.openeasm.badge': 'Projet principal',
+    'projects.openeasm.subtitle': 'External Attack Surface Management',
+    'projects.openeasm.description': 'OpenEASM est un outil de cartographie et d’analyse de surface d’attaque externe. Il permet d’identifier les domaines, sous-domaines, services exposés, technologies détectées, risques de configuration et éléments utiles pour une démarche d’audit, de veille cyber et de cybersécurité défensive.',
+    'projects.openeasm.cta': 'Voir le projet',
     'cert.page.title': 'Certifications',
     'cert.page.intro': 'Une sélection de certifications validant mes compétences en sécurité, réseau et conformité.',
     'watch.page.title': 'Veille cybersécurité',
@@ -243,7 +239,7 @@ const I18N_MESSAGES = {
     'zones.game.text': 'Explorez des démonstrations interactives, mini-jeux et parcours cyber immersifs.',
     'zones.game.cta': 'Ouvrir la Game Zone',
     'zones.hack.text': 'Explorez un univers cyber immersif avec visualisation d’attaques, veille offensive et démonstrations interactives.',
-    'zones.hack.cta': 'Ouvrir la Hack Zone',
+    'zones.hack.cta': 'Ouvrir Hack en cours',
 
     'blog.back': '← Retour au blog',
     'blog.enableJs': 'Veuillez activer JavaScript pour afficher l’article.',
@@ -273,7 +269,7 @@ const I18N_MESSAGES = {
     'nav.blog': 'Blog',
     'nav.projects': 'Projects',
     'nav.game': 'Game Zone',
-    'nav.hack': 'Hack Zone',
+    'nav.hack': 'Hack en cours',
     'hero.eyebrow': 'Infrastructure & Cybersecurity',
     'hero.title': 'Jean-Baptiste Terrazzoni',
     'hero.role': 'Secure Infrastructure Administrator · Cybersecurity · Junior Pentester',
@@ -300,6 +296,10 @@ const I18N_MESSAGES = {
     'projects.page.intro': 'A selection of missions focused on infrastructure, auditing, and offensive security.',
     'projects.now.title': 'What I am currently building',
     'projects.now.intro': 'A selection of ongoing projects around infrastructure, cybersecurity, governance, and technical documentation.',
+    'projects.openeasm.badge': 'Main project',
+    'projects.openeasm.subtitle': 'External Attack Surface Management',
+    'projects.openeasm.description': 'OpenEASM is a mapping and analysis tool for external attack surfaces. It helps identify domains, subdomains, exposed services, detected technologies, configuration risks, and useful signals for audit work, cyber watch, and defensive cybersecurity.',
+    'projects.openeasm.cta': 'View project',
     'cert.page.title': 'Certifications',
     'cert.page.intro': 'A selection of certifications validating my skills in security, networking, and compliance.',
     'watch.page.title': 'Cybersecurity watch',
@@ -351,7 +351,7 @@ const I18N_MESSAGES = {
     'zones.game.text': 'Explore interactive demos, mini-games, and immersive cyber tracks.',
     'zones.game.cta': 'Open Game Zone',
     'zones.hack.text': 'Explore an immersive cyber universe with attack visualizations, offensive watch, and interactive demos.',
-    'zones.hack.cta': 'Open Hack Zone',
+    'zones.hack.cta': 'Open Hack in progress',
 
     'blog.back': '← Back to blog',
     'blog.enableJs': 'Please enable JavaScript to display the article.',
