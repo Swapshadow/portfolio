@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T20:25:18.915Z",
+  "generatedAt": "2026-06-11T23:24:55.454Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,7 +17,7 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 102
+      "items": 97
     },
     {
       "name": "Exploit-DB",
@@ -76,6 +76,17 @@
   ],
   "items": [
     {
+      "id": "7465553854d3bf6cb1b3fdc64332f98f6145afd7",
+      "title": "ShinyHunters Exploits Oracle PeopleSoft Zero-Day (CVE-2026-35273) to Breach Universities",
+      "url": "https://thehackernews.com/2026/06/shinyhunters-exploits-oracle-peoplesoft.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-06-11T20:29:23.000Z",
+      "summary": "The ShinyHunters extortion crew exploited an unpatched flaw in Oracle PeopleSoft to break into enterprise systems, steal data, and demand payment to keep it private. The campaign h",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBpNcbfulhruio1VSh8OPKOjdx3gvP-Chg8OjSm7LZeVK2GaVR-osKeoQjO9e1_56Dtedmlisu76lYc70Wv5I1efqJcs2uh1RnbKJOITEcqcJoN-8PhNfmzAeLkDrST8Kg3qTbqE8wUrOd4jxE-gMi-vKN1B8W2zgY0ymFTtip79RVltY9J3QmXrAOJa4H/s1600/shinyHunters-universities.jpg"
+    },
+    {
       "id": "40a70dc1b8df131f84bfb150b50c086a9ea0b0e3",
       "title": "Identité, IBAN, numéro de Sécu : un moteur de recherche gratuit dévoile des millions de données de Français",
       "url": "https://www.capital.fr/economie-politique/identite-iban-numero-de-secu-un-moteur-de-recherche-gratuit-devoile-des-millions-de-donnees-de-francais-1527549?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -120,20 +131,9 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiT390XWb8ahl36RgVGzdXiIpEJ43hxHfayY1i2C_rBLbVyu5A2Q-uOFptUFJL33Ehedvbx97RiUV2NivTy-FxxFCNiIKekiqeljYrI3kThk9Sko4wQlFniMDjIfNqgiP-BaN3JYFjAbo2EfP7EBuEDe_p00RtrAmdUl_lsbgzQgV-M7CM_u3Vi7AtqgbSS/s1600/ransomware.jpg"
     },
     {
-      "id": "60ea350344090840229a289e923a89f51df76ed7",
-      "title": "Ils ont volé plus de 10 000 données sensibles à l'Assemblée Nationale ou à Leroy Merlin : sept hackers interpellés dans toute la France",
-      "url": "https://france3-regions.franceinfo.fr/nouvelle-aquitaine/gironde/bordeaux/ils-ont-vole-plus-de-10-000-donnees-sensibles-a-l-assemblee-nationale-ou-a-leroy-merlin-sept-hackers-interpelles-dans-toute-la-france-3367306.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-11T16:45:21.000Z",
-      "summary": "Sept personnes ont été interpellées par l'office anti-cybercriminalité après avoir dérobé des dizaines de millions de données issues notamment de …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/9e2b9ae2e7098bdb71ab3d337fd3bb8e2dfb6fe9/_large.jpeg"
-    },
-    {
-      "id": "598fbf6574a2eea770f374d6589b5cb34a979687",
+      "id": "f9baaeb65751c03f14ac3977762a96cf404aae13",
       "title": "L'UE bannit les financements publics d'onduleurs chinois, menaçant plus de 20% du solaire",
-      "url": "https://energynews.pro/en/eu-bans-public-funding-for-chinese-solar-inverters-threatening-over-20-of-capacity?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "url": "https://energynews.pro/en/eu-bans-public-funding-for-chinese-solar-inverters-threatening-over-20-of-capacity?amp%3Butm_content=topic%2Ffr-technologie",
       "source": "Cybercriminalité FR",
       "publishedAt": "2026-06-11T16:37:16.000Z",
       "summary": "L'Union européenne a interdit le financement public des onduleurs solaires chinois pour des raisons de cybersécurité, une mesure qui pourrait …",
@@ -142,15 +142,26 @@
       "imageUrl": "https://placid-cronin.s3.bhs.io.cloud.ovh.net/articles/dd095823ff6db098.webp"
     },
     {
-      "id": "c3888ea1f30f130a3096b3c26476141f5791e646",
-      "title": "Lutte contre les ingérences numériques : \"La France est dans le top 3 européen\"",
-      "url": "https://www.france24.com/fr/france/20260611-lutte-contre-ing%C3%A9rences-num%C3%A9riques-france-top-3-europ%C3%A9en-pr%C3%A9sidentielle-lecornu?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "id": "bee7411c845760b27cd57180261c934cb09606d7",
+      "title": "Cyberattaques : sept personnes interpellées, soupçonnées d’avoir volé plusieurs dizaines de millions de données",
+      "url": "https://www.ouest-france.fr/societe/cyberattaque/cyberattaques-sept-personnes-interpellees-soupconnees-davoir-vole-plusieurs-dizaines-de-millions-de-donnees-75bb794c-65ab-11f1-a46d-81598b89efb2?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
       "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-11T16:33:09.000Z",
-      "summary": "Le Premier ministre Sébastien Lecornu a réuni jeudi les formations politiques pour aborder la question des ingérences électorales. À l’approche de la présidentielle, les autorités ",
+      "publishedAt": "2026-06-11T16:19:08.000Z",
+      "summary": "Jeudi 11 juin, l’Office anti-cybercriminalité a annoncé avoir interpellé sept personnes dans le démantèlement d’un groupe spécialisé dans …",
       "type": "NEWS",
       "severity": "Info",
-      "imageUrl": "https://s.france24.com/media/display/fec18a7e-0bc6-11ef-95b6-005056a90284/w:1280/p:16x9/000_346R2XJ.jpg"
+      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/35b5a8e65f92992a99dda5f81c8c589244574ec9/_xlarge.jpeg"
+    },
+    {
+      "id": "220867d4523797e2872623def333bdf069dd278f",
+      "title": "Lutte contre le phishing : Vooruit met la pression sur les banques",
+      "url": "https://www.lalibre.be/economie/entreprises-startup/2026/06/11/lutte-contre-le-phishing-vooruit-met-la-pression-sur-les-banques-BB23IVPVSVBUJFAYWPL4VHWWF4/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-11T16:15:30.000Z",
+      "summary": "Le député fédéral Jeroen Soete a pointé du doigt, à la Chambre, les pratiques des banques, en particulier celles de Belfius. Le phishing, soit la …",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://ic-cdn.flipboard.com/lalibre.be/212a4be04c8e6e154a89aa19dcc5f834216e2587/_xlarge.jpeg"
     },
     {
       "id": "d114bdf35f0e644d751e312118f9f8bc418f0184",
@@ -197,12 +208,23 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwRILGY9KcqTFlus6q7_YKlkzrx_LNXb7KS96PijLOM63YqrZIcvxXaf9j0i-sJhst_yL59b7pq32rwcHSSByX7dzVRXSv_dRnrAYqn0Hpps_G7odqCYu8BEonGPMlUkCAz-d0q2No-ojqaZou-b06UwZxzq0oV5CthkgjmTdTBU1JEkWRLV28PwRR5UW7/s1600/tt.png"
     },
     {
+      "id": "fcbfbac6e1a055ae130399bbcf82f5103a8e2ce3",
+      "title": "Une étude mondiale révèle l'ampleur des arnaques qui ciblent les smartphones",
+      "url": "https://siecledigital.fr/2026/06/11/une-etude-mondiale-revele-lampleur-des-arnaques-qui-ciblent-les-smartphones/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-11T12:39:12.000Z",
+      "summary": "Bitdefender publie son rapport mondial 2026 sur les arnaques numériques. On apprend qu'un SMS sur vingt reçu dans le monde est potentiellement …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://siecledigital.fr/wp-content/uploads/2026/06/arnaques-smartphones.jpg"
+    },
+    {
       "id": "aedc56da05c81f8be49fc3f61759e7dd5ff1220e",
       "title": "Yarbo Android/iOS Mobile Application and Cloud Infrastructure",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-162-01",
       "source": "CISA",
       "publishedAt": "2026-06-11T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-162-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-162-01.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -213,7 +235,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-162-02",
       "source": "CISA",
       "publishedAt": "2026-06-11T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-162-02.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-162-02.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -224,7 +246,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-162-03",
       "source": "CISA",
       "publishedAt": "2026-06-11T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-162-03.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-162-03.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -235,7 +257,7 @@
       "url": "https://www.cisa.gov/news-events/alerts/2026/06/11/cisa-adds-one-known-exploited-vulnerability-catalog",
       "source": "CISA",
       "publishedAt": "2026-06-11T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA has added one new vulnerability to its &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities (KEV) Ca",
+      "summary": "&lt;p&gt;CISA has added one new vulnerability to its &lt;a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/",
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": null
@@ -1049,7 +1071,7 @@
       "url": "https://www.cisa.gov/news-events/alerts/2026/06/09/cisa-adds-three-known-exploited-vulnerabilities-catalog",
       "source": "CISA",
       "publishedAt": "2026-06-09T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA has added three new vulnerabilities to its &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities (KEV",
+      "summary": "&lt;p&gt;CISA has added three new vulnerabilities to its &lt;a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"&gt;Known Exploited Vulnerabilities (KEV) Catalog&",
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": null
@@ -1060,7 +1082,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-160-02",
       "source": "CISA",
       "publishedAt": "2026-06-09T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-160-02.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-160-02.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1071,7 +1093,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-160-03",
       "source": "CISA",
       "publishedAt": "2026-06-09T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-160-03.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-160-03.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1082,7 +1104,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-160-01",
       "source": "CISA",
       "publishedAt": "2026-06-09T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-160-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-160-01.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1196,17 +1218,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://prod.cdn-medias.jeuneafrique.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=1280,height=720,fit=cover/https://prod.cdn-medias.jeuneafrique.com/medias/2026/06/09/fhmmjmixwaaidk.jpg"
-    },
-    {
-      "id": "18d0f7474a77a685e740d000f3baac9581ccd06b",
-      "title": "Tchap, la messagerie chiffrée de l'État français, a été piratée : 73 000 agents et 643 000 messages exposés",
-      "url": "https://www.lesnumeriques.com/societe-numerique/tchap-la-messagerie-chiffree-de-l-etat-francais-a-ete-piratee-73-000-agents-et-643-000-messages-exposes-n257220.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-09T06:31:00.000Z",
-      "summary": "L'État français a dépensé des millions pour construire Tchap, sa propre messagerie chiffrée, et l'imposer à 300 000 agents publics pour se passer de …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://cdn.lesnumeriques.com/optim/news/25/257220/82ef5556-tchap-la-messagerie-chiffree-de-l-etat-francais-a-ete-piratee-73-000-agents-et-643-000-messages-exposes_png__1200_678__2-257-1799-1200.jpg"
     },
     {
       "id": "43dd5a28fc3d5f32e93d07097ae320448225f25f",
@@ -1489,7 +1500,7 @@
       "url": "https://www.cisa.gov/news-events/alerts/2026/06/08/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "source": "CISA",
       "publishedAt": "2026-06-08T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA has added two new vulnerabilities to its &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities (KEV) ",
+      "summary": "&lt;p&gt;CISA has added two new vulnerabilities to its &lt;a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt",
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": null
@@ -1797,7 +1808,7 @@
       "url": "https://www.cisa.gov/news-events/alerts/2026/06/05/cisa-adds-one-known-exploited-vulnerability-catalog",
       "source": "CISA",
       "publishedAt": "2026-06-05T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA has added one new vulnerability to its &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities (KEV) Ca",
+      "summary": "&lt;p&gt;CISA has added one new vulnerability to its &lt;a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/",
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": null
@@ -1845,17 +1856,6 @@
       "type": "LEAK",
       "severity": "Élevée",
       "imageUrl": null
-    },
-    {
-      "id": "6ed4509bfc944128cf8e4ff368a7a2f5e985c960",
-      "title": "PCPJack Hijacks 230 AWS, Google Cloud, and Azure Servers for Covert SMTP Relay Network",
-      "url": "https://thehackernews.com/2026/06/pcpjack-hijacks-230-aws-google-cloud.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-05T05:34:19.000Z",
-      "summary": "The threat actor known as PCPJack has hijacked cloud servers associated with Amazon Web Services (AWS), Google Cloud, and Microsoft Azure to create a covert SMTP email relay networ",
-      "type": "NEWS",
-      "severity": "Moyenne",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibu0mX9Tusu3siXFJzPskfA1ZYZ2OdRJTegsJFkffBc9cBBPGWguTUAI3PPAaFy-WIjziA9PIrMrZNVuFVNmbFhOSPLv6mMBPvjWnR-WQGBD2fvGFTJT358yWFFTxeFSS87aQ_fj30G2VdsGlBjy2KJiby4CS-k3X9FjjpyTGxljOo373cUaZKhdBvWZ_a/s1600/cloud-emails.jpg"
     },
     {
       "id": "d5bec47f3bc678fcb25ed81b9314bc4ef4c54892",
@@ -1951,7 +1951,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-02",
       "source": "CISA",
       "publishedAt": "2026-06-04T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-155-02.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-155-02.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1962,7 +1962,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-01",
       "source": "CISA",
       "publishedAt": "2026-06-04T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-155-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-155-01.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1973,7 +1973,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-03",
       "source": "CISA",
       "publishedAt": "2026-06-04T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-155-03.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-155-03.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1984,7 +1984,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-04",
       "source": "CISA",
       "publishedAt": "2026-06-04T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-155-04.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-155-04.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1995,7 +1995,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-05",
       "source": "CISA",
       "publishedAt": "2026-06-04T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-155-05.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-155-05.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -2127,9 +2127,9 @@
       "url": "https://www.cisa.gov/news-events/alerts/2026/06/03/cisa-adds-one-known-exploited-vulnerability-catalog",
       "source": "CISA",
       "publishedAt": "2026-06-03T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA has added one new vulnerability to its&amp;nbsp;&lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities",
+      "summary": "&lt;p&gt;CISA has added one new vulnerability to its&amp;nbsp;&lt;a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"&gt;Known Exploited Vulnerabilities (KEV) Cat",
       "type": "CVE",
-      "severity": "Élevée",
+      "severity": "Critique",
       "imageUrl": null
     },
     {
@@ -2193,7 +2193,7 @@
       "url": "https://www.cisa.gov/resources-tools/resources/cisa-and-partners-urge-hardening-automatic-tank-gauge-systems",
       "source": "CISA",
       "publishedAt": "2026-06-02T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a class=&quot;c-button&quot; href=&quot;https://www.cisa.gov/sites/default/files/2026-06/fact-sheet-cisa-and-partners-urge-hardening-automatic-tank-gauge-systems_508c.",
+      "summary": "&lt;p&gt;&lt;a class=\"c-button\" href=\"https://www.cisa.gov/sites/default/files/2026-06/fact-sheet-cisa-and-partners-urge-hardening-automatic-tank-gauge-systems_508c.pdf\"&gt;CISA an",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -2204,9 +2204,9 @@
       "url": "https://www.cisa.gov/news-events/alerts/2026/06/02/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "source": "CISA",
       "publishedAt": "2026-06-02T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA has added two new vulnerabilities to its&amp;nbsp;&lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabiliti",
+      "summary": "&lt;p&gt;CISA has added two new vulnerabilities to its&amp;nbsp;&lt;a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"&gt;Known Exploited Vulnerabilities (KEV) C",
       "type": "CVE",
-      "severity": "Élevée",
+      "severity": "Critique",
       "imageUrl": null
     },
     {
