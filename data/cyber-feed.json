@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T16:07:25.752Z",
+  "generatedAt": "2026-06-11T20:25:18.915Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -76,15 +76,81 @@
   ],
   "items": [
     {
-      "id": "c573641c975885cdcd037b75563082af1dbad74e",
-      "title": "Cyberattaques : sept personnes interpellées, soupçonnées d’avoir volé plusieurs dizaines de millions de données sensibles en France",
-      "url": "https://www.leparisien.fr/faits-divers/cyberattaques-sept-personnes-interpellees-soupconnees-davoir-vole-plusieurs-dizaines-de-millions-de-donnees-sensibles-en-france-11-06-2026-JMLLVMF5XBF3VD676XA5X4K4ZU.php?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "id": "40a70dc1b8df131f84bfb150b50c086a9ea0b0e3",
+      "title": "Identité, IBAN, numéro de Sécu : un moteur de recherche gratuit dévoile des millions de données de Français",
+      "url": "https://www.capital.fr/economie-politique/identite-iban-numero-de-secu-un-moteur-de-recherche-gratuit-devoile-des-millions-de-donnees-de-francais-1527549?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
       "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-11T15:47:57.000Z",
-      "summary": "Ces sept personnes ont été interpellées lors du démantèlement du groupe « Dumpsec », spécialisé dans l’extraction et la revente de données …",
+      "publishedAt": "2026-06-11T18:08:09.000Z",
+      "summary": "Retrouvées dans des sources publiques, des millions de données personnelles de Français ont été mises en ligne par des hackers sur un site internet. …",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://ic-cdn.flipboard.com/capital.fr/2b1f9ba2b7d6f2d1f44ccf9782750c7179090085/_xlarge.jpeg"
+    },
+    {
+      "id": "83baac4f0ebb1ee540e75450cf71f6c474964e73",
+      "title": "New Attacks Trick OpenClaw AI Agent Into Running Code and Leaking Secrets",
+      "url": "https://thehackernews.com/2026/06/new-attacks-trick-openclaw-ai-agent.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-06-11T17:46:32.000Z",
+      "summary": "Two security teams have shown, in separate research published this week, that OpenClaw, the popular self-hosted AI agent, can be driven to run attacker-controlled code or hand over",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6r68iB-MZv_eNGG3y0evEVbk7WXNkMzcKno1phHiSyOwfKd0G7bv8VCCrxQgmZOutmZdP1Nz-Xr1mxxUIx_rV8imT0-Ifk0e0FL525Z2v0C94GWgeo-wUpTk39rDdilNC_K20uqw0JipHlT7XmyTHn786UIAe_z3H2VXT1cYNAIEbKSwn2qYc_9MXzpbi/s1600/openclaw-hacks.jpg"
+    },
+    {
+      "id": "254e75ddc41313df92d3671866a82629b71659cc",
+      "title": "New GreatXML Exploit Bypasses Windows BitLocker via Recovery Partition XML Files",
+      "url": "https://thehackernews.com/2026/06/new-greatxml-exploit-bypasses-windows.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-06-11T17:43:52.000Z",
+      "summary": "Security researcher Chaotic Eclipse (aka Nightmare-Eclipse and MSNightmare) has released a new Windows BitLocker bypass dubbed GreatXML, a day after they published an exploit for M",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqKyNLbT9WYm7m6ZsvIgv0mNbGJCrgEjUUXLbRZV9mmQUVi7jT9IiwlXh2kYKiMOrsCnJ-ZaoAK9GnL9jy6RHJELISIGFuLSZgsSYuclWFcPmItYL04pTVeA7cl_jy8L6RU4CVPypa6u24OH8hCwPL1g1tEVRczTV1YjZ5KUFGZc6DVw8Pdo_CFGXRTS-d/s1600/windows-bitlocker.jpg"
+    },
+    {
+      "id": "6507517c2d9c4631caffd6c022fdab6468215f86",
+      "title": "The Gentlemen Ransomware Claims 478 Victims, Can Spread Like a Worm",
+      "url": "https://thehackernews.com/2026/06/the-gentlemen-ransomware-claims-478.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-06-11T16:50:47.000Z",
+      "summary": "A new analysis of The Gentlemen operation has revealed that the financially motivated threat group initially operated as an affiliate responsible for conducting double extortion at",
+      "type": "NEWS",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiT390XWb8ahl36RgVGzdXiIpEJ43hxHfayY1i2C_rBLbVyu5A2Q-uOFptUFJL33Ehedvbx97RiUV2NivTy-FxxFCNiIKekiqeljYrI3kThk9Sko4wQlFniMDjIfNqgiP-BaN3JYFjAbo2EfP7EBuEDe_p00RtrAmdUl_lsbgzQgV-M7CM_u3Vi7AtqgbSS/s1600/ransomware.jpg"
+    },
+    {
+      "id": "60ea350344090840229a289e923a89f51df76ed7",
+      "title": "Ils ont volé plus de 10 000 données sensibles à l'Assemblée Nationale ou à Leroy Merlin : sept hackers interpellés dans toute la France",
+      "url": "https://france3-regions.franceinfo.fr/nouvelle-aquitaine/gironde/bordeaux/ils-ont-vole-plus-de-10-000-donnees-sensibles-a-l-assemblee-nationale-ou-a-leroy-merlin-sept-hackers-interpelles-dans-toute-la-france-3367306.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-11T16:45:21.000Z",
+      "summary": "Sept personnes ont été interpellées par l'office anti-cybercriminalité après avoir dérobé des dizaines de millions de données issues notamment de …",
       "type": "NEWS",
       "severity": "Info",
-      "imageUrl": "https://www.leparisien.fr/resizer/2pupF_VbUXiieTMUZKeA73pvAwE=/1600x900/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/W3Q5XP3P7JCUWDTIBPQURMGOX4.jpg"
+      "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/9e2b9ae2e7098bdb71ab3d337fd3bb8e2dfb6fe9/_large.jpeg"
+    },
+    {
+      "id": "598fbf6574a2eea770f374d6589b5cb34a979687",
+      "title": "L'UE bannit les financements publics d'onduleurs chinois, menaçant plus de 20% du solaire",
+      "url": "https://energynews.pro/en/eu-bans-public-funding-for-chinese-solar-inverters-threatening-over-20-of-capacity?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-11T16:37:16.000Z",
+      "summary": "L'Union européenne a interdit le financement public des onduleurs solaires chinois pour des raisons de cybersécurité, une mesure qui pourrait …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://placid-cronin.s3.bhs.io.cloud.ovh.net/articles/dd095823ff6db098.webp"
+    },
+    {
+      "id": "c3888ea1f30f130a3096b3c26476141f5791e646",
+      "title": "Lutte contre les ingérences numériques : \"La France est dans le top 3 européen\"",
+      "url": "https://www.france24.com/fr/france/20260611-lutte-contre-ing%C3%A9rences-num%C3%A9riques-france-top-3-europ%C3%A9en-pr%C3%A9sidentielle-lecornu?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-11T16:33:09.000Z",
+      "summary": "Le Premier ministre Sébastien Lecornu a réuni jeudi les formations politiques pour aborder la question des ingérences électorales. À l’approche de la présidentielle, les autorités ",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://s.france24.com/media/display/fec18a7e-0bc6-11ef-95b6-005056a90284/w:1280/p:16x9/000_346R2XJ.jpg"
     },
     {
       "id": "d114bdf35f0e644d751e312118f9f8bc418f0184",
@@ -96,17 +162,6 @@
       "type": "CVE",
       "severity": "Info",
       "imageUrl": "https://beymedias.brightspotcdn.com/dims4/default/b043450/2147483647/strip/true/crop/1536x747+0+42/resize/1440x700!/quality/90/?url=http%3A%2F%2Fl-opinion-brightspot.s3.amazonaws.com%2F9a%2Fa0%2Fa2632d604820ac04f882bdfbb36e%2Fdesigner-28.png"
-    },
-    {
-      "id": "55dc7fd6b21e405f6bc78df2316f9c16e356cb6c",
-      "title": "La Corée du Nord serait responsables de près de la moitié des piratages informatiques dans le secteur technologique américain",
-      "url": "https://www.bfmtv.com/tech/cybersecurite/la-coree-du-nord-serait-responsables-de-pres-de-la-moitie-des-piratages-informatiques-dans-le-secteur-technologique-americain_AN-202606110653.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-11T14:03:29.000Z",
-      "summary": "La Corée du Nord serait responsable de près de la moitié des piratages informatiques dans le secteur technologique américain, selon un récent rapport …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/bfmtv.com/0a7389aa89d859e5a6b9176ae30da90059654a52/_xlarge.jpeg"
     },
     {
       "id": "c51ff0ccd05a24902331486ef64904e88885d275",
@@ -131,19 +186,8 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSZHAWbb4vxxCvcuKVVx_cF20NdH25LsT22W5ftwdgoPt9RSB_6g399zuxnBqiClQMbMTVTlZ5w2uZ7LoZnhySiv2rdRpu_992csHQmBaTqzkBAB3jkpru_Ofvli3RzA6r2kYxapez3lqhW02JPzqtJcDd2DGnZC62u72F59zUJbsS3CujuYH_mpj9lhk/s1600/winners.jpg"
     },
     {
-      "id": "3ba979a072c33366d4a9100bad86b42f6d23005a",
-      "title": "Faites attention, les arnaques sur Booking.com deviennent redoutablement ciblées",
-      "url": "https://www.24heures.ch/booking-com-une-arnaque-au-remboursement-lui-coute-9000-francs-923982508988?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-11T13:25:28.000Z",
-      "summary": "Les arnaques sur Booking.com se multiplient en Suisse avec des techniques de plus en plus personnalisées. L’Office fédéral de la cybersécurité (OFCS) …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://cdn.unitycms.io/images/6cQPdWwd4VP8B4ZKetNSoW.jpg?op=ocroped&amp%3Bval=1200%2C600%2C1000%2C750%2C125%2C0&amp%3Bsum=G4Bo1bxJo-E"
-    },
-    {
       "id": "9b38bb61656a0ab4d8457b36cf1151ffec11a9ae",
-      "title": "ThreatsDay Bulletin: Worm Code Leaked, AI Agent Phished, Claude Action Patch + 28 New Stories",
+      "title": "ThreatsDay Bulletin: Worm Code Leaked, AI Agent Phished, Claude Code Patch + 28 New Stories",
       "url": "https://thehackernews.com/2026/06/threatsday-bulletin-worm-code-leaked-ai.html",
       "source": "The Hacker News",
       "publishedAt": "2026-06-11T13:20:41.000Z",
@@ -151,17 +195,6 @@
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwRILGY9KcqTFlus6q7_YKlkzrx_LNXb7KS96PijLOM63YqrZIcvxXaf9j0i-sJhst_yL59b7pq32rwcHSSByX7dzVRXSv_dRnrAYqn0Hpps_G7odqCYu8BEonGPMlUkCAz-d0q2No-ojqaZou-b06UwZxzq0oV5CthkgjmTdTBU1JEkWRLV28PwRR5UW7/s1600/tt.png"
-    },
-    {
-      "id": "71293c34ba87d6df3564ac368e31888620d5b26d",
-      "title": "La plateforme de messagerie sécurisée des agents publics français touchée par un piratage massif",
-      "url": "https://siecledigital.fr/2026/06/11/la-plateforme-de-messagerie-securisee-des-agents-publics-francais-touchee-par-un-piratage-massif/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-11T12:39:34.000Z",
-      "summary": "Tchap, la messagerie chiffrée imposée à 300 000 agents publics français, a été compromise. Un cybercriminel revendique l'exfiltration de plus de 643 …",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://siecledigital.fr/wp-content/uploads/2026/06/messagerie-securisee.jpg"
     },
     {
       "id": "aedc56da05c81f8be49fc3f61759e7dd5ff1220e",
@@ -197,6 +230,17 @@
       "imageUrl": null
     },
     {
+      "id": "ce4c1658e4ffe91d33e138c91396427a1cb1af3d",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/06/11/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "source": "CISA",
+      "publishedAt": "2026-06-11T12:00:00.000Z",
+      "summary": "&lt;p&gt;CISA has added one new vulnerability to its &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities (KEV) Ca",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": null
+    },
+    {
       "id": "ae11708e10a2b0932d6a3fb32b4bd25c53abfe78",
       "title": "AI Broke Vulnerability Management. That's Why CISOs Are Moving Budget to BAS.",
       "url": "https://thehackernews.com/2026/06/ai-broke-vulnerability-management-thats.html",
@@ -228,6 +272,17 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://c0.lestechnophiles.com/www.numerama.com/wp-content/uploads/2026/06/miasma.jpg?resize=1600%2C900&amp%3Bkey=93957c37&amp%3Bwatermark="
+    },
+    {
+      "id": "e922ff0975bfd64afc75e124cca89b4376253c33",
+      "title": "Instagram piraté via sa propre IA : 34 000 comptes compromis !",
+      "url": "https://android-mt.ouest-france.fr/news/instagram-pirate-via-sa-propre-ia-34-000-comptes-compromis/203582/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-11T07:27:30.000Z",
+      "summary": "Un chatbot trop bavard, des hackers très malins Tout a commencé en mars dernier, quand Meta a déployé un robot d’assistance basé sur l’IA pour gérer …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/910cec6f75d2416c0fd88baa274cac1b502310ec/_xlarge.jpeg"
     },
     {
       "id": "cb677fd0d101bb4d9030bd915d7b743961da3c6c",
@@ -484,11 +539,11 @@
     },
     {
       "id": "6a2ce66b5056bb1e13d4f2790f37c45d00dae5a0",
-      "title": "Unpatched Langflow Flaw CVE-2026-5027 Exploited for Unauthenticated RCE",
+      "title": "Langflow Vulnerability CVE-2026-5027 Exploited for Unauthenticated RCE",
       "url": "https://thehackernews.com/2026/06/unpatched-langflow-flaw-cve-2026-5027.html",
       "source": "The Hacker News",
       "publishedAt": "2026-06-10T15:00:59.000Z",
-      "summary": "A high-severity unpatched security flaw in Langflow, an open-source low-code platform to build artificial intelligence (AI) applications, has come under active exploitation in the ",
+      "summary": "A high-severity security flaw in Langflow, an open-source low-code platform to build artificial intelligence (AI) applications, has come under active exploitation in the wild, acco",
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidDfz-Q5s2ON-nc6gW-4Lgw1yMocr3YiLP82vXcoWHcs6-_ICHWHZsciCnM2aU4kBZ2yyCJ622deCwKAXZdOFVyIoG41JC7SHyXIG6soj-RrFySsKHp2N51PpbGb7LxJWXvqOXE6GTap75h_QIjH78l0Ys__M_4EtgxMgymWgCS1vfdmWmwgpkW1TIq61I/s1600/lang.png"
@@ -514,17 +569,6 @@
       "type": "NEWS",
       "severity": "Critique",
       "imageUrl": "https://krebsonsecurity.com/wp-content/uploads/2026/06/thegentlemen.png"
-    },
-    {
-      "id": "e7457cad6884ded75e29f52cfc720e05199e82d9",
-      "title": "La France poursuivie par l'UE pour son retard dans l'adoption des règles de cybersécurité",
-      "url": "https://siecledigital.fr/2026/06/10/la-france-poursuivie-par-lue-pour-son-retard-dans-ladoption-des-regles-de-cybersecurite/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-10T13:12:49.000Z",
-      "summary": "La Commission européenne s'apprête à traîner la France et l'Espagne face à la Cour de justice de l'UE. Les deux pays n'ont toujours pas transposé la …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://siecledigital.fr/wp-content/uploads/2026/06/ue.jpg"
     },
     {
       "id": "64a6e6f91b72234f2f4ae61e560019cab9e7f347",
@@ -624,6 +668,17 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJXkAy-j0jwPWQiC9bJinbwINT6pxRmO7CJ_df4bkbAP3VD-xU8oblGB5ZBBR1oLMN0uqf_lBb5al4KSR82lU1kZsXu14TAMaXi6kIjcp5xxk5yLKnOCTloqgZd6w_PuzPxTxNROksgp9pld0D9HoxceBwprkC5cDXEvoSP64bzC_UZyZthInrECAReAeH/s1600/protobuf.jpg"
+    },
+    {
+      "id": "f83974054ce63cfa6db67bbe5d5f5df7ea136ff2",
+      "title": "🎤 L’IA peut-elle stopper une cyberattaque avant l’humain ? (Cyril Demonceaux, Orange Cyberdefense)",
+      "url": "https://podmust.com/episode/?podcast=monde-numerique&amp%3Bepis=8J+OpCBM4oCZSUEgcGV1dC1lbGxlIHN0b3BwZXIgdW5lIGN5YmVyYXR0YXF1ZSBhdmFudCBs4oCZaHVtYWluID8gKEN5cmlsIERlbW9uY2VhdXgsIE9yYW5nZSBDeWJlcmRlZmVuc2Up",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-10T05:00:00.000Z",
+      "summary": "Un épisode du podcast Monde numérique. Écouter, partager, s'abonner gratuitement depuis Podmust.",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://static.audiomeans.fr/img/episode/3be626c3-67e0-4e41-b28f-6bf778f2ba39.jpg"
     },
     {
       "id": "b3dc1ed35c7837f6c933c5242d455683711fdede",
@@ -921,6 +976,17 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhS-7rxJRihxTgaEj0a_mk4hVtMdwpHB8Gfd5ZgctcXcjOdEnSEJr9Qao5B5kpk2QBpumULMvNi1ZPptGJnA3NhAres2k9CGwhCQTfMciEcl2otHHvKxU9j9AkTyAgANeYS_CCY9WOip8lBCi6cq8JgPr_oqnuw-lpp53u881dYUrH8KzU8xLNPK6Lube-x/s1600/ms-worm.jpg"
+    },
+    {
+      "id": "65969c0c2215b7f06165d91132cc270d0eaa1469",
+      "title": "643 000 messages et 73 000 agents concernés : ce que l’on sait de la cyberattaque qui frappe Tchap",
+      "url": "https://www.charentelibre.fr/societe/643-000-messages-et-73-000-agents-concernes-ce-que-l-on-sait-de-la-cyberattaque-qui-frappe-tchap-29417556.php?amp%3Butm_content=topic%2Ffr-technologie",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-09T14:56:45.000Z",
+      "summary": "L’application Tchap, utilisée par des centaines de milliers d’agents publics pour leurs échanges professionnels, a été visée par un incident de …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://media.charentelibre.fr/29417556/1200x-1/tchap-620.jpg"
     },
     {
       "id": "94c8556a98dfc99a958bfedc4045726fceef352d",
@@ -1594,17 +1660,6 @@
       "imageUrl": null
     },
     {
-      "id": "466c02d01d39179bf56cf6860b59aeee372e664e",
-      "title": "Arnaque par message : il suffit de 30 minutes pour perdre plus de 1000 euros, et tout le monde est visé",
-      "url": "https://www.01net.com/actualites/arnaque-par-message-il-suffit-de-30-minutes-pour-perdre-plus-de-1000-euros-et-tout-le-monde-est-vise.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-07T10:00:57.000Z",
-      "summary": "Une étude de Kaspersky révèle qu’il est possible de perdre plus de 1000 euros en moins de 30 minutes à cause d’une arnaque sur WhatsApp ou par SMS. …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/08e6d7b4db9868afb9c218b5443f6b464b4e8375/_xlarge.jpeg"
-    },
-    {
       "id": "bfaecf463270f95907565d0c8a3937bf773a29b1",
       "title": "Une double authentification inutile : l'outil de piratage Kali365 fait des ravages sur les comptes Microsoft",
       "url": "https://www.01net.com/actualites/double-authentification-inutile-outil-piratage-kali365-ravages-comptes-microsoft.html?amp%3Butm_content=topic%2Ffr-technologie",
@@ -1691,17 +1746,6 @@
       "type": "NEWS",
       "severity": "Moyenne",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgG8k6LtHNQ3cHl_X1AZbXRn6LZCNZ6lMLjy-9HG7-_OQekMOhCQKkktrnMqVteXfmGHBMMlbTv3v9Rl6kKjXlNQBSHUVybmD_IBVvMDT7IsMGV49OMSfF5V8bMFVW4ZwFjlg_gddyYtiiQqmdpYIJjuKLTZz_rxooZZQQye7omBEOjyxMFFjAaiZuc6Non/s1600/azure-npm.jpg"
-    },
-    {
-      "id": "5a16e63af498edc449b56ef717d3be384072c604",
-      "title": "Mot de passe, assurance, sauvegarde : pour éviter le vol de vos données, voici les cinq conseils d'un expert en cybersécurité",
-      "url": "https://france3-regions.franceinfo.fr/nouvelle-aquitaine/haute-vienne/limoges/mot-de-passe-assurance-sauvegarde-pour-eviter-le-vol-de-vos-donnees-voici-les-cinq-conseils-d-un-expert-en-cybersecurite-3363157.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-06T04:30:12.000Z",
-      "summary": "Alors que les cyberattaques n'ont jamais été aussi nombreuses en France, Limoges Métropole a organisé les troisièmes rencontres de la cybersécurité …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/9620d29195a4542646dbd260f2fe65b16375fc10/_large.jpeg"
     },
     {
       "id": "68e45658531854d2b61cb5b2425fd04ad928229f",
@@ -1889,39 +1933,6 @@
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
-    },
-    {
-      "id": "810e9ae3632085d2e12d5855dea67deaf7664439",
-      "title": "Cisco Patches CVE-2026-20230 in Unified CM as Exploit Code Goes Public",
-      "url": "https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-04T16:55:51.000Z",
-      "summary": "Cisco has patched a bug in Unified Communications Manager that lets an unauthenticated attacker on the network write files to the box and, from there, climb to root. It is tracked ",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6_xkmI_c8KreZ4cr2oC9gHJERU9xWsLGDrCNCaB11IQVGmJ-r0MYUjqGllvOFc0IVwGYBqnzLJl96WBTSVXUr5Z8KRym9SsnoUlNN6oEditbTFqW3kTfOhujPEPN-KIzGJmxaJGh9mCvY1TadCVfJJfIBoTjbXn2TCcbQE8NHsKhe8ld53YHYsG5MTYg/s1600/cisco-flaw.jpg"
-    },
-    {
-      "id": "cc50de1a89abcf007a5a3e2c08d4393016479d3c",
-      "title": "Claude Code GitHub Action Flaw Let One Malicious Issue Hijack Repositories",
-      "url": "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-04T15:15:26.000Z",
-      "summary": "A security researcher found a flaw in Anthropic's Claude Code GitHub Action that let an attacker take over vulnerable public repositories running it, with nothing more than a singl",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiaBF9jAklPh1ncr_eVPGnV229BSTNgAjkScVm-yTXAn4IcBjjZoLIglasRdu1XEPafCxJhqVZrC3zkNWilyAhN-6Ox8z2HBRjNg2D4aqJsDiRDg02BgAy4zgwU2100ZLIO8yTOtarI0Vxa3AGUQk0GZq1_zKSFQOhNiNoyVsP2AldJZoW8ZJ1rY936ZI/s1600/claude-code-hack.jpg"
-    },
-    {
-      "id": "5d33927ee065128c5db28921a71c2ec06c045cf5",
-      "title": "Agentic AI Is Transforming Defense, But Only Secure IT Infrastructure Will Maximize It",
-      "url": "https://thehackernews.com/2026/06/agentic-ai-is-transforming-defense-but.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-04T15:10:00.000Z",
-      "summary": "Over the past several weeks, the cybersecurity community has been reminded how quickly frontier and agentic AI in defense networks can challenge our assumptions. When Anthropic's C",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6i36LXqSESJrnuYOf6ULo2Hijp9l8i9UTGbRzCLuWImPpfPJ6cKQgBFGhS8yx3_qn8IoM0MgY0pmL4mZfzegatvhQWDKV5OQ3MfOWvPzYIokXaFDUvBM3EYsMOqtQoxx0AmeiakeocpBIlaNeCiBkPcnK1OW8abfIz0_8zuybqKQvWuriVC97Ir259Sw/s1600/agentic-ai.jpg"
     },
     {
       "id": "c5ca9713482f6ae8d24f1aad193298d4459c893f",
@@ -2262,17 +2273,6 @@
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;débordement d'entier&lt;/strong&gt; (integer overflow) dans le composant &lt;strong&gt;Framework&lt;/strong&gt; d'Android, p",
       "type": "CVE",
       "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "f0d13484548428d31bdf5d6674984cf49530129d",
-      "title": "L’UGAP et Cybermalveillance.gouv.fr nouent un partenariat structurant pour accompagner les acteurs publics face au risque cyber",
-      "url": "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/ugap-cybermalveillancegouvfr",
-      "source": "Cybermalveillance",
-      "publishedAt": "2026-06-01T17:36:35.000Z",
-      "summary": "Dans un contexte d’intensification des menaces numériques, l’UGAP, centrale d’achat public, et Cybermalveillance.gouv.fr ont signé une convention de partenariat visant à renforcer ",
-      "type": "CVE",
-      "severity": "Critique",
       "imageUrl": null
     }
   ]
