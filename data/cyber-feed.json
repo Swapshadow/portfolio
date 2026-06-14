@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T23:08:27.842Z",
+  "generatedAt": "2026-06-14T04:20:37.597Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -22,8 +22,9 @@
     {
       "name": "Exploit-DB",
       "url": "https://www.exploit-db.com/rss.xml",
-      "status": "ok",
-      "items": 50
+      "status": "error",
+      "items": 0,
+      "error": "fetch failed"
     },
     {
       "name": "The Hacker News",
@@ -75,6 +76,28 @@
     }
   ],
   "items": [
+    {
+      "id": "21b2aa3bcbf47dc0cfbd7401475c8aaec5bb74ac",
+      "title": "Identité notariale : un pirate revendique une cyber attaque !",
+      "url": "https://www.zataz.com/identite-notariale-un-pirate-revendique-une-cyber-attaque/",
+      "source": "Zataz",
+      "publishedAt": "2026-06-13T23:43:22.000Z",
+      "summary": "Une fuite revendiquée vise 7 729 comptes notariaux et pourrait faciliter hameçonnage ciblé et usurpation.",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://www.zataz.com/wp-content/uploads/notaires_cyber_attaque.jpg"
+    },
+    {
+      "id": "5fc2abc73e3de627fc1750e3ce1ad61cf9773354",
+      "title": "Un pirate revendique une série d’intrusions à Paris, Nantes et Lyon",
+      "url": "https://www.zataz.com/un-pirate-revendique-une-serie-dintrusions-a-paris-nantes-et-lyon/",
+      "source": "Zataz",
+      "publishedAt": "2026-06-13T23:25:20.000Z",
+      "summary": "Après Tchap, un pirate revendique des intrusions visant Nantes, Lyon, Bobigny, Paris et Smartbox.",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.zataz.com/wp-content/uploads/Cyber_leaks_misere.jpg"
+    },
     {
       "id": "b46687cfdf269d81addb6a98f140a5a5a5ab27f4",
       "title": "\"Ça va lui apprendre à créer des fausses images pornos avec ma tête\" : Karine Lemarchand fait emprisonner un informaticien français",
@@ -316,6 +339,17 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://www.zataz.com/wp-content/uploads/lutte_pedo_world.jpg"
+    },
+    {
+      "id": "8117000c7ee1ef02098352773a6871aa8604b901",
+      "title": "Cyberattaque : Sept personnes interpellées, suspectées du vol de millions de données informatiques sensibles",
+      "url": "https://www.20minutes.fr/faits_divers/4228701-20260612-cyberattaque-sept-personnes-interpellees-suspectees-vol-millions-donnees-informatiques-sensibles?at_medium=display&amp%3Bat_campaign=149",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-12T13:18:18.000Z",
+      "summary": "Leroy Merlin, des hôpitaux, l’Assemblée nationale, des particuliers… Leurs cibles étaient variées, et l’organisation « particulièrement active ». Sept …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://img.20mn.fr/7xUbnKFNS7W2Odp6-hK2Lik/1444x920_reportage-au-sein-de-l-ofast-office-anti-stupefiants-france-reportage-au-sein-de-l-ofast-office-anti-stupefiants-suivant-le-gao-operational-support-group-lors-d-exercices-d-intervention-d-operations-speciales-et-de-missions-de-renseignement-le-rapport-met-en-lumiere-le-travail-quotidien-de-la-police-judiciaire-dans-la-lutte-contre-le-trafic-de-drogue-le-crime-organise-et-le-blanchiment-d-argent-par-le-biais-d-infiltrations-d-arrestations-et-d-operations-sur-le-terrain-l-ofast-reste-a-la-pointe-des-efforts-de-securite-interieure-de-la-france-coordonnant-les-actions-nationales-et-internationales-contre-les-reseaux-de-stupefiants-biau-christine-sipa-11031-credit-christine-biau-sipa-2510060923"
     },
     {
       "id": "96b9f44f1385e8ccf9d4fea958ad77971ad7278c",
@@ -844,17 +878,6 @@
       "type": "LEAK",
       "severity": "Info",
       "imageUrl": "https://i.f1g.fr/media/cms/1200x630_crop/2026/06/11/d85645e5e1e2151ff6e7ba8922fe059ba2692143d8360fc08f9a6fba95fd2225.jpg"
-    },
-    {
-      "id": "d05b22aa16f41aace57539eac7335398c31c6ab5",
-      "title": "Payer une rançon aux pirates informatiques? Malgré les apparences, de nombreuses entreprises suisses le font - Le Temps",
-      "url": "https://www.letemps.ch/articles/payer-une-rancon-aux-pirates-informatiques-malgre-les-apparences-de-nombreuses-entreprises-suisses-le-font",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-11T06:29:47.000Z",
-      "summary": "Ne jamais céder aux exigences des pirates informatiques, ne surtout pas payer de rançon, afin de ne pas continuer à financer le cybercrime organisé. …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://letemps-17455.kxcdn.com/photos/a4ed73a2-83b4-42dc-b04e-f8c0bd6392ea/medium"
     },
     {
       "id": "ee2204306136fa3014e9cd4a7df1ddafd3906a2f",
@@ -1935,17 +1958,6 @@
       "imageUrl": null
     },
     {
-      "id": "1ccd427752d3897c29f28ac524e817a995cf0fec",
-      "title": "[webapps] OpenEMR 7.0.2 - Arbitrary File Read",
-      "url": "https://www.exploit-db.com/exploits/52610",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-06-08T00:00:00.000Z",
-      "summary": "OpenEMR 7.0.2 - Arbitrary File Read",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
       "id": "a5a749b110a50d004dac076de121cfb34d43b041",
       "title": "Baker Distributing - 102,935 breached accounts",
       "url": "https://haveibeenpwned.com/Breach/BakerDistributing",
@@ -2064,17 +2076,6 @@
       "summary": "Une vulnérabilité a été découverte dans Cisco Catalyst SD-WAN. Elle permet à un attaquant de provoquer une élévation de privilèges. Cisco indique que la vulnérabilité CVE-2026-2024",
       "type": "CVE",
       "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "501f0d1c70dc784e2ac80b0dab359f94e7a03582",
-      "title": "[webapps] WordPress Contest Gallery 28.1.4 - Unauthenticated Blind SQL Injection",
-      "url": "https://www.exploit-db.com/exploits/52609",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-06-05T00:00:00.000Z",
-      "summary": "WordPress Contest Gallery 28.1.4 - Unauthenticated Blind SQL Injection",
-      "type": "CVE",
-      "severity": "Info",
       "imageUrl": null
     },
     {
