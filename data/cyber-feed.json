@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T21:15:10.979Z",
+  "generatedAt": "2026-06-14T23:11:06.816Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,13 +17,13 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 96
+      "items": 91
     },
     {
       "name": "Exploit-DB",
       "url": "https://www.exploit-db.com/rss.xml",
       "status": "ok",
-      "items": 0
+      "items": 50
     },
     {
       "name": "The Hacker News",
@@ -80,7 +80,7 @@
       "title": "IA : Bruxelles met en garde Washington sur les restrictions visant Anthropic",
       "url": "https://fr.euronews.com/2026/06/14/la-commission-europeenne-avertit-les-controles-us-sur-anthropic-ne-doivent-pas-etre-injust?amp%3Butm_campaign=feeds_europe&amp%3Butm_medium=referral",
       "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-14T19:38:10.000Z",
+      "publishedAt": "2026-06-14T16:17:33.000Z",
       "summary": "Bruxelles réagit après l’exclusion des Européens des modèles d’IA les plus avancés d’Anthropic, dénonçant une pratique discriminatoire. La décision américaine d’imposer des restric",
       "type": "NEWS",
       "severity": "Info",
@@ -1968,6 +1968,17 @@
       "imageUrl": null
     },
     {
+      "id": "1ccd427752d3897c29f28ac524e817a995cf0fec",
+      "title": "[webapps] OpenEMR 7.0.2 - Arbitrary File Read",
+      "url": "https://www.exploit-db.com/exploits/52610",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-06-08T00:00:00.000Z",
+      "summary": "OpenEMR 7.0.2 - Arbitrary File Read",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
       "id": "a5a749b110a50d004dac076de121cfb34d43b041",
       "title": "Baker Distributing - 102,935 breached accounts",
       "url": "https://haveibeenpwned.com/Breach/BakerDistributing",
@@ -2086,6 +2097,17 @@
       "summary": "Une vulnérabilité a été découverte dans Cisco Catalyst SD-WAN. Elle permet à un attaquant de provoquer une élévation de privilèges. Cisco indique que la vulnérabilité CVE-2026-2024",
       "type": "CVE",
       "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "501f0d1c70dc784e2ac80b0dab359f94e7a03582",
+      "title": "[webapps] WordPress Contest Gallery 28.1.4 - Unauthenticated Blind SQL Injection",
+      "url": "https://www.exploit-db.com/exploits/52609",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-06-05T00:00:00.000Z",
+      "summary": "WordPress Contest Gallery 28.1.4 - Unauthenticated Blind SQL Injection",
+      "type": "CVE",
+      "severity": "Info",
       "imageUrl": null
     },
     {
@@ -2252,28 +2274,6 @@
       "type": "LEAK",
       "severity": "Élevée",
       "imageUrl": null
-    },
-    {
-      "id": "120673d49609ad8f038fdfaa4c6791c7ec479895",
-      "title": "Soldes d&rsquo;été : 7 conseils pour éviter les cyber-arnaques",
-      "url": "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/7-conseils-pour-eviter-les-cyberescroqueries",
-      "source": "Cybermalveillance",
-      "publishedAt": "2026-06-03T15:45:00.000Z",
-      "summary": "Durant les périodes promotionnelles, Cybermalveillance.gouv.fr appelle à la plus grande vigilance et délivre 7 conseils pour éviter de se faire escroquer.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "475769f44d2068d3a8d083f9bac4c52ef710c7b2",
-      "title": "Quantique : des chercheurs ont créé un «parfait hasard certifié» et ouvrent la voie d'une nouvelle cryptographie",
-      "url": "https://www.science-et-vie.com/technos-et-futur/la-physique-quantique-parvient-a-creer-un-parfait-hasard-certifie-et-ouvre-la-voie-pour-securiser-la-cryptographie-242520.html?amp%3Butm_content=topic%2Ffr-cryptographie",
-      "source": "Cryptographie FR",
-      "publishedAt": "2026-06-03T12:00:05.000Z",
-      "summary": "Des chercheurs de l’ETH Zurich ont réussi à produire un hasard parfait certifié à partir de sources imparfaites. Leur expérience quantique ouvre une …",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://www.science-et-vie.com/wp-content/uploads/scienceetvie/2026/05/perfect-randomness-rea.jpg"
     }
   ]
 }
