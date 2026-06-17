@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T18:21:43.906Z",
+  "generatedAt": "2026-06-17T22:02:03.205Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -76,6 +76,39 @@
   ],
   "items": [
     {
+      "id": "23cc2bded2779a3cf67644702ac2885b03044c45",
+      "title": "Derrière les grandes fuites de données, des hackers souvent très jeunes",
+      "url": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/derriere-les-grandes-fuites-de-donnees-des-hackers-souvent-tres-jeunes_8066543.html",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-17T19:42:04.000Z",
+      "summary": "Jeunes adultes et parfois mineurs, ils revendiquent le piratage de millions de données personnelles. Après plusieurs semaines d'infiltration, l'Œil …",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/b15e886a13287bbef15b2774421e7b8027ae81d0/_xlarge.jpeg"
+    },
+    {
+      "id": "9f340f821602941e3cd370aaa5d9a02068cfa088",
+      "title": "Crypto Clipper Campaign Abuses Fake Reviews, AI Narrators, and VirusTotal Comments",
+      "url": "https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-06-17T18:14:24.000Z",
+      "summary": "An unknown threat actor has been observed leveraging paid or promoted posts on legitimate news websites to drum up buzz for their warez, according to new findings from Check Point ",
+      "type": "NEWS",
+      "severity": "Moyenne",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbbJOofP7P7zruPGvktMERgtQqGnu5msB1iDGyfukJA9g72QHXmHx9eJNbQaF7VIGcUqB76e5bGpnBnfg9AE4-F5kJQnY2fKtfHoi9zggEgteLN6rpYJeYE2nPlHFHWfj58a_DmklTT0x0GcWmRAxJsVGeysX9CUadCIygZTpDzBxCWZ4HvrPqhPwQy6Ng/s1600/scam.jpg"
+    },
+    {
+      "id": "a3228bc997eca0e0217326adfb70522639efe895",
+      "title": "Microsoft Confirms RoguePlanet Defender Zero-Day, Says Patch is in Development",
+      "url": "https://thehackernews.com/2026/06/microsoft-confirms-rogueplanet-defender_02022423645.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-06-17T17:36:28.000Z",
+      "summary": "Microsoft has formally disclosed that it's working to release a patch to address a Defender zero-day codenamed RoguePlanet. The vulnerability has now been assigned the CVE identifi",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy3ayOlDb3vsL747G9hStxxjTd3N5i2u8hegcT_hTs4RlNqylS_HyYH4mGLQEavD-QwH3G4l-p2tE5xrXoeK-Btj5YjbENpZcnqRZ7mXCjnJgqHKaoqyE3I3yqy3tYxafbDGNOMrDsvTnJ8UKkn7DDQ8PY_sQNZI6TsNTV0lOmSqs1uxUKm3pgpmkSDpeZ/s1600/ms-patch.jpg"
+    },
+    {
       "id": "eb75d0d9f0e593f85d8db849cba6bb26d55282b1",
       "title": "Junior Hacker Used Tailscale and OpenSSH to Keep Access After His C2 Went Offline",
       "url": "https://thehackernews.com/2026/06/junior-hacker-used-tailscale-and.html",
@@ -92,10 +125,21 @@
       "url": "https://www.sudouest.fr/economie/economie-du-numerique/trois-fois-plus-de-centres-de-donnees-comment-l-union-europeenne-veut-faire-face-a-ses-retards-technologiques-29533864.php?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
       "source": "Cybercriminalité FR",
       "publishedAt": "2026-06-17T15:03:33.000Z",
-      "summary": "Malgré une volonté affichée de réduire sa dépendance envers les États-Unis et la Chine, l'Union européenne peine à atteindre ses objectifs numériques …",
+      "summary": "L'Union européenne, qui veut renforcer sa souveraineté en matière technologique, a encore un long chemin à faire pour réduire sa dépendance vis-à-vis …",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://ic-cdn.flipboard.com/sudouest.fr/615b1d79ab3070cc369a580467875e835fba6901/_xlarge.jpeg"
+    },
+    {
+      "id": "1c4150c03514043b82b5fb7cbad28749a0c74a0f",
+      "title": "Adversarial Exposure Validation Turns Security Visibility into Confident Prioritization",
+      "url": "https://thehackernews.com/2026/06/adversarial-exposure-validation-turns.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-06-17T14:58:00.000Z",
+      "summary": "For security teams, the findings never stop, but confidence in knowing which ones matter is becoming harder to maintain. The problem is no longer visibility. It's validation. Secur",
       "type": "NEWS",
       "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/sudouest.fr/615b1d79ab3070cc369a580467875e835fba6901/_xlarge.jpeg"
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_8P-dioPWCAX94ha33KAWjvP0RvBHHCxI4ZAMnMHYY66XUQUFK_FZFkQJ3nW8XYlG6U5GxLL-o21CvZFNeOkZsHH41KlaVGYR3Ne26PZjeyK318yCFpZnxqFgp-e7qU1XitrcF7ODwc1znYAw2r2MioIePdJs4eQdHMmdBEmDqbq-YicStLUsU1_842g/s1600/breachlock.jpg"
     },
     {
       "id": "d767cf281d21406be1e95b1a6093407a7a05fc34",
@@ -153,17 +197,6 @@
       "imageUrl": "https://www.zataz.com/wp-content/uploads/Aide-carburant-piratage.jpg"
     },
     {
-      "id": "1c4150c03514043b82b5fb7cbad28749a0c74a0f",
-      "title": "Adversarial Exposure Validation Turns Security Visibility into Confident Prioritization",
-      "url": "https://thehackernews.com/2026/06/adversarial-exposure-validation-turns.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-17T11:58:00.000Z",
-      "summary": "For security teams, the findings never stop, but confidence in knowing which ones matter is becoming harder to maintain. The problem is no longer visibility. It's validation. Secur",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_8P-dioPWCAX94ha33KAWjvP0RvBHHCxI4ZAMnMHYY66XUQUFK_FZFkQJ3nW8XYlG6U5GxLL-o21CvZFNeOkZsHH41KlaVGYR3Ne26PZjeyK318yCFpZnxqFgp-e7qU1XitrcF7ODwc1znYAw2r2MioIePdJs4eQdHMmdBEmDqbq-YicStLUsU1_842g/s1600/breachlock.jpg"
-    },
-    {
       "id": "7342de960871bdbf3f14de55e0cd7a8a8d4fdf89",
       "title": "Une « très mauvaise hygiène » de sécurité : comment l'ANTS s'est fait pirater par un ado",
       "url": "https://www.frandroid.com/culture-tech/3144097_a-15-ans-il-pirate-lants-sans-competences-et-recupere-12-millions-de-donnees?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -217,17 +250,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/humanite.fr/440932209136ea8798899e1abb887fd3151d5f10/_xlarge.png"
-    },
-    {
-      "id": "6006e0e9e342606987b19dc8fc4ad6bb50235a2f",
-      "title": "«Votre abonnement a été renouvelé» : depuis le 15 juin, une nouvelle arnaque au prélèvement bancaire circule par mail en France",
-      "url": "https://www.liberation.fr/societe/depuis-le-15-juin-une-nouvelle-arnaque-circule-par-mail-en-france-20260617_MXBUAKVQ65HQPHI3N3HFMLVNHE/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-17T10:19:56.000Z",
-      "summary": "Un mail frauduleux propose aux victimes de gérer leur abonnement avant qu’une somme de 69 euros ne leur soit prélevée. 50 signalements ont été …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/liberation.fr/4900b07f21506f624a9367d593185af7c0e235aa/_xlarge.jpeg"
     },
     {
       "id": "290643b55c0829e7e94fd277e0d702bafc9b7eaa",
@@ -725,6 +747,17 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIjJejsRU4njToU8avtW_XwlouRy_HhUCWBUzgTtjb0e-LWzIO6zQprJ_tRqq6KO0Dvn64NNH35d6lYYadq7WSWAjn4jG_onOHYaJYrdg5CgUeVxyXBQJu7LUIAeVrEhFziJvlITCbj4kN9GSi9vp4ZpRpVwnxYCHKskOjUiFf-KIue9JlZzAJqJZUsxE/s1600/Spur-IP-Intel-Study-Feature.png"
     },
     {
+      "id": "995040ea1e02fa4fba8567fd90da7eae750e69c8",
+      "title": "Une plateforme gouvernementale dédiée au bénévolat visée par une cyberattaque, plus de 500.000 comptes compromis",
+      "url": "https://www.lefigaro.fr/faits-divers/une-plateforme-gouvernementale-dediee-au-benevolat-visee-par-une-cyberattaque-plus-de-500-000-comptes-compromis-20260616?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-16T11:11:03.000Z",
+      "summary": "«Les données concernées peuvent inclure notamment les noms, adresses électroniques, numéros de téléphone, dates de naissance et historiques …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://i.f1g.fr/media/cms/1200x630_crop/2026/06/16/9d28c499b93ab880acdf7cb271c488904dd59ed339b87b411d278de235de9e77.jpg"
+    },
+    {
       "id": "2545752588545977cbc0e1480d1745418d27d452",
       "title": "Attackers Exploit Three Fortinet FortiSandbox Flaws, One Patched Last Week",
       "url": "https://thehackernews.com/2026/06/attackers-exploit-three-fortinet.html",
@@ -756,17 +789,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/01net.com/a9b20ee5a792ab9b37b26cce1dae639182587085/_xlarge.jpeg"
-    },
-    {
-      "id": "f3afc988f2f0925902d0ea7f4e4d3a68972512bc",
-      "title": "Cyberattaque : l'illusion de la restauration totale",
-      "url": "https://www.journaldunet.com/cybersecurite/1551281-cyberattaque-l-illusion-de-la-restauration-totale/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-16T09:27:25.000Z",
-      "summary": "Le premier réflexe après une cyberattaque ? Tout restaurer. C'est aussi la première erreur, et elle peut être fatale. Quand une cyberattaque met une …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/journaldunet.com/870de204e456bcf54edc1ccda45ca2c96998de24/_xlarge.jpeg"
     },
     {
       "id": "db5bd0e5ef07d881236fa89c49e53352d967ac21",
@@ -2010,28 +2032,6 @@
       "type": "NEWS",
       "severity": "Critique",
       "imageUrl": "https://krebsonsecurity.com/wp-content/uploads/2026/06/thegentlemen.png"
-    },
-    {
-      "id": "1ed534d29624dd966875e17c43db6c6d44203024",
-      "title": "Your Automated Pentest Looks Clean. See What It Missed in This Expert Webinar",
-      "url": "https://thehackernews.com/2026/06/your-automated-pentest-looks-clean-see.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-10T10:27:49.000Z",
-      "summary": "Your pentest report looks clean. That might be the problem. Run automated pentesting long enough, and the new findings start to dry up. By the third or fourth run, fewer issues app",
-      "type": "NEWS",
-      "severity": "Moyenne",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjD1olwyKxwxfkuyKu0JAUMudQZs0lycGOkWf3zBrMSYzJ_fuP7vUHclJrsZipKMxe1ldNNHE3llOH4B26Hk4f-noIzZnQMdBy9IGT_MkD903KCxvP0jOUr_AO2IBGZz-W-p-MLnoxDUVAz1myBaOUWeOpYQtlEYgdArjxpkxg6imCLUB9brmL3b6Vk1L4/s1600/picus-webinar.jpg"
-    },
-    {
-      "id": "ca75ab5f1698caf8298f9c9cb75d6839cc036cd4",
-      "title": "Microsoft Patches Record 206 Flaws, Including Three Zero-Days and Critical RCE Bugs",
-      "url": "https://thehackernews.com/2026/06/microsoft-patches-record-206-flaws.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-10T09:38:13.000Z",
-      "summary": "Microsoft on Tuesday released fixes for a record 206 security vulnerabilities impacting its software portfolio, including three flaws that have been publicly disclosed at the time ",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDOIX9PorKjXDciuKmL8xLL9vrOVtBou5tBhn4T-u7cgllDKei3HRDr8vsXGM-MllL1eb6E_pdEID5s_sRUxbjHiA6AhlLUQLFi6vDXM5v0Mq0hM43eWSh8Pc_qdYtcjqushm7Wl-S64w6qEGg5P6ETD_o9l5VGGoflzGo3VpgFqmL9NhIe2RUuilVAB0c/s1600/windows-patch.jpg"
     },
     {
       "id": "b3dc1ed35c7837f6c933c5242d455683711fdede",
