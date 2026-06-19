@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T22:12:08.084Z",
+  "generatedAt": "2026-06-19T04:42:34.828Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -75,6 +75,17 @@
     }
   ],
   "items": [
+    {
+      "id": "1dc38065e588a91bc286ffcb1581b3b08e7a7f3a",
+      "title": "Ralph Lauren - 139,903 breached accounts",
+      "url": "https://haveibeenpwned.com/Breach/RalphLauren",
+      "source": "Have I Been Pwned",
+      "publishedAt": "2026-06-18T22:48:34.000Z",
+      "summary": "In June 2026, fashion retailer &lt;a href=\"https://cybernews.com/security/ralph-lauren-data-breach-claims/\" target=\"_blank\" rel=\"noopener\"&gt;Ralph Lauren was targeted in a ShinyHu",
+      "type": "LEAK",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
     {
       "id": "358d4b7a3ecba17d47f67f3b45364d9a29b86f0d",
       "title": "Operation Endgame 4.0 - 153,527 breached accounts",
@@ -228,6 +239,17 @@
       "type": "LEAK",
       "severity": "Info",
       "imageUrl": "https://siecledigital.fr/wp-content/uploads/2026/06/carte-identite-dark-web.jpg"
+    },
+    {
+      "id": "5a6ad23e0d2e97c39ae1f9cdfa1009b1bdfb2540",
+      "title": "Dans l'Alabama, un hangar gigantesque cache une ville factice pour préparer le FBI aux cyberattaques les plus dévastatrices",
+      "url": "https://www.science-et-vie.com/technos-et-futur/defense/dans-lalabama-un-hangar-gigantesque-cache-une-ville-factice-pour-preparer-le-fbi-aux-cyberattaques-les-plus-devastatrices-245350.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-18T12:30:34.000Z",
+      "summary": "Le FBI cache une fausse ville entière où tout semble normal, jusqu'à ce que tout s'effondre. Hôpital paralysé, alarmes qui hurlent, vies en jeu, rien …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.science-et-vie.com/wp-content/uploads/scienceetvie/2026/06/fausse-ville-fbi.jpg"
     },
     {
       "id": "b1ae871c9691b0c753c250fbd5c32002621ec08a",
@@ -1064,17 +1086,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/capital.fr/5233ff7406e401d0df8fcf29876f8bb50411ec79/_xlarge.jpeg"
-    },
-    {
-      "id": "589dd7b4fb871bee687f0a1018afc8a713c4e116",
-      "title": "Une cyberattaque cible les données des collégiens de l’académie de Lyon, une plainte va être déposée",
-      "url": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/rhone/lyon/une-cyberattaque-cible-les-donnees-des-collegiens-de-l-academie-de-lyon-une-plainte-va-etre-deposee-3369928.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-16T15:18:56.000Z",
-      "summary": "L’application \"Affelnet\", l'équivalent du \"Parcoursup\" des collégiens, a été la cible d’une vaste fuite de données. L’académie de Lyon a annoncé …",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/6ec026a6b3befc87d318c46fa019be9c97da7f22/_large.jpeg"
     },
     {
       "id": "bb1973a75b5ffa997ef3026fed7e714ad0803cde",
@@ -2260,17 +2271,6 @@
       "source": "Cyberveille Santé",
       "publishedAt": "2026-06-10T03:16:10.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de type &lt;strong&gt;use-after-free&lt;/strong&gt; dans la fonction PKCS7_verify() de la bibliothèque OpenSSL.&lt;/p&gt; &lt;p&gt;OpenSSL es",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "4672b367aa63ad4f63bd53f2d2970e67821069f7",
-      "title": "Adobe - CVE-2026-47928",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/adobe-cve-2026-47928-2026-06-10",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-06-10T03:13:39.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;validation incorrecte des entrées&lt;/strong&gt; dans Adobe ColdFusion.&lt;/p&gt; &lt;p&gt;Adobe ColdFusion est un serveur d",
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": null
