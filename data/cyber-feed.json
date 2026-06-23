@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T11:19:22.999Z",
+  "generatedAt": "2026-06-23T14:54:22.298Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,7 +17,7 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 105
+      "items": 110
     },
     {
       "name": "Exploit-DB",
@@ -76,9 +76,97 @@
   ],
   "items": [
     {
-      "id": "2e60538daf498e4f306225747978aa75755f64e4",
+      "id": "029b26ee53ac7e75747151de1602b01eea2a45b1",
+      "title": "GitHub Updates actions/checkout to Block Common Pwn Request Attack Patterns",
+      "url": "https://thehackernews.com/2026/06/github-updates-actionscheckout-to-block.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-06-23T14:22:03.000Z",
+      "summary": "GitHub is moving to strengthen software supply chain security by updating \"actions/checkout\" to block pwn request attacks that exploit the risky use of the \"pull_request_target wor",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcacTEKD_LZFda1wwX5aClbAVOb6mwah2lVUY-jUZwNsrSZGDOFL18LP5zYLX3M2DwKng0qknZ5qo_hMk4q-NExgZv1ozhCy7DJuZwvviZE0sv36PQ2k8Y2emv1KMDFplakFwVzulOFPteWkmVoLO6Le912KAbJGFW0nkqKWHEkwJQLbsGhz5npWO3aJaR/s1600/github-actions.jpg"
+    },
+    {
+      "id": "ac15acf6668f4aedc082a9e3f7da6bf006443350",
+      "title": "Des documents confidentiels d’Apple, dont des secrets de fabrication de l’iPhone, se baladent sur le dark web suite à un piratage",
+      "url": "https://www.presse-citron.net/des-documents-confidentiels-dapple-dont-des-secrets-de-fabrication-de-liphone-se-baladent-sur-le-dark-web-suite-a-un-piratage/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-23T13:47:58.000Z",
+      "summary": "Des milliers de documents confidentiels en lien avec Apple et Tesla ont été dérobés lors d’une cyberattaque. Certains contiennent des données …",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/presse-citron.net/9d2179b952a379905bab518e1e8da1c0c3bd3471/_xlarge.jpeg"
+    },
+    {
+      "id": "f3ec3db1b172481a9c9f98602815064b5b8e5519",
+      "title": "Mali: demande de libération provisoire pour le journaliste Chahana Takiou",
+      "url": "https://www.rfi.fr/fr/afrique/20260623-mali-demande-de-lib%C3%A9ration-provisoire-pour-le-journaliste-chahana-takiou?utm_slink=rfi.my%2FCokw&amp%3Butm_source=flipboard&amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-23T12:14:09.000Z",
+      "summary": "Au Mali, les avocats du journaliste Chahana Takiou ont déposé une demande de libération provisoire. Le directeur du journal 22 Septembre, qui a des problèmes de santé, est en priso",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/rfi.fr/8d9b7f37d2a7bbdf42a7efdc4ef8b12c66acfc88/_xlarge.jpeg"
+    },
+    {
+      "id": "1681b10d7d7a130ee8f7b7468cb1f73703949d27",
+      "title": "Agentic AI: The Weapon That No Longer Needs a Warrior",
+      "url": "https://thehackernews.com/2026/06/agentic-ai-weapon-that-no-longer-needs.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-06-23T11:30:00.000Z",
+      "summary": "Every weapon begins as an extension of the hand that holds it. The spear lengthened the reach of the arm. The bow sent the point flying without the throw. The rifle placed a man's ",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5YrdKJuy4ZmnWf_7L2RdXqS2QWC2BHJIbGsapJLmmYy1hBXfHxE7WMk-itWDkh-oCbAr8-CZOiUTyLftdM6191lDL8Iu2ENNU_i6Wfw2qy3lKY41iCrOnaLXHIl8cWDto42eqVlnsM4OetK0ymQUnwdpRXIniZQ-o7pBIDkqOYbm7o4CMlQTYFOeQyJI/s1600/ai-weapon.jpg"
+    },
+    {
+      "id": "536f3a573e91b3aef58f82a40ff38c6528fea973",
+      "title": "La menace cyber de l'IA n'est plus qu'à quelques mois, alertent les services occidentaux",
+      "url": "http://fr.euronews.com/next/2026/06/23/la-menace-cyber-de-lia-nest-plus-qua-quelques-mois-alertent-les-services-occidentaux",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-23T11:26:38.000Z",
+      "summary": "Five Eyes avertit d'une cybermenace dans les prochains mois : les États-Unis verrouillent les modèles d'IA d'Anthropic Des modèles d’intelligence artificielle puissants, susceptibl",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/euronews.com/18a3016fa52edb986d1ac0c310a9ffc372b37818/_xlarge.jpeg"
+    },
+    {
+      "id": "d54105f8bc8a7238f998d66b769854daf1db8a91",
+      "title": "L'IA pourrait surpasser les connaissances de cybersécurité \"en quelques mois\" (Five Eyes)",
+      "url": "https://information.tv5monde.com/economie/lia-pourrait-surpasser-les-connaissances-de-cybersecurite-en-quelques-mois-five-eyes-2827375?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-23T11:17:37.000Z",
+      "summary": "Les modèles d'intelligence artificielle de pointe progressent si rapidement qu'ils pourraient surpasser les connaissances actuelles de cybersécurité …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://information.tv5monde.com/sites/tv5-info/files/styles/seo_1200/public/2026-06/field_media_image-3035037-6bc8c90ab7963ddb5a6996e5142b694c7b205305.jpg?itok=dknoj3SL"
+    },
+    {
+      "id": "246ba048c1ce348e98ab9c5c16d30f3d1666cbf8",
+      "title": "Guerre du quantique : Donald Trump signe deux décrets pour préparer les États-Unis au grand choc",
+      "url": "https://www.numerama.com/tech/2282535-guerre-du-quantique-donald-trump-signe-deux-decrets-pour-preparer-les-etats-unis-au-grand-choc.html?amp%3Butm_source=flipboard&amp%3Butm_content=directlink&amp%3Butm_campaign=2282535",
+      "source": "Cryptographie FR",
+      "publishedAt": "2026-06-23T10:29:40.000Z",
+      "summary": "Le 22 juin 2026, Donald Trump a signé deux décrets destinés à accélérer le développement des technologies quantiques aux États-Unis. L’un vise à …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://c0.lestechnophiles.com/www.numerama.com/wp-content/uploads/2026/06/1-28.jpg?resize=1600%2C900&amp%3Bkey=38a30e69&amp%3Bwatermark="
+    },
+    {
+      "id": "9bebeaf0a7757ad84a3d8baefb5b2bd1c340cb65",
+      "title": "Faux sites de billets : Avast mise sur la détection avant paiement pour la Coupe du Monde",
+      "url": "https://www.lesnumeriques.com/antivirus/avast-faux-billets-coupe-du-monde-bloquer-les-sites-frauduleux-avant-de-payer-n257922.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-23T10:00:00.000Z",
+      "summary": "À l’approche de la Coupe du Monde, l’achat de billets ou de packs d’accès en ligne devient un réflexe pour des millions de supporters. Entre les …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://cdn.lesnumeriques.com/optim/news/25/257922/902b1cc0-avast-faux-billets-coupe-du-monde-bloquer-les-sites-frauduleux-avant-de-payer__1200_678__overflow.jpg"
+    },
+    {
+      "id": "f7e74dc0235dad4f0fbdd12ff35e3f8464e11ad8",
       "title": "Apple et Tesla victimes d'une fuite massive : leurs secrets de fabrication sur le dark web",
-      "url": "https://www.frandroid.com/culture-tech/securite-applications/3152427_apple-et-tesla-victimes-dune-fuite-massive-leurs-secrets-de-fabrication-sur-le-dark-web?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "url": "https://www.frandroid.com/culture-tech/securite-applications/3152427_apple-et-tesla-victimes-dune-fuite-massive-leurs-secrets-de-fabrication-sur-le-dark-web?amp%3Butm_source=flipboard&amp%3Butm_content=directlink&amp%3Butm_campaign=3152427",
       "source": "Cybercriminalité FR",
       "publishedAt": "2026-06-23T09:41:52.000Z",
       "summary": "Un sous-traitant indien d’Apple et de Tesla s’est fait voler 630 Go de documents, aujourd’hui publiés sur le dark web. Dedans : des normes de …",
@@ -120,17 +208,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiENcFC1DFPXKuRCT_WmSwq-wpzC8IcZUdZzu5IHi597n77W8LFs9qSUdDPCuMK9QzkRZEBMbBh4p2xhnI1OXZu4akIgR5suIv_yRA7AtEkojDcyXaU5x0UiZKRDRvTn0n0wy9HIQnhJj9zUO0rpemNOFNZEmMl4NQsCj5aDEpDrqXUkivsOX1QoLRqeKZh/s1600/npmm.jpg"
     },
     {
-      "id": "9f92348d67d166bead027e1e439d2503e4fbfb77",
-      "title": "Un pas de géant pour réellement révolutionner la tech? Les États-Unis veulent un ordinateur quantique utilisable pour la recherche scientifique d’ici 2028",
-      "url": "https://www.bfmtv.com/tech/innovation/un-pas-de-geant-pour-reellement-revolutionner-la-tech-les-etats-unis-veulent-un-ordinateur-quantique-utilisable-pour-la-recherche-scientifique-d-ici-2028_AD-202606230396.html?amp%3Butm_content=topic%2Ffr-cryptographie",
-      "source": "Cryptographie FR",
-      "publishedAt": "2026-06-23T07:49:26.000Z",
-      "summary": "Donald Trump a signé deux décrets sur l’informatique quantique, dont l’un vise à développer un ordinateur quantique utilisable pour la recherche …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/bfmtv.com/61a2b6cd6d56a55c63a219de7d411ee73e108f89/_xlarge.jpeg"
-    },
-    {
       "id": "682c8df6d800f431edf03dc829a1238cac50608e",
       "title": "Ordinateurs quantiques : le grand plan de Trump pour dominer la prochaine révolution technologique - ZDNET",
       "url": "https://www.zdnet.fr/actualites/trump-accelere-sur-le-quantique-des-ordinateurs-deployes-des-2028-une-cybersecurite-renforcee-dici-2031-497465.htm",
@@ -140,17 +217,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2025/04/trump_1300.jpg"
-    },
-    {
-      "id": "69bb7a58fa11fc0fae0b4a9bd492695b5e813ae6",
-      "title": "Des documents Apple dérobés et diffusés en ligne lors d'une cyberattaque",
-      "url": "https://www.mac4ever.com/securite/196829-des-documents-apple-derobes-et-diffuses-en-ligne-lors-d-une-cyberattaque?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-23T07:04:00.000Z",
-      "summary": "Nouveau coup dur pour Tata Electronics. Après plusieurs controverses récentes autour de ses activités industrielles en Inde, l’un des principaux …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://img-api.mac4ever.com/1200/0/f9a424bc2d_tchap-messagerie-securisee-france.webp"
     },
     {
       "id": "ca05453dc4ac2bc0106a1b4edac1fda62c6501ec",
@@ -230,6 +296,105 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5t7SN4kPSfgifNku4Z0eWG5x1Dd8CIb99OAHuktz4ZGAeIrwDEnLwD9DUkRj8nStBQjzxOgWO2hfsGYI07Yp8gQGtXiSBIqlQXtzDTc3bkveScQ2gd-WbUmBA0L1xVDXhbrukUIuWdLaMPyiDZO-5-tWlq-kwFdImdd-h7YVkO7oGDN08bv25RJ2TRDt8/s1600/opne.jpg"
     },
     {
+      "id": "efd74b58c36b0d509e6962fe3135b49e9b569c2a",
+      "title": "Ces anciens modèles d'iPhone présentent une faille de sécurité irréparable : pourquoi il est impossible d'y remédier et quels sont les modèles concernés ? - ZDNET",
+      "url": "https://www.zdnet.fr/actualites/ces-anciens-modeles-diphone-presentent-une-faille-de-securite-irreparable-pourquoi-il-est-impossible-dy-remedier-et-quels-sont-les-modeles-concernes-497500.htm",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-23T03:06:22.000Z",
+      "summary": "Voici comment savoir si votre appareil est menacé et comment y remédier. Les points clés à retenir sur les problèmes de sécurité des anciens modèles …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2026/06/notch.webp"
+    },
+    {
+      "id": "4b1d7b0d088052aff4794e9ccae053ea17d7a6d2",
+      "title": "Linux kernel - CVE-2026-52911",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/linux-kernel-cve-2026-52911-2026-06-23",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-23T02:10:30.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le module &lt;strong&gt;ksmbd&lt;/strong&gt; du noyau Linux, au niveau de la fonction ksmbd_session_lookup_all().&lt;/p&gt; &lt;p&gt;Lin",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "5a002f3658c9d3b51b54d9dd031ef35f9fd53887",
+      "title": "Dell - CVE-2026-44272",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/dell-cve-2026-44272-2026-06-23",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-23T02:09:47.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de type &lt;strong&gt;injection SQL&lt;/strong&gt; dans Dell Wyse Management Suite.&lt;/p&gt; &lt;p&gt;Dell Wyse Management Suite est une sol",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "0a3c314202c475e94b3c9d1ddf6525c0bce85068",
+      "title": "Apache APISIX - CVE-2026-44087",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/apache-apisix-cve-2026-44087-2026-06-23",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-23T02:09:03.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le &lt;strong&gt;plugin openid-connect&lt;/strong&gt; d'Apache APISIX en &lt;strong&gt;configuration par défaut&lt;/strong&gt;.&lt;/p&gt",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "edf3bbf62707af628d84bd17c9c20d62fa6850fb",
+      "title": "Grafana - CVE-2026-28381",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/grafana-cve-2026-28381-2026-06-23",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-23T02:08:11.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le plugin &lt;strong&gt;Grafana Snowflake Datasource&lt;/strong&gt;.&lt;/p&gt; &lt;p&gt;Grafana est une plateforme open source de visual",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": null
+    },
+    {
+      "id": "c8d0682c97780e4d492388a14863ad83c1f3963c",
+      "title": "Canonical - CVE-2026-12249",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/canonical-cve-2026-12249-2026-06-23",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-23T02:07:13.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le script Python d'auto-enrôlement de certificats AD CS d'ADSys (gp_cert_auto_enroll_ext.py).&lt;/p&gt; &lt;p&gt;ADSys est un service de",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "79e695811b52847a9d3f098160b0fc782d228742",
+      "title": "Multiples vulnérabilités dans Moodle (23 juin 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0794/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-06-23T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Moodle Moodle. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une falsification ",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "e776d0e311dac35dca2403474c83450c0545cd36",
+      "title": "Multiples vulnérabilités dans Squid (23 juin 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0795/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-06-23T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Squid. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un problème de sécurité no",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "1a28efdcccece63febe923e5728c02b136d3bb9f",
+      "title": "Les États-Unis veulent un premier ordinateur quantique utilisable pour de la recherche scientifique d'ici 2028",
+      "url": "https://www.lefigaro.fr/conjoncture/les-etats-unis-veulent-un-premier-ordinateur-quantique-utilisable-pour-de-la-recherche-scientifique-d-ici-2028-20260622?amp%3Butm_content=topic%2Ffr-cryptographie",
+      "source": "Cryptographie FR",
+      "publishedAt": "2026-06-22T20:39:18.000Z",
+      "summary": "Donald Trump a signé deux décrets destinés à accélérer les ambitions américaines dans l’informatique quantique. L’un d’eux prévoit d’accélérer la …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://i.f1g.fr/media/cms/1200x630_crop/2026/06/22/f6597815c94f311a20ddf6eb73f5552153b00d43da69ec0bcf7646fb5f4e6f93.JPG"
+    },
+    {
       "id": "480844736f8453415aca7bc424a5d36f7668fbab",
       "title": "Cyberattaque contre les transports londoniens : deux hackers plaident coupable",
       "url": "https://www.europe1.fr/international/cyberattaque-contre-les-transports-londoniens-deux-hackers-plaident-coupable-958466?at_medium=RSS+feeds&amp%3Bamp=&amp%3Bat_campaign=Flux+Generique",
@@ -252,6 +417,17 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgd4DchiVkQLBMvGHgWrojoZUdyk2SwEhEj5q6cOYzKCUWF1Lz3Mxeizurg1O-SLVi2jg319ib4SJsSoVWixAkl5WLPu4rL1cMoYXUM6EziOVyt42ESt1zmMo_iLEfHx9XSAXpsDd1FEtRSgKk4AhDzA7DjJN8c__pUgogxTQgaGjsxM04WNiesgRnbEVHN/s1600/wordpress-plugin.jpg"
     },
     {
+      "id": "defcbaf4fc3bbee86a2166e10099d434805a5c5b",
+      "title": "29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests",
+      "url": "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-06-22T16:29:00.000Z",
+      "summary": "A heap over-read in the Squid web proxy can leak another user's cleartext HTTP request, including any credentials or session tokens it carries, to anyone already allowed to send tr",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiA4IfKMjQxVhpOYdrcCC4ty0vlGBDg_qCZuuvSTvyVWXYPXQlli7qyCZkPdHHuGJp-HVH1s-HGmf_Zqn97o2Qz5JOHaZ-Mk1mecm4W4yUBiCaejJL5guczISx2Q8ZH7RvS_4fXiNdHemr1aWKwz0CcyBJI_4_jFjQhY5JedBz_-pSiSQ1eQCF_BPYEbRs/s1600/sq.jpg"
+    },
+    {
       "id": "c597981e02f6d3a476cf13d388bad274c036231e",
       "title": "Researchers Detail DifyTap Flaws in Dify That Could Expose AI Chats Across Tenants",
       "url": "https://thehackernews.com/2026/06/researchers-detail-difytap-flaws-in.html",
@@ -261,17 +437,6 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrjCumekV1hjkgdgebp4RqfYc_Yt9Swv4lG7ds3XMDHG9f-JxSuJSWY3UcWIoivJoJkJjdlBvtiQAHKy7NNgApCoD8ADtOpicXvKf9RJwAZT1DEGUkgX87bmSR8cO75Ss__mnLn8MyDEddnzhyphenhyphenRfcf_gWEtoLiKu53yXNQJtT0DP7nZufqBhB3P8VmvV48/s1600/dify.png"
-    },
-    {
-      "id": "defcbaf4fc3bbee86a2166e10099d434805a5c5b",
-      "title": "29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests",
-      "url": "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-22T14:29:46.000Z",
-      "summary": "A heap over-read in the Squid web proxy can leak another user's cleartext HTTP request, including any credentials or session tokens it carries, to anyone already allowed to send tr",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiA4IfKMjQxVhpOYdrcCC4ty0vlGBDg_qCZuuvSTvyVWXYPXQlli7qyCZkPdHHuGJp-HVH1s-HGmf_Zqn97o2Qz5JOHaZ-Mk1mecm4W4yUBiCaejJL5guczISx2Q8ZH7RvS_4fXiNdHemr1aWKwz0CcyBJI_4_jFjQhY5JedBz_-pSiSQ1eQCF_BPYEbRs/s1600/sq.jpg"
     },
     {
       "id": "0fb4e795ee818c2f9d795bf7325f10f40c757c33",
@@ -538,17 +703,6 @@
       "imageUrl": "https://ic-cdn.flipboard.com/radiofrance.fr/90cee1d573c0ea634eab346bb868f6fab01f7ad1/_xlarge.webp"
     },
     {
-      "id": "6ef31a3f9cdaf21c87623fe088c81d3a6d13c405",
-      "title": "Arnaques boostées à l’IA : comment les reconnaître avant qu’il ne soit trop tard",
-      "url": "https://android-mt.ouest-france.fr/news/arnaques-boostees-a-lia-comment-les-reconnaitre-avant-quil-ne-soit-trop-tard/204370/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-21T14:16:47.000Z",
-      "summary": "Quand l’IA devient l’arme préférée des escrocs Ce n’est plus une question de quelques emails mal orthographiés facilement repérables. Depuis deux ans, …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/6c199699a130970334f6978e92409b8d007f8f32/_xlarge.jpeg"
-    },
-    {
       "id": "9f3823130cee6143af15cdc7b9fc5430502438c1",
       "title": "« Nos infrastructures constituent des cibles de choix pour la Russie » : la Roumanie, premier rempart cyber pour l'Europe",
       "url": "https://www.lesechos.fr/tech-medias/hightech/nos-infrastructures-constituent-des-cibles-de-choix-pour-la-russie-la-roumanie-premier-rempart-cyber-pour-leurope-2238319?amp%3Butm_content=topic%2Ffr-technologie",
@@ -558,17 +712,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/lesechos.com/6dd11b349af888f532c0cba492a1598eb45cf180/_xlarge.jpeg"
-    },
-    {
-      "id": "1e1807b01fe9b2d37b9f834a2766209e459beb11",
-      "title": "Anthropic et la limite du contrôle étatique sur l’IA",
-      "url": "https://www.begeek.fr/anthropic-et-la-limite-du-controle-etatique-sur-lia-434456?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-21T10:00:54.000Z",
-      "summary": "Les contrôles à l’export appliqués à l’IA viennent de passer du débat théorique au vrai mur. La Maison-Blanche a ordonné vendredi dernier à Anthropic …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/begeek.fr/0a058b75d7cf7371a645eb7d44db6df9f084369f/_xlarge.webp"
     },
     {
       "id": "bd224660b548e9ddc61c8d6bf68c28788a0f4260",
@@ -1176,17 +1319,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidEg1Q-FcDTwCPci3OMxGy0TghiI1dbWJoaJVc88gpGgO2ia6bgne18KfS3A9qAzBnMX2rGY9H78ewtofXQO22RRpzHxWXmvQJvRZ1nsvwj37aZBtLOXXltzd1KkNRKhu2N5LpIro5Fi0BBkftPqP_IO6B3HCKx5WPtFXZKA1bfbP3xV71CpEqpT7H6RPN/s1600/teams.jpg"
     },
     {
-      "id": "ff6aa744ae7d6a0039438831f7cf07498ec7091b",
-      "title": "Vos papiers d'identité disponibles sur le dark web ? Pus de 250 000 cartes d'identité et passeports français concernés",
-      "url": "https://siecledigital.fr/2026/06/18/vos-papiers-didentite-disponibles-sur-le-dark-web-pus-de-250-000-cartes-didentite-et-passeports-francais-concernes/?amp%3Butm_content=topic%2Ffr-technologie",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-18T12:50:33.000Z",
-      "summary": "Un cybercriminel qui se fait appeler ChimeraZ annonce la mise en vente de plus de 250 000 copies de passeports et de cartes nationales d'identité …",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://siecledigital.fr/wp-content/uploads/2026/06/carte-identite-dark-web.jpg"
-    },
-    {
       "id": "f5e8e6e6f5318145910f5d72d779db7ff097e812",
       "title": "Les Commissaires aux Comptes à l’heure de l’IA",
       "url": "https://www.lagazettefrance.fr/article/les-commissaires-aux-comptes-a-l-heure-de-l-ia?amp%3Butm_content=topic%2Ffr-intelligenceartificielle",
@@ -1317,17 +1449,6 @@
       "type": "LEAK",
       "severity": "Élevée",
       "imageUrl": "https://www.zataz.com/wp-content/uploads/As_leak.jpg"
-    },
-    {
-      "id": "aba1ffa25c591dddbc77d25df06b0a913659d4fc",
-      "title": "Plus de 300 sites frauduleux fermés : la mise en garde de la Fifa pour la Coupe du monde",
-      "url": "https://www.lesoir.be/753836/article/2026-06-18/plus-de-300-sites-frauduleux-fermes-la-mise-en-garde-de-la-fifa-pour-la-coupe-du?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-18T08:18:46.000Z",
-      "summary": "A la fin du mois de mai, le FBI avait déjà reçu un grand nombre de plaintes de supporters ayant perdu des sommes allant de quelques centaines à …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://leseng.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_extra_big/2026/06/18/node_753836/33547195/public/2026/06/18/86221564.jpeg?itok=OsyR8Pah1781770740"
     },
     {
       "id": "ece4c61cf01effd398d4c1224625c2ec39653f01",
@@ -1792,17 +1913,6 @@
       "imageUrl": "https://ic-cdn.flipboard.com/capital.fr/5233ff7406e401d0df8fcf29876f8bb50411ec79/_xlarge.jpeg"
     },
     {
-      "id": "bb1973a75b5ffa997ef3026fed7e714ad0803cde",
-      "title": "One UI 9 : votre appareil Samsung Galaxy va activement vous protéger contre les arnaques",
-      "url": "https://www.lesnumeriques.com/mobilite-c17/one-ui-9-votre-appareil-samsung-galaxy-va-activement-vous-proteger-contre-les-arnaques-n257599.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-16T14:17:00.000Z",
-      "summary": "Courant 2026, avec le déploiement de One UI 9, les terminaux Samsung Galaxy seront encore plus efficaces pour protéger les usagers contre les …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://cdn.lesnumeriques.com/optim/news/25/257599/e30dba23-one-ui-9-votre-appareil-samsung-galaxy-va-activement-vous-proteger-contre-les-arnaques__1200_678__5-50-2124-1162.jpg"
-    },
-    {
       "id": "dfc60e13b1b2e3d93a4721bd3d052cd5fa1a30d8",
       "title": "Avec seulement 30 % de femmes, la DGSE cherche à diversifier ses recrutements",
       "url": "https://www.franceinfo.fr/economie/emploi/avec-seulement-30-de-femmes-la-dgse-cherche-a-diversifier-ses-recrutements_8063564.html?amp%3Butm_content=topic%2Ffr-cryptographie",
@@ -2023,28 +2133,6 @@
       "imageUrl": null
     },
     {
-      "id": "2df909acccb56f73a40b577b1c7cf0d949e22df4",
-      "title": "Multiples vulnérabilités dans Microsoft Edge (16 juin 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0757/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-06-16T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "c7ecd9e14f81c6e040caa904afd05c63292e1ac3",
-      "title": "Vulnérabilité dans Cisco Catalyst (16 juin 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0756/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-06-16T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans Cisco Catalyst. Elle permet à un attaquant de provoquer une atteinte à l'intégrité des données. Cisco indique que la vulnérabilité CVE-2026-",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
       "id": "9e425612c1c15e91adc6008eb75d17b3a4d384d2",
       "title": "Multiples vulnérabilités dans les produits Moxa (16 juin 2026)",
       "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0760/",
@@ -2089,17 +2177,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjE7EMoBrh5-6_V336v7LMFfChDVp-Sux8RX-UY5zhONtACR6kiz2w_VQ9o7e8nuqaWCqbxrvzPgSrruvEXN0jw_zKnaeVl73yDnfqbVqTPDnjHDPJPuBLd9vhGCJIl1BuqSblleOG9zG9YgbriqE7oiCuTEBQRDadsFOgQdN9PjdOglDeI_y2ZV5-Ehbo/s1600/google-china.jpg"
     },
     {
-      "id": "4f9383e01d41f34cefc1aa56f980c5f3d165fc0c",
-      "title": "North Korean Hackers Are Turning Developer Tools Into Malware Delivery Channels",
-      "url": "https://thehackernews.com/2026/06/north-korean-hackers-are-turning.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-15T19:32:52.000Z",
-      "summary": "Cybersecurity researchers have flagged two malicious cyber campaigns that exhibit similarities with a persistent North Korean threat cluster known as Contagious Interview (aka Famo",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaqLMLYAQa1ICXVdOhmxnFqqoh_YonevmQPjEtYbmqLsdFC7JJnGc_F7K1no96DjZhTicVxI7sJUO04JM3e64Ko2eh1X6NlEqpKO2Nc1MKCzDPdqlmPZzTphhJlL7ibJ1CLRsIaVBZZvWtm7mv_jXLT53iwjlRVjBnyKCypFigPA0mZzFew-02Xp_aKu9o/s1600/northkorea.jpg"
-    },
-    {
       "id": "18dbbf2d82c00b23ea896f3cd6da44b62ce8bd55",
       "title": "June 2026 Stealer Logs - 56,278,397 breached accounts",
       "url": "https://haveibeenpwned.com/Breach/June2026StealerLogs",
@@ -2109,17 +2186,6 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": null
-    },
-    {
-      "id": "32a2c2df78d9dd1021bec6b7701d915bf01d3015",
-      "title": "LiteLLM Vulnerability Chain Lets Low-Privilege Users Take Over AI Gateway Servers",
-      "url": "https://thehackernews.com/2026/06/litellm-vulnerability-chain-lets-low.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-15T16:39:01.000Z",
-      "summary": "A default low-privilege account on a LiteLLM proxy can climb to full admin and run code on the server by chaining three vulnerabilities, researchers at Obsidian Security disclosed ",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiH9LcMRhk5Li59rG05yXoOOofNzGpeG1MMSKQqhFCGW_28n0SjLKd9D4MC68N7jPP6dF2h2l8gW1OE7Y7akY2fckld2w1UKa3itsrCKeDjo_2vgzuvL3HxZpJ5naBx5LgPdjxhekaFONzBtR9SoJw-ugGVXOuceLQQPvJzcj7SSCgbRsqurOgnIgZppo/s1600/litellm.jpg"
     },
     {
       "id": "637bd7b69f087f2c61364f4a9fde5fd7d78cc12c",
@@ -2208,72 +2274,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/journaldunet.com/1644d53d3699ebeb15063f69370beb888652bcf7/_xlarge.jpeg"
-    },
-    {
-      "id": "0cae830ac2d992a74b478eeb21b3a20231b55a68",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/06/12/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "source": "CISA",
-      "publishedAt": "2026-06-12T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA has added one new vulnerability to its &lt;a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": null
-    },
-    {
-      "id": "14f6c7d2cec5096732e29516fff8315c7a815f4e",
-      "title": "Amasty - CVE-2026-53787 | modifié le 15-06-2026",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/amasty-cve-2026-53787-2026-06-12",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-06-12T00:55:00.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;téléversement de fichiers arbitraires non authentifié&lt;/strong&gt; dans l’extension Order Attributes for Magento 2.&amp;nb",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "283b7c177b3201368ae92b1dc7f17c3410721b13",
-      "title": "Zoom - CVE-2026-53407 | modifié le 15-06-2026",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/zoom-cve-2026-53407-2026-06-12",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-06-12T00:43:00.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;contrôle d’autorisation insuffisant&lt;/strong&gt; dans le &lt;strong&gt;gestionnaire de schéma d’URL personnalisé &lt;/stro",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "20352e35d437b36ba4b4f3a537e132d8535b1a7f",
-      "title": "Netty - CVE-2026-50010 | modifié le 15-06-2026",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/netty-cve-2026-50010-2026-06-12",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-06-12T00:35:00.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;vérification incorrecte&lt;/strong&gt; des &lt;strong&gt;certificats TLS dans Netty.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Netty",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "88acd02ec5e02976f6827429c495e70f0fc5a2da",
-      "title": "SimpleHelp - CVE-2026-48558 | modifié le 15-06-2026",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/simplehelp-cve-2026-48558-2026-06-12",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-06-12T00:26:00.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;contournement de l’authentification &lt;/strong&gt;dans &lt;strong&gt;SimpleHelp.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;SimpleHe",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "fe0e5af7a620211c1dd7da39dd3253bb33f228c3",
-      "title": "vm2 - CVE-2026-47140 | modifié le 15-06-2026",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/vm2-cve-2026-47140-2026-06-12",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-06-12T00:12:00.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;contournement de mécanisme de protection&lt;/strong&gt; dans le composant &lt;strong&gt;NodeVM&lt;/strong&gt; de la &lt;stro",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
     }
   ]
 }
