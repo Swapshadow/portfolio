@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T03:50:43.484Z",
+  "generatedAt": "2026-06-24T07:42:50.882Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -23,7 +23,7 @@
       "name": "Exploit-DB",
       "url": "https://www.exploit-db.com/rss.xml",
       "status": "ok",
-      "items": 50
+      "items": 0
     },
     {
       "name": "The Hacker News",
@@ -76,15 +76,37 @@
   ],
   "items": [
     {
-      "id": "bd9a270143ad26228c8f1fca0a077afc35ba02a6",
-      "title": "Cyberespace : des hackers iraniens menacent la Suisse",
-      "url": "https://www.rts.ch/info/suisse/2026/article/cyberespace-des-hackers-iraniens-menacent-la-suisse-29284141.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "id": "4689cd681c98d9f145777adfff3aabd3c6a09e8a",
+      "title": "Nancy : une Summer School internationale sur la cyber-criminologie à l ...",
+      "url": "https://www.lagazettefrance.fr/article/nancy-une-summer-school-internationale-sur-la-cyber-criminologie-a-l-ecole-des-mines?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
       "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-23T19:38:00.000Z",
-      "summary": "Les négociations de paix entre Washington et Téhéran n'auront aucun effet sur la cyberguerre en cours, annonce à la RTS Homeland Justice, un groupe …",
+      "publishedAt": "2026-06-24T06:03:00.000Z",
+      "summary": "L’École des Mines de Nancy accueille, du 29 juin au 1er juillet, la première Summer School de cybercriminologie en France. Objectif : renforcer …",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://www.lagazettefrance.fr/media/2026/06/cyber-6a3932cf64967.jpg"
+    },
+    {
+      "id": "1a7f104b350ad98516233a408b6841adbfb41149",
+      "title": "STMicroelectronics dévoile le ST54M, la première puce sécurisée au monde dotée de cryptographie post-quantique pour les appareils mobiles de dernière génération",
+      "url": "https://www.lesoleil.com/communiques-de-presse/2026/06/24/stmicroelectronics-devoile-le-st54m-la-premiere-puce-securisee-au-monde-dotee-de-cryptographie-post-quantique-pour-les-appareils-mobiles-de-derniere-generation-NN5RCLGDBZESFLC25C54CPOJVY/?amp%3Butm_content=topic%2Ffr-cryptographie",
+      "source": "Cryptographie FR",
+      "publishedAt": "2026-06-24T06:00:14.000Z",
+      "summary": "Genève (Suisse), le 24 juin 2026 – STMicroelectronics (NYSE : STM), un leader mondial des semiconducteurs dont les clients couvrent toute la gamme des …",
       "type": "NEWS",
       "severity": "Info",
-      "imageUrl": "https://img.rts.ch/articles/2026/image/s9svdz-29284133.image?w=1200&amp%3Bh=630"
+      "imageUrl": "https://lescoopsdelinformation-le-soleil-prod.web.arc-cdn.net/resizer/v2/OVJKEYIC4VDJPLD2YK57T4KE7U.jpg?auth=502d55a293454238a418735ef07d92eb5b392290a13e0cf79a6869da02f1f321&amp%3Bheight=900&amp%3Bsmart=true&amp%3Bwidth=1600"
+    },
+    {
+      "id": "ee67bbf70d35c34ecb352614ca5c109833300e54",
+      "title": "POINT DE VUE. « Les données de santé, talon d’Achille de notre système de soins »",
+      "url": "https://www.ouest-france.fr/reflexion/point-de-vue/point-de-vue-les-donnees-de-sante-talon-dachille-de-notre-systeme-de-soins-a650ccc8-6809-11f1-8ae5-0c53cf467897?amp%3Butm_medium=fluxrss&amp%3Butm_campaign=banquedecontenu",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-24T04:00:04.000Z",
+      "summary": "Nos données de santé font aujourd’hui partie des informations les plus convoitées de l’économie numérique. « Leur protection doit devenir une …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/645b2ac9f3c996b1b0605ec90417cd84f9286a9c/_xlarge.jpeg"
     },
     {
       "id": "f7c52b229baf28ff1556b6a534c14380d4765751",
@@ -1451,17 +1473,6 @@
       "imageUrl": "https://siecledigital.fr/wp-content/uploads/2026/06/carte-identite-dark-web.jpg"
     },
     {
-      "id": "f5e8e6e6f5318145910f5d72d779db7ff097e812",
-      "title": "Les Commissaires aux Comptes à l’heure de l’IA",
-      "url": "https://www.lagazettefrance.fr/article/les-commissaires-aux-comptes-a-l-heure-de-l-ia?amp%3Butm_content=topic%2Ffr-intelligenceartificielle",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-18T12:02:00.000Z",
-      "summary": "En pleine transformation de leur métier, les commissaires aux comptes suivent l’évolution de la société. L’IA demeure un enjeu crucial et représente …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.lagazettefrance.fr/media/2026/06/frederic-tilly-2-ok-c-lena-heleta-1-6a326172a2eb6_crop_1781686653.jpg"
-    },
-    {
       "id": "bec324979a7360d162fe3acb004eb406887ba7fc",
       "title": "CISA Urges Hardening Fortinet Devices After Reports of Credential Exposure",
       "url": "https://www.cisa.gov/news-events/alerts/2026/06/18/cisa-urges-hardening-fortinet-devices-after-reports-credential-exposure",
@@ -2260,17 +2271,6 @@
       "source": "CERT-FR",
       "publishedAt": "2026-06-16T00:00:00.000Z",
       "summary": "De multiples vulnérabilités ont été découvertes dans les produits Spring. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un problème de",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "ff004bcd8524760e4a67a8edff0384a8a8424aa2",
-      "title": "Vulnérabilité dans Microsoft Azure (16 juin 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0758/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-06-16T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans Microsoft Azure. Elle permet à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
