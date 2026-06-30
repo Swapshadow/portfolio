@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T17:57:46.642Z",
+  "generatedAt": "2026-06-30T20:09:36.467Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -23,7 +23,7 @@
       "name": "Exploit-DB",
       "url": "https://www.exploit-db.com/rss.xml",
       "status": "ok",
-      "items": 0
+      "items": 50
     },
     {
       "name": "The Hacker News",
@@ -76,6 +76,28 @@
   ],
   "items": [
     {
+      "id": "0ba8f8ff60a0d94cf0288de71488066106a1a8ed",
+      "title": "Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data",
+      "url": "https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-06-30T17:46:07.000Z",
+      "summary": "New Microsoft research shows how attackers can hijack AI agents that act on a user's behalf, using nothing more than a poisoned tool description to make the agent quietly hand over",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbjfrraZ05p0kN5CedcQSOZYouoHGrdpCvi9TGxEZM_9zlXc_juWZ1F8VsvjV9c-iD7Ejgj0V6b0uYwOb9mLpb7ALcOVk53m2ppmg6mDI3qwANc8KZFMt3X7H7fT_Eym3OJijFmr0CZS6yJNTtf4kef0gOYtbx6A3LYa15PNzpzJuOg-nd6orLosZzfQ8/s1600/ms-ai.jpg"
+    },
+    {
+      "id": "5c214e69bfc888014f7d990273a41ecdc4a26431",
+      "title": "RustDuck Botnet Rebuilds in Rust to Hijack Routers and Servers for DDoS",
+      "url": "https://thehackernews.com/2026/06/rustduck-botnet-rebuilds-in-rust-to.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-06-30T17:45:25.000Z",
+      "summary": "A new two-stage malware family called RustDuck is hijacking home routers, IP cameras, Android boxes, and poorly secured servers, then stitching them into a network built to knock w",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2XzOOqoX4E_CfxUMxd0YAH9MRjvZ8-kBBiVhd2VvCvbie3zla8PA80fO2xZ4Ux3_gmreVKG7ANFrSGpDk1lsURfQZuVVapjqi565oGmkqImmFdiQsQFL5z7V9s7TTkH4KgmGbEFnpdAQz94DrXip4q8Qa-ec9K1B1cmeL3szEBWUq9nX-MWppatyug3A/s1600/RustDuck.jpg"
+    },
+    {
       "id": "90caad3cb3d6081f2e21f72651d1a533eae5437e",
       "title": "Dans le Vaucluse, la police municipale victime d'une cyberattaque : des données sensibles publiées sur le darknet",
       "url": "https://actu.fr/provence-alpes-cote-d-azur/le-pontet_84092/dans-le-vaucluse-la-police-municipale-victime-d-une-cyberattaque-des-donnees-sensibles-publiees-sur-le-darknet_64477058.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -96,17 +118,6 @@
       "type": "LEAK",
       "severity": "Info",
       "imageUrl": "https://lvdneng.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_extra_big/2026/06/30/node_1717367/68659048/public/2026/06/30/88712927.jpeg?itok=eFyoX4ex1782836116"
-    },
-    {
-      "id": "13e918106c160a3338704c8dc3723383c4889156",
-      "title": "Dominique Fournier: «On ne peut pas bâtir un débat sur les coûts de la santé avec des données volées» - Le Temps",
-      "url": "https://www.letemps.ch/articles/dominique-fournier-on-ne-peut-pas-batir-un-debat-sur-les-couts-de-la-sante-avec-des-donnees-volees",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-30T15:47:34.000Z",
-      "summary": "Les radiologues ne sont pas à plaindre. Une litote qui attise les convoitises, notamment celles de certains hackeurs. Le réseau de radiologie romand …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://letemps-17455.kxcdn.com/photos/a3fa38ee-5271-4e28-bae0-0c9a55f63140/medium"
     },
     {
       "id": "4a0d021f244a7541f739fb80b10efd32851540a7",
@@ -169,7 +180,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-04",
       "source": "CISA",
       "publishedAt": "2026-06-30T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-04.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-04.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -180,7 +191,7 @@
       "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-181-01",
       "source": "CISA",
       "publishedAt": "2026-06-30T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsma-26-181-01.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsma-26-181-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -191,7 +202,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-01",
       "source": "CISA",
       "publishedAt": "2026-06-30T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-01.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -202,7 +213,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-03",
       "source": "CISA",
       "publishedAt": "2026-06-30T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-03.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-03.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -213,7 +224,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-06",
       "source": "CISA",
       "publishedAt": "2026-06-30T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-06.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-06.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -224,7 +235,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-02",
       "source": "CISA",
       "publishedAt": "2026-06-30T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-02.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-02.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -235,7 +246,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-05",
       "source": "CISA",
       "publishedAt": "2026-06-30T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-05.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-05.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": null
@@ -246,7 +257,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-07",
       "source": "CISA",
       "publishedAt": "2026-06-30T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-07.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-07.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -631,7 +642,7 @@
       "url": "https://www.cisa.gov/news-events/alerts/2026/06/29/cisa-adds-one-known-exploited-vulnerability-catalog",
       "source": "CISA",
       "publishedAt": "2026-06-29T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA has added one new vulnerability to its &lt;a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/",
+      "summary": "&lt;p&gt;CISA has added one new vulnerability to its &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities (KEV) Ca",
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": null
@@ -1060,7 +1071,7 @@
       "url": "https://www.cisa.gov/resources-tools/resources/russian-intelligence-services-continue-target-commercial-messaging-applications",
       "source": "CISA",
       "publishedAt": "2026-06-26T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA and the Federal Bureau of Investigation (FBI) issued an updated &lt;a href=\"https://www.ic3.gov/PSA/2026/PSA260626\" target=\"_blank\"&gt;Public Service Announcement (PS",
+      "summary": "&lt;p&gt;CISA and the Federal Bureau of Investigation (FBI) issued an updated &lt;a href=&quot;https://www.ic3.gov/PSA/2026/PSA260626&quot; target=&quot;_blank&quot;&gt;Public Serv",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1319,6 +1330,17 @@
       "imageUrl": "https://ic-cdn.flipboard.com/01net.com/361569c140ee5e2ebba62474626a5ceaad736069/_xlarge.jpeg"
     },
     {
+      "id": "fdd6075374b74f6b2fa00f0e25b21770e503bfa6",
+      "title": "L’usage de logiciels espions par le renseignement français a plus que doublé en quatre ans",
+      "url": "https://www.liberation.fr/societe/police-justice/lusage-de-logiciels-espions-par-le-renseignement-francais-a-plus-que-double-20260625_2SDHF5WZD5HIPNFQQKERSGQH6U/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-25T14:32:25.000Z",
+      "summary": "Dans son rapport annuel, qui paraît ce jeudi, la Commission nationale de contrôle des techniques de renseignement souligne que le recours aux chevaux …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/liberation.fr/566df848b644e58a3c3dca8a1db386bbabbf255f/_xlarge.jpeg"
+    },
+    {
       "id": "0d616ffae6898785384a0b706599b21d6b4b3791",
       "title": "Chrome Ad Blocker with 10M+ Installs Found with Dormant Script Injection Capability",
       "url": "https://thehackernews.com/2026/06/chrome-ad-blocker-with-10m-installs.html",
@@ -1368,7 +1390,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-06",
       "source": "CISA",
       "publishedAt": "2026-06-25T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-176-06.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-176-06.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1379,7 +1401,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-04",
       "source": "CISA",
       "publishedAt": "2026-06-25T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-176-04.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-176-04.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1390,7 +1412,7 @@
       "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-176-02",
       "source": "CISA",
       "publishedAt": "2026-06-25T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsma-26-176-02.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsma-26-176-02.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1401,7 +1423,7 @@
       "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-176-01",
       "source": "CISA",
       "publishedAt": "2026-06-25T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsma-26-176-01.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsma-26-176-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1412,7 +1434,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-07",
       "source": "CISA",
       "publishedAt": "2026-06-25T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-176-07.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-176-07.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1423,7 +1445,7 @@
       "url": "https://www.cisa.gov/news-events/alerts/2026/06/25/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "source": "CISA",
       "publishedAt": "2026-06-25T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA has added two new vulnerabilities to its &lt;a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt",
+      "summary": "&lt;p&gt;CISA has added two new vulnerabilities to its &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities (KEV) ",
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": null
@@ -1434,7 +1456,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-01",
       "source": "CISA",
       "publishedAt": "2026-06-25T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-176-01.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-176-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1445,7 +1467,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-03",
       "source": "CISA",
       "publishedAt": "2026-06-25T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-176-03.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-176-03.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1456,7 +1478,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-02",
       "source": "CISA",
       "publishedAt": "2026-06-25T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-176-02.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-176-02.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1467,7 +1489,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-05",
       "source": "CISA",
       "publishedAt": "2026-06-25T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-176-05.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-176-05.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1698,7 +1720,7 @@
       "url": "https://www.cisa.gov/resources-tools/resources/using-sase-modern-tic-30-solution",
       "source": "CISA",
       "publishedAt": "2026-06-24T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a class=\"c-button\" href=\"https://www.cisa.gov/sites/default/files/2026-06/The_Journey_to_Zero_Trust_Using_SASE_in_a_Modern_TIC-3.0_Solution_CB_Approved_508c.pdf\"&gt;Us",
+      "summary": "&lt;p&gt;&lt;a class=&quot;c-button&quot; href=&quot;https://www.cisa.gov/sites/default/files/2026-06/The_Journey_to_Zero_Trust-Using_SASE_in_a_Modern_TIC_3.0_Solution_Final_Approv",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1924,28 +1946,6 @@
       "imageUrl": "https://krebsonsecurity.com/wp-content/uploads/2026/06/flowers-jubair-nca.png"
     },
     {
-      "id": "6cd64850b66d5e893a9f299fe5183514dc96306f",
-      "title": "Fake AI Agent Skill Passed Security Scans and Reportedly Reached 26,000 Agents",
-      "url": "https://thehackernews.com/2026/06/fake-ai-agent-skill-passed-security.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-23T15:16:43.000Z",
-      "summary": "Security firm AIR built a fake AI agent skill, pushed it through a popular skill marketplace and an Instagram ad, and says it reached roughly 26,000 agents, including some on corpo",
-      "type": "NEWS",
-      "severity": "Moyenne",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgb14v3ddlfpybc15jRbk-cwHI-0S8BAzdp8Ix83L5ZCZ4AB8gCySG7J4tZr4od9q3Jbuic1a4J29VAvRcdSQag_-ju1o9ae9yCcL6XV_jRDVhgd31E5BljiThpXcfHu_gdsmSySY8o0WyjuUoSQ5CGOyKO3cKXVDYeGKa1b1up2VM5ZJE6_PjPNCVOD_M/s1600/skills.jpg"
-    },
-    {
-      "id": "e47491363b8b4b0853bae0b85da40fa5c5440f85",
-      "title": "Trump Order Sets 2030 Deadline for Federal Post-Quantum Crypto Migration",
-      "url": "https://thehackernews.com/2026/06/trump-order-sets-2030-deadline-for.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-23T15:16:40.000Z",
-      "summary": "President Trump signed an executive order on June 22 setting hard deadlines for federal agencies to move high-value assets and high-impact systems to post-quantum cryptography. Key",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoC7KFWoDGkSi-UzAyKNUkw-Ogs4oy2tCOAYXiYAAkqEUC1WMotLAE1GUwoWApfXK3prWVctTP05aLGjru0hDBfJkZ1NzPiFeI1VObgSNCx4egTrYhKIUt4m1S14eQ6_GpdffFBL4Ak3Mgjw7UiiBethv1lmyd_OaPIfhk_b-zuMjxCHLZtih8Tk6MtRg/s1600/unitedstates.jpg"
-    },
-    {
       "id": "b01d30d6df741a3f66e903c8427565fd25144035",
       "title": "Cas vécu : le SPF Finances se trompe de contribuable et piétine le RGPD dans un courrier qui ressemble à du phishing",
       "url": "https://www.lavenir.net/actu/conso/multimedia/2026/06/23/cas-vecu-le-spf-finances-se-trompe-de-contribuable-et-pietine-le-rgpd-dans-un-courrier-qui-ressemble-a-du-phishing-UAK5WLJZ3NHJFFH6VY4H6K7XAM/?amp%3Butm_content=topic%2Ffr-technologie",
@@ -1962,7 +1962,7 @@
       "url": "https://www.cisa.gov/news-events/alerts/2026/06/23/cisa-adds-four-known-exploited-vulnerabilities-catalog",
       "source": "CISA",
       "publishedAt": "2026-06-23T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA has added four new vulnerabilities to its &lt;a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"&gt;Known Exploited Vulnerabilities (KEV) Catalog&l",
+      "summary": "&lt;p&gt;CISA has added four new vulnerabilities to its &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities (KEV)",
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": null
@@ -1973,7 +1973,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-04",
       "source": "CISA",
       "publishedAt": "2026-06-23T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-174-04.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-174-04.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1984,7 +1984,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-06",
       "source": "CISA",
       "publishedAt": "2026-06-23T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-174-06.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-174-06.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1995,7 +1995,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-02",
       "source": "CISA",
       "publishedAt": "2026-06-23T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-174-02.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-174-02.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -2006,7 +2006,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-03",
       "source": "CISA",
       "publishedAt": "2026-06-23T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-174-03.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-174-03.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -2017,7 +2017,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-05",
       "source": "CISA",
       "publishedAt": "2026-06-23T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-174-05.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-174-05.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -2028,7 +2028,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-01",
       "source": "CISA",
       "publishedAt": "2026-06-23T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-174-01.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-174-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -2039,7 +2039,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-07",
       "source": "CISA",
       "publishedAt": "2026-06-23T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-174-07.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-174-07.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
