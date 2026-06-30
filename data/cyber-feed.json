@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T03:53:55.734Z",
+  "generatedAt": "2026-06-30T07:55:32.632Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -23,7 +23,7 @@
       "name": "Exploit-DB",
       "url": "https://www.exploit-db.com/rss.xml",
       "status": "ok",
-      "items": 50
+      "items": 0
     },
     {
       "name": "The Hacker News",
@@ -76,6 +76,39 @@
   ],
   "items": [
     {
+      "id": "e633c5a7fa3e0150506cce16cc395ae05cf49615",
+      "title": "Apple Patches 30+ iOS, macOS, Safari Flaws, Including AI-Discovered WebKit Bugs",
+      "url": "https://thehackernews.com/2026/06/apple-patches-30-ios-macos-safari-flaws.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-06-30T07:15:07.000Z",
+      "summary": "Apple on Monday released security updates for iOS, macOS, and the Safari web browser to address over three dozen flaws, including four vulnerabilities in WebKit that were discovere",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgEWbrJH-z_uAL6GFaOqplYF1ewSOBvFpaKD24W74VEBaSO-pW3sy0I0e57Bmc9yBKV4vb6zWYaVjd-oTSy2sSQNSubgQHcmFav_bp3HnySXcSGR-ocRiUfYcXgUXm44XZyrdNnIq2JqJxZQG5bnbui12eVoG3GPgVnGy9AE6vfDp3km5TTtf6rjPv6FZV/s1600/apple-updates-ai.jpg"
+    },
+    {
+      "id": "e19257814c702bc023a1c98d466103537c543ea4",
+      "title": "Les commissaires aux comptes à l'heure de l'Intelligence Artificielle",
+      "url": "https://www.lagazettefrance.fr/article/les-commissaires-aux-comptes-a-l-heure-de-l-intelligence-artificielle?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-30T06:00:00.000Z",
+      "summary": "En pleine transformation de leur métier, les commissaires aux comptes suivent l'évolution de la société. L'IA demeure un enjeu crucial et représente …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "cbec853b964c5564696bca8dfd80b4260385f377",
+      "title": "Oracle E-Business Suite Flaw CVE-2026-46817 Actively Exploited in the Wild",
+      "url": "https://thehackernews.com/2026/06/oracle-e-business-suite-flaw-cve-2026.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-06-30T05:04:06.000Z",
+      "summary": "A critical security flaw impacting Oracle E-Business Suite has come under active exploitation in the wild, according to Defused Cyber. The vulnerability, tracked as CVE-2026-46817 ",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYwCBjb2uPzIs-8BNIxo90ae4xRgxzM1av-ijebBJ32Y2DEvRUvM-jMd6S535UdnbPKrLtFHxm0k9Lo7GJgVjCWCrH-0RNFZukDv7shdA02IkDs1Iqx8C-uH2hOCyfpJ01tmNVGhrvQ-6FGlmdjnCP0nXrq7zl5KVL3XZ84I9QTImD5DM8HYoJbA0A1P3w/s1600/oracle.jpg"
+    },
+    {
       "id": "cfd4b821cf585796626bbcfe7c4dfeb29d0f2e85",
       "title": "Malicious Perplexity Chrome Extension Intercepted Searches and Address Bar Input",
       "url": "https://thehackernews.com/2026/06/malicious-perplexity-chrome-extension.html",
@@ -85,6 +118,17 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOcObOpyIQZzuiNoFu6Lv4jCDh64o1WYrC3stGdk58mMRg69RT56svVrXVwu618f6szk2lj_Tqbt6b7Rg25yV0cauxIDTbMAI8cbftKVYibIt5SMeaOT2zE3oeuu-RLI7M1mkEV3zirqDiO-nLMikX7QixM2EpVIdKQERGc7I_0p58L4J-s5mBjSCpgHc/s1600/pp-ai.jpg"
+    },
+    {
+      "id": "3c901ef15f644e339ac606ca3c2b763d58fd20ce",
+      "title": "Un journaliste arrêté par la police cambodgienne pour ses reportages sur des centres d'escroquerie en ligne",
+      "url": "https://fr.globalvoices.org/2026/06/29/300706/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-29T17:18:54.000Z",
+      "summary": "Six journalistes ont été arrêtés cette année au Cambodge concernant leurs reportages. Hem Vanna, journaliste en ligne, a été arrêté le 3 février …",
+      "type": "NEWS",
+      "severity": "Moyenne",
+      "imageUrl": "https://ic-cdn.flipboard.com/globalvoices.org/db87fcfdfccedb14b64b836680bb4d914f74d1f3/_large.png"
     },
     {
       "id": "7208fd7bb3597703d51d616255fdf7f746dc66cb",
@@ -107,17 +151,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEio-ZtaOMuibm1cwTHj1YFNRqRbs2GdaipPSXv1pzX9qcUI2VS6MGjpxEcNnhU0zniwOokUFL530mntMPSO2X8CjA3ybwYDXEwsJb9sV7nP9QWiDHLTiYV6Yf10B9qHNTdqsU3hn-ac8mzmzghyphenhyphenrhvgSJQBEgP723mfcyNA4y1ck5wKPBY1ELzb_xpQhB_s/s1600/whatsapp-usernames.jpg"
-    },
-    {
-      "id": "1fee21d13b27f73ab97c1a7ef13ec8fea9915384",
-      "title": "Une fuite révèlerait des secrets de la puce A20 Pro de l'iPhone 18 Pro",
-      "url": "https://consomac.fr/news-24114-une-fuite-revelerait-des-secrets-de-la-puce-a20-pro-de-l-iphone-18-pro.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-29T15:20:00.000Z",
-      "summary": "L'image ci-dessous publiée par WHYLAB ce dimanche sur Weibo nous montrerait un schéma de la carte mère de l'iPhone 18 Pro. Cette publication survient …",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://consomac.fr/images/news/carte-mere-iphone-18-pro-fuite.jpg"
     },
     {
       "id": "0aa57bf9a8bacfe4321195f893adb66a7f80268b",
@@ -470,6 +503,17 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/b73079fb91a7b3f4bd0f2c6d2af90c5e23d4f243/_xlarge.jpeg"
+    },
+    {
+      "id": "f7cdaf9b6046dd9260f4aaae37ae186790b249e1",
+      "title": "Détecter un logiciel espion",
+      "url": "https://www.lesnumeriques.com/antivirus/antivirus-contre-spyware-comment-detecter-et-supprimer-un-logiciel-espion-a257903.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-28T09:30:00.000Z",
+      "summary": "Si les logiciels espions inquiètent autant, c’est d’abord pour une raison simple : leur discrétion. Ils peuvent s’inviter sur un ordinateur, un Mac …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://cdn.lesnumeriques.com/optim/article/25/257903/667d592c-antivirus-contre-spyware-comment-detecter-et-supprimer-un-logiciel-espion_png__1200_678__overflow.jpg"
     },
     {
       "id": "05de6836a248a3d255b2f32b1f4cb2f5efa08f3c",
@@ -1363,17 +1407,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuQ2GvCcnjBgMTXoXBXqazE9MU3nbNgeccOlWELBQOL9WcHHH4uXS1BKCrrmv6iWWAn6vu1LZJzpHl1MGetv8EfnylIM48MlBK91Gyiz5zCL6cMFr6sJd5x0qdSvjPkwm-V5ON79TgMNPHdOuGQIqSWwTdQcmBnEjehYuDoKMllm9Xray6dVy2uqexoas/s1600/apex.jpg"
     },
     {
-      "id": "8503fa92a6b579adc974b1191ac3cad36febe7ba",
-      "title": "Cybercriminalité en 2025 : l’Algérie parmi les pays les plus ciblés au monde",
-      "url": "https://observalgerie.com/2026/06/24/societe/cybercriminalite-en-2025-lalgerie-parmi-les-pays-les-plus-cibles-au-monde/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-24T10:32:22.000Z",
-      "summary": "La cybercriminalité en 2025 prend une ampleur préoccupante en Algérie. Selon des données présentées par Kaspersky lors d’un atelier organisé à Alger, …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://observalgerie.com/wp-content/uploads/2022/03/hacker-using-computer-virus-for-cyber-attack.jpg"
-    },
-    {
       "id": "9d45cb4a30d1e1cf90d96ba9d349d0bc16bc890e",
       "title": "Le filtre anti-arnaques du gouvernement français se crashe sur le mur du droit européen",
       "url": "https://www.numerama.com/politique/2283685-le-filtre-anti-arnaques-du-gouvernement-francais-se-crashe-sur-le-mur-du-droit-europeen.html?amp%3Butm_source=flipboard&amp%3Butm_content=directlink&amp%3Butm_campaign=2283685",
@@ -1966,39 +1999,6 @@
       "type": "NEWS",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8sz7SHbQd4E8HNEKbvGGSYhPpJrUydP_gCRt_mWYYTr6QHLmChyphenhyphenca6BXhLBXA4OyKw-eS9xbqRqpKcYWFqDp4HoLBYKjVdWzhF0K1pqjX2bPtB91y1P1PZ8gh5r7Bpp-PIeUJVi_Hki91Qf6YjFAtFmf-qh7V9gNzmbEh_A2lISCvCDnNMALAuiqAlkL_/s1600/loader.jpg"
-    },
-    {
-      "id": "d3a330b91ac119198d4795ebe8b642962fe6fa07",
-      "title": "Google Sets Sept. 30 Deadline for Android Developer Verification in Four Countries",
-      "url": "https://thehackernews.com/2026/06/google-sets-sept-30-deadline-for.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-22T12:45:08.000Z",
-      "summary": "Google has set September 30, 2026, as the day it begins enforcing Android developer verification in the first four countries, and the major device-maker app stores are in from the ",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisV9q8kKe0eopbInTHgwScUvzjKlnPTpk74j7M6F-6BH46hVr9wcadvztA2RYJdKDQDzpV89bN4wH0hEL9qTfIh2_4f3FEIT1OWwSeYehcOb-sVNNkEshTBBC6qviBMlFuwMXQL2iG_VVVBaT6NoGnbdcVBfcMm61T6NosKLtOdMgIebKCRh7hukQxIOk/s1600/playstore.jpg"
-    },
-    {
-      "id": "706b2c1cde89e7f5d7c15a074fdacebd434609fe",
-      "title": "Stop Your Legacy Infrastructure from Hijacking Your AI Agents",
-      "url": "https://thehackernews.com/2026/06/stop-your-legacy-infrastructure-from.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-22T11:58:00.000Z",
-      "summary": "Earlier this month, I spoke at the Gartner Security &amp; Risk Management Summit about a blind spot most security programs are still not accounting for - how attackers are circumve",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSdS_7552zEvsn5xVfDcVMG2u8ponFIE1E65j5A8Wx-qUroU49h-f6qF7FPCABA063IjNnw-JntL-L1iZjHpiuqATqkDv-2vpi6lCVG1idXkg_elRJkyoUgASk4uYCTJ95EHfVQLJngVLKOxM2H5zLkdeFY7kpzveHUuKFoks0_ujNo9tJNQxm7XVgYb4/s1600/xmcyber.jpg"
-    },
-    {
-      "id": "c31ac0649841d628e96a0e778eb615fb085e0208",
-      "title": "Ce navigateur français est l’un des plus sécurisés au monde : voici comment fonctionne Virtual Browser, le logiciel utilisé par Matignon, Thales et Dassault Aviation",
-      "url": "https://www.presse-citron.net/navigateur-francais-securise-virtual-browser-logiciel-thales-dassault-aviation/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-22T09:47:16.000Z",
-      "summary": "Virtual Browser a été conçu pour les environnements exigeants en matière de sécurité. Il ne remplace pas les navigateurs classiques, mais permet …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/presse-citron.net/4a3342ebf8f0636bf3b518a1b63d1e127923b1ec/_xlarge.jpeg"
     },
     {
       "id": "97efd391cb8102d0948cf100d0f89cb5111d6abc",
