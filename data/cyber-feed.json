@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T07:55:32.632Z",
+  "generatedAt": "2026-06-30T11:12:54.638Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,13 +17,13 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 109
+      "items": 104
     },
     {
       "name": "Exploit-DB",
       "url": "https://www.exploit-db.com/rss.xml",
       "status": "ok",
-      "items": 0
+      "items": 50
     },
     {
       "name": "The Hacker News",
@@ -75,6 +75,83 @@
     }
   ],
   "items": [
+    {
+      "id": "a8a7b6f285df5a588004e6a9dcd270dafaaf197d",
+      "title": "Washington promet jusqu’à 10 millions de dollars pour retrouver les hackers visant Signal et WhatsApp",
+      "url": "https://www.numerama.com/cyberguerre/2288177-washington-promet-jusqua-10-millions-de-dollars-pour-retrouver-les-hackers-visant-signal-et-whatsapp.html?amp%3Butm_source=flipboard&amp%3Butm_content=directlink&amp%3Butm_campaign=2288177",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-30T10:29:35.000Z",
+      "summary": "Le département d’État américain offre jusqu’à 10 millions de dollars pour toute information menant à l’identification des cyberattaquants russes …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://c0.lestechnophiles.com/www.numerama.com/wp-content/uploads/2024/02/design-sans-titre-2024-02-27t162404276.jpg?resize=1600%2C900&amp%3Bkey=4ad7db28&amp%3Bwatermark="
+    },
+    {
+      "id": "60351c095e44018399a97a4e333778d245b688ac",
+      "title": "iPhone 18 Pro : les images authentiques sont en ligne (ce n'était pas prévu)",
+      "url": "https://www.iphon.fr/post/iphone-18-pro-images-authentiques-sont-en-ligne?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-30T10:13:13.000Z",
+      "summary": "Vous comptez absolument vous offrir un nouvel iPhone à la rentrée ? À priori, vous aurez trois options. L’iPhone Ultra, premier smartphone pliant de …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/iphon.fr/0c3f1cd15432f338bb3ba20e07483d3492e75c43/_xlarge.jpeg"
+    },
+    {
+      "id": "d101cb013135efcb86e949759e4ab0093c73fda9",
+      "title": "AirDrop and Quick Share Flaws Let Nearby Attackers Trigger Crashes and Bypass Checks",
+      "url": "https://thehackernews.com/2026/06/airdrop-and-quick-share-flaws-let.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-06-30T09:27:58.000Z",
+      "summary": "Two researchers have found six security flaws in AirDrop and Quick Share, the wireless features that beam files between nearby devices with no cables or shared network. An attacker",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCyrr25-wXst4kOLIEi1-Q1d5XMVDCvWqUacEoSRsLn6C5CbKoXGLb4nzTB-DVr9cLOkyuIT5wyMrQICAVhQFlTsXrR_Ng9CBBXPZGeK_rLtOVXh5C8CsrZHaGyJ5WukGI3vTpMOw1S09_U9j_s5rzEFcYq55g7ZmOthGTPw5XxJJkALMH9VOxr0DjX8Vi/s1600/share-ai.jpg"
+    },
+    {
+      "id": "091fac47492ae4b39eaafafc24bd9d804b29c9bd",
+      "title": "Fuites de données : cinq Français de 16 à 22 ans interpellés pour avoir mené des piratages contre des établissements de santé",
+      "url": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/fuites-de-donnees-cinq-francais-de-16-a-22-ans-interpelles-pour-avoir-mene-des-piratages-contre-des-etablissements-de-sante_8086439.html",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-30T08:53:30.000Z",
+      "summary": "Les mis en cause sont soupçonnés d'avoir lancé des cyberattaques contre une dizaine d'établissements de santé et d'avoir dérobé plusieurs millions de …",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/50d15dc2b170409c218be388251c484ed9afb9db/_xlarge.jpeg"
+    },
+    {
+      "id": "b0c9bf867b98299c6a1165fb9cee56fba1d45157",
+      "title": "New BioShocking Attack Tricks AI Browsers Into Leaking User Credentials",
+      "url": "https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-06-30T08:37:19.000Z",
+      "summary": "Convince an AI browser that it is playing a game, and it can hand over your login details. That is the finding behind BioShocking, a technique from security firm LayerX that tricke",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitNDarGF3uRKXTWC12cbM97uJW3DxiLuQwmplVLHEqdrUZJdzbkMz6Wc524z5Xu2GGSyNYhMT_m9kGqqGjRmIxDf0fy_ZXCx3f6G7JvvCFkcdga3PTnUR8XqfrPtIH_9_yrb9n7VaJZTqsLK4CznHRTcYZA1B84r2T_Jl5YYjnUbwUAvyGo4K05ckMnyYG/s1600/ai-prompt.jpg"
+    },
+    {
+      "id": "1393c7a903e3edb6df08467e8654654bd61a83f1",
+      "title": "L'IA signe-t-elle la fin de la vie privée ?",
+      "url": "https://www.lesechos.fr/idees-debats/sciences-prospective/lia-signe-t-elle-la-fin-de-la-vie-privee-2239851?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-30T08:20:16.000Z",
+      "summary": "L'intelligence artificielle permet facilement de retrouver l'identité d'une personne cachée derrière un pseudonyme ou de transformer en outils …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://media.lesechos.com/api/v1/images/view/6a437c3e018a711f800b0bb6/1280x720/01903182316522-web-tete.jpg"
+    },
+    {
+      "id": "5a8340ab7f3f9a6c8db03811943ac9ec5e69d155",
+      "title": "Progress Kemp LoadMaster Flaw Could Let Attackers Run Root Commands Pre-Auth",
+      "url": "https://thehackernews.com/2026/06/progress-kemp-loadmaster-flaw-could-let.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-06-30T07:38:07.000Z",
+      "summary": "A critical vulnerability in Progress Kemp LoadMaster can let an unauthenticated attacker execute arbitrary commands as root on the appliance by sending a crafted request to its API",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtFZGtJwnGA8dQHmNpd8Pzgx4p0wSq_e2hyphenhyphen2bZwWBQEDK8QPAi2CEOR_Nbns5jhRw9mMSPv6RBe2IqRO1c9fIMvMlUAV14B3VQE7-csMvfMQK6Qr3THGlxQY3C9HiYW_TYHGzok-TWFmMoMkto0OA8fNsQuvADEaJNFQYdIrXXzHGJEhyqpKRC2IFCaRM6/s1600/loadmaster.jpg"
+    },
     {
       "id": "e633c5a7fa3e0150506cce16cc395ae05cf49615",
       "title": "Apple Patches 30+ iOS, macOS, Safari Flaws, Including AI-Discovered WebKit Bugs",
@@ -136,7 +213,7 @@
       "url": "https://www.rfi.fr/fr/afrique/20260629-mali-le-procureur-s-oppose-%C3%A0-la-lib%C3%A9ration-provisoire-du-journaliste-chahana-takiou-d%C3%A9lib%C3%A9r%C3%A9-le-6-juillet?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
       "source": "Cybercriminalité FR",
       "publishedAt": "2026-06-29T16:59:01.000Z",
-      "summary": "Le journaliste malien Chahana Takiou comparaissait lundi 29 juin devant le pôle judiciaire spécialisé contre la cybercriminalité, à Bamako. Emprisonné depuis le 9 juin, le directeu",
+      "summary": "Le journaliste malien Chahana Takiou comparaissait lundi 29 juin devant le pôle judiciaire spécialisé contre la cybercriminalité, à Bamako. Emprisonné depuis le 8 juin, le directeu",
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/rfi.fr/384ac5fd2d7d0db4a98ef20989050ec6f257a8ad/_xlarge.jpeg"
@@ -516,17 +593,6 @@
       "imageUrl": "https://cdn.lesnumeriques.com/optim/article/25/257903/667d592c-antivirus-contre-spyware-comment-detecter-et-supprimer-un-logiciel-espion_png__1200_678__overflow.jpg"
     },
     {
-      "id": "05de6836a248a3d255b2f32b1f4cb2f5efa08f3c",
-      "title": "Chiffrement vs Police : « Le choix sera politique », prévient le patron de l'ANSSI - Interview",
-      "url": "https://www.clubic.com/dossier-618682-interview-anssi.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-28T09:07:00.000Z",
-      "summary": "Dix signalements et quatre incidents traités chaque jour, 7 jours sur 7 : c'est le quotidien de l'ANSSI face à la menace cyber. Son directeur général …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/c6e233f76319bd740a9d23b9001b3919404844bf/_xlarge.jpeg"
-    },
-    {
       "id": "79d2edc4dbbec4447efd367ad2ba9d6e7e0fbbec",
       "title": "Les Bitcoins de Satoshi bientôt gelés ? La solution pour sauver le réseau de la menace quantique ?",
       "url": "https://android-mt.ouest-france.fr/news/decryptage/les-bitcoins-de-satoshi-bientot-geles-la-solution-pour-sauver-le-reseau-de-la-menace-quantique/204880/?amp%3Butm_content=topic%2Ffr-cryptographie",
@@ -734,17 +800,6 @@
       "type": "NEWS",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhatZ2Vkvxd086INLXiuhbRJrli5Ao9hoNajbVq-Xr0HVAS70cCzhRBfM78KEusnBPI1sXyAK5tYrKt55U5mTIXCQDAmBzY2e860qtXo4YAlvAnVWHDV3DddKUML1q1g71h97Ke1i-714gv5SaVW9lmaFNtRda5XP1kc20urtc-HzlX5JXwkQv0g_-1VwC3/s1600/Miasma.jpg"
-    },
-    {
-      "id": "2b7d928535ec47f95a1136309441299e768daa0d",
-      "title": "Cybersécurité : une attaque informatique vise l’Insee, les données de 12.800 personnes affectées",
-      "url": "https://www.lefigaro.fr/secteur/high-tech/cybersecurite-une-attaque-informatique-vise-l-insee-les-donnees-de-12-800-personnes-affectees-20260626?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-26T10:02:54.000Z",
-      "summary": "L’institut recommande aux entreprises et aux particuliers «la plus grande prudence en cas de réception d’un message qui semblerait provenir d’un …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://i.f1g.fr/media/cms/1200x630_crop/2026/06/26/1f81dac0971970ce2f7a97f71d495bbd02b114906036d6b9cd3d2650f94bc775.jpg"
     },
     {
       "id": "20507bb0de90248a5097307c12f31f01327e66b7",
@@ -1352,17 +1407,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBVSibdiZdJ1tNYJFrsHtZ8Vr1EG28rqKLY4E7HvAtuax2i3vgpcaMZjEAcGDRxUVu5aa_BHzCAahpw5l2RP2HNw9t7PF6zknNICdw0iuW5jozt5fzqsSfb3Lw55MIvStq2vh5W0139JychUhhJHvchyphenhyphenm7tT2oTS555CkVZrBYSkhmlMKWaXMLtO4OcSp6/s1600/cybercrime-ms.jpg"
     },
     {
-      "id": "87ea131a4b05b45653a2c01e3e3b0dbdacece1e2",
-      "title": "Mythos : le poison de l'IA sans l'antidote",
-      "url": "https://www.lesechos.fr/idees-debats/editos-analyses/mythos-le-poison-de-lia-sans-lantidote-2238942?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-24T14:50:13.000Z",
-      "summary": "Même bloquée par Donald Trump, l'IA d'Anthropic va élever le niveau de la menace cyber mondiale, et porter le coût de la protection à un niveau …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/lesechos.com/31bbd8c3d6ea12206457ead95034674c958d30e9/_xlarge.jpeg"
-    },
-    {
       "id": "f0cf7ea44b4eec0dc6f6701506074d31d8bb2060",
       "title": "Madison Square Garden Sports - 9,796,738 breached accounts",
       "url": "https://haveibeenpwned.com/Breach/MadisonSquareGardenSports",
@@ -1407,15 +1451,15 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuQ2GvCcnjBgMTXoXBXqazE9MU3nbNgeccOlWELBQOL9WcHHH4uXS1BKCrrmv6iWWAn6vu1LZJzpHl1MGetv8EfnylIM48MlBK91Gyiz5zCL6cMFr6sJd5x0qdSvjPkwm-V5ON79TgMNPHdOuGQIqSWwTdQcmBnEjehYuDoKMllm9Xray6dVy2uqexoas/s1600/apex.jpg"
     },
     {
-      "id": "9d45cb4a30d1e1cf90d96ba9d349d0bc16bc890e",
-      "title": "Le filtre anti-arnaques du gouvernement français se crashe sur le mur du droit européen",
-      "url": "https://www.numerama.com/politique/2283685-le-filtre-anti-arnaques-du-gouvernement-francais-se-crashe-sur-le-mur-du-droit-europeen.html?amp%3Butm_source=flipboard&amp%3Butm_content=directlink&amp%3Butm_campaign=2283685",
+      "id": "8503fa92a6b579adc974b1191ac3cad36febe7ba",
+      "title": "Cybercriminalité en 2025 : l’Algérie parmi les pays les plus ciblés au monde",
+      "url": "https://observalgerie.com/2026/06/24/societe/cybercriminalite-en-2025-lalgerie-parmi-les-pays-les-plus-cibles-au-monde/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
       "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-24T10:30:00.000Z",
-      "summary": "La Commission européenne vient de rejeter le projet de décret du gouvernement français encadrant le filtre national de cybersécurité. En pointant de …",
+      "publishedAt": "2026-06-24T10:32:22.000Z",
+      "summary": "La cybercriminalité en 2025 prend une ampleur préoccupante en Algérie. Selon des données présentées par Kaspersky lors d’un atelier organisé à Alger, …",
       "type": "NEWS",
       "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/lestechnophiles.com/8ec8864aab76dac495c2fd8897fb799c98c1cd73/_xlarge.jpeg"
+      "imageUrl": "https://observalgerie.com/wp-content/uploads/2022/03/hacker-using-computer-virus-for-cyber-attack.jpg"
     },
     {
       "id": "af3a0cd4e016dc1c4381bd4c1b43cc411f3d99a1",
@@ -1781,17 +1825,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5YrdKJuy4ZmnWf_7L2RdXqS2QWC2BHJIbGsapJLmmYy1hBXfHxE7WMk-itWDkh-oCbAr8-CZOiUTyLftdM6191lDL8Iu2ENNU_i6Wfw2qy3lKY41iCrOnaLXHIl8cWDto42eqVlnsM4OetK0ymQUnwdpRXIniZQ-o7pBIDkqOYbm7o4CMlQTYFOeQyJI/s1600/ai-weapon.jpg"
     },
     {
-      "id": "536f3a573e91b3aef58f82a40ff38c6528fea973",
-      "title": "La menace cyber de l'IA n'est plus qu'à quelques mois, alertent les services occidentaux",
-      "url": "http://fr.euronews.com/next/2026/06/23/la-menace-cyber-de-lia-nest-plus-qua-quelques-mois-alertent-les-services-occidentaux",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-23T11:26:38.000Z",
-      "summary": "Five Eyes avertit d'une cybermenace dans les prochains mois : les États-Unis verrouillent les modèles d'IA d'Anthropic Des modèles d’intelligence artificielle puissants, susceptibl",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/euronews.com/18a3016fa52edb986d1ac0c310a9ffc372b37818/_xlarge.jpeg"
-    },
-    {
       "id": "246ba048c1ce348e98ab9c5c16d30f3d1666cbf8",
       "title": "Guerre du quantique : Donald Trump signe deux décrets pour préparer les États-Unis au grand choc",
       "url": "https://www.numerama.com/tech/2282535-guerre-du-quantique-donald-trump-signe-deux-decrets-pour-preparer-les-etats-unis-au-grand-choc.html?amp%3Butm_source=flipboard&amp%3Butm_content=directlink&amp%3Butm_campaign=2282535",
@@ -1966,39 +1999,6 @@
       "type": "NEWS",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgd4DchiVkQLBMvGHgWrojoZUdyk2SwEhEj5q6cOYzKCUWF1Lz3Mxeizurg1O-SLVi2jg319ib4SJsSoVWixAkl5WLPu4rL1cMoYXUM6EziOVyt42ESt1zmMo_iLEfHx9XSAXpsDd1FEtRSgKk4AhDzA7DjJN8c__pUgogxTQgaGjsxM04WNiesgRnbEVHN/s1600/wordpress-plugin.jpg"
-    },
-    {
-      "id": "defcbaf4fc3bbee86a2166e10099d434805a5c5b",
-      "title": "29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests",
-      "url": "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-22T16:29:00.000Z",
-      "summary": "A heap over-read in the Squid web proxy can leak another user's cleartext HTTP request, including any credentials or session tokens it carries, to anyone already allowed to send tr",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiA4IfKMjQxVhpOYdrcCC4ty0vlGBDg_qCZuuvSTvyVWXYPXQlli7qyCZkPdHHuGJp-HVH1s-HGmf_Zqn97o2Qz5JOHaZ-Mk1mecm4W4yUBiCaejJL5guczISx2Q8ZH7RvS_4fXiNdHemr1aWKwz0CcyBJI_4_jFjQhY5JedBz_-pSiSQ1eQCF_BPYEbRs/s1600/sq.jpg"
-    },
-    {
-      "id": "c597981e02f6d3a476cf13d388bad274c036231e",
-      "title": "Researchers Detail DifyTap Flaws in Dify That Could Expose AI Chats Across Tenants",
-      "url": "https://thehackernews.com/2026/06/researchers-detail-difytap-flaws-in.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-22T16:13:28.000Z",
-      "summary": "Cybersecurity researchers have disclosed details of four vulnerabilities in Dify, an open-source agentic workflow platform with more than 146,000 GitHub stars, that could allow att",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrjCumekV1hjkgdgebp4RqfYc_Yt9Swv4lG7ds3XMDHG9f-JxSuJSWY3UcWIoivJoJkJjdlBvtiQAHKy7NNgApCoD8ADtOpicXvKf9RJwAZT1DEGUkgX87bmSR8cO75Ss__mnLn8MyDEddnzhyphenhyphenRfcf_gWEtoLiKu53yXNQJtT0DP7nZufqBhB3P8VmvV48/s1600/dify.png"
-    },
-    {
-      "id": "dc63e0e5776c379eb3e96442b3e307f38efd7c68",
-      "title": "New OXLOADER Loader Uses Malicious Google Ads to Deliver CastleStealer",
-      "url": "https://thehackernews.com/2026/06/new-oxloader-loader-uses-malicious.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-22T13:20:12.000Z",
-      "summary": "Cybersecurity researchers have disclosed details of a new campaign that delivers CastleStealer by means of a previously unreported malware loader dubbed OXLOADER. According to Elas",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8sz7SHbQd4E8HNEKbvGGSYhPpJrUydP_gCRt_mWYYTr6QHLmChyphenhyphenca6BXhLBXA4OyKw-eS9xbqRqpKcYWFqDp4HoLBYKjVdWzhF0K1pqjX2bPtB91y1P1PZ8gh5r7Bpp-PIeUJVi_Hki91Qf6YjFAtFmf-qh7V9gNzmbEh_A2lISCvCDnNMALAuiqAlkL_/s1600/loader.jpg"
     },
     {
       "id": "97efd391cb8102d0948cf100d0f89cb5111d6abc",
