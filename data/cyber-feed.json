@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T12:35:25.823Z",
+  "generatedAt": "2026-07-01T16:27:35.927Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,13 +17,13 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 109
+      "items": 114
     },
     {
       "name": "Exploit-DB",
       "url": "https://www.exploit-db.com/rss.xml",
       "status": "ok",
-      "items": 50
+      "items": 0
     },
     {
       "name": "The Hacker News",
@@ -76,26 +76,103 @@
   ],
   "items": [
     {
+      "id": "bce15d584b0c602739a6d8af2098dd240b74697f",
+      "title": "Ousaban Banking Trojan Targets Iberian Bank Users with Fake PDF Lures",
+      "url": "https://thehackernews.com/2026/07/ousaban-banking-trojan-targets-iberian.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-01T15:26:55.000Z",
+      "summary": "A Brazilian banking trojan called Ousaban is going after Windows users who bank in Spain and Portugal. Fortinet's FortiGuard Labs identified the campaign in May 2026. It opens with",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3GnjevIMTqO1nAZ7LWeRKAz2NCKGTKCC2ldSx5dsd2SShjh4pWcmddVJse4MP4QLhA_DOP1K_RajPwe8YR7rc57CqPUO0i9RDYoZQA0yRAokZt1r2hyphenhyphenccOjcFh2SgUTnyUjj-M-y7WUUXVF0rpSrcxTrjb5nPOnpnIP5YvdxzUaLXkubSTXFaj0RzxEvH/s1600/windows-trojan.jpg"
+    },
+    {
+      "id": "b5afabd98fbb1663e0a6956e9c43fb54516d1db2",
+      "title": "Adobe Patches 7 CVSS 10.0 Flaws in ColdFusion and Campaign Classic",
+      "url": "https://thehackernews.com/2026/07/adobe-patches-7-cvss-100-flaws-in.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-01T15:25:46.000Z",
+      "summary": "Adobe has released patches for multiple maximum-severity security flaws impacting Adobe ColdFusion and Adobe Campaign Classic. The ColdFusion updates \"resolves critical and importa",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiP2LpF3s-oL3WaiHtAZ9N33J120bvGnWDoQ39eE1fyToERHmJgkAtMzarRyW9-gOG0N4U1_nOEQmwg-3krYIZDcXXB6JYpurMezefSiM5-ygJd9CuuS1sS-gHNjoKgBRayO0wBow5GB1yaanR55TW2fwus6MQXwlqeXDJ2Xu7z2fiOGbPXo4qio4LpXZPO/s1600/adobe.jpg"
+    },
+    {
+      "id": "99454a40e5ef8d8ce21609ce5873765920eb8691",
+      "title": "Critical Cursor Flaws Could Let Prompt Injection Escape Sandbox and Run Commands",
+      "url": "https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-01T14:42:54.000Z",
+      "summary": "Two flaws in Cursor, an AI code editor, could let a single, ordinary-looking prompt break out of the editor's safety sandbox and run any command on a developer's computer. There is",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjItlLuWZZxw3YcKcnCVEsKn7HKF0QcPnXqFNjor23XT93Xp49dvLt4tZFYIbUApP4eABXQZ3pwnoidAp5GW1wm7ZfBA6vXRlX7i0Lbzw4KWlSkxayxjZQeoxg3TEAQWmLdGP9DePsYjoC1p07KGommOwATsJOHhRQ2zZatOaFRzHoKHVHcQW8K9s-Hd5w/s1600/cato.jpg"
+    },
+    {
+      "id": "9741b2097fb01dde3ecc84416517f10474027b23",
+      "title": "Progress Kemp LoadMaster Pre-Auth RCE Flaw Faces Active Exploitation Attempts",
+      "url": "https://thehackernews.com/2026/07/latest-progress-kemp-loadmaster-pre.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-01T13:56:18.000Z",
+      "summary": "A recently disclosed critical security flaw impacting Progress Kemp LoadMaster is seeing active exploitation attempts, according to an advisory from eSentire's Threat Response Unit",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghMOqrFNgwfokWIpvUBFpDUO-So-0focm0a7d9mhocEHiwdB2cHmPQ9q4STjyCr-gVUPK67TYluInMr0_v1omCJVWbd9OVOg6AqVROoxZb44b5BOpxdBb2GECjFw77NhlCf6nWC5oJF3x3KvE3EyDV2pUR3lvROAWjaFs9SOyvzM3qRB6MzEUCFYuVAoCb/s1600/pro-exploit.jpg"
+    },
+    {
+      "id": "9ef70588f0cb773ac9bfeac6170f8218c9b4a283",
+      "title": "«Poutine ne connaît que la guerre comme mode de gouvernement», alerte Nathalie Loiseau",
+      "url": "https://video.lefigaro.fr/figaro/poutine-ne-connait-que-la-guerre-comme-mode-de-gouvernement-alerte-nathalie-loiseau-20260701?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-01T13:21:10.000Z",
+      "summary": "«Ceux qui nous disent qu’il n’y aura pas les chars russes dans les rues de Paris posent la question à côté. Il y a déjà des cyberattaques russes, des …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://i.f1g.fr/media/ext/1200x630_crop/api-video-public.lefigaro.fr/assets/36/6e/8e/366e8ed2ba9aeb80da83e0c6e31da5c4.jpeg"
+    },
+    {
+      "id": "9d0f264d2d44f727ec3a6c55ab65b25b323badf5",
+      "title": "AI-Generated Browser Ransomware Abuses Chromium API on Windows and Android",
+      "url": "https://thehackernews.com/2026/07/ai-generated-browser-ransomware-abuses.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-01T12:59:19.000Z",
+      "summary": "Cybersecurity researchers have flagged a new malware artifact generated using DeepSeek that constructed a novel attack path combining \"unrealistic browser-malware concepts with a r",
+      "type": "NEWS",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4BJdHYquuxXoz8n0LhMEmm9KPcWcMC57w4LnqbMNCPXMAFdS95ys3zE6F5jZOvSKwsVWp6t3z8pVImRJ3Nvxgkr4QiPI5O06zJywlL5uuBIU2G0ZtPucYq80Z_G-PnVzjYfChzbnpLxGyD2PpbH8VdLWjIuNLt0RoAe5Q8mVulX2s_4Ueg7XR0pxZVwKn/s1600/chrome-ransomware.jpg"
+    },
+    {
+      "id": "607cc246e769f34940e03b46afd48c1fd6d755a2",
+      "title": "Des ransomwares exploitent une faille de Microsoft Defender pour pirater les ordinateurs Windows",
+      "url": "https://www.01net.com/actualites/des-ransomwares-exploitent-une-faille-de-microsoft-defender-pour-pirater-les-ordinateurs-windows.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-01T11:35:40.000Z",
+      "summary": "Une faille de sécurité dans Microsoft Defender met en danger les ordinateurs Windows. Corrigée en avril dernier, la vulnérabilité est activement …",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/ec5376feb8b41ce45a58c3c46ab48940f9258aa0/_xlarge.jpeg"
+    },
+    {
+      "id": "a12f07d47227d870f2cd28cd64b6e2088081b7d7",
+      "title": "2026 Cybersecurity Assessment: The Gap Between Awareness and Resilience",
+      "url": "https://thehackernews.com/2026/07/2026-cybersecurity-assessment-gap.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-01T11:30:00.000Z",
+      "summary": "Organizations have never had greater awareness of cyber risk. Yet turning that awareness into operational resilience has never been more challenging. The 2026 Bitdefender Cybersecu",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjP1ozclOI3O1fTjKYLZrt0RCp54Fr-6NPYAifKy5c1fYwj4ceFq9U62ra9eoBq4Qw7qAh3qXE7ttfy6239qiAwK3SFyQxg316fl8BNxeeZ6IRDJFbjl09AE-gHC9Qa2V3nFljMblCovx6MgP66ZxMfawWVnAWEPNX9YS_FATZFtC69nlKhTvQQeOD58_I/s1600/Assessment.jpg"
+    },
+    {
       "id": "7b6f7942006a5d931308650e4feb085253637976",
       "title": "Orange et Sosh confrontés à une nouvelle panne ce mercredi",
       "url": "https://www.20minutes.fr/societe/4232214-20260701-orange-sosh-confrontes-nouvelle-panne-mercredi?at_medium=display&amp%3Bat_campaign=149",
       "source": "Cybercriminalité FR",
       "publishedAt": "2026-07-01T11:14:16.000Z",
-      "summary": "L’incident est terminé, a confirmé ce mercredi midi Orange à franceinfo. Les abonnés de cet opérateur ont été confrontés ce mercredi à une panne du …",
+      "summary": "L’incident est terminé, a confirmé ce mercredi midi Orange à 20 Minutes, confirmant une information de franceinfo. Les abonnés de cet opérateur ont …",
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://img.20mn.fr/xtJDEJD7RHWsn4VMARKqISk/1444x920_scroller-avec-son-cafe-du-matin-s-est-avere-complique-ce-mercredi-pour-des-abonnes-orange"
-    },
-    {
-      "id": "a11dee576ae74092207e9a239776ceac8760589f",
-      "title": "Les États-Unis promettent jusqu'à 10 millions de dollars pour retrouver des hackers liés à la Russie",
-      "url": "https://siecledigital.fr/2026/07/01/les-etats-unis-promettent-jusqua-10-millions-de-dollars-pour-retrouver-des-hackers-lies-a-la-russie/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-01T10:56:41.000Z",
-      "summary": "Le département d'État américain offre une prime susceptible d'atteindre 10 millions de dollars via son programme Rewards for Justice. Un diplomate …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://siecledigital.fr/wp-content/uploads/2026/07/hackers-russie.jpg"
     },
     {
       "id": "53deebad2f2bce98677ef7fb4369e19805df0c44",
@@ -107,6 +184,17 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyPq-iy_BsDM3LGWIEtwydOynDIApb_bokv6EuarUGUbyIw8tFnntySLPL5FuN0Qw1PIGNzlabEaSq00S9ojIShTnbJyM0kWKUbCcIEOH3eEbdLOpgOumlnXHVvrsn2o9A75a2R3_8vjpTB18P45qaK7CtSuggZyGAb2uA8SGGXp_bUV7mqY4aGNlYGXwM/s1600/Microsoft-Encryption.jpg"
+    },
+    {
+      "id": "0ec75b9e3bc8a4bd5a31f25d4f347366b4bbe7d7",
+      "title": "« Le wargaming aide à imaginer des scénarios » : comment les militaires se sont mis à jouer pour mieux faire la guerre",
+      "url": "https://www.nouvelobs.com/monde/20260701.OBS116304/le-wargaming-aide-a-imaginer-des-scenarios-comment-les-militaires-se-sont-mis-a-jouer-pour-mieux-faire-la-guerre.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-01T10:30:05.000Z",
+      "summary": "Reportage L’Ecole militaire a accueilli le premier « Wargaming à Paris », un rendez-vous de réflexion et d’expérimentation autour de jeux de guerre …",
+      "type": "NEWS",
+      "severity": "Moyenne",
+      "imageUrl": "https://ic-cdn.flipboard.com/nouvelobs.com/c90e8e4d4d4a4a2aa1ee027ce55c8c9419e19a7f/_xlarge.jpeg"
     },
     {
       "id": "0d6b28f4a657e8be49dbb65deb96ea2987c74930",
@@ -186,6 +274,17 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2AmA92QCIqSJfXqC3z9I1jjdJGEkIvN4k-Oc5MlWZb4yZLPg5clokead6q8yXUfeI4DbdsKVn4qbd1sufvo47zyIy-Wcr15xK9oJJyet1vlFGiOKOU0ylMhgXWI0Duuztk7W_YURPKwdgfOyFsm2k3Rj1Db5tEVB9jzNi3xeYD0R_wfOaRKranmNj6kOy/s1600/claude-fable-5.jpg"
     },
     {
+      "id": "d1aa1798acd4c5f6d93a299ba4e06069f7a80961",
+      "title": "iPhone 18 Pro : le modem Apple C2 partout sauf aux États-Unis ?",
+      "url": "https://consomac.fr/news-24123-iphone-18-pro-le-modem-apple-c2-partout-sauf-aux-etats-unis.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-01T06:11:00.000Z",
+      "summary": "L'iPhone 18 Pro abandonnerait bien les modems de Qualcomm pour basculer sur le nouveau modem Apple C2 conçu en interne... mais pas aux États-Unis. …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://consomac.fr/images/news/apple-c2-iphone-18-pro.jpg"
+    },
+    {
       "id": "3bf8a115d49e0f3b62f4a18e7d99caace4b3e27a",
       "title": "Azure CLI Password Spray Hits at Least 78 Microsoft Accounts in 81M+ Attempts",
       "url": "https://thehackernews.com/2026/07/azure-cli-password-spray-hits-at-least.html",
@@ -228,6 +327,94 @@
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkaU5jHNUkuBuH0Obx-gU_L4wSKOWP9bPwZeyD8tY1hIHShQozXYO2UckRTb2z5SwreXgHxLzePWkBfixNzYWsJ6eXioRllicv96TA8QvXBerGAguD3uA2T1DcMaURdi5BdMcNlY4DF_DPk-kdNXvIZfz8QMnrekgc-Hjksqf5OCHy11j0zcT668GgBhnc/s1600/citrix.jpg"
+    },
+    {
+      "id": "f56aee5a063c551a7969a9be43e9ba1a22902f14",
+      "title": "Mozilla - CVE-2026-14241",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/mozilla-cve-2026-14241-2026-07-01",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-01T02:17:13.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité regroupant plusieurs &lt;strong&gt;bugs de sécurité mémoire&lt;/strong&gt; présents dans le moteur de Firefox 152.0.3.&lt;/p&gt; &lt;p&gt;Moz",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "f310f9be070e3ba840e00a6304a2f5640d3fe9ef",
+      "title": "WinRAR - CVE-2026-14191",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/winrar-cve-2026-14191-2026-07-01",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-01T02:16:25.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans l'&lt;strong&gt;analyseur des volumes de récupération RAR5&lt;/strong&gt; (fichiers .rev) de WinRAR.&lt;/p&gt; &lt;p&gt;WinRAR est un lo",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "1f8234a0ab04f8ccbed482af758180c3eeda6460",
+      "title": "Google - CVE-2026-13967",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/google-cve-2026-13967-2026-07-01",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-01T02:15:36.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;confusion de type&lt;/strong&gt; dans le moteur &lt;strong&gt;V8&lt;/strong&gt; de Google Chrome.&lt;/p&gt; &lt;p&gt;Google ",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "dd8dc0b591a6894b6b489944b4783275fbfd7090",
+      "title": "IBM Db2 - CVE-2026-10109",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/ibm-db2-cve-2026-10109-2026-07-01",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-01T02:14:31.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le traitement de la &lt;strong&gt;négociation pré-authentification du protocole DRDA&lt;/strong&gt; utilisé par IBM Db2 pour établir une",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "b4710de192ed2b595834bedce62efbec97047c75",
+      "title": "NetScaler - CVE-2026-8451",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/netscaler-cve-2026-8451-2026-07-01",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-01T02:13:34.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;validation d'entrée insuffisante&lt;/strong&gt; présente dans le traitement des requêtes adressées au composant &lt;strong&g",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "06efa457b29f130e466dc43eefa19fec70e94943",
+      "title": "Vulnérabilité dans Mozilla Firefox (01 juillet 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0820/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-07-01T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans Mozilla Firefox. Elle permet à un attaquant de provoquer une exécution de code arbitraire.",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "56be363633f5db16c94d37d0d1537b21f9855b3e",
+      "title": "Multiples vulnérabilités dans les produits Citrix (01 juillet 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0822/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-07-01T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Citrix. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "07f1b01751b477b387930be17d6de86ee1fb1851",
+      "title": "Multiples vulnérabilités dans Adobe ColdFusion (01 juillet 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0821/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-07-01T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Adobe ColdFusion. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, u",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
     },
     {
       "id": "0ba8f8ff60a0d94cf0288de71488066106a1a8ed",
@@ -450,17 +637,6 @@
       "imageUrl": "https://ic-cdn.flipboard.com/futura-sciences.com/c2a3bec4628b1c4731f4b2b7677bc77d6a7c4c65/_xlarge.jpeg"
     },
     {
-      "id": "a8a7b6f285df5a588004e6a9dcd270dafaaf197d",
-      "title": "Washington promet jusqu’à 10 millions de dollars pour retrouver les hackers visant Signal et WhatsApp",
-      "url": "https://www.numerama.com/cyberguerre/2288177-washington-promet-jusqua-10-millions-de-dollars-pour-retrouver-les-hackers-visant-signal-et-whatsapp.html?amp%3Butm_source=flipboard&amp%3Butm_content=directlink&amp%3Butm_campaign=2288177",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-30T10:29:35.000Z",
-      "summary": "Le département d’État américain offre jusqu’à 10 millions de dollars pour toute information menant à l’identification des cyberattaquants russes …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://c0.lestechnophiles.com/www.numerama.com/wp-content/uploads/2024/02/design-sans-titre-2024-02-27t162404276.jpg?resize=1600%2C900&amp%3Bkey=4ad7db28&amp%3Bwatermark="
-    },
-    {
       "id": "60351c095e44018399a97a4e333778d245b688ac",
       "title": "iPhone 18 Pro : les images authentiques sont en ligne (ce n'était pas prévu)",
       "url": "https://www.iphon.fr/post/iphone-18-pro-images-authentiques-sont-en-ligne?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -525,17 +701,6 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtFZGtJwnGA8dQHmNpd8Pzgx4p0wSq_e2hyphenhyphen2bZwWBQEDK8QPAi2CEOR_Nbns5jhRw9mMSPv6RBe2IqRO1c9fIMvMlUAV14B3VQE7-csMvfMQK6Qr3THGlxQY3C9HiYW_TYHGzok-TWFmMoMkto0OA8fNsQuvADEaJNFQYdIrXXzHGJEhyqpKRC2IFCaRM6/s1600/loadmaster.jpg"
-    },
-    {
-      "id": "066370256aac6da9f7afa19d918134e30305c183",
-      "title": "Fuite massive chez Apple : des vidéos de l'iPhone 18 Pro circulent sur le web après une cyberattaque d'envergure",
-      "url": "https://www.frandroid.com/marques/apple/3161943_des-informations-concernant-liphone-18-se-sont-retrouvees-sur-le-dark-web?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-30T06:10:41.000Z",
-      "summary": "Suite au piratage massif d’un fournisseur Apple, des informations critiques concernant le prochain iPhone se sont a priori retrouvées en libre accès …",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://c0.lestechnophiles.com/images.frandroid.com/wp-content/uploads/2025/10/apple-iphone-17-pro-max-3.jpg?resize=1600%2C900&amp%3Bkey=9ef8eacc&amp%3Bwatermark="
     },
     {
       "id": "e19257814c702bc023a1c98d466103537c543ea4",
@@ -813,6 +978,17 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijvTMs5lEwRQ2ndqc7YNsz1eNQK0XuR_q4uSjl8tLZ8Nh8vA4WRKZsQhyphenhyphenUx1O0gR-QJtdvAj8LDEUaGscAEXAlA9_e9c0LNtEeV-6NJzdqEdGt0gb7mDEUBNmlMNI2L05YQ8lPXA6kNBFL4s7BsjiJSPD72fyhQq2fmYJwZBPQhyHI4PN_zvSrnxtRbRtI/s1600/uk.jpg"
     },
     {
+      "id": "76e1925f2316676c40357daccb2d6798d5f1f52f",
+      "title": "Cyberattaque contre l'Insee, l'organisme qui gère le répertoire officiel des entreprises françaises",
+      "url": "https://siecledigital.fr/2026/06/29/cyberattaque-contre-linsee-lorganisme-qui-gere-le-repertoire-officiel-des-entreprises-francaises/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-29T09:40:10.000Z",
+      "summary": "L'Insee a été la cible d'une attaque informatique. Les données personnelles de 12 800 agents ou anciens agents ont été compromises. L’organisme qui …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://siecledigital.fr/wp-content/uploads/2026/06/insee.jpg"
+    },
+    {
       "id": "8f919fad2e7d0bb75104b1e304f9b08614346350",
       "title": "Microsoft Removes 119 Edge Extensions That Hid Malware in Images and Fonts",
       "url": "https://thehackernews.com/2026/06/microsoft-removes-119-edge-extensions.html",
@@ -1022,15 +1198,15 @@
       "imageUrl": null
     },
     {
-      "id": "cbe4b22465ec39116e4fdd3dd4fa4dfb415aafad",
-      "title": "Quand les hackers russes usurpent le support technique pour vider vos comptes de messagerie",
-      "url": "https://android-mt.ouest-france.fr/news/quand-les-hackers-russes-usurpent-le-support-technique-pour-vider-vos-comptes-de-messagerie/204994/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "id": "0294983d32dbe067bad629699a0b4e9684edb864",
+      "title": "Vos messages Signal en danger ? Le FBI lance une alerte urgente",
+      "url": "https://geeko.lesoir.be/2026/06/28/vos-messages-signal-en-danger-le-fbi-lance-une-alerte-urgente/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
       "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-28T14:09:49.000Z",
-      "summary": "Une campagne d’hameçonnage ciblée, signée GRU Les services de cybersécurité ukrainiens ont attribué une opération d’ingénierie sociale à des acteurs …",
+      "publishedAt": "2026-06-28T14:28:27.000Z",
+      "summary": "Signal est inviolable, mais pas ses utilisateurs. Des hackers russes liés au FSB ont trouvé la faille, et Washington met 10 millions de dollars sur …",
       "type": "NEWS",
       "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/b73079fb91a7b3f4bd0f2c6d2af90c5e23d4f243/_xlarge.jpeg"
+      "imageUrl": "https://ic-cdn.flipboard.com/lesoir.be/34c09a48f1b121bdf8da863df3252d0c7cd435e4/_xlarge.jpeg"
     },
     {
       "id": "79d2edc4dbbec4447efd367ad2ba9d6e7e0fbbec",
@@ -1042,17 +1218,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/f806567bcf402d36a2f47ba27395cc298e0179c1/_xlarge.jpeg"
-    },
-    {
-      "id": "d0803a66cb7aa51bdebfc53b6dd032322a79be56",
-      "title": "«Là, le but c’est d’être capable d’arriver sur une cible précise» : en Alsace, un bac pro avec option drone unique en France",
-      "url": "https://www.liberation.fr/societe/education/la-le-but-cest-detre-capable-darriver-sur-une-cible-precise-en-alsace-un-bac-pro-avec-option-drone-unique-en-france-20260628_SCOE2AUWSBAKNLRMI2R2V3FE3E/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-28T04:37:00.000Z",
-      "summary": "A Sainte-Marie-aux-Mines (Haut-Rhin), niché au pied des Vosges, onze élèves de terminale sont les premiers à suivre cette spécialisation dans le …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/liberation.fr/09f3b1a97829bc73400a812e93ea7c1ddbb24300/_xlarge.jpeg"
     },
     {
       "id": "d2d2b2d59c33274ed54b3ebd96e70158ec672a9a",
@@ -1163,17 +1328,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig3gygt20RdznayWN2yru6wSgNt8CSdr16F8I-naxtPn837cr6v0uV0bXdhz36P1XYrpnjmzDXTAtH0wa43Me8rqD2hvET-xQP0ndoX-ddXsypZCjSSNJUqmfl69g96R6yMiUqgXE_NGAL8bl2z6lYutrgKiY74tNIafz_xRsNsJQSB9s_9lSHiybX2kQ/s1600/aws.jpg"
-    },
-    {
-      "id": "dbf6c9b6591d4ea9bfdcadaa694dcc0bd53be7ae",
-      "title": "L’Insee vient d’être piraté : ce que vous allez recevoir n’est pas une enquête nationale",
-      "url": "https://www.presse-citron.net/insee-piratage-employes-ce-que-vous-allez-recevoir-nest-pas-une-enquete-nationale/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-26T13:38:55.000Z",
-      "summary": "Deux mois après l'Agence nationale des titres sécurisés (ANTS), l’Institut national de la statistique et des études économiques a été victime d’une …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/presse-citron.net/5f32e625f9f4d4a3f327f7910ecd5811fbd38019/_xlarge.jpeg"
     },
     {
       "id": "c1d8bce67c8dcce1b461ae7a84020fbc91a9f0de",
@@ -1462,17 +1616,6 @@
       "imageUrl": "https://ic-cdn.flipboard.com/bfmtv.com/a1014be696727b92bf476b18e8832603f8bf286e/_xlarge.jpeg"
     },
     {
-      "id": "80b1e905bd011c36438c3d4052893b14ed2c59a5",
-      "title": "ThreatsDay Bulletin: Smart TV Proxyware, 24-Year curl Bug, AI Crime Forums + 13 More Stories",
-      "url": "https://thehackernews.com/2026/06/threatsday-bulletin-smart-tv-proxyware.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-25T12:24:43.000Z",
-      "summary": "It’s dumb out there again. This week has the usual smell of prod on fire and nobody wanting to admit who left the door open — old creds still working, trusted apps doing sketchy cr",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhO1f6pZmhVaPQd2FjrrAG-IbL0vMk7zHVZ6BqjzkzJS8qd7HlAtIJ-7chRUbqR7tZHPNqdZFbm0QL9O03mkW7YsOh0pVwW1_ogikaoxNX8dFd5-ZB4SwB7-tfpWmp9Hr22DJL6tzZgTdeFnCU4VwaZXSY_htGs2_xlaB8n0EOedrfe7wHuI30GXTF6Pofc/s1600/threatsday-june.jpg"
-    },
-    {
       "id": "5ec31415896e1a31bb758cb3488ebaafdcc6774f",
       "title": "Delta Electronics DTM Soft",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-06",
@@ -1594,17 +1737,6 @@
       "imageUrl": null
     },
     {
-      "id": "87f10b776c1217e1d97257779d99d124da984d2c",
-      "title": "Surviving the Mythos Era: Richard Bejtlich on the Case for NDR",
-      "url": "https://thehackernews.com/2026/06/surviving-mythos-era-richard-bejtlich.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-25T11:17:31.000Z",
-      "summary": "Despite the abundance of telemetry at analysts’ disposal, many security operations teams struggle to answer a few basic questions during incident investigation: What happened? What",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGC4Kd3HcSGw5TQ1GQNwgQST4imnVTlHZ4yW1dDr_kwUksDH1MHmlPUMzW8LhePZZTM1HszkIQwL8Ggm-cxlXRRMbUdcXbXfQ57FUfzbN4yj1OimJJxQy0XokmSC-lVr4XyFM5b3LqVQ8hMDIqr34xQXHpD0q8FnuR50Rdg19jXFC9xKKtn3Yap5BQhZg/s1600/corelight.jpg"
-    },
-    {
       "id": "d071bc7711ca670a9bc8dec91c0bf69b8fb5c389",
       "title": "LeHACK 2026, la scène hacker éthique française en alerte",
       "url": "https://www.zataz.com/lehack-2026-la-scene-hacker-ethique-francaise-en-alerte/",
@@ -1614,39 +1746,6 @@
       "type": "LEAK",
       "severity": "Info",
       "imageUrl": "https://www.zataz.com/wp-content/uploads/lehack-2026-brave-new-world.png"
-    },
-    {
-      "id": "9429044bc3190629bf7b140447b52c830758bc65",
-      "title": "New Gaslight macOS Malware Uses Prompt Injection to Disrupt AI-Assisted Analysis",
-      "url": "https://thehackernews.com/2026/06/new-gaslight-macos-malware-uses-prompt.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-25T09:23:03.000Z",
-      "summary": "A previously undocumented Rust-based macOS implant and information stealer has been found to embed a prompt injection payload designed to trick a malware analyst's artificial intel",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbTrOy7FP80AfVcwyuiLtJx1T9YECQ6fxHaelQKUn3MNwSV9P3tiVq4_-pOB-gmU3lF9GpWnc5ebVSAbp0MZMZpHHZkdpTK_HX40hfg3KbusQS5bD0kRYjYVyRzffkUpWBsblvGULiZnnOj6e0NF-dg49It3Wn8p9WqD2TNEz0ruG1XrnqCckAXqsDAOTn/s1600/ai-full-disk.jpg"
-    },
-    {
-      "id": "9b5b3b67a8a9245a9d857b6e21eb1b610b19c383",
-      "title": "New Mistic Backdoor Linked to KongTuke in ClickFix and ModeloRAT Campaigns",
-      "url": "https://thehackernews.com/2026/06/new-mistic-backdoor-linked-to-kongtuke.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-25T08:54:37.000Z",
-      "summary": "A new, stealthy backdoor named Mistic has been deployed as part of suspected financially motivated attacks aimed at multiple organizations spanning insurance, education, IT, and pr",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhC1-4l_iOC19z96Q7C7O_dZSKwEvMnMLhHyb7kpt2rpOzQmn3gKpz6_BaZmSpzgvyhTJf8BBQmBTx0Nvymxk1vfO5O5bE0nNGbYPHAcb5F8ZF_WjTyQe4AXSK71q6fESS9i5Rdpcfzt6ULab7eo21OZKRCYlqwU7G97mF4-AeVVANlT4YIbigdYxUJkwfy/s1600/clickattack.jpg"
-    },
-    {
-      "id": "f08a3ee660c65de1a3c857c2418d536657228d3d",
-      "title": "Cisco Catalyst SD-WAN Zero-Day CVE-2026-20245 Exploited to Gain Root Access",
-      "url": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-25T05:46:54.000Z",
-      "summary": "An unknown threat actor exploited a recently disclosed high-severity security flaw impacting Cisco Catalyst SD-WAN as a zero-day at least two months before it was publicly disclose",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3UeGaI_Ej8KFu7-vQHTOuoohYdx04xIdI3W2B6JjCdaTSR6m-y1PAZ-aes-tH9nxtPGO2sFUiu1NwYkwT5s8bDPaHpG8nyN4t_mbZfVjf0nU8L11XujdqERtFUQlMZ85NV_nG6ZhqIQbGdAtyi8p1Oqq7TsBRs1IDn8HvOOnUPFEaL9_2cXrh9eovvaYz/s1600/cisco-20245.jpg"
     },
     {
       "id": "dc0da053f9eed81f4a5687dc47de4a5d563f7fff",
@@ -1759,17 +1858,6 @@
       "imageUrl": "https://www.zataz.com/wp-content/uploads/intrusion_aka.jpg"
     },
     {
-      "id": "599a611b245184d782e010026dbe6f081ace4beb",
-      "title": "CISA Warns Critical Lantronix EDS5000 Flaw Is Being Actively Exploited",
-      "url": "https://thehackernews.com/2026/06/cisa-warns-critical-lantronix-eds5000.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-24T17:19:18.000Z",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday warned of active exploitation of a critical security flaw impacting Lantronix EDS5000 Series devices, ur",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjZtIkR9YS2fMY5MvIzgyEShmJAP1bgHqhBdU115iSY7WZ2EcBAbFKb1OQP6Nq8hoF4HlnRifxW890ztCcnezyAivPNWZjVsyJrhoNe8BVnZgSfcRo1Jbl4XilQM9bcQTU9nOeDgfWXSzh9sBru4RH6mDhwa1IijucDmj-l1gVI8NAiQRzu0IJ8d2AIVh9/s1600/1000085210.jpg"
-    },
-    {
       "id": "f0cf7ea44b4eec0dc6f6701506074d31d8bb2060",
       "title": "Madison Square Garden Sports - 9,796,738 breached accounts",
       "url": "https://haveibeenpwned.com/Breach/MadisonSquareGardenSports",
@@ -1786,7 +1874,7 @@
       "url": "https://www.cisa.gov/resources-tools/resources/using-sase-modern-tic-30-solution",
       "source": "CISA",
       "publishedAt": "2026-06-24T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a class=&quot;c-button&quot; href=&quot;https://www.cisa.gov/sites/default/files/2026-06/The_Journey_to_Zero_Trust-Using_SASE_in_a_Modern_TIC_3.0_Solution_Final_Approv",
+      "summary": "&lt;p&gt;&lt;a class=&quot;c-button&quot; href=&quot;https://www.cisa.gov/sites/default/files/2026-07/The_Journey_to_Zero_Trust-Using_SAS_in_a_Modern_TIC3.0_Solution.pdf&quot;&gt;U",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -2186,94 +2274,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://i.f1g.fr/media/cms/1200x630_crop/2026/06/22/f6597815c94f311a20ddf6eb73f5552153b00d43da69ec0bcf7646fb5f4e6f93.JPG"
-    },
-    {
-      "id": "97efd391cb8102d0948cf100d0f89cb5111d6abc",
-      "title": "JetBrains - CVE-2026-50242",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/jetbrains-cve-2026-50242-2026-06-22",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-06-22T01:11:25.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le mécanisme d'authentification de &lt;strong&gt;JetBrains Hub&lt;/strong&gt;.&lt;/p&gt; &lt;p&gt;JetBrains Hub est une plateforme centr",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "84adc47e9cb0f9c8e5a013750c760f059bf87533",
-      "title": "Joomla! - CVE-2026-48908",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/joomla-cve-2026-48908-2026-06-22",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-06-22T01:08:25.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le contrôleur de site de &lt;strong&gt;SP Page Builder&lt;/strong&gt; gérant la tâche asset.uploadCustomIcon.&lt;/p&gt; &lt;p&gt;SP Page",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "60f5d66d3117fd9f577a06430d8b377450fbf265",
-      "title": "PostgreSQL - CVE-2026-12048",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/postgresql-cve-2026-12048-2026-06-22",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-06-22T01:07:39.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de type XSS stocké dans les chemins de rendu d'erreurs et de visualisation des plans d'exécution de pgAdmin 4.&lt;/p&gt; &lt;p&gt;pgAdmin 4 e",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "41605ab5d8e658170d514930fc6ebd6febb62e3e",
-      "title": "Eclipse - CVE-2026-11576",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/eclipse-cve-2026-11576-2026-06-22",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-06-22T01:06:03.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de régression introduite par le correctif de CVE-2025-0728 dans le &lt;strong&gt;serveur HTTP&lt;/strong&gt; de NetX Duo.&lt;/p&gt; &lt;p&gt;",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "c60cbab96833fc5c124161aff44c17be90439452",
-      "title": "PaperCut - CVE-2026-6645",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/papercut-cve-2026-6645-2026-06-22",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-06-22T01:04:09.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de chemin de recherche non contrôlé dans le composant pc-printer-updater.exe du PaperCut Print Deploy Client pour Windows.&lt;/p&gt; &lt;p&gt",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "af0543ae3de19fcd5e4d9ca6dba1671bf919e494",
-      "title": "Bulletin d'actualité CERTFR-2026-ACT-027 (22 juin 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-027/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-06-22T00:00:00.000Z",
-      "summary": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble de",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "7b9b271e1a1e081bf20696dc792b79385c19e253",
-      "title": "Multiples vulnérabilités dans les produits Microsoft (22 juin 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0792/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-06-22T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Microsoft. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un problè",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "381440bbe750a76d9b4ad4bc490384b9b25a008f",
-      "title": "Multiples vulnérabilités dans Postfix (22 juin 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0793/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-06-22T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Postfix. Elles permettent à un attaquant de provoquer un déni de service à distance et un problème de sécurité non spécifié par",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
     }
   ]
 }
