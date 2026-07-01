@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T16:27:35.927Z",
+  "generatedAt": "2026-07-01T19:59:11.131Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -23,7 +23,7 @@
       "name": "Exploit-DB",
       "url": "https://www.exploit-db.com/rss.xml",
       "status": "ok",
-      "items": 0
+      "items": 50
     },
     {
       "name": "The Hacker News",
@@ -75,6 +75,72 @@
     }
   ],
   "items": [
+    {
+      "id": "6a9411d30ff46812d24142d3c1c24ad46e3dcc5e",
+      "title": "Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes Clusters",
+      "url": "https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-01T19:40:06.000Z",
+      "summary": "Argo CD, a widely used tool for deploying software to Kubernetes, has an unpatched flaw in its repo-server component that lets an unauthenticated attacker run code, provided they c",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9emdIsaMBcMQoyS0ot-ckXq8LWhMk6P2zAm3WdCVFBhRMNUqN6E1vZqllIq6qYHBvGm8WhCGi8C3PLUNOecmNYU4LLoWH5zRBadBejDgpbC5DihDwqiYAMLpZNsQBk2MsiN89nt-honwtPiQzjg4fDUp5w2aiCXWZBKk94qHwfG4yEHak6zoZuNmXKgY/s1600/argo-cd.jpg"
+    },
+    {
+      "id": "da28eb241bfa9489e7bede480630f33abf27522b",
+      "title": "19-Year-Old Scattered Spider Suspect Extradited to Face U.S. Hacking Charges",
+      "url": "https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-01T19:28:07.000Z",
+      "summary": "A teenager accused of belonging to the hacking group Scattered Spider has been extradited from Finland to face U.S. charges of conspiracy, computer intrusion, and fraud, the U.S. D",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitCA6eGqIT2msGTmYh2Qr84lq5GYGvI4Y8FSzzNira0osd5SNIbnpLKZfLZLggblyWGxZ1ScIR_I06M-RoM5wM3he2KRkFCnwYxIKtGBDb9PA1JtoK1JM5f0vObSITDMGt4eeVV82LUF3DBNkYiHLhCTYNwnlOP3DlfCHYLkP6NfHjwRJDsHSMTHEGKAs/s1600/hacker-arrested.jpg"
+    },
+    {
+      "id": "dec43381fafea54675923007b2be78a8db683869",
+      "title": "Discuter sans numéro sur WhatsApp : voici les pièges à éviter avec les noms d’utilisateurs",
+      "url": "https://www.numerama.com/cyberguerre/2289309-discuter-sans-numero-sur-whatsapp-voici-les-pieges-a-eviter-avec-les-noms-dutilisateurs.html?amp%3Butm_source=flipboard&amp%3Butm_content=directlink&amp%3Butm_campaign=2289309",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-01T19:10:00.000Z",
+      "summary": "WhatsApp permet désormais de discuter sur la messagerie sans dévoiler son numéro de téléphone. Un vrai progrès pour la confidentialité, mais qui …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://c0.lestechnophiles.com/www.numerama.com/wp-content/uploads/2026/06/design-sans-titre-2026-06-08t153628411.jpg?resize=1600%2C900&amp%3Bkey=f1452829"
+    },
+    {
+      "id": "8bc0daf1a0307e1b0d275d99004dbb037235ac14",
+      "title": "SEO-Poisoned Software Sites Abuse ScreenConnect to Deploy AsyncRAT",
+      "url": "https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-01T17:53:06.000Z",
+      "summary": "Unknown threat actors are leveraging the ScreenConnect remote access tool as a way to deploy and execute AsyncRAT. Kaspersky said the activity is part of a \"massive, multi-domain, ",
+      "type": "NEWS",
+      "severity": "Moyenne",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbKfADFEhazeaRztmVJkTBhFqZxALUDBwsOV_25bWjZ6Qm3pCBoSSawssWOOJC2ZQ7M6hrUDRXLfR5gcpWRkkaSdNtSPCz-FLrG5Dy4-Y-IzEMt_souSqJuc3JK9FNQ9p2-dT7Ojf3ufzPkWBpLNyDAVeeuYS7Ya-BJWT4MmAHz7OjHvwjMSCfF5Jvahyphenhyphenj/s1600/SEO-MALWARE.jpg"
+    },
+    {
+      "id": "9efde806157ec33a73e37bcf60b5bbfeb1e9e977",
+      "title": "VEIL#DROP Malware Chain Uses Blogger Platform to Deliver PureLogs Stealer",
+      "url": "https://thehackernews.com/2026/07/veildrop-malware-chain-uses-blogger.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-01T17:18:50.000Z",
+      "summary": "Cybersecurity researchers have flagged a new multi-stage malware delivery attack chain that uses social engineering and Blogger pages to deliver an information stealer called PureL",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3OuCh7SjXAd7hG_0Q0p__EmpV5MwYh0fOfMZHc1wxRHpsCN9qlonLr93NB6-iJMWJd6nv8VoMqSt9hWW34H7R7tpoGuhkn1mkEL8UgsiUIfNxh9L1Bh0Qpvt0xrX9Pqq6rw1vb-0CEC3KLAT5N7fdlgEHWnYVDyeuUHt2pD59vugSKLaC9n8-LBLoqV0Y/s1600/blogger.jpg"
+    },
+    {
+      "id": "c739c7fd4370e1ba7af41a6062f44b2a1b86106b",
+      "title": "Ils sont cinq, âgés de 16 à 22 ans, ces jeunes Français ont été interpelés après les piratages de millions de fiches de patients dans une dizaine d'établissements de santé",
+      "url": "https://www.bfmtv.com/tech/cybersecurite/ils-sont-cinq-ages-de-16-a-22-ans-ces-jeunes-francais-ont-ete-interpeles-apres-les-piratages-de-millions-de-fiches-de-patients-dans-une-dizaine-d-etablissements-de-sante_AV-202607010836.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-01T16:23:19.000Z",
+      "summary": "L'office anticybercriminalité, l'Ofac, a annoncé l'arrestation de cinq personnes, soupçonnées de faire partie d'un groupe de hackers baptisé …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/bfmtv.com/67e386b2b987af5fe4bb2e0192bfcaf1124c967c/_xlarge.jpeg"
+    },
     {
       "id": "bce15d584b0c602739a6d8af2098dd240b74697f",
       "title": "Ousaban Banking Trojan Targets Iberian Bank Users with Fake PDF Lures",
@@ -142,9 +208,9 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4BJdHYquuxXoz8n0LhMEmm9KPcWcMC57w4LnqbMNCPXMAFdS95ys3zE6F5jZOvSKwsVWp6t3z8pVImRJ3Nvxgkr4QiPI5O06zJywlL5uuBIU2G0ZtPucYq80Z_G-PnVzjYfChzbnpLxGyD2PpbH8VdLWjIuNLt0RoAe5Q8mVulX2s_4Ueg7XR0pxZVwKn/s1600/chrome-ransomware.jpg"
     },
     {
-      "id": "607cc246e769f34940e03b46afd48c1fd6d755a2",
+      "id": "8dad20ac8b8e887c6d5170d3f5329de821d254eb",
       "title": "Des ransomwares exploitent une faille de Microsoft Defender pour pirater les ordinateurs Windows",
-      "url": "https://www.01net.com/actualites/des-ransomwares-exploitent-une-faille-de-microsoft-defender-pour-pirater-les-ordinateurs-windows.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "url": "https://www.01net.com/actualites/des-ransomwares-exploitent-une-faille-de-microsoft-defender-pour-pirater-les-ordinateurs-windows.html?amp%3Butm_content=topic%2Ffr-windows",
       "source": "Cybercriminalité FR",
       "publishedAt": "2026-07-01T11:35:40.000Z",
       "summary": "Une faille de sécurité dans Microsoft Defender met en danger les ordinateurs Windows. Corrigée en avril dernier, la vulnérabilité est activement …",
@@ -173,6 +239,17 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://img.20mn.fr/xtJDEJD7RHWsn4VMARKqISk/1444x920_scroller-avec-son-cafe-du-matin-s-est-avere-complique-ce-mercredi-pour-des-abonnes-orange"
+    },
+    {
+      "id": "a11dee576ae74092207e9a239776ceac8760589f",
+      "title": "Les États-Unis promettent jusqu'à 10 millions de dollars pour retrouver des hackers liés à la Russie",
+      "url": "https://siecledigital.fr/2026/07/01/les-etats-unis-promettent-jusqua-10-millions-de-dollars-pour-retrouver-des-hackers-lies-a-la-russie/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-01T10:56:41.000Z",
+      "summary": "Le département d'État américain offre une prime susceptible d'atteindre 10 millions de dollars via son programme Rewards for Justice. Un diplomate …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://siecledigital.fr/wp-content/uploads/2026/07/hackers-russie.jpg"
     },
     {
       "id": "53deebad2f2bce98677ef7fb4369e19805df0c44",
@@ -923,17 +1000,6 @@
       "imageUrl": "https://ic-cdn.flipboard.com/courrierinternational.com/5c8001d4926c8a323f5f88214ca15cfc36439992/_xlarge.jpeg"
     },
     {
-      "id": "8deb666ce5b29bda3d2e64ccb5a02c9d7feb1aba",
-      "title": "L'Ukraine transfère 8,3 millions de dollars en cryptomonnaies saisies dans le cadre de projets potentiels de réserve stratégique",
-      "url": "https://www.coindesk.com/fr/business/2026/06/29/ukraine-transfers-usd8-3-million-in-seized-crypto-amid-potential-plans-for-strategic-reserve?amp%3Butm_content=CoinDesk%2Fmagazine%2FCOINDESK+Fran%C3%A7ais",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-29T14:03:04.000Z",
-      "summary": "Les fonds ont été saisis lors d'une enquête sur un groupe international de hackers accusé de blanchir les produits de vols de données via des biens …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/3cce92a0af48494a2126025022b398babc564bcf-1920x1200.jpg?auto=format&amp%3Bw=960&amp%3Bh=540&amp%3Bcrop=focalpoint&amp%3Bfit=clip&amp%3Bq=75&amp%3Bfm=jpg"
-    },
-    {
       "id": "fb671e5998f61f588d279771796b3999efe44d54",
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "url": "https://www.cisa.gov/news-events/alerts/2026/06/29/cisa-adds-one-known-exploited-vulnerability-catalog",
@@ -976,17 +1042,6 @@
       "type": "NEWS",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijvTMs5lEwRQ2ndqc7YNsz1eNQK0XuR_q4uSjl8tLZ8Nh8vA4WRKZsQhyphenhyphenUx1O0gR-QJtdvAj8LDEUaGscAEXAlA9_e9c0LNtEeV-6NJzdqEdGt0gb7mDEUBNmlMNI2L05YQ8lPXA6kNBFL4s7BsjiJSPD72fyhQq2fmYJwZBPQhyHI4PN_zvSrnxtRbRtI/s1600/uk.jpg"
-    },
-    {
-      "id": "76e1925f2316676c40357daccb2d6798d5f1f52f",
-      "title": "Cyberattaque contre l'Insee, l'organisme qui gère le répertoire officiel des entreprises françaises",
-      "url": "https://siecledigital.fr/2026/06/29/cyberattaque-contre-linsee-lorganisme-qui-gere-le-repertoire-officiel-des-entreprises-francaises/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-29T09:40:10.000Z",
-      "summary": "L'Insee a été la cible d'une attaque informatique. Les données personnelles de 12 800 agents ou anciens agents ont été compromises. L’organisme qui …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://siecledigital.fr/wp-content/uploads/2026/06/insee.jpg"
     },
     {
       "id": "8f919fad2e7d0bb75104b1e304f9b08614346350",
@@ -1220,17 +1275,6 @@
       "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/f806567bcf402d36a2f47ba27395cc298e0179c1/_xlarge.jpeg"
     },
     {
-      "id": "d2d2b2d59c33274ed54b3ebd96e70158ec672a9a",
-      "title": "Faux conseillers bancaires : comment usurpent-ils le numéro de votre banque",
-      "url": "https://www.bfmtv.com/tech/bons-plans/vpn/faux-conseillers-bancaires-comment-usurpent-ils-le-numero-de-votre-banque_AA-202606280003.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-28T04:16:00.000Z",
-      "summary": "Vous pensez qu’un appel téléphonique de votre banquier ne peut pas être falsifié ? Avec les nouvelles technologies, les hackers s’en donnent à cœur …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/bfmtv.com/0191b39f07d4d343f69258e4ec2dc5b485daeaf1/_xlarge.jpeg"
-    },
-    {
       "id": "e91e2b597ce0be0383113c64bde1f38f9fd9c638",
       "title": "Ukraine Says Russian Intelligence Used Fake Support Texts to Steal Messaging Credentials",
       "url": "https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html",
@@ -1330,6 +1374,17 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig3gygt20RdznayWN2yru6wSgNt8CSdr16F8I-naxtPn837cr6v0uV0bXdhz36P1XYrpnjmzDXTAtH0wa43Me8rqD2hvET-xQP0ndoX-ddXsypZCjSSNJUqmfl69g96R6yMiUqgXE_NGAL8bl2z6lYutrgKiY74tNIafz_xRsNsJQSB9s_9lSHiybX2kQ/s1600/aws.jpg"
     },
     {
+      "id": "dbf6c9b6591d4ea9bfdcadaa694dcc0bd53be7ae",
+      "title": "L’Insee vient d’être piraté : ce que vous allez recevoir n’est pas une enquête nationale",
+      "url": "https://www.presse-citron.net/insee-piratage-employes-ce-que-vous-allez-recevoir-nest-pas-une-enquete-nationale/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-26T13:38:55.000Z",
+      "summary": "Deux mois après l'Agence nationale des titres sécurisés (ANTS), l’Institut national de la statistique et des études économiques a été victime d’une …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/presse-citron.net/5f32e625f9f4d4a3f327f7910ecd5811fbd38019/_xlarge.jpeg"
+    },
+    {
       "id": "c1d8bce67c8dcce1b461ae7a84020fbc91a9f0de",
       "title": "CISA Adds Exploited PTC Windchill RCE Flaw to KEV as Web Shell Attacks Continue",
       "url": "https://thehackernews.com/2026/06/cisa-adds-exploited-ptc-windchill-rce.html",
@@ -1385,28 +1440,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhatZ2Vkvxd086INLXiuhbRJrli5Ao9hoNajbVq-Xr0HVAS70cCzhRBfM78KEusnBPI1sXyAK5tYrKt55U5mTIXCQDAmBzY2e860qtXo4YAlvAnVWHDV3DddKUML1q1g71h97Ke1i-714gv5SaVW9lmaFNtRda5XP1kc20urtc-HzlX5JXwkQv0g_-1VwC3/s1600/Miasma.jpg"
     },
     {
-      "id": "20507bb0de90248a5097307c12f31f01327e66b7",
-      "title": "Microsoft Warns of Photo ZIP Phishing Campaign Targeting Hotels with Node.js Implant",
-      "url": "https://thehackernews.com/2026/06/microsoft-warns-of-photo-zip-phishing.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-26T09:27:12.000Z",
-      "summary": "An active phishing campaign has been targeting hotel and other hospitality organizations across Europe and Asia since April 2026, using photo-themed ZIP files to drop a Node.js imp",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWYWOSDRBtv65eOzqdHSuOxXN7BWyBo1EAltLLUTTKGt68GYJ67zn9ixdKIQjTPCgE3P1o09UzrwXzvbopRZIhjN0LxYAZR06WaXOd116NQutGo1zLaceeob3nkuIHCeP6ZhlVp1yVOfc7dt-YZKFhEJJiPF8H5P03bc1ny0E3mi7jbIhqh7wqodC_zKE/s1600/hotel-photo-zip.jpg"
-    },
-    {
-      "id": "9103028c6e894e648e22d87c7be020c03580f689",
-      "title": "Russia Used Cellebrite on Jailed Activist's iPhone Months After Sales Cutoff",
-      "url": "https://thehackernews.com/2026/06/russia-used-cellebrite-on-jailed.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-26T08:49:35.000Z",
-      "summary": "Russian authorities used Cellebrite's UFED forensic tools to break into the iPhone of detained opposition activist Andrey Pivovarov in June 2021, three months after Cellebrite said",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBSVw_gpnELsdqj1fhZXQ6Jm-ycv8RsT1-Q7vfNeyj0_Sd-keBXqrAA9w7Vz8qt0tKM3yXkVPknx8FtRKBGBShrelNUIlZbkoUDdDz4MEeWbStRxJt5ggHFA2LFTv5Lc2g-1VC9L7-HGtWY_8VZMTInbZrXa0UY_oZsu2GUeFDH8VsHnUekF4m64OET3U/s1600/iphone-hack.jpg"
-    },
-    {
       "id": "a6b702f4275b7c12b95c97cab4e1c47313fe7141",
       "title": "American Tower - 216,601 breached accounts",
       "url": "https://haveibeenpwned.com/Breach/AmericanTower",
@@ -1416,17 +1449,6 @@
       "type": "LEAK",
       "severity": "Élevée",
       "imageUrl": null
-    },
-    {
-      "id": "7cd57a1ac09efbb21f3c433c197b7d9e7dee729e",
-      "title": "Google Details Turla's New STOCKSTAY Backdoor Used in Ukraine Espionage Attacks",
-      "url": "https://thehackernews.com/2026/06/google-details-turlas-new-stockstay.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-26T07:15:46.000Z",
-      "summary": "The Russian state-sponsored threat actor known as Turla has been attributed to a previously undocumented .NET backdoor called STOCKSTAY that has been deployed against government an",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9SthtlfUvEkaX0iZanYdYTAOV5hgm44yCwHu_3GCaoa11rO-GkO9oc0_qN9JGw2n86dsEsN_sdaYt2ra_4I_dQ57ja0kiUeYtkg1eY8ZJtu45oKtN-TqWLdKudnJPFQQFGPReCfu1xcfHGgfqgtLe8zyFlEoMnO2AwnsEsosf9LCZS9gJHq58Q8OcPlWP/s1600/STOCKSTAY.jpg"
     },
     {
       "id": "a4f384eb02ebe8de38df45c8c7328e5f60f89645",
@@ -1592,28 +1614,6 @@
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
-    },
-    {
-      "id": "0d616ffae6898785384a0b706599b21d6b4b3791",
-      "title": "Chrome Ad Blocker with 10M+ Installs Found with Dormant Script Injection Capability",
-      "url": "https://thehackernews.com/2026/06/chrome-ad-blocker-with-10m-installs.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-25T14:12:52.000Z",
-      "summary": "An analysis of a popular Google Chrome ad block extension for YouTube has uncovered the ability to execute arbitrary JavaScript code. According to Island, the extension, named Adbl",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqtdBDQ0Y38i0JZmDwU6XKiZ1R6HJ0KHe59012E0krnPubG5pJgiTg6IUg4fHEzoW5jm7QyEk8fXOL9swj7FlpXdMcjyn0ltziMhQJD2pYPtzjXimsntV8DFg-c1erOgWkLl8du8eBvJYlukTCDDycp5jSmWNfwmv5WwGKlJRJvZt1GvUZZl24dP2HVDkn/s1600/adblocker.jpg"
-    },
-    {
-      "id": "7ed7ff0802ad8331d98f4a95eeb2f301d5ca0e30",
-      "title": "Cyberguerre: les soldats français du régiment de cyberdéfense effectuent des rotations en Ukraine pour se former au plus près des cyberattaques russes",
-      "url": "https://www.bfmtv.com/tech/cybersecurite/cyberguerre-les-soldats-francais-du-regiment-de-cyberdefense-effectuent-des-rotations-en-ukraine-pour-se-former-au-plus-pres-des-cyberattaques-russes_AN-202606250644.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-25T13:30:13.000Z",
-      "summary": "Des militaires du régiment de cyberdéfense effectuent des rotations en Ukraine afin de se former à la cyberguerre au cœur d’un conflit de haute …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/bfmtv.com/a1014be696727b92bf476b18e8832603f8bf286e/_xlarge.jpeg"
     },
     {
       "id": "5ec31415896e1a31bb758cb3488ebaafdcc6774f",
