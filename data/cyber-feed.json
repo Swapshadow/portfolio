@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T19:27:27.982Z",
+  "generatedAt": "2026-07-02T21:10:27.961Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -23,7 +23,7 @@
       "name": "Exploit-DB",
       "url": "https://www.exploit-db.com/rss.xml",
       "status": "ok",
-      "items": 0
+      "items": 50
     },
     {
       "name": "The Hacker News",
@@ -76,6 +76,61 @@
   ],
   "items": [
     {
+      "id": "a8e0322dfceafc320ba8db48af1f09a4fcbdacdc",
+      "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
+      "url": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
+      "source": "Krebs on Security",
+      "publishedAt": "2026-07-02T19:27:33.000Z",
+      "summary": "The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service ope",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://krebsonsecurity.com/wp-content/uploads/2026/07/netnutseizure.png"
+    },
+    {
+      "id": "d4a455f62b2b6706cb5595deeb588367f063f5a3",
+      "title": "Google Disrupts NetNut Residential Proxy Network Spanning 2 Million Home Devices",
+      "url": "https://thehackernews.com/2026/07/google-disrupts-netnut-residential.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-02T18:54:06.000Z",
+      "summary": "Google has significantly degraded NetNut, one of the biggest networks that turns home devices into rented relays for other people's traffic. Working with the FBI, Lumen, and others",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAH6tBAe18U0FqA-i5kNNNQYeXjY_LBflzBqVD5rq81OAC6q9c8UsDBsQb5K2F7IAfof5_JZCBpS51DNp63jsXfk4qqwLkckDh4nq-z-Gj0zoRwQu5IZYiNHiBlpp3C-6OR84JeDfPmIr4VLTp2NN6uHRYl0qT273wrbpcnUmd5SbIJH07cPHQxMo6VgI/s1600/proxy.jpg"
+    },
+    {
+      "id": "22c62ba85b78d811982c0d3efa589472f32de3f3",
+      "title": "Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials",
+      "url": "https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-02T18:30:33.000Z",
+      "summary": "Threat actors associated with the Anubis ransomware operation have been observed exploiting the Citrix Bleed 2 (CVE-2025-5777) vulnerability to obtain initial access. \"Although tac",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5gkjf1FwB4__nC6-pLZYnDv2rJA29UAL9mxfCv4BNSl1FxNpat9jD-OiMRLewjXJXyiSGvqiLYcewN_b1lLFHh0FhzKkrHFzu82jziSuOodYX87FkwjuCcXaqwzWRsiFdsBcd9mzDnak1rJpDu46F8TV206IEcD1pE7njojB8TcQEZ4Wa70KnK2vyeVKI/s1600/ransomwares.jpg"
+    },
+    {
+      "id": "65d9e118daa3d8b9b4097a43b1dbe0802155d785",
+      "title": "« Un butin d’un demi-million d’euros » : un Belge de 19 ans, soupçonné d’être à la tête d’un réseau de phishing, arrêté",
+      "url": "https://www.rtl.be/actu/monde/international/un-butin-dun-demi-million-deuros-un-belge-de-19-ans-soupconne-detre-la-tete-dun/2026-07-02/article/793424?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-02T16:39:20.000Z",
+      "summary": "La police judiciaire fédérale (PJF) de Flandre orientale a arrêté un des chefs présumés d’un réseau de phishing, qui aurait fait de nombreuses …",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://rtleng.rosselcdn.net/sites/default/files/dpistyles_v2/FirstImageUrl/2026/01/02/793424/4477372/public/2026/01/02/58605284.jpeg?itok=r6gQRXx61783010546"
+    },
+    {
+      "id": "6a625fd5c4318bfdb5126efd9a921c2c94586ed1",
+      "title": "YggTorrent : coup de filet de la gendarmerie, 12 personnes interpellées pour un préjudice de « plusieurs dizaines de millions d’euros »",
+      "url": "https://www.leparisien.fr/high-tech/yggtorrent-coup-de-filet-de-la-gendarmerie-12-personnes-interpellees-pour-un-prejudice-de-plusieurs-dizaines-de-millions-deuros-02-07-2026-ORFKOIMBN5F23LT4NN5QDSPAKQ.php?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-02T16:35:36.000Z",
+      "summary": "La gendarmerie nationale indique mardi avoir interpellé douze personnes liées au site de téléchargement illégal. Des « cryptoactifs en lien avec la …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.leparisien.fr/resizer/GYIvcnXXohYkr6_2Wd1ivzzPABM=/1600x900/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/IE642N5ZZBGZVJPWEHF5C3WTLY.jpg"
+    },
+    {
       "id": "3ed122bd8cdecba845af6d014d834eddd6d4ec69",
       "title": "YggTorrent : le coup de grâce de la gendarmerie après le piratage qui l'a mis à genoux",
       "url": "https://www.01net.com/actualites/yggtorrent-le-coup-de-grace-de-la-gendarmerie-apres-le-piratage-qui-la-mis-a-genoux.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -107,6 +162,17 @@
       "type": "NEWS",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMzwXbN53zy07KSkFJL7uOzty4Pj7VgKS6lSwWWGSCppX0wEX5eY0ZLur2NiFcs-ByBBhbd1WZ270Y4VMMGL6WkvOIZ5MhyphenhyphenkDX2B45wiQue-W88oiF_-RZs0HxvrvcxCHI8Zhhv1-fqHDgnX-VLWk00gt463rQhyKY7Mzcd5STMCYeCUcyVri3aBSUpl2t/s1600/threatsday-board.jpg"
+    },
+    {
+      "id": "df4e9c84db436009ed7871c90648a00aa3145cb9",
+      "title": "Navigateurs IA en mode agent : quand un jeu vidéo suffit à voler vos identifiants",
+      "url": "https://android-mt.ouest-france.fr/news/navigateurs-ia-en-mode-agent-quand-un-jeu-video-suffit-a-voler-vos-identifiants/205213/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-02T14:28:31.000Z",
+      "summary": "Un mode agent puissant, mais aveugle aux manipulations Les navigateurs IA de nouvelle génération ne se contentent plus d’afficher des pages. En mode …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/ad6af5c5358e3839cce351537808bacb2d9d8955/_xlarge.png"
     },
     {
       "id": "ebc4ea2b187e066ed49a5eed74d9b26a30ae22f8",
@@ -195,6 +261,17 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirfJNnWRTyyKkXeatZdtLvMsQhba-L0J9yuyASwy4T-6nlbGWnkEl0FUBVO8wS6je9Hc9wPdu01JJ0TETOa1jOjQelGiJY3ZrvsJzFIqpr_gbEvv5F4lnQrJWxTHbpYM6ah6sPJbQ63XtdxlOcFy7KZ06S69LW2escSgSAM-ycKZCqttjAZEcHJ_sO9DdQ/s1600/ai-agent-ransomware.jpg"
+    },
+    {
+      "id": "150938c3c568be591829b525e0eaa93f4c06b27a",
+      "title": "Cyberattaque : des données de voyageurs Trenitalia exposées depuis 8 mois",
+      "url": "https://www.deplacementspros.com/mobility-management/cyberattaque-des-donnees-de-voyageurs-trenitalia-exposees-depuis-8-mois?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-02T08:56:07.000Z",
+      "summary": "Huit mois. C’est le temps qui s’est écoulé entre la détection de l’intrusion et les premières notifications adressées aux clients. En octobre 2025, …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.deplacementspros.com/wp-content/uploads/2026/07/cyber-attaque-criminalite-adobestock-1024x574.jpeg"
     },
     {
       "id": "d6d802232c86ee746d1152968d9c8be628b78978",
@@ -615,17 +692,6 @@
       "imageUrl": "https://ic-cdn.flipboard.com/journaldunet.com/0b419a180ab7c36f3aba1504e05ced711cbbd918/_xlarge.jpeg"
     },
     {
-      "id": "b4740dfc15726ab72a66453f86ae0b1cf229d896",
-      "title": "Coupe du monde 2026 : l'intelligence artificielle a fait sauter notre dernière ligne de défense",
-      "url": "https://www.journaldunet.com/cybersecurite/1552007-coupe-du-monde-2026-l-intelligence-artificielle-a-fait-sauter-notre-derniere-ligne-de-defense/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-01T08:58:09.000Z",
-      "summary": "L'IA rend le phishing indétectable. 344 faux sites FIFA déjà actifs. Arrêtons de culpabiliser les utilisateurs, la responsabilité appartient aux …",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://ic-cdn.flipboard.com/journaldunet.com/1c4d5a1721ee549d9a45e1546dc4c8317fb1959a/_xlarge.jpeg"
-    },
-    {
       "id": "b319047a4a2a2783673e4c7c26cd5ca368d36e3a",
       "title": "L'enquête privée : le maillon oublié de la gestion des risques en entreprise",
       "url": "https://www.journaldunet.com/management/direction-generale/1552111-l-enquete-privee-le-maillon-oublie-de-la-gestion-des-risques-en-entreprise/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -701,17 +767,6 @@
       "type": "NEWS",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXEaR4unJmt3rBY1LzI0Gq_veoF7Qzi-yPQNUcoR2oNV802lQ4MZAviyeq7bBh73PLAyp1quTozDq0ki_zm_9qsJIIfAUTaG8jFTv5dpxvuDUPJZA2BU4Zo11wIVyysWeMROXv8z2XOZoPOoJPVqMEJEhCI_OE1mM5wnSCFHJ1sgjl5411fZ4srklq5Fbs/s1600/clickfix-payloads.jpg"
-    },
-    {
-      "id": "582c0fc908f7274c049e3168e1d975373cdc339d",
-      "title": "Enlèvements liés aux cryptomonnaies et cybersécurité: «Le business des données volées a dépassé le trafic de drogue»",
-      "url": "https://www.slate.fr/tech-internet/enlevements-lies-cryptomonnaies-cybersecurite-business-donnees-volees-depasse-trafic-drogue-hackeurs-fuites-cybercriminalite-france-cryptorapts?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-01T04:55:02.000Z",
-      "summary": "Un phénomène devenu massif. Jeudi 11 juin, l'Office anti-cybercriminalité (OFAC) annonce l'interpellation de sept personnes soupçonnées d'avoir …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/slate.fr/04078bf610c346a808709b867a0c8438152b020d/_xlarge.jpeg"
     },
     {
       "id": "76adf4133a08fd0b625fbc2f8dc59b65147865c4",
@@ -844,17 +899,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://static.actu.fr/uploads/2025/03/6ac16e37996766ec16e37996703d16v.jpg"
-    },
-    {
-      "id": "9cfc5eeab8b5a48ed4415fc347246fa1cd23fa99",
-      "title": "« Certaines choses vont changer » : les enseignements après la cyberattaque à Marcq-en-Barœul",
-      "url": "https://www.lavoixdunord.fr/1717367/article/2026-06-30/certaines-choses-vont-changer-les-enseignements-apres-la-cyberattaque-marcq-en?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-30T16:15:00.000Z",
-      "summary": "Environ 5 700 usagers de Marcq-en-Barœul ont été avertis d’un risque de fuite de données personnelles après un piratage du site municipal ce …",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://lvdneng.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_extra_big/2026/06/30/node_1717367/68659048/public/2026/06/30/88712927.jpeg?itok=eFyoX4ex1782836116"
     },
     {
       "id": "4a0d021f244a7541f739fb80b10efd32851540a7",
@@ -1286,17 +1330,6 @@
       "imageUrl": "https://media.larepubliquedespyrenees.fr/28321945/1200x-1/pexels-kelly-2869017-web-1mo-redimensionne-1.jpg"
     },
     {
-      "id": "66ddc2520b99b8ca079a94db6532df4fd291e709",
-      "title": "Journalisme. Reporters sans frontières accuse le renseignement allemand d’entrave à la liberté de la presse",
-      "url": "https://www.courrierinternational.com/article/journalisme-reporters-sans-frontieres-accuse-le-renseignement-allemand-d-entrave-a-la-liberte-de-la-presse_245806?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-29T14:15:04.000Z",
-      "summary": "Une plainte a été déposée auprès de la Cour européenne des droits de l’Homme (CEDH) par Reporters sans frontières. L’organisation non gouvernementale …",
-      "type": "NEWS",
-      "severity": "Moyenne",
-      "imageUrl": "https://ic-cdn.flipboard.com/courrierinternational.com/5c8001d4926c8a323f5f88214ca15cfc36439992/_xlarge.jpeg"
-    },
-    {
       "id": "fb671e5998f61f588d279771796b3999efe44d54",
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "url": "https://www.cisa.gov/news-events/alerts/2026/06/29/cisa-adds-one-known-exploited-vulnerability-catalog",
@@ -1570,28 +1603,6 @@
       "type": "LEAK",
       "severity": "Info",
       "imageUrl": "https://www.zataz.com/wp-content/uploads/recap-news-zataz-1.jpg"
-    },
-    {
-      "id": "96b0440b125365543444214c8eed384cdb509bab",
-      "title": "FBI Warns Russian Intelligence Hackers Target Signal Backup Recovery Keys",
-      "url": "https://thehackernews.com/2026/06/fbi-warns-russian-intelligence-hackers.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-26T19:38:29.000Z",
-      "summary": "The FBI and CISA have updated their March warning about Russian intelligence phishing Signal accounts, and the operators have added a step: they now coax targets into handing over ",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjt2-y25_EiB31BmVQQpt9ne8mH9iPOJpYJmItVSIKGexUBmKRwzNSvDYzbVyRm9xxR6H0rE880CTv3QTblUdJgkRh2EoXqYGJ9wwOq-cOktE6iIvI0fZdeuxf8gTmdEpStuzq5CywuWYEjb32JqfwIznRc6YtDK_V5dFH1bcx2EoqvQ1Koieo4g7QDKA/s1600/signal-phishing.jpg"
-    },
-    {
-      "id": "1dde168197cc7da358e211016074b7af43820838",
-      "title": "New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks",
-      "url": "https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-26T18:17:46.000Z",
-      "summary": "A newly discovered cyber attack campaign has been observed delivering a previously undocumented malware family called SharkLoader that acts as a loader for deploying Cobalt Strike ",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsnAZNjHSEX7UtabbKNVn68uohH8pK5LKuU2CgckZTJowWHxYmEjx9ROquO9tFsThy-3_759_ko2TQEX4Wm3PI1Y-opfzyeAzW8Tni0-gz2YMtPMln9XQRzcKq1mviZSTW7MNShxVRhbuUXBSuNGTNStlwj_NCfFsyrptpXvkLNt5CUfARwENz0IshNDma/s1600/shark.jpg"
     },
     {
       "id": "096f6e3894b31739c1e116d59366ca30bb5deaa3",
@@ -2260,17 +2271,6 @@
       "source": "CISA",
       "publishedAt": "2026-06-23T12:00:00.000Z",
       "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-174-02.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "d255da248c84be3a96f4dca98494cbbd740d4a3a",
-      "title": "Siemens Products using OpenSSL",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-03",
-      "source": "CISA",
-      "publishedAt": "2026-06-23T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-174-03.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
