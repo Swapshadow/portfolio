@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T14:06:58.166Z",
+  "generatedAt": "2026-07-02T17:50:50.137Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -16,16 +16,14 @@
     {
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
-      "status": "error",
-      "items": 0,
-      "error": "fetch failed"
+      "status": "ok",
+      "items": 115
     },
     {
       "name": "Exploit-DB",
       "url": "https://www.exploit-db.com/rss.xml",
-      "status": "error",
-      "items": 0,
-      "error": "fetch failed"
+      "status": "ok",
+      "items": 50
     },
     {
       "name": "The Hacker News",
@@ -78,6 +76,50 @@
   ],
   "items": [
     {
+      "id": "3ed122bd8cdecba845af6d014d834eddd6d4ec69",
+      "title": "YggTorrent : le coup de grâce de la gendarmerie après le piratage qui l'a mis à genoux",
+      "url": "https://www.01net.com/actualites/yggtorrent-le-coup-de-grace-de-la-gendarmerie-apres-le-piratage-qui-la-mis-a-genoux.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-02T15:53:16.000Z",
+      "summary": "Quatre mois après le piratage destructeur qui avait mis YggTorrent hors ligne, la gendarmerie nationale annonce le démantèlement complet de sa …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/6d8321a45fe20bf702cea439222b73c89cc02a02/_xlarge.jpeg"
+    },
+    {
+      "id": "d4df87dc04ed39d5202c83cf688b53f1b19472ec",
+      "title": "12 personnes interpellées, 45.000 euros de matériel saisi... Hacké et sabordé en mars dernier, le géant du téléchargement illégal YggTorrent a été démantelé par la gendarmerie",
+      "url": "https://www.bfmtv.com/tech/cybersecurite/12-personnes-interpellees-45-000-euros-de-materiel-saisi-hacke-et-saborde-en-mars-dernier-le-geant-du-telechargement-illegal-ygg-torrent-a-ete-demantele-par-la-gendarmerie_AN-202607020772.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-02T15:52:37.000Z",
+      "summary": "YggTorrent, l’un des principaux sites francophones de téléchargement illégal, a été démantelé par les gendarmes spécialisés dans la cybercriminalité. …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/bfmtv.com/157355232fdfb1bf3eb7b18507c340c7cd1ae1f3/_xlarge.jpeg"
+    },
+    {
+      "id": "cdc47fc0754090703890d2066721d8a2e63a8a25",
+      "title": "ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories",
+      "url": "https://thehackernews.com/2026/07/threatsday-ai-compute-hijacking-apple.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-02T15:24:18.000Z",
+      "summary": "This week’s security news is mostly about weak spots. Browsers, bots, sandboxes, AI systems, and email flows all show the same problem in different ways. Everything looks normal un",
+      "type": "NEWS",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMzwXbN53zy07KSkFJL7uOzty4Pj7VgKS6lSwWWGSCppX0wEX5eY0ZLur2NiFcs-ByBBhbd1WZ270Y4VMMGL6WkvOIZ5MhyphenhyphenkDX2B45wiQue-W88oiF_-RZs0HxvrvcxCHI8Zhhv1-fqHDgnX-VLWk00gt463rQhyKY7Mzcd5STMCYeCUcyVri3aBSUpl2t/s1600/threatsday-board.jpg"
+    },
+    {
+      "id": "ebc4ea2b187e066ed49a5eed74d9b26a30ae22f8",
+      "title": "YggTorrent : la gendarmerie démantèle le tracker, 12 personnes interpellées",
+      "url": "https://www.buzzarena.com/yggtorrent-la-gendarmerie-demantele-le-tracker-12-personnes-interpellees-4557004?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-02T14:00:52.000Z",
+      "summary": "YggTorrent revient dans l’actualité judiciaire et cette fois-ci, pour un énorme coup de filet. La gendarmerie nationale a démantelé la structure qui …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.buzzarena.com/wp-content/uploads/2026/03/Yggtorrent-1-1.jpg"
+    },
+    {
       "id": "229e09cd7d11692dbfab8b85486c0478a46d5337",
       "title": "ToddyCat-Linked Umbrij Malware Abuses OAuth to Access Gmail via Google API",
       "url": "https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html",
@@ -89,15 +131,37 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMMnC-1ujLiZRcV1xgXbB3qFoIREcbSiGqLCFID8-G-z8GFI3YEY8VniprVEBW4b4TZKJUvoRDg27elntNJWL9S6JZUHMMe1Ie1JLf9w5Fzsgx2w9c94ja1NoED4m3G1pNngC2DDWOOQPgVGiKOd0uBpZkQSSpFOo60S2Tbl8j2VWKdhb70sIJzF8d93LM/s1600/gmail.jpg"
     },
     {
-      "id": "5d2bd86cdee64797b5a076adc7d095ef877a646f",
-      "title": "ChocoPoC, le malware qui cible les chercheurs en cybersécurité via des PoC GitHub trojanisés",
-      "url": "https://www.clubic.com/actualite-619660-chocopoc-le-malware-qui-cible-les-chercheurs-en-cybersecurite-via-des-poc-github-trojanises.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-02T12:02:00.000Z",
-      "summary": "Des dépôts GitHub piégés diffusent ChocoPoC, un malware conçu pour viser les chercheurs en cybersécurité qui testent des exploits publiés en ligne.",
+      "id": "8f2d5974dab544aaf1b440212cb0d75498ea523a",
+      "title": "CubeSpace CW0057 Reaction Wheel",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-02",
+      "source": "CISA",
+      "publishedAt": "2026-07-02T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-183-02.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/090cbd0e212acbfa05ae0a50a8ba2fc901a95778/_xlarge.jpeg"
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "1899bc6f008bf87293169f55d410cffad3791a86",
+      "title": "Gardyn IoT Hub",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-03",
+      "source": "CISA",
+      "publishedAt": "2026-07-02T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-183-03.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "38a7054db2f98b71a8e8c1815fe9ac523777a1cd",
+      "title": "ST Engineering iDirect iQ-Series Terminals",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-01",
+      "source": "CISA",
+      "publishedAt": "2026-07-02T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-183-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
     },
     {
       "id": "e268a9df36c4d4fc99007a3648bc3f86bc16006d",
@@ -131,6 +195,17 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirfJNnWRTyyKkXeatZdtLvMsQhba-L0J9yuyASwy4T-6nlbGWnkEl0FUBVO8wS6je9Hc9wPdu01JJ0TETOa1jOjQelGiJY3ZrvsJzFIqpr_gbEvv5F4lnQrJWxTHbpYM6ah6sPJbQ63XtdxlOcFy7KZ06S69LW2escSgSAM-ycKZCqttjAZEcHJ_sO9DdQ/s1600/ai-agent-ransomware.jpg"
+    },
+    {
+      "id": "150938c3c568be591829b525e0eaa93f4c06b27a",
+      "title": "Cyberattaque : des données de voyageurs Trenitalia exposées depuis 8 mois",
+      "url": "https://www.deplacementspros.com/mobility-management/cyberattaque-des-donnees-de-voyageurs-trenitalia-exposees-depuis-8-mois?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-02T08:56:07.000Z",
+      "summary": "Huit mois. C’est le temps qui s’est écoulé entre la détection de l’intrusion et les premières notifications adressées aux clients. En octobre 2025, …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.deplacementspros.com/wp-content/uploads/2026/07/cyber-attaque-criminalite-adobestock-1024x574.jpeg"
     },
     {
       "id": "d6d802232c86ee746d1152968d9c8be628b78978",
@@ -186,6 +261,61 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://img.20mn.fr/Do7L7vp4T6-E2_H5Q38z_ik/1444x920_utiq-se-presente-comme-une-solution-alternative-a-l-emprise-des-gafam-sur-la-publicite-en-ligne"
+    },
+    {
+      "id": "12d9bf51f98b91d9324efdef1de7f13af5f7e3d7",
+      "title": "containerd - CVE-2026-53492",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/containerd-cve-2026-53492-2026-07-02",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-02T04:18:27.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans la &lt;strong&gt;restauration de conteneurs depuis une image de point de contrôle&lt;/strong&gt; via l'implémentation CRI de containerd.",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "68672a4764dd99a964136597ea2969063aee91a8",
+      "title": "Apache - CVE-2026-49877",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/apache-cve-2026-49877-2026-07-02",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-02T04:13:55.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans la &lt;strong&gt;configuration Jetty par défaut de la console web&lt;/strong&gt; d’Apache ActiveMQ.&lt;/p&gt; &lt;p&gt;Apache ActiveMQ e",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "05e90f3f71464245f4cb64e74e7ab020a4fe9ae0",
+      "title": "Adobe - CVE-2026-48276",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/adobe-cve-2026-48276-2026-07-02",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-02T04:10:30.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le &lt;strong&gt;mécanisme de téléversement de fichiers&lt;/strong&gt; d'Adobe ColdFusion.&lt;/p&gt; &lt;p&gt;ColdFusion est un serveur ",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "ffbbe67c1acac82a59db22cdbb5cbb53e0d730f6",
+      "title": "Cisco - CVE-2026-20191",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/cisco-cve-2026-20191-2026-07-02",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-02T04:06:03.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans la &lt;strong&gt;validation des entrées utilisateur&lt;/strong&gt; de Cisco Catalyst Center.&lt;/p&gt; &lt;p&gt;Cisco Catalyst Center es",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "759e7a877559d7c7b0382bee80568a2c33555d40",
+      "title": "IBM - CVE-2026-10134",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/ibm-cve-2026-10134-2026-07-02",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-02T04:03:28.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le &lt;strong&gt;composant PythonCodeStructuredTool&lt;/strong&gt; de Langflow OSS.&lt;/p&gt; &lt;p&gt;Langflow OSS est une plateforme o",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
     },
     {
       "id": "b2437b5ce2f0ab4eafd5bc17bf62ef6a82ff8df0",
@@ -408,17 +538,6 @@
       "imageUrl": null
     },
     {
-      "id": "8dad20ac8b8e887c6d5170d3f5329de821d254eb",
-      "title": "Des ransomwares exploitent une faille de Microsoft Defender pour pirater les ordinateurs Windows",
-      "url": "https://www.01net.com/actualites/des-ransomwares-exploitent-une-faille-de-microsoft-defender-pour-pirater-les-ordinateurs-windows.html?amp%3Butm_content=topic%2Ffr-windows",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-01T11:35:40.000Z",
-      "summary": "Une faille de sécurité dans Microsoft Defender met en danger les ordinateurs Windows. Corrigée en avril dernier, la vulnérabilité est activement …",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/ec5376feb8b41ce45a58c3c46ab48940f9258aa0/_xlarge.jpeg"
-    },
-    {
       "id": "a12f07d47227d870f2cd28cd64b6e2088081b7d7",
       "title": "2026 Cybersecurity Assessment: The Gap Between Awareness and Resilience",
       "url": "https://thehackernews.com/2026/07/2026-cybersecurity-assessment-gap.html",
@@ -505,17 +624,6 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://ic-cdn.flipboard.com/journaldunet.com/0b419a180ab7c36f3aba1504e05ced711cbbd918/_xlarge.jpeg"
-    },
-    {
-      "id": "b4740dfc15726ab72a66453f86ae0b1cf229d896",
-      "title": "Coupe du monde 2026 : l'intelligence artificielle a fait sauter notre dernière ligne de défense",
-      "url": "https://www.journaldunet.com/cybersecurite/1552007-coupe-du-monde-2026-l-intelligence-artificielle-a-fait-sauter-notre-derniere-ligne-de-defense/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-01T08:58:09.000Z",
-      "summary": "L'IA rend le phishing indétectable. 344 faux sites FIFA déjà actifs. Arrêtons de culpabiliser les utilisateurs, la responsabilité appartient aux …",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://ic-cdn.flipboard.com/journaldunet.com/1c4d5a1721ee549d9a45e1546dc4c8317fb1959a/_xlarge.jpeg"
     },
     {
       "id": "b319047a4a2a2783673e4c7c26cd5ca368d36e3a",
@@ -615,6 +723,61 @@
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkaU5jHNUkuBuH0Obx-gU_L4wSKOWP9bPwZeyD8tY1hIHShQozXYO2UckRTb2z5SwreXgHxLzePWkBfixNzYWsJ6eXioRllicv96TA8QvXBerGAguD3uA2T1DcMaURdi5BdMcNlY4DF_DPk-kdNXvIZfz8QMnrekgc-Hjksqf5OCHy11j0zcT668GgBhnc/s1600/citrix.jpg"
+    },
+    {
+      "id": "f56aee5a063c551a7969a9be43e9ba1a22902f14",
+      "title": "Mozilla - CVE-2026-14241",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/mozilla-cve-2026-14241-2026-07-01",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-01T02:17:13.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité regroupant plusieurs &lt;strong&gt;bugs de sécurité mémoire&lt;/strong&gt; présents dans le moteur de Firefox 152.0.3.&lt;/p&gt; &lt;p&gt;Moz",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "f310f9be070e3ba840e00a6304a2f5640d3fe9ef",
+      "title": "WinRAR - CVE-2026-14191",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/winrar-cve-2026-14191-2026-07-01",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-01T02:16:25.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans l'&lt;strong&gt;analyseur des volumes de récupération RAR5&lt;/strong&gt; (fichiers .rev) de WinRAR.&lt;/p&gt; &lt;p&gt;WinRAR est un lo",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "1f8234a0ab04f8ccbed482af758180c3eeda6460",
+      "title": "Google - CVE-2026-13967",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/google-cve-2026-13967-2026-07-01",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-01T02:15:36.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;confusion de type&lt;/strong&gt; dans le moteur &lt;strong&gt;V8&lt;/strong&gt; de Google Chrome.&lt;/p&gt; &lt;p&gt;Google ",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "dd8dc0b591a6894b6b489944b4783275fbfd7090",
+      "title": "IBM Db2 - CVE-2026-10109",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/ibm-db2-cve-2026-10109-2026-07-01",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-01T02:14:31.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le traitement de la &lt;strong&gt;négociation pré-authentification du protocole DRDA&lt;/strong&gt; utilisé par IBM Db2 pour établir une",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "b4710de192ed2b595834bedce62efbec97047c75",
+      "title": "NetScaler - CVE-2026-8451",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/netscaler-cve-2026-8451-2026-07-01",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-01T02:13:34.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;validation d'entrée insuffisante&lt;/strong&gt; présente dans le traitement des requêtes adressées au composant &lt;strong&g",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
     },
     {
       "id": "06efa457b29f130e466dc43eefa19fec70e94943",
@@ -749,12 +912,12 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJ9nmTBu_vYBf5fRZV4Jc-qtFGPySofVDYHUd-9-ogdve-M4Qd4j7_CnH9Zmvln6O3nfXSsDqQiMoL3rDYBSXZSrXlkCnSWSQUdAYJX1PkRzmytlVaYAc2AyrFOCpo9doU58gO6Gl5fQ-0SZ5D3yGP2SspNgK0U4f5jViSBnY_PAMUOjr42Nt8OLrhnTsQ/s1600/llm-keys.jpg"
     },
     {
-      "id": "bd96beba0711eb157c05a54d1d452185aa6a2fbf",
-      "title": "Frangoteam FUXA SCADA/HMI",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-02",
+      "id": "da4bd301be7871ebb1cc35f7c5750c8ad7846f76",
+      "title": "Schneider Electric EasyLogic T150 and Saitel DP RTU",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-04",
       "source": "CISA",
       "publishedAt": "2026-06-30T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-02.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-04.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -782,6 +945,17 @@
       "imageUrl": null
     },
     {
+      "id": "70cdc0adf556b189ef550a65fa4f7fb845511fdf",
+      "title": "XZ Utils vulnerability impacting B&amp;R Products",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-05",
+      "source": "CISA",
+      "publishedAt": "2026-06-30T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-05.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
       "id": "854aaaa3d7b7eb0432769560f44b2d61ae58a619",
       "title": "Schneider Electric EcoStruxure IT Data Center Expert",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-03",
@@ -804,14 +978,14 @@
       "imageUrl": null
     },
     {
-      "id": "70cdc0adf556b189ef550a65fa4f7fb845511fdf",
-      "title": "XZ Utils vulnerability impacting B&amp;R Products",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-05",
+      "id": "bd96beba0711eb157c05a54d1d452185aa6a2fbf",
+      "title": "Frangoteam FUXA SCADA/HMI",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-02",
       "source": "CISA",
       "publishedAt": "2026-06-30T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-05.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-02.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
-      "severity": "Élevée",
+      "severity": "Info",
       "imageUrl": null
     },
     {
@@ -821,17 +995,6 @@
       "source": "CISA",
       "publishedAt": "2026-06-30T12:00:00.000Z",
       "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-07.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "da4bd301be7871ebb1cc35f7c5750c8ad7846f76",
-      "title": "Schneider Electric EasyLogic T150 and Saitel DP RTU",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-04",
-      "source": "CISA",
-      "publishedAt": "2026-06-30T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-04.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -914,6 +1077,17 @@
       "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/e2e56fe2fa7c399e89ad01016711fe00051aa103/_xlarge.jpeg"
     },
     {
+      "id": "1393c7a903e3edb6df08467e8654654bd61a83f1",
+      "title": "L'IA signe-t-elle la fin de la vie privée ?",
+      "url": "https://www.lesechos.fr/idees-debats/sciences-prospective/lia-signe-t-elle-la-fin-de-la-vie-privee-2239851?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-06-30T08:20:16.000Z",
+      "summary": "L'intelligence artificielle permet facilement de retrouver l'identité d'une personne cachée derrière un pseudonyme ou de transformer en outils …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://media.lesechos.com/api/v1/images/view/6a437c3e018a711f800b0bb6/1280x720/01903182316522-web-tete.jpg"
+    },
+    {
       "id": "5a8340ab7f3f9a6c8db03811943ac9ec5e69d155",
       "title": "Progress Kemp LoadMaster Flaw Could Let Attackers Run Root Commands Pre-Auth",
       "url": "https://thehackernews.com/2026/06/progress-kemp-loadmaster-flaw-could-let.html",
@@ -934,6 +1108,61 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYwCBjb2uPzIs-8BNIxo90ae4xRgxzM1av-ijebBJ32Y2DEvRUvM-jMd6S535UdnbPKrLtFHxm0k9Lo7GJgVjCWCrH-0RNFZukDv7shdA02IkDs1Iqx8C-uH2hOCyfpJ01tmNVGhrvQ-6FGlmdjnCP0nXrq7zl5KVL3XZ84I9QTImD5DM8HYoJbA0A1P3w/s1600/oracle.jpg"
+    },
+    {
+      "id": "8da44ccc4ea4cd03efa6b69f1b4dcec968ee6d8c",
+      "title": "Apache Tomcat - CVE-2026-55957",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/apache-tomcat-cve-2026-55957-2026-06-30",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-30T00:50:06.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans l'implémentation &lt;strong&gt;JNDIRealm&lt;/strong&gt; d'Apache Tomcat, spécifiquement lorsque ce realm est configuré pour authentifier",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "cba8645acb599b2835c339ac7b127d66abcc7b6a",
+      "title": "Node.js - CVE-2026-48930",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/nodejs-cve-2026-48930-2026-06-30",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-30T00:43:03.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans la &lt;strong&gt;résolution des noms d'hôte TLS&lt;/strong&gt; de Node.js.&lt;/p&gt; &lt;p&gt;Node.js est un environnement d'exécution J",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "b1ee3720436485d231bf7071d222064469bba204",
+      "title": "Apple - CVE-2026-43724",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/apple-cve-2026-43724-2026-06-30",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-30T00:40:39.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le &lt;strong&gt;noyau&lt;/strong&gt; des systèmes Apple, liée à une &lt;strong&gt;sanitarisation insuffisante des entrées&lt;/strong&gt",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "a6024da382d17c0d4988a992100a086e770bf170",
+      "title": "OpenJS - CVE-2026-13676",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/openjs-cve-2026-13676-2026-06-30",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-30T00:39:09.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le &lt;strong&gt;chemin de conversion IDN&lt;/strong&gt; de fast-uri.&lt;/p&gt; &lt;p&gt;fast-uri est une bibliothèque JavaScript de par",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "e951ea5114c636db457c8945656996d7d828452e",
+      "title": "libtiff - CVE-2026-12912",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/libtiff-cve-2026-12912-2026-06-30",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-30T00:37:29.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le &lt;strong&gt;décodeur PixarLog&lt;/strong&gt; de libtiff.&lt;/p&gt; &lt;p&gt;libtiff est une bibliothèque logicielle servant à lire,",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
     },
     {
       "id": "432b1139a75065b8f22f548a123072c76809ea1e",
@@ -1156,6 +1385,61 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBjmO4haWCgXfALMAtSHKJXRWIlLfYqulkKflfK-3BSYON-8A4MjUNoZRxOyaLGc-4Bsj1eIfGDhdpJuKZrJORz4HZHx5iM7lj0-VlehqqZ6kaq5_ZWP08MviAchtNF1XORD_Fps-IWderGKNM18TT-Jgh_0LRFULqdMeOfv_FKDd8oWmHmv-iR1-_7XZP/s1600/gogo.jpg"
     },
     {
+      "id": "5fa08d261ed487379bcf1a8540681bea47f23273",
+      "title": "Notepad++ - CVE-2026-52884",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/notepad-cve-2026-52884-2026-06-29",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-29T01:23:34.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de contournement du correctif CVE-2026-48800 dans la fonction &lt;strong&gt;isInTrustedDirectory()&lt;/strong&gt; de Notepad++.&lt;/p&gt; &lt",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "ad37368824abd8e9af2b29f751773b60b13ca3a7",
+      "title": "Linux kernel - CVE-2026-43503",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/linux-kernel-cve-2026-43503-2026-06-29",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-29T01:22:46.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans les fonctions de transfert de fragments réseau du sous-système &lt;strong&gt;net/skbuff&lt;/strong&gt; du noyau Linux.&lt;/p&gt; &lt;p&g",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "700a5f722fbae467b3b0ee12dc4ffb2668bd2d8a",
+      "title": "Google - CVE-2026-13033",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/google-cve-2026-13033-2026-06-29",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-29T01:21:10.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le composant &lt;strong&gt;Blink InterestGroups&lt;/strong&gt; du moteur de rendu de Google Chrome.&lt;/p&gt; &lt;p&gt;Une erreur de ges",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "b2a42dc8137040397d544d3aa1917f6dcee8ec9a",
+      "title": "Canonical - CVE-2026-12411",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/canonical-cve-2026-12411-2026-06-29",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-29T01:19:50.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de contrôle d'accès absent dans le handler &lt;strong&gt;devLXDInstancePatchHandler&lt;/strong&gt; de LXD.&lt;/p&gt; &lt;p&gt;LXD est un hype",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "4f2d6c01904cddda6699d397e161df424ca04cf9",
+      "title": "WSO2 LLC - CVE-2026-2053",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/wso2-llc-cve-2026-2053-2026-06-29",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-29T01:18:41.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de type &lt;strong&gt;SSRF&lt;/strong&gt; dans le composant de flux de messages de WSO2 API Manager.&lt;/p&gt; &lt;p&gt;WSO2 API Manager est ",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
       "id": "180812f54c6cf4ff11a2ea372afb562a20a5ae7e",
       "title": "Bulletin d'actualité CERTFR-2026-ACT-028 (29 juin 2026)",
       "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-028/",
@@ -1244,28 +1528,6 @@
       "imageUrl": null
     },
     {
-      "id": "0294983d32dbe067bad629699a0b4e9684edb864",
-      "title": "Vos messages Signal en danger ? Le FBI lance une alerte urgente",
-      "url": "https://geeko.lesoir.be/2026/06/28/vos-messages-signal-en-danger-le-fbi-lance-une-alerte-urgente/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-28T14:28:27.000Z",
-      "summary": "Signal est inviolable, mais pas ses utilisateurs. Des hackers russes liés au FSB ont trouvé la faille, et Washington met 10 millions de dollars sur …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/lesoir.be/34c09a48f1b121bdf8da863df3252d0c7cd435e4/_xlarge.jpeg"
-    },
-    {
-      "id": "f7cdaf9b6046dd9260f4aaae37ae186790b249e1",
-      "title": "Détecter un logiciel espion",
-      "url": "https://www.lesnumeriques.com/antivirus/antivirus-contre-spyware-comment-detecter-et-supprimer-un-logiciel-espion-a257903.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-28T09:30:00.000Z",
-      "summary": "Si les logiciels espions inquiètent autant, c’est d’abord pour une raison simple : leur discrétion. Ils peuvent s’inviter sur un ordinateur, un Mac …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/lesnumeriques.com/ba9f497335d2493ecf289bbc93596fa4733430fd/_xlarge.png"
-    },
-    {
       "id": "79d2edc4dbbec4447efd367ad2ba9d6e7e0fbbec",
       "title": "Les Bitcoins de Satoshi bientôt gelés ? La solution pour sauver le réseau de la menace quantique ?",
       "url": "https://android-mt.ouest-france.fr/news/decryptage/les-bitcoins-de-satoshi-bientot-geles-la-solution-pour-sauver-le-reseau-de-la-menace-quantique/204880/?amp%3Butm_content=topic%2Ffr-cryptographie",
@@ -1332,17 +1594,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsnAZNjHSEX7UtabbKNVn68uohH8pK5LKuU2CgckZTJowWHxYmEjx9ROquO9tFsThy-3_759_ko2TQEX4Wm3PI1Y-opfzyeAzW8Tni0-gz2YMtPMln9XQRzcKq1mviZSTW7MNShxVRhbuUXBSuNGTNStlwj_NCfFsyrptpXvkLNt5CUfARwENz0IshNDma/s1600/shark.jpg"
     },
     {
-      "id": "5c217a37b9f7c8b0f0ba9a9fc3134344ec238fc2",
-      "title": "Chinese-Speaking APT Deploys New TinyRCT Backdoor in Southeast Asia Campaign",
-      "url": "https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-26T16:21:25.000Z",
-      "summary": "A Chinese-speaking advanced persistent threat (APT) actor has been linked to a new custom backdoor called TinyRCT as part of cyber attacks aimed at government entities and critical",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHsYcZgd4WIkN0k-b4_j7JxBgi0R0dzj0jSwSWVgItyIy88VoZK5z8BAiwjmYnou7YLrNuckCgQvnHXV2KYHoNS8WRZbjU1MP5HqvLKkIakvRVuJio7oZeUbi1XsgQVmJ-cDKKWeOzgGouUAzUtJrFRu8CtPQJG-eXCy7aSOx_fyCvGK2tRl12tBbPG7YC/s1600/tinyrct.jpg"
-    },
-    {
       "id": "096f6e3894b31739c1e116d59366ca30bb5deaa3",
       "title": "L&#8217;authentification par certificat pour Active Directory : pourquoi elle devient incontournable avec la dépréciation de NTLM",
       "url": "https://www.zataz.com/lauthentification-par-certificat-pour-active-directory-pourquoi-elle-devient-incontournable-avec-la-depreciation-de-ntlm/",
@@ -1396,6 +1647,61 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://sciencepost.fr/wp-content/uploads/2025/06/prime-numbers-l.webp"
+    },
+    {
+      "id": "fc4840ece6bb8337cecffe8dd112097316d00ab3",
+      "title": "PTC - CVE-2026-12569",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/ptc-cve-2026-12569-2026-06-26",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-26T01:19:16.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;désérialisation de données non fiables&lt;/strong&gt; dans les &lt;strong&gt;servlets exposés réseau&lt;/strong&gt; Windchil",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "cd6d73c887a9c7c137339fdd70d09c9fab2d07e8",
+      "title": "Gogs - CVE-2026-52806",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/gogs-cve-2026-52806-2026-06-26",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-26T01:16:51.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité d'&lt;strong&gt;injection d'argument&lt;/strong&gt; dans la fonction Merge() de Gogs, au niveau du traitement des fusions de type &lt;strong&",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "41335b724f9ed9a76347a593f35ef2a2657ee12e",
+      "title": "OpenText - CVE-2026-11877",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/opentext-cve-2026-11877-2026-06-26",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-26T01:15:40.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité d'&lt;strong&gt;absence de contrôle d'autorisation&lt;/strong&gt; sur l'&lt;strong&gt;API de gestion de la configuration&lt;/strong&gt; d'Ope",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "d8214492a22ebf73223aa30535dafa2b38d2e8e4",
+      "title": "Rapid7 - CVE-2026-9155",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/rapid7-cve-2026-9155-2026-06-26",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-26T01:14:47.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité d'&lt;strong&gt;injection de commandes OS&lt;/strong&gt; dans le &lt;strong&gt;plugin Sed&lt;/strong&gt; de&lt;/p&gt; &lt;p&gt;Rapid7 Insight",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "8c0a737b4bba7046f3353819d4220b8537adf3b6",
+      "title": "Quest - CVE-2026-7570",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/quest-cve-2026-7570-2026-06-26",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-26T01:13:39.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité d'&lt;strong&gt;injection SQL&lt;/strong&gt; dans le composant &lt;strong&gt;NVBUDashboard&lt;/strong&gt; de Quest NetVault Backup, au niveau",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
     },
     {
       "id": "f2725b875a32a2a40f21c1f316ced39b7a61d2b0",
@@ -1497,17 +1803,6 @@
       "imageUrl": null
     },
     {
-      "id": "ad4b1af83c76df417b99d5186d29be5ab0f9f490",
-      "title": "Yokogawa FAST/TOOLS and CI Server",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-01",
-      "source": "CISA",
-      "publishedAt": "2026-06-25T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-176-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
       "id": "ea0abfb4b7c83d267c2236d40cbc0c4bc191860f",
       "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
       "url": "https://www.cisa.gov/news-events/alerts/2026/06/25/cisa-adds-two-known-exploited-vulnerabilities-catalog",
@@ -1536,6 +1831,17 @@
       "source": "CISA",
       "publishedAt": "2026-06-25T12:00:00.000Z",
       "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsma-26-176-02.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "ad4b1af83c76df417b99d5186d29be5ab0f9f490",
+      "title": "Yokogawa FAST/TOOLS and CI Server",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-01",
+      "source": "CISA",
+      "publishedAt": "2026-06-25T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-176-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1616,6 +1922,61 @@
       "type": "LEAK",
       "severity": "Info",
       "imageUrl": "https://www.zataz.com/wp-content/uploads/lehack-2026-brave-new-world.png"
+    },
+    {
+      "id": "dc0da053f9eed81f4a5687dc47de4a5d563f7fff",
+      "title": "Jenkins - CVE-2026-57280",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/jenkins-cve-2026-57280-2026-06-25",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-25T00:49:25.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le mécanisme de &lt;strong&gt;sandbox Groovy&lt;/strong&gt; du Script Security Plugin.&lt;/p&gt; &lt;p&gt;Jenkins est un serveur d'autom",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "5d4fbe545d054b947ecb377e3cbc1d805ee966d3",
+      "title": "libssh2 - CVE-2026-55200",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/libssh2-cve-2026-55200-2026-06-25",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-25T00:48:26.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans la fonction ssh2_transport_read() du module de transport SSH.&lt;/p&gt; &lt;p&gt;libssh2 est une bibliothèque C open source qui implémen",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": null
+    },
+    {
+      "id": "5d01427b6e8e5589e996d18e0f0993c2f3390b3e",
+      "title": "Cacti - CVE-2026-39893",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/cacti-cve-2026-39893-2026-06-25",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-25T00:47:31.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité d'&lt;strong&gt;injection SQL&lt;/strong&gt; dans le fichier graph_view.php.&lt;/p&gt; &lt;p&gt;Cacti est un outil open source de supervision",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": null
+    },
+    {
+      "id": "f4e9da3c64ca3cd48e44927461f4d84298314161",
+      "title": "Google - CVE-2026-13028",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/google-cve-2026-13028-2026-06-25",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-25T00:46:33.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de type &lt;strong&gt;use-after-free&lt;/strong&gt; dans le composant &lt;strong&gt;WebGL&lt;/strong&gt; de Google Chrome.&lt;/p&gt; &lt;p&gt",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "e062b899477ccdfbe07d9193a008bc50152b7c41",
+      "title": "GitLab - CVE-2026-10712",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/gitlab-cve-2026-10712-2026-06-25",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-25T00:45:18.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de type &lt;strong&gt;cross-site scripting (XSS)&lt;/strong&gt; dans le gestionnaire d'assets du &lt;strong&gt;Web IDE workbench&lt;/strong&g",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
     },
     {
       "id": "81d3aeda47802ac06f79b723286fa81742c341c5",
@@ -1772,6 +2133,61 @@
       "imageUrl": "https://lescoopsdelinformation-le-soleil-prod.web.arc-cdn.net/resizer/v2/OVJKEYIC4VDJPLD2YK57T4KE7U.jpg?auth=502d55a293454238a418735ef07d92eb5b392290a13e0cf79a6869da02f1f321&amp%3Bheight=900&amp%3Bsmart=true&amp%3Bwidth=1600"
     },
     {
+      "id": "958c86a499b6e3cca30918e34609c6f2bfc371a6",
+      "title": "n8n - CVE-2026-54312",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/n8n-cve-2026-54312-2026-06-24",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-24T01:54:02.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le &lt;strong&gt;nœud Microsoft SQL&lt;/strong&gt; de &lt;strong&gt;n8n&lt;/strong&gt;.&lt;/p&gt; &lt;p&gt;n8n est une plateforme d'auto",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "14e8beffa3d9b5a9fba74068dd8c7763b096f18e",
+      "title": "Traefik - CVE-2026-48020",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/traefik-cve-2026-48020-2026-06-24",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-24T01:53:10.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le &lt;strong&gt;middleware StripPrefix&lt;/strong&gt; de &lt;strong&gt;Traefik&lt;/strong&gt; exploitable par un attaquant non authenti",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "4e6920cd32baddfb1b4abd7748b947144922f57c",
+      "title": "Spring - CVE-2026-41862",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/spring-cve-2026-41862-2026-06-24",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-24T01:51:03.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans les &lt;strong&gt;backends de persistance basés sur Kryo&lt;/strong&gt; de &lt;strong&gt;Spring Statemachine&lt;/strong&gt; (JPA, MongoD",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "c7795b12479d984438fec6ef727643043ac8fd05",
+      "title": "Tenable - CVE-2026-13007",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/tenable-cve-2026-13007-2026-06-24",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-24T01:50:06.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans plusieurs &lt;strong&gt;endpoints d'API non authentifiés&lt;/strong&gt; exposés sous le chemin /w/api/* de &lt;strong&gt;Tenable Identit",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "f52934f53337723070b769cea2d650335e3ccc01",
+      "title": "IBM - CVE-2026-9072",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/ibm-cve-2026-9072-2026-06-24",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-24T01:47:46.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le composant &lt;strong&gt;WebSphere WebServer Plug-in&lt;/strong&gt; d'&lt;strong&gt;IBM WebSphere Application Server&lt;/strong&gt; et",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
       "id": "008b60deba79b204d8707e56cdae4bc4005c9aa1",
       "title": "Multiples vulnérabilités dans cURL et libcurl (24 juin 2026)",
       "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0797/",
@@ -1827,17 +2243,6 @@
       "imageUrl": null
     },
     {
-      "id": "58cf42ec8994c936e9eb31c627bd117d84bd9dc3",
-      "title": "Siemens SINEC INS",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-04",
-      "source": "CISA",
-      "publishedAt": "2026-06-23T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-174-04.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
       "id": "95ca7df9c9e79886c053976eecd05a6292c5898f",
       "title": "Impact of Linux Kernel vulnerabilities on B&amp;R products",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-06",
@@ -1869,413 +2274,6 @@
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
-    },
-    {
-      "id": "7509b338d40b26efaceaabf7a030f7f0b3871971",
-      "title": "ABB Freelance Security Lock",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-05",
-      "source": "CISA",
-      "publishedAt": "2026-06-23T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-174-05.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "8eef3d8aa0ceed77f790995faa057e65b6a768d0",
-      "title": "Siemens WinCC Certificate Manager",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-01",
-      "source": "CISA",
-      "publishedAt": "2026-06-23T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-174-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "4aba64772997588bff02d0ab9cf3f57f2f068912",
-      "title": "Hubbell Aclara Metrum Cellular Web Interface",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-07",
-      "source": "CISA",
-      "publishedAt": "2026-06-23T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-174-07.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "246ba048c1ce348e98ab9c5c16d30f3d1666cbf8",
-      "title": "Guerre du quantique : Donald Trump signe deux décrets pour préparer les États-Unis au grand choc",
-      "url": "https://www.numerama.com/tech/2282535-guerre-du-quantique-donald-trump-signe-deux-decrets-pour-preparer-les-etats-unis-au-grand-choc.html?amp%3Butm_source=flipboard&amp%3Butm_content=directlink&amp%3Butm_campaign=2282535",
-      "source": "Cryptographie FR",
-      "publishedAt": "2026-06-23T10:29:40.000Z",
-      "summary": "Le 22 juin 2026, Donald Trump a signé deux décrets destinés à accélérer le développement des technologies quantiques aux États-Unis. L’un vise à …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://c0.lestechnophiles.com/www.numerama.com/wp-content/uploads/2026/06/1-28.jpg?resize=1600%2C900&amp%3Bkey=38a30e69&amp%3Bwatermark="
-    },
-    {
-      "id": "682c8df6d800f431edf03dc829a1238cac50608e",
-      "title": "Ordinateurs quantiques : le grand plan de Trump pour dominer la prochaine révolution technologique - ZDNET",
-      "url": "https://www.zdnet.fr/actualites/trump-accelere-sur-le-quantique-des-ordinateurs-deployes-des-2028-une-cybersecurite-renforcee-dici-2031-497465.htm",
-      "source": "Cryptographie FR",
-      "publishedAt": "2026-06-23T07:15:57.000Z",
-      "summary": "Le président américain Donald Trump a signé deux décrets présidentiels destinés à faire des États-Unis le chef de file mondial de l’informatique …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2025/04/trump_1300.jpg"
-    },
-    {
-      "id": "3aef7a55ebbb3b5d3a80deb8715467049fd36b5c",
-      "title": "L'informatique quantique est souvent perçue comme un risque pour le bitcoin. Désormais, Trump souhaite la développer.",
-      "url": "https://www.coindesk.com/fr/tech/2026/06/23/trump-signs-orders-to-build-a-quantum-computer-and-protect-against-the-one-that-could-break-encryption?amp%3Butm_content=CoinDesk%2Fmagazine%2FCOINDESK+Fran%C3%A7ais",
-      "source": "Cryptographie FR",
-      "publishedAt": "2026-06-23T05:15:16.000Z",
-      "summary": "La Maison Blanche a publié deux décrets exécutifs jumelés visant à accélérer le développement par les États-Unis d’ordinateurs quantiques à grande …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/2f1c6e613b33b9c2e567db9c1a5b333bb2457de1-4032x5040.jpg?auto=format&amp%3Bw=960&amp%3Bh=540&amp%3Bcrop=focalpoint&amp%3Bfit=clip&amp%3Bq=75&amp%3Bfm=jpg"
-    },
-    {
-      "id": "f3d29ee058f35a8990a0ecd388f647a175c158a3",
-      "title": "Récolter aujourd'hui, déchiffrer demain : pourquoi Washington accélère sa transition post-quantique",
-      "url": "https://www.frenchweb.fr/recolter-aujourdhui-dechiffrer-demain-pourquoi-washington-accelere-sa-transition-post-quantique/462522?amp%3Butm_content=topic%2Ffr-cryptographie",
-      "source": "Cryptographie FR",
-      "publishedAt": "2026-06-23T04:15:00.000Z",
-      "summary": "Donald Trump a signé hier deux Executive Orders qui marquent une nouvelle étape dans la stratégie technologique américaine. Le premier fixe un …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.frenchweb.fr/wp-content/uploads/2025/07/trump-ai-project.jpg"
-    },
-    {
-      "id": "79e695811b52847a9d3f098160b0fc782d228742",
-      "title": "Multiples vulnérabilités dans Moodle (23 juin 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0794/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-06-23T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Moodle Moodle. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une falsification ",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "e776d0e311dac35dca2403474c83450c0545cd36",
-      "title": "Multiples vulnérabilités dans Squid (23 juin 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0795/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-06-23T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Squid. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un problème de sécurité no",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "1a28efdcccece63febe923e5728c02b136d3bb9f",
-      "title": "Les États-Unis veulent un premier ordinateur quantique utilisable pour de la recherche scientifique d'ici 2028",
-      "url": "https://www.lefigaro.fr/conjoncture/les-etats-unis-veulent-un-premier-ordinateur-quantique-utilisable-pour-de-la-recherche-scientifique-d-ici-2028-20260622?amp%3Butm_content=topic%2Ffr-cryptographie",
-      "source": "Cryptographie FR",
-      "publishedAt": "2026-06-22T20:39:18.000Z",
-      "summary": "Donald Trump a signé deux décrets destinés à accélérer les ambitions américaines dans l’informatique quantique. L’un d’eux prévoit d’accélérer la …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://i.f1g.fr/media/cms/1200x630_crop/2026/06/22/f6597815c94f311a20ddf6eb73f5552153b00d43da69ec0bcf7646fb5f4e6f93.JPG"
-    },
-    {
-      "id": "7b9b271e1a1e081bf20696dc792b79385c19e253",
-      "title": "Multiples vulnérabilités dans les produits Microsoft (22 juin 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0792/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-06-22T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Microsoft. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un problè",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "381440bbe750a76d9b4ad4bc490384b9b25a008f",
-      "title": "Multiples vulnérabilités dans Postfix (22 juin 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0793/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-06-22T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Postfix. Elles permettent à un attaquant de provoquer un déni de service à distance et un problème de sécurité non spécifié par",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "697e96f05bfedc0261fd88085f04e2916c3a2ece",
-      "title": "Multiples vulnérabilités dans Microsoft Edge (22 juin 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0791/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-06-22T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "bd224660b548e9ddc61c8d6bf68c28788a0f4260",
-      "title": "Menace quantique sur les crypto: le Q-Day et la riposte d'Algorand",
-      "url": "https://fr.spaziocrypto.com/quantique/menace-quantique-crypto-q-day-algorand/?amp%3Butm_content=topic%2Ffr-cryptographie",
-      "source": "Cryptographie FR",
-      "publishedAt": "2026-06-21T08:44:45.000Z",
-      "summary": "Il existe une menace pour les crypto qui n'existe pas encore, et c'est précisément pour cela qu'il faut l'affronter maintenant. On l'appelle le …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/spaziocrypto.com/7eca765f9bb2dc54bd630204882f7523eb5a4322/_xlarge.webp"
-    },
-    {
-      "id": "85981864fa96ddd6d613aa8c8c5040bf127ce329",
-      "title": "L'intrication quantique ne se produit pas instantanément — des chercheurs ont mesuré le temps qu'elle prend",
-      "url": "https://sciencepost.fr/lintrication-quantique-ne-se-produit-pas-instantanement-des-chercheurs-ont-mesure-le-temps-quelle-prend/?amp%3Butm_content=topic%2Ffr-cryptographie",
-      "source": "Cryptographie FR",
-      "publishedAt": "2026-06-20T20:16:33.000Z",
-      "summary": "L’intrication quantique est l’un des concepts les plus fascinants de la physique moderne, mais à quelle vitesse se produit-elle ? Les résultats d’une …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://sciencepost.fr/wp-content/uploads/2024/10/iStock-2150616338-scaled.jpg"
-    },
-    {
-      "id": "94e1a18640667db24dab3c5477867c27364829a7",
-      "title": "L'IA rend la sécurité cryptographique moins coûteuse, plus rapide et plus difficile à ignorer",
-      "url": "https://www.coindesk.com/fr/tech/2026/06/20/ai-is-making-crypto-security-cheaper-faster-and-harder-to-ignore?amp%3Butm_content=CoinDesk%2Fmagazine%2FCOINDESK+Fran%C3%A7ais",
-      "source": "Cryptographie FR",
-      "publishedAt": "2026-06-20T15:00:00.000Z",
-      "summary": "À mesure que les outils de sécurité propulsés par l'IA deviennent moins coûteux, plus rapides et plus largement accessibles, les chercheurs ont …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/6c28c3dcd5461d3803d6e6200f1da0686dde993f-1920x1082.jpg?auto=format&amp%3Bw=960&amp%3Bh=540&amp%3Bcrop=focalpoint&amp%3Bfit=clip&amp%3Bq=75&amp%3Bfm=jpg"
-    },
-    {
-      "id": "a682d6445ae60efaad5053d9af56a067cf46ffc6",
-      "title": "JCPenney - 368,418 breached accounts",
-      "url": "https://haveibeenpwned.com/Breach/JCPenney",
-      "source": "Have I Been Pwned",
-      "publishedAt": "2026-06-20T03:02:45.000Z",
-      "summary": "In June 2026, retailer &lt;a href=\"https://breachnews.com/breaches/shinyhunters-threatens-council-of-europe-american-tower-jcpenney-and-others-with-imminent-data-leaks/\" target=\"_b",
-      "type": "LEAK",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "47bbf9562683aa2dcd92bd46b506804ecb87fe3f",
-      "title": "L’IA de défense érigée en «intérêt essentiel de sécurité» : ce que change cette annonce de Catherine Vautrin pour la France",
-      "url": "https://www.lefigaro.fr/international/l-ia-de-defense-erigee-en-interet-essentiel-de-securite-ce-que-change-cette-annonce-de-catherine-vautrin-pour-la-france-20260619?amp%3Butm_content=topic%2Ffr-cryptographie",
-      "source": "Cryptographie FR",
-      "publishedAt": "2026-06-19T17:09:30.000Z",
-      "summary": "La ministre des armées Catherine Vautrin a inauguré vendredi les nouveaux locaux de l’Agence ministérielle pour l’intelligence artificielle de …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://i.f1g.fr/media/cms/1200x630_crop/2026/06/19/69393d39ec5c795389fc1e9143dc073af7cc987a74d1b7cde407c7980af695f3.jpg"
-    },
-    {
-      "id": "539f73663eb975fb0a196efea68f966a0e27ccaf",
-      "title": "FIOD : deux arrestations dans une affaire de sanctions",
-      "url": "https://www.zataz.com/fiod-deux-arrestations-dans-une-affaire-de-sanctions/",
-      "source": "Zataz",
-      "publishedAt": "2026-06-19T14:51:40.000Z",
-      "summary": "Deux suspects arrêtés pour soupçon de contournement des sanctions européennes contre la russie. 800 serveurs saisis.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/eu_russ_nl.jpg"
-    },
-    {
-      "id": "41cacc2f49b5b889522ddade61e1b6c85d551842",
-      "title": "Polymarket face au soupçon d’initiés",
-      "url": "https://www.zataz.com/polymarket-face-au-soupcon-dinities/",
-      "source": "Zataz",
-      "publishedAt": "2026-06-19T14:42:05.000Z",
-      "summary": "Polymarket visé par une affaire d’initié Google et une interdiction en Espagne : enjeux cyber et renseignement.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/polymarket.jpg"
-    },
-    {
-      "id": "5a1d35cb52bd77975c132d49539842cf12b77743",
-      "title": "À 22 ans, son identité est piratée : 400 000 euros de dette",
-      "url": "https://www.zataz.com/a-22-ans-son-identite-est-piratee-400-000-euros-de-dette/",
-      "source": "Zataz",
-      "publishedAt": "2026-06-19T13:14:57.000Z",
-      "summary": "Une jeune française de 22 ans ouvre des comptes pour un faux ami : son identité sert à détourner des centaines de milliers d’euros.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/app_bank_cyber.jpg"
-    },
-    {
-      "id": "44ebbc03a578222c6978482efe7857dbad33487e",
-      "title": "Cryptographie post-quantique : le monde n'est pas prêt pour le \"Jour Q\"",
-      "url": "https://www.journaldunet.com/cybersecurite/1551607-cryptographie-post-quantique-sommes-nous-prets-pour-le-jour-q/?amp%3Butm_content=topic%2Ffr-cryptographie",
-      "source": "Cryptographie FR",
-      "publishedAt": "2026-06-19T12:59:17.000Z",
-      "summary": "L'informatique quantique progresse plus rapidement que prévu, tandis que les entreprises et les Etats ne vont pas assez vite dans le déploiement des …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/journaldunet.com/09d8c8268d8aa858e381fd862344d43f72d55930/_xlarge.jpeg"
-    },
-    {
-      "id": "1dc38065e588a91bc286ffcb1581b3b08e7a7f3a",
-      "title": "Ralph Lauren - 139,903 breached accounts",
-      "url": "https://haveibeenpwned.com/Breach/RalphLauren",
-      "source": "Have I Been Pwned",
-      "publishedAt": "2026-06-18T22:48:34.000Z",
-      "summary": "In June 2026, fashion retailer &lt;a href=\"https://cybernews.com/security/ralph-lauren-data-breach-claims/\" target=\"_blank\" rel=\"noopener\"&gt;Ralph Lauren was targeted in a ShinyHu",
-      "type": "LEAK",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "358d4b7a3ecba17d47f67f3b45364d9a29b86f0d",
-      "title": "Operation Endgame 4.0 - 4,160,519 breached accounts",
-      "url": "https://haveibeenpwned.com/Breach/OperationEndgame4",
-      "source": "Have I Been Pwned",
-      "publishedAt": "2026-06-18T20:08:06.000Z",
-      "summary": "On 18 June 2026, the latest phase of &lt;a href=\"https://www.politie.nl/en/news/2026/june/18/international-law-enforcement-initiate-hunt-on-malware-group-socgholish.html\" target=\"_",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": null
-    },
-    {
-      "id": "352502de60a6295e52010b9f7fcc8b5803df058f",
-      "title": "&#8216;Popa&#8217; Botnet Linked to Publicly-Traded Israeli Firm",
-      "url": "https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/",
-      "source": "Krebs on Security",
-      "publishedAt": "2026-06-18T17:37:58.000Z",
-      "summary": "For the past four years, a sprawling Android-based botnet called Popa has forced millions of consumer TV boxes to relay Internet traffic linked to advertising fraud, account takeov",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://krebsonsecurity.com/wp-content/uploads/2026/06/tvboxes-proxy.png"
-    },
-    {
-      "id": "d9164eafa45732ff0002c51f88dcf389d1abeebb",
-      "title": "Chiffrement classique dépassé : l’ANSSI alerte, Bitcoin concerné",
-      "url": "https://android-mt.ouest-france.fr/news/chiffrement-classique-depasse-lanssi-alerte-bitcoin-concerne/204161/?amp%3Butm_content=topic%2Ffr-cryptographie",
-      "source": "Cryptographie FR",
-      "publishedAt": "2026-06-18T14:18:03.000Z",
-      "summary": "Paris fixe une date butoir pour la transition cryptographique L’Agence nationale de la sécurité des systèmes d’information (ANSSI) a annoncé cette …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/450ee6e45b0644dc2fb25842bf22f72a0cafccfc/_xlarge.jpeg"
-    },
-    {
-      "id": "72a51e9f67496cafea9f692b1a1c0b9d1fe5ab4b",
-      "title": "Algorand dévoile sa feuille de route pour atteindre la résistance quantique d'ici 2028",
-      "url": "https://www.coindesk.com/fr/tech/2026/06/18/algorand-unveils-post-quantum-roadmap-to-secure-blockchain-by-2027?amp%3Butm_content=CoinDesk%2Fmagazine%2FCOINDESK+Fran%C3%A7ais",
-      "source": "Cryptographie FR",
-      "publishedAt": "2026-06-18T14:00:00.000Z",
-      "summary": "L'annonce reflète une reconnaissance croissante dans le secteur de la cryptomonnaie que l'adoption de la cryptographie résistante au quantique …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/aeeabe28669425a95b4918b55a4680c3e968c1c7-6002x4001.jpg?auto=format&amp%3Bw=960&amp%3Bh=540&amp%3Bcrop=focalpoint&amp%3Bfit=clip&amp%3Bq=75&amp%3Bfm=jpg"
-    },
-    {
-      "id": "ece4c61cf01effd398d4c1224625c2ec39653f01",
-      "title": "CFGI - 248,235 breached accounts",
-      "url": "https://haveibeenpwned.com/Breach/CFGI",
-      "source": "Have I Been Pwned",
-      "publishedAt": "2026-06-18T03:22:51.000Z",
-      "summary": "In March 2026, the financial consulting and advisory firm &lt;a href=\"https://x.com/AlvieriD/status/2029785330677936135\" target=\"_blank\" rel=\"noopener\"&gt;CFGI was the target of a ",
-      "type": "LEAK",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "95cb3dc3c0df81b004bfcdb689d051cb384f94c0",
-      "title": "Contre-espionnage : la DGSE recrute de nouveaux talents pour diversifier ses profils, quelles sont les compétences recherchées ?",
-      "url": "https://www.capital.fr/votre-carriere/contre-espionnage-la-dgse-recrute-de-nouveaux-talents-pour-diversifier-ses-profils-quelles-sont-les-competences-recherchees-1527675?amp%3Butm_content=topic%2Ffr-cryptographie",
-      "source": "Cryptographie FR",
-      "publishedAt": "2026-06-16T15:38:09.000Z",
-      "summary": "De plus en plus ouverte aux métiers techniques ou scientifiques, la DGSE ne cache plus sa volonté de recruter de nouveaux profils. Jusqu’à tenir des …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/capital.fr/5233ff7406e401d0df8fcf29876f8bb50411ec79/_xlarge.jpeg"
-    },
-    {
-      "id": "dfc60e13b1b2e3d93a4721bd3d052cd5fa1a30d8",
-      "title": "Avec seulement 30 % de femmes, la DGSE cherche à diversifier ses recrutements",
-      "url": "https://www.franceinfo.fr/economie/emploi/avec-seulement-30-de-femmes-la-dgse-cherche-a-diversifier-ses-recrutements_8063564.html?amp%3Butm_content=topic%2Ffr-cryptographie",
-      "source": "Cryptographie FR",
-      "publishedAt": "2026-06-16T14:13:28.000Z",
-      "summary": "La DGSE tente de séduire davantage de femmes dans les métiers de la tech. Lors d'un salon dédié au numérique au féminin, le service de renseignement …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/97cc360558f91e4b53a4aaa751b30d65001978eb/_xlarge.jpeg"
-    },
-    {
-      "id": "267ebb462aca14fd1ee19b4aea4081f3df61acc6",
-      "title": "Quantique : quels gains et quelles menaces pour les réseaux télécoms ? - ZDNET",
-      "url": "https://www.zdnet.fr/actualites/quantique-quels-gains-et-quelles-menaces-pour-les-reseaux-telecoms-496963.htm",
-      "source": "Cryptographie FR",
-      "publishedAt": "2026-06-16T01:06:43.000Z",
-      "summary": "La technologie quantique ouvre la voie à une optimisation des réseaux télécoms et à des communications ultra-sécurisées. Placée entre de mauvaises …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "18dbbf2d82c00b23ea896f3cd6da44b62ce8bd55",
-      "title": "June 2026 Stealer Logs - 56,278,397 breached accounts",
-      "url": "https://haveibeenpwned.com/Breach/June2026StealerLogs",
-      "source": "Have I Been Pwned",
-      "publishedAt": "2026-06-15T19:30:15.000Z",
-      "summary": "In June 2026, a collection of accumulated stealer logs from various sources was added to HIBP. The corpus comprised 56M unique email addresses across hundreds of millions of steale",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": null
-    },
-    {
-      "id": "0809837985d0db80f5fc9668218d244e7db2857a",
-      "title": "Berkadia - 305,216 breached accounts",
-      "url": "https://haveibeenpwned.com/Breach/Berkadia",
-      "source": "Have I Been Pwned",
-      "publishedAt": "2026-06-15T04:09:04.000Z",
-      "summary": "In March 2026, the commercial real estate finance company &lt;a href=\"https://x.com/AlvieriD/status/2034584125106000005\" target=\"_blank\" rel=\"noopener\"&gt;Berkadia was the target o",
-      "type": "LEAK",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "ad76c1e49c4b12523652fc505eb7b2fdb94d15b4",
-      "title": "Infinite Campus - 137,123 breached accounts",
-      "url": "https://haveibeenpwned.com/Breach/InfiniteCampus",
-      "source": "Have I Been Pwned",
-      "publishedAt": "2026-06-15T01:03:42.000Z",
-      "summary": "In March 2026, the student information system &lt;a href=\"https://www.bleepingcomputer.com/news/security/infinite-campus-warns-of-breach-after-shinyhunters-claims-data-theft/\" targ",
-      "type": "LEAK",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "df9b383dd486f8ce4882c9c37784d409668f28e7",
-      "title": "Bitcoin face à l’informatique quantique : Coinbase trace la voie pour éviter la catastrophe",
-      "url": "https://android-mt.ouest-france.fr/news/decryptage/bitcoin-face-a-linformatique-quantique-coinbase-trace-la-voie-pour-eviter-la-catastrophe/203725/?amp%3Butm_content=topic%2Ffr-cryptographie",
-      "source": "Cryptographie FR",
-      "publishedAt": "2026-06-14T13:34:20.000Z",
-      "summary": "Une horloge tourne en silence sous la blockchain Aujourd’hui, aucun ordinateur quantique n’est capable de briser la cryptographie qui sécurise …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/bc6f8360dedaa7b7abe763cdb35b5a92724cc65f/_xlarge.jpeg"
-    },
-    {
-      "id": "a0d64a0c68fb1826ab756ed83cdb93585b422ee0",
-      "title": "Le gouvernement américain mise 2 milliards de dollars sur l'informatique quantique, et le secteur de la défense n'arrive pas à suivre",
-      "url": "https://www.coindesk.com/fr/opinion/2026/06/12/the-u-s-government-is-betting-usd2-billion-on-quantum-computing-and-the-defense-side-can-t-keep-up?amp%3Butm_content=CoinDesk%2Fmagazine%2FCOINDESK+Fran%C3%A7ais",
-      "source": "Cryptographie FR",
-      "publishedAt": "2026-06-12T15:31:00.000Z",
-      "summary": "Pruden soutient que pour se prémunir contre un ordinateur quantique capable d'opérations cryptographiquement pertinentes, nous avons besoin de …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "9a802641d4ad6d9a97eb0dfa4ce2b05bd21cb184",
-      "title": "L'informatique quantique n'est pas le problème. C'est un signal d'alarme !",
-      "url": "https://www.journaldunet.com/cybersecurite/1551117-l-informatique-quantique-n-est-pas-le-probleme-c-est-un-signal-d-alarme/?amp%3Butm_content=topic%2Ffr-cryptographie",
-      "source": "Cryptographie FR",
-      "publishedAt": "2026-06-12T12:30:13.000Z",
-      "summary": "La véritable menace n'est pas l'arrivée du quantique, mais la difficulté des entreprises à faire évoluer leur cryptographie. L'agilité …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/journaldunet.com/1644d53d3699ebeb15063f69370beb888652bcf7/_xlarge.jpeg"
     }
   ]
 }
