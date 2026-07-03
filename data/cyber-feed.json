@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T07:22:47.535Z",
+  "generatedAt": "2026-07-03T10:38:11.830Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -76,12 +76,34 @@
   ],
   "items": [
     {
+      "id": "dcd1e8326a8ef92c1c57892b17fad183700710ec",
+      "title": "Cette faille Microsoft SharePoint est désormais exploitée par des hackers, il est urgent de la corriger",
+      "url": "https://www.clubic.com/actualite-619840-cette-faille-microsoft-sharepoint-est-desormais-exploitee-par-des-hackers-il-est-urgent-de-la-corriger.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-03T09:47:00.000Z",
+      "summary": "La CISA vient d’alerter sur l’exploitation active d’une faille SharePoint Server corrigée en mai dernier. Elle permet à un attaquant authentifié …",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/f88828fe411e4c19075a800ccc5a766d0c18faa9/_xlarge.jpeg"
+    },
+    {
+      "id": "cc03f263873bcd2a1e959e665c307f231bdb4917",
+      "title": "PamStealer Uses Fake Maccy Sites and PAM Checks to Steal Mac Login Passwords",
+      "url": "https://thehackernews.com/2026/07/pamstealer-uses-fake-maccy-sites-and.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-03T08:03:37.000Z",
+      "summary": "Cybersecurity researchers have flagged a new macOS information stealer called PamStealer that employs a series of clever tricks to infect systems and siphon sensitive data. The ste",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEmcBMGUjTwe51gVQWP401twHYLMUOocwG9nYkgadlFV6cmGXrPS-3PeNTg_GJOaUVohWILNXgIC8ufSkPqXRbW1wIyvUr5JEKCrrMI3_hlN8uFtxpf-sBn743tQmlK2ipu_qWtY3k18cPkaQ6XGJnR7RPjuMOWkYwcmJ5XSnSNQHbNpkEgyyP29hJA6j2/s1600/macos-malware.jpg"
+    },
+    {
       "id": "3cee0a2fa5c9595697bcf0de16b8a46d0e4a39e1",
-      "title": "Un eurodéputé chargé d’enquêter sur Pegasus lui-même visé par le logiciel espion",
+      "title": "L’eurodéputé Stelios Kouloglou chargé d’enquêter sur Pegasus lui-même visé par le logiciel espion",
       "url": "https://www.lemonde.fr/pixels/article/2026/07/03/un-eurodepute-charge-d-enqueter-sur-pegasus-lui-meme-vise-par-le-logiciel-espion_6718462_4408996.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
       "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-03T05:00:09.000Z",
-      "summary": "Des analyses menées sur le téléphone de l’ancien élu grec Stelios Kouloglou ont révélé des traces d’infection par le logiciel de NSO Group, alors …",
+      "publishedAt": "2026-07-03T05:00:04.000Z",
+      "summary": "Des analyses menées sur le téléphone de l’ancien élu grec ont révélé des traces d’« infection » par le logiciel de NSO Group, alors qu’il participait …",
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://img.lemde.fr/2026/07/02/0/2/2044/1363/1440/960/60/0/dd92b5b_upload-1-u40rx0zazas8-49233288582-265230fa6c-k.jpg"
@@ -901,17 +923,6 @@
       "imageUrl": "https://static.actu.fr/uploads/2025/03/6ac16e37996766ec16e37996703d16v.jpg"
     },
     {
-      "id": "9cfc5eeab8b5a48ed4415fc347246fa1cd23fa99",
-      "title": "« Certaines choses vont changer » : les enseignements après la cyberattaque à Marcq-en-Barœul",
-      "url": "https://www.lavoixdunord.fr/1717367/article/2026-06-30/certaines-choses-vont-changer-les-enseignements-apres-la-cyberattaque-marcq-en?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-30T16:15:00.000Z",
-      "summary": "Environ 5 700 usagers de Marcq-en-Barœul ont été avertis d’un risque de fuite de données personnelles après un piratage du site municipal ce …",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://lvdneng.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_extra_big/2026/06/30/node_1717367/68659048/public/2026/06/30/88712927.jpeg?itok=eFyoX4ex1782836116"
-    },
-    {
       "id": "4a0d021f244a7541f739fb80b10efd32851540a7",
       "title": "Langflow RCE Exploited to Deploy Monero Miner on Exposed AI App Endpoints",
       "url": "https://thehackernews.com/2026/06/langflow-rce-exploited-to-deploy-monero.html",
@@ -1581,17 +1592,6 @@
       "type": "NEWS",
       "severity": "Moyenne",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgL9wu_kGShq1lDTiDFjL3VdxF51l9aXdtW8vfE6Z0f3nLKXnr3WctY8jw3INV7FcO0FmLzv_EVCkfmsC4AmEaPih-SD_c24f8R_MJjjNT8OBdd6SuwVECGV3VdxnMDBs7ULHaVBFPPGkZZcruUhMcbmYE-RQu-QTZfn7rEWltSSSdFLhJeZKIZy4jZzl7L/s1600/cyberattack.jpg"
-    },
-    {
-      "id": "8a35cced3a3d29ca185bd0811d99282bbaeff7d9",
-      "title": "OpenAI Previews GPT-5.6 Sol With Restricted Access and Stronger Cyber Safeguards",
-      "url": "https://thehackernews.com/2026/06/openai-limits-gpt-56-rollout-as-sol.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-27T12:19:37.000Z",
-      "summary": "OpenAI on Friday released three versions of GPT-5.6, called Sol, Terra, and Luna, as a limited preview to a small number of companies as part of an ongoing engagement with the U.S.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiweorWxmIvPG8uskOe44fLur9F5OJvqVdFLV1ejFqQozXruk70nzMhRaY58n4BuMhW1sbsdSvhTrlSxM8U5SLwPdaeRWNi4eQMUjEsFgmGV-37gTdnqk1NXLT4Ixadu4sq_pm0l_HVzuGHaIgcDnV_y092aZ1gCKkZ6lh2bp24PUBUfgsCSgvjlZiKRLMH/s1600/gpt.jpg"
     },
     {
       "id": "29e1a0d3b663009431b066be101983c3fd64d833",
