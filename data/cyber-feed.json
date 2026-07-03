@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T10:38:11.830Z",
+  "generatedAt": "2026-07-03T14:11:04.449Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,7 +17,7 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 115
+      "items": 120
     },
     {
       "name": "Exploit-DB",
@@ -76,15 +76,59 @@
   ],
   "items": [
     {
-      "id": "dcd1e8326a8ef92c1c57892b17fad183700710ec",
-      "title": "Cette faille Microsoft SharePoint est désormais exploitée par des hackers, il est urgent de la corriger",
-      "url": "https://www.clubic.com/actualite-619840-cette-faille-microsoft-sharepoint-est-desormais-exploitee-par-des-hackers-il-est-urgent-de-la-corriger.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "id": "8364b5f71ae6dd583d0416387810e28496dab35d",
+      "title": "Armored Likho Targets Government Agencies, Power Sector with BusySnake Stealer",
+      "url": "https://thehackernews.com/2026/07/armored-likho-targets-government.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-03T13:36:33.000Z",
+      "summary": "A previously undocumented threat actor known as Armored Likho has been attributed to cyber attacks targeting government agencies and the electric power sector across Russia, Brazil",
+      "type": "NEWS",
+      "severity": "Moyenne",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTOYmjevwtg2njZKRnBeTtT1fSpmOD45a_apqSQWJJQH8N0HtftQ_Tj3mCC6dfysokuddsTPVCKKM4hd4Trjs6dPn1tvUNi4gWvj_OQevLSDqNfuGOK87WNAQSRVZSEOOLoo0Ip4IQQTa14eqh7J7rPo-8edHwoNORqqrcgtFAT-LySviPfbahvJDMDk_T/s1600/power.jpg"
+    },
+    {
+      "id": "c472926f12137eaf87e44496e79e7f257a255b4b",
+      "title": "Et si notre réalité n'était qu'un gigantesque bug informatique ?",
+      "url": "https://www.france24.com/fr/%C3%A9missions/tech-24/20260703-et-si-notre-r%C3%A9alit%C3%A9-n-%C3%A9tait-qu-un-gigantesque-bug-informatique?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
       "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-03T09:47:00.000Z",
-      "summary": "La CISA vient d’alerter sur l’exploitation active d’une faille SharePoint Server corrigée en mai dernier. Elle permet à un attaquant authentifié …",
-      "type": "CVE",
+      "publishedAt": "2026-07-03T13:20:44.000Z",
+      "summary": "Imaginez que notre univers ne soit qu'un gigantesque jeu vidéo. Popularisée par \"Matrix\" et tournée en dérision dans \"Le Vertige\" – la dernière comédie de Quentin Dupieux –, cette ",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://s.france24.com/media/display/ee323554-76e1-11f1-bae2-005056bf30b7/w:1280/p:16x9/Capture-d-e%CC%81cran-2026-07-03-a%CC%80-15-16-33.jpg"
+    },
+    {
+      "id": "f597ab8de0f2872d0a4aa4470691f2004c577728",
+      "title": "Pegasus : un ex eurodéputé enquêtant sur le logiciel espion ciblée par ce dernier",
+      "url": "https://www.sudouest.fr/politique/pegasus-un-ex-eurodepute-enquetant-sur-le-logiciel-espion-ciblee-par-ce-dernier-29776099.php?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-03T13:13:28.000Z",
+      "summary": "Des eurodéputés ont dénoncé vendredi le piratage du téléphone de l’ancien élu Stelios Kouloglou par le logiciel espion Pegasus, alors qu’il faisait …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/sudouest.fr/005da4b77aabcd7b452dfabf43e6b7ee0796681e/_xlarge.jpeg"
+    },
+    {
+      "id": "ffa9f1cb3cb9ecb7aeb533f9d92344edee6c01c2",
+      "title": "Anatomie du phishing moderne : le clic anodin qui coûte tout",
+      "url": "https://www.journaldunet.com/cybersecurite/1552155-anatomie-du-phishing-moderne-le-clic-anodin-qui-coute-tout/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-03T13:01:43.000Z",
+      "summary": "3,8 millions d'attaques de phishing ont été recensées en 2025, un niveau record. Et pourtant, ce chiffre ne raconte qu'une partie de l'histoire. Ce …",
+      "type": "NEWS",
       "severity": "Élevée",
-      "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/f88828fe411e4c19075a800ccc5a766d0c18faa9/_xlarge.jpeg"
+      "imageUrl": "https://ic-cdn.flipboard.com/journaldunet.com/422abb783a6b8e93e22a61b4db764b90697b219b/_xlarge.jpeg"
+    },
+    {
+      "id": "af4c0c0e6a91000f165c68fb402db1bfc9769559",
+      "title": "European Parliament Member Investigating Spyware Was Hacked With Pegasus",
+      "url": "https://thehackernews.com/2026/07/european-parliament-member.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-03T11:05:43.000Z",
+      "summary": "A new report from the Citizen Lab has revealed that former Member of the European Parliament Stelios Kouloglou had his mobile device repeatedly hacked with the notorious Pegasus sp",
+      "type": "NEWS",
+      "severity": "Moyenne",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhC5WPtje84KYSxAYIbS54mCBmT7srsKokiZPsDcIbhcky59AAsHQYbWo4TrLsj3y1d7uI10DVgOt_5aEFaPQxKiwAPsJQJllaBBtuogSb7D8JF54_ahgzDstn8ST7WTRUAnhC10prFKCJgfkqEOW7m0o1yWDb-jzZFUWkzXEi65Sl5lyuLKr_4Da5ZpAgY/s1600/iphone-spyware.jpg"
     },
     {
       "id": "cc03f263873bcd2a1e959e665c307f231bdb4917",
@@ -107,6 +151,127 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://img.lemde.fr/2026/07/02/0/2/2044/1363/1440/960/60/0/dd92b5b_upload-1-u40rx0zazas8-49233288582-265230fa6c-k.jpg"
+    },
+    {
+      "id": "5a9b9a709716600bd4c127b22f10494ad43fefe9",
+      "title": "Opera lance une nouvelle fonctionnalité qui détecte et bloque les contenus malveillants présents dans le presse-papiers - ZDNET",
+      "url": "https://www.zdnet.fr/actualites/opera-lance-une-nouvelle-fonctionnalite-qui-detecte-et-bloque-les-contenus-malveillants-presents-dans-le-presse-papiers-498260.htm",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-03T01:07:56.000Z",
+      "summary": "Si vous avez l'habitude de copier-coller du contenu provenant de sites web, vous pourriez être surpris de vous retrouver victime d'une attaque « …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2026/07/paste-protect-popup-ui-3.webp"
+    },
+    {
+      "id": "8c37e4092a74bcee0b66ce7ca01b27d3ed78c262",
+      "title": "Control Web Panel - CVE-2026-57517",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/control-web-panel-cve-2026-57517-2026-07-03",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-03T00:51:49.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité d'&lt;strong&gt;injection SQL aveugle&lt;/strong&gt; dans le panneau &lt;strong&gt;Control Web Panel&lt;/strong&gt;, au niveau du &lt;strong&",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "be3995f6fd19a84df4faeb431c5caf9c50ce38e2",
+      "title": "Ubiquiti - CVE-2026-50746",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/ubiquiti-cve-2026-50746-2026-07-03",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-03T00:50:28.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;contrôle d'accès incorrect&lt;/strong&gt; au sein de l'application &lt;strong&gt;UniFi Connect&lt;/strong&gt;.&lt;/p&gt; &lt",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "98136e7856aca59f7f01a4cae20597267461f967",
+      "title": "OpenJS - CVE-2026-14198",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/openjs-cve-2026-14198-2026-07-03",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-03T00:49:25.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;conflit d'interprétation&lt;/strong&gt; entre &lt;strong&gt;@fastify/middie&lt;/strong&gt; et le &lt;strong&gt;routeur Fasti",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "2922209d5879df35a3c2983a0c96f5871d8de9ce",
+      "title": "WatchGuard - CVE-2026-13368",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/watchguard-cve-2026-13368-2026-07-03",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-03T00:48:11.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;condition de course&lt;/strong&gt; menant à une &lt;strong&gt;utilisation de mémoire après libération&lt;/strong&gt; dans le",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "5a21c367ce0e56988df531efbe3ad9e6cb752c98",
+      "title": "Progress Software - CVE-2026-9272",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/progress-software-cve-2026-9272-2026-07-03",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-03T00:46:47.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité d'&lt;strong&gt;injection SQL&lt;/strong&gt; dans le module &lt;strong&gt;Flowmon ADS&lt;/strong&gt;.&lt;/p&gt; &lt;p&gt;Flowmon ADS est un m",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "50f824b14c9d06dd9bff8f1dff663ccea665a8f0",
+      "title": "Vulnérabilité dans FreeBSD (03 juillet 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0830/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-07-03T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans FreeBSD. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données.",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "3e3d6435454c83f20b0727c4a1a3f2ddd940ee7b",
+      "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (03 juillet 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0832/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-07-03T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à di",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "fe85fd11f14a3ea3ba2c7d1e8cd8789009a2dfb2",
+      "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (03 juillet 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0833/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-07-03T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteint",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "803536de18f643e4e74152df39fbd40efc05a599",
+      "title": "Multiples vulnérabilités dans les produits IBM (03 juillet 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0834/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-07-03T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, u",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "a4d7edcb4659598f61170c7036bd7a05f7b4d457",
+      "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (03 juillet 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0831/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-07-03T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une é",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
     },
     {
       "id": "a8e0322dfceafc320ba8db48af1f09a4fcbdacdc",
@@ -604,17 +769,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghMOqrFNgwfokWIpvUBFpDUO-So-0focm0a7d9mhocEHiwdB2cHmPQ9q4STjyCr-gVUPK67TYluInMr0_v1omCJVWbd9OVOg6AqVROoxZb44b5BOpxdBb2GECjFw77NhlCf6nWC5oJF3x3KvE3EyDV2pUR3lvROAWjaFs9SOyvzM3qRB6MzEUCFYuVAoCb/s1600/pro-exploit.jpg"
     },
     {
-      "id": "9ef70588f0cb773ac9bfeac6170f8218c9b4a283",
-      "title": "«Poutine ne connaît que la guerre comme mode de gouvernement», alerte Nathalie Loiseau",
-      "url": "https://video.lefigaro.fr/figaro/poutine-ne-connait-que-la-guerre-comme-mode-de-gouvernement-alerte-nathalie-loiseau-20260701?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-01T13:21:10.000Z",
-      "summary": "«Ceux qui nous disent qu’il n’y aura pas les chars russes dans les rues de Paris posent la question à côté. Il y a déjà des cyberattaques russes, des …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://i.f1g.fr/media/ext/1200x630_crop/api-video-public.lefigaro.fr/assets/36/6e/8e/366e8ed2ba9aeb80da83e0c6e31da5c4.jpeg"
-    },
-    {
       "id": "9d0f264d2d44f727ec3a6c55ab65b25b323badf5",
       "title": "AI-Generated Browser Ransomware Abuses Chromium API on Windows, Linux, macOS, Android",
       "url": "https://thehackernews.com/2026/07/ai-generated-browser-ransomware-abuses.html",
@@ -712,17 +866,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/d582a592fa2b2b23e798dc9708e11b86a6dbc561/_xlarge.jpeg"
-    },
-    {
-      "id": "2f1dc1aea052086bbb42e98799e93c39018e5227",
-      "title": "Nos mots de passe et codes multifacteur sont-ils obsolètes ?",
-      "url": "https://www.journaldunet.com/cybersecurite/1552141-nos-mot-de-passe-et-codes-multifacteur-sont-ils-obsoletes/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-01T08:59:58.000Z",
-      "summary": "Les attaquants contournent désormais la double authentification via des techniques qui interceptent le jeton de session en se plaçant entre …",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://ic-cdn.flipboard.com/journaldunet.com/0b419a180ab7c36f3aba1504e05ced711cbbd918/_xlarge.jpeg"
     },
     {
       "id": "7c0a792a21ed2dd167283fc8c0401f9dd0bd9ed9",
@@ -910,17 +1053,6 @@
       "type": "NEWS",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2XzOOqoX4E_CfxUMxd0YAH9MRjvZ8-kBBiVhd2VvCvbie3zla8PA80fO2xZ4Ux3_gmreVKG7ANFrSGpDk1lsURfQZuVVapjqi565oGmkqImmFdiQsQFL5z7V9s7TTkH4KgmGbEFnpdAQz94DrXip4q8Qa-ec9K1B1cmeL3szEBWUq9nX-MWppatyug3A/s1600/RustDuck.jpg"
-    },
-    {
-      "id": "90caad3cb3d6081f2e21f72651d1a533eae5437e",
-      "title": "Dans le Vaucluse, la police municipale victime d'une cyberattaque : des données sensibles publiées sur le darknet",
-      "url": "https://actu.fr/provence-alpes-cote-d-azur/le-pontet_84092/dans-le-vaucluse-la-police-municipale-victime-d-une-cyberattaque-des-donnees-sensibles-publiees-sur-le-darknet_64477058.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-30T16:24:46.000Z",
-      "summary": "Des données de la police municipale du Pontet (Vaucluse) ont été publiées sur le darknet ce mardi 30 juin 2026. Près de 20 000 personnes sont …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://static.actu.fr/uploads/2025/03/6ac16e37996766ec16e37996703d16v.jpg"
     },
     {
       "id": "4a0d021f244a7541f739fb80b10efd32851540a7",
@@ -1418,17 +1550,6 @@
       "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2026/06/st54m.jpg"
     },
     {
-      "id": "4421a84d979e895c86334747e12eef5eb40bb4f6",
-      "title": "Hijacked npm and Go Packages Use VS Code Tasks to Deploy Python Infostealer",
-      "url": "https://thehackernews.com/2026/06/hijacked-npm-and-go-packages-use-vs.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-29T05:36:06.000Z",
-      "summary": "Cybersecurity researchers have uncovered two hijacked npm packages and a cluster of Go packages that are designed to deploy a Python-based information stealer on compromised Window",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBjmO4haWCgXfALMAtSHKJXRWIlLfYqulkKflfK-3BSYON-8A4MjUNoZRxOyaLGc-4Bsj1eIfGDhdpJuKZrJORz4HZHx5iM7lj0-VlehqqZ6kaq5_ZWP08MviAchtNF1XORD_Fps-IWderGKNM18TT-Jgh_0LRFULqdMeOfv_FKDd8oWmHmv-iR1-_7XZP/s1600/gogo.jpg"
-    },
-    {
       "id": "5fa08d261ed487379bcf1a8540681bea47f23273",
       "title": "Notepad++ - CVE-2026-52884",
       "url": "https://cyberveille.esante.gouv.fr/alertes/notepad-cve-2026-52884-2026-06-29",
@@ -1581,17 +1702,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/f806567bcf402d36a2f47ba27395cc298e0179c1/_xlarge.jpeg"
-    },
-    {
-      "id": "e91e2b597ce0be0383113c64bde1f38f9fd9c638",
-      "title": "Ukraine Says Russian Intelligence Used Fake Support Texts to Steal Messaging Credentials",
-      "url": "https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-27T17:27:11.000Z",
-      "summary": "The Security Service of Ukraine (SSU) said it, together with the U.S. Federal Bureau of Investigation (FBI), uncovered a long-running campaign orchestrated by Russian intelligence ",
-      "type": "NEWS",
-      "severity": "Moyenne",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgL9wu_kGShq1lDTiDFjL3VdxF51l9aXdtW8vfE6Z0f3nLKXnr3WctY8jw3INV7FcO0FmLzv_EVCkfmsC4AmEaPih-SD_c24f8R_MJjjNT8OBdd6SuwVECGV3VdxnMDBs7ULHaVBFPPGkZZcruUhMcbmYE-RQu-QTZfn7rEWltSSSdFLhJeZKIZy4jZzl7L/s1600/cyberattack.jpg"
     },
     {
       "id": "29e1a0d3b663009431b066be101983c3fd64d833",
@@ -2163,116 +2273,6 @@
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le &lt;strong&gt;middleware StripPrefix&lt;/strong&gt; de &lt;strong&gt;Traefik&lt;/strong&gt; exploitable par un attaquant non authenti",
       "type": "CVE",
       "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "4e6920cd32baddfb1b4abd7748b947144922f57c",
-      "title": "Spring - CVE-2026-41862",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/spring-cve-2026-41862-2026-06-24",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-06-24T01:51:03.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans les &lt;strong&gt;backends de persistance basés sur Kryo&lt;/strong&gt; de &lt;strong&gt;Spring Statemachine&lt;/strong&gt; (JPA, MongoD",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "c7795b12479d984438fec6ef727643043ac8fd05",
-      "title": "Tenable - CVE-2026-13007",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/tenable-cve-2026-13007-2026-06-24",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-06-24T01:50:06.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans plusieurs &lt;strong&gt;endpoints d'API non authentifiés&lt;/strong&gt; exposés sous le chemin /w/api/* de &lt;strong&gt;Tenable Identit",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "f52934f53337723070b769cea2d650335e3ccc01",
-      "title": "IBM - CVE-2026-9072",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/ibm-cve-2026-9072-2026-06-24",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-06-24T01:47:46.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le composant &lt;strong&gt;WebSphere WebServer Plug-in&lt;/strong&gt; d'&lt;strong&gt;IBM WebSphere Application Server&lt;/strong&gt; et",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "008b60deba79b204d8707e56cdae4bc4005c9aa1",
-      "title": "Multiples vulnérabilités dans cURL et libcurl (24 juin 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0797/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-06-24T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans cURL et libcurl. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à l",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "c9143b19138ccb49f9bdeb428004594dba17b1ab",
-      "title": "Multiples vulnérabilités dans Tenable Identity Exposure (24 juin 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0796/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-06-24T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Tenable Identity Exposure. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à di",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "d8ea1e120d2884aa3cd1a9106808ffbf6dba9532",
-      "title": "Multiples vulnérabilités dans Microsoft Azure Linux (24 juin 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0798/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-06-24T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Azure Linux. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "e7fd89ec52059d7722dc26aad9adf96326bc8fed",
-      "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
-      "url": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
-      "source": "Krebs on Security",
-      "publishedAt": "2026-06-23T16:12:49.000Z",
-      "summary": "Two men pleaded guilty in the United Kingdom this week to criminal charges stemming from an August 2024 cyberattack that crippled Transport for London, the entity responsible for t",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://krebsonsecurity.com/wp-content/uploads/2026/06/flowers-jubair-nca.png"
-    },
-    {
-      "id": "fd1b0c9928646918ec3bcb8bcd1413f2c58feaa6",
-      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/06/23/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-      "source": "CISA",
-      "publishedAt": "2026-06-23T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA has added four new vulnerabilities to its &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities (KEV)",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": null
-    },
-    {
-      "id": "95ca7df9c9e79886c053976eecd05a6292c5898f",
-      "title": "Impact of Linux Kernel vulnerabilities on B&amp;R products",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-06",
-      "source": "CISA",
-      "publishedAt": "2026-06-23T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-174-06.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "997af83b93f3a768f42525344985a56bf1cabac9",
-      "title": "Siemens SIPROTEC 5 Using DIGSI5 Protocol",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-02",
-      "source": "CISA",
-      "publishedAt": "2026-06-23T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-174-02.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
       "imageUrl": null
     }
   ]
