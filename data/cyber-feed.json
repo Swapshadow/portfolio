@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T03:48:31.504Z",
+  "generatedAt": "2026-07-06T08:23:02.536Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -23,7 +23,7 @@
       "name": "Exploit-DB",
       "url": "https://www.exploit-db.com/rss.xml",
       "status": "ok",
-      "items": 0
+      "items": 50
     },
     {
       "name": "The Hacker News",
@@ -75,6 +75,50 @@
     }
   ],
   "items": [
+    {
+      "id": "133cb753dd1ac687f81c0d39d36dc28d66f7d160",
+      "title": "Opera GX Flaw Let Malicious Sites Auto-Install Mods to Steal Data From Visited Pages",
+      "url": "https://thehackernews.com/2026/07/opera-gx-flaw-let-malicious-sites-auto.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-06T07:27:50.000Z",
+      "summary": "Researchers found a flaw in Opera GX, the gaming-focused version of the Opera browser, that let a malicious website silently install a browser add-on and use it to lift specific da",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZ_WItJUaS3rk5pAYa5yOsKuUt0Yovlv1T-jIz2GBBhcmMjToCgnWuEApyWfgDwngwAPcEGke0zwo_2DKKHaN9vzzHMAnd7Z3esepEvjSM022BzOdjo0sJW2bSMlslKXVv5Fg701ozva1HDgZPJV4Qya8Xevye-eT4dB0UmIJK9CKq-_wLnEGgNYigRLzh/s1600/opera-data-leak.jpg"
+    },
+    {
+      "id": "fcaae14a6ba70e2265013cc318a866df0a93d1f1",
+      "title": "SkillCloak Lets Malicious AI Agent Skills Evade Static Scanners with Self-Extracting Packing",
+      "url": "https://thehackernews.com/2026/07/new-skillcloak-technique-lets-malicious.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-06T06:33:56.000Z",
+      "summary": "Scanners meant to catch malicious add-on \"skills\" for AI coding agents can be fooled by a few simple changes that leave the malware working, according to a new study from researche",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjw4ZKsU9PwSPcL_Vs2ZqYIh0ahMuSFSNcCv_Y5MiM7MRsUgeZCDa5XTSWVYQXjLg-ByFbm4cHoo-8SSeWrB7KSdYrl4A1Ioif-v8NLNA43asXEHtYjn6uad21Savnzi_1iJ0YQ44iuXECEIBbyc3l7lJ9l2pdofVvP7dM3n9Ji5OeUeuPDHX5sqBJreUUB/s1600/ai-skills.jpg"
+    },
+    {
+      "id": "9d657be7cbe0ef363e03d5c891249f6f79d0dab8",
+      "title": "Le Flipper Zero voit son support logiciel réduit à l'approche d'un nouveau modèle",
+      "url": "https://www.frandroid.com/produits-android/ordinateurs/3169489_avec-larrivee-prochaine-de-son-successeur-le-flipper-zero-part-en-preretraite?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-06T06:25:49.000Z",
+      "summary": "Connu pour être un gadget chéri des hackers et autres bricoleurs en cybersécurité, le Flipper Zero va entrer dans une phase de prise en charge …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://c0.lestechnophiles.com/images.frandroid.com/wp-content/uploads/2026/07/capture-decran-du-2026-07-06-08-16-47.jpg?resize=1600%2C900&amp%3Bkey=8fab1396"
+    },
+    {
+      "id": "80e23d4c27ec386969d9cc6b2b1937231fc8c67d",
+      "title": "Chiffrement post-quantique : Microsoft et Google se préparent au pire pour 2029",
+      "url": "https://android-mt.ouest-france.fr/news/chiffrement-post-quantique-pourquoi-2029-est-devenu-la-date-butoir-pour-microsoft-google-et-cloudflare/205808/?amp%3Butm_content=topic%2Ffr-technologie",
+      "source": "Cryptographie FR",
+      "publishedAt": "2026-07-06T05:22:30.000Z",
+      "summary": "Un calendrier qui s’est accéléré sous la pression technologique Pendant longtemps, la cryptographie post-quantique a occupé une place confortable dans …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/c19ccb9188fe8c78c11152b07cfc5d1c6187c340/_xlarge.jpeg"
+    },
     {
       "id": "315e3ff5a6d8abae538b3d9a2406545b0060a9b0",
       "title": "WhatsApp mise sur les pseudos, la gendarmerie s’attribue la chute d’YggTorrent et une hackeuse s’invite dans les caméras du Mondial : on vous raconte la semaine Cyberguerre",
@@ -945,17 +989,6 @@
       "imageUrl": "https://img.20mn.fr/xtJDEJD7RHWsn4VMARKqISk/1444x920_scroller-avec-son-cafe-du-matin-s-est-avere-complique-ce-mercredi-pour-des-abonnes-orange"
     },
     {
-      "id": "a11dee576ae74092207e9a239776ceac8760589f",
-      "title": "Les États-Unis promettent jusqu'à 10 millions de dollars pour retrouver des hackers liés à la Russie",
-      "url": "https://siecledigital.fr/2026/07/01/les-etats-unis-promettent-jusqua-10-millions-de-dollars-pour-retrouver-des-hackers-lies-a-la-russie/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-01T10:56:41.000Z",
-      "summary": "Le département d'État américain offre une prime susceptible d'atteindre 10 millions de dollars via son programme Rewards for Justice. Un diplomate …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://siecledigital.fr/wp-content/uploads/2026/07/hackers-russie.jpg"
-    },
-    {
       "id": "53deebad2f2bce98677ef7fb4369e19805df0c44",
       "title": "Microsoft Accelerates Post-Quantum Cryptography Shift to 2029",
       "url": "https://thehackernews.com/2026/07/microsoft-accelerates-post-quantum.html",
@@ -1515,28 +1548,6 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOcObOpyIQZzuiNoFu6Lv4jCDh64o1WYrC3stGdk58mMRg69RT56svVrXVwu618f6szk2lj_Tqbt6b7Rg25yV0cauxIDTbMAI8cbftKVYibIt5SMeaOT2zE3oeuu-RLI7M1mkEV3zirqDiO-nLMikX7QixM2EpVIdKQERGc7I_0p58L4J-s5mBjSCpgHc/s1600/pp-ai.jpg"
-    },
-    {
-      "id": "e633c5a7fa3e0150506cce16cc395ae05cf49615",
-      "title": "Apple Patches 30+ iOS, macOS, Safari Flaws, Including AI-Discovered WebKit Bugs",
-      "url": "https://thehackernews.com/2026/06/apple-patches-30-ios-macos-safari-flaws.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-29T15:30:00.000Z",
-      "summary": "Apple on Monday released security updates for iOS, macOS, and the Safari web browser to address over three dozen flaws, including four vulnerabilities in WebKit that were discovere",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgEWbrJH-z_uAL6GFaOqplYF1ewSOBvFpaKD24W74VEBaSO-pW3sy0I0e57Bmc9yBKV4vb6zWYaVjd-oTSy2sSQNSubgQHcmFav_bp3HnySXcSGR-ocRiUfYcXgUXm44XZyrdNnIq2JqJxZQG5bnbui12eVoG3GPgVnGy9AE6vfDp3km5TTtf6rjPv6FZV/s1600/apple-updates-ai.jpg"
-    },
-    {
-      "id": "0aa57bf9a8bacfe4321195f893adb66a7f80268b",
-      "title": "Mustang Panda Uses Zoho WorkDrive as Command Channel in Indian Government Attacks",
-      "url": "https://thehackernews.com/2026/06/mustang-panda-uses-zoho-workdrive-as.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-29T15:03:40.000Z",
-      "summary": "The China-aligned espionage group Mustang Panda is running two campaigns against the Indian government and hydropower targets, deploying new malware and turning a legitimate cloud ",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4479X60pqma2HNkNzrVQuQlGImd-48w4eYTTW-wylTLfK7XfLPtmNOMi79oy48LNiFg-4a_vqF378ZobR2Dy6VTO38VxbsFc_l8xQypwe-V43txSB7f73JS142E4uBXjrLKx0lcS-UOUMZ45kLeYgaqCjg2Je2TElLosoBvARIQpzam5q3ckk5CVXsoAF/s1600/india-china.jpg"
     },
     {
       "id": "913d5fd23707ad418e8afc9c6838db11f548931f",
@@ -2263,17 +2274,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://cdn-static.boursier.com/illustrations/photos/l_bourse-bourse.jpg"
-    },
-    {
-      "id": "1a7f104b350ad98516233a408b6841adbfb41149",
-      "title": "STMicroelectronics dévoile le ST54M, la première puce sécurisée au monde dotée de cryptographie post-quantique pour les appareils mobiles de dernière génération",
-      "url": "https://www.lesoleil.com/communiques-de-presse/2026/06/24/stmicroelectronics-devoile-le-st54m-la-premiere-puce-securisee-au-monde-dotee-de-cryptographie-post-quantique-pour-les-appareils-mobiles-de-derniere-generation-NN5RCLGDBZESFLC25C54CPOJVY/?amp%3Butm_content=topic%2Ffr-cryptographie",
-      "source": "Cryptographie FR",
-      "publishedAt": "2026-06-24T06:00:14.000Z",
-      "summary": "Genève (Suisse), le 24 juin 2026 – STMicroelectronics (NYSE : STM), un leader mondial des semiconducteurs dont les clients couvrent toute la gamme des …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://lescoopsdelinformation-le-soleil-prod.web.arc-cdn.net/resizer/v2/OVJKEYIC4VDJPLD2YK57T4KE7U.jpg?auth=502d55a293454238a418735ef07d92eb5b392290a13e0cf79a6869da02f1f321&amp%3Bheight=900&amp%3Bsmart=true&amp%3Bwidth=1600"
     }
   ]
 }
