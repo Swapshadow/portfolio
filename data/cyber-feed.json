@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T07:41:10.924Z",
+  "generatedAt": "2026-07-07T11:09:37.082Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -23,7 +23,7 @@
       "name": "Exploit-DB",
       "url": "https://www.exploit-db.com/rss.xml",
       "status": "ok",
-      "items": 0
+      "items": 50
     },
     {
       "name": "The Hacker News",
@@ -76,15 +76,59 @@
   ],
   "items": [
     {
+      "id": "901a988e9ab9ca45e77d90027b4c442563e66d04",
+      "title": "Swisscom et Sunrise s'unissent contre les cyberescroqueries",
+      "url": "https://www.20min.ch/fr/story/suisse-swisscom-et-sunrise-s-unissent-contre-les-cyberescroqueries-103597780?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-07T10:17:13.000Z",
+      "summary": "Les opérateurs ont créé un consortium: dès que l'un détecte une activité malveillante, il avertit l'autre. Plusieurs attaques seraient ainsi tuées …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/20min.ch/787744edf6c888255205d2c54d6cf766c081638e/_xlarge.jpeg"
+    },
+    {
+      "id": "a7be9331aba98845ed17e155da75f34b91da120b",
+      "title": "Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities",
+      "url": "https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-07T09:10:51.000Z",
+      "summary": "A suspected China-aligned threat activity cluster has been observed exploiting Roundcube webmail software belonging to physics and engineering departments of U.S. and Canadian univ",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitErUXjxgvdr7CLGa67wtfentIJSFkobxbyIMtQNK4mzNTyf_3Mq9mckQNCGONMFqVaCvkvNKf7FqJfevWKstiWEOxt5wDlV_Fus-Ob3bo9vkMb3m5natJZjHhG-0r4FbH5UUBP4aiGtLcJ7mFIIwLw7IPIHOqw5ln1kAC_ZsiOvllGmVXws4bCXBGugBu/s1600/server-hacker.jpg"
+    },
+    {
+      "id": "8f4834256eed4b9fe8694ac2de6fdbc6704de0f2",
+      "title": "Tout semble pointer vers une attaque qui profite à Pékin",
+      "url": "https://ici.radio-canada.ca/nouvelle/2267271/pirates-informatiques-chine-recherche-universite-canada?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-07T09:00:00.000Z",
+      "summary": "Le rapport, préparé par la firme de cybersécurité Proofpoint, affirme que ces pirates, alignés sur les intérêts de Pékin, auraient plus …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://images.radio-canada.ca/q_auto,w_1250/v1/ici-info/16x9/chine-cyberespionnage-ordinateur.jpg"
+    },
+    {
+      "id": "3530f76db5bd14627897d71c20662689bd4ff531",
+      "title": "CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware",
+      "url": "https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-07T06:40:47.000Z",
+      "summary": "Several versions of firmware released by Chinese network device manufacturer Tenda have been found to embed an undocumented authentication backdoor that enables administrative acce",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibED37Q9WinxGoPYaXltP_givD-Q30FneMyezHB4uftr5E4hy4fMm97v_UH34sQWEvlp688bYvMR6zDzy_C93ddbqNDfIVSX7swJgdTD38hOmKgu6ZLGjBW068gXHpsT4soRscJ1vWDxTz2z8xBDSb2QD2UWrR68nVytui4mo6Q0cXVh_GjK5FC6P4imvK/s1600/backdoor-admin.jpg"
+    },
+    {
       "id": "4bdb30702ebfac76d1417e7d0680f009a9241071",
-      "title": "L'ère des pirates IA a commencé, elle est terrifiante : JADEPUFFER n'a pas besoin d'humain pour attaquer vos données (et réclamer des Bitcoins)",
+      "title": "L’ère des pirates IA a commencé, elle est terrifiante : JADEPUFFER n’a pas besoin d’humain pour attaquer vos données (et réclamer des Bitcoins)",
       "url": "https://www.presse-citron.net/pirates-ia-jadepuffer-attaquer-donnees-reclamer-bitcoins/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
       "source": "Cybercriminalité FR",
       "publishedAt": "2026-07-07T06:23:29.000Z",
-      "summary": "Quelqu’un a créé un ransomware (qui bloque des données pour demander une rançon) piloté par l’intelligence artificielle. Celui-ci agit de manière …",
+      "summary": "Quelqu'un a créé un ransomware (qui bloque des données pour demander une rançon) piloté par l’intelligence artificielle. Celui-ci agit de manière …",
       "type": "NEWS",
       "severity": "Critique",
-      "imageUrl": "https://ic-cdn.flipboard.com/presse-citron.net/70f1512e5f6fe6d4d103fc9461eb73cbf5689dd0/_xlarge.jpeg"
+      "imageUrl": "https://ic-cdn.flipboard.com/presse-citron.net/5755382b9177d3ff5eb529e816067fb8c58a5bdf/_xlarge.jpeg"
     },
     {
       "id": "ec5ee5f6fcfd92c63dab971651835b27047d636f",
@@ -434,6 +478,83 @@
       "source": "CERT-FR",
       "publishedAt": "2026-07-06T00:00:00.000Z",
       "summary": "De multiples vulnérabilités ont été découvertes dans OpenSSH. Certaines d'entre elles permettent à un attaquant de provoquer un contournement de la politique de sécurité, un déni d",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "74d12518425b9d6d3409852d26784e302e688865",
+      "title": "[webapps] Joomla Extension 4.1.4 - PHP Object injection",
+      "url": "https://www.exploit-db.com/exploits/52617",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-06T00:00:00.000Z",
+      "summary": "Joomla Extension 4.1.4 - PHP Object injection",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "3cde630a72f08e03ba6cdf36bb10a6cf03ba9f32",
+      "title": "[webapps] Pulpy 0.1.1-Beta - Filesystem Sandbox Bypass",
+      "url": "https://www.exploit-db.com/exploits/52616",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-06T00:00:00.000Z",
+      "summary": "Pulpy 0.1.1-Beta - Filesystem Sandbox Bypass",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "865d2beae35391fa0f3b9305f74c6f6b9e8a827f",
+      "title": "[local] MEmu Android Emulator 9.2.7.0 - Local Privilege Escalation",
+      "url": "https://www.exploit-db.com/exploits/52615",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-06T00:00:00.000Z",
+      "summary": "MEmu Android Emulator 9.2.7.0 - Local Privilege Escalation",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "380b16665064341e778f295ea771e0d329a7ef7f",
+      "title": "[webapps] KeepInMind 0.8.4.2 - Stored XSS",
+      "url": "https://www.exploit-db.com/exploits/52614",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-06T00:00:00.000Z",
+      "summary": "KeepInMind 0.8.4.2 - Stored XSS",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "1eb26472bd42ab845e5b099036b560349f79bbc0",
+      "title": "[webapps] KNX visualisering - Broken Access Control",
+      "url": "https://www.exploit-db.com/exploits/52613",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-06T00:00:00.000Z",
+      "summary": "KNX visualisering - Broken Access Control",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "750e8dd90ae124c017f2695e18b300c3c46e6bf7",
+      "title": "[local] Windows Defender (MsMpEng.exe) - Race Condition",
+      "url": "https://www.exploit-db.com/exploits/52612",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-06T00:00:00.000Z",
+      "summary": "Windows Defender (MsMpEng.exe) - Race Condition",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "dbe9e5295e1950f2049c82f5fd756d29b30d4afe",
+      "title": "[webapps] WordPress Plugin WPZOOM Portfolio 1.4.21 - Reflected Cross-Site Scripting (XSS)",
+      "url": "https://www.exploit-db.com/exploits/52611",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-06T00:00:00.000Z",
+      "summary": "WordPress Plugin WPZOOM Portfolio 1.4.21 - Reflected Cross-Site Scripting (XSS)",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -932,17 +1053,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwwp0Bf4s6Xp_L13nlIV5Pf2D0awJsA5cDdev6yCr9f7nLVbmJmzqJ01cmdJkO4K0E3KEvdHhK10ZDai_tXV6gZDmgJqhnsARjEhVScA9gsWHKL4zzt64aQSSgPBImpeYxLuMiORSByYXgQunRUhYhymV8AQfvYf6qsBieuh82794N44iaJ9lEl8IS8Z0/s1600/Identity-Lifecycle-Management.jpg"
-    },
-    {
-      "id": "59f0bb7defee5f1d44ce2c1baa2aba633c523e4d",
-      "title": "Banque Postale en panne : que faire si votre virement de salaire ou votre pension est bloqué ?",
-      "url": "https://www.capital.fr/votre-argent/banque-postale-en-panne-que-faire-si-votre-virement-de-salaire-ou-votre-pension-est-bloque-1528125?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-02T10:02:06.000Z",
-      "summary": "Mercredi 1er juillet, La Banque Postale a fait savoir qu’un «incident affectant les virements entrants» avait été identifié. Sur X, de nombreux …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/capital.fr/33981c9a28102dfc158e3b5c3aa922ec7f0d9766/_xlarge.jpeg"
     },
     {
       "id": "7b5f9107adb86e54bb6c8e41c022fd90fbe45c0e",
@@ -1462,17 +1572,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiA2GvsvmPnHZF-e1GDbhOVW4DxQZr79HzSMLp7-YKaA9DC-V2fVo6cmBig0bxUxWjK0Kz1mTm2Cmg6CrjaKgNhxC7xE6SsBxRx8DW5ljkMWPuJ0-7WUzxYbSrRWFdix8Nks8tobGkIY5cpNjczspeiKYyXYVSgoVct-7u1SFpWXB0mEi8AB5X-Wcp59Vca/s1600/Langflow.jpg"
     },
     {
-      "id": "6731223954a93aa9739f79a1b4cc1951f50fc1d4",
-      "title": "Silent Swap Crypto Clipper Uses Fake Google Notes Extension to Replace Wallet Addresses",
-      "url": "https://thehackernews.com/2026/06/silent-swap-crypto-clipper-uses-fake.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-30T15:40:18.000Z",
-      "summary": "Cybersecurity researchers have flagged an active browser extension campaign that is designed to steal cryptocurrency by stealthily replacing wallet addresses when unsuspecting user",
-      "type": "NEWS",
-      "severity": "Moyenne",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfz8WYO9wONzogh2V8g9VorZ8Ab_nAUZMD7rOM9xrVUhg3cbKGA5zc73PGQiAkbsNgY-qbm2AFAUjBdeMcpemGmDNWrvnpyjzKiqU8iJHMetkW68d20V_U-96mHOaHF6fff7VKBREN2v6fz1R_ahyIklq-Fd7ILYKxXck5ahL1BoFWC_CDQFrQZqQqg3hm/s1600/chrome-wallet.jpg"
-    },
-    {
       "id": "5b3579a53649ad3735c89a4ce55a7b110bb8bd77",
       "title": "Panique chez Apple : le piratage massif d'un sous-traitant dévoile l’iPhone 18 Pro et des secrets industriels",
       "url": "https://www.futura-sciences.com/tech/actualites/iphone-panique-chez-apple-piratage-massif-sous-traitant-devoile-iphone-18-pro-secrets-industriels-135795/",
@@ -1482,17 +1581,6 @@
       "type": "LEAK",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/futura-sciences.com/9f2d2d13a16645d1ae4ccc249200d10b9f797b9c/_xlarge.jpeg"
-    },
-    {
-      "id": "19849bf45aefec4734f87c9b9c2bea31ffd9e730",
-      "title": "GuardFall Exposes Open-Source AI Coding Agents to Decades-Old Shell Injection Risks",
-      "url": "https://thehackernews.com/2026/06/guardfall-exposes-open-source-ai-coding.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-30T14:26:15.000Z",
-      "summary": "The safety check that is supposed to stop an AI coding agent from running a dangerous command can be walked straight past using a shell trick that has been public for decades. New ",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgR59EidY6iMYv3s9bikjIxpj6_YTaUIesrZ3MyD9OqUbOk262aDW7bCArqr-IjT9CUQUSzE2F_knKKvs4bIJ2d9cuzZ-DKlmkW_Q3SO43HkA79kSVhCELVyKaStWliNZc9l1xxEGEFE5UmT1Abn6XMKTjk-rxBRTTtRAjb-jYDRKj-ODtIYy8dGQvbzDE/s1600/shell-ai.jpg"
     },
     {
       "id": "da4bd301be7871ebb1cc35f7c5750c8ad7846f76",
@@ -1592,17 +1680,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/iphon.fr/0c3f1cd15432f338bb3ba20e07483d3492e75c43/_xlarge.jpeg"
-    },
-    {
-      "id": "73df49de51c5b0ae6b64d32e3cadeb3ece449314",
-      "title": "130 exploits 0-day d'un coup, accessibles sur GitHub : « Exploitarium » affole la cybersécurité",
-      "url": "https://www.clubic.com/actualite-619153-exploits-0-day-d-un-coup-accessibles-sur-github-exploitarium-affole-la-cybersecurite.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-30T08:30:00.000Z",
-      "summary": "Un chercheur anonyme a déversé sur GitHub le mode d'emploi de dizaines de failles non corrigées, sans avertir un seul éditeur. Deux failles critiques …",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/e2e56fe2fa7c399e89ad01016711fe00051aa103/_xlarge.jpeg"
     },
     {
       "id": "8da44ccc4ea4cd03efa6b69f1b4dcec968ee6d8c",
@@ -2196,83 +2273,6 @@
       "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-176-05.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "281f3fe1ee8241545384bb28499c9ea57dca6a58",
-      "title": "Lancement de la MalletteCyber Pro pour sensibiliser les TPE-PME",
-      "url": "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/mallettecyber-pro",
-      "source": "Cybermalveillance",
-      "publishedAt": "2026-06-25T11:50:13.000Z",
-      "summary": "À l’occasion de la Grande Assemblée des Entrepreneurs, Cybermalveillance.gouv.fr, soutenu par un collectif d’acteurs professionnels, annonce la mise à disposition de la MalletteCyb",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "d071bc7711ca670a9bc8dec91c0bf69b8fb5c389",
-      "title": "LeHACK 2026, la scène hacker éthique française en alerte",
-      "url": "https://www.zataz.com/lehack-2026-la-scene-hacker-ethique-francaise-en-alerte/",
-      "source": "Zataz",
-      "publishedAt": "2026-06-25T09:23:18.000Z",
-      "summary": "LeHACK 2026 réunit hackers et experts cyber, avec le confessionnal ZATAZ pour signaler failles et fuites.",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/lehack-2026-brave-new-world.png"
-    },
-    {
-      "id": "dc0da053f9eed81f4a5687dc47de4a5d563f7fff",
-      "title": "Jenkins - CVE-2026-57280",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/jenkins-cve-2026-57280-2026-06-25",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-06-25T00:49:25.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le mécanisme de &lt;strong&gt;sandbox Groovy&lt;/strong&gt; du Script Security Plugin.&lt;/p&gt; &lt;p&gt;Jenkins est un serveur d'autom",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "5d4fbe545d054b947ecb377e3cbc1d805ee966d3",
-      "title": "libssh2 - CVE-2026-55200",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/libssh2-cve-2026-55200-2026-06-25",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-06-25T00:48:26.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans la fonction ssh2_transport_read() du module de transport SSH.&lt;/p&gt; &lt;p&gt;libssh2 est une bibliothèque C open source qui implémen",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": null
-    },
-    {
-      "id": "5d01427b6e8e5589e996d18e0f0993c2f3390b3e",
-      "title": "Cacti - CVE-2026-39893",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/cacti-cve-2026-39893-2026-06-25",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-06-25T00:47:31.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité d'&lt;strong&gt;injection SQL&lt;/strong&gt; dans le fichier graph_view.php.&lt;/p&gt; &lt;p&gt;Cacti est un outil open source de supervision",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": null
-    },
-    {
-      "id": "f4e9da3c64ca3cd48e44927461f4d84298314161",
-      "title": "Google - CVE-2026-13028",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/google-cve-2026-13028-2026-06-25",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-06-25T00:46:33.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de type &lt;strong&gt;use-after-free&lt;/strong&gt; dans le composant &lt;strong&gt;WebGL&lt;/strong&gt; de Google Chrome.&lt;/p&gt; &lt;p&gt",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "e062b899477ccdfbe07d9193a008bc50152b7c41",
-      "title": "GitLab - CVE-2026-10712",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/gitlab-cve-2026-10712-2026-06-25",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-06-25T00:45:18.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de type &lt;strong&gt;cross-site scripting (XSS)&lt;/strong&gt; dans le gestionnaire d'assets du &lt;strong&gt;Web IDE workbench&lt;/strong&g",
-      "type": "CVE",
-      "severity": "Élevée",
       "imageUrl": null
     }
   ]
