@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T02:53:27.908Z",
+  "generatedAt": "2026-07-08T06:29:43.346Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -75,6 +75,28 @@
     }
   ],
   "items": [
+    {
+      "id": "ff8303552c71a48772d749121cd4172765410291",
+      "title": "15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros",
+      "url": "https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-08T06:16:44.000Z",
+      "summary": "Researchers at Nebula Security have disclosed GhostLock (CVE-2026-43499), a 15-year-old Linux kernel flaw that lets any logged-in user take full root control of a machine that has ",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEid8ZRwAprNDN6zAPixm22IlrKWp03FJdQF0TxCV5v_jxckPLkOHRSzHQERbDNw_FZdnyluuhyphenhyphenGZ7pSX51cjBl-S8PrqhgARlAe8VfWPabk7t4hAy37ZSrRu6oXfRYlXP7s1x1OBYW9WHmgWobGS0wiC0mrO42xHWHrSI3ICLM5OFzsOA3tVCcs4_N1yPU/s1600/linux-root.gif"
+    },
+    {
+      "id": "0e89e883ef37a123b34d01c8c6512932d29e1852",
+      "title": "CISA Adds 4 Actively Exploited Adobe, Joomla, and Langflow Flaws to KEV",
+      "url": "https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-08T05:33:12.000Z",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four security flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of activ",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZn36WwWfaOwK7XCU9aKjVPS7QAyrnBKsKMXtVRyYbD2X30HI-ojl5F8ttD9VcbXB36anuKWq-JGEhzPq1fjwnEhKPKMjkPDMPAFe8OqR85N1dc0QZoZ7JCN9ziqGuQ8M4irelfxa_zca62EV-s9qBO9WI47ECtzM8Zi2X8T-MFfuRRbJQ8u48Y2RRt3UT/s1600/cisa-main.jpg"
+    },
     {
       "id": "31c1ff88941affac6faa9d001ab9a9e4814310aa",
       "title": "Nayax visée par un « Syndicate » du cybercrime",
@@ -1790,28 +1812,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjP1ozclOI3O1fTjKYLZrt0RCp54Fr-6NPYAifKy5c1fYwj4ceFq9U62ra9eoBq4Qw7qAh3qXE7ttfy6239qiAwK3SFyQxg316fl8BNxeeZ6IRDJFbjl09AE-gHC9Qa2V3nFljMblCovx6MgP66ZxMfawWVnAWEPNX9YS_FATZFtC69nlKhTvQQeOD58_I/s1600/Assessment.jpg"
-    },
-    {
-      "id": "53deebad2f2bce98677ef7fb4369e19805df0c44",
-      "title": "Microsoft Accelerates Post-Quantum Cryptography Shift to 2029",
-      "url": "https://thehackernews.com/2026/07/microsoft-accelerates-post-quantum.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-01T10:41:36.000Z",
-      "summary": "Microsoft on Tuesday said it's accelerating its quantum safe security roadmap, stating technology advances in quantum computing are making it essential to replace existing encrypti",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyPq-iy_BsDM3LGWIEtwydOynDIApb_bokv6EuarUGUbyIw8tFnntySLPL5FuN0Qw1PIGNzlabEaSq00S9ojIShTnbJyM0kWKUbCcIEOH3eEbdLOpgOumlnXHVvrsn2o9A75a2R3_8vjpTB18P45qaK7CtSuggZyGAb2uA8SGGXp_bUV7mqY4aGNlYGXwM/s1600/Microsoft-Encryption.jpg"
-    },
-    {
-      "id": "7c0a792a21ed2dd167283fc8c0401f9dd0bd9ed9",
-      "title": "Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware",
-      "url": "https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-01T07:20:51.000Z",
-      "summary": "Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on the",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX2IWQhpupx-U0U70hWTg9afsBb41pslrGP733mXXdBKValODZrPoYD3UQqGVq1j9fSgmgf9rqDyxEAx1iKzblSnc_AcfO_CzQ-CA4G24vKEO5YC9P1vC_K_K01RfbMAvN1eaqgRjJUYRIyWZVLQjxYVleEsgcgD_Ifm04sjBCp08xk6W7QjbX4Rgm2vXp/s1600/ai-domains.jpg"
     },
     {
       "id": "7939c05260c2522efa2aeb8d8fd5a052ef7901d2",
