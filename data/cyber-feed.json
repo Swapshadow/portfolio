@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T10:20:43.184Z",
+  "generatedAt": "2026-07-08T14:18:18.089Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -23,7 +23,7 @@
       "name": "Exploit-DB",
       "url": "https://www.exploit-db.com/rss.xml",
       "status": "ok",
-      "items": 50
+      "items": 0
     },
     {
       "name": "The Hacker News",
@@ -76,15 +76,125 @@
   ],
   "items": [
     {
-      "id": "73a53768056da2303d0845306fc6ea45a30b47ac",
-      "title": "Crise cyber : comment préparer sa communication face à la pression médiatique",
-      "url": "https://www.journaldunet.com/cybersecurite/1552471-crise-cyber-comment-preparer-sa-communication-face-a-la-pression-mediatique/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "id": "549e2d7dda1f8448f69bfac6ecafe2bb196f09b9",
+      "title": "Des PC piratés pour faire tourner de l’IA ? Ce botnet revendique une nouvelle étape du cybercrime",
+      "url": "https://www.clubic.com/actualite-620488-des-pc-pirates-pour-faire-tourner-de-l-ia-ce-botnet-revendique-une-nouvelle-etape-du-cybercrime.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
       "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-08T09:21:05.000Z",
-      "summary": "En cas de fuite de données, les organisations doivent anticiper l'exposition médiatique en développant une relation de confiance avec les médias, en …",
-      "type": "LEAK",
+      "publishedAt": "2026-07-08T14:02:00.000Z",
+      "summary": "Flare a repéré sur le dark web une offre de botnet d’un nouveau genre. Baptisé Mycelium, le framework prétend exploiter des machines compromises …",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/d342266bdd63e7bf0d2f84d8fba40e19b1ae3217/_xlarge.jpeg"
+    },
+    {
+      "id": "fec2abcb5c77c35789c794f524919a54c1a0abdb",
+      "title": "New Ghost Phishing Wave Is Breaking Traditional Email Security",
+      "url": "https://thehackernews.com/2026/07/new-ghost-phishing-wave-is-breaking.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-08T13:00:00.000Z",
+      "summary": "A recent EvilTokens campaign targeting businesses across the US and Europe is exposing a new email security blind spot. This “ghost phishing” technique keeps the malicious page hid",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgl6gaxMQBH0Bjb1ZhuaOiM5gKEk-zuSf821eRfV33ogx6YWwENunjyOPF8VXHtgtHgIevENLfBV2O04QI4TtjtDe2PGGevWptQEEagmp6q-G4FqOankGokz70XzVtz7dmNbEZ5G7-pV0yINgd2-ima7ap8xeOxuhZBKw2WPoUo81wKmGrwsPxbzYkW5Wk/s1600/anyrun-main.jpg"
+    },
+    {
+      "id": "2552649ca54a2fc455fb7c3b96fc5cc18cccd539",
+      "title": "SCMBANKER Malware Uses ClickFix Lures to Target Mexican Banking Users",
+      "url": "https://thehackernews.com/2026/07/scmbanker-malware-uses-clickfix-lures.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-08T12:52:15.000Z",
+      "summary": "A new banking fraudulent operation is targeting customers of Mexican banks, fintech, payment processors, and cryptocurrency exchanges using ClickFix lures. The activity cluster, tr",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguw-rOR8Masg2W1UVlfj5rr1nTNdwmhHfXvKG-8rLXWxkwDjtEy-O2ZCb40GEca78DPql7PPEPIrRL_tYt9Ob51ZW7_L-i7w-Ej7DzX2NtNGBrRHuorMowS0d89GxVjQW492-J1LansFJY7SqZgVCtBvcwhyphenhyphenpOcveL_9rNcsgyJm-cRSwnbwvFXKQuLMA9/s1600/clickfix-banking.jpg"
+    },
+    {
+      "id": "ef543d26c324b438a261d9b00041e233ff827e77",
+      "title": "Arnaque : la SNCF met en garde les voyageurs contre les messages frauduleux qui circulent cet été, comment les éviter ?",
+      "url": "https://www.capital.fr/economie-politique/arnaque-la-sncf-met-en-garde-les-voyageurs-contre-les-messages-frauduleux-qui-circulent-cet-ete-comment-les-eviter-1528300?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-08T12:46:53.000Z",
+      "summary": "Comme chaque année, la SNCF est victime de campagnes frauduleuses visant ses clients. L’occasion de rappeler la marche à suivre pour éviter les …",
+      "type": "NEWS",
       "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/journaldunet.com/da65047b04ee0f4110a1df57c490ea91a8fcd04c/_xlarge.jpeg"
+      "imageUrl": "https://ic-cdn.flipboard.com/capital.fr/688337ac78eafe94c2ddc25a74bc80f446b67713/_xlarge.jpeg"
+    },
+    {
+      "id": "5631acf6c306e475ca5a63d3c4dca94fde0e35aa",
+      "title": "Ce site a divulgué les résultats du Bac 2026 avant l'heure",
+      "url": "https://www.mac4ever.com/web/197036-ce-site-a-divulgue-les-resultats-du-bac-2026-avant-l-heure?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-08T12:45:00.000Z",
+      "summary": "Un site gratuit baptisé Pechotonbac.fr a permis à des milliers de lycéens de connaître leur résultat du Bac plusieurs heures avant l'heure …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://img-api.mac4ever.com/1200/0/97fb0d12ef_ce-site-a-divulgue-les-resultats-du-bac-2026-avant-l-heure.webp"
+    },
+    {
+      "id": "6f0a64bbb7c8d310daba20cd6e593d666731b6da",
+      "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
+      "url": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
+      "source": "Krebs on Security",
+      "publishedAt": "2026-07-08T12:31:39.000Z",
+      "summary": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convict",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://krebsonsecurity.com/wp-content/uploads/2026/06/irisc2prices.png"
+    },
+    {
+      "id": "07234739fe52e7e836ca1d92c1a177b41a473783",
+      "title": "La Chine met en garde contre une faille de sécurité dans l'outil de programmation d'IA d'Anthropic",
+      "url": "https://www.lefigaro.fr/secteur/high-tech/la-chine-met-en-garde-contre-une-faille-de-securite-dans-l-outil-de-programmation-d-ia-d-anthropic-20260708?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-08T11:53:15.000Z",
+      "summary": "Cette faille pourrait permettre au logiciel de «transmettre des informations sensibles», notamment la localisation des utilisateurs et des …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/f1g.fr/4a1170ab85ca7ad316dd93b349e294b1e9bcc9b9/_xlarge.jpeg"
+    },
+    {
+      "id": "ac65502a531bd52845f385f796310b9db9126d8a",
+      "title": "GitHub 'Verified' Commits Can Be Rewritten Into New Hashes Without Breaking Signatures",
+      "url": "https://thehackernews.com/2026/07/github-verified-commits-can-be.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-08T11:51:24.000Z",
+      "summary": "New research shows that a signed Git commit's hash is not the one-of-a-kind name that much of the software world assumes it to be. Given any signed commit, someone without the sign",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifE8OSGx2cVUZ1jiVnMC-LHyladj2cJ1FWw2-t0wDJEK4Icxrhk_bFReZr8jCiNkmpamFxdBGLpgruMJh1g7c687TCf4R76GG8xJEzB9kzPLTXo18DUZkT9_T5LHeikWsoEDeBm-gapabqgRUl2sAyhaPeYOWIs7Re0-jr2CMoKVn5AzlXdU1W6oWIy6mv/s1600/git-hash.jpg"
+    },
+    {
+      "id": "15607a0799eb38a9eb381c319dbca6d64976956b",
+      "title": "The Verification Step Is the New ATO Battleground in 2026",
+      "url": "https://thehackernews.com/2026/07/the-verification-step-is-new-ato.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-08T11:30:00.000Z",
+      "summary": "For years, account takeover (ATO) followed a predictable script. Attackers bought stolen credentials in bulk, ran them through automated tools, and waited for matches. Credential s",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaJMgdxAojXQ55Emgp0cdpY7ibLUdpF2qw_6WRHLpgdFhT82J_HFoOeqj69x1MNb7EqqMLp23NxnAsbzCeH0rg5cOrrM6bdDFNWlvvXbNZ9-QGzCYyX0q9AqYAGKwXVOb35u2lE91pm27dzyikSEF7zzfmNG-asRkTjhR30sdWgmf7TsZj8tqieCYUnTY/s1600/main-veriff.jpg"
+    },
+    {
+      "id": "07186aeb36696166d3e7fd4c2b6f0b9eca03c84c",
+      "title": "GitHub Copilot Refuses Harmful Requests in Chat, Then Writes Them in Code",
+      "url": "https://thehackernews.com/2026/07/github-copilot-refuses-harmful-requests.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-08T11:21:07.000Z",
+      "summary": "An AI coding assistant that refuses to answer a dangerous request in its chat box can answer it anyway if the same request is broken into small, ordinary-looking steps inside a cod",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiO3sdn3FMdKySUzvuf2007OIkov1V6r7gOe6npkdpODZqGK0avIBUu4fc4XVYsccnBD3ij71TroVDezuYTjSmXj6le7luxRFK-S1q3itvZHcIwPaY2NzDYjEUH-hnBbOBa_GZSq7-Es2DG4v-6vlbqeZWvYohveEleH8n8eWD6GxafIJIvanFGzsLarQY/s1600/copilot-prompts.jpg"
+    },
+    {
+      "id": "260f326f548d47c75b4e1b412f2ef7f9e06e8b1d",
+      "title": "« On est excédés, aucun problème n’a été réglé » : en colère, les salariés de l’association La Sauvegarde de nouveau mobilisés",
+      "url": "https://www.sudouest.fr/lot-et-garonne/agen/on-est-excedes-aucun-probleme-n-a-ete-regle-en-colere-les-salaries-de-l-association-la-sauvegarde-de-nouveau-mobilises-29846866.php?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-08T11:00:00.000Z",
+      "summary": "Devant le siège agenais, la lutte continue. Après une première mobilisation face aux cyberattaques et pour réclamer les salaires non versés, …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/sudouest.fr/58367ba4b854954d21b6fad891f4bb1b50479c0d/_xlarge.jpeg"
     },
     {
       "id": "f01754e725f9927a62ac14d9869f1ae998d047b3",
@@ -162,6 +272,39 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://www.ecranlarge.com/content/uploads/2023/04/pourquoi-votre-smart-tv-peut-elle-etre-la-cible-de-hackers-malveillants--1260x708.jpg"
+    },
+    {
+      "id": "0eee8fb4da32bfbe3e1be2297768454b1c2650d6",
+      "title": "Multiples vulnérabilités dans les produits Foxit (08 juillet 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0845/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-07-08T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Foxit. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance,",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "1d53e91f1eb9e0bfc3a4565370376b7e1a71cf9b",
+      "title": "Multiples vulnérabilités dans les produits HPE Aruba Networking (08 juillet 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0846/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-07-08T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits HPE Aruba Networking. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à l",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "c1de6e4736ed9c422446fed3abc10a528c3f78c9",
+      "title": "Multiples vulnérabilités dans Joomla! (08 juillet 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0847/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-07-08T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Joomla!. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atte",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
     },
     {
       "id": "31c1ff88941affac6faa9d001ab9a9e4814310aa",
@@ -450,17 +593,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEim5I3ndx1DHNKSznD7AT_CM4ApiaXDfZcQAwsCSDnHq7u8dkGcOzway-IBZJ44bFJintaRMSry4yHbaacESRFOJsRC_UBV6N9l_K4ICcqWsZ2E4zQ5BGibAkxjxm0qPYiiLEvAvDizmPZVYwXC6jN9pgB5G-3xZ9ifiEWisKsZoi9rBjJN1mepJjPl61s9/s1600/bt.jpg"
     },
     {
-      "id": "5e0a581e7caa088181b47e8e7e5e66eaa213ee75",
-      "title": "Transposition de la directive NIS 2 : l’examen du texte maintenant espéré pour septembre - ZDNET",
-      "url": "https://www.zdnet.fr/actualites/transposition-de-la-directive-nis-2-lexamen-du-texte-maintenant-espere-pour-septembre-498370.htm",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-07T05:07:24.000Z",
-      "summary": "Ce projet de loi critique pour la cybersécurité française est toujours englué à l’Assemblée nationale. La suite de l’examen à l’Assemblée nationale du …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2025/06/anssi-5-scaled.jpg"
-    },
-    {
       "id": "d93cd45c1c9ddfe6a80ed37c2bc2eade1c9d08c7",
       "title": "Pour le Rafale F5, Dassault promet un système \"archifermé\" au nom de la sécurité nucléaire",
       "url": "https://www.science-et-vie.com/technos-et-futur/defense/pour-le-rafale-f5-dassault-promet-un-systeme-archiferme-au-nom-de-la-securite-nucleaire-248282.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -601,94 +733,6 @@
       "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Azure Linux. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
       "type": "CVE",
       "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "e5d1e580a15544c94c6e0e273439742d87f17aec",
-      "title": "[webapps] MCPJam Inspector - Remote Code Execution",
-      "url": "https://www.exploit-db.com/exploits/52625",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-07T00:00:00.000Z",
-      "summary": "MCPJam Inspector - Remote Code Execution",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "ccd9053272afa6f480476f9cb81ab0b3feb19076",
-      "title": "[local] ProtonVPN v4.4.1 - Unquoted Service Path",
-      "url": "https://www.exploit-db.com/exploits/52624",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-07T00:00:00.000Z",
-      "summary": "ProtonVPN v4.4.1 - Unquoted Service Path",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "c4b6bea04613b1ed254bc561d3fe9de4f6c70865",
-      "title": "[webapps] Flowise 3.1.3 - arbitrary code execution",
-      "url": "https://www.exploit-db.com/exploits/52623",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-07T00:00:00.000Z",
-      "summary": "Flowise 3.1.3 - arbitrary code execution",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "74b1b94cc46b0a0a682a5673a7fa642d8a200ca1",
-      "title": "[remote] Hydra - Stack Buffer Overflow",
-      "url": "https://www.exploit-db.com/exploits/52622",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-07T00:00:00.000Z",
-      "summary": "Hydra - Stack Buffer Overflow",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "c8dd99b140938aa5d9fffbdfe2b9b32878e627fe",
-      "title": "[webapps] Discuz! X5.0 - Authentication Bypass",
-      "url": "https://www.exploit-db.com/exploits/52621",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-07T00:00:00.000Z",
-      "summary": "Discuz! X5.0 - Authentication Bypass",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "add15153766acf21779fd8632430e249782cfa48",
-      "title": "[webapps] Tenable Nessus 10.12.1 - SQL Injection",
-      "url": "https://www.exploit-db.com/exploits/52620",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-07T00:00:00.000Z",
-      "summary": "Tenable Nessus 10.12.1 - SQL Injection",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "41915105cca45b17097a0c0ce0078a3572e118b2",
-      "title": "[webapps] WordPress Bricks Builder Theme - RCE",
-      "url": "https://www.exploit-db.com/exploits/52619",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-07T00:00:00.000Z",
-      "summary": "WordPress Bricks Builder Theme - RCE",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": null
-    },
-    {
-      "id": "8b163d32f038b740ca5d364c8c76c0f19c2ee124",
-      "title": "[remote] iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter",
-      "url": "https://www.exploit-db.com/exploits/52618",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-07T00:00:00.000Z",
-      "summary": "iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter",
-      "type": "CVE",
-      "severity": "Élevée",
       "imageUrl": null
     },
     {
@@ -876,7 +920,7 @@
       "summary": "Researchers found a flaw in Opera GX, the gaming-focused version of the Opera browser, that let a malicious website silently install a browser add-on and use it to lift specific da",
       "type": "NEWS",
       "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZ_WItJUaS3rk5pAYa5yOsKuUt0Yovlv1T-jIz2GBBhcmMjToCgnWuEApyWfgDwngwAPcEGke0zwo_2DKKHaN9vzzHMAnd7Z3esepEvjSM022BzOdjo0sJW2bSMlslKXVv5Fg701ozva1HDgZPJV4Qya8Xevye-eT4dB0UmIJK9CKq-_wLnEGgNYigRLzh/s1600/opera-data-leak.jpg"
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8-lhQ-1VSjFAnsj0p-4zGDK1crPeBer06vGaA7XU8XCN-lNLkZypKypuQmxyQHx9z_h6Fss3n2BEURplg0uIg4Wal1kQflJxg25IboOZVzFhD4GhRbQF07jgQ5QmOFpayQY7CPW4BPdNo36hi79iv9Eq_8TnNd1ash8cby6ow7poa82cSf38yUyehb-aJ/s1600/opera-browser.jpg"
     },
     {
       "id": "fcaae14a6ba70e2265013cc318a866df0a93d1f1",
@@ -888,17 +932,6 @@
       "type": "NEWS",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjw4ZKsU9PwSPcL_Vs2ZqYIh0ahMuSFSNcCv_Y5MiM7MRsUgeZCDa5XTSWVYQXjLg-ByFbm4cHoo-8SSeWrB7KSdYrl4A1Ioif-v8NLNA43asXEHtYjn6uad21Savnzi_1iJ0YQ44iuXECEIBbyc3l7lJ9l2pdofVvP7dM3n9Ji5OeUeuPDHX5sqBJreUUB/s1600/ai-skills.jpg"
-    },
-    {
-      "id": "5d3804365cfb0d2763597eb4f14ac6d1c9d1de92",
-      "title": "Face à la menace des cyberattaques dopées à l’IA, des chercheurs chinois et américains réfléchissent à coopérer",
-      "url": "https://www.science-et-vie.com/technos-et-futur/un-tchernobyl-de-lia-chercheurs-americains-et-chinois-trouvent-un-consensus-inedit-pour-eviter-un-accident-majeur-248085.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-06T06:30:31.000Z",
-      "summary": "La course effrénée à l'IA entre les deux premières puissances mondiales alerte les meilleurs experts. Ils réclament des garde-fous communs avant …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.science-et-vie.com/wp-content/uploads/scienceetvie/2026/07/pexels-felicity-tai-7964249-scaled.jpg"
     },
     {
       "id": "80e23d4c27ec386969d9cc6b2b1937231fc8c67d",
@@ -1022,81 +1055,15 @@
       "imageUrl": null
     },
     {
-      "id": "74d12518425b9d6d3409852d26784e302e688865",
-      "title": "[webapps] Joomla Extension 4.1.4 - PHP Object injection",
-      "url": "https://www.exploit-db.com/exploits/52617",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-06T00:00:00.000Z",
-      "summary": "Joomla Extension 4.1.4 - PHP Object injection",
-      "type": "CVE",
+      "id": "5553f7816c401e52b1071efef7b644d567cd2ae0",
+      "title": "Comment des hackers éthiques, avec seulement un serveur à 3 000 $, ont découvert une faille qui aurait pu mettre en péril 70 milliards de dollars en cryptomonnaies",
+      "url": "https://www.coindesk.com/fr/tech/2026/07/04/how-ethical-hackers-with-just-a-usd3-000-server-found-a-flaw-that-could-ve-put-usd70-billion-in-crypto-at-risk?amp%3Butm_content=CoinDesk%2Fmagazine%2FCOINDESK+Fran%C3%A7ais",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-04T18:00:00.000Z",
+      "summary": "Une faille critique dans la blockchain Aptos, qui a été corrigée, a permis aux chercheurs d’atteindre un taux de succès proche de 90 % pour …",
+      "type": "NEWS",
       "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "3cde630a72f08e03ba6cdf36bb10a6cf03ba9f32",
-      "title": "[webapps] Pulpy 0.1.1-Beta - Filesystem Sandbox Bypass",
-      "url": "https://www.exploit-db.com/exploits/52616",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-06T00:00:00.000Z",
-      "summary": "Pulpy 0.1.1-Beta - Filesystem Sandbox Bypass",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "865d2beae35391fa0f3b9305f74c6f6b9e8a827f",
-      "title": "[local] MEmu Android Emulator 9.2.7.0 - Local Privilege Escalation",
-      "url": "https://www.exploit-db.com/exploits/52615",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-06T00:00:00.000Z",
-      "summary": "MEmu Android Emulator 9.2.7.0 - Local Privilege Escalation",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "380b16665064341e778f295ea771e0d329a7ef7f",
-      "title": "[webapps] KeepInMind 0.8.4.2 - Stored XSS",
-      "url": "https://www.exploit-db.com/exploits/52614",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-06T00:00:00.000Z",
-      "summary": "KeepInMind 0.8.4.2 - Stored XSS",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "1eb26472bd42ab845e5b099036b560349f79bbc0",
-      "title": "[webapps] KNX visualisering - Broken Access Control",
-      "url": "https://www.exploit-db.com/exploits/52613",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-06T00:00:00.000Z",
-      "summary": "KNX visualisering - Broken Access Control",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "750e8dd90ae124c017f2695e18b300c3c46e6bf7",
-      "title": "[local] Windows Defender (MsMpEng.exe) - Race Condition",
-      "url": "https://www.exploit-db.com/exploits/52612",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-06T00:00:00.000Z",
-      "summary": "Windows Defender (MsMpEng.exe) - Race Condition",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "dbe9e5295e1950f2049c82f5fd756d29b30d4afe",
-      "title": "[webapps] WordPress Plugin WPZOOM Portfolio 1.4.21 - Reflected Cross-Site Scripting (XSS)",
-      "url": "https://www.exploit-db.com/exploits/52611",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-06T00:00:00.000Z",
-      "summary": "WordPress Plugin WPZOOM Portfolio 1.4.21 - Reflected Cross-Site Scripting (XSS)",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/6c28c3dcd5461d3803d6e6200f1da0686dde993f-1920x1082.jpg?auto=format&amp%3Bw=960&amp%3Bh=540&amp%3Bcrop=focalpoint&amp%3Bfit=clip&amp%3Bq=75&amp%3Bfm=jpg"
     },
     {
       "id": "a96dbf06efb90bce17fac608d04dfdbed5634b32",
@@ -1130,17 +1097,6 @@
       "type": "NEWS",
       "severity": "Moyenne",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwdeBqtwl7nqoAp8TPhZmmr3mUTCcfxluYa7QukD2sI1AjCWoOko2YtQUrCtOLH-tJlYi2lXUA5E3RF51L26gZGyR7sT0GXu73OMB94HhINz5kajaR8-txb-tYNj2Hsm62zVwTaw7Rew6Wazf8eQgo_boWq7DjqbN1jjp5OmwSZ2yG7Y9e04hFVaroUSu6/s1600/go-code.jpg"
-    },
-    {
-      "id": "959f8809a07119946631a60dbf015091827c5242",
-      "title": "2 millions de téléviseurs et routeurs piratés : le FBI met au jour un gigantesque réseau de hackers",
-      "url": "https://www.phonandroid.com/2-millions-de-televiseurs-et-routeurs-pirates-le-fbi-met-au-jour-un-gigantesque-reseau-de-hackers.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-04T10:31:28.000Z",
-      "summary": "Un immense réseau de proxy résidentiels vient en partie de tomber. Avec l'aide de Google, le FBI a en effet identifié pas moins de 2 millions …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://wp-pa.phonandroid.com/uploads/2023/03/166684587_m_normal_none_1200_750.jpg"
     },
     {
       "id": "cad6d541d722fd5631bb651136e0cdfeff5dbb2f",
@@ -1262,17 +1218,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://s.france24.com/media/display/ee323554-76e1-11f1-bae2-005056bf30b7/w:1280/p:16x9/Capture-d-e%CC%81cran-2026-07-03-a%CC%80-15-16-33.jpg"
-    },
-    {
-      "id": "f597ab8de0f2872d0a4aa4470691f2004c577728",
-      "title": "Pegasus : un ex eurodéputé enquêtant sur le logiciel espion ciblée par ce dernier",
-      "url": "https://www.sudouest.fr/politique/pegasus-un-ex-eurodepute-enquetant-sur-le-logiciel-espion-ciblee-par-ce-dernier-29776099.php?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-03T13:13:28.000Z",
-      "summary": "Des eurodéputés ont dénoncé vendredi le piratage du téléphone de l’ancien élu Stelios Kouloglou par le logiciel espion Pegasus, alors qu’il faisait …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/sudouest.fr/005da4b77aabcd7b452dfabf43e6b7ee0796681e/_xlarge.jpeg"
     },
     {
       "id": "af4c0c0e6a91000f165c68fb402db1bfc9769559",
@@ -1759,61 +1704,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3OuCh7SjXAd7hG_0Q0p__EmpV5MwYh0fOfMZHc1wxRHpsCN9qlonLr93NB6-iJMWJd6nv8VoMqSt9hWW34H7R7tpoGuhkn1mkEL8UgsiUIfNxh9L1Bh0Qpvt0xrX9Pqq6rw1vb-0CEC3KLAT5N7fdlgEHWnYVDyeuUHt2pD59vugSKLaC9n8-LBLoqV0Y/s1600/blogger.jpg"
     },
     {
-      "id": "bce15d584b0c602739a6d8af2098dd240b74697f",
-      "title": "Ousaban Banking Trojan Targets Iberian Bank Users with Fake PDF Lures",
-      "url": "https://thehackernews.com/2026/07/ousaban-banking-trojan-targets-iberian.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-01T15:26:55.000Z",
-      "summary": "A Brazilian banking trojan called Ousaban is going after Windows users who bank in Spain and Portugal. Fortinet's FortiGuard Labs identified the campaign in May 2026. It opens with",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3GnjevIMTqO1nAZ7LWeRKAz2NCKGTKCC2ldSx5dsd2SShjh4pWcmddVJse4MP4QLhA_DOP1K_RajPwe8YR7rc57CqPUO0i9RDYoZQA0yRAokZt1r2hyphenhyphenccOjcFh2SgUTnyUjj-M-y7WUUXVF0rpSrcxTrjb5nPOnpnIP5YvdxzUaLXkubSTXFaj0RzxEvH/s1600/windows-trojan.jpg"
-    },
-    {
-      "id": "b5afabd98fbb1663e0a6956e9c43fb54516d1db2",
-      "title": "Adobe Patches 7 CVSS 10.0 Flaws in ColdFusion and Campaign Classic",
-      "url": "https://thehackernews.com/2026/07/adobe-patches-7-cvss-100-flaws-in.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-01T15:25:46.000Z",
-      "summary": "Adobe has released patches for multiple maximum-severity security flaws impacting Adobe ColdFusion and Adobe Campaign Classic. The ColdFusion updates \"resolves critical and importa",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiP2LpF3s-oL3WaiHtAZ9N33J120bvGnWDoQ39eE1fyToERHmJgkAtMzarRyW9-gOG0N4U1_nOEQmwg-3krYIZDcXXB6JYpurMezefSiM5-ygJd9CuuS1sS-gHNjoKgBRayO0wBow5GB1yaanR55TW2fwus6MQXwlqeXDJ2Xu7z2fiOGbPXo4qio4LpXZPO/s1600/adobe.jpg"
-    },
-    {
-      "id": "99454a40e5ef8d8ce21609ce5873765920eb8691",
-      "title": "Critical Cursor Flaws Could Let Prompt Injection Escape Sandbox and Run Commands",
-      "url": "https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-01T14:42:54.000Z",
-      "summary": "Two flaws in Cursor, an AI code editor, could let a single, ordinary-looking prompt break out of the editor's safety sandbox and run any command on a developer's computer. There is",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjItlLuWZZxw3YcKcnCVEsKn7HKF0QcPnXqFNjor23XT93Xp49dvLt4tZFYIbUApP4eABXQZ3pwnoidAp5GW1wm7ZfBA6vXRlX7i0Lbzw4KWlSkxayxjZQeoxg3TEAQWmLdGP9DePsYjoC1p07KGommOwATsJOHhRQ2zZatOaFRzHoKHVHcQW8K9s-Hd5w/s1600/cato.jpg"
-    },
-    {
-      "id": "9741b2097fb01dde3ecc84416517f10474027b23",
-      "title": "Progress Kemp LoadMaster Pre-Auth RCE Flaw Faces Active Exploitation Attempts",
-      "url": "https://thehackernews.com/2026/07/latest-progress-kemp-loadmaster-pre.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-01T13:56:18.000Z",
-      "summary": "A recently disclosed critical security flaw impacting Progress Kemp LoadMaster is seeing active exploitation attempts, according to an advisory from eSentire's Threat Response Unit",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghMOqrFNgwfokWIpvUBFpDUO-So-0focm0a7d9mhocEHiwdB2cHmPQ9q4STjyCr-gVUPK67TYluInMr0_v1omCJVWbd9OVOg6AqVROoxZb44b5BOpxdBb2GECjFw77NhlCf6nWC5oJF3x3KvE3EyDV2pUR3lvROAWjaFs9SOyvzM3qRB6MzEUCFYuVAoCb/s1600/pro-exploit.jpg"
-    },
-    {
-      "id": "9d0f264d2d44f727ec3a6c55ab65b25b323badf5",
-      "title": "AI-Generated Browser Ransomware Abuses Chromium API on Windows, Linux, macOS, Android",
-      "url": "https://thehackernews.com/2026/07/ai-generated-browser-ransomware-abuses.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-01T12:59:19.000Z",
-      "summary": "Cybersecurity researchers have flagged a new malware artifact generated using DeepSeek that constructed a novel attack path combining \"unrealistic browser-malware concepts with a r",
-      "type": "NEWS",
-      "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4BJdHYquuxXoz8n0LhMEmm9KPcWcMC57w4LnqbMNCPXMAFdS95ys3zE6F5jZOvSKwsVWp6t3z8pVImRJ3Nvxgkr4QiPI5O06zJywlL5uuBIU2G0ZtPucYq80Z_G-PnVzjYfChzbnpLxGyD2PpbH8VdLWjIuNLt0RoAe5Q8mVulX2s_4Ueg7XR0pxZVwKn/s1600/chrome-ransomware.jpg"
-    },
-    {
       "id": "065e99523a9a641e3a33081ea014d35c37e9001f",
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "url": "https://www.cisa.gov/news-events/alerts/2026/07/01/cisa-adds-one-known-exploited-vulnerability-catalog",
@@ -2100,17 +1990,6 @@
       "imageUrl": null
     },
     {
-      "id": "913d5fd23707ad418e8afc9c6838db11f548931f",
-      "title": "Qu’est-ce que le « SIM swapping », cette arnaque à laquelle sont confrontés deux Français sur trois ?",
-      "url": "https://www.larepubliquedespyrenees.fr/faits-divers/arnaque/qu-est-ce-que-le-sim-swapping-cette-arnaque-a-laquelle-sont-confrontes-deux-francais-sur-trois-28321945.php?amp%3Butm_content=topic%2Ffr-technologie",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-29T14:35:09.000Z",
-      "summary": "Technique particulièrement sophistiquée, l’arnaque à la carte SIM prend de l’ampleur en France et inquiète les autorités. Plus populaire sous …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://media.larepubliquedespyrenees.fr/28321945/1200x-1/pexels-kelly-2869017-web-1mo-redimensionne-1.jpg"
-    },
-    {
       "id": "fb671e5998f61f588d279771796b3999efe44d54",
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "url": "https://www.cisa.gov/news-events/alerts/2026/06/29/cisa-adds-one-known-exploited-vulnerability-catalog",
@@ -2273,6 +2152,127 @@
       "summary": "In June 2026, the food distribution company &lt;a href=\"https://cybernews.com/news/sysco-shinyhunters-61-million-salesforce-records/\" target=\"_blank\" rel=\"noopener\"&gt;Sysco was ta",
       "type": "CVE",
       "severity": "Critique",
+      "imageUrl": null
+    },
+    {
+      "id": "79d2edc4dbbec4447efd367ad2ba9d6e7e0fbbec",
+      "title": "Les Bitcoins de Satoshi bientôt gelés ? La solution pour sauver le réseau de la menace quantique ?",
+      "url": "https://android-mt.ouest-france.fr/news/decryptage/les-bitcoins-de-satoshi-bientot-geles-la-solution-pour-sauver-le-reseau-de-la-menace-quantique/204880/?amp%3Butm_content=topic%2Ffr-cryptographie",
+      "source": "Cryptographie FR",
+      "publishedAt": "2026-06-28T04:45:36.000Z",
+      "summary": "Pourquoi l’informatique quantique menace des milliards de bitcoins La menace quantique sur Bitcoin n’est plus théorique. En mars 2026, les équipes de …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/f806567bcf402d36a2f47ba27395cc298e0179c1/_xlarge.jpeg"
+    },
+    {
+      "id": "29e1a0d3b663009431b066be101983c3fd64d833",
+      "title": "Cyber actualités ZATAZ de la semaine du 28 juin 2026",
+      "url": "https://www.zataz.com/cyber-actualites-zataz-de-la-semaine-du-28-juin-2026/",
+      "source": "Zataz",
+      "publishedAt": "2026-06-27T07:28:42.000Z",
+      "summary": "Bonjour à toutes et tous,&#160; Cette semaine cyber est marquée par de nouvelles fuites revendiquées, des intrusions sensibles et des opérations judiciaires d’ampleur. Akaolife, Be",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://www.zataz.com/wp-content/uploads/recap-news-zataz-1.jpg"
+    },
+    {
+      "id": "096f6e3894b31739c1e116d59366ca30bb5deaa3",
+      "title": "L&#8217;authentification par certificat pour Active Directory : pourquoi elle devient incontournable avec la dépréciation de NTLM",
+      "url": "https://www.zataz.com/lauthentification-par-certificat-pour-active-directory-pourquoi-elle-devient-incontournable-avec-la-depreciation-de-ntlm/",
+      "source": "Zataz",
+      "publishedAt": "2026-06-26T15:04:24.000Z",
+      "summary": "Microsoft met fin à NT LAN Manager (NTLM), mais le remplacer dans les systèmes legacy, les applications et les intégrations tierces n&#8217;est pas une opération simple. Pour les a",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://www.zataz.com/wp-content/uploads/adactive.jpg"
+    },
+    {
+      "id": "d57196aea1c12930f8b36429309e521f32f77a23",
+      "title": "Russian Intelligence Services Continue to Target Commercial Messaging Applications",
+      "url": "https://www.cisa.gov/resources-tools/resources/russian-intelligence-services-continue-target-commercial-messaging-applications",
+      "source": "CISA",
+      "publishedAt": "2026-06-26T12:00:00.000Z",
+      "summary": "&lt;p&gt;CISA and the Federal Bureau of Investigation (FBI) issued an updated &lt;a href=\"https://www.ic3.gov/PSA/2026/PSA260626\" target=\"_blank\"&gt;Public Service Announcement (PS",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "a6b702f4275b7c12b95c97cab4e1c47313fe7141",
+      "title": "American Tower - 216,601 breached accounts",
+      "url": "https://haveibeenpwned.com/Breach/AmericanTower",
+      "source": "Have I Been Pwned",
+      "publishedAt": "2026-06-26T07:17:23.000Z",
+      "summary": "In June 2026, telecommunications tower infrastructure company &lt;a href=\"https://x.com/H4ckmanac/status/2065383723739046213\" target=\"_blank\" rel=\"noopener\"&gt;American Tower was t",
+      "type": "LEAK",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "a4f384eb02ebe8de38df45c8c7328e5f60f89645",
+      "title": "Trump accélère sur le quantique pour protéger les États-Unis d’une menace qui inquiète déjà le monde",
+      "url": "https://www.futura-sciences.com/tech/actualites/ordinateur-quantique-trump-accelere-quantique-proteger-etats-unis-menace-inquiete-deja-monde-135617/",
+      "source": "Cryptographie FR",
+      "publishedAt": "2026-06-26T05:03:30.000Z",
+      "summary": "« Nous allons investir dans le leadership américain en matière quantique comme jamais auparavant. » C'est avec son style habituel et sa manière …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/futura-sciences.com/5dc112f1f6f63b17ba3ee22802c501c1273b7dee/_xlarge.jpeg"
+    },
+    {
+      "id": "5a3d8bd85a47943b9672e96bf1f11646d9c7c5b2",
+      "title": "On croyait les nombres premiers totalement imprévisibles : des mathématiciens viennent de découvrir derrière eux un modèle remarquable",
+      "url": "https://sciencepost.fr/on-croyait-les-nombres-premiers-totalement-imprevisibles-des-mathematiciens-viennent-de-decouvrir-derriere-eux-un-modele-remarquable/?amp%3Butm_content=topic%2Ffr-cryptographie",
+      "source": "Cryptographie FR",
+      "publishedAt": "2026-06-26T04:29:01.000Z",
+      "summary": "Les nombres premiers fascinent, intriguent et défient les mathématiciens depuis l’Antiquité. Ces chiffres qui ne se divisent que par 1 et eux-mêmes …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://sciencepost.fr/wp-content/uploads/2025/06/prime-numbers-l.webp"
+    },
+    {
+      "id": "fc4840ece6bb8337cecffe8dd112097316d00ab3",
+      "title": "PTC - CVE-2026-12569",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/ptc-cve-2026-12569-2026-06-26",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-26T01:19:16.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;désérialisation de données non fiables&lt;/strong&gt; dans les &lt;strong&gt;servlets exposés réseau&lt;/strong&gt; Windchil",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "cd6d73c887a9c7c137339fdd70d09c9fab2d07e8",
+      "title": "Gogs - CVE-2026-52806",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/gogs-cve-2026-52806-2026-06-26",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-26T01:16:51.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité d'&lt;strong&gt;injection d'argument&lt;/strong&gt; dans la fonction Merge() de Gogs, au niveau du traitement des fusions de type &lt;strong&",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "41335b724f9ed9a76347a593f35ef2a2657ee12e",
+      "title": "OpenText - CVE-2026-11877",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/opentext-cve-2026-11877-2026-06-26",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-26T01:15:40.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité d'&lt;strong&gt;absence de contrôle d'autorisation&lt;/strong&gt; sur l'&lt;strong&gt;API de gestion de la configuration&lt;/strong&gt; d'Ope",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "d8214492a22ebf73223aa30535dafa2b38d2e8e4",
+      "title": "Rapid7 - CVE-2026-9155",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/rapid7-cve-2026-9155-2026-06-26",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-26T01:14:47.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité d'&lt;strong&gt;injection de commandes OS&lt;/strong&gt; dans le &lt;strong&gt;plugin Sed&lt;/strong&gt; de&lt;/p&gt; &lt;p&gt;Rapid7 Insight",
+      "type": "CVE",
+      "severity": "Élevée",
       "imageUrl": null
     }
   ]
