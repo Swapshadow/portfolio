@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T06:29:43.346Z",
+  "generatedAt": "2026-07-08T10:20:43.184Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -76,6 +76,61 @@
   ],
   "items": [
     {
+      "id": "73a53768056da2303d0845306fc6ea45a30b47ac",
+      "title": "Crise cyber : comment préparer sa communication face à la pression médiatique",
+      "url": "https://www.journaldunet.com/cybersecurite/1552471-crise-cyber-comment-preparer-sa-communication-face-a-la-pression-mediatique/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-08T09:21:05.000Z",
+      "summary": "En cas de fuite de données, les organisations doivent anticiper l'exposition médiatique en développant une relation de confiance avec les médias, en …",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/journaldunet.com/da65047b04ee0f4110a1df57c490ea91a8fcd04c/_xlarge.jpeg"
+    },
+    {
+      "id": "f01754e725f9927a62ac14d9869f1ae998d047b3",
+      "title": "La Banque centrale européenne presse le secteur financier de s'armer contre les cyberattaques pour faire face à \"une transformation durable du paysage des menaces\"",
+      "url": "https://www.bfmtv.com/tech/intelligence-artificielle/la-banque-centrale-europeenne-presse-le-secteur-financier-de-s-armer-contre-les-cyberattaques-pour-faire-face-a-une-transformation-durable-du-paysage-des-menaces_AD-202607080377.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-08T09:16:02.000Z",
+      "summary": "110 établissements financiers européens ont été informés qu'un plan d'urgence contre les cyberattaques devrait être présenté d'ici la fin de l'année, …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/bfmtv.com/e48a28ff38fc92be395de303a8732bbacebbc9b7/_xlarge.jpeg"
+    },
+    {
+      "id": "770a0fc14bceb7d4127f90489f87c6ef261c82d3",
+      "title": "China-Linked UAT-7810 Expands ORB Network With New LONGLEASH Malware",
+      "url": "https://thehackernews.com/2026/07/china-linked-uat-7810-expands-orb.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-08T09:04:33.000Z",
+      "summary": "A Chinese threat actor tracked as UAT-7810 is actively refining its bespoke malware to expand its Operational Relay Box (ORB) network by breaking into internet-facing networking de",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXpYmSnXODMABymw2qCiVS3p13OIwfJ45yIZq-o8wXfgtWXxOPjPbsGjdgEExUsWcvkKhtyPBhGsc6mSIzg8fzwrVJE_GIIm0k3qbzMd7BSjUcAjRFznnsXjv-dnG-Zq671G-_PYcHe88J4yTpy0FBc_pReVfNVrwGvGceEvAbLqA_roMRNI2DjbwohEqK/s1600/routers.jpg"
+    },
+    {
+      "id": "1f5e470b82c58c3a42f270725075ffef395be4ac",
+      "title": "Un agent d'IA vient d'effectuer une attaque au ransomware de bout en bout, et c’est une première - PaperGeek",
+      "url": "https://www.papergeek.fr/un-agent-dia-vient-deffectuer-une-attaque-au-ransomware-de-bout-en-bout-et-cest-une-premiere-2471973?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-08T07:03:19.000Z",
+      "summary": "La toute première attaque de type « ransomware agentique » vient d’être menée. Un agent d’IA s’est en effet introduit dans un serveur, avant de …",
+      "type": "NEWS",
+      "severity": "Critique",
+      "imageUrl": "https://static.papergeek.fr/2026/07/A3-5.jpg"
+    },
+    {
+      "id": "3ce9447debf501357bc4da9f07e21f37f0147ed4",
+      "title": "Windows vous attribue un identifiant secret, Microsoft peut retracer l'activité de votre PC",
+      "url": "https://siecledigital.fr/2026/07/07/windows-vous-attribue-un-identifiant-secret-microsoft-peut-retracer-lactivite-de-votre-pc/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-08T06:46:49.000Z",
+      "summary": "L'arrestation d'un hacker de 19 ans a révélé que Microsoft attribue aux installations de Windows un identifiant unique appelé Global Device ID. Le …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://siecledigital.fr/wp-content/uploads/2026/07/windows-pc.jpg"
+    },
+    {
       "id": "ff8303552c71a48772d749121cd4172765410291",
       "title": "15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros",
       "url": "https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html",
@@ -96,6 +151,17 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZn36WwWfaOwK7XCU9aKjVPS7QAyrnBKsKMXtVRyYbD2X30HI-ojl5F8ttD9VcbXB36anuKWq-JGEhzPq1fjwnEhKPKMjkPDMPAFe8OqR85N1dc0QZoZ7JCN9ziqGuQ8M4irelfxa_zca62EV-s9qBO9WI47ECtzM8Zi2X8T-MFfuRRbJQ8u48Y2RRt3UT/s1600/cisa-main.jpg"
+    },
+    {
+      "id": "f59da9cc7c23a933bdf26b699c85b6fcb16d128e",
+      "title": "Votre Smart TV vous espionne-t-elle ? Voici comment la protéger des hackers et virus",
+      "url": "https://www.ecranlarge.com/high-tech/conseils/smart-tv-cible-hackers?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-08T05:15:00.000Z",
+      "summary": "Qu’il est loin, le temps où la télévision ne servait qu’à regarder les infos. En effet, les Smart TV actuelles sont dotées d’une ribambelle de …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.ecranlarge.com/content/uploads/2023/04/pourquoi-votre-smart-tv-peut-elle-etre-la-cible-de-hackers-malveillants--1260x708.jpg"
     },
     {
       "id": "31c1ff88941affac6faa9d001ab9a9e4814310aa",
@@ -208,17 +274,6 @@
       "imageUrl": "https://c0.lestechnophiles.com/www.numerama.com/wp-content/uploads/2026/06/gemini-generated-image-kyonilkyonilkyon.jpg?resize=1600%2C900&amp%3Bkey=aa08d33b"
     },
     {
-      "id": "1ea1f7df6c3a8e033eb69d01e8ec6d52b496faac",
-      "title": "Avast : faux liens de match, QR codes douteux, applis à risque… les pièges numériques du Mondial",
-      "url": "https://www.futura-sciences.com/conso/bons-plans/guides-tech-avast-faux-liens-match-qr-codes-douteux-applis-risque-pieges-numeriques-mondial-10582/",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-07T12:30:00.000Z",
-      "summary": "Un pic d’arnaques numériques autour des grands matchs Les périodes de grands événements sportifs attirent autant les supporters que les …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/futura-sciences.com/aebc72cb0024267e79f25bc60b1024356b209b18/_xlarge.jpeg"
-    },
-    {
       "id": "7e28f135a197a97fcc7cc85b00c4a28fc680485e",
       "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
       "url": "https://www.cisa.gov/news-events/alerts/2026/07/07/cisa-adds-three-known-exploited-vulnerabilities-catalog",
@@ -327,17 +382,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0OJ0wrmDju3vsLQqciy7DCza9juzf5jkuI6VPy8mXFoQ-2hVj7uNgqJD8ti8Pft2gayFWUH9TfOuIkqnKyduhjMP9-wqBxuvHPoyp39keS52R_MpsuO0bsKX03-fy2PA3V-gjqOaKuSKoOWaotAyzf9Tsc_zUGJpf4i81bHMrCJYhTo7AjtfsdN_OKuY/s1600/AI-WRITER.jpg"
-    },
-    {
-      "id": "f4f16cc361f79cd4233e619602913b81ce1f2c0d",
-      "title": "Cyberattaques liées à l’IA : la BCE demande un plan d’urgence aux grandes banques",
-      "url": "https://www.leparisien.fr/economie/cyberattaques-liees-a-lia-la-bce-demande-un-plan-durgence-aux-grandes-banques-07-07-2026-UZBPCSMMFZAVBBAR3DZWBLVSE4.php?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-07T11:22:30.000Z",
-      "summary": "La BCE estime ce mardi que les nouveaux modèles d’IA sont capables d’identifier des vulnérabilités informatiques et de générer des outils d’attaque …",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": "https://www.leparisien.fr/resizer/tsqkHbhDL0cmHdef7hnOigC31SQ=/1600x900/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/WBXQBNXS7JCXPKY2ATOLOSYSAY.jpg"
     },
     {
       "id": "901a988e9ab9ca45e77d90027b4c442563e66d04",
@@ -712,17 +756,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://f.hellowork.com/blogdumoderateur/2022/02/og-img-defaut-1200x628.jpg"
-    },
-    {
-      "id": "5329a9daf3cfbe530d5f8987a81f0ba60054b54c",
-      "title": "Pourquoi les entreprises investissent des millions dans la cybersécurité… mais sous-estiment encore la sécurité humaine",
-      "url": "https://www.journaldunet.com/management/direction-generale/1552343-ourquoi-les-entreprises-investissent-des-millions-dans-la-cybersecurite-mais-sous-estiment-encore-la-securite-humaine/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-06T14:50:41.000Z",
-      "summary": "Les risques humains sont souvent plus dangereux que les cyberattaques. En quelques années, la cybersécurité est devenue une priorité stratégique. …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/journaldunet.com/12db6ef6e919b9764fba3ab736412ceb44d22d97/_xlarge.jpeg"
     },
     {
       "id": "9f8e465d42c64288cb5cc34454d9545daa68e092",
@@ -1174,17 +1207,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/presse-citron.net/f3f83a3e60e3f14b6ce19137fe79408de68520b4/_xlarge.jpeg"
-    },
-    {
-      "id": "47d4e1f59b75c69bdfa8a8465f2cd23f361d84ec",
-      "title": "L'Autriche veut accueillir Anthropic : souveraineté numérique ou dépendance maquillée ?",
-      "url": "https://www.lenouveleconomiste.fr/lautriche-veut-accueillir-anthropic-souverainete-numerique-ou-dependance-maquillee-136445/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-03T16:27:47.000Z",
-      "summary": "Il y a eu un avant et un après le 12 juin 2026. Ce jour-là, le secrétaire au Commerce américain Howard Lutnick a adressé une directive de contrôle à …",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://www.lenouveleconomiste.fr/wp-content/uploads/2026/07/anthropic.jpg"
     },
     {
       "id": "fd5fef4186737176624c011d4962fcbb34f222ac",
@@ -1803,17 +1825,6 @@
       "imageUrl": null
     },
     {
-      "id": "a12f07d47227d870f2cd28cd64b6e2088081b7d7",
-      "title": "2026 Cybersecurity Assessment: The Gap Between Awareness and Resilience",
-      "url": "https://thehackernews.com/2026/07/2026-cybersecurity-assessment-gap.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-01T11:30:00.000Z",
-      "summary": "Organizations have never had greater awareness of cyber risk. Yet turning that awareness into operational resilience has never been more challenging. The 2026 Bitdefender Cybersecu",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjP1ozclOI3O1fTjKYLZrt0RCp54Fr-6NPYAifKy5c1fYwj4ceFq9U62ra9eoBq4Qw7qAh3qXE7ttfy6239qiAwK3SFyQxg316fl8BNxeeZ6IRDJFbjl09AE-gHC9Qa2V3nFljMblCovx6MgP66ZxMfawWVnAWEPNX9YS_FATZFtC69nlKhTvQQeOD58_I/s1600/Assessment.jpg"
-    },
-    {
       "id": "7939c05260c2522efa2aeb8d8fd5a052ef7901d2",
       "title": "Transition vers le post quantique : le Campus Cyber commence son inventaire des solutions pour les pros - ZDNET",
       "url": "https://www.zdnet.fr/actualites/transition-vers-le-post-quantique-le-campus-cyber-commence-son-inventaire-498001.htm",
@@ -1911,17 +1922,6 @@
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
-    },
-    {
-      "id": "5b3579a53649ad3735c89a4ce55a7b110bb8bd77",
-      "title": "Panique chez Apple : le piratage massif d'un sous-traitant dévoile l’iPhone 18 Pro et des secrets industriels",
-      "url": "https://www.futura-sciences.com/tech/actualites/iphone-panique-chez-apple-piratage-massif-sous-traitant-devoile-iphone-18-pro-secrets-industriels-135795/",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-06-30T15:33:54.000Z",
-      "summary": "Les fuites d'informations et d'images de nouveaux smartphones sont devenues monnaie courante. Ce n'est donc pas une surprise que des vidéos montrant …",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/futura-sciences.com/9f2d2d13a16645d1ae4ccc249200d10b9f797b9c/_xlarge.jpeg"
     },
     {
       "id": "da4bd301be7871ebb1cc35f7c5750c8ad7846f76",
