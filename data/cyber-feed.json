@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T14:18:18.089Z",
+  "generatedAt": "2026-07-08T17:39:13.288Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,13 +17,13 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 111
+      "items": 116
     },
     {
       "name": "Exploit-DB",
       "url": "https://www.exploit-db.com/rss.xml",
       "status": "ok",
-      "items": 0
+      "items": 50
     },
     {
       "name": "The Hacker News",
@@ -76,15 +76,114 @@
   ],
   "items": [
     {
-      "id": "549e2d7dda1f8448f69bfac6ecafe2bb196f09b9",
-      "title": "Des PC piratés pour faire tourner de l’IA ? Ce botnet revendique une nouvelle étape du cybercrime",
-      "url": "https://www.clubic.com/actualite-620488-des-pc-pirates-pour-faire-tourner-de-l-ia-ce-botnet-revendique-une-nouvelle-etape-du-cybercrime.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "id": "67cbcc663a51823c6f0c4bc3c934f0d1cbef77fc",
+      "title": "AI Coding Agents Found Triggering Endpoint Security Rules Built to Catch Attackers",
+      "url": "https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-08T17:02:12.000Z",
+      "summary": "Sophos looked at a week of its own endpoint data and found that AI coding agents such as Claude Code, Cursor, and OpenAI Codex are setting off detection rules written to catch huma",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEtVOCcf8-6_z0F4FVoPlTMQRFJ4CfHCbl-GvhT9EbRrfZgTJsNbBkzAq72212RbMT1Knk5GJsYDY8p5W7YO8x29vQ782QW6CRorl_oKVyAgOmS46Y9HyTPcdZOmMjOPtWjpAHH3C91EPVk4dnHqaAEX8QoaSvGzCbjMy0YhF7lJaIR6-T9Dq5jzZycIc/s1600/alarm.jpg"
+    },
+    {
+      "id": "5466f05565b5fdde992498dc732224d5fe02d130",
+      "title": "« On ne joue pas avec la cybersécurité » : Bruxelles attaque la France en justice pour son retard sur la directive NIS 2",
+      "url": "https://www.latribune.fr/article/tech/10913215921251/on-ne-joue-pas-avec-la-cybersecurite-bruxelles-attaque-la-france-en-justice-pour-son-retard-sur-la-directive-nis-2?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
       "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-08T14:02:00.000Z",
-      "summary": "Flare a repéré sur le dark web une offre de botnet d’un nouveau genre. Baptisé Mycelium, le framework prétend exploiter des machines compromises …",
-      "type": "CVE",
+      "publishedAt": "2026-07-08T16:37:57.000Z",
+      "summary": "« On ne joue pas avec la cybersécurité » : Bruxelles attaque la France en justice pour son retard sur la directive NIS 2 La Commission a décidé de …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/latribune.fr/442966e80ad45555b6f108c3c628a496cefcde07/_large.jpeg"
+    },
+    {
+      "id": "3b6c6e17985d629809291040b93550f68e50aa22",
+      "title": "InTruth veut vérifier les politiques en direct",
+      "url": "https://www.zataz.com/intruth-veut-verifier-les-politiques-en-direct/",
+      "source": "Zataz",
+      "publishedAt": "2026-07-08T15:40:33.000Z",
+      "summary": "InTruth utilise l’IA pour vérifier en direct les déclarations politiques et limiter l’impact des fausses informations.",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.zataz.com/wp-content/uploads/politique-ia-check.jpg"
+    },
+    {
+      "id": "12255a11a82f10b13688bbeb38eb748d1673d4ce",
+      "title": "Windows, \"un logiciel de surveillance\"? Le FBI a arrêté un jeune hacker de 19 ans grâce à un \"identifiant mondial unique\" de Microsoft, il permet de suivre toute l’activité en ligne d’une machine",
+      "url": "https://www.bfmtv.com/tech/microsoft/windows-un-logiciel-de-surveillance-le-fbi-a-arrete-un-jeune-hacker-de-19-ans-grace-a-un-identifiant-mondial-unique-de-microsoft-il-permet-de-suivre-toute-l-activite-en-ligne-d-une-machine_AN-202607080682.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-08T15:37:16.000Z",
+      "summary": "L'arrestation d'un cybercriminel par le FBI a révélé que chaque appareil de Windows était traçable grâce à un identifiant unique. Un secret jusqu'ici …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/bfmtv.com/a2cffa25f754a01503fe438f93c5e0351a44567d/_xlarge.jpeg"
+    },
+    {
+      "id": "dbecde3334c622a8d4ced763bc41313a7af46783",
+      "title": "Sauvegardes et rançongiciels : le 3-2-1 dépassé ?",
+      "url": "https://www.zataz.com/sauvegardes-et-rancongiciels-le-3-2-1-depasse/",
+      "source": "Zataz",
+      "publishedAt": "2026-07-08T15:25:26.000Z",
+      "summary": "Pourquoi la règle 3-2-1 reste utile face aux rançongiciels, et pourquoi elle doit évoluer.",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.zataz.com/wp-content/uploads/321-rempart.jpg"
+    },
+    {
+      "id": "713e36d569addbfeaec9db170084ed678b69acaa",
+      "title": "LHDN : 10 millions de dossiers fiscaux en vente",
+      "url": "https://www.zataz.com/lhdn-10-millions-de-dossiers-fiscaux-en-vente/",
+      "source": "Zataz",
+      "publishedAt": "2026-07-08T15:09:46.000Z",
+      "summary": "Données fiscales en vente : 10 millions de dossiers fiscaux revendiqués, risque cyber critique.",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.zataz.com/wp-content/uploads/mytax.jpg"
+    },
+    {
+      "id": "b8ff8665429765d93220c7b5d9f25b0e3ed79989",
+      "title": "New HalluSquatting Attack Could Trick AI Coding Assistants Into Installing Botnet Malware",
+      "url": "https://thehackernews.com/2026/07/new-hallusquatting-attack-could-trick.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-08T15:07:24.000Z",
+      "summary": "AI coding assistants have a habit of making things up. Ask one to fetch a popular tool, and it will sometimes hand back a real-sounding name for a project that does not exist. New ",
+      "type": "NEWS",
       "severity": "Élevée",
-      "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/d342266bdd63e7bf0d2f84d8fba40e19b1ae3217/_xlarge.jpeg"
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFLRfTvakP4spTkbT8iiV9ndUR4EwlHOmGkZrO4JdBl3QsmWS5zA_sx081fvr3R11VEnZcjHOFcirZAQ5eaqB3n8sFJQ7m64edzVHNONHsD9j9Obds8E_Z9VC08y42TCyJV_3zpWam1LTHhiZBLX5WCLNp-4tdR-AwYzlyoifh1Seu-ND4OKbnZOEhMks/s1600/ai-botnet.jpg"
+    },
+    {
+      "id": "adcd9106a102fc47241786034d430c68c47eafdd",
+      "title": "« Un ordinateur quantique peut tout hacker en quinze minutes » : son logiciel protège les hôpitaux des cyberattaques",
+      "url": "https://www.ouest-france.fr/societe/cyberattaque/un-ordinateur-quantique-peut-tout-hacker-en-quinze-minutes-son-logiciel-protege-les-hopitaux-des-cyberattaques-98af022c-76d9-11f1-980a-970130a57304?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-08T15:00:17.000Z",
+      "summary": "Arthur Debauge, 26 ans, originaire d’Alençon (Orne), est chercheur en informatique quantique à Genève, en Suisse. Il a créé un logiciel qui protège …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/4ddf8481bc5789dfa2d7f71eea9f69d8d513ef20/_xlarge.jpeg"
+    },
+    {
+      "id": "dff3e88feb5b96480dbff85da4852a75bdacece6",
+      "title": "Ubiquiti Patches Critical UniFi Flaws Across Connect, Talk, Access, Protect, and OS",
+      "url": "https://thehackernews.com/2026/07/ubiquiti-patches-critical-unifi-flaws.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-08T14:38:05.000Z",
+      "summary": "Ubiquiti has shipped updates to address multiple critical security flaws impacting UniFi Connect, UniFi Talk, UniFi Access, UniFi Protect, and UniFi OS that could result in privile",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgx2TRa1CP7yIs67Wa1bxiFVW5yq1S7vtAaQHf_htjuDbpAETKv8tfw7rchtVvME0FsA8YJ_uQzRp_ZAV-nPhLyRUQw_NNdgN0zhjyVR_L3wzt1ZX08PknwSF2FBLeieIUIx7t4hLMF1sDnsRuFCzllq8auoKriKlGMdllY8IYG04bID6cgGzty0e9mVhoM/s1600/uu.jpg"
+    },
+    {
+      "id": "f14c3d927752a95ba45e9c295ad0a2c32c86ea17",
+      "title": "Réseaux sociaux : Bruxelles recadre la loi mineurs",
+      "url": "https://www.zataz.com/reseaux-sociaux-bruxelles-recadre-la-loi-mineurs/",
+      "source": "Zataz",
+      "publishedAt": "2026-07-08T14:33:57.000Z",
+      "summary": "Bruxelles valide la liste noire sénatoriale, en ciblant les pouvoirs de l’Arcom sur les réseaux sociaux.",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.zataz.com/wp-content/uploads/liste-noir-reseaux-sociaux.jpg"
     },
     {
       "id": "fec2abcb5c77c35789c794f524919a54c1a0abdb",
@@ -186,17 +285,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiO3sdn3FMdKySUzvuf2007OIkov1V6r7gOe6npkdpODZqGK0avIBUu4fc4XVYsccnBD3ij71TroVDezuYTjSmXj6le7luxRFK-S1q3itvZHcIwPaY2NzDYjEUH-hnBbOBa_GZSq7-Es2DG4v-6vlbqeZWvYohveEleH8n8eWD6GxafIJIvanFGzsLarQY/s1600/copilot-prompts.jpg"
     },
     {
-      "id": "260f326f548d47c75b4e1b412f2ef7f9e06e8b1d",
-      "title": "« On est excédés, aucun problème n’a été réglé » : en colère, les salariés de l’association La Sauvegarde de nouveau mobilisés",
-      "url": "https://www.sudouest.fr/lot-et-garonne/agen/on-est-excedes-aucun-probleme-n-a-ete-regle-en-colere-les-salaries-de-l-association-la-sauvegarde-de-nouveau-mobilises-29846866.php?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-08T11:00:00.000Z",
-      "summary": "Devant le siège agenais, la lutte continue. Après une première mobilisation face aux cyberattaques et pour réclamer les salaires non versés, …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/sudouest.fr/58367ba4b854954d21b6fad891f4bb1b50479c0d/_xlarge.jpeg"
-    },
-    {
       "id": "f01754e725f9927a62ac14d9869f1ae998d047b3",
       "title": "La Banque centrale européenne presse le secteur financier de s'armer contre les cyberattaques pour faire face à \"une transformation durable du paysage des menaces\"",
       "url": "https://www.bfmtv.com/tech/intelligence-artificielle/la-banque-centrale-europeenne-presse-le-secteur-financier-de-s-armer-contre-les-cyberattaques-pour-faire-face-a-une-transformation-durable-du-paysage-des-menaces_AD-202607080377.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -274,6 +362,61 @@
       "imageUrl": "https://www.ecranlarge.com/content/uploads/2023/04/pourquoi-votre-smart-tv-peut-elle-etre-la-cible-de-hackers-malveillants--1260x708.jpg"
     },
     {
+      "id": "51848557102d19c9976151b00ba34e47ac2e9c96",
+      "title": "OpenSSH - CVE-2026-60002",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/openssh-cve-2026-60002-2026-07-08",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-08T02:46:40.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le &lt;strong&gt;client ssh&lt;/strong&gt; d'OpenSSH, affectant le traitement de la &lt;strong&gt;renégociation de clés&lt;/strong&gt; (",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "86b7782246cc981ca2f6d8af668b386a8086a1eb",
+      "title": "GNU Wget - CVE-2026-58469",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/gnu-wget-cve-2026-58469-2026-07-08",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-08T02:44:26.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans la fonction &lt;strong&gt;clean_metalink_string()&lt;/strong&gt; du fichier src/metalink.c, chargée de nettoyer les chaînes de caractère",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "b7e16286ca6ef158ebac975043e705f10f21e8e3",
+      "title": "Dell Technologies - CVE-2026-53481",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/dell-technologies-cve-2026-53481-2026-07-08",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-08T02:43:16.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le mécanisme de &lt;strong&gt;contrôle des chemins d'accès&lt;/strong&gt; de DD OS.&lt;/p&gt; &lt;p&gt;Dell PowerProtect Data Domain est",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "85a8574111ffb65199b8405c6f49e897a17c5099",
+      "title": "FreeType - CVE-2026-50811",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/freetype-cve-2026-50811-2026-07-08",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-08T02:41:31.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans la fonction &lt;strong&gt;TT_Get_Var_Design()&lt;/strong&gt; du fichier src/truetype/ttgxvar.c, utilisée par l'API publique &lt;strong&g",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "7d38e310faca727b7ba4e46b2fc0d6e2bcece73b",
+      "title": "Red Hat - CVE-2026-11610",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/red-hat-cve-2026-11610-2026-07-08",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-08T02:39:47.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans la &lt;strong&gt;couche d'entrées/sorties SASL&lt;/strong&gt; de 389 Directory Server, plus précisément dans la fonction &lt;strong&gt;s",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
       "id": "0eee8fb4da32bfbe3e1be2297768454b1c2650d6",
       "title": "Multiples vulnérabilités dans les produits Foxit (08 juillet 2026)",
       "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0845/",
@@ -302,6 +445,50 @@
       "source": "CERT-FR",
       "publishedAt": "2026-07-08T00:00:00.000Z",
       "summary": "De multiples vulnérabilités ont été découvertes dans Joomla!. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atte",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "40e016744fe7ef09ed325e8bbc35e2e0a125aa40",
+      "title": "[webapps] Krayin CRM v2.2.x - Authenticated Remote Code Execution",
+      "url": "https://www.exploit-db.com/exploits/52629",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-08T00:00:00.000Z",
+      "summary": "Krayin CRM v2.2.x - Authenticated Remote Code Execution",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "cffb5dbc5e540e22ee59f3bd9bf96a429ffe114c",
+      "title": "[webapps] Atarim WordPress Plugin 4.2.2 - Sensitive Information Exposure",
+      "url": "https://www.exploit-db.com/exploits/52628",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-08T00:00:00.000Z",
+      "summary": "Atarim WordPress Plugin 4.2.2 - Sensitive Information Exposure",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "824f17cb39a1921d1196c0c7ea34e0a98535d503",
+      "title": "[webapps] Langflow 1.9.0 - RCE",
+      "url": "https://www.exploit-db.com/exploits/52627",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-08T00:00:00.000Z",
+      "summary": "Langflow 1.9.0 - RCE",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": null
+    },
+    {
+      "id": "1d20e357cf7a3631a54c1be327ebe2ef7a874b78",
+      "title": "[webapps] Joomla Page Builder CK 3.5.10 - Arbitrary File Upload",
+      "url": "https://www.exploit-db.com/exploits/52626",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-08T00:00:00.000Z",
+      "summary": "Joomla Page Builder CK 3.5.10 - Arbitrary File Upload",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -736,6 +923,94 @@
       "imageUrl": null
     },
     {
+      "id": "e5d1e580a15544c94c6e0e273439742d87f17aec",
+      "title": "[webapps] MCPJam Inspector - Remote Code Execution",
+      "url": "https://www.exploit-db.com/exploits/52625",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-07T00:00:00.000Z",
+      "summary": "MCPJam Inspector - Remote Code Execution",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "ccd9053272afa6f480476f9cb81ab0b3feb19076",
+      "title": "[local] ProtonVPN v4.4.1 - Unquoted Service Path",
+      "url": "https://www.exploit-db.com/exploits/52624",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-07T00:00:00.000Z",
+      "summary": "ProtonVPN v4.4.1 - Unquoted Service Path",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "c4b6bea04613b1ed254bc561d3fe9de4f6c70865",
+      "title": "[webapps] Flowise 3.1.3 - arbitrary code execution",
+      "url": "https://www.exploit-db.com/exploits/52623",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-07T00:00:00.000Z",
+      "summary": "Flowise 3.1.3 - arbitrary code execution",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "74b1b94cc46b0a0a682a5673a7fa642d8a200ca1",
+      "title": "[remote] Hydra - Stack Buffer Overflow",
+      "url": "https://www.exploit-db.com/exploits/52622",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-07T00:00:00.000Z",
+      "summary": "Hydra - Stack Buffer Overflow",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "c8dd99b140938aa5d9fffbdfe2b9b32878e627fe",
+      "title": "[webapps] Discuz! X5.0 - Authentication Bypass",
+      "url": "https://www.exploit-db.com/exploits/52621",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-07T00:00:00.000Z",
+      "summary": "Discuz! X5.0 - Authentication Bypass",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "add15153766acf21779fd8632430e249782cfa48",
+      "title": "[webapps] Tenable Nessus 10.12.1 - SQL Injection",
+      "url": "https://www.exploit-db.com/exploits/52620",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-07T00:00:00.000Z",
+      "summary": "Tenable Nessus 10.12.1 - SQL Injection",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "41915105cca45b17097a0c0ce0078a3572e118b2",
+      "title": "[webapps] WordPress Bricks Builder Theme - RCE",
+      "url": "https://www.exploit-db.com/exploits/52619",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-07T00:00:00.000Z",
+      "summary": "WordPress Bricks Builder Theme - RCE",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": null
+    },
+    {
+      "id": "8b163d32f038b740ca5d364c8c76c0f19c2ee124",
+      "title": "[remote] iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter",
+      "url": "https://www.exploit-db.com/exploits/52618",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-07T00:00:00.000Z",
+      "summary": "iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
       "id": "8ae73f565e9186a8b113421ceb6f192e637b6158",
       "title": "Un ado de 15 ans accusé d’attaque cyber contre Bandai Channel",
       "url": "https://www.zataz.com/un-ado-de-15-ans-accuse-dattaque-cyber-contre-bandai-channel/",
@@ -789,6 +1064,17 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://backoffice.lepetitjournal.com/sites/default/files/2026-06/moritz-erken-QHDVlXhIacg-unsplash.jpg"
+    },
+    {
+      "id": "5364e0b2f45612bd86bfbb4ed65afcec03605897",
+      "title": "D’après une étude, les Deux-Sèvres figurent dans le top 10 des départements « les plus sensibles aux risques cyber »",
+      "url": "https://www.lanouvellerepublique.fr/deux-sevres/d-apres-une-etude-les-deux-sevres-figurent-dans-le-top-10-des-departements-les-plus-sensibles-aux-risques-cyber-1783353232?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-06T15:53:52.000Z",
+      "summary": "Dans une étude récemment diffusée, Abilene Academy, un organisme suisse de formation certifiante en cybersécurité et gestion des risques, a placé les …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/lanouvellerepublique.fr/cf0f111d899b63b3de219d5573f1e9c1e5be296d/_xlarge.jpeg"
     },
     {
       "id": "2e3948166ec239b00785cc8b4b94727065213d1b",
@@ -945,17 +1231,6 @@
       "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/c19ccb9188fe8c78c11152b07cfc5d1c6187c340/_xlarge.jpeg"
     },
     {
-      "id": "b287aab657a6eb00e1139ea9783664c8ebf40365",
-      "title": "Après son piratage, les gendarmes : les déboires d’YggTorrent se poursuivent - ZDNET",
-      "url": "https://www.zdnet.fr/actualites/apres-son-piratage-les-gendarmes-les-deboires-dyggtorrent-se-poursuivent-498302.htm",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-06T05:07:39.000Z",
-      "summary": "Les gendarmes cyber viennent d’annoncer un total de douze interpellations et des saisies contre le célèbre site de téléchargement. Ce dernier avait …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2026/07/mnfenmjpmajaaaem1.jpg"
-    },
-    {
       "id": "b49b498faecbb2091cd703cbda0534c82fb207a9",
       "title": "SUSE - CVE-2026-44935",
       "url": "https://cyberveille.esante.gouv.fr/alertes/suse-cve-2026-44935-2026-07-06",
@@ -1050,6 +1325,83 @@
       "source": "CERT-FR",
       "publishedAt": "2026-07-06T00:00:00.000Z",
       "summary": "De multiples vulnérabilités ont été découvertes dans OpenSSH. Certaines d'entre elles permettent à un attaquant de provoquer un contournement de la politique de sécurité, un déni d",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "74d12518425b9d6d3409852d26784e302e688865",
+      "title": "[webapps] Joomla Extension 4.1.4 - PHP Object injection",
+      "url": "https://www.exploit-db.com/exploits/52617",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-06T00:00:00.000Z",
+      "summary": "Joomla Extension 4.1.4 - PHP Object injection",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "3cde630a72f08e03ba6cdf36bb10a6cf03ba9f32",
+      "title": "[webapps] Pulpy 0.1.1-Beta - Filesystem Sandbox Bypass",
+      "url": "https://www.exploit-db.com/exploits/52616",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-06T00:00:00.000Z",
+      "summary": "Pulpy 0.1.1-Beta - Filesystem Sandbox Bypass",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "865d2beae35391fa0f3b9305f74c6f6b9e8a827f",
+      "title": "[local] MEmu Android Emulator 9.2.7.0 - Local Privilege Escalation",
+      "url": "https://www.exploit-db.com/exploits/52615",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-06T00:00:00.000Z",
+      "summary": "MEmu Android Emulator 9.2.7.0 - Local Privilege Escalation",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "380b16665064341e778f295ea771e0d329a7ef7f",
+      "title": "[webapps] KeepInMind 0.8.4.2 - Stored XSS",
+      "url": "https://www.exploit-db.com/exploits/52614",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-06T00:00:00.000Z",
+      "summary": "KeepInMind 0.8.4.2 - Stored XSS",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "1eb26472bd42ab845e5b099036b560349f79bbc0",
+      "title": "[webapps] KNX visualisering - Broken Access Control",
+      "url": "https://www.exploit-db.com/exploits/52613",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-06T00:00:00.000Z",
+      "summary": "KNX visualisering - Broken Access Control",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "750e8dd90ae124c017f2695e18b300c3c46e6bf7",
+      "title": "[local] Windows Defender (MsMpEng.exe) - Race Condition",
+      "url": "https://www.exploit-db.com/exploits/52612",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-06T00:00:00.000Z",
+      "summary": "Windows Defender (MsMpEng.exe) - Race Condition",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "dbe9e5295e1950f2049c82f5fd756d29b30d4afe",
+      "title": "[webapps] WordPress Plugin WPZOOM Portfolio 1.4.21 - Reflected Cross-Site Scripting (XSS)",
+      "url": "https://www.exploit-db.com/exploits/52611",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-06T00:00:00.000Z",
+      "summary": "WordPress Plugin WPZOOM Portfolio 1.4.21 - Reflected Cross-Site Scripting (XSS)",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1207,17 +1559,6 @@
       "type": "NEWS",
       "severity": "Moyenne",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTOYmjevwtg2njZKRnBeTtT1fSpmOD45a_apqSQWJJQH8N0HtftQ_Tj3mCC6dfysokuddsTPVCKKM4hd4Trjs6dPn1tvUNi4gWvj_OQevLSDqNfuGOK87WNAQSRVZSEOOLoo0Ip4IQQTa14eqh7J7rPo-8edHwoNORqqrcgtFAT-LySviPfbahvJDMDk_T/s1600/power.jpg"
-    },
-    {
-      "id": "c472926f12137eaf87e44496e79e7f257a255b4b",
-      "title": "Et si notre réalité n'était qu'un gigantesque bug informatique ?",
-      "url": "https://www.france24.com/fr/%C3%A9missions/tech-24/20260703-et-si-notre-r%C3%A9alit%C3%A9-n-%C3%A9tait-qu-un-gigantesque-bug-informatique?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-03T13:20:44.000Z",
-      "summary": "Imaginez que notre univers ne soit qu'un gigantesque jeu vidéo. Popularisée par \"Matrix\" et tournée en dérision dans \"Le Vertige\" – la dernière comédie de Quentin Dupieux –, cette ",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://s.france24.com/media/display/ee323554-76e1-11f1-bae2-005056bf30b7/w:1280/p:16x9/Capture-d-e%CC%81cran-2026-07-03-a%CC%80-15-16-33.jpg"
     },
     {
       "id": "af4c0c0e6a91000f165c68fb402db1bfc9769559",
@@ -1671,39 +2012,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9emdIsaMBcMQoyS0ot-ckXq8LWhMk6P2zAm3WdCVFBhRMNUqN6E1vZqllIq6qYHBvGm8WhCGi8C3PLUNOecmNYU4LLoWH5zRBadBejDgpbC5DihDwqiYAMLpZNsQBk2MsiN89nt-honwtPiQzjg4fDUp5w2aiCXWZBKk94qHwfG4yEHak6zoZuNmXKgY/s1600/argo-cd.jpg"
     },
     {
-      "id": "da28eb241bfa9489e7bede480630f33abf27522b",
-      "title": "19-Year-Old Scattered Spider Suspect Extradited to Face U.S. Hacking Charges",
-      "url": "https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-01T19:28:07.000Z",
-      "summary": "A teenager accused of belonging to the hacking group Scattered Spider has been extradited from Finland to face U.S. charges of conspiracy, computer intrusion, and fraud, the U.S. D",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitCA6eGqIT2msGTmYh2Qr84lq5GYGvI4Y8FSzzNira0osd5SNIbnpLKZfLZLggblyWGxZ1ScIR_I06M-RoM5wM3he2KRkFCnwYxIKtGBDb9PA1JtoK1JM5f0vObSITDMGt4eeVV82LUF3DBNkYiHLhCTYNwnlOP3DlfCHYLkP6NfHjwRJDsHSMTHEGKAs/s1600/hacker-arrested.jpg"
-    },
-    {
-      "id": "8bc0daf1a0307e1b0d275d99004dbb037235ac14",
-      "title": "SEO-Poisoned Software Sites Abuse ScreenConnect to Deploy AsyncRAT",
-      "url": "https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-01T17:53:06.000Z",
-      "summary": "Unknown threat actors are leveraging the ScreenConnect remote access tool as a way to deploy and execute AsyncRAT. Kaspersky said the activity is part of a \"massive, multi-domain, ",
-      "type": "NEWS",
-      "severity": "Moyenne",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbKfADFEhazeaRztmVJkTBhFqZxALUDBwsOV_25bWjZ6Qm3pCBoSSawssWOOJC2ZQ7M6hrUDRXLfR5gcpWRkkaSdNtSPCz-FLrG5Dy4-Y-IzEMt_souSqJuc3JK9FNQ9p2-dT7Ojf3ufzPkWBpLNyDAVeeuYS7Ya-BJWT4MmAHz7OjHvwjMSCfF5Jvahyphenhyphenj/s1600/SEO-MALWARE.jpg"
-    },
-    {
-      "id": "9efde806157ec33a73e37bcf60b5bbfeb1e9e977",
-      "title": "VEIL#DROP Malware Chain Uses Blogger Platform to Deliver PureLogs Stealer",
-      "url": "https://thehackernews.com/2026/07/veildrop-malware-chain-uses-blogger.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-01T17:18:50.000Z",
-      "summary": "Cybersecurity researchers have flagged a new multi-stage malware delivery attack chain that uses social engineering and Blogger pages to deliver an information stealer called PureL",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3OuCh7SjXAd7hG_0Q0p__EmpV5MwYh0fOfMZHc1wxRHpsCN9qlonLr93NB6-iJMWJd6nv8VoMqSt9hWW34H7R7tpoGuhkn1mkEL8UgsiUIfNxh9L1Bh0Qpvt0xrX9Pqq6rw1vb-0CEC3KLAT5N7fdlgEHWnYVDyeuUHt2pD59vugSKLaC9n8-LBLoqV0Y/s1600/blogger.jpg"
-    },
-    {
       "id": "065e99523a9a641e3a33081ea014d35c37e9001f",
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "url": "https://www.cisa.gov/news-events/alerts/2026/07/01/cisa-adds-one-known-exploited-vulnerability-catalog",
@@ -1965,314 +2273,6 @@
       "summary": "De multiples vulnérabilités ont été découvertes dans Apache Tomcat. Certaines d'entre elles permettent à un attaquant de provoquer une injection de code indirecte à distance (XSS),",
       "type": "CVE",
       "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "842c7ed518ee35aa244bc5f4dc517db14c92a315",
-      "title": "Multiples vulnérabilités dans les produits Apple (30 juin 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0818/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-06-30T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Apple. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des donnée",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "5f7a7b4275dd2b21d869e27748a79c3ccd738736",
-      "title": "Multiples vulnérabilités dans Synology MailPlus Server (30 juin 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0819/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-06-30T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Synology MailPlus Server. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une att",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "fb671e5998f61f588d279771796b3999efe44d54",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/06/29/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "source": "CISA",
-      "publishedAt": "2026-06-29T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA has added one new vulnerability to its &lt;a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": null
-    },
-    {
-      "id": "b1b2fbc6f338a925d0fb1d70ae46c2bae7446519",
-      "title": "STMicroelectronics dote les smartphones d’un bouclier post-quantique avec la puce ST54M - ZDNET",
-      "url": "https://www.zdnet.fr/actualites/stmicroelectronics-dote-les-smartphones-dun-bouclier-post-quantique-avec-la-puce-st54m-497835.htm",
-      "source": "Cryptographie FR",
-      "publishedAt": "2026-06-29T06:47:33.000Z",
-      "summary": "Conçue pour anticiper les exigences réglementaires attendues autour de 2030, la puce ST54M cible l’ensemble de l’écosystème des appareils personnels …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2026/06/st54m.jpg"
-    },
-    {
-      "id": "5fa08d261ed487379bcf1a8540681bea47f23273",
-      "title": "Notepad++ - CVE-2026-52884",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/notepad-cve-2026-52884-2026-06-29",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-06-29T01:23:34.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de contournement du correctif CVE-2026-48800 dans la fonction &lt;strong&gt;isInTrustedDirectory()&lt;/strong&gt; de Notepad++.&lt;/p&gt; &lt",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "ad37368824abd8e9af2b29f751773b60b13ca3a7",
-      "title": "Linux kernel - CVE-2026-43503",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/linux-kernel-cve-2026-43503-2026-06-29",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-06-29T01:22:46.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans les fonctions de transfert de fragments réseau du sous-système &lt;strong&gt;net/skbuff&lt;/strong&gt; du noyau Linux.&lt;/p&gt; &lt;p&g",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "700a5f722fbae467b3b0ee12dc4ffb2668bd2d8a",
-      "title": "Google - CVE-2026-13033",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/google-cve-2026-13033-2026-06-29",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-06-29T01:21:10.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le composant &lt;strong&gt;Blink InterestGroups&lt;/strong&gt; du moteur de rendu de Google Chrome.&lt;/p&gt; &lt;p&gt;Une erreur de ges",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "b2a42dc8137040397d544d3aa1917f6dcee8ec9a",
-      "title": "Canonical - CVE-2026-12411",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/canonical-cve-2026-12411-2026-06-29",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-06-29T01:19:50.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de contrôle d'accès absent dans le handler &lt;strong&gt;devLXDInstancePatchHandler&lt;/strong&gt; de LXD.&lt;/p&gt; &lt;p&gt;LXD est un hype",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "4f2d6c01904cddda6699d397e161df424ca04cf9",
-      "title": "WSO2 LLC - CVE-2026-2053",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/wso2-llc-cve-2026-2053-2026-06-29",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-06-29T01:18:41.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de type &lt;strong&gt;SSRF&lt;/strong&gt; dans le composant de flux de messages de WSO2 API Manager.&lt;/p&gt; &lt;p&gt;WSO2 API Manager est ",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "180812f54c6cf4ff11a2ea372afb562a20a5ae7e",
-      "title": "Bulletin d'actualité CERTFR-2026-ACT-028 (29 juin 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-028/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-06-29T00:00:00.000Z",
-      "summary": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble de",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "3b7194d9afaffdd9b9e0622248366f66bdc7388e",
-      "title": "Vulnérabilité dans HAProxy (29 juin 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0814/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-06-29T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans HAProxy. Elle permet à un attaquant de provoquer un déni de service à distance.",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "c6eb25c8889037b1dceb6fdd88ca852bbe666cf3",
-      "title": "Multiples vulnérabilités dans Mattermost Server (29 juin 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0813/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-06-29T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Mattermost Server. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "bb1a7f43e86e1463c338113bc48d31ce09518459",
-      "title": "Multiples vulnérabilités dans KeyCloak (29 juin 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0815/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-06-29T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans KeyCloak. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une éléva",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "814f9c49d6f96882a6f89c56b0ac4b2c16d56baf",
-      "title": "Multiples vulnérabilités dans Microsoft Azure Linux (29 juin 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0812/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-06-29T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Azure Linux. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "dc9d6f93aaf58a38ad04d2db8c04604d66a14977",
-      "title": "Multiples vulnérabilités dans Microsoft Edge (29 juin 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0811/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-06-29T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un problème de sécu",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "cab0333193d0ca42f9384e94313871e9ccf41c3c",
-      "title": "Multiples vulnérabilités dans Stormshield Management Center (29 juin 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0816/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-06-29T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Stormshield Management Center. Elles permettent à un attaquant de provoquer une exécution de code arbitraire, une atteinte à la",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "e2d049ac29ecdb9fc714aed06ac01fdaff0c5911",
-      "title": "Sysco - 2,691,852 breached accounts",
-      "url": "https://haveibeenpwned.com/Breach/Sysco",
-      "source": "Have I Been Pwned",
-      "publishedAt": "2026-06-28T15:57:29.000Z",
-      "summary": "In June 2026, the food distribution company &lt;a href=\"https://cybernews.com/news/sysco-shinyhunters-61-million-salesforce-records/\" target=\"_blank\" rel=\"noopener\"&gt;Sysco was ta",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": null
-    },
-    {
-      "id": "79d2edc4dbbec4447efd367ad2ba9d6e7e0fbbec",
-      "title": "Les Bitcoins de Satoshi bientôt gelés ? La solution pour sauver le réseau de la menace quantique ?",
-      "url": "https://android-mt.ouest-france.fr/news/decryptage/les-bitcoins-de-satoshi-bientot-geles-la-solution-pour-sauver-le-reseau-de-la-menace-quantique/204880/?amp%3Butm_content=topic%2Ffr-cryptographie",
-      "source": "Cryptographie FR",
-      "publishedAt": "2026-06-28T04:45:36.000Z",
-      "summary": "Pourquoi l’informatique quantique menace des milliards de bitcoins La menace quantique sur Bitcoin n’est plus théorique. En mars 2026, les équipes de …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/f806567bcf402d36a2f47ba27395cc298e0179c1/_xlarge.jpeg"
-    },
-    {
-      "id": "29e1a0d3b663009431b066be101983c3fd64d833",
-      "title": "Cyber actualités ZATAZ de la semaine du 28 juin 2026",
-      "url": "https://www.zataz.com/cyber-actualites-zataz-de-la-semaine-du-28-juin-2026/",
-      "source": "Zataz",
-      "publishedAt": "2026-06-27T07:28:42.000Z",
-      "summary": "Bonjour à toutes et tous,&#160; Cette semaine cyber est marquée par de nouvelles fuites revendiquées, des intrusions sensibles et des opérations judiciaires d’ampleur. Akaolife, Be",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/recap-news-zataz-1.jpg"
-    },
-    {
-      "id": "096f6e3894b31739c1e116d59366ca30bb5deaa3",
-      "title": "L&#8217;authentification par certificat pour Active Directory : pourquoi elle devient incontournable avec la dépréciation de NTLM",
-      "url": "https://www.zataz.com/lauthentification-par-certificat-pour-active-directory-pourquoi-elle-devient-incontournable-avec-la-depreciation-de-ntlm/",
-      "source": "Zataz",
-      "publishedAt": "2026-06-26T15:04:24.000Z",
-      "summary": "Microsoft met fin à NT LAN Manager (NTLM), mais le remplacer dans les systèmes legacy, les applications et les intégrations tierces n&#8217;est pas une opération simple. Pour les a",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/adactive.jpg"
-    },
-    {
-      "id": "d57196aea1c12930f8b36429309e521f32f77a23",
-      "title": "Russian Intelligence Services Continue to Target Commercial Messaging Applications",
-      "url": "https://www.cisa.gov/resources-tools/resources/russian-intelligence-services-continue-target-commercial-messaging-applications",
-      "source": "CISA",
-      "publishedAt": "2026-06-26T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA and the Federal Bureau of Investigation (FBI) issued an updated &lt;a href=\"https://www.ic3.gov/PSA/2026/PSA260626\" target=\"_blank\"&gt;Public Service Announcement (PS",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "a6b702f4275b7c12b95c97cab4e1c47313fe7141",
-      "title": "American Tower - 216,601 breached accounts",
-      "url": "https://haveibeenpwned.com/Breach/AmericanTower",
-      "source": "Have I Been Pwned",
-      "publishedAt": "2026-06-26T07:17:23.000Z",
-      "summary": "In June 2026, telecommunications tower infrastructure company &lt;a href=\"https://x.com/H4ckmanac/status/2065383723739046213\" target=\"_blank\" rel=\"noopener\"&gt;American Tower was t",
-      "type": "LEAK",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "a4f384eb02ebe8de38df45c8c7328e5f60f89645",
-      "title": "Trump accélère sur le quantique pour protéger les États-Unis d’une menace qui inquiète déjà le monde",
-      "url": "https://www.futura-sciences.com/tech/actualites/ordinateur-quantique-trump-accelere-quantique-proteger-etats-unis-menace-inquiete-deja-monde-135617/",
-      "source": "Cryptographie FR",
-      "publishedAt": "2026-06-26T05:03:30.000Z",
-      "summary": "« Nous allons investir dans le leadership américain en matière quantique comme jamais auparavant. » C'est avec son style habituel et sa manière …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/futura-sciences.com/5dc112f1f6f63b17ba3ee22802c501c1273b7dee/_xlarge.jpeg"
-    },
-    {
-      "id": "5a3d8bd85a47943b9672e96bf1f11646d9c7c5b2",
-      "title": "On croyait les nombres premiers totalement imprévisibles : des mathématiciens viennent de découvrir derrière eux un modèle remarquable",
-      "url": "https://sciencepost.fr/on-croyait-les-nombres-premiers-totalement-imprevisibles-des-mathematiciens-viennent-de-decouvrir-derriere-eux-un-modele-remarquable/?amp%3Butm_content=topic%2Ffr-cryptographie",
-      "source": "Cryptographie FR",
-      "publishedAt": "2026-06-26T04:29:01.000Z",
-      "summary": "Les nombres premiers fascinent, intriguent et défient les mathématiciens depuis l’Antiquité. Ces chiffres qui ne se divisent que par 1 et eux-mêmes …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://sciencepost.fr/wp-content/uploads/2025/06/prime-numbers-l.webp"
-    },
-    {
-      "id": "fc4840ece6bb8337cecffe8dd112097316d00ab3",
-      "title": "PTC - CVE-2026-12569",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/ptc-cve-2026-12569-2026-06-26",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-06-26T01:19:16.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;désérialisation de données non fiables&lt;/strong&gt; dans les &lt;strong&gt;servlets exposés réseau&lt;/strong&gt; Windchil",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "cd6d73c887a9c7c137339fdd70d09c9fab2d07e8",
-      "title": "Gogs - CVE-2026-52806",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/gogs-cve-2026-52806-2026-06-26",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-06-26T01:16:51.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité d'&lt;strong&gt;injection d'argument&lt;/strong&gt; dans la fonction Merge() de Gogs, au niveau du traitement des fusions de type &lt;strong&",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "41335b724f9ed9a76347a593f35ef2a2657ee12e",
-      "title": "OpenText - CVE-2026-11877",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/opentext-cve-2026-11877-2026-06-26",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-06-26T01:15:40.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité d'&lt;strong&gt;absence de contrôle d'autorisation&lt;/strong&gt; sur l'&lt;strong&gt;API de gestion de la configuration&lt;/strong&gt; d'Ope",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "d8214492a22ebf73223aa30535dafa2b38d2e8e4",
-      "title": "Rapid7 - CVE-2026-9155",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/rapid7-cve-2026-9155-2026-06-26",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-06-26T01:14:47.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité d'&lt;strong&gt;injection de commandes OS&lt;/strong&gt; dans le &lt;strong&gt;plugin Sed&lt;/strong&gt; de&lt;/p&gt; &lt;p&gt;Rapid7 Insight",
-      "type": "CVE",
-      "severity": "Élevée",
       "imageUrl": null
     }
   ]
