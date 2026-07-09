@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T23:09:58.255Z",
+  "generatedAt": "2026-07-09T03:31:58.202Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -23,7 +23,7 @@
       "name": "Exploit-DB",
       "url": "https://www.exploit-db.com/rss.xml",
       "status": "ok",
-      "items": 50
+      "items": 0
     },
     {
       "name": "The Hacker News",
@@ -445,50 +445,6 @@
       "source": "CERT-FR",
       "publishedAt": "2026-07-08T00:00:00.000Z",
       "summary": "De multiples vulnérabilités ont été découvertes dans Joomla!. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atte",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "40e016744fe7ef09ed325e8bbc35e2e0a125aa40",
-      "title": "[webapps] Krayin CRM v2.2.x - Authenticated Remote Code Execution",
-      "url": "https://www.exploit-db.com/exploits/52629",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-08T00:00:00.000Z",
-      "summary": "Krayin CRM v2.2.x - Authenticated Remote Code Execution",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "cffb5dbc5e540e22ee59f3bd9bf96a429ffe114c",
-      "title": "[webapps] Atarim WordPress Plugin 4.2.2 - Sensitive Information Exposure",
-      "url": "https://www.exploit-db.com/exploits/52628",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-08T00:00:00.000Z",
-      "summary": "Atarim WordPress Plugin 4.2.2 - Sensitive Information Exposure",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "824f17cb39a1921d1196c0c7ea34e0a98535d503",
-      "title": "[webapps] Langflow 1.9.0 - RCE",
-      "url": "https://www.exploit-db.com/exploits/52627",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-08T00:00:00.000Z",
-      "summary": "Langflow 1.9.0 - RCE",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": null
-    },
-    {
-      "id": "1d20e357cf7a3631a54c1be327ebe2ef7a874b78",
-      "title": "[webapps] Joomla Page Builder CK 3.5.10 - Arbitrary File Upload",
-      "url": "https://www.exploit-db.com/exploits/52626",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-08T00:00:00.000Z",
-      "summary": "Joomla Page Builder CK 3.5.10 - Arbitrary File Upload",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -923,94 +879,6 @@
       "imageUrl": null
     },
     {
-      "id": "e5d1e580a15544c94c6e0e273439742d87f17aec",
-      "title": "[webapps] MCPJam Inspector - Remote Code Execution",
-      "url": "https://www.exploit-db.com/exploits/52625",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-07T00:00:00.000Z",
-      "summary": "MCPJam Inspector - Remote Code Execution",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "ccd9053272afa6f480476f9cb81ab0b3feb19076",
-      "title": "[local] ProtonVPN v4.4.1 - Unquoted Service Path",
-      "url": "https://www.exploit-db.com/exploits/52624",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-07T00:00:00.000Z",
-      "summary": "ProtonVPN v4.4.1 - Unquoted Service Path",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "c4b6bea04613b1ed254bc561d3fe9de4f6c70865",
-      "title": "[webapps] Flowise 3.1.3 - arbitrary code execution",
-      "url": "https://www.exploit-db.com/exploits/52623",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-07T00:00:00.000Z",
-      "summary": "Flowise 3.1.3 - arbitrary code execution",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "74b1b94cc46b0a0a682a5673a7fa642d8a200ca1",
-      "title": "[remote] Hydra - Stack Buffer Overflow",
-      "url": "https://www.exploit-db.com/exploits/52622",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-07T00:00:00.000Z",
-      "summary": "Hydra - Stack Buffer Overflow",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "c8dd99b140938aa5d9fffbdfe2b9b32878e627fe",
-      "title": "[webapps] Discuz! X5.0 - Authentication Bypass",
-      "url": "https://www.exploit-db.com/exploits/52621",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-07T00:00:00.000Z",
-      "summary": "Discuz! X5.0 - Authentication Bypass",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "add15153766acf21779fd8632430e249782cfa48",
-      "title": "[webapps] Tenable Nessus 10.12.1 - SQL Injection",
-      "url": "https://www.exploit-db.com/exploits/52620",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-07T00:00:00.000Z",
-      "summary": "Tenable Nessus 10.12.1 - SQL Injection",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "41915105cca45b17097a0c0ce0078a3572e118b2",
-      "title": "[webapps] WordPress Bricks Builder Theme - RCE",
-      "url": "https://www.exploit-db.com/exploits/52619",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-07T00:00:00.000Z",
-      "summary": "WordPress Bricks Builder Theme - RCE",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": null
-    },
-    {
-      "id": "8b163d32f038b740ca5d364c8c76c0f19c2ee124",
-      "title": "[remote] iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter",
-      "url": "https://www.exploit-db.com/exploits/52618",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-07T00:00:00.000Z",
-      "summary": "iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
       "id": "8ae73f565e9186a8b113421ceb6f192e637b6158",
       "title": "Un ado de 15 ans accusé d’attaque cyber contre Bandai Channel",
       "url": "https://www.zataz.com/un-ado-de-15-ans-accuse-dattaque-cyber-contre-bandai-channel/",
@@ -1325,83 +1193,6 @@
       "source": "CERT-FR",
       "publishedAt": "2026-07-06T00:00:00.000Z",
       "summary": "De multiples vulnérabilités ont été découvertes dans OpenSSH. Certaines d'entre elles permettent à un attaquant de provoquer un contournement de la politique de sécurité, un déni d",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "74d12518425b9d6d3409852d26784e302e688865",
-      "title": "[webapps] Joomla Extension 4.1.4 - PHP Object injection",
-      "url": "https://www.exploit-db.com/exploits/52617",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-06T00:00:00.000Z",
-      "summary": "Joomla Extension 4.1.4 - PHP Object injection",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "3cde630a72f08e03ba6cdf36bb10a6cf03ba9f32",
-      "title": "[webapps] Pulpy 0.1.1-Beta - Filesystem Sandbox Bypass",
-      "url": "https://www.exploit-db.com/exploits/52616",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-06T00:00:00.000Z",
-      "summary": "Pulpy 0.1.1-Beta - Filesystem Sandbox Bypass",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "865d2beae35391fa0f3b9305f74c6f6b9e8a827f",
-      "title": "[local] MEmu Android Emulator 9.2.7.0 - Local Privilege Escalation",
-      "url": "https://www.exploit-db.com/exploits/52615",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-06T00:00:00.000Z",
-      "summary": "MEmu Android Emulator 9.2.7.0 - Local Privilege Escalation",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "380b16665064341e778f295ea771e0d329a7ef7f",
-      "title": "[webapps] KeepInMind 0.8.4.2 - Stored XSS",
-      "url": "https://www.exploit-db.com/exploits/52614",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-06T00:00:00.000Z",
-      "summary": "KeepInMind 0.8.4.2 - Stored XSS",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "1eb26472bd42ab845e5b099036b560349f79bbc0",
-      "title": "[webapps] KNX visualisering - Broken Access Control",
-      "url": "https://www.exploit-db.com/exploits/52613",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-06T00:00:00.000Z",
-      "summary": "KNX visualisering - Broken Access Control",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "750e8dd90ae124c017f2695e18b300c3c46e6bf7",
-      "title": "[local] Windows Defender (MsMpEng.exe) - Race Condition",
-      "url": "https://www.exploit-db.com/exploits/52612",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-06T00:00:00.000Z",
-      "summary": "Windows Defender (MsMpEng.exe) - Race Condition",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "dbe9e5295e1950f2049c82f5fd756d29b30d4afe",
-      "title": "[webapps] WordPress Plugin WPZOOM Portfolio 1.4.21 - Reflected Cross-Site Scripting (XSS)",
-      "url": "https://www.exploit-db.com/exploits/52611",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-06T00:00:00.000Z",
-      "summary": "WordPress Plugin WPZOOM Portfolio 1.4.21 - Reflected Cross-Site Scripting (XSS)",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -2274,6 +2065,215 @@
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
+    },
+    {
+      "id": "842c7ed518ee35aa244bc5f4dc517db14c92a315",
+      "title": "Multiples vulnérabilités dans les produits Apple (30 juin 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0818/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-06-30T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Apple. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des donnée",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "5f7a7b4275dd2b21d869e27748a79c3ccd738736",
+      "title": "Multiples vulnérabilités dans Synology MailPlus Server (30 juin 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0819/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-06-30T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Synology MailPlus Server. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une att",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "fb671e5998f61f588d279771796b3999efe44d54",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/06/29/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "source": "CISA",
+      "publishedAt": "2026-06-29T12:00:00.000Z",
+      "summary": "&lt;p&gt;CISA has added one new vulnerability to its &lt;a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": null
+    },
+    {
+      "id": "b1b2fbc6f338a925d0fb1d70ae46c2bae7446519",
+      "title": "STMicroelectronics dote les smartphones d’un bouclier post-quantique avec la puce ST54M - ZDNET",
+      "url": "https://www.zdnet.fr/actualites/stmicroelectronics-dote-les-smartphones-dun-bouclier-post-quantique-avec-la-puce-st54m-497835.htm",
+      "source": "Cryptographie FR",
+      "publishedAt": "2026-06-29T06:47:33.000Z",
+      "summary": "Conçue pour anticiper les exigences réglementaires attendues autour de 2030, la puce ST54M cible l’ensemble de l’écosystème des appareils personnels …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2026/06/st54m.jpg"
+    },
+    {
+      "id": "5fa08d261ed487379bcf1a8540681bea47f23273",
+      "title": "Notepad++ - CVE-2026-52884",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/notepad-cve-2026-52884-2026-06-29",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-29T01:23:34.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de contournement du correctif CVE-2026-48800 dans la fonction &lt;strong&gt;isInTrustedDirectory()&lt;/strong&gt; de Notepad++.&lt;/p&gt; &lt",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "ad37368824abd8e9af2b29f751773b60b13ca3a7",
+      "title": "Linux kernel - CVE-2026-43503",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/linux-kernel-cve-2026-43503-2026-06-29",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-29T01:22:46.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans les fonctions de transfert de fragments réseau du sous-système &lt;strong&gt;net/skbuff&lt;/strong&gt; du noyau Linux.&lt;/p&gt; &lt;p&g",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "700a5f722fbae467b3b0ee12dc4ffb2668bd2d8a",
+      "title": "Google - CVE-2026-13033",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/google-cve-2026-13033-2026-06-29",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-29T01:21:10.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le composant &lt;strong&gt;Blink InterestGroups&lt;/strong&gt; du moteur de rendu de Google Chrome.&lt;/p&gt; &lt;p&gt;Une erreur de ges",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "b2a42dc8137040397d544d3aa1917f6dcee8ec9a",
+      "title": "Canonical - CVE-2026-12411",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/canonical-cve-2026-12411-2026-06-29",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-29T01:19:50.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de contrôle d'accès absent dans le handler &lt;strong&gt;devLXDInstancePatchHandler&lt;/strong&gt; de LXD.&lt;/p&gt; &lt;p&gt;LXD est un hype",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "4f2d6c01904cddda6699d397e161df424ca04cf9",
+      "title": "WSO2 LLC - CVE-2026-2053",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/wso2-llc-cve-2026-2053-2026-06-29",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-06-29T01:18:41.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de type &lt;strong&gt;SSRF&lt;/strong&gt; dans le composant de flux de messages de WSO2 API Manager.&lt;/p&gt; &lt;p&gt;WSO2 API Manager est ",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "180812f54c6cf4ff11a2ea372afb562a20a5ae7e",
+      "title": "Bulletin d'actualité CERTFR-2026-ACT-028 (29 juin 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-028/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-06-29T00:00:00.000Z",
+      "summary": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble de",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "3b7194d9afaffdd9b9e0622248366f66bdc7388e",
+      "title": "Vulnérabilité dans HAProxy (29 juin 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0814/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-06-29T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans HAProxy. Elle permet à un attaquant de provoquer un déni de service à distance.",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "c6eb25c8889037b1dceb6fdd88ca852bbe666cf3",
+      "title": "Multiples vulnérabilités dans Mattermost Server (29 juin 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0813/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-06-29T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Mattermost Server. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "bb1a7f43e86e1463c338113bc48d31ce09518459",
+      "title": "Multiples vulnérabilités dans KeyCloak (29 juin 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0815/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-06-29T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans KeyCloak. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une éléva",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "814f9c49d6f96882a6f89c56b0ac4b2c16d56baf",
+      "title": "Multiples vulnérabilités dans Microsoft Azure Linux (29 juin 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0812/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-06-29T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Azure Linux. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "dc9d6f93aaf58a38ad04d2db8c04604d66a14977",
+      "title": "Multiples vulnérabilités dans Microsoft Edge (29 juin 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0811/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-06-29T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un problème de sécu",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "cab0333193d0ca42f9384e94313871e9ccf41c3c",
+      "title": "Multiples vulnérabilités dans Stormshield Management Center (29 juin 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0816/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-06-29T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Stormshield Management Center. Elles permettent à un attaquant de provoquer une exécution de code arbitraire, une atteinte à la",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "e2d049ac29ecdb9fc714aed06ac01fdaff0c5911",
+      "title": "Sysco - 2,691,852 breached accounts",
+      "url": "https://haveibeenpwned.com/Breach/Sysco",
+      "source": "Have I Been Pwned",
+      "publishedAt": "2026-06-28T15:57:29.000Z",
+      "summary": "In June 2026, the food distribution company &lt;a href=\"https://cybernews.com/news/sysco-shinyhunters-61-million-salesforce-records/\" target=\"_blank\" rel=\"noopener\"&gt;Sysco was ta",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": null
+    },
+    {
+      "id": "79d2edc4dbbec4447efd367ad2ba9d6e7e0fbbec",
+      "title": "Les Bitcoins de Satoshi bientôt gelés ? La solution pour sauver le réseau de la menace quantique ?",
+      "url": "https://android-mt.ouest-france.fr/news/decryptage/les-bitcoins-de-satoshi-bientot-geles-la-solution-pour-sauver-le-reseau-de-la-menace-quantique/204880/?amp%3Butm_content=topic%2Ffr-cryptographie",
+      "source": "Cryptographie FR",
+      "publishedAt": "2026-06-28T04:45:36.000Z",
+      "summary": "Pourquoi l’informatique quantique menace des milliards de bitcoins La menace quantique sur Bitcoin n’est plus théorique. En mars 2026, les équipes de …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/f806567bcf402d36a2f47ba27395cc298e0179c1/_xlarge.jpeg"
+    },
+    {
+      "id": "29e1a0d3b663009431b066be101983c3fd64d833",
+      "title": "Cyber actualités ZATAZ de la semaine du 28 juin 2026",
+      "url": "https://www.zataz.com/cyber-actualites-zataz-de-la-semaine-du-28-juin-2026/",
+      "source": "Zataz",
+      "publishedAt": "2026-06-27T07:28:42.000Z",
+      "summary": "Bonjour à toutes et tous,&#160; Cette semaine cyber est marquée par de nouvelles fuites revendiquées, des intrusions sensibles et des opérations judiciaires d’ampleur. Akaolife, Be",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://www.zataz.com/wp-content/uploads/recap-news-zataz-1.jpg"
     }
   ]
 }
