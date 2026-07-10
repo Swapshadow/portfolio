@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T23:13:29.847Z",
+  "generatedAt": "2026-07-10T03:33:53.085Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -23,7 +23,7 @@
       "name": "Exploit-DB",
       "url": "https://www.exploit-db.com/rss.xml",
       "status": "ok",
-      "items": 0
+      "items": 50
     },
     {
       "name": "The Hacker News",
@@ -75,6 +75,17 @@
     }
   ],
   "items": [
+    {
+      "id": "793add974567e91d36fccc6ef2fcf515cd1cb2c7",
+      "title": "La Croix-Rouge crée son « drapeau blanc » numérique pour protéger les hôpitaux et les secours des cyberattaques",
+      "url": "https://www.latribune.fr/article/tech/20502652218442/la-croix-rouge-cree-son-drapeau-blanc-numerique-pour-proteger-les-hopitaux-et-les-secours-des-cyberattaques?amp%3Butm_content=topic%2Ffr-technologie",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-10T01:00:02.000Z",
+      "summary": "Le Comité international de la Croix-Rouge a dévoilé un prototype d'emblème numérique destiné à signaler aux cyberattaquants les infrastructures …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/latribune.fr/08b4e6b877d8fbddb29bbe858d96003709923b9f/_large.jpeg"
+    },
     {
       "id": "7186d0efeff7be79ab77cd224bbb96c4f78a2e5e",
       "title": "A Genève, le CICR et Microsoft lancent un emblème numérique pour parer des cyberattaques aux conséquences dévastatrices - Le Temps",
@@ -813,6 +824,50 @@
       "imageUrl": null
     },
     {
+      "id": "40e016744fe7ef09ed325e8bbc35e2e0a125aa40",
+      "title": "[webapps] Krayin CRM v2.2.x - Authenticated Remote Code Execution",
+      "url": "https://www.exploit-db.com/exploits/52629",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-08T00:00:00.000Z",
+      "summary": "Krayin CRM v2.2.x - Authenticated Remote Code Execution",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "cffb5dbc5e540e22ee59f3bd9bf96a429ffe114c",
+      "title": "[webapps] Atarim WordPress Plugin 4.2.2 - Sensitive Information Exposure",
+      "url": "https://www.exploit-db.com/exploits/52628",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-08T00:00:00.000Z",
+      "summary": "Atarim WordPress Plugin 4.2.2 - Sensitive Information Exposure",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "824f17cb39a1921d1196c0c7ea34e0a98535d503",
+      "title": "[webapps] Langflow 1.9.0 - RCE",
+      "url": "https://www.exploit-db.com/exploits/52627",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-08T00:00:00.000Z",
+      "summary": "Langflow 1.9.0 - RCE",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": null
+    },
+    {
+      "id": "1d20e357cf7a3631a54c1be327ebe2ef7a874b78",
+      "title": "[webapps] Joomla Page Builder CK 3.5.10 - Arbitrary File Upload",
+      "url": "https://www.exploit-db.com/exploits/52626",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-08T00:00:00.000Z",
+      "summary": "Joomla Page Builder CK 3.5.10 - Arbitrary File Upload",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
       "id": "31c1ff88941affac6faa9d001ab9a9e4814310aa",
       "title": "Nayax visée par un « Syndicate » du cybercrime",
       "url": "https://www.zataz.com/nayax-visee-par-un-syndicate-du-cybercrime/",
@@ -1231,6 +1286,94 @@
       "imageUrl": null
     },
     {
+      "id": "e5d1e580a15544c94c6e0e273439742d87f17aec",
+      "title": "[webapps] MCPJam Inspector - Remote Code Execution",
+      "url": "https://www.exploit-db.com/exploits/52625",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-07T00:00:00.000Z",
+      "summary": "MCPJam Inspector - Remote Code Execution",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "ccd9053272afa6f480476f9cb81ab0b3feb19076",
+      "title": "[local] ProtonVPN v4.4.1 - Unquoted Service Path",
+      "url": "https://www.exploit-db.com/exploits/52624",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-07T00:00:00.000Z",
+      "summary": "ProtonVPN v4.4.1 - Unquoted Service Path",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "c4b6bea04613b1ed254bc561d3fe9de4f6c70865",
+      "title": "[webapps] Flowise 3.1.3 - arbitrary code execution",
+      "url": "https://www.exploit-db.com/exploits/52623",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-07T00:00:00.000Z",
+      "summary": "Flowise 3.1.3 - arbitrary code execution",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "74b1b94cc46b0a0a682a5673a7fa642d8a200ca1",
+      "title": "[remote] Hydra - Stack Buffer Overflow",
+      "url": "https://www.exploit-db.com/exploits/52622",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-07T00:00:00.000Z",
+      "summary": "Hydra - Stack Buffer Overflow",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "c8dd99b140938aa5d9fffbdfe2b9b32878e627fe",
+      "title": "[webapps] Discuz! X5.0 - Authentication Bypass",
+      "url": "https://www.exploit-db.com/exploits/52621",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-07T00:00:00.000Z",
+      "summary": "Discuz! X5.0 - Authentication Bypass",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "add15153766acf21779fd8632430e249782cfa48",
+      "title": "[webapps] Tenable Nessus 10.12.1 - SQL Injection",
+      "url": "https://www.exploit-db.com/exploits/52620",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-07T00:00:00.000Z",
+      "summary": "Tenable Nessus 10.12.1 - SQL Injection",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "41915105cca45b17097a0c0ce0078a3572e118b2",
+      "title": "[webapps] WordPress Bricks Builder Theme - RCE",
+      "url": "https://www.exploit-db.com/exploits/52619",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-07T00:00:00.000Z",
+      "summary": "WordPress Bricks Builder Theme - RCE",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": null
+    },
+    {
+      "id": "8b163d32f038b740ca5d364c8c76c0f19c2ee124",
+      "title": "[remote] iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter",
+      "url": "https://www.exploit-db.com/exploits/52618",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-07T00:00:00.000Z",
+      "summary": "iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
       "id": "8ae73f565e9186a8b113421ceb6f192e637b6158",
       "title": "Un ado de 15 ans accusé d’attaque cyber contre Bandai Channel",
       "url": "https://www.zataz.com/un-ado-de-15-ans-accuse-dattaque-cyber-contre-bandai-channel/",
@@ -1273,17 +1416,6 @@
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEge0sNgi3moDw0JpFy3UdFB6bK0oxjaqc8ORZFecu5QqxA_wgpoWT1t56L9u2wScSkxYHP2aLO3N01yCPd8IkTBEyc_MvxIaG6BKzneB0LcXuwO_nEorvNvyvuEL3Krp003q6xOF0gePQCXN_bDswxBIhqV7q89_HY9mIxJ5ySShQwtU_jSa9FQnt0tq0RU/s1600/admin.jpg"
-    },
-    {
-      "id": "4c91cd747ac323caa0d01848b062f7ff5d9ae7c5",
-      "title": "Cyberattaques : les régions françaises les plus sensibles aux arnaques en ligne",
-      "url": "https://lepetitjournal.com/expat-emploi/cyberattaques-les-regions-francaises-les-plus-sensibles-aux-arnaques-en-ligne-447440?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-06T16:00:00.000Z",
-      "summary": "Selon les dernières données publiées par la Banque de France et l'Observatoire de la sécurité des moyens de paiement, le montant total des fraudes …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://backoffice.lepetitjournal.com/sites/default/files/2026-06/moritz-erken-QHDVlXhIacg-unsplash.jpg"
     },
     {
       "id": "5364e0b2f45612bd86bfbb4ed65afcec03605897",
@@ -1545,6 +1677,83 @@
       "source": "CERT-FR",
       "publishedAt": "2026-07-06T00:00:00.000Z",
       "summary": "De multiples vulnérabilités ont été découvertes dans OpenSSH. Certaines d'entre elles permettent à un attaquant de provoquer un contournement de la politique de sécurité, un déni d",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "74d12518425b9d6d3409852d26784e302e688865",
+      "title": "[webapps] Joomla Extension 4.1.4 - PHP Object injection",
+      "url": "https://www.exploit-db.com/exploits/52617",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-06T00:00:00.000Z",
+      "summary": "Joomla Extension 4.1.4 - PHP Object injection",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "3cde630a72f08e03ba6cdf36bb10a6cf03ba9f32",
+      "title": "[webapps] Pulpy 0.1.1-Beta - Filesystem Sandbox Bypass",
+      "url": "https://www.exploit-db.com/exploits/52616",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-06T00:00:00.000Z",
+      "summary": "Pulpy 0.1.1-Beta - Filesystem Sandbox Bypass",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "865d2beae35391fa0f3b9305f74c6f6b9e8a827f",
+      "title": "[local] MEmu Android Emulator 9.2.7.0 - Local Privilege Escalation",
+      "url": "https://www.exploit-db.com/exploits/52615",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-06T00:00:00.000Z",
+      "summary": "MEmu Android Emulator 9.2.7.0 - Local Privilege Escalation",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "380b16665064341e778f295ea771e0d329a7ef7f",
+      "title": "[webapps] KeepInMind 0.8.4.2 - Stored XSS",
+      "url": "https://www.exploit-db.com/exploits/52614",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-06T00:00:00.000Z",
+      "summary": "KeepInMind 0.8.4.2 - Stored XSS",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "1eb26472bd42ab845e5b099036b560349f79bbc0",
+      "title": "[webapps] KNX visualisering - Broken Access Control",
+      "url": "https://www.exploit-db.com/exploits/52613",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-06T00:00:00.000Z",
+      "summary": "KNX visualisering - Broken Access Control",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "750e8dd90ae124c017f2695e18b300c3c46e6bf7",
+      "title": "[local] Windows Defender (MsMpEng.exe) - Race Condition",
+      "url": "https://www.exploit-db.com/exploits/52612",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-06T00:00:00.000Z",
+      "summary": "Windows Defender (MsMpEng.exe) - Race Condition",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "dbe9e5295e1950f2049c82f5fd756d29b30d4afe",
+      "title": "[webapps] WordPress Plugin WPZOOM Portfolio 1.4.21 - Reflected Cross-Site Scripting (XSS)",
+      "url": "https://www.exploit-db.com/exploits/52611",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-06T00:00:00.000Z",
+      "summary": "WordPress Plugin WPZOOM Portfolio 1.4.21 - Reflected Cross-Site Scripting (XSS)",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -2064,215 +2273,6 @@
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le traitement de la &lt;strong&gt;négociation pré-authentification du protocole DRDA&lt;/strong&gt; utilisé par IBM Db2 pour établir une",
       "type": "CVE",
       "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "b4710de192ed2b595834bedce62efbec97047c75",
-      "title": "NetScaler - CVE-2026-8451",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/netscaler-cve-2026-8451-2026-07-01",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-07-01T02:13:34.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;validation d'entrée insuffisante&lt;/strong&gt; présente dans le traitement des requêtes adressées au composant &lt;strong&g",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "06efa457b29f130e466dc43eefa19fec70e94943",
-      "title": "Vulnérabilité dans Mozilla Firefox (01 juillet 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0820/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-07-01T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans Mozilla Firefox. Elle permet à un attaquant de provoquer une exécution de code arbitraire.",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "56be363633f5db16c94d37d0d1537b21f9855b3e",
-      "title": "Multiples vulnérabilités dans les produits Citrix (01 juillet 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0822/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-07-01T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Citrix. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "07f1b01751b477b387930be17d6de86ee1fb1851",
-      "title": "Multiples vulnérabilités dans Adobe ColdFusion (01 juillet 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0821/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-07-01T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Adobe ColdFusion. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, u",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "da4bd301be7871ebb1cc35f7c5750c8ad7846f76",
-      "title": "Schneider Electric EasyLogic T150 and Saitel DP RTU",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-04",
-      "source": "CISA",
-      "publishedAt": "2026-06-30T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-04.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "bd96beba0711eb157c05a54d1d452185aa6a2fbf",
-      "title": "Frangoteam FUXA SCADA/HMI",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-02",
-      "source": "CISA",
-      "publishedAt": "2026-06-30T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-02.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "70cdc0adf556b189ef550a65fa4f7fb845511fdf",
-      "title": "XZ Utils vulnerability impacting B&amp;R Products",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-05",
-      "source": "CISA",
-      "publishedAt": "2026-06-30T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-05.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "8a32a19b91c0fd6f17e2a495af62e903b9b5f5d3",
-      "title": "Delta Electronics DVP12SE PLC",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-07",
-      "source": "CISA",
-      "publishedAt": "2026-06-30T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-07.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "41d229bfc43fc4c0ba627544cf7fd5e48f3804df",
-      "title": "Mitsubishi Electric MELSOFT Update Manager SW1DND-UDM-M",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-01",
-      "source": "CISA",
-      "publishedAt": "2026-06-30T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-01.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "b18d3abb5d8d4408d7efeb6ca3324a103614c2e7",
-      "title": "OFFIS DCMTK Toolkit",
-      "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-181-01",
-      "source": "CISA",
-      "publishedAt": "2026-06-30T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsma-26-181-01.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "854aaaa3d7b7eb0432769560f44b2d61ae58a619",
-      "title": "Schneider Electric EcoStruxure IT Data Center Expert",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-03",
-      "source": "CISA",
-      "publishedAt": "2026-06-30T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-03.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "f9b193a749bdad6a150e7ad68cfea68fa150d096",
-      "title": "StoneFly Storage Concentrator",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-06",
-      "source": "CISA",
-      "publishedAt": "2026-06-30T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-06.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "8da44ccc4ea4cd03efa6b69f1b4dcec968ee6d8c",
-      "title": "Apache Tomcat - CVE-2026-55957",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/apache-tomcat-cve-2026-55957-2026-06-30",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-06-30T00:50:06.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans l'implémentation &lt;strong&gt;JNDIRealm&lt;/strong&gt; d'Apache Tomcat, spécifiquement lorsque ce realm est configuré pour authentifier",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "cba8645acb599b2835c339ac7b127d66abcc7b6a",
-      "title": "Node.js - CVE-2026-48930",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/nodejs-cve-2026-48930-2026-06-30",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-06-30T00:43:03.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans la &lt;strong&gt;résolution des noms d'hôte TLS&lt;/strong&gt; de Node.js.&lt;/p&gt; &lt;p&gt;Node.js est un environnement d'exécution J",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "b1ee3720436485d231bf7071d222064469bba204",
-      "title": "Apple - CVE-2026-43724",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/apple-cve-2026-43724-2026-06-30",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-06-30T00:40:39.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le &lt;strong&gt;noyau&lt;/strong&gt; des systèmes Apple, liée à une &lt;strong&gt;sanitarisation insuffisante des entrées&lt;/strong&gt",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "a6024da382d17c0d4988a992100a086e770bf170",
-      "title": "OpenJS - CVE-2026-13676",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/openjs-cve-2026-13676-2026-06-30",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-06-30T00:39:09.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le &lt;strong&gt;chemin de conversion IDN&lt;/strong&gt; de fast-uri.&lt;/p&gt; &lt;p&gt;fast-uri est une bibliothèque JavaScript de par",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "e951ea5114c636db457c8945656996d7d828452e",
-      "title": "libtiff - CVE-2026-12912",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/libtiff-cve-2026-12912-2026-06-30",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-06-30T00:37:29.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le &lt;strong&gt;décodeur PixarLog&lt;/strong&gt; de libtiff.&lt;/p&gt; &lt;p&gt;libtiff est une bibliothèque logicielle servant à lire,",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "432b1139a75065b8f22f548a123072c76809ea1e",
-      "title": "Multiples vulnérabilités dans Apache Tomcat (30 juin 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0817/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-06-30T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Apache Tomcat. Certaines d'entre elles permettent à un attaquant de provoquer une injection de code indirecte à distance (XSS),",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "842c7ed518ee35aa244bc5f4dc517db14c92a315",
-      "title": "Multiples vulnérabilités dans les produits Apple (30 juin 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0818/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-06-30T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Apple. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des donnée",
-      "type": "CVE",
-      "severity": "Info",
       "imageUrl": null
     }
   ]
