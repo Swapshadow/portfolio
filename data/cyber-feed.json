@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T13:48:54.467Z",
+  "generatedAt": "2026-07-14T15:24:10.919Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -77,6 +77,50 @@
   ],
   "items": [
     {
+      "id": "488b170be7e021dd831685ecac6bbd375c5f69b9",
+      "title": "Ransomware : Washington sanctionne pour la première fois un fournisseur de VPN",
+      "url": "https://android-mt.ouest-france.fr/news/ransomware-washington-sanctionne-pour-la-premiere-fois-un-fournisseur-de-vpn/207923/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-14T14:22:36.000Z",
+      "summary": "Pour la première fois, l’Office of Foreign Assets Control (OFAC) du département du Trésor américain a sanctionné un fournisseur de service VPN pour …",
+      "type": "NEWS",
+      "severity": "Critique",
+      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/eb01e58a08cf80a24708f4bce61a3be6a273bdeb/_xlarge.jpeg"
+    },
+    {
+      "id": "91799328e3925800abe39c69e064aec32354779a",
+      "title": "« Jamais argumentées et jamais appuyées par des preuves » : visée par l’UE, la Russie dénonce les accusations « gratuites » de cyberattaques",
+      "url": "https://www.lavoixdunord.fr/1721547/article/2026-07-14/jamais-argumentees-et-jamais-appuyees-par-des-preuves-visee-par-l-ue-la-russie?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-14T14:12:01.000Z",
+      "summary": "Le Kremlin dénonce les accusations de cyberattaques « gratuites » formulées la veille par le Royaume-Uni et l’Union européenne. Ces derniers ont …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://lvdneng.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_extra_big/2026/07/14/node_1721547/68787043/public/2026/07/14/91395013.jpeg?itok=TVWKSbiC1784038400"
+    },
+    {
+      "id": "c091ecc0ec5bfb1e2fc1f6aca1613a3f7eed3a49",
+      "title": "RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata",
+      "url": "https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-14T13:48:07.000Z",
+      "summary": "Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client s",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhhRQ9rN4_5eYqXiJ7svWKwWY0dcPiiALZ6EkDG05ruFzTANJtwyw_w2Ht29dON1oFiLAkQkE0M75FYExbXmvFSr4jU0K0sNlwRxG3Q1rU51ouVIt3UtnrazRwhCer3coTHbU3So1dXx_8Frh1KhJKKXc7Lq2h5DZTGkBq35Y2ngnGVg6wAGubf8cVRx0F/s1600/rebbitmq.jpg"
+    },
+    {
+      "id": "5455b9396f63405049236e7242937ade804fc92b",
+      "title": "Un pirate oublie de fermer son serveur : des Français découvrent trois usines à voler les comptes Microsoft",
+      "url": "https://www.lesnumeriques.com/informatique/un-pirate-oublie-de-fermer-son-serveur-des-francais-decouvrent-trois-usines-a-voler-les-comptes-microsoft-n259277.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-14T13:34:00.000Z",
+      "summary": "En laissant l'affichage public activé sur son serveur, un opérateur de phishing a offert aux chercheurs de Lexfo une plongée intégrale dans ses …",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://cdn.lesnumeriques.com/optim/news/25/259277/9ee8199e-un-pirate-oublie-de-fermer-son-serveur-des-francais-decouvrent-trois-usines-a-voler-les-comptes-microsoft__1200_678__0-686-6720-4214.jpg"
+    },
+    {
       "id": "8394246b79b9a0ce4235172c392bad487fce293a",
       "title": "11 Old Microsoft-Signed Linux UEFI Shims Could Let Attackers Bypass Secure Boot",
       "url": "https://thehackernews.com/2026/07/11-old-microsoft-signed-linux-uefi.html",
@@ -97,6 +141,50 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/nouvelobs.com/f322a037fef0e86e2761f9e24d46f0ba3ad98600/_xlarge.jpeg"
+    },
+    {
+      "id": "f0c1c206df2345141884784783b3269d357e9fe1",
+      "title": "ABB T-MAC Plus",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-03",
+      "source": "CISA",
+      "publishedAt": "2026-07-14T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-195-03_drupal.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "ef2baaaaa23f52160115d9c929f9bae81ebbed76",
+      "title": "Rockwell Automation 1715-AENTR EtherNet/IP Adapter",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-04",
+      "source": "CISA",
+      "publishedAt": "2026-07-14T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-195-04.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "6bc0aff84f516a4cfb9f8875c3f616a51580f94a",
+      "title": "ABB Ability Edgenius",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-02",
+      "source": "CISA",
+      "publishedAt": "2026-07-14T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-195-02_drupal.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "37d20a51e3e885851b4dc6c9439bc1fc9d20ea52",
+      "title": "ABB Advant Master Online Builder",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-01",
+      "source": "CISA",
+      "publishedAt": "2026-07-14T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-195-01_drupal.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
     },
     {
       "id": "6d4853f5e3c13a05575c735045076a80f8528c29",
@@ -140,7 +228,7 @@
       "summary": "Londres et Bruxelles ont annoncé ensemble lundi prendre des sanctions contre le Kremlin, qu'ils accusent de \"semer le chaos et la division en Europe\". …",
       "type": "NEWS",
       "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/d71b67d532a0e461ea0abbed9720b78fc01205f4/_xlarge.jpeg"
+      "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/aa40e09cac2f3d5a6fc63e7662b6e363602ee1cf/_xlarge.jpeg"
     },
     {
       "id": "698df9fdcdeb17867e61eb1497843cc94bfce09f",
@@ -185,17 +273,6 @@
       "type": "NEWS",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAJ1TN76Et1GvWFCTaivnNcys4rEEVk1QEd6WIb0wu3cxroYcwng-0a0uM8eyHdrOuiHLU8lFJg5eFzSbZj95aEfXVnletlFE9BKsDJP_0uV4w9-YbHg7p9LuMyRMcj4rJPftYmIYCcD3_VmbgFrGuaJ6yqUuJgIvVtbqlNUPrkJO2FSuFQ6dJ7gzKFV0/s1600/lucide-botnet.jpg"
-    },
-    {
-      "id": "74dfb01ab0bd353f7e7ab325908d02490792b491",
-      "title": "Le nouveau malware CrashStealer se fait passer pour un outil Apple et vole vos données",
-      "url": "https://www.clubic.com/actualite-621178-le-nouveau-malware-crashstealer-se-fait-passer-pour-un-outil-apple-et-vole-vos-donnees.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-14T07:00:00.000Z",
-      "summary": "CrashStealer imite l’outil de rapport de plantage d’Apple pour tromper les utilisateurs de Mac. Ce logiciel malveillant écrit en C++ natif vole des …",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/d3d3e03062241b88aee18bc5956c71b90990ffca/_xlarge.jpeg"
     },
     {
       "id": "1e40d3e4e2cd4071cc4d4cc3011507c110defc80",
@@ -262,17 +339,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSvBtzUXyAbjgtvPJVS9zZ29ULkaIs0fMMa53ZKSip2pJbZ7_HMTGn3SV27X28JLwaq9atS1B_jvH_7qgfsjW0wyVDV_jGyqFSyO-z_vHuoigCy14xfb7DKuuWGIMUVeLiOhnap1yICNPEC2OUkA0d_e8RXtPs7oTo3BAz9I2DTxRwg67vgObResLQ7c4/s1600/browser-edge.jpg"
-    },
-    {
-      "id": "5495e55ed77ffea9a9af7d16c57117ce12360758",
-      "title": "La France accuse officiellement la Russie de cyberespionnage avec Turla, une opération pilotée par le FSB",
-      "url": "https://www.clubic.com/actualite-621145-la-france-accuse-officiellement-la-russie-de-cyberespionnage-avec-turla-une-operation-pilotee-par-le-fsb.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-13T15:11:00.000Z",
-      "summary": "La France et l'Union européenne attribuent officiellement à la Russie une vaste campagne de cyberespionnage, baptisée Turla. Pilotée par le FSB, elle …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/dd692cafc3d92b178e8869988e1cd7f7a275491a/_xlarge.jpeg"
     },
     {
       "id": "fa7f49854e7ed6e68b84552b5274047092777b46",
@@ -368,7 +434,7 @@
       "url": "https://www.cisa.gov/news-events/alerts/2026/07/13/cisa-adds-one-known-exploited-vulnerability-catalog",
       "source": "CISA",
       "publishedAt": "2026-07-13T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA has added one new vulnerability to its &lt;a href=\"https://edit.cisa.gov/known-exploited-vulnerabilities-catalog\"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;",
+      "summary": "&lt;p&gt;CISA has added one new vulnerability to its &lt;a href=&quot;https://edit.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities (KEV) C",
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": null
@@ -493,17 +559,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://news.gentside.com/sites/websites_frgts/files/styles/1200x675/public/article/news/politique/jean-noel-barrot_1.webp?itok=4kiOZnKS"
-    },
-    {
-      "id": "f32609da0f29a491950e4349ec2436bff2cfea3a",
-      "title": "La France convoquera l'ambassadeur de Russie \"dans les prochains jours\", après une \"vaste campagne cyber\"",
-      "url": "https://www.franceinfo.fr/monde/russie/paris-convoquera-l-ambassadeur-de-russie-dans-les-prochains-jours-apres-une-vaste-campagne-cyber_8105867.html",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-13T08:03:41.000Z",
-      "summary": "Le ministre des Affaires étrangères, Jean-Noël Barrot, a également annoncé lundi sur BFMTV de prochaines sanctions contre des individus et des …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/53d07e6d7add6db478bcc08b2930dca72a04da27/_xlarge.jpeg"
     },
     {
       "id": "8501778175ce41ff502e4124070833ca686da288",
@@ -759,6 +814,17 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirVz95zYTg61VRro9unfJCWWwwUrv3pQdtyNT7rPL8iCg6n0S6bky4dqPiluQHfSvQMIO9cyYgrz-07ZCx8yG_qND_J9XJ_0BoUON9p3zj0etafNvjg45txAeu4uCDEMxGDNv2tIxNuqrC0OsKG_sWZp5QIlEkbqZ_g_EEcAdXUQbuo_EgsXwT3mERTTk/s1600/zimbra-email-hack.jpg"
     },
     {
+      "id": "3a917b38cd69f4a3131118e8e5d54adc2b4fefe7",
+      "title": "Espionnage industriel : Apple accuse OpenAI d'avoir pillé ses secrets pour créer son propre smartphone",
+      "url": "https://www.frandroid.com/marques/apple/3177569_apple-attaque-openai-en-justice-pour-espionnage-industriel-les-secrets-de-liphone-pilles-pour-concevoir-le-smartphone-chatgpt?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-11T06:08:16.000Z",
+      "summary": "Apple attaque OpenAI en justice pour vol de secrets industriels. En ligne de mire : d’anciens salariés d’Apple partis chez OpenAI, accusés d’avoir …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://c0.lestechnophiles.com/images.frandroid.com/wp-content/uploads/2024/05/openai-chatgpt.jpg?resize=1600%2C900&amp%3Bkey=731cf583"
+    },
+    {
       "id": "885dba4ad26c0cb30be242cf17009c45af47fd51",
       "title": "Le maire, la commerciale et le contrat à 38 000 euros : ces communes victimes de pratiques commerciales douteuses",
       "url": "https://www.lemonde.fr/m-le-mag/article/2026/07/11/le-maire-la-commerciale-et-le-contrat-a-38-000-euros-ces-communes-victimes-de-pratiques-commerciales-douteuses_6722663_4500055.html?amp%3Butm_content=topic%2Ffr-actualit%C3%A9s",
@@ -869,23 +935,12 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKTCUzhkUq2Y7DPv0yS2FatrHQTcHfupRly6f5kSWyQU-So3FOjpC8pt_VKR4qo1SoUGR65ycOEQonbW5heKWj1g_A8qDy69YtWGZDO4m2t46Sip-jdPAlNs2fpRj-w1yd8WpyJpNFUpj1iTBO0X6fy3n9DJ4aEdsWaQz_tN-VV-PxDrufKZR9wkznmXJQ/s1600/MODBEACON.jpg"
     },
     {
-      "id": "6668890114e80038ef90695acbd622cd81dce0f6",
-      "title": "Des hackers révèlent que le Madison Square Garden fiche les personnes queer",
-      "url": "https://www.lesinrocks.com/musique/des-hackers-revelent-que-le-madison-square-garden-fiche-les-personnes-queer-699339-10-07-2026/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-10T13:06:51.000Z",
-      "summary": "Une fuite de données orchestrée par un groupe de hackeur·euses révèle que la célèbre salle new yorkaise, déjà épinglée pour ses pratiques en matière …",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/lesinrocks.com/034c8a424628156fad0776c231dca2996848960e/_large.jpeg"
-    },
-    {
       "id": "f528abeaaa7e54757f54a0d04a40bbc9c6489aa4",
       "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
       "url": "https://www.cisa.gov/news-events/alerts/2026/07/10/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "source": "CISA",
       "publishedAt": "2026-07-10T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA has added two new vulnerabilities to its &lt;a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt",
+      "summary": "&lt;p&gt;CISA has added two new vulnerabilities to its &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities (KEV) ",
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": null
@@ -1149,7 +1204,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-03",
       "source": "CISA",
       "publishedAt": "2026-07-09T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-190-03.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-190-03.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1160,7 +1215,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-01",
       "source": "CISA",
       "publishedAt": "2026-07-09T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-190-01.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-190-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1171,7 +1226,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-02",
       "source": "CISA",
       "publishedAt": "2026-07-09T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-190-02.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-190-02.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1397,17 +1452,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgl6gaxMQBH0Bjb1ZhuaOiM5gKEk-zuSf821eRfV33ogx6YWwENunjyOPF8VXHtgtHgIevENLfBV2O04QI4TtjtDe2PGGevWptQEEagmp6q-G4FqOankGokz70XzVtz7dmNbEZ5G7-pV0yINgd2-ima7ap8xeOxuhZBKw2WPoUo81wKmGrwsPxbzYkW5Wk/s1600/anyrun-main.jpg"
     },
     {
-      "id": "2552649ca54a2fc455fb7c3b96fc5cc18cccd539",
-      "title": "SCMBANKER Malware Uses ClickFix Lures to Target Mexican Banking Users",
-      "url": "https://thehackernews.com/2026/07/scmbanker-malware-uses-clickfix-lures.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-08T12:52:15.000Z",
-      "summary": "A new banking fraudulent operation is targeting customers of Mexican banks, fintech, payment processors, and cryptocurrency exchanges using ClickFix lures. The activity cluster, tr",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguw-rOR8Masg2W1UVlfj5rr1nTNdwmhHfXvKG-8rLXWxkwDjtEy-O2ZCb40GEca78DPql7PPEPIrRL_tYt9Ob51ZW7_L-i7w-Ej7DzX2NtNGBrRHuorMowS0d89GxVjQW492-J1LansFJY7SqZgVCtBvcwhyphenhyphenpOcveL_9rNcsgyJm-cRSwnbwvFXKQuLMA9/s1600/clickfix-banking.jpg"
-    },
-    {
       "id": "6f0a64bbb7c8d310daba20cd6e593d666731b6da",
       "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
       "url": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
@@ -1501,7 +1545,7 @@
       "url": "https://www.cisa.gov/news-events/alerts/2026/07/07/cisa-adds-three-known-exploited-vulnerabilities-catalog",
       "source": "CISA",
       "publishedAt": "2026-07-07T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA has added three new vulnerabilities to its &lt;a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"&gt;Known Exploited Vulnerabilities (KEV) Catalog&",
+      "summary": "&lt;p&gt;CISA has added three new vulnerabilities to its &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities (KEV",
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": null
@@ -1512,7 +1556,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-02",
       "source": "CISA",
       "publishedAt": "2026-07-07T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-188-02.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-188-02.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1523,7 +1567,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-05",
       "source": "CISA",
       "publishedAt": "2026-07-07T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-188-05.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-188-05.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1534,7 +1578,7 @@
       "url": "https://www.cisa.gov/news-events/alerts/2026/07/07/cisa-adds-one-known-exploited-vulnerability-catalog",
       "source": "CISA",
       "publishedAt": "2026-07-07T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA has added one new vulnerability to its &lt;a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/",
+      "summary": "&lt;p&gt;CISA has added one new vulnerability to its &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities (KEV) Ca",
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": null
@@ -1545,7 +1589,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-01",
       "source": "CISA",
       "publishedAt": "2026-07-07T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-188-01.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-188-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1556,29 +1600,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-04",
       "source": "CISA",
       "publishedAt": "2026-07-07T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-188-04.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "722bdfdb04778dacbd57e6a8a3e19c51a888898a",
-      "title": "Labcenter Proteus 9",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-06",
-      "source": "CISA",
-      "publishedAt": "2026-07-07T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-188-06.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "70e27b9784040aa25562ab04b677e355b0159a8f",
-      "title": "Hitachi Energy e-mesh EMS",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-03",
-      "source": "CISA",
-      "publishedAt": "2026-07-07T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-188-03.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-188-04.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1589,7 +1611,29 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-07",
       "source": "CISA",
       "publishedAt": "2026-07-07T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-188-07.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-188-07.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "70e27b9784040aa25562ab04b677e355b0159a8f",
+      "title": "Hitachi Energy e-mesh EMS",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-03",
+      "source": "CISA",
+      "publishedAt": "2026-07-07T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-188-03.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "722bdfdb04778dacbd57e6a8a3e19c51a888898a",
+      "title": "Labcenter Proteus 9",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-06",
+      "source": "CISA",
+      "publishedAt": "2026-07-07T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-188-06.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1980,23 +2024,12 @@
       "imageUrl": "https://krebsonsecurity.com/wp-content/uploads/2026/07/netnutseizure.png"
     },
     {
-      "id": "8f2d5974dab544aaf1b440212cb0d75498ea523a",
-      "title": "CubeSpace CW0057 Reaction Wheel",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-02",
-      "source": "CISA",
-      "publishedAt": "2026-07-02T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-183-02.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
       "id": "38a7054db2f98b71a8e8c1815fe9ac523777a1cd",
       "title": "ST Engineering iDirect iQ-Series Terminals",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-01",
       "source": "CISA",
       "publishedAt": "2026-07-02T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-183-01.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-183-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -2007,7 +2040,18 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-03",
       "source": "CISA",
       "publishedAt": "2026-07-02T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-183-03.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-183-03.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "8f2d5974dab544aaf1b440212cb0d75498ea523a",
+      "title": "CubeSpace CW0057 Reaction Wheel",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-02",
+      "source": "CISA",
+      "publishedAt": "2026-07-02T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-183-02.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -2018,7 +2062,7 @@
       "url": "https://www.cisa.gov/news-events/alerts/2026/07/01/cisa-adds-one-known-exploited-vulnerability-catalog",
       "source": "CISA",
       "publishedAt": "2026-07-01T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA has added one new vulnerability to its &lt;a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/",
+      "summary": "&lt;p&gt;CISA has added one new vulnerability to its &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities (KEV) Ca",
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": null
@@ -2035,78 +2079,12 @@
       "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2026/06/quantique.png"
     },
     {
-      "id": "f9b193a749bdad6a150e7ad68cfea68fa150d096",
-      "title": "StoneFly Storage Concentrator",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-06",
-      "source": "CISA",
-      "publishedAt": "2026-06-30T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-06.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "da4bd301be7871ebb1cc35f7c5750c8ad7846f76",
-      "title": "Schneider Electric EasyLogic T150 and Saitel DP RTU",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-04",
-      "source": "CISA",
-      "publishedAt": "2026-06-30T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-04.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "8a32a19b91c0fd6f17e2a495af62e903b9b5f5d3",
-      "title": "Delta Electronics DVP12SE PLC",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-07",
-      "source": "CISA",
-      "publishedAt": "2026-06-30T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-07.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "70cdc0adf556b189ef550a65fa4f7fb845511fdf",
-      "title": "XZ Utils vulnerability impacting B&amp;R Products",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-05",
-      "source": "CISA",
-      "publishedAt": "2026-06-30T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-05.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "41d229bfc43fc4c0ba627544cf7fd5e48f3804df",
-      "title": "Mitsubishi Electric MELSOFT Update Manager SW1DND-UDM-M",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-01",
-      "source": "CISA",
-      "publishedAt": "2026-06-30T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-01.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
       "id": "b18d3abb5d8d4408d7efeb6ca3324a103614c2e7",
       "title": "OFFIS DCMTK Toolkit",
       "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-181-01",
       "source": "CISA",
       "publishedAt": "2026-06-30T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsma-26-181-01.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "bd96beba0711eb157c05a54d1d452185aa6a2fbf",
-      "title": "Frangoteam FUXA SCADA/HMI",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-02",
-      "source": "CISA",
-      "publishedAt": "2026-06-30T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-02.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsma-26-181-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -2117,20 +2095,64 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-03",
       "source": "CISA",
       "publishedAt": "2026-06-30T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-03.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-03.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
     },
     {
-      "id": "fb671e5998f61f588d279771796b3999efe44d54",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/06/29/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "id": "f9b193a749bdad6a150e7ad68cfea68fa150d096",
+      "title": "StoneFly Storage Concentrator",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-06",
       "source": "CISA",
-      "publishedAt": "2026-06-29T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA has added one new vulnerability to its &lt;a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/",
+      "publishedAt": "2026-06-30T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-06.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
-      "severity": "Critique",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "bd96beba0711eb157c05a54d1d452185aa6a2fbf",
+      "title": "Frangoteam FUXA SCADA/HMI",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-02",
+      "source": "CISA",
+      "publishedAt": "2026-06-30T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-02.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "70cdc0adf556b189ef550a65fa4f7fb845511fdf",
+      "title": "XZ Utils vulnerability impacting B&amp;R Products",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-05",
+      "source": "CISA",
+      "publishedAt": "2026-06-30T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-05.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "8a32a19b91c0fd6f17e2a495af62e903b9b5f5d3",
+      "title": "Delta Electronics DVP12SE PLC",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-07",
+      "source": "CISA",
+      "publishedAt": "2026-06-30T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-07.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "da4bd301be7871ebb1cc35f7c5750c8ad7846f76",
+      "title": "Schneider Electric EasyLogic T150 and Saitel DP RTU",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-04",
+      "source": "CISA",
+      "publishedAt": "2026-06-30T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-04.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
       "imageUrl": null
     },
     {
@@ -2167,17 +2189,6 @@
       "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/f806567bcf402d36a2f47ba27395cc298e0179c1/_xlarge.jpeg"
     },
     {
-      "id": "d57196aea1c12930f8b36429309e521f32f77a23",
-      "title": "Russian Intelligence Services Continue to Target Commercial Messaging Applications",
-      "url": "https://www.cisa.gov/resources-tools/resources/russian-intelligence-services-continue-target-commercial-messaging-applications",
-      "source": "CISA",
-      "publishedAt": "2026-06-26T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA and the Federal Bureau of Investigation (FBI) issued an updated &lt;a href=\"https://www.ic3.gov/PSA/2026/PSA260626\" target=\"_blank\"&gt;Public Service Announcement (PS",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
       "id": "a6b702f4275b7c12b95c97cab4e1c47313fe7141",
       "title": "American Tower - 216,601 breached accounts",
       "url": "https://haveibeenpwned.com/Breach/AmericanTower",
@@ -2209,17 +2220,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://sciencepost.fr/wp-content/uploads/2025/06/prime-numbers-l.webp"
-    },
-    {
-      "id": "a8245d1ff08dd766b8e178a47ca4e227dc2227f3",
-      "title": "OHIF Viewers DICOM",
-      "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-176-02",
-      "source": "CISA",
-      "publishedAt": "2026-06-25T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsma-26-176-02.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
     },
     {
       "id": "281f3fe1ee8241545384bb28499c9ea57dca6a58",
