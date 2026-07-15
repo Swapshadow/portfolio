@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T15:26:56.988Z",
+  "generatedAt": "2026-07-15T17:19:47.204Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,7 +17,7 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 113
+      "items": 118
     },
     {
       "name": "Exploit-DB",
@@ -75,6 +75,28 @@
     }
   ],
   "items": [
+    {
+      "id": "2f55a8ff3fef8d93242a56389edb2e2236745422",
+      "title": "OkoBot Malware Framework Injects Seed Phrase Phishing Into Ledger and Trezor Apps",
+      "url": "https://thehackernews.com/2026/07/okobot-malware-framework-injects-seed.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-15T15:30:30.000Z",
+      "summary": "A malware framework called OkoBot has been running on Windows machines since April 2025, and one of its modules is built to con hardware wallet owners out of their recovery phrase.",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwz558IbCLKi1RAJRcX_tLnJrGR3xjXSXfBJHnREqKc0aTs9Ie67rKN6xRHDV4g6JNByEH5Vr-x-14HOK8dSKj_B6HFn303OMiFrpr2wHf9PNUONqlUPn8IdMzr9QoZB9uWq14ElryYTydVAUXNeCARv-cN7KMmmwfb9FpMw_NCDIk8faF6QlSboXey08/s1600/seed.jpg"
+    },
+    {
+      "id": "1edd0c15ba5490e09cfa3b5465843e7bf0054ee4",
+      "title": "Quels métiers après un bachelor cybersécurité ?",
+      "url": "https://diplomeo.com/actualite-debouches_metiers_bachelor_cybersecurite?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-15T14:41:30.000Z",
+      "summary": "Chaque semaine ou presque, une entreprise, un hôpital ou une collectivité peut être ciblée par une cyberattaque. Derrière chaque système bloqué et …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://f.hellowork.com/edito/sites/5/2026/07/AdobeStock_1098670856-768x432.jpeg"
+    },
     {
       "id": "0387f16d28c5ac3b562d2ade8a87b7a89965bd81",
       "title": "Une cyberattaque visant un fabricant de produits surgelés fait craindre à KFC d'éventuelles pénuries et fermetures de restaurants au Japon",
@@ -263,6 +285,17 @@
       "imageUrl": null
     },
     {
+      "id": "77d213654d72ee902b5c7014e2b5fa9416714e80",
+      "title": "Microsoft a corrigé une faille présente depuis 13 ans dans son système Secure Boot.",
+      "url": "https://www.frandroid.com/marques/microsoft/3180239_une-faille-beante-minait-le-secure-boot-de-microsoft-depuis-plus-de-dix-ans?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-15T06:37:20.000Z",
+      "summary": "Censé protéger les systèmes Windows et Linux des programmes malicieux, le système Secure Boot de Microsoft a été vulnérable à une attaque toute …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/lestechnophiles.com/402d4b27d746309cef7303374b7ac7c83a674896/_xlarge.jpeg"
+    },
+    {
       "id": "41fdae4ec5c07dd896dadb05ecc9005f2272cf85",
       "title": "Inquiétude autour de cette fonctionnalité de Chrome, utilisée pour espionner des proches à distance",
       "url": "https://www.clubic.com/actualite-621289-inquietude-autour-de-cette-fonctionnalite-de-chrome-utilisee-pour-espionner-des-proches-a-distance.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -292,6 +325,61 @@
       "publishedAt": "2026-07-15T05:03:14.000Z",
       "summary": "In June 2026, &lt;a href=\"https://www.reddit.com/r/goosecreekcandles/comments/1u1dulr/data_breach_email/\" target=\"_blank\" rel=\"noopener\"&gt;a party claiming to have access to data ",
       "type": "LEAK",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "43f817dec807bfada26372b21c7ddadddc30d9d3",
+      "title": "Microsoft Office SharePoint - CVE-2026-56164",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/microsoft-office-sharepoint-cve-2026-56164-2026-07-15",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-15T04:15:25.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le mécanisme de contrôle d'accès de Microsoft Office SharePoint.&lt;/p&gt; &lt;p&gt;Elle résulte d'une &lt;strong&gt;absence de vérifica",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "749497651288838b626cf1ca5ed587dfd30e1139",
+      "title": "Microsoft Active Directory Federation Services - CVE-2026-56155",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/microsoft-active-directory-federation-services-cve-2026-56155-2026-07-15",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-15T04:11:01.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;granularité insuffisante du contrôle d'accès&lt;/strong&gt; au sein d'Active Directory Federation Services.&lt;/p&gt; &lt;p&",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "14e10e1d59894480ef8f80b9f1f0630ef3290016",
+      "title": "Google - CVE-2026-15764",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/google-cve-2026-15764-2026-07-15",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-15T04:09:19.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de type &lt;strong&gt;use-after-free&lt;/strong&gt; dans le composant &lt;strong&gt;Ozone&lt;/strong&gt; de Google Chrome sous Linux.&lt;/p&g",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "38434cd54f4841c3b087266d259d5e413277b547",
+      "title": "SonicWall - CVE-2026-15409",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/sonicwall-cve-2026-15409-2026-07-15",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-15T04:08:03.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de type &lt;strong&gt;Server-Side Request Forgery (SSRF)&lt;/strong&gt; dans l'interface &lt;strong&gt;WorkPlace&lt;/strong&gt; de l'applianc",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "e4f8da64b2eb3ac9115b5eaa9fa0a7efbc05d9ba",
+      "title": "Citrix - CVE-2026-8452",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/citrix-cve-2026-8452-2026-07-15",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-15T04:06:44.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de type &lt;strong&gt;dépassement de mémoire&lt;/strong&gt; affectant NetScaler ADC et NetScaler Gateway.&lt;/p&gt; &lt;p&gt;NetScaler ADC et",
+      "type": "CVE",
       "severity": "Élevée",
       "imageUrl": null
     },
@@ -956,17 +1044,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_pk3JKY3zis-iTRVKpcttwfy-GP-gEzPE_NQQpqDEaMvVs65uqa3v_dG7pD_DmZWLHcwBQzjFtTYqob5wWSgO2F-0-KkwZaahqTUpGP1xbvyifaf2UnMDzI8j9pnP9EWyARmN2SHHl0eBo4UszZx3VZvicjU_MMFOEA8sjcLvzBFzAkNeFg3GIR2yncA/s1600/memghost.jpg"
     },
     {
-      "id": "5c4d36322e2a3fc8e88274ffb508a15e0da535be",
-      "title": "Cyberattaques russes: l'Union européenne et le Royaume-Uni sanctionnent, la France convoque l'ambassadeur",
-      "url": "https://www.rfi.fr/fr/europe/20260713-cyberattaques-russes-l-union-europ%C3%A9enne-et-le-royaume-uni-sanctionnent-la-france-convoque-l-ambassadeur?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-13T13:47:55.000Z",
-      "summary": "Le Royaume-Uni et l'Union européenne ont annoncé ce 13 juillet de nouvelles sanctions contre la Russie, accusée d'orchestrer une vaste campagne de cyberattaques contre plusieurs pa",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/rfi.fr/fff52ac0d3c3f801d548e6177a326a04a917d130/_xlarge.jpeg"
-    },
-    {
       "id": "ab028b2e88e4d8f00ff842d4631ea60c17441f6b",
       "title": "Forg365 PhaaS Targets Microsoft 365 with Device Code and AitM Session Theft",
       "url": "https://thehackernews.com/2026/07/forg365-phaas-targets-microsoft-365.html",
@@ -1130,17 +1207,6 @@
       "type": "NEWS",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVh0XoiKxyvhXW_SN-Ynau8iPG3vd2ltt4cDr4L_cGUhc5oBmsogZt5A_l2qbTdPG8Ciu73I0mHhRBDRJ2uWasrA_vqnkdvpbQcdh0ipe-d_cz2HTFJWOCBNxplCO0RuppogFhl1OONqWWXOLQWhH_Bt89c160ZzHtkrnDJN6PsnYWNV1W510diYait_g/s1600/phishing-server-ms.jpg"
-    },
-    {
-      "id": "f14dcacc0831bef6482071dc64e5b7fa2549dc22",
-      "title": "HalluSquatting : quand les hallucinations de l’IA deviennent une porte d’entrée pour les hackers - ZDNET",
-      "url": "https://www.zdnet.fr/actualites/hallusquatting-quand-les-hallucinations-de-lia-deviennent-une-porte-dentree-pour-les-hackers-498564.htm",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-13T06:01:45.000Z",
-      "summary": "Des chercheurs de l’université de Tel-Aviv, du Technion et d’Intuit viennent de démontrer qu’il n’est plus nécessaire de tromper l’utilisateur pour …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/zdnet.fr/9b0982b8d9bc6ee56b41c946105ad0f32709e9d7/_xlarge.jpeg"
     },
     {
       "id": "62484e029a5003e2a2be6f76b8fa8f30f4072121",
@@ -1759,17 +1825,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAXvG0n7eiC50jtfO-3MYOPx-Z0iWiucBfHqzY2QNH-5fUyfWcGu3NME0yERr2qWKcAeg6rIYMtP_VEeRInpeghztHmnjDa4QyuXSbaktcOdHHK9sx8lurd2RmejcmBjSZIznBl0zKQ-mk4dcCsVdL29g4XPEwUdrlQgj5-GgxvVnolSJJfCJW7g4vosLe/s1600/ThreatsDay-main.jpg"
     },
     {
-      "id": "b58ede3868daa66ed49a64d080864f353ba143b0",
-      "title": "AI Attacks Move in Minutes. Join This Webinar on Building a Defense That Keeps Up",
-      "url": "https://thehackernews.com/2026/07/ai-attacks-move-in-minutes-join-this.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-09T12:26:58.000Z",
-      "summary": "AI has changed how fast attacks move. Work that once took an attacker days now takes minutes. Using models like Mythos, attackers write tailored bait, pick targets, test what lands",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVBCdd1YLOTAhXs53MgUBJHfid7uAH-uFr4vzULJu6BL5H7TDiBbZUDxS9RTwC1FH7q2HhEiI2BHLlymHQ7btIBDidvIohoiVJ2XH2uvQcan7Lio_iIh3Ku3J3LoM8SgaHrlAnyFeVLo77qE93hFykG4CJZUj1IsJb75jFMjAK9Q1V-akTkdagA_NLm4A/s1600/thn-webinar.jpg"
-    },
-    {
       "id": "c99114949b9e5e9529dbe0e8af6cb59bd4b714f0",
       "title": "OpenPLC v3",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-01",
@@ -2218,61 +2273,6 @@
       "summary": "Tenable Nessus 10.12.1 - SQL Injection",
       "type": "CVE",
       "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "41915105cca45b17097a0c0ce0078a3572e118b2",
-      "title": "[webapps] WordPress Bricks Builder Theme - RCE",
-      "url": "https://www.exploit-db.com/exploits/52619",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-07T00:00:00.000Z",
-      "summary": "WordPress Bricks Builder Theme - RCE",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": null
-    },
-    {
-      "id": "8b163d32f038b740ca5d364c8c76c0f19c2ee124",
-      "title": "[remote] iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter",
-      "url": "https://www.exploit-db.com/exploits/52618",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-07T00:00:00.000Z",
-      "summary": "iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "0463a2608d7bd604665d80f33016d2de950b9b6b",
-      "title": "Vitalik Buterin déclare qu'Ethereum prépare sa « plus grande reconstruction » depuis le Merge",
-      "url": "https://www.coindesk.com/fr/tech/2026/07/06/vitalik-buterin-says-ethereum-is-preparing-its-biggest-rebuild-since-the-merge?amp%3Butm_content=CoinDesk%2Fmagazine%2FCOINDESK+Fran%C3%A7ais",
-      "source": "Cryptographie FR",
-      "publishedAt": "2026-07-06T07:44:58.000Z",
-      "summary": "Une feuille de route révisée détaille comment la refonte pluriannuelle remplacera presque toutes les parties majeures du protocole d’Ethereum, la …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/4d36b4d555058a50f2056e7f58d881601b0021d4-3840x2160.png?auto=format&amp%3Bw=960&amp%3Bh=540&amp%3Bcrop=focalpoint&amp%3Bfit=clip&amp%3Bq=75&amp%3Bfm=jpg"
-    },
-    {
-      "id": "80e23d4c27ec386969d9cc6b2b1937231fc8c67d",
-      "title": "Chiffrement post-quantique : Microsoft et Google se préparent au pire pour 2029",
-      "url": "https://android-mt.ouest-france.fr/news/chiffrement-post-quantique-pourquoi-2029-est-devenu-la-date-butoir-pour-microsoft-google-et-cloudflare/205808/?amp%3Butm_content=topic%2Ffr-technologie",
-      "source": "Cryptographie FR",
-      "publishedAt": "2026-07-06T05:22:30.000Z",
-      "summary": "Un calendrier qui s’est accéléré sous la pression technologique Pendant longtemps, la cryptographie post-quantique a occupé une place confortable dans …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/c19ccb9188fe8c78c11152b07cfc5d1c6187c340/_xlarge.jpeg"
-    },
-    {
-      "id": "b49b498faecbb2091cd703cbda0534c82fb207a9",
-      "title": "SUSE - CVE-2026-44935",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/suse-cve-2026-44935-2026-07-06",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-07-06T03:22:35.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le déployeur &lt;strong&gt;Helm&lt;/strong&gt; de Rancher Fleet.&lt;/p&gt; &lt;p&gt;Le composant ne procède à aucune &lt;strong&gt;valid",
-      "type": "CVE",
-      "severity": "Élevée",
       "imageUrl": null
     }
   ]
