@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T13:57:57.812Z",
+  "generatedAt": "2026-07-16T15:42:15.179Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,7 +17,7 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 118
+      "items": 113
     },
     {
       "name": "Exploit-DB",
@@ -75,6 +75,72 @@
     }
   ],
   "items": [
+    {
+      "id": "b59eeb6986fce356707a089749164732e0681011",
+      "title": "Affaire Pegasus : un consortium de journalistes démontre l’addiction du Maroc aux logiciels espions",
+      "url": "https://www.humanite.fr/monde/le-monde/affaire-pegasus-un-consortium-de-journalistes-demontre-laddiction-du-maroc-aux-logiciels-espions?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-16T14:33:50.000Z",
+      "summary": "Selon un consortium de 15 médias, dont font partie Le Monde et la cellule d’investigation de Radio France, le Maroc dispose d’un important arsenal …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/humanite.fr/0a31feea70c68d7a099457ec2b428fe75d58ada9/_large.jpeg"
+    },
+    {
+      "id": "0fd3f2a292661326818db97b946fb4a5161d798a",
+      "title": "Scandale du logiciel espion Pegasus : de nouvelles preuves contre le Maroc",
+      "url": "https://www.franceinfo.fr/monde/scandale-du-logiciel-espion-pegasus-de-nouvelles-preuves-contre-le-maroc_8110370.html",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-16T13:56:51.000Z",
+      "summary": "Depuis 2021, la justice enquête sur l’espionnage ayant visé des journalistes et des dirigeants français. Alors que le Premier ministre et une partie …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/560e8da15ff7cf872d6994b2b28c89b554f88f51/_xlarge.jpeg"
+    },
+    {
+      "id": "5790252fc3766e2efbbc68348d577281a2443c80",
+      "title": "Un hacker pirate Suno et dévoile comment l’IA musicale a pillé YouTube, Deezer et Genius",
+      "url": "https://www.numerama.com/cyberguerre/2296087-un-hacker-pirate-suno-et-devoile-comment-lia-musicale-a-pille-youtube-deezer-et-genius.html?amp%3Butm_source=flipboard&amp%3Butm_content=directlink&amp%3Butm_campaign=2296087",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-16T13:55:55.000Z",
+      "summary": "Un hacker ayant piraté la plateforme de génération musicale Suno a partagé avec 404 Media le détail des sources d’entraînement de l’entreprise. Selon …",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://c0.lestechnophiles.com/www.numerama.com/wp-content/uploads/2026/07/design-sans-titre-2026-07-16t143614736.jpg?resize=1600%2C900&amp%3Bkey=18b2843b"
+    },
+    {
+      "id": "6f6be1d197d09418f4656b4f157467408b281e9f",
+      "title": "Cyberattaque contre les transports à Londres : deux hackeurs condamnés à de la prison ferme",
+      "url": "https://www.lemonde.fr/pixels/article/2026/07/16/cyberattaque-contre-les-transports-londoniens-prison-ferme-pour-deux-surdoues-du-piratage_6723811_4408996.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-16T13:41:39.000Z",
+      "summary": "Thalha Jubair, 20 ans, et Owen Flowers, 18 ans, avaient plaidé coupable le mois dernier pour l’une des plus vastes fuites de données du Royaume-Uni, …",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://img.lemde.fr/2026/07/16/1/0/7306/4870/1440/960/60/0/f58a303_upload-1-r2iqo3m6g2n7-2026-04-24t132110z-1173727179-rc2pvka4ubvd-rtrmadp-3-britain-strikes-transport.JPG"
+    },
+    {
+      "id": "d2967c52244635f424554acce492892e3a45a84e",
+      "title": "n8n Token Exchange Flaw Could Let Attackers Log In as Users From Another Issuer",
+      "url": "https://thehackernews.com/2026/07/n8n-token-exchange-flaw-could-let.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-16T13:33:25.000Z",
+      "summary": "n8n, the workflow automation platform, handed out the wrong accounts at login. On Enterprise instances configured to trust more than one external token issuer, it matched an incomi",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1Pvezsft8WXzYy1Lw3zKDZrkf0TNZfj95rzTnuQgzbJuztRDNDFK35ahO9UfhNJOicjjuzyZGFCtC_idBl8vgNdw4kzfeYFo6LwUur66S5qUTO2Bl3WVLwCDWoDTnw4dlZdj_ZQ1T2JcG1dWfJeoO3WDZs94EVm9z0hZ8VPL36KDpaAmw7fH9hSWSSaw/s1600/n8n-main.jpg"
+    },
+    {
+      "id": "565ff0096821fa2231292f1a3e70437fb2967468",
+      "title": "Les mots de passe de votre Mac en danger : ce malware peut tout voler",
+      "url": "https://www.iphon.fr/post/mots-passe-mac-danger-malware-peut-tout-voler?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-16T13:17:09.000Z",
+      "summary": "Les possesseurs d’appareils Apple ne sont pas épargnés par les pirates informatiques. Les hackers ciblent particulièrement les iPhone pour voler des …",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://ic-cdn.flipboard.com/iphon.fr/82b2adea4c6f1688aaa7c07953e7eb50e499fd53/_xlarge.jpeg"
+    },
     {
       "id": "4ee2ba27e8327176418a0fd1cdf10559dca33ebf",
       "title": "New TELEPUZ Malware Spreads via ClickFix to Steal Data and Run Commands",
@@ -164,15 +230,15 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoN2-EflBc7bABKWw8GsIF_E9I7A9Ond88d-yFCAc6t850C9RGNxpGFAP3G9NichaP7JHa_BA-4bsMDNze5837hGCFGuAbyEHPVsxmQgMNS9A8e1jFL19Z1MVv9KOq0TX5ShDG46Xrv3MxH-vR3sQtEcDkH5OMxQQo11NXMKWRicC8T1OwTqw3ENoXEdIK/s1600/WINDOWS-malware.jpg"
     },
     {
-      "id": "0b1e12fbb2c039636bb94fe8b4cdaa930c7419a1",
-      "title": "Pegasus : des enquêtes révèlent que la France a envisagé d’acheter le logiciel espion israélien",
-      "url": "https://www.liberation.fr/international/pegasus-des-enquetes-revelent-que-la-france-a-envisage-dacheter-le-logiciel-espion-israelien-20260716_UD64WXVOS5AZTJMKY2MJ4WY3GM/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "id": "9de20e708d3c500cb3df5b8e344461d591f3bbb2",
+      "title": "Pegasus : La France aurait essayé d’acheter le logiciel espion israélien... tout en étant ciblée",
+      "url": "https://www.20minutes.fr/high-tech/4234774-20260716-pegasus-ciblee-france-pourtant-essaye-acheter-logiciel-espion-israelien?at_medium=display&amp%3Bat_campaign=149",
       "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-16T11:00:48.000Z",
-      "summary": "Forbidden Stories a publié de nouvelles enquêtes en lien avec le logiciel espion israélien qui aurait ciblé des ministres français. Certaines …",
+      "publishedAt": "2026-07-16T10:36:40.000Z",
+      "summary": "L’ombre de la cybersurveillance plane à nouveau sur l’Élysée. Cinq ans après le scandale Pegasus, de nouvelles enquêtes publiées ce jeudi par le …",
       "type": "NEWS",
       "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/liberation.fr/94822a0904d82c1236067f774ad2708960f20d4c/_xlarge.jpeg"
+      "imageUrl": "https://img.20mn.fr/IO6ZbRTpQdeON_1rdrHW6yk/1444x920_sebastien-lecornu-et-catherine-vautrin-assistent-au-defile-du-14-juillet-sur-la-place-de-la-concorde-a-paris-france-14-07-2026-pariente-pariente1074-credit-jp-pariente-sipa-2607141854"
     },
     {
       "id": "0dec1fa81aecd27af4d19fd846b5ff400885b25a",
@@ -285,15 +351,59 @@
       "imageUrl": "https://ic-cdn.flipboard.com/radiofrance.fr/d8a38f44e0e2c8431b3b0b8fe7676023665d1ce6/_xlarge.webp"
     },
     {
-      "id": "76240cbef1e683198be418e7bb29f0d7eaafacf2",
-      "title": "Pegasus, micros et téléphones piégés : comment le Maroc traque les voix critiques",
-      "url": "https://www.radiofrance.fr/franceinter/podcasts/l-info-de-france-inter/pegasus-micros-et-telephones-pieges-comment-le-maroc-traque-les-voix-critiques-5493347?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-16T03:00:00.000Z",
-      "summary": "Depuis 2021, le Maroc nie avoir utilisé le logiciel espion Pegasus. Une enquête coordonnée par Forbidden Stories, avec la cellule investigation de …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/radiofrance.fr/5b8ca95f11ab44bdf2de4f356139b6752d4624a4/_xlarge.webp"
+      "id": "0a20a8865b914b91824a2f2c89ee9f3440c86a6e",
+      "title": "F5 - CVE-2026-59762",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/f5-cve-2026-59762-2026-07-16",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-16T02:50:34.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité liée à l'absence de &lt;strong&gt;limitation de l'allocation des ressources&lt;/strong&gt; au sein du processus &lt;strong&gt;TMM&lt;/strong&",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": null
+    },
+    {
+      "id": "c0b74a208dceab745ab08b352d36fb909b914722",
+      "title": "Zoom - CVE-2026-53412",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/zoom-cve-2026-53412-2026-07-16",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-16T02:48:57.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;validation d'entrée incorrecte&lt;/strong&gt; au sein du client Windows de Zoom Workplace et de son client VDI.&lt;/p&gt; &l",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "7c69c4bcbc4be92125424cf7de7b32d11471dee5",
+      "title": "NGINX - CVE-2026-42533",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/nginx-cve-2026-42533-2026-07-16",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-16T02:47:21.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le traitement de la directive &lt;strong&gt;map&lt;/strong&gt; lorsqu'elle utilise une correspondance par &lt;strong&gt;expression régul",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "c4e4f1a92f69962e8cf5ebccf0ba5fd9e8abab42",
+      "title": "Splunk - CVE-2026-20296",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/splunk-cve-2026-20296-2026-07-16",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-16T02:45:25.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de type &lt;strong&gt;Cross-Site Request Forgery&lt;/strong&gt; (CSRF) affectant les points de terminaison du &lt;strong&gt;Deployment Server",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "d9ae5404c1dbb98e1d69d08e151b88b2f0465cca",
+      "title": "Keycloak - CVE-2026-1609",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/keycloak-cve-2026-1609-2026-07-16",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-16T02:43:41.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;contrôle d'accès incorrect&lt;/strong&gt; dans le traitement de la fonctionnalité preview de &lt;strong&gt;JWT authorization",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
     },
     {
       "id": "d21842a453387892789221e16ccf76b2256f612c",
@@ -406,17 +516,6 @@
       "imageUrl": "https://f.hellowork.com/edito/sites/5/2026/07/AdobeStock_1098670856-768x432.jpeg"
     },
     {
-      "id": "0387f16d28c5ac3b562d2ade8a87b7a89965bd81",
-      "title": "Une cyberattaque visant un fabricant de produits surgelés fait craindre à KFC d'éventuelles pénuries et fermetures de restaurants au Japon",
-      "url": "https://video.lefigaro.fr/figaro/economie/une-cyberattaque-visant-un-fabricant-de-produits-surgeles-fait-craindre-a-kfc-d-eventuelles-penuries-et-fermetures-de-restaurants-au-japon-20260715?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-15T13:31:54.000Z",
-      "summary": "Nichirei, un des leaders du marché japonais des produits surgelés, a indiqué avoir été «visé par une cyberattaque» qui a perturbé l’activité de ses …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://i.f1g.fr/media/ext/1200x630_crop/api-video-public.lefigaro.fr/assets/c3/b8/50/c3b850c29d6d703a46bfb8b6d3fe3f17.jpeg"
-    },
-    {
       "id": "8f29bbd84d12d4dba8945a21b383f37b76779ebd",
       "title": "Firefox, Chrome, Adobe, and VMware Updates Fix Multiple Critical Security Flaws",
       "url": "https://thehackernews.com/2026/07/firefox-chrome-adobe-and-vmware-updates.html",
@@ -516,17 +615,6 @@
       "imageUrl": null
     },
     {
-      "id": "7f7f35cee1afc1b781b69e032346c1cd9c80383c",
-      "title": "Vos employés ou collègues utilisent l'IA en cachette, et c'est un vrai problème de cybersécurité",
-      "url": "https://www.clubic.com/actualite-621319-vos-employes-ou-collegues-utilisent-l-ia-en-cachette-et-c-est-un-vrai-probleme-de-cybersecurite.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-15T09:27:00.000Z",
-      "summary": "Selon une étude mondiale publiée par WatchGuard, 64 % des employés utilisent des outils d'IA non autorisés au travail. Avec des mots de passe …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/7b5f96e23e70f84df81a069fe4acdc975a422b9e/_xlarge.jpeg"
-    },
-    {
       "id": "fb871b9d2392ec527b114214bd19846fe452430c",
       "title": "Compromised AsyncAPI npm Packages Deliver Multi-Stage Botnet Malware",
       "url": "https://thehackernews.com/2026/07/compromised-asyncapi-npm-packages.html",
@@ -591,17 +679,6 @@
       "type": "LEAK",
       "severity": "Élevée",
       "imageUrl": null
-    },
-    {
-      "id": "77d213654d72ee902b5c7014e2b5fa9416714e80",
-      "title": "Microsoft a corrigé une faille présente depuis 13 ans dans son système Secure Boot.",
-      "url": "https://www.frandroid.com/marques/microsoft/3180239_une-faille-beante-minait-le-secure-boot-de-microsoft-depuis-plus-de-dix-ans?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-15T06:37:20.000Z",
-      "summary": "Censé protéger les systèmes Windows et Linux des programmes malicieux, le système Secure Boot de Microsoft a été vulnérable à une attaque toute …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/lestechnophiles.com/402d4b27d746309cef7303374b7ac7c83a674896/_xlarge.jpeg"
     },
     {
       "id": "41fdae4ec5c07dd896dadb05ecc9005f2272cf85",
@@ -1033,6 +1110,17 @@
       "imageUrl": "https://ic-cdn.flipboard.com/rosselcdn.net/216782b1ce33e15051b8d8a8b6edf419b582836b/_xlarge.jpeg"
     },
     {
+      "id": "3ce4e0060fe85474d2c8c90a38544aeeda861095",
+      "title": "CrashStealer : une application Mac notarisée cachait un voleur de mots de passe",
+      "url": "https://www.macg.co/macos/2026/07/crashstealer-une-application-mac-notarisee-cachait-un-voleur-de-mots-de-passe-309747?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-14T14:05:00.000Z",
+      "summary": "Prudence : un nouveau malware pensé pour macOS sévit depuis quelques semaines. Repéré par les équipes de cyber-sécurité de Jamf, le malware usurpe …",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://cdn.mgig.fr/2026/07/mga-fba340b8-w375-w1500-w750_accroche.jpg"
+    },
+    {
       "id": "c091ecc0ec5bfb1e2fc1f6aca1613a3f7eed3a49",
       "title": "RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata",
       "url": "https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html",
@@ -1286,17 +1374,6 @@
       "imageUrl": "https://ic-cdn.flipboard.com/01net.com/1ac4a44aff44832f23e7a57c9a65bf61b9897aae/_xlarge.jpeg"
     },
     {
-      "id": "bf1fadb39d6a6fa4cddef2200503a842301e7f34",
-      "title": "Le récap Actu: la forêt de Fontainebleau en feu, 32 interpellations liées aux incendies, la Russie accusée de cyberattaques, le pétrole grimpe à nouveau, 14 juillet sous surveillance, Instagram arrête les images IA, Adieu Sam Neill.",
-      "url": "https://podmust.com/episode/?podcast=choses-a-savoir-actu&amp%3Bepis=TGUgcsOpY2FwIEFjdHU6IGxhIGZvcsOqdCBkZSBGb250YWluZWJsZWF1IGVuIGZldSwgMzIgaW50ZXJwZWxsYXRpb25zIGxpw6llcyBhdXggaW5jZW5kaWVzLCBsYSBSdXNzaWUgYWNjdXPDqWUgZGUgY3liZXJhdHRhcXVlcywgbGUgcMOpdHJvbGUgZ3JpbXBlIMOgIG5vdXZlYXUsIDE0IGp1aWxsZXQgc291cyBzdXJ2ZWlsbGFuY2UsIEluc3RhZ3JhbSBhcnLDqnRlIGxlcyBpbWFnZXMgSUEsIEFkaWV1IFNhbSBOZWlsbC4%3D",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-13T14:44:16.000Z",
-      "summary": "Un épisode du podcast Choses à Savoir ACTU.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://assets.pippa.io/shows/6605b4637935b00016aeb8da/1783953529915-eb417885-4147-4759-8ef0-962bb87bd97d.jpeg"
-    },
-    {
       "id": "a0b9efa8e903b5c0fe1418a5e13798389c0c8ff0",
       "title": "New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email",
       "url": "https://thehackernews.com/2026/07/new-memghost-attack-plants-persistent.html",
@@ -1394,17 +1471,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/latribune.fr/62ec6e09696ea9f561f8891ca0e1d77def8d1285/_large.jpeg"
-    },
-    {
-      "id": "0502f23c3f0b46b3b7e07915f996c474e5b3512a",
-      "title": "La France annonce des sanctions contre « Turla », une unité d’élite russe spécialisée dans le cyberespionnage",
-      "url": "https://www.lemonde.fr/pixels/article/2026/07/13/la-france-annonce-des-sanctions-contre-turla-une-unite-d-elite-russe-specialisee-dans-le-cyberespionnage_6723072_4408996.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-13T09:47:43.000Z",
-      "summary": "Le FSB russe est accusé par la France d’une série de piratages ayant visé des ministères et un institut de recherche travaillant sur des sujets …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://img.lemde.fr/2026/07/13/0/0/5692/3794/1440/960/60/0/f6672a1_ftp-1-7p1ojx8br7cf-2026-07-13t082209z-700640867-rc2m3lavnoca-rtrmadp-3-ukraine-crisis-russia-france.JPG"
     },
     {
       "id": "3670f7e2ca4ebd39093f5cf08f5081fcbdf33343",
@@ -1713,17 +1779,6 @@
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgs80_SEcGa8Q18LOUd4Y3fWiWZRh6MOX6U3LhAyAVVewqJVSd1cq2bgepE_2vS0eg9qvr0iM1JOYnYd9GPDQ-LZiTP4-J8oEpZjAMc2ivQ9QiNTMbf1BYONSvBOvZaVat_1PUWjM9O72K_pdF74UKhHm-dd-wXKLp8BDoV4dQZTi1HWOUCWbozpd4muH0i/s1600/openclaw-whatsapp.jpg"
-    },
-    {
-      "id": "b8a096369a9d44792b4a5f3c40463bad4ab78eec",
-      "title": "New MODBEACON RAT Uses gRPC Streaming for Encrypted C2 Traffic",
-      "url": "https://thehackernews.com/2026/07/new-modbeacon-rat-uses-grpc-streaming.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-10T13:15:23.000Z",
-      "summary": "The China-linked cybercrime group known as Silver Fox has been attributed to a new Rust-based remote access trojan (RAR) called MODBEACON. Chinese cybersecurity company QiAnXin sai",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKTCUzhkUq2Y7DPv0yS2FatrHQTcHfupRly6f5kSWyQU-So3FOjpC8pt_VKR4qo1SoUGR65ycOEQonbW5heKWj1g_A8qDy69YtWGZDO4m2t46Sip-jdPAlNs2fpRj-w1yd8WpyJpNFUpj1iTBO0X6fy3n9DJ4aEdsWaQz_tN-VV-PxDrufKZR9wkznmXJQ/s1600/MODBEACON.jpg"
     },
     {
       "id": "f528abeaaa7e54757f54a0d04a40bbc9c6489aa4",
@@ -2218,61 +2273,6 @@
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans les &lt;strong&gt;gestionnaires de requêtes RPC Thrift&lt;/strong&gt; d'Apache IoTDB.&lt;/p&gt; &lt;p&gt;Apache IoTDB est un système de ",
       "type": "CVE",
       "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "e5d1e580a15544c94c6e0e273439742d87f17aec",
-      "title": "[webapps] MCPJam Inspector - Remote Code Execution",
-      "url": "https://www.exploit-db.com/exploits/52625",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-07T00:00:00.000Z",
-      "summary": "MCPJam Inspector - Remote Code Execution",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "ccd9053272afa6f480476f9cb81ab0b3feb19076",
-      "title": "[local] ProtonVPN v4.4.1 - Unquoted Service Path",
-      "url": "https://www.exploit-db.com/exploits/52624",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-07T00:00:00.000Z",
-      "summary": "ProtonVPN v4.4.1 - Unquoted Service Path",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "c4b6bea04613b1ed254bc561d3fe9de4f6c70865",
-      "title": "[webapps] Flowise 3.1.3 - arbitrary code execution",
-      "url": "https://www.exploit-db.com/exploits/52623",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-07T00:00:00.000Z",
-      "summary": "Flowise 3.1.3 - arbitrary code execution",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "74b1b94cc46b0a0a682a5673a7fa642d8a200ca1",
-      "title": "[remote] Hydra - Stack Buffer Overflow",
-      "url": "https://www.exploit-db.com/exploits/52622",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-07T00:00:00.000Z",
-      "summary": "Hydra - Stack Buffer Overflow",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "c8dd99b140938aa5d9fffbdfe2b9b32878e627fe",
-      "title": "[webapps] Discuz! X5.0 - Authentication Bypass",
-      "url": "https://www.exploit-db.com/exploits/52621",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-07T00:00:00.000Z",
-      "summary": "Discuz! X5.0 - Authentication Bypass",
-      "type": "CVE",
-      "severity": "Info",
       "imageUrl": null
     }
   ]
