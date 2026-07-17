@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T06:19:06.702Z",
+  "generatedAt": "2026-07-17T09:59:39.419Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -22,8 +22,9 @@
     {
       "name": "Exploit-DB",
       "url": "https://www.exploit-db.com/rss.xml",
-      "status": "ok",
-      "items": 50
+      "status": "error",
+      "items": 0,
+      "error": "fetch failed"
     },
     {
       "name": "The Hacker News",
@@ -75,6 +76,28 @@
     }
   ],
   "items": [
+    {
+      "id": "02f9c4077e720069e71fceb9129ed95a7f6cd1b7",
+      "title": "CISA Adds Exploited SharePoint RCE Zero-Day CVE-2026-58644 to KEV",
+      "url": "https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-17T06:42:23.000Z",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a newly patched security flaw impacting Microsoft SharePoint Server to its Known Exploited Vulner",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH1X7ZnvKsW37BBvjNfEzT4Imh9ZIRL4_2W1JaNVe_MyO3Q5H1MPsET-SASqznhlfOExRrLj4-6NzhgvGi76w4U5tSmlM-pJLIqO5jF3g9G1DR_FNhuwcatBFb8ARvD4PPMiQvMCFiTlEOlc13nQbQqCn5ZHf1J2ZOqDeG3_pmBiQ92hTfMErJKcjKbNtZ/s1600/sharepoint-cisa.jpg"
+    },
+    {
+      "id": "e716bbff9feb4515b654c25042ee3620f1996b08",
+      "title": "Quand le gardien du démarrage dort : la faille Secure Boot qui a exposé Windows et Linux pendant 13 ans",
+      "url": "https://android-mt.ouest-france.fr/news/quand-le-gardien-du-demarrage-dort-la-faille-secure-boot-qui-a-expose-windows-et-linux-pendant-13-ans/208142/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-17T05:29:05.000Z",
+      "summary": "Secure Boot : un bouclier percé dès le départ Introduit par Microsoft en 2011, Secure Boot est un mécanisme de sécurité intégré au micrologiciel des …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/a13b92bd27968da8c9dad24438f55c4959efeda7/_xlarge.png"
+    },
     {
       "id": "52ded39f0d132f1060113ad490ab2cfdd914bc3f",
       "title": "Les hackers qui ont volé les données de l’Ifage demandent une rançon ou ils publient tout dans cinq jours",
@@ -1242,17 +1265,6 @@
       "imageUrl": "https://ic-cdn.flipboard.com/rosselcdn.net/216782b1ce33e15051b8d8a8b6edf419b582836b/_xlarge.jpeg"
     },
     {
-      "id": "3ce4e0060fe85474d2c8c90a38544aeeda861095",
-      "title": "CrashStealer : une application Mac notarisée cachait un voleur de mots de passe",
-      "url": "https://www.macg.co/macos/2026/07/crashstealer-une-application-mac-notarisee-cachait-un-voleur-de-mots-de-passe-309747?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-14T14:05:00.000Z",
-      "summary": "Prudence : un nouveau malware pensé pour macOS sévit depuis quelques semaines. Repéré par les équipes de cyber-sécurité de Jamf, le malware usurpe …",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://cdn.mgig.fr/2026/07/mga-fba340b8-w375-w1500-w750_accroche.jpg"
-    },
-    {
       "id": "c091ecc0ec5bfb1e2fc1f6aca1613a3f7eed3a49",
       "title": "RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata",
       "url": "https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html",
@@ -1880,17 +1892,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTNxzPo9jxkW3GuuZLBgtPOrG3vZ3va6E710jDJu_JF0jCpyQ1JTpymdVwdSH2VHL6-Ib6YLInvKsuNwgFJxna1nvDhwKMZ_hycTik5OgQniZei2FQ59-F3s80lsnPmhQ1aJsr7qIWWrf63V0AtHQxd_1Nlk6LkVEheoN5lRYH8aTeBoJ-kM1-bOjUgAwa/s1600/npm-malware-2.jpg"
     },
     {
-      "id": "0ec4d8b68b571c27ef951318a26f31535b300ded",
-      "title": "Six New U-Boot Flaws Could Let Malicious Images Crash Devices or Run Code at Boot",
-      "url": "https://thehackernews.com/2026/07/six-new-u-boot-flaws-could-let.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-10T15:57:14.000Z",
-      "summary": "Researchers at firmware security firm Binarly have found six new flaws in U-Boot, the small program that starts up hardware as varied as home routers, smart cameras, and the manage",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihuE5rUYRadx5Q2auJjv9dVeFNIP8XSwSTaH0PDwGLUA54MXlPy3AyI532a8OnhXadtWnCCH30qvUKW9C3rCOu1LPld1or5_lXwNhRVqbohHNInDzNd1f9E77Sox5yB-ir7H69LmlYRKnoqnFASOMFa2TIK2RfTThJvu_oofIXHCpiRbXGXWy-bquBWsw/s1600/bootloader.gif"
-    },
-    {
       "id": "f528abeaaa7e54757f54a0d04a40bbc9c6489aa4",
       "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
       "url": "https://www.cisa.gov/news-events/alerts/2026/07/10/cisa-adds-two-known-exploited-vulnerabilities-catalog",
@@ -2188,50 +2189,6 @@
       "imageUrl": null
     },
     {
-      "id": "40e016744fe7ef09ed325e8bbc35e2e0a125aa40",
-      "title": "[webapps] Krayin CRM v2.2.x - Authenticated Remote Code Execution",
-      "url": "https://www.exploit-db.com/exploits/52629",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-08T00:00:00.000Z",
-      "summary": "Krayin CRM v2.2.x - Authenticated Remote Code Execution",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "cffb5dbc5e540e22ee59f3bd9bf96a429ffe114c",
-      "title": "[webapps] Atarim WordPress Plugin 4.2.2 - Sensitive Information Exposure",
-      "url": "https://www.exploit-db.com/exploits/52628",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-08T00:00:00.000Z",
-      "summary": "Atarim WordPress Plugin 4.2.2 - Sensitive Information Exposure",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "824f17cb39a1921d1196c0c7ea34e0a98535d503",
-      "title": "[webapps] Langflow 1.9.0 - RCE",
-      "url": "https://www.exploit-db.com/exploits/52627",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-08T00:00:00.000Z",
-      "summary": "Langflow 1.9.0 - RCE",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": null
-    },
-    {
-      "id": "1d20e357cf7a3631a54c1be327ebe2ef7a874b78",
-      "title": "[webapps] Joomla Page Builder CK 3.5.10 - Arbitrary File Upload",
-      "url": "https://www.exploit-db.com/exploits/52626",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-07-08T00:00:00.000Z",
-      "summary": "Joomla Page Builder CK 3.5.10 - Arbitrary File Upload",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
       "id": "ea411637124b7011182fa9889563baaa155d7888",
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "url": "https://www.cisa.gov/news-events/alerts/2026/07/07/cisa-adds-one-known-exploited-vulnerability-catalog",
@@ -2273,6 +2230,50 @@
       "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-188-04.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "70e27b9784040aa25562ab04b677e355b0159a8f",
+      "title": "Hitachi Energy e-mesh EMS",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-03",
+      "source": "CISA",
+      "publishedAt": "2026-07-07T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-188-03.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "0fd0d54f3ea9d459c2a659eb16f28f0bd8aa11bf",
+      "title": "Hitachi Energy PROMOD V",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-02",
+      "source": "CISA",
+      "publishedAt": "2026-07-07T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-188-02.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "cfa05e67526b22f4661748bfcb2d6bb232dbedc6",
+      "title": "Traefik - CVE-2026-54763",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/traefik-cve-2026-54763-2026-07-07",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-07T02:53:17.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans les &lt;strong&gt;middlewares d'authentification&lt;/strong&gt; BasicAuth, DigestAuth et ForwardAuth de Traefik.&lt;/p&gt; &lt;p&gt;Trae",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "8a2a58c439c8a6bc983ceca67d5e6c363bd021df",
+      "title": "Apache Camel Keycloak - CVE-2026-53913",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/apache-camel-keycloak-cve-2026-53913-2026-07-07",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-07T02:48:52.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans la &lt;strong&gt;politique de sécurité KeycloakSecurityPolicy&lt;/strong&gt; du composant camel-keycloak.&lt;/p&gt; &lt;p&gt;Apache Came",
+      "type": "CVE",
+      "severity": "Élevée",
       "imageUrl": null
     }
   ]
