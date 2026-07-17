@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T09:59:39.419Z",
+  "generatedAt": "2026-07-17T11:35:42.395Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -22,9 +22,8 @@
     {
       "name": "Exploit-DB",
       "url": "https://www.exploit-db.com/rss.xml",
-      "status": "error",
-      "items": 0,
-      "error": "fetch failed"
+      "status": "ok",
+      "items": 50
     },
     {
       "name": "The Hacker News",
@@ -76,6 +75,61 @@
     }
   ],
   "items": [
+    {
+      "id": "3c815f44438c4f42fda0f13ad99690ca030f1d23",
+      "title": "16 millions de CV exposés en ligne",
+      "url": "https://www.zataz.com/16-millions-de-cv-exposes-en-ligne/",
+      "source": "Zataz",
+      "publishedAt": "2026-07-17T10:27:57.000Z",
+      "summary": "Une annonce pirate revendique 16 millions de CV, avec coordonnées, adresses et historiques professionnels.",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.zataz.com/wp-content/uploads/cv_leak_16.jpg"
+    },
+    {
+      "id": "ffbef9500dd187a599fd330f85247bad341c5d95",
+      "title": "« Votre colis est retenu en attente de paiement » : comment la nouvelle taxe de l’UE pourrait faire le bonheur des escrocs",
+      "url": "https://www.numerama.com/cyberguerre/2296779-votre-colis-est-retenu-en-attente-de-paiement-comment-la-nouvelle-taxe-de-lue-pourrait-faire-le-bonheur-des-escrocs.html?amp%3Butm_source=flipboard&amp%3Butm_content=directlink&amp%3Butm_campaign=2296779",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-17T10:10:57.000Z",
+      "summary": "Entrée en vigueur le 1er juillet, la taxe européenne sur les petits colis a ouvert un boulevard aux cybercriminels, qui misent sur la confusion des …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://c0.lestechnophiles.com/www.numerama.com/wp-content/uploads/2025/08/design-sans-titre-2025-08-04t155616621.jpg?resize=1600%2C900&amp%3Bkey=65a2a780"
+    },
+    {
+      "id": "7dfb87cced68d53e84918839676806f3f582a3f7",
+      "title": "France-Maroc: une nouvelle enquête sur le logiciel espion Pegasus pointe «une affaire d'État extrêmement importante»",
+      "url": "https://www.rfi.fr/fr/afrique/20260717-france-maroc-une-nouvelle-enqu%C3%AAte-sur-le-logiciel-espion-pegasus-pointe-une-affaire-d-%C3%A9tat-extr%C3%AAmement-importante?utm_slink=rfi.my%2FCt8q&amp%3Butm_source=flipboard&amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-17T10:06:23.000Z",
+      "summary": "Cinq ans après le scandale Pegasus, une nouvelle enquête publiée le 16 juillet 2026 par le consortium Forbidden Stories relance l'affaire en révélant que la France avait envisagé d",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/rfi.fr/fc3e0fa92e4ee929603e13585b09f21ed90be619/_xlarge.jpeg"
+    },
+    {
+      "id": "f2fedee219e618a2ae9ca86915d69596c9e9e9eb",
+      "title": "ACR Stealer Uses ClickFix Lures to Steal Browser Tokens and Microsoft 365 Files",
+      "url": "https://thehackernews.com/2026/07/acr-stealer-uses-clickfix-lures-to.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-17T08:56:39.000Z",
+      "summary": "ACR Stealer, an infostealer in circulation since 2024, is walking out of enterprise networks with saved browser passwords, live session tokens, PDFs, Microsoft 365 documents, and f",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhj5a79jcbSLlpVrk_Tkl4E0wiB47Zu2a7V3UrYOddEgvO0bNMVU1VzwmLIK-Ac8I71znO7vmH7QSDdF9cg4-VeEzLo_7InYxfc5yaXG8Ziv-nVAK1qRCkTx73CVKtLOESbkL2yUF9srs53F9hLAkXt9hsiSTjntbS3ThRVi3ApZniyKapqVAgz9PEuW9o/s1600/clicks.png"
+    },
+    {
+      "id": "e7bda5769982fd4a095a1e712c2aee61583c800d",
+      "title": "New GoSerpent Malware Targets Southeast Asian Governments and Diplomats for Espionage",
+      "url": "https://thehackernews.com/2026/07/new-goserpent-malware-targets-southeast.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-17T08:46:45.000Z",
+      "summary": "Cybersecurity researchers have discovered a previously undocumented malware called GoSerpent that has been put to use in cyber attacks targeting entities in Southeast Asia since la",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzr3TN2Kp4PBOBbzsR0RkNNu6_pMaYw05DjwQIegOdSeuDW5SAivGHOy3Qznjx5KJUTuiPRqAJsTDpM1O94X_FuG2sXAjD84rgPHwGxp2tFuP53Dm8pd-9bInejjZY7wx1jLBWu_EikCQ4HACf6J5Ycc3-kiTVE6-83MtCDCsL71o-7sFema5tOIV4IcJm/s1600/GoSerpent-malware.jpg"
+    },
     {
       "id": "02f9c4077e720069e71fceb9129ed95a7f6cd1b7",
       "title": "CISA Adds Exploited SharePoint RCE Zero-Day CVE-2026-58644 to KEV",
@@ -627,17 +681,6 @@
       "imageUrl": null
     },
     {
-      "id": "c3e77176c0bf40a6f37afa53978a271ac0817f88",
-      "title": "Les actions Coca-Cola reculent après une cyberattaque contre fairlife",
-      "url": "https://fr.investing.com/news/stock-market-news/les-actions-cocacola-reculent-apres-une-cyberattaque-contre-fairlife-3502816?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-16T00:00:00.000Z",
-      "summary": "Investing.com - Coca-Cola (NYSE:KO) a vu ses actions chuter de 1% lors des échanges après-bourse jeudi, après que le géant des boissons a révélé une …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/investing.com/f5d5081d601a84ad0a73b87e3fd9ee5f830db312/_large.jpeg"
-    },
-    {
       "id": "57afec732314c521898cd462d28c4f133145115e",
       "title": "TuxBot v3 Evolution Shows Signs of LLM-Assisted IoT Botnet Development",
       "url": "https://thehackernews.com/2026/07/tuxbot-v3-evolution-shows-signs-of-llm.html",
@@ -834,17 +877,6 @@
       "type": "LEAK",
       "severity": "Élevée",
       "imageUrl": null
-    },
-    {
-      "id": "41fdae4ec5c07dd896dadb05ecc9005f2272cf85",
-      "title": "Inquiétude autour de cette fonctionnalité de Chrome, utilisée pour espionner des proches à distance",
-      "url": "https://www.clubic.com/actualite-621289-inquietude-autour-de-cette-fonctionnalite-de-chrome-utilisee-pour-espionner-des-proches-a-distance.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-15T05:42:00.000Z",
-      "summary": "Une enquête cyber de Certo Software révèle une technique de cyberharcèlement inquiétante : la synchronisation Chrome, détournée en quelques minutes, …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/fa25c15cab1e44fcf4419d55ecdb8f1e40962486/_xlarge.jpeg"
     },
     {
       "id": "746ca00e652c9c681b81e923140b61f62f93cc82",
@@ -1859,39 +1891,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirVz95zYTg61VRro9unfJCWWwwUrv3pQdtyNT7rPL8iCg6n0S6bky4dqPiluQHfSvQMIO9cyYgrz-07ZCx8yG_qND_J9XJ_0BoUON9p3zj0etafNvjg45txAeu4uCDEMxGDNv2tIxNuqrC0OsKG_sWZp5QIlEkbqZ_g_EEcAdXUQbuo_EgsXwT3mERTTk/s1600/zimbra-email-hack.jpg"
     },
     {
-      "id": "6f1416bc1bc4631a757fb5578afed5b43a4431f7",
-      "title": "AssuranceAmerica : 6,99 millions de clients exposés",
-      "url": "https://www.zataz.com/assuranceamerica-699-millions-de-clients-exposes/",
-      "source": "Zataz",
-      "publishedAt": "2026-07-10T17:12:06.000Z",
-      "summary": "Un important assureur confirme une fuite touchant 6,99 millions de personnes et des permis de conduire exposés.",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/AAp.jpg"
-    },
-    {
-      "id": "cee9cd2413f9a3968130fc3cd51338696d13ff26",
-      "title": "URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat",
-      "url": "https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-10T16:30:00.000Z",
-      "summary": "Progress Software has told ShareFile customers to shut down the Windows servers running their Storage Zone Controllers, confirming to The Hacker News that it is responding to a \"cr",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgULXOG2_Ph1198nw2lOea2pYE9u1GkPHaaMlzhpO48pOmejpWKFuHbchUac5JIRQHGiIMMTefXq-LktA8AjsqqMIsBS54bLaludxIJbq7chYfo_Vsoqf9Xi7YomnSUL9wHAYa5InCST76k1aP10VMmNKK_MDLD3o5zNXyB4ODMRMl0DbLkz9f2mg2k2S8/s1600/progress.jpg"
-    },
-    {
-      "id": "fb6424e663fbfb923a1dbae6a92bed5a11a27cf0",
-      "title": "Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages",
-      "url": "https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-10T16:29:00.000Z",
-      "summary": "Unknown threat actors compromised the Injective Labs SDK project's GitHub repository and leveraged it to publish a malicious package on the npm registry to steal cryptocurrency wal",
-      "type": "NEWS",
-      "severity": "Moyenne",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTNxzPo9jxkW3GuuZLBgtPOrG3vZ3va6E710jDJu_JF0jCpyQ1JTpymdVwdSH2VHL6-Ib6YLInvKsuNwgFJxna1nvDhwKMZ_hycTik5OgQniZei2FQ59-F3s80lsnPmhQ1aJsr7qIWWrf63V0AtHQxd_1Nlk6LkVEheoN5lRYH8aTeBoJ-kM1-bOjUgAwa/s1600/npm-malware-2.jpg"
-    },
-    {
       "id": "f528abeaaa7e54757f54a0d04a40bbc9c6489aa4",
       "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
       "url": "https://www.cisa.gov/news-events/alerts/2026/07/10/cisa-adds-two-known-exploited-vulnerabilities-catalog",
@@ -2189,6 +2188,50 @@
       "imageUrl": null
     },
     {
+      "id": "40e016744fe7ef09ed325e8bbc35e2e0a125aa40",
+      "title": "[webapps] Krayin CRM v2.2.x - Authenticated Remote Code Execution",
+      "url": "https://www.exploit-db.com/exploits/52629",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-08T00:00:00.000Z",
+      "summary": "Krayin CRM v2.2.x - Authenticated Remote Code Execution",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "cffb5dbc5e540e22ee59f3bd9bf96a429ffe114c",
+      "title": "[webapps] Atarim WordPress Plugin 4.2.2 - Sensitive Information Exposure",
+      "url": "https://www.exploit-db.com/exploits/52628",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-08T00:00:00.000Z",
+      "summary": "Atarim WordPress Plugin 4.2.2 - Sensitive Information Exposure",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "824f17cb39a1921d1196c0c7ea34e0a98535d503",
+      "title": "[webapps] Langflow 1.9.0 - RCE",
+      "url": "https://www.exploit-db.com/exploits/52627",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-08T00:00:00.000Z",
+      "summary": "Langflow 1.9.0 - RCE",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": null
+    },
+    {
+      "id": "1d20e357cf7a3631a54c1be327ebe2ef7a874b78",
+      "title": "[webapps] Joomla Page Builder CK 3.5.10 - Arbitrary File Upload",
+      "url": "https://www.exploit-db.com/exploits/52626",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-07-08T00:00:00.000Z",
+      "summary": "Joomla Page Builder CK 3.5.10 - Arbitrary File Upload",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
       "id": "ea411637124b7011182fa9889563baaa155d7888",
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "url": "https://www.cisa.gov/news-events/alerts/2026/07/07/cisa-adds-one-known-exploited-vulnerability-catalog",
@@ -2230,50 +2273,6 @@
       "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-188-04.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "70e27b9784040aa25562ab04b677e355b0159a8f",
-      "title": "Hitachi Energy e-mesh EMS",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-03",
-      "source": "CISA",
-      "publishedAt": "2026-07-07T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-188-03.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "0fd0d54f3ea9d459c2a659eb16f28f0bd8aa11bf",
-      "title": "Hitachi Energy PROMOD V",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-02",
-      "source": "CISA",
-      "publishedAt": "2026-07-07T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-188-02.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "cfa05e67526b22f4661748bfcb2d6bb232dbedc6",
-      "title": "Traefik - CVE-2026-54763",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/traefik-cve-2026-54763-2026-07-07",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-07-07T02:53:17.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans les &lt;strong&gt;middlewares d'authentification&lt;/strong&gt; BasicAuth, DigestAuth et ForwardAuth de Traefik.&lt;/p&gt; &lt;p&gt;Trae",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "8a2a58c439c8a6bc983ceca67d5e6c363bd021df",
-      "title": "Apache Camel Keycloak - CVE-2026-53913",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/apache-camel-keycloak-cve-2026-53913-2026-07-07",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-07-07T02:48:52.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans la &lt;strong&gt;politique de sécurité KeycloakSecurityPolicy&lt;/strong&gt; du composant camel-keycloak.&lt;/p&gt; &lt;p&gt;Apache Came",
-      "type": "CVE",
-      "severity": "Élevée",
       "imageUrl": null
     }
   ]
