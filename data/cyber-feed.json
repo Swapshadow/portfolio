@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T19:13:40.710Z",
+  "generatedAt": "2026-07-17T20:58:08.834Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -76,6 +76,17 @@
   ],
   "items": [
     {
+      "id": "86b57ec6281068d67a76f8cd670ed8766614a3de",
+      "title": "OpenSSL HollowByte Flaw Could Freeze Server Memory with 11-Byte TLS Requests",
+      "url": "https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-17T20:20:53.000Z",
+      "summary": "Eleven bytes will make an unpatched OpenSSL server set aside up to 131 KB of memory for a message that never arrives. On the glibc systems Okta tested, that memory is gone until th",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhk66eU1Srifu4Rdpf7MZDjg3GdNMtQK6ZW-F283kxhZ7Z0W_8nWNJynZiQ7n0ov9OLNm315P4942h3-unMI0WZ1-LH8tdQ6sv2o6q0TxKT-bVKewzkQULKKXSJOee_oANuI3YquoDgSPHsPeXEdQcFRoy8czRQimH_f0sNHJ55-5LA153sQgUPkpBBEVE/s1600/openssl.jpg"
+    },
+    {
       "id": "046ab53e003c7a9ae802a05a4966ff24b9278a20",
       "title": "Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT",
       "url": "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html",
@@ -107,17 +118,6 @@
       "type": "LEAK",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixZDZh8TkRVQHu6QNFvHOayTdDxLn-JWDRkPmvVCNkvEL9vhyphenhyphensADIyUB0uXlhXmBhACxMotz-lU1B61HGsRPee80GkLfk-mypQd6Ba4Hr4K-2QCz7BtyRKFCiUYuiUlmPw71Wdn6YnNTjncnGDPQBJV-P0MyS7CjTmPd-p_aHKBCQJr0JA396lL-Yxd3A9/s1600/digicert-hack.jpg"
-    },
-    {
-      "id": "6bc9d0c0f3747059def89879845d535af24af1fd",
-      "title": "Les meilleurs antivirus pour Mac sont en promo ! N'attendez pas d'être infecté...",
-      "url": "https://www.mac4ever.com/securite/197173-les-meilleurs-antivirus-pour-mac-sont-en-promo-n-attendez-pas-d-etre-infecte?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-17T16:28:00.000Z",
-      "summary": "Le meilleur antivirus pour Mac Intego ONE est en promo aujourd'hui. C'est le moment de protéger votre Mac des cybermenaces qui le guettent. Pourquoi …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://img-api.mac4ever.com/1200/0/749be8c2a6_promo-saint-valentin-meilleur-antivirus-mac-intego.webp"
     },
     {
       "id": "926436e5659b3d765b2f1127c72747275073ad38",
@@ -1176,6 +1176,17 @@
       "imageUrl": null
     },
     {
+      "id": "41fdae4ec5c07dd896dadb05ecc9005f2272cf85",
+      "title": "Inquiétude autour de cette fonctionnalité de Chrome, utilisée pour espionner des proches à distance",
+      "url": "https://www.clubic.com/actualite-621289-inquietude-autour-de-cette-fonctionnalite-de-chrome-utilisee-pour-espionner-des-proches-a-distance.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-15T05:42:00.000Z",
+      "summary": "Une enquête cyber de Certo Software révèle une technique de cyberharcèlement inquiétante : la synchronisation Chrome, détournée en quelques minutes, …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/fa25c15cab1e44fcf4419d55ecdb8f1e40962486/_xlarge.jpeg"
+    },
+    {
       "id": "746ca00e652c9c681b81e923140b61f62f93cc82",
       "title": "Two SonicWall SMA 1000 Zero-Days Exploited, One Could Enable Admin Commands",
       "url": "https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html",
@@ -1867,17 +1878,6 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": null
-    },
-    {
-      "id": "9926e1eca965b4475f8ec96ee2c62de54d2c1057",
-      "title": "Meta Files Patent for AI That Can Listen All Day and Track How You're Feeling",
-      "url": "https://thehackernews.com/2026/07/meta-files-patent-for-ai-that-can.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-13T11:54:46.000Z",
-      "summary": "Meta has filed a patent application for an AI that listens to your voice throughout the day, works out how it thinks you are feeling from the way you sound, and keeps a timestamped",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiElxdOUOnt8DZ-78o4IBYmmieJL3gm-RPGxQYpkPhzk8o-kMG_bWAGAHjVzPbVEGnkPmhF80RlbaRmvtgVLfABQSKApl6fsQ2RkhkWuZsxF9WR-HnsthEl_bfg4A6w_hMThqQoWAFimIXGTSZ0QLA6DSHprkHQTTp3WNwy-QmyaosOcs3ksJxy5lztSoc/s1600/meta-facebook.jpg"
     },
     {
       "id": "4d6bb095cb999dbcb47d89486536a5fe9464b708",
