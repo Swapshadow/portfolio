@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T20:58:08.834Z",
+  "generatedAt": "2026-07-17T22:52:05.650Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -75,6 +75,17 @@
     }
   ],
   "items": [
+    {
+      "id": "ebe09c6e01c2291b1533970bf9dd5c255cd18d5c",
+      "title": "New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code",
+      "url": "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-17T21:20:10.000Z",
+      "summary": "An anonymous HTTP request can run code on a WordPress site. The bug is in core, so a bare install with zero plugins is exploitable. Every 6.9 and 7.0 site was in range until Friday",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRULLT1q8L6AtUB7jgKywi_KSF8VGKkOF9yC3Snt81K1aD2XSEV1jgfIe331rXUWGqhmAyFgr1USssr4_CQmuE7HLAn0ShaQ0pHY_yvNYMjQdHtpV8i-vlk2ickhJSJDSN3amGox_DMR5hemMlrgXIk8kHoHlYKZncjpiV3ibF77ax1Yn0fEjxtgxy7tY/s1600/wordpress-core.jpg"
+    },
     {
       "id": "86b57ec6281068d67a76f8cd670ed8766614a3de",
       "title": "OpenSSL HollowByte Flaw Could Freeze Server Memory with 11-Byte TLS Requests",
@@ -340,17 +351,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH1X7ZnvKsW37BBvjNfEzT4Imh9ZIRL4_2W1JaNVe_MyO3Q5H1MPsET-SASqznhlfOExRrLj4-6NzhgvGi76w4U5tSmlM-pJLIqO5jF3g9G1DR_FNhuwcatBFb8ARvD4PPMiQvMCFiTlEOlc13nQbQqCn5ZHf1J2ZOqDeG3_pmBiQ92hTfMErJKcjKbNtZ/s1600/sharepoint-cisa.jpg"
     },
     {
-      "id": "e716bbff9feb4515b654c25042ee3620f1996b08",
-      "title": "Quand le gardien du démarrage dort : la faille Secure Boot qui a exposé Windows et Linux pendant 13 ans",
-      "url": "https://android-mt.ouest-france.fr/news/quand-le-gardien-du-demarrage-dort-la-faille-secure-boot-qui-a-expose-windows-et-linux-pendant-13-ans/208142/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-17T05:29:05.000Z",
-      "summary": "Secure Boot : un bouclier percé dès le départ Introduit par Microsoft en 2011, Secure Boot est un mécanisme de sécurité intégré au micrologiciel des …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/a13b92bd27968da8c9dad24438f55c4959efeda7/_xlarge.png"
-    },
-    {
       "id": "4b0401af47375b703bbfe4aae2fe6a89ed1f5e78",
       "title": "Wazuh - CVE-2026-34150",
       "url": "https://cyberveille.esante.gouv.fr/alertes/wazuh-cve-2026-34150-2026-07-17",
@@ -525,6 +525,17 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/560e8da15ff7cf872d6994b2b28c89b554f88f51/_xlarge.jpeg"
+    },
+    {
+      "id": "5790252fc3766e2efbbc68348d577281a2443c80",
+      "title": "Un hacker pirate Suno et dévoile comment l’IA musicale a pillé YouTube, Deezer et Genius",
+      "url": "https://www.numerama.com/cyberguerre/2296087-un-hacker-pirate-suno-et-devoile-comment-lia-musicale-a-pille-youtube-deezer-et-genius.html?amp%3Butm_source=flipboard&amp%3Butm_content=directlink&amp%3Butm_campaign=2296087",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-16T13:55:55.000Z",
+      "summary": "Un hacker ayant piraté la plateforme de génération musicale Suno a partagé avec 404 Media le détail des sources d’entraînement de l’entreprise. Selon …",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://c0.lestechnophiles.com/www.numerama.com/wp-content/uploads/2026/07/design-sans-titre-2026-07-16t143614736.jpg?resize=1600%2C900&amp%3Bkey=18b2843b"
     },
     {
       "id": "d2967c52244635f424554acce492892e3a45a84e",
@@ -1845,17 +1856,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_pk3JKY3zis-iTRVKpcttwfy-GP-gEzPE_NQQpqDEaMvVs65uqa3v_dG7pD_DmZWLHcwBQzjFtTYqob5wWSgO2F-0-KkwZaahqTUpGP1xbvyifaf2UnMDzI8j9pnP9EWyARmN2SHHl0eBo4UszZx3VZvicjU_MMFOEA8sjcLvzBFzAkNeFg3GIR2yncA/s1600/memghost.jpg"
-    },
-    {
-      "id": "ab028b2e88e4d8f00ff842d4631ea60c17441f6b",
-      "title": "Forg365 PhaaS Targets Microsoft 365 with Device Code and AitM Session Theft",
-      "url": "https://thehackernews.com/2026/07/forg365-phaas-targets-microsoft-365.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-13T13:03:33.000Z",
-      "summary": "A new phishing-as-a-service (PhaaS) operation called Forg365 is using a combination of device code phishing, adversary-in-the-middle (AitM) tactics, antibot evasion, artificial int",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlR-dy6ENZN5NKa1_sViQqXH6fEfEROkwjKV9vTowPmCu_nOALJ89JzGg-ueVJMCAqDHHozMZGd8oWbIlAQDTI8anEd6A2ZK0MdBN_FiShR3UoHGL6Cf0Gbhv8dY9RkVlZxpOCmks29u8Fnmx-JcytGZlnKC_9EuColvIMY4Y5IXH91aRaN5HOgjvvSPEo/s1600/ms-device-code1.jpg"
     },
     {
       "id": "8dc0fd6bf166231aed940d3d3ec00d85dcbccb59",
