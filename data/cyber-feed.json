@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T06:06:52.720Z",
+  "generatedAt": "2026-07-18T09:27:58.848Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -76,6 +76,17 @@
   ],
   "items": [
     {
+      "id": "abfd2728ce421413b7730d38b2fc982fc4ef875f",
+      "title": "« Le casse de la mémoire » de Claude : comment un site piégé a poussé l'IA à divulguer toutes vos données",
+      "url": "https://www.01net.com/actualites/casse-memoire-claude-comment-site-piege-pousse-ia-divulguer-toutes-donnees.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-18T07:31:04.000Z",
+      "summary": "Un chercheur a démontré qu’un simple site web piégé pouvait pousser Claude à divulguer le nom, l’employeur et la ville d’origine de son utilisateur. …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/c3311bd6b19da1a4a63f4f325926f77ddb702b10/_xlarge.jpeg"
+    },
+    {
       "id": "08e17e182136b004a2f8e0bd9e0d9187855119ff",
       "title": "Services secrets marocains, logiciels espions et intimidations : les enquêteurs du Qatargate ont-ils été mis en danger ?",
       "url": "https://www.lalibre.be/belgique/judiciaire/2026/07/18/services-secrets-marocains-logiciels-espions-et-intimidations-les-enqueteurs-du-qatargate-ont-ils-ete-mis-en-danger-RI7TCBVR45GK7IQ6P4N7RAVDYU/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -92,7 +103,7 @@
       "url": "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
       "source": "The Hacker News",
       "publishedAt": "2026-07-17T21:20:10.000Z",
-      "summary": "An anonymous HTTP request can run code on a WordPress site. The bug is in core, so a bare install with zero plugins is exploitable. Every 6.9 and 7.0 site was in range until Friday",
+      "summary": "Updated July 18, 2026: the two flaws now carry CVE IDs, the full mechanism has been published, a persistent-object-cache condition has surfaced, and a working proof-of-concept is p",
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRULLT1q8L6AtUB7jgKywi_KSF8VGKkOF9yC3Snt81K1aD2XSEV1jgfIe331rXUWGqhmAyFgr1USssr4_CQmuE7HLAn0ShaQ0pHY_yvNYMjQdHtpV8i-vlk2ickhJSJDSN3amGox_DMR5hemMlrgXIk8kHoHlYKZncjpiV3ibF77ax1Yn0fEjxtgxy7tY/s1600/wordpress-core.jpg"
@@ -712,6 +723,17 @@
       "type": "NEWS",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgs_Ix6AmdT0f-NuPj2BLNRcSaOhWHf5pPdDuwR0eykvHCnOmoHUhq5Z2axM2GJX9gX5A3FlesfKuynGTsj012HNIJZURuZ8S7uCfa7_cSXIZDWC1donHjiQbkNr3jNLSq8B2PGpUG24fddwOaG2POjEQuvlrVEnp3yPa1F3tV2fpYDVQHEsaIHbnShUuQ/s1600/hacked.jpg"
+    },
+    {
+      "id": "2bdc2182ab5b2e88f707148f242b25a9f3f75c94",
+      "title": "Pegasus. Nouvelles révélations sur l’espionnage marocain contre des opposants et des dirigeants étrangers",
+      "url": "https://www.courrierinternational.com/article/pegasus-nouvelles-revelations-sur-l-espionnage-marocain-contre-des-opposants-et-des-dirigeants-etrangers_250341?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-16T11:54:25.000Z",
+      "summary": "Une enquête internationale confirme l’ampleur du système d’espionnage déployé par le royaume chérifien, qui a notamment ciblé avec le logiciel …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/courrierinternational.com/d7e7c565c314163aa722be86e0d751692b5b6a84/_xlarge.jpeg"
     },
     {
       "id": "337e330f151e1d11023614ff04fda26da2cd6608",
@@ -1889,28 +1911,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/latribune.fr/62ec6e09696ea9f561f8891ca0e1d77def8d1285/_large.jpeg"
-    },
-    {
-      "id": "3670f7e2ca4ebd39093f5cf08f5081fcbdf33343",
-      "title": "Alerte rouge sur Android : un virus utilise un outil Google pour vider votre compte bancaire",
-      "url": "https://www.01net.com/actualites/alerte-rouge-android-virus-utilise-outil-google-vider-compte-bancaire.html?amp%3Butm_content=topic%2Ffr-%C3%A9conomie",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-13T09:15:36.000Z",
-      "summary": "Le cheval de Troie bancaire RedHook fait son grand retour sur Android. La nouvelle version du virus exploite l’ADB sans fil, un outil de …",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/3acbb5febbe946341f9fa20943b0bc253f3b886d/_xlarge.jpeg"
-    },
-    {
-      "id": "ef9f1a84bd49249b8c9dd8b880796fcb3695f6ca",
-      "title": "C’est la folle histoire d’espionnage dont tout le monde va parler : Apple attaque OpenAI en justice en l’accusant d’avoir volé ses secrets industriels",
-      "url": "https://www.presse-citron.net/espionnage-apple-attaque-openai-justice-accusant-vole-secrets-industriels/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-13T08:47:38.000Z",
-      "summary": "OpenAI est attaqué en justice par Apple, qui accuse le créateur de ChatGPT d’avoir volé des secrets industriels.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/presse-citron.net/a905be54ddae9b4bccbc0d44849d10c66f0f90b2/_xlarge.jpeg"
     },
     {
       "id": "adde25312564647c772107a8b1ac29cddb8b6039",
