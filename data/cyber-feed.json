@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T13:21:22.576Z",
+  "generatedAt": "2026-07-19T14:57:57.727Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -75,6 +75,28 @@
     }
   ],
   "items": [
+    {
+      "id": "f6b667cb46694668fe906684ece3aa44167380de",
+      "title": "UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware",
+      "url": "https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-19T13:30:55.000Z",
+      "summary": "Russian state-sponsored threat actors have been observed leveraging the infamous ClickFix strategy to trick Ukrainian targets into infecting their own machines with data-stealing m",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzwz79enQjrnXLRTDKacoJm6HMEpOZX59zUr-X-czDXaohlQymWPOYcD0ERz14lU9Sp_6DubTeBvC1085D3vh6VwMqreCDn8F9ZKkcrvgSTlCfwS1RhmT7ubTPrc5VRd5tX7dHAJAu8n8PUy94X3a72vYU4vO769JGWttb3x9gp9lXUkilEnloggpXyk2p/s1600/click.jpg"
+    },
+    {
+      "id": "e93facafe6107a990819e4cd712b3ece16980431",
+      "title": "SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access",
+      "url": "https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-19T13:18:56.000Z",
+      "summary": "A previously undocumented threat actor has been attributed to the exploitation of recently disclosed SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances as zero-days pr",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLomYbwprpYWKVxrxKRh3hFiGRWdVOb7WAVbhJjf_fYQAba4wVZT1PpwWAL-ZDb40MZp9T43-dj8Fru-eOjiKcrAoh5sOdyKGUUAVwK9iifXl70EvgORPztxnvYXc9HA8trGKcRZGob8DYJxUZBg0zlZFUTiRGPXGFheSbKLUoG53kZ9HR6XxyJs9GEtcA/s1600/sma-sonicwall.jpg"
+    },
     {
       "id": "306a16f1fa41a9079cd0d9c2dabad22f3de49134",
       "title": "Cyberguerre: face aux menaces russes et chinoises, et aux doutes sur le soutien américain, l’Europe dispose-t-elle des moyens nécessaires pour assurer sa cyberdéfense?",
@@ -1869,17 +1891,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSvBtzUXyAbjgtvPJVS9zZ29ULkaIs0fMMa53ZKSip2pJbZ7_HMTGn3SV27X28JLwaq9atS1B_jvH_7qgfsjW0wyVDV_jGyqFSyO-z_vHuoigCy14xfb7DKuuWGIMUVeLiOhnap1yICNPEC2OUkA0d_e8RXtPs7oTo3BAz9I2DTxRwg67vgObResLQ7c4/s1600/browser-edge.jpg"
     },
     {
-      "id": "fa7f49854e7ed6e68b84552b5274047092777b46",
-      "title": "⚡ Weekly Recap: ShareFile Threat, Citrix Bleed 2 Ransomware, AI Coding Attacks, and More",
-      "url": "https://thehackernews.com/2026/07/weekly-recap-sharefile-threat-citrix.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-13T15:05:57.000Z",
-      "summary": "Somewhere right now, a security tool is quietly finding bugs faster than any human can fix them. That's supposed to be the good news. The catch is that the attackers have the same ",
-      "type": "NEWS",
-      "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuCIplQpj7CGra4jEeX4qO6DfR9_OazwL_c55clD60cy9pWK42qAsCmqrwe0YBUmPq0cg_6Gt52VlqoOGuigf4qwI8lazIdogbl8pjBDfprTbktGn96fxMbtCh06kyGFF9qCXg9PgMhSXu8V02QBxTmBArc-84ZI3jXwmoDQdj-SCp-_JY7z5XqrQR2IlP/s1600/monday-recap.jpg"
-    },
-    {
       "id": "2210bf99d099a399b4e9c4e64534977db98b0977",
       "title": "Lessons Learned from CISA&#8217;s Recent GitHub Leak",
       "url": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
@@ -1889,17 +1900,6 @@
       "type": "LEAK",
       "severity": "Info",
       "imageUrl": "https://krebsonsecurity.com/wp-content/uploads/2026/05/CISA-logo.png"
-    },
-    {
-      "id": "a0b9efa8e903b5c0fe1418a5e13798389c0c8ff0",
-      "title": "New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email",
-      "url": "https://thehackernews.com/2026/07/new-memghost-attack-plants-persistent.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-13T13:49:48.000Z",
-      "summary": "Give an AI assistant a memory and access to your inbox, and you hand an attacker a way to rewrite what it thinks it knows about you. A single email can trick that agent into saving",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_pk3JKY3zis-iTRVKpcttwfy-GP-gEzPE_NQQpqDEaMvVs65uqa3v_dG7pD_DmZWLHcwBQzjFtTYqob5wWSgO2F-0-KkwZaahqTUpGP1xbvyifaf2UnMDzI8j9pnP9EWyARmN2SHHl0eBo4UszZx3VZvicjU_MMFOEA8sjcLvzBFzAkNeFg3GIR2yncA/s1600/memghost.jpg"
     },
     {
       "id": "8dc0fd6bf166231aed940d3d3ec00d85dcbccb59",
