@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T10:54:07.364Z",
+  "generatedAt": "2026-07-20T14:10:11.198Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,7 +17,7 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 101
+      "items": 102
     },
     {
       "name": "Exploit-DB",
@@ -76,6 +76,83 @@
   ],
   "items": [
     {
+      "id": "3c28069fc4f0587db88f6cd3d23412119cbeb493",
+      "title": "⚡ Weekly Recap: WordPress RCE, SonicWall 0-Days, AI Service Attacks, SharePoint 0-Day and More",
+      "url": "https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-20T13:32:26.000Z",
+      "summary": "A single request should not be able to do this much. But this week, small inputs led to code execution, memory loss, stolen keys, and disabled security tools. The paths were often ",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA-JVLR3XITNdsuoWZQFMu12z6UeqsAdKWjS4Iu6piGP-4Natjx3GZ4obTdwddY5YHPgNoYDJljFCpAh9YRUntTakZeiGikoJYjjgEcv2ZVPchuCuyIfRh_3aTJ64Ktke9RkdRxH7DalTVqGf0YgF3fDj2lHgvVyIDANaMn1KVy1d1CBXTZxAwyJBqEClL/s1600/cyberrecap.jpg"
+    },
+    {
+      "id": "b218aee6b3392a4a022cf76d21519c6718a8b9a6",
+      "title": "Dans la ligne de mire des cybercriminels, les festivaliers plus ciblés que jamais",
+      "url": "https://www.journaldunet.com/cybersecurite/1552785-dans-la-ligne-de-mire-des-cybercriminels-les-festivaliers-plus-cibles-que-jamais/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-20T13:12:11.000Z",
+      "summary": "Les festivaliers sont devenus des cibles privilégiées des cybercriminels : billetterie frauduleuse, phishing et QR codes piégés (quishing) figurent …",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://ic-cdn.flipboard.com/journaldunet.com/0b419a180ab7c36f3aba1504e05ced711cbbd918/_xlarge.jpeg"
+    },
+    {
+      "id": "ceebd9ddbb7c0f94c9d248f3ee35dd16ce7b7c52",
+      "title": "Un milliard de cyberattaques avant la finale : comment la Coupe du monde 2026 a évité le cyber-chaos",
+      "url": "https://www.journaldunet.com/cybersecurite/1552653-un-milliard-de-cyberattaques-avant-la-finale-comment-la-coupe-du-monde-2026-a-evite-le-cyber-k-o/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-20T13:09:09.000Z",
+      "summary": "À quelques jours de la finale organisée dans le New Jersey, la Fifa affirme avoir bloqué plus d'un milliard de cyberattaques. Le 19 juillet, à 15 …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/journaldunet.com/fd379de418857f3d6c7b0d87d3d837d1950bbef7/_xlarge.jpeg"
+    },
+    {
+      "id": "c50d6a7963ddff19d689fdf63baf4a87aabda0e0",
+      "title": "Le plus grand défi de la cybersécurité n'est ni l'IA ni l'informatique quantique : c'est la confiance",
+      "url": "https://www.journaldunet.com/cybersecurite/1552637-le-plus-grand-defi-de-la-cybersecurite-n-est-ni-l-ia-ni-l-informatique-quantique-c-est-la-confiance/?amp%3Butm_content=topic%2Ffr-cryptographie",
+      "source": "Cryptographie FR",
+      "publishedAt": "2026-07-20T12:58:33.000Z",
+      "summary": "À l'ère de l'IA et du quantique, le véritable défi de la cybersécurité n'est plus seulement de protéger les systèmes, mais d'instaurer une confiance …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/journaldunet.com/1644d53d3699ebeb15063f69370beb888652bcf7/_xlarge.jpeg"
+    },
+    {
+      "id": "e0de9ac8d3e443a02ce365f194c3709da29643ca",
+      "title": "Cyberattaques : l'incertitude coûte plus cher que le temps d'arrêt",
+      "url": "https://www.journaldunet.com/cybersecurite/1552595-cyberattaques-l-incertitude-coute-plus-cher-que-le-temps-d-arret/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-20T12:56:55.000Z",
+      "summary": "Face à la recrudescence des cyberattaques, une cyber-résilience moderne doit dépasser la simple sauvegarde technique pour se concentrer sur la …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/journaldunet.com/7a9b51cc88064b67ae9c8699011e1643f77d9cec/_xlarge.jpeg"
+    },
+    {
+      "id": "d7d718669d6d1481ff3dc4483d7937e0f4225a76",
+      "title": "Russian Intelligence Hacks IP Cameras to Spy on Military Logistics Across NATO States and Ukraine",
+      "url": "https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-20T12:13:39.000Z",
+      "summary": "At least one Russian intelligence service is systematically hijacking internet-connected security cameras across Europe and Ukraine, using the feeds to watch military transport rou",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnZdcdM-XJQ9tmIQw7h4gqSDABg-Ip1mzizMoR9zRcyQmaG7OGlQSp1ad0RsZSflsvdKVn0bs4EXdPthnHgiC76as_RVG-W7vZ88AHvJ2HhCLEaQOlNukhrTl6NSq6sgAHGiGUXemDrbZePvUDIi2oxWb60rRX5lkxA5bsFBJplBkaVQTZ5R0EjOrJTaQ/s1600/ip-camera-hacking.jpg"
+    },
+    {
+      "id": "f8809fa0909973bba20c5105c80c1fdf8fe83d4f",
+      "title": "Mythos Didn't Break Your Security Program. Your Exposure Window Could.",
+      "url": "https://thehackernews.com/2026/07/mythos-didnt-break-your-security.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-20T11:30:00.000Z",
+      "summary": "The industry spent the initial months after Anthropic's April 7 Mythos reveal focused on volume. How many new CVEs would Mythos add to an already overloaded pipeline? How quickly w",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPz_r-By1h0xZL5FiBqJIALstL79CJXVbUweKybWr0EG7qKcLPYSo750ATDQjzd9tE6piMt4-TkFY4mT87Q58Jg_0jHMCveyydooFMjk5hKUk0jQA_Uxp6WamlMsFIjXcws2ighKsjC907P45OIhcimimpm-ECyQ_bq5erQ2MTvH7HGwzGgXrxQSIBBx0/s1600/xmcyber.jpg"
+    },
+    {
       "id": "366808ca16d31376e6f64857550c7b12ea209682",
       "title": "New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction",
       "url": "https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html",
@@ -129,6 +206,61 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-5_crP04CVdna-erTGX9yykCNwqzeIcMALrWcRvgKWkfk7bntEBg50PBtoLvTeACMEHisZ-m1FLMEa2x9nbsRpVdAyeQyBkEmexn8p6W4r6JKA7dxDGJ6BXCqR6RYC3hyRSw7_1Wm1Elv-UFHRfttZQB0HX60SQRGXnJ-4VySo4gY-yfaDhT2FHKHTFj9/s1600/ruby.jpg"
+    },
+    {
+      "id": "b7f97f29484890ecc0763959cb1e06db32b9b72d",
+      "title": "WireGuard Easy - CVE-2026-63089",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/wireguard-easy-cve-2026-63089-2026-07-20",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-20T02:02:27.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;génération cryptographiquement faible&lt;/strong&gt; des jetons de lien à usage unique (&lt;strong&gt;one-time link&lt;/stro",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "7d35877154ce8b26899e19340805e1f640f669cb",
+      "title": "WP2Shell - CVE-2026-63030",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/wp2shell-cve-2026-63030-2026-07-20",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-20T02:00:46.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;confusion de route&lt;/strong&gt; dans l'endpoint &lt;strong&gt;REST API batch&lt;/strong&gt; (/wp-json/batch/v1), au sein d",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "f1d1b75da888e56d685f0979781070ccdb725601",
+      "title": "cert-manager - CVE-2026-62290",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/cert-manager-cve-2026-62290-2026-07-20",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-20T01:58:16.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;contrôle d'autorisation incorrect&lt;/strong&gt; dans le contrôleur ACME de cert-manager.&lt;/p&gt; &lt;p&gt;cert-manager es",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "a397680a0f9cbe5446040bb3aaeebce4f3aed1cd",
+      "title": "VMWare - CVE-2026-47865",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/vmware-cve-2026-47865-2026-07-20",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-20T01:56:33.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;contournement d'authentification&lt;/strong&gt; affectant le plan de contrôle d'Avi Load Balancer, le composant central qui ",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "123f97c68149cb3152e5f68bad90b1ac2974eabd",
+      "title": "Cisco - CVE-2026-20150",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/cisco-cve-2026-20150-2026-07-20",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-20T01:55:18.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;contrôle d'accès incorrect&lt;/strong&gt; dans le système RoomOS, regroupant plusieurs faiblesses internes de la même classe",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
     },
     {
       "id": "4430ed26b708b50d6e973e9c25c6f40d160d95d3",
@@ -417,17 +549,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixZDZh8TkRVQHu6QNFvHOayTdDxLn-JWDRkPmvVCNkvEL9vhyphenhyphensADIyUB0uXlhXmBhACxMotz-lU1B61HGsRPee80GkLfk-mypQd6Ba4Hr4K-2QCz7BtyRKFCiUYuiUlmPw71Wdn6YnNTjncnGDPQBJV-P0MyS7CjTmPd-p_aHKBCQJr0JA396lL-Yxd3A9/s1600/digicert-hack.jpg"
     },
     {
-      "id": "6bc9d0c0f3747059def89879845d535af24af1fd",
-      "title": "Les meilleurs antivirus pour Mac sont en promo ! N'attendez pas d'être infecté...",
-      "url": "https://www.mac4ever.com/securite/197173-les-meilleurs-antivirus-pour-mac-sont-en-promo-n-attendez-pas-d-etre-infecte?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-17T16:28:00.000Z",
-      "summary": "Le meilleur antivirus pour Mac Intego ONE est en promo aujourd'hui. C'est le moment de protéger votre Mac des cybermenaces qui le guettent. Pourquoi …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://img-api.mac4ever.com/1200/0/749be8c2a6_promo-saint-valentin-meilleur-antivirus-mac-intego.webp"
-    },
-    {
       "id": "926436e5659b3d765b2f1127c72747275073ad38",
       "title": "Royaume-Uni : couvre-feu numérique pour les adolescents",
       "url": "https://www.zataz.com/royaume-uni-couvre-feu-numerique-pour-les-adolescents/",
@@ -549,17 +670,6 @@
       "imageUrl": "https://ic-cdn.flipboard.com/lestechnophiles.com/d072c7a8e893cdbc934720327729faa9f03e66ad/_xlarge.jpeg"
     },
     {
-      "id": "78bdd04881f02af59500ee7b1ac2f68892f3dc28",
-      "title": "Une filiale de Coca-Cola forcée d'être mise à l'arrêt après une cyberattaque : \"Pour que ça aille jusque-là, c'est que c'est moche\"",
-      "url": "https://www.lalibre.be/economie/entreprises-startup/2026/07/17/une-filiale-de-coca-cola-forcee-detre-mise-a-larret-apres-une-cyberattaque-pour-que-ca-aille-jusque-la-cest-que-cest-moche-VY7I6X2ZDVABHAGJ4EIYZU6YPQ/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-17T10:09:47.000Z",
-      "summary": "L'entreprise fairlife, active dans les produits laitiers protéinés, a été mise à l'arrêt. L'action Coca-Cola était sous pression en Bourse dans les …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/lalibre.be/24fcddb065dab9c02cd1508706079f1897d4846b/_xlarge.jpeg"
-    },
-    {
       "id": "1af3ce9a44fa948a57de17e722e3fd02bf18a986",
       "title": "France-Maroc: une nouvelle enquête sur le logiciel espion Pegasus pointe «une affaire d'État extrêmement importante»",
       "url": "https://www.rfi.fr/fr/afrique/20260717-france-maroc-une-nouvelle-enqu%C3%AAte-sur-le-logiciel-espion-pegasus-pointe-une-affaire-d-%C3%A9tat-extr%C3%AAmement-importante?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -613,17 +723,6 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH1X7ZnvKsW37BBvjNfEzT4Imh9ZIRL4_2W1JaNVe_MyO3Q5H1MPsET-SASqznhlfOExRrLj4-6NzhgvGi76w4U5tSmlM-pJLIqO5jF3g9G1DR_FNhuwcatBFb8ARvD4PPMiQvMCFiTlEOlc13nQbQqCn5ZHf1J2ZOqDeG3_pmBiQ92hTfMErJKcjKbNtZ/s1600/sharepoint-cisa.jpg"
-    },
-    {
-      "id": "e716bbff9feb4515b654c25042ee3620f1996b08",
-      "title": "Quand le gardien du démarrage dort : la faille Secure Boot qui a exposé Windows et Linux pendant 13 ans",
-      "url": "https://android-mt.ouest-france.fr/news/quand-le-gardien-du-demarrage-dort-la-faille-secure-boot-qui-a-expose-windows-et-linux-pendant-13-ans/208142/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-17T05:29:05.000Z",
-      "summary": "Secure Boot : un bouclier percé dès le départ Introduit par Microsoft en 2011, Secure Boot est un mécanisme de sécurité intégré au micrologiciel des …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/a13b92bd27968da8c9dad24438f55c4959efeda7/_xlarge.png"
     },
     {
       "id": "4b0401af47375b703bbfe4aae2fe6a89ed1f5e78",
@@ -789,17 +888,6 @@
       "type": "NEWS",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioBa_Q-TYfQvhOH0gqZxwAzgn_QnC9YSD6GYI3-z53LVjJSL1MDl4Af_DSeuIA33luHnEkGIGe9eXbCGvyWZ2zfOELZLhLAJtAcCTzIrpEPPU2f-7hvztkeHhA89Fb3aTq7b-0HHHVSPUsmUKXOPbX17rwMGjB75yG_r4-9vyarYK77pmdgzy3YeIn46M4/s1600/threatsday-recap.jpg"
-    },
-    {
-      "id": "0fd3f2a292661326818db97b946fb4a5161d798a",
-      "title": "Scandale du logiciel espion Pegasus : de nouvelles preuves contre le Maroc",
-      "url": "https://www.franceinfo.fr/monde/scandale-du-logiciel-espion-pegasus-de-nouvelles-preuves-contre-le-maroc_8110370.html",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-16T13:56:51.000Z",
-      "summary": "Depuis 2021, la justice enquête sur l’espionnage ayant visé des journalistes et des dirigeants français. Alors que le Premier ministre et une partie …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/560e8da15ff7cf872d6994b2b28c89b554f88f51/_xlarge.jpeg"
     },
     {
       "id": "d2967c52244635f424554acce492892e3a45a84e",
@@ -1902,39 +1990,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLw92quWqf4LGudVaNPBRwhiCIP4ZEBpolIRqMKbQuG6hzrXUSx89QCQT1IjMWF_6v7GEkYGOi0kYoc-ES_fELZm6pg1P8lVpRxv5mYmpzAHQMm6A_XC_fXWSWlRVh1JfjFc8wXlqtyGWovxUOOhQn8HiG4XutLeKlyv5aLY2R4UKlHTcD2pgXANePlhBq/s1600/wallet-fingerprint.jpg"
     },
     {
-      "id": "d4fe8a5e22d03dab12bbe1a7ecceb9f8817f85bf",
-      "title": "How Pentera Turns AI Security Workflows into Validation Engines",
-      "url": "https://thehackernews.com/2026/07/how-pentera-turns-ai-security-workflows.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-14T11:30:00.000Z",
-      "summary": "AI security agents are starting to influence real security decisions. They summarize findings, prioritize remediation, recommend next steps, and help teams move faster. But most st",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBkjrecx65rZWCn-e7KyG-ScNo2HupwMwFl9-XIOcdW1Pls-d0g80WyhkIHPCHTszjYDoUBtmpV_ystgF4Lc6z_noxysLX2xs11QU1jNALxkVa8gW6_QkevNLJkr8mCqupKYHRZSv518HoHlmwpnaYV-qMVyciXNsoMQAS8RrH1rLT2BsLS2t3u52Lrf8/s1600/pentera-main.jpg"
-    },
-    {
-      "id": "a025de3c27bde491d18bc7e4ea8e94871e13d6a4",
-      "title": "OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials",
-      "url": "https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-14T11:21:35.000Z",
-      "summary": "At least two distinct threat actors are weaponizing a novel evasion technique called OAuth client ID spoofing in cloud campaigns, while slipping past telemetry. The activity allows",
-      "type": "NEWS",
-      "severity": "Moyenne",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmB1bLC9cna7xlnvFdK0hUnsi8jeo6E7jMh20nj4XTvsF9ogpjbnlPCxx9QYQ1O2aS7JiSDQi4swIRNG6-Xjg2TGR4bn4Zn-KBkjsLTYcKUrXOD-rlGu4XYsvRx06eRqrT4duW0xwklKeYjZvRV1VSarJBKldBzN4DNhkWudVCGRdKPi9uVGrqEwL66mz5/s1600/OAuth-ClientID.jpg"
-    },
-    {
-      "id": "698df9fdcdeb17867e61eb1497843cc94bfce09f",
-      "title": "Grok Build Uploaded Entire Git Repositories to xAI Storage, Not Just Files It Read",
-      "url": "https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-14T09:02:48.000Z",
-      "summary": "xAI's Grok Build coding CLI was uploading entire Git repositories, full commit history and all, to a Google Cloud Storage bucket run by xAI, not just the files a coding task needed",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCYpkCY1h-DxV5yfxpkGspVFATaUS27q_vpRgQ2ebzGvc6YgSsYk81jDt3SkJQgxVCL8dWJqzDE3t6iUt4ceeTvA9LG8Z9cA65uBXC05Lkdv1xKLNBMH88dTa_6XCet3a0wf1VwfyxQsx_1AKc3lmHCxqiZHKTfvk9kJqvo0i15biGekBijFPNN16JHBM/s1600/grok.jpg"
-    },
-    {
       "id": "bcf1a26591f2951529649ef42bb369b76081b48d",
       "title": "Cyberespionnage : fait rare, la France nomme et localise l'unité russe qui la pirate depuis 20 ans",
       "url": "https://www.lesnumeriques.com/informatique/cyberespionnage-la-france-nomme-et-localise-l-unite-russe-qui-la-pirate-depuis-20-ans-n259254.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -1988,6 +2043,17 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/latribune.fr/62ec6e09696ea9f561f8891ca0e1d77def8d1285/_large.jpeg"
+    },
+    {
+      "id": "ef9f1a84bd49249b8c9dd8b880796fcb3695f6ca",
+      "title": "C’est la folle histoire d’espionnage dont tout le monde va parler : Apple attaque OpenAI en justice en l’accusant d’avoir volé ses secrets industriels",
+      "url": "https://www.presse-citron.net/espionnage-apple-attaque-openai-justice-accusant-vole-secrets-industriels/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-13T08:47:38.000Z",
+      "summary": "OpenAI est attaqué en justice par Apple, qui accuse le créateur de ChatGPT d’avoir volé des secrets industriels.",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/presse-citron.net/a905be54ddae9b4bccbc0d44849d10c66f0f90b2/_xlarge.jpeg"
     },
     {
       "id": "adde25312564647c772107a8b1ac29cddb8b6039",
@@ -2205,72 +2271,6 @@
       "source": "Cyberveille Santé",
       "publishedAt": "2026-07-09T03:02:38.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité d'&lt;strong&gt;injection SQL&lt;/strong&gt; localisée dans la &lt;strong&gt;fonctionnalité de réinitialisation de mot de passe&lt;/strong&gt",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "d5aafb84e47fc44afd585f5e18466fc4bf28d7c5",
-      "title": "GitLab - CVE-2026-6896",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/gitlab-cve-2026-6896-2026-07-09",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-07-09T03:00:09.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité d'&lt;strong&gt;injection de script indirecte&lt;/strong&gt; localisée dans le &lt;strong&gt;moteur de rendu du tableau des preuves de vulnér",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "6f0a64bbb7c8d310daba20cd6e593d666731b6da",
-      "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
-      "url": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
-      "source": "Krebs on Security",
-      "publishedAt": "2026-07-08T12:31:39.000Z",
-      "summary": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convict",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://krebsonsecurity.com/wp-content/uploads/2026/06/irisc2prices.png"
-    },
-    {
-      "id": "51848557102d19c9976151b00ba34e47ac2e9c96",
-      "title": "OpenSSH - CVE-2026-60002",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/openssh-cve-2026-60002-2026-07-08",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-07-08T02:46:40.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le &lt;strong&gt;client ssh&lt;/strong&gt; d'OpenSSH, affectant le traitement de la &lt;strong&gt;renégociation de clés&lt;/strong&gt; (",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "86b7782246cc981ca2f6d8af668b386a8086a1eb",
-      "title": "GNU Wget - CVE-2026-58469",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/gnu-wget-cve-2026-58469-2026-07-08",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-07-08T02:44:26.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans la fonction &lt;strong&gt;clean_metalink_string()&lt;/strong&gt; du fichier src/metalink.c, chargée de nettoyer les chaînes de caractère",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "b7e16286ca6ef158ebac975043e705f10f21e8e3",
-      "title": "Dell Technologies - CVE-2026-53481",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/dell-technologies-cve-2026-53481-2026-07-08",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-07-08T02:43:16.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le mécanisme de &lt;strong&gt;contrôle des chemins d'accès&lt;/strong&gt; de DD OS.&lt;/p&gt; &lt;p&gt;Dell PowerProtect Data Domain est",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "85a8574111ffb65199b8405c6f49e897a17c5099",
-      "title": "FreeType - CVE-2026-50811",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/freetype-cve-2026-50811-2026-07-08",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-07-08T02:41:31.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans la fonction &lt;strong&gt;TT_Get_Var_Design()&lt;/strong&gt; du fichier src/truetype/ttgxvar.c, utilisée par l'API publique &lt;strong&g",
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": null
