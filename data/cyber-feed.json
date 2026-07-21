@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T13:56:58.401Z",
+  "generatedAt": "2026-07-21T15:47:02.334Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,7 +17,7 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 102
+      "items": 107
     },
     {
       "name": "Exploit-DB",
@@ -76,6 +76,83 @@
   ],
   "items": [
     {
+      "id": "daf110021c23e7ffd4df79e80216e32c49df62c3",
+      "title": "Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC",
+      "url": "https://thehackernews.com/2026/07/critical-sharepoint-rce-cve-2026-50522.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-21T14:57:51.000Z",
+      "summary": "A third SharePoint Server flaw patched by Microsoft as part of its Patch Tuesday update for July 2026 has come under active exploitation, per watchTowr. The vulnerability in questi",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEiY-8bLYm125By8D7AuLG0iHjE5hB2_ysYdB1WkSc0wxB_virPrL19JZ0Ow8Nzsu0DkoTWboikIsKEyDs9393o1yaFJ0LZMFy64Hzk4XGzOqnpjJMgptlxVsHnmDm6twDSVhCkT1HFTFVmDW2zvlmz3qvQP9vftatDZFCw_GvauRT_2yEF-REvZlXyb_I/s1600/sharepoint.jpg"
+    },
+    {
+      "id": "9ffe964549375c3da58e307ba5efd6fc6bc2520f",
+      "title": "Le FBI arrête un jeune homme accusé d'avoir volé des cryptomonnaies via de faux jeux Steam.",
+      "url": "https://www.frandroid.com/marques/valve/3187135_220-000-dollars-voles-grace-a-de-faux-jeux-steam-le-fbi-arrete-un-hacker-de-21-ans?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-21T14:22:06.000Z",
+      "summary": "Un homme de 21 ans est suspecté d’avoir dérobé 220 000 dollars en cryptomonnaies via un malware installé sur des milliers de PC à travers de faux …",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://c0.lestechnophiles.com/images.frandroid.com/wp-content/uploads/2026/01/steam-illustration.jpg?resize=1600%2C900&amp%3Bkey=842b3825"
+    },
+    {
+      "id": "087e2d144100406fdebdf75824816da6b53a888d",
+      "title": "Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Access",
+      "url": "https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-21T14:04:57.000Z",
+      "summary": "Threat actors have been observed exploiting a now-patched high-severity Palo Alto Networks PAN-OS vulnerability as an entry point to deploy Qilin (aka Agenda) ransomware on victim ",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgP1HNhUk3hMm0HOAQBAVExGT5-PQfrxeAtKrKRpG_eaXz5qEtVKiuH4-nOVMVdbtZ5XVzfk-hM-eFwpS0IAZNpGkp2DmE4wiNauEA3GT-t1UtLNGjtyVuDRPezJSyj4jEw8zeNgoPnyloZe_6K_vM1-nfYYoehFdoWRgVzVnmJUF3wwfamG0BgDdN1BvMJ/s1600/ransomware-attack.jpg"
+    },
+    {
+      "id": "641b97d79d66c52d30782165ef4276f7f3f07384",
+      "title": "Le Rassemblement national victime d’une cyberattaque, « une exposition massive de données » écartée",
+      "url": "https://www.sudouest.fr/economie/cybersecurite/le-rassemblement-national-victime-d-une-cyberattaque-une-exposition-massive-de-donnees-ecartee-30014756.php?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-21T13:54:35.000Z",
+      "summary": "Le Rassemblement national a dénoncé mardi une « tentative d’intrusion malveillante » du compte de l’un de ses candidats aux dernières élections …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/sudouest.fr/e37b30eb44d5512e8797fdfce983baba19c62636/_xlarge.jpeg"
+    },
+    {
+      "id": "76b24c6588557c62df6822c2f2994b1b9b9bfe37",
+      "title": "Des hackers affirment avoir siphonné des données sur le site du Rassemblement national, le parti nie toute « exposition massive »",
+      "url": "https://www.lavoixdunord.fr/1723360/article/2026-07-21/des-hackers-affirment-avoir-siphonne-des-donnees-sur-le-site-du-rassemblement?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-21T13:42:00.000Z",
+      "summary": "Selon des informations du Parisien, le site internet du Rassemblement national aurait été victime ce mardi dans la matinée d’une « tentative …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://lvdneng.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_extra_big/2026/07/21/node_1723360/68849521/public/2026/07/21/92633687.jpeg?itok=mqkCOR3g1784642651"
+    },
+    {
+      "id": "22453eb04404990c5cdf539034b60dcc0b1836e9",
+      "title": "Zimbra Patches Critical SNMP Command Injection and Four XSS Vulnerabilities",
+      "url": "https://thehackernews.com/2026/07/zimbra-patches-critical-snmp-command.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-21T13:18:31.000Z",
+      "summary": "Zimbra has rolled out fixes to address multiple critical security issues, including a command injection flaw in the Simple Network Management Protocol (SNMP) monitoring component. ",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEih_Q67gFWBtG5q7zVuyna7iJj3lSm-UQRoMsami8jaf-WYMCXqQlVprQ_ifyXx-PqJg2chDHN3KrFppnZSvejTvSco4kN-P_S4U3vKQHNtvZ48g5wftlSILrMulX1WUMOeeybU4apJ5Iv8BM6ipceEVGSJucR7yRJZguIrfTUaCbbHqefGt6o2BkHrJqV0/s1600/zimbra.jpg"
+    },
+    {
+      "id": "741e7c7d8899671afaa46cd063edf7f2ae98d0ee",
+      "title": "Le RN victime d’un piratage informatique : la photo de Marine Le Pen remplacée par un chat aux couleurs des drapeaux marocains et algériens",
+      "url": "https://www.ladepeche.fr/2026/07/21/le-rn-victime-dun-piratage-informatique-la-photo-de-marine-le-pen-remplacee-par-un-chat-aux-couleurs-des-drapeaux-marocains-et-algeriens-13477622.php?amp%3Butm_content=topic%2Ffr-technologie",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-21T13:16:31.000Z",
+      "summary": "Une cyberattaque a visé le site du Rassemblement national le 20 juillet 2026. Selon le site lanceur d’alerte French Breaches, des données sensibles, …",
+      "type": "LEAK",
+      "severity": "Élevée",
+      "imageUrl": "https://images.ladepeche.fr/api/v1/images/view/6a5f705dd2056e12d40fafcc/hd/image.jpg?v=1"
+    },
+    {
       "id": "c51b71b67b2dcde8a59944862e6df0b7c26d34f1",
       "title": "Un hacker revendique le piratage du site du Rassemblement National : voici ce que l’on sait",
       "url": "https://www.numerama.com/cyberguerre/2298773-un-hacker-revendique-le-piratage-du-site-du-rassemblement-national-voici-ce-que-lon-sait.html?amp%3Butm_source=flipboard&amp%3Butm_content=directlink&amp%3Butm_campaign=2298773",
@@ -96,6 +173,17 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/20min.ch/11b2f3c9d8ae6e9eafa53b4d97f41b8b310c7b0b/_xlarge.jpeg"
+    },
+    {
+      "id": "b60c955debe653850c7933fcd7bb41c26181f4ef",
+      "title": "Si vous utilisez ce logiciel, une simple ouverture de fichier peut suffire à vous pirater",
+      "url": "https://www.journaldugeek.com/2026/07/21/si-vous-utilisez-ce-logiciel-une-simple-ouverture-de-fichier-peut-suffire-a-vous-pirater/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-21T12:01:26.000Z",
+      "summary": "Le logiciel de décompression 7-Zip a une faille de sécurité qui peut mener au piratage de votre PC si vous ne faites rien.",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/journaldugeek.com/7b1bb3e2568731a3a329c75bfd35e728d270c5fe/_xlarge.jpeg"
     },
     {
       "id": "6a9994c2667b8962c5b95d743cb94932fd876575",
@@ -129,28 +217,6 @@
       "type": "CVE",
       "severity": "Info",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRgv46Pyr5W2eivocnJG2MuDCYtUXj0fVas4afxPzJX2ZVXVCyjyWK_FtVCxKOaz9qwmR6EJLqgbrG448OtKTlv3X9coXsqr40xoNXrkXZbGiOO3ZHr-skaiYV3My_V-qI9YH3c3ScLO4tISLW_uI-2PD3_hdgUQW8cv_kMi6q994YyZn6JkF7gIhECC4/s1600/pushsecurity.jpg"
-    },
-    {
-      "id": "b0b7ce4b8eabb0d4864e64198f47372eb927edf0",
-      "title": "Le RN sous cyberattaque : le parti dépose plainte après une intrusion informatique",
-      "url": "https://android-mt.ouest-france.fr/news/le-rn-sous-cyberattaque-le-parti-depose-plainte-apres-une-intrusion-informatique/208697/?amp%3Butm_content=topic%2Ffr-technologie",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-21T11:41:17.000Z",
-      "summary": "Une intrusion détectée en pleine matinée Les systèmes informatiques du Rassemblement national ont été compromis dans la matinée du 21 juillet. …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/1525a24a800aa3aa052a3237dede543152eb6719/_xlarge.jpeg"
-    },
-    {
-      "id": "d69cc9e9b06f17f16412d812ca039109d567e8c6",
-      "title": "Le gouvernement annonce des assises et une doctrine sur la sécurité économique",
-      "url": "https://information.tv5monde.com/france/le-gouvernement-annonce-des-assises-et-une-doctrine-sur-la-securite-economique-2831008?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-21T11:39:09.000Z",
-      "summary": "Face à \"des menaces qui ont tendance à s'intensifier\" sur la souveraineté, le ministre de l'Economie Roland Lescure a annoncé mardi la tenue …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://information.tv5monde.com/sites/tv5-info/files/styles/seo_1200/public/2026-07/field_media_image-3042158-46fdc89a4103485c2dd81628078540ea49b5187f.jpg?itok=uCOKd_8h"
     },
     {
       "id": "c572587a3464b3504d36f470e6695d0c29f789fc",
@@ -213,7 +279,7 @@
       "url": "https://www.ouest-france.fr/politique/rassemblement-national/le-rassemblement-national-vise-par-un-piratage-informatique-le-parti-annonce-quil-va-porter-plainte-6f070a68-84e5-11f1-94d8-e478b94a49e4?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
       "source": "Cybercriminalité FR",
       "publishedAt": "2026-07-21T10:12:16.000Z",
-      "summary": "Le Rassemblement national (RN) a été victime d’une attaque informatique ce mardi 21 juillet. Un membre du parti a indiqué à France Télévisions, qui …",
+      "summary": "Le Rassemblement national (RN) a été victime d’une attaque informatique ce mardi 21 juillet. Dans un communiqué, le parti assure qu’aucun « élément …",
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/a53c5349e26f05d7035f516788a36a7aa3dd8df8/_xlarge.jpeg"
@@ -239,6 +305,17 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/presse-citron.net/735dab3c4f72625b67d8dec40b2d547e33bda3d0/_xlarge.jpeg"
+    },
+    {
+      "id": "29963f93dbe969f542dcd0afff054d687452fb91",
+      "title": "Stadler victime d'une cyberattaque, rançon de 10 millions exigée",
+      "url": "https://www.radiolac.ch/actualite/suisse/stadler-victime-dune-cyberattaque-rancon-de-10-millions-exigee/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-21T09:30:49.000Z",
+      "summary": "Le constructeur de matériel ferroviaire Stadler Rail s'est fait voler mi-juillet les données de l'un de ses fournisseurs lors d'une cyberattaque.Les …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.radiolac.ch/wp-content/uploads/2026/07/20260721113057735-1000x600.jpg"
     },
     {
       "id": "8febbce05a168824612b001d3a6a274863efffe5",
@@ -272,17 +349,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://www.zataz.com/wp-content/uploads/IA_cyber_attack.jpg"
-    },
-    {
-      "id": "9fd5374ae19285fbf0b025bb074339e57a8061ce",
-      "title": "Des groupes criminels qui \"opèrent simultanément sur plusieurs marchés illicites\": les victimes de cyberanarques en Asie ont perdu 114 milliards de dollars en 2025",
-      "url": "https://www.bfmtv.com/crypto/des-groupes-criminels-qui-operent-simultanement-sur-plusieurs-marches-illicites-les-victimes-de-cyberanarques-en-asie-ont-perdu-114-milliards-de-dollars-en-2025_AD-202607210262.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-21T08:19:02.000Z",
-      "summary": "Selon un rapport de l'ONU, au cours des deux dernières années, la Chine, la Corée du Sud et Taïwan sont les endroits les plus touchés par les …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/bfmtv.com/25b3919d3116b761a848580667a9372dae872a80/_xlarge.jpeg"
     },
     {
       "id": "2c324f401c2f54ff0bb1d8138fb17ddb7e8a9711",
@@ -340,6 +406,61 @@
       "imageUrl": "https://f.hellowork.com/blogdumoderateur/2026/07/Raphael-Azou-Astek.jpg"
     },
     {
+      "id": "079bc173aeb959554a0ceb5657dc522a21371517",
+      "title": "Netty - CVE-2026-55831",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/netty-cve-2026-55831-2026-07-21",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-21T02:53:54.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité d'allocation de ressources sans limite ni contrôle (CWE-770, CWE-400) dans la bibliothèque Netty, au sein du décodeur de trames SPDY et plus.",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": null
+    },
+    {
+      "id": "c37fa80f7809b050c723d18d33dc2c9a34a15507",
+      "title": "Zyxel - CVE-2026-6952",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/zyxel-cve-2026-6952-2026-07-21",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-21T02:49:17.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité &lt;strong&gt;d'injection de commandes système (CWE-78)&lt;/strong&gt; dans le composant syslog du firmware Zyxel AX7501-B1, au niveau du cha",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "2ec5cce4881eb648bf64131eed5233131f006844",
+      "title": "Wazuh - CVE-2026-28220",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/wazuh-cve-2026-28220-2026-07-21",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-21T02:46:31.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une double vulnérabilité de désérialisation de données non fiables (CWE-502) et d'injection de contexte d'autorisation RBAC (CWE-863) dans le composant Cluster",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "11674acc8c411875c1703fe5d246da8ba18f2ba0",
+      "title": "D-Link - CVE-2026-16327",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/d-link-cve-2026-16327-2026-07-21",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-21T02:40:13.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;défaut de contrôle d'accès (CWE-284)&lt;/strong&gt; dans le firmware du NAS D-Link DNS-320.&lt;br&gt;Le D-Link DNS-320 est u",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "fb27c0326e4b8fc55ca7d551e44299dcde17e792",
+      "title": "7-Zip - CVE-2026-14266",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/7-zip-cve-2026-14266-2026-07-21",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-21T02:28:22.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de dépassement de tampon dans le tas au sein du composant de décompression XZ de 7-Zip.&lt;br&gt;&lt;br&gt;7-Zip est un logiciel libre de com",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
       "id": "dd824d6390bca6886d1c2a204e26fcff37cfdea4",
       "title": "Multiples vulnérabilités dans Tenable Security Center (21 juillet 2026)",
       "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0905/",
@@ -393,6 +514,17 @@
       "type": "NEWS",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJtNDirNuc1FHpVkk7dexa4KTcD8h3fSmxpGMZQeRtlzNpIhC5hOXVEu-aPc5tsCIi9-csPtQVmdoW9FeyyBytXkPWfbwYZEGSJrIiqSEqUsdQwGOepqr23C4pz6jnGWI5ledB7UC19S0ORrc_jyP6Lajqu0X4FsTX6ooTVJvJffKOjRmg2ndJLDj17-E/s1600/phishing-ai.jpg"
+    },
+    {
+      "id": "9b95e7d3e49cfc613d14f9fb6a091a048b7d307e",
+      "title": "Un nouveau capteur pour le grand-angle de l'iPhone 18 Pro",
+      "url": "https://consomac.fr/news-24225-un-nouveau-capteur-pour-le-grand-angle-de-l-iphone-18-pro.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-20T17:11:00.000Z",
+      "summary": "L'appareil photo principal de l'iPhone 18 Pro aurait droit à un nouveau capteur, selon la découverte de Notebookcheck dans un fichier de log issu de …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://consomac.fr/images/news/variable-aperture-tata.jpg"
     },
     {
       "id": "6e7b7097c2d26d8067d5703b4ec33a46b8d43df5",
@@ -450,17 +582,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA-JVLR3XITNdsuoWZQFMu12z6UeqsAdKWjS4Iu6piGP-4Natjx3GZ4obTdwddY5YHPgNoYDJljFCpAh9YRUntTakZeiGikoJYjjgEcv2ZVPchuCuyIfRh_3aTJ64Ktke9RkdRxH7DalTVqGf0YgF3fDj2lHgvVyIDANaMn1KVy1d1CBXTZxAwyJBqEClL/s1600/cyberrecap.jpg"
     },
     {
-      "id": "ceebd9ddbb7c0f94c9d248f3ee35dd16ce7b7c52",
-      "title": "Un milliard de cyberattaques avant la finale : comment la Coupe du monde 2026 a évité le cyber-chaos",
-      "url": "https://www.journaldunet.com/cybersecurite/1552653-un-milliard-de-cyberattaques-avant-la-finale-comment-la-coupe-du-monde-2026-a-evite-le-cyber-k-o/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-20T13:09:09.000Z",
-      "summary": "À quelques jours de la finale organisée dans le New Jersey, la Fifa affirme avoir bloqué plus d'un milliard de cyberattaques. Le 19 juillet, à 15 …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
       "id": "c50d6a7963ddff19d689fdf63baf4a87aabda0e0",
       "title": "Le plus grand défi de la cybersécurité n'est ni l'IA ni l'informatique quantique : c'est la confiance",
       "url": "https://www.journaldunet.com/cybersecurite/1552637-le-plus-grand-defi-de-la-cybersecurite-n-est-ni-l-ia-ni-l-informatique-quantique-c-est-la-confiance/?amp%3Butm_content=topic%2Ffr-cryptographie",
@@ -470,17 +591,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/journaldunet.com/1644d53d3699ebeb15063f69370beb888652bcf7/_xlarge.jpeg"
-    },
-    {
-      "id": "e0de9ac8d3e443a02ce365f194c3709da29643ca",
-      "title": "Cyberattaques : l'incertitude coûte plus cher que le temps d'arrêt",
-      "url": "https://www.journaldunet.com/cybersecurite/1552595-cyberattaques-l-incertitude-coute-plus-cher-que-le-temps-d-arret/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-20T12:56:55.000Z",
-      "summary": "Face à la recrudescence des cyberattaques, une cyber-résilience moderne doit dépasser la simple sauvegarde technique pour se concentrer sur la …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/journaldunet.com/7a9b51cc88064b67ae9c8699011e1643f77d9cec/_xlarge.jpeg"
     },
     {
       "id": "d7d718669d6d1481ff3dc4483d7937e0f4225a76",
@@ -877,17 +987,6 @@
       "type": "NEWS",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizZ8fzXjkeMlk_f1TKWczz8e4GHbNGTRPmaXHDPi86v4Ep0BqvGpKpOtpP_mtnHihu7kbII2nMxqQnQbjAhQkv6lkemsoIlzzS925QJKqkU5tgFHTxtSuRBllSUeZ3gpkJa51TAcggrQanY873B173p_hA-ow4sgftGDp4UgD3Torp7KswNuBp93-YOre5/s1600/northkorean-hacker.jpg"
-    },
-    {
-      "id": "bac0cc59655b0a6eadd9d6c199cc87c7d09c2e44",
-      "title": "La France bloque totalement l'accès au site de paris sur l'actualité Polymarket",
-      "url": "https://www.france24.com/fr/france/20260717-la-france-bloque-l-acc%C3%A8s-depuis-son-territoire-au-site-de-paris-sur-l-actualit%C3%A9-polymarket?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-17T13:41:13.000Z",
-      "summary": "L'Autorité nationale de jeux (ANJ) en France a annoncé vendredi bloquer l'accès au site de paris sur l'actualité Polymarket, sur lequel il était déjà interdit depuis novembre 2024 ",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://s.france24.com/media/display/2cdc58e4-81e5-11f1-bce5-005056bf30b7/w:1280/p:16x9/16b293d58ae244ba8adf67d97b40bb3175cb62d5.jpg"
     },
     {
       "id": "7a0bb11856abe7dcc60cd3fbabacd1fd4282692c",
@@ -1352,10 +1451,10 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSi9EGhWziKlNlaSAnaOE4OjgZ5pyqoajOxDz4zEQl77NDSF_Pf8ME6wfKfrmrTWhLy9jDR1wvmVb7gd5JLhyszunIomhOnyyHKuTfvBCjb8vGypAPXbQzTVG-n5wWUdsTToUXQ5z_uh3XPDX3KKzgZ8vDB9PZ40FOd6xGi2iALOu-wSqSoHpkpYf5eKjk/s1600/openai-gpt-red.jpg"
     },
     {
-      "id": "8a7a2f030a1c618dde483c6ed2301c4185af979a",
+      "id": "a495571a09501582471dadad211772dca55c8a48",
       "title": "Le vrai bug de l'an 2000 arrive, et vos données sont déjà dans le viseur",
       "url": "https://www.ladn.eu/tech-a-suivre/le-vrai-bug-de-lan-2000-arrive-et-vos-donnees-sont-deja-dans-le-viseur/?amp%3Butm_content=topic%2Ffr-sciences",
-      "source": "Cybercriminalité FR",
+      "source": "Cryptographie FR",
       "publishedAt": "2026-07-16T08:14:17.000Z",
       "summary": "Alors que le monde a les yeux rivés sur l'IA, des hackers stockent patiemment des données qu'ils ne peuvent pas encore lire. Leur pari : que …",
       "type": "NEWS",
@@ -1592,39 +1691,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": null
-    },
-    {
-      "id": "1b724256013f98cbd4c4708ea89daf53cf3cf225",
-      "title": "Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday",
-      "url": "https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-15T11:07:07.000Z",
-      "summary": "Security researcher Chaotic Eclipse (aka Nightmare-Eclipse) has released a new proof-of-concept (PoC) exploit called LegacyHive. It has been described as a Windows User Profile Ser",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvtiVnhkF-YVsPEXyedqj9REY5pN1-KiSsf-rCeXK5yClGbAcsL1Tg7-9UDDA8VQg5RbM0uWkV23rDxqiFFIJ2RkpkY6cn90-5LPbZOC2oktF7_3FjD5La_FGkYdVBEKeXMJGiGRZfPvxmMBXd99tncWdEZ4HxX62hbxmWEnA02eu-LSVwZtmecjuykqDb/s1600/windows-0day.jpg"
-    },
-    {
-      "id": "dde1f4fa7c664ab6b73210c5f7fbb089ed696ee1",
-      "title": "New Webinar: Closing the Approval Gap in AI-Era Ad Tech",
-      "url": "https://thehackernews.com/2026/07/new-webinar-closing-approval-gap-in-ai.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-15T11:06:57.000Z",
-      "summary": "A single approved marketing tag can quietly load fourth-party code your security team has never seen, granting full access to your forms, customer data, and checkout pages. This on",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKYTg22vVssJ3SSHZzP0PtS8d5g8oCH2fU2IkXoBoIPOR4-XblNQ7Hg6S-qkO6bIB9JLC3yI4QdpQ4iNWsQsu9QnMpNbHdHzwHhRyX0zr-Vklk2DaCe3UlOd8M53pp5Uu_mfds265f_MsrF_RaQ-lnPEc3b5UoIVsTIV-On5qJ9DqMpk05AsKM3FhlgtXV/s1600/ref.jpg"
-    },
-    {
-      "id": "11da01db9d16bef8863b8b231d46450546222ca6",
-      "title": "Cursor Flaw Lets Malicious Cloned Repositories Trigger Windows Code Execution",
-      "url": "https://thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-15T10:55:22.000Z",
-      "summary": "Open a repository in Cursor on Windows and, if a file named git.exe is sitting in the project root, Cursor runs it. No click, no approval dialog, no warning that anything in the fo",
-      "type": "NEWS",
-      "severity": "Moyenne",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyFnrtjbcXdDBTEYOhVnUpFO4CSqhCGj5xdvaYlhih4oUCd3phzBQTjjMogZeFDlYqTiO8Xt2jaHevba5peaV76dT417Vq9W-DZFSpu2_cEbAMtGwz-mqKZJcYgAAXmZT_Rnkdc0f3jAW-eANKWd6XZZJvYfYCt6l5Pp-2ZKjlnn4zG7G6gS7ivWruzeU/s1600/git.png"
     },
     {
       "id": "ea661a6b00147c1aecd977b68d1cf2ba1004d83b",
@@ -2207,72 +2273,6 @@
       "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-190-03.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "2c05fe582212beecee2a69c768216adb1cc784b9",
-      "title": "Schneider Electric PowerChute Serial Shutdown",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-02",
-      "source": "CISA",
-      "publishedAt": "2026-07-09T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-190-02.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "aa2bfc5f90cdd492ca7e44440cd4d627a7feb3f2",
-      "title": "Faire ses démarches administratives en ligne en évitant les pièges",
-      "url": "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/faire-ses-demarches-administratives-en-ligne-en-evitant-les-pieges",
-      "source": "Cybermalveillance",
-      "publishedAt": "2026-07-09T10:58:00.000Z",
-      "summary": "De nombreuses démarches administratives peuvent être réalisées en ligne : documents d&rsquo;identité, aides sociales, impôts, carte grise, etc. Mais des escrocs ou des sites Intern",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "620ad30f7511c9cd1352ee8a65614f7e657498ae",
-      "title": "Google - CVE-2026-15129",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/google-cve-2026-15129-2026-07-09",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-07-09T03:08:13.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de type &lt;strong&gt;use-after-free&lt;/strong&gt; localisée dans le composant &lt;strong&gt;Views&lt;/strong&gt; de Google Chrome, responsa",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "e4f2e14118c31dc7a543792adf250a95dc9263bf",
-      "title": "Cisco - CVE-2026-24697",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/cisco-cve-2026-24697-2026-07-09",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-07-09T03:06:00.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité d'&lt;strong&gt;injection de commandes système&lt;/strong&gt; localisée dans la fonction &lt;strong&gt;start_bonjour()&lt;/strong&gt; du bina",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "d0232beb4b875de0327219a91506eb70e246b7cb",
-      "title": "Progress - CVE-2026-10699",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/progress-cve-2026-10699-2026-07-09",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-07-09T03:04:36.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de type &lt;strong&gt;fuite mémoire&lt;/strong&gt; localisée dans le &lt;strong&gt;service SFTP&lt;/strong&gt; de MOVEit Transfer.&lt;/p&gt; ",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "cbe1f9e6b1c455f90809430a7d135f2a1911d8f0",
-      "title": "IBM - CVE-2026-9074",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/ibm-cve-2026-9074-2026-07-09",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-07-09T03:02:38.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité d'&lt;strong&gt;injection SQL&lt;/strong&gt; localisée dans la &lt;strong&gt;fonctionnalité de réinitialisation de mot de passe&lt;/strong&gt",
-      "type": "CVE",
-      "severity": "Élevée",
       "imageUrl": null
     }
   ]
