@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T15:47:02.334Z",
+  "generatedAt": "2026-07-21T17:22:46.868Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -75,6 +75,39 @@
     }
   ],
   "items": [
+    {
+      "id": "303b278c77b1e6f9ed1aa650a5f45cfd1c8a8f6f",
+      "title": "Une enquête ouverte après un piratage informatique visant le Rassemblement national",
+      "url": "https://www.lemonde.fr/pixels/article/2026/07/21/une-enquete-ouverte-apres-un-piratage-informatique-visant-le-rassemblement-national_6729000_4408996.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-21T16:09:11.000Z",
+      "summary": "Un message revendiquant l’exfiltration de plusieurs bases de données provenant du site officiel du RN a été publié, lundi 20 juillet, sur un forum …",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://img.lemde.fr/2026/07/21/0/0/7588/5058/1440/960/60/0/612b7b4_ftp-1-xlowxmtiosns-5674703-01-06.jpg"
+    },
+    {
+      "id": "f9eefb393301fce3f34c04077203c514ce814f59",
+      "title": "AWS Kiro Flaw Let a Poisoned Web Page Rewrite Its Config and Run Code",
+      "url": "https://thehackernews.com/2026/07/aws-kiro-flaw-let-poisoned-web-page.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-21T16:06:12.000Z",
+      "summary": "Hidden text on a web page was enough to make Kiro, AWS's agentic coding IDE, rewrite its own configuration file and run an attacker's code on a developer's machine, with no approva",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJfMUQ_pVP5as41uM_4cR8oRUsCwuXPMLLG63jNd5Djqso9kJyQZLiZgQrMQzykhRaX8BQCydIMPokGoITYY30kc3dH-8iy4Bd-ux36RoIjyNYXtKwb1F1fPdP00hoHD-9Q9s5CGD30w58s5wfyzBGOQvnIxM8JlHkig881HSQQuu4Hk6GBiDJicUYE8o/s1600/AWS-Kiro.jpg"
+    },
+    {
+      "id": "44dde1f7139008d99b43010f7db37eac0ea9bc7e",
+      "title": "Google Launches Gemini 3.5 Flash Cyber AI to Find and Fix Software Vulnerabilities",
+      "url": "https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-21T15:09:28.000Z",
+      "summary": "Google's DeepMind on Tuesday announced the release of Gemini 3.5 Flash Cyber, a specialized artificial intelligence (AI) model built atop 3.5 Flash that's designed to discover, val",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEEErOjlKug3DfeSGwzEbvNrUSCkzDF0o7uAnDNHFuE5MWaTlnB8sSfYJ4VsQaG39Kv_-L50Zc5GOJrpLYvW_2i8TFFI1xAWMRnFa-M6smZrswwGgnUMmEe-F-FB5Hw3OQWxVdSfPAKCFidVnQODRBSDT9WbF4dZmfrOsvvvhHmIAnroCkyFmmhlc_YQyC/s1600/gemini-cyber-flash.jpg"
+    },
     {
       "id": "daf110021c23e7ffd4df79e80216e32c49df62c3",
       "title": "Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC",
@@ -175,15 +208,125 @@
       "imageUrl": "https://ic-cdn.flipboard.com/20min.ch/11b2f3c9d8ae6e9eafa53b4d97f41b8b310c7b0b/_xlarge.jpeg"
     },
     {
-      "id": "b60c955debe653850c7933fcd7bb41c26181f4ef",
-      "title": "Si vous utilisez ce logiciel, une simple ouverture de fichier peut suffire à vous pirater",
-      "url": "https://www.journaldugeek.com/2026/07/21/si-vous-utilisez-ce-logiciel-une-simple-ouverture-de-fichier-peut-suffire-a-vous-pirater/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-21T12:01:26.000Z",
-      "summary": "Le logiciel de décompression 7-Zip a une faille de sécurité qui peut mener au piratage de votre PC si vous ne faites rien.",
-      "type": "NEWS",
+      "id": "f082896f386f5254e30e0e995bc3f86ae37ad734",
+      "title": "Tycon Systems TPDIN-Monitor-WEB2",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-01",
+      "source": "CISA",
+      "publishedAt": "2026-07-21T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-202-01.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "type": "CVE",
       "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/journaldugeek.com/7b1bb3e2568731a3a329c75bfd35e728d270c5fe/_xlarge.jpeg"
+      "imageUrl": null
+    },
+    {
+      "id": "efd5f5f60bb1686fdc10ff119c43e1a32d745219",
+      "title": "Siemens SIDIS Secured SmartPlug",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-04",
+      "source": "CISA",
+      "publishedAt": "2026-07-21T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-202-04.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "786a6fb8c1e7f7d1ff780a6058bff7a4f2ef94b7",
+      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/07/21/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+      "source": "CISA",
+      "publishedAt": "2026-07-21T12:00:00.000Z",
+      "summary": "&lt;p&gt;CISA has added four new vulnerabilities to its &lt;a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"&gt;Known Exploited Vulnerabilities (KEV) Catalog&l",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": null
+    },
+    {
+      "id": "41cf9b4c3c6f95ebdbb4fcb3bcb0f745aed87dc2",
+      "title": "Siemens IAM Client",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-05",
+      "source": "CISA",
+      "publishedAt": "2026-07-21T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-202-05.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "6c9e422ee68b97a63bae16b877962dbfdfda5adb",
+      "title": "Siemens RUGGEDCOM APE1808 with Palo Alto Networks Virtual NGFW",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-02",
+      "source": "CISA",
+      "publishedAt": "2026-07-21T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-202-02.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "b8a1fcb66afbafdf13581a168516bbdf287c8a21",
+      "title": "Rockwell Automation 1734 POINT I/O",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-09",
+      "source": "CISA",
+      "publishedAt": "2026-07-21T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-202-09.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "925bcdbe35a173b56451c4c855bf9213ca946ae8",
+      "title": "Rockwell Automation 1718-AENTR/1719-AENTR",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-08",
+      "source": "CISA",
+      "publishedAt": "2026-07-21T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-202-08.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "e538b2b0087712b1bac71cb896595423b1b98843",
+      "title": "Rockwell Automation Studio 5000 Logix Designer",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-10",
+      "source": "CISA",
+      "publishedAt": "2026-07-21T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-202-10.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "e876c2cf9ce458615f3c5a19d458240e1f076967",
+      "title": "Siemens CADRA",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-06",
+      "source": "CISA",
+      "publishedAt": "2026-07-21T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-202-06.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "bd28a3c145580bdca80a2140681a89157dfcd56b",
+      "title": "Rockwell Automation FactoryTalk Services Platform",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-07",
+      "source": "CISA",
+      "publishedAt": "2026-07-21T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-202-07.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "da3a784505fe2aa50d80fdcbb0640de86f28f0e3",
+      "title": "Siemens Opcenter X",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-03",
+      "source": "CISA",
+      "publishedAt": "2026-07-21T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-202-03.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
     },
     {
       "id": "6a9994c2667b8962c5b95d743cb94932fd876575",
@@ -261,17 +404,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://www.zataz.com/wp-content/uploads/coinbase_cartel_cater.jpg"
-    },
-    {
-      "id": "3eef92e96fdef274d8b823cfc4eabcfab271a68e",
-      "title": "Le site du Rassemblement national piraté avec une potentielle fuite de données de certains de ses candidats",
-      "url": "https://www.leparisien.fr/politique/le-site-du-rassemblement-national-pirate-avec-une-potentielle-fuite-de-donnees-de-certains-de-ses-candidats-21-07-2026-IS6QNJUT7RCZDHJIDEVGVNUI7E.php?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-21T10:20:18.000Z",
-      "summary": "Le parti de Marine Le Pen confirme une intrusion mais dément pour le moment tout vol d’informations personnelles malgré un dépôt de plainte. La tête …",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://www.leparisien.fr/resizer/Nq0Eud_SnAmS3V2Wcqg0xpBiLPE=/1600x900/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/OM5Y3J4GRVF7HPEHPXZ6HEKOEQ.jpg"
     },
     {
       "id": "39b6d13163d35dbc2f3852ad571ea0b8b8028a66",
@@ -635,6 +767,17 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyO5FC_n2BBZmiHphtqs0UN5r3DPgtRvkrVfaHOW-1Fv2VPXZliRYDryKR5I-vdZxtmChQJB6eAlJsND-e47t5lLQQ4SWkSJ_D02SEL6nRBmnJ-klfjSSg7rjRyf5AfzX340_se2vNrobCydtV-NZPsDm8MvL9UG0atiMekaxCNzHwizxZFlRhvpuM8BjE/s1600/gemini-cc.jpg"
+    },
+    {
+      "id": "2bf427238db4d8efdcb129490ffaedfcef197d1a",
+      "title": "Alerte rouge sur WordPress : deux failles permettent de pirater des millions de sites",
+      "url": "https://www.01net.com/actualites/alerte-rouge-wordpress-deux-failles-permettent-pirater-millions-sites.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-20T08:28:53.000Z",
+      "summary": "WordPress fait face à une vulnérabilité critique. Baptisée « wp2shell », elle touche directement le cœur du CMS open source et permet à un simple …",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/c1664acada309aa8a7dd7c27744abd5dbafd4637/_xlarge.jpeg"
     },
     {
       "id": "751cdbc2fc317bf2b0397fe34863ad7eed3e2f14",
@@ -1275,6 +1418,39 @@
       "imageUrl": "https://ic-cdn.flipboard.com/phonandroid.com/3d25320766bf3f051e81a599e19e4bbf3fad843d/_xlarge.jpeg"
     },
     {
+      "id": "6564b09e454e59454405be36a9ad415e8fe15b1a",
+      "title": "AutomationDirect Productivity Suite",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-04",
+      "source": "CISA",
+      "publishedAt": "2026-07-16T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-197-04.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "63b1757e5fcee2998f956e78bdcab196b9b2c515",
+      "title": "Rockwell Automation Flex 5000 Adapter",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-08",
+      "source": "CISA",
+      "publishedAt": "2026-07-16T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-197-08.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "073ce487df7cebd342e158d1369027748d4be035",
+      "title": "Rockwell Automation 1756-EN2, 1756-EN3, and 1756-ENBT",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-02",
+      "source": "CISA",
+      "publishedAt": "2026-07-16T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-197-02.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
       "id": "a59937cd9547ebfe22e094ed47cba815027de64a",
       "title": "Rockwell Automation CompactLogix, ControlLogix, Compact GuardLogix and GuardLogix",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-06",
@@ -1319,12 +1495,12 @@
       "imageUrl": null
     },
     {
-      "id": "073ce487df7cebd342e158d1369027748d4be035",
-      "title": "Rockwell Automation 1756-EN2, 1756-EN3, and 1756-ENBT",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-02",
+      "id": "7c411450d7b2fd995d47f659dc7b1f6beba24589",
+      "title": "NASA Core Flight System (cFS) Health &amp; Safety (HS) Application",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-03",
       "source": "CISA",
       "publishedAt": "2026-07-16T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-197-02.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-197-03.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1347,39 +1523,6 @@
       "source": "CISA",
       "publishedAt": "2026-07-16T12:00:00.000Z",
       "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-197-01.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "6564b09e454e59454405be36a9ad415e8fe15b1a",
-      "title": "AutomationDirect Productivity Suite",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-04",
-      "source": "CISA",
-      "publishedAt": "2026-07-16T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-197-04.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "63b1757e5fcee2998f956e78bdcab196b9b2c515",
-      "title": "Rockwell Automation Flex 5000 Adapter",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-08",
-      "source": "CISA",
-      "publishedAt": "2026-07-16T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-197-08.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "7c411450d7b2fd995d47f659dc7b1f6beba24589",
-      "title": "NASA Core Flight System (cFS) Health &amp; Safety (HS) Application",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-03",
-      "source": "CISA",
-      "publishedAt": "2026-07-16T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-197-03.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1638,17 +1781,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwz558IbCLKi1RAJRcX_tLnJrGR3xjXSXfBJHnREqKc0aTs9Ie67rKN6xRHDV4g6JNByEH5Vr-x-14HOK8dSKj_B6HFn303OMiFrpr2wHf9PNUONqlUPn8IdMzr9QoZB9uWq14ElryYTydVAUXNeCARv-cN7KMmmwfb9FpMw_NCDIk8faF6QlSboXey08/s1600/seed.jpg"
     },
     {
-      "id": "8f29bbd84d12d4dba8945a21b383f37b76779ebd",
-      "title": "Firefox, Chrome, Adobe, and VMware Updates Fix Multiple Critical Security Flaws",
-      "url": "https://thehackernews.com/2026/07/firefox-chrome-adobe-and-vmware-updates.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-15T13:18:53.000Z",
-      "summary": "Mozilla has released updates to address two critical flaws in Firefox for which it warned that exploit code has been published. The vulnerabilities are listed below - CVE-2026-1571",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMjCjGBZhkRcB4m5BQu0Fcn-Qjs1_VPnfOlt3oFxu7CKMZ5Wc1JpvZEvhVSorBJW-AWV1pACLDkg4rFmCCcdH6vDk-pmD5ai0ZewlmPyeWPnfsmTcg-D3UJXdT902oUD32DjSm5CrBsnf2rcVTQPUo5o-LJRKUlsjOwPNfYMpN7kOfmNhnyw552cv-Gtqk/s1600/adobes.jpg"
-    },
-    {
       "id": "a125ad567db00f26b673895a6d15d377d90382b5",
       "title": "Establishing a Coordinated Vulnerability Disclosure Program to Work With Security Researchers",
       "url": "https://www.cisa.gov/resources-tools/resources/establishing-coordinated-vulnerability-disclosure-program-work-security-researchers",
@@ -1669,17 +1801,6 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": null
-    },
-    {
-      "id": "c64e12d58b6259801457b115f9ba4810420e3712",
-      "title": "SASE Has An AI Blind Spot. Inspecting Packets Is No Longer Enough.",
-      "url": "https://thehackernews.com/2026/07/sase-has-ai-blind-spot-inspecting.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-15T11:50:01.000Z",
-      "summary": "For years, routing traffic through cloud proxies was good enough. Then work moved to the browser, AI entered the workflow, and the inspection model stopped keeping up. Enterprise w",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy5qXcxZFGTQiQ1Sb-SHAyKnjOmjdz1fA1FEFMLTVXd7Xcyr9aSptzafuOwTnzCkzHCqZCOV-z_tPKKeoeS6Rd2kYWtAL_IWTRXFaZkr8V371LH2Rbq0JHlLwCbkuhO_D-hRv73LHSQgEW9tfI9Oxj9jmh9ROMZLOAZFZztDH1qzHvO2uc7EO6AlxPh8Cl/s1600/island.jpg"
     },
     {
       "id": "6e96241224e5cf983b89d710ecbab7ee0da05fca",
@@ -2012,6 +2133,17 @@
       "imageUrl": "https://ic-cdn.flipboard.com/sciencepost.fr/2c88a66b9a5c1ca28a2ef50bd080163ae567a486/_xlarge.jpeg"
     },
     {
+      "id": "ef2baaaaa23f52160115d9c929f9bae81ebbed76",
+      "title": "Rockwell Automation 1715-AENTR EtherNet/IP Adapter",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-04",
+      "source": "CISA",
+      "publishedAt": "2026-07-14T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-195-04.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
       "id": "37d20a51e3e885851b4dc6c9439bc1fc9d20ea52",
       "title": "ABB Advant Master Online Builder",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-01",
@@ -2023,12 +2155,12 @@
       "imageUrl": null
     },
     {
-      "id": "ef2baaaaa23f52160115d9c929f9bae81ebbed76",
-      "title": "Rockwell Automation 1715-AENTR EtherNet/IP Adapter",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-04",
+      "id": "f0c1c206df2345141884784783b3269d357e9fe1",
+      "title": "ABB T-MAC Plus",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-03",
       "source": "CISA",
       "publishedAt": "2026-07-14T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-195-04.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-195-03.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -2053,17 +2185,6 @@
       "summary": "&lt;p&gt;&lt;strong&gt;Update July 16, 2026&lt;/strong&gt;:&amp;nbsp;&lt;/p&gt; &lt;p&gt;&lt;em&gt;CISA has updated this Alert to reflect the addition of CVE-2026-58644 to its Know",
       "type": "CVE",
       "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "f0c1c206df2345141884784783b3269d357e9fe1",
-      "title": "ABB T-MAC Plus",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-03",
-      "source": "CISA",
-      "publishedAt": "2026-07-14T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-195-03.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Info",
       "imageUrl": null
     },
     {
@@ -2098,17 +2219,6 @@
       "type": "LEAK",
       "severity": "Info",
       "imageUrl": "https://krebsonsecurity.com/wp-content/uploads/2026/05/CISA-logo.png"
-    },
-    {
-      "id": "8dc0fd6bf166231aed940d3d3ec00d85dcbccb59",
-      "title": "Improve Router Hygiene to Protect Against Russian State-Sponsored Targeting",
-      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-194a",
-      "source": "CISA",
-      "publishedAt": "2026-07-13T12:00:00.000Z",
-      "summary": "&lt;p&gt;Russian Government-Sponsored Activity Targets Poorly Configured and Vulnerable Devices Across Critical Sectors&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;Executive summary&lt;/stro",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
     },
     {
       "id": "ee8d0d06b4a7824c94c136ec5dc268d32ed898fa",
@@ -2163,116 +2273,6 @@
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans plusieurs &lt;strong&gt;points d'entrée de l'API&lt;/strong&gt; de Grafana, dont certains sont accessibles &lt;strong&gt;sans authentifi",
       "type": "CVE",
       "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "4e0ed7103f8a219eaa8bdc23fa06edcacecdede4",
-      "title": "Red Hat - CVE-2026-15378",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/red-hat-cve-2026-15378-2026-07-13",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-07-13T02:05:48.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le &lt;strong&gt;traitement des schémas XML (XSD)&lt;/strong&gt; fournis par l'utilisateur au sein du composant guardrails-detectors.&lt",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "70fa0a56664436a636c4d25507f69322309452ba",
-      "title": "Glendale Community College - 793,925 breached accounts",
-      "url": "https://haveibeenpwned.com/Breach/GlendaleCommunityCollege",
-      "source": "Have I Been Pwned",
-      "publishedAt": "2026-07-11T10:40:09.000Z",
-      "summary": "In June 2026, &lt;a href=\"https://x.com/DarkWebInformer/status/2066611727106715692\" target=\"_blank\" rel=\"noopener\"&gt;Glendale Community College was the target of a ShinyHunters \"p",
-      "type": "LEAK",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "f528abeaaa7e54757f54a0d04a40bbc9c6489aa4",
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/07/10/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "source": "CISA",
-      "publishedAt": "2026-07-10T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA has added two new vulnerabilities to its &lt;a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": null
-    },
-    {
-      "id": "9fab1fa8d9b2453b06837ffe7dc20e11f403e5f8",
-      "title": "n8n - CVE-2026-59257",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/n8n-cve-2026-59257-2026-07-10",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-07-10T03:40:09.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans l'opération &lt;strong&gt;executeQuery&lt;/strong&gt; du nœud &lt;strong&gt;MySQL v1&lt;/strong&gt;, une version historique désormais dé",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "6da604b2f7bd275f712d246ee8e8636a5c3f4140",
-      "title": "Foxit - CVE-2026-57240",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/foxit-cve-2026-57240-2026-07-10",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-07-10T03:38:30.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de type &lt;strong&gt;use-after-free&lt;/strong&gt; déclenchée lors de l'ouverture d'un fichier PDF contenant du &lt;strong&gt;JavaScript emb",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "64dd05f83dd0a98eac767452ccf73f48ee694784",
-      "title": "Juniper Networks - CVE-2026-57023",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/juniper-networks-cve-2026-57023-2026-07-10",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-07-10T03:35:55.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;validation insuffisante d'une quantité spécifiée en entrée&lt;/strong&gt; au sein du &lt;strong&gt;plugin TCP proxy&lt;/stro",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "27aaced962f66d4d781276bf552da0a554f5b890",
-      "title": "Symfony - CVE-2026-55878",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/symfony-cve-2026-55878-2026-07-10",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-07-10T03:33:28.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans la commande &lt;strong&gt;ux:install&lt;/strong&gt;, qui installe les fichiers d'un kit de recette en copiant les chemins listés dans un",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "bfaff681bb7ac5b9fadb47965197bcb7f4ccd8c6",
-      "title": "Palo Alto Networks - CVE-2026-0288",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/palo-alto-networks-cve-2026-0288-2026-07-10",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-07-10T03:31:57.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de type &lt;strong&gt;dépassement de tampon&lt;/strong&gt; (buffer overflow) affectant le composant &lt;strong&gt;User-ID Terminal Server Age",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "c99114949b9e5e9529dbe0e8af6cb59bd4b714f0",
-      "title": "OpenPLC v3",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-01",
-      "source": "CISA",
-      "publishedAt": "2026-07-09T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-190-01.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "899b0dc823398140ef2fd03630a499a62a6a9c57",
-      "title": "Schneider Electric Easergy MiCOM Px40 Series",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-03",
-      "source": "CISA",
-      "publishedAt": "2026-07-09T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-190-03.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
-      "type": "CVE",
-      "severity": "Info",
       "imageUrl": null
     }
   ]
