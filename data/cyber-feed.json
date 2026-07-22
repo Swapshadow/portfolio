@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T14:00:52.469Z",
+  "generatedAt": "2026-07-22T17:22:13.542Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,7 +17,7 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 109
+      "items": 112
     },
     {
       "name": "Exploit-DB",
@@ -76,6 +76,39 @@
   ],
   "items": [
     {
+      "id": "a680e8f7102757be9c8257eff6d3beeb45f6420c",
+      "title": "Cyberattaque. OpenAI reconnaît que ses modèles d’IA ont piraté d’eux-mêmes une entreprise",
+      "url": "https://www.courrierinternational.com/article/cyberattaque-openai-reconnait-que-ses-modeles-d-ia-ont-pirate-d-eux-memes-une-entreprise_251868?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-22T15:39:41.000Z",
+      "summary": "Des modèles d’intelligence artificielle en phase d’évaluation sont parvenus à sortir de leur “bac à sable” pour s’infiltrer sans autorisation et de …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/courrierinternational.com/99f64dadbb9d26dc5195e2d8343a961188916486/_xlarge.jpeg"
+    },
+    {
+      "id": "0e30a96bf7f424d6ff20241fcbdda0893cdcd982",
+      "title": "Cyberattaque à Drancy : les services municipaux perturbés, des fuites de données « probables »",
+      "url": "https://www.lejournaltoulousain.fr/ile-de-france/seine-saint-denis/cyberattaque-drancy-services-municipaux-perturbes-fuites-donnees-probables-392892/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-22T14:35:00.000Z",
+      "summary": "La Ville de Drancy a été victime d’une cyberattaque par ransomware début juillet. Les services municipaux vont rester fortement perturbés pendant …",
+      "type": "LEAK",
+      "severity": "Critique",
+      "imageUrl": "https://www.lejournaltoulousain.fr/wp-content/uploads/2026/07/Cyberattaque.jpg"
+    },
+    {
+      "id": "61c295c6f04b2fc40573c93b6cdb705970e594bb",
+      "title": "OpenAI alerte : ses agents IA autonomes ont piraté une plateforme",
+      "url": "https://www.sciencesetavenir.fr/fondamental/openai-fait-etat-d-un-piratage-sans-precedent-d-une-plateforme-par-ses-agents-d-ia_193891?xtor=RSS-10",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-22T13:42:23.000Z",
+      "summary": "Des modèles avancés d’OpenAI se sont emballés lors de tests de sécurité en piratant de leur propre initiative la plateforme Hugging Face. Un incident …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/sciencesetavenir.fr/6ba04585c583e7999c6dc466f61eb35ee7cb1114/_xlarge.jpeg"
+    },
+    {
       "id": "cf8b49d847e636a754463c8874dbb2b2bf7bdc29",
       "title": "En Corée du Sud, un vaste piratage informatique frappe le ministère des Affaires étrangères",
       "url": "https://www.rfi.fr/fr/asie-pacifique/20260722-en-cor%C3%A9e-du-sud-un-vaste-piratage-informatique-frappe-le-minist%C3%A8re-des-affaires-%C3%A9trang%C3%A8res?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -109,6 +142,17 @@
       "imageUrl": "https://ic-cdn.flipboard.com/courrierinternational.com/14841283be739e754f5e360b1088e038f6053dd5/_xlarge.jpeg"
     },
     {
+      "id": "a948d26c2145be876bc0759939022d819b1113d8",
+      "title": "Des modèles d’IA d’OpenAI se sont échappés d’un environnement de test et ont piraté la plateforme Hugging Face : une première cyberattaque autonome qui inquiète les experts",
+      "url": "https://www.presse-citron.net/modeles-dia-dopenai-echappes-environnement-test-pirate-plateforme-hugging-face-premiere-cyberattaque-autonome-inquiete-les-experts/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-22T12:02:55.000Z",
+      "summary": "Lors d'un test en interne qui a mal tourné, deux modèles d'IA sur lesquels travaillaient OpenAI ont réussi à s'affranchir de leur confinement pour …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/presse-citron.net/6d39bde7d732204f7146cb5fb2b63cfd5bcae891/_xlarge.jpeg"
+    },
+    {
       "id": "95460e714985627d4af5d0afd16cb6e8b01be85b",
       "title": "The Fastest Path to AI Adoption Runs Through Security",
       "url": "https://thehackernews.com/2026/07/the-fastest-path-to-ai-adoption-runs.html",
@@ -140,28 +184,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgA_BCT5VYzHAi2ZYmYF84NAe3JitSR-U0uk4JZeuJf-hgHgwMXRj1_44z0DfwmtHqFZMxeEYGHR4AlvuIe-_4oAGvQlVnCm9peV1-H0nZ__XbPIcKlz_7RxoPuR7C2IMBZ7B27ABzkk9Zv08DOaKAefwt72n8H0WBP8Z8TBajQwEzBt10hFwE3-70o0A5V/s1600/corelight.jpg"
-    },
-    {
-      "id": "24d8c052a479844b60d2b2e4414b1f8b097465ad",
-      "title": "Piratage informatique du site du Rassemblement national : le parti déclare « une intrusion », pas de fuite massive de données confirmée",
-      "url": "https://news.gentside.com/news/piratage-informatique-du-site-du-rassemblement-national-le-parti-declare-une-intrusion-pas-de-fuite-massive-de-donnees-confirmee_art126505.html?amp%3Butm_medium=syndication&amp%3Butm_campaign=flux",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-22T11:00:00.000Z",
-      "summary": "Le Rassemblement national (RN) a signalé avoir subi une attaque informatique affectant son site officiel dans la nuit du 20 au 21 juillet 2026. …",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://news.gentside.com/sites/websites_frgts/files/styles/1200x675/public/article/news/piratage-informatique-du-site-du-rassemblement-national-le-parti-declare-une-intrusion-pas-de-fuite_1.webp?itok=Vt9qAmd_"
-    },
-    {
-      "id": "101c0374027518ebb17652c2d840b201b2e5ab6a",
-      "title": "Une rançon en bitcoins : Drancy visée par une cyberattaque, les données personnelles des habitants menacées ?",
-      "url": "https://actu.fr/ile-de-france/drancy_93029/une-rancon-en-bitcoins-drancy-visee-par-une-cyberattaque-les-donnees-personnelles-des-habitants-menacees_64569472.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-22T10:27:24.000Z",
-      "summary": "Après cette cyberattaque qui a touché la Ville de Drancy, le sort des données personnelles des habitants est incertain et certains services …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://static.actu.fr/uploads/2025/12/ordinateur-alerte-installation-logiciel-antivirus-informatique.jpeg"
     },
     {
       "id": "47f108d1c66a033275a2aeaff77e5448b1e8a51c",
@@ -208,6 +230,17 @@
       "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/1fda92d100ec4a3744dda615e69378b3e13e237d/_xlarge.jpeg"
     },
     {
+      "id": "d2499ea064c41e7351023852d77e359ea9700817",
+      "title": "Site du RN piraté : Jean-Philippe Tanguy affirme que les données des adhérents et des candidats n’ont pas été « exposées »",
+      "url": "https://www.leparisien.fr/politique/site-du-rn-pirate-jean-philippe-tanguy-affirme-que-les-donnees-des-adherents-et-des-candidats-nont-pas-ete-exposees-22-07-2026-UYVHUWCKMVCWNBWSXEFNAFMODY.php?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-22T08:31:04.000Z",
+      "summary": "Invité de France 2 ce mercredi, le député Rassemblement national a appelé l’État à mettre davantage de moyens pour contrer les attaques informatiques. …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.leparisien.fr/resizer/yRbr6-wAp6XQHJJYylAZV0Eg4Ts=/1600x900/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/ENXSSOZLAZDBRAF2UXIFA3ABAE.jpg"
+    },
+    {
       "id": "9713cc5b656cae5cd1937e666db7aa01ef56e31b",
       "title": "OpenAI a perdu le contrôle de deux IA : elles ont lancé une cyberattaque « sans précédent »",
       "url": "https://www.01net.com/actualites/openai-perdu-controle-deux-ia-lance-cyberattaque-sans-precedent.html?amp%3Butm_content=topic%2Ffr-technologie",
@@ -217,17 +250,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/01net.com/43868608f3d89be597b2cf91c56f8096940f8005/_xlarge.jpeg"
-    },
-    {
-      "id": "a67451c86f72ec12b828a3f08a0c3135f13b3fa6",
-      "title": "Un piratage «sans précédent» : OpenAI affirme que ses modèles IA ont mené une cyberattaque de leur propre initiative",
-      "url": "https://www.lefigaro.fr/secteur/high-tech/un-piratage-sans-precedent-openai-affirme-que-ses-modeles-ia-ont-mene-une-cyberattaque-de-leur-propre-initiative-20260722?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-22T07:14:59.000Z",
-      "summary": "Lors de tests de sécurité en environnement contrôlé, des modèles avancés de la start-up à l’origine de ChatGPT ont réussi à se connecter à internet …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://i.f1g.fr/media/cms/1200x630_crop/2026/07/22/27eb095a456687dc64d1106759be028ca585f42703c418ddfc2ca68d9d3c79a5.JPG"
     },
     {
       "id": "a90a396a8597bd64b10ac9a89204eea3eca93e42",
@@ -263,6 +285,17 @@
       "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/c9749debc55370372f68f46d880b80a45f182bee/_xlarge.jpeg"
     },
     {
+      "id": "f054822e0f8b33737791f2c68ef285349299397d",
+      "title": "Après deux piratages visant le Rassemblement national, la cybersécurité s’invite dans la campagne présidentielle - ZDNET",
+      "url": "https://www.zdnet.fr/actualites/apres-deux-piratages-visant-le-rassemblement-national-la-cybersecurite-sinvite-dans-la-campagne-presidentielle-498902.htm",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-22T05:07:37.000Z",
+      "summary": "Le parti d’extrême-droite a vu son site internet défacé et le compte X de sa candidate détourné pour la promotion d’un jeton crypto. Les questions de …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2025/06/nahel-abdul-hadi-flha0kwrrrc-unsplash-scaled.jpg"
+    },
+    {
       "id": "14ba1ff90b8af4641527b16f8403f6efe2424b00",
       "title": "Microsoft Azure DevOps MCP Flaw Lets Hidden PR Comments Hijack AI Review Agents",
       "url": "https://thehackernews.com/2026/07/microsoft-azure-devops-mcp-flaw-lets.html",
@@ -283,6 +316,39 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/rfi.fr/e6353443668ea199f717ce168a73ac06ee5125c2/_xlarge.jpeg"
+    },
+    {
+      "id": "515300363e1547a760195ec93889ca2710da2359",
+      "title": "Tenable - CVE-2026-64878",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/tenable-cve-2026-64878-2026-07-22",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-22T02:14:30.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité d'&lt;strong&gt;injection de commandes système&lt;/strong&gt; (&lt;strong&gt;OS Command Injection - CWE-78&lt;/strong&gt;) dans &lt;strong&gt",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "fff53a2476ebfe7ddf590df1000d2c2da9b82588",
+      "title": "Oracle - CVE-2026-61211",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/oracle-cve-2026-61211-2026-07-22",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-22T02:11:11.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité critique dans le moteur &lt;strong&gt;RDBMS d'Oracle Database Server&lt;/strong&gt;, au niveau du package PL/SQL &lt;strong&gt;DBMS_CLOUD&lt;",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "6d31f45f5f799b1bff86a9df4efa941c8fbc641e",
+      "title": "DHIS2 - CVE-2026-55084",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/dhis2-cve-2026-55084-2026-07-22",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-22T02:02:42.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité d'injection SQL (CWE-89 - Improper Neutralization of Special Elements used in an SQL Command) au sein de l'application &lt;strong&gt;DHIS2&lt",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
     },
     {
       "id": "be4b5857ccb1d01c78dd8805a3bf7d741a71ac7a",
@@ -316,6 +382,72 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://krebsonsecurity.com/wp-content/uploads/2026/07/smarttv-proxysdks.png"
+    },
+    {
+      "id": "e03d0c826f0f358b1c3bfaed9d6029b3af8a9e07",
+      "title": "Multiples vulnérabilités dans GLPI (22 juillet 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0909/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-07-22T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans GLPI. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité de",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "cb906300e2e7d0e7ef4341313bb934a3bc95b4ee",
+      "title": "Multiples vulnérabilités dans Google Chrome (22 juillet 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0907/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-07-22T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "bdf9624e3b7a6898cd436e7c2a7ca94b9853a888",
+      "title": "Multiples vulnérabilités dans les produits HPE Aruba Networking (22 juillet 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0908/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-07-22T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits HPE Aruba Networking. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "ded9e17df18ddb021e3db474a283ac74780bff0c",
+      "title": "Multiples vulnérabilités dans les produits Mozilla (22 juillet 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0910/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-07-22T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distanc",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "13f2d46b049c400f0a0e12e553511fc30f6002d4",
+      "title": "Multiples vulnérabilités dans les produits Elastic (22 juillet 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0906/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-07-22T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Elastic. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteint",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "7840eae1617420606db4cf0cb7af93fbe38e0c83",
+      "title": "Multiples vulnérabilités dans Microsoft Sharepoint (22 juillet 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-008/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-07-22T00:00:00.000Z",
+      "summary": "Le 14 juillet 2026, à l'occasion de sa mise à jour mensuelle, Microsoft a publié, entre autres, des correctifs pour deux vulnérabilités critiques affectant SharePoint. Les vulnérab",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
     },
     {
       "id": "152bcd347d95df368f6b7418ba32de3c94056d38",
@@ -362,9 +494,9 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJfMUQ_pVP5as41uM_4cR8oRUsCwuXPMLLG63jNd5Djqso9kJyQZLiZgQrMQzykhRaX8BQCydIMPokGoITYY30kc3dH-8iy4Bd-ux36RoIjyNYXtKwb1F1fPdP00hoHD-9Q9s5CGD30w58s5wfyzBGOQvnIxM8JlHkig881HSQQuu4Hk6GBiDJicUYE8o/s1600/AWS-Kiro.jpg"
     },
     {
-      "id": "1ca5f8b54d9863532878b30307bd7d370887d7e7",
+      "id": "69d1454d20af5bb2d262c2ecd4861ce37f42e44e",
       "title": "La tête de Marine Le Pen remplacée par un chat sur le site du Rassemblement national",
-      "url": "https://www.ouest-france.fr/politique/marine-le-pen/la-tete-de-marine-le-pen-remplacee-par-un-chat-sur-le-site-du-rassemblement-national-78068c9c-8517-11f1-a762-b8ec18c1787d?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "url": "https://www.ouest-france.fr/politique/marine-le-pen/la-tete-de-marine-le-pen-remplacee-par-un-chat-sur-le-site-du-rassemblement-national-78068c9c-8517-11f1-a762-b8ec18c1787d?amp%3Butm_content=topic%2Ffr-politiqueenfrance",
       "source": "Cybercriminalité FR",
       "publishedAt": "2026-07-21T15:26:26.000Z",
       "summary": "Le site internet du RN et le compte X de Marine Le Pen ont été la cible de hackers. À huit mois de la présidentielle, le Rassemblement national a été …",
@@ -637,17 +769,6 @@
       "imageUrl": "https://www.zataz.com/wp-content/uploads/coinbase_cartel_cater.jpg"
     },
     {
-      "id": "39b6d13163d35dbc2f3852ad571ea0b8b8028a66",
-      "title": "Le Rassemblement national visé par un piratage informatique, le parti annonce qu’il va porter plainte",
-      "url": "https://www.ouest-france.fr/politique/rassemblement-national/le-rassemblement-national-vise-par-un-piratage-informatique-le-parti-annonce-quil-va-porter-plainte-6f070a68-84e5-11f1-94d8-e478b94a49e4?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-21T10:12:16.000Z",
-      "summary": "Le Rassemblement national (RN) a été victime d’une attaque informatique ce mardi 21 juillet. Dans un communiqué, le parti assure qu’aucun « élément …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/a53c5349e26f05d7035f516788a36a7aa3dd8df8/_xlarge.jpeg"
-    },
-    {
       "id": "2f05483227a276e3de4b8c7db76753743090986e",
       "title": "Une usurpation cible les services communication",
       "url": "https://www.zataz.com/une-usurpation-cible-les-services-communication/",
@@ -734,17 +855,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/euronews.com/9786b0249fa226193cc335deca6be59fbb7b2932/_xlarge.jpeg"
-    },
-    {
-      "id": "55ec833e7ebb99a31c29ca3112fd8c892d030dd3",
-      "title": "\"L'escroc observe en temps réel\" : méfiez-vous, des cybercriminels utilisent FaceTime pour voler les informations bancaires de leurs victimes | TF1 Info",
-      "url": "https://www.tf1info.fr/societe/arnaque-l-escroc-observe-en-temps-reel-mefiez-vous-des-cybercriminels-utilisent-facetime-pour-voler-les-informations-bancaires-de-leurs-victimes-2454038.html?amp%3Butm_content=topic%2Ffr-%C3%A9conomie",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-21T07:00:00.000Z",
-      "summary": "Pour piéger de nouvelles victimes, les cybercriminels réussissent toujours à trouver de nouvelles astuces et de nouvelles approches. En effet, même …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://photos.tf1info.fr/images/1280/720/arnaque-double-click-jacking-bb88bd-0@1x.jpeg?overlayImage=bG9nby10ZjFpbmZvLWRlZmF1bHQucG5n&amp%3BoverlayWidth=18&amp%3BoverlayGravity=northwest&amp%3Bs=78c802"
     },
     {
       "id": "48a108eabaa0f2027f7dc5d4b0aec6372a275486",
@@ -1506,17 +1616,6 @@
       "imageUrl": null
     },
     {
-      "id": "d39958bba0e8e5ec2fe622e6e945f4969cc16183",
-      "title": "Prison ferme pour les deux jeunes surdoués du piratage qui « auraient pu paralyser complètement » les transports londoniens",
-      "url": "https://www.leparisien.fr/faits-divers/prison-ferme-pour-les-deux-jeunes-surdoues-du-piratage-qui-auraient-pu-paralyser-completement-les-transports-londoniens-16-07-2026-LSPRA3QANFH75KOGYPOALFUA6Y.php?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-16T21:40:52.000Z",
-      "summary": "Deux hackers britanniques ont été condamnés à de la prison ferme pour avoir infiltré les transports londoniens. Leur cyberattaque a causé 39 millions …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.leparisien.fr/resizer/MmUEM4t2cQtf71y_Y7S5YWPpERg=/1600x900/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/GXLVYXY4QFDCJKT6UNE2WWU7KU.jpg"
-    },
-    {
       "id": "2da8e9519e92369a632e93514dce1e4cff22c74d",
       "title": "Two Scattered Spider Hackers Get 5.5 Years Each for £29 Million TfL Hack",
       "url": "https://thehackernews.com/2026/07/two-scattered-spider-hackers-get-55.html",
@@ -1968,17 +2067,6 @@
       "imageUrl": null
     },
     {
-      "id": "b9c9dc830681ce1dfd32f338688d7e203b25d191",
-      "title": "Multiples vulnérabilités dans les produits Microsoft (15 juillet 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0872/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-07-15T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Microsoft. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à dista",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
       "id": "da2ccb69bb76b6a16dd5090047c772e0dd5febf8",
       "title": "Vulnérabilité dans Schneider Electric EcoStruxure (15 juillet 2026)",
       "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0881/",
@@ -1996,50 +2084,6 @@
       "source": "CERT-FR",
       "publishedAt": "2026-07-15T00:00:00.000Z",
       "summary": "De multiples vulnérabilités ont été découvertes dans Apache Tomcat. Elles permettent à un attaquant de provoquer un contournement de la politique de sécurité et un problème de sécu",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "5a9563a5cba54f965a3f6a4bd63ed76493dc674b",
-      "title": "Multiples vulnérabilités dans Microsoft Azure (15 juillet 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0871/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-07-15T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Azure. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de pri",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "9f753830c53d5b9ca7424e202c36beaa90ac9fe8",
-      "title": "Multiples vulnérabilités dans Google Chrome (15 juillet 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0874/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-07-15T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "ec42bcb1369a7f77c5eff52a7e75f4316ca2f8e3",
-      "title": "Multiples vulnérabilités dans Sonicwall Secure Mobile Access 1000 (15 juillet 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0875/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-07-15T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Sonicwall Secure Mobile Access 1000. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance e",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "1ddcfd6006bc612a1f53667a5fa26c098356f029",
-      "title": "Multiples vulnérabilités dans Microsoft Azure Linux (15 juillet 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0873/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-07-15T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Azure Linux. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -2227,50 +2271,6 @@
       "source": "CISA",
       "publishedAt": "2026-07-14T12:00:00.000Z",
       "summary": "&lt;p&gt;&lt;strong&gt;Update July 16, 2026&lt;/strong&gt;:&amp;nbsp;&lt;/p&gt; &lt;p&gt;&lt;em&gt;CISA has updated this Alert to reflect the addition of CVE-2026-58644 to its Know",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "f87ca89bfc9f1155b3d0880076fb9bb6519d307e",
-      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-      "source": "CISA",
-      "publishedAt": "2026-07-14T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA has added four new vulnerabilities to its &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities (KEV)",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": null
-    },
-    {
-      "id": "2210bf99d099a399b4e9c4e64534977db98b0977",
-      "title": "Lessons Learned from CISA&#8217;s Recent GitHub Leak",
-      "url": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
-      "source": "Krebs on Security",
-      "publishedAt": "2026-07-13T15:03:28.000Z",
-      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including ",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://krebsonsecurity.com/wp-content/uploads/2026/05/CISA-logo.png"
-    },
-    {
-      "id": "ee8d0d06b4a7824c94c136ec5dc268d32ed898fa",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/07/13/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "source": "CISA",
-      "publishedAt": "2026-07-13T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA has added one new vulnerability to its &lt;a href=&quot;https://edit.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities (KEV) C",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": null
-    },
-    {
-      "id": "adde25312564647c772107a8b1ac29cddb8b6039",
-      "title": "RabbitMQ - CVE-2026-57219",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/rabbitmq-cve-2026-57219-2026-07-13",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-07-13T02:11:21.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans un &lt;strong&gt;point d'entrée HTTP obsolète&lt;/strong&gt; de l'API de gestion de RabbitMQ, GET /api/auth.&lt;/p&gt; &lt;p&gt;RabbitMQ",
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": null
