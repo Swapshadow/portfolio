@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T10:26:53.681Z",
+  "generatedAt": "2026-07-22T14:00:52.469Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,7 +17,7 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 107
+      "items": 109
     },
     {
       "name": "Exploit-DB",
@@ -76,6 +76,105 @@
   ],
   "items": [
     {
+      "id": "cf8b49d847e636a754463c8874dbb2b2bf7bdc29",
+      "title": "En Corée du Sud, un vaste piratage informatique frappe le ministère des Affaires étrangères",
+      "url": "https://www.rfi.fr/fr/asie-pacifique/20260722-en-cor%C3%A9e-du-sud-un-vaste-piratage-informatique-frappe-le-minist%C3%A8re-des-affaires-%C3%A9trang%C3%A8res?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-22T12:52:17.000Z",
+      "summary": "En Corée du Sud, le ministère des Affaires étrangères a été la cible d'une attaque informatique d'une ampleur inédite. Un espionnage numérique resté invisible pendant près de dix m",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/rfi.fr/05af47eaa22165e6f5ce82607c4cbd2b7060b4ec/_xlarge.jpeg"
+    },
+    {
+      "id": "21b9f263d7c89c99a35f4df5e1b6124338a7acf3",
+      "title": "Hackers Exploit Windmill Flaw to Read Arbitrary Server Files Without Authentication",
+      "url": "https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-22T12:36:36.000Z",
+      "summary": "A high-severity security flaw impacting open-source developer platform Windmill has come under active exploitation in the wild, per VulnCheck. The vulnerability in question is CVE-",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgnFuvwtbu7JlyR-HJX7Eyz41wIZYMuzDLiZ1XlV2ipWOE-d2aPRZkYZn8nCWJynhewu3iTAR8H15UaKqmeAMkb85_m2NpSjRyaNlp6gTgKwswcVtwzjQ8A6pQXESU-AIwRUf6qUkeVDewHfGovPjgN0lKC2lHBb3dkSJGs3NYhmv5_QawPER0P4xFGpHf/s1600/git.jpg"
+    },
+    {
+      "id": "575cc876caeb29128dbc237260e668f0bb057c5c",
+      "title": "État civil. Le Ghana mise sur les titres d’identité biométriques pour limiter les fraudes",
+      "url": "https://www.courrierinternational.com/article/etat-civil-le-ghana-mise-sur-les-titres-d-identite-biometriques-pour-limiter-les-fraudes_251893?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-22T12:14:17.000Z",
+      "summary": "Le Ghana investit toujours plus pour généraliser l’utilisation de sa carte d’identité biométrique. Le 15 juillet, la réglementation concernant la …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/courrierinternational.com/14841283be739e754f5e360b1088e038f6053dd5/_xlarge.jpeg"
+    },
+    {
+      "id": "95460e714985627d4af5d0afd16cb6e8b01be85b",
+      "title": "The Fastest Path to AI Adoption Runs Through Security",
+      "url": "https://thehackernews.com/2026/07/the-fastest-path-to-ai-adoption-runs.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-22T11:58:00.000Z",
+      "summary": "Security leaders who build fast, visible paths to AI adoption are becoming the most valued partners in their organizations. AI governance done right gives security teams the visibi",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzhOo7Orml3Cc70jFGFxmIBeMgPE26To0_7N80uq7Ux9h7jIarD51mf18Ecq6bOfyaKpDTHp99pUmzrNECb2IklB0l0XdKjkszBLdhhgmw42OsYsqJQoxm74ci__fgn9n29j0YIr_HTlqT1-NyVyvbeB2t9pFRMVQT5GQlTMEOp-vkUFbha3SV-6cAXfYW/s1600/aa.jpg"
+    },
+    {
+      "id": "3637cb70eb1869e1f36e8fc6b352a07b7c0fb179",
+      "title": "OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark",
+      "url": "https://thehackernews.com/2026/07/openai-says-its-own-ai-models-escaped.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-22T11:30:02.000Z",
+      "summary": "OpenAI on Tuesday said a combination of its artificial intelligence (AI) models, including GPT-5.6 Sol and an \"even more capable pre-release model,\" was behind the security inciden",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQ67gB4XtAR4QxYNABuJhWfBIduFUT7TMSA0K2c9TXbTTwqdfMJwBb5busuLeMPlrljP3xuTUrhbMQxwctepF9oPtgJkqo-RAxN86O2t25jcjIHfs5A8SVvG3Y8WJJa4pqAp0UiTBzAPZtzSaNcNceJokt7ATaoq7GTXYJjbsxaQfTEs4cwdaOz4Fg72nG/s1600/openai.jpg"
+    },
+    {
+      "id": "09ddec9e45fc2f01ca4a8f688b7a161870410416",
+      "title": "Why Modern SOCs Need Multi-Layered Detections",
+      "url": "https://thehackernews.com/2026/07/why-modern-socs-need-multi-layered.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-22T11:25:35.000Z",
+      "summary": "The cycle is over. For years, cybersecurity followed a familiar pattern: defenses improved, attackers adapted, and the back-and-forth continued. Today, AI-equipped attackers are si",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgA_BCT5VYzHAi2ZYmYF84NAe3JitSR-U0uk4JZeuJf-hgHgwMXRj1_44z0DfwmtHqFZMxeEYGHR4AlvuIe-_4oAGvQlVnCm9peV1-H0nZ__XbPIcKlz_7RxoPuR7C2IMBZ7B27ABzkk9Zv08DOaKAefwt72n8H0WBP8Z8TBajQwEzBt10hFwE3-70o0A5V/s1600/corelight.jpg"
+    },
+    {
+      "id": "24d8c052a479844b60d2b2e4414b1f8b097465ad",
+      "title": "Piratage informatique du site du Rassemblement national : le parti déclare « une intrusion », pas de fuite massive de données confirmée",
+      "url": "https://news.gentside.com/news/piratage-informatique-du-site-du-rassemblement-national-le-parti-declare-une-intrusion-pas-de-fuite-massive-de-donnees-confirmee_art126505.html?amp%3Butm_medium=syndication&amp%3Butm_campaign=flux",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-22T11:00:00.000Z",
+      "summary": "Le Rassemblement national (RN) a signalé avoir subi une attaque informatique affectant son site officiel dans la nuit du 20 au 21 juillet 2026. …",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://news.gentside.com/sites/websites_frgts/files/styles/1200x675/public/article/news/piratage-informatique-du-site-du-rassemblement-national-le-parti-declare-une-intrusion-pas-de-fuite_1.webp?itok=Vt9qAmd_"
+    },
+    {
+      "id": "101c0374027518ebb17652c2d840b201b2e5ab6a",
+      "title": "Une rançon en bitcoins : Drancy visée par une cyberattaque, les données personnelles des habitants menacées ?",
+      "url": "https://actu.fr/ile-de-france/drancy_93029/une-rancon-en-bitcoins-drancy-visee-par-une-cyberattaque-les-donnees-personnelles-des-habitants-menacees_64569472.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-22T10:27:24.000Z",
+      "summary": "Après cette cyberattaque qui a touché la Ville de Drancy, le sort des données personnelles des habitants est incertain et certains services …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://static.actu.fr/uploads/2025/12/ordinateur-alerte-installation-logiciel-antivirus-informatique.jpeg"
+    },
+    {
+      "id": "47f108d1c66a033275a2aeaff77e5448b1e8a51c",
+      "title": "Fuite de données chez Free : 24 millions de contrats exposés, 42 millions d'amende",
+      "url": "https://www.lenouveleconomiste.fr/fuite-de-donnees-chez-free-24-millions-de-contrats-exposes-42-millions-damende-137304/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-22T10:20:14.000Z",
+      "summary": "La sanction est lourde. Le 13 janvier 2026, la Commission nationale de l'informatique et des libertés (CNIL) annonce deux décisions distinctes. Elles …",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://www.lenouveleconomiste.fr/wp-content/uploads/2024/05/solutions-collaboratives-adaptatives.jpg"
+    },
+    {
       "id": "3e7ffb525bc67267f6aa5dccabb8cfaa1a56fbde",
       "title": "Espionnage d'État : comment 581 systèmes SAP sont devenus la cible d'une campagne chinoise",
       "url": "https://www.journaldunet.com/cybersecurite/1552877-espionnage-d-etat-comment-581-systemes-sap-sont-devenus-la-cible-d-une-campagne-chinoise/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -87,17 +186,6 @@
       "imageUrl": "https://ic-cdn.flipboard.com/journaldunet.com/50d69d9be29cc3d52a9bfbacc927665e269958f2/_xlarge.jpeg"
     },
     {
-      "id": "99451448c90a5f14845f5325aed8155255e509e5",
-      "title": "La souveraineté numérique se construit, elle ne se décrète pas",
-      "url": "https://www.journaldunet.com/cybersecurite/1552867-la-souverainete-numerique-se-construit-elle-ne-se-decrete-pas/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-22T09:56:18.000Z",
-      "summary": "La souveraineté numérique change de nature. Elle ne se mesure plus au discours, mais à des preuves techniques vérifiables. Pendant des années, la …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/journaldunet.com/0b94c8fc30a269a78a6a115a638a9bfcb74d701a/_xlarge.jpeg"
-    },
-    {
       "id": "845f5c426752b45b105e4158381ce3bfae4e4966",
       "title": "Des modèles d’OpenAI sont sortis tout seuls de leur bac à sable pour attaquer Hugging Face",
       "url": "https://www.macg.co/intelligence-artificielle/2026/07/des-modeles-dopenai-sont-sortis-tout-seuls-de-leur-bac-sable-pour-attaquer-hugging-face-309907?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -107,17 +195,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://cdn.mgig.fr/2026/07/mga-75c76ed1-w375-w1500-w750_accroche.jpg"
-    },
-    {
-      "id": "4bd7deb65403e85573f3c5e190d241db97d036e4",
-      "title": "Kratos, roi du phishing et pire ennemi de la double authentification, a été démantelé par la police",
-      "url": "https://www.01net.com/actualites/kratos-roi-phishing-pire-ennemi-double-authentification-demantele-par-police.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-22T09:22:20.000Z",
-      "summary": "Une opération policière internationale a permis de démanteler Kratos, une plateforme de phishing-as-a-service de grande envergure. Massivement …",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/cef149052d73e95fe76730f37e4507fa876096a7/_xlarge.jpeg"
     },
     {
       "id": "6da622c734b2984901aa1261649499a9ced3ca5a",
@@ -197,17 +274,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyPnXNVcT-TTMj4bnJJGmkaK6DFi2Lr2KDvnQZiPIyboMvPfwGP-xlkXhEAq1-bY1fkI_eSiaMEY0JxhHvMYB5X_i_aDK04yiPGrSIk9cXL9P-9cwn2ftFhqCto-5dAxILlsZITCPhQ6Kf2h0_5Ly9YSvo5T2z8sNe5ZDPZxR-S-JslYxH-q9FoPUUJtA/s1600/inject.jpg"
     },
     {
-      "id": "3637cb70eb1869e1f36e8fc6b352a07b7c0fb179",
-      "title": "OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark",
-      "url": "https://thehackernews.com/2026/07/openai-says-its-own-ai-models-escaped.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-22T04:18:33.000Z",
-      "summary": "OpenAI on Tuesday said a combination of its artificial intelligence (AI) models, including GPT-5.6 Sol and an \"even more capable pre-release model,\" was behind the security inciden",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQ67gB4XtAR4QxYNABuJhWfBIduFUT7TMSA0K2c9TXbTTwqdfMJwBb5busuLeMPlrljP3xuTUrhbMQxwctepF9oPtgJkqo-RAxN86O2t25jcjIHfs5A8SVvG3Y8WJJa4pqAp0UiTBzAPZtzSaNcNceJokt7ATaoq7GTXYJjbsxaQfTEs4cwdaOz4Fg72nG/s1600/openai.jpg"
-    },
-    {
       "id": "04f0875c53604935d5b6384181129ed543ded04d",
       "title": "Cameroun: Georges-Gilbert Baongla, fils auto-proclamé de Paul Biya, arrêté",
       "url": "https://www.rfi.fr/fr/afrique/20260722-cameroun-georges-gilbert-baongla-fils-auto-proclam%C3%A9-de-paul-biya-arr%C3%AAt%C3%A9?utm_slink=rfi.my%2FCttr&amp%3Butm_source=flipboard&amp%3Butm_content=topic%2Ffr-technologie",
@@ -217,6 +283,28 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/rfi.fr/e6353443668ea199f717ce168a73ac06ee5125c2/_xlarge.jpeg"
+    },
+    {
+      "id": "be4b5857ccb1d01c78dd8805a3bf7d741a71ac7a",
+      "title": "SolarWinds - CVE-2026-28307",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/solarwinds-cve-2026-28307-2026-07-22",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-22T01:51:39.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité d'élévation de privilèges (CWE-269 - Improper Privilege Management) dans le produit &lt;strong&gt;SolarWinds Serv-U&lt;/strong&gt;.&lt;/p&gt;",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "0e324b014ea4500586d9fd6fcc8d837cd0cc9e2e",
+      "title": "Progress ShareFile - CVE-2026-15724",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/progress-sharefile-cve-2026-15724-2026-07-22",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-22T01:32:50.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de traversée de chemin (Path Traversal) dans le composant &lt;strong&gt;Progress ShareFile Storage Zones Controller (SZC)&lt;/strong&gt;.&lt;",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
     },
     {
       "id": "5b26fd4dcb9d0155c0b2375e5e2f38075af159d9",
@@ -1484,17 +1572,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4iNrh8DJbIsaAsGTCFlS4kGWAwdRNMghQm9-o8MV8X2txyJ4iTH1P4g7v5sdjuhw9dOeozn9Q6GenUi4wxBTw9uyoJ1D2j5WIcwCWuTk5XEVyGqjAg4jmP4kOEMp2qtd0BnPiVwrz2MJnTwaAnQP0jR3yCGvojGLQMOEc9syp00LKXIkbjUZrWqh0_GSe/s1600/macos-stealer.jpg"
     },
     {
-      "id": "c065fd879b6bd4d26fda04e1983740e64e766668",
-      "title": "Une grosse licence d'Ubisoft a leaké sur Nintendo Switch 2 dans une collection ultime",
-      "url": "https://www.gameblog.fr/jeu-video/ed/news/watch-dogs-leak-nintendo-switch-2-ubisoft-719282",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-16T12:32:23.000Z",
-      "summary": "La Nintendo Switch 2 devrait bientôt accueillir la collection complète d'une des plus grosses licences d'Ubisoft, tout a leaké à cause d'un gros …",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://cdn-uploads.gameblog.fr/img/news/534683_65ec4064e7569.jpg"
-    },
-    {
       "id": "6564b09e454e59454405be36a9ad415e8fe15b1a",
       "title": "AutomationDirect Productivity Suite",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-04",
@@ -1616,39 +1693,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgs_Ix6AmdT0f-NuPj2BLNRcSaOhWHf5pPdDuwR0eykvHCnOmoHUhq5Z2axM2GJX9gX5A3FlesfKuynGTsj012HNIJZURuZ8S7uCfa7_cSXIZDWC1donHjiQbkNr3jNLSq8B2PGpUG24fddwOaG2POjEQuvlrVEnp3yPa1F3tV2fpYDVQHEsaIHbnShUuQ/s1600/hacked.jpg"
     },
     {
-      "id": "337e330f151e1d11023614ff04fda26da2cd6608",
-      "title": "New Agent Data Injection Attack Can Make AI Agents Misclick or Run Attacker Commands",
-      "url": "https://thehackernews.com/2026/07/new-agent-data-injection-attack-can.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-16T11:32:28.000Z",
-      "summary": "Ask an AI agent to summarize the reviews on a product page, and a single planted review can make it click \"Buy Now\" instead. Ask a coding assistant to apply a maintainer's fix from",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiapJDNa0fN3WsyrkYjRiRo3L8tqmE_RJm9AmQV5KO9p5To-PBWdVz7EW294xtn-VZtJ2xS_scIq3LyqyxYkPG3R5TdJoPF_axjEaLpaXSqGHK_uO274wM315GEqHtnDAMIfFN2vZlcEYJ3Ca11Ml_E-l32H63EYNfx7l9ldtjNlH8hL_19w4RL6vDpOWMz/s1600/adi.jpg"
-    },
-    {
-      "id": "97c7ca30f124fb5c295a312ce21fd1a75ac9172b",
-      "title": "Daxin Resurfaces in Taiwan Alongside Stupig Pre-Login SYSTEM Backdoor",
-      "url": "https://thehackernews.com/2026/07/daxin-resurfaces-in-taiwan-alongside.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-16T11:17:23.000Z",
-      "summary": "An advanced malware previously attributed to a China-linked threat actor has resurfaced after more than four years within a Taiwan manufacturing firm, along with a previously unrep",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoN2-EflBc7bABKWw8GsIF_E9I7A9Ond88d-yFCAc6t850C9RGNxpGFAP3G9NichaP7JHa_BA-4bsMDNze5837hGCFGuAbyEHPVsxmQgMNS9A8e1jFL19Z1MVv9KOq0TX5ShDG46Xrv3MxH-vR3sQtEcDkH5OMxQQo11NXMKWRicC8T1OwTqw3ENoXEdIK/s1600/WINDOWS-malware.jpg"
-    },
-    {
-      "id": "0dec1fa81aecd27af4d19fd846b5ff400885b25a",
-      "title": "AI Can Find Bugs, But Human Knowledge Still Proves Them",
-      "url": "https://thehackernews.com/2026/07/ai-can-find-bugs-but-human-knowledge.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-16T10:10:00.000Z",
-      "summary": "Artificial intelligence (AI) is changing offensive security, but it has not changed the standard that matters most: a finding has to be proven before it becomes useful. AI-assisted",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfFHlEVhBtz6htSsevgYmwuQZHGlEXKK9eqiOqgiXJ587449tNZfWR9y74kC9MfZ6CDSPx6IBloYogs0PBSeynORkAZsD6825INUqoJaIMwtAbBVkve-A8xBNmz6fNpxsuwjsF_jfXHqBumqTT9VY7Jn5gEP3C0fVLOtuVFZ2krUvHSagGvupLXQSH-YI/s1600/cvss.jpg"
-    },
-    {
       "id": "a495571a09501582471dadad211772dca55c8a48",
       "title": "Le vrai bug de l'an 2000 arrive, et vos données sont déjà dans le viseur",
       "url": "https://www.ladn.eu/tech-a-suivre/le-vrai-bug-de-lan-2000-arrive-et-vos-donnees-sont-deja-dans-le-viseur/?amp%3Butm_content=topic%2Ffr-sciences",
@@ -1658,17 +1702,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/ladn.eu/56453cec792b55efc4b7a973ad590bbbd00ab430/_xlarge.jpeg"
-    },
-    {
-      "id": "1c85a2f224f80335b2ecb7bd5b714dfe2fa33c47",
-      "title": "Le régime marocain a bien utilisé le logiciel-espion Pegasus, notamment contre des ministres français",
-      "url": "https://www.radiofrance.fr/franceinter/podcasts/l-info-de-france-inter/le-regime-marocain-a-bien-utilise-le-logiciel-espion-pegasus-notamment-contre-des-ministres-francais-7006336?amp%3Butm_content=topic%2Ffr-technologie",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-16T04:30:00.000Z",
-      "summary": "Cinq ans après le “projet Pegasus”, alors que le Premier ministre et une partie du gouvernement sont en déplacement au Maroc, nous publions une …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/radiofrance.fr/d8a38f44e0e2c8431b3b0b8fe7676023665d1ce6/_xlarge.webp"
     },
     {
       "id": "0a20a8865b914b91824a2f2c89ee9f3440c86a6e",
@@ -2210,17 +2243,6 @@
       "imageUrl": null
     },
     {
-      "id": "bcf1a26591f2951529649ef42bb369b76081b48d",
-      "title": "Cyberespionnage : fait rare, la France nomme et localise l'unité russe qui la pirate depuis 20 ans",
-      "url": "https://www.lesnumeriques.com/informatique/cyberespionnage-la-france-nomme-et-localise-l-unite-russe-qui-la-pirate-depuis-20-ans-n259254.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-14T07:27:00.000Z",
-      "summary": "Les mails de cadres du ministère des Armées, le réseau de l'ambassade de France à Moscou, un serveur de la justice : dans un rapport publié le 13 …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://cdn.lesnumeriques.com/optim/news/25/259254/059ba82f-cyberespionnage-la-france-nomme-et-localise-l-unite-russe-qui-la-pirate-depuis-20-ans__1200_678__0-111-3840-2127.jpg"
-    },
-    {
       "id": "2210bf99d099a399b4e9c4e64534977db98b0977",
       "title": "Lessons Learned from CISA&#8217;s Recent GitHub Leak",
       "url": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
@@ -2249,28 +2271,6 @@
       "source": "Cyberveille Santé",
       "publishedAt": "2026-07-13T02:11:21.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans un &lt;strong&gt;point d'entrée HTTP obsolète&lt;/strong&gt; de l'API de gestion de RabbitMQ, GET /api/auth.&lt;/p&gt; &lt;p&gt;RabbitMQ",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "28231a8cc514cfed7ff8989a7409d153cff1e898",
-      "title": "Dell Technologies - CVE-2026-54469",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/dell-technologies-cve-2026-54469-2026-07-13",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-07-13T02:09:51.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le &lt;strong&gt;mécanisme de désérialisation&lt;/strong&gt; de données de Dell Unisphere for PowerMax.&lt;/p&gt; &lt;p&gt;Unisphere for",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "545a413827c7f7f98d1e63a79e78d57368ff7703",
-      "title": "ModSecurity - CVE-2026-52747",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/modsecurity-cve-2026-52747-2026-07-13",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-07-13T02:08:59.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le &lt;strong&gt;parseur de corps de requête multipart/form-data&lt;/strong&gt; de libmodsecurity.&lt;/p&gt; &lt;p&gt;ModSecurity est un",
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": null
