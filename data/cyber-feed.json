@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T13:48:53.254Z",
+  "generatedAt": "2026-07-24T15:26:06.772Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,7 +17,7 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 112
+      "items": 110
     },
     {
       "name": "Exploit-DB",
@@ -75,6 +75,39 @@
     }
   ],
   "items": [
+    {
+      "id": "266fd4f5fe28f83735f27a9f1762843b8a9904a9",
+      "title": "Quatre rendez-vous cyber à suivre jusqu’en octobre",
+      "url": "https://www.zataz.com/quatre-rendez-vous-cyber-a-suivre-jusquen-octobre/",
+      "source": "Zataz",
+      "publishedAt": "2026-07-24T15:15:20.000Z",
+      "summary": "Barbhack, DEF CON, Cyberbrew et Hackfest rythment la rentrée cyber, de Toulon à Québec, en passant par Lille.",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.zataz.com/wp-content/uploads/rdv_humains.jpg"
+    },
+    {
+      "id": "1873cb6bae4de27bc1825f1870b7391057798d9c",
+      "title": "Titan automatise le chantage aux données",
+      "url": "https://www.zataz.com/titan-automatise-le-chantage-aux-donnees/",
+      "source": "Zataz",
+      "publishedAt": "2026-07-24T14:37:58.000Z",
+      "summary": "Titan promet d’automatiser l’analyse des fuites, le calcul des rançons et la pression réglementaire.",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://www.zataz.com/wp-content/uploads/titan_02.jpg"
+    },
+    {
+      "id": "dbf3db4d435c429cb5150f060d2b0c28bb2cf16f",
+      "title": "Certighost Exploit Lets Low-Privileged Active Directory Users Impersonate a Domain Controller",
+      "url": "https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-24T14:15:21.000Z",
+      "summary": "Researchers H0j3n and Aniq Fakhrul published a working exploit on July 24 that lets a low-privileged Active Directory user obtain a certificate for a Domain Controller and authenti",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdJCaF3dwhncVhtS_dn9W8CUCwJSHRmtCVTK5_fXnS6RpDI4GaVTcSVoXvmo_JgxUyd-H5G3yQaRAg3Ahp__DMlq-M5r9ejhJTdk5QlVuv16HVXDWV7e3HJAijAVBRumD3XSyeyQ1O477nfXFfTvCwgFeXlYF8QIdfTN4mlYAu28JGFN7lOWTEoKwlG9g/s1600/certighost.jpg"
+    },
     {
       "id": "26e5937130ea8193ffbeb7d1b53189c9c1bff1e6",
       "title": "Un faux portail FPR pour piéger des pirates",
@@ -250,6 +283,50 @@
       "type": "NEWS",
       "severity": "Moyenne",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCA0-yh9EAnhFa2V3NzQVw2m-sLgbCNVQ8GVMBX4Y6vUNwPXE-vHzdJLFKXVi3rdGXhx5RawHTwox7cd9ph20u5qn_H8TJUOKG8nITccTkzqfiyBKStdCgcrJOgAeGf9Mkzr1g8iCB0HrpuonkIQQTx15L2P53RPX9GeMYVIuvl51jJ2hn1jn0PcQARQaj/s1600/notepad-malware-code.jpg"
+    },
+    {
+      "id": "923eb076a92f2250c4794cd910112f5ff196d6af",
+      "title": "Antivirus Windows : Defender suffit-il pour protéger son ordinateur ? - ZDNET",
+      "url": "https://www.zdnet.fr/guide-achat/antivirus-windows-defender-suffit-il-pour-proteger-son-ordinateur-498983.htm",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-24T04:07:55.000Z",
+      "summary": "Windows intègre Microsoft Defender par défaut. Suffit-il face aux virus, au phishing et aux ransomwares, ou faut-il un antivirus tiers ? Windows …",
+      "type": "NEWS",
+      "severity": "Critique",
+      "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2026/07/microsoft-defender-1.png"
+    },
+    {
+      "id": "fdb2fc7c21faf5daaad8a6cebc86abd774d26e9f",
+      "title": "MOVEit - CVE-2026-15966",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/moveit-cve-2026-15966-2026-07-24",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-24T03:09:01.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité correspondant à &lt;strong&gt;une mauvaise gestion des politiques de sécurité cross-domain (CORS).&amp;nbsp;&lt;/strong&gt;&lt;/p&gt; &lt;p&g",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "626e84552615d0c8fde1127e6d54a40140150e71",
+      "title": "Checkpoint - CVE-2026-16232",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/checkpoint-cve-2026-16232-2026-07-24",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-24T02:50:00.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de contournement d'authentification affectant le processus de connexion de Check Point SmartConsole au sein des solutions Security Management",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "a1cd76e7a813b6a6e528c668c38ef5cc188dffe4",
+      "title": "JetBrains - CVE-2026-64812",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/jetbrains-cve-2026-64812-2026-07-24",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-24T02:40:19.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité qui permet aux développeurs de travailler sur des projets hébergés sur des serveurs distants et potentiellement connectés aux dépôts de code,",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
     },
     {
       "id": "e37d24d7837574fc2cebd7a5dc5f16d0405b3cdc",
@@ -659,17 +736,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_70wKHw_bPdJz-ZYXpwrH7FBXem8uWKNtuBUyXDLbMld4PaBtBkw7Gpt9lRrVnki_eC21aw6sUezqM3-oFiTEviDqZECD20lmV3enwh0lDkRLAx38JlJYMoLzRpn-Ai4q1UbiIo8DTVjp4_blU5CM6AnW97jYgIblggBYgNIHdTE6t2Ec7by-N0Ly8YY/s1600/linux-root.jpg"
     },
     {
-      "id": "22d191edaa2c2b71ffae54c7c3c4e564a6e04323",
-      "title": "\"Un incident sans précédent\": une entreprise piratée par des modèles d'intelligence artificielle sonne la sonnette d'alarme",
-      "url": "https://www.dhnet.be/actu/monde/2026/07/23/un-incident-sans-precedent-une-entreprise-piratee-par-des-modeles-dintelligence-artificielle-sonne-la-sonnette-dalarme-6QGGEDXSZNCBNOKDZ2KXKXMKFA/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-23T06:51:12.000Z",
-      "summary": "Une start-up technologique a été piratée à cause de modèles d'IA avancés qui se sont rebellés. La Cofondateur de Hugging Face, l'entreprise qui s'est …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.dhnet.be/resizer/v2/FIXDEHCTTRGOVGRFFLESQAT3GY.jpg?auth=05dff22607e3a9aab91b0396fc5920bf6e04bb3bbfe60e0faea050027b86584f&amp%3Bwidth=1200&amp%3Bheight=630&amp%3Bquality=85&amp%3Bfocal=2784%2C1856"
-    },
-    {
       "id": "89d25e98b2aae88dd4cb935b4903114234a14f89",
       "title": "Bitcoin, les protocoles liés à Ethereum perdent 35 millions de dollars lors de multiples attaques à quelques heures d’intervalle",
       "url": "https://www.coindesk.com/fr/tech/2026/07/23/bitcoin-ethereum-linked-protocols-lose-usd35-million-in-multiple-attacks-hours-apart?amp%3Butm_content=CoinDesk%2Fmagazine%2FCOINDESK+Fran%C3%A7ais",
@@ -690,6 +756,17 @@
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTBN3LZDMeKkPoMsoNtsGp_s0KYwVrmhhKHQsQtqgtAN1WAKeS7L-aN1hiehoBwnPi6f1gziIEecy5GlPdAVlWKPlzVprrqHLTLE3tcMZu4NK8QDoRxxS22HEFxfIpyrXnqr8O9b9akb1VVr9dmmmdwzHmhTFTVX4Cpv6WkFwSpz62tr6XKEDvKp5m0aUu/s1600/checkpoint.jpg"
+    },
+    {
+      "id": "99acdc72a01d3a7689c92432c3cf92919546b2c2",
+      "title": "ChatGPT lance une cyberattaque sans qu'on lui demande : OpenAI annonce un incident \"sans précédent\"",
+      "url": "https://www.phonandroid.com/chatgpt-lance-une-cyberattaque-sans-quon-lui-demande-openai-annonce-un-incident-sans-precedent.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-23T04:30:04.000Z",
+      "summary": "OpenAI a rendu public un incident impliquant le piratage par ses modèles d'IA de la plateforme Hugging Face. Voici ce qui s'est passé. Le 16 juillet …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://wp-pa.phonandroid.com/uploads/2026/03/tuto-chatGPT-1.jpg"
     },
     {
       "id": "2fdcd8d79f66935e5950ab9d2393e4e25175e414",
@@ -1363,17 +1440,6 @@
       "imageUrl": "https://images.ladepeche.fr/api/v1/images/view/6a5f705dd2056e12d40fafcc/hd/image.jpg?v=1"
     },
     {
-      "id": "c51b71b67b2dcde8a59944862e6df0b7c26d34f1",
-      "title": "Un hacker revendique le piratage du site du Rassemblement National, le compte X de Marine Le Pen également visé : voici ce que l’on sait",
-      "url": "https://www.numerama.com/cyberguerre/2298773-un-hacker-revendique-le-piratage-du-site-du-rassemblement-national-voici-ce-que-lon-sait.html?amp%3Butm_source=flipboard&amp%3Butm_content=directlink&amp%3Butm_campaign=2298773",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-21T12:24:01.000Z",
-      "summary": "Un pirate revendique le vol d’une base de données du Rassemblement National contenant, selon lui, les informations de plus d’un millier d’élus et …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/lestechnophiles.com/cd2a4673b4dac47b243349d91185ad23b0d5f953/_xlarge.jpeg"
-    },
-    {
       "id": "925bcdbe35a173b56451c4c855bf9213ca946ae8",
       "title": "Rockwell Automation 1718-AENTR/1719-AENTR",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-08",
@@ -1605,28 +1671,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4qOga3YGcLZ3JclK_mkOkQ-pRmQowUUqu6Hp3fj1QTmsNuuhkSj4OiFqgAtL7e6yeGkv-K1jC0v4bRayI40oDQ8UMeYishuNzRap3E5RYmIEbjRbmq-uAk4iWKWwIfMdNi6owJrVWE_3fcWzj5lZgVm9P96ddcqghwnp3rGx3pM3N6hck6UiaFUgVRbtC/s1600/wordpress-ex.jpg"
     },
     {
-      "id": "507dbb254bd2df222007f3e5ec65dfa4a3603a17",
-      "title": "Fuite revendiquée au Rassemblement national ?",
-      "url": "https://www.zataz.com/fuite-revendiquee-au-rassemblement-national/",
-      "source": "Zataz",
-      "publishedAt": "2026-07-21T08:39:36.000Z",
-      "summary": "Un pirate affirme vendre des données présumés volés au Rassemblement national qui révélerait des données internes, sans preuve publique permettant d’authentifier la fuite à ce stad",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/RN_leak.jpg"
-    },
-    {
-      "id": "ed2b9c939c8cf64e12424abeb86d3306f95f2dd5",
-      "title": "Hugging Face frappé par un agent cyber autonome",
-      "url": "https://www.zataz.com/hugging-face-frappe-par-un-agent-cyber-autonome/",
-      "source": "Zataz",
-      "publishedAt": "2026-07-21T08:21:48.000Z",
-      "summary": "Une attaque autonome contre Hugging Face révèle les risques cyber des pipelines de données et des agents IA.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/IA_cyber_attack.jpg"
-    },
-    {
       "id": "2c324f401c2f54ff0bb1d8138fb17ddb7e8a9711",
       "title": "New ENCFORGE Ransomware Targets AI Model Files in Langflow RCE Attack",
       "url": "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html",
@@ -1845,17 +1889,6 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhehTKRdIydGsJI5vxP4R5baH5VrDh8ZNLg1RyLMhSnVOFr6cdDZRyqkKhazs4oBdZxw5YV7fNYKCcZ9tkKkTap2chfMR6XCdiG4GmUhv4S_tUVYTS7jvn8iZcTL3RuJ-3K0U1WJ0pKfq16pcJRZhAXTm1gk-xvzjzmdJ85PWEgnQ6oFK1eUPKRBiTRtEr1/s1600/huggingface.jpg"
-    },
-    {
-      "id": "83bf95e3802d4582873d4b9fefaa9fbf27fb45f6",
-      "title": "SleeperGem Uses Three Malicious RubyGems Packages to Target Developer Machines",
-      "url": "https://thehackernews.com/2026/07/sleepergem-uses-three-malicious.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-20T05:15:39.000Z",
-      "summary": "Cybersecurity researchers have flagged a new software supply chain attack codenamed SleeperGem targeting the Ruby ecosystem after three malicious gems were published to RubyGems wi",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-5_crP04CVdna-erTGX9yykCNwqzeIcMALrWcRvgKWkfk7bntEBg50PBtoLvTeACMEHisZ-m1FLMEa2x9nbsRpVdAyeQyBkEmexn8p6W4r6JKA7dxDGJ6BXCqR6RYC3hyRSw7_1Wm1Elv-UFHRfttZQB0HX60SQRGXnJ-4VySo4gY-yfaDhT2FHKHTFj9/s1600/ruby.jpg"
     },
     {
       "id": "b7f97f29484890ecc0763959cb1e06db32b9b72d",
@@ -2238,39 +2271,6 @@
       "source": "Cyberveille Santé",
       "publishedAt": "2026-07-16T02:48:57.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;validation d'entrée incorrecte&lt;/strong&gt; au sein du client Windows de Zoom Workplace et de son client VDI.&lt;/p&gt; &l",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "7c69c4bcbc4be92125424cf7de7b32d11471dee5",
-      "title": "NGINX - CVE-2026-42533",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/nginx-cve-2026-42533-2026-07-16",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-07-16T02:47:21.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le traitement de la directive &lt;strong&gt;map&lt;/strong&gt; lorsqu'elle utilise une correspondance par &lt;strong&gt;expression régul",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "c4e4f1a92f69962e8cf5ebccf0ba5fd9e8abab42",
-      "title": "Splunk - CVE-2026-20296",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/splunk-cve-2026-20296-2026-07-16",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-07-16T02:45:25.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de type &lt;strong&gt;Cross-Site Request Forgery&lt;/strong&gt; (CSRF) affectant les points de terminaison du &lt;strong&gt;Deployment Server",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "d9ae5404c1dbb98e1d69d08e151b88b2f0465cca",
-      "title": "Keycloak - CVE-2026-1609",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/keycloak-cve-2026-1609-2026-07-16",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-07-16T02:43:41.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;contrôle d'accès incorrect&lt;/strong&gt; dans le traitement de la fonctionnalité preview de &lt;strong&gt;JWT authorization",
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": null
