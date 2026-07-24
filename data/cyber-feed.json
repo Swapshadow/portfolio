@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T06:27:34.930Z",
+  "generatedAt": "2026-07-24T10:20:25.421Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -76,15 +76,81 @@
   ],
   "items": [
     {
-      "id": "1313d5c5b569200be4eb8b2a9eb5040689ce7487",
-      "title": "Norton 360 Deluxe passe à 39,99 € la première année, soit -63 % sur le prix de renouvellement",
-      "url": "https://www.clubic.com/bons-plans-621175-norton-360-deluxe-passe-a-39-99-la-premiere-annee-soit--63-sur-le-prix-de-renouvellement.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "id": "2d1d9f16601d204f285f5af8715a3f4a8416783d",
+      "title": "AI Hack : une fuite chez Darsa AI ?",
+      "url": "https://www.zataz.com/ai-hack-une-fuite-chez-darsa-ai/",
+      "source": "Zataz",
+      "publishedAt": "2026-07-24T10:14:57.000Z",
+      "summary": "Un pirate revendique une fuite chez Darsa AI et multiplie les publications visant des acteurs liés à l’Intelligence Artificielle.",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://www.zataz.com/wp-content/uploads/bb_ia_leak.jpg"
+    },
+    {
+      "id": "b7dc099f292f5c0a8e365301f463903afd3bcc6b",
+      "title": "Des hackers ont coupé la production de lait de Coca-Cola : un simple ransomware a stoppé une marque à 4 milliards",
+      "url": "https://www.lesnumeriques.com/societe-numerique/des-hackers-ont-coupe-la-production-de-lait-de-coca-cola-un-simple-ransomware-a-stoppe-une-marque-a-4-milliards-n259659.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
       "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-24T05:30:00.000Z",
-      "summary": "Et avec cette suite de cybersécurité aucune économie n’est faite sur la qualité de ses différentes fonctionnalités.",
+      "publishedAt": "2026-07-24T09:36:00.000Z",
+      "summary": "Un rançongiciel a mis à l'arrêt toute la production américaine de Fairlife, filiale laitière de Coca-Cola pesant 4 milliards de dollars. Le groupe de …",
+      "type": "NEWS",
+      "severity": "Critique",
+      "imageUrl": "https://cdn.lesnumeriques.com/optim/news/25/259659/5620603e-des-hackers-ont-coupe-la-production-de-lait-de-coca-cola-une-marque-a-4-milliards-a-l-arret-total__1200_678__0-259-2586-1616.jpg"
+    },
+    {
+      "id": "5800ee427389848881ca4f16087c430e013cde68",
+      "title": "Un faux Claude, hébergé sur le vrai Claude, a piraté des dizaines d’entreprises : on décortique la mécanique de l’attaque",
+      "url": "https://www.numerama.com/cyberguerre/2300799-un-faux-claude-heberge-sur-le-vrai-claude-a-pirate-des-dizaines-dentreprises-on-decortique-la-mecanique-de-lattaque.html?amp%3Butm_source=flipboard&amp%3Butm_content=directlink&amp%3Butm_campaign=2300799",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-24T08:01:42.000Z",
+      "summary": "Entre le 21 et le 22 juillet 2026, au moins 29 entreprises ont été infectées par un malware après avoir cru télécharger l’application de bureau de …",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://c0.lestechnophiles.com/www.numerama.com/wp-content/uploads/2026/07/design-sans-titre-2026-07-24t095403841.jpg?resize=1600%2C900&amp%3Bkey=71424416"
+    },
+    {
+      "id": "03a804fecaa33069ec88da9049f78adad539b968",
+      "title": "NodeBB Patches Eight AI-Found Flaws Exposing Admin Access and Private Chats",
+      "url": "https://thehackernews.com/2026/07/nodebb-patches-eight-ai-found-flaws.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-24T07:41:06.000Z",
+      "summary": "Eight security flaws in NodeBB went public on Wednesday, along with the code to exploit them. Aikido Security rates all eight as high severity and says its AI pentest agents found ",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixTLaT7NCY3UuotqW1AHLiB1xN5K-nlqtpnOav_n7PWHNWWZmrSmmPTzmL6oA7N7dOgwSGxEbbBq90Q3OVK6wF2PSXdXLs7mKmBYc1dEBIc64Qsq6XEl7rYbv5PjRMViYiGXr8-ypMSs0ZJv_rJXqSWIbS4FVTuIphO7g9IfC0MG6m5dDXPXJoz7iezck/s1600/nodebb.jpg"
+    },
+    {
+      "id": "67e20319b71adef2f5f8ecfc432b75ffb4c2a293",
+      "title": "Kimi K3 Agents Found Redis Zero-Days and Built RCE Exploit, Researchers Say",
+      "url": "https://thehackernews.com/2026/07/kimi-k3-agents-found-redis-zero-days.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-24T06:58:27.000Z",
+      "summary": "Redis shipped seven security releases on July 23 after researchers published authenticated RCE PoCs for stock Redis 6.2.22, 7.4.9, 8.6.4, and 8.8.0. All four chains require RESTORE",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0TE9DH98zjhcQPB99o9CcCvYH1otVTUwpXl_9Af1Nbl89gqHBAqP2jtb-BFrmXdR-4OYmPOGJJoilFiac2ooKHM5Lbe_kD5kLpW1eRcdpOWsG53701lGhFi93e0UpvGrptdb2usksom4mF56GWE1of2M7KsmAZav9cENd90xYAVz7Dq3yPIBJEODDDaQ/s1600/redis-0day.jpg"
+    },
+    {
+      "id": "f9990751ce6e573c81aba045097310906d88d602",
+      "title": "Fake Notepad++ Plugin Delivers MATCHBOIL.V2 in UAC-0099 Attacks",
+      "url": "https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-24T06:50:57.000Z",
+      "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has warned of a new campaign that involves the use of a malicious program that's dressed up as a Notepad++ plugin to compr",
+      "type": "NEWS",
+      "severity": "Moyenne",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCA0-yh9EAnhFa2V3NzQVw2m-sLgbCNVQ8GVMBX4Y6vUNwPXE-vHzdJLFKXVi3rdGXhx5RawHTwox7cd9ph20u5qn_H8TJUOKG8nITccTkzqfiyBKStdCgcrJOgAeGf9Mkzr1g8iCB0HrpuonkIQQTx15L2P53RPX9GeMYVIuvl51jJ2hn1jn0PcQARQaj/s1600/notepad-malware-code.jpg"
+    },
+    {
+      "id": "799fa92f7be41bb3bba5128a31cea522c77651e0",
+      "title": "« Ils vont réussir à mieux dissimuler leurs actions » : après la cyberattaque d’OpenAi, l’inquiétude sur le contrôle de l’IA",
+      "url": "https://www.lavoixdunord.fr/1724039/article/2026-07-24/ils-vont-reussir-mieux-dissimuler-leurs-actions-apres-la-cyberattaque-d-openai-l?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-24T06:12:00.000Z",
+      "summary": "Des modèles d’intelligence artificielle d’OpenAi ont perpétré une cyberattaque de manière autonome. La question se pose : comment sécuriser cette …",
       "type": "NEWS",
       "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/f566ab275859d75250880a40aa2d55b37bf8bb9a/_xlarge.png"
+      "imageUrl": "https://lvdneng.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_extra_big/2026/07/24/node_1724039/68875379/public/2026/07/24/93088135.jpeg?itok=pmKmcON71784873583"
     },
     {
       "id": "1b87f1b3a07843a925ae363ef62e6013aa0f39b0",
@@ -95,7 +161,7 @@
       "summary": "A Russian state-supported espionage group spent months reading Western mailboxes through a then-unknown flaw in Zimbra's webmail client. The payload goes after the last 90 days of ",
       "type": "CVE",
       "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzlA3Ln3fk8yzrfLwR9egB99u67BL7NlRui9XkKviyXhFmZ3sYVTF5laSjHTwyphN51YvL39R0irNNPn2hDpVcn6EFi_NmuuSH3XTS9I71aPdZvgZRTOxXczmyqbSkcpqSy2TgOzSSJ0RzAyeQA4YXED73kIChZFtiuZ1fIVzCFvDJK4bEJ5M6Sj-qPeI/s1600/zimbra-email.jpg"
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXkCZuPeRyg1ChSuRUngYAxHTfN5dCHgGrSaCg3hA40XvmX2vRmKxgGJ7Pzli72_i9XK9XgCQhhRNK5dE3XJ_EklUH_Nzoqx4YLy7NeKSHB4RCd4KkdhrCB1vdEEcGsgnzumTMwi3_J4BxsGc3t0pjb2mhjkHfBcF5PDUqTe9F0wZPaC94Y6AwMXICZ9E/s1600/zimbra-exploit.jpg"
     },
     {
       "id": "a746e1f7a3ce82370b78836800dc92592cee7318",
@@ -351,17 +417,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_70wKHw_bPdJz-ZYXpwrH7FBXem8uWKNtuBUyXDLbMld4PaBtBkw7Gpt9lRrVnki_eC21aw6sUezqM3-oFiTEviDqZECD20lmV3enwh0lDkRLAx38JlJYMoLzRpn-Ai4q1UbiIo8DTVjp4_blU5CM6AnW97jYgIblggBYgNIHdTE6t2Ec7by-N0Ly8YY/s1600/linux-root.jpg"
     },
     {
-      "id": "22d191edaa2c2b71ffae54c7c3c4e564a6e04323",
-      "title": "\"Un incident sans précédent\": une entreprise piratée par des modèles d'intelligence artificielle sonne la sonnette d'alarme",
-      "url": "https://www.dhnet.be/actu/monde/2026/07/23/un-incident-sans-precedent-une-entreprise-piratee-par-des-modeles-dintelligence-artificielle-sonne-la-sonnette-dalarme-6QGGEDXSZNCBNOKDZ2KXKXMKFA/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-23T06:51:12.000Z",
-      "summary": "Une start-up technologique a été piratée à cause de modèles d'IA avancés qui se sont rebellés. La Cofondateur de Hugging Face, l'entreprise qui s'est …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.dhnet.be/resizer/v2/FIXDEHCTTRGOVGRFFLESQAT3GY.jpg?auth=05dff22607e3a9aab91b0396fc5920bf6e04bb3bbfe60e0faea050027b86584f&amp%3Bwidth=1200&amp%3Bheight=630&amp%3Bquality=85&amp%3Bfocal=2784%2C1856"
-    },
-    {
       "id": "89d25e98b2aae88dd4cb935b4903114234a14f89",
       "title": "Bitcoin, les protocoles liés à Ethereum perdent 35 millions de dollars lors de multiples attaques à quelques heures d’intervalle",
       "url": "https://www.coindesk.com/fr/tech/2026/07/23/bitcoin-ethereum-linked-protocols-lose-usd35-million-in-multiple-attacks-hours-apart?amp%3Butm_content=CoinDesk%2Fmagazine%2FCOINDESK+Fran%C3%A7ais",
@@ -393,6 +448,17 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://img.generation-nt.com/espionnage_01711840.jpg"
+    },
+    {
+      "id": "99acdc72a01d3a7689c92432c3cf92919546b2c2",
+      "title": "ChatGPT lance une cyberattaque sans qu'on lui demande : OpenAI annonce un incident \"sans précédent\"",
+      "url": "https://www.phonandroid.com/chatgpt-lance-une-cyberattaque-sans-quon-lui-demande-openai-annonce-un-incident-sans-precedent.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-23T04:30:04.000Z",
+      "summary": "OpenAI a rendu public un incident impliquant le piratage par ses modèles d'IA de la plateforme Hugging Face. Voici ce qui s'est passé. Le 16 juillet …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://wp-pa.phonandroid.com/uploads/2026/03/tuto-chatGPT-1.jpg"
     },
     {
       "id": "2fdcd8d79f66935e5950ab9d2393e4e25175e414",
@@ -681,17 +747,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzhOo7Orml3Cc70jFGFxmIBeMgPE26To0_7N80uq7Ux9h7jIarD51mf18Ecq6bOfyaKpDTHp99pUmzrNECb2IklB0l0XdKjkszBLdhhgmw42OsYsqJQoxm74ci__fgn9n29j0YIr_HTlqT1-NyVyvbeB2t9pFRMVQT5GQlTMEOp-vkUFbha3SV-6cAXfYW/s1600/aa.jpg"
     },
     {
-      "id": "2a13a4f472a2cf1e4ecff5b9b3798d99302dade1",
-      "title": "« Pas besoin d’une intelligence maléfique, une IA bien déterminée suffit » : les leçons du piratage d’Hugging Face par OpenAI",
-      "url": "https://www.latribune.fr/article/tech/51134640007052/pas-besoin-d-une-intelligence-malefique-une-ia-bien-determinee-suffit-les-lecons-du-piratage-d-hugging-face-par-openai?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-22T11:40:06.000Z",
-      "summary": "LES TROIS ALERTES CYBER DE LA SEMAINE. Un modèle d’OpenAI s’échappe de sa zone de confinement pour pirater la plateforme Hugging Face, un logiciel …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/latribune.fr/0e8d9ebfb964f75921c1c7c309628505b268cec8/_large.jpeg"
-    },
-    {
       "id": "3637cb70eb1869e1f36e8fc6b352a07b7c0fb179",
       "title": "OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark",
       "url": "https://thehackernews.com/2026/07/openai-says-its-own-ai-models-escaped.html",
@@ -745,17 +800,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/journaldunet.com/50d69d9be29cc3d52a9bfbacc927665e269958f2/_xlarge.jpeg"
-    },
-    {
-      "id": "845f5c426752b45b105e4158381ce3bfae4e4966",
-      "title": "Des modèles d’OpenAI sont sortis tout seuls de leur bac à sable pour attaquer Hugging Face",
-      "url": "https://www.macg.co/intelligence-artificielle/2026/07/des-modeles-dopenai-sont-sortis-tout-seuls-de-leur-bac-sable-pour-attaquer-hugging-face-309907?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-22T09:53:49.000Z",
-      "summary": "Selon le créateur de ChatGPT, l’incident s’est produit lors d’une évaluation interne des capacités de cybersécurité de ses modèles, en l’occurrence …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://cdn.mgig.fr/2026/07/mga-75c76ed1-w375-w1500-w750_accroche.jpg"
     },
     {
       "id": "744316318893c052c23aa45d9e49cfabb57c9ca6",
@@ -1803,17 +1847,6 @@
       "imageUrl": "https://www.zataz.com/wp-content/uploads/lfi_leak_2.jpg"
     },
     {
-      "id": "05337d5572af1aa6116b6f15f3196098fb6a69d9",
-      "title": "LeakBase : dix téraoctets piratés réapparaissent",
-      "url": "https://www.zataz.com/leakbase-dix-teraoctets-pirates-reapparaissent/",
-      "source": "Zataz",
-      "publishedAt": "2026-07-18T10:13:29.000Z",
-      "summary": "LeakBase fermé, une archive de 10 To de données volées réapparaît via des stockages publics russes.",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/leakbase_10t.jpg"
-    },
-    {
       "id": "ebe09c6e01c2291b1533970bf9dd5c255cd18d5c",
       "title": "New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code",
       "url": "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
@@ -1834,39 +1867,6 @@
       "type": "CVE",
       "severity": "Info",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhk66eU1Srifu4Rdpf7MZDjg3GdNMtQK6ZW-F283kxhZ7Z0W_8nWNJynZiQ7n0ov9OLNm315P4942h3-unMI0WZ1-LH8tdQ6sv2o6q0TxKT-bVKewzkQULKKXSJOee_oANuI3YquoDgSPHsPeXEdQcFRoy8czRQimH_f0sNHJ55-5LA153sQgUPkpBBEVE/s1600/openssl.jpg"
-    },
-    {
-      "id": "046ab53e003c7a9ae802a05a4966ff24b9278a20",
-      "title": "Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT",
-      "url": "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-17T18:54:51.000Z",
-      "summary": "Cybersecurity researchers have discovered a cluster of seven malicious npm packages targeting the Vite frontend tooling ecosystem as part of a software supply chain attack. The mal",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgA07xA1INXGKM7Z2LQ6zk2IFE_Hb_aDQNHmSfPtJkZY5Gzo2U2_cyflorBsU76hbXK8SwKXR5AmkK5dAAd9uw0wRh6gYaC-5ZPjT6kEdvE7rO-5G0TxXm8a-eytoygZOMuSG-aOnYkC_zTVbnxSq7zxaIFYyLcegbQ59WVztRO-y3MHmce7XuDz2SdVsKA/s1600/vite-npm.jpg"
-    },
-    {
-      "id": "23485e62ca83d06105c3015b802d2b9dc1afee0f",
-      "title": "New NadMesh Botnet Hunts Exposed AI Services for Cloud Keys and Kubernetes Tokens",
-      "url": "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-17T17:12:23.000Z",
-      "summary": "A Go botnet called NadMesh turned up in early July hunting exposed AI services, and the operator's own dashboard claims 3,811 unique AWS keys. A Shodan harvester keeps the scan que",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhm0yasBDyeN2fn4q4y7Zs2Y6FvTDTIrI3xi4iN2ZBBUIBoCxLshnVvYc8OPDOrpSuHiyUNO0MLi-50Kf05SxJSo3m1n-PDfKnM3ztP48lWYBz_2IDzR2gNQ0D3-AzQcR6ZJC9qvBgM5wX3RCIaw6mAA7zDh3xAWFFoHScqZuqKSifh-FUr8Qum5dYGQPw/s1600/botnet-malware.jpg"
-    },
-    {
-      "id": "3ba0c695f676bf383aea8d583e212eb9a64c3ba1",
-      "title": "GoldenEyeDog Subgroup Linked to DigiCert Breach and Code-Signing Certificate Theft",
-      "url": "https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-17T16:39:16.000Z",
-      "summary": "Cybersecurity researchers have attributed the April 2026 DigiCert security incident to a threat activity cluster dubbed CylindricalCanine. Expel, which shared technical details of ",
-      "type": "LEAK",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixZDZh8TkRVQHu6QNFvHOayTdDxLn-JWDRkPmvVCNkvEL9vhyphenhyphensADIyUB0uXlhXmBhACxMotz-lU1B61HGsRPee80GkLfk-mypQd6Ba4Hr4K-2QCz7BtyRKFCiUYuiUlmPw71Wdn6YnNTjncnGDPQBJV-P0MyS7CjTmPd-p_aHKBCQJr0JA396lL-Yxd3A9/s1600/digicert-hack.jpg"
     },
     {
       "id": "4b0401af47375b703bbfe4aae2fe6a89ed1f5e78",
