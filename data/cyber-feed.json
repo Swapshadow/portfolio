@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T06:19:25.874Z",
+  "generatedAt": "2026-07-25T09:50:06.740Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -75,6 +75,28 @@
     }
   ],
   "items": [
+    {
+      "id": "f6c6a3d10da3df8103a94af78a4f2d11dca49335",
+      "title": "Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git",
+      "url": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-25T08:34:15.000Z",
+      "summary": "Security researcher Yuhang Wu at depthfirst has published a working proof-of-concept (PoC) exploit that executes commands as git on an unpatched self-managed GitLab 18.11.3 server.",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRIN1sheAdScq7AX9pLc07esRzQ18-0vBJ7hz9DlVhggVAImXrhYM_zxN0N6hJ2inDkBCnzRCXHR3Kv3I0QwyiVWkAMu7p949JSjgK611r48deMbrSN8iDD78aJdfxEeO_Jy6JFwOfPL_8M0RKEBl1RFO7ufvop1XG9-tdms7VRyvONXoteuCYp9Rg-FM/s1600/gitlab.gif"
+    },
+    {
+      "id": "25ec1ac178d8959e2f5f27dedc71a914ee0fbe74",
+      "title": "Un \"cyberincident sans précédent\" : ce que l'on sait de la cyberattaque menée de leur propre initiative par les modèles d'OpenAI",
+      "url": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/un-cyberincident-sans-precedent-ce-que-l-on-sait-de-la-cyberattaque-menee-de-leur-propre-initiative-par-les-modeles-d-openai_8120441.html",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-25T05:12:41.000Z",
+      "summary": "Le créateur de ChatGPT a annoncé mardi que ses modèles d'intelligence artificielle avancés s'étaient emballés lors de tests de sécurité : ils sont …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/78d7ac5e9d3021184326bbbb8e2800888125c95b/_xlarge.jpeg"
+    },
     {
       "id": "08fbc4382b470013533e374bbb4d4807241705ef",
       "title": "Cyber actualités ZATAZ de la semaine du 20 au 26 juillet 2026",
@@ -822,17 +844,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://img.generation-nt.com/espionnage_01711840.jpg"
-    },
-    {
-      "id": "99acdc72a01d3a7689c92432c3cf92919546b2c2",
-      "title": "ChatGPT lance une cyberattaque sans qu'on lui demande : OpenAI annonce un incident \"sans précédent\"",
-      "url": "https://www.phonandroid.com/chatgpt-lance-une-cyberattaque-sans-quon-lui-demande-openai-annonce-un-incident-sans-precedent.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-23T04:30:04.000Z",
-      "summary": "OpenAI a rendu public un incident impliquant le piratage par ses modèles d'IA de la plateforme Hugging Face. Voici ce qui s'est passé. Le 16 juillet …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://wp-pa.phonandroid.com/uploads/2026/03/tuto-chatGPT-1.jpg"
     },
     {
       "id": "2fdcd8d79f66935e5950ab9d2393e4e25175e414",
@@ -1900,17 +1911,6 @@
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuAoanL7LxDYHynfggiOQo_RDymqYrFlfnRNrstIG6KgYuDWk2uR0eZDx_vCSLWsjTmP5LohkMSGQ_sc32hE4TGqqUCkGwsDlOUzP3bb-Ib-whRLliIb0YVozTMZF-lgSsPJr55l7GPjR1Xq-sH7dieWTBNnZsttdSfOxowTrEZImrcJ-_cI6i4zVFlII/s1600/7-zip.jpg"
-    },
-    {
-      "id": "5be908273b23cc65c6e661bcc6ccb9ff8dc820cd",
-      "title": "Russian-Speaking Hacker Uses Google Gemini CLI to Control Botnet of Eight Dental Clinic PCs",
-      "url": "https://thehackernews.com/2026/07/russian-speaking-hacker-uses-google.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-20T09:07:11.000Z",
-      "summary": "A solo Russian-speaking threat actor known as \"bandcampro\" outsourced a chunk of their operations to Google's open-source Gemini CLI artificial intelligence (AI) and commandeered a",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyO5FC_n2BBZmiHphtqs0UN5r3DPgtRvkrVfaHOW-1Fv2VPXZliRYDryKR5I-vdZxtmChQJB6eAlJsND-e47t5lLQQ4SWkSJ_D02SEL6nRBmnJ-klfjSSg7rjRyf5AfzX340_se2vNrobCydtV-NZPsDm8MvL9UG0atiMekaxCNzHwizxZFlRhvpuM8BjE/s1600/gemini-cc.jpg"
     },
     {
       "id": "b7f97f29484890ecc0763959cb1e06db32b9b72d",
