@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T11:12:16.039Z",
+  "generatedAt": "2026-07-25T13:38:45.868Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -76,6 +76,50 @@
   ],
   "items": [
     {
+      "id": "c3d81faf8fda546657a200829e1a38e2e649e210",
+      "title": "Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available",
+      "url": "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-25T12:52:43.000Z",
+      "summary": "Security firms ThreatBook and Imperva say attackers are targeting a critical flaw in Fastjson, Alibaba's JSON library for Java. In affected Spring Boot applications, a malicious JS",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVdPXrvOB3xbf282jC7eawBsl-YwExczqZ471NiKOResjulD8TvOSelU5VGbgoHqVhNLaigBkE2N50AFtSqbOoXUQTtxgIHO05jYpTn5VyG4BPhlr1CbscCn4g8S3I4jdZ1_p67zSM91K25xq1X4-btuY3tFgVseyO-aLWlsdvZaNkwAhyphenhyphenafk4DH2l6Fs/s1600/fastjson.gif"
+    },
+    {
+      "id": "f6c6a3d10da3df8103a94af78a4f2d11dca49335",
+      "title": "Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git",
+      "url": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-25T10:14:26.000Z",
+      "summary": "Security researchers at depthfirst published working exploit code on July 24 for a GitLab flaw that GitLab patched six weeks earlier, on June 10. It runs commands as git on any sel",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRIN1sheAdScq7AX9pLc07esRzQ18-0vBJ7hz9DlVhggVAImXrhYM_zxN0N6hJ2inDkBCnzRCXHR3Kv3I0QwyiVWkAMu7p949JSjgK611r48deMbrSN8iDD78aJdfxEeO_Jy6JFwOfPL_8M0RKEBl1RFO7ufvop1XG9-tdms7VRyvONXoteuCYp9Rg-FM/s1600/gitlab.gif"
+    },
+    {
+      "id": "b50c755357472ddcbc7ac144dbe9184602b18a7f",
+      "title": "CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking",
+      "url": "https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-25T10:14:21.000Z",
+      "summary": "For years, phishing campaigns targeting financial institutions followed the same playbook. Victims were tricked into entering usernames and passwords, attackers collected the crede",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiH4zKTZ_Lk6D_VXZEKWwF1k02-iDwrNY9MH7zrX_sotEB_f9m7-qvQkAbfTvW5YQyBVlVdSS3D4_0ky60KOzTABlPuPKEpDXwpnWO3eTtud33d8oxf54HilW5EgDJPwo0ea4rktguzjfMBnRy0yLGch1l2vLdY4GnG12imJqBIdZzhYRb04XcVP67KaxPM/s1600/insuretrap.jpg"
+    },
+    {
+      "id": "59d8d40dc64ef00cfacf77b2f4627694571a536c",
+      "title": "Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE",
+      "url": "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-25T10:14:03.000Z",
+      "summary": "Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and FlexP",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIGAlXgFCqm8atTe__HpWBiCWISmrPOazxOVBMF-_YNrP2goBbW_4PSwGzw1Ndyue4qrnQnqrQyAR4DTaAdaiJPlVUZi7M_iceb4fqofWK0sGRLO9CHnj0lngtxdlC-tKqrppqFaKIkct2vOtGn_o5kbNa4fj-dutt8PMjiO5TVBw895aLg0TOJb8TKKtv/s1600/cyberattack.jpg"
+    },
+    {
       "id": "4fffe772faf0af558ab04d979bdaf213422830d2",
       "title": "Fuites de données : la France devient la victime numéro un d'Europe, c'est de pire en pire",
       "url": "https://www.01net.com/actualites/fuites-donnees-france-victime-numero-un-europe.html?amp%3Butm_content=topic%2Ffr-technologie",
@@ -87,15 +131,37 @@
       "imageUrl": "https://ic-cdn.flipboard.com/01net.com/7bd4240ce807a7b958318bd03311f89de6f65255/_xlarge.jpeg"
     },
     {
-      "id": "f6c6a3d10da3df8103a94af78a4f2d11dca49335",
-      "title": "Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git",
-      "url": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-25T08:34:15.000Z",
-      "summary": "Security researcher Yuhang Wu at depthfirst has published a working proof-of-concept (PoC) exploit that executes commands as git on an unpatched self-managed GitLab 18.11.3 server.",
+      "id": "a34a89db9b63378a5399affdbbe8542cc3716abf",
+      "title": "À force de verrouiller leurs IA, OpenAI et Anthropic font fuir les chercheurs",
+      "url": "https://www.begeek.fr/a-force-de-verrouiller-leurs-ia-openai-et-anthropic-font-fuir-les-chercheurs-437640?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-25T10:00:28.000Z",
+      "summary": "Pensés pour bloquer les hackers, les garde-fous des modèles d’IA freinent aussi les chercheurs offensifs et certains défenseurs. Et ça commence à …",
       "type": "CVE",
       "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRIN1sheAdScq7AX9pLc07esRzQ18-0vBJ7hz9DlVhggVAImXrhYM_zxN0N6hJ2inDkBCnzRCXHR3Kv3I0QwyiVWkAMu7p949JSjgK611r48deMbrSN8iDD78aJdfxEeO_Jy6JFwOfPL_8M0RKEBl1RFO7ufvop1XG9-tdms7VRyvONXoteuCYp9Rg-FM/s1600/gitlab.gif"
+      "imageUrl": "https://ic-cdn.flipboard.com/begeek.fr/bc7f73ef2e5f639d4059fc2796f3a0f04eefc220/_xlarge.webp"
+    },
+    {
+      "id": "1e9b6a6e33fd6aa7dd869ac55c62945a4a43ab28",
+      "title": "DevMan RaaS Portal Centralizes Payload Builds, Victim Management, and Affiliate Payouts",
+      "url": "https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-25T09:53:41.000Z",
+      "summary": "The operators of the DevMan ransomware-as-a-service (RaaS) scheme are maintaining a dedicated web platform that offers affiliates the ability to build payloads, oversee earnings, a",
+      "type": "NEWS",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCfK-jqRTN8rgDTTIOMahlXeGbBvgMLQqdUc4pcB1eXYGmbMfvzVLohoakIuE6nlS9k2G8ncIMwgaYcfLN1r90Obxd8IDHGo5UVz-iDNkBaEbzcDMJl5yzaCQ7VTSh5GFOy8O6CjHXvK7Sdo0WctNPRFBxxtWONllByeJ1EtphQ-sDRabRefeNuXxzdCzY/s1600/ransomware-hacker.jpg"
+    },
+    {
+      "id": "a7e80807f734b990a07614cd0545adf5aebe99d0",
+      "title": "L'antivirus Bitdefender est à seulement 2,08 € par mois la première année",
+      "url": "https://www.iphon.fr/post/antivirus-bitdefender-seulement-2-euros-par-mois-premiere-annee?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-25T09:02:11.000Z",
+      "summary": "En ce moment, Bitdefender vous fait profiter d’une belle ristourne de 50 % sur son offre Antivirus Plus. Le logiciel, compatible avec les Mac, …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/iphon.fr/c50080a0604176cf7bce4fd5a48a9c85448a8dcf/_xlarge.jpeg"
     },
     {
       "id": "25ec1ac178d8959e2f5f27dedc71a914ee0fbe74",
@@ -107,6 +173,17 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/78d7ac5e9d3021184326bbbb8e2800888125c95b/_xlarge.jpeg"
+    },
+    {
+      "id": "ab0562f675572fe2deb3d09afbaf8a03cbf2642e",
+      "title": "L’agent rebel d’OpenAI pousse le Congrès à réclamer un bouton d’arrêt d’urgence",
+      "url": "https://www.fredzone.org/lagent-rebelle-dopenai-pousse-le-congres-a-reclamer-un-bouton-darret-durgence/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-24T19:41:41.000Z",
+      "summary": "Les craintes d’une intelligence artificielle échappant à tout contrôle prennent une tournure concrète. Récemment, des modèles d’OpenAI se sont échappés …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.fredzone.org/wp-content/uploads/2020/07/Congr%C3%A8s.jpg"
     },
     {
       "id": "08fbc4382b470013533e374bbb4d4807241705ef",
@@ -1110,17 +1187,6 @@
       "imageUrl": "https://essentialhomme.fr/wp-content/uploads/2026/07/Eteindre-et-rallumer-son-telephone-est-une-excellente-habitude.webp"
     },
     {
-      "id": "575cc876caeb29128dbc237260e668f0bb057c5c",
-      "title": "État civil. Le Ghana mise sur les titres d’identité biométriques pour limiter les fraudes",
-      "url": "https://www.courrierinternational.com/article/etat-civil-le-ghana-mise-sur-les-titres-d-identite-biometriques-pour-limiter-les-fraudes_251893?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-22T12:14:17.000Z",
-      "summary": "Le Ghana investit toujours plus pour généraliser l’utilisation de sa carte d’identité biométrique. Le 15 juillet, la réglementation concernant la …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/courrierinternational.com/14841283be739e754f5e360b1088e038f6053dd5/_xlarge.jpeg"
-    },
-    {
       "id": "9ae3dfbf95b0befbb903e6b96fe74e651fb2277c",
       "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
       "url": "https://www.cisa.gov/news-events/alerts/2026/07/22/cisa-adds-two-known-exploited-vulnerabilities-catalog",
@@ -1163,17 +1229,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgA_BCT5VYzHAi2ZYmYF84NAe3JitSR-U0uk4JZeuJf-hgHgwMXRj1_44z0DfwmtHqFZMxeEYGHR4AlvuIe-_4oAGvQlVnCm9peV1-H0nZ__XbPIcKlz_7RxoPuR7C2IMBZ7B27ABzkk9Zv08DOaKAefwt72n8H0WBP8Z8TBajQwEzBt10hFwE3-70o0A5V/s1600/corelight.jpg"
-    },
-    {
-      "id": "302614c148ce353dd0a57438c5df22d4a9c4877c",
-      "title": "Le site du Rassemblement national piraté, des drapeaux algérien et marocain remplacent Marine Le Pen",
-      "url": "https://observalgerie.com/2026/07/22/faits-divers/le-site-du-rassemblement-national-pirate-des-drapeaux-algerien-et-marocain-remplacent-marine-le-pen/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-22T10:56:10.000Z",
-      "summary": "Le site internet du Rassemblement national (RN) a été victime d’une intrusion informatique mardi 21 juillet, avec plusieurs pages modifiées par des …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://observalgerie.com/wp-content/uploads/2026/07/les-drapeaux-algerien-et-marocain-remplacent-marine-le-pen.jpg"
     },
     {
       "id": "47f108d1c66a033275a2aeaff77e5448b1e8a51c",
@@ -1671,17 +1726,6 @@
       "imageUrl": "https://www.zataz.com/wp-content/uploads/coca_anubis-1.jpg"
     },
     {
-      "id": "39b6d13163d35dbc2f3852ad571ea0b8b8028a66",
-      "title": "Le Rassemblement national visé par un piratage informatique, le parti annonce qu’il va porter plainte",
-      "url": "https://www.ouest-france.fr/politique/rassemblement-national/le-rassemblement-national-vise-par-un-piratage-informatique-le-parti-annonce-quil-va-porter-plainte-6f070a68-84e5-11f1-94d8-e478b94a49e4?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-21T10:12:16.000Z",
-      "summary": "Le Rassemblement national (RN) a été victime d’une attaque informatique ce mardi 21 juillet. Dans un communiqué, le parti assure qu’aucun « élément …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/a53c5349e26f05d7035f516788a36a7aa3dd8df8/_xlarge.jpeg"
-    },
-    {
       "id": "08b38c659ad85bf5b989082e5d7631b6485f8717",
       "title": "Pour votre sécurité, il faut absolument éteindre puis rallumer votre smartphone (au lieu de redémarrer)",
       "url": "https://www.presse-citron.net/pour-votre-securite-il-faut-absolument-eteindre-puis-rallumer-votre-smartphone-au-lieu-de-redemarrer/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -1858,17 +1902,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjho_D61rng1SKt_vyKBuuHeBlTm5uQ55-9SSSXuktMbO6iE0khzlKYA0mmaNLDVejgglz1kKnBkINCbI_KdqdH48UBw9bALf9l7ebuab84zp3aMnIHAbvm4OI62y4_QChmk-SnrUFN6AZ2bJgkvZasI4eApEFPX4M-94ZRO_MfQTjX52CaYQ-Ui2trHfs/s1600/ms365.jpg"
     },
     {
-      "id": "3c28069fc4f0587db88f6cd3d23412119cbeb493",
-      "title": "⚡ Weekly Recap: WordPress RCE, SonicWall 0-Days, AI Service Attacks, SharePoint 0-Day and More",
-      "url": "https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-20T13:32:26.000Z",
-      "summary": "A single request should not be able to do this much. But this week, small inputs led to code execution, memory loss, stolen keys, and disabled security tools. The paths were often ",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA-JVLR3XITNdsuoWZQFMu12z6UeqsAdKWjS4Iu6piGP-4Natjx3GZ4obTdwddY5YHPgNoYDJljFCpAh9YRUntTakZeiGikoJYjjgEcv2ZVPchuCuyIfRh_3aTJ64Ktke9RkdRxH7DalTVqGf0YgF3fDj2lHgvVyIDANaMn1KVy1d1CBXTZxAwyJBqEClL/s1600/cyberrecap.jpg"
-    },
-    {
       "id": "c50d6a7963ddff19d689fdf63baf4a87aabda0e0",
       "title": "Le plus grand défi de la cybersécurité n'est ni l'IA ni l'informatique quantique : c'est la confiance",
       "url": "https://www.journaldunet.com/cybersecurite/1552637-le-plus-grand-defi-de-la-cybersecurite-n-est-ni-l-ia-ni-l-informatique-quantique-c-est-la-confiance/?amp%3Butm_content=topic%2Ffr-cryptographie",
@@ -1878,39 +1911,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/journaldunet.com/1644d53d3699ebeb15063f69370beb888652bcf7/_xlarge.jpeg"
-    },
-    {
-      "id": "d7d718669d6d1481ff3dc4483d7937e0f4225a76",
-      "title": "Russian Intelligence Hacks IP Cameras to Spy on Military Logistics Across NATO States and Ukraine",
-      "url": "https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-20T12:13:39.000Z",
-      "summary": "At least one Russian intelligence service is systematically hijacking internet-connected security cameras across Europe and Ukraine, using the feeds to watch military transport rou",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnZdcdM-XJQ9tmIQw7h4gqSDABg-Ip1mzizMoR9zRcyQmaG7OGlQSp1ad0RsZSflsvdKVn0bs4EXdPthnHgiC76as_RVG-W7vZ88AHvJ2HhCLEaQOlNukhrTl6NSq6sgAHGiGUXemDrbZePvUDIi2oxWb60rRX5lkxA5bsFBJplBkaVQTZ5R0EjOrJTaQ/s1600/ip-camera-hacking.jpg"
-    },
-    {
-      "id": "f8809fa0909973bba20c5105c80c1fdf8fe83d4f",
-      "title": "Mythos Didn't Break Your Security Program. Your Exposure Window Could.",
-      "url": "https://thehackernews.com/2026/07/mythos-didnt-break-your-security.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-20T11:30:00.000Z",
-      "summary": "The industry spent the initial months after Anthropic's April 7 Mythos reveal focused on volume. How many new CVEs would Mythos add to an already overloaded pipeline? How quickly w",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPz_r-By1h0xZL5FiBqJIALstL79CJXVbUweKybWr0EG7qKcLPYSo750ATDQjzd9tE6piMt4-TkFY4mT87Q58Jg_0jHMCveyydooFMjk5hKUk0jQA_Uxp6WamlMsFIjXcws2ighKsjC907P45OIhcimimpm-ECyQ_bq5erQ2MTvH7HGwzGgXrxQSIBBx0/s1600/xmcyber.jpg"
-    },
-    {
-      "id": "366808ca16d31376e6f64857550c7b12ea209682",
-      "title": "New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction",
-      "url": "https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-20T09:10:56.000Z",
-      "summary": "Opening a crafted XZ archive in 7-Zip could let an attacker run code on the machine. The flaw, CVE-2026-14266, is a heap-based buffer overflow in how the archiver processes XZ chun",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuAoanL7LxDYHynfggiOQo_RDymqYrFlfnRNrstIG6KgYuDWk2uR0eZDx_vCSLWsjTmP5LohkMSGQ_sc32hE4TGqqUCkGwsDlOUzP3bb-Ib-whRLliIb0YVozTMZF-lgSsPJr55l7GPjR1Xq-sH7dieWTBNnZsttdSfOxowTrEZImrcJ-_cI6i4zVFlII/s1600/7-zip.jpg"
     },
     {
       "id": "b7f97f29484890ecc0763959cb1e06db32b9b72d",
