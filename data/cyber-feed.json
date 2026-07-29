@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T19:19:30.380Z",
+  "generatedAt": "2026-07-29T20:58:22.153Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -172,6 +172,17 @@
       "summary": "&lt;p&gt;CISA, the National Security Agency, the Federal Bureau of Investigation, and international partners released joint guidance,&amp;nbsp;&lt;a href=&quot;https://www.cisa.gov",
       "type": "CVE",
       "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "f0d715e0b6555edbb00fbcd40ae461a74dc345fc",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/07/29/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "source": "CISA",
+      "publishedAt": "2026-07-29T12:00:00.000Z",
+      "summary": "&lt;p&gt;CISA has added one new vulnerability to its &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities (KEV) Ca",
+      "type": "CVE",
+      "severity": "Critique",
       "imageUrl": null
     },
     {
@@ -433,10 +444,10 @@
       "url": "https://www.lefigaro.fr/secteur/high-tech/claude-mythos-peut-il-detruire-l-economie-mondiale-et-les-communications-l-ia-d-anthropic-a-compromis-les-mecanismes-secrets-qui-securisent-internet-20260728?amp%3Butm_content=topic%2Ffr-cryptographie",
       "source": "Cryptographie FR",
       "publishedAt": "2026-07-28T20:48:41.000Z",
-      "summary": "DÉCRYPTAGE - Le géant de l’IA a annoncé qu’un de ses prototypes avait réussi à percer deux systèmes de chiffrement différents. Ces systèmes …",
+      "summary": "DÉCRYPTAGE - Le géant de l’IA a annoncé qu’un de ses prototypes avait réussi à percer en partie deux systèmes de chiffrement différents. Ces systèmes …",
       "type": "CVE",
       "severity": "Critique",
-      "imageUrl": "https://i.f1g.fr/media/cms/1200x630_crop/2026/07/28/65e292d2e7b0efc1040d8573fb25de3a3a5b4453dc2251ed4e645ea64b9db94f.jpg"
+      "imageUrl": "https://ic-cdn.flipboard.com/f1g.fr/bac2d7a97e5d5238b354751864bfbc2884444e26/_xlarge.jpeg"
     },
     {
       "id": "76048caba27d89c3da6f98326ffb0617c506b7ff",
@@ -532,7 +543,7 @@
       "url": "https://www.letemps.ch/articles/carte-d-identite-numero-de-telephone-contrat-a-quoi-faut-il-veiller-quand-on-s-est-fait-voler-ses-donnees",
       "source": "Cybercriminalité FR",
       "publishedAt": "2026-07-28T14:30:25.000Z",
-      "summary": "Julie Eigenmann Publié le 28 juillet 2026 à 16:30. / Modifié le 29 juillet 2026 à 06:51. 2 min. de lecture Que font les cybercriminels avec nos …",
+      "summary": "Julie Eigenmann Publié le 28 juillet 2026 à 16:30. / Modifié le 29 juillet 2026 à 13:23. 2 min. de lecture Que font les cybercriminels avec nos …",
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://letemps-17455.kxcdn.com/photos/35f87e06-f697-4f18-a46c-7f0b795f4867/medium"
@@ -593,17 +604,6 @@
       "imageUrl": null
     },
     {
-      "id": "1e01cd632aba756d82ede0a50647cdf751fb2f55",
-      "title": "CI Fortify – Advice for isolating vital systems",
-      "url": "https://www.cisa.gov/resources-tools/resources/ci-fortify-advice-isolating-vital-systems",
-      "source": "CISA",
-      "publishedAt": "2026-07-28T12:00:00.000Z",
-      "summary": "&lt;div class=&quot;c-page-title__buttons&quot;&gt;&lt;a class=&quot;c-button&quot; href=&quot;https://www.cyber.gov.au/business-government/secure-design/operational-technology-env",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
       "id": "89872bf31352d8b67771f14f5807aa34bdccb3da",
       "title": "MikroTik RouterOS and Cloud Hosted Router",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-05",
@@ -626,12 +626,34 @@
       "imageUrl": null
     },
     {
+      "id": "1e01cd632aba756d82ede0a50647cdf751fb2f55",
+      "title": "CI Fortify – Advice for isolating vital systems",
+      "url": "https://www.cisa.gov/resources-tools/resources/ci-fortify-advice-isolating-vital-systems",
+      "source": "CISA",
+      "publishedAt": "2026-07-28T12:00:00.000Z",
+      "summary": "&lt;div class=&quot;c-page-title__buttons&quot;&gt;&lt;a class=&quot;c-button&quot; href=&quot;https://www.cyber.gov.au/business-government/secure-design/operational-technology-env",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
       "id": "13af24241e40af345f583cf94b1fc658efb85600",
       "title": "Siemens Desigo CC",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-01",
       "source": "CISA",
       "publishedAt": "2026-07-28T12:00:00.000Z",
       "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-209-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "545f5dabc256ef0c814d4b974bfdb48afebaa3ca",
+      "title": "igloohome Smart Lock Mobile Application",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-06",
+      "source": "CISA",
+      "publishedAt": "2026-07-28T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-209-06.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -654,17 +676,6 @@
       "source": "CISA",
       "publishedAt": "2026-07-28T12:00:00.000Z",
       "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-209-07.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "545f5dabc256ef0c814d4b974bfdb48afebaa3ca",
-      "title": "igloohome Smart Lock Mobile Application",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-06",
-      "source": "CISA",
-      "publishedAt": "2026-07-28T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-209-06.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1759,23 +1770,34 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXkCZuPeRyg1ChSuRUngYAxHTfN5dCHgGrSaCg3hA40XvmX2vRmKxgGJ7Pzli72_i9XK9XgCQhhRNK5dE3XJ_EklUH_Nzoqx4YLy7NeKSHB4RCd4KkdhrCB1vdEEcGsgnzumTMwi3_J4BxsGc3t0pjb2mhjkHfBcF5PDUqTe9F0wZPaC94Y6AwMXICZ9E/s1600/zimbra-exploit.jpg"
     },
     {
-      "id": "bfc45d275b75b4d5091f0121d9b10bdce55599ee",
-      "title": "MZ Automation lib60870",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-07",
+      "id": "3c361933d916f9d50fb25560d2cd1ebd8a5f4a2b",
+      "title": "MZ Automation libIEC61850",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-06",
       "source": "CISA",
       "publishedAt": "2026-07-23T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-204-07.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-204-06.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
     },
     {
-      "id": "a94675cf28270cb7e21ec6abfd36e820eb6f7dcb",
-      "title": "Johnson Controls C-CURE 9000 and Victor application server",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-01",
+      "id": "004c3a59dffad962f23b19b68da89b745a0d2836",
+      "title": "Rockwell Automation ThinManager",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-05",
       "source": "CISA",
       "publishedAt": "2026-07-23T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-204-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-204-05.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "4506ba55cfa160aac95f74d83935793c58c3817b",
+      "title": "Johnson Controls XAAP Android",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-02",
+      "source": "CISA",
+      "publishedAt": "2026-07-23T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-204-02.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1792,6 +1814,17 @@
       "imageUrl": null
     },
     {
+      "id": "a94675cf28270cb7e21ec6abfd36e820eb6f7dcb",
+      "title": "Johnson Controls C-CURE 9000 and Victor application server",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-01",
+      "source": "CISA",
+      "publishedAt": "2026-07-23T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-204-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
       "id": "c3011e213b1ffb59af67aa075bda005f94c46fc5",
       "title": "Russian State-Supported Cyber Actors Conduct Phishing Campaign Targeting Users of Zimbra Collaboration Suite",
       "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-204a",
@@ -1803,34 +1836,12 @@
       "imageUrl": null
     },
     {
-      "id": "004c3a59dffad962f23b19b68da89b745a0d2836",
-      "title": "Rockwell Automation ThinManager",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-05",
+      "id": "bfc45d275b75b4d5091f0121d9b10bdce55599ee",
+      "title": "MZ Automation lib60870",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-07",
       "source": "CISA",
       "publishedAt": "2026-07-23T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-204-05.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "3c361933d916f9d50fb25560d2cd1ebd8a5f4a2b",
-      "title": "MZ Automation libIEC61850",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-06",
-      "source": "CISA",
-      "publishedAt": "2026-07-23T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-204-06.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "4506ba55cfa160aac95f74d83935793c58c3817b",
-      "title": "Johnson Controls XAAP Android",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-02",
-      "source": "CISA",
-      "publishedAt": "2026-07-23T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-204-02.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-204-07.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -2144,6 +2155,17 @@
       "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/e660c532346d919f78f3c393c6d9e50cfb205d01-3840x2160.jpg?auto=format&amp%3Bw=960&amp%3Bh=540&amp%3Bcrop=focalpoint&amp%3Bfit=clip&amp%3Bq=75&amp%3Bfm=jpg"
     },
     {
+      "id": "925bcdbe35a173b56451c4c855bf9213ca946ae8",
+      "title": "Rockwell Automation 1718-AENTR/1719-AENTR",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-08",
+      "source": "CISA",
+      "publishedAt": "2026-07-21T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-202-08.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
       "id": "786a6fb8c1e7f7d1ff780a6058bff7a4f2ef94b7",
       "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
       "url": "https://www.cisa.gov/news-events/alerts/2026/07/21/cisa-adds-four-known-exploited-vulnerabilities-catalog",
@@ -2161,17 +2183,6 @@
       "source": "CISA",
       "publishedAt": "2026-07-21T12:00:00.000Z",
       "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-202-04.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "925bcdbe35a173b56451c4c855bf9213ca946ae8",
-      "title": "Rockwell Automation 1718-AENTR/1719-AENTR",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-08",
-      "source": "CISA",
-      "publishedAt": "2026-07-21T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-202-08.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -2249,17 +2260,6 @@
       "source": "CISA",
       "publishedAt": "2026-07-21T12:00:00.000Z",
       "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-202-03.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "f082896f386f5254e30e0e995bc3f86ae37ad734",
-      "title": "Tycon Systems TPDIN-Monitor-WEB2",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-01",
-      "source": "CISA",
-      "publishedAt": "2026-07-21T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-202-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
