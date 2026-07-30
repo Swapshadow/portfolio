@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T19:34:53.753Z",
+  "generatedAt": "2026-07-30T21:12:20.529Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -22,9 +22,8 @@
     {
       "name": "Exploit-DB",
       "url": "https://www.exploit-db.com/rss.xml",
-      "status": "error",
-      "items": 0,
-      "error": "fetch failed"
+      "status": "ok",
+      "items": 50
     },
     {
       "name": "The Hacker News",
@@ -76,6 +75,17 @@
     }
   ],
   "items": [
+    {
+      "id": "3e272a42aaf2f072790c4898849f3c7d7eb527cf",
+      "title": "États-Unis : des pirates iraniens suspectés d'une cyberattaque sur des réseaux d'alimentation en eau dans le Minnesota",
+      "url": "https://www.lefigaro.fr/flash-actu/etats-unis-des-pirates-iraniens-suspectes-d-une-cyberattaque-sur-des-reseaux-d-alimentation-en-eau-dans-le-minnesota-20260730?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-30T19:32:23.000Z",
+      "summary": "Selon le spécialiste américain de sécurité informatique Tenable, la méthode utilisée lors de l’attaque «est ressemblante» avec celle du collectif de …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://i.f1g.fr/media/cms/1200x630_crop/2026/07/30/b32f4d5762cbd47e09eef0d29cc2616b279f7e140cbaad51d520420b8ca9ecab.jpg"
+    },
     {
       "id": "c8501fb15581e277abb295b5cacc8c963793bacc",
       "title": "DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware",
@@ -198,6 +208,17 @@
       "imageUrl": null
     },
     {
+      "id": "36bd6a38b61bebc1c01ab31a88558ba56dcabb32",
+      "title": "Open Source Software: Security Principles and Practices",
+      "url": "https://www.cisa.gov/resources-tools/resources/open-source-software-security-principles-and-practices",
+      "source": "CISA",
+      "publishedAt": "2026-07-30T12:00:00.000Z",
+      "summary": "&lt;p&gt;Open source software (OSS) is embedded in nearly every modern system, from business applications to critical infrastructure. Our new Open Source Software: Security Princip",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": null
+    },
+    {
       "id": "7a453dfae0a561d230a1d7f1adb8ca0d5582b16e",
       "title": "MikroTik RouterOS",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-01",
@@ -231,6 +252,17 @@
       "imageUrl": null
     },
     {
+      "id": "7ecc91282a2acfe1d32adb5664127af6f84332a9",
+      "title": "CISA Urges Water and Wastewater Systems Sector to Protect OT Against Activity Targeting PLCs",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/07/30/cisa-urges-water-and-wastewater-systems-sector-protect-ot-against-activity-targeting-plcs",
+      "source": "CISA",
+      "publishedAt": "2026-07-30T12:00:00.000Z",
+      "summary": "&lt;p&gt;CISA is currently observing a significant increase in cyber threat actors targeting programmable logic controllers (PLCs) in the Water and Wastewater Systems (WWS) Sector.",
+      "type": "CVE",
+      "severity": "Moyenne",
+      "imageUrl": null
+    },
+    {
       "id": "6354c50510b0629d69b251092f3dd02c4d64f8cd",
       "title": "Johnson Controls OpenBlue Employee",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-02",
@@ -250,17 +282,6 @@
       "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-211-10.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "36bd6a38b61bebc1c01ab31a88558ba56dcabb32",
-      "title": "Open Source Software: Security Principles and Practices",
-      "url": "https://www.cisa.gov/resources-tools/resources/open-source-software-security-principles-and-practices",
-      "source": "CISA",
-      "publishedAt": "2026-07-30T12:00:00.000Z",
-      "summary": "&lt;p&gt;Open source software (OSS) is embedded in nearly every modern system, from business applications to critical infrastructure. Our new Open Source Software: Security Princip",
-      "type": "CVE",
-      "severity": "Critique",
       "imageUrl": null
     },
     {
@@ -1166,23 +1187,23 @@
       "imageUrl": null
     },
     {
-      "id": "84a819467395ea5c64c62fc860990cb3531b7aa3",
-      "title": "Siemens SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-04",
-      "source": "CISA",
-      "publishedAt": "2026-07-28T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-209-04.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
       "id": "1e01cd632aba756d82ede0a50647cdf751fb2f55",
       "title": "CI Fortify – Advice for isolating vital systems",
       "url": "https://www.cisa.gov/resources-tools/resources/ci-fortify-advice-isolating-vital-systems",
       "source": "CISA",
       "publishedAt": "2026-07-28T12:00:00.000Z",
       "summary": "&lt;div class=&quot;c-page-title__buttons&quot;&gt;&lt;a class=&quot;c-button&quot; href=&quot;https://www.cyber.gov.au/business-government/secure-design/operational-technology-env",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "84a819467395ea5c64c62fc860990cb3531b7aa3",
+      "title": "Siemens SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-04",
+      "source": "CISA",
+      "publishedAt": "2026-07-28T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-209-04.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1210,17 +1231,6 @@
       "imageUrl": null
     },
     {
-      "id": "89872bf31352d8b67771f14f5807aa34bdccb3da",
-      "title": "MikroTik RouterOS and Cloud Hosted Router",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-05",
-      "source": "CISA",
-      "publishedAt": "2026-07-28T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-209-05.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
       "id": "d6b9322e4e599e0d0fa17206709e57fc72eacf27",
       "title": "Siemens SIMATIC S7-PLCSIM Advanced",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-03",
@@ -1238,6 +1248,17 @@
       "source": "CISA",
       "publishedAt": "2026-07-28T12:00:00.000Z",
       "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-209-02.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "89872bf31352d8b67771f14f5807aa34bdccb3da",
+      "title": "MikroTik RouterOS and Cloud Hosted Router",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-05",
+      "source": "CISA",
+      "publishedAt": "2026-07-28T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-209-05.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1771,17 +1792,6 @@
       "imageUrl": null
     },
     {
-      "id": "29773135d212dfe42a23ba9da96b8fe5a5ebff8a",
-      "title": "« Banquiers, assureurs, gérants d'actifs, la prochaine crise ne sera dans aucun de vos scénarios »",
-      "url": "https://www.lesechos.fr/idees-debats/cercle/banquiers-assureurs-gerants-dactifs-la-prochaine-crise-ne-sera-dans-aucun-de-vos-scenarios-2244405?amp%3Butm_content=topic%2Ffr-technologie",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-26T19:00:00.000Z",
-      "summary": "28 avril 2025, 12 h 33 : l'Espagne et le Portugal s'éteignent. Noël 2025 : trois grandes banques françaises tombent sous une cyberattaque. Derrière …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://media.lesechos.com/api/v1/images/view/6a66015b3f40a72dbf095dfa/1280x720/0200988372830-web-tete.jpg"
-    },
-    {
       "id": "dac4ff0868d1079d63d3868920c5a41de38b6679",
       "title": "Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable",
       "url": "https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html",
@@ -2057,36 +2067,14 @@
       "imageUrl": null
     },
     {
-      "id": "bfc45d275b75b4d5091f0121d9b10bdce55599ee",
-      "title": "MZ Automation lib60870",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-07",
+      "id": "bf1e5167be167c0797f8df0c7be9b8da9b05b15b",
+      "title": "Weintek cMT3092X",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-03",
       "source": "CISA",
       "publishedAt": "2026-07-23T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-204-07.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-204-03.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "a94675cf28270cb7e21ec6abfd36e820eb6f7dcb",
-      "title": "Johnson Controls C-CURE 9000 and Victor application server",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-01",
-      "source": "CISA",
-      "publishedAt": "2026-07-23T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-204-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "c3011e213b1ffb59af67aa075bda005f94c46fc5",
-      "title": "Russian State-Supported Cyber Actors Conduct Phishing Campaign Targeting Users of Zimbra Collaboration Suite",
-      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-204a",
-      "source": "CISA",
-      "publishedAt": "2026-07-23T12:00:00.000Z",
-      "summary": "&lt;div class=&quot;c-page-title__buttons&quot;&gt;&lt;a class=&quot;c-button&quot; href=&quot;https://media.defense.gov/2026/Jul/22/2003965244/-1/-1/1/CSA_RUSSIA_PHISHING_TARGET_Z",
-      "type": "CVE",
-      "severity": "Élevée",
       "imageUrl": null
     },
     {
@@ -2101,12 +2089,12 @@
       "imageUrl": null
     },
     {
-      "id": "f325e745391856f887c5d62f1d217612a334de3c",
-      "title": "Panduit IntraVUE",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-04",
+      "id": "bfc45d275b75b4d5091f0121d9b10bdce55599ee",
+      "title": "MZ Automation lib60870",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-07",
       "source": "CISA",
       "publishedAt": "2026-07-23T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-204-04.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-204-07.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -2123,12 +2111,23 @@
       "imageUrl": null
     },
     {
-      "id": "3c361933d916f9d50fb25560d2cd1ebd8a5f4a2b",
-      "title": "MZ Automation libIEC61850",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-06",
+      "id": "a94675cf28270cb7e21ec6abfd36e820eb6f7dcb",
+      "title": "Johnson Controls C-CURE 9000 and Victor application server",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-01",
       "source": "CISA",
       "publishedAt": "2026-07-23T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-204-06.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-204-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "f325e745391856f887c5d62f1d217612a334de3c",
+      "title": "Panduit IntraVUE",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-04",
+      "source": "CISA",
+      "publishedAt": "2026-07-23T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-204-04.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
