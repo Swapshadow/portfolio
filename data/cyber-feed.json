@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T10:41:16.463Z",
+  "generatedAt": "2026-07-31T14:11:56.769Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,7 +17,7 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 111
+      "items": 116
     },
     {
       "name": "Exploit-DB",
@@ -76,9 +76,75 @@
   ],
   "items": [
     {
-      "id": "4e63a99f4098d22aeb218629c4ca7b28d775fab8",
+      "id": "e2f3fcd309ce047b93a05fc2705b0c3d855df3df",
+      "title": "Un pirate revendique un accès au CRM d’ENI",
+      "url": "https://www.zataz.com/un-pirate-revendique-un-acces-au-crm-deni/",
+      "source": "Zataz",
+      "publishedAt": "2026-07-31T14:11:01.000Z",
+      "summary": "Un pirate revendique un accès au CRM français d’ENI et diffuse des factures de professionnels et grands comptes.",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.zataz.com/wp-content/uploads/Eni_leak_fk.jpg"
+    },
+    {
+      "id": "d305c6185a319ccb0568b083246119148f3f3ee5",
+      "title": "Hacktivisme : une fuite « Macroleak » de 2017 contre Chat Control ressort du darkweb !",
+      "url": "https://www.zataz.com/hacktivisme-une-fuite-macroleak-de-2017-contre-chat-control-ressort-du-darkweb/",
+      "source": "Zataz",
+      "publishedAt": "2026-07-31T13:41:31.000Z",
+      "summary": "Un hacktiviste exhume des données de 2017 pour attaquer Chat Control et justifier une fuite politique controversée.",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://www.zataz.com/wp-content/uploads/hacktiviste_leak-2017.jpg"
+    },
+    {
+      "id": "c3a611d4bda3cb49f6e6b0b574b0e990f1da3649",
+      "title": "Bitcoin 2026 : Saylor déclare les règles une constitution immuable",
+      "url": "https://fr.spaziocrypto.com/bitcoin/guerre-civile-bitcoin-saylor-constitution-bip-110/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-07-31T13:29:40.000Z",
+      "summary": "Pendant quinze ans, Bitcoin a repoussé chaque ennemi extérieur: gouvernements cherchant à l'interdire, banques le tournant en dérision, hackers …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/spaziocrypto.com/1ae0ecf1d2eefea7840e0409924e1a5635af91b5/_xlarge.webp"
+    },
+    {
+      "id": "b80ae3bb28a2947650158404336aee39fd6797ee",
+      "title": "6 Reasons Why Device Code Phishing is the Fastest-Growing Threat of 2026",
+      "url": "https://thehackernews.com/2026/07/6-reasons-why-device-code-phishing-is.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-31T11:24:59.000Z",
+      "summary": "Device code phishing - the abuse of the OAuth 2.0 device authorization grant to steal access tokens - has evolved from a niche red-team technique to an industrial-scale threat in u",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiamJN4Z-p-XmpB_1nwgfCMj2JvWAmGP4avhjI3pBYb11kgANQy4wQf2DQ4VGJEXom4eZCFoqVozP4aJPPtpGufYrEe5E9xkebmctud6KO7NZEfNCiT14ln7CmZA1bB3m6HYNdiUnShVsIpr03SYa7jlZWnbml9R1HbqECSbnUH0DTqyETz1fpiNIqhExw/s1600/push-main.jpg"
+    },
+    {
+      "id": "c06f6188a529f3bb70ab2cd5407ea9ff8ef019b4",
+      "title": "Chinese Hacker Commands DeepSeek via Telegram to Launch Autonomous Attacks",
+      "url": "https://thehackernews.com/2026/07/chinese-hacker-commands-deepseek-via.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-31T11:21:27.000Z",
+      "summary": "Palo Alto Networks' Unit 42 says a Chinese-speaking threat actor used DeepSeek through the open-source Hermes Agent framework to launch attacks autonomously. After an initial Teleg",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2dGysHIR6yJWx6hMxq6lAct7fi4YTury_WDkrcenDv-psd-fU7I8K3RbM6Blox_5OE3MQojew5bnPamtI_DPzdBX6fOk295hhQh6rBkA2f9a1sN7t7ZbSyU-kWdLoIb7XnseOHKPmLOGRb9wRRvmV0scVZ4rhMtxSmqOLZmZIUjtg_IHT4FBg5gzeX50/s1600/deepseek-telegram.jpg"
+    },
+    {
+      "id": "4fbfb568ba2c184c17aa7a98554408489458378d",
+      "title": "Alerte avant le Q-Day : Claude Mythos a trouvé en 60 heures la faille d’un futur bouclier contre le quantique",
+      "url": "https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-alerte-avant-q-day-claude-mythos-trouve-60-heures-faille-futur-bouclier-quantique-136644/",
+      "source": "Cryptographie FR",
+      "publishedAt": "2026-07-31T09:35:51.000Z",
+      "summary": "La sécurité de nos données les plus confidentielles est en danger. La menace n'est plus seulement l'informatique quantique, mais aussi l'intelligence …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/futura-sciences.com/9aaec9e9ce1539c166c1311d6cd19d7dbd10565b/_xlarge.jpeg"
+    },
+    {
+      "id": "394c052cf1193ee449e53fca1581e842149841b6",
       "title": "L’Union européenne sanctionne l’empire des centres d'arnaques en ligne en Asie",
-      "url": "https://www.rfi.fr/fr/asie-pacifique/20260731-l-union-europ%C3%A9enne-sanctionne-l-empire-des-centres-d-arnaques-en-ligne-en-asie?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "url": "https://www.rfi.fr/fr/asie-pacifique/20260731-l-union-europ%C3%A9enne-sanctionne-l-empire-des-centres-d-arnaques-en-ligne-en-asie?amp%3Butm_content=topic%2Ffr-technologie",
       "source": "Cybercriminalité FR",
       "publishedAt": "2026-07-31T09:15:25.000Z",
       "summary": "Ce sont des centres d’arnaques en Asie du Sud-Est qui exploitent des milliers de travailleurs et font perdre des milliards de dollars à leurs victimes aux quatre coins du monde. On",
@@ -109,6 +175,17 @@
       "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/a704350f4bfb5351bb3b79c1c98e6c31dbaaf13f/_xlarge.webp"
     },
     {
+      "id": "6f29cc8160ef44d345bbf25e125b701ec1a809be",
+      "title": "Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations",
+      "url": "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-07-31T06:41:44.000Z",
+      "summary": "Anthropic on Thursday became the latest artificial intelligence (AI) company to reveal that three of its models, including Claude Opus 4.7, Mythos 5, and an unnamed research model,",
+      "type": "LEAK",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJ3hIjH82iCzMILnA0uACotjW9waDLj4siTRhyphenhyphenBSiVyis0Ul0j7-7FcWyDzmCAzZPLJ72iYRezpbd9dUAB_UMw5G4eMBRwph0Sb_aQr9yCRXeLXAkjGiNFekM_qDtOZNFsSk6LLC81Ef74JaqIrcJN58-5p2ShHmUuhKC1IYeVgpQ7D76NWXLnR44RN6G6/s1600/claude.jpg"
+    },
+    {
       "id": "bc5452f935f4dc8b0184314ae38c9ecbf969e0b6",
       "title": "Quatre jeux cyber pour stimuler vos vacances",
       "url": "https://www.zataz.com/quatre-jeux-cyber-pour-stimuler-vos-vacances/",
@@ -118,6 +195,149 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://www.zataz.com/wp-content/uploads/zataz_estival.jpg"
+    },
+    {
+      "id": "bd80630390f3c6270b53a2144ba6be0c4e8ad9e0",
+      "title": "VMware - CVE-2026-59309",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/vmware-cve-2026-59309-2026-07-31",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-31T00:23:00.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;contournement de l'authentification&lt;/strong&gt; dans &lt;strong&gt;VMware vCenter.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "f8059c0125323847c5749c3008ba0e2ded9d9713",
+      "title": "Node.js - CVE-2026-58043",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/nodejs-cve-2026-58043-2026-07-31",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-31T00:16:00.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;contrôle d'accès inapproprié&lt;/strong&gt; dans le modèle de permissions de &lt;strong&gt;Node.js.&lt;/strong&gt;&lt;/p&gt;",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "24a190373d3e94f82ed5116bc9fbdfe121126220",
+      "title": "SolarWinds - CVE-2026-28323",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/solarwinds-cve-2026-28323-2026-07-31",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-31T00:14:00.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;contournement d'authentification SAML&lt;/strong&gt; dans &lt;strong&gt;SolarWinds Web Help Desk.&lt;/strong&gt;&lt;/p&gt; &",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "d46659985c091f208e1e21d4f63706f9eb01e946",
+      "title": "Google - CVE-2026-17681",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/google-cve-2026-17681-2026-07-31",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-31T00:12:00.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;validation insuffisante des entrées non fiables&lt;/strong&gt; dans&lt;strong&gt; Web Authentication de Google Chrome.&lt;/s",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "7e16a24a310b0316aeaa676eb9d83df28470459c",
+      "title": "IBM - CVE-2026-10535",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/ibm-cve-2026-10535-2026-07-31",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-31T00:05:00.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;dépassement de tampon (buffer overflow)&lt;/strong&gt; dans le composant &lt;strong&gt;db2flacc&lt;/strong&gt; de &lt;strong",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "7ae3e9e7643084725d2d1f58f2fc7b1748596d7b",
+      "title": "Multiples vulnérabilités dans les produits IBM (31 juillet 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0958/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-07-31T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, u",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "b278622b2a90328069aec168201d3111758c381c",
+      "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (31 juillet 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0955/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-07-31T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à di",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "6dcf8ee9cce6fc2cdf2961aacdabdeef4b635ccf",
+      "title": "Multiples vulnérabilités dans Progress MOVEit Transfer (31 juillet 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0951/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-07-31T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Progress MOVEit Transfer. Elles permettent à un attaquant de provoquer une injection de code indirecte à distance (XSS) et un c",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "e0ad70ca27ffd34783443ad8644b15a94b36d5d0",
+      "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (31 juillet 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0954/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-07-31T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une attein",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "96129eb256348b6cb2311a0e70ee50e9011ae0bc",
+      "title": "Vulnérabilité dans Microsoft Azure (31 juillet 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0953/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-07-31T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans Microsoft Azure. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "b0b4f16373742a658b5d707e29217b42c2852959",
+      "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (31 juillet 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0957/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-07-31T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian LTS. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une a",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "d55666a89f69fb14fe14f0124f6a0b60f58ae8eb",
+      "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (31 juillet 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0956/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-07-31T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des do",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "a93f337b6958b940c4445cee260252e40b9a49b6",
+      "title": "Multiples vulnérabilités dans PHP (31 juillet 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0952/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-07-31T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans PHP. Certaines d'entre elles permettent à un attaquant de provoquer une injection SQL (SQLi), un déni de service et un problème",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
     },
     {
       "id": "8682ec715487985367a55badea08aa994b40e48c",
@@ -131,15 +351,15 @@
       "imageUrl": "https://media.lesechos.com/api/v1/images/view/6a6b5301a100a44ce10a3176/1280x720/02001553821845-web-tete.jpg"
     },
     {
-      "id": "7676cc0f075b3f8a9e2cb6e2a34de4eb000dab87",
-      "title": "Une méthode « ressemblante » : des pirates iraniens suspectés d’une cyberattaque sur des réseaux d’alimentation en eau aux États-Unis",
-      "url": "https://www.leparisien.fr/international/iran/une-methode-ressemblante-des-pirates-iraniens-suspectes-dune-cyberattaque-sur-des-reseaux-dalimentation-en-eau-aux-etats-unis-30-07-2026-NY4EHFMICFHMTCZFW5N6A2M7A4.php?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "id": "3e272a42aaf2f072790c4898849f3c7d7eb527cf",
+      "title": "États-Unis : des pirates iraniens suspectés d'une cyberattaque sur des réseaux d'alimentation en eau dans le Minnesota",
+      "url": "https://www.lefigaro.fr/flash-actu/etats-unis-des-pirates-iraniens-suspectes-d-une-cyberattaque-sur-des-reseaux-d-alimentation-en-eau-dans-le-minnesota-20260730?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
       "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-30T21:58:00.000Z",
-      "summary": "Selon le spécialiste américain de sécurité informatique Tenable, la méthode utilisée lors de l’attaque ressemble à celle du collectif de …",
+      "publishedAt": "2026-07-30T19:32:23.000Z",
+      "summary": "Selon le spécialiste américain de sécurité informatique Tenable, la méthode utilisée lors de l’attaque «est ressemblante» avec celle du collectif de …",
       "type": "NEWS",
       "severity": "Info",
-      "imageUrl": "https://www.leparisien.fr/resizer/bKT7-pM0WgYlH8Xzs8aZBBQrm3I=/1600x900/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/C3NMRNQ6TBYYWVRX4V4IFBI2RA.jpg"
+      "imageUrl": "https://i.f1g.fr/media/cms/1200x630_crop/2026/07/30/b32f4d5762cbd47e09eef0d29cc2616b279f7e140cbaad51d520420b8ca9ecab.jpg"
     },
     {
       "id": "c8501fb15581e277abb295b5cacc8c963793bacc",
@@ -481,17 +701,6 @@
       "type": "LEAK",
       "severity": "Info",
       "imageUrl": "https://www.zataz.com/wp-content/uploads/ia_darkweb.jpg"
-    },
-    {
-      "id": "a4247d9a0d0808a73ee41351ad9224fcfc991796",
-      "title": "Se connecter au Wi-Fi de l'hôtel peut suffire à vous faire pirater votre compte Microsoft 365",
-      "url": "https://www.frandroid.com/culture-tech/securite-applications/3198777_se-connecter-au-wi-fi-de-lhotel-peut-suffire-a-vous-faire-pirater-votre-compte-microsoft-365?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-30T09:13:09.000Z",
-      "summary": "Se connecter au Wi-Fi d’un hôtel peut suffire à exposer son compte Microsoft 365. La victime n’a même pas besoin de cliquer sur un lien piégé, le …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://c0.lestechnophiles.com/images.frandroid.com/wp-content/uploads/2026/06/claude-code-hack.jpg?resize=1600%2C900&amp%3Bkey=75477cd7"
     },
     {
       "id": "7de9f3f1a6fc63c231b9bba7a2934259fe935a74",
@@ -934,17 +1143,6 @@
       "imageUrl": "https://cdn-uploads.gameblog.fr/img//_6a6998191cdf0.webp"
     },
     {
-      "id": "70e5dcd97c57815f184cc9c584c0b45792f52068",
-      "title": "Les incroyables coulisses du piratage d’Hugging Face par des IA d’OpenAI - ZDNET",
-      "url": "https://www.zdnet.fr/actualites/les-incroyables-coulisses-du-piratage-dhugging-face-par-des-ia-dopenai-499107.htm",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-07-29T05:07:50.000Z",
-      "summary": "Une dizaine de jours après la découverte du piratage de cette licorne fondée par des français, on commence à avoir une vue plus détaillée de ses …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2025/09/scott-rodgerson-pspf_xgom5w-unsplash.jpg"
-    },
-    {
       "id": "c5bbee93c0d43495ee3f357410857a050a0b085a",
       "title": "Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js",
       "url": "https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html",
@@ -1077,17 +1275,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPhJ6dzEL23Ak57nA_XsbXtGaxl5wNrcGBPMQBVz1jddDuX_oTndpQjl3omqMxhRnQ1P4cSF7Ut18tccLFT2BxngpYTqTP8Kg6f4clFWRQ2GvxetR-uAGjMS2SsZwsiPcq5vyxCmP_AN3rCPvO5WMQeLNEit0q14i0iY9wuIUDAHMXkyvO3KjIC6c6Ozg/s1600/Claude.jpg"
     },
     {
-      "id": "5bbba7718dfde6d1be4f16e892958ccf597c360d",
-      "title": "Click to pray expose les données de plus de 700 000 fidèles",
-      "url": "https://www.zataz.com/click-to-pray-expose-les-donnees-de-719-517-fideles/",
-      "source": "Zataz",
-      "publishedAt": "2026-07-28T16:06:07.000Z",
-      "summary": "Click To Pray expose 700 000 comptes via une faille idiote, avec un risque élevé de phishing ciblé et d’usurpation.",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/prey_leak.jpg"
-    },
-    {
       "id": "70f57cd743103a5d89bd30cd451be8f3618078b8",
       "title": "La startup Ethereum EthSystems mise sur la confidentialité comme élément clé pour faire adopter les blockchains publiques par les banques",
       "url": "https://www.coindesk.com/fr/tech/2026/07/28/ethereum-startup-ethsystems-bets-privacy-is-key-to-getting-banks-on-public-blockchains?amp%3Butm_content=CoinDesk%2Fmagazine%2FCOINDESK+Fran%C3%A7ais",
@@ -1108,17 +1295,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/bfmtv.com/22af6def307fe66372a4cc65ceda125692473d3a/_xlarge.jpeg"
-    },
-    {
-      "id": "413e8c31dadb7bd1b0d88dcd6d5cbfb0ee92bb5a",
-      "title": "Wi-Fi public : ce que votre fournisseur, pirates et marketing peuvent voir",
-      "url": "https://www.zataz.com/wi-fi-public-ce-que-votre-fournisseur-pirates-et-marketing-peuvent-voir/",
-      "source": "Zataz",
-      "publishedAt": "2026-07-28T15:29:46.000Z",
-      "summary": "En voyage, découvrez ce que votre fournisseur ou pirate voient et comment protéger vos données sur un Wi-Fi public.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/wifi_free.jpg"
     },
     {
       "id": "93846d8a1a4706470c74c3acb3b6a9a3d7c062f0",
@@ -1825,28 +2001,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRIN1sheAdScq7AX9pLc07esRzQ18-0vBJ7hz9DlVhggVAImXrhYM_zxN0N6hJ2inDkBCnzRCXHR3Kv3I0QwyiVWkAMu7p949JSjgK611r48deMbrSN8iDD78aJdfxEeO_Jy6JFwOfPL_8M0RKEBl1RFO7ufvop1XG9-tdms7VRyvONXoteuCYp9Rg-FM/s1600/gitlab.gif"
     },
     {
-      "id": "b50c755357472ddcbc7ac144dbe9184602b18a7f",
-      "title": "CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking",
-      "url": "https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-25T10:14:21.000Z",
-      "summary": "For years, phishing campaigns targeting financial institutions followed the same playbook. Victims were tricked into entering usernames and passwords, attackers collected the crede",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiH4zKTZ_Lk6D_VXZEKWwF1k02-iDwrNY9MH7zrX_sotEB_f9m7-qvQkAbfTvW5YQyBVlVdSS3D4_0ky60KOzTABlPuPKEpDXwpnWO3eTtud33d8oxf54HilW5EgDJPwo0ea4rktguzjfMBnRy0yLGch1l2vLdY4GnG12imJqBIdZzhYRb04XcVP67KaxPM/s1600/insuretrap.jpg"
-    },
-    {
-      "id": "59d8d40dc64ef00cfacf77b2f4627694571a536c",
-      "title": "Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE",
-      "url": "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-25T10:14:03.000Z",
-      "summary": "Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and FlexP",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIGAlXgFCqm8atTe__HpWBiCWISmrPOazxOVBMF-_YNrP2goBbW_4PSwGzw1Ndyue4qrnQnqrQyAR4DTaAdaiJPlVUZi7M_iceb4fqofWK0sGRLO9CHnj0lngtxdlC-tKqrppqFaKIkct2vOtGn_o5kbNa4fj-dutt8PMjiO5TVBw895aLg0TOJb8TKKtv/s1600/cyberattack.jpg"
-    },
-    {
       "id": "4fffe772faf0af558ab04d979bdaf213422830d2",
       "title": "Fuites de données : la France devient la victime numéro un d'Europe, c'est de pire en pire",
       "url": "https://www.01net.com/actualites/fuites-donnees-france-victime-numero-un-europe.html?amp%3Butm_content=topic%2Ffr-technologie",
@@ -1856,17 +2010,6 @@
       "type": "LEAK",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/01net.com/7bd4240ce807a7b958318bd03311f89de6f65255/_xlarge.jpeg"
-    },
-    {
-      "id": "1e9b6a6e33fd6aa7dd869ac55c62945a4a43ab28",
-      "title": "DevMan RaaS Portal Centralizes Payload Builds, Victim Management, and Affiliate Payouts",
-      "url": "https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-25T09:53:41.000Z",
-      "summary": "The operators of the DevMan ransomware-as-a-service (RaaS) scheme are maintaining a dedicated web platform that offers affiliates the ability to build payloads, oversee earnings, a",
-      "type": "NEWS",
-      "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCfK-jqRTN8rgDTTIOMahlXeGbBvgMLQqdUc4pcB1eXYGmbMfvzVLohoakIuE6nlS9k2G8ncIMwgaYcfLN1r90Obxd8IDHGo5UVz-iDNkBaEbzcDMJl5yzaCQ7VTSh5GFOy8O6CjHXvK7Sdo0WctNPRFBxxtWONllByeJ1EtphQ-sDRabRefeNuXxzdCzY/s1600/ransomware-hacker.jpg"
     },
     {
       "id": "4fa7625543de2a30682dfeae0bb53475ab1e394f",
@@ -1935,45 +2078,12 @@
       "imageUrl": null
     },
     {
-      "id": "e37d24d7837574fc2cebd7a5dc5f16d0405b3cdc",
-      "title": "Vulnérabilité dans NetApp ONTAP 9 (24 juillet 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0923/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-07-24T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans NetApp ONTAP 9. Elle permet à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une ",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
       "id": "803bc4c3034e83db0188da885130b6fec950540b",
       "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (24 juillet 2026)",
       "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0929/",
       "source": "CERT-FR",
       "publishedAt": "2026-07-24T00:00:00.000Z",
       "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian LTS. Elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confi",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "0227d06ae5309a899ee87909657f994775097694",
-      "title": "Multiples vulnérabilités dans Microsoft Edge (24 juillet 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0924/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-07-24T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "14407917f1bfa513fb7747bce1978307a1aace61",
-      "title": "Multiples vulnérabilités dans Google Chrome (24 juillet 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0925/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-07-24T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -2051,17 +2161,6 @@
       "source": "CERT-FR",
       "publishedAt": "2026-07-24T00:00:00.000Z",
       "summary": "Une vulnérabilité a été découverte dans les produits Moxa. Elle permet à un attaquant de provoquer une élévation de privilèges.",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "c249ab9b5ffaa37aaa6f799c849b89c39b94889a",
-      "title": "Multiples vulnérabilités dans MongoDB (24 juillet 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0922/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-07-24T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans MongoDB. Elles permettent à un attaquant de provoquer un contournement de la politique de sécurité, un déni de service et un pr",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -2174,105 +2273,6 @@
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de traversée de chemin dans Traefik.&lt;/p&gt; &lt;p&gt;Traefik est un reverse proxy et répartiteur de charge HTTP open source, utilisé pour ",
       "type": "CVE",
       "severity": "Critique",
-      "imageUrl": null
-    },
-    {
-      "id": "66776b606c11d2ec1e9bc6361008b911152f92d5",
-      "title": "n8n - CVE-2026-65592",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/n8n-cve-2026-65592-2026-07-23",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-07-23T03:58:01.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de&lt;strong&gt; Cross-Site Scripting stocké&lt;/strong&gt; de type DOM (CWE-79 : Improper Neutralization of Input During Web Page Generation",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "52506e986d9b8fa40fb5703a05c7dd8690f5f65f",
-      "title": "Next.js - CVE-2026-64645",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/nextjs-cve-2026-64645-2026-07-23",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-07-23T03:46:30.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de type &lt;strong&gt;Server-Side Request Forgery (SSRF)&lt;/strong&gt; (CWE-918 - Server-Side Request Forgery) dans &lt;strong&gt;Next.js.&l",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "92aad6af2e234c88a4d3460bad466fb45f23b4c8",
-      "title": "Google - CVE-2026-16422",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/google-cve-2026-16422-2026-07-23",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-07-23T03:34:48.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de validation insuffisante d'entrées non fiables au niveau de la gestion des &lt;strong&gt;certificats X.509&lt;/strong&gt; (typiquement CWE-",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "e1945a2882eb8d79666b1c1d446503915cf558eb",
-      "title": "MongoDB - CVE-2026-13078",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/mongodb-cve-2026-13078-2026-07-23",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-07-23T03:23:20.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le moteur MozJS permet à &lt;strong&gt;un utilisateur authentifié&lt;/strong&gt; de lire des fichiers arbitraires sur l'hôte via des pip",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "daffd716ec453754431cbd0e1af8c19ac4a39fa7",
-      "title": "Vulnérabilité dans Moodle (23 juillet 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0921/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-07-23T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans Moodle. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données.",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "64c5d418e47225f1a2c86f0e3015e99382cbbd02",
-      "title": "Multiples vulnérabilités dans Oracle Systems (23 juillet 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0918/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-07-23T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Systems. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'in",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "6aab9d6d437ab6121b79e219a093da3908d2346c",
-      "title": "Multiples vulnérabilités dans Oracle Weblogic (23 juillet 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0920/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-07-23T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Weblogic. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et une atteinte à l",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "9e11c1f6430867a5b00c2bf4653326d8ab72a46c",
-      "title": "Multiples vulnérabilités dans Oracle Virtualization (23 juillet 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0919/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-07-23T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Virtualization. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "515300363e1547a760195ec93889ca2710da2359",
-      "title": "Tenable - CVE-2026-64878",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/tenable-cve-2026-64878-2026-07-22",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-07-22T02:14:30.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité d'&lt;strong&gt;injection de commandes système&lt;/strong&gt; (&lt;strong&gt;OS Command Injection - CWE-78&lt;/strong&gt;) dans &lt;strong&gt",
-      "type": "CVE",
-      "severity": "Élevée",
       "imageUrl": null
     }
   ]
