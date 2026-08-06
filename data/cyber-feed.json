@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T10:41:10.909Z",
+  "generatedAt": "2026-08-06T14:15:42.447Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,7 +17,7 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 110
+      "items": 115
     },
     {
       "name": "Exploit-DB",
@@ -76,6 +76,61 @@
   ],
   "items": [
     {
+      "id": "d4447426500c818a2244b74850bb7c57b3ac8ed5",
+      "title": "« Bon sang, le lecteur a les droits admin ? » : OpenAI révèle le forum secret que ses agents ont créé avant de pirater Hugging Face",
+      "url": "https://www.numerama.com/cyberguerre/2307301-bon-sang-le-lecteur-a-les-droits-admin-openai-revele-le-forum-secret-que-ses-agents-ont-cree-avant-de-pirater-hugging-face.html?amp%3Butm_source=flipboard&amp%3Butm_content=directlink&amp%3Butm_campaign=2307301",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-06T12:30:00.000Z",
+      "summary": "Deux chercheurs d’OpenAI ont détaillé, en marge de la conférence Black Hat, la mécanique complète de l’incident ayant abouti au piratage d’Hugging …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://c0.lestechnophiles.com/www.numerama.com/wp-content/uploads/2026/08/coldcard-8.png?resize=1600%2C900&amp%3Bkey=22743c1c"
+    },
+    {
+      "id": "e532199f963f3b922f70e4f093cae2e964ed1648",
+      "title": "Over 4,400 Rockwell PLCs Exposed Online, 22 Found in Water Attack Cities",
+      "url": "https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-06T12:16:58.000Z",
+      "summary": "Forescout found 22 internet-facing Rockwell Automation programmable logic controllers (PLCs) in cities hit by recent cyberattacks on US water utilities. Nineteen used the same mobi",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUzp-V2FqPXO6jQl0K2Qnn-2Ys6UG168FNhA0TcFv7CGHtBIgWuD66JsjhDiQhf_DkSTBo_YpVGTY3wcLe3SITSszBT0XAD01P6_nFLkXOHNNoKmp6VTsQ-zB9oKR6qYU2tCpf5RwHZ_u35lJiF41Sa3T7zuGfXujh_Ums9snpXTUAJIbcL6LfF9a5bIw/s1600/power.jpg"
+    },
+    {
+      "id": "391434f2d5f3f4dd2bf8ca7c262924022887523a",
+      "title": "CryptoJS Weak RNG Behind $5.7 Million in Drains Affects Five Crypto Wallet Apps",
+      "url": "https://thehackernews.com/2026/08/cryptojs-weak-rng-behind-57-million-in.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-06T11:49:48.000Z",
+      "summary": "Coinspect has identified CryptoJS.lib.WordArray.random() as the weak random number generator behind the Ill Bloom wallet drains. Introduced in the JavaScript cryptography library 1",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOLyOOoRbj7XXsr5asbHmKbRetYhjWcAZap4b6VUBQ3ENWpeB46A78vztXFJGUDMDHNskXyUMH6yu9Quv-WLut657FS4Dk4-SICypcAVTLuI7fYUxC7Y4qEUI6A8NMIS-GZ8KkzjRULoNZAPD1TIamWyp-T5vgrjMDQKMD0lmR6pZU8P4VeOwWEo7KxWA/s1600/CRYPTOJS.jpg"
+    },
+    {
+      "id": "2e73bc0ef3ec4777e469026416f080fca0c19386",
+      "title": "Apple iCloud Private Relay Can Expose Real IPs Through WebKit Proxy Bypasses",
+      "url": "https://thehackernews.com/2026/08/webkit-proxy-bypasses-can-expose-real.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-06T11:33:08.000Z",
+      "summary": "Cybersecurity researchers have disclosed a security issue with Apple's iCloud Private Relay tool that can expose a user's real IP address. Introduced with iOS 15, iCloud Private Re",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi53VbynsVNPTCihg9qrqybX7Yu90yM3Tm7KlJnJCHz2_MOUQPyJys1uK6H5QkVqxGekck8qe-pA55tcy19IDYQ4_ndOKasvoaFiPJCI_NJClfHv6G14Ga5P_FPr0zyNijjRMBM-GBlt-XYRqCGAcrZxm9ETsAAu4kPh829ZKABQonHDlx2GuWG9-B-V383/s1600/apple-relay.jpg"
+    },
+    {
+      "id": "a504984aaed42245a7e191601f1255bda95de05e",
+      "title": "AI Recommendation Poisoning: How \"Ask AI\" Buttons Silently Alter LLM Memory",
+      "url": "https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-06T11:30:00.000Z",
+      "summary": "A new class of prompt injection is spreading across commercial websites. It requires no malware, no stolen credentials, and no zero-day exploit. It abuses a standard feature built ",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgERF89TJZsy7Kq1JhEcPKC5ynyCNMv1JAObXj4W415ZbGwE-ZZplLbq5HEiBWi3ULKifDI7Tl440UrQvLFEmngeAHL4o2XfWKxTgb7CEsHmBqBt-w5qePo-BGmlDcu_vJtyfsh1CV5COMXpIUHRiw8WmPeitZAzEu3ugQJ90mDtOhlU0BzTaRDogTHg2Y/s1600/ask-ai.jpg"
+    },
+    {
       "id": "a9ffb18c76578c2f6119b703fcf58e34f8d18615",
       "title": "Après OpenAI et Anthropic, Meta révèle à son tour qu'un de ses modèles d'IA a piraté une entreprise lors d'un test de cybersécurité",
       "url": "https://www.bfmtv.com/tech/intelligence-artificielle/apres-open-ai-et-anthropic-meta-revele-a-son-tour-qu-un-de-ses-modeles-d-ia-a-pirate-une-entreprise-lors-d-un-test-de-cybersecurite_AV-202608060268.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -85,6 +140,17 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/bfmtv.com/709880f1564038039e0ffd9406cb01b39425cd25/_xlarge.jpeg"
+    },
+    {
+      "id": "04e0f73398b4cfc5e4b974f3b3ebc3ae636f5eca",
+      "title": "Lyon. Victimes d’un « incident de cybersécurité », les HCL redoutent un « vol de données personnelles »",
+      "url": "https://www.leprogres.fr/faits-divers-justice/2026/08/06/victimes-d-un-incident-de-cybersecurite-les-hcl-redoutent-un-vol-de-donnees-personnelles?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-06T09:30:00.000Z",
+      "summary": "Selon les Hospices civils de Lyon, cette attaque, datant de juin et ciblant l’un de ses prestataires externes, n’a pas visé les données médicales des …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://cdn-s-www.leprogres.fr/images/747AD4B0-3DCA-469C-A96B-86FB3EE5DE5C/FB1200/photo-1786008200.jpg"
     },
     {
       "id": "9a2eda1e7a46aa39b7e212d23d21ff752858fa63",
@@ -107,17 +173,6 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNMtOKfZBxSDQ1928IVtFay3f8_6go4rnTY6yFaQYCzAdGt3e6uBkZfZkoFtHbS_cEbTCri3ZNVVO7BbuvoVpjGCLSpdphneotNbiXRT3vciQT6dzPa0K81_ee8Al2rxx7GlT5qTS3_B2MKjCCUcHut1pdIeqaLBRjoD5ZqttMcHxZ5AwKea3eL-wruta7/s1600/agent-sdk.jpg"
-    },
-    {
-      "id": "fa4d7d12928c8d38cb6e3e0fa264a8789e5b8f97",
-      "title": "Cyberattaque chez un prestataire des Hospices Civils de Lyon : des données personnelles potentiellement volées",
-      "url": "https://www.lyonmag.com/article/153427/cyberattaque-chez-un-prestataire-des-hospices-civils-de-lyon-des-donnees-personnelles-potentiellement-volees?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-06T08:30:00.000Z",
-      "summary": "Les Hospices Civils de Lyon ont été informés d’un incident de cybersécurité touchant l’un de leurs prestataires. Une ancienne base de données …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.lyonmag.com/media/images/6a744699740d6-spy-targeting-governmental-websites.jpg"
     },
     {
       "id": "d526cea805f9a2ac210305016e0adf21e048e8ed",
@@ -206,6 +261,116 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://ic-cdn.flipboard.com/20min.ch/c70dfe9f4ead95b94696103dbed2b5486a144423/_xlarge.jpeg"
+    },
+    {
+      "id": "20f7823c228c99d63ef59597382bc7b0e4e2ac3d",
+      "title": "Jenkins - CVE-2026-70426",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/jenkins-cve-2026-70426-2026-08-06",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-06T00:54:22.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;contournement du filtre de désérialisation agent-vers-contrôleur &lt;/strong&gt;dans le cœur de &lt;strong&gt;Jenkins&lt;/st",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "84935960a14066bb3c222705fbe64a080842cf57",
+      "title": "OpenSSL - CVE-2026-54876",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/openssl-cve-2026-54876-2026-08-06",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-06T00:50:00.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;fuite mémoire &lt;/strong&gt;dans &lt;strong&gt;OpenSSL&lt;/strong&gt;, au niveau de la &lt;strong&gt;vérification de chaîne",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "5bcfbc06e88129d93b01033d5a59b3f97fafcf53",
+      "title": "Cisco - CVE-2026-20303",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/cisco-cve-2026-20303-2026-08-06",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-06T00:38:00.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;validation incorrecte des entrées&lt;/strong&gt; dans le logiciel &lt;strong&gt;Cisco Catalyst SD-WAN.&lt;/strong&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "44c1b029837c5c864edf02e3412e30e5c1ef5240",
+      "title": "Keycloak - CVE-2026-15572",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/keycloak-cve-2026-15572-2026-08-06",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-06T00:36:00.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité &lt;strong&gt;d'autorisation incorrecte / contournement de politique par asymétrie de contrôle&lt;/strong&gt; dans &lt;strong&gt;Keycloak&lt;",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "1017cbbf200ca0f38fc9c88997b1ebdc985ba9bc",
+      "title": "IBM - CVE-2026-8400",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/ibm-cve-2026-8400-2026-08-06",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-06T00:33:00.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;réflexion Java non sécurisée &lt;/strong&gt;dans &lt;strong&gt;l'IBM SDK et IBM WebSphere Application Server Liberty.&lt;/st",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "58bcc9c016f088fbbd71b78bfddbb3f72dba95a0",
+      "title": "Multiples vulnérabilités dans KeyCloak (06 août 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0976/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-08-06T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans KeyCloak. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à dist",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "2214af0d8a1dfee7857d131b7bd12402cfba7676",
+      "title": "Multiples vulnérabilités dans les produits Wallix (06 août 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0974/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-08-06T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Wallix. Elles permettent à un attaquant de provoquer une élévation de privilèges et un contournement de la politiq",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "e779b4b9393ae93f8350568a52e5fb55f33da254",
+      "title": "Multiples vulnérabilités dans les produits Nextcloud (06 août 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0973/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-08-06T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Nextcloud. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contou",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "5a1d190bbbf15875ae6c2ec2386cf726a24d59f0",
+      "title": "Vulnérabilité dans Sonicwall SonicOS (06 août 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0972/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-08-06T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans Sonicwall SonicOS. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "a5a5daad34b8a46ecf54ef62e18dde8125a57339",
+      "title": "Multiples vulnérabilités dans les produits Cisco (06 août 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0975/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-08-06T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance,",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
     },
     {
       "id": "0aa3f87c7fc579ebd4f482791172b51ccbc2b766",
@@ -415,6 +580,17 @@
       "type": "LEAK",
       "severity": "Info",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhx1pOdsqya8FoeUfRoysn2429wQSGELUYOuuaDRT5-pJMERQc7DY042ndusTV0UriGHrR98oyPe_HnR845R1hxSxKBTvYGTilYobQhIIXOCEc08FiKbhDluP0UoR6g3sw8QK-X1aPEJDKe-EZbDNOtlXR6ltGBvxsqfB_bo-jO4t63OvT7_C1mD7Bf4rM/s1600/n8n-git.gif"
+    },
+    {
+      "id": "98fdb73d0236051357af2cd5cb111bc137b53546",
+      "title": "Des hôtels, des centres de conférences et d’autres lieux publics ciblés: un groupe de hackers lié au renseignement russe accusé de cyberespionnage via les réseaux Wifi publics",
+      "url": "https://www.bfmtv.com/tech/cybersecurite/des-hotels-des-centres-de-conferences-et-d-autres-lieux-publics-cibles-un-groupe-de-hackers-lie-au-renseignement-russe-accuse-de-cyberespionnage-via-les-wi-fi-publics_AN-202608050279.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-05T10:00:56.000Z",
+      "summary": "Plusieurs entreprises de cybersécurité pointent du doigt un groupe de hackers russes lié au renseignement dans une campagne de diffusion de logiciels …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/bfmtv.com/d7e050f8862e7652a4d9782a2b58ce0244f810a6/_xlarge.jpeg"
     },
     {
       "id": "f8b3b821ecc80180e8ef891a63944ec6767ebd7b",
@@ -824,17 +1000,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2LFB09rf16kl1_PinOnHkAY4GiI38_azQ2t-EWYRicFndp5DX-5KSfwVVEJxwEKp07oouBfkFg71MxwilLY_M2i3clk82hs5-Xr-PgDj69JeYzTsPjp_8sdNZIminQFonHRq2GqWDXJuwGqpT4Na485_pILlvMSlBdSMqWYWqTHDrUC_9OdOW-kCdSeM/s1600/cpanel.jpg"
     },
     {
-      "id": "e9b941c0b97eb8fb82400eb97de7b5bde0e70131",
-      "title": "Cette nouvelle arnaque utilise votre IBAN volé pour faire croire à la souscription d’un abonnement à 50 euros",
-      "url": "https://www.lefigaro.fr/secteur/high-tech/cette-nouvelle-arnaque-utilise-votre-iban-vole-pour-faire-croire-a-la-souscription-d-un-abonnement-a-50-euros-20260804?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-04T10:20:31.000Z",
-      "summary": "Des milliers de Français ont été victimes d’une tentative de phishing particulièrement élaborée, les pirates se faisant passer pour Cellcast Vidéos, …",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://i.f1g.fr/media/cms/1200x630_crop/2026/08/04/f8076f94eee5c486a92a666ab61ffb980eddba72be0a65b5ef114c2fc36fbb03.JPG"
-    },
-    {
       "id": "91e36d9e2ce2d54474ce4a0ed71a89f35e583098",
       "title": "Cyberattaque Intermarché: si vous êtes client, voici ce qu'il faut vérifier dans les prochains jours",
       "url": "https://rmc.bfmtv.com/conso/alimentation/cyberattaque-intermarche-si-vous-etes-client-voici-ce-qu-il-faut-verifier-dans-les-prochains-jours_AN-202608040260.html?amp%3Butm_content=topic%2Ffr-actualit%C3%A9s",
@@ -855,17 +1020,6 @@
       "type": "NEWS",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0MM7WIz9TI9RxDFZ-toTt_tLMlGIJGGyqnPZ5m68ft2_h16hOepWgOlGkRdx7KdUaRjz7GxanOYCp3167ZvcaWo1MV9ihUjZb6dHyX4Ss8SV6X4GGpobunHDfXs83HKppsCR-TT8quPfiNmH1Z-7EvWRZ4cdyHsHRsmlVshEJpDa76yUCjaWy0-xXaeeS/s1600/double.jpg"
-    },
-    {
-      "id": "c7c4890b7ff7d28f3e156739050ddda672d448a3",
-      "title": "Vols de cognac : Hennessy a-t-il traqué des voleurs avec un super logiciel espion israélien ?",
-      "url": "https://www.charentelibre.fr/charente/vols-a-chateaubernard-hennessy-a-t-il-traque-ses-voleurs-avec-un-logiciel-espion-30156104.php?amp%3Butm_content=topic%2Ffr-technologie",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-04T08:37:30.000Z",
-      "summary": "Face à une série de vols, la maison Hennessy a testé un redoutable système de géolocalisation, initialement réservé aux services de renseignement. …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://media.charentelibre.fr/30156104/1200x-1/bouteilles-de-cognac-copie-copie.jpg"
     },
     {
       "id": "5c76f835a8a77a7ccff00a8a9f9b1ab9285687fd",
@@ -1462,39 +1616,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqUoKsOzzL1DJubfk79p5F7EfcWUNP-tPwTMNDt329zqRohKeX2tE3qxMCciII-FZEHofHM72OihyAfF_7Eqs48MRmxxVOcGZyKML5LHynh5Akf1fWeNSsDlY2D-EaGLx2T9wy6y2jNfOGx-5xmKNhf0koUmkpIGcuShRA47RVW_207PVhnxdlPijMUmkx/s1600/chrome.jpg"
     },
     {
-      "id": "156a17555e6ff6a31106eefd017d56e58102e004",
-      "title": "Researchers Report 84 Flaws in 4G and 5G Cores, Including a Session Hijacking Flaw",
-      "url": "https://thehackernews.com/2026/07/researchers-report-84-flaws-in-4g-and.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-31T11:55:00.000Z",
-      "summary": "An academic study has disclosed a \"widespread class\" of security vulnerabilities impacting 4G and 5G core networks that, if successfully exploited, could trigger denial-of-service ",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhx5Qzkfu4WC4nW5n_nmFDP3CoZsw91wzaKcfKRZBx7DXHggnqqxqun757BOQey3jOUCGe4928DBU6fy4dPX04Cmp94xqWdNkZgkp1DuenVewYZFxSs9YSQdArKp1Ma3hAGkDAIA7zH8_7hXubNrJbP27r6XxIlCrzrYYoi3vAVFaLVdu1tnN6blLhE61xE/s1600/ifinder.jpg"
-    },
-    {
-      "id": "b80ae3bb28a2947650158404336aee39fd6797ee",
-      "title": "6 Reasons Why Device Code Phishing is the Fastest-Growing Threat of 2026",
-      "url": "https://thehackernews.com/2026/07/6-reasons-why-device-code-phishing-is.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-31T11:24:59.000Z",
-      "summary": "Device code phishing - the abuse of the OAuth 2.0 device authorization grant to steal access tokens - has evolved from a niche red-team technique to an industrial-scale threat in u",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiamJN4Z-p-XmpB_1nwgfCMj2JvWAmGP4avhjI3pBYb11kgANQy4wQf2DQ4VGJEXom4eZCFoqVozP4aJPPtpGufYrEe5E9xkebmctud6KO7NZEfNCiT14ln7CmZA1bB3m6HYNdiUnShVsIpr03SYa7jlZWnbml9R1HbqECSbnUH0DTqyETz1fpiNIqhExw/s1600/push-main.jpg"
-    },
-    {
-      "id": "c06f6188a529f3bb70ab2cd5407ea9ff8ef019b4",
-      "title": "Chinese Hacker Commands DeepSeek via Telegram to Launch Autonomous Attacks",
-      "url": "https://thehackernews.com/2026/07/chinese-hacker-commands-deepseek-via.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-31T11:21:27.000Z",
-      "summary": "Palo Alto Networks' Unit 42 says a Chinese-speaking threat actor used DeepSeek through the open-source Hermes Agent framework to launch attacks autonomously. After an initial Teleg",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2dGysHIR6yJWx6hMxq6lAct7fi4YTury_WDkrcenDv-psd-fU7I8K3RbM6Blox_5OE3MQojew5bnPamtI_DPzdBX6fOk295hhQh6rBkA2f9a1sN7t7ZbSyU-kWdLoIb7XnseOHKPmLOGRb9wRRvmV0scVZ4rhMtxSmqOLZmZIUjtg_IHT4FBg5gzeX50/s1600/deepseek-telegram.jpg"
-    },
-    {
       "id": "4fbfb568ba2c184c17aa7a98554408489458378d",
       "title": "Alerte avant le Q-Day : Claude Mythos a trouvé en 60 heures la faille d’un futur bouclier contre le quantique",
       "url": "https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-alerte-avant-q-day-claude-mythos-trouve-60-heures-faille-futur-bouclier-quantique-136644/",
@@ -1504,17 +1625,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/futura-sciences.com/9aaec9e9ce1539c166c1311d6cd19d7dbd10565b/_xlarge.webp"
-    },
-    {
-      "id": "6f29cc8160ef44d345bbf25e125b701ec1a809be",
-      "title": "Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations",
-      "url": "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-31T06:41:44.000Z",
-      "summary": "Anthropic on Thursday became the latest artificial intelligence (AI) company to reveal that three of its models, including Claude Opus 4.7, Mythos 5, and an unnamed research model,",
-      "type": "LEAK",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJ3hIjH82iCzMILnA0uACotjW9waDLj4siTRhyphenhyphenBSiVyis0Ul0j7-7FcWyDzmCAzZPLJ72iYRezpbd9dUAB_UMw5G4eMBRwph0Sb_aQr9yCRXeLXAkjGiNFekM_qDtOZNFsSk6LLC81Ef74JaqIrcJN58-5p2ShHmUuhKC1IYeVgpQ7D76NWXLnR44RN6G6/s1600/claude.jpg"
     },
     {
       "id": "dc753195bb1b1b423275d654812afcae00ef3997",
@@ -2164,116 +2274,6 @@
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
-    },
-    {
-      "id": "13af24241e40af345f583cf94b1fc658efb85600",
-      "title": "Siemens Desigo CC",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-01",
-      "source": "CISA",
-      "publishedAt": "2026-07-28T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-209-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "1e01cd632aba756d82ede0a50647cdf751fb2f55",
-      "title": "CI Fortify – Advice for isolating vital systems",
-      "url": "https://www.cisa.gov/resources-tools/resources/ci-fortify-advice-isolating-vital-systems",
-      "source": "CISA",
-      "publishedAt": "2026-07-28T12:00:00.000Z",
-      "summary": "&lt;div class=&quot;c-page-title__buttons&quot;&gt;&lt;a class=&quot;c-button&quot; href=&quot;https://www.cyber.gov.au/business-government/secure-design/operational-technology-env",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "31861c288c88636265fd37d37b635c93e39676b8",
-      "title": "Siemens Mendix Runtime",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-02",
-      "source": "CISA",
-      "publishedAt": "2026-07-28T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-209-02.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "d6b9322e4e599e0d0fa17206709e57fc72eacf27",
-      "title": "Siemens SIMATIC S7-PLCSIM Advanced",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-03",
-      "source": "CISA",
-      "publishedAt": "2026-07-28T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-209-03.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "545f5dabc256ef0c814d4b974bfdb48afebaa3ca",
-      "title": "igloohome Smart Lock Mobile Application",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-06",
-      "source": "CISA",
-      "publishedAt": "2026-07-28T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-209-06.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "89872bf31352d8b67771f14f5807aa34bdccb3da",
-      "title": "MikroTik RouterOS and Cloud Hosted Router",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-05",
-      "source": "CISA",
-      "publishedAt": "2026-07-28T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-209-05.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "0df59aed834d5b9bc9d098bf92dbb9ef0ab1b392",
-      "title": "ABB KNX Update Tool",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-07",
-      "source": "CISA",
-      "publishedAt": "2026-07-28T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-209-07.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "e3a1bc6d6d7b16fe8e27f6f5a67b2289645606d7",
-      "title": "AlerteCyber",
-      "url": "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/alertecyber",
-      "source": "Cybermalveillance",
-      "publishedAt": "2026-07-28T08:54:52.000Z",
-      "summary": "",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "6d124e78e0bc355ba3b70b9293b8b96f86fb5cc8",
-      "title": "AlerteCyber : Failles de sécurité critiques dans Microsoft SharePoint",
-      "url": "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/alertecyber-failles-de-securite-critiques-dans-sharepoint-202607",
-      "source": "Cybermalveillance",
-      "publishedAt": "2026-07-28T08:53:06.000Z",
-      "summary": "Deux failles de sécurité critiques ont été corrigées dans Microsoft SharePoint.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "91b981704d32bd21183d8727dd75673c816d9bbc",
-      "title": "La banque centrale de Hong Kong évalue la préparation quantique des prêteurs. Elle est très faible.",
-      "url": "https://www.coindesk.com/fr/markets/2026/07/28/hong-kong-s-central-bank-puts-a-number-on-lenders-quantum-preparedness-it-s-very-low?amp%3Butm_content=CoinDesk%2Fmagazine%2FCOINDESK+Fran%C3%A7ais",
-      "source": "Cryptographie FR",
-      "publishedAt": "2026-07-28T07:55:41.000Z",
-      "summary": "L'Autorité monétaire de Hong Kong a publié un livre blanc sur la préparation quantique de l'industrie bancaire de Hong Kong ainsi que son premier …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/e660c532346d919f78f3c393c6d9e50cfb205d01-3840x2160.jpg?auto=format&amp%3Bfit=crop&amp%3Bcrop=focalpoint&amp%3Bw=1920&amp%3Bh=1080&amp%3Bq=75"
     }
   ]
 }
