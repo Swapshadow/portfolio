@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T10:53:51.568Z",
+  "generatedAt": "2026-08-07T13:07:55.633Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -40,8 +40,9 @@
     {
       "name": "Zataz",
       "url": "https://www.zataz.com/rss/zataz-news.rss",
-      "status": "ok",
-      "items": 10
+      "status": "error",
+      "items": 0,
+      "error": "fetch failed"
     },
     {
       "name": "Cybercriminalité FR",
@@ -76,15 +77,48 @@
   ],
   "items": [
     {
-      "id": "ae67f9f72aa6d855d40e1c297bd321df6348d2b8",
-      "title": "Fuite massive de données RH",
-      "url": "https://www.zataz.com/fuite-massive-de-donnees-rh/",
-      "source": "Zataz",
-      "publishedAt": "2026-08-07T10:51:39.000Z",
-      "summary": "Un professionnel RH français fait l’objet d’une revendication portant sur des dizaines de milliers de documents personnels sensibles.",
-      "type": "LEAK",
+      "id": "832e67fd474b4c3b8462c59dbde8606f6cd216f5",
+      "title": "Growing Up The Hard Way",
+      "url": "https://thehackernews.com/2026/08/growing-up-hard-way.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-07T11:55:26.000Z",
+      "summary": "Open Source had a great childhood. For two decades it got to be a kid. It ran around barefoot, gave everything away, trusted strangers, and never once thought about who was watchin",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjz974dYXx9klEa_qhJoTHKqb5QNoQwTpxsMKoZeqsvQtvWZPgPKobw1QySvcNGgnFocbYaFaaBGsB4COPaw-fqqgOHERJEVc8sgRSjto5VCrQeIWr5Nz21r3PjMTIXmwUmvakUlP4sB3iYqF2qXiabCvrqKFyFBq3GzOUwqM7LGRV68q_Ib9zt1ilCBJo/s1600/open-source.jpg"
+    },
+    {
+      "id": "ab7836a822924945a5a1fc90b8dbac7f76aea535",
+      "title": "OpenAI : Les intelligences artificielles qui ont piraté Hugging Face ont aussi communiqué secrètement entre elles",
+      "url": "https://www.20minutes.fr/high-tech/4238225-20260807-openai-intelligences-artificielles-pirate-hugging-face-aussi-communique-secretement-entre-elles?at_medium=display&amp%3Bat_campaign=149",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-07T11:47:36.000Z",
+      "summary": "Les agents d’IA sont-ils de bons hackers ? Les experts en intelligence artificielle d’OpenAI ont cherché des réponses en donnant pour objectif à des …",
+      "type": "NEWS",
       "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/ressources_humaines_pirate.jpg"
+      "imageUrl": "https://img.20mn.fr/M8G-wUdtSUyttnGO3-purik/1444x920_22-juillet-2026-taichung-taiwan-une-main-tient-un-smartphone-affichant-les-logos-d-open-ai-et-de-hugging-face-la-semaine-derniere-hugging-face-a-revele-un-nouveau-type-d-incident-de-securite-apres-avoir-detecte-et-maitrise-un-agent-d-ia-qui-compromettait-son-infrastructure-cet-incident-particulier-a-ete-provoque-par-une-combinaison-de-modeles-open-ai-dont-gpt-5-6-sol-et-un-modele-de-pre-version-encore-plus-performant-selon-open-ai-image-de-credit-andre-m-chang-zuma-press-wire-20260722-zip-c217-003-zeus-2607220501"
+    },
+    {
+      "id": "a328e6e7db96b74f6b6837bb09d3187de7f7c686",
+      "title": "18-Year-Old Linux SCTP Flaw Could Let Local Users Gain Root and Escape Containers",
+      "url": "https://thehackernews.com/2026/08/18-year-old-linux-sctp-flaw-could-let.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-07T11:10:33.000Z",
+      "summary": "A use-after-free bug in Linux's SCTP networking code can be turned into full root on a host, and Tencent researchers say they used it to escape a container and reach the machine un",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmTGemKyDLZPr_sBbt2AdOQMEBEcRFzic8_Ddtkx92vtPOfFdoiwxJ60b00usecTjHuIGUJuUIR2aB8MU2P7-GLc0NOuWsa3ctofrA2-wD38wgI4Fke3moSskWjiRJEXT8Yxl7Ye56NgGl9DZKr8zf974rHRsc1PtHie_iIPVyD18HMx49S02tGZ2EeDY/s1600/linux-sctp.jpg"
+    },
+    {
+      "id": "3dd68439f75cb22cc6188055f97a563ba3435d7a",
+      "title": "New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables",
+      "url": "https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-07T10:58:38.000Z",
+      "summary": "Security researcher Malcolm Stagg has disclosed a new attack class called NatJack that manipulates network address translation (NAT) connection state to hijack active TCP sessions,",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjx8dmEkj0rsX2NREBfPOczKn7zadWRaVVOyVPVeaCPzCDdBAPhocCwP1CVbX_p1pj4Q7DVYsdusvWc9u9G7lO4BGYihT6BXnXY099zIs1B1PBefH71cXCHZucxaG2gEzqKdf9B3FVr9MJ34SntVezm4gNXWSxIMF05DpYUNF6qmfhb0hMiyNpsWDOtuRE/s1600/NatJack.jpg"
     },
     {
       "id": "246f5fab7362dc6e6f5c2ef04e7f28ce9a13d0c1",
@@ -98,15 +132,37 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH78NjDW1Q_sIk9dwQ1scYlCkNCMutfjGx_9flqrKbE42fEXqvHT8s5EeHTnWjbBGvzCuHPEWStR5r6wjwtIuuHF1hyphenhyphenot22E_Q98xedC1zXVhIhwglw6hLWQs45oSrPKPflK6Tt1BlHTj9iokMPpVaTehuemHGHDLL02cn2sqZJ5iIVstxiVf5IZ5Khodp/s1600/ms-phish.jpg"
     },
     {
-      "id": "c7eb08904d913ea4fd714e5f4bad891c245dfc22",
-      "title": "Des cibles françaises au cœur d’une plateforme cybercriminelle",
-      "url": "https://www.zataz.com/des-cibles-francaises-au-coeur-dune-plateforme-cybercriminelle/",
-      "source": "Zataz",
-      "publishedAt": "2026-08-07T10:34:26.000Z",
-      "summary": "Des entreprises et une mairie françaises apparaissent sur la plateforme cybercriminelle Kybit recrutant des affiliés.",
+      "id": "8cd428d1f70bf2177f3cb5359613bf7c16b82f3f",
+      "title": "Selon le renseignement américain, Poutine pourrait tester la détermination de l’Otan par une attaque limitée",
+      "url": "https://www.lopinion.fr/international/selon-le-renseignement-americain-poutine-pourrait-tester-la-determination-de-lotan-par-une-attaque-limitee?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-07T10:37:31.000Z",
+      "summary": "Le président russe Vladimir Poutine pourrait tenter de tester la détermination de l’Otan par une attaque limitée contre un pays allié au cours des …",
       "type": "NEWS",
       "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/Krybit_fuite.jpg"
+      "imageUrl": "https://beymedias.brightspotcdn.com/dims4/default/f0a817f/2147483647/strip/true/crop/2000x972+0+264/resize/1440x700!/quality/90/?url=http%3A%2F%2Fl-opinion-brightspot.s3.amazonaws.com%2F6d%2Fe3%2Fbba5194c41d297dd0f2167fa3b86%2Fp6-russia-drone.jpg"
+    },
+    {
+      "id": "508a687a5990eb672f0bbad4257d06217cce6131",
+      "title": "Alerte cheval de Troie: copies pirates de The Odyssey peuvent cacher des virus",
+      "url": "http://fr.euronews.com/next/2026/08/07/alerte-cheval-de-troie-copies-pirates-de-the-odyssey-peuvent-cacher-des-virus",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-07T10:36:32.000Z",
+      "summary": "Regarder gratuitement The Odyssey: des copies piratées diffusent déjà des malwares qui volent mots de passe, données de paiement et autres infos. Des copies numériques piratées du ",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://ic-cdn.flipboard.com/euronews.com/2d3ef2f13dad64c1bf01650ff18fc4676a7e50d7/_xlarge.jpeg"
+    },
+    {
+      "id": "71fe8cd629e0864da09ff8400182fbd091890eef",
+      "title": "« Un incident de cybersécurité » : les données du personnel des Hospices Civils de Lyon (HCL) volées ?",
+      "url": "https://www.ouest-france.fr/auvergne-rhone-alpes/lyon-69000/un-incident-de-cybersecurite-les-donnees-du-personnel-des-hospices-civils-de-lyon-hcl-volees-a188f388-9247-11f1-a48b-fb7fc1c0a6aa?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-07T10:18:38.000Z",
+      "summary": "Les Hospices Civils de Lyon (HCL) ont annoncé jeudi 6 août qu’un de ses prestataires externes a été la cible « d’un incident de cybersécurité ». Les …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/c3e6f4a14cafd56dac5a105a2ffb76df991f1316/_xlarge.jpeg"
     },
     {
       "id": "6b980b4d221aa8da3424ea951cfc216e481ed5b0",
@@ -120,26 +176,15 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgynSSg0CZ1sssmMR8F0u09LmQ82liuj5nt2aor3klmi-xPcKTmalo4JLFQ7jd2mU9Ycnltsrnw2MiVVjmlT-wcYR74Ob7NMN31KNnny14lqVRdrmj30r3yqTSxapzCmQPk9lPG7v9GDSVKQwE4ufB-jWfsx1lc2O5GNd0bHd5M6FbMNah3dcLzu2EAFXo/s1600/Desync.jpg"
     },
     {
-      "id": "3dd68439f75cb22cc6188055f97a563ba3435d7a",
-      "title": "New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables",
-      "url": "https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-07T09:32:57.000Z",
-      "summary": "Security researcher Malcolm Stagg has disclosed a new attack class called NatJack that manipulates network address translation (NAT) connection state to hijack active TCP sessions,",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjx8dmEkj0rsX2NREBfPOczKn7zadWRaVVOyVPVeaCPzCDdBAPhocCwP1CVbX_p1pj4Q7DVYsdusvWc9u9G7lO4BGYihT6BXnXY099zIs1B1PBefH71cXCHZucxaG2gEzqKdf9B3FVr9MJ34SntVezm4gNXWSxIMF05DpYUNF6qmfhb0hMiyNpsWDOtuRE/s1600/NatJack.jpg"
-    },
-    {
-      "id": "e576f6dfa963d0d2730649e5ef116eed00a786c6",
-      "title": "L'IA échoue à corriger correctement des failles logicielles dans 74 % des cas - ZDNET",
-      "url": "https://www.zdnet.fr/actualites/lia-echoue-a-corriger-correctement-des-failles-logicielles-dans-74-des-cas-499428.htm?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "id": "46f8cb6ba7230522b5ed80d110ad1494198bc2ad",
+      "title": "Le Crédit Agricole et ses millions de clients visés par une campagne de phishing redoutable",
+      "url": "https://www.lesnumeriques.com/societe-numerique/le-credit-agricole-et-ses-millions-de-clients-vises-par-une-campagne-de-phishing-redoutable-n260185.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
       "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-07T09:01:46.000Z",
-      "summary": "Nous sommes peut-être impatients d'intégrer l'IA dans notre cybersécurité, mais de nouvelles recherches révèlent pourquoi nous devrions y réfléchir à …",
+      "publishedAt": "2026-08-07T09:05:00.000Z",
+      "summary": "Une équipe de chercheurs a découvert une campagne de phishing sophistiquée visant les clients de la banque Crédit Agricole. Elle a déjà fait de …",
       "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2026/08/gettyimages-2262157542.jpg"
+      "severity": "Élevée",
+      "imageUrl": "https://cdn.lesnumeriques.com/optim/news/26/260185/3624f7d0-le-credit-agricole-et-ses-millions-de-clients-vises-par-une-campagne-de-phising-redoutable__1200_678__0-251-4049-2377.jpg"
     },
     {
       "id": "39224e776619baa8cca8953a9dd61c46ef5b6777",
@@ -208,17 +253,6 @@
       "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/b19b4d7e4d2d8495b7e1541af1600901ba2a0fb1/_xlarge.jpeg"
     },
     {
-      "id": "7a9418c901f79e192fa313b6610be7c5865c37bd",
-      "title": "\"Un dispositif de gestion de crise\": le Stade Français confirme avoir été victime d'une cyberattaque et a porté plainte",
-      "url": "https://rmcsport.bfmtv.com/rugby/top-14/un-dispositif-de-gestion-de-crise-le-stade-francais-confirme-avoir-ete-victime-d-une-cyberattaque-et-a-porte-plainte_AV-202608070209.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-07T07:41:59.000Z",
-      "summary": "Dans un communiqué, le Stade Français a confirmé jeudi soir avoir été victoire d'une cyberattaque qui avait été revendiquée mercredi par le groupe de …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/z6MbOg3b98UNkEtOtwy7LC0qK-A=/0x93:2048x1245/images/Le-logo-du-Stade-francais-image-d-illustration-1758362.jpg"
-    },
-    {
       "id": "8ed867e541bd7eee512db21517bf2dd85082fe45",
       "title": "Les Etats-Unis craignent une attaque russe contre l’Otan dans les années à venir",
       "url": "https://www.lesoir.be/763707/article/2026-08-07/les-etats-unis-craignent-une-attaque-russe-contre-lotan-dans-les-annees-venir?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -274,6 +308,72 @@
       "imageUrl": "https://i.f1g.fr/media/ext/1200x630_crop/api-video-public.lefigaro.fr/assets/c1/df/93/c1df9373bea4fcbb13524a625dcb4680.jpeg"
     },
     {
+      "id": "f5335708e71a8c851bba065393619bcc5292b8ad",
+      "title": "L'IA échoue à corriger correctement des failles logicielles dans 74 % des cas - ZDNET",
+      "url": "https://www.zdnet.fr/actualites/lia-echoue-a-corriger-correctement-des-failles-logicielles-dans-74-des-cas-499428.htm",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-07T01:08:46.000Z",
+      "summary": "Nous sommes peut-être impatients d'intégrer l'IA dans notre cybersécurité, mais de nouvelles recherches révèlent pourquoi nous devrions y réfléchir à …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2026/08/gettyimages-2262157542.jpg"
+    },
+    {
+      "id": "fc9596e52aacbcd45a15f18255e92202f059c245",
+      "title": "Dell - CVE-2026-67261",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/dell-cve-2026-67261-2026-08-07",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-07T00:21:46.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité &lt;strong&gt;d'injection de commandes système&lt;/strong&gt; affectant le composant IAPI de &lt;strong&gt;Dell Virtual Storage Integrator fo",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "465e438d367a789735a93abb454a7a07f67fc728",
+      "title": "Apache Software Foundation - CVE-2026-66909",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/apache-software-foundation-cve-2026-66909-2026-08-07",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-07T00:17:30.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;désérialisation de données non fiables&lt;/strong&gt; affectant le transport &lt;strong&gt;JMS d'Apache CXF&lt;/strong&gt;.&",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "c2dfd0f3494775c603d596d4d98ec86792882624",
+      "title": "Apple - CVE-2026-65400",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/apple-cve-2026-65400-2026-08-07",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-07T00:13:01.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;contournement de l'authentification&lt;/strong&gt; affectant la fonctionnalité &lt;strong&gt;Screen Sharing de macOS.&lt;/st",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "8b297fb34e5845735b0ccff083ab09b71ee14744",
+      "title": "Google - CVE-2026-19149",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/google-cve-2026-19149-2026-08-07",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-07T00:09:07.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;corruption mémoire de type Use After Free&lt;/strong&gt; affectant le composant &lt;strong&gt;Aura &lt;/strong&gt;de &lt;str",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "7aaf2084521102cf40de8fa046d25af5940085a7",
+      "title": "Sophos - CVE-2026-18367",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/sophos-cve-2026-18367-2026-08-07",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-07T00:03:32.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité&lt;strong&gt; d'élévation de privilèges&lt;/strong&gt; affectant &lt;strong&gt;Sophos Endpoint for macOS et Sophos Home for macOS.&lt;/strong",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
       "id": "ec2601d1b570e411a81c291fcd4452a219df03d1",
       "title": "Bloctel aurait été piraté : près de 3 millions de numéros de téléphone concernés",
       "url": "https://www.frandroid.com/culture-tech/securite-applications/3205839_bloctel-aurait-ete-pirate-pres-de-3-millions-de-numeros-de-telephone-concernes?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -307,28 +407,6 @@
       "imageUrl": "https://www.leparisien.fr/resizer/H4hcc7_5q9APUfe5Nr6QIFZ7iNs=/1600x900/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/AZ43NOOCVZABTKIWOJCCPVBGCE.jpg"
     },
     {
-      "id": "9213e7b0c4d03dfe90694190b6fc599fc7f3abe2",
-      "title": "Stade Français. Le club parisien victime d’une cyber attaque",
-      "url": "https://www.ouest-france.fr/sport/rugby/stade-francais-paris/stade-francais-le-club-parisien-victime-dune-cyber-attaque-3772e258-91c8-11f1-9add-57c399f24235?amp%3Butm_medium=fluxrss&amp%3Butm_campaign=banquedecontenu",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-06T19:09:20.000Z",
-      "summary": "Le Stade Français Paris a annoncé ce jeudi - août avoir été victime d’une cyberattaque revendiquée par un groupe de hackers présumés basés en …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/155371514f098c1ba1972d0161efcdd0f082cb96/_xlarge.jpeg"
-    },
-    {
-      "id": "a25a436a725e3e04ddeeebda5f0cd6bf34244fac",
-      "title": "BIOSYNEX (EPA:ALBIO) |",
-      "url": "https://lesechos-comfi.lesechos.fr/press-release/biosynex-epa-albio-biosynex-sa-cyberattaque-5ob17hhQoyi?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-06T18:15:04.000Z",
-      "summary": "BIOSYNEX (ALBIO - FR0011005933) annonce avoir été victime d'une cyberattaque, survenue entre le 31 juillet et le 2 août 2026. Dès que la société a eu …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/lesechos.fr/89f88ddf1c07dd216f1405a6e42b3c8e0e0daaa3/_large.png"
-    },
-    {
       "id": "46549141db8d5125db01bf3c73347f6c87079361",
       "title": "Aux États-Unis, l’Iran soupçonné d’être à l’origine de cyberattaques contre les réseaux d’eau potables",
       "url": "https://www.lefigaro.fr/international/aux-etats-unis-l-iran-soupconne-d-etre-a-l-origine-de-cyberattaques-contre-les-reseaux-d-eau-potables-20260806?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -351,15 +429,15 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5BBX-j7uA7NqPF9tVWhx3y09F3whJ3zweRoWGyI2kJDxhW6ymOG1oumq5Oz0sZWtCAKSCALcd9TTl7Kf5Mo3aqE3aWKH8jfKWt2uUD-CUa6tmid-3MvMTM08EAEhg5iLQ2mlEgFkVeuVKv1QkRqr2T0Ya9JcNtMYheggInGndCG0n-N7BPjyH9vbKCg8/s1600/Zapscape.gif"
     },
     {
-      "id": "a4e07c446128546b10af696afee24b0e408481b7",
-      "title": "Biosynex : victime d'une cyberattaque",
-      "url": "https://www.boursier.com/actions/actualites/news/biosynex-victime-d-une-cyberattaque-991702.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "id": "43cbd325942bfebdd09034cf33a033aa85997524",
+      "title": "Rugby : Le Stade Français «ne commentera pas les communications des auteurs» de la cyberattaque",
+      "url": "https://www.lefigaro.fr/sports/rugby/top-14/rugby-le-stade-francais-ne-commente-pas-les-communications-des-auteurs-de-la-cyberattaque-20260806?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
       "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-06T17:52:00.000Z",
-      "summary": "(Boursier.com) — Biosynex annonce avoir été victime d'une cyberattaque, survenue entre le 31 juillet et le 2 août. Dès que la société a eu …",
+      "publishedAt": "2026-08-06T17:24:03.000Z",
+      "summary": "Un site malveillant spécialisé dans le vol de données a piraté les données du club parisien et exige une rançon pour ne pas divulguer ces documents …",
       "type": "NEWS",
       "severity": "Info",
-      "imageUrl": "https://cdn-static.boursier.com/illustrations/logos/l_biosynexlogo.jpg"
+      "imageUrl": "https://i.f1g.fr/media/cms/1200x630_crop/2026/08/06/7543302c3134cec31011de1dd50f98e180779802ec94f592927a69ccfc2f11a7.JPG"
     },
     {
       "id": "f114644f1c730033400436a45c1b84e905bbeb9d",
@@ -560,17 +638,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgERF89TJZsy7Kq1JhEcPKC5ynyCNMv1JAObXj4W415ZbGwE-ZZplLbq5HEiBWi3ULKifDI7Tl440UrQvLFEmngeAHL4o2XfWKxTgb7CEsHmBqBt-w5qePo-BGmlDcu_vJtyfsh1CV5COMXpIUHRiw8WmPeitZAzEu3ugQJ90mDtOhlU0BzTaRDogTHg2Y/s1600/ask-ai.jpg"
     },
     {
-      "id": "04e0f73398b4cfc5e4b974f3b3ebc3ae636f5eca",
-      "title": "Lyon. Victimes d’un « incident de cybersécurité », les HCL redoutent un « vol de données personnelles »",
-      "url": "https://www.leprogres.fr/faits-divers-justice/2026/08/06/victimes-d-un-incident-de-cybersecurite-les-hcl-redoutent-un-vol-de-donnees-personnelles?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-06T09:30:00.000Z",
-      "summary": "Selon les Hospices civils de Lyon, cette attaque, datant de juin et ciblant l’un de ses prestataires externes, n’a pas visé les données médicales des …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://cdn-s-www.leprogres.fr/images/747AD4B0-3DCA-469C-A96B-86FB3EE5DE5C/FB1200/photo-1786050713.jpg"
-    },
-    {
       "id": "9a2eda1e7a46aa39b7e212d23d21ff752858fa63",
       "title": "Attackers Compile khunt Inside Oracle to Turn SQL Injection Into Windows SYSTEM Access",
       "url": "https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html",
@@ -602,6 +669,17 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/rfi.fr/8bff5136decbe959bbdd80c10de455dcd015df18/_xlarge.jpeg"
+    },
+    {
+      "id": "09aa19e81238093b3010f74bf254bd5d4fad9123",
+      "title": "Pourquoi cette attaque par ransomware entièrement automatisée donne des cauchemars aux chercheurs - ZDNET",
+      "url": "https://www.zdnet.fr/actualites/pourquoi-cette-attaque-par-ransomware-entierement-automatisee-donne-des-cauchemars-aux-chercheurs-499397.htm",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-06T08:08:26.000Z",
+      "summary": "JadePuffer pourrait bien être le premier cas recensé d'une attaque par ransomware entièrement orchestrée par l'IA, du début à la fin. Voici comment …",
+      "type": "NEWS",
+      "severity": "Critique",
+      "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2026/08/ai-attack4gettyimages-1980357946.jpg"
     },
     {
       "id": "c8c3b0308987675d6eaf1b3233455abe8b2892a2",
@@ -824,17 +902,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmYzVApv7lLg_Qt67mGI-sC0vUGKZwkNmFsVgTykAPCHqVMsfGSSQRRaxVXuxx0RDd6wk18yEiVXXy3uPRpmLT_XLNMCI_0iuKbPtJ3z9CtuPtjBsIGDAsVTd5f8DE_z2yMfAsQFW66vvoe5MeQPWvfBM2CoSzi-xpgm_mTvXfqHERAr-1z9NYOUPGOgwP/s1600/chatgpt-scam.jpg"
     },
     {
-      "id": "18c2a2a85da5bd4ae4fc5b0da1151590ce1415f2",
-      "title": "Des hackers du renseignement russe piègent le réseau wifi de plusieurs hôtels pour espionner les clients",
-      "url": "https://www.latribune.fr/article/tech/90237000151104/des-hackers-du-renseignement-russe-piegent-le-reseau-wifi-de-plusieurs-hotels-pour-espionner-les-clients?amp%3Butm_content=topic%2Ffr-technologie",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-05T16:08:00.000Z",
-      "summary": "LES TROIS ALERTES CYBER DE LA SEMAINE. Des pirates liés à Moscou s'invitent dans le réseau Wi-Fi des grands hôtels, un modèle d'IA d'Anthropic monte …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/latribune.fr/5fd58597e08ca8760ae860f11b2af30c7e3eb8ce/_large.jpeg"
-    },
-    {
       "id": "f8d1d756502ffe182e61283c0300b7ff04236b48",
       "title": "Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt",
       "url": "https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html",
@@ -943,17 +1010,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh28AJU8_kuimN9uKY5xj-0XMAMxfVP4rejHEWMJ_5FD99mAvt8dEsRuGhlCGb63VjWykzePg_-tuaTqNycmvhZy3oFRFAuVHbwpsAg6ae599Pl7bYQVb7Qo7fDuDjWMHmHZOLfWc9HZkQlyAis8LNMmkS_wnKbvliVNsOej4p6XV_KbiFHHzJp1SjGFU1G/s1600/vscode.jpg"
-    },
-    {
-      "id": "58a3b3637e96d2bd3940b813fd8b3973dac52af6",
-      "title": "ChatGPT et Claude ont échappé à tout contrôle : les IA ont lancé 2 nouvelles cyberattaques « dans le monde réel »",
-      "url": "https://www.01net.com/actualites/chatgpt-claude-echappe-tout-controle-ia-lance-2-nouvelles-cyberattaques-monde-reel.html?amp%3Butm_content=topic%2Ffr-technologie",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-05T08:11:43.000Z",
-      "summary": "Deux nouvelles cyberattaques ont été orchestrées par des IA hors de contrôle. Lors de tests réalisés par des tiers, Claude et ChatGPT se sont en …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/fe03aa8a5671c20c42df402ba2a244f9312a3453/_xlarge.jpeg"
     },
     {
       "id": "3b52a44193ce7d4c5438ef7cc0bcf4d51ca00071",
@@ -1418,17 +1474,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoiIM6TX9TShDQoVLnmGNE_LZPas3bK4cwsNviskgSjdFASOmzcJPOixde9rkt0uawGd5D5IRHc09j5etqie865lUafh95s-TggQm3PluElF3XhILbJUCkl6vJy6lAM5FSu0GBNu6eWHcVzH7d9X86fvxOjnhwylSgakxghEq_05FsWzZ8mSVMHWYr5HBS/s1600/weeklyrecap.jpg"
     },
     {
-      "id": "09c65ef48934eee4c2031adfed0454824786cb08",
-      "title": "Une cyberattaque vise plus de 30 réseaux d’eau",
-      "url": "https://www.zataz.com/une-cyberattaque-vise-plus-de-30-reseaux-deau/",
-      "source": "Zataz",
-      "publishedAt": "2026-08-03T12:31:17.000Z",
-      "summary": "Cyberattaque : plus de 30 réseaux d’eau ciblés, renseignement cyber et réponse coordonnée mobilisés.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/Eau_water.jpg"
-    },
-    {
       "id": "d083da24780c722aa8bc8f0589f9536882c220a0",
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "url": "https://www.cisa.gov/news-events/alerts/2026/08/03/cisa-adds-one-known-exploited-vulnerability-catalog",
@@ -1451,17 +1496,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvsPqZrMBUJ3CH2LqsxL_1HWV6F-qs8FbnvytY_bz9ZlSUptj-3SPJ-BAlDBrF9V39V2F_D35LPU8BgSdDNfyPi2tqESWH_g2qzP2ospA36aF2CexX2_bRw7ee6qG4uqAyI24lavgb5wER2wuKWYd6rOUpdG0pbhlR4aAtEvSTuAQYmv8a5izEpv63mcA/s1600/phish-main.jpg"
     },
     {
-      "id": "58388c4981895b3433d90d86834195b25052def9",
-      "title": "L’UE valide une initiative contre l’identité numérique",
-      "url": "https://www.zataz.com/lue-valide-une-initiative-contre-lidentite-numerique/",
-      "source": "Zataz",
-      "publishedAt": "2026-08-03T11:10:13.000Z",
-      "summary": "L’UE valide une initiative contre l’identité numérique et la vérification d’âge obligatoires pour les services en ligne.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/referendum_ID.jpg"
-    },
-    {
       "id": "c3bbfc4393cc71fd3c09ad74dab7cc725e4fedc4",
       "title": "Chinese Threat Actor Uses Leaked DarkSword Kit to Deploy GHOSTBLADE on iOS",
       "url": "https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html",
@@ -1471,50 +1505,6 @@
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvbg0AbgcDL8IouGo4deahk3vOuegzB-hxhUxAok05EuI5uuYJUDP-mUVS1w-gr9Oedf6JzF9qEB3l8MWVnsFGkmZ4ZorInHavwKWrQ7toTmv64uc4EnJdoFDqGlDPQsgcTwnJo8rlZyfG9yFu60fNE51Di00aVdZoiv5YMIvobc6xuWZhT_cKDk3ikV-P/s1600/apple.jpg"
-    },
-    {
-      "id": "fe1531ef1f3108d19c21434ce2f3fbfdf9e42c38",
-      "title": "Sanction de 23andMe après une fuite de données",
-      "url": "https://www.zataz.com/sanction-de-23andme-apres-une-fuite-de-donnees/",
-      "source": "Zataz",
-      "publishedAt": "2026-08-03T10:10:02.000Z",
-      "summary": "23andMe, géant de l'analyse ADN, condamné pour des failles cyber ayant facilité la fuite massive de données génétiques.",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/23m_leak_amende.jpg"
-    },
-    {
-      "id": "0bdd085b58a2ae5c74a0f866cbb6beb3f2f42283",
-      "title": "Un coup de pouce pour une céramiste qui a tout perdu",
-      "url": "https://www.zataz.com/un-coup-de-pouce-pour-une-ceramiste-qui-a-tout-perdu/",
-      "source": "Zataz",
-      "publishedAt": "2026-08-03T09:33:11.000Z",
-      "summary": "ZATAZ relaie une cagnotte pour aider une céramiste du Porge à reconstruire son atelier détruit par les incendies.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/aide_cera.jpg"
-    },
-    {
-      "id": "b09e50d41e69b04cbbfb66e9d66a5ce678414734",
-      "title": "PNLD Breach Exposes U.K. Police and Government Contact Details on Dark Web",
-      "url": "https://thehackernews.com/2026/08/pnld-breach-exposes-uk-police-and.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-03T09:13:56.000Z",
-      "summary": "The Police National Legal Database (PNLD) has confirmed that police, government and customer contact information was compromised and published on the dark web. The data included na",
-      "type": "LEAK",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguFnLbEr199EuLksobp-I8Z6liAUmM4EKRi94ttPtanQN2aiwvNh1qHK_kkGhOBfWTzLzANlQ3jd6FmJOHWbdn8rFfg1sHvYqmBaVM5kfak1JxRhqPEfNR94zY_pibMdsbWMIx8gqcZZjoYLhKk03Gw3PrYKF6JQzrNLV6HiE5U7UtYPSwmH-OmDmjl8c/s1600/exfilsquad.jpg"
-    },
-    {
-      "id": "fdfa2d302519cdcc6f464638518ff998d0133dab",
-      "title": "Thermo Fisher Patches Flaw That Could Make DNA File Tampering Nearly Undetectable",
-      "url": "https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-03T08:05:30.000Z",
-      "summary": "Thermo Fisher Scientific has patched a flaw in select Applied Biosystems human identification software that could allow data files to be altered before analysis software loads them",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMO8eh_7kmo0QAAphjdYIXsjfGspFVU9gV5XInqqhs4WnFNCm_hP-EBdmVln7vSrwWkmo9pdvoxAQbaC17M8sYg7VzBX8RJnRIb6E6pBr5euW9WweOeeZk9XpN8O5I5vF_OGypfqp9WO-SO_C81D4DDui3uTp0jBvV5_C7qIjuRgtoMd4bKQ1y8QEnC3c/s1600/dna.jpg"
     },
     {
       "id": "4401192d5247979ea3b48c8a58d0faa2af88f501",
@@ -1627,17 +1617,6 @@
       "imageUrl": null
     },
     {
-      "id": "44c629393f72696b60a13c40f9c11baede5c6529",
-      "title": "Cyber’Smile : la playlist d’été de ZATAZ est de sortie",
-      "url": "https://www.zataz.com/cybersmile-la-playlist-dete-de-zataz-est-de-sortie/",
-      "source": "Zataz",
-      "publishedAt": "2026-08-01T12:49:35.000Z",
-      "summary": "Entre deux alertes cyber et un Wi-Fi d’hôtel douteux, ZATAZ passe en mode été avec une playlist de cinq titres originaux pour accompagner vacances, trajets et pauses au soleil.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/song.jpg"
-    },
-    {
       "id": "316f374ddcc4ed5a8c59b78625e78f1c883842eb",
       "title": "SplitVPN - 865,336 breached accounts",
       "url": "https://haveibeenpwned.com/Breach/SplitVPN",
@@ -1658,39 +1637,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f13d40f9b05eb319f27591485d64b14deec36a9e-3592x2394.jpg?auto=format&amp%3Bfit=crop&amp%3Bcrop=focalpoint&amp%3Bw=1920&amp%3Bh=1080&amp%3Bq=75"
-    },
-    {
-      "id": "51b93a6ea49dedc051fcddf7bf5d4459c76497e8",
-      "title": "Cyber actualités ZATAZ de la semaine du 27 juillet au 2 août 2026",
-      "url": "https://www.zataz.com/cyber-actualites-zataz-de-la-semaine-du-27-juillet-au-2-aout-2026/",
-      "source": "Zataz",
-      "publishedAt": "2026-07-31T14:39:48.000Z",
-      "summary": "Cette semaine, les données personnelles restent au cœur des alertes cyber. L'Hacktivisme politique semble faire son retour en France... ou pas !",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/actu_semaine_ete.jpg"
-    },
-    {
-      "id": "e2f3fcd309ce047b93a05fc2705b0c3d855df3df",
-      "title": "Un pirate revendique un accès au CRM d’ENI",
-      "url": "https://www.zataz.com/un-pirate-revendique-un-acces-au-crm-deni/",
-      "source": "Zataz",
-      "publishedAt": "2026-07-31T14:11:01.000Z",
-      "summary": "Un pirate revendique un accès au CRM français d’ENI et diffuse des factures de professionnels et grands comptes.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/Eni_leak_fk.jpg"
-    },
-    {
-      "id": "03f07b48e28943f29f3d57d7fbff2f9e94630257",
-      "title": "Hacktivisme : une fuite « Macronleak » de 2017 contre Chat Control ressort du darkweb !",
-      "url": "https://www.zataz.com/hacktivisme-une-fuite-macronleak-de-2017-contre-chat-control-ressort-du-darkweb/",
-      "source": "Zataz",
-      "publishedAt": "2026-07-31T13:41:31.000Z",
-      "summary": "Un hacktiviste exhume des données de 2017 pour attaquer Chat Control et justifier une fuite politique controversée.",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/hacktiviste_leak-2017.jpg"
     },
     {
       "id": "4fbfb568ba2c184c17aa7a98554408489458378d",
@@ -2271,6 +2217,61 @@
       "source": "CERT-FR",
       "publishedAt": "2026-07-29T00:00:00.000Z",
       "summary": "Une vulnérabilité a été découverte dans Apache Tomcat. Elle permet à un attaquant de provoquer un déni de service à distance.",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "b56b0395e658aa8fdaf2b568b377b92559a8f4d2",
+      "title": "Multiples vulnérabilités dans Microsoft Edge (29 juillet 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0943/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-07-29T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une atteinte à l'intégrité des données et un problème de sécurité ",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "4df9dc4689d7c9f33c48f0bc68cf0620bd8db10b",
+      "title": "Claude Mythos peut-il détruire l’économie mondiale et les communications ? L’IA d’Anthropic a compromis les mécanismes secrets qui sécurisent Internet",
+      "url": "https://www.lefigaro.fr/secteur/high-tech/claude-mythos-peut-il-detruire-l-economie-mondiale-et-les-communications-l-ia-d-anthropic-a-compromis-les-mecanismes-secrets-qui-securisent-internet-20260728?amp%3Butm_content=topic%2Ffr-cryptographie",
+      "source": "Cryptographie FR",
+      "publishedAt": "2026-07-28T20:48:41.000Z",
+      "summary": "DÉCRYPTAGE - Le géant de l’IA a annoncé qu’un de ses prototypes avait réussi à percer en partie deux systèmes de chiffrement différents. Ces systèmes …",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://ic-cdn.flipboard.com/f1g.fr/bac2d7a97e5d5238b354751864bfbc2884444e26/_xlarge.jpeg"
+    },
+    {
+      "id": "684b1c3290c82928a964c3c8bb65c49733619c8c",
+      "title": "La startup Ethereum EthSystems mise sur la confidentialité comme élément clé pour faire adopter les blockchains publiques par les banques",
+      "url": "https://www.coindesk.com/fr/tech/2026/07/28/ethereum-startup-ethsystems-bets-privacy-is-key-to-getting-banks-on-public-blockchains?amp%3Butm_content=topic%2Ffr-%C3%A9conomie",
+      "source": "Cryptographie FR",
+      "publishedAt": "2026-07-28T15:46:33.000Z",
+      "summary": "EthSystems, qui s'est séparée de la Fondation Ethereum plus tôt ce mois-ci, se concentre sur la construction d'infrastructures de confidentialité …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/c357579ddef2051b405b9e89f8525dd02709081d-5760x3240.jpg?auto=format&amp%3Bfit=crop&amp%3Bcrop=focalpoint&amp%3Bw=1920&amp%3Bh=1080&amp%3Bq=75"
+    },
+    {
+      "id": "49ee6ddd4a8940cbc459db1564c35e7b379e49dc",
+      "title": "Cybermalveillance.gouv.fr lance une AlerteCyber concernant deux failles de sécurité critiques dans Microsoft SharePoint",
+      "url": "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/alertecyber-microsoftsharepoint-0726",
+      "source": "Cybermalveillance",
+      "publishedAt": "2026-07-28T13:22:05.000Z",
+      "summary": "Cybermalveillance.gouv.fr déclenche ce jour une nouvelle AlerteCyber concernant deux failles de sécurité critiques dans Microsoft SharePoint. Il est primordial de les corriger le p",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "0df59aed834d5b9bc9d098bf92dbb9ef0ab1b392",
+      "title": "ABB KNX Update Tool",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-07",
+      "source": "CISA",
+      "publishedAt": "2026-07-28T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-209-07.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
