@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T20:44:11.450Z",
+  "generatedAt": "2026-08-10T22:39:03.837Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -75,6 +75,61 @@
     }
   ],
   "items": [
+    {
+      "id": "f5f50540e571f0290ca0a296895c1969559c753f",
+      "title": "Cars.no : une fuite revendiquée expose 148 288 automobilistes",
+      "url": "https://www.zataz.com/cars-no-une-fuite-revendiquee-expose-148-288-automobilistes/",
+      "source": "Zataz",
+      "publishedAt": "2026-08-10T22:30:11.000Z",
+      "summary": "Cars.no aurait exposé noms, téléphones et plaques, créant un risque élevé de phishing automobile ciblé.",
+      "type": "LEAK",
+      "severity": "Élevée",
+      "imageUrl": "https://www.zataz.com/wp-content/uploads/cars_no_leak.jpg"
+    },
+    {
+      "id": "451aea02cfb39e1e2788513641149f5f0a6d89be",
+      "title": "Des kiosques Pokémon exposés par une fuite Firebase",
+      "url": "https://www.zataz.com/des-kiosques-pokemon-exposes-par-une-fuite-firebase/",
+      "source": "Zataz",
+      "publishedAt": "2026-08-10T22:19:10.000Z",
+      "summary": "Une fuite Firebase présumée expose kiosques Pokémon, paiements, code source et accès à 217 machines connectées.",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://www.zataz.com/wp-content/uploads/PikHack.jpg"
+    },
+    {
+      "id": "ad8de2f52083a21f683bca2f7674af58faf68be1",
+      "title": "Un phishing Ameli qui observe avant de frapper",
+      "url": "https://www.zataz.com/un-phishing-ameli-qui-observe-avant-de-frapper/",
+      "source": "Zataz",
+      "publishedAt": "2026-08-10T22:00:49.000Z",
+      "summary": "Phishing Ameli, cloaking et fausse boutique IA : le clic pourrait servir à identifier et qualifier de futures victimes.",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://www.zataz.com/wp-content/uploads/phis_ameli_veille.jpg"
+    },
+    {
+      "id": "7a3bed83fa0bd892f2c41722761626d17a8e6e20",
+      "title": "Une fausse lettre AR24 vole les identifiants mail",
+      "url": "https://www.zataz.com/une-fausse-lettre-ar24-vole-les-identifiants-mail/",
+      "source": "Zataz",
+      "publishedAt": "2026-08-10T21:41:06.000Z",
+      "summary": "Nouveau faux mail AR24, CAPTCHA et vol d’identifiants : Tester en live ce phishing et vérifier une notification AR24.",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://www.zataz.com/wp-content/uploads/ar24_phishing.jpg"
+    },
+    {
+      "id": "37262ff509f78948da8586d1dce542f493f86bf5",
+      "title": "Une nouvelle fuite pour la FF Handball ?",
+      "url": "https://www.zataz.com/une-nouvelle-fuite-pour-la-ff-handball/",
+      "source": "Zataz",
+      "publishedAt": "2026-08-10T20:50:56.000Z",
+      "summary": "Un pirate revendique 1,3 million de lignes volées à la FF Handball après plusieurs publications visant des groupes français.",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://www.zataz.com/wp-content/uploads/ffhand_leak.jpg"
+    },
     {
       "id": "cc35dc0f091c1a2e6a3c54b8864bfbc6c0d615bc",
       "title": "À vendre : les coulisses d’un empire du pari",
@@ -747,28 +802,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFYjJTxVoOMkR9DDRPZ5PkeR_EWAqmBScR3TPw3mlweipGlnQKq0OdfVqR2f26QIV3kBJWQIM65f8XwMSFq3zT6Bl4fsTvkPHxJiU2LilhK9s0tcreXt2gotEpE8sKoDrLQJ3SSVY9B-RS0FsS2dC480op8OV-caeaZvNyTiIipQbeNFJGMnAcjWEVq7g/s1600/rovo.jpg"
     },
     {
-      "id": "7713d4b10b4272b540d0e003e4a20a58b9ef3de9",
-      "title": "Un pirate plaide coupable après 165 piratages",
-      "url": "https://www.zataz.com/un-pirate-plaide-coupable-apres-165-piratages/",
-      "source": "Zataz",
-      "publishedAt": "2026-08-08T08:30:24.000Z",
-      "summary": "Un pirate reconnaît le piratage de 165 organisations, le vol massif de données et plusieurs extorsions cloud.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/jail_hacker.jpg"
-    },
-    {
-      "id": "cb773931d41e3fe6a29921657a5b3aa45cf58c8d",
-      "title": "Levi Strauss signale une cyberattaque",
-      "url": "https://www.zataz.com/levi-strauss-signale-une-cyberattaque/",
-      "source": "Zataz",
-      "publishedAt": "2026-08-08T08:08:14.000Z",
-      "summary": "Le géant du Jean, Levi Strauss, déclare une intrusion par ingénierie sociale ayant permis l’exfiltration de données internes.",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/levi_sec_hack.jpg"
-    },
-    {
       "id": "dfbe3dc5a66c3e9f0c3716ffb97bd9d97bfbf0a2",
       "title": "New CSS Attacks Can Break Webmail Defenses to Steal Passwords and Tokens",
       "url": "https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html",
@@ -844,39 +877,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiL6-qu-cN6glV6XSy1IS7siHKdKPFmzqT3X8TQjGCa0RD33kfIQ8NfEBR5r8dbQvj1OS8L6T083igxfS1VO98xlg7MHIMysbfR_cVpdmPMcYibuMwDZ6SssIi3iryUznGL14zUByy7oRrTJe0AjgGMNti_Rcqezh7dtfyU31vyo-zft3fvR56SCsAfeHrm/s1600/vishing.jpg"
-    },
-    {
-      "id": "597944a76464f4c101bd3dc355c76cd338a7dab7",
-      "title": "Qilin menace de publier des données du Stade français",
-      "url": "https://www.zataz.com/qilin-menace-de-publier-des-donnees-du-stade-francais/",
-      "source": "Zataz",
-      "publishedAt": "2026-08-07T14:52:16.000Z",
-      "summary": "Le groupe Qilin revendique une attaque contre le Stade français et expose déjà des pièces d’identité, avant une possible publication massive annoncée pour le 15 août. La menace aff",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/sf_qilin.jpg"
-    },
-    {
-      "id": "f237e560197a2de8ef938b6e00c9b7c6d9dab245",
-      "title": "Présidentielle : ZATAZ vous plonge au cœur d’une opération numérique qui pourrait vous piéger",
-      "url": "https://www.zataz.com/presidentielle-zataz-vous-plonge-au-coeur-dune-operation-numerique-qui-pourrait-vous-pieger/",
-      "source": "Zataz",
-      "publishedAt": "2026-08-07T14:05:47.000Z",
-      "summary": "Présidentielle, faux sites et influence : ZATAZ propose une enquête interactive sur les signaux faibles numériques.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/72h-avant-le-silence.jpg"
-    },
-    {
-      "id": "929c2d752284e917f87efdc162db3ca59610a258",
-      "title": "L’ingérence informationnelle teste le terrain électoral français",
-      "url": "https://www.zataz.com/lingerence-informationnelle-teste-le-terrain-electoral-francais/",
-      "source": "Zataz",
-      "publishedAt": "2026-08-07T13:53:14.000Z",
-      "summary": "Ingérence, faux sites et politiques ciblés : comprendre les méthodes de manipulation avant les présidentielles.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/test_leak-presidentiel.jpg"
     },
     {
       "id": "bc74bc7cad1b68fd7c4216a04d3ebb077f3e9680",
