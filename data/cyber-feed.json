@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T15:00:13.981Z",
+  "generatedAt": "2026-08-10T16:54:58.033Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -76,6 +76,50 @@
   ],
   "items": [
     {
+      "id": "c434c98771dd4828d7fc83c3f0f48a8e5c88899f",
+      "title": "⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors",
+      "url": "https://thehackernews.com/2026/08/weekly-recap-ai-goes-rogue-metabase-0.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-10T15:00:29.000Z",
+      "summary": "A lot of security problems still begin with someone doing a completely normal thing. Cloning a repo. Answering a call. Leaving a box exposed. Trusting the default. That pretty much",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtXmkUOPD6prrNPMK9N1Rhu2dm3QFGQ2DUTiu3xrj2WWbauZ_IK2HemME36-4WBIqGh01SFOkNJuutFeXLgS_ZMUBFn5ZDzIP5_IeNrwJWDfKcOPQgZl3spOFVS8R84Hbthy6o3sx9IWJ1yRo4FiW5acGYGBrf2nljmx6yvSd55LWRrkX6JhJ9b5bHJX0g/s1600/recaps.jpg"
+    },
+    {
+      "id": "f6fc546c0d8d7b0c04470159192f7fba892f5554",
+      "title": "Les données de millions de Français ont peut-être été piratées : la France pointe du doigt « une vulnérabilité informatique »",
+      "url": "https://www.01net.com/actualites/vous-avez-chien-chat-donnees-peut-etre-piratees.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-10T14:40:41.000Z",
+      "summary": "Le fichier national d’identification des chiens et des chats de France a été victime d’une faille de sécurité. Des adresses e-mail de détenteurs …",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/b8d02424827cfcfd1e6b7ae0ac7e5167807c6813/_xlarge.jpeg"
+    },
+    {
+      "id": "94ddc51aea2b52f4757885686900a883ea1d4cf5",
+      "title": "Wi-Fi gratuit dans les hôtels ou les aéroports : attention au vol de vos identifiants",
+      "url": "https://www.ouest-france.fr/societe/cyberattaque/wi-fi-gratuit-dans-les-hotels-ou-les-aeroports-attention-au-vol-de-vos-identifiants-75c4c07e-94c7-11f1-a48b-fb7fc1c0a6aa?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-10T14:38:23.000Z",
+      "summary": "Des pirates russes s’attaquent à de nombreux réseaux Wi-Fi publics gratuits cet été. En passant par ces réseaux, ils sont capables de récupérer des …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/6c9a04631637241e4136e2f7d61eb83b235bf469/_xlarge.jpeg"
+    },
+    {
+      "id": "316d64088e84efbc57e546961a3f319810881b22",
+      "title": "Dans \"l'impossibilité technique\" de notifier les utilisateurs: le gestionnaire du fichier national d'identification des chiens, chats et furets (I-CAD) révèle avoir été victime d'une cyberattaque… un an après",
+      "url": "https://www.bfmtv.com/tech/cybersecurite/dans-l-impossibilite-technique-de-notifier-les-utilisateurs-le-gestionnaire-du-fichier-national-d-identification-des-chiens-chats-et-furets-i-cad-revele-avoir-ete-victime-d-une-cyberattaque-un-an-apres_AV-202608100375.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-10T14:37:55.000Z",
+      "summary": "Le gestionnaire de la plateforme permettant d'identifier son animal (chiens, chats et furets), Ingenium Animalis a annoncé avoir été victime d'une …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/bfmtv.com/87ea68540b4b9df94a26b6e25ca5a5cdf43a23f0/_xlarge.jpeg"
+    },
+    {
       "id": "357280fe9fe0f4932d7669ba32ccffedbb154387",
       "title": "Il reçoit 150 000 dollars pour avoir réussi à hacker Apple Private Cloud Compute",
       "url": "https://www.clubic.com/actualite-624736-il-recoit-150-000-dollars-pour-avoir-reussi-a-hacker-apple-private-cloud-compute.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -98,6 +142,17 @@
       "imageUrl": "https://c0.lestechnophiles.com/www.numerama.com/wp-content/uploads/2025/11/design-sans-titre-2025-11-04t103233490.jpg?resize=1600%2C900&amp%3Bkey=0fa3a030"
     },
     {
+      "id": "7d961a436cfde0b34ee55a86611c468a66756ac0",
+      "title": "OpenAI met en pause son modèle Astra : il pourrait être trop doué pour les cyberattaques",
+      "url": "https://www.frandroid.com/marques/openai/3207877_openai-met-en-pause-son-modele-astra-il-pourrait-etre-trop-doue-pour-les-cyberattaques?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-10T13:32:29.000Z",
+      "summary": "Le nouveau modèle d’OpenAI, Astra, ne sera pas dévoilé au public avant quelque temps. Il s’est révélé trop efficace et pourrait avoir le potentiel de …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://c0.lestechnophiles.com/images.frandroid.com/wp-content/uploads/2026/07/chatgpt-1-milliard-utilisateurs-pochoir.jpeg?resize=1600%2C900&amp%3Bkey=83142e6f"
+    },
+    {
       "id": "a3bb5115258fd2e22dc303ecd2a0b33d95d8f189",
       "title": "Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development",
       "url": "https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html",
@@ -118,6 +173,28 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://siecledigital.fr/wp-content/uploads/2026/08/5444529045.jpg"
+    },
+    {
+      "id": "24c2daac14f0e5c8f93701b8cb4031b7075e7559",
+      "title": "OpenAI freine le développement d'Astra après des résultats inquiétants en cybersécurité",
+      "url": "https://siecledigital.fr/2026/08/10/openai-freine-le-developpement-dastra-apres-des-resultats-inquietants-en-cybersecurite/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-10T12:53:41.000Z",
+      "summary": "OpenAI stoppe une partie du développement de son modèle Astra. Les tests internes montrent qu'il pourrait être capable de repérer et d'exploiter des …",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": "https://siecledigital.fr/wp-content/uploads/2026/08/3575835216.jpg"
+    },
+    {
+      "id": "303ece77870412fb332b29bc198b483283396c2b",
+      "title": "En laissant vos objets connectés recevoir leurs mises à jour la nuit, vous ouvrez littéralement une porte que personne ne surveille",
+      "url": "https://sciencepost.fr/en-laissant-vos-objets-connectes-recevoir-leurs-mises-a-jour-la-nuit-vous-ouvrez-litteralement-une-porte-que-personne-ne-surveille/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-10T12:45:00.000Z",
+      "summary": "On imagine les cyberattaques comme des assauts spectaculaires, menés en pleine journée par des pirates encapuchonnés. La réalité est plus discrète : …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://sciencepost.fr/wp-content/uploads/2026/07/en-laissant-vos-objets-connectes-recevoir-leurs-mises-a-jour-la-nuit-vous-ouvrez-litteralement-une-porte-que-personne-ne-surveille-featured-1784804824.jpg"
     },
     {
       "id": "f4033d85b957d65232b75136812acd96e916950a",
@@ -186,6 +263,17 @@
       "imageUrl": "https://ic-cdn.flipboard.com/begeek.fr/9f81d743fb7e74fe7ba181d4b69adc0cabbf4698/_xlarge.webp"
     },
     {
+      "id": "5109542a8935af68da0a910abe63c29e202796a1",
+      "title": "#StopRansomware: Gunra Ransomware",
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-222a",
+      "source": "CISA",
+      "publishedAt": "2026-08-10T12:00:00.000Z",
+      "summary": "&lt;h2&gt;&lt;strong&gt;Advisory at a Glance&lt;/strong&gt;&lt;/h2&gt; &lt;table&gt; &lt;tbody&gt; &lt;tr&gt; &lt;th&gt;Title&lt;/th&gt; &lt;td&gt;#StopRansomware: Gunra Ransomware",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": null
+    },
+    {
       "id": "f886772822042c45eaf61ceddb3a6d3bd860627e",
       "title": "Shipping 10–50× More Code? Watch This Webinar on Securing AI-Speed Development",
       "url": "https://thehackernews.com/2026/08/shipping-1050-more-code-watch-this.html",
@@ -217,17 +305,6 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://i.f1g.fr/media/cms/1200x630_crop/2026/08/10/e3957e3a9e98d36d7c169357ad36cf288ebc7e7dba871b0d322530dc2ccb9786.jpg"
-    },
-    {
-      "id": "9e7e654d5e957ad2afa52782420ce487cbb9613a",
-      "title": "Fuite de données chez Steam : une cyberattaque compromet les informations des joueurs en Europe",
-      "url": "https://www.01net.com/actualites/fuite-de-donnees-chez-steam-une-cyberattaque-compromet-les-informations-des-joueurs-en-europe.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-10T10:37:58.000Z",
-      "summary": "Valve alerte les clients européens de Steam d’une cyberattaque avec fuite de données. Le prestataire chargé d’expédier le matériel Steam a en effet …",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/5796b6db182fce7f15f5f581fe9e79288880e7a0/_xlarge.jpeg"
     },
     {
       "id": "ff6e39736780cedda071257a034bf859520b45ef",
@@ -285,17 +362,6 @@
       "imageUrl": "https://ic-cdn.flipboard.com/presse-citron.net/5298b96e73ad272bab0301bcb10b448af7bdd241/_xlarge.jpeg"
     },
     {
-      "id": "a4fc71ad8e0e5ef410627b615adb77dc58c1107a",
-      "title": "OpenAI suspend une partie du développement d’Astra face à des risques cyber inédits - ZDNET",
-      "url": "https://www.zdnet.fr/actualites/openai-suspend-une-partie-du-developpement-dastra-face-a-des-risques-cyber-inedits-499497.htm",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-10T08:01:52.000Z",
-      "summary": "Alors que les capacités cyber des modèles d’IA progressent rapidement, cette pause marque l’une des premières fois qu’un laboratoire de pointe …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2025/04/openai-1.jpg"
-    },
-    {
       "id": "8789edb718768073ac535803690340cc7b37e2c3",
       "title": "Solidity Pro VS Code Extensions Steal Crypto Wallets, API Keys, and Credentials",
       "url": "https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html",
@@ -316,17 +382,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgat4Wvo6Fpe6pNG66UengjFIWRohQUVp-khyphenhyphenxa57n9Ued3-mWlDeeTQkblpAP-OEjgSCbY0n1bC_MhI3a5_BF1bWq7rBohkS2DG1AXUtcDI8MuWPRMFKGNdteA7_Xkg-_6w-y-wao14ZPQWoRF8cnbibQYHUAGP1byqwYyBpcyvCBQd0h2fe6t94zvoa4j/s1600/openai-astra.jpg"
-    },
-    {
-      "id": "cb8be0ee8909f7d2a6c4cf09f0dd0c60dd084af1",
-      "title": "OpenAI suspend une partie du développement du futur ChatGPT pour des raisons de sécurité",
-      "url": "https://www.01net.com/actualites/openai-met-gpt-6-sous-cloche-juge-trop-doue-en-piratage-apres-lepisode-hugging-face.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-10T05:30:44.000Z",
-      "summary": "OpenAI vient de mettre à l’arrêt une partie du développement de son prochain modèle. Motif invoqué : l’entreprise ne parvient plus à exclure qu’Astra …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/361b64380c940195536e8be092c0bd7f4763ec68/_xlarge.jpeg"
     },
     {
       "id": "bfb7b047fab6099aa6c3bf1491469268bfd506bc",
@@ -549,6 +604,17 @@
       "imageUrl": null
     },
     {
+      "id": "284f698e33eba4ff015fdea4de9b74657e4b8c6d",
+      "title": "Astra inquiète OpenAI avant même sa sortie",
+      "url": "https://www.begeek.fr/astra-inquiete-openai-avant-meme-sa-sortie-438323?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-09T10:00:30.000Z",
+      "summary": "OpenAI a suspendu une partie du développement d’Astra après une alerte interne. Le modèle aurait atteint un niveau jugé critique en …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/begeek.fr/538b808281be4abd83840ee267a36c15b9e7a8be/_xlarge.webp"
+    },
+    {
       "id": "d0777718f9a0d9a3d66a721112284d96989eadd0",
       "title": "Extensions de navigateur oubliées : la faille de sécurité que personne ne surveille",
       "url": "https://android-mt.ouest-france.fr/news/extensions-de-navigateur-oubliees-la-faille-de-securite-que-personne-ne-surveille/210589/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -593,17 +659,6 @@
       "imageUrl": "https://www.zataz.com/wp-content/uploads/decouverte_zataz.jpg"
     },
     {
-      "id": "32a17f16253e7271ea8b5894825e2dd4610b926c",
-      "title": "Cyberattaques : la France est-elle une “passoire numérique” ?",
-      "url": "https://www.radiofrance.fr/franceculture/podcasts/le-magazine-du-week-end/cyberattaques-la-france-est-elle-une-passoire-numerique-9527284?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-08T10:46:15.000Z",
-      "summary": "Hôpitaux, collectivités, entreprises, ministères : plus aucun secteur n'est épargné par les cyberattaques. La France est le premier pays européen et …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/radiofrance.fr/41728a1a8bf11c2270b536beb9b55cd08c7e3d61/_xlarge.webp"
-    },
-    {
       "id": "3e56f0f494b52fd93319b3690e298512c29097e7",
       "title": "Brinks Home - 732,162 breached accounts",
       "url": "https://haveibeenpwned.com/Breach/BrinksHome",
@@ -646,17 +701,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://www.zataz.com/wp-content/uploads/coco_leak_cutesec.jpg"
-    },
-    {
-      "id": "2c1b4bf29817932f16463641d8a71c8ad5237a91",
-      "title": "Les réseaux d'eau potable d'une douzaine d'États américains ciblés par des hackers iraniens",
-      "url": "https://www.franceinfo.fr/monde/iran/guerre-entre-les-etats-unis-israel-et-l-iran/les-reseaux-d-eau-potable-d-une-douzaine-d-etats-americains-cibles-par-des-hackers-iraniens_8139560.html",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-08T08:56:01.000Z",
-      "summary": "La Géorgie notamment a été visée la semaine dernière par une cyberattaque, qui selon certains chercheurs aurait pu être anticipée. Ces attaques …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/7fa64eac5c376ae8dcb32384ec180be2668d7c32/_xlarge.jpeg"
     },
     {
       "id": "cd3e9109171870bd6c43438918549db8f536c91b",
@@ -734,17 +778,6 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_DF22WirQj4KZe5A4NxYmG3UhC2o4BRQ4AybyFlmr80n5Wkf15sbtMn11P0msoMyAe65WBqMpL2XBsqTiHdDNNH1i6qz11ydD9X4AIOoiaSfCYb1MCe7dfJD0n4TEIc5_83tsMq5zJ5zVpGbpCq7b8rACen1oMvW8XGBbz3T4hy_9J6igpOk0oCDp6vkA/s1600/progress.jpg"
-    },
-    {
-      "id": "e914c184bf762a3abcf2603b525a9a3a23df7c23",
-      "title": "L’Allemagne met en garde contre des menaces hybrides quotidiennes après un incident de drone",
-      "url": "https://fr.investing.com/news/economy-news/lallemagne-met-en-garde-contre-des-menaces-hybrides-quotidiennes-apres-un-incident-de-drone-3546692?amp%3Butm_content=InvestingFrance%2Fmagazine%2FEconomie",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-08T00:00:00.000Z",
-      "summary": "Investing.com - L’Allemagne est ciblée chaque jour par des opérations de guerre hybride étrangères, a déclaré le ministre de l’Intérieur Alexander …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/investing.com/27735c23362c73a8d02ecfa24601bb59353f63ef/_xlarge.jpeg"
     },
     {
       "id": "0f102641835d27e4c4e508baf6f6753818b989a9",
@@ -910,17 +943,6 @@
       "type": "NEWS",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH78NjDW1Q_sIk9dwQ1scYlCkNCMutfjGx_9flqrKbE42fEXqvHT8s5EeHTnWjbBGvzCuHPEWStR5r6wjwtIuuHF1hyphenhyphenot22E_Q98xedC1zXVhIhwglw6hLWQs45oSrPKPflK6Tt1BlHTj9iokMPpVaTehuemHGHDLL02cn2sqZJ5iIVstxiVf5IZ5Khodp/s1600/ms-phish.jpg"
-    },
-    {
-      "id": "8cd428d1f70bf2177f3cb5359613bf7c16b82f3f",
-      "title": "Selon le renseignement américain, Poutine pourrait tester la détermination de l’Otan par une attaque limitée",
-      "url": "https://www.lopinion.fr/international/selon-le-renseignement-americain-poutine-pourrait-tester-la-determination-de-lotan-par-une-attaque-limitee?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-07T10:37:31.000Z",
-      "summary": "Le président russe Vladimir Poutine pourrait tenter de tester la détermination de l’Otan par une attaque limitée contre un pays allié au cours des …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://beymedias.brightspotcdn.com/dims4/default/f0a817f/2147483647/strip/true/crop/2000x972+0+264/resize/1440x700!/quality/90/?url=http%3A%2F%2Fl-opinion-brightspot.s3.amazonaws.com%2F6d%2Fe3%2Fbba5194c41d297dd0f2167fa3b86%2Fp6-russia-drone.jpg"
     },
     {
       "id": "6b980b4d221aa8da3424ea951cfc216e481ed5b0",
@@ -1209,12 +1231,12 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUzp-V2FqPXO6jQl0K2Qnn-2Ys6UG168FNhA0TcFv7CGHtBIgWuD66JsjhDiQhf_DkSTBo_YpVGTY3wcLe3SITSszBT0XAD01P6_nFLkXOHNNoKmp6VTsQ-zB9oKR6qYU2tCpf5RwHZ_u35lJiF41Sa3T7zuGfXujh_Ums9snpXTUAJIbcL6LfF9a5bIw/s1600/power.jpg"
     },
     {
-      "id": "4b9fb5637f36f9c09d4395f5b1ff5cb7a5cd99f5",
-      "title": "ABB Ability Zenon",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-01",
+      "id": "8caeb0e22edf150f518c35c1896cdbf2b39b95b2",
+      "title": "Johnson Controls Inc. TL280",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-02",
       "source": "CISA",
       "publishedAt": "2026-08-06T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-218-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-218-02.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1231,12 +1253,12 @@
       "imageUrl": null
     },
     {
-      "id": "8caeb0e22edf150f518c35c1896cdbf2b39b95b2",
-      "title": "Johnson Controls Inc. TL280",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-02",
+      "id": "4b9fb5637f36f9c09d4395f5b1ff5cb7a5cd99f5",
+      "title": "ABB Ability Zenon",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-01",
       "source": "CISA",
       "publishedAt": "2026-08-06T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-218-02.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-218-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1603,17 +1625,6 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyvip0I7Uu7TeEHOGkVi4gl93ktZtzWF1krMsS1XPlRcql2xIf9UU4rXjDvdrF0HPPQaFCgNhhrrp9IM0HBJgHEzweJM41lccFe19e2DYqzkk5Au2STfT_Bjzzdfp_-UibeQ2o19Rh3OTtj5nOpbEn61gKQR4w7dPpOJ_5gP4Ob8KqqYLfWwAnoZ59FCo/s1600/claude-ai-agent.jpg"
-    },
-    {
-      "id": "88346b1f66b6f21beb99f0288b708a902d191d9e",
-      "title": "CISA Flags Langflow RCE, Tomcat, and N-central Flaws as Actively Exploited",
-      "url": "https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-05T07:40:39.000Z",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on August 5, 2026, added three flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of acti",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjU9CZ3zh4mWF0SVRdcylBR7IyGB6j797LrHqyND8vcsBbiE6mcDlqaufSOBg2Av4Ej_HZ_gMxbzR-KS6GvXX0hLPgSFlh5gwxKwhjx3FvcdsQ7XP65x70cxeadgTM7uETFglAUoZrxwq9Rmx6i1T4yS-E7c7Szx9igRmM_GqG-8L5xfKYk2i3fhQGEHjez/s1600/cisa.jpg"
     },
     {
       "id": "dbb0039fddb7722eaaced9422b815d709ea63475",
@@ -2166,34 +2177,23 @@
       "imageUrl": "https://krebsonsecurity.com/wp-content/uploads/2026/07/h96-amazon.png"
     },
     {
-      "id": "7a453dfae0a561d230a1d7f1adb8ca0d5582b16e",
-      "title": "MikroTik RouterOS",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-01",
-      "source": "CISA",
-      "publishedAt": "2026-07-30T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-211-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "36bd6a38b61bebc1c01ab31a88558ba56dcabb32",
-      "title": "Open Source Software: Security Principles and Practices",
-      "url": "https://www.cisa.gov/resources-tools/resources/open-source-software-security-principles-and-practices",
-      "source": "CISA",
-      "publishedAt": "2026-07-30T12:00:00.000Z",
-      "summary": "&lt;p&gt;Open source software (OSS) is embedded in nearly every modern system, from business applications to critical infrastructure. Our new Open Source Software: Security Princip",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": null
-    },
-    {
       "id": "8fc9f15f321fab2d6e1598017275ffc602af807d",
       "title": "Toptech Systems RCU II+ and Multiload II+",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-03",
       "source": "CISA",
       "publishedAt": "2026-07-30T12:00:00.000Z",
       "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-211-03.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "7a453dfae0a561d230a1d7f1adb8ca0d5582b16e",
+      "title": "MikroTik RouterOS",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-01",
+      "source": "CISA",
+      "publishedAt": "2026-07-30T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-211-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
