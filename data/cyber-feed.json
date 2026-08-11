@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T16:58:23.214Z",
+  "generatedAt": "2026-08-11T19:03:38.800Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -23,7 +23,7 @@
       "name": "Exploit-DB",
       "url": "https://www.exploit-db.com/rss.xml",
       "status": "ok",
-      "items": 50
+      "items": 0
     },
     {
       "name": "The Hacker News",
@@ -76,15 +76,37 @@
   ],
   "items": [
     {
-      "id": "4594a17882949a8568fa9260be52cbca3ca34a4e",
-      "title": "Pourquoi les dirigeants sont désormais les cibles privilégiées des ransomwares – et 6 conseils pour se protéger - ZDNET",
-      "url": "https://www.zdnet.fr/actualites/pourquoi-les-dirigeants-sont-desormais-les-cibles-privilegiees-des-ransomwares-et-6-conseils-pour-se-proteger-499692.htm?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-11T14:44:52.000Z",
-      "summary": "Près des deux tiers des victimes ciblées dans le cadre d'une seule campagne de rançongiciel occupaient des postes de direction ou de niveau supérieur …",
+      "id": "ee655a20386851f6473590c113243f4bf1df9acb",
+      "title": "Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands",
+      "url": "https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-11T18:36:47.000Z",
+      "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed details of a new social engineering campaign orchestrated by Russian nation-state threat actors targeting IT",
       "type": "NEWS",
+      "severity": "Moyenne",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiP9vK0AfjfbpQDa7i5il113N22qO5N-mxuOw7qoNVnvUOnQIYRjhuKA8rxdRhaZ13t0r5jZtsj1bjQQatdbdxi3L1Fso99wsDJIAKkw6NVklb6S2PBfipUtUm6qNdGofjKrmSAHUc0P4qgPRK2tDoGftkwyD17KQHQm6cYP80rT4dUH-tg0rnd5SSfQBJl/s1600/interview.jpg"
+    },
+    {
+      "id": "e4f6f232f658151c9263c6fa9f5a4f444ca725a7",
+      "title": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE",
+      "url": "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-11T16:47:44.000Z",
+      "summary": "Security researchers found a way to enter Microsoft SharePoint servers as any user, including an administrator, with no valid account. A significant part of the work that found it ",
+      "type": "CVE",
       "severity": "Critique",
-      "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2026/08/managersrope-gettyimages-2249735609.jpg"
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbDSDTAbeeAZ8pykGFRAGcCDs_3LZBuD8tYUJfh0jG35r_o84zM_bNo7q3TWcoEMPmZqvhzucujEF72b2c2HnzfDjowsj4Iw4psQEwcgADR_rVMCXVw18arcpSB0WLblkZeypa-bgJPsD0qwrqBUk2umKezFZTtuDpbi_kQlsGUSiveb2suBMRyc3oZhQ/s1600/admin.jpg"
+    },
+    {
+      "id": "1951cc7427c0c4e3415e6eed91156396a09a883b",
+      "title": "DeadLock Ransomware Uses Polygon Smart Contracts to Make Extortion Infra Harder to Disrupt",
+      "url": "https://thehackernews.com/2026/08/deadlock-ransomware-uses-polygon-smart.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-11T16:35:27.000Z",
+      "summary": "The ransomware group known as DeadLock has been observed using decentralized infrastructure to facilitate victim communications and data leak operations in a bid to improve operati",
+      "type": "LEAK",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHe7Kt8X_4eEC2ICocbCp-eg1Vs7xknMUYEnZzepw5j6mg7v7C7DmPvzf4S-Z4wGhofTJco3eW95xPm3x7nDEzdfF9dpJAEriyIAGsXqNcLT02br6Em30kPnD5vYp4CrHHAR8TvvNr6glr8mIeRwhPANZqTSG7w_tR1-8QUNgYWg4AXgVPrmob7CFzwLmA/s1600/deadlock.jpg"
     },
     {
       "id": "d4d8bb0172e6478730f2ce461641084b35c3a8f9",
@@ -219,6 +241,17 @@
       "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/e2c2de84a7bb6ea401395a2a34cf5ce2f9429b12/_xlarge.jpeg"
     },
     {
+      "id": "a373514c78a247aa186301ef3525538390a74ea7",
+      "title": "Vous avez un chat ou un chien ? Vos données ont pu fuiter lors d’une cyberattaque du fichier I-Cad",
+      "url": "https://www.leparisien.fr/animaux/vous-avez-un-chat-ou-un-chien-vos-donnees-ont-pu-fuiter-lors-dune-cyberattaque-du-fichier-i-cad-11-08-2026-W66ZPTQJ6VDBXN2RMMMFB3MHI4.php?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-11T10:53:00.000Z",
+      "summary": "Le gestionnaire du fichier national d’identification de ces animaux de compagnie indique que plusieurs usagers ont récemment reçu des mails de …",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://www.leparisien.fr/resizer/0O13heCV01p3_ZPr4H1x2hJiZPE=/1600x900/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/RUZXMULXHFHEPAAYK7SQCOKT7Y.jpg"
+    },
+    {
       "id": "bdec9ca077d24bb471ee894160af4ff86c8bf083",
       "title": "Researchers Turn USB Auto-Install Into a Full SYSTEM Takeover on Windows 11",
       "url": "https://thehackernews.com/2026/08/researchers-turn-usb-auto-install-into.html",
@@ -340,6 +373,17 @@
       "imageUrl": "https://static.papergeek.fr/2026/08/A2-6.jpg"
     },
     {
+      "id": "6cd71bfc4ffe1e156604e31ecd2922fb225d5d5a",
+      "title": "Pourquoi les dirigeants sont désormais les cibles privilégiées des ransomwares – et 6 conseils pour se protéger - ZDNET",
+      "url": "https://www.zdnet.fr/actualites/pourquoi-les-dirigeants-sont-desormais-les-cibles-privilegiees-des-ransomwares-et-6-conseils-pour-se-proteger-499692.htm",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-11T06:08:52.000Z",
+      "summary": "Près des deux tiers des victimes ciblées dans le cadre d'une seule campagne de rançongiciel occupaient des postes de direction ou de niveau supérieur …",
+      "type": "NEWS",
+      "severity": "Critique",
+      "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2026/08/managersrope-gettyimages-2249735609.jpg"
+    },
+    {
       "id": "21ed2651cfc31caee13c5b93b60c51bddc33d161",
       "title": "Le \"killswitch\" aussi effrayant qu'un rançongiciel aux yeux des entreprises - ZDNET",
       "url": "https://www.zdnet.fr/actualites/le-killswitch-aussi-effrayant-quun-rancongiciel-aux-yeux-des-entreprises-499679.htm",
@@ -351,6 +395,17 @@
       "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2024/02/Europe20USA.jpg"
     },
     {
+      "id": "71470eac0736c4092277fbcd1c296894216f22df",
+      "title": "Valve alerte ses clients européens après le piratage de son partenaire logistique CEVA - ZDNET",
+      "url": "https://www.zdnet.fr/actualites/valve-alerte-ses-clients-europeens-apres-le-piratage-de-son-partenaire-logistique-ceva-499574.htm",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-11T06:01:00.000Z",
+      "summary": "Si les informations de paiement et les identifiants de compte restent préservés, les données exposées, adresses postales et numéros de commande, …",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2024/09/steam.jpg"
+    },
+    {
       "id": "6dc768b1a459171f180e1500cb4e58da8070b13f",
       "title": "BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins",
       "url": "https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html",
@@ -360,17 +415,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh96gU64z_xM5LiLI39IXPndJ1felnUkfQmWxQ2sGfE9r_yYK6AKPLV3x6uVWeZxZoEsJwy0h7OUHILX1sAbwc6MYHpIeeTvCVeH52TnCInqqjjRPW4-Sx7gPPq4abN7ltCnClrjRhDDqyON8UBxcKFjoyubm7CeEgaZos3j4OCLJdRozfEOrDX1rPsnSoF/s1600/wordpress.jpg"
-    },
-    {
-      "id": "743a39ab0aff9f7e70c85e458feff2c0cbca4dbd",
-      "title": "Une arnaque cible les propriétaires de chats, chiens et furets après la cyberattaque du fichier I-Cad",
-      "url": "https://www.lefigaro.fr/secteur/high-tech/une-arnaque-cible-les-proprietaires-de-chats-chiens-et-furets-apres-la-cyberattaque-du-fichier-i-cad-20260811?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-11T05:40:08.000Z",
-      "summary": "Le gestionnaire du fichier national d’identification de ces animaux de compagnie indique que plusieurs usagers ont reçu des messages de phishing, …",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://i.f1g.fr/media/cms/1200x630_crop/2026/08/11/57dd9876c4c9fe5008e35eabae2f31ea478fcd5536dd3f5f94d176912d0f219c.jpg"
     },
     {
       "id": "d9da670c78c7339cdd46aa83019786314659d223",
@@ -478,83 +522,6 @@
       "source": "CERT-FR",
       "publishedAt": "2026-08-11T00:00:00.000Z",
       "summary": "Une vulnérabilité a été découverte dans Docker. Elle permet à un attaquant de provoquer une atteinte à l'intégrité des données.",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "9a576d03d1dc7e75e7b6deb4f747dba928f46dc6",
-      "title": "[webapps] Apache Gravitino 1.2.1 - SSRF",
-      "url": "https://www.exploit-db.com/exploits/52641",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-08-11T00:00:00.000Z",
-      "summary": "Apache Gravitino 1.2.1 - SSRF",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "3e49957568eda1df78919f789d2e63d4e77099f9",
-      "title": "[webapps] Blocksy Companion 2.1.46 - RCE",
-      "url": "https://www.exploit-db.com/exploits/52640",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-08-11T00:00:00.000Z",
-      "summary": "Blocksy Companion 2.1.46 - RCE",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": null
-    },
-    {
-      "id": "509f8ed76fc343ed63df64046b616ea853188ba6",
-      "title": "[remote] PraisonAI praisonaiagents 1.6.77 - Remote Code Execution",
-      "url": "https://www.exploit-db.com/exploits/52639",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-08-11T00:00:00.000Z",
-      "summary": "PraisonAI praisonaiagents 1.6.77 - Remote Code Execution",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "57c813a45d0b081786ca667d53f856cef29098a1",
-      "title": "[remote] mcp-server-kubernetes 3.8.x - Argument Injection",
-      "url": "https://www.exploit-db.com/exploits/52638",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-08-11T00:00:00.000Z",
-      "summary": "mcp-server-kubernetes 3.8.x - Argument Injection",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "b0ab1329bcec5cd63262493bf4b34fa0ad53b022",
-      "title": "[dos] LuCI DHCPv6 - Lease Hostname Stored Cross-Site Scripting",
-      "url": "https://www.exploit-db.com/exploits/52637",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-08-11T00:00:00.000Z",
-      "summary": "LuCI DHCPv6 - Lease Hostname Stored Cross-Site Scripting",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "0ffefbb11755cad969d1f02d399c6c920a0469a9",
-      "title": "[webapps] Planyo_Online_Reservation_System 3.0 - Arbitrary File Read via SSRF",
-      "url": "https://www.exploit-db.com/exploits/52636",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-08-11T00:00:00.000Z",
-      "summary": "Planyo_Online_Reservation_System 3.0 - Arbitrary File Read via SSRF",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "34284d2aa95e1a5026867c848aa2b7b3146baa05",
-      "title": "[webapps] Ray 2.56.0 - Directory Traversal &amp; Local File Inclusion",
-      "url": "https://www.exploit-db.com/exploits/52635",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-08-11T00:00:00.000Z",
-      "summary": "Ray 2.56.0 - Directory Traversal &amp; Local File Inclusion",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -725,15 +692,15 @@
       "imageUrl": "https://ic-cdn.flipboard.com/01net.com/b8d02424827cfcfd1e6b7ae0ac7e5167807c6813/_xlarge.jpeg"
     },
     {
-      "id": "94ddc51aea2b52f4757885686900a883ea1d4cf5",
-      "title": "Wi-Fi gratuit dans les hôtels ou les aéroports : attention au vol de vos identifiants",
-      "url": "https://www.ouest-france.fr/societe/cyberattaque/wi-fi-gratuit-dans-les-hotels-ou-les-aeroports-attention-au-vol-de-vos-identifiants-75c4c07e-94c7-11f1-a48b-fb7fc1c0a6aa?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "id": "316d64088e84efbc57e546961a3f319810881b22",
+      "title": "Dans \"l'impossibilité technique\" de notifier les utilisateurs: le gestionnaire du fichier national d'identification des chiens, chats et furets (I-CAD) révèle avoir été victime d'une cyberattaque… un an après",
+      "url": "https://www.bfmtv.com/tech/cybersecurite/dans-l-impossibilite-technique-de-notifier-les-utilisateurs-le-gestionnaire-du-fichier-national-d-identification-des-chiens-chats-et-furets-i-cad-revele-avoir-ete-victime-d-une-cyberattaque-un-an-apres_AV-202608100375.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
       "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-10T14:38:23.000Z",
-      "summary": "Des pirates russes s’attaquent à de nombreux réseaux Wi-Fi publics gratuits cet été. En passant par ces réseaux, ils sont capables de récupérer des …",
+      "publishedAt": "2026-08-10T14:37:55.000Z",
+      "summary": "Le gestionnaire de la plateforme permettant d'identifier son animal (chiens, chats et furets), Ingenium Animalis a annoncé avoir été victime d'une …",
       "type": "NEWS",
       "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/6c9a04631637241e4136e2f7d61eb83b235bf469/_xlarge.jpeg"
+      "imageUrl": "https://ic-cdn.flipboard.com/bfmtv.com/87ea68540b4b9df94a26b6e25ca5a5cdf43a23f0/_xlarge.jpeg"
     },
     {
       "id": "f3f0cd7014613802166cba49f7fd3949d909aac6",
@@ -745,17 +712,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://www.omgpu.com/wp-content/uploads/2026/08/Steam-Hardware-Valve-alerte-les-acheteurs-europeens-que-leurs-adresses-1200x675.jpg"
-    },
-    {
-      "id": "357280fe9fe0f4932d7669ba32ccffedbb154387",
-      "title": "Il reçoit 150 000 dollars pour avoir réussi à hacker Apple Private Cloud Compute",
-      "url": "https://www.clubic.com/actualite-624736-il-recoit-150-000-dollars-pour-avoir-reussi-a-hacker-apple-private-cloud-compute.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-10T14:24:00.000Z",
-      "summary": "Le chercheur Drinor Selmanaj, fondateur de la société de cybersécurité Sentry, a touché une prime de 150 000 dollars pour une faille dans Private …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/ee327bb50da942914ec7b05cc93c019839220cef/_xlarge.png"
     },
     {
       "id": "3517e2ed82639c0d7093ab57d66ac63e794558d6",
@@ -1017,50 +973,6 @@
       "source": "CERT-FR",
       "publishedAt": "2026-08-10T00:00:00.000Z",
       "summary": "De multiples vulnérabilités ont été découvertes dans Roundcube. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atte",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "6a8acafd0b64a155379a6cb8c106f7ab47b22380",
-      "title": "[webapps] OrkesConductor 3.30.2 - Unauthenticated Remote Code Execution",
-      "url": "https://www.exploit-db.com/exploits/52633",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "summary": "OrkesConductor 3.30.2 - Unauthenticated Remote Code Execution",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "201fa66a727d85be409d482d5299ea5987b21987",
-      "title": "[local] Microsoft Edge 150.0.4078.48 - RCE",
-      "url": "https://www.exploit-db.com/exploits/52632",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "summary": "Microsoft Edge 150.0.4078.48 - RCE",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": null
-    },
-    {
-      "id": "6e08fc161fe0c63881032ed0fa786d13a3401c6d",
-      "title": "[webapps] CorgetGpsDget 2_3.2 - OS Command Injection",
-      "url": "https://www.exploit-db.com/exploits/52631",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "summary": "CorgetGpsDget 2_3.2 - OS Command Injection",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "5cd838d855437989d066d40e0952e184f5427be6",
-      "title": "[webapps] Joomla 2.9.99.4 - Unauthenticated Remote Code Execution",
-      "url": "https://www.exploit-db.com/exploits/52630",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "summary": "Joomla 2.9.99.4 - Unauthenticated Remote Code Execution",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1682,17 +1594,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaatZ2xKx3CMoWOXqKbIp1Sd-rMbET1_QE2Lh10XAVc_g_Z18UUlW_RyR8BR0Nj-gqy9SZhnEq0ZBv_z63FfCBu-XGfH5yEzUsKBLicrlfXK2-iMsgZYkDDTW-HiEPV29TEjFSFF1PYXyDkZcyfe6LuUKkgu2nRe4E_XFNPOcxSrBmUZwi3tX_GgHafeZ9/s1600/cisa-teamcity.jpg"
     },
     {
-      "id": "7e80a1e675b084b25ebe29fc316275d4ada80ee7",
-      "title": "Snowflake Hacker Pleads Guilty Over Breaches Affecting at Least 100 Million People",
-      "url": "https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-06T06:04:30.000Z",
-      "summary": "Connor Riley Moucka pleaded guilty in Seattle federal court on Wednesday to computer fraud, wire fraud, aggravated identity theft and a related conspiracy over the 2024 breaches of",
-      "type": "LEAK",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimtSQSbHZnqrcub_RlfzViiiKRKyucYCIYf0nqt0aWqcYJgY122xGjIRDGnvpYukopZM9DuEPjN6Lax97qyYIghxfFb_faULxhabuOJHBOVbyycVBNUVHAbb5Z8LRfnG_5xrwH__9Jbs6qmPEdopvRysLduoAn0hoANFRnNd2g24zqBTfCUK4WXtDx7eg/s1600/snowflake-hacker.jpg"
-    },
-    {
       "id": "20f7823c228c99d63ef59597382bc7b0e4e2ac3d",
       "title": "Jenkins - CVE-2026-70426",
       "url": "https://cyberveille.esante.gouv.fr/alertes/jenkins-cve-2026-70426-2026-08-06",
@@ -1812,28 +1713,6 @@
       "type": "LEAK",
       "severity": "Élevée",
       "imageUrl": null
-    },
-    {
-      "id": "046e687248a061fb0a3ee3c9971a17d89de70f91",
-      "title": "Over 250 ClickFix Domains Use Browser Fingerprinting to Hide macOS Malware Lures",
-      "url": "https://thehackernews.com/2026/08/over-250-clickfix-domains-use-browser.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-05T18:44:31.000Z",
-      "summary": "A macOS ClickFix operation spanning more than 250 front-end domains now fingerprints visitors before deciding whether to show them a malware lure, a change Microsoft Threat Intelli",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzEMAtBAmz-q78zPppsCxMiU-EtelOA3FQy_T6Qzb9KpWEsc9wNMT1f_dDjf65q2W_nrioQ033KClusfHFXexSM8V30mReU5V3nbRY4W0_F3cg2ehG51P1nnWa1iKiGX3hJ_yUUYLF92TanEEE0HifpkzdqRQeqe8qFYXq0SPRx6pW9IrfS7sK_lPzWRM/s1600/mackos-finger.jpg"
-    },
-    {
-      "id": "b3a2ec4c03ef0afbfc80e6acab1cd966a367a8a7",
-      "title": "OpenAI Disrupts Poipet Scam Network Using ChatGPT Across Multiple Fraud Schemes",
-      "url": "https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-05T18:33:47.000Z",
-      "summary": "OpenAI said it disrupted a Cambodia-based scam operation that used its generative artificial intelligence (AI) chatbot ChatGPT to facilitate a wide range of investment, romance, ga",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmYzVApv7lLg_Qt67mGI-sC0vUGKZwkNmFsVgTykAPCHqVMsfGSSQRRaxVXuxx0RDd6wk18yEiVXXy3uPRpmLT_XLNMCI_0iuKbPtJ3z9CtuPtjBsIGDAsVTd5f8DE_z2yMfAsQFW66vvoe5MeQPWvfBM2CoSzi-xpgm_mTvXfqHERAr-1z9NYOUPGOgwP/s1600/chatgpt-scam.jpg"
     },
     {
       "id": "18fe129ce0899191a959d8da362c305673dc0514",
@@ -2273,6 +2152,127 @@
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;contournement de l'authentification&lt;/strong&gt; dans &lt;strong&gt;VMware vCenter.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;",
       "type": "CVE",
       "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "f8059c0125323847c5749c3008ba0e2ded9d9713",
+      "title": "Node.js - CVE-2026-58043",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/nodejs-cve-2026-58043-2026-07-31",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-31T00:16:00.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;contrôle d'accès inapproprié&lt;/strong&gt; dans le modèle de permissions de &lt;strong&gt;Node.js.&lt;/strong&gt;&lt;/p&gt;",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "24a190373d3e94f82ed5116bc9fbdfe121126220",
+      "title": "SolarWinds - CVE-2026-28323",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/solarwinds-cve-2026-28323-2026-07-31",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-31T00:14:00.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;contournement d'authentification SAML&lt;/strong&gt; dans &lt;strong&gt;SolarWinds Web Help Desk.&lt;/strong&gt;&lt;/p&gt; &",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "d46659985c091f208e1e21d4f63706f9eb01e946",
+      "title": "Google - CVE-2026-17681",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/google-cve-2026-17681-2026-07-31",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-31T00:12:00.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;validation insuffisante des entrées non fiables&lt;/strong&gt; dans&lt;strong&gt; Web Authentication de Google Chrome.&lt;/s",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "7e16a24a310b0316aeaa676eb9d83df28470459c",
+      "title": "IBM - CVE-2026-10535",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/ibm-cve-2026-10535-2026-07-31",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-31T00:05:00.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;dépassement de tampon (buffer overflow)&lt;/strong&gt; dans le composant &lt;strong&gt;db2flacc&lt;/strong&gt; de &lt;strong",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "53e8bd60194c1b09660cdb3ebd10358cb5047a01",
+      "title": "Read This Before You Buy That TV Streaming Stick",
+      "url": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
+      "source": "Krebs on Security",
+      "publishedAt": "2026-07-30T16:49:00.000Z",
+      "summary": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-time fee, warning that they sec",
+      "type": "NEWS",
+      "severity": "Moyenne",
+      "imageUrl": "https://krebsonsecurity.com/wp-content/uploads/2026/07/h96-amazon.png"
+    },
+    {
+      "id": "31e5a0ada65d1478bdb9a923c169cb3d682baf8e",
+      "title": "Watchfire Controller Software",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-09",
+      "source": "CISA",
+      "publishedAt": "2026-07-30T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-211-09.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "db95314f734d0b7882c57905441aca0b08623218",
+      "title": "MZ Automation GmbH libiec61850",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-10",
+      "source": "CISA",
+      "publishedAt": "2026-07-30T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-211-10.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "8fc9f15f321fab2d6e1598017275ffc602af807d",
+      "title": "Toptech Systems RCU II+ and Multiload II+",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-03",
+      "source": "CISA",
+      "publishedAt": "2026-07-30T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-211-03.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "7a453dfae0a561d230a1d7f1adb8ca0d5582b16e",
+      "title": "MikroTik RouterOS",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-01",
+      "source": "CISA",
+      "publishedAt": "2026-07-30T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-211-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "b3c458e4a6113bfb275153a1dca56effff8eeef2",
+      "title": "Schneider Electric IGSS",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-04",
+      "source": "CISA",
+      "publishedAt": "2026-07-30T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-211-04.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "9c048ce76ec08ef6e6558968a481bd8d03f60ec7",
+      "title": "Mitsubishi Electric CC-Link IE TSN Communication Protocol",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-07",
+      "source": "CISA",
+      "publishedAt": "2026-07-30T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-211-07.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
       "imageUrl": null
     }
   ]
