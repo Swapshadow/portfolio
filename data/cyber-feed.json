@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T13:09:51.375Z",
+  "generatedAt": "2026-08-11T14:59:30.339Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,7 +17,7 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 104
+      "items": 103
     },
     {
       "name": "Exploit-DB",
@@ -76,6 +76,50 @@
   ],
   "items": [
     {
+      "id": "ea73e1db72433450fbbdedff1ad363ec056334af",
+      "title": "Google suspend son IA d’images dans Google Earth",
+      "url": "https://www.zataz.com/google-suspend-son-ia-dimages-dans-google-earth/",
+      "source": "Zataz",
+      "publishedAt": "2026-08-11T14:10:16.000Z",
+      "summary": "Google suspend une fonction d’IA de Google Earth après des alertes sur les fausses images et la désinformation.",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.zataz.com/wp-content/uploads/ia_earth_fake.jpg"
+    },
+    {
+      "id": "36e6b508f4fb2b0be8c71c45b51ecab3481a1e1d",
+      "title": "La plateforme de jeux Steam ciblée par une cyberattaque, des données de joueurs menacées",
+      "url": "https://www.ouest-france.fr/societe/cyberattaque/la-plateforme-de-jeux-steam-ciblee-par-une-cyberattaque-des-donnees-de-joueurs-menacees-08e5c10e-9582-11f1-94bc-dfc0bf6dce3d?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-11T13:29:29.000Z",
+      "summary": "Le groupe Valve, expéditeur pour la plateforme de distribution de jeux Steam, a été victime d’une vaste cyberattaque entre le 29 juillet et 1er août. …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/fd1a4568d23b36decad1398b14b3561e2f8df243/_xlarge.jpeg"
+    },
+    {
+      "id": "ffddf43231f3cfcb957b23de12a5ecb58b370039",
+      "title": "OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development",
+      "url": "https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-11T13:11:23.000Z",
+      "summary": "OpenAI on Monday unveiled a new cybersecurity-focused model called GPT‑5.6‑Cyber that it said is focused on vulnerability research, penetration testing, and incident response. \"Bui",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEFEJ72sE5G8XpyLqNLnPaYpMcgnUe7K9XLKyJD3zxcwPABaJlkkFpiQd4p3GW4TSWg-eDlFRplyPtmKQjfHR7OwsvO0hOJQo8xmzqxpXy1v1k1VLpxFVs2Nghd6IDGpAcraSGGUYI1_pnFQ8A3Tcox-iKzHIayhoCiXMJPska8cfsiTvNd6dmSMLKEUmN/s1600/openai-exploit.jpg"
+    },
+    {
+      "id": "530e8e7e2f8f3465abff3c91179ce2d691dc6f46",
+      "title": "Vous avez un chien ou un chat ? Des escrocs utilisent peut-être déjà vos données personnelles",
+      "url": "https://www.capital.fr/conso/vous-avez-un-chien-ou-un-chat-des-escrocs-utilisent-peut-etre-deja-vos-donnees-personnelles-1529191?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-11T13:06:17.000Z",
+      "summary": "Une faille de sécurité aurait exposé les adresses e-mail de nombreux propriétaires d’animaux enregistrés dans le fichier I-CAD. Plusieurs …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/capital.fr/214f735bf0b3cb6904e348cbe0a6155435d0146f/_xlarge.jpeg"
+    },
+    {
       "id": "e6735ea9e198df8a07d4cb03a00b38c283011ea9",
       "title": "A Malicious SIM Card Can Run Attacker Code Inside the Modems Behind Cellular IoT Devices",
       "url": "https://thehackernews.com/2026/08/a-malicious-sim-card-can-run-attacker.html",
@@ -96,17 +140,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgV1-B4O1t_ddtTQg7WCfQLhdWxNygkI3C3DHfugd_0ogZbFCixAf-J9IffSq3KuSSPDofAEj5wNrVHlzRx3qbj7cPQhbBfnvOXOAJxjTSJ_7rdtZe3ne_R4Yz7Gv_7VrNH8CyB8psfzpejy9EbohuyYW3G1pg4FChDRVv8WPxp8B449rGIXnS4WSoD5JI/s1600/firefox.jpg"
-    },
-    {
-      "id": "33e8f2b1120cdc1bbadc0cd25e568bc62d9a431d",
-      "title": "Bloctel aurait été piraté à la veille de sa fermeture, 3 millions de numéros seraient concernés",
-      "url": "https://www.capital.fr/conso/bloctel-aurait-ete-pirate-a-la-veille-de-sa-fermeture-3-millions-de-numeros-seraient-concernes-1529189?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-11T12:02:21.000Z",
-      "summary": "La plateforme Bloctel aurait été piratée juste avant sa fermeture. Un hacker affirme avoir dérobé près de 3 millions de numéros de téléphone. Cette …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/capital.fr/2a430233cd77128f3d1d46f6d57cc791e333a551/_xlarge.jpeg"
     },
     {
       "id": "5de271f53019412ea9bd38b30a084192cdb9d18f",
@@ -274,17 +307,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh96gU64z_xM5LiLI39IXPndJ1felnUkfQmWxQ2sGfE9r_yYK6AKPLV3x6uVWeZxZoEsJwy0h7OUHILX1sAbwc6MYHpIeeTvCVeH52TnCInqqjjRPW4-Sx7gPPq4abN7ltCnClrjRhDDqyON8UBxcKFjoyubm7CeEgaZos3j4OCLJdRozfEOrDX1rPsnSoF/s1600/wordpress.jpg"
     },
     {
-      "id": "6b49a278d516e76a8b79eba054711cc1ee90d558",
-      "title": "Valve alerte ses clients européens d'une fuite de données personnelles après une cyberattaque",
-      "url": "https://www.gamekult.com/actualite/valve-alerte-ses-clients-europeens-d-une-fuite-de-donnees-personnelles-apres-une-cyberattaque-3050871589.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-11T05:47:00.000Z",
-      "summary": "Valve a envoyé un email à plusieurs clients européens ayant acheté du hardware récemment (Steam Machine, Steam Controller, etc) pour les informer que …",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://cdn.gamekult.com/optim/images/news/30/3050871589/valve-alerte-ses-clients-europeens-d-une-fuite-de-donnees-personnelles-apres-une-cyberattaque-3bdb771c__w1920.jpg"
-    },
-    {
       "id": "743a39ab0aff9f7e70c85e458feff2c0cbca4dbd",
       "title": "Une arnaque cible les propriétaires de chats, chiens et furets après la cyberattaque du fichier I-Cad",
       "url": "https://www.lefigaro.fr/secteur/high-tech/une-arnaque-cible-les-proprietaires-de-chats-chiens-et-furets-apres-la-cyberattaque-du-fichier-i-cad-20260811?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -294,6 +316,193 @@
       "type": "NEWS",
       "severity": "Élevée",
       "imageUrl": "https://i.f1g.fr/media/cms/1200x630_crop/2026/08/11/57dd9876c4c9fe5008e35eabae2f31ea478fcd5536dd3f5f94d176912d0f219c.jpg"
+    },
+    {
+      "id": "d9da670c78c7339cdd46aa83019786314659d223",
+      "title": "Projet SPIP, GNU GPL - CVE-2026-66738 | modifié le 11-08-2026",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/projet-spip-gnu-gpl-cve-2026-66738-2026-08-11",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-11T02:16:39.000Z",
+      "summary": "&lt;p&gt;Une vulnérabilité d'injection de code affecte le point d'entrée du menu de navigation de l'espace privé de SPIP, sur les seules installations adossées à SQLite. L'endpoint",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "c46c6ea6765094b78da0119fcf3304397bbf5790",
+      "title": "NCEAS. National Center for Ecological Analysis and Synthesis - CVE-2026-47754 | modifié le 11-08-2026",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/nceas-national-center-ecological-analysis-and-synthesis-cve-2026-47754-2026-08-11",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-11T02:15:53.000Z",
+      "summary": "&lt;p&gt;Une traversée de répertoire non authentifiée dans l'API 1.x de Metacat permet à un attaquant distant de lire, par une simple requête GET, tout fichier accessible au proces",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "8b83c93da06b0ab7530b29ba0a00740a86d940dd",
+      "title": "FlowiseAI Inc. - CVE-2026-71962 | modifié le 10-08-2026",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/flowiseai-inc-cve-2026-71962-2026-08-11",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-11T02:07:59.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité d'absence de contrôle d'autorisation dans Flowise, outil low-code de construction de flux applicatifs fondés sur des grands modèles de langag",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "2d6230c24529f1a49a376f354ae78e2497f6bd04",
+      "title": "Apache - CVE-2026-71558 | modifié le 10-08-2026",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/apache-cve-2026-71558-2026-08-11",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-11T01:56:57.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de confusion de type en mémoire (« heap type confusion ») dans Apache Fory C++.&lt;/p&gt; &lt;p&gt;Apache Fory est un framework de sérialisat",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "fac0d64d2c3854d2acb6476407b747ec6d302b55",
+      "title": "Multiples vulnérabilités dans OpenSSH (11 août 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0997/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-08-11T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans OpenSSH. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "705ff538235456fab5002aa8d71c33fb7b777bef",
+      "title": "Multiples vulnérabilités dans SPIP (11 août 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0995/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-08-11T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans SPIP. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une injection",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "a8de55c33c0c0d0789647b8245bb2359387e440f",
+      "title": "Multiples vulnérabilités dans les produits SAP (11 août 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0998/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-08-11T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits SAP. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, u",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "592ac976ce46c04bf91b7400f560c64c95ed55d2",
+      "title": "Vulnérabilité dans CPython (11 août 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0994/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-08-11T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans CPython. Elle permet à un attaquant de provoquer un déni de service à distance.",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "4493e1442a9db6d9142df032fac48da6fee2780b",
+      "title": "Multiples vulnérabilités dans Postfix (11 août 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0993/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-08-11T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Postfix. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, un contournement de la p",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "821ad618e3d2f0c9e646e95fc34c5d46ed4b0fef",
+      "title": "Vulnérabilité dans Docker (11 août 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0996/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-08-11T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans Docker. Elle permet à un attaquant de provoquer une atteinte à l'intégrité des données.",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "9a576d03d1dc7e75e7b6deb4f747dba928f46dc6",
+      "title": "[webapps] Apache Gravitino 1.2.1 - SSRF",
+      "url": "https://www.exploit-db.com/exploits/52641",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-08-11T00:00:00.000Z",
+      "summary": "Apache Gravitino 1.2.1 - SSRF",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "3e49957568eda1df78919f789d2e63d4e77099f9",
+      "title": "[webapps] Blocksy Companion 2.1.46 - RCE",
+      "url": "https://www.exploit-db.com/exploits/52640",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-08-11T00:00:00.000Z",
+      "summary": "Blocksy Companion 2.1.46 - RCE",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": null
+    },
+    {
+      "id": "509f8ed76fc343ed63df64046b616ea853188ba6",
+      "title": "[remote] PraisonAI praisonaiagents 1.6.77 - Remote Code Execution",
+      "url": "https://www.exploit-db.com/exploits/52639",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-08-11T00:00:00.000Z",
+      "summary": "PraisonAI praisonaiagents 1.6.77 - Remote Code Execution",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "57c813a45d0b081786ca667d53f856cef29098a1",
+      "title": "[remote] mcp-server-kubernetes 3.8.x - Argument Injection",
+      "url": "https://www.exploit-db.com/exploits/52638",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-08-11T00:00:00.000Z",
+      "summary": "mcp-server-kubernetes 3.8.x - Argument Injection",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "b0ab1329bcec5cd63262493bf4b34fa0ad53b022",
+      "title": "[dos] LuCI DHCPv6 - Lease Hostname Stored Cross-Site Scripting",
+      "url": "https://www.exploit-db.com/exploits/52637",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-08-11T00:00:00.000Z",
+      "summary": "LuCI DHCPv6 - Lease Hostname Stored Cross-Site Scripting",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "0ffefbb11755cad969d1f02d399c6c920a0469a9",
+      "title": "[webapps] Planyo_Online_Reservation_System 3.0 - Arbitrary File Read via SSRF",
+      "url": "https://www.exploit-db.com/exploits/52636",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-08-11T00:00:00.000Z",
+      "summary": "Planyo_Online_Reservation_System 3.0 - Arbitrary File Read via SSRF",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "34284d2aa95e1a5026867c848aa2b7b3146baa05",
+      "title": "[webapps] Ray 2.56.0 - Directory Traversal &amp; Local File Inclusion",
+      "url": "https://www.exploit-db.com/exploits/52635",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-08-11T00:00:00.000Z",
+      "summary": "Ray 2.56.0 - Directory Traversal &amp; Local File Inclusion",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
     },
     {
       "id": "99d810136dff10b1f55cefac071e6099964f02b7",
@@ -472,17 +681,6 @@
       "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/6c9a04631637241e4136e2f7d61eb83b235bf469/_xlarge.jpeg"
     },
     {
-      "id": "f3f0cd7014613802166cba49f7fd3949d909aac6",
-      "title": "Steam Hardware, Valve alerte les acheteurs européens que leurs adresses ont fuité après une cyberattaque chez CEVA",
-      "url": "https://www.omgpu.com/steam-hardware-valve-alerte-les-acheteurs-europeens-que-leurs-adresses-ont-fuite-apres-une-cyberattaque-chez-ceva/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-10T14:25:02.000Z",
-      "summary": "Valve a prévenu ses clients européens par email que CEVA Logistics, son partenaire de livraison pour le matériel Steam, a subi une cyberattaque entre …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.omgpu.com/wp-content/uploads/2026/08/Steam-Hardware-Valve-alerte-les-acheteurs-europeens-que-leurs-adresses-1200x675.jpg"
-    },
-    {
       "id": "3517e2ed82639c0d7093ab57d66ac63e794558d6",
       "title": "OpenAI freine le développement de son propre modèle Astra, visiblement trop doué pour le piratage",
       "url": "https://www.numerama.com/cyberguerre/2309013-openai-freine-le-developpement-de-son-propre-modele-astra-visiblement-trop-doue-pour-le-piratage.html?amp%3Butm_source=flipboard&amp%3Butm_content=directlink&amp%3Butm_campaign=2309013",
@@ -503,6 +701,17 @@
       "type": "NEWS",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDgatgimOxtzWBp5R0l6yiMeoFVAeLE-hn-RGePbOlgUMgb3Vj9cEKav3AadjZBcppLfoDs4o-oREZ0OimLYX9WDnIRwebA4P7nVa-wh8KwHW-z7HUALW_bj2B-53kotBjkGw-6QXx-Awo3OxBlhjIwEIuueFEXLOgpT7cPpz5e_MSlD4l_FHgJocN6QA/s1600/north.jpg"
+    },
+    {
+      "id": "137852252a940899c662d71062ffa3c1521da951",
+      "title": "La liste anti-démarchage Bloctel piratée, des millions de numéros se retrouvent dans la nature",
+      "url": "https://siecledigital.fr/2026/08/10/la-liste-anti-demarchage-bloctel-piratee-des-millions-de-numeros-se-retrouvent-dans-la-nature/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-10T13:16:49.000Z",
+      "summary": "Bloctel vient de se faire vider. Un pirate qui se présente sous le pseudo Cybernox affirme avoir aspiré environ 3 millions de lignes depuis la base …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://siecledigital.fr/wp-content/uploads/2026/08/5444529045.jpg"
     },
     {
       "id": "303ece77870412fb332b29bc198b483283396c2b",
@@ -535,7 +744,7 @@
       "summary": "Three separate research efforts last week demonstrated ways to defeat passkey protections without breaking the cryptography they rest on. Passkeys are designed to replace reusable ",
       "type": "NEWS",
       "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWKCkGCqH-c6Yaqkd_NnzFQijViu34tjAEsdl9tl2CmZLHL4m1rLhezO76zF6XFRTGS9Sr4R3jhMD7z15QV0BMqG948bjg8SoZb_j6HtQajd0PUDR8Tmw06GMqDwS6VhAtH-ZNtD06lzb9KMhJsHi-Vvkps0n6bl6C8n6rSBHCldBuc1cMczr30h11N-8/s1600/passkeys.jpg"
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXmfqNoa09hdS94VkCzlDhqshyphenhyphenLXM3mo93MtChM8pXBFJxCEh6iP7mlU-wcwnWZGROVidduvOqpGfWajbLA5PaTrH7tibyCqcvmlnS-b4c0yBcGZJ7eJLPPXxoutiEEt_rqGlPf4pSFUjWfmuuME7kegCwQam0Kf7VivC9nAUjKIvxYeBETap8ElXjck5R/s1600/intraid.jpg"
     },
     {
       "id": "058f26f6bfe886d39c6d26b458a708c225ea81d6",
@@ -855,17 +1064,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://www.zataz.com/wp-content/uploads/recap-news-zataz-1.jpg"
-    },
-    {
-      "id": "3b620dd4c8887d2bea0ae2f66475b04113423965",
-      "title": "Un milliard d’identifiants français sur le darkweb",
-      "url": "https://www.zataz.com/un-milliard-didentifiants-francais-sur-le-darkweb/",
-      "source": "Zataz",
-      "publishedAt": "2026-08-08T14:18:55.000Z",
-      "summary": "ZATAZ découvre 1.7 milliard d’identifiants français uniques stockés dans un cloud pirate.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/decouverte_zataz.jpg"
     },
     {
       "id": "3e56f0f494b52fd93319b3690e298512c29097e7",
@@ -1605,17 +1803,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmYzVApv7lLg_Qt67mGI-sC0vUGKZwkNmFsVgTykAPCHqVMsfGSSQRRaxVXuxx0RDd6wk18yEiVXXy3uPRpmLT_XLNMCI_0iuKbPtJ3z9CtuPtjBsIGDAsVTd5f8DE_z2yMfAsQFW66vvoe5MeQPWvfBM2CoSzi-xpgm_mTvXfqHERAr-1z9NYOUPGOgwP/s1600/chatgpt-scam.jpg"
     },
     {
-      "id": "f8d1d756502ffe182e61283c0300b7ff04236b48",
-      "title": "Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt",
-      "url": "https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-05T15:36:03.000Z",
-      "summary": "Cybersecurity researchers have discovered more than half-a-dozen services advertisements for illegal access to artificial intelligence (AI) models on underground cybercrime forums ",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhp3V9f5UsiH1E6dHfRvy0DEOYvcK14BatMbbLVfdPjLbu3PMInRmVXDi4xoGw-pSIuxUjZS1rdv4X7N1V9xRoV9RRVfaYdAWI6OTxKZzOhAlHYh6dKZNeAWCPkaPdGAvwgcOwFQ0atoRBUxKfE_KfhJpnm1yV1tXr5_Wv2yqND0vZCMMEfRB0V220SZbne/s1600/ai-access.jpg"
-    },
-    {
       "id": "18fe129ce0899191a959d8da362c305673dc0514",
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "url": "https://www.cisa.gov/news-events/alerts/2026/08/05/cisa-adds-one-known-exploited-vulnerability-catalog",
@@ -2001,50 +2188,6 @@
       "imageUrl": null
     },
     {
-      "id": "a2bc0f73c1aa73256f668302140dfc34649f4226",
-      "title": "Bulletin d'actualité CERTFR-2026-ACT-033 (03 août 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-033/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble de",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "f7977697f23f44621ef09be62e6316df5399adc7",
-      "title": "Multiples vulnérabilités dans Microsoft Edge (03 août 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0960/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "79e75a8657a5cbaba9832228e3fd4a9b2e006b32",
-      "title": "Multiples vulnérabilités dans Papercut (03 août 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0959/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Papercut. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la ",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "2f2772693aa2e005d6b98e6dc52e56a8ea4495e2",
-      "title": "Vulnérabilité dans Microsoft Office (03 août 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0961/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans Microsoft Office. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
       "id": "316f374ddcc4ed5a8c59b78625e78f1c883842eb",
       "title": "SplitVPN - 865,336 breached accounts",
       "url": "https://haveibeenpwned.com/Breach/SplitVPN",
@@ -2130,149 +2273,6 @@
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;validation insuffisante des entrées non fiables&lt;/strong&gt; dans&lt;strong&gt; Web Authentication de Google Chrome.&lt;/s",
       "type": "CVE",
       "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "7e16a24a310b0316aeaa676eb9d83df28470459c",
-      "title": "IBM - CVE-2026-10535",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/ibm-cve-2026-10535-2026-07-31",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-07-31T00:05:00.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;dépassement de tampon (buffer overflow)&lt;/strong&gt; dans le composant &lt;strong&gt;db2flacc&lt;/strong&gt; de &lt;strong",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "7ae3e9e7643084725d2d1f58f2fc7b1748596d7b",
-      "title": "Multiples vulnérabilités dans les produits IBM (31 juillet 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0958/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-07-31T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, u",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "b0b4f16373742a658b5d707e29217b42c2852959",
-      "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (31 juillet 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0957/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-07-31T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian LTS. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une a",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "53e8bd60194c1b09660cdb3ebd10358cb5047a01",
-      "title": "Read This Before You Buy That TV Streaming Stick",
-      "url": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
-      "source": "Krebs on Security",
-      "publishedAt": "2026-07-30T16:49:00.000Z",
-      "summary": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-time fee, warning that they sec",
-      "type": "NEWS",
-      "severity": "Moyenne",
-      "imageUrl": "https://krebsonsecurity.com/wp-content/uploads/2026/07/h96-amazon.png"
-    },
-    {
-      "id": "8fc9f15f321fab2d6e1598017275ffc602af807d",
-      "title": "Toptech Systems RCU II+ and Multiload II+",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-03",
-      "source": "CISA",
-      "publishedAt": "2026-07-30T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-211-03.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "7a453dfae0a561d230a1d7f1adb8ca0d5582b16e",
-      "title": "MikroTik RouterOS",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-01",
-      "source": "CISA",
-      "publishedAt": "2026-07-30T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-211-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "31e5a0ada65d1478bdb9a923c169cb3d682baf8e",
-      "title": "Watchfire Controller Software",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-09",
-      "source": "CISA",
-      "publishedAt": "2026-07-30T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-211-09.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "b3c458e4a6113bfb275153a1dca56effff8eeef2",
-      "title": "Schneider Electric IGSS",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-04",
-      "source": "CISA",
-      "publishedAt": "2026-07-30T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-211-04.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "7ecc91282a2acfe1d32adb5664127af6f84332a9",
-      "title": "CISA Urges Water and Wastewater Systems Sector to Protect OT Against Activity Targeting PLCs",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/07/30/cisa-urges-water-and-wastewater-systems-sector-protect-ot-against-activity-targeting-plcs",
-      "source": "CISA",
-      "publishedAt": "2026-07-30T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA is currently observing a significant increase in cyber threat actors targeting programmable logic controllers (PLCs) in the Water and Wastewater Systems (WWS) Sector.",
-      "type": "CVE",
-      "severity": "Moyenne",
-      "imageUrl": null
-    },
-    {
-      "id": "9c048ce76ec08ef6e6558968a481bd8d03f60ec7",
-      "title": "Mitsubishi Electric CC-Link IE TSN Communication Protocol",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-07",
-      "source": "CISA",
-      "publishedAt": "2026-07-30T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-211-07.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "db95314f734d0b7882c57905441aca0b08623218",
-      "title": "MZ Automation GmbH libiec61850",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-10",
-      "source": "CISA",
-      "publishedAt": "2026-07-30T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-211-10.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "6354c50510b0629d69b251092f3dd02c4d64f8cd",
-      "title": "Johnson Controls OpenBlue Employee",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-02",
-      "source": "CISA",
-      "publishedAt": "2026-07-30T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-211-02.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "7065ee15df1c0138121680a9a6c9af8dbc9060a4",
-      "title": "Rockwell Automation CompactLogix 5380 ControlLogix 5580 / 1756-EN4TR Communications Module",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-05",
-      "source": "CISA",
-      "publishedAt": "2026-07-30T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-211-05.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
       "imageUrl": null
     }
   ]
