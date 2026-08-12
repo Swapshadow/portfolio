@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T13:13:51.978Z",
+  "generatedAt": "2026-08-12T14:58:56.687Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,7 +17,7 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 102
+      "items": 107
     },
     {
       "name": "Exploit-DB",
@@ -76,26 +76,37 @@
   ],
   "items": [
     {
-      "id": "641a303994bca14503bbdcd9bed8266d7beb15b5",
+      "id": "adcc7b3b1bcebc8014eb54c30fdb2b01e2006842",
+      "title": "Pologne : une cyberattaque expose les données de près de 19 millions de personnes",
+      "url": "https://www.ouest-france.fr/societe/cyberattaque/pologne-une-cyberattaque-expose-les-donnees-de-pres-de-19-millions-de-personnes-2188b406-9653-11f1-9ee8-a50506a5291a?amp%3Butm_medium=fluxrss&amp%3Butm_campaign=banquedecontenu",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-12T14:24:36.000Z",
+      "summary": "Un fournisseur de logiciels médicaux a subi une cyberattaque d’ampleur en Pologne ce mercredi 12 août, compromettant les données de 19 millions de …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/8252286dbeeb1a63e5162cec5d1ad16dee363a87/_xlarge.jpeg"
+    },
+    {
+      "id": "e909c43a2f9c0e09de6610ed8324d3263144b2c1",
+      "title": "737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One",
+      "url": "https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-12T14:09:50.000Z",
+      "summary": "A massive set of 737 free VPN and proxy extensions have been found to mainly target Russian-speaking users seeking access to blocked services with an aim to intercept browser traff",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjI8aMtoRcWh4THmHEumFrk1X_t6xuq3Z6RsJwVKoyozs0nuRDIc7ffcIFNr5dFuUgTeeKZ0KLdeFoeHRRSFgqcTvK4VaO54Js2FADwBztN4Qlf0L8viPKGCY7lVEHF50K2xOaopCphCPL0ooDKna2E3S_4R4UzOsuh9m8dK4XQMo98_b6GjKqHRi_lm38i/s1600/chrome-plugins.jpg"
+    },
+    {
+      "id": "2495280c1f59d67d573d74a833c8dd52ddccc0a0",
       "title": "Cybersécurité: l'Albanie en tête du classement mondial",
-      "url": "https://fr.euronews.com/2026/08/12/cybersecurite-lalbanie-en-tete-du-classement-mondial?amp%3Butm_campaign=feeds_next&amp%3Butm_medium=referral",
+      "url": "http://fr.euronews.com/next/2026/08/12/cybersecurite-lalbanie-en-tete-du-classement-mondial",
       "source": "Cybercriminalité FR",
       "publishedAt": "2026-08-12T12:50:39.000Z",
       "summary": "Selon l'e-Governance Academy d'Estonie, l'Albanie et la Tchéquie sont les pays les plus sûrs en cybersécurité, devant l'Allemagne et les États-Unis. L'Albanie affiche les défenses ",
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/euronews.com/9afe14b3286fa8078901cfb7c0d3603e108fc47f/_xlarge.jpeg"
-    },
-    {
-      "id": "c1f48956b42df3ca4e38e467028bf7f1f7dfe2fa",
-      "title": "Un agent IA improvise une cyberattaque contre un club de sport pour gagner quelques places sur la liste d'attente",
-      "url": "https://www.latribune.fr/article/tech/14281810325896/un-agent-ia-improvise-une-cyberattaque-contre-un-club-de-sport-pour-gagner-quelques-places-sur-la-liste-dattente?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-12T12:35:32.000Z",
-      "summary": "LES TROIS ALERTES CYBER DE LA SEMAINE. Un assistant IA pirate le système de réservation de sa propre salle de sport après une simple demande de …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/latribune.fr/416e96408bf32d786120d17e4a371c14460e513c/_large.jpeg"
     },
     {
       "id": "6a737c79195996eb14af80c5a150d006bb28a612",
@@ -107,6 +118,28 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/radiofrance.fr/743da21fc7317c936befd7c2d33a47bc09d52061/_xlarge.webp"
+    },
+    {
+      "id": "96ae0f56c866dcc3461099f56798ed5cc5c48f85",
+      "title": "OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning",
+      "url": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-12T11:47:38.000Z",
+      "summary": "A newly disclosed flaw in the way OpenAI, Anthropic, and Google carried hidden AI reasoning between API calls let researchers recover internal reasoning and secrets from session lo",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZP21lJn1EY_0JXWBul8gpBgRD_ryI4ACYqFiu6icbKCgIMyta9UqjQrtnzjTkO1Yi9tdzTaQw6X949lzMwtQPKUPPIxA5_EwFjJqjMDwBtFSc56vaCyybwJNcsjVZMfMW4KHQ_VVCjz3AVeovFEtsI8ENZTQmQuc9rDIF5yd0n9uciJmwqlWS_EKf5mo/s1600/ai-models.jpg"
+    },
+    {
+      "id": "86cee27ef2ddb5a95c19f1f150ae68fe65c159b1",
+      "title": "Enterprise Defenses Recovered at the Edge and Collapsed Inside",
+      "url": "https://thehackernews.com/2026/08/enterprise-defenses-recovered-at-edge.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-12T11:41:34.000Z",
+      "summary": "Enterprise defenses are tuned to catch the attacks that make noise. This year's data shows attackers winning by making none. According to Picus Labs' new Blue Report 2026, which me",
+      "type": "NEWS",
+      "severity": "Moyenne",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoBNKr6YWBC4uPzzXNZNX_sduYkalrtPSfiT01s6R6tq9uRzAs8TRoyv0DSwM-Wy_RmiGv923yzsB1DK3mgg5vudYdTwIk7wubUJYB0f-6AADquodryt0KofkU5aKxKaKBLirP1A0PuaBC_lfWEYJKlthyphenhyphencmmT2WBQkIRLLFLI5kWKZcJWY5rxrN-qa2M/s1600/picuss.jpg"
     },
     {
       "id": "aea9bea6f3fdbc07e8753cc135ce296d301a735b",
@@ -272,6 +305,61 @@
       "type": "CVE",
       "severity": "Info",
       "imageUrl": "https://img-api.mac4ever.com/1200/0/11d1b16bbf_zoom-faille-mac-iphone.webp"
+    },
+    {
+      "id": "e8c6c5ae1775741caf6cb0a17536791aba1531a5",
+      "title": "Microsoft - CVE-2026-68820 | modifié le 12-08-2026",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/microsoft-cve-2026-68820-2026-08-12",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-12T01:59:18.000Z",
+      "summary": "&lt;p&gt;Une vulnérabilité d'utilisation de mémoire après libération affecte le pilote Windows Ancillary Function Driver for WinSock (afd.sys). Un attaquant authentifié localement.",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "1a6d3054e93a25700431f12da482ba18c899e436",
+      "title": "Cisco - CVE-2026-20349 | modifié le 12-08-2026",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/cisco-cve-2026-20349-2026-08-12",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-12T01:56:59.000Z",
+      "summary": "&lt;p&gt;Une vulnérabilité affecte le service Remote Access SSL VPN des logiciels Cisco Secure Firewall ASA et FTD. Elle résulte d'une vérification de code d'erreur insuffisante lo",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "355ccfe4216cb7134080a00f0afcbf5974ebd274",
+      "title": "MongoDB, Inc. - CVE-2026-18697 | modifié le 12-08-2026",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/mongodb-inc-cve-2026-18697-2026-08-12",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-12T01:54:42.000Z",
+      "summary": "&lt;p&gt;La méthode ExpressionFunction::parse() lit le flag _internalSetObjToThis (réservé à un usage interne) depuis un document BSON fourni par le client, sans vérifier que la re",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "70b3deb8e0ca1beae1372d78da970bd4932f7525",
+      "title": "Ivanti - CVE-2026-18125 | modifié le 12-08-2026",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/ivanti-cve-2026-18125-2026-08-12",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-12T01:52:06.000Z",
+      "summary": "&lt;p&gt;Une vulnérabilité de lecture \"out of boundary\" affecte le composant agent d'Ivanti Endpoint Manager. Un attaquant distant non authentifié peut, en envoyant des données spé",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "fefd4f43bab408683a5edaa06cbd06551e884617",
+      "title": "Siemens - CVE-2026-58115 | modifié le 12-08-2026",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/siemens-cve-2026-58115-2026-08-12",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-12T01:47:14.000Z",
+      "summary": "&lt;p&gt;Une vulnérabilité d'absence d'authentification affecte l'interface HTTP de Node-RED sur les équipements SIMATIC IoT2050 Advanced fonctionnant sous Industrial OS avec Node-",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
     },
     {
       "id": "9cac50cc689c876287175e2fa801dc4ba99dc675",
@@ -1275,6 +1363,17 @@
       "imageUrl": null
     },
     {
+      "id": "e1d8b68afdcff2ac2cbaf3a9ce2a7721f433a8eb",
+      "title": "Wi-Fi d’hôtel piégé : cette cyberattaque russe vise les utilisateurs Windows et Android",
+      "url": "https://www.capital.fr/economie-politique/wi-fi-dhotel-piege-cette-cyberattaque-russe-vise-les-utilisateurs-windows-et-android-1529144?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-09T17:09:29.000Z",
+      "summary": "Microsoft a indiqué qu’une cyberattaque russe cible les utilisateurs Windows et Android depuis le mois de mai. Le groupe Storm-2945, à l’origine de …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/capital.fr/89522626e4689208926a2f9279d45b65867a80c3/_xlarge.jpeg"
+    },
+    {
       "id": "0436a9cd6c65acd6860adad70ba401d3f49b1697",
       "title": "Hackers et faux agents de sécurité : le scénario exceptionnel qui a fait perdre plus d’un million d’euros à un couple des Yvelines",
       "url": "https://www.lefigaro.fr/faits-divers/hackers-et-faux-agents-de-securite-le-scenario-exceptionnel-qui-a-fait-perdre-plus-d-un-million-d-euros-a-un-couple-des-yvelines-20260809?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -1306,17 +1405,6 @@
       "type": "LEAK",
       "severity": "Élevée",
       "imageUrl": null
-    },
-    {
-      "id": "d0777718f9a0d9a3d66a721112284d96989eadd0",
-      "title": "Extensions de navigateur oubliées : la faille de sécurité que personne ne surveille",
-      "url": "https://android-mt.ouest-france.fr/news/extensions-de-navigateur-oubliees-la-faille-de-securite-que-personne-ne-surveille/210589/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-09T09:31:43.000Z",
-      "summary": "Des modules invisibles mais lourds de conséquences Un module complémentaire tourne en permanence dans l’ombre du navigateur. Il facilite la …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/a8723c4fbf00e74fe331e0f09361ff1ed302a975/_xlarge.jpeg"
     },
     {
       "id": "3e56f0f494b52fd93319b3690e298512c29097e7",
@@ -1770,17 +1858,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5BBX-j7uA7NqPF9tVWhx3y09F3whJ3zweRoWGyI2kJDxhW6ymOG1oumq5Oz0sZWtCAKSCALcd9TTl7Kf5Mo3aqE3aWKH8jfKWt2uUD-CUa6tmid-3MvMTM08EAEhg5iLQ2mlEgFkVeuVKv1QkRqr2T0Ya9JcNtMYheggInGndCG0n-N7BPjyH9vbKCg8/s1600/Zapscape.gif"
     },
     {
-      "id": "4fbb8879b41d0e8921748995c912fc69439d2f1b",
-      "title": "Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.9 CVSS Score Bugs",
-      "url": "https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-06T17:13:15.000Z",
-      "summary": "Cisco has rolled out updates to address multiple critical security vulnerabilities impacting Catalyst SD-WAN and IOS XE Software as part of a comprehensive internal security review",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzkSwdiUeH8rB-KgSkEXrT-oNL19IyghM7Ks8UDOedxPYB5czgwO8pXNf0YUt7OHqAbRRDJkRvJffzJ0lfpEdqfLn-w-Bc9pwOa_1FNJjJkrVbD-diaZu9HRFqAlOBWogXEsZ4sSFRDW-HYmsaUmVD98QGQoyq2rHep_dwDa5ueafTUO0Lh6zsA-Czd3he/s1600/cisco-flaws.jpg"
-    },
-    {
       "id": "be5e96ec13c97c7f8dacebd603909427273de8a1",
       "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
       "url": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
@@ -1790,28 +1867,6 @@
       "type": "NEWS",
       "severity": "Moyenne",
       "imageUrl": "https://krebsonsecurity.com/wp-content/uploads/2024/11/moucka-surveillance.png"
-    },
-    {
-      "id": "ecfedcc56e596692fc793d5e240c5078b01ff223",
-      "title": "New Interrupt Injection Attack Can Bypass Spectre v2 Defenses on Intel and AMD CPUs",
-      "url": "https://thehackernews.com/2026/08/new-interrupt-injection-attack-can.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-06T16:17:13.000Z",
-      "summary": "An unprivileged Linux program can time a hardware interrupt to land in the gap between a processor sanitizing its branch predictor and the kernel using it, re-poisoning the predict",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiA_BgCPUTlxOgmh4ljCoOazIkcoSA_BHUGZmfAuhxD8TiUzui2nhB5b5KV_lv50ocFWI14FG5RIe8rqrm6D8ZC8ACR7mY1bXE4JADKcTRIY1bfIeXtnYs07yXk2T9Jsv0-vcxPkKbl6FuNXxXylv5BQQQLTDSpJ2XSyqxvIsxYy5d2X1Kwt_2CSJegj9Tv/s1600/place.jpg"
-    },
-    {
-      "id": "9bbd473e68b34edacc7b50c45c58a1943ff3916b",
-      "title": "ThreatsDay: Odysseus RCE, Samsung One-Click Takeover, iCloud Backdoor Fight + 27 More Stories",
-      "url": "https://thehackernews.com/2026/08/threatsday-odysseus-rce-samsung-one.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-06T15:24:31.000Z",
-      "summary": "Apparently, opening the thing is now enough. A repo can run before the first prompt, a package can hide among hundreds, and a harmless-looking PDF can finish the job. This week run",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhl0f74Tyvl6NQ4TAbPMIpgYWuHQN8THsYSQ77D9qmHuZdKsK2ZDrTLyWshLPV-UfSYW6Rbtfj866jP0X_D1QHmOFYIoEDZG90G3cy7JGFJrKsq0m7VeGqa0CCDygB9F3ttryPRQm-6MY50zIOsGFBdnwZZgAf31swGo5dOIa0noWuIoEk7rPrUkdfoddIj/s1600/threatsd.jpg"
     },
     {
       "id": "4b9fb5637f36f9c09d4395f5b1ff5cb7a5cd99f5",
@@ -2219,61 +2274,6 @@
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": null
-    },
-    {
-      "id": "67a142a67b329d0c391134db04fa6511805cad0c",
-      "title": "GitPython Developers - CVE-2026-67325",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/gitpython-developers-cve-2026-67325-2026-08-03",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-08-03T00:08:33.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans la bibliothèque &lt;strong&gt;GitPython&lt;/strong&gt; utilisée pour interagir avec des dépôts Git depuis des applications Python.&lt;/p",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "316f374ddcc4ed5a8c59b78625e78f1c883842eb",
-      "title": "SplitVPN - 865,336 breached accounts",
-      "url": "https://haveibeenpwned.com/Breach/SplitVPN",
-      "source": "Have I Been Pwned",
-      "publishedAt": "2026-08-01T05:29:26.000Z",
-      "summary": "In July 2026, &lt;a href=\"https://securityaffairs.com/196197/security/vpn-breach-exposes-58-million-connection-logs-despite-no-logs-claims.html\" target=\"_blank\" rel=\"noopener\"&gt;t",
-      "type": "LEAK",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "7a011beb1941c34f937c6387fe185459a5537509",
-      "title": "L'informatique quantique approche d'une percée commerciale, déclare le PDG d'IBM",
-      "url": "https://www.coindesk.com/fr/markets/2026/07/31/quantum-computing-nears-commercial-breakthrough-ibm-ceo-says?amp%3Butm_content=CoinDesk%2Fmagazine%2FCOINDESK+Fran%C3%A7ais",
-      "source": "Cryptographie FR",
-      "publishedAt": "2026-07-31T15:39:30.000Z",
-      "summary": "Arvind Krishna a déclaré que l'informatique quantique commencera à générer des revenus significatifs avant la fin de la décennie, alors que les …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f13d40f9b05eb319f27591485d64b14deec36a9e-3592x2394.jpg?auto=format&amp%3Bfit=crop&amp%3Bcrop=focalpoint&amp%3Bw=1920&amp%3Bh=1080&amp%3Bq=75"
-    },
-    {
-      "id": "4fbfb568ba2c184c17aa7a98554408489458378d",
-      "title": "Alerte avant le Q-Day : Claude Mythos a trouvé en 60 heures la faille d’un futur bouclier contre le quantique",
-      "url": "https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-alerte-avant-q-day-claude-mythos-trouve-60-heures-faille-futur-bouclier-quantique-136644/",
-      "source": "Cryptographie FR",
-      "publishedAt": "2026-07-31T09:35:51.000Z",
-      "summary": "La sécurité de nos données les plus confidentielles est en danger. La menace n'est plus seulement l'informatique quantique, mais aussi l'intelligence …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/futura-sciences.com/9aaec9e9ce1539c166c1311d6cd19d7dbd10565b/_xlarge.webp"
-    },
-    {
-      "id": "dc753195bb1b1b423275d654812afcae00ef3997",
-      "title": "Cryptographie: « ce qui nécessitait un an de travail peut prendre maintenant deux jours » - ZDNET",
-      "url": "https://www.zdnet.fr/actualites/cryptographie-ce-qui-necessitait-un-an-de-travail-peut-prendre-maintenant-deux-jours-499186.htm",
-      "source": "Cryptographie FR",
-      "publishedAt": "2026-07-31T05:07:37.000Z",
-      "summary": "Les failles dans AES et Hawk dénichées par Claude sont l’illustration de l’accélération du tempo dans la recherche en cryptographie poussée par l’IA …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2024/02/chiffrement-nsa-entree-600__w1200.jpg"
     }
   ]
 }
