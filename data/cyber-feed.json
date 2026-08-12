@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T16:57:35.684Z",
+  "generatedAt": "2026-08-12T19:03:21.104Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -23,7 +23,7 @@
       "name": "Exploit-DB",
       "url": "https://www.exploit-db.com/rss.xml",
       "status": "ok",
-      "items": 50
+      "items": 0
     },
     {
       "name": "The Hacker News",
@@ -75,6 +75,39 @@
     }
   ],
   "items": [
+    {
+      "id": "431c63d478b6af4c1860d3abc863696553f24c6d",
+      "title": "Drones IA : l’angle mort de la vie privée",
+      "url": "https://www.zataz.com/drones-ia-langle-mort-de-la-vie-privee/",
+      "source": "Zataz",
+      "publishedAt": "2026-08-12T18:40:25.000Z",
+      "summary": "Drones IA : collecte, conservation et floutage soulèvent des enjeux majeurs de vie privée.",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.zataz.com/wp-content/uploads/drone_ia.jpg"
+    },
+    {
+      "id": "e44e3ff6f5607da1b4f63524cc6762bc5dfc2a7a",
+      "title": "Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor",
+      "url": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-12T17:39:27.000Z",
+      "summary": "The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a neve",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1jrzxrBozKDsDhAGM8SBKcqbTE4M0zWSJqfp709iguQU21GwUzshBdYSvKkicSkfQD1bNsYhROcsx5p5vAT3jyM90H6w6p8imCjtLbHySKnpGKlsQqfSS-BhcdHNuwJKFPZfBiVkh49xDvJbRI-rvfBKePL6CeHYIWOpwvGG0T-ha3x__xznmdsYybs9v/s1600/windows-shell.jpg"
+    },
+    {
+      "id": "a42a92a7597ebea475f49a39837353b625d4e0c6",
+      "title": "250 millions de données françaises volées en 7 mois : ce VPN à 4,33 €/mois vous prévient dès que la vôtre y figure",
+      "url": "https://www.01net.com/bons-plans/250-millions-de-donnees-francaises-volees-en-7-mois-ce-vpn-a-433-e-mois-vous-previent-des-que-la-votre-y-figure.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-12T14:55:16.000Z",
+      "summary": "Le 31 juillet, le ministère de l’Éducation nationale a reconnu une troisième cyberattaque en six mois. Il ne s’agit ni d’un cas isolé ni d’une …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/9a20146fb7716cf8212c6d1f179ba016d192cfdc/_xlarge.jpeg"
+    },
     {
       "id": "af17480cc07f6bb66540021f2363538eff96b405",
       "title": "Pologne : les données de la moitié de la population exposées par une cyberattaque",
@@ -239,6 +272,17 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://media.lesechos.com/api/v1/images/view/6a7c236126e816282a04b92e/1280x720/02001118876927-web-tete.jpg"
+    },
+    {
+      "id": "a693ccdb681227e10f7eb1f41bb3317006db9812",
+      "title": "Vibe hacking et vibe coding ou l'impératif d'une nouvelle gouvernance des identités",
+      "url": "https://www.journaldunet.com/cybersecurite/1553611-vibe-hacking-et-vibe-coding-ou-l-imperatif-d-une-nouvelle-gouvernance-des-identites/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-12T07:38:38.000Z",
+      "summary": "L'Intelligence artificielle est parvenue, en l'espace de quelques années, à profondément transformer la manière dont les développeurs conçoivent les …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/journaldunet.com/c26d55beb8992d27c6c916fd3b2ed75071c26653/_xlarge.jpeg"
     },
     {
       "id": "ae35eda443c90800681347d0a398d5b67bc8b1c9",
@@ -879,83 +923,6 @@
       "imageUrl": null
     },
     {
-      "id": "9a576d03d1dc7e75e7b6deb4f747dba928f46dc6",
-      "title": "[webapps] Apache Gravitino 1.2.1 - SSRF",
-      "url": "https://www.exploit-db.com/exploits/52641",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-08-11T00:00:00.000Z",
-      "summary": "Apache Gravitino 1.2.1 - SSRF",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "3e49957568eda1df78919f789d2e63d4e77099f9",
-      "title": "[webapps] Blocksy Companion 2.1.46 - RCE",
-      "url": "https://www.exploit-db.com/exploits/52640",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-08-11T00:00:00.000Z",
-      "summary": "Blocksy Companion 2.1.46 - RCE",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": null
-    },
-    {
-      "id": "509f8ed76fc343ed63df64046b616ea853188ba6",
-      "title": "[remote] PraisonAI praisonaiagents 1.6.77 - Remote Code Execution",
-      "url": "https://www.exploit-db.com/exploits/52639",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-08-11T00:00:00.000Z",
-      "summary": "PraisonAI praisonaiagents 1.6.77 - Remote Code Execution",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "57c813a45d0b081786ca667d53f856cef29098a1",
-      "title": "[remote] mcp-server-kubernetes 3.8.x - Argument Injection",
-      "url": "https://www.exploit-db.com/exploits/52638",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-08-11T00:00:00.000Z",
-      "summary": "mcp-server-kubernetes 3.8.x - Argument Injection",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "b0ab1329bcec5cd63262493bf4b34fa0ad53b022",
-      "title": "[dos] LuCI DHCPv6 - Lease Hostname Stored Cross-Site Scripting",
-      "url": "https://www.exploit-db.com/exploits/52637",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-08-11T00:00:00.000Z",
-      "summary": "LuCI DHCPv6 - Lease Hostname Stored Cross-Site Scripting",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "0ffefbb11755cad969d1f02d399c6c920a0469a9",
-      "title": "[webapps] Planyo_Online_Reservation_System 3.0 - Arbitrary File Read via SSRF",
-      "url": "https://www.exploit-db.com/exploits/52636",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-08-11T00:00:00.000Z",
-      "summary": "Planyo_Online_Reservation_System 3.0 - Arbitrary File Read via SSRF",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "34284d2aa95e1a5026867c848aa2b7b3146baa05",
-      "title": "[webapps] Ray 2.56.0 - Directory Traversal &amp; Local File Inclusion",
-      "url": "https://www.exploit-db.com/exploits/52635",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-08-11T00:00:00.000Z",
-      "summary": "Ray 2.56.0 - Directory Traversal &amp; Local File Inclusion",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
       "id": "99d810136dff10b1f55cefac071e6099964f02b7",
       "title": "Deux pirates revendiquent le piratage d&#8217;un pro du Cloud Français",
       "url": "https://www.zataz.com/deux-pirates-revendiquent-le-piratage-de-pro-du-cloud/",
@@ -1020,17 +987,6 @@
       "type": "LEAK",
       "severity": "Info",
       "imageUrl": "https://www.zataz.com/wp-content/uploads/ffhand_leak.jpg"
-    },
-    {
-      "id": "cc35dc0f091c1a2e6a3c54b8864bfbc6c0d615bc",
-      "title": "À vendre : les coulisses d’un empire du pari",
-      "url": "https://www.zataz.com/a-vendre-les-coulisses-dun-empire-du-pari/",
-      "source": "Zataz",
-      "publishedAt": "2026-08-10T20:30:27.000Z",
-      "summary": "Un vendeur du dark web propose accès casino, bases de joueurs et données crypto dans un catalogue spécialisé.",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/casinos_gambling_leak.jpg"
     },
     {
       "id": "f886772822042c45eaf61ceddb3a6d3bd860627e",
@@ -1319,50 +1275,6 @@
       "imageUrl": null
     },
     {
-      "id": "6a8acafd0b64a155379a6cb8c106f7ab47b22380",
-      "title": "[webapps] OrkesConductor 3.30.2 - Unauthenticated Remote Code Execution",
-      "url": "https://www.exploit-db.com/exploits/52633",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "summary": "OrkesConductor 3.30.2 - Unauthenticated Remote Code Execution",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "201fa66a727d85be409d482d5299ea5987b21987",
-      "title": "[local] Microsoft Edge 150.0.4078.48 - RCE",
-      "url": "https://www.exploit-db.com/exploits/52632",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "summary": "Microsoft Edge 150.0.4078.48 - RCE",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": null
-    },
-    {
-      "id": "6e08fc161fe0c63881032ed0fa786d13a3401c6d",
-      "title": "[webapps] CorgetGpsDget 2_3.2 - OS Command Injection",
-      "url": "https://www.exploit-db.com/exploits/52631",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "summary": "CorgetGpsDget 2_3.2 - OS Command Injection",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "5cd838d855437989d066d40e0952e184f5427be6",
-      "title": "[webapps] Joomla 2.9.99.4 - Unauthenticated Remote Code Execution",
-      "url": "https://www.exploit-db.com/exploits/52630",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "summary": "Joomla 2.9.99.4 - Unauthenticated Remote Code Execution",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
       "id": "e1d8b68afdcff2ac2cbaf3a9ce2a7721f433a8eb",
       "title": "Wi-Fi d’hôtel piégé : cette cyberattaque russe vise les utilisateurs Windows et Android",
       "url": "https://www.capital.fr/economie-politique/wi-fi-dhotel-piege-cette-cyberattaque-russe-vise-les-utilisateurs-windows-et-android-1529144?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -1482,17 +1394,6 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_DF22WirQj4KZe5A4NxYmG3UhC2o4BRQ4AybyFlmr80n5Wkf15sbtMn11P0msoMyAe65WBqMpL2XBsqTiHdDNNH1i6qz11ydD9X4AIOoiaSfCYb1MCe7dfJD0n4TEIc5_83tsMq5zJ5zVpGbpCq7b8rACen1oMvW8XGBbz3T4hy_9J6igpOk0oCDp6vkA/s1600/progress.jpg"
-    },
-    {
-      "id": "1ef05e3b7d0bccccee0bd58af0beca720e2201ec",
-      "title": "Une cyberattaque russe « mondiale » s'abat sur les réseaux Wi-Fi des hôtels, Microsoft sonne l'alerte",
-      "url": "https://www.01net.com/actualites/une-cyberattaque-russe-mondiale-sabat-sur-les-reseaux-wi-fi-des-hotels-microsoft-sonne-lalerte.html?amp%3Butm_content=topic%2Ffr-technologie",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-08T06:01:47.000Z",
-      "summary": "Des hackers russes prennent d’assaut les réseaux Wi-Fi des hôtels cet été. Microsoft alerte sur une vaste campagne d’espionnage qui se propage …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/3907bce3c983909c3f97f8e500996ce6a947a634/_xlarge.jpeg"
     },
     {
       "id": "0f102641835d27e4c4e508baf6f6753818b989a9",
@@ -1847,17 +1748,6 @@
       "imageUrl": null
     },
     {
-      "id": "025b104f6798b2cf0d544d493a6d44930daaf304",
-      "title": "New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts",
-      "url": "https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-06T17:58:30.000Z",
-      "summary": "Zapscape, a new Linux kernel vulnerability, could allow an attacker with kernel privileges inside an L1 guest virtual machine (VM) to escape KVM isolation and execute code on the h",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5BBX-j7uA7NqPF9tVWhx3y09F3whJ3zweRoWGyI2kJDxhW6ymOG1oumq5Oz0sZWtCAKSCALcd9TTl7Kf5Mo3aqE3aWKH8jfKWt2uUD-CUa6tmid-3MvMTM08EAEhg5iLQ2mlEgFkVeuVKv1QkRqr2T0Ya9JcNtMYheggInGndCG0n-N7BPjyH9vbKCg8/s1600/Zapscape.gif"
-    },
-    {
       "id": "be5e96ec13c97c7f8dacebd603909427273de8a1",
       "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
       "url": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
@@ -1900,17 +1790,6 @@
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
-    },
-    {
-      "id": "3fa54b50364f529f0500c5ec3f3d80a5cd392b3c",
-      "title": "« Vaste opération de fraude » contre la première banque de France, la cyberattaque a « été déjouée »",
-      "url": "https://www.01net.com/actualites/vaste-operation-fraude-vise-premiere-banque-france.html?amp%3Butm_content=topic%2Ffr-%C3%A9conomie",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-06T07:11:56.000Z",
-      "summary": "Une vaste campagne de phishing a visé les clients de la première banque de France. L’opération reposait sur une infrastructure complexe, qui permet …",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/85cbfa6b897ec502d9c2b5c930baf1cd0a51e7ef/_xlarge.jpeg"
     },
     {
       "id": "20f7823c228c99d63ef59597382bc7b0e4e2ac3d",
@@ -2274,6 +2153,127 @@
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": null
+    },
+    {
+      "id": "67a142a67b329d0c391134db04fa6511805cad0c",
+      "title": "GitPython Developers - CVE-2026-67325",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/gitpython-developers-cve-2026-67325-2026-08-03",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-03T00:08:33.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans la bibliothèque &lt;strong&gt;GitPython&lt;/strong&gt; utilisée pour interagir avec des dépôts Git depuis des applications Python.&lt;/p",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "316f374ddcc4ed5a8c59b78625e78f1c883842eb",
+      "title": "SplitVPN - 865,336 breached accounts",
+      "url": "https://haveibeenpwned.com/Breach/SplitVPN",
+      "source": "Have I Been Pwned",
+      "publishedAt": "2026-08-01T05:29:26.000Z",
+      "summary": "In July 2026, &lt;a href=\"https://securityaffairs.com/196197/security/vpn-breach-exposes-58-million-connection-logs-despite-no-logs-claims.html\" target=\"_blank\" rel=\"noopener\"&gt;t",
+      "type": "LEAK",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "7a011beb1941c34f937c6387fe185459a5537509",
+      "title": "L'informatique quantique approche d'une percée commerciale, déclare le PDG d'IBM",
+      "url": "https://www.coindesk.com/fr/markets/2026/07/31/quantum-computing-nears-commercial-breakthrough-ibm-ceo-says?amp%3Butm_content=CoinDesk%2Fmagazine%2FCOINDESK+Fran%C3%A7ais",
+      "source": "Cryptographie FR",
+      "publishedAt": "2026-07-31T15:39:30.000Z",
+      "summary": "Arvind Krishna a déclaré que l'informatique quantique commencera à générer des revenus significatifs avant la fin de la décennie, alors que les …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f13d40f9b05eb319f27591485d64b14deec36a9e-3592x2394.jpg?auto=format&amp%3Bfit=crop&amp%3Bcrop=focalpoint&amp%3Bw=1920&amp%3Bh=1080&amp%3Bq=75"
+    },
+    {
+      "id": "4fbfb568ba2c184c17aa7a98554408489458378d",
+      "title": "Alerte avant le Q-Day : Claude Mythos a trouvé en 60 heures la faille d’un futur bouclier contre le quantique",
+      "url": "https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-alerte-avant-q-day-claude-mythos-trouve-60-heures-faille-futur-bouclier-quantique-136644/",
+      "source": "Cryptographie FR",
+      "publishedAt": "2026-07-31T09:35:51.000Z",
+      "summary": "La sécurité de nos données les plus confidentielles est en danger. La menace n'est plus seulement l'informatique quantique, mais aussi l'intelligence …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/futura-sciences.com/9aaec9e9ce1539c166c1311d6cd19d7dbd10565b/_xlarge.webp"
+    },
+    {
+      "id": "dc753195bb1b1b423275d654812afcae00ef3997",
+      "title": "Cryptographie: « ce qui nécessitait un an de travail peut prendre maintenant deux jours » - ZDNET",
+      "url": "https://www.zdnet.fr/actualites/cryptographie-ce-qui-necessitait-un-an-de-travail-peut-prendre-maintenant-deux-jours-499186.htm",
+      "source": "Cryptographie FR",
+      "publishedAt": "2026-07-31T05:07:37.000Z",
+      "summary": "Les failles dans AES et Hawk dénichées par Claude sont l’illustration de l’accélération du tempo dans la recherche en cryptographie poussée par l’IA …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2024/02/chiffrement-nsa-entree-600__w1200.jpg"
+    },
+    {
+      "id": "bd80630390f3c6270b53a2144ba6be0c4e8ad9e0",
+      "title": "VMware - CVE-2026-59309",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/vmware-cve-2026-59309-2026-07-31",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-31T00:23:00.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;contournement de l'authentification&lt;/strong&gt; dans &lt;strong&gt;VMware vCenter.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "f8059c0125323847c5749c3008ba0e2ded9d9713",
+      "title": "Node.js - CVE-2026-58043",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/nodejs-cve-2026-58043-2026-07-31",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-31T00:16:00.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;contrôle d'accès inapproprié&lt;/strong&gt; dans le modèle de permissions de &lt;strong&gt;Node.js.&lt;/strong&gt;&lt;/p&gt;",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "24a190373d3e94f82ed5116bc9fbdfe121126220",
+      "title": "SolarWinds - CVE-2026-28323",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/solarwinds-cve-2026-28323-2026-07-31",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-31T00:14:00.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;contournement d'authentification SAML&lt;/strong&gt; dans &lt;strong&gt;SolarWinds Web Help Desk.&lt;/strong&gt;&lt;/p&gt; &",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "d46659985c091f208e1e21d4f63706f9eb01e946",
+      "title": "Google - CVE-2026-17681",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/google-cve-2026-17681-2026-07-31",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-31T00:12:00.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;validation insuffisante des entrées non fiables&lt;/strong&gt; dans&lt;strong&gt; Web Authentication de Google Chrome.&lt;/s",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "7e16a24a310b0316aeaa676eb9d83df28470459c",
+      "title": "IBM - CVE-2026-10535",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/ibm-cve-2026-10535-2026-07-31",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-31T00:05:00.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;dépassement de tampon (buffer overflow)&lt;/strong&gt; dans le composant &lt;strong&gt;db2flacc&lt;/strong&gt; de &lt;strong",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "53e8bd60194c1b09660cdb3ebd10358cb5047a01",
+      "title": "Read This Before You Buy That TV Streaming Stick",
+      "url": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
+      "source": "Krebs on Security",
+      "publishedAt": "2026-07-30T16:49:00.000Z",
+      "summary": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-time fee, warning that they sec",
+      "type": "NEWS",
+      "severity": "Moyenne",
+      "imageUrl": "https://krebsonsecurity.com/wp-content/uploads/2026/07/h96-amazon.png"
     }
   ]
 }
