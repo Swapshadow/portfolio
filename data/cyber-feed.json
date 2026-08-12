@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T07:27:14.700Z",
+  "generatedAt": "2026-08-12T09:12:56.935Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -75,6 +75,138 @@
     }
   ],
   "items": [
+    {
+      "id": "11c7d7ae983a6a42ce0b5f2cb66c07472cb685a2",
+      "title": "Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations",
+      "url": "https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-12T08:04:52.000Z",
+      "summary": "Two malicious LiteLLM releases sat on PyPI for about 40 minutes in March carrying credential-stealing code capable of harvesting cloud keys, SSH keys, Kubernetes tokens, database p",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjTLayRrpqM-bUGPU8pmWZIGJ_TCnkLLvykLv9Z_-R-QFmC1f6nIxSff2TTqZ77xC1n-l7Y44qKhUVdvRX9bUgNjVcGhF7A0vkRGnumHe6-bUoCFNH4PAb11zHkdjq3Xd2kF1jiGi8quRW4WFOy-0I_CRCorkQGuh9D2K8KhDAFxzsA7a0yxp2VkM-uGo/s1600/llmhack.jpg"
+    },
+    {
+      "id": "93a3ed7a9174018959a8a62f452409a0237a7662",
+      "title": "Défense : « L'UE doit comprendre que le matériel compte autant que le logiciel, penser le contraire est une erreur »",
+      "url": "https://www.lesechos.fr/idees-debats/cercle/defense-lue-doit-comprendre-que-le-materiel-compte-autant-que-le-logiciel-penser-le-contraire-est-une-erreur-2246747?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-12T07:40:14.000Z",
+      "summary": "Et si l'IA, loin de rendre le matériel obsolète, était précisément la raison pour laquelle il redevient décisif ? Quand tout le monde disposera des …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://media.lesechos.com/api/v1/images/view/6a7c236126e816282a04b92e/1280x720/02001118876927-web-tete.jpg"
+    },
+    {
+      "id": "a693ccdb681227e10f7eb1f41bb3317006db9812",
+      "title": "Vibe hacking et vibe coding ou l'impératif d'une nouvelle gouvernance des identités",
+      "url": "https://www.journaldunet.com/cybersecurite/1553611-vibe-hacking-et-vibe-coding-ou-l-imperatif-d-une-nouvelle-gouvernance-des-identites/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-12T07:38:38.000Z",
+      "summary": "L'Intelligence artificielle est parvenue, en l'espace de quelques années, à profondément transformer la manière dont les développeurs conçoivent les …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/journaldunet.com/c26d55beb8992d27c6c916fd3b2ed75071c26653/_xlarge.jpeg"
+    },
+    {
+      "id": "345833e01c837de5930c77bdff0b56a826f36b06",
+      "title": "Face aux cyberattaques dopées à l'IA, attendre NIS 2 est devenu un pari risqué",
+      "url": "https://www.journaldunet.com/intelligence-artificielle/1553613-face-aux-cyberattaques-dopees-a-l-ia-attendre-nis-2-est-devenu-un-pari-risque/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-12T07:38:16.000Z",
+      "summary": "L'Europe fait face à un point de bascule. Alors que l'intelligence artificielle générative révolutionne la productivité de nos entreprises, elle …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/journaldunet.com/ee71ac6fa3f2aa5c7dc908512c296559b0093fae/_xlarge.jpeg"
+    },
+    {
+      "id": "ae35eda443c90800681347d0a398d5b67bc8b1c9",
+      "title": "Des fake news assuraient que la frontière était ouverte: Meta et Tiktok renforcent leurs dispositifs de lutte contre la désinformation liée à Ceuta, à la demande de Bruxelles",
+      "url": "https://www.bfmtv.com/tech/actualites/reseaux-sociaux/des-fake-news-assuraient-que-la-frontiere-etait-ouverte-meta-et-tiktok-renforcent-leurs-dispositifs-de-lutte-contre-la-desinformation-liee-a-ceuta-a-la-demande-de-bruxelles_AD-202608120190.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-12T07:31:45.000Z",
+      "summary": "Un accord a été trouvé pour créer un outil de communication dédié sur la question des migrations vers Ceuta, réunissant plateformes et fact-checkeurs …",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://ic-cdn.flipboard.com/bfmtv.com/04e922f0c6c9885a74ee5cda1bd106364bca5a22/_xlarge.jpeg"
+    },
+    {
+      "id": "4d807acb78d593406d895e9b6f057ef4af75e91f",
+      "title": "SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code",
+      "url": "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-12T07:31:40.000Z",
+      "summary": "SAP has released patches to address a maximum-severity security flaw impacting Commerce Cloud (Data Hub Adapter) that could result in arbitrary code execution. The vulnerability, a",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbIbhajZdWb8FMAsUCcL8bufmUEbpuTCSFvKhvJgecxUZcO3rH1QV1bVNrOJ1W8oqge3sBIMwmHZxXR9l1PyrOGDEuAZZJkwFBmMlFGWwjU5-3CDmUQsz08HzrZ23kg9HSv3X7MrOryUe-T-PZCmpr8csna-nQcAg-b3RSeWiWsHuaBFAiJmjTrVI5WBQM/s1600/sap.jpg"
+    },
+    {
+      "id": "7b833c2212397239424db6c4c5819a3f8e5214cc",
+      "title": "Fuite de données chez Bloctel : des numéros de téléphone ont été piratés, c'est officiel",
+      "url": "https://www.01net.com/actualites/fuite-donnees-bloctel-numeros-telephone-pirates-officiel.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-12T07:12:53.000Z",
+      "summary": "Bloctel ferme ses portes… et se fait pirater. Alors que le service contre le démarchage téléphonique cesse ses activités, un pirate est parvenu à …",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/643ef90b38b37957e9f9a15ece2eb4137d0c60dc/_xlarge.jpeg"
+    },
+    {
+      "id": "952af286cda5333a34bd8b4c5e37745451b17812",
+      "title": "Un simple appel suffisait pour vous pirater : une terrible menace plane sur Zoom si vous ne faites pas immédiatement la mise à jour",
+      "url": "https://www.presse-citron.net/une-menace-plane-sur-zoom-mise-a-jour/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-12T07:04:54.000Z",
+      "summary": "Des chercheurs découvrent une vulnérabilité sur Zoom qui aurait pu permettre à des hackers de pirater tous les participants à un appel. Zoom a déjà …",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/presse-citron.net/a941461c6b0659bf33b733306a26e508437dd4ac/_xlarge.jpeg"
+    },
+    {
+      "id": "e455aeada15360408305dc67ca599b7eb757243e",
+      "title": "Cette puce dans votre poche semble anodine : elle peut envoyer des SMS à votre insu et déclencher des actions à distance",
+      "url": "https://www.futura-sciences.com/tech/actualites/cybersecurite-cette-puce-votre-poche-semble-anodine-elle-peut-envoyer-sms-votre-insu-declencher-actions-distance-136898/",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-12T07:01:04.000Z",
+      "summary": "La première carte SIM a été créée en 1991. Trente-cinq ans plus tard, cette petite puce à l'apparence si simple et anodine se révèle être un nouveau …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/futura-sciences.com/2611f41051a47918fa9e5ddd54e1b938851b23e6/_xlarge.jpeg"
+    },
+    {
+      "id": "cf27375dbc8f837300799357f154a87087ac177b",
+      "title": "ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access",
+      "url": "https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-12T06:41:38.000Z",
+      "summary": "The security researcher going by the name Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has released a proof-of-concept (PoC) for a new Microsoft zer",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9fX7D-qoT4QD3pjSuUtavTiarjtyitt3-JMji-nzNa8XTKefzPp2QGMAR6FkLA8r8Ll9VVFHCMEJSKWgi5Gk0GOdYU4RA1itDyf8ZQc12IXczcxoGHKXcJ9GAWUv-fPaRhRXnDyFfxo9nhjQoJbBPxQQbixY9RxaR_Oz_NrHD2P_EMER6yKTV3nWCSAoq/s1600/zero-day.jpg"
+    },
+    {
+      "id": "2458b922cd2ab8e19a4af7ccb9127521de6cd4cf",
+      "title": "Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS",
+      "url": "https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-12T06:15:58.000Z",
+      "summary": "Cisco has warned that a new vulnerability impacting Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software has been exploited ",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRIn51DQNDe2IfVEJzqiWXY9k8QyRhulSTcOh67As0Pj7Da1DCB5Lu1RBhjI55Y7_TF9PW9F9HOBn6moaPRNrpl0G_OGeMbC9z5BMfdOqtF6sHpd5tJLvQqnvlCd77R-4oCYiDVfFlUtRe4mp7W8cFDCHmJ8kz4TueVL06-jbGzpVdWasZF02YRwYyrZJc/s1600/cisco-powerhouse.jpg"
+    },
+    {
+      "id": "3ae8c15deb7ff456fb8d343d83245a23cbfc3d52",
+      "title": "Cette faille de Zoom permettait de contrôler un iPhone ou un Mac à distance",
+      "url": "https://www.mac4ever.com/securite/197539-cette-faille-de-zoom-permettait-de-controler-un-iphone-ou-un-mac-a-distance?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-12T06:05:00.000Z",
+      "summary": "Une importante vulnérabilité vient d’être corrigée dans Zoom. Découverte par la société de cybersécurité A Security, elle permettait à un attaquant …",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": "https://img-api.mac4ever.com/1200/0/11d1b16bbf_zoom-faille-mac-iphone.webp"
+    },
     {
       "id": "0f6e9fae16fd9cb51cfdb00aaeaa8049451b97ad",
       "title": "Le FBI alerte sur des hackers qui volent les photos intimes des victimes",
@@ -164,17 +296,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHe7Kt8X_4eEC2ICocbCp-eg1Vs7xknMUYEnZzepw5j6mg7v7C7DmPvzf4S-Z4wGhofTJco3eW95xPm3x7nDEzdfF9dpJAEriyIAGsXqNcLT02br6Em30kPnD5vYp4CrHHAR8TvvNr6glr8mIeRwhPANZqTSG7w_tR1-8QUNgYWg4AXgVPrmob7CFzwLmA/s1600/deadlock.jpg"
     },
     {
-      "id": "d4d8bb0172e6478730f2ce461641084b35c3a8f9",
-      "title": "Les groupes de hackers nord-coréens accélèrent leur recours à l’IA pour \"automatiser\" leurs cyberattaques et la conception de logiciels malveillants",
-      "url": "https://www.bfmtv.com/tech/cybersecurite/les-groupes-de-hackers-nord-coreens-accelerent-leur-recours-a-l-ia-pour-automatiser-leurs-cyberattaques-et-la-conception-de-logiciels-malveillants_AV-202608110365.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-11T14:36:23.000Z",
-      "summary": "Selon un rapport d’une entreprise de cybersécurité, les pirates informatiques nord-coréens semblent renforcer leur recours à l’intelligence …",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://ic-cdn.flipboard.com/bfmtv.com/2e9ab81fcef4eab4ba904346376ac9f3146927a8/_xlarge.jpeg"
-    },
-    {
       "id": "ea73e1db72433450fbbdedff1ad363ec056334af",
       "title": "Google suspend son IA d’images dans Google Earth",
       "url": "https://www.zataz.com/google-suspend-son-ia-dimages-dans-google-earth/",
@@ -246,7 +367,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-01",
       "source": "CISA",
       "publishedAt": "2026-08-11T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-204-01.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-204-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -257,7 +378,7 @@
       "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-223-02",
       "source": "CISA",
       "publishedAt": "2026-08-11T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsma-26-223-02.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsma-26-223-02.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -268,7 +389,7 @@
       "url": "https://www.cisa.gov/news-events/alerts/2026/08/11/cisa-adds-three-known-exploited-vulnerabilities-catalog",
       "source": "CISA",
       "publishedAt": "2026-08-11T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA has added three new vulnerabilities to its &lt;a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"&gt;Known Exploited Vulnerabilities (KEV) Catalog&",
+      "summary": "&lt;p&gt;CISA has added three new vulnerabilities to its &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities (KEV",
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": null
@@ -279,7 +400,7 @@
       "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-223-01",
       "source": "CISA",
       "publishedAt": "2026-08-11T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsma-26-223-01.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsma-26-223-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -426,17 +547,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://static.papergeek.fr/2026/08/A2-6.jpg"
-    },
-    {
-      "id": "6cd71bfc4ffe1e156604e31ecd2922fb225d5d5a",
-      "title": "Pourquoi les dirigeants sont désormais les cibles privilégiées des ransomwares – et 6 conseils pour se protéger - ZDNET",
-      "url": "https://www.zdnet.fr/actualites/pourquoi-les-dirigeants-sont-desormais-les-cibles-privilegiees-des-ransomwares-et-6-conseils-pour-se-proteger-499692.htm",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-11T06:08:52.000Z",
-      "summary": "Près des deux tiers des victimes ciblées dans le cadre d'une seule campagne de rançongiciel occupaient des postes de direction ou de niveau supérieur …",
-      "type": "NEWS",
-      "severity": "Critique",
-      "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2026/08/managersrope-gettyimages-2249735609.jpg"
     },
     {
       "id": "21ed2651cfc31caee13c5b93b60c51bddc33d161",
@@ -802,17 +912,6 @@
       "imageUrl": "https://static.actugaming.net/media/2025/11/Steam_Machine_6-1-889x500.jpg"
     },
     {
-      "id": "4753bfac3496cce6a042366413b361e1210ccbd7",
-      "title": "« CaptiveCrunch » : Attention à cette cyberattaque qui utilise le Wi-Fi public des gares, aéroports et hôtels",
-      "url": "https://www.20minutes.fr/high-tech/4238614-20260810-captivecrunch-attention-cyberattaque-utilise-wi-fi-public-gares-aeroports-hotels?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-10T15:47:36.000Z",
-      "summary": "Une vaste campagne de piratage à l’échelle internationale a été mise au jour par les équipes de Microsoft et de ReliaQuest. Elle porte le nom de « …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://img.20mn.fr/Lhccut8AR4mC1Ngo-T0YzCk/1444x920_paris-le-21-juin-2012-illustration-aeroport-charles-de-gaulle-roissy-cdg-hall-satellite-s4-terminal-2e-guichets-air-france-vides-zone-d-embarquement-voyageurs"
-    },
-    {
       "id": "c434c98771dd4828d7fc83c3f0f48a8e5c88899f",
       "title": "⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors",
       "url": "https://thehackernews.com/2026/08/weekly-recap-ai-goes-rogue-metabase-0.html",
@@ -824,15 +923,15 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtXmkUOPD6prrNPMK9N1Rhu2dm3QFGQ2DUTiu3xrj2WWbauZ_IK2HemME36-4WBIqGh01SFOkNJuutFeXLgS_ZMUBFn5ZDzIP5_IeNrwJWDfKcOPQgZl3spOFVS8R84Hbthy6o3sx9IWJ1yRo4FiW5acGYGBrf2nljmx6yvSd55LWRrkX6JhJ9b5bHJX0g/s1600/recaps.jpg"
     },
     {
-      "id": "f6fc546c0d8d7b0c04470159192f7fba892f5554",
-      "title": "Les données de millions de Français ont peut-être été piratées : la France pointe du doigt « une vulnérabilité informatique »",
-      "url": "https://www.01net.com/actualites/vous-avez-chien-chat-donnees-peut-etre-piratees.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "id": "f3f0cd7014613802166cba49f7fd3949d909aac6",
+      "title": "Steam Hardware, Valve alerte les acheteurs européens que leurs adresses ont fuité après une cyberattaque chez CEVA",
+      "url": "https://www.omgpu.com/steam-hardware-valve-alerte-les-acheteurs-europeens-que-leurs-adresses-ont-fuite-apres-une-cyberattaque-chez-ceva/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
       "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-10T14:40:41.000Z",
-      "summary": "Le fichier national d’identification des chiens et des chats de France a été victime d’une faille de sécurité. Des adresses e-mail de détenteurs …",
-      "type": "CVE",
+      "publishedAt": "2026-08-10T14:25:02.000Z",
+      "summary": "Valve a prévenu ses clients européens par email que CEVA Logistics, son partenaire de livraison pour le matériel Steam, a subi une cyberattaque entre …",
+      "type": "NEWS",
       "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/b8d02424827cfcfd1e6b7ae0ac7e5167807c6813/_xlarge.jpeg"
+      "imageUrl": "https://www.omgpu.com/wp-content/uploads/2026/08/Steam-Hardware-Valve-alerte-les-acheteurs-europeens-que-leurs-adresses-1200x675.jpg"
     },
     {
       "id": "3517e2ed82639c0d7093ab57d66ac63e794558d6",
@@ -857,28 +956,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDgatgimOxtzWBp5R0l6yiMeoFVAeLE-hn-RGePbOlgUMgb3Vj9cEKav3AadjZBcppLfoDs4o-oREZ0OimLYX9WDnIRwebA4P7nVa-wh8KwHW-z7HUALW_bj2B-53kotBjkGw-6QXx-Awo3OxBlhjIwEIuueFEXLOgpT7cPpz5e_MSlD4l_FHgJocN6QA/s1600/north.jpg"
     },
     {
-      "id": "137852252a940899c662d71062ffa3c1521da951",
-      "title": "La liste anti-démarchage Bloctel piratée, des millions de numéros se retrouvent dans la nature",
-      "url": "https://siecledigital.fr/2026/08/10/la-liste-anti-demarchage-bloctel-piratee-des-millions-de-numeros-se-retrouvent-dans-la-nature/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-10T13:16:49.000Z",
-      "summary": "Bloctel vient de se faire vider. Un pirate qui se présente sous le pseudo Cybernox affirme avoir aspiré environ 3 millions de lignes depuis la base …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://siecledigital.fr/wp-content/uploads/2026/08/5444529045.jpg"
-    },
-    {
-      "id": "303ece77870412fb332b29bc198b483283396c2b",
-      "title": "En laissant vos objets connectés recevoir leurs mises à jour la nuit, vous ouvrez littéralement une porte que personne ne surveille",
-      "url": "https://sciencepost.fr/en-laissant-vos-objets-connectes-recevoir-leurs-mises-a-jour-la-nuit-vous-ouvrez-litteralement-une-porte-que-personne-ne-surveille/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-10T12:45:00.000Z",
-      "summary": "On imagine les cyberattaques comme des assauts spectaculaires, menés en pleine journée par des pirates encapuchonnés. La réalité est plus discrète : …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://sciencepost.fr/wp-content/uploads/2026/07/en-laissant-vos-objets-connectes-recevoir-leurs-mises-a-jour-la-nuit-vous-ouvrez-litteralement-une-porte-que-personne-ne-surveille-featured-1784804824.jpg"
-    },
-    {
       "id": "141b70834ae607793040e67455712d14e87a8e03",
       "title": "New Passkey Attacks Can Recover Synced Private Keys or Bypass Phishing-Resistant MFA",
       "url": "https://thehackernews.com/2026/08/new-passkey-attacks-can-recover-synced.html",
@@ -888,17 +965,6 @@
       "type": "NEWS",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXmfqNoa09hdS94VkCzlDhqshyphenhyphenLXM3mo93MtChM8pXBFJxCEh6iP7mlU-wcwnWZGROVidduvOqpGfWajbLA5PaTrH7tibyCqcvmlnS-b4c0yBcGZJ7eJLPPXxoutiEEt_rqGlPf4pSFUjWfmuuME7kegCwQam0Kf7VivC9nAUjKIvxYeBETap8ElXjck5R/s1600/intraid.jpg"
-    },
-    {
-      "id": "058f26f6bfe886d39c6d26b458a708c225ea81d6",
-      "title": "Cyberattaque SAP : ce qu'elle coûte vraiment à l'entreprise",
-      "url": "https://www.journaldunet.com/cybersecurite/1553491-cyberattaque-sap-ce-qu-elle-coute-vraiment-a-l-entreprise/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-10T12:21:16.000Z",
-      "summary": "Une cyberattaque visant un système SAP va bien au-delà d'un simple coût technique de réparation. Elle touche la production, les ventes et la …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/journaldunet.com/50d69d9be29cc3d52a9bfbacc927665e269958f2/_xlarge.jpeg"
     },
     {
       "id": "5109542a8935af68da0a910abe63c29e202796a1",
@@ -954,17 +1020,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://f.hellowork.com/blogdumoderateur/2026/08/openai-astra-surveillance-1200x628.jpeg"
-    },
-    {
-      "id": "79cf76fac186cbd73c27ea3ea11a806cf409658c",
-      "title": "La nouvelle IA d’OpenAI fait peur à son propre créateur : vous n’y avez pas accès sur ChatGPT à cause d’un “seuil critique”",
-      "url": "https://www.presse-citron.net/ia-openai-fait-peur-a-son-createur-chatgpt-seuil-critique/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-10T08:24:56.000Z",
-      "summary": "OpenAI a développé un nouveau modèle d'IA appelé Astra. Mais celui-ci doit encore être confiné, car ses compétences en codage et en cybersécurité ont …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/presse-citron.net/9dd2bd3d2d02acfe46dcdcfee7f3a14b747a6c33/_xlarge.jpeg"
     },
     {
       "id": "8789edb718768073ac535803690340cc7b37e2c3",
@@ -1154,17 +1209,6 @@
       "imageUrl": null
     },
     {
-      "id": "d4227a6e7525e17a88502e2428130688813ec28e",
-      "title": "Rhône : un jeune de 18 ans commandait des armes sur le darknet, un arsenal découvert dans sa chambre",
-      "url": "https://www.lyonmag.com/article/153486/rhone-un-jeune-de-18-ans-commandait-des-armes-sur-le-darknet-un-arsenal-decouvert-dans-sa-chambre?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-09T15:00:00.000Z",
-      "summary": "Un renseignement transmis par les autorités américaines a conduit les gendarmes jusqu’à Saint-Appolinaire, dans l’Ouest rhodanien. Chez un jeune …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.lyonmag.com/media/images/6a780bc5cea95-24294244987-2df2c8ef3a-o.jpg"
-    },
-    {
       "id": "a2c0f4e5ac21299036d2ca48af7bcb754f84e6da",
       "title": "Alcon - 218,395 breached accounts",
       "url": "https://haveibeenpwned.com/Breach/Alcon",
@@ -1302,7 +1346,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-219-01",
       "source": "CISA",
       "publishedAt": "2026-08-07T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-219-01.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-219-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1313,7 +1357,7 @@
       "url": "https://www.cisa.gov/news-events/alerts/2026/08/07/cisa-adds-one-known-exploited-vulnerability-catalog",
       "source": "CISA",
       "publishedAt": "2026-08-07T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA has added one new vulnerability to its &lt;a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/",
+      "summary": "&lt;p&gt;CISA has added one new vulnerability to its &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities (KEV) Ca",
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": null
@@ -1654,7 +1698,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-01",
       "source": "CISA",
       "publishedAt": "2026-08-06T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-218-01.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-218-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1665,7 +1709,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-02",
       "source": "CISA",
       "publishedAt": "2026-08-06T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-218-02.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-218-02.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1676,7 +1720,7 @@
       "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-218-01",
       "source": "CISA",
       "publishedAt": "2026-08-06T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsma-26-218-01.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsma-26-218-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1691,50 +1735,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOLyOOoRbj7XXsr5asbHmKbRetYhjWcAZap4b6VUBQ3ENWpeB46A78vztXFJGUDMDHNskXyUMH6yu9Quv-WLut657FS4Dk4-SICypcAVTLuI7fYUxC7Y4qEUI6A8NMIS-GZ8KkzjRULoNZAPD1TIamWyp-T5vgrjMDQKMD0lmR6pZU8P4VeOwWEo7KxWA/s1600/CRYPTOJS.jpg"
-    },
-    {
-      "id": "2e73bc0ef3ec4777e469026416f080fca0c19386",
-      "title": "Apple iCloud Private Relay Can Expose Real IPs Through WebKit Proxy Bypasses",
-      "url": "https://thehackernews.com/2026/08/webkit-proxy-bypasses-can-expose-real.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-06T11:33:08.000Z",
-      "summary": "Cybersecurity researchers have disclosed a security issue with Apple's iCloud Private Relay tool that can expose a user's real IP address. Introduced with iOS 15, iCloud Private Re",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi53VbynsVNPTCihg9qrqybX7Yu90yM3Tm7KlJnJCHz2_MOUQPyJys1uK6H5QkVqxGekck8qe-pA55tcy19IDYQ4_ndOKasvoaFiPJCI_NJClfHv6G14Ga5P_FPr0zyNijjRMBM-GBlt-XYRqCGAcrZxm9ETsAAu4kPh829ZKABQonHDlx2GuWG9-B-V383/s1600/apple-relay.jpg"
-    },
-    {
-      "id": "a504984aaed42245a7e191601f1255bda95de05e",
-      "title": "AI Recommendation Poisoning: How \"Ask AI\" Buttons Silently Alter LLM Memory",
-      "url": "https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-06T11:30:00.000Z",
-      "summary": "A new class of prompt injection is spreading across commercial websites. It requires no malware, no stolen credentials, and no zero-day exploit. It abuses a standard feature built ",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgERF89TJZsy7Kq1JhEcPKC5ynyCNMv1JAObXj4W415ZbGwE-ZZplLbq5HEiBWi3ULKifDI7Tl440UrQvLFEmngeAHL4o2XfWKxTgb7CEsHmBqBt-w5qePo-BGmlDcu_vJtyfsh1CV5COMXpIUHRiw8WmPeitZAzEu3ugQJ90mDtOhlU0BzTaRDogTHg2Y/s1600/ask-ai.jpg"
-    },
-    {
-      "id": "9a2eda1e7a46aa39b7e212d23d21ff752858fa63",
-      "title": "Attackers Compile khunt Inside Oracle to Turn SQL Injection Into Windows SYSTEM Access",
-      "url": "https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-06T09:19:23.000Z",
-      "summary": "Attackers broke into an organization's Oracle database through a SQL injection flaw in a public-facing web application, then installed a post-exploitation toolkit without writing a",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWGMHYrRkDGf3XV_lOoUbE1UCSjvcN9x-XNpNGpX_f45JqZzd2FrxJ-metvu-U5VyDqH2PGNaY9MiSeShhH-YVN3O4ryN5lh4ICsuXtz0-DuCSAgnywXUifDOf_qZS81AtjRGNQWgs1QnL4Eu54icswla_ZK7qGoZqWDaVzPX46pmcTrvj_ec0yQwrt9k/s1600/oracle-root.jpg"
-    },
-    {
-      "id": "76b287d367b3a894dfb86b93e087ce1be01474bd",
-      "title": "AWS, Google, and Vercel Agent Flaws Let Attackers Trigger Tools Without Running the Model",
-      "url": "https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-06T08:57:30.000Z",
-      "summary": "Security flaws in agent infrastructure from Amazon Web Services (AWS), Google, and Vercel let untrusted or forged instructions reach an agent's tools with no check that a model tur",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNMtOKfZBxSDQ1928IVtFay3f8_6go4rnTY6yFaQYCzAdGt3e6uBkZfZkoFtHbS_cEbTCri3ZNVVO7BbuvoVpjGCLSpdphneotNbiXRT3vciQT6dzPa0K81_ee8Al2rxx7GlT5qTS3_B2MKjCCUcHut1pdIeqaLBRjoD5ZqttMcHxZ5AwKea3eL-wruta7/s1600/agent-sdk.jpg"
     },
     {
       "id": "20f7823c228c99d63ef59597382bc7b0e4e2ac3d",
@@ -1863,7 +1863,7 @@
       "url": "https://www.cisa.gov/news-events/alerts/2026/08/05/cisa-adds-one-known-exploited-vulnerability-catalog",
       "source": "CISA",
       "publishedAt": "2026-08-05T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA has added one new vulnerability to its &lt;a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/",
+      "summary": "&lt;p&gt;CISA has added one new vulnerability to its &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities (KEV) Ca",
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": null
@@ -1984,7 +1984,7 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-216-01",
       "source": "CISA",
       "publishedAt": "2026-08-04T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-216-01.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h2",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-216-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1995,7 +1995,7 @@
       "url": "https://www.cisa.gov/news-events/alerts/2026/08/04/cisa-adds-three-known-exploited-vulnerabilities-catalog",
       "source": "CISA",
       "publishedAt": "2026-08-04T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA has added three new vulnerabilities to its &lt;a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"&gt;Known Exploited Vulnerabilities (KEV) Catalog&",
+      "summary": "&lt;p&gt;CISA has added three new vulnerabilities to its &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities (KEV",
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": null
@@ -2006,7 +2006,7 @@
       "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-216-01",
       "source": "CISA",
       "publishedAt": "2026-08-04T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsma-26-216-01.json\"&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;h",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsma-26-216-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -2171,7 +2171,7 @@
       "url": "https://www.cisa.gov/news-events/alerts/2026/08/03/cisa-adds-one-known-exploited-vulnerability-catalog",
       "source": "CISA",
       "publishedAt": "2026-08-03T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA has added one new vulnerability to its &lt;a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"&gt;Known Exploited Vulnerabilities (KEV) Catalog&lt;/",
+      "summary": "&lt;p&gt;CISA has added one new vulnerability to its &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities (KEV) Ca",
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": null
