@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T13:15:46.358Z",
+  "generatedAt": "2026-08-13T14:59:21.145Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,7 +17,7 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 107
+      "items": 110
     },
     {
       "name": "Exploit-DB",
@@ -76,6 +76,17 @@
   ],
   "items": [
     {
+      "id": "77fec7a956dbe045b0b59f82c5d30699df70d2fb",
+      "title": "Cyberattaque : Près de 80.000 données de contact ciblées sur un prestataire de Santé publique France",
+      "url": "https://www.20minutes.fr/faits_divers/4239071-20260813-cyberattaque-pres-80-000-donnees-contact-ciblees-prestataire-sante-publique-france?at_medium=display&amp%3Bat_campaign=149",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-13T14:06:14.000Z",
+      "summary": "Selon le site de recensement de fuites de données French Breaches, qui a prévenu mardi d’une fuite touchant Santé publique France, « un pirate …",
+      "type": "LEAK",
+      "severity": "Élevée",
+      "imageUrl": "https://img.20mn.fr/b-0zuWAiTOuSmf7B-8LoUik/1444x920_sant-publique-france-union-de-l-in-vs-l-inpes-et-l-eprus-saint-maurice-paris-france-garo-phanie-photo-by-garo-phanie-via-afp"
+    },
+    {
       "id": "1f55668b424b37784fb6ed774c91b8a2e89bbe32",
       "title": "Mots de passe : ces règles que vous croyez encore vraies sont dépassées",
       "url": "https://www.capital.fr/conso/mots-de-passe-les-vieilles-recettes-ne-protegent-plus-voici-les-nouvelles-regles-1529116?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -96,6 +107,17 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/24matins.fr/dbb3f1d8559bc95e0124e9e6c45ab651bd7e5caa/_xlarge.webp"
+    },
+    {
+      "id": "1a1573f6ac2dcca6539a9b32d8ed57a85d23f783",
+      "title": "RingCentral - 1,596,490 breached accounts",
+      "url": "https://haveibeenpwned.com/Breach/RingCentral",
+      "source": "Have I Been Pwned",
+      "publishedAt": "2026-08-13T10:54:40.000Z",
+      "summary": "In July 2026, the cloud-based business communications platform &lt;a href=\"https://x.com/AlvieriD/status/2084262989448749447\" target=\"_blank\" rel=\"noopener\"&gt;RingCentral was the ",
+      "type": "LEAK",
+      "severity": "Élevée",
+      "imageUrl": null
     },
     {
       "id": "8357b9c8e0a93038d4924e15b041fdcfcb2dfe64",
@@ -164,6 +186,39 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_e1WsuZlqC_AfMpdI4wXB0wzIA6nGpPb5ktYmwO5jRhFqH2t56eGghhYAV7he6u0qTqiPacKD-Wf3c1vXxUmBV159KAObOJUTEDGdDafl9B0makdRgyKTUwWHZ5qxLpGbWRg33JJl_0KaY0K0fiWLaV2xghWX4KqUSeaoNgD9Z5ql1Q5VesZQyH-1eO7W/s1600/poc.jpg"
     },
     {
+      "id": "41693b699524d11b4067e0afc6a45cac67a92b6d",
+      "title": "SAP - CVE-2026-58231 | modifié le 13-08-2026",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/sap-cve-2026-58231-2026-08-13",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-13T01:52:08.000Z",
+      "summary": "&lt;p&gt;Une vulnérabilité de type \"autorisation incorrecte\" affecte le composant Data Hub Adapter de SAP Commerce Cloud. Un attaquant non authentifié peut détourner un principe d.",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": null
+    },
+    {
+      "id": "511114532147f90bad7d9379e69411f00771a6db",
+      "title": "Adobe, Inc. - CVE-2026-48362",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/adobe-inc-cve-2026-48362-2026-08-13",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-13T01:51:11.000Z",
+      "summary": "&lt;p&gt;Une vulnérabilité d'injection de commandes système affecte Adobe ColdFusion. Le produit construit tout ou partie d'une commande du système d'exploitation à partir d'une en",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "213e0901be22962df2ee66cdf5a98a31729827e1",
+      "title": "Redhat, Inc - CVE-2026-70398",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/redhat-inc-cve-2026-70398-2026-08-13",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-13T01:50:02.000Z",
+      "summary": "&lt;p&gt;Une vulnérabilité de type intermédiaire non intentionnelle (« confused deputy ») affecte le composant multicloud-integrations de Red Hat Advanced Cluster Management. Un ut",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
       "id": "c3f4ff9b8461d7ca941f4c592f3cec11a99bb558",
       "title": "ArtNexus : une fuite expose le marché international de l’art",
       "url": "https://www.zataz.com/artnexus-une-fuite-expose-le-marche-international-de-lart/",
@@ -195,6 +250,94 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://www.zataz.com/wp-content/uploads/cuba_hotel.jpg"
+    },
+    {
+      "id": "26a3ced209f477486f200117b809d97b187b271d",
+      "title": "Multiples vulnérabilités dans les produits Fortinet (13 août 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1015/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Fortinet. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distan",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "14902f2e3734689e30231455d40c3dd416db6228",
+      "title": "Vulnérabilité dans WordPress (13 août 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1018/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans WordPress. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "641faad32cfd313d840cb4c69dbc5ba467f86258",
+      "title": "Multiples vulnérabilités dans les produits Palo Alto Networks (13 août 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1014/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Palo Alto Networks. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitrair",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "bd003cd81f200d0340d0d3ca106ff72352746339",
+      "title": "Multiples vulnérabilités dans Progress MOVEit WAF (13 août 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1011/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Progress MOVEit WAF. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "058f5d1143027200fd7d726a00d31c4162afdd17",
+      "title": "Vulnérabilité dans les produits Foxit (13 août 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1016/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans les produits Foxit. Elle permet à un attaquant de provoquer une atteinte à l'intégrité des données.",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "8035b613621f40dd774da00f79eac4b8c0e7f543",
+      "title": "Multiples vulnérabilités dans GitLab (13 août 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1013/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans GitLab. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distan",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "a4073a1db5ece2eefa703ea24563333e063a6bf0",
+      "title": "Multiples vulnérabilités dans Wireshark (13 août 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1012/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Wireshark. Elles permettent à un attaquant de provoquer un déni de service.",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "83be20b0d1c175db7eb7ef2110f04aa891eb55da",
+      "title": "Multiples vulnérabilités dans les produits Adobe (13 août 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1017/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Adobe. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance,",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
     },
     {
       "id": "df553720b64ba2fd966c97e5334e8065f41acdd5",
@@ -890,17 +1033,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhS_4KcVdL2QogjCtjg4yqVFuDNgQ9a8SYCzjsxUKME896DBso0Zwpvb8gH9T5gMPOqM2LU-A-7IyKOqKpKiXgLWAdiABf4RrVvAq9nNpDDC2TNppKWt9RKVXmNr2-Z9Y1kIBNVi8fETA6Aj6K2s_gU0Hmc8CKDi1q1wbqD9G9uUP5cPpuwk5h88mfD9I0/s1600/power-plant.jpg"
     },
     {
-      "id": "21ed2651cfc31caee13c5b93b60c51bddc33d161",
-      "title": "Le \"killswitch\" aussi effrayant qu'un rançongiciel aux yeux des entreprises - ZDNET",
-      "url": "https://www.zdnet.fr/actualites/le-killswitch-aussi-effrayant-quun-rancongiciel-aux-yeux-des-entreprises-499679.htm",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-11T06:08:24.000Z",
-      "summary": "Les entreprises européennes redoutent une interruption de services américains presque autant qu'une attaque de rançongiciel, comme le révèle une …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2024/02/Europe20USA.jpg"
-    },
-    {
       "id": "6dc768b1a459171f180e1500cb4e58da8070b13f",
       "title": "BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins",
       "url": "https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html",
@@ -1132,17 +1264,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNv5C82jT_6YlarerdXnoAR_tT3E8xP65ZWuJfpvOKU9baBT5UACUTb88XvDQgQA6RrYuqPK3FstaqwacR9gDjD0qwk3HUYl0wK848phyphenhyphenFuqRrOA1AqdISQaA6tpEqg0n2XJIA22NeNNbhei1bAgcyghnc2qaVfSvh4fd9J1oD4xVi-DQcNSOYWQovyUst/s1600/strom-ransomware.jpg"
     },
     {
-      "id": "5a408e28482db000bfccfeb6fb6ce6a2ab1965dd",
-      "title": "Attention à vous, une cyberattaque compromet les données des clients européens de la Steam Machine et du Steam Controller",
-      "url": "https://www.actugaming.net/attention-a-vous-une-cyberattaque-compromet-les-donnees-des-clients-europeens-de-la-steam-machine-et-du-steam-controller-815825/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-10T16:12:36.000Z",
-      "summary": "No Man’s Sky fête 10 ans de suivi en vidéo et annonce « Cosmos »… sa nouvelle mise à jour pc ps5 xbox series switch ps4 xbox one switch 2 Le studio …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://static.actugaming.net/media/2025/11/Steam_Machine_6-1-889x500.jpg"
-    },
-    {
       "id": "c434c98771dd4828d7fc83c3f0f48a8e5c88899f",
       "title": "⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors",
       "url": "https://thehackernews.com/2026/08/weekly-recap-ai-goes-rogue-metabase-0.html",
@@ -1152,6 +1273,17 @@
       "type": "NEWS",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtXmkUOPD6prrNPMK9N1Rhu2dm3QFGQ2DUTiu3xrj2WWbauZ_IK2HemME36-4WBIqGh01SFOkNJuutFeXLgS_ZMUBFn5ZDzIP5_IeNrwJWDfKcOPQgZl3spOFVS8R84Hbthy6o3sx9IWJ1yRo4FiW5acGYGBrf2nljmx6yvSd55LWRrkX6JhJ9b5bHJX0g/s1600/recaps.jpg"
+    },
+    {
+      "id": "316d64088e84efbc57e546961a3f319810881b22",
+      "title": "Dans \"l'impossibilité technique\" de notifier les utilisateurs: le gestionnaire du fichier national d'identification des chiens, chats et furets (I-CAD) révèle avoir été victime d'une cyberattaque… un an après",
+      "url": "https://www.bfmtv.com/tech/cybersecurite/dans-l-impossibilite-technique-de-notifier-les-utilisateurs-le-gestionnaire-du-fichier-national-d-identification-des-chiens-chats-et-furets-i-cad-revele-avoir-ete-victime-d-une-cyberattaque-un-an-apres_AV-202608100375.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-10T14:37:55.000Z",
+      "summary": "Le gestionnaire de la plateforme permettant d'identifier son animal (chiens, chats et furets), Ingenium Animalis a annoncé avoir été victime d'une …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/bfmtv.com/87ea68540b4b9df94a26b6e25ca5a5cdf43a23f0/_xlarge.jpeg"
     },
     {
       "id": "a3bb5115258fd2e22dc303ecd2a0b33d95d8f189",
@@ -1418,6 +1550,17 @@
       "imageUrl": null
     },
     {
+      "id": "0436a9cd6c65acd6860adad70ba401d3f49b1697",
+      "title": "Hackers et faux agents de sécurité : le scénario exceptionnel qui a fait perdre plus d’un million d’euros à un couple des Yvelines",
+      "url": "https://www.lefigaro.fr/faits-divers/hackers-et-faux-agents-de-securite-le-scenario-exceptionnel-qui-a-fait-perdre-plus-d-un-million-d-euros-a-un-couple-des-yvelines-20260809?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-09T15:27:56.000Z",
+      "summary": "Convaincus d’une fuite de données liée à l’entreprise gérant leur coffre-fort, les victimes ont suivi à la lettre les consignes de leurs …",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://i.f1g.fr/media/cms/1200x630_crop/2026/08/09/58e9c29447da091efd93b9055e182b26af6f9bc19fe2f9d08665b9d787aa9517.jpg"
+    },
+    {
       "id": "d4227a6e7525e17a88502e2428130688813ec28e",
       "title": "Rhône : un jeune de 18 ans commandait des armes sur le darknet, un arsenal découvert dans sa chambre",
       "url": "https://www.lyonmag.com/article/153486/rhone-un-jeune-de-18-ans-commandait-des-armes-sur-le-darknet-un-arsenal-decouvert-dans-sa-chambre?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -1449,17 +1592,6 @@
       "type": "LEAK",
       "severity": "Élevée",
       "imageUrl": null
-    },
-    {
-      "id": "81d5f438b8e9f78445af4b862ccf12273f4488c0",
-      "title": "Le renseignement américain s'inquiète d'une possible attaque d'un membre de l'Otan par la Russie",
-      "url": "https://www.franceinfo.fr/monde/otan/la-russie-pourrait-attaquer-un-membre-de-l-otan-selon-le-renseignement-americain_8139659.html",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-08T09:54:29.000Z",
-      "summary": "Cette possible attaque pourrait aller de la cyberattaque à une incursion terrestre limitée. La probabilité de cette dernière option est jugée faible …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/dc29b78aa99b11861a82b23ea6f6f850204763ba/_xlarge.jpeg"
     },
     {
       "id": "cd3e9109171870bd6c43438918549db8f536c91b",
@@ -1759,45 +1891,12 @@
       "imageUrl": null
     },
     {
-      "id": "9ec3ff76ed6a05891b09de68989baf669bb56783",
-      "title": "Multiples vulnérabilités dans le noyau Linux de Debian (07 août 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0981/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-08-07T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian. Elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à l'intégrité ",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "f4f335e02ff96764f0bf4ae4a43ec3a00b122311",
-      "title": "Multiples vulnérabilités dans Progress Telerik (07 août 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0977/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-08-07T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Progress Telerik. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, u",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
       "id": "e7937f482388e8c46f996200292c4e572043e3ab",
       "title": "Multiples vulnérabilités dans les produits IBM (07 août 2026)",
       "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0986/",
       "source": "CERT-FR",
       "publishedAt": "2026-08-07T00:00:00.000Z",
       "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, u",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "2c7930dfd669f020bf3b9681f97c7af3e4597fe2",
-      "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (07 août 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0982/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-08-07T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian LTS. Elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confi",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1820,28 +1919,6 @@
       "source": "CERT-FR",
       "publishedAt": "2026-08-07T00:00:00.000Z",
       "summary": "De multiples vulnérabilités ont été découvertes dans WordPress. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élév",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "f1e14885ca8b974b5dd469b8dffeaf2a3bf888a1",
-      "title": "Multiples vulnérabilités dans Google Chrome (07 août 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0978/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-08-07T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "e8cc77d2f06597210143905e78fbb64d7a7d96c0",
-      "title": "Vulnérabilité dans Apple macOS (07 août 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0980/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-08-07T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans Apple macOS. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1965,39 +2042,6 @@
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;réflexion Java non sécurisée &lt;/strong&gt;dans &lt;strong&gt;l'IBM SDK et IBM WebSphere Application Server Liberty.&lt;/st",
       "type": "CVE",
       "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "58bcc9c016f088fbbd71b78bfddbb3f72dba95a0",
-      "title": "Multiples vulnérabilités dans KeyCloak (06 août 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0976/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-08-06T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans KeyCloak. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à dist",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "2214af0d8a1dfee7857d131b7bd12402cfba7676",
-      "title": "Multiples vulnérabilités dans les produits Wallix (06 août 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0974/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-08-06T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Wallix. Elles permettent à un attaquant de provoquer une élévation de privilèges et un contournement de la politiq",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "a5a5daad34b8a46ecf54ef62e18dde8125a57339",
-      "title": "Multiples vulnérabilités dans les produits Cisco (06 août 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0975/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-08-06T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance,",
-      "type": "CVE",
-      "severity": "Info",
       "imageUrl": null
     },
     {
@@ -2230,50 +2274,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/spaziocrypto.com/c26f81d0060748db11b76a8eaf6e4ff6c0d0f7d0/_xlarge.webp"
-    },
-    {
-      "id": "0904c977d17b07ff3e76de1343dcf6a6ab9a0ca2",
-      "title": "Wazuh - CVE-2026-67308",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/wazuh-cve-2026-67308-2026-08-03",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-08-03T00:37:21.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans les &lt;strong&gt;workflows GitHub Actions&lt;/strong&gt; utilisés par le projet &lt;strong&gt;Wazuh&lt;/strong&gt;.&lt;/p&gt; &lt;p&gt;",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "4907030a52e9ca1c63c0981f169dfa06e00cae62",
-      "title": "PostgreSQL - CVE-2026-17351",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/postgresql-cve-2026-17351-2026-08-03",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-08-03T00:34:15.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;contournement du garde-fou « transaction en lecture seule »&lt;/strong&gt; dans &lt;strong&gt;pgAdmin 4.&lt;/strong&gt;&lt;/",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "3af2d114d577faa0f335004bfa8a3d60bf806d8b",
-      "title": "Traefik - CVE-2026-67309",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/traefik-cve-2026-67309-2026-08-03",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-08-03T00:26:45.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans &lt;strong&gt;Traefik &lt;/strong&gt;affectant le middleware RewriteTarget du provider Kubernetes Ingress NGINX.&lt;/p&gt; &lt;p&gt;&lt;",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "76de4a205ef915a59a70c484cad0c6ec6956d034",
-      "title": "Axios - CVE-2026-67320",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/axios-cve-2026-67320-2026-08-03",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-08-03T00:19:50.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;pollution de prototype&lt;/strong&gt; dans le client HTTP &lt;strong&gt;axios&lt;/strong&gt; utilisé en environnement &lt;st",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
     }
   ]
 }
