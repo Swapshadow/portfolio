@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T22:42:24.991Z",
+  "generatedAt": "2026-08-13T02:08:21.976Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -76,6 +76,50 @@
   ],
   "items": [
     {
+      "id": "c3f4ff9b8461d7ca941f4c592f3cec11a99bb558",
+      "title": "ArtNexus : une fuite expose le marché international de l’art",
+      "url": "https://www.zataz.com/artnexus-une-fuite-expose-le-marche-international-de-lart/",
+      "source": "Zataz",
+      "publishedAt": "2026-08-13T01:15:21.000Z",
+      "summary": "Une base de données attribuée à ArtNexus, spécialiste international de l'art, aurait exposé des comptes utilisateurs, transactions et coordonnées personnelles.",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://www.zataz.com/wp-content/uploads/art_hack.jpg"
+    },
+    {
+      "id": "895fbc1f5e785ede54d0668c3967777429063c66",
+      "title": "Des accès superadmin exposent 27 sites français",
+      "url": "https://www.zataz.com/des-acces-superadmin-exposent-27-sites-francais/",
+      "source": "Zataz",
+      "publishedAt": "2026-08-13T01:00:43.000Z",
+      "summary": "Un pirate revendique un accès superadmin à 27 sites français et multiplie les publications de bases de données compromises.",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.zataz.com/wp-content/uploads/superadmin_27_leak.jpg"
+    },
+    {
+      "id": "604f907b376003ca0e0ef32a9ceecdbe13be971c",
+      "title": "Hôtelerie : encore un hôtel de luxe piraté ?",
+      "url": "https://www.zataz.com/hotelerie-encore-un-hotel-de-luxe-pirate/",
+      "source": "Zataz",
+      "publishedAt": "2026-08-13T00:25:57.000Z",
+      "summary": "L'hôtellerie de Luxe impactée par une intrusion informatique. Un hacker annonce des milliers de documents clients et salariés.",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.zataz.com/wp-content/uploads/cuba_hotel.jpg"
+    },
+    {
+      "id": "df553720b64ba2fd966c97e5334e8065f41acdd5",
+      "title": "Impots.gouv.fr : un pirate revendique une intrusion",
+      "url": "https://www.zataz.com/impots-gouv-fr-un-pirate-revendique-une-intrusion/",
+      "source": "Zataz",
+      "publishedAt": "2026-08-12T23:33:01.000Z",
+      "summary": "Un pirate revendique plus de 600 000 données exfiltrée d’impots.gouv.fr. Des informations fiscales exploitables pour des fraudes ciblées dans la nature ?",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": "https://www.zataz.com/wp-content/uploads/impots_alerte_hack.jpg"
+    },
+    {
       "id": "fe4367cb2557b988cbf402e50d8ca27296c21005",
       "title": "Taïwan visé par une cyberattaque pilotée par IA ?",
       "url": "https://www.zataz.com/taiwan-vise-par-une-cyberattaque-pilotee-par-ia/",
@@ -109,6 +153,17 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1jrzxrBozKDsDhAGM8SBKcqbTE4M0zWSJqfp709iguQU21GwUzshBdYSvKkicSkfQD1bNsYhROcsx5p5vAT3jyM90H6w6p8imCjtLbHySKnpGKlsQqfSS-BhcdHNuwJKFPZfBiVkh49xDvJbRI-rvfBKePL6CeHYIWOpwvGG0T-ha3x__xznmdsYybs9v/s1600/windows-shell.jpg"
     },
     {
+      "id": "e33089051a286d5a40552ea9319f0bc16f8729df",
+      "title": "Le service anti-démarchage téléphonique Bloctel victime d’un piratage, 3 millions de numéros de téléphone concernés",
+      "url": "https://www.ouest-france.fr/societe/cyberattaque/le-service-anti-demarchage-telephonique-bloctel-victime-dun-piratage-3-millions-de-numeros-de-telephone-concernes-7ff2db8a-965c-11f1-9ee8-a50506a5291a?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-12T15:24:47.000Z",
+      "summary": "La Répression des fraudes a alerté ce mercredi 12 août les consommateurs à la suite d’une fuite de données de la liste d’opposition Bloctel. Si la …",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/ee409ad9bf609414149f6ba6308b1a34efb58184/_xlarge.jpeg"
+    },
+    {
       "id": "af17480cc07f6bb66540021f2363538eff96b405",
       "title": "Pologne : les données de la moitié de la population exposées par une cyberattaque",
       "url": "https://www.lemonde.fr/pixels/article/2026/08/12/pologne-les-donnees-de-la-moitie-de-la-population-exposees-par-une-cyberattaque_6745073_4408996.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -120,17 +175,6 @@
       "imageUrl": "https://img.lemde.fr/2026/06/02/0/0/4318/2879/1440/960/60/0/5fd1150_ftp-1-0c7ebbmz7vyl-2026-06-02t121508z-916788424-rc2nllaqinhg-rtrmadp-3-poland-smartphones.JPG"
     },
     {
-      "id": "c30de9c15acc2101e5ed8445718f01c02c3d5dad",
-      "title": "3 millions de numéros de téléphone concernés Bloctel, chargé de lutter contre les appels indésirables, victime d’un piratage",
-      "url": "https://www.charentelibre.fr/france/3-millions-de-numeros-de-telephone-concernes-bloctel-charge-de-lutter-contre-les-appels-indesirables-victime-d-un-piratage-30231857.php?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-12T14:24:46.000Z",
-      "summary": "La Répression des fraudes a alerté mercredi les consommateurs à la suite d’une fuite de données de la liste d’opposition Bloctel, concernant 3 …",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://media.charentelibre.fr/30231857/1200x-1/pexels-pixabay-267447.jpg"
-    },
-    {
       "id": "e909c43a2f9c0e09de6610ed8324d3263144b2c1",
       "title": "737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One",
       "url": "https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html",
@@ -140,17 +184,6 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjI8aMtoRcWh4THmHEumFrk1X_t6xuq3Z6RsJwVKoyozs0nuRDIc7ffcIFNr5dFuUgTeeKZ0KLdeFoeHRRSFgqcTvK4VaO54Js2FADwBztN4Qlf0L8viPKGCY7lVEHF50K2xOaopCphCPL0ooDKna2E3S_4R4UzOsuh9m8dK4XQMo98_b6GjKqHRi_lm38i/s1600/chrome-plugins.jpg"
-    },
-    {
-      "id": "f68689952ed5d66074b4dbcb87e4e0c1a255de3e",
-      "title": "Le FBI alerte sur des hackers qui cherchent à voler vos photos intimes",
-      "url": "https://siecledigital.fr/2026/08/12/le-fbi-alerte-sur-des-hackers-qui-cherchent-a-voler-vos-photos-intimes/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-12T12:52:42.000Z",
-      "summary": "Devant l'augmentation de vols de photos et de vidéos intimes en ligne, le FBI alerte et émet des recommandations. Des hackers piratent des comptes …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://siecledigital.fr/wp-content/uploads/2026/08/2856640187.jpg"
     },
     {
       "id": "2495280c1f59d67d573d74a833c8dd52ddccc0a0",
@@ -305,17 +338,6 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbIbhajZdWb8FMAsUCcL8bufmUEbpuTCSFvKhvJgecxUZcO3rH1QV1bVNrOJ1W8oqge3sBIMwmHZxXR9l1PyrOGDEuAZZJkwFBmMlFGWwjU5-3CDmUQsz08HzrZ23kg9HSv3X7MrOryUe-T-PZCmpr8csna-nQcAg-b3RSeWiWsHuaBFAiJmjTrVI5WBQM/s1600/sap.jpg"
-    },
-    {
-      "id": "586bf933c8ab3754dfc2cd0da3e9ad3475e76d18",
-      "title": "Fuite de données chez Bloctel : des numéros de téléphone ont été piratés, c'est officiel",
-      "url": "https://www.01net.com/actualites/fuite-donnees-bloctel-numeros-telephone-pirates-officiel.html?amp%3Butm_content=topic%2Ffr-technologie",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-12T07:12:53.000Z",
-      "summary": "Bloctel ferme ses portes… et se fait pirater. Alors que le service contre le démarchage téléphonique cesse ses activités, un pirate est parvenu à …",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/6cb19f54c27e183818cb5111b9388612c0cb0f45/_xlarge.jpeg"
     },
     {
       "id": "952af286cda5333a34bd8b4c5e37745451b17812",
@@ -1011,50 +1033,6 @@
       "imageUrl": "https://www.zataz.com/wp-content/uploads/cloud_infilt.jpg"
     },
     {
-      "id": "f5f50540e571f0290ca0a296895c1969559c753f",
-      "title": "Cars.no : une fuite revendiquée expose 148 288 automobilistes",
-      "url": "https://www.zataz.com/cars-no-une-fuite-revendiquee-expose-148-288-automobilistes/",
-      "source": "Zataz",
-      "publishedAt": "2026-08-10T22:30:11.000Z",
-      "summary": "Cars.no aurait exposé noms, téléphones et plaques, créant un risque élevé de phishing automobile ciblé.",
-      "type": "LEAK",
-      "severity": "Élevée",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/cars_no_leak.jpg"
-    },
-    {
-      "id": "451aea02cfb39e1e2788513641149f5f0a6d89be",
-      "title": "Des kiosques Pokémon exposés par une fuite Firebase",
-      "url": "https://www.zataz.com/des-kiosques-pokemon-exposes-par-une-fuite-firebase/",
-      "source": "Zataz",
-      "publishedAt": "2026-08-10T22:19:10.000Z",
-      "summary": "Une fuite Firebase présumée expose kiosques Pokémon, paiements, code source et accès à 217 machines connectées.",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/PikHack.jpg"
-    },
-    {
-      "id": "ad8de2f52083a21f683bca2f7674af58faf68be1",
-      "title": "Un phishing Ameli qui observe avant de frapper",
-      "url": "https://www.zataz.com/un-phishing-ameli-qui-observe-avant-de-frapper/",
-      "source": "Zataz",
-      "publishedAt": "2026-08-10T22:00:49.000Z",
-      "summary": "Phishing Ameli, cloaking et fausse boutique IA : le clic pourrait servir à identifier et qualifier de futures victimes.",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/phis_ameli_veille.jpg"
-    },
-    {
-      "id": "7a3bed83fa0bd892f2c41722761626d17a8e6e20",
-      "title": "Une fausse lettre AR24 vole les identifiants mail",
-      "url": "https://www.zataz.com/une-fausse-lettre-ar24-vole-les-identifiants-mail/",
-      "source": "Zataz",
-      "publishedAt": "2026-08-10T21:41:06.000Z",
-      "summary": "Nouveau faux mail AR24, CAPTCHA et vol d’identifiants : Tester en live ce phishing et vérifier une notification AR24.",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/ar24_phishing.jpg"
-    },
-    {
       "id": "f886772822042c45eaf61ceddb3a6d3bd860627e",
       "title": "Shipping 10–50× More Code? Watch This Webinar on Securing AI-Speed Development",
       "url": "https://thehackernews.com/2026/08/shipping-1050-more-code-watch-this.html",
@@ -1130,6 +1108,17 @@
       "type": "NEWS",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDgatgimOxtzWBp5R0l6yiMeoFVAeLE-hn-RGePbOlgUMgb3Vj9cEKav3AadjZBcppLfoDs4o-oREZ0OimLYX9WDnIRwebA4P7nVa-wh8KwHW-z7HUALW_bj2B-53kotBjkGw-6QXx-Awo3OxBlhjIwEIuueFEXLOgpT7cPpz5e_MSlD4l_FHgJocN6QA/s1600/north.jpg"
+    },
+    {
+      "id": "137852252a940899c662d71062ffa3c1521da951",
+      "title": "La liste anti-démarchage Bloctel piratée, des millions de numéros se retrouvent dans la nature",
+      "url": "https://siecledigital.fr/2026/08/10/la-liste-anti-demarchage-bloctel-piratee-des-millions-de-numeros-se-retrouvent-dans-la-nature/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-10T13:16:49.000Z",
+      "summary": "Bloctel vient de se faire vider. Un pirate qui se présente sous le pseudo Cybernox affirme avoir aspiré environ 3 millions de lignes depuis la base …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/siecledigital.fr/ea204594d15a625bbb32eb30be7b84d5d1eb6944/_xlarge.jpeg"
     },
     {
       "id": "303ece77870412fb332b29bc198b483283396c2b",
@@ -1559,6 +1548,17 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiL6-qu-cN6glV6XSy1IS7siHKdKPFmzqT3X8TQjGCa0RD33kfIQ8NfEBR5r8dbQvj1OS8L6T083igxfS1VO98xlg7MHIMysbfR_cVpdmPMcYibuMwDZ6SssIi3iryUznGL14zUByy7oRrTJe0AjgGMNti_Rcqezh7dtfyU31vyo-zft3fvR56SCsAfeHrm/s1600/vishing.jpg"
+    },
+    {
+      "id": "277984a30a792aed16e25c244b97d4146f6bd22c",
+      "title": "La France se prépare à un black-out électrique géant en 2027, pour \"tester la capacité de réponse du pays\"",
+      "url": "https://www.lesnumeriques.com/societe-numerique/la-france-se-prepare-a-un-black-out-electrique-geant-en-2027-pour-tester-la-capacite-de-reponse-du-pays-n260204.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-07T14:01:00.000Z",
+      "summary": "Que se passerait-il si le réseau électrique français s'effondrait d'un coup ? Le gouvernement a décidé de le simuler en 2027, avec Enedis, RTE et …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://cdn.lesnumeriques.com/optim/news/26/260204/10271145-la-france-se-prepare-a-un-black-out-electrique-geant-en-2027-pour-tester-la-capacite-de-reponse-du-pays__1200_678__0-0-5959-3128.jpg"
     },
     {
       "id": "bc74bc7cad1b68fd7c4216a04d3ebb077f3e9680",
