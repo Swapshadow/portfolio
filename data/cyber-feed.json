@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T08:31:00.799Z",
+  "generatedAt": "2026-08-15T10:24:41.501Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -46,8 +46,9 @@
     {
       "name": "Cybercriminalité FR",
       "url": "https://flipboard.com/topic/fr-cybercriminalit%C3%A9.rss",
-      "status": "ok",
-      "items": 30
+      "status": "error",
+      "items": 0,
+      "error": "fetch failed"
     },
     {
       "name": "Cryptographie FR",
@@ -76,26 +77,15 @@
   ],
   "items": [
     {
-      "id": "d1fcf17157eadcf07252f1e6744ce1173a6c0320",
-      "title": "Ce botnet récalcitrant redémarre votre appareil dès que vous essayez de le tuer",
-      "url": "https://www.01net.com/actualites/botnet-recalcitrant-redemarre-appareil-que-vous-essayez-tuer.html?amp%3Butm_content=topic%2Ffr-technologie",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-15T07:01:25.000Z",
-      "summary": "Tengu, un nouveau botnet dérivé de Mirai, fait des ravages sur les appareils Linux. Repéré cette année grâce à un système d’intelligence …",
+      "id": "409e4b1a692193f6c4e0ed068538a397d004328e",
+      "title": "3 cyberattaques ont fait plier cette protection réputée inviolable contre le phishing",
+      "url": "https://www.01net.com/actualites/3-cyberattaques-ont-fait-plier-cette-protection-reputee-inviolable-contre-le-phishing.html?amp%3Butm_content=topic%2Ffr-cryptographie",
+      "source": "Cryptographie FR",
+      "publishedAt": "2026-08-15T08:00:57.000Z",
+      "summary": "Présentées comme le remède définitif à l’hameçonnage, les clés d’accès viennent d’encaisser trois travaux de recherche en une semaine. La …",
       "type": "NEWS",
       "severity": "Élevée",
-      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/0a5303f8bfb6c12a9369b3987d82b70f7bc5d852/_large.jpeg"
-    },
-    {
-      "id": "c0c9b4326328d2f6e45bef04019db764a6e7cf8c",
-      "title": "Bloctel piraté : 3 millions de numéros de téléphone dérobés juste après sa fermeture",
-      "url": "https://android-mt.ouest-france.fr/news/bloctel-pirate-3-millions-de-numeros-de-telephone-derobes-juste-apres-sa-fermeture/211034/?amp%3Butm_content=topic%2Ffr-technologie",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-15T06:12:22.000Z",
-      "summary": "Une base de données visée au pire moment La liste Bloctel venait à peine de tirer sa révérence. Ce dispositif permettant aux particuliers de refuser …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/8f0912091f87f2a24e7157b0e4b5164572050e99/_xlarge.jpeg"
+      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/02148bd57696bb45c5a9ec52e754565e9b287d47/_xlarge.jpeg"
     },
     {
       "id": "8e17d58c751a5839ee01d77c585a2b5942605adc",
@@ -107,127 +97,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/a6df253ed89df66a1a0945c7134e7d1212c20254/_xlarge.png"
-    },
-    {
-      "id": "812b5cb49eeddb52e5ddb6d9bc7c49bfe3c8a708",
-      "title": "Cyberattaque « autonome » d'Anthropic et d'Open AI : « Imagine-t-on un tel laxisme dans un laboratoire de biologie travaillant sur les virus ? »",
-      "url": "https://www.lesechos.fr/idees-debats/cercle/cyberattaque-autonome-danthropic-et-dopen-ai-imagine-t-on-un-tel-laxisme-dans-un-laboratoire-de-biologie-travaillant-sur-les-virus-2247137?amp%3Butm_content=topic%2Ffr-sciences",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-14T21:13:46.000Z",
-      "summary": "Les modèles d'IA d'Anthropic, claude, mythos et ceux d'Open AI ont montré des comportements inattendus en exploitant des accès Internet non …",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": "https://media.lesechos.com/api/v1/images/view/6a7f2eab91cb748dc40ae5a1/1280x720/02002325444327-web-tete.jpg"
-    },
-    {
-      "id": "19084d37057e0380e9ae61bdf6c12f03b45bd9bb",
-      "title": "Plateforme des impôts piratée: 678.000 personnes concernées par la cyberattaque",
-      "url": "https://www.bfmtv.com/tech/cybersecurite/video-plateforme-des-impots-piratee-678-000-personnes-concernees-par-la-cyberattaque_VN-202608140484.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-14T18:23:34.000Z",
-      "summary": "Poursuivant ses investigations, la Direction générale des Finances publiques a révélé 678.000 comptes étaient concernés par la cyberattaque contre la …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/bfmtv.com/01ade20e0d3d749eed4be33deffb73791d5f26ee/_xlarge.jpeg"
-    },
-    {
-      "id": "8e72bc35e1d9ad845dc750788aa4fdb66451588d",
-      "title": "Piratage : l'État incapable de protéger nos données ? | TF1 Info",
-      "url": "https://www.tf1info.fr/societe/videos/video-piratage-l-etat-incapable-de-proteger-nos-donnees-29067-2458561.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-14T17:57:52.000Z",
-      "summary": "Le logiciel Bloctel, mis en place par le gouvernement pour lutter contre le démarchage téléphonique, était lui aussi victime d'une cyberattaque. …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://photos.tf1info.fr/images/1280/720/piratage-l-etat-incapable-de-proteger-nos-donnees-4919c9-0@1x.jpeg?overlayImage=bG9nby10ZjFpbmZvLWRlZmF1bHQucG5n&amp%3BoverlayWidth=18&amp%3BoverlayGravity=northwest&amp%3Bs=78c802"
-    },
-    {
-      "id": "9802a62092f0644d7e21ae4d2ca61ac8cb009e12",
-      "title": "Après le piratage du site des impôts, comment reconnaître un mail de piratage ?",
-      "url": "https://www.capital.fr/economie-politique/apres-le-piratage-du-site-des-impots-comment-reconnaitre-un-mail-de-piratage-1529289?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-14T17:33:41.000Z",
-      "summary": "Le ministère de l’Economie et des Finances a confirmé, jeudi 13 août, une cyberattaque d’ampleur visant la Direction générale des Finances publiques …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/capital.fr/a6bfa8b921c3fd390c5dcd5b51031f9776bb37bf/_xlarge.jpeg"
-    },
-    {
-      "id": "2dc4cbfdda334d81b480e9f6df394e901ba0f31e",
-      "title": "Piratage du fisc en France: 678 000 usagers concernés, confirment les Finances publiques",
-      "url": "https://www.rfi.fr/fr/france/20260814-piratage-du-fisc-en-france-des-centaines-de-milliers-d-usagers-concern%C3%A9s-selon-les-finances-publiques?amp%3Butm_content=topic%2Ffr-actualit%C3%A9s",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-14T15:41:11.000Z",
-      "summary": "En France, à la suite du piratage de sa base de données à la fin du mois de juin, la Direction générale des finances publiques affirme, vendredi 14 août, que « quelques centaines d",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/rfi.fr/18f2aabb5ddb59dd77199a4c0c48d68d2d76fb9b/_xlarge.jpeg"
-    },
-    {
-      "id": "536463599ba13612ce23745c41fc14fbb249d796",
-      "title": "Cyberattaque de la plateforme des impôts: quelles données ont été dérobées?",
-      "url": "https://podmust.com/episode/?podcast=la-question-info&amp%3Bepis=Q3liZXJhdHRhcXVlIGRlIGxhIHBsYXRlZm9ybWUgZGVzIGltcMO0dHM6IHF1ZWxsZXMgZG9ubsOpZXMgb250IMOpdMOpIGTDqXJvYsOpZXM%2F",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-14T15:28:44.000Z",
-      "summary": "Un épisode du podcast La question info.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://image.simplecastcdn.com/images/5ceeb011-b263-4734-85a4-e574dbf3a850/2db4bfa7-09e5-4c77-9012-b9bda8d6cde2/3000x3000/la-question-info-100.jpg?aid=rss_feed"
-    },
-    {
-      "id": "d303ec041e8635fa35ba686ac6a17dda163f9849",
-      "title": "Berlin veut autoriser ses services de renseignement à mener des actions préventives contre les menaces «hybrides» - Zone Militaire",
-      "url": "https://www.opex360.com/2026/08/14/berlin-veut-autoriser-ses-services-de-renseignement-a-mener-des-actions-preventives-contre-les-menaces-hybrides/?amp%3Butm_content=other",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-14T15:09:49.000Z",
-      "summary": "Le 4 août, un drone artisanal emportant un mélange de 800 grammes de puissants explosifs [Semtex et PETN] a été retrouvé près d’un avion gros porteur …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.opex360.com/wp-content/uploads/bnd-20260814.jpg"
-    },
-    {
-      "id": "02f287d1bed6823080bc753cb4c315fe1a8288f7",
-      "title": "Un Boeing 737 peut être trompé : ce dispositif à moins de 100 € peut falsifier des données cruciales",
-      "url": "https://www.futura-sciences.com/tech/actualites/piratage-boeing-737-peut-etre-trompe-ce-dispositif-moins-100-peut-falsifier-donnees-cruciales-137011/",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-14T15:01:24.000Z",
-      "summary": "Pirater un avion de ligne et en prendre le contrôle, c'est le genre d'annonce que l'on peut voir circuler sur les médias depuis une quinzaine …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/futura-sciences.com/58c23bc925d3654c23bf6a43a0c8c8a5e0e91f53/_xlarge.jpeg"
-    },
-    {
-      "id": "a0553738de50177b704b720a6db8ac89721291db",
-      "title": "Cyberattaque des impôts : comment savoir si vous faites partie des centaines de milliers de victimes du piratage ?",
-      "url": "https://actu.fr/societe/cyberattaque-des-impots-comment-savoir-si-vous-faites-partie-des-centaines-de-milliers-de-victimes-du-piratage_64666102.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-14T14:17:52.000Z",
-      "summary": "Fin juin, le système d’information du fisc a subi une cyberattaque ayant entraîné \"la consultation et l’extraction de données concernant des …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://static.actu.fr/uploads/2025/01/5aed573fc3a063eed573fc3a0e9fd5v.jpg"
-    },
-    {
-      "id": "42ed997f9fddde539a38b7ad96eef2710e4ebcae",
-      "title": "iPhone, iPad, Mac : Apple alerte des utilisateurs ciblés par des logiciels espions",
-      "url": "https://www.ouest-france.fr/high-tech/apple/iphone-ipad-mac-apple-alerte-des-utilisateurs-cibles-par-des-logiciels-espions-6240a7d4-97e7-11f1-9625-68166edf4646?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-14T13:57:17.000Z",
-      "summary": "Apple a envoyé une notification de sécurité à des utilisateurs d’iPhone, d’iPad et de Mac dans 110 pays, les avertissant qu’ils sont potentiellement …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/d8f7ea2f3fc6aa40de36348f8cfe01b1edf7d9aa/_xlarge.jpeg"
-    },
-    {
-      "id": "a64a8ec29b53ae5042deab2f771e2aa22694fa27",
-      "title": "Des comptes Google Workspace ont été détournés pour des campagnes de scam",
-      "url": "https://www.clubic.com/actualite-625207-des-comptes-google-workspace-ont-ete-detournes-pour-des-campagnes-de-scam.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-14T12:08:00.000Z",
-      "summary": "Des cybercriminels exploitent des comptes Google Workspace piratés pour envoyer des emails de phishing depuis des domaines légitimes, une méthode qui …",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/8c33aeccd823129803f4e947d410b9cf753d9027/_xlarge.jpeg"
     },
     {
       "id": "1ea992ec641b5f24748129feddf3a9098fcaa10d",
@@ -252,39 +121,6 @@
       "imageUrl": "https://krebsonsecurity.com/wp-content/uploads/2026/08/decryptads-ESPN.png"
     },
     {
-      "id": "dbf17851a19a4733362169523d2fcc435b8e54ca",
-      "title": "Piratage du fisc : l’Etat à nouveau victime d’une fuite de données",
-      "url": "https://www.lemonde.fr/pixels/article/2026/08/14/piratage-du-fisc-l-etat-a-nouveau-victime-d-une-fuite-de-donnees_6746246_4408996.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-14T11:21:00.000Z",
-      "summary": "Bercy a reconnu, jeudi 13 août, avoir été la cible d’un nouveau piratage. L’ampleur de la compromission est encore floue, mais elle pourrait …",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://img.lemde.fr/2026/08/14/1/0/7488/4992/1440/960/60/0/c720349_ftp-1-oip4ufjplinf-5836719-01-06.jpg"
-    },
-    {
-      "id": "254e0196560ca2207509c620af9411659506ac03",
-      "title": "Feu toujours pas fixé en Ille-et-Vilaine, incendie dans les Landes, le fisc touché par une cyberattaque : le point à la mi-journée",
-      "url": "https://www.letelegramme.fr/monde/feu-toujours-pas-fixe-en-ille-et-vilaine-incendie-dans-les-landes-le-fisc-touche-par-une-cyberattaque-le-point-a-la-mi-journee-7100035.php?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-14T11:00:00.000Z",
-      "summary": "Incendie toujours pas fixé dans le sud de l’Ille-et-Vilaine, feu particulièrement virulent dans les Landes, système d’information du fisc touché par …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/letelegramme.fr/707c287895b4c494a110895294663d1ffc229e36/_xlarge.jpeg"
-    },
-    {
-      "id": "1b9ce975edfb067d4c77655a5766a0eaf0b8504f",
-      "title": "Les bons réflexes à avoir en cas de fuite de données",
-      "url": "https://www.lemonde.fr/pixels/article/2026/08/14/les-bons-reflexes-a-avoir-en-cas-de-fuite-de-donnees_6691437_4408997.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-14T10:33:02.000Z",
-      "summary": "« Données personnelles, la grande fuite » (4/9). Impossible d’empêcher les fuites lorsque l’on confie ses données à des administrations ou à des …",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://img.lemde.fr/2026/05/08/0/0/3000/2000/1440/960/60/0/fe435cc_upload-1-e7ffypc27jla-04-pedago.jpg"
-    },
-    {
       "id": "501c9f5797f3403ea1cb8b78845c3f366b253e3b",
       "title": "EVA visée par une nouvelle fuite de données, le pirate génére 1 million d&#8217;euros de cartes cadeaux !",
       "url": "https://www.zataz.com/eva-visee-par-une-nouvelle-fuite-de-donnees/",
@@ -296,50 +132,6 @@
       "imageUrl": "https://www.zataz.com/wp-content/uploads/gift_hack_card.jpg"
     },
     {
-      "id": "e4000afdcf5e7b71d0a0864fa6bcd3798b8ecc97",
-      "title": "Face au piratage, Trump veut son équipe de corsaires et légalise les cyberattaques menées par des sociétés privées",
-      "url": "https://www.clubic.com/actualite-625279-face-au-piratage-trump-legalise-pour-la-premiere-fois-les-cyberattaques-menees-par-des-entreprises-privees.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-14T08:28:00.000Z",
-      "summary": "Donald Trump a signé un mémorandum qui autorise des entreprises privées américaines à mener des cyberattaques contre des groupes criminels étrangers, …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/dc9199a629ee1002d1cb61cb3b7efe681d8f7d1f/_xlarge.jpeg"
-    },
-    {
-      "id": "053700fc5fc64d9da54f8b1414433b0b9a6a02fb",
-      "title": "Alerte rouge sur l'iPhone : Apple prévient des centaines d'utilisateurs d'une opération espionnage",
-      "url": "https://www.01net.com/actualites/alerte-rouge-sur-liphone-apple-previent-des-centaines-dutilisateurs-dune-operation-espionnage.html?amp%3Butm_content=topic%2Ffr-technologie",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-14T06:26:38.000Z",
-      "summary": "Apple a de nouveau alerté ses utilisateurs d’iPhone, d’iPad et de Mac d’une cyberattaque sophistiquée. Une nouvelle salve de notifications urgentes a …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/7dd7ba24c3b737cf23807e59bbadde8aac3d8094/_xlarge.jpeg"
-    },
-    {
-      "id": "f95d7f49864982a4c54010b48407ae960c00f839",
-      "title": "Donald Trump autorise des entreprises privées à mener des cyberattaques pour le gouvernement",
-      "url": "https://www.lesnumeriques.com/societe-numerique/donald-trump-autorise-des-entreprises-privees-a-mener-des-cyberattaques-pour-le-gouvernement-n260411.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-14T06:00:00.000Z",
-      "summary": "Donald Trump autorise désormais les entreprises privées à mener des cyberattaques pour le compte de l'État. C'est le 12 août qu'un mémorandum a …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://cdn.lesnumeriques.com/optim/news/26/260411/19929fe0-donald-trump-autorise-des-entreprises-privees-a-mener-des-cyberattaques-pour-le-gouvernement__1200_678__468-645-5268-3165.jpg"
-    },
-    {
-      "id": "a6694939d1fa497725a5cfc434815f8edb950889",
-      "title": "Système d'information du fisc piraté : \"C'est le révélateur d'une insuffisance d'investissements\", selon un syndicaliste",
-      "url": "https://www.radiofrance.fr/franceinter/podcasts/l-info-de-france-inter/systeme-d-information-du-fisc-pirate-c-est-le-revelateur-d-une-insuffisance-d-investissements-selon-un-syndicaliste-7478590?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-14T05:37:02.000Z",
-      "summary": "Le système d'information du fisc a été victime fin juin d'un \"accès illégitime\", a annoncé, jeudi, Bercy dans un communiqué. Pour Olivier Brunelle, …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/radiofrance.fr/29ef26f4454c32a563eb8d66a350e6512a1ebf9c/_xlarge.webp"
-    },
-    {
       "id": "bfa17f6c84920a51badd23e9568dfe6c74e27ee0",
       "title": "Palo Alto Networks - CVE-2026-0299 | modifié le 14-08-2026",
       "url": "https://cyberveille.esante.gouv.fr/alertes/palo-alto-networks-cve-2026-0299-2026-08-14",
@@ -349,17 +141,6 @@
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": null
-    },
-    {
-      "id": "c4d51b1eda1b99e6efa46c712f9aa6e64ef251e9",
-      "title": "Thaïlande : nouvelles saisies liées à un réseau d’escrocs au Cambodge",
-      "url": "https://toutelathailande.fr/thailande-nouvelles-saisies-liees-a-un-reseau-descrocs-au-cambodge/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-14T01:16:40.000Z",
-      "summary": "La Thaïlande va confisquer 115 millions de bahts supplémentaires d’avoirs liés à un vaste réseau de cyberescroqueries…",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/toutelathailande.fr/9b9273e387ef02f97f117027a1652eec72e4e9b2/_xlarge.webp"
     },
     {
       "id": "e9e201759feb2e6307e23018648fa75d091b3587",
@@ -582,17 +363,6 @@
       "imageUrl": "https://www.zataz.com/wp-content/uploads/cl0p_50.jpg"
     },
     {
-      "id": "31a105fbef11b15b6cce986c44a3a4f9a2ae477f",
-      "title": "Un \"acteur malveillant\" a piraté le fisc fin juin, près de 680 000 personnes seraient concernées",
-      "url": "https://www.france24.com/fr/france/20260813-acteur-malveillant-pirat%C3%A9-fisc-fin-juin-pr%C3%A8s-de-680-000-personnes-seraient-concern%C3%A9es?amp%3Butm_content=topic%2Ffr-actualit%C3%A9s",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-13T19:58:36.000Z",
-      "summary": "Le système d'information du fisc a été piraté fin juin, a annoncé jeudi le ministère français de l'Économie et des Finances. Selon French Breaches, un site spécialisé dans les cybe",
-      "type": "LEAK",
-      "severity": "Élevée",
-      "imageUrl": "https://s.france24.com/media/display/e437f1be-9749-11f1-a34a-005056a97e36/w:1280/p:16x9/2026-08-11T170845Z-1402842411-RC2EWMAVMB22-RTRMADP-3-FRANCE-ECONOMY.jpg"
-    },
-    {
       "id": "dcf05ad3703a7ec4203fb956c051044c57d961f1",
       "title": "Fisc : un accès illégitime confirmé a exposé des données",
       "url": "https://www.zataz.com/fisc-un-acces-illegitime-confirme-a-expose-des-donnees/",
@@ -615,17 +385,6 @@
       "imageUrl": "https://www.zataz.com/wp-content/uploads/cl0p_shell_philips.jpg"
     },
     {
-      "id": "ae67c450d5297b690b98576ab962aeb6fffc2250",
-      "title": "Impôts : le site de Bercy piraté, les données de plusieurs centaines de milliers de contribuables ont pu être extraites",
-      "url": "https://www.lesechos.fr/politique-societe/gouvernement/impots-le-site-de-bercy-pirate-les-donnees-de-contribuables-ont-pu-etre-extraites-2247021?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-13T18:05:00.000Z",
-      "summary": "Un hacker s'est introduit dans le système d'information du fisc, a annoncé Bercy jeudi soir, et a pu consulter les données de particuliers et de …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://media.lesechos.com/api/v1/images/view/6a7e057f9a47c073090c0c84/1280x720/02002465743902-web-tete.jpg"
-    },
-    {
       "id": "0ee5ab94575d10e08dafc688be86f716b19c5101",
       "title": "ZATAZ FAIT SON GRAND MÉNAGE D’ÉTÉ : LES OUTILS CYBER FONT PEAU NEUVE",
       "url": "https://www.zataz.com/zataz-fait-son-grand-menage-dete-les-outils-cyber-font-peau-neuve/",
@@ -637,17 +396,6 @@
       "imageUrl": "https://www.zataz.com/wp-content/uploads/42_outil.jpg"
     },
     {
-      "id": "d3e0edfe05269cccd2879190c58d9f544d2fb9c8",
-      "title": "Fuite de données aux impôts : le fisc confirme une cyberattaque, c'est la 2e violation de l'année",
-      "url": "https://www.01net.com/actualites/fuite-de-donnees-des-impots-le-fisc-confirme-une-cyberattaque-cest-la-2e-violation-de-lannee.html?amp%3Butm_content=topic%2Ffr-technologie",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-13T17:33:32.000Z",
-      "summary": "La Direction générale des Finances publiques (DGFiP) confirme avoir subi une cyberattaque. Des données ont été compromises et dérobées par un pirate …",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/ab59bb89193e91e0f8c140cdd188cf99c6a5aa5f/_xlarge.jpeg"
-    },
-    {
       "id": "cdc7ed92c262e7dbd1f382ff65b519aec2218e87",
       "title": "ZATAZ vérifiera en direct si votre mail est exposé",
       "url": "https://www.zataz.com/zataz-verifiera-en-direct-si-votre-mail-est-expose/",
@@ -657,28 +405,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://www.zataz.com/wp-content/uploads/shasha_du_demon.jpg"
-    },
-    {
-      "id": "77e6ec8e7cec000a252673f567389b353b3d12ed",
-      "title": "Trezor avertit 14 000 clients après une violation de données chez son partenaire de traitement",
-      "url": "https://www.coindesk.com/fr/tech/2026/08/13/trezor-warns-14-000-users-after-fulfilment-partner-suffers-data-breach?amp%3Butm_content=CoinDesk%2Fmagazine%2FCOINDESK+Fran%C3%A7ais",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-13T17:10:57.000Z",
-      "summary": "L'incident marque la première fois que les adresses de livraison des clients de Trezor ont été exposées.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/71a0ed456470eda07e70c0505f537f85cdd80d1e-1280x853.jpg?auto=format&amp%3Bfit=crop&amp%3Bcrop=focalpoint&amp%3Bw=1920&amp%3Bh=1080&amp%3Bq=75"
-    },
-    {
-      "id": "1223d3881afec033398ab2904a2a5c167d7607ab",
-      "title": "La plateforme des impôts victime d'une cyberattaque, des données sensibles fiscales dans la nature",
-      "url": "https://www.bfmtv.com/tech/cybersecurite/la-plateforme-des-impots-victime-d-une-cyberattaque-des-donnees-sensibles-fiscales-dans-la-nature_AN-202608130484.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-13T17:09:38.000Z",
-      "summary": "Moins de 24 heures après la revendication d'une cyberattaque sur la plateforme des impôts sur des forums spécialisés, le ministère de l'Économie …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/bfmtv.com/dac6dd68acb0e541e5c6cc068a95d928dc082552/_xlarge.jpeg"
     },
     {
       "id": "3986f862d52ca8ab7b49044ec1b96fa3b7313f5d",
@@ -701,39 +427,6 @@
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": "https://www.zataz.com/wp-content/uploads/VMware_vCenter_hack.jpg"
-    },
-    {
-      "id": "74a015e565fe189dc9b2594e0f8964c375bd40cf",
-      "title": "Pour la première fois, des IA liées à la Chine ont mené une cyberattaque massive contre un gouvernement, sans humain aux commandes",
-      "url": "https://www.lefigaro.fr/secteur/high-tech/pour-la-premiere-fois-des-ia-liees-a-la-chine-ont-mene-une-cyberattaque-massive-contre-un-gouvernement-sans-humain-aux-commandes-20260813?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-13T15:00:00.000Z",
-      "summary": "Pour la première fois, des IA liées à la Chine ont mené une cyberattaque massive contre un gouvernement, sans humain aux commandes DÉCRYPTAGE - Selon …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://i.f1g.fr/media/cms/1200x630_crop/2026/08/12/996f88a79dfe420bec105a452fe44dcd7bea9b246d59276b79b7271665ff262e.jpg"
-    },
-    {
-      "id": "a4fe9bc2d61566fcc9970a7021655525dd3bb4ce",
-      "title": "Escroquerie à la fausse convocation de gendarmerie… Le ministère de l’Intérieur explique comment éviter le piège",
-      "url": "https://www.20minutes.fr/faits_divers/4239064-20260813-escroquerie-fausse-convocation-gendarmerie-ministere-interieur-explique-comment-eviter-piege?at_medium=display&amp%3Bat_campaign=149",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-13T13:43:37.000Z",
-      "summary": "La prudence est plus que jamais de mise. Une escroquerie par mail a récemment fait son grand retour, a alerté le ministère de l’Intérieur ce mardi. …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://img.20mn.fr/YIei8AeoSQG2xfBofceAeik/1444x920_a-la-gendarmerie-d-irigny-pres-de-lyon-une-camera-scanne-le-visage-du-public-pour-evaluer-leur-etat-d-esprit-a-l-entree-de-la-caserne"
-    },
-    {
-      "id": "1f55668b424b37784fb6ed774c91b8a2e89bbe32",
-      "title": "Mots de passe : ces règles que vous croyez encore vraies sont dépassées",
-      "url": "https://www.capital.fr/conso/mots-de-passe-les-vieilles-recettes-ne-protegent-plus-voici-les-nouvelles-regles-1529116?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-13T12:02:00.000Z",
-      "summary": "Changer son mot de passe tous les trois mois, miser sur les caractères spéciaux ou recycler le même code : ces réflexes sont dépassés. Les …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/capital.fr/b376aaffc6a3ac2cc846db1c63b3771af9e1af55/_xlarge.jpeg"
     },
     {
       "id": "5432ca9cd1789577f43bf0d08c143b3848524382",
@@ -899,17 +592,6 @@
       "type": "LEAK",
       "severity": "Élevée",
       "imageUrl": null
-    },
-    {
-      "id": "ac7470eeb1a951336c2e94c9d0712d9dd6d6005a",
-      "title": "Fuite des impôts : les données de presque 700 000 personnes dans la nature (revenus fiscaux, taux d’imposition, adresse…)",
-      "url": "https://www.lesnumeriques.com/societe-numerique/fuite-des-impots-les-donnees-de-presque-700-000-personnes-dans-la-nature-revenus-fiscaux-taux-d-imposition-adresse-n260369.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-13T10:00:00.000Z",
-      "summary": "Les données fiscales de plus de 600 000 contribuables sont désormais en vente, suite à une intrusion datant de juin dernier au sein des services des …",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://cdn.lesnumeriques.com/optim/news/26/260369/6380346b-fuite-des-impots-les-donnees-de-presque-700-000-personnes-dans-la-nature-revenus-fiscaux-taux-d-imposition-adresse__1200_678__0-342-5268-3107.jpg"
     },
     {
       "id": "4875465a78a1df0ca6b1c8ca51068edfed26bbb1",
@@ -2274,6 +1956,325 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://siecledigital.fr/wp-content/uploads/2026/08/5773174603.jpg"
+    },
+    {
+      "id": "1f36d1d8b3304988bd0406e3ca78b41dabbf9773",
+      "title": "Les nombres de Sophie Germain : du théorème de Fermat à la cryptographie du 20e siècle",
+      "url": "https://www.radiofrance.fr/franceculture/podcasts/avoir-raison-avec/les-nombres-de-sophie-germain-du-theoreme-de-fermat-a-la-cryptographie-du-20e-siecle-9300201?amp%3Butm_content=topic%2Ffr-cryptographie",
+      "source": "Cryptographie FR",
+      "publishedAt": "2026-08-04T11:00:00.000Z",
+      "summary": "Sophie Germain s'est emparée de la conjecture de Fermat. Ces travaux théoriques restés confidentiels durant plus d’un siècle suscitent un intérêt …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/radiofrance.fr/6e4aaf5d0743c898281a2b1d4ffc44af5a2d1c41/_xlarge.webp"
+    },
+    {
+      "id": "2c0621c7434b01dad774f41a4b6cd6bd956f3bdb",
+      "title": "Les passkeys de Chrome peuvent être détournées par un malware déjà installé",
+      "url": "https://android-mt.ouest-france.fr/services/navigateurs/chrome/les-passkeys-de-chrome-peuvent-etre-detournees-par-un-malware-deja-installe/210112/?amp%3Butm_content=topic%2Ffr-cryptographie",
+      "source": "Cryptographie FR",
+      "publishedAt": "2026-08-04T05:25:38.000Z",
+      "summary": "Un maillon faible dans la promesse du sans mot de passe Les passkeys devaient enterrer les mots de passe classiques en s’appuyant sur la cryptographie …",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/a87c4345e0514f3c85f7333770de720b5de5fca4/_xlarge.jpeg"
+    },
+    {
+      "id": "53b2ae05b0d6c2702fe9f19556c37978f535f25c",
+      "title": "Samba - CVE-2026-58222",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/samba-cve-2026-58222-2026-08-04",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-04T00:29:56.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité &lt;strong&gt;d'injection LDAP couplée à un défaut de contrôle d'autorisation&lt;/strong&gt; affectant &lt;strong&gt;Samba &lt;/strong&gt;Act",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "251c6638d80391f09282b1b02629ebbabf9522d9",
+      "title": "OpenEMR - CVE-2026-39932",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/openemr-cve-2026-39932-2026-08-04",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-04T00:25:24.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité &lt;strong&gt;d'exécution de code à distance&lt;/strong&gt; affectant le composant de gestion des catégories de documents d'&lt;strong&gt;Ope",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "be4264f4b216f71ee26671fc30d78f7bc54b3d5f",
+      "title": "Check Point - CVE-2026-18574",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/check-point-cve-2026-18574-2026-08-04",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-04T00:19:26.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;contournement de l'authentification&lt;/strong&gt; affectant les mécanismes d'accès aux services d'administration de &lt;str",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "2c04d2bf2e623206f1774dee56b4a0c6f3e5e157",
+      "title": "Microsoft - CVE-2026-62870",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/microsoft-cve-2026-62870-2026-08-04",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-04T00:13:19.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;corruption mémoire de type Use After Free&lt;/strong&gt; dans &lt;strong&gt;Microsoft Excel&lt;/strong&gt;.&lt;/p&gt; &lt;p&",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "be95def412c2ebfc25c9feca03c789248dccc272",
+      "title": "Zyxel - CVE-2026-14818",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/zyxel-cve-2026-14818-2026-08-04",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-04T00:04:31.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;traversée de répertoires&lt;/strong&gt; affectant la commande CLI utilisée pour exécuter les fichiers de configuration des p",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "d083da24780c722aa8bc8f0589f9536882c220a0",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/08/03/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "source": "CISA",
+      "publishedAt": "2026-08-03T12:00:00.000Z",
+      "summary": "&lt;p&gt;CISA has added one new vulnerability to its &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities (KEV) Ca",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": null
+    },
+    {
+      "id": "4401192d5247979ea3b48c8a58d0faa2af88f501",
+      "title": "Bitcoin et la menace quantique: le vrai risque est la gouvernance",
+      "url": "https://fr.spaziocrypto.com/quantique/bitcoin-menace-quantique-gouvernance-q-day/?amp%3Butm_content=topic%2Ffr-cryptographie",
+      "source": "Cryptographie FR",
+      "publishedAt": "2026-08-03T06:33:29.000Z",
+      "summary": "Une menace plane sur Bitcoin depuis des années, murmurée comme une légende: le jour où un ordinateur quantique deviendra suffisamment puissant pour …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/spaziocrypto.com/c26f81d0060748db11b76a8eaf6e4ff6c0d0f7d0/_xlarge.webp"
+    },
+    {
+      "id": "0904c977d17b07ff3e76de1343dcf6a6ab9a0ca2",
+      "title": "Wazuh - CVE-2026-67308",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/wazuh-cve-2026-67308-2026-08-03",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-03T00:37:21.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans les &lt;strong&gt;workflows GitHub Actions&lt;/strong&gt; utilisés par le projet &lt;strong&gt;Wazuh&lt;/strong&gt;.&lt;/p&gt; &lt;p&gt;",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "4907030a52e9ca1c63c0981f169dfa06e00cae62",
+      "title": "PostgreSQL - CVE-2026-17351",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/postgresql-cve-2026-17351-2026-08-03",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-03T00:34:15.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;contournement du garde-fou « transaction en lecture seule »&lt;/strong&gt; dans &lt;strong&gt;pgAdmin 4.&lt;/strong&gt;&lt;/",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "3af2d114d577faa0f335004bfa8a3d60bf806d8b",
+      "title": "Traefik - CVE-2026-67309",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/traefik-cve-2026-67309-2026-08-03",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-03T00:26:45.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans &lt;strong&gt;Traefik &lt;/strong&gt;affectant le middleware RewriteTarget du provider Kubernetes Ingress NGINX.&lt;/p&gt; &lt;p&gt;&lt;",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "76de4a205ef915a59a70c484cad0c6ec6956d034",
+      "title": "Axios - CVE-2026-67320",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/axios-cve-2026-67320-2026-08-03",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-03T00:19:50.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;pollution de prototype&lt;/strong&gt; dans le client HTTP &lt;strong&gt;axios&lt;/strong&gt; utilisé en environnement &lt;st",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "67a142a67b329d0c391134db04fa6511805cad0c",
+      "title": "GitPython Developers - CVE-2026-67325",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/gitpython-developers-cve-2026-67325-2026-08-03",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-03T00:08:33.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans la bibliothèque &lt;strong&gt;GitPython&lt;/strong&gt; utilisée pour interagir avec des dépôts Git depuis des applications Python.&lt;/p",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "316f374ddcc4ed5a8c59b78625e78f1c883842eb",
+      "title": "SplitVPN - 865,336 breached accounts",
+      "url": "https://haveibeenpwned.com/Breach/SplitVPN",
+      "source": "Have I Been Pwned",
+      "publishedAt": "2026-08-01T05:29:26.000Z",
+      "summary": "In July 2026, &lt;a href=\"https://securityaffairs.com/196197/security/vpn-breach-exposes-58-million-connection-logs-despite-no-logs-claims.html\" target=\"_blank\" rel=\"noopener\"&gt;t",
+      "type": "LEAK",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "7a011beb1941c34f937c6387fe185459a5537509",
+      "title": "L'informatique quantique approche d'une percée commerciale, déclare le PDG d'IBM",
+      "url": "https://www.coindesk.com/fr/markets/2026/07/31/quantum-computing-nears-commercial-breakthrough-ibm-ceo-says?amp%3Butm_content=CoinDesk%2Fmagazine%2FCOINDESK+Fran%C3%A7ais",
+      "source": "Cryptographie FR",
+      "publishedAt": "2026-07-31T15:39:30.000Z",
+      "summary": "Arvind Krishna a déclaré que l'informatique quantique commencera à générer des revenus significatifs avant la fin de la décennie, alors que les …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f13d40f9b05eb319f27591485d64b14deec36a9e-3592x2394.jpg?auto=format&amp%3Bfit=crop&amp%3Bcrop=focalpoint&amp%3Bw=1920&amp%3Bh=1080&amp%3Bq=75"
+    },
+    {
+      "id": "4fbfb568ba2c184c17aa7a98554408489458378d",
+      "title": "Alerte avant le Q-Day : Claude Mythos a trouvé en 60 heures la faille d’un futur bouclier contre le quantique",
+      "url": "https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-alerte-avant-q-day-claude-mythos-trouve-60-heures-faille-futur-bouclier-quantique-136644/",
+      "source": "Cryptographie FR",
+      "publishedAt": "2026-07-31T09:35:51.000Z",
+      "summary": "La sécurité de nos données les plus confidentielles est en danger. La menace n'est plus seulement l'informatique quantique, mais aussi l'intelligence …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/futura-sciences.com/9aaec9e9ce1539c166c1311d6cd19d7dbd10565b/_xlarge.webp"
+    },
+    {
+      "id": "dc753195bb1b1b423275d654812afcae00ef3997",
+      "title": "Cryptographie: « ce qui nécessitait un an de travail peut prendre maintenant deux jours » - ZDNET",
+      "url": "https://www.zdnet.fr/actualites/cryptographie-ce-qui-necessitait-un-an-de-travail-peut-prendre-maintenant-deux-jours-499186.htm",
+      "source": "Cryptographie FR",
+      "publishedAt": "2026-07-31T05:07:37.000Z",
+      "summary": "Les failles dans AES et Hawk dénichées par Claude sont l’illustration de l’accélération du tempo dans la recherche en cryptographie poussée par l’IA …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2024/02/chiffrement-nsa-entree-600__w1200.jpg"
+    },
+    {
+      "id": "bd80630390f3c6270b53a2144ba6be0c4e8ad9e0",
+      "title": "VMware - CVE-2026-59309",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/vmware-cve-2026-59309-2026-07-31",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-31T00:23:00.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;contournement de l'authentification&lt;/strong&gt; dans &lt;strong&gt;VMware vCenter.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "f8059c0125323847c5749c3008ba0e2ded9d9713",
+      "title": "Node.js - CVE-2026-58043",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/nodejs-cve-2026-58043-2026-07-31",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-31T00:16:00.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;contrôle d'accès inapproprié&lt;/strong&gt; dans le modèle de permissions de &lt;strong&gt;Node.js.&lt;/strong&gt;&lt;/p&gt;",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "24a190373d3e94f82ed5116bc9fbdfe121126220",
+      "title": "SolarWinds - CVE-2026-28323",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/solarwinds-cve-2026-28323-2026-07-31",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-31T00:14:00.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;contournement d'authentification SAML&lt;/strong&gt; dans &lt;strong&gt;SolarWinds Web Help Desk.&lt;/strong&gt;&lt;/p&gt; &",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "d46659985c091f208e1e21d4f63706f9eb01e946",
+      "title": "Google - CVE-2026-17681",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/google-cve-2026-17681-2026-07-31",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-31T00:12:00.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;validation insuffisante des entrées non fiables&lt;/strong&gt; dans&lt;strong&gt; Web Authentication de Google Chrome.&lt;/s",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "7e16a24a310b0316aeaa676eb9d83df28470459c",
+      "title": "IBM - CVE-2026-10535",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/ibm-cve-2026-10535-2026-07-31",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-31T00:05:00.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;dépassement de tampon (buffer overflow)&lt;/strong&gt; dans le composant &lt;strong&gt;db2flacc&lt;/strong&gt; de &lt;strong",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "53e8bd60194c1b09660cdb3ebd10358cb5047a01",
+      "title": "Read This Before You Buy That TV Streaming Stick",
+      "url": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
+      "source": "Krebs on Security",
+      "publishedAt": "2026-07-30T16:49:00.000Z",
+      "summary": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-time fee, warning that they sec",
+      "type": "NEWS",
+      "severity": "Moyenne",
+      "imageUrl": "https://krebsonsecurity.com/wp-content/uploads/2026/07/h96-amazon.png"
+    },
+    {
+      "id": "ba5101da83ac495abb0500a76fc811c9da8f14c8",
+      "title": "Avec deux découvertes majeures, Claude fait tomber un candidat à la cryptographie post-quantique et pousse la recherche sur AES dans ses retranchements",
+      "url": "https://www.clubic.com/actualite-623443-avec-deux-decouvertes-majeures-claude-fait-tomber-un-candidat-a-la-cryptographie-post-quantique-et-pousse-la-recherche-sur-aes-dans-ses-retranchements.html?amp%3Butm_content=topic%2Ffr-cryptographie",
+      "source": "Cryptographie FR",
+      "publishedAt": "2026-07-30T10:17:00.000Z",
+      "summary": "Claude a découvert une faiblesse majeure dans un candidat à la cryptographie post-quantique et accéléré une attaque contre une version réduite d’AES. …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/5e17cf4daece9aca280e66e2c5f7ef46847b7656/_xlarge.jpeg"
+    },
+    {
+      "id": "ef47c0542a17c9227e46d170258c1902f5b30575",
+      "title": "GLPI - CVE-2026-55214",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/glpi-cve-2026-55214-2026-07-30",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-30T01:03:00.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de type &lt;strong&gt;cross-site scripting (XSS)&lt;/strong&gt; stocké dans la gestion des fournisseurs (suppliers) de &lt;strong&gt;GLPI.&lt",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "0caa48963400ffa85b267dc35ffa671f468c713e",
+      "title": "VMware - CVE-2026-41703",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/vmware-cve-2026-41703-2026-07-30",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-30T01:00:00.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;lecture hors limites mémoire (out-of-bounds read)&lt;/strong&gt; dans &lt;strong&gt;VMware ESX, VMware Workstation et VMware",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "92fbeb63f4d5843a164906c906dabfdccf78b500",
+      "title": "HashiCorp - CVE-2026-16326",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/hashicorp-cve-2026-16326-2026-07-30",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-30T00:41:00.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de&lt;strong&gt; réutilisation inter-clients de jetons d'authentification&lt;/strong&gt; dans &lt;strong&gt;consul-mcp-server.&lt;/strong&gt;",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "59bdc237fcc8db46de3bc1e711a74093d5601c6f",
+      "title": "TeamViewer - CVE-2026-12703",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/teamviewer-cve-2026-12703-2026-07-30",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-07-30T00:34:00.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;contournement de mécanisme d'authentification (CWE-288)&lt;/strong&gt; dans les clients Full Client et Host&lt;strong&gt; &l",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
     }
   ]
 }
