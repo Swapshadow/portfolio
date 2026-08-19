@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T18:37:35.342Z",
+  "generatedAt": "2026-08-19T20:29:47.200Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -76,6 +76,61 @@
   ],
   "items": [
     {
+      "id": "19f2013782d792bbb5dfb21a5b73432d166e01ae",
+      "title": "Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second",
+      "url": "https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-19T19:02:40.000Z",
+      "summary": "Cybersecurity researchers have disclosed details of a remote Spectre attack against Cloudflare Workers that leaked a JSON Web Token (JWT) from a co-located Worker in the production",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi50HcHSWt796lc8zQ8Anp_fHUqgV-BM0xiS1NxJW8zRDgBRJ9ovZOECiIhdQt0aVTUdhduJYP1o5wTa5RpDoCwhihq8rKqWmh73E9E8UzafyDcq1n1khCEIDCikK2L6NEt1mbIuMRm6F36bap74JtZawFqqCPvWF72SAm25BzREVerWYaRIDEo1O89V4k/s1600/jwt.jpg"
+    },
+    {
+      "id": "85c3751e3207ef5eb4a8ab22344ce67640e93380",
+      "title": "Charente-Maritime : à Marennes, une cyberattaque a ciblé la mairie et ses messageries électroniques",
+      "url": "https://www.sudouest.fr/charente-maritime/marennes-hiers-brouage/charente-maritime-a-marennes-une-cyberattaque-a-cible-la-mairie-et-ses-messageries-electroniques-30305378.php?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-19T19:00:00.000Z",
+      "summary": "La vague de piratage qui touche les administrations françaises en ce moment ne vise pas que les grandes institutions. Lundi 17 août, une attaque …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/sudouest.fr/60a385b19fe029cea0a2e881897af83b9fae67fc/_xlarge.jpeg"
+    },
+    {
+      "id": "57d87da5c811736c15832befc0ef363773a571ba",
+      "title": "« Il y a urgence » : Sébastien Lecornu souhaite la création d’une nouvelle unité cyber pour lutter plus efficacement contre les attaques informatiques",
+      "url": "https://www.challenges.fr/la-verticale-cyber/il-y-a-urgence-sebastien-lecornu-souhaite-la-creation-dune-nouvelle-unite-cyber-pour-lutter-plus-efficacement-contre-les-attaques-informatiques_645274?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-19T18:38:00.000Z",
+      "summary": "Sous pression après une série de cyberattaques visant le site des impôts, le gouvernement veut passer à la vitesse supérieure. Sébastien Lecornu …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/challenges.fr/71cc902b0b6f6ed9cb5c59bf1ddef3acf1b56de8/_xlarge.jpeg"
+    },
+    {
+      "id": "f8e3e2500d51f527c941c2c4356a090e157f0626",
+      "title": "Les hackers du piratage du fisc annoncent de nouvelles attaques contre l’Etat",
+      "url": "https://www.capital.fr/economie-politique/les-hackers-du-piratage-du-fisc-annoncent-de-nouvelles-attaques-contre-letat-1529409?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-19T18:14:18.000Z",
+      "summary": "Les hackers de ZeroBytes qui ont revendiqué des vols de données massifs à l'administration fiscale et à l'Education nationale se dévoilent. Si le duo …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/capital.fr/70a43f30a1f95051a6086804b8b6faa9df557053/_xlarge.jpeg"
+    },
+    {
+      "id": "3bf5f83c8d4a5989656e13191f9cc8f9571050b1",
+      "title": "OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior",
+      "url": "https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-19T18:06:44.000Z",
+      "summary": "OpenAI on Tuesday revealed that it paused reinforcement learning (RL) training for its latest artificial intelligence (AI) models for two weeks while it shored up additional defens",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6Ar7QFukiqBWatGeVdffG393l7GwFmzYBSWvv6Um7gPNIzeL8p3gfO_2C1rvVGPSUh00KWZAB8wFs9Xdz6h7uWDd7MYyWuuzLciO6NX1Y4mln1LqxK-skWP7VEdFD3BOhP1msTaM7F1ZgBeGyDUuLUaNlXAroEXHH6aYPgWluliMNUrozkKKeGK9kf-Ri/s1600/open.jpg"
+    },
+    {
       "id": "09f6bf35338770f3321a7fd25484d96e41c5be55",
       "title": "Piratage du fisc : « La cybersécurité est le canari dans la mine, c’est le premier sujet qui va nous exploser à la figure »",
       "url": "https://www.nouvelobs.com/economie/20260819.OBS117520/piratage-du-fisc-la-cybersecurite-est-le-canari-dans-la-mine-c-est-le-premier-sujet-qui-va-nous-exploser-a-la-figure.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -87,6 +142,17 @@
       "imageUrl": "https://ic-cdn.flipboard.com/nouvelobs.com/85e9339b52d764431b26163e415174132e1e2d8c/_xlarge.jpeg"
     },
     {
+      "id": "46d8fd7914df4e07614c765ba4de01335fabc816",
+      "title": "Éditorial. Cyberattaques : la France, une passoire numérique",
+      "url": "https://www.sudouest.fr/redaction/editorial/editorial-cyberattaques-la-france-une-passoire-numerique-30306679.php?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-19T16:55:25.000Z",
+      "summary": "Décidément, la France est fâchée avec sa sécurité. La cyberattaque historique qui, cet été, a ciblé l’administration fiscale, siphonnant des …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/sudouest.fr/9c0bfc9506ca34bcb5d3e1aa82b6317e5ff28cae/_xlarge.jpeg"
+    },
+    {
       "id": "bdb48223b081aa482cb6620629d88317b610f93f",
       "title": "La France, principale cible européenne pour le vol de données",
       "url": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/la-france-principale-cible-europeenne-pour-le-vol-de-donnees_8153888.html",
@@ -96,17 +162,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/29cd6b58f29a94b27463a1c33ef93546f4085b66/_xlarge.jpeg"
-    },
-    {
-      "id": "7a1a89c37b0ed51be813c056d3e25b106ac4a872",
-      "title": "En quoi consiste la « nouvelle unité cyber », réponse de Sébastien Lecornu aux piratages en série",
-      "url": "https://www.huffingtonpost.fr/politique/article/en-quoi-consiste-la-nouvelle-unite-cyber-reponse-de-sebastien-lecornu-aux-piratages-en-serie_307607.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-19T16:41:25.000Z",
-      "summary": "Mobilisable dès la violation d’accès sensible d’un ministère, cette unité sera composée d’agents de l’ANSSI. Les contours de cette « task force » …",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://ic-cdn.flipboard.com/huffingtonpost.fr/b93d4b1c8df9e92a8fe52ed8908b5e50847d42a7/_xlarge.jpeg"
     },
     {
       "id": "978ee1ccc2b032684e53024ae2386728e857800b",
@@ -142,17 +197,6 @@
       "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/cba32d70201c45a737ac9cb1438b7cad16b326ed/_xlarge.jpeg"
     },
     {
-      "id": "6afb22f90b99ffe8c34b10d370c3b2a920da50f0",
-      "title": "Cyberattaques contre l'administration: peut-on vraiment protéger nos données sensibles?",
-      "url": "https://podmust.com/episode/?podcast=le-titre-a-la-une&amp%3Bepis=Q3liZXJhdHRhcXVlcyBjb250cmUgbCdhZG1pbmlzdHJhdGlvbjogcGV1dC1vbiB2cmFpbWVudCBwcm90w6lnZXIgbm9zIGRvbm7DqWVzIHNlbnNpYmxlcz8%3D",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-19T15:33:28.000Z",
-      "summary": "Un épisode du podcast Le titre à la une.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://image.simplecastcdn.com/images/1b747390-9f95-46b4-bbe9-fdebe9a03b5f/5834f471-4680-4acf-ab0b-033fee0bc438/3000x3000/visuel.jpg?aid=rss_feed"
-    },
-    {
       "id": "92a90ca6f53db2d3092ae547accb243d7a6d2173",
       "title": "GTA 6 : nouvelles fuites de gameplay mettent Rockstar dans la sauce à quelques jours de sa présentation Netflix",
       "url": "https://www.konbini.com/internet/gta-6-nouvelles-fuites-de-gameplay-mettent-rockstar-dans-la-sauce-a-quelques-jours-de-sa-presentation-netflix/?amp%3Butm_content=topic%2Ffr-technologie",
@@ -164,37 +208,15 @@
       "imageUrl": "https://ic-cdn.flipboard.com/konbini.com/1125bc50e6412679f895a48c63891ab33aa7f42b/_large.png"
     },
     {
-      "id": "135c753241eca4c1bae3666020a83a69637995bc",
-      "title": "Piratage du site des impôts : « L'Etat a créé une surface d'attaque gigantesque »",
-      "url": "https://www.lesechos.fr/tech-medias/hightech/piratage-du-site-des-impots-letat-a-cree-une-surface-dattaque-gigantesque-2247579?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-19T15:26:54.000Z",
-      "summary": "Après les piratages massifs ayant visé la Direction générale des finances publiques et l'Education nationale, Karim Hamia, expert en cybersécurité …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://media.lesechos.com/api/v1/images/view/6a85cb3d1ea6feeb5d03a9e1/1280x720/02002837505757-web-tete.jpg"
-    },
-    {
-      "id": "eb207947cd1ddadf11d52889d59845b5922ffc7f",
+      "id": "3cb4532157c86a8219b9aadb416126239c07fef0",
       "title": "Piratage du fisc : Lecornu veut une \"nouvelle unité\" pour lutter contre les cyberattaques",
-      "url": "https://www.france24.com/fr/france/20260819-piratage-du-fisc-l-ex%C3%A9cutif-veut-une-nouvelle-unit%C3%A9-pour-lutter-contre-les-cyberattaques?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "url": "https://www.france24.com/fr/france/20260819-piratage-du-fisc-l-ex%C3%A9cutif-veut-une-nouvelle-unit%C3%A9-pour-lutter-contre-les-cyberattaques?amp%3Butm_content=topic%2Ffr-actualit%C3%A9s",
       "source": "Cybercriminalité FR",
       "publishedAt": "2026-08-19T15:13:15.000Z",
       "summary": "Le Premier ministre Sébastien Lecornu a demandé, mercredi, à l'Agence nationale de la sécurité des systèmes d'information de constituer une \"nouvelle unité cyber\". Cette création d",
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://s.france24.com/media/display/7fe118c6-9be0-11f1-8e3b-005056bfb2b6/w:1280/p:16x9/71bd674aa93f75d2ce1cc83da0da9fff83a2e892.jpg"
-    },
-    {
-      "id": "5eb9c65d5c58b069b29cec15b0ab2d19718b377c",
-      "title": "« Les cartes zombies sont de retour en ligne » : comment une faille Visa permet de ressusciter des cartes expirées",
-      "url": "https://www.numerama.com/cyberguerre/2314109-les-cartes-zombies-sont-de-retour-en-ligne-comment-une-faille-visa-permet-de-ressusciter-des-cartes-expirees.html?amp%3Butm_source=flipboard&amp%3Butm_content=directlink&amp%3Butm_campaign=2314109",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-19T15:00:00.000Z",
-      "summary": "Trois chercheurs ont démontré qu’une carte bancaire périmée peut, dans certaines conditions, redevenir opérationnelle en paiement sans contact. Une …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://c0.lestechnophiles.com/www.numerama.com/wp-content/uploads/2026/08/design-sans-titre-2026-08-19t161059776.png?resize=1600%2C900&amp%3Bkey=2a320568"
     },
     {
       "id": "202f117d32fcd5699411f1b02dd18c3b27f68166",
@@ -208,20 +230,20 @@
       "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/0b3e3d5ccf9b10eed5d6abd54376b5e71b22c34a/_xlarge.jpeg"
     },
     {
-      "id": "0cf4dbb83dcd15f4c50da90c29e94efed016ff8c",
-      "title": "Fuite de données massives: comment l'Etat français s'est laissé pirater",
-      "url": "https://www.bfmtv.com/tech/cybersecurite/nous-ne-mettons-pas-les-moyens-apres-de-multiples-cyberattaques-l-etat-francais-mis-face-a-ses-responsabilites-en-matiere-de-securite-informatique_AV-202608190403.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "id": "7671bed1309cec63d58e47d24150df278e1181be",
+      "title": "Cyberattaques en série: Sébastien Lecornu demande la création, en urgence, d'une équipe pour faire face aux actions ciblant la France",
+      "url": "https://www.bfmtv.com/politique/gouvernement/cyberattaques-en-serie-sebastien-lecornu-demande-la-creation-en-urgence-d-une-equipe-pour-faire-face-aux-actions-ciblant-la-france_AN-202608190401.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
       "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-19T14:29:21.000Z",
-      "summary": "Après avoir subi plusieurs attaques d’envergure ces derniers mois, les organismes gouvernementaux doivent repenser leurs méthodes de fonctionnement …",
-      "type": "LEAK",
+      "publishedAt": "2026-08-19T14:25:13.000Z",
+      "summary": "Dans un courrier envoyé au secrétaire général de la défense et de la sécurité nationale et que BFMTV a pu consulter ce mercredi, le Premier ministre …",
+      "type": "NEWS",
       "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/bfmtv.com/43d3f21eb170d5d83ff62c4faa8c6943853bed74/_large.jpeg"
+      "imageUrl": "https://ic-cdn.flipboard.com/bfmtv.com/2036e52f3f9e5b7caf641681d210ca76d24a2676/_xlarge.jpeg"
     },
     {
-      "id": "bfb6dca9010fbe5a78e83471452a91190468d2b0",
+      "id": "71fbbf68552ade77ba496385a1406701106934fc",
       "title": "Cyberattaques en série contre le fisc en France: le gouvernement sur la défensive",
-      "url": "https://www.rfi.fr/fr/%C3%A9conomie/20260819-cyberattaques-en-s%C3%A9rie-contre-le-fisc-en-france-le-gouvernement-sur-la-d%C3%A9fensive?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "url": "https://www.rfi.fr/fr/%C3%A9conomie/20260819-cyberattaques-en-s%C3%A9rie-contre-le-fisc-en-france-le-gouvernement-sur-la-d%C3%A9fensive?amp%3Butm_content=topic%2Ffr-%C3%A9conomie",
       "source": "Cybercriminalité FR",
       "publishedAt": "2026-08-19T14:12:02.000Z",
       "summary": "Le ministre des Comptes publics, David Amiel, a présenté mardi 18 août ses « excuses » face au piratage massif du fisc. Au total, 678 000 particuliers et entreprises ont été piraté",
@@ -239,6 +261,17 @@
       "type": "LEAK",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/bfmtv.com/6601f5db8fd62a94044f57fb5c0e8065c8fc6d6b/_xlarge.jpeg"
+    },
+    {
+      "id": "5ddc3f2c5652cc016d78763a4b2e6614558a5770",
+      "title": "Cyberattaques : face à l’urgence, Sébastien Lecornu crée une nouvelle unité spécialisée pour mieux protéger l’État",
+      "url": "https://www.lefigaro.fr/secteur/high-tech/cyberattaques-face-a-l-urgence-sebastien-lecornu-cree-une-nouvelle-unite-specialisee-pour-mieux-proteger-l-etat-20260819?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-19T13:36:26.000Z",
+      "summary": "INFO LE FIGARO - Dans une lettre adressée au secrétaire général de la défense et de la sécurité nationale, le premier ministre exige la mise en place …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://i.f1g.fr/media/cms/1200x630_crop/2026/08/19/529efc2e390720af224a57417c1f738b2403239ead4f484638e9cb15ff97eb80.jpg"
     },
     {
       "id": "1b3ff8b4047a7164653c7b220efb594a5f95c9a6",
@@ -362,17 +395,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJDdcdHtgq-nTzruVpw0hyZmBZtfG4iwLgi_nfw6A70e_mXt7LUSnyTQ7ZdgclMUypEe7s8s-LDmykPATeFixDXHEP_j1zhheNBnHA1TebBqoYtw1-3g_-LqlSuk8MczmJ3BtD6MO4TL1FVdLEcZXVKn_Rd7ucsm0Imb8QTjxJXZY52RkgfUd26FPQanbZ/s1600/kev.jpg"
     },
     {
-      "id": "862a667214630d21f4773d08fc69cb8a9792e3b6",
-      "title": "«Nous nous excusons» : les données fiscales de 700 000 Français piratées, le gouvernement fait son mea culpa",
-      "url": "https://news.gentside.com/news/nous-nous-excusons-les-donnees-fiscales-de-700-000-francais-piratees-le-gouvernement-fait-son-mea-culpa_art126754.html?amp%3Butm_medium=syndication&amp%3Butm_campaign=flux",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-19T11:00:00.000Z",
-      "summary": "Une vaste cyberattaque a provoqué une crise majeure au sein des institutions françaises cet été. Le piratage, révélé le 13 août 2026, a ciblé la …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://news.gentside.com/sites/websites_frgts/files/styles/1200x675/public/article/news/david-amiel_2.webp?itok=Tjo7UViI"
-    },
-    {
       "id": "1051302abd77df72dcb2ede2ee1ad57abde58e88",
       "title": "France : le fisc piraté, une troisième fuite de données révélée",
       "url": "https://www.france24.com/fr/vid%C3%A9o/20260819-france-le-fisc-pirat%C3%A9-une-troisi%C3%A8me-fuite-de-donn%C3%A9es-r%C3%A9v%C3%A9l%C3%A9e?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -470,17 +492,6 @@
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEit3cCqpn48W_lqEDCb9ewKFToGQcvhUjO939N0Gja-aTvCvRTz8kdOPZG1bhyphenhyphenED2XNeB82rjCIeVO3Nw9akDlMnQZqc7keiel8H82zgtf1A7fhb6DP3z6Qh3Ehk6AGrMt77rXkoNhLaDeEl692kDHAHVsNb7AOcDxpsavM0Hj9TZRLLJsuQ-OT3oQOvFMi/s1600/ptc.jpg"
-    },
-    {
-      "id": "bbb15fa1462beba993b8567ec032e1c82fbb702e",
-      "title": "Site piraté : que faire pour le sécuriser et le restaurer ? - ZDNET",
-      "url": "https://www.zdnet.fr/guide-achat/site-pirate-que-faire-pour-le-securiser-et-le-restaurer-499031.htm",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-19T04:08:17.000Z",
-      "summary": "Une page remplacée, des redirections inconnues ou un accès administrateur qui ne fonctionne plus peuvent révéler un piratage. Mais un site …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2026/07/pexels-cottonbro-4114698.jpg"
     },
     {
       "id": "b68fbbce8ad1a12f7d3feae90a8a4620432fcd19",
@@ -745,6 +756,17 @@
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
+    },
+    {
+      "id": "111403cf2c9e0fe3852ed5e8dd9bbad5a40a7317",
+      "title": "GTA 6 nouveaux leaks : les hackers expliquent leurs revendications, c'est lunaire...",
+      "url": "https://www.jeuxactu.com/gta-6-nouveaux-leaks-les-hackers-expliquent-leurs-revendications-c-est-132082.htm?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-18T23:04:01.000Z",
+      "summary": "À quelques jours de la présentation officielle de GTA 6 sur Netflix, Rockstar Games vient de subir une nouvelle fuite massive. Plusieurs vidéos de …",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://i.jeuxactus.com/datas/jeux/g/t/gta-6/xl/gta-6-6a85c8410717f.jpg"
     },
     {
       "id": "6cd8a5a9a305e8080177d8ddbebc1c0867b08432",
@@ -2186,28 +2208,6 @@
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuo4K_GT6YrQhFiPQrrf58NN4PQM0_aYVTxWXeaJ1KsqjBJ69c746Hj6DyhGH-uzhZvEowVR8YMbITHBpOcT3OQevcTJg36qwJ1WfPtFZySMVg_B2JVBE763_JVHh3gn563WAYxf72bnd1g9QC2tkWd6Bbm9_TWXPhMxk1vnk6gxnUM4eDQNxXouVEtJ9i/s1600/vmware.jpg"
-    },
-    {
-      "id": "11c7d7ae983a6a42ce0b5f2cb66c07472cb685a2",
-      "title": "Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations",
-      "url": "https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-12T08:04:52.000Z",
-      "summary": "Two malicious LiteLLM releases sat on PyPI for about 40 minutes in March carrying credential-stealing code capable of harvesting cloud keys, SSH keys, Kubernetes tokens, database p",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjTLayRrpqM-bUGPU8pmWZIGJ_TCnkLLvykLv9Z_-R-QFmC1f6nIxSff2TTqZ77xC1n-l7Y44qKhUVdvRX9bUgNjVcGhF7A0vkRGnumHe6-bUoCFNH4PAb11zHkdjq3Xd2kF1jiGi8quRW4WFOy-0I_CRCorkQGuh9D2K8KhDAFxzsA7a0yxp2VkM-uGo/s1600/llmhack.jpg"
-    },
-    {
-      "id": "4d807acb78d593406d895e9b6f057ef4af75e91f",
-      "title": "SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code",
-      "url": "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-12T07:31:40.000Z",
-      "summary": "SAP has released patches to address a maximum-severity security flaw impacting Commerce Cloud (Data Hub Adapter) that could result in arbitrary code execution. The vulnerability, a",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbIbhajZdWb8FMAsUCcL8bufmUEbpuTCSFvKhvJgecxUZcO3rH1QV1bVNrOJ1W8oqge3sBIMwmHZxXR9l1PyrOGDEuAZZJkwFBmMlFGWwjU5-3CDmUQsz08HzrZ23kg9HSv3X7MrOryUe-T-PZCmpr8csna-nQcAg-b3RSeWiWsHuaBFAiJmjTrVI5WBQM/s1600/sap.jpg"
     },
     {
       "id": "e8c6c5ae1775741caf6cb0a17536791aba1531a5",
