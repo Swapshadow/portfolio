@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T12:52:46.454Z",
+  "generatedAt": "2026-08-20T14:37:47.442Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,7 +17,7 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 110
+      "items": 115
     },
     {
       "name": "Exploit-DB",
@@ -76,6 +76,94 @@
   ],
   "items": [
     {
+      "id": "a6a6e3df3f0c3124445bb03b26049a1a06d3f9aa",
+      "title": "Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE",
+      "url": "https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-20T13:48:24.000Z",
+      "summary": "Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJ3-aEfGwe03ZMojsoiYaQ4TNjUiAPEFK-m68uY5JSlF8knbnGWOcBrqiB_4s6J47lPjyhQEuWdUMHnktRU6YfOcltn7_lXga77C8TNH4GOVAPrmIH_T0MsFKFkmQSMnvf42bnLlH0pC4BVMEpAZJLLTH51GpgfZybiZ_UWNLhKxx1oGi8PyD3bOUGG0_F/s1600/nodejs.jpg"
+    },
+    {
+      "id": "b42031f3d1dcf52839cca6c47171d36710e538a3",
+      "title": "Critical NetScaler Flaw Can Bypass Authentication on Certain Gateway and AAA Servers",
+      "url": "https://thehackernews.com/2026/08/critical-netscaler-flaw-can-bypass.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-20T13:35:13.000Z",
+      "summary": "Citrix has released updates to address two security flaws impacting NetScaler ADC and NetScaler Gateway deployments, including a critical-severity authentication bypass vulnerabili",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoCXrYMA_j7aJrrdIZKt2gQwTWYXhhHZTfBvrNcgpLLBTa5hzcmDNguBKwBhiD8p7kO5K2OeQYVbIPg2HHDBwu9LNzR6oAFE-znmFWIgjY_XzA0qdy-rA8XzV_uGvsxLWRNXCyyOlUKdDV0LGrXPN15wxYsTuZslyecGQ1cqE2OKdX5cocpp74uXenwdj0/s1600/citrix.jpg"
+    },
+    {
+      "id": "a1476d64b27994cbb88c68fed8d2b7401482de7c",
+      "title": "Attackers Exploit Zimbra SNMP Flaw for Unauthenticated Remote Code Execution",
+      "url": "https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-20T13:24:28.000Z",
+      "summary": "A now-patched security flaw impacting Zimbra Collaboration (ZCS) has come under active exploitation in the wild, according to the Polish Computer Emergency Response Team (CERT Pols",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5vbtHH6C3JbT58Yghw2KNalqy-xoKLuJlsV9AGd_j2mQj4NKzVgWiOc9CDvUsT2JY0AchCk5140WhvNgZdKY2fwmeGEEi9FMvSSJvrBYVWndOKV9R47OEMZ59OOjv56DkPgpKo55fvHT7JSRW4yvh9_Xp5KBbw9xyJg2EGStHzg8ctloKfsJJPDLss1xR/s1600/zimbra.jpg"
+    },
+    {
+      "id": "1b6e74cec58545965e909a37d30f854e3a29fac4",
+      "title": "Club One Casino revendiqué par 3AM puis PEAR",
+      "url": "https://www.zataz.com/club-one-casino-revendique-par-3am-puis-pear/",
+      "source": "Zataz",
+      "publishedAt": "2026-08-20T13:15:42.000Z",
+      "summary": "Hack Twins : Un nouveau casino apparaît chez deux groupes de pirates informatiques différents.",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.zataz.com/wp-content/uploads/Casino_twins_hack.jpg"
+    },
+    {
+      "id": "f96ed3e5aac82d72d61d25dc030bc5ab903dd8e7",
+      "title": "France : le gouvernement créé une \"nouvelle unité cyber\"",
+      "url": "https://www.france24.com/fr/vid%C3%A9o/20260820-france-le-gouvernement-cr%C3%A9%C3%A9-une-nouvelle-unit%C3%A9-cyber?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-20T13:00:31.000Z",
+      "summary": "Après plusieurs cyberattaques visant des administrations françaises, le gouvernement veut accélérer sa riposte. Le Premier ministre Sébastien Lecornu demande à l’ANSSI de créer, so",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://s.france24.com/media/display/a2546c4e-9c96-11f1-9643-005056bf30b7/w:1280/p:16x9/FR-20260820-141157-141338-CS.jpg"
+    },
+    {
+      "id": "797b8f4a385e4e777ea593f39536abd2a4a7be10",
+      "title": "\"La Pologne veut annexer le territoire tchèque\" : le site d'une radio polonaise piraté",
+      "url": "http://fr.euronews.com/my-europe/2026/08/20/la-pologne-veut-annexer-le-territoire-tcheque-le-site-dune-radio-polonaise-pirate",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-20T12:46:57.000Z",
+      "summary": "Des pirates informatiques ont hacké le site d'une radio polonaise et publié sur celui-ci un faux article. Le texte mentionne un projet imaginaire de Varsovie visant à récupérer des",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/euronews.com/3d4189024f40c437efa0f3461da42b544e8616b1/_xlarge.jpeg"
+    },
+    {
+      "id": "41f93cb4a7d3a4ee320a54c1d55a5c9df78ef4f1",
+      "title": "« Un cauchemar » Une version jouable de GTA 6 serait dans la nature, les leaks risquent d'être de pire en pire pour Rockstar",
+      "url": "https://www.gameblog.fr/jeu-video/ed/news/gta-6-cyberleek-leak-build-721348",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-20T12:45:26.000Z",
+      "summary": "Les leaks de GTA 6 n'en finissent plus et on commence enfin à comprendre pourquoi. Le groupe de leakers a fait comprendre qu'il avait directement …",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://cdn-uploads.gameblog.fr/img//_6a86f062ceaa8.jpg"
+    },
+    {
+      "id": "7b990cb0d0d9ffb4dec51c616feeac16e86e985a",
+      "title": "SFR confirme une fuite de données, 2,1 millions de lignes revendiquées par le pirate des impôts",
+      "url": "https://www.01net.com/actualites/sfr-confirme-une-fuite-de-donnees-21-millions-de-lignes-revendiquees-par-le-pirate-des-impots.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-20T12:34:05.000Z",
+      "summary": "Détectée le 2 juillet, la fuite n’arrive dans les boîtes mail des clients que sept semaines plus tard. Sur un forum cybercriminel, un pirate …",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/0f8da7de122f1350fad171b252c7d676009bf00e/_xlarge.jpeg"
+    },
+    {
       "id": "b11e0513849fb563b357b621dcbb1f228300fce3",
       "title": "Face à la menace russe, l'Otan défend la frontière en Europe de l'Est avec des milliers de drones et capteurs dopés à l'IA",
       "url": "https://www.bfmtv.com/tech/cybersecurite/face-a-la-menace-russe-l-otan-defend-la-frontiere-en-europe-de-l-est-avec-des-milliers-de-drones-et-capteurs-dopes-a-l-ia_AN-202608200328.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -85,17 +173,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/bfmtv.com/befd71076ef26f65e94922119dd2362709dcf2ca/_xlarge.jpeg"
-    },
-    {
-      "id": "180cc16043008f795e40657e8c2f9a5154dc76f5",
-      "title": "Cybersécurité : \"On a mis sur 600 personnes le job de 2.000 ou 3.000\", pointe Mounir Mahjoubi, ex-secrétaire d'État du Numérique | TF1 Info",
-      "url": "https://www.tf1info.fr/high-tech/video-cybersecurite-on-a-mis-sur-600-personnes-le-job-de-2-000-ou-3-000-pointe-mounir-mahjoubi-ex-secretaire-d-etat-du-numerique-2459421.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-20T12:15:30.000Z",
-      "summary": "Un courrier plus curatif que préventif. Dans sa lettre adressée au secrétaire général de la Défense et de la sécurité nationale, mercredi 19 août, le …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://photos.tf1info.fr/images/1280/720/cyberse-curite-on-a-mis-sur-600-personnes-le-job-de-2000-ou-3000-personnes-selon-mounir-mahjoubi-b3ae97-0@1x.jpeg?overlayImage=bG9nby10ZjFpbmZvLWRlZmF1bHQucG5n&amp%3BoverlayWidth=18&amp%3BoverlayGravity=northwest&amp%3Bs=78c802"
     },
     {
       "id": "12590348eabe79b73ca302f426798fa66118b368",
@@ -131,6 +208,17 @@
       "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/90ffdffe4b1800e69e9f270b59c4e1d28eb79d70/_large.jpeg"
     },
     {
+      "id": "9e6c0e992de0a4c5fa1936c801972aaf88bd4e0f",
+      "title": "Zombie Card Attack Can Revive Expired Visa Cards for Contactless Payments",
+      "url": "https://thehackernews.com/2026/08/zombie-card-attack-can-revive-expired.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-20T12:01:24.000Z",
+      "summary": "Researchers at the University of Massachusetts Amherst have demonstrated an attack that revives expired Visa contactless credit cards for real in-store purchases by rewriting the e",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsJMUJluWegBU4C6RiZ4QHg6rTqhFHMt5JJt3RR2K7l06c3FOFlnq8gIVuBqVUX8qsJFiAh6KKAlDXpVAydAoC2rM0dUKUayta50sqRXoW36_V2OgSXJBKaaAFY4boBYhtHkqeyBaBZavbo7bz3S8otNwyb3NUmW9j88edph6zAfnyJikYhLBrAHuCdBA/s1600/visa.jpg"
+    },
+    {
       "id": "2f450ecf6ec8c0dda8576ac6624f11d02cd1ecb0",
       "title": "Cyberattaque : Encore une ! L’opérateur SFR victime d’une fuite de données affectant ses abonnés fibre",
       "url": "https://www.20minutes.fr/high-tech/by-the-web/4240043-20260820-cyberattaque-encore-operateur-sfr-victime-fuite-donnees-affectant-abonnes-fibre?at_medium=display&amp%3Bat_campaign=149",
@@ -142,6 +230,39 @@
       "imageUrl": "https://img.20mn.fr/dgG5B9feTT-ztOfyeuDPfyk/1444x920_une-enseigne-de-sfr-le-24-mai-2026-a-cannes-en-france-niviere-dsc-9149-credit-david-niviere-sipa-2605262329"
     },
     {
+      "id": "7c51fdc8dc14c8a492b1174e0a5cc62fccb387db",
+      "title": "Why \"Shady AI\" is Security's Next Big Governance Problem",
+      "url": "https://thehackernews.com/2026/08/why-shady-ai-is-securitys-next-big.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-20T11:45:00.000Z",
+      "summary": "In March 2026, an internal AI agent at Meta triggered a “Sev 1” incident after sensitive company and user data was exposed to employees who weren’t authorized to access it. The inc",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgw0UN7paSPEt1BbP-tObzJmXd5LHvNrZpta_hHK2pwYGVsYyZt2FQO20Ld8uePEO35Hg9MUqHRoA3tvbxXf9Wdh2D8IgHIt9M56YTvveuPUILhMZ_drcaBL6ILCPzZmAwryt6cqjNvh4A0NUIPIBS6tpJCHJz6R5Lu42t06EyJ56wnlATWOg5UC-5JlBA/s1600/tines.jpg"
+    },
+    {
+      "id": "00567b1608624b9aa4d9c4f73ec21b278f4b2167",
+      "title": "CDN Tsunami Attack Abuses HTTP/3 Translation for Up to 350x DoS Amplification",
+      "url": "https://thehackernews.com/2026/08/cdn-tsunami-attack-abuses-http3.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-20T11:39:35.000Z",
+      "summary": "Cybersecurity researchers have disclosed two denial-of-service (DoS) attacks that exploit how major content delivery networks (CDNs) convert client-facing HTTP/3 traffic into HTTP/",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDFisNx669R67D6R9VnkWr_DIhB1VjYqDPrXqKAoeCz0YxbSngLxB15XYLtuKb00YSEE0rxQEfop5v7JIr2SMVOErIM2r_GZqA6q1FDNl_wBeAaukVoAse6l0kXv35dJRTQjT8R0DhS9ihwYUXNd9cFuqYM3GS0o28NyIBAgliuQR8XhKQqhixFcjdZpo/s1600/cdn-boost.jpg"
+    },
+    {
+      "id": "7ad82859ca9d2d00c16607d971fe4fe8d3d103e9",
+      "title": "Manic Android Malware Exfiltrates Data From Offline Phones via Nearby Infected Devices",
+      "url": "https://thehackernews.com/2026/08/manic-android-malware-exfiltrates-data.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-20T11:26:08.000Z",
+      "summary": "A new Android threat codenamed Manic has been observed actively targeting Ukrainian banks, government and identity services, and messaging applications, as well as Russian and Euro",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNJ75E0bEnkBf9REZEnmMNusCu2L2mrut4dSX8g-VVXH2THKdkXD1GwCZ_O5ZsnGzdamG2t0TVnelMj1TKMghauv4cIndc3OA7kuHQAdxf7FbngV7BaWV_-qmhvLZRNwN_5tkv5dSHViEwDgZ4Mou0TNLrFlyQ2yzyb7GYNQ6PPNVjCoJ7VzeKmly4Ntsf/s1600/Manic.jpg"
+    },
+    {
       "id": "de5f52df0c75e6eee3eec1a4fbc8b568e3466ba6",
       "title": "NASA AIT-GUI Flaws Could Let Unauthenticated Attackers Issue Spacecraft Commands",
       "url": "https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html",
@@ -151,17 +272,6 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0aHi13XpphD98KUUKTJJB0T5eJW8TLe8qecYWanC8lqujxWOn4dtJUXThwqpfnrd9daSkiLMxXb7r6EFFbYY2fy3qSZteMtPB5Sl5t4K01MKoHywiyohPzUQX17h3oj126zywGtTEP8twGQnbs0wjaecaY8nLhAWXLw0anuJuL2iSJmKBVnzlZhy842E/s1600/nasa.jpg"
-    },
-    {
-      "id": "f397409037d3ccdb881fb07d760ad04370d087cb",
-      "title": "Le hacker de GTA 6 a apparemment accès au jeu complet",
-      "url": "https://www.numerama.com/pop-culture/2314789-le-hacker-de-gta-6-a-apparemment-acces-au-jeu-complet.html?amp%3Butm_source=flipboard&amp%3Butm_content=directlink&amp%3Butm_campaign=2314789",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-20T10:47:41.000Z",
-      "summary": "Scénario cauchemar pour Rockstar Games : CYBERLEEK, le hacker qui publie des extraits de GTA 6 en protestation de la politique anti-disque de …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://c0.lestechnophiles.com/www.numerama.com/wp-content/uploads/2025/05/Lucia_Caminos_01.webp?resize=1600%2C900&amp%3Bkey=b2a7cd9e"
     },
     {
       "id": "fac874561f3f0ae4cdbc1482af0c7e63021339ee",
@@ -184,6 +294,28 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/euronews.com/7ff87f2d630d74b3d352164ee7beb50c426dbe0c/_xlarge.jpeg"
+    },
+    {
+      "id": "180cc16043008f795e40657e8c2f9a5154dc76f5",
+      "title": "Cybersécurité : \"On a mis sur 600 personnes le job de 2.000 ou 3.000\", pointe Mounir Mahjoubi, ex-secrétaire d'État du Numérique | TF1 Info",
+      "url": "https://www.tf1info.fr/high-tech/video-cybersecurite-on-a-mis-sur-600-personnes-le-job-de-2-000-ou-3-000-pointe-mounir-mahjoubi-ex-secretaire-d-etat-du-numerique-2459421.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-20T10:15:30.000Z",
+      "summary": "Un courrier plus curatif que préventif. Dans sa lettre adressée au secrétaire général de la Défense et de la sécurité nationale, mercredi 19 août, le …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://photos.tf1info.fr/images/1280/720/cyberse-curite-on-a-mis-sur-600-personnes-le-job-de-2000-ou-3000-personnes-selon-mounir-mahjoubi-b3ae97-0@1x.jpeg?overlayImage=bG9nby10ZjFpbmZvLWRlZmF1bHQucG5n&amp%3BoverlayWidth=18&amp%3BoverlayGravity=northwest&amp%3Bs=78c802"
+    },
+    {
+      "id": "4c37ff1b0f8ad11d5b7fbc7b30708271c9c6ed9c",
+      "title": "Cybersécurité : vos confidences à ChatGPT pourraient un jour se retourner contre vous, selon SaxX, hacker éthique",
+      "url": "https://www.europe1.fr/societe/cybersecurite-vos-confidences-a-chatgpt-pourraient-un-jour-se-retourner-contre-vous-selon-saxx-hacker-ethique-1024541?at_medium=RSS+feeds&amp%3Bamp=&amp%3Bat_campaign=Flux+Generique",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-20T10:15:00.000Z",
+      "summary": "Après le piratage des données fiscales de près de 700.000 Français, le hacker éthique Clément Domingo, alias SaxX, alerte sur un nouveau danger, …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://static.europe1.fr/var/europe1/storage/styles/image_750_422/public/media/image/2026/08/20/11/untitled_8_1_6a86cab645d8d.jpg?itok=0xYVR3RR"
     },
     {
       "id": "0e59b7e6f0073231bb74198877b331941907eaed",
@@ -250,17 +382,6 @@
       "type": "LEAK",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/bfmtv.com/7cebe6bac25a8966a3ba712d5d95a102dd1df860/_xlarge.jpeg"
-    },
-    {
-      "id": "db48f018af96c49fe7d500a6a8e72bbb0bcce9a8",
-      "title": "Passkeys ou mots de passe : le vrai match pour vos comptes en ligne",
-      "url": "https://www.begeek.fr/passkeys-ou-mots-de-passe-le-vrai-match-pour-vos-comptes-en-ligne-438879?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-20T08:00:45.000Z",
-      "summary": "Les passkeys gagnent du terrain et règlent pas mal de failles des mots de passe. Mais il faut comprendre où les stocker pour éviter la galère. Passer …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/begeek.fr/61a54267edea9ba2cd0558fc02385ac74a066545/_xlarge.webp"
     },
     {
       "id": "fd6eba3d56f7e19421e5208704d3bfa2e9afb987",
@@ -384,6 +505,116 @@
       "imageUrl": "https://cdn.mgig.fr/2026/08/mga-9c25fd6b-w375-w1500-w750_accroche.jpg"
     },
     {
+      "id": "40dac65a9e16ccc8c395959cd7f7c3d1475822f5",
+      "title": "Splunk - CVE-2026-76310",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/splunk-cve-2026-76310-2026-08-20",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-20T01:19:07.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de contrôle d'accès incorrect dans la fonctionnalité de rapports embarqués de Splunk Enterprise.&lt;/p&gt; &lt;p&gt;Splunk Enterprise est une",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "d8dd2d88354362df210a856c7941c4ecc0e39cbc",
+      "title": "Wazuh - CVE-2026-74038",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/wazuh-cve-2026-74038-2026-08-20",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-20T01:17:17.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de traversée de chemin dans le processus d'enrôlement des agents de Wazuh Manager.&lt;/p&gt; &lt;p&gt;Wazuh Manager est le composant serveur ",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "d79ef7e0c4e7aa8543fbb0b3434cf62b96abb2bc",
+      "title": "Zimbra - CVE-2026-73570",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/zimbra-cve-2026-73570-2026-08-20",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-20T01:14:13.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité d'injection de commande dans le composant de traitement des notifications SNMP de Zimbra Collaboration.&lt;/p&gt; &lt;p&gt;Zimbra Collaborati",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "5ac50811d6e2ceeec276925f335e86dde07b5b48",
+      "title": "Cisco - CVE-2026-20317",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/cisco-cve-2026-20317-2026-08-20",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-20T01:12:17.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité d'authentification incorrecte au sein de Cisco Secure Workload. Cisco regroupe sous cet identifiant plusieurs failles distinctes découvertes ",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "bfa42634520c960efe732b0632913a7ff4956525",
+      "title": "Citrix - CVE-2026-19490",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/citrix-cve-2026-19490-2026-08-20",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-20T01:10:39.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de contournement d'authentification par un chemin alternatif dans NetScaler ADC et NetScaler Gateway.&lt;/p&gt; &lt;p&gt;NetScaler ADC et Net",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "a4a8e9adfa6349a393dcdf77cc7c44bb678f5bf1",
+      "title": "Multiples vulnérabilités dans les produits Citrix (20 août 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1059/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Citrix. Elles permettent à un attaquant de provoquer un déni de service à distance, un contournement de la politiq",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "6495ec42716688dbe2ba3f573d1d553e5c031282",
+      "title": "Multiples vulnérabilités dans les produits Cisco (20 août 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1058/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance,",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "8cd7c2757d5a1532b91d6d9374af7e1faf0c2569",
+      "title": "Multiples vulnérabilités dans Ceph (20 août 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1057/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Ceph. Elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données e",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "8442637f568b4a13b83b0bba4ca2fd5283a80be8",
+      "title": "Multiples vulnérabilités dans Microsoft Windows (20 août 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1060/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Windows. Elles permettent à un attaquant de provoquer une élévation de privilèges et une atteinte à la confidentialit",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "71368b5468f8ab3d8e06910c97cdc8d06e22db2f",
+      "title": "Multiples vulnérabilités dans les produits Splunk (20 août 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1056/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Splunk. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
       "id": "7c7868026965493e90829b0a1e8b5b6b3c3cdbd4",
       "title": "Ne cherchez pas à résilier ce prélèvement de 69 euros : ce piège redoutable dans votre boîte mail pourrait vous ruiner",
       "url": "https://trucmania.ouest-france.fr/ne-cherchez-pas-a-resilier-ce-prelevement-de-69-euros-ce-piege-redoutable-dans-votre-boite-mail-pourrait-vous-ruiner/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -450,17 +681,6 @@
       "imageUrl": "https://s.france24.com/media/display/7fe118c6-9be0-11f1-8e3b-005056bfb2b6/w:1280/p:16x9/71bd674aa93f75d2ce1cc83da0da9fff83a2e892.jpg"
     },
     {
-      "id": "71fbbf68552ade77ba496385a1406701106934fc",
-      "title": "Cyberattaques en série contre le fisc en France: le gouvernement sur la défensive",
-      "url": "https://www.rfi.fr/fr/%C3%A9conomie/20260819-cyberattaques-en-s%C3%A9rie-contre-le-fisc-en-france-le-gouvernement-sur-la-d%C3%A9fensive?amp%3Butm_content=topic%2Ffr-%C3%A9conomie",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-19T14:12:02.000Z",
-      "summary": "Le ministre des Comptes publics, David Amiel, a présenté mardi 18 août ses « excuses » face au piratage massif du fisc. Au total, 678 000 particuliers et entreprises ont été piraté",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/rfi.fr/2bce30c4a79e5ad87d665faa669f3daa3b61a7a6/_xlarge.jpeg"
-    },
-    {
       "id": "1b3ff8b4047a7164653c7b220efb594a5f95c9a6",
       "title": "SilkParasite Espionage Campaign Targets Central Asian Governments with Five New RATs",
       "url": "https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html",
@@ -492,17 +712,6 @@
       "type": "CVE",
       "severity": "Moyenne",
       "imageUrl": null
-    },
-    {
-      "id": "5c0676cebdb9ae1ec3b154fdce9de47cde949d13",
-      "title": "Attention ! Si vous recevez cette alerte iPhone, vous êtes visé par l’un des logiciels espions les plus puissants de la planète",
-      "url": "https://www.presse-citron.net/alerte-iphone-logiciels-espions-puissants/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-19T11:53:41.000Z",
-      "summary": "Même si “logiciels espions mercenaires” ne ciblent pas tous les utilisateurs d’iPhone, on observe une hausse du nombre d’attaques via ces logiciels. …",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://ic-cdn.flipboard.com/presse-citron.net/fd58439b30acda1e2724878fc330235130cf856e/_xlarge.jpeg"
     },
     {
       "id": "6dadb9eaf072294799a70e8c793d568edf742558",
@@ -547,17 +756,6 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJDdcdHtgq-nTzruVpw0hyZmBZtfG4iwLgi_nfw6A70e_mXt7LUSnyTQ7ZdgclMUypEe7s8s-LDmykPATeFixDXHEP_j1zhheNBnHA1TebBqoYtw1-3g_-LqlSuk8MczmJ3BtD6MO4TL1FVdLEcZXVKn_Rd7ucsm0Imb8QTjxJXZY52RkgfUd26FPQanbZ/s1600/kev.jpg"
-    },
-    {
-      "id": "4d0c592fd364eff277f481724d5e2c5650978f9e",
-      "title": "Après le piratage des impôts, la France riposte avec un grand « plan d'action » pour protéger vos données",
-      "url": "https://www.01net.com/actualites/apres-piratage-impots-france-riposte-grand-plan-action-proteger-donnees.html?amp%3Butm_content=topic%2Ffr-technologie",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-19T08:11:32.000Z",
-      "summary": "Face aux cyberattaques qui ont frappé les impôts, la France a décidé de réagir avec une série de mesures fortes. Le gouvernement vient d’annoncer un …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/7bd4240ce807a7b958318bd03311f89de6f65255/_xlarge.jpeg"
     },
     {
       "id": "17fce76177add8d1fc311bddf12a8cc645cc447a",
@@ -1693,17 +1891,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTrk440S7PXJ5sSmKnZIdesVK6PyZSDythFcN4mRxAPn-e4zfJ7ArPi_4Uya1_1N94uKeXMg7prAAOV7e968w2bLcngT-4ultLDyikYTR3bano0-5Qhb1QsR50RH5RGwiPoAZ9rHjmAzdFc6FTyHEDJHuUgd1qIC6_Wq59PZFg6H-8yz2WDbBos1OneV0n/s1600/apple.jpg"
     },
     {
-      "id": "501c9f5797f3403ea1cb8b78845c3f366b253e3b",
-      "title": "EVA visée par une nouvelle fuite de données, le pirate génére 1 million d&#8217;euros de cartes cadeaux !",
-      "url": "https://www.zataz.com/eva-visee-par-une-nouvelle-fuite-de-donnees/",
-      "source": "Zataz",
-      "publishedAt": "2026-08-14T09:41:26.000Z",
-      "summary": "Une nouvelle base attribuée à un professionnel des jeux VR expose clients et plusieurs catégories de données sensibles.",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/gift_hack_card.jpg"
-    },
-    {
       "id": "9fd2e873c7047180220721b4ad7c669bf3d68791",
       "title": "Trump Memo Paves Way for U.S. Firms to Hack and Disrupt Foreign Crime Groups",
       "url": "https://thehackernews.com/2026/08/trump-memo-paves-way-for-us-firms-to.html",
@@ -1803,17 +1990,6 @@
       "imageUrl": null
     },
     {
-      "id": "f7e369dbd9f61eccc7dafe8bd4077bedaac4e433",
-      "title": "Multiples vulnérabilités dans les produits Netgate (14 août 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1022/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-08-14T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Netgate. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distanc",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
       "id": "1ae813ac5046727f8b08eb1309ad0eed10b2fc3d",
       "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (14 août 2026)",
       "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1027/",
@@ -1869,17 +2045,6 @@
       "imageUrl": null
     },
     {
-      "id": "6dd437da7ae7885790febc0c84eed893968824f9",
-      "title": "Multiples vulnérabilités dans Tenable Security Center (14 août 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1023/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-08-14T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Tenable Security Center. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à dist",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
       "id": "c893f37f912892888881174e654cc660a4822542",
       "title": "Multiples vulnérabilités dans les produits IBM (14 août 2026)",
       "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1032/",
@@ -1922,28 +2087,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnZSPrbeVOhfz52pccm_PbosfzvUlARZ8YoAhLmLd28aHQJ0Nw4T-TeYS2gCgc4bQaNS_c7sFfSFY-tQdGZDD4Uajt1hFhjPzl-XZVyoM72eC5vYStjyfuKwis_vDgrvUgTK7MUJx0kkEHwBJxmIuqp6qkPB-km81UXl6ycj1u9uIORUrVXtYz9L5-Julh/s1600/td.jpg"
-    },
-    {
-      "id": "8e1937415ac7102d0e03de8c5fabaaa1a3f0673c",
-      "title": "New PATCHCORD Backdoor Targets Afghan Telecom and Indian Critical Infrastructure",
-      "url": "https://thehackernews.com/2026/08/new-patchcord-backdoor-targets-afghan.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-13T15:00:29.000Z",
-      "summary": "Afghan telecom providers and South Asian critical infrastructure organizations have emerged as the target of a new ongoing campaign that delivers a previously undocumented backdoor",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgN1h6yVKjJz0W6b8QMy2lmsHgFoVD9MGmbvZs4XRnHXDPcMJw8SDNNgHSnAnDTRCvXD5VyMFl1XtMFqU3uZiKdmtW-1Voos4cqw_JuUiE8mTWy44FFgKQMPvgX-8qzIbNUkk8XMC2l7mU9RyhMIaRI7k1yyDI2SW9o4U8MxfzHNX8xkijzygYkenrWeCOs/s1600/telecom.jpg"
-    },
-    {
-      "id": "f98d0457f0dd85ec9ce5f54afb3fec6d66793f2c",
-      "title": "AmnesiaStealer Hijacks Chromium Sessions to Give Attackers Live Browser Control on macOS",
-      "url": "https://thehackernews.com/2026/08/amnesiastealer-hijacks-chromium.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-13T13:43:14.000Z",
-      "summary": "Cybersecurity researchers have disclosed details of a new macOS-oriented, Rust-based information stealer called AmnesiaStealer that's capable of hijacking Chromium web browsers to ",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKseTvCwFqcMpefo-t9iVJcgB3VNAmPh_RHG1CadNUW-VA2Dn2NRE2HJQwnnwY9JqGD4AEElHZHGX9IlrT2Ts9ayfnIqk_sEJz4uSNzDi8wZhneDyiEovqm8LvP_8QTN5XoF92mQcWDeQFiS_1cJeOeWSC7J11alfbow-dRhIAOVL5y_ggDVEmsbDQSGpo/s1600/chrome-remote.jpg"
     },
     {
       "id": "ee3a4b4bf2640ceff6c62af98a163c9ebb194ae4",
@@ -2100,28 +2243,6 @@
       "imageUrl": null
     },
     {
-      "id": "6f3de94f49f2408ac95c96f117d23142127a8317",
-      "title": "WindRelay Android Malware Turns Victims' Phones Into NFC Relays for Payment Fraud",
-      "url": "https://thehackernews.com/2026/08/windrelay-android-malware-turns-victims.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-13T11:53:14.000Z",
-      "summary": "A previously unseen Android near field communication (NFC) relay malware family dubbed WindRelay is being deployed in conjunction with a known remote access trojan (RAT) called Spy",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtvbWVauAzyuLHoSWQPE7jx3sgMZNZ_7yBHAzP_dimt9W0VEgwixqcmdyIAEP-tg3Hya5hZG2KvgrQbYBfbPg1KofrMJTaRppWhN7jg4S9TKhE1UYTO4oqNayOePQWS2OQBcJex49YVMQEZUvvgn4-IpZsspMXw5j5nYwOsxow5y7POPw2fkfjUu0OUYDO/s1600/nfc.jpg"
-    },
-    {
-      "id": "b5a41fb957c156d6dd6513a3f3ecf976a1581af8",
-      "title": "North Korean Remote Workers Are Infiltrating Government and Businesses: How to Expose Them Before Hiring",
-      "url": "https://thehackernews.com/2026/08/north-korean-remote-workers-are.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-13T11:45:00.000Z",
-      "summary": "Companies are used to thinking about attackers as outsiders trying to break in. North Korean IT workers flip that model. They apply for jobs, pass interviews, receive legitimate cr",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWyQ1cDCkUiw4fXXqDmTenIFfuapxNP0AvwYPMk2RFX73IaWtCvzQMAeTkVS7OXG7N4t1LNOq6fn36aDuuD_vHI2FlSDZeULqexo2bwk2cIpRDBCIOpf01ytUVa_MQ_Ms0lRk_qmvZ58o7S7F_8ZYO_QW5lOvwEvwQIAW-e8ucpzf9_WpoJVeBeJghU2A/s1600/northk.jpg"
-    },
-    {
       "id": "1a1573f6ac2dcca6539a9b32d8ed57a85d23f783",
       "title": "RingCentral - 1,596,490 breached accounts",
       "url": "https://haveibeenpwned.com/Breach/RingCentral",
@@ -2131,17 +2252,6 @@
       "type": "LEAK",
       "severity": "Élevée",
       "imageUrl": null
-    },
-    {
-      "id": "4875465a78a1df0ca6b1c8ca51068edfed26bbb1",
-      "title": "Attackers Exploit SharePoint Authentication Bypass After Public PoC Release",
-      "url": "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-13T06:09:48.000Z",
-      "summary": "Threat actors have begun to exploit a newly disclosed Microsoft SharePoint vulnerability following the release of a proof-of-concept (PoC) code. The vulnerability in question is CV",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_e1WsuZlqC_AfMpdI4wXB0wzIA6nGpPb5ktYmwO5jRhFqH2t56eGghhYAV7he6u0qTqiPacKD-Wf3c1vXxUmBV159KAObOJUTEDGdDafl9B0makdRgyKTUwWHZ5qxLpGbWRg33JJl_0KaY0K0fiWLaV2xghWX4KqUSeaoNgD9Z5ql1Q5VesZQyH-1eO7W/s1600/poc.jpg"
     },
     {
       "id": "41693b699524d11b4067e0afc6a45cac67a92b6d",
@@ -2164,116 +2274,6 @@
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": null
-    },
-    {
-      "id": "213e0901be22962df2ee66cdf5a98a31729827e1",
-      "title": "Redhat, Inc - CVE-2026-70398",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/redhat-inc-cve-2026-70398-2026-08-13",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-08-13T01:50:02.000Z",
-      "summary": "&lt;p&gt;Une vulnérabilité de type intermédiaire non intentionnelle (« &lt;strong&gt;confused deputy&lt;/strong&gt; ») affecte le composant &lt;strong&gt;multicloud-integrations&lt",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "e44e3ff6f5607da1b4f63524cc6762bc5dfc2a7a",
-      "title": "Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor",
-      "url": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-12T17:39:27.000Z",
-      "summary": "The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a neve",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1jrzxrBozKDsDhAGM8SBKcqbTE4M0zWSJqfp709iguQU21GwUzshBdYSvKkicSkfQD1bNsYhROcsx5p5vAT3jyM90H6w6p8imCjtLbHySKnpGKlsQqfSS-BhcdHNuwJKFPZfBiVkh49xDvJbRI-rvfBKePL6CeHYIWOpwvGG0T-ha3x__xznmdsYybs9v/s1600/windows-shell.jpg"
-    },
-    {
-      "id": "e909c43a2f9c0e09de6610ed8324d3263144b2c1",
-      "title": "737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One",
-      "url": "https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-12T14:09:50.000Z",
-      "summary": "A massive set of 737 free VPN and proxy extensions have been found to mainly target Russian-speaking users seeking access to blocked services with an aim to intercept browser traff",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjI8aMtoRcWh4THmHEumFrk1X_t6xuq3Z6RsJwVKoyozs0nuRDIc7ffcIFNr5dFuUgTeeKZ0KLdeFoeHRRSFgqcTvK4VaO54Js2FADwBztN4Qlf0L8viPKGCY7lVEHF50K2xOaopCphCPL0ooDKna2E3S_4R4UzOsuh9m8dK4XQMo98_b6GjKqHRi_lm38i/s1600/chrome-plugins.jpg"
-    },
-    {
-      "id": "263196840efcc280f1cc91e2476d5d2a39bb0d0c",
-      "title": "Siemens RUGGEDCOM APE1808",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-06",
-      "source": "CISA",
-      "publishedAt": "2026-08-12T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-225-06.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "e8c6c5ae1775741caf6cb0a17536791aba1531a5",
-      "title": "Microsoft - CVE-2026-68820 | modifié le 12-08-2026",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/microsoft-cve-2026-68820-2026-08-12",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-08-12T01:59:18.000Z",
-      "summary": "&lt;p&gt;Une vulnérabilité d'utilisation de mémoire après libération affecte le pilote &lt;strong&gt;Windows Ancillary Function Driver&lt;/strong&gt; for &lt;strong&gt;WinSock (afd",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "1a6d3054e93a25700431f12da482ba18c899e436",
-      "title": "Cisco - CVE-2026-20349 | modifié le 12-08-2026",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/cisco-cve-2026-20349-2026-08-12",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-08-12T01:56:59.000Z",
-      "summary": "&lt;p&gt;Une vulnérabilité affecte le service &lt;strong&gt;Remote Access SSL VPN &lt;/strong&gt;des logiciels &lt;strong&gt;Cisco Secure Firewall ASA et FTD&lt;/strong&gt;.&amp;nb",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "355ccfe4216cb7134080a00f0afcbf5974ebd274",
-      "title": "MongoDB, Inc. - CVE-2026-18697 | modifié le 12-08-2026",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/mongodb-inc-cve-2026-18697-2026-08-12",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-08-12T01:54:42.000Z",
-      "summary": "&lt;p&gt;Cette vulnérabilité impacte le code serveur du produit de stockage &lt;strong&gt;MongoDB&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;MongoDB Server est un système de gestion de base",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "70b3deb8e0ca1beae1372d78da970bd4932f7525",
-      "title": "Ivanti - CVE-2026-18125 | modifié le 12-08-2026",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/ivanti-cve-2026-18125-2026-08-12",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-08-12T01:52:06.000Z",
-      "summary": "&lt;p&gt;Une vulnérabilité de lecture \"&lt;strong&gt;out of boundary&lt;/strong&gt;\" affecte le composant agent d'Ivanti Endpoint Manager.&amp;nbsp;&lt;/p&gt; &lt;p&gt;Ivanti Endpo",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "fefd4f43bab408683a5edaa06cbd06551e884617",
-      "title": "Siemens - CVE-2026-58115 | modifié le 12-08-2026",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/siemens-cve-2026-58115-2026-08-12",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-08-12T01:47:14.000Z",
-      "summary": "&lt;p&gt;Une vulnérabilité d'absence d'authentification affecte l'interface HTTP de Node-RED sur les équipements &lt;strong&gt;SIMATIC IoT2050 Advanced&lt;/strong&gt; fonctionnant ",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "31b44305c6b0731e682fc17a205514cafdd33a8a",
-      "title": "Microsoft Plugs Nearly 400 Security Holes",
-      "url": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
-      "source": "Krebs on Security",
-      "publishedAt": "2026-08-11T21:28:35.000Z",
-      "summary": "Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already bei",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://krebsonsecurity.com/wp-content/uploads/2026/08/workingonpc.png"
     }
   ]
 }
