@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T12:53:55.700Z",
+  "generatedAt": "2026-08-24T14:43:42.995Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,7 +17,7 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 101
+      "items": 105
     },
     {
       "name": "Exploit-DB",
@@ -76,6 +76,50 @@
   ],
   "items": [
     {
+      "id": "6f8226cf4cb181294d89c1e611f367826b98b4b3",
+      "title": "Fuite de données aux impôts : des centaines de Français portent plainte contre l'Etat",
+      "url": "https://www.01net.com/actualites/fuite-de-donnees-aux-impots-des-centaines-de-francais-portent-plainte-contre-letat.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-24T14:29:50.000Z",
+      "summary": "À la suite des fuites de données à répétition aux impôts, plusieurs centaines de contribuables français ont lancé une action collective contre …",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/23c262ec8ac559f1011daf6950d42860676465cf/_xlarge.jpeg"
+    },
+    {
+      "id": "471b099376e3a74cad5d1956697acad1dcc64fba",
+      "title": "Cybersécurité : les appels frauduleux chutent de 75% en Suisse",
+      "url": "https://www.rts.ch/info/suisse/2026/article/cybersecurite-les-appels-frauduleux-chutent-de-75-en-suisse-29336463.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-24T14:12:19.000Z",
+      "summary": "Les appels au nom de prétendues autorités sont de plus en plus contrés avec succès en Suisse. Grâce à une nouvelle réglementation, le nombre de …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://img.rts.ch/articles/2026/image/0d9f8abb-29336447.image?w=1200&amp%3Bh=630"
+    },
+    {
+      "id": "9f8e591144c711cef3b054b79b9afc3c1eea8ef0",
+      "title": "Arnaques en ligne : l’essor des centres de fraude en Asie du Sud-Est, en 4 questions",
+      "url": "https://www.la-croix.com/international/arnaques-en-ligne-l-essor-des-centres-de-fraude-en-asie-du-sud-est-en-4-questions-20260824?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-24T13:53:28.000Z",
+      "summary": "D’après l’ONU, plus de 300 000 personnes de 66 nationalités ont été victimes de traite dans les centres d’arnaque en ligne en Asie du Sud-Est. Comment …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/la-croix.com/c25f7bca34148b93234b9c3394f0b309e6231560/_xlarge.jpeg"
+    },
+    {
+      "id": "60284eca3a111421f0b3a3a1a39631b75f54cebb",
+      "title": "WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords",
+      "url": "https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-24T12:35:36.000Z",
+      "summary": "Cybersecurity researchers have flagged two new malware families called WordlistLoader and SynkLoader that's used to deliver next-stage payloads and likely sell access to ransomware",
+      "type": "NEWS",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNZ5JtaLAZIvAO7R42dqB1NBKwtOlFHZIl0yqtfPhyphenhyphenHMJB9MMg8oLLb8p6n9mF67PgHSytYigaqeAoGejuVd42lDlCT42T6vqCgfl6IE-8LnMQjyiCj8MVMdg5ZKznn2cZ18T9zubhLJ-JUZLSWeqEVGQbke44f83WHpoMuaVM9J6G0FA-9RG8_wb8lUTt/s1600/windows-signin.jpg"
+    },
+    {
       "id": "147d731e99a0caffb328312a3b24de2ac1ff591a",
       "title": "Rentrée piratée : l’Education nationale, otage de sa propre fragilité numérique, par Yannick Trigance",
       "url": "https://www.liberation.fr/idees-et-debats/tribunes/rentree-piratee-leducation-nationale-otage-de-sa-propre-fragilite-numerique-par-yannick-trigance-20260824_O2KHETPIHJDC7BQYMIWEAKXOGA/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -131,17 +175,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieDz2kEMi471xtnJ2B7i_ZktQTUHhbJAIOlNAaFfVdJVPWDC-3EqH2REiyGuaUl95lmXvtcl-oPpQy3MO0-5uulT4L4Uyheni6apbwxzycAw7yVmuYqAWaSjYbEw_BaJKsmGhrUPrb6hVeatf488NrNMVX-xorjY66ZIG9wR50pUdFBOs9avzlu9b91iw/s1600/ai-usage.jpg"
     },
     {
-      "id": "b5905c07d9a57c55f5af4d5582e26c8e11dd1cff",
-      "title": "Budget, canicules, cyberattaques… Sébastien Lecornu va organiser un séminaire gouvernemental dans une rentrée agitée",
-      "url": "https://www.liberation.fr/politique/budget-canicules-cyberattaques-sebastien-lecornu-va-organiser-un-seminaire-gouvernemental-dans-une-rentree-agitee-20260824_GCQKLYBPINCHBED4BX5YTZGTJU/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-24T11:09:07.000Z",
-      "summary": "Le Premier ministre convoquera ses ministres le 31 août afin de poursuivre la préparation du prochain budget et de se montrer actifs sur les sujets …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/liberation.fr/8ff3c5695389f44d4f6e1d63753dde710a8daafc/_xlarge.jpeg"
-    },
-    {
       "id": "ed7efcfc0df2a8e26e2d7e039e41e1c33ad9ad3d",
       "title": "Piratage de la DGFiP : des centaines de victimes attaquent l'État en justice",
       "url": "https://www.frandroid.com/culture-tech/securite-applications/3219931_piratage-de-la-dgfip-des-centaines-de-victimes-attaquent-letat-en-justice?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -151,6 +184,17 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://c0.lestechnophiles.com/images.frandroid.com/wp-content/uploads/2026/08/piratage-impots.jpg?resize=1600%2C900&amp%3Bkey=1866a38b"
+    },
+    {
+      "id": "a83a878cbbe9258981d4708d3d13134b09c06b19",
+      "title": "Budget, cyberattaques, canicules... Sébastien Lecornu réunira son gouvernement en séminaire le 31 août",
+      "url": "https://www.bfmtv.com/politique/gouvernement/budget-cyberattaques-canicules-sebastien-lecornu-reunira-son-gouvernement-en-seminaire-le-31-aout_AD-202608240444.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-24T10:58:45.000Z",
+      "summary": "Le Premier ministre tiendra un séminaire gouvernemental le lundi 31 août prochain pour évoquer plusieurs sujets clés de la rentrée, notamment le …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/bfmtv.com/2036e52f3f9e5b7caf641681d210ca76d24a2676/_xlarge.jpeg"
     },
     {
       "id": "ea822c9e609fcab23ce6a0d76992a66e3bef2d44",
@@ -175,9 +219,9 @@
       "imageUrl": "https://ic-cdn.flipboard.com/bfmtv.com/d383d3e1f0d492048f53ae19529c5b52bf1f6b6f/_xlarge.jpeg"
     },
     {
-      "id": "43a684aabbc082ac3b43a90e86bdbb1b902f446d",
+      "id": "3ba291083361e2d52aa22102c3cf2e9b348bbe0b",
       "title": "« Chomâge technique » : comment la cyberattaque contre l'Éducation nationale perturbe la rentrée scolaire",
-      "url": "https://www.01net.com/actualites/chomage-technique-comment-la-cyberattaque-contre-leducation-nationale-perturbe-la-rentree-scolaire.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "url": "https://www.01net.com/actualites/chomage-technique-comment-la-cyberattaque-contre-leducation-nationale-perturbe-la-rentree-scolaire.html?amp%3Butm_content=topic%2Ffr-technologie",
       "source": "Cybercriminalité FR",
       "publishedAt": "2026-08-24T10:02:14.000Z",
       "summary": "La cyberattaque contre l’Éducation nationale perturbe l’organisation de la rentrée scolaire. Acculé par les pirates, le ministère a été obligé de …",
@@ -263,6 +307,17 @@
       "imageUrl": "https://ic-cdn.flipboard.com/01net.com/e75099f9edd10e25afd37a487654d68ddeaa5a07/_xlarge.jpeg"
     },
     {
+      "id": "280f96f4b41d9eabc04f041e331926d2fc79bf06",
+      "title": "Cyberattaques : ce pays qui a réussi à les éradiquer en devenant une véritable forteresse numérique | TF1 Info",
+      "url": "https://www.tf1info.fr/high-tech/video-cyberattaques-voici-comment-l-estonie-est-devenue-une-veritable-forteresse-numerique-2459979.html?amp%3Butm_content=topic%2Ffr-technologie",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-24T07:30:00.000Z",
+      "summary": "L'Estonie, ce pays balte 50 fois moins peuplé que la France, est un géant du numérique. Près de 20 ans après avoir été la cible d'une cyberattaque …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://photos.tf1info.fr/images/1280/720/estonie-cyberattaque-cyberdefense-jta-05a3ca-0@1x.jpeg?overlayImage=bG9nby10ZjFpbmZvLWRlZmF1bHQucG5n&amp%3BoverlayWidth=18&amp%3BoverlayGravity=northwest&amp%3Bs=78c802"
+    },
+    {
       "id": "b56e8c91865cc5cfdba8eba80802ac963fc58ca3",
       "title": "Lutte contre les cyberattaques: \"On n'est pas encore au niveau là-dessus\", déclare le ministre de l'Économie Roland Lescure",
       "url": "https://www.bfmtv.com/politique/video-lutte-contre-les-cyberattaques-on-n-est-pas-encore-au-niveau-la-dessus-declare-le-ministre-de-l-economie-roland-lescure_VN-202608240224.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -285,17 +340,6 @@
       "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/142b5e69fe22b345b0ddc778d61c33f4a2d6a8c0/_xlarge.jpeg"
     },
     {
-      "id": "8f87259d6cced79c5adfded278d0ffa81b4b24ca",
-      "title": "Cyberattaques : voici comment l'Estonie est devenue une véritable forteresse numérique | TF1 Info",
-      "url": "https://www.tf1info.fr/high-tech/video-cyberattaques-voici-comment-l-estonie-est-devenue-une-veritable-forteresse-numerique-2459979.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-24T05:30:00.000Z",
-      "summary": "L'Estonie, ce pays balte 50 fois moins peuplé que la France, est un géant du numérique. Près de 20 ans après avoir été la cible d'une cyberattaque …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://photos.tf1info.fr/images/1280/720/estonie-cyberattaque-cyberdefense-jta-05a3ca-0@1x.jpeg?overlayImage=bG9nby10ZjFpbmZvLWRlZmF1bHQucG5n&amp%3BoverlayWidth=18&amp%3BoverlayGravity=northwest&amp%3Bs=78c802"
-    },
-    {
       "id": "716ea43d355b7cab7c17749930d80d7becdf13a9",
       "title": "Sclérose française",
       "url": "https://www.ouest-france.fr/reflexion/point-de-vue/sclerose-francaise-2d8211f0-9ec6-11f1-b6b2-5710555c207e?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -316,6 +360,50 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/huffingtonpost.fr/bf415567ec2e57173d7ca0d8abde4a8b3b25db1d/_xlarge.jpeg"
+    },
+    {
+      "id": "1d0e97fa32aaa2d52a11b22f4540c04b21004161",
+      "title": "OnGres - CVE-2026-78155",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/ongres-cve-2026-78155-2026-08-24",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-24T01:00:28.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;chemin de recherche non fiable&lt;/strong&gt; (untrusted search_path) dans l'&lt;strong&gt;exporteur de métriques&lt;/strong",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "f1dfe4e63f256c9f3ef5c4d8759823e54dcceef8",
+      "title": "OpenSearch - CVE-2026-75897",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/opensearch-cve-2026-75897-2026-08-24",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-24T00:59:22.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;validation insuffisante des entrées&lt;/strong&gt; dans le gestionnaire de la route &lt;strong&gt;capabilities&lt;/strong&gt",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "218b6ae01a19fd23a6b4b926a4a29e2842b5541f",
+      "title": "Netty - CVE-2026-62243",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/netty-cve-2026-62243-2026-08-24",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-24T00:58:02.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;contournement de la vérification du nom d'hôte TLS&lt;/strong&gt; sur le chemin client utilisant le fournisseur &lt;strong&g",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "233bdb4b52a598f78db22adc526d7509682415c3",
+      "title": "SPIP - CVE-2026-47895",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/spip-cve-2026-47895-2026-08-24",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-24T00:55:01.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité d'&lt;strong&gt;injection de code&lt;/strong&gt; dans le moteur de compilation de squelettes de SPIP.&lt;/p&gt; &lt;p&gt;SPIP est un système ",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
     },
     {
       "id": "142165702e5159313da0b1b214f9784beaeedbd8",
@@ -428,17 +516,6 @@
       "imageUrl": "https://ic-cdn.flipboard.com/huffingtonpost.fr/222a3822bd72afe04f8e93b31b9f15a7591c198c/_xlarge.jpeg"
     },
     {
-      "id": "7f689981fcaa00dd97bc6e277b65464f91129350",
-      "title": "Des hackers affiliés au régime iranien ont mis hors service une centrale électrique au Royaume-Uni",
-      "url": "https://www.bfmtv.com/international/moyen-orient/iran/video-des-hackers-affilies-au-regime-iranien-ont-mis-hors-service-une-centrale-electrique-au-royaume-uni_VN-202608230234.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-23T14:41:59.000Z",
-      "summary": "Des hackers affiliés au régime iranien ont mis hors service une centrale électrique au Royaume-Uni. La centrale a été paralysée pendant quatre jours.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/bfmtv.com/bd4ecc0712893c5a47ecf57dec4fbd6d3780cf55/_xlarge.jpeg"
-    },
-    {
       "id": "37fea88b052bcc6f26ad603c0273d245bbd8704b",
       "title": "Royaume-Uni : l’Iran accusé d'avoir mis hors service une centrale électrique durant plusieurs jours",
       "url": "https://www.lejdd.fr/International/royaume-uni-liran-accuse-davoir-mis-hors-service-une-centrale-electrique-durant-plusieurs-jours-181635?at_medium=affiliate&amp%3Bat_campaign=Flipboard",
@@ -459,17 +536,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/journaldugeek.com/ad44310ff09953238c6b376dc0caec5ba6629cdd/_xlarge.jpeg"
-    },
-    {
-      "id": "badcdfe85c4e793f3a5896c704e344778fb5be71",
-      "title": "Fisc piraté : seuls 52 % de ses logiciels et serveurs étaient modernisés fin 2025",
-      "url": "https://www.capital.fr/economie-politique/fisc-pirate-seuls-52-de-ses-logiciels-et-serveurs-etaient-modernises-fin-2025-1529488?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-23T11:53:01.000Z",
-      "summary": "Le vol des données de près de 700 000 particuliers et professionnels dans le système d'information de la Direction générale des finances publiques a …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/capital.fr/51a796d67d00c5850424e9d2a12a86e5d66cb98c/_xlarge.jpeg"
     },
     {
       "id": "3b1c1ba3f560dabd99a133cb25c08c97f585d8da",
@@ -503,17 +569,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/fc4a7f72993f8f2e6c4a706be741ea22bdfa52bf/_xlarge.jpeg"
-    },
-    {
-      "id": "e891d0de61c51c74aeacf0cb94001159abb1afb3",
-      "title": "Piratage du fisc : trois fuites, des excuses et un plan d’urgence de Bercy",
-      "url": "https://android-mt.ouest-france.fr/news/piratage-du-fisc-trois-fuites-des-excuses-et-un-plan-durgence-de-bercy/211810/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-23T04:04:59.000Z",
-      "summary": "Un piratage en trois temps révélé au fil de l’été Bercy a fini par reconnaître l’ampleur du problème. Lors d’une conférence de presse tenue mardi, la …",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/a36ee54f5bff6565faa461eda5d5178831052f72/_xlarge.jpeg"
     },
     {
       "id": "a9c43b92ecd0697d8e30b3234c6db71da7c2664c",
@@ -1869,17 +1924,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJW5BJKjwNfnH2t8RrvgW0wUO3_ZJWnw30aS6GlU9qoaOWMQcyoZ9ZOZmTgLo7hWAqHlKDK2b4MrtF23Jv_1-1Ffd6bo6VlR8exLvIISBANwjHnW3dv7wLgCtyCIDlndpJ67TajeEpN-Ww9eVVutmS4fTpcDPJtlAk_ZU0GLtnkDvYLlqWPv75uMH7ob__/s1600/snowflake.jpg"
     },
     {
-      "id": "bb2a271d10706f8e7453926c86e492405c97d3d3",
-      "title": "Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads",
-      "url": "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-17T18:22:09.000Z",
-      "summary": "A critical security flaw has been disclosed in Forminator Forms, a WordPress plugin with more than 600,000 active installations, that could be exploited to achieve arbitrary code e",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5Jfag1_E06odK7mkATjCOSPdD_fHy2kcYYHfi9fDNTsk0CRkV2yJD0Uz4MV82XjbMR5QNyK3Akw5Ysf0N7fDQ3DwApNb5Tf9R4axktScKF3UZlMVtrY3ulTzrYjFviMA8HmIUCBZhxmR59TtnJ7xf-B_iJtl3SWiBZAFbOfhUoldNdZX0sOStx6ULNMSZ/s1600/wordpress-flaw.jpg"
-    },
-    {
       "id": "db26030bc69f97b58ad4f3caf330b4f5e08577cb",
       "title": "La prochaine grande mise à niveau d’Ethereum compte 66 propositions, dont une correction majeure en matière de confidentialité",
       "url": "https://www.coindesk.com/fr/tech/2026/08/17/ethereum-s-next-big-upgrade-has-66-proposals-including-a-major-privacy-fix?amp%3Butm_content=CoinDesk%2Fmagazine%2FCOINDESK+Fran%C3%A7ais",
@@ -2227,50 +2271,6 @@
       "source": "CISA",
       "publishedAt": "2026-08-13T12:00:00.000Z",
       "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-225-14.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "b2fe8b7642e7cb106b2804d7bcba1698f38580ee",
-      "title": "Siemens Siveillance Video",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-09",
-      "source": "CISA",
-      "publishedAt": "2026-08-13T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-225-09.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "dc779c3f53751c5eafe7acbcc4540fec4c0876f2",
-      "title": "Flow Neuroscience FL-100",
-      "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-225-01",
-      "source": "CISA",
-      "publishedAt": "2026-08-13T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsma-26-225-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "c56f06a006a1c696938321b9dbead36dce40466a",
-      "title": "Siemens LOGO! Soft Comfort",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-13",
-      "source": "CISA",
-      "publishedAt": "2026-08-13T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-225-13.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "ee3a4b4bf2640ceff6c62af98a163c9ebb194ae4",
-      "title": "Siemens Solid Edge",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-12",
-      "source": "CISA",
-      "publishedAt": "2026-08-13T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-225-12.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
