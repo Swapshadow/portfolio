@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T22:28:56.286Z",
+  "generatedAt": "2026-08-26T01:24:49.499Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -76,11 +76,22 @@
   ],
   "items": [
     {
-      "id": "9d00bd0e1020103bdec6601814d7044f5dfe1cf0",
+      "id": "f43b11443ca361f76fbcc0dba225129891da3414",
+      "title": "Carhartt - 12,933,413 breached accounts",
+      "url": "https://haveibeenpwned.com/Breach/Carhartt",
+      "source": "Have I Been Pwned",
+      "publishedAt": "2026-08-25T21:34:25.000Z",
+      "summary": "In August 2026, clothing retailer &lt;a href=\"https://cybernews.com/news/carhartt-data-breach-shinyhunters-millions-customer-records/\" target=\"_blank\" rel=\"noopener\"&gt;Carhartt wa",
+      "type": "LEAK",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "7e962889f29273cc92a2c74eb85439c119dbff9b",
       "title": "Un piratage ayant ciblé une mutuelle a fait fuiter les données de 1,2 million de comptes",
-      "url": "https://www.cosmopolitan.fr/un-piratage-ayant-cible-une-mutuelle-a-fait-fuiter-les-donnees-de-1-2-million-de-comptes,2163714.asp?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "url": "https://www.cosmopolitan.fr/un-piratage-ayant-cible-une-mutuelle-a-fait-fuiter-les-donnees-de-1-2-million-de-comptes,2163714.asp?amp%3Butm_content=topic%2Ffr-technologie",
       "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-25T19:03:00.000Z",
+      "publishedAt": "2026-08-25T21:03:00.000Z",
       "summary": "Récemment, les piratages massifs se multiplient, ciblant différents types d'organismes publics ou privés. Cette mutuelle par exemple, a vu les …",
       "type": "LEAK",
       "severity": "Info",
@@ -2261,17 +2272,6 @@
       "publishedAt": "2026-08-17T00:00:00.000Z",
       "summary": "Duplicati 2.2.0.3 - JWT Signing Key Leak",
       "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "265e527e7e65b4f955e269cc465194399dacda59",
-      "title": "[webapps] Joomla JCE_2.9.15 - Remote Code Execution",
-      "url": "https://www.exploit-db.com/exploits/52645",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "Joomla JCE_2.9.15 - Remote Code Execution",
-      "type": "CVE",
       "severity": "Info",
       "imageUrl": null
     }
