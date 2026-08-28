@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T20:11:35.542Z",
+  "generatedAt": "2026-08-28T05:59:51.165Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -47,13 +47,13 @@
       "name": "Cybercriminalité FR",
       "url": "https://flipboard.com/topic/fr-cybercriminalit%C3%A9.rss",
       "status": "ok",
-      "items": 0
+      "items": 30
     },
     {
       "name": "Cryptographie FR",
       "url": "https://flipboard.com/topic/fr-cryptographie.rss",
       "status": "ok",
-      "items": 0
+      "items": 30
     },
     {
       "name": "BleepingComputer",
@@ -76,6 +76,105 @@
   ],
   "items": [
     {
+      "id": "cdc9998ed20db497f0af8ecde0471787c4eb5114",
+      "title": "Fuite présumée de données électorales dominicaines",
+      "url": "https://www.zataz.com/fuite-presumee-de-donnees-electorales-dominicaines/",
+      "source": "Zataz",
+      "publishedAt": "2026-08-27T23:02:12.000Z",
+      "summary": "Fuite JCE revendiquée : 7,1 millions de dossiers et 5,8 millions de photos d’identité potentiellement exposés.",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://www.zataz.com/wp-content/uploads/rep_domi_leak.jpg"
+    },
+    {
+      "id": "6eb8d3e9da8e99a8727fe8d6a75c278e825eb92b",
+      "title": "Congo : un pirate revendique 110 000 données e-Solde",
+      "url": "https://www.zataz.com/congo-un-pirate-revendique-110-000-donnees-e-solde/",
+      "source": "Zataz",
+      "publishedAt": "2026-08-27T22:48:04.000Z",
+      "summary": "Un pirate revendique 110 000 données e-Solde au Congo et des dizaines d’autres bases compromises dans le monde.",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.zataz.com/wp-content/uploads/esolde_leak.jpg"
+    },
+    {
+      "id": "3c0768b628a0cda37667e0d6b9c23a2fb421070a",
+      "title": "L’IA pirate qui promet anonymat et zéro filtre",
+      "url": "https://www.zataz.com/lia-pirate-qui-promet-anonymat-et-zero-filtre/",
+      "source": "Zataz",
+      "publishedAt": "2026-08-27T22:32:10.000Z",
+      "summary": "Une IA testée revendique anonymat sans filtres, capable de générer du code sensible et des images extrêmes.",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.zataz.com/wp-content/uploads/IA_hack.jpg"
+    },
+    {
+      "id": "ebadae7d8076c51775cddc2cf0d04d82b611c094",
+      "title": "Quand les fuites de données ciblent les victimes",
+      "url": "https://www.zataz.com/quand-les-fuites-de-donnees-ciblent-les-victimes/",
+      "source": "Zataz",
+      "publishedAt": "2026-08-27T21:40:33.000Z",
+      "summary": "Des fuites de données aux home-jackings, comment des informations volées peuvent devenir un outil de ciblage criminel.",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://www.zataz.com/wp-content/uploads/cible_leak.victimes.jpg"
+    },
+    {
+      "id": "5319a0da75adf7852fee3006e269253106d3c044",
+      "title": "OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face",
+      "url": "https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-27T18:36:19.000Z",
+      "summary": "OpenAI on Wednesday revealed that reward hacking was a key driver behind the artificial intelligence (AI)-powered hack of Hugging Face last month, adding that it found evidence of ",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpo4ImsmaHcawsJN9e4E5SzjUF-nbgOxCyybx3DIguSY_exMP1jhR2BZJ3yE2ZqGOE5c6_NvldW6id4Nm_NgcVrrRPALnw1fNbiisTiy8QFiIKriNiWRq6JMb5QcQTcDBaV_T3r6QYR9VC_FwtLg-G6lSYNM0F3n7q_HXI7aScGzMNB-OwLs6U9iqdk7Gs/s1600/openai.jpg"
+    },
+    {
+      "id": "6eeec4f84d7cfcec4ced7bf34760b85127afcd5e",
+      "title": "Cyberattaques amplifiées par l’IA : OpenAI, Anthropic, Google et plus de 100 entreprises jugent « nécessaire » une « réponse mondiale »",
+      "url": "https://www.lemonde.fr/pixels/article/2026/08/27/cyberattaques-amplifiees-par-l-ia-openai-anthropic-google-et-plus-de-100-entreprises-jugent-necessaire-une-reponse-mondiale_6758503_4408996.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-27T18:09:31.000Z",
+      "summary": "Dans une lettre ouverte, les géants de la tech prévoient des attaques « beaucoup plus répandues et sophistiquées » dans « les mois qui viennent » et …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://img.lemde.fr/2026/08/27/0/0/12067/8045/1440/960/60/0/b5e4162_ftp-1-g1etspwnh5r1-5927679-01-06.jpg"
+    },
+    {
+      "id": "60c67f8adb133782b525f1e81c3a93258954d2f9",
+      "title": "Piratage du fisc : \"Avant de nous demander toujours plus de données, commencez par protéger celles que vous avez déjà !\"",
+      "url": "https://www.marianne.net/agora/tribunes-libres/piratage-du-fisc-avant-de-nous-demander-toujours-plus-de-donnees-commencez-par-proteger-celles-que-vous-avez-deja",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-27T18:00:10.000Z",
+      "summary": "Après la cyberattaque qui a touché près de 700.000 usagers de l'administration fiscale, dont 350.000 particuliers, plusieurs centaines d'entre eux se …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://images.marianne.net/x8fsvthw5402/3dOyxaGYzfbZ0FLVK0DN9h/e0f25ebb99fbbf5ea735542141db2374/SIPA_01291338_000015.jpg?w=1540&amp%3Bh=924&amp%3Bfit=fill&amp%3Bf=center"
+    },
+    {
+      "id": "5c16d0cd7e54fa1cf29a0b4f5db2ee50a6e28560",
+      "title": "Cyberattaques par IA : les géants de la Tech veulent une réponse mondiale",
+      "url": "https://video.lefigaro.fr/figaro/secteur/high-tech/cyberattaques-par-ia-les-geants-de-la-tech-veulent-une-reponse-mondiale-20260827?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-27T17:46:33.000Z",
+      "summary": "Plus d’une centaine d’entreprises, dont OpenAI, Anthropic et Google, ont appelé jeudi 27 août à une «réponse mondiale» pour protéger hôpitaux, …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://i.f1g.fr/media/ext/1200x630_crop/api-video-public.lefigaro.fr/assets/dc/8c/35/dc8c35706066f54c1a947ad05601bb28.jpeg"
+    },
+    {
+      "id": "16b20f71ba60a4725707d2bfaebc1454aefae5d7",
+      "title": "Cyberattaque dans l’Éducation nationale : « Ça risque d’être un peu la pagaille », confie un proviseur à propos de la rentrée scolaire",
+      "url": "https://www.leparisien.fr/societe/cyberattaque-dans-leducation-nationale-ca-risque-detre-un-peu-la-pagaille-confie-un-proviseur-a-propos-de-la-rentree-scolaire-27-08-2026-XXPZXFL2H5HSJA555PLLVS2QRM.php?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-27T17:44:54.000Z",
+      "summary": "Malgré les propos rassurants du ministre de l’Éducation, Édouard Geffray, la situation reste critique sur le terrain après le piratage massif de …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.leparisien.fr/resizer/zGJ5MLXpZdtfyXp_NIx_SJD5O-c=/1600x900/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/5RUF7MY35NFNZODHJU2VLL22Z4.jpg"
+    },
+    {
       "id": "770fd2361ad7c7713673abf15084abeacb88671a",
       "title": "2,3 millions de détenteurs crypto français ciblés",
       "url": "https://www.zataz.com/23-millions-de-detenteurs-crypto-francais-cibles/",
@@ -85,6 +184,28 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://www.zataz.com/wp-content/uploads/crypto_leak_2.jpg"
+    },
+    {
+      "id": "4b19d635201232322cf8a081b3b4b4281b7ae6b9",
+      "title": "Collège injoignable par mail, plusieurs écoles également touchées... : à Tournefeuille, les attaques informatiques subies par l'Académie de Toulouse paralysent l'environnement scolaire",
+      "url": "https://www.ladepeche.fr/2026/08/27/college-injoignable-par-mail-plusieurs-ecoles-egalement-touchees-a-tournefeuille-les-attaques-informatiques-subies-par-lacademie-de-toulouse-13525685.php?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-27T17:02:02.000Z",
+      "summary": "À quelques jours de la rentrée, l'académie de Toulouse s'est retrouvée privée de système informatique suite à une cyberattaque. À Tournefeuille, …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://images.ladepeche.fr/api/v1/images/view/6a9056e70240de108a0d7160/hd/image.jpg?v=8"
+    },
+    {
+      "id": "4953cd5e6ca80cb0f700c23c1ca92eab0b1ea050",
+      "title": "Marc Levy, \"Les évadées, t. 1\" (Robert Laffont)",
+      "url": "http://www.livreshebdo.fr/article/marc-levy-les-evadees-t-1-robert-laffont",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-27T17:00:00.000Z",
+      "summary": "Dans la lignée de ses précédents ouvrages, Marc Levy développe avec Les évadées une intrigue planétaire où se croisent trumpisme, corruption et …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/livreshebdo.fr/1809c1ce0513e937905881caad8beb5af518c41b/_xlarge.jpeg"
     },
     {
       "id": "b76075145001821d93c18c7649e38597f2f7b9af",
@@ -142,6 +263,17 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwWCb2shFhaav60Wjr2-8DoStCVaQrYqkE6EBZ8F5sREap-Khi19y-w9NVmFHyHosV6xVB0fTeN_DcSpGIyCZ621SnjqZozRVG70ceOey_D8djA5r5rpP9tFkRSESgs4kHZilTMoz2y8uqX-iTLR0JjjZkhypYjCCAEvQKzyU7xarQpt3sYvJc-fnWSWlb/s1600/threats.jpg"
     },
     {
+      "id": "414399f76575177a89dac7daeda2065b6bb4eb00",
+      "title": "Un vrai film de science-fiction : OpenAI révèle enfin comment ChatGPT a lancé sa première cyberattaque",
+      "url": "https://www.01net.com/actualites/coup-semonce-openai-revele-enfin-comment-chatgpt-lance-premiere-cyberattaque.html?amp%3Butm_content=topic%2Ffr-culture",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-27T15:00:47.000Z",
+      "summary": "Sans que personne ne s’en aperçoive, des centaines d’agents IA d’OpenAI se sont mis à discuter en secret entre eux cet été. Dirigés par un ChatGPT …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/361b64380c940195536e8be092c0bd7f4763ec68/_xlarge.jpeg"
+    },
+    {
       "id": "85b019350568c2c3f05b46db3c59a8270479ea1e",
       "title": "AlerteCyber",
       "url": "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/alertecyber-2",
@@ -151,6 +283,17 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": null
+    },
+    {
+      "id": "b6e1a4bc1f38c6ecc719930648c5648f23fc3221",
+      "title": "Doctolib alerte sur de faux messages qui cherchent à voler vos données",
+      "url": "https://www.capital.fr/conso/doctolib-alerte-sur-de-faux-messages-qui-cherchent-a-voler-vos-donnees-1529618?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-27T14:30:00.000Z",
+      "summary": "Un faux courriel aux couleurs de Doctolib circule actuellement et promet aux destinataires un prétendu «Medicare Kit» après avoir répondu à un …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/capital.fr/7dbb87e86cf9c990582d3df522bebc7159d77ac9/_xlarge.jpeg"
     },
     {
       "id": "ab2eb4b6cccdccafd2981ae1ee8db7daa8dedaf6",
@@ -164,6 +307,17 @@
       "imageUrl": null
     },
     {
+      "id": "361a4bf39182fb8d5a191cf060aac6a3471f78a5",
+      "title": "Cyberattaque dans l’Éducation nationale : un syndicat envisage un préavis de grève à partir du 3 septembre",
+      "url": "https://www.ouest-france.fr/education/cyberattaque-dans-leducation-nationale-un-syndicat-envisage-un-preavis-de-greve-a-partir-du-3-septembre-9545cfea-a21b-11f1-bba4-fb5ac80a227f?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-27T14:07:13.000Z",
+      "summary": "Dans l’académie de Nantes, particulièrement touchée par la cyberattaque, la FSU annonce dans un communiqué qu’elle déposera un préavis de grève « si …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/767a4c6848bc0d12c46105f786d77c42e4f0cc8b/_xlarge.jpeg"
+    },
+    {
       "id": "f0168f7f9078de500b797c30705b91c5d992a1e5",
       "title": "Amazon Kiro Prompt Injection Can Exfiltrate Sensitive Data Through Kiro Powers",
       "url": "https://thehackernews.com/2026/08/amazon-kiro-prompt-injection-can.html",
@@ -173,6 +327,50 @@
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUdyQnHdjoEXFnc-5nB-6oglAbvpOYwuWqfjYkgeKH6HaqUjosKOHhmEQ_7StMkMBv53gz27Ilg-15yRaQ-hxoYi0ASuRMOCuPTHa8gP6a6PzYSewTWsDkKAx8dsMByZXDYDlRE1wRYoCvE7NuYqXdCpZ8_Y4E4tAUy0SBFl0S_XxLvpnjFRbqat0EwggW/s1600/kiro-amazon.jpg"
+    },
+    {
+      "id": "23671b03378a04457baf7cb7b66b97f0f1f79567",
+      "title": "WhatsApp renforce sa sécurité avec les passkeys multiples",
+      "url": "https://android-mt.ouest-france.fr/news/protection/whatsapp-renforce-sa-securite-avec-les-passkeys-multiples/212183/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-27T13:31:18.000Z",
+      "summary": "Une authentification pensée pour l’usage réel Jusqu’ici, l’utilisateur de WhatsApp pouvait enregistrer une seule clé d’accès pour sécuriser son …",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/112931ca9bdf3f93e6f317754576da42be9c91e6/_xlarge.jpeg"
+    },
+    {
+      "id": "d82e00419f775c8ded5d59ea77a759d3264ba841",
+      "title": "Guerre hybride : la France doit se préparer à tenir",
+      "url": "https://www.lejdd.fr/International/guerre-hybride-la-france-doit-se-preparer-a-tenir-181965?at_medium=affiliate&amp%3Bat_campaign=Flipboard",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-27T12:58:23.000Z",
+      "summary": "TRIBUNE. Alors que les formes de guerre hybride se multiplient en Europe, Thomas Hernault* alerte sur les menaces qui ciblent déjà la France et …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/lejdd.fr/6ef7a92452058a506e1365e751dd7908058542a3/_large.jpeg"
+    },
+    {
+      "id": "6ea68534d6877426b8f6d872898b9ed2b5c1fc1a",
+      "title": "Facturation électronique : face aux craintes de piratage, le gouvernement veut rassurer",
+      "url": "https://siecledigital.fr/2026/08/27/facturation-electronique-face-aux-craintes-de-piratage-le-gouvernement-veut-rassurer/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-27T12:08:12.000Z",
+      "summary": "La facturation électronique est redoutée. Alors que les piratages se multiplient, la question sur les protections des plateformes se pose. Le 1er …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://siecledigital.fr/wp-content/uploads/2026/08/4265997380.jpg"
+    },
+    {
+      "id": "406dfa121c6bc9308bff7735141e2d9bc1c235d8",
+      "title": "Presque 2 millions de profils clients français ont fuité : un service de fidélité touché par une cyberattaque",
+      "url": "https://www.science-et-vie.com/technos-et-futur/presque-2-millions-de-profils-clients-francais-ont-fuite-un-service-de-fidelite-touche-par-une-cyberattaque-256437.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-27T12:00:34.000Z",
+      "summary": "Les cartes de fidélité dématérialisées s'accumulent dans nos téléphones, souvent sans qu'on prête attention aux informations qu'elles récoltent. …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.science-et-vie.com/wp-content/uploads/scienceetvie/2026/08/ali-mkumbwa-n3rz-vbyahu-unsplash-scaled.jpg"
     },
     {
       "id": "c33dd98a55ad5656491b1d49c82fa61da9b773da",
@@ -285,6 +483,17 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6Ze_JyLo4PQxJMbwu8Mn_aCoLWiD2dgbGmzOPcYcdrN8wunKZu2SZll2fiHcAOFoA0h9N5TYPOY_IvrPpGqTpnXdyd5bXHRtyHqb3t3junXDMotOAD43Y0jzA9wkCSjoOIo1knFjtTVRAeOSjpHqLzfMGceCcHYGb6cE1HD-Y5mtY9hyphenhyphenHT9PeUk3TV68/s1600/TeamPCP-arrest.gif"
     },
     {
+      "id": "c69cac2b79a4dca8cae1cd1aa705c7cfa252e3dc",
+      "title": "Education nationale : Le bilan de Macron est « catastrophique », selon le premier syndicat d’enseignants du secondaire",
+      "url": "https://www.20minutes.fr/societe/4241279-20260827-education-nationale-bilan-macron-catastrophique-selon-premier-syndicat-enseignants-secondaire?at_medium=display&amp%3Bat_campaign=149",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-27T11:49:42.000Z",
+      "summary": "Un bilan « catastrophique ». Voilà comment le premier syndicat représentatif des enseignants en collège et au lycée a qualifié le bilan d’Emmanuel …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://img.20mn.fr/xxdCcS33TcSDM4OX0RPZECk/1444x920_le-president-francais-emmanuel-macron-et-le-prince-heritier-saoudien-mohammed-bin-salman-assistent-a-la-signature-d-accords-de-partenariat-strategique-entre-la-france-et-l-arabie-saoudite-au-palais-de-l-elysee-a-paris-en-france-le-24-aout-2026-sipa-11450-credit-anne-sophie-guebey-piscine-sipa-2608250619"
+    },
+    {
       "id": "79507a0cfca156a9d2891d4b0d40cb368207bde3",
       "title": "What the Data Says About AI in Security Operations in 2026",
       "url": "https://thehackernews.com/2026/08/what-data-says-about-ai-in-security.html",
@@ -307,6 +516,17 @@
       "imageUrl": "https://krebsonsecurity.com/wp-content/uploads/2026/07/teampcp-shai-hulud.png"
     },
     {
+      "id": "4dc775e2d475f516e05002d709f9e641a856b7fa",
+      "title": "Cyberattaques : La Chine et les Etats-Unis s’accusent mutuellement en matière de cybersécurité",
+      "url": "https://www.20minutes.fr/monde/chine/4241273-20260827-cyberattaques-chine-etats-unis-accusent-mutuellement-matiere-cybersecurite?at_medium=display&amp%3Bat_campaign=149",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-27T11:01:16.000Z",
+      "summary": "Dos à dos. La Chine a retourné jeudi aux Etats-Unis leurs accusations de cyberpiratage en déclarant qu’ils étaient « la plus grande puissance de …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://img.20mn.fr/spGpID5nSGWmoFntF7z3nik/1444x920_france-veranne-1er-janvier-2026-illustration-d-un-piratage-informatique-a-l-aide-d-un-clavier-d-ordinateur-photographie-de-romain-doucelin-hans-lucas-francia-veranne-01-01-2026-illustration-piratage-informatique-avec-clavier-d-ordinateur-photographie-par-romain-doucelin-hans-lucas-photo-de-romain-doucelin-hans-lucas-via-afp"
+    },
+    {
       "id": "9fce6935d81094a8e38994785a242e1e30cf69d9",
       "title": "Spark RAT Targets Cambodia, Abuses Vulnerable OPSWAT Driver to Disable Security Tools",
       "url": "https://thehackernews.com/2026/08/spark-rat-targets-cambodia-abuses.html",
@@ -316,6 +536,39 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvqqkrFYi_Np3w-hHvDbFZqWnf1qCrkS6zwJARAyiKX99YdH2w37pqvD-Zy1HPAYdbJbFu3Tztap9lcuv-lkq8wd9elTkfK0NWN5a9J8218OE9btcQHMdyM93GiuYLuj5mC_TPFBXnVZkUEckgARKceSsJKRqHDeW-U_tsDcPscO3-s2Oid28OEZTz7cIw/s1600/combo-malware.jpg"
+    },
+    {
+      "id": "722c1b351aadb7d0a688afa526ebfcfb98b7795f",
+      "title": "Piratage du fisc : l'association AC !! Anticorruption porte plainte contre X",
+      "url": "https://www.lefigaro.fr/secteur/high-tech/piratage-du-fisc-l-association-ac-anticorruption-porte-plainte-contre-x-20260827?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-27T10:49:10.000Z",
+      "summary": "L’association souhaite vérifier que la cyberattaque n’a pas été permise par un agent qui aurait été corrompu. Elle veut aussi que la justice se …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://i.f1g.fr/media/cms/1200x630_crop/2026/08/27/d2df64ae069ef911bdadb52e669b44a97e7b893e7d773fbf96d57828443b8cb6.jpg"
+    },
+    {
+      "id": "252055b5cc842d0ef851f8f82118abf571d2290f",
+      "title": "Avant le piratage du fisc, Lecornu avait alerté sur les failles de la DGFIP",
+      "url": "https://www.humanite.fr/politique/fiscalite/avant-le-piratage-du-fisc-lecornu-avait-alerte-sur-les-failles-de-la-dgfip?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-27T10:37:16.000Z",
+      "summary": "Le premier ministre Sébastien Lecornu a demandé, en avril dernier, au gouvernement de se pencher « dès les prochaines semaines » sur la mise en place …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/humanite.fr/f946553dc104dd762326c41e9afa976444ed8902/_large.jpeg"
+    },
+    {
+      "id": "aa1a4a20662a730bb9e0373dd484acdff38031b4",
+      "title": "La plateforme Doctolib met en garde contre une campagne de phishing - Outre-mer La 1ère",
+      "url": "https://la1ere.franceinfo.fr/guadeloupe/la-plateforme-doctolib-met-en-garde-contre-une-campagne-de-phishing-1732688.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-27T10:00:01.000Z",
+      "summary": "Ne cliquez sur aucun lien suspect et ne divulguez aucune information sensible à votre sujet, alerte Doctolib. Le logo et les codes de la plateforme …",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/632377bdfbe9a08acf79fae912142dbf72963b01/_xlarge.webp"
     },
     {
       "id": "f338ac65cd839dbad3682c9c49faa681a733f57c",
@@ -329,6 +582,17 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieDE2TgdHU9cQ1MQ7milMPfNWnlskvIWM9VB_9t59o4zxCWPtZY5yyhrJ9Pc558pdVGdapBNcv9SP38IyfrHp0KIgLQeYlAQIPGwopzDvg2WimSzte5wkju-6YypllUrEr8-yto3Bx8mZAhfs7Hf64MTLwyDqAUCPEFlSey89QZx3L-xmHFzVBBwQmRVU/s1600/go.jpg"
     },
     {
+      "id": "2d8dc577125cc20a01303ac585588e6d88784c79",
+      "title": "Maroc : cette fuite de données massive qui expose des agents du renseignement",
+      "url": "https://www.lexpress.fr/monde/afrique/maroc-cette-fuite-de-donnees-massive-qui-expose-des-agents-du-renseignement-2OX3DKONSZHAXIJ4GWMO6ZYRWQ/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-27T09:23:13.000Z",
+      "summary": "Cyberattaque. Un groupe de hackers, \"Jabaroot\", a diffusé lundi 24 août sur Telegram les données de 70 000 membres présumés des services de sécurité …",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/lexpress.fr/a8cfd50861017643e93139fc233ed29940e30434/_xlarge.jpeg"
+    },
+    {
       "id": "503ab287141ebfbc335d54cd7ad2c6f23b43ffa7",
       "title": "New GPUThor Rowhammer Defeats ECC on NVIDIA RTX A6000 to Gain Host Root Access",
       "url": "https://thehackernews.com/2026/08/gputhor-rowhammer-defeats-ecc-on-nvidia.html",
@@ -340,6 +604,17 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2AxQ4SD6_1WKkpvBVi_M7oKLMeBAiKU4Ek4HbnJXHLX5xSbUg7ky1ITdUJY91n-zZGyK55-qQRd24PWRymLmik7cRl4CYPoaeZL5JuLedlsOTJGHChwF1eQWGhUE6AhOZUSW7CoajwQcKCu8E_zrYn8I6203Nrvr9NvheYL-5ISm0fs1xdWNiKGWqIs0/s1600/nvidia-bits.jpg"
     },
     {
+      "id": "927a8662982a3e8716bff85859f3e3d1f5abe7db",
+      "title": "Cyberattaque d'Hugging Face : comment 688 agents IA d'OpenAI se sont coordonnés pour s'échapper - ZDNET",
+      "url": "https://www.zdnet.fr/actualites/cyberattaque-dhugging-face-comment-688-agents-ia-dopenai-se-sont-coordonnes-pour-sechapper-500680.htm",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-27T07:07:24.000Z",
+      "summary": "L’investigation sur le piratage d'Hugging Face révèle un scénario inédit : 688 agents IA d’OpenAI se sont coordonnés pour franchir leur bac à sable. …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2024/03/gettyimages-1246536583-2-scaled.jpg"
+    },
+    {
       "id": "89a5ab1bc241671c72c05277d1babb57d25da06e",
       "title": "CISA Adds Six Exploited Flaws to KEV, Including NetScaler, Linux, and SQL Server Bugs",
       "url": "https://thehackernews.com/2026/08/cisa-adds-six-exploited-flaws-to-kev.html",
@@ -349,6 +624,61 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsOm0ydTRNpwfiKMNN7TGZyoellV9LHrcra7ES8hU8PvT6haNsS-QQ5IlystrzP1eq5jiIRfyykIZyB5JKrya5K4ryBRp9gKAmsoVW7OMis-YT4T6jnpbN11M8mUnPn-2yY-caG31-iXmDAhJ9CTbRg8r1UPWWqCob_S8St7McsKCM-4I36jD_xqE8D3BS/s1600/cisa-flaws.jpg"
+    },
+    {
+      "id": "a4d2d69600f2a0b50b8cecfa27d3191df2127ed0",
+      "title": "GTA 6 : la fausse démo qui piège déjà les fans trop pressés",
+      "url": "https://www.begeek.fr/gta-6-la-fausse-demo-qui-piege-deja-les-fans-trop-presses-439140?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-27T06:00:44.000Z",
+      "summary": "Des faux sites imitant Rockstar promettent une démo de GTA 6. Le téléchargement installe en fait un malware qui vole mots de passe et sessions. Un …",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://ic-cdn.flipboard.com/begeek.fr/d4fe6296f244334e526192d6d5afaf0f2015e107/_xlarge.webp"
+    },
+    {
+      "id": "bde2bcca64ffbbd03da7c40526efb0362e5f9a80",
+      "title": "Fuite de données Intermarché : ce que la cyberattaque révèle sur les fragilités du retail",
+      "url": "https://www.blogdumoderateur.com/fuite-donnees-intermarche-cyberattaque-revele-fragilites-retail/?amp%3Butm_content=topic%2Ffr-technologie",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-27T05:00:08.000Z",
+      "summary": "Intermarché a été touché par une fuite de données, un an après Marks &amp; Spencer, Co-op et Harrods. Matthieu Trivier (Semperis) nous explique pourquoi …",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://f.hellowork.com/blogdumoderateur/2026/08/Matthieu-Trivier-Semperis.jpg"
+    },
+    {
+      "id": "09a416ad580e6680ae18222d67e83b68187850b5",
+      "title": "Facturation électronique : face aux craintes de piratage, Bercy tente de rassurer",
+      "url": "https://www.la-croix.com/economie/facturation-electronique-face-aux-craintes-de-piratage-bercy-tente-de-rassurer-20260826?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-27T04:45:07.000Z",
+      "summary": "Alors que la réforme approche à grand pas, le gouvernement cherche à désamorcer les inquiétudes des entreprises. Après une cyberattaque ayant touché …",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://ic-cdn.flipboard.com/la-croix.com/0cc9c73c2265e109b2c29b7b60b4d50f9994d810/_xlarge.jpeg"
+    },
+    {
+      "id": "e88d9fef4f6f028a4caac21ac3cc172291ec4da7",
+      "title": "Maroc: les données de 70 000 agents de la police et du renseignement publiées après une nouvelle cyberattaque",
+      "url": "https://www.rfi.fr/fr/afrique/20260827-maroc-les-donn%C3%A9es-de-70-000-agents-de-la-police-et-du-renseignement-publi%C3%A9es-apr%C3%A8s-une-nouvelle-cyberattaque?amp%3Butm_content=topic%2Ffr-technologie",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-27T02:48:48.000Z",
+      "summary": "Revendiquée par le groupe de hackers Jabaroot qui se présente comme un soutien d'Alger, la fuite, jugée au moins en partie authentique par d'ex-membres du renseignement du royaume,",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/rfi.fr/bb9841eb534ae1eb0c01703972ab13345b447867/_xlarge.jpeg"
+    },
+    {
+      "id": "bc4b7d433c6e6c7e1bd21295997ee2ef237b9565",
+      "title": "Bouteilles d'eau, boîtes de conserve, conseils pratiques : le Royaume-Uni prépare sa population aux nouvelles menaces",
+      "url": "https://www.lesechos.fr/monde/europe/bouteilles-deau-boites-de-conserve-conseils-pratiques-le-royaume-uni-prepare-sa-population-aux-nouvelles-menaces-2248615?amp%3Butm_content=topic%2Ffr-technologie",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-27T00:30:47.000Z",
+      "summary": "Une campagne d'information devrait être lancée bientôt par le gouvernement britannique dans un contexte de cyberattaques et de menaces russes …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://media.lesechos.com/api/v1/images/view/6a906d1e37af0cd6f7061d9a/1280x720/02003366149298-web-tete.jpg"
     },
     {
       "id": "72e6c4f7cb0eebbd6fd4e0cada97d46e9a968916",
@@ -450,6 +780,17 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWDtkssu1a2OfGXtU3IlV8MARDVh3XpsurXStcVxASTKf_ACkwIhG6XVbR6fqqWFEFcOEOzLWpy1GGKHgTogw1hQL1O5CtLrLweaGx9GLnM-6CXDApf6VcpFzWFe0FaYgPi1TdhOotRrJ9xU39dk4efUJsMejezEs8t0v8oLyafMuVZrzgkeP-AEhls-x8/s1600/nimbus.png"
     },
     {
+      "id": "d7406e4067b297fef4bd0b5ca2e5c621bf99cdab",
+      "title": "\"Le monde entier suivrait\": Bill Gates veut rencontrer Xi Jinping pour le convaincre de dialoguer et coopérer face aux risques de l’IA et établit une \"priorité mondiale absolue\"",
+      "url": "https://www.bfmtv.com/tech/intelligence-artificielle/le-monde-entier-suivrait-bill-gates-veut-rencontrer-xi-jinping-pour-le-convaincre-de-dialoguer-et-cooperer-face-aux-risques-de-l-ia-et-etablit-une-priorite-mondiale-absolue_AN-202608260535.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-26T14:14:17.000Z",
+      "summary": "Bill Gates veut rencontrer Xi Jinping pour proposer une coopération entre la Chine et les États-Unis afin de mieux encadrer les risques liés à …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/LdV3d-Dk3gYCbKSIho-6j88JYRc=/0x106:2048x1258/2048x0/images/Bill-Gates-apres-un-entretien-a-huis-clos-avec-la-commission-de-surveillance-de-la-Chambre-des-representants-au-Capitole-a-Washington-DC-le-10-juin-2026-2309460.jpg"
+    },
+    {
       "id": "36a53170801b2e42c823a70688ec2ff80b138eb6",
       "title": "NovaCookies Campaigns Abuse Genuine Docusign Notifications to Steal Microsoft 365 Sessions",
       "url": "https://thehackernews.com/2026/08/novacookies-campaigns-abuse-genuine.html",
@@ -470,6 +811,28 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhW3w9bF-wcalV_4xeymOZiHzRSkeBfz8Vh1B58JkthAgonYo-DGr3kWwNQ8ia760jX1kfC7NTkitD9rWxJNSNzMZWTAVWqrmJQXL7-1rOHbmC7mKSmfArdBAp5s4phuF3SlKr20agmwKrpI56a9SijzuYLnhYlb3R4l7uhb4S0Na0d3_OplvHmbC1EDCk/s1600/cisa-hack.jpg"
+    },
+    {
+      "id": "d287242f2e0e6dd935f3e8a92473ca06592fa182",
+      "title": "Défense maritime : l’Union Européenne investit face aux menaces",
+      "url": "http://fr.euronews.com/my-europe/2026/08/26/defense-maritime-lunion-europeenne-investit-face-aux-menaces",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-26T12:58:40.000Z",
+      "summary": "UE: des dépenses record pour protéger ses eaux, des câbles sous-marins aux navires de guerre. L’UE augmente ses dépenses de défense maritime à mesure que les menaces visant ses por",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/euronews.com/dbb08113dd227ffb026f243a67d39bcc5148ca6c/_xlarge.jpeg"
+    },
+    {
+      "id": "0107eb8e72beb9d8bb5d9855ca4ce56af4f85d25",
+      "title": "WhatsApp facilite la protection contre les tentatives de piratage",
+      "url": "https://www.24matins.fr/whatsapp-facilite-la-protection-contre-les-tentatives-de-piratage-1419508?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-26T12:00:10.000Z",
+      "summary": "WhatsApp ajoute des verrous plus solides aux comptes et affiche plus de contexte sur certains appels. Une mise à jour pensée contre le piratage. Les …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/24matins.fr/7b64b71eb8df38d5d52c5b674745bd3b51c820ea/_xlarge.webp"
     },
     {
       "id": "df35efadd675b369253ba992c5cff99a9ff97b44",
@@ -516,6 +879,17 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZq8QFTxW4LuCB6uU-05X_ZcT88PxrCrq4S8Tlt-ntdFViEUD7XTOuFp0Ep2oNd61UEYcnfV0dFYW7E1jzogc2t4fm3R2CU7I45rc9bF2fAPi85MeDbxGio5jRIK_8jmMeI9A6hU_laVDVcU5yvODt55syFnI0F4cHX0N1Wul8IGg9A_PbkM_sOHoSFds/s1600/Corelight.jpg"
     },
     {
+      "id": "3fa2482fd63faa2d81e5e4ee820beb395d397201",
+      "title": "La Russie n’a que 7 % de chances de remporter la guerre",
+      "url": "https://legrandcontinent.eu/fr/2026/08/26/la-russie-na-que-7-de-chances-de-remporter-la-guerre-les-huit-scenarios-dresses-par-sberbank/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-26T11:28:04.000Z",
+      "summary": "Le groupe de hackers Black Mirror a publié hier, mardi 25 août, des documents produits par Sberbank – la première banque russe et le pilier financier …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://legrandcontinent.eu/fr/wp-content/uploads/sites/2/2026/08/Share-Scenarios-de-Sberbank-pour-la-fin-de-la-guerre-en-Ukraine.jpg"
+    },
+    {
       "id": "a1e7de3341983fb9928cbd8ba7084faf8e07d933",
       "title": "Claude Opus 4.6 Bypasses Gym Booking Limit, Cancels Other Users' Reservations in Tests",
       "url": "https://thehackernews.com/2026/08/claude-opus-46-bypasses-gym-booking.html",
@@ -525,6 +899,17 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiLH7AlxOwnKOlTs4Zi3D7tyko_H-564oFmjcBu-YP4_YR7HMgRvWhGB9r0NhXwpVoqVk82yjCt9XjEcDfo7-iSoAVduYsjNndt3gU2fHqJ7PlwnFCjRaHJSYEMuZMAZOn6M_yGZ24JuUUjVCs1hTXes8h-q4OLFj2liDETlKzvCRAqKa-jX2Yrh-iErI/s1600/claude-gym.jpg"
+    },
+    {
+      "id": "d0261c436e8d26ee770d4786ace38c188c026109",
+      "title": "«Cash Investigation» : France 2 bouleverse sa programmation avec un numéro inédit sur les cyberattaques",
+      "url": "https://tvmag.lefigaro.fr/programme-tv/actu-tele/cash-investigation-france-2-bouleverse-sa-programmation-avec-un-numero-inedit-sur-les-cyberattaques-20260826?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-26T09:47:45.000Z",
+      "summary": "Le jeudi 10 septembre, France Télévisions déprogramme «Envoyé spécial» et «Complément d’enquête» afin de diffuser une enquête menée par les équipes …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://i.f1g.fr/media/cms/1200x630_crop/2026/08/26/910263b4e1fdf0df8d2636da8f21a0ba5534ecde4857dd19f1987ccd90364f1f.jpg"
     },
     {
       "id": "e625ee909afe973f3c888e8727758a889983e715",
@@ -1275,50 +1660,6 @@
       "imageUrl": "https://www.zataz.com/wp-content/uploads/Shiny_logitech.jpg"
     },
     {
-      "id": "c8b3d82478016a3ef42029fbd4be0fa0aa64fbec",
-      "title": "Rentrée scolaire 2026 : les arnaques à surveiller",
-      "url": "https://www.zataz.com/rentree-scolaire-2026-les-arnaques-a-surveiller/",
-      "source": "Zataz",
-      "publishedAt": "2026-08-22T11:18:32.000Z",
-      "summary": "Rentrée 2026 : faux paiements, fournitures, aides, licences et stages deviennent des vecteurs privilégiés d’arnaques cyber.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/rentree_scolaire_cyber.jpg"
-    },
-    {
-      "id": "9149f1f88de69ca6455b41c4e68c817a69c44ff6",
-      "title": "Une chemise à 10 € et le piège se referme",
-      "url": "https://www.zataz.com/une-chemise-a-10-e-et-le-piege-se-referme/",
-      "source": "Zataz",
-      "publishedAt": "2026-08-22T10:14:59.000Z",
-      "summary": "Une chemise vendue 10 € sur Vinted devait être une formalité. En quelques appels, une famille voit pourtant ses comptes basculer dans une mécanique d’escroquerie redoutable. Une ad",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/vinted_piege.jpg"
-    },
-    {
-      "id": "eae30de63f3128e5283c189cabbafcaec336f2fd",
-      "title": "Chess.com : un nouveau pirate revendique 7,3 millions de profils",
-      "url": "https://www.zataz.com/chess-com-un-nouveau-pirate-revendique-73-millions-de-profils/",
-      "source": "Zataz",
-      "publishedAt": "2026-08-22T09:46:54.000Z",
-      "summary": "Un pirate revendique la copie de 7,3 millions de profils Chess.com, dont quatre millions de mails.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/Chess_leak2.jpg"
-    },
-    {
-      "id": "78d00410af0fbbf8d0f65eb2368dc00c2caa727f",
-      "title": "LockBit 5.0 menace de publier des données d’Actua",
-      "url": "https://www.zataz.com/lockbit-5-0-menace-de-publier-des-donnees-dactua/",
-      "source": "Zataz",
-      "publishedAt": "2026-08-22T09:27:46.000Z",
-      "summary": "LockBit 5.0 menace de publier fin août des documents attribués à Actua concernant plus de 100 000 personnes.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/LockBit_actua.jpg"
-    },
-    {
       "id": "ef76f9ea7654f0d4dbdf00daf44f84527a141c86",
       "title": "Golf Canada - 568,972 breached accounts",
       "url": "https://haveibeenpwned.com/Breach/GolfCanada",
@@ -1638,17 +1979,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgshVe5DUMbByJkLQGRgak37eOf3HddCtrF6KCJfISPdm7l2ZwLFlnjQM3pN2mxPDpc9lWwSoH2fYfucYKBKk3vpuGAKdR5U685IZh8EFbMxWcyVenuRMyqIgvbFUa0_5Sx9pVl9Imu5omju6i7eRE0sKKxiCSKYEV1Say1LLhQHEufY10dgovzX0Nt7as/s1600/rust.jpg"
     },
     {
-      "id": "6de0fd64a0b43ee6b08821313c3d2054be7e2743",
-      "title": "Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts",
-      "url": "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-20T19:59:19.000Z",
-      "summary": "Three distinct suspected Russian cyber espionage threat clusters have been observed leveraging legitimate authentication flows to single out individuals working in academia, aerosp",
-      "type": "NEWS",
-      "severity": "Moyenne",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEix5lAWOEf4I8fcz0CJYg-EBclOrTPnlbsf6tKT2-L8xsfQ4XqtjOq15iU6EBbIsWlqQq3e1-hIXrPe7MMg4JwSGj6mSwjSwG8V3UFMrfgYD-Lo9bKvncTGJ9lPbZoxq-1RNmKLyL_jZSiurWVgGuIxjgYYJeXW_wE51PRTDUhT7kRxp0MMpc3YflI9bntb/s1600/google-whatsapp.jpg"
-    },
-    {
       "id": "3b335497374a6b3e35218142cfebc0c89e1fd979",
       "title": "Johnson Controls Simplex Incident Manager",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-232-01",
@@ -1943,336 +2273,6 @@
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;contournement d'authentification&lt;/strong&gt; exploitant la fonctionnalité de &lt;strong&gt;signature de brouillon partagé",
       "type": "CVE",
       "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "7628e16b7361a80bea4b94b247da2864af8d6133",
-      "title": "WordPress - CVE-2026-65640",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/wordpress-cve-2026-65640-2026-08-18",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-08-18T01:36:20.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité d'&lt;strong&gt;upload de fichier de type dangereux&lt;/strong&gt; dans le module de traitement des médias de WordPress.&lt;/p&gt; &lt;p&gt;W",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "09480444c1d47e4e2eeb24d001716f0921852cf6",
-      "title": "Notepad++ - CVE-2026-57233",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/notepad-cve-2026-57233-2026-08-18",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-08-18T01:35:26.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de type &lt;strong&gt;Zip Slip&lt;/strong&gt; dans la fonction de décompression decompress() du module &lt;strong&gt;WinGup&lt;/strong&gt;, c",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "32f0e1c81e3445da9a077df9eb0e6054cfa37322",
-      "title": "CompuGroup Medical - CVE-2026-50773",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/compugroup-medical-cve-2026-50773-2026-08-18",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-08-18T01:33:58.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;DLL Hijacking&lt;/strong&gt; dans le chargeur d'application &lt;strong&gt;SILoader.exe&lt;/strong&gt; de CGM ISIS MED.&lt;/p",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "cdca9a3f4f04e6a4f05d98a7f5c1cf030ec255b2",
-      "title": "GitLab - CVE-2026-19478",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/gitlab-cve-2026-19478-2026-08-18",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-08-18T01:33:06.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité d'&lt;strong&gt;injection de code&lt;/strong&gt; localisée dans le traitement d'une &lt;strong&gt;directive GraphQL&lt;/strong&gt; exposée pa",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "a084ee9945a09baa7deb2314995f078ffc3a8764",
-      "title": "[remote] PCMan 2.0.7 - Buffer Overflow",
-      "url": "https://www.exploit-db.com/exploits/52657",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-08-18T00:00:00.000Z",
-      "summary": "PCMan 2.0.7 - Buffer Overflow",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "1d4e60a953d350bfd1566230b61753a7ecbe34c7",
-      "title": "[dos] NanaZip 6.5 - DoS",
-      "url": "https://www.exploit-db.com/exploits/52656",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-08-18T00:00:00.000Z",
-      "summary": "NanaZip 6.5 - DoS",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "b24a7fe0397e080dfac096dba43c6340f01093bb",
-      "title": "[webapps] flyto-core 2.26.7 - Arbitrary File Write",
-      "url": "https://www.exploit-db.com/exploits/52655",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-08-18T00:00:00.000Z",
-      "summary": "flyto-core 2.26.7 - Arbitrary File Write",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "d65a11b532969a6839bfe2f49ccf9da3d2e4d4a6",
-      "title": "[webapps] Nodemailer 9.0.0 - File Read/ SSRF",
-      "url": "https://www.exploit-db.com/exploits/52654",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-08-18T00:00:00.000Z",
-      "summary": "Nodemailer 9.0.0 - File Read/ SSRF",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "2d5ff288bac23372734188c9f8d19c1fcdcb9a70",
-      "title": "[webapps] Linuxfabrik monitoring_plugins_6.0.0 - SSRF",
-      "url": "https://www.exploit-db.com/exploits/52653",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-08-18T00:00:00.000Z",
-      "summary": "Linuxfabrik monitoring_plugins_6.0.0 - SSRF",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "d6f4cabd0ce09a4233225464f739e4e2713d5c80",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/08/17/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "source": "CISA",
-      "publishedAt": "2026-08-17T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA has added one new vulnerability to its &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities (KEV) Ca",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": null
-    },
-    {
-      "id": "145fd331aa5adc1df30091d75c493b12e914a2dc",
-      "title": "Apache - CVE-2026-73635",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/apache-cve-2026-73635-2026-08-17",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-08-17T00:32:53.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans la &lt;strong&gt;gestion du cache des textes localisés&lt;/strong&gt; d'Apache Struts.&lt;/p&gt; &lt;p&gt;Apache Struts est un framework",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "5efff25d17575646bb3cbb6cd9a50cc73bfef247",
-      "title": "Scriban - CVE-2026-73061",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/scriban-cve-2026-73061-2026-08-17",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-08-17T00:31:39.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le composant &lt;strong&gt;TypedObjectAccessor&lt;/strong&gt; de Scriban.&lt;/p&gt; &lt;p&gt;Scriban est un moteur de modèles et un lang",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "2afe576aca22848fedcb880ed8c88007bd481f17",
-      "title": "Eclipse - CVE-2026-19884",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/eclipse-cve-2026-19884-2026-08-17",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-08-17T00:30:10.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans la &lt;strong&gt;gestion de la confiance des espaces de travail et l'intégration Git&lt;/strong&gt; d'Eclipse Theia.&lt;/p&gt; &lt;p&gt;",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "f37da75c5f338ad9703889b982f2c84d2704f7e7",
-      "title": "Tenable - CVE-2026-19681",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/tenable-cve-2026-19681-2026-08-17",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-08-17T00:29:16.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le &lt;strong&gt;traitement des fichiers téléversés&lt;/strong&gt; de Tenable Security Center.&lt;/p&gt; &lt;p&gt;Security Center est un",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "c70567e37c4d631987aedcd09f807ceb09031832",
-      "title": "IBM - CVE-2026-17186",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/ibm-cve-2026-17186-2026-08-17",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-08-17T00:28:17.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans l'&lt;strong&gt;interface graphique d'IBM Db2 Mirror for i&lt;/strong&gt; liée à une &lt;strong&gt;neutralisation incorrecte des élément",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "e5c1bdcec79c4d1eaedaab9c9d7344b4ecc2dcb8",
-      "title": "Vulnérabilité dans SPIP (17 août 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1033/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans SPIP. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "eb7bbe85eb2a8d95c9cffdd62c25b0703f8d835f",
-      "title": "[dos] NanaZip 6.5 - DoS",
-      "url": "https://www.exploit-db.com/exploits/52652",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "NanaZip 6.5 - DoS",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "523196390d79f6035e749e7a84e691a50950d4c9",
-      "title": "[webapps] flyto_core 2.26.7 - Server-Side Request Forgery",
-      "url": "https://www.exploit-db.com/exploits/52651",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "flyto_core 2.26.7 - Server-Side Request Forgery",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "0d78c44a7cfadff69289372382b50e10f5a86f5d",
-      "title": "[webapps] Probo 0.222.2 - IDOR",
-      "url": "https://www.exploit-db.com/exploits/52650",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "Probo 0.222.2 - IDOR",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "35f2daa9d0fe08b151cea31f57c9d8e1438abe37",
-      "title": "[webapps] webpack_devserver 5.2.5 - CSRF",
-      "url": "https://www.exploit-db.com/exploits/52649",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "webpack_devserver 5.2.5 - CSRF",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "e349b80cb6cfebb9c3b3a8ec88076002f8e95a81",
-      "title": "[remote] phpSysInfo 3.4.5 - IP Allowlist Bypass",
-      "url": "https://www.exploit-db.com/exploits/52648",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "phpSysInfo 3.4.5 - IP Allowlist Bypass",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "756f08f3b59f6fa9e7b361579a3ce530c7de2008",
-      "title": "[dos] Nmap 7.99 - Extension Header Integer Underflow",
-      "url": "https://www.exploit-db.com/exploits/52647",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "Nmap 7.99 - Extension Header Integer Underflow",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "0e8c93ac351f5c220a4fa114d617cad6908bc521",
-      "title": "[webapps] Duplicati 2.2.0.3 - JWT Signing Key Leak",
-      "url": "https://www.exploit-db.com/exploits/52646",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "Duplicati 2.2.0.3 - JWT Signing Key Leak",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "265e527e7e65b4f955e269cc465194399dacda59",
-      "title": "[webapps] Joomla JCE_2.9.15 - Remote Code Execution",
-      "url": "https://www.exploit-db.com/exploits/52645",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "Joomla JCE_2.9.15 - Remote Code Execution",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "ef360ee4c3e7ddd995678eb5bb6005d0e18b6abd",
-      "title": "[remote] ipTIME A3004T - Remote Code Execution",
-      "url": "https://www.exploit-db.com/exploits/52644",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "ipTIME A3004T - Remote Code Execution",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "7c1e00877cc4127efbb911840fc9cf7142664a91",
-      "title": "[remote] D-Link DNS_340L - OS Command Injection",
-      "url": "https://www.exploit-db.com/exploits/52643",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "D-Link DNS_340L - OS Command Injection",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "b9f8b77a1c163aec26a999a565ce58e249b07d59",
-      "title": "[webapps] WooCommerce 1.5.0 - Unauthenticated Arbitrary File Upload",
-      "url": "https://www.exploit-db.com/exploits/52642",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-08-17T00:00:00.000Z",
-      "summary": "WooCommerce 1.5.0 - Unauthenticated Arbitrary File Upload",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": null
-    },
-    {
-      "id": "2a3f08d9cedfa2340084372b8bf1bcb102c01136",
-      "title": "Who&#8217;s Tracking You? Use This New Service to Find Out",
-      "url": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
-      "source": "Krebs on Security",
-      "publishedAt": "2026-08-14T11:24:35.000Z",
-      "summary": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is alre",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://krebsonsecurity.com/wp-content/uploads/2026/08/decryptads-ESPN.png"
-    },
-    {
-      "id": "bfa17f6c84920a51badd23e9568dfe6c74e27ee0",
-      "title": "Palo Alto Networks - CVE-2026-0299 | modifié le 14-08-2026",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/palo-alto-networks-cve-2026-0299-2026-08-14",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-08-14T01:16:45.000Z",
-      "summary": "&lt;p&gt;Une vulnérabilité affecte le composant &lt;strong&gt;GlobalProtect&lt;/strong&gt; de &lt;strong&gt;Palo Alto Networks&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;GlobalProtect App e",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "e9e201759feb2e6307e23018648fa75d091b3587",
-      "title": "Joomla! Project - CVE-2026-73327",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/joomla-project-cve-2026-73327-2026-08-14",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-08-14T01:15:54.000Z",
-      "summary": "&lt;p&gt;Une vulnérabilité affecte le module de mise à jour de &lt;strong&gt;Joomla&lt;/strong&gt;!&lt;/p&gt; &lt;p&gt;Joomla! est un système de gestion de contenu web open source ",
-      "type": "CVE",
-      "severity": "Critique",
       "imageUrl": null
     }
   ]
