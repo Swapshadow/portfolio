@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T18:34:10.555Z",
+  "generatedAt": "2026-08-29T02:44:55.158Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -22,8 +22,9 @@
     {
       "name": "Exploit-DB",
       "url": "https://www.exploit-db.com/rss.xml",
-      "status": "ok",
-      "items": 50
+      "status": "error",
+      "items": 0,
+      "error": "fetch failed"
     },
     {
       "name": "The Hacker News",
@@ -76,15 +77,59 @@
   ],
   "items": [
     {
-      "id": "2fda63d2230454b289335a31daef6116c1e544cc",
-      "title": "Allemagne : après avoir subi une cyberattaque, la ville de Berlin victime d’un chantage",
-      "url": "https://www.sudouest.fr/international/europe/allemagne/allemagne-apres-avoir-subi-une-cyberattaque-la-ville-de-berlin-victime-d-un-chantage-30402857.php?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-28T17:42:20.000Z",
-      "summary": "La ville de Berlin fait l’objet d’un chantage, a annoncé vendredi le maire de la capitale allemande, après un vol de données lors d’une attaque de …",
+      "id": "fd5b2131897366fc2b92f5f79c3b19a28809c7ed",
+      "title": "Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network",
+      "url": "https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-28T21:30:52.000Z",
+      "summary": "Berlin's state government has confirmed that it is the target of an extortion attempt following the August compromise of the city's state administrative network, and said it will n",
       "type": "NEWS",
       "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/sudouest.fr/b9fc42e57c197be55388d377e15ddb326b88ac32/_xlarge.jpeg"
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRLS8X8abAbJ9p1f1jp9VIUeKfRa4l4gAIgmCWsw1eXZuJ7SY201P6w6V8NYVf1CHpaN_pyAuLg-6h-e9RYFBlBFsl3k5egiOnoj8ZiXScxu8El1jZExmlyNYfunp0Z4j5F0PYSg4Ltu0yldY-wKmI2TC5UU-7mrasEsZ_SyEso7dGFvLIpcA8hdHqVdw/s1600/berlin.jpg"
+    },
+    {
+      "id": "c323eb351e58d075e61faf0c27247bb7336f3048",
+      "title": "France : le Premier ministre veut une \"unité de première intervention\" pour protéger les administrations face aux cyberattaques !",
+      "url": "https://sciencepost.fr/france-le-premier-ministre-veut-une-unite-de-premiere-intervention-pour-proteger-les-administrations-face-aux-cyberattaques/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-28T20:48:00.000Z",
+      "summary": "Suite au récent piratage de la Direction générale des Finances publiques (DGFiP), le Premier ministre français Sébastien Lecornu a activé une cellule …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://sciencepost.fr/wp-content/uploads/2026/08/hacker-2300772_1280.jpg"
+    },
+    {
+      "id": "87676059745544b9c7a1f5d88b9d82d45c0ca764",
+      "title": "Cyberattaque dans l'Éducation nationale : des académies encore paralysées à quelques jours de la rentrée",
+      "url": "https://www.clubic.com/actualite-627298-cyberattaque-dans-l-education-nationale-des-academies-encore-paralysees-a-quelques-jours-de-la-rentree.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-28T20:40:00.000Z",
+      "summary": "À quelques jours de la rentrée, le ministère de l'Éducation nationale confirme que plusieurs académies restent perturbées par une récente …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/0e0f6283c42daaa94089d2dccdac1513cfb82399/_xlarge.jpeg"
+    },
+    {
+      "id": "0984eeacc0f12bc1a7acffd09dc8bb49949e7528",
+      "title": "Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable",
+      "url": "https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-28T20:38:47.000Z",
+      "summary": "Cosmos Labs has warned that a critical balance-handling flaw in the shared Cosmos EVM module was exploited to drain funds from six blockchains between August 20 and August 25, 2026",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRHWwlkIrD4ix8P1j7FGJW7pl0e6W600w61mPcVBRsL7BqK_8SNTLSSk-4498ZuyThNbHG8FmtGoMlR9B9ujcXUlHnRb9NTpBhImouOWrQK2WaxVVd5rjjL62kXl1fW9U5YyDN1Uc-M6OriHc7nQNzCbJAC3kRIsRgAnY5q2SSTL2TjLzix05DAoSa7jQ/s1600/cosmos-evm-hack.jpg"
+    },
+    {
+      "id": "7c6332c10997026872455442372893678ca6be37",
+      "title": "« Berlin est victime d’un grave délit » : la capitale allemande fait face à un chantage",
+      "url": "https://www.lesoir.be/767747/article/2026-08-28/berlin-est-victime-dun-grave-delit-la-capitale-allemande-fait-face-un-chantage?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-28T17:50:23.000Z",
+      "summary": "Après une cyberattaque survenue mi-août, la ville de Berlin fait face à un chantage orchestré par un groupe de hackers, qui menace de publier des …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://leseng.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_extra_big/2026/08/28/node_767747/33704976/public/2026/08/28/98963447.jpeg?itok=bnu2_36e1787939435"
     },
     {
       "id": "5f2f823471a7d2bcaa9fac1e9454a805186d0ea6",
@@ -230,6 +275,17 @@
       "imageUrl": "https://img.frandroid.com/images.frandroid.com/wp-content/uploads/2026/02/piratage-iban.jpg?resize=1600%2C900&amp%3Bkey=5808cc2d"
     },
     {
+      "id": "96b038b5c3979ea87e9625a752c898a03207b727",
+      "title": "Données de propriétaires de véhicules volées dans six cantons. L’Office de la circulation et de la navigation du canton de Fribourg a évité une attaque",
+      "url": "https://www.laliberte.ch/articles/regions/canton/l-office-de-la-circulation-et-de-la-navigation-du-canton-de-fribourg-a-evite-une-attaque-1434181?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-28T14:09:01.000Z",
+      "summary": "Des cybercriminels ont tenté de dérober des données de propriétaires de véhicules en s’en prenant au système informatique de l’Office de la …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://mediasp.twassets.cloud/LL/2026/8/Circulation_100214_AWI_01200_78a9f8b969.jpg?rect=0%2C0%2C0%2C0&amp%3Bfp-x=0.5&amp%3Bfp-y=0.5"
+    },
+    {
       "id": "4527cea6ee99ba11ebbc8c80eb309f5b818f198f",
       "title": "Carte bancaire : adieu le code à 4 chiffres, cette méthode le remplace dès aujourd’hui en France",
       "url": "https://www.presse-citron.net/carte-bancaire-adieu-le-code-a-4-chiffres-cette-methode-le-remplace-des-aujourdhui-en-france/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -250,6 +306,28 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": null
+    },
+    {
+      "id": "ab69eff85171854e835ba5daaddf820d84f9f8eb",
+      "title": "« On sent l’angoisse qui monte » : à deux jours de la rentrée, la cyberattaque plonge les établissements scolaires dans le stress",
+      "url": "https://www.parismatch.com/actu/societe/on-sent-langoisse-qui-monte-a-deux-jours-de-la-rentree-la-cyberattaque-plonge-les-etablissements-scolaires-dans-le-stress-274800?at_medium=affiliate&amp%3Bat_campaign=Flipboard",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-28T13:00:10.000Z",
+      "summary": "Dans l'académie de Nantes, durement touchée par la cyberattaque qui a visé l'Éducation nationale, les difficultés d’accès aux outils informatiques …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/parismatch.com/c44ade73adf5603294487f1ecc76e4cf1a68cffb/_xlarge.jpeg"
+    },
+    {
+      "id": "9b29121d305fa5fb5290d76832f1bcb1b1e76f00",
+      "title": "Après la cyberattaque, « c’est une rentrée assez inédite », reconnaît le recteur de l’académie de Toulouse",
+      "url": "https://www.20minutes.fr/societe/4241481-20260828-apres-cyberattaque-rentree-assez-inedite-reconnait-recteur-academie-toulouse?at_medium=display&amp%3Bat_campaign=149",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-08-28T12:17:35.000Z",
+      "summary": "La rentrée ne se fera pas tout à fait comme prévu. A quelques jours de la reprise des cours, certaines académies restent impactées par la …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://img.20mn.fr/Nfts2XNZSNOwFnpCyl2azyk/1444x920_les-eleves-arrivent-dans-une-ecole-pour-le-debut-de-la-nouvelle-annee-scolaire-car-les-restrictions-relatives-aux-smartphones-sont-appliquees-conformement-au-reglement-de-l-ecole-les-mesures-visent-a-reduire-les-distractions-a-ameliorer-la-concentration-a-promouvoir-le-bien-etre-des-eleves-et-a-limiter-les-problemes-lies-a-l-utilisation-excessive-des-ecrans-et-a-la-cyberintimidation-france-biauchristine-sipa-11196-credit-christine-biau-sipa-2607061336"
     },
     {
       "id": "0112c13ec6165854794df338e72a8ebaa291f084",
@@ -283,17 +361,6 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitiido-BqtV-H4U0qEAovU_m3NGb3PHF5O3IEh53W_rllGDplhA8aluEKIUULFq3L7iNQue-NLxQDR3wSF7PaaAhGg14rWdqHoB6jBZC1YfslM0wyj5xhESZKTbIxgjO_lnZqVOrKx_E2hK-wXtE85EPJW-pV8D3eMv9CWgMF8eXzsJgq3xevdBY9hCs0/s1600/servicenow.jpg"
-    },
-    {
-      "id": "df1a720574f6aa9cb9b17533841dbb8958e8e1bf",
-      "title": "Cyberattaque de l’Éducation nationale : en grande difficulté, l’académie de Toulouse dans la débrouille",
-      "url": "https://etudiant.lefigaro.fr/article/lycee/cyberattaque-de-l-education-nationale-en-grande-difficulte-l-academie-de-toulouse-dans-la-debrouille-20260828/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-28T11:20:02.000Z",
-      "summary": "«C’est une rentrée assez inédite», euphémise Karim Benmiloud. Au cours d’une conférence de presse ce vendredi 28 août, le recteur de l’académie de …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://i.f1g.fr/media/cms/604x339_crop/2026/08/28/20fb1836ebf164b373610b999e836fa91f44c2fc6394e16a2d6c948d483f6e5d.jpg"
     },
     {
       "id": "cbacf9f5c061e99b41933e50db887c15e0d2a55e",
@@ -362,15 +429,15 @@
       "imageUrl": "https://www.zataz.com/wp-content/uploads/reseau_electrinque_hacker.jpg"
     },
     {
-      "id": "24a73bbd8a42087629425882ee82bcc251542060",
-      "title": "Cyberattaque contre l'Éducation nationale : «Tous les élèves seront accueillis la semaine prochaine», rassure le recteur de l'académie de Toulouse",
-      "url": "https://video.lefigaro.fr/figaro/actualite-france/cyberattaque-contre-l-education-nationale-tous-les-eleves-seront-accueillis-la-semaine-prochaine-rassure-le-recteur-de-l-academie-de-toulouse-20260828?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "id": "9bc54dea962ad90cef2f5f72bbee77afaabcd3b2",
+      "title": "Cyberattaque contre l'Éducation nationale : «Nous avons pu sécuriser une première bande de paie pour les salaires», se félicite Karim Benmiloud",
+      "url": "https://video.lefigaro.fr/figaro/actualite-france/cyerbattaque-sur-l-education-nationale-nous-avons-pu-securiser-une-premiere-bande-de-paie-pour-les-salaires-se-felicite-karim-benmiloud-20260828?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
       "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-28T09:29:56.000Z",
+      "publishedAt": "2026-08-28T09:23:51.000Z",
       "summary": "Mercredi 19 août, à une semaine de la rentrée, l'Éducation nationale a été confrontée à une cyberattaque massive. Le rectorat de Toulouse a fait le …",
       "type": "NEWS",
       "severity": "Info",
-      "imageUrl": "https://i.f1g.fr/media/ext/1200x630_crop/api-video-public.lefigaro.fr/assets/16/5e/dc/165edc6f47dbf5954a79d1d3bae1b4ce.jpeg"
+      "imageUrl": "https://i.f1g.fr/media/ext/1200x630_crop/api-video-public.lefigaro.fr/assets/21/d1/21/21d12148b34b6a57ddd327ca994941ed.jpeg"
     },
     {
       "id": "88c276d00a33fee8a8d728f20b8bdc03fa064395",
@@ -384,15 +451,15 @@
       "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/tDQi4H7JZWhvz-VBAyGWuNgDcJM=/0x0:1600x900/1600x0/images/La-rentree-approche-et-Amazon-brade-les-prix-de-ces-3-paires-de-Skechers-pour-garcons-2334074.jpg"
     },
     {
-      "id": "64bf69c7464694ca0b50c9d801cb37881c83e85b",
-      "title": "« On dispose d’une fenêtre limitée » : les géants de l’IA distillent leurs conseils cyber sur une menace qu’ils connaissent bien",
-      "url": "https://www.numerama.com/cyberguerre/2320333-on-dispose-dune-fenetre-limitee-les-geants-de-lia-distillent-leurs-conseils-cyber-sur-une-menace-quils-connaissent-bien.html?amp%3Butm_source=flipboard&amp%3Butm_content=directlink&amp%3Butm_campaign=2320333",
+      "id": "582001e7bc6d3c41ef80e2fac2170235e6d77783",
+      "title": "Cyberattaque contre trois aéroports britanniques, des données personnelles dérobées",
+      "url": "https://www.lechotouristique.com/article/cyberattaque-contre-trois-aeroports-britanniques-des-donnees-personnelles-derobees?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
       "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-28T08:45:00.000Z",
-      "summary": "Plus d’une centaine d’entreprises tech, dont les principaux laboratoires d’IA, viennent de publier une lettre ouverte appelant à une mobilisation …",
+      "publishedAt": "2026-08-28T09:06:57.000Z",
+      "summary": "L’incident « n’a entraîné aucune perturbation opérationnelle » et « les opérations aéroportuaires demeurent inchangées ». Les données personnelles de …",
       "type": "NEWS",
       "severity": "Info",
-      "imageUrl": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/08/chevauchement-papier-produit.png?resize=1600%2C900&amp%3Bkey=a1b348bd"
+      "imageUrl": "https://www.lechotouristique.com/wp-content/uploads/2026/08/dan-stephens-9npwdaw-lo-unsplash.jpg"
     },
     {
       "id": "1c50df39e8b91240f258cd4166211754028039c0",
@@ -450,26 +517,15 @@
       "imageUrl": "https://ic-cdn.flipboard.com/journaldunet.com/dd23b41afd331631fba3d1eab74c1e0522a3b6fe/_xlarge.jpeg"
     },
     {
-      "id": "3e385641c7edff9cb3f06513434838625d245136",
-      "title": "Qu'est-ce que Zerobytes, ces hackeurs derrière le piratage du fisc, qui veulent emmerder les Français ?",
-      "url": "https://www.marianne.net/societe/big-brother/qu-est-ce-que-zerobytes-ces-hackeurs-derriere-le-piratage-du-fisc-qui-veulent-emmerder-les-francais",
+      "id": "6717970e1efd52fb68ac19fad93dcf456673d234",
+      "title": "Pays basque : l’Euskal Moneta, l’association support de la monnaie locale Eusko, cible d’une cyberattaque",
+      "url": "https://www.sudouest.fr/pyrenees-atlantiques/pays-basque/pays-basque-l-euskal-moneta-l-association-support-de-la-monnaie-locale-eusko-cible-d-une-cyberattaque-30389667.php?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
       "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-28T06:00:14.000Z",
-      "summary": "Qui sont les deux pirates français qui sont soupçonnés d’avoir pillé les données de leurs concitoyens sur le site de la Direction générale des …",
+      "publishedAt": "2026-08-28T07:59:24.000Z",
+      "summary": "« Nous souhaitons vous informer que l’infrastructure informatique d’Euskal Moneta a fait l’objet d’une cyberattaque récemment. » C’est par ces mots …",
       "type": "NEWS",
       "severity": "Info",
-      "imageUrl": "https://images.marianne.net/x8fsvthw5402/2PzLXAp1ykZYnoHUgvxv7O/87a6b2ddc8079c56745388eda0f7aaf3/AFP__20260818__HL_RDOUCELIN_3258317__v1__HighRes__CyberattackInFranceVeranne.jpg?w=1540&amp%3Bh=924&amp%3Bfit=fill&amp%3Bf=center"
-    },
-    {
-      "id": "8d56e2f9a80b07dacf942ff97f1d1ddd621b8f43",
-      "title": "La rentrée scolaire est-elle décalée comme certains l'affirment sur TikTok ?",
-      "url": "https://www.franceinfo.fr/replay-radio/le-vrai-du-faux/la-rentree-scolaire-est-elle-decalee-comme-certains-l-affirment-sur-tiktok_8081717.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-28T05:53:50.000Z",
-      "summary": "Des vidéos sur TikTok relaient l'idée que les élèves ne reprendront pas les cours le 1er septembre à cause de la cyberattaque de l'Éducation …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/df9a5d34f9775d13a47e2d42c521d67e0c7d98e2/_xlarge.jpeg"
+      "imageUrl": "https://ic-cdn.flipboard.com/sudouest.fr/99c7173557cdbe864d9df627783b55b0b311fb5c/_xlarge.jpeg"
     },
     {
       "id": "918dd81568f0176880e42a07671a6306f803067e",
@@ -802,17 +858,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUdyQnHdjoEXFnc-5nB-6oglAbvpOYwuWqfjYkgeKH6HaqUjosKOHhmEQ_7StMkMBv53gz27Ilg-15yRaQ-hxoYi0ASuRMOCuPTHa8gP6a6PzYSewTWsDkKAx8dsMByZXDYDlRE1wRYoCvE7NuYqXdCpZ8_Y4E4tAUy0SBFl0S_XxLvpnjFRbqat0EwggW/s1600/kiro-amazon.jpg"
     },
     {
-      "id": "23671b03378a04457baf7cb7b66b97f0f1f79567",
-      "title": "WhatsApp renforce sa sécurité avec les passkeys multiples",
-      "url": "https://android-mt.ouest-france.fr/news/protection/whatsapp-renforce-sa-securite-avec-les-passkeys-multiples/212183/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-27T13:31:18.000Z",
-      "summary": "Une authentification pensée pour l’usage réel Jusqu’ici, l’utilisateur de WhatsApp pouvait enregistrer une seule clé d’accès pour sécuriser son …",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/112931ca9bdf3f93e6f317754576da42be9c91e6/_xlarge.jpeg"
-    },
-    {
       "id": "c33dd98a55ad5656491b1d49c82fa61da9b773da",
       "title": "Rockwell Automation OTTO Fleet Manager",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-03",
@@ -967,17 +1012,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvqqkrFYi_Np3w-hHvDbFZqWnf1qCrkS6zwJARAyiKX99YdH2w37pqvD-Zy1HPAYdbJbFu3Tztap9lcuv-lkq8wd9elTkfK0NWN5a9J8218OE9btcQHMdyM93GiuYLuj5mC_TPFBXnVZkUEckgARKceSsJKRqHDeW-U_tsDcPscO3-s2Oid28OEZTz7cIw/s1600/combo-malware.jpg"
     },
     {
-      "id": "722c1b351aadb7d0a688afa526ebfcfb98b7795f",
-      "title": "Piratage du fisc : l'association AC !! Anticorruption porte plainte contre X",
-      "url": "https://www.lefigaro.fr/secteur/high-tech/piratage-du-fisc-l-association-ac-anticorruption-porte-plainte-contre-x-20260827?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-27T10:49:10.000Z",
-      "summary": "L’association souhaite vérifier que la cyberattaque n’a pas été permise par un agent qui aurait été corrompu. Elle veut aussi que la justice se …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://i.f1g.fr/media/cms/1200x630_crop/2026/08/27/d2df64ae069ef911bdadb52e669b44a97e7b893e7d773fbf96d57828443b8cb6.jpg"
-    },
-    {
       "id": "f338ac65cd839dbad3682c9c49faa681a733f57c",
       "title": "GoCaracal Malware Uses Ethereum Smart Contract to Fetch Replacement C2 Address",
       "url": "https://thehackernews.com/2026/08/gocaracal-malware-uses-ethereum-smart.html",
@@ -998,17 +1032,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2AxQ4SD6_1WKkpvBVi_M7oKLMeBAiKU4Ek4HbnJXHLX5xSbUg7ky1ITdUJY91n-zZGyK55-qQRd24PWRymLmik7cRl4CYPoaeZL5JuLedlsOTJGHChwF1eQWGhUE6AhOZUSW7CoajwQcKCu8E_zrYn8I6203Nrvr9NvheYL-5ISm0fs1xdWNiKGWqIs0/s1600/nvidia-bits.jpg"
-    },
-    {
-      "id": "927a8662982a3e8716bff85859f3e3d1f5abe7db",
-      "title": "Cyberattaque d'Hugging Face : comment 688 agents IA d'OpenAI se sont coordonnés pour s'échapper - ZDNET",
-      "url": "https://www.zdnet.fr/actualites/cyberattaque-dhugging-face-comment-688-agents-ia-dopenai-se-sont-coordonnes-pour-sechapper-500680.htm",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-08-27T07:07:24.000Z",
-      "summary": "L’investigation sur le piratage d'Hugging Face révèle un scénario inédit : 688 agents IA d’OpenAI se sont coordonnés pour franchir leur bac à sable. …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2024/03/gettyimages-1246536583-2-scaled.jpg"
     },
     {
       "id": "89a5ab1bc241671c72c05277d1babb57d25da06e",
@@ -1704,17 +1727,6 @@
       "imageUrl": null
     },
     {
-      "id": "f0bee10fd08203bb211abe5b1d9524412b2b55db",
-      "title": "[remote] CVE-2026-42167 - ProFTPD mod_sql post-authentication SQLi - RCE",
-      "url": "https://www.exploit-db.com/exploits/52658",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-08-25T00:00:00.000Z",
-      "summary": "CVE-2026-42167 - ProFTPD mod_sql post-authentication SQLi - RCE",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": null
-    },
-    {
       "id": "300b3be8ae3e3b12d3d8cdb22b61ef2206fccca2",
       "title": "Shipping More AI Code Than You Can Secure? Watch How to Control Remediation Debt",
       "url": "https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html",
@@ -1768,28 +1780,6 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": null
-    },
-    {
-      "id": "6f7dffe2efd25c917289fdeabcb30ab085906be0",
-      "title": "Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account",
-      "url": "https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-24T11:56:34.000Z",
-      "summary": "Red Hat and the Keycloak project have released patches to address a critical security flaw in the open-source identity and access management server that could allow an unauthentica",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhB3jURz2EzucPTALqHju1yDNnbHFvawrKxEfvNEprkdA3QIDyOjuUqvHOyTyiZuYJR-4KwewHnd8CdT37TDxBMBK3OLknOxym2a0klblR6rNUc2lqXHdAQUl1JO8uE7bGupO-WqsaEM0UDLUGyWICu5fkA6x4GwNUCo_w3quxp8joYWhNX8grP55eVg8/s1600/keylock.jpg"
-    },
-    {
-      "id": "e5e8f101ab18226f0ceb6e45ade8c0de40da53ae",
-      "title": "Operation QUICSILVER Targets Myanmar Government and IT with QUICAgent Backdoor",
-      "url": "https://thehackernews.com/2026/08/operation-quicsilver-targets-myanmar.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-24T11:51:36.000Z",
-      "summary": "Cybersecurity researchers have flagged a cyber espionage campaign targeting Myanmar that uses graduation ceremony invitation lures to deliver a Go backdoor called QUICAgent. The ca",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAU29lFKKhJ4-37mroz3wn9p8YejZSqMG70AcTu4Z_FLB6hhof-kGO8-6KOfJcE5TXPvrziWpqDpLu_Mi64u8ilPMtdicwexovYdtmVQhhFOTlAeEamKEccbGQf4Y15ufNQRggwtyzLJy32qocItBHu4FX7FLYDYbnjBXuYMtflnNB4ttrzIdynMPcquxs/s1600/silver.jpg"
     },
     {
       "id": "1d0e97fa32aaa2d52a11b22f4540c04b21004161",
@@ -2271,6 +2261,17 @@
       "source": "Cyberveille Santé",
       "publishedAt": "2026-08-19T00:06:24.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité combinant un &lt;strong&gt;cross-site scripting stocké&lt;/strong&gt; (Stored XSS), une &lt;strong&gt;élévation de privilèges&lt;/strong&gt; ",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "470212b2afca675dff77cdaa160450706875ce6c",
+      "title": "Red Hat - CVE-2026-18963",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/red-hat-cve-2026-18963-2026-08-19",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-08-19T00:04:49.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le flux de &lt;strong&gt;réinitialisation des identifiants&lt;/strong&gt; (reset-credentials) du composant &lt;strong&gt;keycloak-servic",
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": null
