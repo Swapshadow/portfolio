@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T08:26:43.048Z",
+  "generatedAt": "2026-09-06T13:27:20.087Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,7 +17,7 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 111
+      "items": 104
     },
     {
       "name": "Exploit-DB",
@@ -76,6 +76,50 @@
   ],
   "items": [
     {
+      "id": "2cced976414de635191df3725d4b5e403b3162b8",
+      "title": "Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication",
+      "url": "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-06T09:32:38.000Z",
+      "summary": "Attackers are exploiting MikroTik routers with their Secure Shell (SSH) remote-access service, which is reachable from the internet, to gain full administrative control without aut",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiSiBDO5j21gorWS-UjrLlDl0RzniibBPjfO4xfPBBLbH1yTQIB88G-hUBRtYNufYwkPpVjWWLu0GXk1TB7pv_x8KbQCbfsL5Ft8JlZLa6iZfvuHU-vKSPNq5Li-e9DtoOvZIOXPYmibx9uc_imnug4ZJUog31KwlA3YKmY8ghOpROVQR8mwPj9qb-1kA/s1600/micro.jpg"
+    },
+    {
+      "id": "88e9fb64bfb3ef8e1b6760d4de3ebce8caf37a2a",
+      "title": "Chiffrement post-quantique : le guide complet pour comprendre comment Tuta, Signal et Proton protègent vos messages",
+      "url": "https://www.clubic.com/dossier-626836-chiffrement-post-quantique-le-guide-complet-pour-comprendre-comment-tuta-signal-et-proton-protegent-vos-messages.html?amp%3Butm_content=topic%2Ffr-cryptographie",
+      "source": "Cryptographie FR",
+      "publishedAt": "2026-09-06T09:07:00.000Z",
+      "summary": "Début août 2026, des chercheurs de l'université de Wuppertal ont publié une preuve mathématique de la sécurité de TutaCrypt, le protocole de …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/0d296c7c743ea0806b0c20ba2dcdd5aed710b8b6/_xlarge.jpeg"
+    },
+    {
+      "id": "92a8d5b672bd10d1dfc4c18730aea12dcd68fa17",
+      "title": "Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner",
+      "url": "https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-06T08:34:20.000Z",
+      "summary": "Elastic Security Labs has documented four previously unreported programs associated with REVSTEALER, an emerging Windows information stealer, that remain on an infected machine aft",
+      "type": "NEWS",
+      "severity": "Moyenne",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpRcdfXd6kYnqLLWSFdzGKICUzSr90MsV2f3PXtw8VDVcT-xOP2w4HwnVzrRI4bdJqhboQMFIm9BZ393b89IOqgYx-VVmb_B8-XJCsZ9SAIymdlBpEf5ARizHvn32t8Mr9stzV6nMVcn3utUYI1xSRxhaC29QZjS-C3haNSRPfQI_eBYzXCrwn5rl18Nw/s1600/rev.jpg"
+    },
+    {
+      "id": "23ad1176bd420a8cc70c6e5a91e0f05d444c71e8",
+      "title": "Piratage du fisc : un membre présumé du groupe «ZeroBytes» mis en examen, que savons-nous ?",
+      "url": "https://www.capital.fr/economie-politique/piratage-du-fisc-un-membre-presume-du-groupe-zerobytes-mis-en-examen-que-savons-nous-1529885?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-06T08:05:15.000Z",
+      "summary": "Dans le cadre de la série de cyberattaques visant plusieurs sites de l’Etat, dont celle contre la Direction générale des Finances publiques, deux …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/capital.fr/f8fd16f89f63534d716595cee6bbde7ba2b62e03/_xlarge.jpeg"
+    },
+    {
       "id": "7205c1d0c6ab18bf18ae621aeb35043204f8ea77",
       "title": "\"Les grands laboratoires d'IA sont les rois de la dissimulation\" : l'expert Tom David décrypte la menace des agents autonomes",
       "url": "https://www.lexpress.fr/economie/high-tech/les-grands-laboratoires-dia-sont-les-rois-de-la-dissimulation-lexpert-tom-david-decrypte-lincident-OICP5BPFWNA3DKXYHOKBL2EE7Q/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -106,7 +150,7 @@
       "summary": "Nouvelle violation de données en France ! L’Association des maires de France et des présidents d’intercommunalité (AMF) vient de se faire pirater par …",
       "type": "LEAK",
       "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/343486bb569d4edf1d9832e5019b6248f7c8e72c/_xlarge.jpeg"
+      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/fc66352d83aa0eb6d3bcf58170710f23d0995bd7/_xlarge.jpeg"
     },
     {
       "id": "b23f4647daffa5ab6196e5c8895e3d926790cb41",
@@ -129,6 +173,28 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/cnews.fr/3491d537903188672586c5ca0058ad1da3cbb11b/_xlarge.jpeg"
+    },
+    {
+      "id": "433af80b07e60e73c7d854c9ae52242a1daa20ce",
+      "title": "Les travaux et la cyberattaque n’ont pas perturbé la rentrée dans les écoles maternelles de Mamers",
+      "url": "https://www.ouest-france.fr/pays-de-la-loire/mamers-72600/les-travaux-et-la-cyberattaque-nont-pas-perturbe-la-rentree-dans-les-ecoles-maternelles-de-mamers-17d5d046-a932-11f1-bc6a-72bbfb6537f9?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-06T05:25:01.000Z",
+      "summary": "Après un été marqué par plusieurs travaux et la cyberattaque, les écoles maternelles publiques de Mamers (Sarthe) ont toutefois accueilli les élèves …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/fed30ac2681449e865273f0713ee6ba4968ea578/_xlarge.jpeg"
+    },
+    {
+      "id": "2ab5608d49b31173072f81dbfffd845cc92c6949",
+      "title": "L’Allemagne renforce ses défenses contre les drones et les cyberattaques",
+      "url": "https://fr.investing.com/news/economy-news/lallemagne-renforce-ses-defenses-contre-les-drones-et-les-cyberattaques-3585294?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-06T00:00:00.000Z",
+      "summary": "Investing.com - L’Allemagne prépare un vaste ensemble de mesures sécuritaires visant à renforcer ses défenses contre les attaques de drones, les …",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://ic-cdn.flipboard.com/investing.com/e0836a3620c456579c6396fea8817ed94bebff04/_large.jpeg"
     },
     {
       "id": "d97a9b83722cdd9f7855aba21df7954db82e17c6",
@@ -329,17 +395,6 @@
       "imageUrl": "https://www.zataz.com/wp-content/uploads/Chatnoir-busted.jpg"
     },
     {
-      "id": "45399197322fdab1ef0d36af52bc6b88607aca3a",
-      "title": "Piratage du fisc : le suspect de 18 ans déjà mis en examen dans le vol de données de Free, le second suspect mis en examen dans un autre dossier",
-      "url": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/piratage-du-fisc-le-suspect-de-18-ans-deja-mis-en-examen-dans-le-vol-de-donnees-de-free-le-second-suspect-mis-en-examen-dans-un-autre-dossier_8178566.html",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-05T09:31:45.000Z",
-      "summary": "Le jeune homme de 18 ans placé en détention provisoire après la cyberattaque de la DGFiP était déjà mis en examen dans deux autres affaires de …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/ba75b516b7da3211e239b5257a864260f36ac6fb/_xlarge.jpeg"
-    },
-    {
       "id": "c077755d66ddd97bfad1cadd060c45f12c27870d",
       "title": "Call of Duty : quand Activision filme l'attaque en justice des cheaters",
       "url": "https://www.gamekult.com/actualite/call-of-duty-quand-activision-filme-l-attaque-en-justice-des-cheaters-3050871842.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -439,6 +494,17 @@
       "imageUrl": "https://ic-cdn.flipboard.com/huffingtonpost.fr/c9b4e37fdd554a5bef467a4c691435d1bfa992b6/_xlarge.jpeg"
     },
     {
+      "id": "33aa8c7ed3bde21cf626f17715deccce465a45cc",
+      "title": "Piratage du fisc : un suspect, membre présumé du groupe de hackers «Zerobytes», mis en examen et écroué",
+      "url": "https://www.lopinion.fr/politique/piratage-du-fisc-un-suspect-membre-presume-du-groupe-de-hackers-zerobytes-mis-en-examen-et-ecroue?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-05T06:33:26.000Z",
+      "summary": "Coup de filet. Vendredi 4 août, le parquet de Paris a indiqué qu’un homme de 18 ans, suspecté d’être membre du groupe de pirates informatiques « …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://beymedias.brightspotcdn.com/dims4/default/9671f20/2147483647/strip/true/crop/8149x3961+0+234/resize/1440x700!/quality/90/?url=http%3A%2F%2Fl-opinion-brightspot.s3.amazonaws.com%2Fde%2F13%2Fa0fc150545879840c21336c53186%2Fsipa-sipahub60097306-000002.jpg"
+    },
+    {
       "id": "a513e8e04ddcefc36111a0f7c76543b289387317",
       "title": "Fuite de données aux impôts : la France arrête un « pirate chevronné »",
       "url": "https://www.01net.com/actualites/fuite-donnees-impots-france-arrete-pirate-chevronne.html?amp%3Butm_content=topic%2Ffr-technologie",
@@ -492,17 +558,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://img-api.mac4ever.com/1200/0/749be8c2a6_promo-saint-valentin-meilleur-antivirus-mac-intego.webp"
-    },
-    {
-      "id": "7532c229cbd7d91a4a91b5e94af2c46cbd94ad11",
-      "title": "Un piratage touche l’Association des maires de France avec plus de 100 000 données",
-      "url": "https://kulturegeek.fr/news-358539/piratage-touche-lassociation-maires-france-plus-100-000-donnees?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-04T17:20:31.000Z",
-      "summary": "C’est au tour de l’Association des maires de France (AMF) de faire l’objet d’un piratage. Elle a confirmé un hack revendiqué par un utilisateur avec …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://cdn.kulturegeek.fr/wp-content/uploads/2022/11/Hack-Lignes-de-Code-540x390.jpg"
     },
     {
       "id": "a0a46249131b6d1af5e6e5594f4dd23d1a5d7e72",
@@ -626,17 +681,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7RQQCR9QxY1NZ80GCfpUjvGGcw9QDirshH7KrSyc097EIaNqLLVGgnnlOE095qTOt2q9CTu91gJ_Pf7Y9-AcZahb35e7XG2YrA8D4O0FPwVRSzBzMT5ecKzu0bnAxP603K5q8R_7IZrE-iSAAJQsmMWXBt8IPwHIIz3u6Kf-okZyo0G1fLoe9VOzZEEQF/s1600/plex.jpg"
     },
     {
-      "id": "5ed809968bfa6a0cbbcd3d048b53f3099833eb8d",
-      "title": "Cybersécurité : bientôt vers la fin des mots de passe ?",
-      "url": "https://www.larepubliquedespyrenees.fr/societe/nouvelles-technologies/cybersecurite-bientot-vers-la-fin-des-mots-de-passe-30400996.php?amp%3Butm_content=topic%2Ffr-intelligenceartificielle",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-04T07:30:00.000Z",
-      "summary": "Empreintes digitales, clés d’accès, reconnaissance faciale : alors que les alternatives aux mots de passe se multiplient, la fin de ce mode de …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://media.larepubliquedespyrenees.fr/30400996/1200x-1/laptop-5673901-1920.jpg"
-    },
-    {
       "id": "f7ef57e2483942b0be2739bf9d7544a15befca54",
       "title": "Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day",
       "url": "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
@@ -657,17 +701,6 @@
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbaZmLqqSMfwaOmjs47_PEd97T29HeDX_1dAOZn0Qzo0HuloopzzhZ7pnQzlsHvXvIAwzMWq1tbza325niZMSgjTMn0z5MyT-CWb7NfoprOWz2L_cj6tosVDyyp2ZbV4s59p-khE64lXWULLOW8zVMCv720iwDwCYUEuAHYkV8m2diDsyzFKwvNifzq-oT/s1600/gpt6.jpg"
-    },
-    {
-      "id": "b69c449e0048862951151f3d4e23f03db9db6ee5",
-      "title": "TÉMOIGNAGE. \"C'est sa dernière volonté\"... Corentin est décédé d'un cancer rarissime à l'âge de 17 ans, ses parents poursuivent son combat contre la maladie",
-      "url": "https://www.ladepeche.fr/2026/09/04/temoignage-cest-sa-derniere-volonte-corentin-est-decede-dun-cancer-rarissime-a-lage-de-17-ans-ses-parents-poursuivent-son-combat-contre-la-maladie-13527914.php?amp%3Butm_content=topic%2Ffr-technologie",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-04T05:01:03.000Z",
-      "summary": "Il avait dix-sept ans, des projets plein la tête et l'envie de devenir hacker éthique. Six mois plus tard, Corentin Ramage s'est éteint, emporté par …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://images.ladepeche.fr/api/v1/images/view/6a92e4d7a34e9c291500fe1c/hd/image.jpg?v=1"
     },
     {
       "id": "9142e4c1da353c3634d3c042cd1e2b49bc765e3b",
@@ -2001,28 +2034,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHyB4qaQy8srcEIgc1oMi08PMKtoVFIsmW3ho_7f7rISFML8Kmz8jYzDE1FCN9Nfo4LvvgVFV_FEijgLbCrZcJ5zy7xlvAYTKuyGrcE0IU6yqEd-awlmOyRQ3FXcSeA5yM71NLDa5nxpj9taGnNiVXvCb_5tun5j3dfb6z8j7cmwQ2O0PE2V3y0oKWv6sB/s1600/cursor.jpg"
     },
     {
-      "id": "b89b7dd70ea563eaf19e020120b20e6a0551b813",
-      "title": "Securing Claude Code: The New Compliance API, Local Visibility, and Identity Governance",
-      "url": "https://thehackernews.com/2026/08/securing-claude-code-new-compliance-api.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-31T11:31:47.000Z",
-      "summary": "Claude Code reads files, runs shell commands, invokes MCP tools, and acts through the credentials available on a developer’s machine. Anthropic’s new Compliance API endpoints give ",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEithkMoEFgk1IZj_h_hGp94DwzD4UyQGh2f-epiRD6fn_XcMyB44HkXe-7XaHzviE8sImzIctDBjibyY0Gdrt_OPFFeja3KnOd9KsPFP3PeTxUzlshseSyukl0-cmQWZctAeVQHTUpvW99C8FZrhCcwPDZWoYShfC9jTGqmj1Va2K-Mo2kK6GbSksGIbM4/s1600/dan.jpg"
-    },
-    {
-      "id": "5b15f9d8490383d473aa33997b6f6f1c39550930",
-      "title": "China-Linked Fire Ant Hijacks Cisco Routers to Steal Credentials and Blind Security Logs",
-      "url": "https://thehackernews.com/2026/08/china-linked-fire-ant-hijacks-cisco.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-31T09:04:55.000Z",
-      "summary": "A China-nexus cyber espionage actor tracked as Fire Ant has expanded a long-running campaign beyond VMware hypervisors to compromise Cisco IOS XR routers, Terminal Access Controlle",
-      "type": "NEWS",
-      "severity": "Moyenne",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxYI5Ntk3CPoEGUHNQbd80hij-0QLnz3V_HBU3aXV-mvQq98IE6xsRlbuwZ2PNbbSV7dA-HlNfqRWj0_bd3XpQCOPt9R2gS3PJMm8lfMP_9IoKyhDNbY9NOotNDHO68v2DSUT_R-0UYTqZQc16DJM7OqS8_35iVUMqyy3GrUt7iMaIWz6iW6OSP2ddiDc/s1600/cisco-creds.jpg"
-    },
-    {
       "id": "89150bd82f858af4ffff57d31924e3e1e916dc5c",
       "title": "pac4j - CVE-2026-82461",
       "url": "https://cyberveille.esante.gouv.fr/alertes/pac4j-cve-2026-82461-2026-08-31",
@@ -2262,17 +2273,6 @@
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité d'&lt;strong&gt;injection de code&lt;/strong&gt; au sein de la plateforme ServiceNow AI Platform, localisée dans le traitement d'entrées liée",
       "type": "CVE",
       "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "976496ce6b9c14c6c65b4f431b170bb3501167d3",
-      "title": "Multiples vulnérabilités dans le noyau Linux de Debian (28 août 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1090/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-08-28T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian. Elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confident",
-      "type": "CVE",
-      "severity": "Info",
       "imageUrl": null
     }
   ]
