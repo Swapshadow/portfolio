@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T03:33:19.833Z",
+  "generatedAt": "2026-09-07T09:04:20.059Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,7 +17,7 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 104
+      "items": 101
     },
     {
       "name": "Exploit-DB",
@@ -76,9 +76,119 @@
   ],
   "items": [
     {
-      "id": "a81478a174e9a118ef4e480b91efd7911122a6b0",
+      "id": "0b3359a9b3fd99514e249ffd3cad532f58bc246d",
+      "title": "« Chat noir » et « casquette », qui sont les deux nouveaux enfants terribles du web français - ZDNET",
+      "url": "https://www.zdnet.fr/actualites/chat-noir-et-casquette-qui-sont-les-deux-nouveaux-enfants-terribles-du-web-francais-502910.htm",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-07T07:59:54.000Z",
+      "summary": "Ce duo de cybercriminels est à nouveau accusé d’avoir été à la manoeuvre dans les piratages de la DGFiP. La police n’a finalement pas été très loin …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2025/06/nahel-abdul-hadi-flha0kwrrrc-unsplash-scaled.jpg"
+    },
+    {
+      "id": "a9cd86e919bda78b023315de8bd1d190da6dc316",
+      "title": "JSCeal Malware Can Bypass Google Authentication Using Stolen Session Cookies",
+      "url": "https://thehackernews.com/2026/09/jsceal-malware-can-bypass-google.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-07T07:53:04.000Z",
+      "summary": "Cybersecurity researchers have unpacked JSCeal, a sophisticated compiled V8 JavaScript (JSC) malware with credential harvesting, surveillance, and traffic-interception capabilities",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilF0_vQTn1mpUhivH8aX0vt8SA_Y5wkJqpHriuAdDQKVuWON7ZSzOAbWlwm50oxWlOJ5wMdzBjzy1wRVGNL6IqY8eYFUlIyayK6aiwcXK1fTO9JWZ9hG_QYrNnY_fdm2Lu7Z87p0JOR4WkYD2HNK-6WlcJQgxmUsG1k8k3ye5AT1ggaoiIDAm0kHxYQJ6V/s1600/chrome-cookies.jpg"
+    },
+    {
+      "id": "e7e3a2ce1b7aaff660a7c610eda5488234744ff9",
+      "title": "Anthropic déconnecte ses utilisateurs et efface leurs informations de paiement pour se protéger contre une attaque de malware - ZDNET",
+      "url": "https://www.zdnet.fr/actualites/anthropic-deconnecte-ses-utilisateurs-et-efface-leurs-informations-de-paiement-pour-se-proteger-contre-une-attaque-de-malware-502905.htm",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-07T07:47:22.000Z",
+      "summary": "Les utilisateurs de Claude sont déconnectés de leurs comptes afin de mettre un terme à une nouvelle campagne de logiciels malveillants qui épuise …",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2026/09/claude-gettyimages-2215435955.webp"
+    },
+    {
+      "id": "0742f91082d05b6f68a1cb155d41f3a9ac16af8c",
+      "title": "Pourquoi il vaut mieux éteindre son smartphone une fois par jour",
+      "url": "https://www.larepubliquedespyrenees.fr/societe/nouvelles-technologies/pourquoi-vaut-il-mieux-eteindre-son-smartphone-une-fois-par-jour-30401406.php?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-07T07:30:00.000Z",
+      "summary": "Le Premier ministre australien a suggéré d’éteindre son téléphone 5 minutes par jour, pour des raisons de cybersécurité. Mais cette mesure a-t-elle …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://media.larepubliquedespyrenees.fr/30401406/1200x-1/pexels-lastly-699122.jpg"
+    },
+    {
+      "id": "eceeb5aec85513564fdd848fabea6aae9f095d64",
+      "title": "Mauvaise nouvelle pour les abonnés internet : les nouvelles règles sur les routeurs entrent en vigueur le 11 septembre et beaucoup ne sont pas prêts",
+      "url": "https://www.gameblog.fr/trends/mauvaise-nouvelle-pour-les-abonnes-internet-les-nouvelles-regles-sur-les-routeurs-entrent-en-vigueur-le-11-septembre-et-beaucoup-ne-sont-pas-prets-722351",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-07T06:00:41.000Z",
+      "summary": "Des routeurs déjà piratés par des espions russes, 15 millions d'euros d'amende à la clé : voici pourquoi les fabricants d'objets connectés vont …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://cdn-uploads.gameblog.fr/img//_6a9e3a34a529b.webp"
+    },
+    {
+      "id": "5ae21d229708f3da68ba071b775c391abafa3bbf",
+      "title": "Grèves, écoles sans direction, fermetures de classes inopinées... Une rentrée \"dans la panique\" pour le Val-de-Marne",
+      "url": "https://actu.fr/ile-de-france/creteil_94028/greves-ecoles-sans-direction-fermetures-de-classes-inopinees-une-rentree-dans-la-panique-pour-le-val-de-marne_64742108.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-07T05:14:01.000Z",
+      "summary": "Dans le Val-de-Marne la rentrée 2026/2027 est un crû très particulier. Cyberattaque, pénurie d'AESH, absence d'enseignants... On fait le point. Après …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://static.actu.fr/uploads/2026/09/e27cd731-b165-4ae2-a86e-d9ee6aff27ad.jpg"
+    },
+    {
+      "id": "135cc874bbd3e95b3bca1cd18018d4b0ba4f6784",
+      "title": "Arnaque Doctolib : gare à ce faux kit médical offert sur la plateforme",
+      "url": "https://www.pleinevie.fr/conso-argent/arnaque-doctolib-gare-a-ce-faux-kit-medical-offert-sur-la-plateforme-222788.html?amp%3Butm_medium=link&amp%3Butm_campaign=unknown",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-07T04:45:57.000Z",
+      "summary": "La multiplication des cyberattaques visant le secteur de la santé publique impose une vigilance de tous les instants aux usagers. Les campagnes …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.pleinevie.fr/wp-content/uploads/pleinevie/2026/09/Arnaque-Doctolib-gare-a-ce-faux-kit-medical-offert-sur-la-plateforme-1200x660.jpg"
+    },
+    {
+      "id": "ae6524feff9181ac5946c3b8c1685d91107b12de",
+      "title": "Nouvelle alerte Chrome : Google corrige d'urgence une faille zero-day exploitée par des pirates",
+      "url": "https://www.01net.com/actualites/nouvelle-alerte-chrome-google-corrige-urgence-faille-zero-day-exploitee-pirates.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-07T04:30:38.000Z",
+      "summary": "Google corrige en urgence une faille critique de Chrome. Déjà exploitée par des pirates, la vulnérabilité, logée dans le moteur JavaScript V8, permet …",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/00a5496c29597141e93b18dcd6f6de1c7e4ee474/_xlarge.jpeg"
+    },
+    {
+      "id": "66a65374cf7abc4cc629fe8da6db4a285612f89e",
+      "title": "Taxe foncière : attention aux fausses demandes de paiement",
+      "url": "https://www.pleinevie.fr/conso-argent/impots/taxe-fonciere-attention-aux-fausses-demandes-de-paiement-222789.html?amp%3Butm_medium=link&amp%3Butm_campaign=unknown",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-07T04:30:33.000Z",
+      "summary": "La diffusion des avis d’imposition immobilière s’accompagne régulièrement d’une recrudescence de tentatives de piratage ciblant les contributeurs. …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://sf.pleinevie.fr/wp-content/uploads/pleinevie/2026/09/Taxe-fonciere-attention-aux-fausses-demandes-de-paiement-1200x660.jpg"
+    },
+    {
+      "id": "e4e19b4fb46b84b93918fbe6a0ad07191c8d0c43",
+      "title": "Corée du Nord : les cyberattaques, nouvelle arme de Pyongyang pour s'enrichir à coup de milliards de dollars",
+      "url": "https://www.europe1.fr/international/coree-du-nord-les-cyberattaques-nouvelle-arme-de-pyongyang-pour-senrichir-a-coup-de-milliards-de-dollars-1059515?at_medium=RSS+feeds&amp%3Bamp=&amp%3Bat_campaign=Flux+Generique",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-07T04:09:00.000Z",
+      "summary": "Europe 1 vous dévoile les grands enseignements d'un rapport qui sera publié ce lundi sur l'ampleur des cyberattaques lancées par des hackers …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://static.europe1.fr/var/europe1/storage/styles/image_750_422/public/2026_redaction/Drapeaux/cor_e_du_nord_kim_hong-ji_pool_afp_69f0879154c90.jpg?itok=mYzXAJ9M"
+    },
+    {
+      "id": "8a8a6e2fb447f29bb7b0f5c96fb2b2466aa03daa",
       "title": "Mali: un journaliste jugé pour avoir déploré la situation à Kidal après la défaite de l'armée",
-      "url": "https://www.rfi.fr/fr/afrique/20260907-mali-un-journaliste-jug%C3%A9-pour-avoir-d%C3%A9plor%C3%A9-la-situation-%C3%A0-kidal-apr%C3%A8s-la-d%C3%A9faite-de-l-arm%C3%A9e?utm_slink=rfi.my%2FD1Vo&amp%3Butm_source=flipboard&amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "url": "https://www.rfi.fr/fr/afrique/20260907-mali-un-journaliste-jug%C3%A9-pour-avoir-d%C3%A9plor%C3%A9-la-situation-%C3%A0-kidal-apr%C3%A8s-la-d%C3%A9faite-de-l-arm%C3%A9e?utm_slink=rfi.my%2FD1Vo&amp%3Butm_source=flipboard&amp%3Butm_content=topic%2Ffr-technologie",
       "source": "Cybercriminalité FR",
       "publishedAt": "2026-09-07T02:03:00.000Z",
       "summary": "Au Mali, le journaliste Abdrahamane Keïta doit comparaître ce lundi 7 septembre 2026 devant le pôle judiciaire contre la cybercriminalité. Fin avril, l'armée malienne et l'Africa C",
@@ -118,17 +228,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/88181dc6baeffb4d11aee97444e9f0953274e1c3/_xlarge.jpeg"
-    },
-    {
-      "id": "b853fa68562207e884a776a6e8c683f2d0927705",
-      "title": "En Serbie, un iPhone piraté par Pegasus révèle l’ampleur de la surveillance",
-      "url": "https://android-mt.ouest-france.fr/news/en-serbie-un-iphone-pirate-par-pegasus-revele-lampleur-de-la-surveillance/212992/?amp%3Butm_content=topic%2Ffr-apple",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-06T14:24:29.000Z",
-      "summary": "Une attaque invisible contre un militant serbe Un membre du mouvement étudiant en Serbie a vu son téléphone infiltré par un logiciel espion …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/13767dc46a58a2c9d169a0795c6792c3ac9281f3/_xlarge.jpeg"
     },
     {
       "id": "a07c3c6bb2f03704bb548816838f805de6f23724",
@@ -186,17 +285,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpRcdfXd6kYnqLLWSFdzGKICUzSr90MsV2f3PXtw8VDVcT-xOP2w4HwnVzrRI4bdJqhboQMFIm9BZ393b89IOqgYx-VVmb_B8-XJCsZ9SAIymdlBpEf5ARizHvn32t8Mr9stzV6nMVcn3utUYI1xSRxhaC29QZjS-C3haNSRPfQI_eBYzXCrwn5rl18Nw/s1600/rev.jpg"
     },
     {
-      "id": "23ad1176bd420a8cc70c6e5a91e0f05d444c71e8",
-      "title": "Piratage du fisc : un membre présumé du groupe «ZeroBytes» mis en examen, que savons-nous ?",
-      "url": "https://www.capital.fr/economie-politique/piratage-du-fisc-un-membre-presume-du-groupe-zerobytes-mis-en-examen-que-savons-nous-1529885?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-06T08:05:15.000Z",
-      "summary": "Dans le cadre de la série de cyberattaques visant plusieurs sites de l’Etat, dont celle contre la Direction générale des Finances publiques, deux …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/capital.fr/f8fd16f89f63534d716595cee6bbde7ba2b62e03/_xlarge.jpeg"
-    },
-    {
       "id": "7205c1d0c6ab18bf18ae621aeb35043204f8ea77",
       "title": "\"Les grands laboratoires d'IA sont les rois de la dissimulation\" : l'expert Tom David décrypte la menace des agents autonomes",
       "url": "https://www.lexpress.fr/economie/high-tech/les-grands-laboratoires-dia-sont-les-rois-de-la-dissimulation-lexpert-tom-david-decrypte-lincident-OICP5BPFWNA3DKXYHOKBL2EE7Q/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -230,17 +318,6 @@
       "imageUrl": "https://ic-cdn.flipboard.com/01net.com/fc66352d83aa0eb6d3bcf58170710f23d0995bd7/_xlarge.jpeg"
     },
     {
-      "id": "b23f4647daffa5ab6196e5c8895e3d926790cb41",
-      "title": "3,25 millions de sites en danger : cette faille critique d'un plugin Wordpress risque de faire des dégâts",
-      "url": "https://www.01net.com/actualites/325-millions-de-sites-en-danger-cette-faille-critique-dun-plugin-wordpress-risque-de-faire-des-degats.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-06T06:01:31.000Z",
-      "summary": "Une faille critique vient d’être découverte dans All-in-One WP Migration and Backup, un plugin installé sur plus de cinq millions de sites WordPress. …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/8747a09d1585f32eeeb51fe56379cde80d4a6de7/_xlarge.jpeg"
-    },
-    {
       "id": "e3d77a9977e0ca47cc0f19b73ed418d097966b73",
       "title": "Cybercriminalité : 47% des utilisateurs négligent leur ordinateur, pourtant exposé aux attaques, selon un sondage",
       "url": "https://www.cnews.fr/vie-numerique/2026-09-06/cybercriminalite-47-des-utilisateurs-negligent-leur-ordinateur-pourtant?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -250,28 +327,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/cnews.fr/3491d537903188672586c5ca0058ad1da3cbb11b/_xlarge.jpeg"
-    },
-    {
-      "id": "433af80b07e60e73c7d854c9ae52242a1daa20ce",
-      "title": "Les travaux et la cyberattaque n’ont pas perturbé la rentrée dans les écoles maternelles de Mamers",
-      "url": "https://www.ouest-france.fr/pays-de-la-loire/mamers-72600/les-travaux-et-la-cyberattaque-nont-pas-perturbe-la-rentree-dans-les-ecoles-maternelles-de-mamers-17d5d046-a932-11f1-bc6a-72bbfb6537f9?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-06T05:25:01.000Z",
-      "summary": "Après un été marqué par plusieurs travaux et la cyberattaque, les écoles maternelles publiques de Mamers (Sarthe) ont toutefois accueilli les élèves …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/fed30ac2681449e865273f0713ee6ba4968ea578/_xlarge.jpeg"
-    },
-    {
-      "id": "2ab5608d49b31173072f81dbfffd845cc92c6949",
-      "title": "L’Allemagne renforce ses défenses contre les drones et les cyberattaques",
-      "url": "https://fr.investing.com/news/economy-news/lallemagne-renforce-ses-defenses-contre-les-drones-et-les-cyberattaques-3585294?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-06T00:00:00.000Z",
-      "summary": "Investing.com - L’Allemagne prépare un vaste ensemble de mesures sécuritaires visant à renforcer ses défenses contre les attaques de drones, les …",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://ic-cdn.flipboard.com/investing.com/e0836a3620c456579c6396fea8817ed94bebff04/_large.jpeg"
     },
     {
       "id": "d97a9b83722cdd9f7855aba21df7954db82e17c6",
@@ -538,17 +593,6 @@
       "imageUrl": "https://ic-cdn.flipboard.com/huffingtonpost.fr/c9b4e37fdd554a5bef467a4c691435d1bfa992b6/_xlarge.jpeg"
     },
     {
-      "id": "a513e8e04ddcefc36111a0f7c76543b289387317",
-      "title": "Fuite de données aux impôts : la France arrête un « pirate chevronné »",
-      "url": "https://www.01net.com/actualites/fuite-donnees-impots-france-arrete-pirate-chevronne.html?amp%3Butm_content=topic%2Ffr-technologie",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-05T06:19:38.000Z",
-      "summary": "Première arrestation dans l’affaire du piratage du fisc ! Un jeune homme de 18 ans a été arrêté par la police française. Bien connu des services de …",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/539d46fd3b0bdd1d44ebe3d9e461a1b7672cd932/_xlarge.jpeg"
-    },
-    {
       "id": "e7f6609e8b7e14748f654b9097987cdb1cb4721a",
       "title": "Piratage caméra de surveillance : sécurisez votre maison connectée grâce au VPN sur routeur",
       "url": "https://www.bfmtv.com/tech/bons-plans/vpn/piratage-camera-de-surveillance-securisez-votre-maison-connectee-grace-au-vpn-sur-routeur_AA-202609050001.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -569,17 +613,6 @@
       "type": "NEWS",
       "severity": "Élevée",
       "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/0c8c5927791efe49cf3d395879f417fe43b550b1/_xlarge.jpeg"
-    },
-    {
-      "id": "a1c3a769030ddd737885e97430514c13d2cad1f4",
-      "title": "Piratage du fisc : l'un des pirates présumés placé en détention",
-      "url": "https://actu.fr/ile-de-france/paris_75056/piratage-du-fisc-l-un-des-pirates-presumes-place-en-detention_64751088.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-04T18:24:13.000Z",
-      "summary": "Au total, le groupe de pirates Zerobytes a volé les données de 678 000 contribuables. Nouveau rebondissement dans le dossier du piratage massif du …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://static.actu.fr/uploads/2026/09/maxstockworld498258-1.jpg"
     },
     {
       "id": "a0a46249131b6d1af5e6e5594f4dd23d1a5d7e72",
@@ -624,28 +657,6 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzLyhHupZwRy1pOQzT93Qhs5waZ8gqtlgDJUKgt1f37dz3KqIDDZY8uNo8QguZNccBHivdA_ecnY8cQUyhZQAvLH4APu3imxP-rwo2dYLZtKnJ92IkRPFmwepmJgRk9GrLrJiN_IbInwvNXaW7N5761YfEB1IIK4uDdNBTy6Koz8uXgOSXaQWixXM1Wts/s1600/HAProxy.jpg"
-    },
-    {
-      "id": "e658798f32d73e28dd219ac7268382ac049fa1e0",
-      "title": "Cette arnaque à la carte SIM menace vos comptes bancaires : Voici comment vous protéger",
-      "url": "https://www.20minutes.fr/societe/4242834-20260904-arnaque-carte-sim-menace-comptes-bancaires-voici-comment-proteger?at_medium=display&amp%3Bat_campaign=149",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-04T14:32:37.000Z",
-      "summary": "Le 27 août dernier, la gendarmerie de la Somme a mis en garde sur Facebook contre l’arnaque du SIM swapping en utilisant un titre volontiers …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://img.20mn.fr/D_1qvZvoQTOwPcNCoca_Aik/1444x920_avec-le-sim-swapping-les-escrocs-cherchent-a-transferer-la-ligne-de-leur-victime-vers-une-autre-carte-sim"
-    },
-    {
-      "id": "28518f9f6d2c9a78bd6b06665fec03fb0fa55c64",
-      "title": "Une ligne rouge vient d’être franchie : le nouveau GPT-6 atteint un niveau qualifié de « critique » et inquiète ses créateurs !",
-      "url": "https://www.futura-sciences.com/tech/actualites/intelligence-artificielle-nouveau-gpt-6-atteint-niveau-surpuissant-meme-openai-qualifie-critique-137529/",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-04T12:38:48.000Z",
-      "summary": "Alors qu'hier une panne toujours inexpliquée a fait tomber les serveurs des principales IA américaines, OpenAI annonçait en même temps l'arrivée de …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/futura-sciences.com/580eba6df7e032e09e06bf39de2d7c09cc9fb355/_xlarge.jpeg"
     },
     {
       "id": "5870a9efb25ca1dd334b6a85411ba306e89c1cb7",
@@ -2021,17 +2032,6 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": null
-    },
-    {
-      "id": "00d2442b284bae777e6dfeb466813a241a5bd2bf",
-      "title": "Aurora Ransomware Operators Use Cursor AI in Attacks Against 10 Targets",
-      "url": "https://thehackernews.com/2026/08/aurora-ransomware-operators-use-cursor.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-31T11:47:24.000Z",
-      "summary": "Threat actors associated with Aurora (aka Aur0ra) ransomware have been observed using SpaceX's artificial intelligence (AI)-powered coding assistant Cursor to break into target net",
-      "type": "NEWS",
-      "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHyB4qaQy8srcEIgc1oMi08PMKtoVFIsmW3ho_7f7rISFML8Kmz8jYzDE1FCN9Nfo4LvvgVFV_FEijgLbCrZcJ5zy7xlvAYTKuyGrcE0IU6yqEd-awlmOyRQ3FXcSeA5yM71NLDa5nxpj9taGnNiVXvCb_5tun5j3dfb6z8j7cmwQ2O0PE2V3y0oKWv6sB/s1600/cursor.jpg"
     },
     {
       "id": "89150bd82f858af4ffff57d31924e3e1e916dc5c",
