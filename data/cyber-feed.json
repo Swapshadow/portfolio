@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T16:13:07.997Z",
+  "generatedAt": "2026-09-14T21:37:06.487Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -76,6 +76,83 @@
   ],
   "items": [
     {
+      "id": "67f66c355fbac0648beab1add34494381527bb27",
+      "title": "New DDRop Attack Breaks Intel TDX and AMD SEV-SNP Confidential Computing",
+      "url": "https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-14T18:02:13.000Z",
+      "summary": "Researchers have disclosed a new hardware attack, called DDRop, that breaks the memory protection in Intel and AMD confidential computing by silently dropping writes to a server's ",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4IfzHWVZbbX-Jlw_WME4viVgnupLfVdkxzfZ0skzjQpB5I32f-nua5-Gt6UJGJ9-cwTyrHqaCxBFndtNkIFx_Tj9sf3LnxfrqlecJ0zh0N83i5YRdukZRTpTiUP-kVrkpF4gMJZN-tONZy7jjk2gqdq87ELsUHDlyjQDFCIX6Rioz3ljHItZ2IeLDqb-w/s1600/DDRop.gif"
+    },
+    {
+      "id": "7592d71fef84afe8943996042a943679d5aa2273",
+      "title": "3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials",
+      "url": "https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-14T18:01:49.000Z",
+      "summary": "An attacker was operating inside the network of 3BB, one of Thailand's largest broadband providers, and maintained remote control of internal machines using a legitimate management",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9khzZCrFkNfQ1fOYHT8A4LJrIsfc52ppe6xZffdUrfRacqTVQ76P0VPDZhqC2UfKM32jdbEiQfaCZDbrV2F0_dssOM8V8nT3ZZYvwhflLdfEhJhdNa0-UntK9XHkFJ4R5RthFMOM2X5kDZxUKW1RnRLmmQ0xLh5foMldMZovB0ZPdafoRf9cEb_w9Hwk/s1600/3bb.jpg"
+    },
+    {
+      "id": "3e621572203cd3c8bb51f25353ba9ccf560277e3",
+      "title": "Telegram Desktop Flaw Lets Hidden JavaScript Exfiltrate Messages From HTML Exports",
+      "url": "https://thehackernews.com/2026/09/telegram-desktop-flaw-lets-hidden.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-14T17:58:16.000Z",
+      "summary": "A flaw in Telegram Desktop let a bot's message plant hidden JavaScript inside chats that users exported to HTML files, security researchers at ExPatch said in a writeup published o",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7YYT-Mf718wZ9kLasqkkPZ1Drw4dlLUMaHtOPuWRltuG7bOcA-d4bFr4GRmer0MMohBwgv7HFVFADi-EeDvIMcbEaJUiyn8t-iLxtR8PVRDWHLmxKnofrZgoPOH_RS7qaUkzd0Ery8Rr7oWlgoPJligCMSSywXmXdMHgzuER6M77sWisfdMOo_rqudmk/s1600/telehgram.jpg"
+    },
+    {
+      "id": "5942ab8560b54ab542b60a2385a9b29f46d18c2a",
+      "title": "Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries",
+      "url": "https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-14T16:56:30.000Z",
+      "summary": "A suspected Chinese threat actor tracked as Red Heron has been attributed to the rapid exploitation of a recently disclosed security vulnerability in Gitea to compromise internet-f",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijvj2lBIP05rWNCbhHf0wzhfJ35HBSL0rrr99VOwBa-AzBrvlz0hpopABC1zCHMLj6mqJTNSiij7cFcocgbHUyRbh1QV3V7OCWDLXn3fJ_fRJQxaj63BC8UOjjNlcBdwZ0jdD3zWDA6XpA3Xt2an-6vAE-kyo3sPOpjNa5tzWnntDxaeia-0zzKa-PuywC/s1600/gitea-hacked.jpg"
+    },
+    {
+      "id": "61664f3c1a8b7a6e925c43109b477ffab17722e0",
+      "title": "WordPress Adds Automated Plugin Reviews to Block High-Risk Updates Before Distribution",
+      "url": "https://thehackernews.com/2026/09/wordpress-adds-automated-plugin-reviews.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-14T16:00:04.000Z",
+      "summary": "WordPress has announced it's launching an automated security review for every release of a plugin before it's distributed through the WordPress.org update API so as to analyze it f",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6NRxf0-3Ca12cwdQVS-bicsxwk-06KQZJaLMbd2d217NkuO82Bld3P_E96WP8OEqZXSjDoLtW0JfnRYkQSyl0BlQDNkQoBOf7x-Q5wOmpc59Z4v1ycux0YWShQpPIyvYmMmIRJ0c5Zv_38VFrhwtdcdoxycqIm0b5Df7AeYjbr-8KCJlbujHVhmpvdtrk/s1600/wordpress-auto.jpg"
+    },
+    {
+      "id": "56906f446aa708bc9abe78d9f67211898553d593",
+      "title": "Onboarding et offboarding : les moments où la cybersécurité s'effondre dans les PME",
+      "url": "https://www.clubic.com/dossier-623167-onboarding-et-offboarding-les-moments-ou-la-cybersecurite-s-effondre-dans-les-pme.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-14T15:58:00.000Z",
+      "summary": "Après le départ d’un de vos salariés ou l’arrivée d’une nouvelle recrue, vous laissez souvent des comptes fantômes ouverts à n’importe qui, et donc …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/3689447960d22324b0b40939a3f5f9fec9b1423d/_xlarge.jpeg"
+    },
+    {
+      "id": "7d6eb1dc10b4b0d424cc43f8922e37baa0cdc5ea",
+      "title": "Nos experts ont tranché : \"entre éteindre et redémarrer votre Android, voici la meilleure option\"",
+      "url": "https://www.lesnumeriques.com/telephone-portable/nos-experts-ont-tranche-entre-eteindre-et-redemarrer-votre-android-voici-la-meilleure-option-n260986.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-14T15:25:00.000Z",
+      "summary": "Faut-il éteindre son smartphone régulièrement ? Si l’opération libère la mémoire vive, elle répond aussi à des impératifs de sécurité. L’Anssi …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://cdn.lesnumeriques.com/optim/news/26/260986/1a1b84fe-faut-il-eteindre-son-smartphone-tous-les-jours-ce-qu-il-faut-vraiment-faire__1200_678__26-303-2375-1536.jpg"
+    },
+    {
       "id": "1b2cb0fabc4c8d81b6ffca1ccb25cc6bb5dd1dca",
       "title": "Violences sur mineurs : l’association e-Enfance alerte sur une « explosion » des cas sur Discord et saisit la justice",
       "url": "https://www.lemonde.fr/pixels/article/2026/09/14/violences-sur-mineurs-l-association-e-enfance-alerte-sur-une-explosion-des-cas-sur-discord-et-saisit-la-justice_6773852_4408996.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -118,6 +195,17 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://img.lemde.fr/2026/02/25/0/0/1500/1000/1440/960/60/0/02376f1_upload-1-cdo62zehu9he-frame-753.jpg"
+    },
+    {
+      "id": "ff9153e62a6365d8e3de29dceac328faaeb1c9b8",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/09/14/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "source": "CISA",
+      "publishedAt": "2026-09-14T12:00:00.000Z",
+      "summary": "&lt;p&gt;CISA has added one new vulnerability to its &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities (KEV) Ca",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": null
     },
     {
       "id": "0772526822038854ce7655693e5f70fbeeffbe49",
@@ -230,17 +318,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguNgykDjufnR6xGrMUSq67eZ5sCFxbYjf8J6pEXekhUnt-zCt2xaJ4jzj6I0wPMYjps9z2ufKJ-JSJ8ZqhGe4BcbtNWfRETdaB6QgIRVLw0CtnsM5q2qCpyI3kL7oBXmNixcTTcumZJHFgCKaoLY8kRIBDbPHslMmmzzb25TlESGooJuaxtXEL5qrUzkop/s1600/twitch.jpg"
     },
     {
-      "id": "dfe2b7a1e29ad5dd525f241cc6bf7f2565c2fb4e",
-      "title": "L’Anssi pointe « l’évolution majeure » de la menace : l’émergence de jeunes pirates motivés avant tout par la fame - ZDNET",
-      "url": "https://www.zdnet.fr/actualites/lanssi-pointe-levolution-majeure-de-la-menace-lemergence-de-jeunes-pirates-motives-avant-tout-par-la-fame-503399.htm",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-14T07:20:33.000Z",
-      "summary": "Pour contrer ces cybercriminels en herbe, le directeur général du cyber-pompier français rappelle l’importance du déploiement des bonnes pratiques de …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2025/06/anssi-5-scaled.jpg"
-    },
-    {
       "id": "17f02a6bb97b3ed4bf352b9b78b2f358081c8689",
       "title": "Pourquoi les PME doivent complètement changer de réaction en cas de «phishing» - Le Temps",
       "url": "https://www.letemps.ch/articles/pourquoi-les-pme-doivent-completement-changer-de-reaction-en-cas-de-phishing",
@@ -250,6 +327,17 @@
       "type": "NEWS",
       "severity": "Élevée",
       "imageUrl": "https://letemps-17455.kxcdn.com/photos/be3d94c4-36b2-4fba-9c05-51bfe7fcbdf2/medium"
+    },
+    {
+      "id": "a500abd77979d4ebce58c583774b48790eec0270",
+      "title": "Cybercriminalité : Comment des pirates francophones et des agences basées en France détournent l'IA Claude d'Anthropic - ZDNET",
+      "url": "https://www.zdnet.fr/actualites/cybercriminalite-comment-des-pirates-francophones-et-des-agences-basees-en-france-detournent-lia-claude-danthropic-503457.htm",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-14T05:09:39.000Z",
+      "summary": "Le dernier rapport de threat intelligence d'Anthropic met en lumière l'utilisation offensive de l'IA générative par des cybercriminels et des …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2024/03/redkeys-gettyimages-1465480413.jpg"
     },
     {
       "id": "72ee92610da65c0decc7e8b1fb2ff393deb3fa62",
@@ -384,6 +472,17 @@
       "imageUrl": null
     },
     {
+      "id": "3278714ff33c7397d72fc0090d288690f5045aac",
+      "title": "Violation de données chez Revolut : près de 700 clients touchés",
+      "url": "https://fr.investing.com/news/stock-market-news/violation-de-donnees-chez-revolut--pres-de-700-clients-touches-3595081?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-14T00:00:00.000Z",
+      "summary": "Investing.com - Revolut a contacté 680 clients à la suite d’une violation de données au cours de laquelle la société fintech a transmis des …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/investing.com/2246e3898224315c518d1ba564f6a8c385c26d87/_large.jpeg"
+    },
+    {
       "id": "0437852baeadda80a0921cb3c9426d8c2739513c",
       "title": "Offre de rentrée : -50% sur le meilleur antivirus Mac Intego ONE Total",
       "url": "https://www.mac4ever.com/securite/198010-offre-de-rentree-50-sur-le-meilleur-antivirus-mac-intego-one-total?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -426,17 +525,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://rtleng.rosselcdn.net/sites/default/files/dpistyles_v2/FirstImageUrl/2026/09/13/800057/4718587/public/2026/09/13/101918447.jpeg?itok=V8K4VTpo1789309214"
-    },
-    {
-      "id": "be6c21f90305ac3a89e639ae57205d0ec3bf8da4",
-      "title": "Panne du Crédit Agricole : vous n’êtes pas les seuls à avoir des bugs avec l’app de la banque ce dimanche",
-      "url": "https://www.numerama.com/tech/2332163-panne-du-credit-agricole-vous-netes-pas-les-seuls-a-avoir-des-bugs-avec-lapp-de-la-banque-ce-dimanche.html?amp%3Butm_source=flipboard&amp%3Butm_content=directlink&amp%3Butm_campaign=2332163",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-13T13:35:44.000Z",
-      "summary": "Une panne semble affecter le Crédit Agricole ce dimanche 13 septembre 2026. Les internautes sont nombreux à indiquer qu’ils et elles n’accèdent plus …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/09/2-1.jpg?resize=1600%2C900&amp%3Bkey=d3e67c25"
     },
     {
       "id": "76e2cf2bbcee2cec0aaa9c9b463dd5fc445bb885",
@@ -571,17 +659,6 @@
       "imageUrl": "https://sciencepost.fr/wp-content/uploads/2026/09/jai-confirme-ma-commande-fnac-depuis-le-sms-recu-pendant-les-french-days-personne-ne-mavait-prevenu-de-ce-qui-partait-aussi-featured-1788870222.jpg"
     },
     {
-      "id": "d686595f3778f2b2a2f2d214b7e763da2abf121d",
-      "title": "«Il faut quand même rassurer» : Clément Domingo relativise les scénarios d'extinction de l'humanité par l'IA",
-      "url": "https://www.europe1.fr/technologies/il-faut-quand-meme-rassurer-clement-domingo-relativise-les-scenarios-dextinction-de-lhumanite-par-lia-1072454?at_medium=RSS+feeds&amp%3Bamp=&amp%3Bat_campaign=Flux+Generique",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-12T11:57:02.000Z",
-      "summary": "Invité d'Europe 1 ce samedi matin, le hacker éthique Clément Domingo a réagi aux déclarations alarmistes de certains spécialistes de l'intelligence …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://static.europe1.fr/var/europe1/storage/styles/image_750_422/public/media/image/2026/09/12/08/untitled_8_1_6a86cab645d8d_1_6aa4f32b48be2.jpg?itok=ezjuPh5d"
-    },
-    {
       "id": "0d78f9f1a14a3d9c959cd78133cdd8d7abe7e18b",
       "title": "When the Whole Company Adopts AI: What It Does to Your SOC",
       "url": "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html",
@@ -613,17 +690,6 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSyR4P1ZPtVeXKeb60Ut1xdO4OhRvHWFmoYNgM7SI3NEwfwcTi3Ut60xwcqIfP56OzGFtixKW4Aeo14cVZNE6TPmpC-x8qFgofgMToETQ82bp1aMIMBuaOER2Rq6PkhONMhZPGLFSKFfxVjY4_zDNJOXYHPbQaorfgr74o2PimTPeCf1hgZQ0spe-nJoiU/s1600/rubygems-openai.jpg"
-    },
-    {
-      "id": "e27e0c8f90b94fcd32781abb07512a45440c8edc",
-      "title": "« Des armes biologiques » : Anthropic révèle les pires usages de son IA Claude en 2026",
-      "url": "https://www.presse-citron.net/des-armes-biologiques-anthropic-revele-les-pires-usages-de-son-ia-claude-en-2026/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-12T05:30:40.000Z",
-      "summary": "Un nouveau rapport d’Anthropic sème la panique. Des groupes armés et des hackers, parfois épaulés par des gouvernements, cherchent à détourner la …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/presse-citron.net/0018e5356c340044c809f4d87ec4923d036f5b44/_xlarge.jpeg"
     },
     {
       "id": "594ae571c43ca3470c1905b3a7940cbc2ac1d536",
@@ -1759,39 +1825,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSKAVaHcAsULrGXPVkGXRyf94eoG7Kv3X0wwK2lRC64l3Em-S4_H5iE8-poK04yzrAC18tuHqpZyHhJvFTgliu_z8jo4QR78Mi4ghhCA-cUVL4oj2zjoLGiWKmD16oV4i44VfY45DYll0Uij_Exf4U2JMSLJEyH8jZk_xXKq7O_7D73q7vTYCCc4hrTnQ/s1600/freeipa.jpg"
     },
     {
-      "id": "1b3c0ef8ad79f3a2c11bd13d373fe2182681cc3e",
-      "title": "Adobe Patches Magento Zero-Day Exploited to Deploy Rust Backdoor and PHP Web Shell",
-      "url": "https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-08T09:13:47.000Z",
-      "summary": "Adobe on Monday released security patches to address a maximum-severity flaw impacting Adobe Commerce and Magento Open Source that has come under active exploitation in the wild. T",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_xdakttovno7kFgFYIw5XGFGcSZibVvXYB64vih4iZpc4_WY_t7oe1X3igSPGXBa8UTkf4z4xn_GzZ_n7PmuFFvYC8Wsmb04PxYP5z-XHjZZFe_SASihwZNg1dxHXQzz8hBRo-6LhvQmwyo_MA9Kj6hrcci6ouvOX1D4f-0dNvs57M6WneQHC61yZkF_o/s1600/magento.jpg"
-    },
-    {
-      "id": "fc8d66e64da2e0395a2ac886a30d9734487dd991",
-      "title": "BengalSEO Poisons Bing Search Results to Deliver MayaBot and Tech Support Scams",
-      "url": "https://thehackernews.com/2026/09/bengalseo-poisons-bing-search-results.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-08T08:43:51.000Z",
-      "summary": "Cybersecurity researchers have disclosed details of a sprawling search engine optimization (SEO) poisoning campaign that paves the way for malware deployment and tech support scams",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_rKrsCwJpZOS1Cu2htzFszKn4OgjK2p5A43OUaQJsmlbjsaLfGHtgyqQPfOu3IFWqRBoj2J6hIiqv6CVr56ZLyyf73-E71iaDRB2nrO9qaGOg92EbOcutMu8M8i1uimwkC-GPcc9oGDgFNNLB4kkgfDB3MbcjPuAn_gsml3FyThlEyI3Pg8E-udYq175m/s1600/bing.jpg"
-    },
-    {
-      "id": "7e385875f7821588bba0786b6fead4bfad130766",
-      "title": "Grindr to Pay £26 Million to Settle U.K. Claims Over HIV Status Data Sharing",
-      "url": "https://thehackernews.com/2026/09/grindr-to-pay-26-million-to-settle-uk.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-08T07:00:43.000Z",
-      "summary": "Online dating app Grindr has opted to pay £26 million ($35.1 million) to settle a lawsuit in the U.K. over allegations that it shared users' personal information, including their H",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGUJMPbCbes7NM-EpNPWOUc7bYX5pznAZZjAl29ELdnhrIFzOBqkVtUsiDgxWvImd-yqpnCi5E4EaA1SCbnqY-_1qOwv2RnBTrjOHwn738A5TVUyZV6uX9TQyjF2EmPsJhyxHc1IcqV0jH3JraUU5s3Yw64WOCoE4WawhfajZhq7X-XvWQtVfw-S2QxbkU/s1600/grindr.jpg"
-    },
-    {
       "id": "79d816f7ebc7386ee537c7fcbf2fd493902eceac",
       "title": "Dell - CVE-2026-61410",
       "url": "https://cyberveille.esante.gouv.fr/alertes/dell-cve-2026-61410-2026-09-08",
@@ -1845,28 +1878,6 @@
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": null
-    },
-    {
-      "id": "b22fb2c2320b28e7d23c8580fed804cbe8002300",
-      "title": "PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution",
-      "url": "https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-07T18:12:09.000Z",
-      "summary": "Cybersecurity researchers have disclosed details of a complex Chromium-based post-exploitation toolkit called PEEP that masquerades as a bookmarks extension for the web browser. \"R",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhA3-5bNylOMc_s8MAT2ibQnV33cnJXadwKPRXjYgAL0GcZWOXuwtM-s5HS4ryVu5ewnhfAqBtOiuSseLcUSyDIfxf5XKF6mAwrpyG-v3Y-siqjJY8I5zVEMXwfkKPwBNAqaO2sQFI-q2oA4MWiagZFUlknIPKADDfvOo8s2Ifsa_xBAojg1rD5ZGUErC85/s1600/chrome-malware.jpg"
-    },
-    {
-      "id": "65df53ec84632dac98b278774d20678c18ce4145",
-      "title": "Fake IT Calls Target Executives in Microsoft 365 Data Theft and Extortion Attacks",
-      "url": "https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-07T15:51:56.000Z",
-      "summary": "Threat hunters have disclosed details of a widespread data theft and extortion threat cluster that's targeting Microsoft 365 and other software-as-a-service (SaaS) offerings throug",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjg-Zo4zgxCrVcz6-00WV2qAPHSD-av2Ed5hgRmR-2vUzkr9jVeph0NNb6gGsQfwSkFyuRfRcSsaISSpfysl_Xx5F48IM7HdBpO4F3CaVuLhk1v0a4vcH5xK_bxX6BxIjkfAjhDaNGcLG7_R9IcTjVGlFcW7y1ZV64imACHi9528LOjH1Flhk-cy9LFgrMv/s1600/phish-ms.jpg"
     },
     {
       "id": "4df1270dac58442246508cfc2a3e87a54845024e",
@@ -2089,6 +2100,17 @@
       "imageUrl": null
     },
     {
+      "id": "e9b4607174f30bfbcc9257a255de091fe6c4dc0b",
+      "title": "Tycon Systems TPDIN-Monitor-WEB3",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-08",
+      "source": "CISA",
+      "publishedAt": "2026-09-03T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-246-08.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
       "id": "e95139543119ed57acc76672236c7955eabc8e1c",
       "title": "Inductive Automation Ignition",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-06",
@@ -2133,6 +2155,17 @@
       "imageUrl": null
     },
     {
+      "id": "0c0208dba5df9673b7b0fa47707f136d046d8d25",
+      "title": "Preparing for the Post-Quantum Era: A Call to Action",
+      "url": "https://www.cisa.gov/resources-tools/resources/preparing-post-quantum-era-call-action",
+      "source": "CISA",
+      "publishedAt": "2026-09-03T12:00:00.000Z",
+      "summary": "&lt;p&gt;CISA and the Group of Seven (G7) Cyber Security Working Group released &lt;a href=&quot;https://urldefense.us/v3/__https:/cyber.gouv.fr/en/publications/jointly-led-interna",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
       "id": "7b97860f8f78c868cdf049921035b648bfa3a7e9",
       "title": "Rockwell Automation ControlFLASH",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-03",
@@ -2166,34 +2199,12 @@
       "imageUrl": null
     },
     {
-      "id": "0c0208dba5df9673b7b0fa47707f136d046d8d25",
-      "title": "Preparing for the Post-Quantum Era: A Call to Action",
-      "url": "https://www.cisa.gov/resources-tools/resources/preparing-post-quantum-era-call-action",
-      "source": "CISA",
-      "publishedAt": "2026-09-03T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA and the Group of Seven (G7) Cyber Security Working Group released &lt;a href=&quot;https://urldefense.us/v3/__https:/cyber.gouv.fr/en/publications/jointly-led-interna",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
       "id": "f082896f386f5254e30e0e995bc3f86ae37ad734",
       "title": "Tycon Systems TPDIN-Monitor-WEB2 (Update A)",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-01",
       "source": "CISA",
       "publishedAt": "2026-09-03T12:00:00.000Z",
       "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-202-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "e9b4607174f30bfbcc9257a255de091fe6c4dc0b",
-      "title": "Tycon Systems TPDIN-Monitor-WEB3",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-08",
-      "source": "CISA",
-      "publishedAt": "2026-09-03T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-246-08.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -2262,17 +2273,6 @@
       "summary": "FreePBX 17.0.2 - Remote Code Execution (RCE)",
       "type": "CVE",
       "severity": "Critique",
-      "imageUrl": null
-    },
-    {
-      "id": "d9c33a048a8eb706fc18e8147a04803411251be9",
-      "title": "[webapps] Metabase 0.61.0 - Authenticated Remote Code Execution",
-      "url": "https://www.exploit-db.com/exploits/52680",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-09-03T00:00:00.000Z",
-      "summary": "Metabase 0.61.0 - Authenticated Remote Code Execution",
-      "type": "CVE",
-      "severity": "Info",
       "imageUrl": null
     }
   ]
