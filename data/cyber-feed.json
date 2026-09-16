@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T09:09:17.997Z",
+  "generatedAt": "2026-09-16T14:41:23.459Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,7 +17,7 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 113
+      "items": 114
     },
     {
       "name": "Exploit-DB",
@@ -76,6 +76,116 @@
   ],
   "items": [
     {
+      "id": "800bfe40dc9a681d4d17eabd9ed3c65f401981ea",
+      "title": "Attacker Hijacks AI Coding Assistant Session, Spreads Shai-Hulud Across About 100 Repositories",
+      "url": "https://thehackernews.com/2026/09/attacker-hijacks-ai-coding-assistant.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-16T13:37:07.000Z",
+      "summary": "Mandiant says an attacker hijacked an active AI coding-assistant session at an unnamed software-as-a-service provider and later spread Shai-Hulud across about 100 internal code rep",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghZsSi9JbsiALEhfWv_49vjKw2uHa-lBOUWCwhyphenhyphensppIZLuNgoQ-VQTs2EjRmXjemfvM0Fj9knUSdDIYbSWg5Pf_sqKBOGV5BA67GVYn_lNreIN_Kwpp3u0yxKgF4dIHXRj-NKcCyimE0kwHUWHqxP7SHUd-Tu31S3jfzxOPmN8_Xk8d5GYRce2N4MdmYY/s1600/shai.jpg"
+    },
+    {
+      "id": "8fe63a2251f2c7c262c74fda83b36b3a0163272e",
+      "title": "Parallels Desktop Flaw Lets Non-Admin Mac Users Gain Root, but Intel Macs Can't Install Fix",
+      "url": "https://thehackernews.com/2026/09/parallels-desktop-flaw-lets-non-admin.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-16T13:14:05.000Z",
+      "summary": "Parallels Desktop for Mac has a flaw that lets an ordinary local account run code as root, the highest level of access on a Mac, software company JFrog said this week. The attack n",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjExQfYsCTPbCiUrkVUWdKhrZNgpAVRtutRYt2c4x-f5ClJdNYjERcet4Fctan3gEOl0DPk64GUGZv5IK3Cd_pi3Jk1cyH3tdYig9mpc2XTLjJaK0KM3aiqE6W1OeGiKr_kRWNRmty1u4Cwf_9-S1KrKdqUeL25YwL6tt5Z-nUcvzj0F8NemzMbSUmvTJ4/s1600/parashells.jpg"
+    },
+    {
+      "id": "99329509c214fb6ebb9ace0fb262047c65810706",
+      "title": "Agents IA en production : personne dans votre organisation ne sait vraiment ce qu'ils font",
+      "url": "https://www.journaldunet.com/management/direction-generale/1554781-agents-ia-en-production-personne-dans-votre-organisation-ne-sait-vraiment-ce-qu-ils-font/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-16T12:55:28.000Z",
+      "summary": "Ce que vous devez exiger avant le prochain déploiement ; sans être expert en cybersécurité Quelque part dans votre organisation, un agent IA est en …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/journaldunet.com/dc2f518b3b94e4080c1eb67df57cf73c2c5fa2a1/_xlarge.jpeg"
+    },
+    {
+      "id": "32df7deae37add0b8183208040b918b675626a4c",
+      "title": "Les États-Unis ont des armes dans l'espace : ce qu'on peut déduire de ce que Washington refuse de dire",
+      "url": "https://www.futura-sciences.com/tech/actualites/guerre-futur-etats-unis-ont-armes-espace-ce-quon-peut-deduire-ce-washington-refuse-dire-137773/",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-16T12:02:24.000Z",
+      "summary": "« Nous renforçons notre préparation face aux menaces actuelles, et les États-Unis disposent d'armes de contrôle spatial en orbite capables de défendre …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/futura-sciences.com/58a502a216d93661b0596dc0135def95f6f85c96/_xlarge.jpeg"
+    },
+    {
+      "id": "e49e366431b8f9a2f1a743ec57579ae3eb9b9778",
+      "title": "La banque en ligne Revolut victime d’une fuite de données, 680 clients concernés",
+      "url": "https://www.liberation.fr/economie/la-banque-en-ligne-revolut-victime-dune-fuite-de-donnees-680-clients-concernees-20260916_4LZTDJCMPBFE3DK6Z5SOAUABCM/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-16T11:59:07.000Z",
+      "summary": "L’entreprise britannique a subi une usurpation d’identité ce mercredi, qui a permis au hacker d’accéder aux informations de certains clients. Elle a …",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/liberation.fr/51299961bc28e5ade22c6ec436054416acc85d87/_xlarge.jpeg"
+    },
+    {
+      "id": "740ce26614f44e10e7b545a9324594795bbc1515",
+      "title": "N0va Phishkit Targets US and EU Businesses: A New Challenge for Identity Security",
+      "url": "https://thehackernews.com/2026/09/n0va-phishkit-targets-us-and-eu.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-16T11:58:00.000Z",
+      "summary": "N0va is targeting organizations across North America and Europe with phishing campaigns that impersonate trusted services and abuse legitimate authentication flows. Successful atta",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEji_HlxXvIPYjLUnTTNbkIHzO8UKX2MISan0W6hxfEB55j5U8GUlvJexOakfaxqEyihcT1mluW0C2l2X73wbAk8V3K514rf7X4N0Iojw-JrbimvmTAAOQ-3aawWLHywrmGYkwyCzl_zZI5FjVdlY2GIVIPIDn0v1EEh4PqQlAh9tkNk5NjRyoILB5-D7gI/s1600/N0va.jpg"
+    },
+    {
+      "id": "7d3530bd183c5d687817cd15a193ff3ad219aa27",
+      "title": "Fuite de données : près de la moitié des Français ont été piratés cette année",
+      "url": "https://www.01net.com/actualites/fuite-donnees-pres-moitie-francais-pirates-cette-annee.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-16T11:23:36.000Z",
+      "summary": "Cybermalveillance.gouv.fr publie son 3ᵉ baromètre sur la cybersécurité des Français… et le constat est alarmant. L’étude révèle que près de la moitié …",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/ab59bb89193e91e0f8c140cdd188cf99c6a5aa5f/_xlarge.jpeg"
+    },
+    {
+      "id": "e12dd0ba51a96683db90e5047569654b455cd3f8",
+      "title": "Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation",
+      "url": "https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-16T11:15:58.000Z",
+      "summary": "Google has disclosed that a high-severity security flaw in its Pixel Cellular Modem has come under exploitation in the wild. The vulnerability, tracked as CVE-2026-58704 (CVSS scor",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdVCezHTU2PU4DuL9ysF0nQFJLLR2QyxyexdJN5iv1QQnl4-mFFupADzryOhW_lsM_nI5OgHH5krMBLOErLl9GNmyJeaGEDGQNnhhyphenhyphenNs2ZXIwBLTIY8poIVxLKPNRRAipPFbKv_a7CPzE86rB_nItrsiirydPRuCZrvkDymktX28d1O7kSbEhIgmEPh6oy/s1600/pixel.jpg"
+    },
+    {
+      "id": "f0ec6baf82c3e22e5b4de6c68af013d4bde71e1a",
+      "title": "Threat Intelligence Alone Won't Close the Exploitation Gap",
+      "url": "https://thehackernews.com/2026/09/threat-intelligence-alone-wont-close.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-16T11:15:48.000Z",
+      "summary": "A leaked credential shows up in a criminal marketplace, or a vulnerability gets a disclosure advisory, and either one can be weaponized against a real target before most security t",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNTaZ2mJpwks9AMkwh4I_Q5sK5sgj01Fd4eW4c47_ZsHN_8hKPjptnlJ_P0RboejQy7PB6Ad4UXLFggJXAGlVsBigp46txL8LoSlpMuwQ0sXkAPQZ4TYtg89jNIa6SLPxuv-YC-_LlNZq2FZdNHRnrP_iQUYPSj2-MzugjnlL_CrIJw80lMzbVCZEf0x8/s1600/pentera.jpg"
+    },
+    {
+      "id": "e62d9a0f7992eb715b588a9d9ce8cec100d17ca6",
+      "title": "Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks",
+      "url": "https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-16T11:08:54.000Z",
+      "summary": "Acronis has warned that a high-severity security flaw in its Backup plugin for cPanel and Web Host Manager (WHM) deployments has been exploited in the wild. The vulnerability, trac",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOvbeWtAztd1-F4zbNa4Ei7kEh-C7s4QGW-rmB8ug7-mXRIcdL_mAqtAA_hqAG7QtaHUMTxSYa5dFw0080LoR66SUCPLGybqueRLeUJvQQ6unmg4WqExx08rrv0NZaZkQldGURtIDMZRpregBaFLhjws2d_eRt0I0VcZdaSGZS6twj0AvBK74TAJx-veBz/s1600/acronis.jpg"
+    },
+    {
       "id": "98cd4a380aad4c62841b8aee91ee4fbb245ed423",
       "title": "Les cyberattaques contre les PME suisses explosent",
       "url": "https://www.blick.ch/fr/suisse/ia-les-cyberattaques-contre-les-pme-suisses-explosent/jwm55gz?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -84,7 +194,7 @@
       "summary": "Les cyberattaques basées sur l'IA explosent en Suisse, touchant surtout les PME. Près de 74% des entreprises n'ont aucun plan stratégique pour y …",
       "type": "NEWS",
       "severity": "Info",
-      "imageUrl": "https://ocdn.eu/pulscms-transforms/1/LplktkuTURBXy85YWM5NWEwYy03MzFjLTQzMGYtODc4Ni1mZTc0NzkzZmQzNzYuanBlZ5KTBc0CWM0BO5MJpmNmMTMzYQY/nzwiouy9ar.jpg"
+      "imageUrl": "https://ocdn.eu/pulscms-transforms/1/z4XktkuTURBXy85YWM5NWEwYy03MzFjLTQzMGYtODc4Ni1mZTc0NzkzZmQzNzYuanBlZ5KTBc0CWM0BO5MJpmY4ZDA0MAY/cqg2lyymhk8.jpg"
     },
     {
       "id": "22fd42746197c5cfc794508acc3c2bcf859ac5a3",
@@ -142,6 +252,17 @@
       "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/78733a05ee4d1c11aecb82593b196d434aa88f11/_xlarge.jpeg"
     },
     {
+      "id": "378f8a52cc7a8ae97891a06ff1fcf2d47ece3a94",
+      "title": "Intelligence artificielle : entre progrès technologique et inquiétudes sur l’avenir",
+      "url": "https://fr.africanews.com/2026/09/16/intelligence-artificielle-entre-progres-technologique-et-inquietudes-sur-lavenir/?amp%3Butm_campaign=feeds_news&amp%3Butm_medium=referral",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-16T05:09:33.000Z",
+      "summary": "L’essor rapide de l’intelligence artificielle suscite un débat mondial sur ses opportunités, mais aussi sur les risques qu’elle pourrait représenter. …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/euronews.com/ecaecdfd1b70cceb804234e6c3fc930bd9b27692/_large.jpeg"
+    },
+    {
       "id": "325a24fb3f949c515eee0b5744b5e6a0449a6ad0",
       "title": "Dissidents et journalistes piégés par un faux Norton aux mains des Iraniens",
       "url": "https://www.clubic.com/actualite-629869-dissidents-et-journalistes-pieges-par-un-faux-norton-aux-mains-des-iraniens.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -173,6 +294,193 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/089b676c58c513a41eb8b2edab81df9c1f1585f6/_xlarge.jpeg"
+    },
+    {
+      "id": "2ebe1bb59b145a452062232a915ac9b3854920f8",
+      "title": "Dell - CVE-2026-63695",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/dell-cve-2026-63695-2026-09-16",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-09-16T02:39:15.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de type &lt;strong&gt;fixation de session&lt;/strong&gt; dans Dell Networking OS10.&lt;/p&gt; &lt;p&gt;Dell Networking OS10 (SmartFabric OS10",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "4562c1615759ce0d5250746b25df13b2014da9bd",
+      "title": "Multiples vulnérabilités dans Oracle Virtualization (16 septembre 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1188/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Virtualization. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distan",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "3ef0f8abf282ea7640c9995711b37bcff66db66c",
+      "title": "Multiples vulnérabilités dans Apache Zookeeper (16 septembre 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1177/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Apache Zookeeper. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "7fa0bd1e0b7bc512f4d47e0ff9f2fd10fc088ee9",
+      "title": "Multiples vulnérabilités dans les produits HPE Aruba Networking (16 septembre 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1179/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits HPE Aruba Networking. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitra",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "e45f363a273467b4c575402dd2bb0056caa4eecb",
+      "title": "Multiples vulnérabilités dans Google Pixel (16 septembre 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1176/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Google Pixel. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une é",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "d955130c3286f1e04e2633bec046341f5b7d2e4d",
+      "title": "Multiples vulnérabilités dans Docker (16 septembre 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1189/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Docker. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteint",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "3610fd066025eb8af79efee65f1232f3951fe705",
+      "title": "Multiples vulnérabilités dans Oracle Java SE (16 septembre 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1185/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Java SE. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service ",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "d91a217959a80a0917a45e0e3bc9f98bb7f19a41",
+      "title": "Vulnérabilité dans StrongSwan (16 septembre 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1180/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans StrongSwan. Elle permet à un attaquant de provoquer un déni de service à distance.",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "f13799ffe367bd2237ae90717835e65b439aefba",
+      "title": "Multiples vulnérabilités dans Oracle PeopleSoft (16 septembre 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1187/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Oracle PeopleSoft. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialit",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "9b1c69af195de000386f2134b98b9e9b4668f0f3",
+      "title": "Multiples vulnérabilités dans Microsoft Edge (16 septembre 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1191/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et une élévation de pr",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "adf91992ab65f69bfa8a3accb5791135ecb603b6",
+      "title": "Multiples vulnérabilités dans Mattermost Server (16 septembre 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1190/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Mattermost Server. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un problème de",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "3d0c8d0eee8650943bbbe34d7b7f35a57c557b3b",
+      "title": "Multiples vulnérabilités dans les produits Mozilla (16 septembre 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1183/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de se",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "729b327fc5849b564f696309b2e56093f50c7e08",
+      "title": "Vulnérabilité dans Netgate pfSense (16 septembre 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1181/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans Netgate pfSense. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "eb268a9ffecad32fb2e32be0c6a8b49b816ba3e0",
+      "title": "Multiples vulnérabilités dans Google Chrome (16 septembre 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1178/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "86b60eaa04c82ab352c46de60f662a30540852f1",
+      "title": "Multiples vulnérabilités dans Oracle Database Server (16 septembre 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1184/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Database Server. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de ",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "1e7c3157863cefe066df6e23dd3eb7415a3ff2e7",
+      "title": "Vulnérabilité dans F5 NGINX (16 septembre 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1182/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans F5 NGINX. Elle permet à un attaquant de provoquer un déni de service à distance et une atteinte à l'intégrité des données.",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "443be870d0e157f38fde3b41c9b059e81e266ba3",
+      "title": "Multiples vulnérabilités dans Oracle Weblogic (16 septembre 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1186/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Weblogic. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
     },
     {
       "id": "1b358c687e06ba89d1b49a9f46ab09b73e1be7f1",
@@ -338,17 +646,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://cdn-static.boursier.com/illustrations/photos/l_huawei4.jpg"
-    },
-    {
-      "id": "14ced28a62bb7f70c759cfe2404cc0b87b077742",
-      "title": "Fuites de données : « démunis », les Français ne prennent pas la peine de faire des signalements",
-      "url": "https://www.leparisien.fr/high-tech/fuites-de-donnees-demunis-les-francais-ne-prennent-pas-la-peine-de-faire-des-signalements-15-09-2026-6OVN7YOLCRAD7BOSPLSHOM6DAA.php?amp%3Butm_content=topic%2Ffr-technologie",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-15T14:22:42.000Z",
-      "summary": "Face à la multiplication de cyberattaques, une majorité de Français accentuent leur vigilance même s’ils ne ressentent pas d’impact sur leur vie, …",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://www.leparisien.fr/resizer/-C8gc0B15Ez_vDE-Vff8IqpkH_c=/1600x900/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/4MNUBXQDEVEOHDQSXIFKKGIF6A.jpg"
     },
     {
       "id": "d0873f8edbfbab8350d713f2938a874905d36d30",
@@ -637,17 +934,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5aJxmkQeaEoRUyxjlnH4uMELX24ICkHN1UpJaF3kM181M-V32GMskTo1YCRAf-8m4rsHw0nEYM53AC1CAZekv6yOEfBkj1ZNxL3lWatq_F5Bpuwsvw7snHIiIz62EA1pX-bPaawFgIwbvtUH020WdVwEupWi_CkYJVDog_w0LVEnMMvRYo0D7giAdtuGK/s1600/chrome-windows.jpg"
     },
     {
-      "id": "5d2d239f6e8ed0cce6fe1feb7ab23e3579c2064f",
-      "title": "Serveurs Vite : vos identifiants AWS et Azure en danger",
-      "url": "https://android-mt.ouest-france.fr/news/decryptage/serveurs-vite-vos-identifiants-aws-et-azure-en-danger/213880/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-15T05:25:50.000Z",
-      "summary": "Une campagne de scan qui s’intensifie brutalement Des chercheurs de F5 ont détecté une hausse spectaculaire des tentatives d’intrusion visant les …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/2ee1607a1bdc5eb5b46f5fcf29c50b40cbad7c10/_xlarge.jpeg"
-    },
-    {
       "id": "bde10542ead3ed80906c071862562b4ab4c696df",
       "title": "Cisco - CVE-2026-76461",
       "url": "https://cyberveille.esante.gouv.fr/alertes/cisco-cve-2026-76461-2026-09-15",
@@ -802,17 +1088,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6NRxf0-3Ca12cwdQVS-bicsxwk-06KQZJaLMbd2d217NkuO82Bld3P_E96WP8OEqZXSjDoLtW0JfnRYkQSyl0BlQDNkQoBOf7x-Q5wOmpc59Z4v1ycux0YWShQpPIyvYmMmIRJ0c5Zv_38VFrhwtdcdoxycqIm0b5Df7AeYjbr-8KCJlbujHVhmpvdtrk/s1600/wordpress-auto.jpg"
     },
     {
-      "id": "1b2cb0fabc4c8d81b6ffca1ccb25cc6bb5dd1dca",
-      "title": "Violences sur mineurs : l’association e-Enfance alerte sur une « explosion » des cas sur Discord et saisit la justice",
-      "url": "https://www.lemonde.fr/pixels/article/2026/09/14/violences-sur-mineurs-l-association-e-enfance-alerte-sur-une-explosion-des-cas-sur-discord-et-saisit-la-justice_6773852_4408996.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-14T15:13:09.000Z",
-      "summary": "Pour le premier semestre 2026, le numéro national de lutte contre le harcèlement recense une hausse de plus de 200 % des cas de violences faites aux …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://img.lemde.fr/2026/09/14/0/161/2146/1431/1440/960/60/0/2585fff_upload-1-q1gsbfpiexun-capture-d-ecran-42.png"
-    },
-    {
       "id": "63ad4f2652f652164f734f65ae5e5691be05631c",
       "title": "⚡ Weekly Recap: Rogue AI Agents, WeChat Worm, PaperCut Attacks, AI Espionage, and Rootkits",
       "url": "https://thehackernews.com/2026/09/weekly-recap-rogue-ai-agents-wechat.html",
@@ -822,17 +1097,6 @@
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgubijVX34VFFHDXzT2j2iTTWrHaElVXjylLKHKAjeSU59q3jTZvRM_O35zw5QOCnrT8ejrYHTG-kjYyt0-R127H_2qEgIWJNuKynEL1FcM9JLyPbsJPY5OZW9rrkJpRprrxpWP8oAGZA2ARZ3xg_0DvBw1I2wbIoXKItcVEjNXQH-CXCMRyuqp1u53ALj7/s1600/recap-cyber.jpg"
-    },
-    {
-      "id": "52df641d5935c8f44f85a003503c8e0748c8b169",
-      "title": "« Un serveur qui a planté » : un incident informatique empêche l’organisation de ce conseil municipal en Maine-et-Loire",
-      "url": "https://www.ouest-france.fr/politique/un-serveur-qui-a-plante-un-incident-informatique-empeche-lorganisation-de-ce-conseil-municipal-en-maine-et-loire-665a914c-b036-11f1-b773-22a20d9d91fa?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-14T14:04:12.000Z",
-      "summary": "Initialement prévu lundi 14 septembre, à 18 h 30, le conseil municipal de Cholet (Maine-et-Loire) ne peut pas se tenir. La collectivité évoque un …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/6215824d10b8c00bdf78c5beb8b49e65199b0010/_xlarge.jpeg"
     },
     {
       "id": "ff9153e62a6365d8e3de29dceac328faaeb1c9b8",
@@ -866,17 +1130,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://www.zataz.com/wp-content/uploads/recyf.jpg"
-    },
-    {
-      "id": "532344594fec72754c7f1aa32436762e6e83d09e",
-      "title": "Revolut piégée par des escrocs : les hackers menacent de publier chaque jour de nouveaux dossiers clients",
-      "url": "https://www.numerama.com/cyberguerre/2332491-revolut-piegee-par-des-escrocs-les-hackers-menacent-de-publier-chaque-jour-de-nouveaux-dossiers-clients.html?amp%3Butm_source=flipboard&amp%3Butm_content=directlink&amp%3Butm_campaign=2332491",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-14T08:30:22.000Z",
-      "summary": "Revolut a confirmé le 12 septembre 2026 avoir transmis des données sensibles de certains de ses clients à un escroc qui se faisait passer pour une …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/09/design-sans-titre-2026-09-14t102349274.png?resize=1600%2C900&amp%3Bkey=9d7f2b00"
     },
     {
       "id": "929e8182b662ca2244bb2574863311f008031cb4",
@@ -1550,39 +1803,6 @@
       "imageUrl": null
     },
     {
-      "id": "3942f543e89080e65544feb560107aa51d0e7818",
-      "title": "Vulnérabilité dans Laravel (10 septembre 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1153/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans Laravel. Elle permet à un attaquant de provoquer une injection de code indirecte à distance (XSS).",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "837d9bb9353e64e197170237474b3c5ea9c0ea5f",
-      "title": "Vulnérabilité dans Apereo CAS (10 septembre 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1150/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans Apereo CAS. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "8b47790d0790dbcd938f7aafd99e4fb098aab128",
-      "title": "Multiples vulnérabilités dans Moodle (10 septembre 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1155/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Moodle. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une injec",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
       "id": "63a4bab78fbb7950b5ba8854e4715456d99ef426",
       "title": "Multiples vulnérabilités dans MongoDB Server (10 septembre 2026)",
       "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1157/",
@@ -1594,56 +1814,12 @@
       "imageUrl": null
     },
     {
-      "id": "19c505c48a65d374f0c545a98e7e4b6bf7a010a5",
-      "title": "Multiples vulnérabilités dans les produits Check Point (10 septembre 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1152/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Check Point. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un contou",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "72d11e3806d5eefd92388d07bd2676f1170bf19d",
-      "title": "Multiples vulnérabilités dans HPE Aruba Networking ClearPass Policy Manager (10 septembre 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1151/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans HPE Aruba Networking ClearPass Policy Manager. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de ",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
       "id": "699d548226dd3f58eb11d993f830b1d88f6cad75",
       "title": "Vulnérabilité dans Microsoft Edge (10 septembre 2026)",
       "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1159/",
       "source": "CERT-FR",
       "publishedAt": "2026-09-10T00:00:00.000Z",
       "summary": "Une vulnérabilité a été découverte dans Microsoft Edge. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance. Microsoft indique que la vulnérabilité ",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "769d339b4b56757ba66b3cdf5e0daa681952ebf7",
-      "title": "Multiples vulnérabilités dans les produits Palo Alto Networks (10 septembre 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1156/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Palo Alto Networks. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitrair",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "0e9e2fe810f2bc522bbeccefdc517c2b04db1c70",
-      "title": "Multiples vulnérabilités dans les produits Veeam (10 septembre 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1154/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Veeam. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1737,72 +1913,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6J-Pt0v8CDXEvzMCsK37Gumde1WYysaqiuzK3Rg_dGXBeFEhbxFpLRbwaFSMOVcAz5XsbJXD9977trBg0eHEY-x4mZiu9W4ASLWGnIIA4kWkTmtIF-uBYlQWfLhQjAUL0llbl1Jn2hKfz5Wr78TR4Retzt9PlGD4mEGifQCvrEfFfqMy5966fDGvFHgY/s1600/tines-webinar.jpg"
     },
     {
-      "id": "f54074a0afc0f8d455b02a6e07efd05f61441b1f",
-      "title": "DeepSeek Harness Flaw Let AI Agents Disable Their Own File Sandbox Without Approval",
-      "url": "https://thehackernews.com/2026/09/deepseek-harness-flaw-let-ai-agents.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-09T11:17:07.000Z",
-      "summary": "A flaw in DeepSeek Harness, DeepSeek's open-source tool for running AI coding agents on a developer's machine, let a sandboxed agent turn off its own sandbox with a single command.",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0fUTc6rz4ZeeaMmjDLOfb2qNhnJf_TdNHK3F3qbNCQLLJbaF-nbSw5YPdeSAwg1HjoGwfQJZaXBpwvEbasFDhQb5ZkUm158shateq7uubMyrlejW4SDZAAzNQGUYkYdsxHupipxzRA7dQwTwTt9ArVJgU-wA5bGxIXduJj3CdyBF69Ixp6_qAU1LGzfI/s1600/deepseek.jpg"
-    },
-    {
-      "id": "7646da41d6a390fccfe0810fd86b5644198c3252",
-      "title": "Alby Hub Critical Flaw Could Let Attackers Take Over Internet-Exposed Bitcoin Wallets",
-      "url": "https://thehackernews.com/2026/09/alby-hub-critical-flaw-could-let.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-09T10:43:04.000Z",
-      "summary": "Bitcoin wallet company Alby has warned of a critical flaw in Alby Hub that could have let an attacker take over a wallet and send its funds, but only where the owner had made the H",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfzwXsolZOaoU8mikO234FpoGAc_3wiI_OZ-Acpc-yPphzhUWmDh13CKiEG9xFbotf8RFEBh9jljS6pwUS4gryY-kk5UzPc7Mtb4Ds3mDpAhjyFoJibRDmnGXrLNt4VjGpTs1W5l6la2q4jO7D9hytPbAnLEFCHYVxxpcj7H-XNRDpGLfYSWAYqF7pl54/s1600/alby-warning.jpg"
-    },
-    {
-      "id": "2c4b6f7e97e837026e20449dd7398b566ab39d41",
-      "title": "U.S. Agencies Accuse China AI Firms of Distilling Claude, GPT, Gemini, and Grok",
-      "url": "https://thehackernews.com/2026/09/us-agencies-accuse-china-ai-firms-of.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-09T09:32:26.000Z",
-      "summary": "U.S. cybersecurity and intelligence agencies have accused China-based artificial intelligence (AI) companies of conducting \"systematic extraction\" of proprietary functionalities an",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhL63HDvTiCn3B33K6DsfIbMLjHqXlJAUtoh6euiAwcooJCTdK4Zdkoh8rZ93iQsAAkscB3CmOH6TUQJPor4yH4wN97ABinyCN_5hcHNZ2gAMZH4YtTO3kon5Ws7MZGI5CULnH4SpafnrFsfZO_8j8wfaOFEinAnLIP-LHom_9LNQRJ2wrlYy66bO1RNpwg/s1600/ai-china.jpg"
-    },
-    {
-      "id": "454e84ec82264a47e189a6b0803e831a897fd51d",
-      "title": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox",
-      "url": "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-09T09:11:03.000Z",
-      "summary": "Google on Tuesday released updates to patch 230 security vulnerabilities, including one that has come under active exploitation in the wild. The medium-severity vulnerability, assi",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZvl2DE9GFM-4rdFgtQOOp1Dk3Xgp7xWysUv5zKTFwxqWYTurcgXgE-PDMn3_2AAIihh4YeiRvmwpb6GVDB1-8kxqasUWwX-FFa4mA41kXpFbzdt9hOvzW4xcyKBFttqIzbFSl-1SSSO0P_URv3Sy9QamkQZ55qzX5Y9Kmv5NdBCBHXCcUziiO6mfrqURE/s1600/chrome-zeroday.jpg"
-    },
-    {
-      "id": "58dfa27a5b8d864031a88ec7464ae8dd327c7046",
-      "title": "New cPanel Flaw Lets a Hosting Account With Mail Privileges Run Code as Root",
-      "url": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-09T08:19:32.000Z",
-      "summary": "cPanel has patched a flaw that it says lets a single hosting account take control of an entire server. An authenticated account holder with mail-related privileges can create files",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgM_YdNiqGpEWkDm5hEkF-RhZ94vv84sJmONomdRsksJ65GwI388Va-uVIzXWhwZtHmBTF3oze2l4Sscj2zpTsn6lqdPWPKAeL1iP6SSyzvNBOA4dLAKxfSmfThhmQgIc_1AYGWG9dbrCLFg_dk4m8pCHxFcJBRnThru8PtB7UJqUy3VjW15-vQlRvuwpc/s1600/cpanel-bug.jpg"
-    },
-    {
-      "id": "89f556ce69c84e69da7cf214c9eadc3c437ca7c3",
-      "title": "F5 BIG-IP APM Malware Injects a PHP Web Shell Into Memory, Evading Disk Scans",
-      "url": "https://thehackernews.com/2026/09/f5-big-ip-apm-malware-injects-php-web.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-09T07:36:49.000Z",
-      "summary": "Malware linked to break-ins at F5 BIG-IP Access Policy Manager appliances hides a PHP web shell in memory instead of in a file on disk, Sophos said in an analysis published on Sept",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIA552mINL2oyFm7mf9nHTwjJGJUVAtfYnMXbqYsowSEsDMzVsAgHG8MHKn5_EmwZ9bgRmhEndE20FhQAN4rvOLv5ESSAu0kHTV4QyygvUePYCJ1fvda0bU0Mzi5B9J8LHhULDeRRI9HGC84dntx8jaLu6WFLOz6OOhEwKNnSf6zzFRyAtlLKDQzHvygg/s1600/f5-malware.jpg"
-    },
-    {
       "id": "b5009b50fdc3ca2483c376185b116af605e72f64",
       "title": "Google - CVE-2026-87491",
       "url": "https://cyberveille.esante.gouv.fr/alertes/google-cve-2026-87491-2026-09-09",
@@ -1855,105 +1965,6 @@
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le mécanisme de &lt;strong&gt;désérialisation des données&lt;/strong&gt; de la plateforme, qui traite des &lt;strong&gt;objets sérialisé",
       "type": "CVE",
       "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "d16ea1ee89eee615846a0c91a1beb4135ac61514",
-      "title": "Vulnérabilité dans Microsoft Edge (09 septembre 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1144/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-09-09T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans Microsoft Edge. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "47f6b28ee7afc2067d0eb06ccb77d9958ff9d441",
-      "title": "Multiples vulnérabilités dans Microsoft Office (09 septembre 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1145/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-09-09T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Office. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la c",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "cbaae988a375c0922c1ba17c8821dd09f8054f1f",
-      "title": "Multiples vulnérabilités dans Microsoft Windows (09 septembre 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1147/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-09-09T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Windows. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, ",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "929d73aa95f7b63bf0b060de7b472b9de5dbe248",
-      "title": "Vulnérabilité dans les produits ESET (09 septembre 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1143/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-09-09T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans les produits ESET. Elle permet à un attaquant de provoquer une élévation de privilèges.",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "9b36c947d91f7287df2c6c5a1615498ffd07cec3",
-      "title": "Multiples vulnérabilités dans Postfix (09 septembre 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1141/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-09-09T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Postfix. Elles permettent à un attaquant de provoquer un déni de service à distance et un contournement de la politique de sécu",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "b6118ae3d351b9952ab0c17b9727b94b6b73e1d4",
-      "title": "Multiples vulnérabilités dans Microsoft Azure (09 septembre 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1148/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-09-09T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Azure. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de pri",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "5d8a9153b9d05d1a29a6e445a5036cf2d1f6f4af",
-      "title": "Multiples vulnérabilités dans les produits Microsoft (09 septembre 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1149/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-09-09T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Microsoft. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à dista",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "30139eb6071b2cf685b2ebbdd0f200fa800a1588",
-      "title": "Multiples vulnérabilités dans Microsoft .Net (09 septembre 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1146/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-09-09T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft .Net. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "990e6fdf1b7695daaf8dc5e34e900f2f5a706c08",
-      "title": "Vulnérabilité dans Mozilla Firefox (09 septembre 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1142/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-09-09T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans Mozilla Firefox. Elle permet à un attaquant de provoquer un déni de service à distance.",
-      "type": "CVE",
-      "severity": "Info",
       "imageUrl": null
     },
     {
@@ -2260,17 +2271,6 @@
       "source": "Cyberveille Santé",
       "publishedAt": "2026-09-04T01:50:47.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité d'&lt;strong&gt;autorisation incorrecte&lt;/strong&gt; dans la fonctionnalité &lt;strong&gt;Fleet&lt;/strong&gt; de Kibana.&lt;/p&gt; &lt;p&g",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "663d17d4353dbc792358f7a8d622fd13beba87b4",
-      "title": "Dell - CVE-2026-73600",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/dell-cve-2026-73600-2026-09-04",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-09-04T01:49:08.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;débordement de tampon basé sur la pile&lt;/strong&gt; dans l'agent de &lt;strong&gt;restauration au niveau fichier&lt;/stron",
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": null
