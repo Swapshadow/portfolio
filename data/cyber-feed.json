@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T14:41:23.459Z",
+  "generatedAt": "2026-09-16T19:25:10.463Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,7 +17,7 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 114
+      "items": 118
     },
     {
       "name": "Exploit-DB",
@@ -53,7 +53,7 @@
       "name": "Cryptographie FR",
       "url": "https://flipboard.com/topic/fr-cryptographie.rss",
       "status": "ok",
-      "items": 30
+      "items": 0
     },
     {
       "name": "BleepingComputer",
@@ -75,6 +75,149 @@
     }
   ],
   "items": [
+    {
+      "id": "976e7678e9c3abef8ee11d94a4071cc73b759304",
+      "title": "Data Broker Radaris Loses Domains in Privacy Fight",
+      "url": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
+      "source": "Krebs on Security",
+      "publishedAt": "2026-09-16T18:14:22.000Z",
+      "summary": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That repu",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://krebsonsecurity.com/wp-content/uploads/2024/06/radaris-home.png"
+    },
+    {
+      "id": "53746377f77c712a32a21e98effa8a860c1fedfa",
+      "title": "Cyberattaques contre des sites sensibles français : « L’Etat russe apparaît comme le commanditaire ou le bénéficiaire de toutes ces données »",
+      "url": "https://www.lemonde.fr/le-monde-et-vous/article/2026/09/16/cyberattaques-contre-des-sites-sensibles-francais-l-etat-russe-apparait-comme-le-commanditaire-ou-le-beneficiaire-de-toutes-ces-donnees_6775453_6065879.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-16T18:00:16.000Z",
+      "summary": "Vols massifs d’informations personnelles, infiltrations d’infrastructures critiques, recrutement de complices au sein des administrations… Dans un …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://img.lemde.fr/2026/09/16/0/0/3000/2000/1440/960/60/0/5a1757a_upload-1-fclfcir9s8yn-nuit-data-chercheuse-ens.jpg"
+    },
+    {
+      "id": "f43fa953de628c23da5167187df31b023ba64a4c",
+      "title": "Indre-et-Loire : Le musée de Maillé piraté, les hackers réclament une rançon",
+      "url": "https://www.20minutes.fr/societe/4245854-20260916-indre-loire-musee-maille-pirate-hackers-reclament-rancon?at_medium=display&amp%3Bat_campaign=149",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-16T16:00:03.000Z",
+      "summary": "Plus de vingt ans de travail rendus inaccessibles en quelques minutes. Dans la nuit de mercredi à jeudi dernier, le serveur de la Maison du Souvenir …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://img.20mn.fr/GJuQvwX6Qy6GvHme6rloZCk/1444x920_mandatory-credit-photo-by-jeppe-gustafsson-shutterstock-14313467g-a-hacker-a-hacker-motala-sweden-23-jan-2024-shutterstock-editorial-a-hacker-motala-sweden-23-ja-14313467g-2401231600"
+    },
+    {
+      "id": "df3d8b778fb161882e5fc2bec0e04a41217a01e3",
+      "title": "« La paix est en péril » : les propositions d'Ursula von der Leyen pour améliorer la réponse de l'UE face aux attaques russes",
+      "url": "https://www.lesechos.fr/monde/europe/la-paix-est-en-peril-les-propositions-dursula-von-der-leyen-pour-ameliorer-la-reponse-de-lue-face-aux-attaques-russes-2251933?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-16T15:53:51.000Z",
+      "summary": "Ursula von der Leyen a alerté mercredi sur la montée des menaces hybrides russes, et propose une « nouvelle stratégie européenne de sécurité » …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://media.lesechos.com/api/v1/images/view/6aaabb918521fffb380f8762/1280x720/0210442238207-web-tete.jpg"
+    },
+    {
+      "id": "2d935e5ae23c8480b8f2ef1f0a36c1a7403dbea8",
+      "title": "Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution",
+      "url": "https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-16T15:50:59.000Z",
+      "summary": "A critical security flaw in Issabel Framework, a web-based framework for the open-source unified communications PBX software, has come under active exploitation. The vulnerability ",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5aXi8Vt3MH8e38-ViNXz-m4hRPrbqDMGcpbMtOc3b-cDLIyEZEjqGvSscW6mR34ZrmPM4lSnv6C9XFTHlgq3UyGLA24gySGqcCzdKr-hIY2QZO8VSXnC-KAsdEz6vTkgdRnVxAZVM7NyrhgpL2xDWR8lcvPInEwgvj0pTgHkC7KStUFglwcLext7eb3w5/s1600/issa.jpg"
+    },
+    {
+      "id": "2ed466912745bcb54f122957335373a01289e570",
+      "title": "Des hackers se font passer pour l'État et ciblent des clients Revolut au Royaume-Uni",
+      "url": "https://www.aol.com/articles/hackers-font-passer-l%C3%A9tat-ciblent-153639000.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-16T15:36:39.000Z",
+      "summary": "Des centaines de clients européens de la banque numérique Revolut ont vu leurs données personnelles transmises à des pirates informatiques, après que ces derniers se sont fait pass",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/aol.com/08fec229cedc7e7fa73c7f6e393abe5ebfe44cb2/_xlarge.jpeg"
+    },
+    {
+      "id": "0c8ea092d28bbe6448078bdf45c90e59a7592428",
+      "title": "Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers",
+      "url": "https://thehackernews.com/2026/09/three-threat-groups-target-russian.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-16T15:27:49.000Z",
+      "summary": "Enterprises in Russia have emerged as the target of three threat activity clusters tracked as NightEagle, Hacking Cat, and Toy Ghouls, according to multiple reports from Kaspersky.",
+      "type": "NEWS",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMMZZrs8eh-baUC-73E9tejQYA0JZzWyoElUJGhCi0N4_f2EzmPPhQW3xY0kmNZv775T26ywu4czdta-vHaLp1gaI03eqho2SSe3riHMZP8hLTrU1ETnIv-k1ywOpnBFvbkyQJNZt7F4Xx4NndvvS8esTt1jzaCdeN9JZNkNB8sBU1vytibSRAjMsLZzc6/s1600/russian-groups.jpg"
+    },
+    {
+      "id": "9849de6a701ad441ccd5fd1e3f7ce0de58910401",
+      "title": "EXCLUSIF. Le portable de la conseillère Moyen-Orient de l’Élysée piraté par le Mossad",
+      "url": "https://www.challenges.fr/politique/exclusif-le-portable-de-la-conseillere-moyen-orient-de-lelysee-pirate-par-le-mossad_645818?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-16T15:15:00.000Z",
+      "summary": "Contacté au sujet du piratage supposé de ce téléphone, le quai d’Orsay ne fait pas de commentaires. L’affaire rappelle toutefois le scandale Pegasus, …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/challenges.fr/8ab754efb26ff7c571b70ef280a65b7c57291149/_xlarge.jpeg"
+    },
+    {
+      "id": "b87ba6366a0595e4e4f62d94d5d0bacac3966636",
+      "title": "« Une bande de noobs qui utilisent des LLM » : pourquoi le créateur de PS5 Linux jette l'éponge à cause de l'IA",
+      "url": "https://www.frandroid.com/produits-android/3250295_une-bande-de-noobs-qui-utilisent-des-llm-pourquoi-le-createur-de-ps5-linux-jette-leponge-a-cause-de-lia?amp%3Butm_source=flipboard&amp%3Butm_content=directlink&amp%3Butm_campaign=3250295",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-16T15:07:05.000Z",
+      "summary": "Andy Nguyen, l’un des hackers les plus connus de la PlayStation, a annoncé ce mercredi 16 septembre 2026 abandonner le projet PS5 Linux. En cause : …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://img.frandroid.com/images.frandroid.com/wp-content/uploads/2026/04/ps5.jpeg?resize=1600%2C900&amp%3Bkey=671a186a"
+    },
+    {
+      "id": "bd01231f0de5d207a4d2d5ddefe59ca9f3be1bcd",
+      "title": "La version française de WhatsApp s’emmêle les pinceaux avec son option de confidentialité avancée",
+      "url": "https://www.numerama.com/cyberguerre/2334257-la-version-francaise-de-whatsapp-semmele-les-pinceaux-avec-son-option-de-confidentialite-avancee.html?amp%3Butm_source=flipboard&amp%3Butm_content=directlink&amp%3Butm_campaign=2334257",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-16T15:05:19.000Z",
+      "summary": "Un des réglages de confidentialité de WhatsApp explique exactement l’inverse de ce qu’il est censé faire. Sur la version française de l’application, …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/09/design-sans-titre-2026-09-16t164848408.png?resize=1600%2C900&amp%3Bkey=b3bbf5b8"
+    },
+    {
+      "id": "07d4cb8434ccf4b9ff6d3f7e3fc0e21043f29d9a",
+      "title": "Des logiciels malveillants peuvent être installés discrètement par des pirates : ce geste simple à faire une fois par semaine va limiter les risques | TF1 Info",
+      "url": "https://www.tf1info.fr/conso/des-logiciels-malveillants-peuvent-etre-installes-discretement-par-des-pirates-ce-geste-simple-a-faire-une-fois-par-semaine-va-limiter-les-risques-2319115.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-16T15:00:54.000Z",
+      "summary": "Les Français passeraient en moyenne trois heures par jour à regarder leur téléphone. Il s’agit plutôt d’une accumulation de petits coups d’œil, plus …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://photos.tf1info.fr/images/1280/720/pourquoi-vous-devez-redemarrer-au-moins-une-fois-par-semaine-votre-telephone-57a4b2-0@1x.jpeg?overlayImage=bG9nby10ZjFpbmZvLWRlZmF1bHQucG5n&amp%3BoverlayWidth=18&amp%3BoverlayGravity=northwest&amp%3Bs=78c802"
+    },
+    {
+      "id": "c336ba7ed3e7c6b165d11dc04e8a08dd63794d8d",
+      "title": "One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera Neon and Claude",
+      "url": "https://thehackernews.com/2026/09/one-extension-could-hijack-ai.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-16T14:36:44.000Z",
+      "summary": "Security researchers at Forever Security have shown that one ordinary browser extension could take control of the AI assistants built into five Chromium-based products: Gemini Live",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnDFTLauyvgkyhmqrKcQ3QI3yCM1vbu_L8iwQK997zJz25tL7Gkm50y5S_wiSVF7hSJ7sLUMJEwXzxaubfjQc9JTdwttimIg5POxADfGNPLZEWbplFqzlKn2SZPvPuAyN0BhFtsc8PCzV2bZdBtx3z6qnRdRfw9tj-zk3aWL3t4TufGwksVdAjBuhVdO0/s1600/jack.jpg"
+    },
+    {
+      "id": "c9cca4990ccdae4ec018bcb80b399ca098d13227",
+      "title": "De la digoxine achetée sur le darknet : avant le meurtre de Stéphane Ragon à Riom, un premier projet criminel par empoisonnement ? - La Montagne",
+      "url": "https://www.lamontagne.fr/riom-63200/actualites/meurtre-de-stephane-ragon-a-riom-un-premier-projet-criminel-par-empoisonnement_15047597/?at_account=lamontagne-fr.bsky.social&amp%3Bat_content=sN2&amp%3Bat_creation=bluesky&amp%3Butm_source=flipboard&amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-16T13:42:00.000Z",
+      "summary": "Depuis lundi 14 septembre et jusqu'à vendredi 18, la cour d'assises du Puy-de-Dôme juge Didier Chatard et Sandrine Fernandes, accusés du meurtre de …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://img.centrefrance.com/Cpg4lbEJxNUmtkFM-Qz8q0nftbHvc8U9Ad08-76iTOA/rs:fit:657:438:1:0/bG9jYWw6Ly8vMDAvMDAvMDcvODEvNDAvMjAwMDAwNzgxNDA5MQ.webp"
+    },
     {
       "id": "800bfe40dc9a681d4d17eabd9ed3c65f401981ea",
       "title": "Attacker Hijacks AI Coding Assistant Session, Spreads Shai-Hulud Across About 100 Repositories",
@@ -98,17 +241,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjExQfYsCTPbCiUrkVUWdKhrZNgpAVRtutRYt2c4x-f5ClJdNYjERcet4Fctan3gEOl0DPk64GUGZv5IK3Cd_pi3Jk1cyH3tdYig9mpc2XTLjJaK0KM3aiqE6W1OeGiKr_kRWNRmty1u4Cwf_9-S1KrKdqUeL25YwL6tt5Z-nUcvzj0F8NemzMbSUmvTJ4/s1600/parashells.jpg"
     },
     {
-      "id": "99329509c214fb6ebb9ace0fb262047c65810706",
-      "title": "Agents IA en production : personne dans votre organisation ne sait vraiment ce qu'ils font",
-      "url": "https://www.journaldunet.com/management/direction-generale/1554781-agents-ia-en-production-personne-dans-votre-organisation-ne-sait-vraiment-ce-qu-ils-font/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-16T12:55:28.000Z",
-      "summary": "Ce que vous devez exiger avant le prochain déploiement ; sans être expert en cybersécurité Quelque part dans votre organisation, un agent IA est en …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/journaldunet.com/dc2f518b3b94e4080c1eb67df57cf73c2c5fa2a1/_xlarge.jpeg"
-    },
-    {
       "id": "32df7deae37add0b8183208040b918b675626a4c",
       "title": "Les États-Unis ont des armes dans l'espace : ce qu'on peut déduire de ce que Washington refuse de dire",
       "url": "https://www.futura-sciences.com/tech/actualites/guerre-futur-etats-unis-ont-armes-espace-ce-quon-peut-deduire-ce-washington-refuse-dire-137773/",
@@ -118,6 +250,28 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/futura-sciences.com/58a502a216d93661b0596dc0135def95f6f85c96/_xlarge.jpeg"
+    },
+    {
+      "id": "1d13636700dda0b0a1dae2303ce6495a67bce84d",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/09/16/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "source": "CISA",
+      "publishedAt": "2026-09-16T12:00:00.000Z",
+      "summary": "&lt;p&gt;CISA has added one new vulnerability to its &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities (KEV) Ca",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": null
+    },
+    {
+      "id": "f4f47b28bdeaef4cc65a97d4441fee977e2a4af0",
+      "title": "Using Cyber Decoys to Strengthen Detection and Response",
+      "url": "https://www.cisa.gov/resources-tools/resources/using-cyber-decoys-strengthen-detection-and-response",
+      "source": "CISA",
+      "publishedAt": "2026-09-16T12:00:00.000Z",
+      "summary": "&lt;div class=&quot;OutlineElement Ltr SCXW53093809 BCX8&quot;&gt; &lt;p&gt;CISA developed this guidance to help defensive teams at varying levels of cybersecurity maturity plan an",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
     },
     {
       "id": "e49e366431b8f9a2f1a743ec57579ae3eb9b9778",
@@ -197,6 +351,17 @@
       "imageUrl": "https://ocdn.eu/pulscms-transforms/1/z4XktkuTURBXy85YWM5NWEwYy03MzFjLTQzMGYtODc4Ni1mZTc0NzkzZmQzNzYuanBlZ5KTBc0CWM0BO5MJpmY4ZDA0MAY/cqg2lyymhk8.jpg"
     },
     {
+      "id": "845d7f4c7bf8d4fe9e6cb38c8214393dcd2c90cf",
+      "title": "Sébastien Giai-Checa, directeur Cybersécurité, SCC France : « Cybersécurité : le véritable enjeu n'est plus seulement d'empêcher l'attaque, mais de maîtriser l'exposition » - ZDNET",
+      "url": "https://www.zdnet.fr/tribune/sebastien-giai-checa-directeur-cybersecurite-scc-france-cybersecurite-le-veritable-enjeu-nest-plus-seulement-dempecher-lattaque-mais-de-maitriser-lexposition-503440.htm",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-16T06:09:30.000Z",
+      "summary": "Pendant longtemps, la cybersécurité a été pensée comme une course à l'armement technologique : multiplier les solutions de protection, renforcer les …",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2026/09/sebastien-giai-checa.jpg"
+    },
+    {
       "id": "22fd42746197c5cfc794508acc3c2bcf859ac5a3",
       "title": "Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells",
       "url": "https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html",
@@ -253,7 +418,7 @@
     },
     {
       "id": "378f8a52cc7a8ae97891a06ff1fcf2d47ece3a94",
-      "title": "Intelligence artificielle : entre progrès technologique et inquiétudes sur l’avenir",
+      "title": "Des Sud-Africains inquiets sur l'avènement de l'intelligence artificielle",
       "url": "https://fr.africanews.com/2026/09/16/intelligence-artificielle-entre-progres-technologique-et-inquietudes-sur-lavenir/?amp%3Butm_campaign=feeds_news&amp%3Butm_medium=referral",
       "source": "Cybercriminalité FR",
       "publishedAt": "2026-09-16T05:09:33.000Z",
@@ -261,17 +426,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/euronews.com/ecaecdfd1b70cceb804234e6c3fc930bd9b27692/_large.jpeg"
-    },
-    {
-      "id": "325a24fb3f949c515eee0b5744b5e6a0449a6ad0",
-      "title": "Dissidents et journalistes piégés par un faux Norton aux mains des Iraniens",
-      "url": "https://www.clubic.com/actualite-629869-dissidents-et-journalistes-pieges-par-un-faux-norton-aux-mains-des-iraniens.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-16T04:57:00.000Z",
-      "summary": "Sous couvert d'un faux installateur Norton Antivirus ou de résultats d'IRM falsifiés, des pirates informatiques liés à l'État iranien traquent des …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/7fe43c37d0d0e010d7a02866824056063077d76b/_xlarge.jpeg"
     },
     {
       "id": "2cffa8be31bd6d6990b6025926170b00966af019",
@@ -294,6 +448,50 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/089b676c58c513a41eb8b2edab81df9c1f1585f6/_xlarge.jpeg"
+    },
+    {
+      "id": "871414c43c30520029652b46ca772b001ca984a2",
+      "title": "Oracle - CVE-2026-83021",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/oracle-cve-2026-83021-2026-09-16",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-09-16T02:54:44.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le composant &lt;strong&gt;Web Container&lt;/strong&gt; d'Oracle WebLogic Server.&lt;/p&gt; &lt;p&gt;Oracle WebLogic Server est un serve",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "2d0b88cd249444152ef86693da1c24fcbd6ba871",
+      "title": "Google - CVE-2026-91745",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/google-cve-2026-91745-2026-09-16",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-09-16T02:50:12.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de type &lt;strong&gt;use-after-free&lt;/strong&gt; dans le moteur &lt;strong&gt;V8&lt;/strong&gt; de Google Chrome.&lt;/p&gt; &lt;p&gt;Googl",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "acbe06f17de08d6254ef907fa938721b9d9fc066",
+      "title": "HPE - CVE-2026-76673",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/hpe-cve-2026-76673-2026-09-16",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-09-16T02:49:28.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans l'&lt;strong&gt;API&lt;/strong&gt; d'EdgeConnect SD-WAN Orchestrator.&lt;/p&gt; &lt;p&gt;HPE Networking EdgeConnect SD-WAN Orchestrator ",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "a40d8ad47c88bc4d8102566046cc1229f1469e19",
+      "title": "Mozilla - CVE-2026-92006",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/mozilla-cve-2026-92006-2026-09-16",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-09-16T02:46:15.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le composant &lt;strong&gt;Graphics : CanvasWebGL&lt;/strong&gt;.&lt;/p&gt; &lt;p&gt;Mozilla Firefox et Mozilla Thunderbird sont respect",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
     },
     {
       "id": "2ebe1bb59b145a452062232a915ac9b3854920f8",
@@ -494,37 +692,15 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPTs6qupSdjinGg233zkoldOvlD4cva51loWufV3l9GrlDopNRIKsV9yluCDjbGELBAAvVGx_h4R-sjx4jvDp290Znzhv6j546sq5JB0NJUShGVV3w0gKU7nu4dBVCosaPeKW-Pr1_WHn4FV26aEJRgEo7oSJsgUE5_ZGCMKWPPBdZ7NMh5XRr04Cs6qTh/s1600/browser-malware.jpg"
     },
     {
-      "id": "35ec68edc3e5816f65148692f918445f873ded23",
-      "title": "Cyberattaques, bioterrorisme : ralentir l’IA ne suffira pas si on n’apprend pas à anticiper l’imprévu",
-      "url": "https://theconversation.com/cyberattaques-bioterrorisme-ralentir-lia-ne-suffira-pas-si-on-napprend-pas-a-anticiper-limprevu-292040?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "id": "7c9afb6401bd6aa2641c5e60c08b4ebd00f9c008",
+      "title": "Les dirigeants télécoms européens appellent l’UE à corriger le tir",
+      "url": "https://www.mobileworldlive.com/french/les-dirigeants-telecoms-europeens-appellent-lue-a-corriger-le-tir/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
       "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-15T18:48:57.000Z",
-      "summary": "Dans un nouvel essai sur la nécessité de ralentir le développement de l’intelligence artificielle, Dario Amodei, chef de la direction et cofondateur …",
+      "publishedAt": "2026-09-15T18:45:30.000Z",
+      "summary": "Les plus grands opérateurs européens exhortent les décideurs de l’Union européenne (UE) à repenser une réglementation dont ils estiment qu’elle …",
       "type": "NEWS",
       "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/theconversation.com/7aa3e6705d1b9572e930891054dd5fab64317a68/_xlarge.jpeg"
-    },
-    {
-      "id": "60ecb2222f3cf720a9f2adebf72196139cb34806",
-      "title": "Pourquoi vous devriez éteindre votre téléphone au lieu de le redémarrer ?",
-      "url": "https://www.journaldugeek.com/2026/09/15/pourquoi-vous-devriez-eteindre-votre-telephone-au-lieu-de-le-redemarrer/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-15T18:25:40.000Z",
-      "summary": "Si vous aussi, vous aimez redémarrer votre téléphone de temps en temps lorsqu’il commence à ramer, ou tout simplement pour améliorer ses performances …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/journaldugeek.com/f2b29082aea536f5736c1cd516c8ed2440e30b67/_xlarge.jpeg"
-    },
-    {
-      "id": "a2f11f659f25772bab9cf4b3f9bd653fccb8579e",
-      "title": "« Chaque acteur malveillant dispose désormais des capacités d’un État » : comment l’IA change la cybercriminalité",
-      "url": "https://www.futura-sciences.com/tech/actualites/cybersecurite-chaque-acteur-malveillant-dispose-desormais-capacites-etat-ia-change-cybercriminalite-137758/",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-15T18:17:44.000Z",
-      "summary": "L'intelligence artificielle est une véritable menace, et ce sont les spécialistes qui le disent. La semaine dernière, Geoffrey Hinton, l'un des pères …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/futura-sciences.com/66be6a1225d32986b2c32cc0941ba6f95addbe33/_xlarge.jpeg"
+      "imageUrl": "https://ic-cdn.flipboard.com/mobileworldlive.com/2b1ead55555f350818a06174411d2db9c28855d0/_large.jpeg"
     },
     {
       "id": "1bccbc0ab2b302e654cd0b6d283ea0ff4f3d2516",
@@ -538,9 +714,9 @@
       "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/e1710adbba009c417b2c9c1253af23629b1219aa/_large.jpeg"
     },
     {
-      "id": "ddfda059cd38e4ff9bf0d559e444abb7a1aab474",
+      "id": "6ebc620b2092e8444cd7996d55b2d6872a95c3d5",
       "title": "« C’est comme des mafias » : comment les gendarmes d’Indre-et-Loire travaillent au quotidien contre les cyberattaques",
-      "url": "https://www.lanouvellerepublique.fr/indre-et-loire/c-est-comme-des-mafias-comment-les-gendarmes-d-indre-et-loire-travaillent-au-quotidien-contre-les-cyberattaques-1789493458?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "url": "https://www.lanouvellerepublique.fr/indre-et-loire/c-est-comme-des-mafias-comment-les-gendarmes-d-indre-et-loire-travaillent-au-quotidien-contre-les-cyberattaques-1789493458?amp%3Butm_content=topic%2Ffr-technologie",
       "source": "Cybercriminalité FR",
       "publishedAt": "2026-09-15T17:30:58.000Z",
       "summary": "En Indre-et-Loire, ils sont trois gendarmes au sein de la cellule de lutte contre la cybercriminalité. Des militaires « passionnés » par la matière …",
@@ -593,28 +769,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZTZstgI7jZKSq2kVj82ewI26neoU-YsSa1z0LIJdjqdsCSk8zS3VYdvhFyfE0rq75UOlst77oTDBZ-mVzRDaqljLl-jJrvxWzLBmj74k8kWFjld5o2uTB59tskHlBqM0JTuf5yuTMsWMBuE-Y_2LtkIfKT-l9C-h5Y5rvkAJKlIGD5rQLbUuWRNx8y5k/s1600/iran-malware.jpg"
     },
     {
-      "id": "f042b23fc50ef1080381128a65f7b0cb7ad1b81e",
-      "title": "« Des données personnelles ont été exfiltrées » : la ville de Libercourt visée par une cyberattaque",
-      "url": "https://www.lavoixdunord.fr/1737463/article/2026-09-15/des-donnees-personnelles-ont-ete-exfiltrees-la-ville-de-libercourt-visee-par-une?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-15T16:11:31.000Z",
-      "summary": "La ville de Libercourt a fait l’objet d’une violation de données à la fin du mois d’août. Elle en a fait l’annonce dans un communiqué de presse …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://lvdneng.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_extra_big/2026/09/15/node_1737463/69385640/public/2026/09/15/102301971.jpeg?itok=Li-ENOwQ1789537946"
-    },
-    {
-      "id": "063015f21a9f846df16afdd3612a08e04125885d",
-      "title": "Apocalypse quantique : la fin de la cybersécurité pour demain ?",
-      "url": "https://theconversation.com/apocalypse-quantique-la-fin-de-la-cybersecurite-pour-demain-286607?amp%3Butm_content=topic%2Ffr-technologie",
-      "source": "Cryptographie FR",
-      "publishedAt": "2026-09-15T15:32:07.000Z",
-      "summary": "Une grande partie de la cryptographie moderne repose sur l’existence de problèmes mathématiques difficiles à résoudre. Ces problèmes sont conçus de …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/theconversation.com/ed21886e06603bfef8d0014c4a836cb018ad7836/_xlarge.jpeg"
-    },
-    {
       "id": "5aa1356f6ea42611b630f32d1f6b23c4087905bf",
       "title": "BambooToken Malware Uses MQTT to Control Windows and Linux Systems",
       "url": "https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html",
@@ -648,17 +802,6 @@
       "imageUrl": "https://cdn-static.boursier.com/illustrations/photos/l_huawei4.jpg"
     },
     {
-      "id": "d0873f8edbfbab8350d713f2938a874905d36d30",
-      "title": "\"Une bascule majeure\" : un Français sur deux concerné par le vol de données personnelles | TF1 Info",
-      "url": "https://www.tf1info.fr/societe/une-bascule-majeure-un-francais-sur-deux-concerne-par-le-vol-de-donnees-personnelles-2464354.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-15T14:09:16.000Z",
-      "summary": "Un fléau qui concerne désormais près de la moitié de la population. À l'occasion du lancement du Cybermois, la plateforme gouvernementale …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://photos.tf1info.fr/images/1280/720/cyberharcelement-2217-e15152-0@1x.jpeg?overlayImage=bG9nby10ZjFpbmZvLWRlZmF1bHQucG5n&amp%3BoverlayWidth=18&amp%3BoverlayGravity=northwest&amp%3Bs=78c802"
-    },
-    {
       "id": "27700fb18ff5ee439ab1db0a5c77a266236ab3e3",
       "title": "Face aux ingérences étrangères, le Parlement européen veut renforcer les défenses démocratiques de l'UE - Touteleurope.eu",
       "url": "https://www.touteleurope.eu/institutions/face-aux-ingerences-etrangeres-le-parlement-europeen-veut-renforcer-les-defenses-democratiques-de-l-ue/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -668,28 +811,6 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://www.touteleurope.eu/wp-content/uploads/2026/09/Loiseau-Tobe.jpg"
-    },
-    {
-      "id": "edcedf3c2627191087da1afd12718d9f99e0aacc",
-      "title": "Envois de colis impossible, courriers retardés : que s’est-il passé chez La Poste ce mardi ?",
-      "url": "https://www.presse-citron.net/envois-de-colis-impossible-courriers-retardes-que-sest-il-passe-chez-la-poste-ce-mardi/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-15T13:33:55.000Z",
-      "summary": "Une grosse panne a touché l’entreprise publique dans la France entière. Les bureaux de poste ont connu ce mardi 15 septembre une paralysie de …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/presse-citron.net/827e56c1f5ff558836b0bdb7f970077a369c4ac5/_xlarge.jpeg"
-    },
-    {
-      "id": "5ad5b6f540ed8443ca216b2fc7e9bc6f1b055369",
-      "title": "Protecting Tokens and Assertions from Forgery, Theft, and Misuse: Implementation Recommendations for Agencies and Cloud Service Providers",
-      "url": "https://www.cisa.gov/resources-tools/resources/protecting-tokens-and-assertions-forgery-theft-and-misuse-implementation-recommendations-agencies",
-      "source": "CISA",
-      "publishedAt": "2026-09-15T12:00:00.000Z",
-      "summary": "&lt;p&gt;Developed by the National Institute of Standards and Technology (NIST) and CISA, this &lt;a href=&quot;https://csrc.nist.gov/pubs/ir/8587/final&quot; target=&quot;_blank&q",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
     },
     {
       "id": "f5bb5023b7881c3967e0b354d48bb21766acee72",
@@ -703,12 +824,12 @@
       "imageUrl": null
     },
     {
-      "id": "55f9d2ae49854d791f3e4d37c00bf1a9632155c5",
-      "title": "mySCADA myPRO Manager",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-03",
+      "id": "5ad5b6f540ed8443ca216b2fc7e9bc6f1b055369",
+      "title": "Protecting Tokens and Assertions from Forgery, Theft, and Misuse: Implementation Recommendations for Agencies and Cloud Service Providers",
+      "url": "https://www.cisa.gov/resources-tools/resources/protecting-tokens-and-assertions-forgery-theft-and-misuse-implementation-recommendations-agencies",
       "source": "CISA",
       "publishedAt": "2026-09-15T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-258-03.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;Developed by the National Institute of Standards and Technology (NIST) and CISA, this &lt;a href=&quot;https://csrc.nist.gov/pubs/ir/8587/final&quot; target=&quot;_blank&q",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -720,6 +841,17 @@
       "source": "CISA",
       "publishedAt": "2026-09-15T12:00:00.000Z",
       "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-258-04.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "55f9d2ae49854d791f3e4d37c00bf1a9632155c5",
+      "title": "mySCADA myPRO Manager",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-03",
+      "source": "CISA",
+      "publishedAt": "2026-09-15T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-258-03.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -758,23 +890,23 @@
       "imageUrl": null
     },
     {
-      "id": "0d4a30f3b6e62aaf181d44049780e39d6986a310",
-      "title": "Siemens Reyrolle 7SR5",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-05",
-      "source": "CISA",
-      "publishedAt": "2026-09-15T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-258-05.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
       "id": "039e4ba275a58cdca9865cf1fc67835d07311799",
       "title": "CareCam CM2507",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-08",
       "source": "CISA",
       "publishedAt": "2026-09-15T12:00:00.000Z",
       "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-258-08.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "0d4a30f3b6e62aaf181d44049780e39d6986a310",
+      "title": "Siemens Reyrolle 7SR5",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-05",
+      "source": "CISA",
+      "publishedAt": "2026-09-15T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-258-05.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -846,28 +978,6 @@
       "imageUrl": null
     },
     {
-      "id": "7c3c775082436b4b1818a20974bea5edfd9e0235",
-      "title": "Comment une simple erreur de codage a permis à un hacker de vider 7,8 millions de dollars d'un portefeuille crypto",
-      "url": "https://www.coindesk.com/fr/business/2026/09/15/how-a-simple-coding-mistake-let-a-hacker-drain-usd7-8-million-from-a-crypto-wallet?amp%3Butm_content=CoinDesk%2Fmagazine%2FCOINDESK+Fran%C3%A7ais",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-15T10:27:55.000Z",
-      "summary": "Les sociétés de sécurité ont attribué la perte de 7,8 millions de dollars à un contrat d'assistance que le propriétaire du portefeuille avait …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/c18c9af8ef94bcbc9a17fac89a01b83bfc76fd8f-5472x3648.jpg?auto=format&amp%3Bfit=crop&amp%3Bcrop=focalpoint&amp%3Bw=1920&amp%3Bh=1080&amp%3Bq=75"
-    },
-    {
-      "id": "62394dcaf5e1f3359d06670f864b299b843b7924",
-      "title": "Achats de timbres impossibles, envois de colis et de courrier retardés: retour à la normale pour les services de La Poste après un \"incident informatique\"",
-      "url": "https://www.bfmtv.com/tech/cybersecurite/achats-de-timbres-impossibles-envois-de-colis-et-de-courrier-retardes-la-poste-victime-d-un-probleme-technique-majeur_AN-202609150401.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-15T09:36:59.000Z",
-      "summary": "Les services de La Poste ont été victimes d'un gros problème technique ce matin du 15 septembre. En cause, le déploiement d'une mise à jour qui n'a …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/77jV1xTzCreNmTxvNWeLyQXBBqY=/0x0:768x432/768x0/images/La-cyberattaque-qui-a-touche-La-Poste-revendiquee-par-des-hackers-prorusses-est-toujours-en-cours-mais-a-perdu-en-intensite-2206504.jpg"
-    },
-    {
       "id": "653da55111e038d32bf27a3bda0c51ac9b5d10bd",
       "title": "La plus grande centrale nucléaire indienne a été piratée",
       "url": "https://www.revolution-energetique.com/actus/la-plus-grande-centrale-nucleaire-indienne-a-ete-piratee/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -877,17 +987,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://cdn.revolution-energetique.com/uploads/2026/09/Kudankulam-centrale-nucleaire-KKNPP.jpg"
-    },
-    {
-      "id": "51589da72714011140d37e90e7bd0ec984042e7f",
-      "title": "Cybersécurité : les PME françaises de moins en moins assurées",
-      "url": "https://www.lesechos.fr/finance-marches/banque-assurances/cybersecurite-les-pme-francaises-de-moins-en-moins-assurees-2251577?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-15T08:06:01.000Z",
-      "summary": "Le taux de PME françaises couvertes par une assurance cyber a chuté de 33,6 % à 27,6 % en un an, selon Hiscox. La baisse intervient alors que les …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://media.lesechos.com/api/v1/images/view/6aa8fc6884920250b309d46a/1280x720/0210394293303-web-tete.jpg"
     },
     {
       "id": "77d8583601cff11d3af85dc3ba36caedd5894900",
@@ -1858,17 +1957,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcQQNutHn5K2x_gd-2eyAP0wzneQ3mOSl3jaaRHGFDUY1O95tuckdjL_botXvrBlt_ts6Bjb91JU4Z-B74VAceL1cYa3oMlt91mHSxZP_FiiVTJLfL8UBUgoBIvjJCuI7Nma3dOxJ48n4wS5VvoBWRDNYqwlYIfStXIKTDBUrRXBIWITx_TprflrVXqjum/s1600/xinbi.jpg"
     },
     {
-      "id": "09867cbb1517d1fcb081e968f65478c89aa819e8",
-      "title": "Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week",
-      "url": "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-09T16:34:05.000Z",
-      "summary": "Multiple espionage-motivated threat activity clusters have been found deploying a previously undocumented exploit kit called BlueMoon that chains together multiple vulnerabilities ",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxouoVfK0MjZpruL0J1chmWnC7avUov1fOLbgX-XyFGrTcXeOh08tVntBjzJ7wBMmOB3P-PpxMr6E868Wpsaky-b-Nrf1LajzoQFfmjnkI1KHQzGXrCcVnC57nF2ndYZHCLx5WA3dENCWmCbZlSAb5TC-p8DXCGWxWB7I3iRIsdMMk6SS6IV03722lZIS4/s1600/spy.jpg"
-    },
-    {
       "id": "d5dff6c8a068568d6291644e74f86d2786fe4b7c",
       "title": "Vol ou perte de smartphone professionnel : protéger les données",
       "url": "https://www.zataz.com/vol-ou-perte-de-smartphone-professionnel-proteger-les-donnees/",
@@ -1880,17 +1968,6 @@
       "imageUrl": "https://www.zataz.com/wp-content/uploads/Smart_leak.jpg"
     },
     {
-      "id": "dbb5615de96dd9e4e2220f0e68f4e42f7556209f",
-      "title": "Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA",
-      "url": "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-09T14:23:55.000Z",
-      "summary": "Cybercriminals are hijacking artificial intelligence (AI) user accounts via information stealer logs to create \"stolen keys\" that grant illicit access to tools from model providers",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYP_zrhRTZRWnPPcDkUrE7dBh2Bf5eaQmlBxyl7euTRGjS0C8boQppnrmjY0CIVjGrS_PF13V1W3BPVI3RDPZY59s_7xIkI8LnFkg3Tn_Q0x7_tbCs_sMkvhZMREtFLW3IOJSNNmQrKCDI88FCWhfymdWkEWtdMMRzivv3lZXImjreAz0d74VXt2K80ipH/s1600/tokens.jpg"
-    },
-    {
       "id": "c3080a324f3a0554df27dd979d15eff01d51e7cc",
       "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
       "url": "https://www.cisa.gov/news-events/alerts/2026/09/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
@@ -1900,17 +1977,6 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": null
-    },
-    {
-      "id": "8208b923d90b04c75f2e15f3aad00bb2543b8631",
-      "title": "Webinar: Learn How to Answer “Are We Exposed?” Faster After a New CVE",
-      "url": "https://thehackernews.com/2026/09/webinar-learn-how-to-answer-are-we.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-09T11:57:36.000Z",
-      "summary": "A major vulnerability is disclosed. The alert lands immediately. Then comes the harder question: Are we actually exposed? For many security teams, answering that means jumping betw",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6J-Pt0v8CDXEvzMCsK37Gumde1WYysaqiuzK3Rg_dGXBeFEhbxFpLRbwaFSMOVcAz5XsbJXD9977trBg0eHEY-x4mZiu9W4ASLWGnIIA4kWkTmtIF-uBYlQWfLhQjAUL0llbl1Jn2hKfz5Wr78TR4Retzt9PlGD4mEGifQCvrEfFfqMy5966fDGvFHgY/s1600/tines-webinar.jpg"
     },
     {
       "id": "b5009b50fdc3ca2483c376185b116af605e72f64",
@@ -2144,17 +2210,6 @@
       "imageUrl": null
     },
     {
-      "id": "88e9fb64bfb3ef8e1b6760d4de3ebce8caf37a2a",
-      "title": "Chiffrement post-quantique : le guide complet pour comprendre comment Tuta, Signal et Proton protègent vos messages",
-      "url": "https://www.clubic.com/dossier-626836-chiffrement-post-quantique-le-guide-complet-pour-comprendre-comment-tuta-signal-et-proton-protegent-vos-messages.html?amp%3Butm_content=topic%2Ffr-cryptographie",
-      "source": "Cryptographie FR",
-      "publishedAt": "2026-09-06T09:07:00.000Z",
-      "summary": "Début août 2026, des chercheurs de l'université de Wuppertal ont publié une preuve mathématique de la sécurité de TutaCrypt, le protocole de …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/0d296c7c743ea0806b0c20ba2dcdd5aed710b8b6/_xlarge.jpeg"
-    },
-    {
       "id": "d784e7dbc7bbb80dfbe00636cc49b236baf822a6",
       "title": "Cyber actualités ZATAZ du 6 septembre",
       "url": "https://www.zataz.com/cyber-actualites-zataz-du-6-septembre/",
@@ -2219,61 +2274,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://www.zataz.com/wp-content/uploads/Chatnoir-busted.jpg"
-    },
-    {
-      "id": "c5f220637dd0d9c70186566501212c83b6bbed99",
-      "title": "Bitbybit Studio : 25 millions de lignes revendiquées",
-      "url": "https://www.zataz.com/bitbybit-studio-25-millions-de-lignes-revendiquees/",
-      "source": "Zataz",
-      "publishedAt": "2026-09-05T08:36:17.000Z",
-      "summary": "Bitbybit Studio visé par une fuite revendiquée de 25 millions de lignes mêlant données personnelles et messages IA.",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/Hack_leak_ia.jpg"
-    },
-    {
-      "id": "5870a9efb25ca1dd334b6a85411ba306e89c1cb7",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/09/04/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "source": "CISA",
-      "publishedAt": "2026-09-04T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA has added one new vulnerability to its &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities (KEV) Ca",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": null
-    },
-    {
-      "id": "9142e4c1da353c3634d3c042cd1e2b49bc765e3b",
-      "title": "MISP - CVE-2026-85216",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/misp-cve-2026-85216-2026-09-04",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-09-04T01:53:30.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;contournement d'authentification&lt;/strong&gt; dans les composants &lt;strong&gt;LdapAuthenticate&lt;/strong&gt; et &lt;str",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "474a1ccf257d6274790540d700b603f1f2221f0f",
-      "title": "Google - CVE-2026-85046",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/google-cve-2026-85046-2026-09-04",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-09-04T01:52:16.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;confusion de type&lt;/strong&gt; dans le moteur &lt;strong&gt;V8&lt;/strong&gt; de Google Chrome.&lt;/p&gt; &lt;p&gt;V8 est ",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "729ff8a474d1be21c97e01344c37b13c6737acbe",
-      "title": "Elastic - CVE-2026-78583",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/elastic-cve-2026-78583-2026-09-04",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-09-04T01:50:47.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité d'&lt;strong&gt;autorisation incorrecte&lt;/strong&gt; dans la fonctionnalité &lt;strong&gt;Fleet&lt;/strong&gt; de Kibana.&lt;/p&gt; &lt;p&g",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
     }
   ]
 }
