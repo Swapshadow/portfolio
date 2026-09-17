@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T19:35:41.548Z",
+  "generatedAt": "2026-09-17T22:43:18.995Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -23,7 +23,7 @@
       "name": "Exploit-DB",
       "url": "https://www.exploit-db.com/rss.xml",
       "status": "ok",
-      "items": 50
+      "items": 0
     },
     {
       "name": "The Hacker News",
@@ -98,17 +98,6 @@
       "imageUrl": "https://cdn-s-www.leprogres.fr/images/3869BD52-6FB5-4999-B1AC-C010BB837EBF/FB1200/photo-1789661150.jpg"
     },
     {
-      "id": "c5d40860b76e603faf999503a151dc902c7a25bf",
-      "title": "HexaForce : tout savoir sur ce nouveau système français de commandement militaire pour les forces de l'Otan",
-      "url": "https://www.cnews.fr/vie-numerique/2026-09-17/hexaforce-tout-savoir-sur-ce-nouveau-systeme-francais-de-commandement?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-17T15:39:13.000Z",
-      "summary": "Le groupe français Thales a présenté ce jeudi 17 septembre Hexaforce, un logiciel de commandement destiné aux forces de l'Otan. Ce dernier est une …",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://ic-cdn.flipboard.com/cnews.fr/889921b6f5fe54a1f8c27005df54e65214a0e872/_xlarge.jpeg"
-    },
-    {
       "id": "a337cb87f9071dd144822979073aba956e5a6236",
       "title": "Cybersécurité : 6 Français sur 10 n’entreprennent aucune démarche après un message frauduleux",
       "url": "https://www.blogdumoderateur.com/cybersecurite-six-francais-dix-aucune-demarche-message-frauduleux/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -118,6 +107,17 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://f.hellowork.com/blogdumoderateur/2026/09/barometre-cyber-2026-reaction-mesuree-1200x628.jpg"
+    },
+    {
+      "id": "2fc39a73151aead4b69bc490fbb43d55940016c7",
+      "title": "Des milliers de données croisées en quelques secondes pour aider les militaires à décider: Thales veut concurrencer Palantir avec une alternative européenne au logiciel de commandement américain",
+      "url": "https://www.bfmtv.com/economie/entreprises/defense/des-milliers-de-donnees-croisees-en-quelques-secondes-pour-aider-les-militaires-a-decider-thales-veut-concurrencer-palantir-avec-une-alternative-europeenne-au-logiciel-de-commandement-americain_AD-202609170617.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-17T14:49:04.000Z",
+      "summary": "Baptisé Hexaforce et dopé à l'intelligence artificielle, le groupe français Thales a présenté jeudi son logiciel de commandement destiné aux forces …",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/RyBqlrTfsIXQ6Ly4zdHNSLPJBKw=/0x106:2048x1258/2048x0/images/Thales-2349852.jpg"
     },
     {
       "id": "09abf83cadefb430b01a4b64a68cff810156663d",
@@ -2001,17 +2001,6 @@
       "imageUrl": null
     },
     {
-      "id": "cf97c91485e7becb8470e0129391aeed70ea3fce",
-      "title": "[remote] CVE-2026-80428 Unauthenticated PHP Object Injection via Shibboleth - ILIAS &lt; 9.22, 10.0 &lt; 10.10, 11.0 &lt; 11.3 - RCE",
-      "url": "https://www.exploit-db.com/exploits/52682",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-09-11T00:00:00.000Z",
-      "summary": "CVE-2026-80428 Unauthenticated PHP Object Injection via Shibboleth - ILIAS &lt; 9.22, 10.0 &lt; 10.10, 11.0 &lt; 11.3 - RCE",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": null
-    },
-    {
       "id": "b6046cdc361f6a7ea46ddde4e8a71c3d8fa1bf12",
       "title": "AVEVA Pipeline Integrity Monitor",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-253-01",
@@ -2271,6 +2260,17 @@
       "source": "Cyberveille Santé",
       "publishedAt": "2026-09-08T01:12:58.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans la couche de fiabilité du canal de contrôle d'OpenVPN, chargée de la gestion des accusés de réception TLS.&lt;/p&gt; &lt;p&gt;OpenVPN es",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "c7cefa6915803cf7dcca0e6095af7597b679bc96",
+      "title": "SAP SE - CVE-2026-58240",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/sap-se-cve-2026-58240-2026-09-08",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-09-08T01:11:06.000Z",
+      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le mécanisme d'enregistrement des serveurs d'application internes du Message Server.&lt;/p&gt; &lt;p&gt;SAP NetWeaver (Message Server) e",
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": null
