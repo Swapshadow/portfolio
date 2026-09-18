@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T22:43:18.995Z",
+  "generatedAt": "2026-09-18T03:46:55.896Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -23,7 +23,7 @@
       "name": "Exploit-DB",
       "url": "https://www.exploit-db.com/rss.xml",
       "status": "ok",
-      "items": 0
+      "items": 50
     },
     {
       "name": "The Hacker News",
@@ -2001,6 +2001,17 @@
       "imageUrl": null
     },
     {
+      "id": "cf97c91485e7becb8470e0129391aeed70ea3fce",
+      "title": "[remote] CVE-2026-80428 Unauthenticated PHP Object Injection via Shibboleth - ILIAS &lt; 9.22, 10.0 &lt; 10.10, 11.0 &lt; 11.3 - RCE",
+      "url": "https://www.exploit-db.com/exploits/52682",
+      "source": "Exploit-DB",
+      "publishedAt": "2026-09-11T00:00:00.000Z",
+      "summary": "CVE-2026-80428 Unauthenticated PHP Object Injection via Shibboleth - ILIAS &lt; 9.22, 10.0 &lt; 10.10, 11.0 &lt; 11.3 - RCE",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": null
+    },
+    {
       "id": "b6046cdc361f6a7ea46ddde4e8a71c3d8fa1bf12",
       "title": "AVEVA Pipeline Integrity Monitor",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-253-01",
@@ -2260,17 +2271,6 @@
       "source": "Cyberveille Santé",
       "publishedAt": "2026-09-08T01:12:58.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans la couche de fiabilité du canal de contrôle d'OpenVPN, chargée de la gestion des accusés de réception TLS.&lt;/p&gt; &lt;p&gt;OpenVPN es",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "c7cefa6915803cf7dcca0e6095af7597b679bc96",
-      "title": "SAP SE - CVE-2026-58240",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/sap-se-cve-2026-58240-2026-09-08",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-09-08T01:11:06.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le mécanisme d'enregistrement des serveurs d'application internes du Message Server.&lt;/p&gt; &lt;p&gt;SAP NetWeaver (Message Server) e",
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": null
