@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T00:38:18.150Z",
+  "generatedAt": "2026-09-22T07:27:30.833Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -76,6 +76,61 @@
   ],
   "items": [
     {
+      "id": "3283530d29302e75cfade0295c2f771406afd249",
+      "title": "One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor",
+      "url": "https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-22T06:33:57.000Z",
+      "summary": "Malware already running on a Mac can quietly take over Meta's Muse assistant and use the broad access its owner granted the app, security researcher Patrick Wardle has shown in a p",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjZLVTtI-AEbGRQqJ7aGa0tbXedD5L6P7VCEKIOGXOBZe7S3mhA-PnoHVEoZf3LBMzhcZSIX5sCTveGyZ-8qAqyAVaMXfEoxPL70OIESq-Iolqjkv8GuDjcVs1Jgh3k3SoOOGPDWFr6Lmk83avLqG1whcaiDclv5waXYhCuEqXk569wfwV8Ilrmvv3IKE/s1600/muse.jpg"
+    },
+    {
+      "id": "658b7317cb594b7bc215e3389a1222cd6119cb0c",
+      "title": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
+      "url": "https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-22T06:03:14.000Z",
+      "summary": "A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script coul",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPBWV1XNsTGB5ImLNRGJTygk0-82k7xTHmuOr7lTivRRDcF83ddu4jLOpdkQYMq7VB3j5SMpA9zBRvM3-SUkDLBhN5-j-Z6UltcTnVfXOxHDzfBYWiw_fRiRefAYa1XSiFu5JMzb06dwqV4PhKaZkPt3vKZFHQjdVFUgbr2B3nOEoFs_qHe6zwGayHM2I/s1600/wordpress-comment.jpg"
+    },
+    {
+      "id": "7bd7570398de35a8a49da5ca4c45c39cc3d02158",
+      "title": "ShinyHunters pirate le groupe de ransomware Clop, réclame une rançon… et exige des excuses",
+      "url": "https://www.clubic.com/actualite-630637-shinyhunters-pirate-le-groupe-de-ransomware-clop-reclame-une-rancon-et-exige-des-excuses.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-22T06:02:00.000Z",
+      "summary": "Le gang Clop vient de goûter à ses propres méthodes. ShinyHunters a pris le contrôle de son site de fuite et affirme avoir dérobé des données assez …",
+      "type": "LEAK",
+      "severity": "Critique",
+      "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/79a95287920c44bf4a62434aa75b93b356b57f4c/_xlarge.jpeg"
+    },
+    {
+      "id": "048c00d70ace1eb3222d901830d561bc733e179a",
+      "title": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
+      "url": "https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-22T05:31:59.000Z",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a now-patched security flaw impacting Zyxel GS1900 series switches to its Known Exploited Vulnerabi",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjj9eouOxeSvnYBzl5A8tWvEQ4w_CCx94YcFmpBAXXqHWNqvFBWj4vOgeZdHYAf0MU-chY63biCpHDnzRC0pwR7s3pTdQAWwPAVI-olRZuBwG0ilgAxnIY_1KofE3cpuA8lKOE01U26EFHYE_nLrXYXOWl47G1KaoFTZ5UOO81Cw0Kb20pFSfAc1b9i9E_K/s1600/veeam.jpg"
+    },
+    {
+      "id": "04698a1eabd61d5d40eee0e8ca6b4a7024fd83fe",
+      "title": "Fuites de données et sentiment d'impunité généralisé, comment faire valoir ses droits ?",
+      "url": "https://lemagdelaconso.ouest-france.fr/dossier-2759-fuites-donnees-sentiment-impunite-generalise-comment-faire-valoir-ses-droits.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-22T03:46:13.000Z",
+      "summary": "Direction générale des finances publiques, Agence nationale des titres sécurisés, Éducation nationale, Urssaf, France travail, CAF, Relais Colis, Le …",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/a287e07b34b261afe92d9ac247de2d4156eb4349/_xlarge.jpeg"
+    },
+    {
       "id": "65c144e31c5aa0783ea06b21702f4c83073142ff",
       "title": "États-majors, exercices de résilience, recensement des cibles… Comment les départements se préparent à la guerre hybride",
       "url": "https://www.europe1.fr/police-justice/etats-majors-exercices-de-resilience-recensement-des-cibles-comment-les-departements-se-preparent-a-la-guerre-hybride-1093469?at_medium=RSS+feeds&amp%3Bamp=&amp%3Bat_campaign=Flux+Generique",
@@ -84,7 +139,7 @@
       "summary": "Emmanuel Macron entend muscler la protection du territoire face à une menace russe qui, selon lui, change de nature. Le président réclame un plan …",
       "type": "NEWS",
       "severity": "Info",
-      "imageUrl": "https://static.europe1.fr/var/europe1/storage/styles/image_750_422/public/media/image/2026/09/21/19/000_c8tb6yd_1_6ab17356d807a.jpg?itok=8bfnC9J4"
+      "imageUrl": null
     },
     {
       "id": "885e6d8d7c7959a5749121e1f9a8d4790de83ca8",
@@ -164,6 +219,17 @@
       "imageUrl": "https://i.f1g.fr/media/cms/1200x630_crop/2026/09/21/a6c68a0e33979857b573068f64bc0f9dd3fe24edbaaa777e688b51d36786b6d9.jpg"
     },
     {
+      "id": "f647db1fd70420e2f1edf56ebc140fd6e3917560",
+      "title": "Face aux cyberattaques qui se multiplient en France, CyberGhost VPN passe à 1,99 € par mois cet automne",
+      "url": "https://www.clubic.com/bons-plans-629614-face-aux-cyberattaques-qui-se-multiplient-en-france-cyberghost-vpn-passe-a-1-99-par-mois-cet-automne.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-21T15:30:00.000Z",
+      "summary": "Vos données sont prisées. Pour renforcer votre cybersécurité, un réseau virtuel privé vraiment performant est de mise. CyberGhost VPN vous propose …",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/8fda669de615dfd71bf10fc22d0b27ac7d9d87b1/_xlarge.jpeg"
+    },
+    {
       "id": "b1ad080c5ac0d35720bef5eeea40fd2c003b5c3a",
       "title": "Face à la hausse des cyberattaques, l'Union européenne est démunie : \"Les États membres ne se font pas confiance\"",
       "url": "https://www.lalibre.be/international/europe/guerre-ukraine-russie/2026/09/21/face-a-la-hausse-des-cyberattaques-lunion-europeenne-est-demunie-les-etats-membres-ne-se-font-pas-confiance-YYIH5TQLL5ARTKTJ24ZIE76RNQ/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -239,17 +305,6 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": null
-    },
-    {
-      "id": "3665e6826457a64ceeddb8a8fe1ebfcfa7aaaaf9",
-      "title": "En raison de la hausse de 4% des cyberattaques, la cybersécurité recrute plus que jamais en 2026",
-      "url": "https://www.20minutes.fr/vie-pro/4247125-20260921-cyberattaques-hausse-4-cybersecurite-recrute-plus-jamais-2026?at_medium=display&amp%3Bat_campaign=149",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-21T11:02:36.000Z",
-      "summary": "En France, la menace informatique ne faiblit pas. En 2025, 17.600 atteintes aux systèmes de traitement automatisé des données ont été enregistrées, …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://img.20mn.fr/Cw48p3aDTmq-8Jug8AtQFik/1444x920_employes-dans-un-bureau"
     },
     {
       "id": "45f6c5956a840b8c865ff3c97c2e81574d8d3f67",
@@ -337,18 +392,7 @@
       "summary": "Le parti de Vladimir Poutine a remporté une large majorité aux législatives russes de dimanche, perturbées par des cyberattaques et des frappes de …",
       "type": "NEWS",
       "severity": "Info",
-      "imageUrl": "https://media.lenouvelliste.ch/media/image/145/nf_normal_16_9/20260920201806068.jpg"
-    },
-    {
-      "id": "dc8d9dba2613fe0bfb9004f5710a1486c2bc7c8e",
-      "title": "L’arroseur arrosé : les cybercriminels de Cl0p piratés par Shinyhunters - ZDNET",
-      "url": "https://www.zdnet.fr/actualites/larroseur-arrose-les-cybercriminels-de-cl0p-pirates-par-shinyhunters-503896.htm",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-21T03:09:15.000Z",
-      "summary": "Les pirates réclament une grosse rançon à leurs homologues, des spécialistes de l’extorsion. Comme un air d’arroseur arrosé. Les pirates informatiques …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2026/09/cl0p-shinyhunters.jpg"
+      "imageUrl": null
     },
     {
       "id": "5b147e5247d327cc279ea7f3105571e5df05d4a6",
@@ -461,17 +505,6 @@
       "imageUrl": "https://ic-cdn.flipboard.com/futura-sciences.com/576916ad75ff2a849699115067e39f57025cf3a8/_xlarge.jpeg"
     },
     {
-      "id": "9ff633c9695efb8d7e1ba82a980878905cd63b9a",
-      "title": "Mille millions de mille cyborgs ! Pourquoi les pirates informatiques demandent de plus en plus de rançons en cryptomonnaies",
-      "url": "https://theconversation.com/mille-millions-de-mille-cyborgs-pourquoi-les-pirates-informatiques-demandent-de-plus-en-plus-de-rancons-en-cryptomonnaies-264639?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-20T16:35:23.000Z",
-      "summary": "Les rançongiciels, ces logiciel bloquant l’accès à un ordinateur en volant ses données en échange d’une rançon, ont rapporté plus de 800 millions de …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/theconversation.com/48dcc26b4c6b6e8b85f5535099b9f2689c00970f/_xlarge.jpeg"
-    },
-    {
       "id": "2c77e486d4e1dbdd45ef74cb37bc9d826949f050",
       "title": "Après OpenAI et Anthropic, Google reconnaît que son IA, Gemini, a elle aussi mené plusieurs cyberattaques",
       "url": "https://www.challenges.fr/entreprise/tech-numerique/apres-openai-et-anthropic-google-reconnait-que-son-ia-gemini-a-elle-aussi-mene-plusieurs-cyberattaques_645893?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -514,17 +547,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/iphon.fr/1ec867b19f6b413ccecb678a20cb96c0719fa746/_xlarge.jpeg"
-    },
-    {
-      "id": "08a76a8deeb9390c7aee3620d45af5878dae2f25",
-      "title": "Télécharger des films illégalement est interdit, mais certains torrents cachent aussi un malware",
-      "url": "https://www.clubic.com/actualite-630442-telecharger-des-films-illegalement-est-interdit-mais-certains-torrents-cachent-aussi-un-malware.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-20T08:43:00.000Z",
-      "summary": "Des cybercriminels ont détourné des torrents de films pour distribuer un exécutable déguisé en « The Odyssey », le film de Christopher Nolan. Les …",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/740df8e0d727477bd564653497cd42ab4f86f0c3/_xlarge.jpeg"
     },
     {
       "id": "3a988d84918550ebd55fdf18128db2b939d1d127",
@@ -613,6 +635,17 @@
       "type": "LEAK",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTFTNQKV-yV8FRZZRLBPRxZDhk6E7s3v8SpP5xW_aeDyMz-xMvi-xAVUmvDvMC-CnU1kddKpVGN9BBzeoH4xeq8zE3OAqUq5441sYhC4tfYcyU1-3_yPkVphC-20dCQX_e5kN_G-Ji42wbYuxavkjczHwYn9QP0WRXnN16KUA33kizHwh38yQl7clZAA0/s1600/ORCHID-1.jpg"
+    },
+    {
+      "id": "587ebde791a8c40889ed563f46824f11afea7f53",
+      "title": "Votre smartphone sait tout de vos déplacements : voici comment empêcher votre téléphone de vous suivre à la trace | TF1 Info",
+      "url": "https://www.tf1info.fr/high-tech/votre-smartphone-sait-tout-de-vos-deplacements-voici-comment-empecher-votre-telephone-de-vous-suivre-a-la-trace-2380616.html?amp%3Butm_content=topic%2Ffr-technologie",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-19T11:00:00.000Z",
+      "summary": "Avec l’utilisation plus que démocratisée du smartphone, il existe aussi des dérives qui font froid dans le dos. C’est notamment le cas du phishing : …",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://photos.tf1info.fr/images/1280/720/smartphone-2904-8e6380-0@1x.jpeg?overlayImage=bG9nby10ZjFpbmZvLWRlZmF1bHQucG5n&amp%3BoverlayWidth=18&amp%3BoverlayGravity=northwest&amp%3Bs=78c802"
     },
     {
       "id": "e9116e441006a7db876e3ca6ce2d5cf60f95b2e6",
@@ -1715,28 +1748,6 @@
       "imageUrl": null
     },
     {
-      "id": "1b358c687e06ba89d1b49a9f46ab09b73e1be7f1",
-      "title": "KREMLIN Banking Malware Hijacks Chrome and Edge to Steal Credentials and Session Tokens",
-      "url": "https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-15T18:54:14.000Z",
-      "summary": "Cybersecurity researchers have shed light on a previously undocumented Brazilian banking malware operation that delivers a toolkit called KREMLIN. Elastic Security Labs is tracking",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPTs6qupSdjinGg233zkoldOvlD4cva51loWufV3l9GrlDopNRIKsV9yluCDjbGELBAAvVGx_h4R-sjx4jvDp290Znzhv6j546sq5JB0NJUShGVV3w0gKU7nu4dBVCosaPeKW-Pr1_WHn4FV26aEJRgEo7oSJsgUE5_ZGCMKWPPBdZ7NMh5XRr04Cs6qTh/s1600/browser-malware.jpg"
-    },
-    {
-      "id": "14c4735592321becd87ea2fa116afe5f7a0d8174",
-      "title": "Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists",
-      "url": "https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-15T16:29:51.000Z",
-      "summary": "Cybersecurity agencies in the United States, the United Kingdom, and the Netherlands have detailed a Windows malware that they say Iran's intelligence service uses to spy on dissid",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZTZstgI7jZKSq2kVj82ewI26neoU-YsSa1z0LIJdjqdsCSk8zS3VYdvhFyfE0rq75UOlst77oTDBZ-mVzRDaqljLl-jJrvxWzLBmj74k8kWFjld5o2uTB59tskHlBqM0JTuf5yuTMsWMBuE-Y_2LtkIfKT-l9C-h5Y5rvkAJKlIGD5rQLbUuWRNx8y5k/s1600/iran-malware.jpg"
-    },
-    {
       "id": "063015f21a9f846df16afdd3612a08e04125885d",
       "title": "Apocalypse quantique : la fin de la cybersécurité pour demain ?",
       "url": "https://theconversation.com/apocalypse-quantique-la-fin-de-la-cybersecurite-pour-demain-286607?amp%3Butm_content=topic%2Ffr-technologie",
@@ -1746,17 +1757,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/theconversation.com/ed21886e06603bfef8d0014c4a836cb018ad7836/_xlarge.jpeg"
-    },
-    {
-      "id": "5aa1356f6ea42611b630f32d1f6b23c4087905bf",
-      "title": "BambooToken Malware Uses MQTT to Control Windows and Linux Systems",
-      "url": "https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-15T15:23:19.000Z",
-      "summary": "Cybersecurity researchers have disclosed details of a multi-platform campaign that uses the Message Queueing Telemetry Transport (MQTT) protocol as a communication channel to contr",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7hFIl_GRAlPuegwLGZ2PzXVsPEUTEevpEYhkU2Va9isB7aC8a0jJCLVszVOUc_CAIb4IkIkmRjkvyaTIadUizNNEhHTxvzlPX0EUN6UQutjyrauyi35fzRtBjFudyOW4HlAnTRNC9XDj39uNBMKUWHUV2g0Rt8o3aSADZAeAIYgLN-dT0q8gIH9cWUDBF/s1600/windows-linux.jpg"
     },
     {
       "id": "9ec84b270946578b68d654ad2c63db610055b874",
