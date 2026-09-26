@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T11:00:10.837Z",
+  "generatedAt": "2026-09-26T16:00:01.658Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,7 +17,7 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 117
+      "items": 112
     },
     {
       "name": "Exploit-DB",
@@ -76,6 +76,50 @@
   ],
   "items": [
     {
+      "id": "5115f7674ce34efcebd552756da9739cc0ac5e31",
+      "title": "Tor sous pression : dix failles critiques menacent l’anonymat du réseau",
+      "url": "https://android-mt.ouest-france.fr/news/tor-sous-pression-dix-failles-critiques-menacent-lanonymat-du-reseau/223369/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-26T13:51:57.000Z",
+      "summary": "Une alerte qui concerne tous les rouages du réseau Le projet Tor a diffusé le 23 septembre 2026 une mise à jour qualifiée de prioritaire, avec la …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/575e141ff34fd2ee415b6c528b61175632ee801d/_xlarge.jpeg"
+    },
+    {
+      "id": "26f00887d4594226c27ef5fb192d064315c86163",
+      "title": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
+      "url": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-26T11:46:40.000Z",
+      "summary": "Google is warning of renewed mass exploitation of a known security vulnerability in Oracle PeopleSoft as part of a campaign targeting multiple sectors globally. The ShinyHunters-li",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYN2VWIT2g8mQkV0GeZWzYErKcubb0-baI8J__2nmdElucECc7HrLkdPsR1dz93qjMBI5sr_dL8yPWHf2bwWCBXa3YfutHAeJ-70UCSMuJrHhyOB3RO4OkuDjuw7gxRLXUnK-CeK9jZO0uOJRy-N3w-rV7uZ4t1FnFIWNjEsKtSYQINUvPX31mKzV_5Ert/s1600/oracle-flaw.jpg"
+    },
+    {
+      "id": "ed796406f0d6a3aac53e89c89218366bd41b80a8",
+      "title": "\"C'est inacceptable, le gouvernement prend cet incident très au sérieux\" : une IA a infiltré un site officiel australien | TF1 Info",
+      "url": "https://www.tf1info.fr/international/video-open-ai-c-est-inacceptable-le-gouvernement-prend-cet-incident-tres-au-serieux-une-ia-a-infiltre-un-site-gouvernemental-australien-2466425.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-26T10:56:26.000Z",
+      "summary": "Après les cyberattaques des pirates informatiques, c'est maintenant l'intelligence artificielle qui met en danger les données des sites …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://photos.tf1info.fr/images/1280/720/c-est-inacceptable-le-gouvernement-prend-cet-incident-tres-au-serieux-une-ia-a-infiltre-un-site-gouvernemental-de-la-sante-australien-dc4f7f-0@1x.jpeg?overlayImage=bG9nby10ZjFpbmZvLWRlZmF1bHQucG5n&amp%3BoverlayWidth=18&amp%3BoverlayGravity=northwest&amp%3Bs=78c802"
+    },
+    {
+      "id": "8850af77652b78a54cdefd150e3018fd2ff08f89",
+      "title": "Zero Trust for AI Agents Starts With Fixing Zero Visibility",
+      "url": "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-26T10:30:00.000Z",
+      "summary": "The way we talk about AI agents is shifting, and the way we implement them requires an even more fundamental shift. While earlier discourse focused on how quickly organizations cou",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbfTXTCeNSvaPIRWOUJJxKPfYp45QnSjl24XZ1Set210zScJhg03o_TYX0QKPQdcSq-vkiWnymSqBu-bSwcCm1Kb2Te5do1VIcbCQjc_-TOOR6VwqRiHu5LE-tBb0gdrDjmPuDADfUraASQenGh-1gI4PF_xa2GwREsDM4vq4_C-aEU8EJsBBvhykJ1E0/s1600/sans-article.jpg"
+    },
+    {
       "id": "b8db3b219fa8e12149974f18626338c68b21a024",
       "title": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
       "url": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
@@ -85,6 +129,17 @@
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoCsmpn_im_gimeko6yEdebgucFfzjRrTH0Hmvl1triNXT64w_JdoBIqCrFEApRZ9mmKBYfJQ1fqgfubPH3ZRaWW7SJ2HSr18mBsjSdFE6AwVl362SwcdzHp0EtlL2qoVuYARkSKmOqQaORUjjYVAM-PCT9Itvvkgb69lyVLttezAFtAuCw86RpPu3lAo4/s1600/wordpress-ele.jpg"
+    },
+    {
+      "id": "26963d31a71b649f0f2d28cb688e06907abf2432",
+      "title": "Près de 19 000 usagers de Pass Pass victimes d'un vol de données dans les Hauts-de-France",
+      "url": "https://www.lebonbon.fr/lille/news/pres-19-000-usagers-pass-pass-victimes-d-vol-donnees-hauts-france/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-26T09:14:56.000Z",
+      "summary": "Vous avez acheté un titre de transport sur Pass Pass ces dernières années ? Vos données personnelles ont peut-être été dérobées. Près de 19 000 …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/lebonbon.fr/8bf5edaa8c9f2e4047a40ebf4b27e43ecc75f4d7/_xlarge.jpeg"
     },
     {
       "id": "f53a4f4a925eff21e7e476811e8aae2ffd2a565a",
@@ -206,6 +261,17 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/607feb088f3501be6fee8c0eca2fe859cbbad620/_xlarge.jpeg"
+    },
+    {
+      "id": "d20a84165353768d64289ef35c6fc264b1825870",
+      "title": "Plus de 350 millions de dollars dérobés lors d'une cyberattaque",
+      "url": "https://www.blick.ch/fr/monde/cryptos-plus-de-350-millions-derobes-lors-dune-cyberattaque/fm7gx0m?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-25T15:38:09.000Z",
+      "summary": "Le plus important vol de cryptoactifs depuis le début de l’année a eu lieu jeudi. La plateforme d’échanges crypto Bitget a vu plus de 350 millions de …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ocdn.eu/pulscms-transforms/1/RYyktkuTURBXy8zNjk0Yjc4MC0yZDdlLTRmZjItYTI1OS02ZTA2YzZhMzA0NjkuanBlZ5KTBc0CWM0BO5MJpjU4OTIzNwY/oi7x8hgf5ce.jpg"
     },
     {
       "id": "9fd1a051f01d539c8c4ffbe02aa9801dc4087f2e",
@@ -505,17 +571,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqTAzyCx7Cezy4z5oRz-uAHvdvW1IZDrQlfIqT_ZDJ22Hvarb4lmYWkjqBDI_CngiSy2wuot68b2CgMS_0CWVZS93lYo5wqJsd5-WdFQgO3dieodXpVQiizcFjQsPzUOlVrs32zkBaHAwOyD7S4GCZ3b1d-Jyt4-ZTaMltfU0jG5dwBw5cxj880D4Cx8W0/s1600/ADOBE-CISA.jpg"
     },
     {
-      "id": "ca4427f52cf3538603f41742b2aa6177d3e076f5",
-      "title": "Marie Pla : « Notre impréparation face aux cyberattaques est liée au sous-investissement dans les services publics du futur »",
-      "url": "https://www.alternatives-economiques.fr/marie-pla-notre-impreparation-face-aux-cyberattaques-est-liee-au-sous-investissement-dans-les_25-09?amp%3Butm_content=topic%2Ffr-%C3%A9conomie",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-25T02:00:00.000Z",
-      "summary": "Depuis le printemps, les vagues de piratage de données de contribuables dans les fichiers de la Direction générale des finances publiques (DGFiP), ou …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/alternatives-economiques.fr/c1923e9957bda4a29ac6236ade430076107aa866/_xlarge.webp"
-    },
-    {
       "id": "b1d8ddbc7701813b5d4a59a0e922ba5a0dacdfe5",
       "title": "MinIO - CVE-2026-97731",
       "url": "https://cyberveille.esante.gouv.fr/alertes/minio-cve-2026-97731-2026-09-25",
@@ -692,17 +747,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy4aXDWSC5cKzOZO8lRbk8o5I1fHPlCGbfxxYL6tyJxauEL-8EVj7-AypDhYt_Wg6bDLqlj0UK4LrGJdeI4ChsksaB6tTZxo8ikCLdwC0wjRfJPE_Z1qM_CVUg7s1ORdmWW2XTDtlPPDcI8JvelrbmJhcjVthnqYWQrZ7ySnIMMPRZfa_VzgaBCWyWc_JJ/s1600/third.jpg"
     },
     {
-      "id": "ef5e6b5aac5a1b79105ef33a52927957626900a8",
-      "title": "Le piratage d’un site du FBI a exposé les données personnelles de milliers d'agents, y compris celles d’une unité très secrète, mobilisée contre les cybercriminels et la Chine",
-      "url": "https://www.bfmtv.com/tech/cybersecurite/le-piratage-d-un-site-du-fbi-a-expose-les-donnees-personnelles-de-milliers-d-agents-y-compris-celles-d-une-unite-tres-secrete-mobilisee-contre-les-cybercriminels-et-la-chine_AV-202609240657.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-24T15:21:34.000Z",
-      "summary": "Le média 404, qui a dévoilé en début de semaine la compromission des données de milliers d'agents du FBI, Il concerne aussi du personnel appartenant …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/1XdW8XwabRjHxWZ3484JFJFLX0Q=/0x0:2048x1152/2048x0/images/Le-siege-du-FBI-a-Washington-le-16-aout-2022-1977917.jpg"
-    },
-    {
       "id": "8df2ee0004a986c3c4095dd43195f9d42fa4b94b",
       "title": "Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer",
       "url": "https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html",
@@ -712,17 +756,6 @@
       "type": "NEWS",
       "severity": "Moyenne",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1xvw3iNKwWUngfdShXBAPKrbRDMZSCQ3_FdiHNKvwrLkip9fUiikko0FKN-cfgzBIgkLvKDR9xIlnfEZVQgHgOW2qTz8Pd4Ur0-DCYdUssgN_9vglgxRU6u5ZRK_FlQYmgV_sbv8pfA1YnSJcojUOhWC-7lkPbA07An_X-vNHmZ8xT2Okq9HiRfTBVt1h/s1600/UK-CLICK.jpg"
-    },
-    {
-      "id": "d5a6943c8674a24e68aabba71040836704e1c090",
-      "title": "VÉRIF' - La France est-elle surreprésentée dans les agressions liées aux cryptomonnaies en Europe ? | TF1 Info",
-      "url": "https://www.tf1info.fr/justice-faits-divers/verif-enlevements-cryptos-la-france-est-elle-surrepresentee-dans-les-agressions-liees-aux-cryptomonnaies-en-europe-2466001.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-24T13:30:00.000Z",
-      "summary": "\"La France serait en passe de devenir la capitale européenne des enlèvements liés aux cryptomonnaies\" avec \"près de 80% de toutes les tentatives …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://photos.tf1info.fr/images/1280/720/verif-les-crypto-rapts-en-france-86d814-0@1x.jpeg?overlayImage=bG9nby10ZjFpbmZvLWRlZmF1bHQucG5n&amp%3BoverlayWidth=18&amp%3BoverlayGravity=northwest&amp%3Bs=78c802"
     },
     {
       "id": "dbf45d90b688f0f1d08788610056f00c2a06010b",
@@ -800,17 +833,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8mLbRmwaAgvJunom4dBxBYMz50LUutLJiS6Yz7RPCbZQO1aYXAqFWOga4dCKD3AoenZHxYLpPexLEQ2swJO67vy4xl2_uw1g08lRtETN3hTMLpvafmn5WD4VK2ilpuFaYAdMHHPBRG2yYsyDBins15huubgt2b6pDVnnhW92It8lKHBqOifOLTaNSwho/s1600/keeper.png"
-    },
-    {
-      "id": "c28ee4ee93beecc27511e1fa1296ca5f18f908cf",
-      "title": "600 000 cartes bancaires piratées : trois IA ont compromis des centaines de boutiques en ligne",
-      "url": "https://www.01net.com/actualites/agents-ia-autonomes-ont-vole-600-000-cartes-bancaires.html?amp%3Butm_content=topic%2Ffr-technologie",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-24T10:30:17.000Z",
-      "summary": "Un pirate s’est servi de trois IA pour mener des cyberattaques contre des centaines de boutiques en ligne. L’opération a permis de voler plus de 600 …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/1d477c621219c7962f96f523f9f662e9c7f65995/_xlarge.jpeg"
     },
     {
       "id": "d8ddf25a26b52541184a4e22f0472542a9dc888b",
@@ -1682,17 +1704,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPBWV1XNsTGB5ImLNRGJTygk0-82k7xTHmuOr7lTivRRDcF83ddu4jLOpdkQYMq7VB3j5SMpA9zBRvM3-SUkDLBhN5-j-Z6UltcTnVfXOxHDzfBYWiw_fRiRefAYa1XSiFu5JMzb06dwqV4PhKaZkPt3vKZFHQjdVFUgbr2B3nOEoFs_qHe6zwGayHM2I/s1600/wordpress-comment.jpg"
     },
     {
-      "id": "048c00d70ace1eb3222d901830d561bc733e179a",
-      "title": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
-      "url": "https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-22T05:31:59.000Z",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a now-patched security flaw impacting Zyxel GS1900 series switches to its Known Exploited Vulnerabi",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjj9eouOxeSvnYBzl5A8tWvEQ4w_CCx94YcFmpBAXXqHWNqvFBWj4vOgeZdHYAf0MU-chY63biCpHDnzRC0pwR7s3pTdQAWwPAVI-olRZuBwG0ilgAxnIY_1KofE3cpuA8lKOE01U26EFHYE_nLrXYXOWl47G1KaoFTZ5UOO81Cw0Kb20pFSfAc1b9i9E_K/s1600/veeam.jpg"
-    },
-    {
       "id": "23c847e81f4180d828f69fbb2e64efeca7093128",
       "title": "Red Hat - CVE-2026-92574",
       "url": "https://cyberveille.esante.gouv.fr/alertes/red-hat-cve-2026-92574-2026-09-22",
@@ -1768,17 +1779,6 @@
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
-    },
-    {
-      "id": "72c90375f9fbce999c1b933738ec979d30c33bf7",
-      "title": "Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR",
-      "url": "https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-21T17:31:01.000Z",
-      "summary": "A fake LastPass Authenticator installer offered on GitHub installs a Windows kernel driver that shuts off antivirus and other security software before a password stealer runs if a ",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEil-5ZV6QK7R23fL7Vtl-pdxgFYPAG9dT_cIIrXWgR70hLZRM705Ij3WuRpCL00VuDop9dTmVNf1t3QS60nqRGV9GCzsZ792yd7mFY_pjvgfufOK9D-oQJdxP4ZtrXiyeq08KNUBv3-mhQ_KCiCOMWIbeQpCAyF_h4lMZw54T0l9AcDdGf6aRptXAZJNcU/s1600/last.jpg"
     },
     {
       "id": "e8730f232d6f7c1ad7f645beb0fae1cd7ca0f3b4",
