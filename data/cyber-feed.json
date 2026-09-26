@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T04:05:38.685Z",
+  "generatedAt": "2026-09-26T11:00:10.837Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -23,7 +23,7 @@
       "name": "Exploit-DB",
       "url": "https://www.exploit-db.com/rss.xml",
       "status": "ok",
-      "items": 0
+      "items": 50
     },
     {
       "name": "The Hacker News",
@@ -76,6 +76,94 @@
   ],
   "items": [
     {
+      "id": "b8db3b219fa8e12149974f18626338c68b21a024",
+      "title": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
+      "url": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-26T09:55:22.000Z",
+      "summary": "Details have emerged about a high-severity security flaw in the Elementor Website Builder WordPress plugin that could be exploited by an unauthenticated attacker to create rogue ad",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoCsmpn_im_gimeko6yEdebgucFfzjRrTH0Hmvl1triNXT64w_JdoBIqCrFEApRZ9mmKBYfJQ1fqgfubPH3ZRaWW7SJ2HSr18mBsjSdFE6AwVl362SwcdzHp0EtlL2qoVuYARkSKmOqQaORUjjYVAM-PCT9Itvvkgb69lyVLttezAFtAuCw86RpPu3lAo4/s1600/wordpress-ele.jpg"
+    },
+    {
+      "id": "f53a4f4a925eff21e7e476811e8aae2ffd2a565a",
+      "title": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
+      "url": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-26T08:49:53.000Z",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Microsoft SharePoint and Mikrotik RouterOS to its Known Exploited Vuln",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHEPamtRBBEzltsUWnj-F8umrMf4eUUhTmGUJdhHlrvWZamHWpBtXcrpQKDArTziRiiIWv8psX4DTZyN9kLBtcAyLOPJma9_M7sYKgYz6WBISbOhJrRlfByfCKfTTMdBqaYUp-0nskrt2ndt3poUFLDGegEFJojS0EzEvwAqzaUNtvX26jZopYE4zA4S3K/s1600/share-kev.jpg"
+    },
+    {
+      "id": "7670efeed83c2c70f3216c78bded9de0db21a931",
+      "title": "Après ses trains à grande vitesse défectueux, une cyberattaque dopée à l'IA frappe la compagnie ferroviaire publique espagnole",
+      "url": "https://www.bfmtv.com/economie/entreprises/transports/apres-ses-trains-a-grande-vitesse-defectueux-une-cyberattaque-dopee-a-l-ia-frappe-la-compagnie-ferroviaire-publique-espagnole_AD-202609260145.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-26T08:23:33.000Z",
+      "summary": "La Renfe a annoncé vendredi avoir été victime d'une cyberattaque ayant entrainé la fuite de certaines données d'usagers, les médias rapportant que …",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/u3Gxn4NYF0LXJNBONqZFVG-q1kg=/0x53:1024x629/1024x0/images/Polemique-en-Espagne-apres-l-expulsion-d-enfants-turbulents-d-un-train-1510423.jpg"
+    },
+    {
+      "id": "5bd4312f880c09bbd24388c1bbacf0c4b310c6d6",
+      "title": "Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack",
+      "url": "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-26T07:48:33.000Z",
+      "summary": "Kiteworks (formerly Accellion) is urging customers to shut down their systems as a precautionary measure for nine hours over the weekend after it received threat intelligence about",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjv53vaJYNeZNicsGcrBICKzTEXfHanPN-VR6-pTFsSJEV2IGpJn2MainwfMgqV2k96VN_ocXYLbmykTSVpwTPZr16tauFV37hU3g-lA4X31aqJQFYIsdwlHwNUIhNn9euB8SddL8d7wRKa7Ira2vNi51WNHyJivZ2Z3kkRDcAZtCQfSyvZHNLrZbqbF7jr/s1600/kite.jpg"
+    },
+    {
+      "id": "ba7e129a4860defb683528433f8d859ee8dc1f55",
+      "title": "Les VPN à l’épreuve du futur : cap sur la cryptographie post-quantique",
+      "url": "https://www.clubic.com/dossier-540725-les-vpn-a-l-epreuve-du-futur-cap-sur-la-cryptographie-post-quantique.html?amp%3Butm_content=topic%2Ffr-cryptographie",
+      "source": "Cryptographie FR",
+      "publishedAt": "2026-09-26T07:31:00.000Z",
+      "summary": "Les VPN protègent aujourd’hui nos connexions avec des algorithmes solides, mais l’informatique quantique menace une partie de la cryptographie qui …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/50ae7d1b05134c06b72fc24b80b29308607fe608/_xlarge.jpeg"
+    },
+    {
+      "id": "333f2427767c4d02a0ae16fb96b47d2d4bb6cd05",
+      "title": "Guerre sur le dark web : les hackers de ShinyHunters piratent un rival, c'est une mauvaise nouvelle pour les victimes",
+      "url": "https://www.01net.com/actualites/guerre-hackers-shinyhunters-pirate-rival-clop-dark-web.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-26T06:00:26.000Z",
+      "summary": "Les gangs de cybercriminels se déchirent. Dans la nuit du 18 au 19 septembre, ShinyHunters a piraté le site du gang de ransomware Clop sur le dark …",
+      "type": "LEAK",
+      "severity": "Critique",
+      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/dac0efef656a937d4b2d4400b82d92acf481c286/_xlarge.jpeg"
+    },
+    {
+      "id": "0f11d191ca9a327d51b4cd9efacdbc0c0eb705e8",
+      "title": "Piratage bancaire massif : quand des IA autonomes font le travail des cybercriminels à leur place",
+      "url": "https://android-mt.ouest-france.fr/news/piratage-bancaire-massif-quand-des-ia-autonomes-font-le-travail-des-cybercriminels-a-leur-place/223390/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-26T05:41:47.000Z",
+      "summary": "Une attaque orchestrée sans presque aucune main humaine L’affaire mise au jour par les analystes de Gambit Security marque une bascule inquiétante …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/8efd0149d73957cffb19f530e5464b8def5523b9/_xlarge.jpeg"
+    },
+    {
+      "id": "70d3882f8191266c99a811c4ca58695c13bfd38c",
+      "title": "la Renfe, compagnie ferroviaire publique espagnole, touchée par une cyberattaque",
+      "url": "https://video.lefigaro.fr/figaro/flash-eco/la-renfe-compagnie-ferroviaire-publique-espagnole-touchee-par-une-cyberattaque-20260925?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-25T21:45:03.000Z",
+      "summary": "La compagnie ferroviaire publique espagnole Renfe a annoncé vendredi avoir été victime d'une cyberattaque ayant entraîné la fuite de certaines …",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://i.f1g.fr/media/ext/1200x630_crop/api-video-public.lefigaro.fr/assets/49/52/de/4952debb9534a027171136a1bb6fe68e.jpeg"
+    },
+    {
       "id": "6b85e7bc6c64e6951968de2af996c99f73d855b7",
       "title": "U.S. Soldier Gets 70 Months in Prison for AT&#038;T, Verizon Extortions",
       "url": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
@@ -85,17 +173,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://krebsonsecurity.com/wp-content/uploads/2024/12/camwagenius-selfie.png"
-    },
-    {
-      "id": "86f3f2361b53f187fd8b00c5460b9611c5d862d3",
-      "title": "Espagne : la Renfe, compagnie ferroviaire publique, touchée par une cyberattaque",
-      "url": "https://www.lefigaro.fr/flash-eco/espagne-la-renfe-compagnie-ferroviaire-publique-touchee-par-une-cyberattaque-20260925?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-25T20:32:37.000Z",
-      "summary": "L’entreprise a indiqué que cet incident faisait suite à «plusieurs semaines» de tentatives d’attaques qui avaient été «détectées et bloquées avec …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://i.f1g.fr/media/cms/1200x630_crop/2026/09/25/b3c840e4bed614a0cead48793365f249903ad72b87df0f592810e7be460436a5.JPG"
     },
     {
       "id": "2dc3c1ec1f523a37eab00be92313178e6ab8b595",
@@ -351,17 +428,6 @@
       "imageUrl": "https://images.marianne.net/x8fsvthw5402/6MTicSgkn63qgUxICLo4kN/2b413509e83be87f3088d1b7f784503b/AFP__20170324__MY68L__v1__MidRes__RussiaFrancePoliticsDiplomacy.jpg?w=1540&amp%3Bh=924&amp%3Bfit=fill&amp%3Bf=center"
     },
     {
-      "id": "bf78a8ff626d2751fd67825250c2de6e1b278845",
-      "title": "Fuite de données à l'ASP : les IBAN de 143 000 bénéficiaires du Coup de pouce énergie dérobés",
-      "url": "https://www.frandroid.com/culture-tech/3260501_plus-de-143-000-iban-voles-une-enieme-agence-publique-francaise-a-ete-piratee?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-25T08:55:52.000Z",
-      "summary": "Des pirates ont volé les noms, adresses, IBAN et montants d’aide de bénéficiaires du « Coup de pouce énergie » francilien, une aide payée par …",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://img.frandroid.com/images.frandroid.com/wp-content/uploads/2026/09/piratage-france.png?resize=1600%2C900&amp%3Bkey=5b283587"
-    },
-    {
       "id": "34b862f121cbdc90ed650e0ad19de80c075057ea",
       "title": "Dans les coulisses du centre opérationnel d'Europol, premier rempart contre le crime organisé en Europe - Touteleurope.eu",
       "url": "https://www.touteleurope.eu/fonctionnement-de-l-ue/dans-les-coulisses-du-centre-operationnel-d-europol-premier-rempart-contre-le-crime-organise-en-europe/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -437,6 +503,17 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqTAzyCx7Cezy4z5oRz-uAHvdvW1IZDrQlfIqT_ZDJ22Hvarb4lmYWkjqBDI_CngiSy2wuot68b2CgMS_0CWVZS93lYo5wqJsd5-WdFQgO3dieodXpVQiizcFjQsPzUOlVrs32zkBaHAwOyD7S4GCZ3b1d-Jyt4-ZTaMltfU0jG5dwBw5cxj880D4Cx8W0/s1600/ADOBE-CISA.jpg"
+    },
+    {
+      "id": "ca4427f52cf3538603f41742b2aa6177d3e076f5",
+      "title": "Marie Pla : « Notre impréparation face aux cyberattaques est liée au sous-investissement dans les services publics du futur »",
+      "url": "https://www.alternatives-economiques.fr/marie-pla-notre-impreparation-face-aux-cyberattaques-est-liee-au-sous-investissement-dans-les_25-09?amp%3Butm_content=topic%2Ffr-%C3%A9conomie",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-25T02:00:00.000Z",
+      "summary": "Depuis le printemps, les vagues de piratage de données de contribuables dans les fichiers de la Direction générale des finances publiques (DGFiP), ou …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/alternatives-economiques.fr/c1923e9957bda4a29ac6236ade430076107aa866/_xlarge.webp"
     },
     {
       "id": "b1d8ddbc7701813b5d4a59a0e922ba5a0dacdfe5",
@@ -571,17 +648,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiGu2guziH88Cs_LnFsPkCJ4zuxqgSX7q3SRrBXdSAEeJPhmYnpNp-c0WCNCqoOoyCv6NcnmCKm20rhqSb2rjw7KZ6Kh6UssR2fZG5SZX9Pjhb_fjONdBfgpxqpWNABPDvSmD9Hp913nErgH4PQm1ehlyspJt5RXASYckP6jHE3G0V2ou5fwkG7JOZyBY/s1600/oneplus.jpg"
     },
     {
-      "id": "696d3b5332930d7da9b2956401af7cbcdaa929f4",
-      "title": "Les données de milliers d'agents du FBI piratées : \"Nous détenons des données très sensibles\"",
-      "url": "https://www.lalibre.be/international/amerique/2026/09/24/les-donnees-de-milliers-dagents-du-fbi-piratees-nous-detenons-des-donnees-tres-sensibles-WEPCXFXP2BCU7M5WDLRQ7K4P2M/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-24T17:54:16.000Z",
-      "summary": "Le FBI enquête après le piratage revendiqué de données sensibles concernant des milliers d'agents et de candidats à la police fédérale américaine. Un …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/lalibre.be/11586f0e17e200a6367b2cf0a5cc89d411ac3f31/_xlarge.jpeg"
-    },
-    {
       "id": "cf2bd4a436f800874006c2bd1c6969b5759f8398",
       "title": "ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories",
       "url": "https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html",
@@ -679,17 +745,6 @@
       "type": "NEWS",
       "severity": "Moyenne",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhitRqKj3-JlcQ69xxlsxJs80aq7MNxgAc_VrV-TCrHGTVEwdWKIdvAiwB4szXMT3cRKpkzCRVObZxAO47CLl3JWLRerxVSITKy9xorsP-XY212M07JzDkZ7VXOA-r0maycB0jMv0r5Kl3q0VgrxpoeYfHJ_gkeXbzXLKz_3gAhDGy1ML06lfta_5w8u_Xo/s1600/1000110893.jpg"
-    },
-    {
-      "id": "6bae6eaf677fe585e0432e386400590eec582650",
-      "title": "Pourquoi emballer votre carte bancaire dans l’aluminium est presque indispensable",
-      "url": "https://www.journaldugeek.com/2026/09/24/pourquoi-emballer-carte-bancaire-aluminium-presque-indispensable/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-24T12:02:48.000Z",
-      "summary": "Les chercheurs considèrent que c'est le meilleur moyen de la protéger.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/journaldugeek.com/b983edc960f9f7ec07fe99262fae285052bcf81f/_xlarge.jpeg"
     },
     {
       "id": "1c24474bc916749b1352365c802c82a431dd0bac",
@@ -833,17 +888,6 @@
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizoRcyQE1N3fGUKa2FY_q_T7EG_CyjTpMGGk1oFUF-XpBZa0zCA6V2yEuv3_Z1OrEjMmhbHdaVmo6NMrwb98U9VFGXDpRcItboVuZH7qc9QgPd5ZLDudfJPWoaSDbtkoXJeLTZw-6JDbq5F6YEp4AkeoJd10Nb_H9tuU0fYdgqkLrP6BTpAPOYwO6WdmkN/s1600/wordpress-exploits.jpg"
-    },
-    {
-      "id": "01deed4d087b1601375ec7a0923c0a2675cc7988",
-      "title": "Menace russe : l'Europe est-elle vraiment au bord de la guerre ?",
-      "url": "https://www.marianne.net/monde/menace-russe-l-europe-est-elle-vraiment-au-bord-de-la-guerre",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-24T05:00:11.000Z",
-      "summary": "Drones, sabotages, cyberattaques et attentats attribués à la Russie se multiplient en Europe. Jusqu’où ira l’escalade ? Et comment la France …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://images.marianne.net/x8fsvthw5402/1ga19hTsacf0vPmB0rmlmi/5acda913cb37b40e8d46a58516385d4f/SIPA_sipahub60206824_000018.jpg?w=1540&amp%3Bh=924&amp%3Bfit=fill&amp%3Bf=center"
     },
     {
       "id": "9c6e2485d400f8958ae9ac850ec181df8bb7d572",
@@ -1737,39 +1781,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEil-5ZV6QK7R23fL7Vtl-pdxgFYPAG9dT_cIIrXWgR70hLZRM705Ij3WuRpCL00VuDop9dTmVNf1t3QS60nqRGV9GCzsZ792yd7mFY_pjvgfufOK9D-oQJdxP4ZtrXiyeq08KNUBv3-mhQ_KCiCOMWIbeQpCAyF_h4lMZw54T0l9AcDdGf6aRptXAZJNcU/s1600/last.jpg"
     },
     {
-      "id": "5c79dac8e9395490052bf3edc60325c9ab972a06",
-      "title": "Contagious Interview Campaign Compromises 30,000 Devices, Steals $10.71M in Crypto",
-      "url": "https://thehackernews.com/2026/09/contagious-interview-campaign.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-21T17:19:00.000Z",
-      "summary": "The North Korean threat actors behind the Contagious Interview campaign have compromised at least 30,000 devices located in more than 100 countries and siphoned funds or account cr",
-      "type": "NEWS",
-      "severity": "Moyenne",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjuVP0IzjchtSeuT6WwQHPupLynSiYhe7KinKtQVVE_EgFE5iG9SWV4HrgseuXaSUo-TaamFPzHl6SCnUPsbz29nzEo1BJeZVE4VB43KdMBmKEld7snbryRJIeIIAmiRZNEhFCJ-58klU6qGrvwg2Hn26FtkHv1s4cAj_zX9AWmdeym2-d4hScWr9dLiOY/s1600/exec.jpg"
-    },
-    {
-      "id": "d6be226d7731dc4fcd3c5510da237110cf36fbf2",
-      "title": "Google Fined €403 Million Over GDPR Violations Tied to Location Data",
-      "url": "https://thehackernews.com/2026/09/google-fined-403-million-over-gdpr.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-21T16:57:31.000Z",
-      "summary": "Google has been fined €403 million for breaking the EU's data protection law, the GDPR, in the way three of its features handled people's location data from May 2018 to February 20",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrjOPn27sYW7sjjV6-SlFPjlnnAtZ2bVGvrJRbbussed8ddYCwrRnmyIBKOsJy9p3QGdwzMuxmxhtyNvyPQD9u53V0T84o-Pi1Euo1SPlHX9DiaFzVby2cKpyfdma7mA0b4F1gqDCvjWBrk3n916K6Su1Y1TaJcOKXHsuzNn0cxOmVzlUK1NIjPtElIXM/s1600/google-location.jpg"
-    },
-    {
-      "id": "18dfa056d0c6641b87c77dfc2d5705c61661b0d6",
-      "title": "⚡ Weekly Recap: Cisco 0-Day, AI Agent RCE, ClickFix Attacks, ClickFix Surge, and Browser Hijacks",
-      "url": "https://thehackernews.com/2026/09/weekly-recap-cisco-0-day-ai-agent-rce.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-21T14:24:13.000Z",
-      "summary": "A browser. A plugin. A package. A login screen. Normal stuff. That is basically the problem this week. The trouble keeps showing up inside things people already trust: code that ta",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjovXeakmAmPG68i_kNoeGFJjwSSGDdpj-29aojemBxtTQVOHzR668zKtV5GGPhnJ0zyCEdlsNCc11LIT-F8n1U8Rkv3jr-3AAt6HC4YwwyfENs_Y8V-O_OlPC4_WByxrsUBq6NifTKHQpgWuSnIqnV4bg4rXVoe9BrtMtgRCo4ECfMLWHRIKOQsqjb0zEt/s1600/recap-2.jpg"
-    },
-    {
       "id": "e8730f232d6f7c1ad7f645beb0fae1cd7ca0f3b4",
       "title": "Burger King Russia - 3,155,792 breached accounts",
       "url": "https://haveibeenpwned.com/Breach/BurgerKingRussia",
@@ -2260,17 +2271,6 @@
       "source": "Cyberveille Santé",
       "publishedAt": "2026-09-16T02:46:15.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans le composant &lt;strong&gt;Graphics : CanvasWebGL&lt;/strong&gt;.&lt;/p&gt; &lt;p&gt;Mozilla Firefox et Mozilla Thunderbird sont respect",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "2ebe1bb59b145a452062232a915ac9b3854920f8",
-      "title": "Dell - CVE-2026-63695",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/dell-cve-2026-63695-2026-09-16",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-09-16T02:39:15.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de type &lt;strong&gt;fixation de session&lt;/strong&gt; dans Dell Networking OS10.&lt;/p&gt; &lt;p&gt;Dell Networking OS10 (SmartFabric OS10",
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": null
