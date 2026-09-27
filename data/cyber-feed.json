@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T16:36:43.484Z",
+  "generatedAt": "2026-09-27T21:03:01.820Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -84,7 +84,7 @@
       "summary": "Sabotages, drones, cyberattaques, désinformation… L’Europe est confrontée à une multiplication d’actions attribuées à la « guerre hybride » russe. …",
       "type": "NEWS",
       "severity": "Info",
-      "imageUrl": "https://leseng.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_extra_big/2026/09/27/node_773343/33771205/public/2026/09/27/104517182.jpeg?itok=OsHJbMNQ1790518040"
+      "imageUrl": "https://leseng.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_extra_big/2026/09/27/node_773343/33771205/public/2026/09/27/104517182.jpeg?itok=OsHJbMNQ1790518595"
     },
     {
       "id": "ef974360cc935819ede25731943957d60b6d20ec",
@@ -98,12 +98,34 @@
       "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/98d1ea5ea22df57665f1c10dff8efec3dba5da73/_large.jpeg"
     },
     {
+      "id": "44a339aebaecf6957017361f348d1826f1e17b4c",
+      "title": "Critical Zero-Day Vulnerabilities Exploited in Citrix NetScaler ADC, Gateway",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/09/27/critical-zero-day-vulnerabilities-exploited-citrix-netscaler-adc-gateway",
+      "source": "CISA",
+      "publishedAt": "2026-09-27T12:00:00.000Z",
+      "summary": "&lt;p&gt;CISA is amplifying Citrix’s disclosure of eight new vulnerabilities affecting Citrix NetScaler ADC and Citrix NetScaler Gateway products: &lt;a href=&quot;https://www.cve.",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": null
+    },
+    {
+      "id": "227f801bc0b7b9d3351253056a54352e18842807",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/09/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "source": "CISA",
+      "publishedAt": "2026-09-27T12:00:00.000Z",
+      "summary": "&lt;p class=&quot;text-align-justify&quot;&gt;CISA has added two new vulnerabilities to its&amp;nbsp;&lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&q",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
       "id": "6e0af5cbe81520b864586734856ac6eec959fa17",
       "title": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
       "url": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
       "source": "The Hacker News",
       "publishedAt": "2026-09-27T07:47:57.000Z",
-      "summary": "Two new unpatched zero-day vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway appliances that allow remote code execution are being actively exploited in the wild, secur",
+      "summary": "Two critical vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway that allow remote code execution have been exploited in the wild, Citrix confirmed on September 27. It re",
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrnnWi_EE_zogEngdPWZDYXQTXqcArqvXtXYDj7_yLDzfVamEw9Nx7taRyM1SQf8-78qtxnt3nhNzcn36WnzYwZvFDQNvglCilw0Ltb4NjVkjjC8GH2nOUTnxIBPvRn8JVPcXJaidmbU0A6z-1RiX_OKgcpkzvL6xV7aM_YpQj6XdYIfalQH3h6o3b7pQ/s1600/citrix-zero-day.jpg"
@@ -1616,23 +1638,23 @@
       "imageUrl": null
     },
     {
-      "id": "d114781563ee03bdaf6e9b4a7b51093114d50338",
-      "title": "OpenPLC Runtime v3",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-09",
-      "source": "CISA",
-      "publishedAt": "2026-09-22T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-265-09.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
       "id": "b7a8c2eb72c2d6b7baf2c3a48d92c5ebbc8cfef0",
       "title": "lwIP (Lightweight IP)",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-02",
       "source": "CISA",
       "publishedAt": "2026-09-22T12:00:00.000Z",
       "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-265-02.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "d114781563ee03bdaf6e9b4a7b51093114d50338",
+      "title": "OpenPLC Runtime v3",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-09",
+      "source": "CISA",
+      "publishedAt": "2026-09-22T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-265-09.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -2045,67 +2067,12 @@
       "imageUrl": null
     },
     {
-      "id": "9c048ce76ec08ef6e6558968a481bd8d03f60ec7",
-      "title": "Mitsubishi Electric CC-Link IE TSN Communication Protocol (Update A)",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-07",
+      "id": "ec27fbd93a6503155e32893d6b8e77c83ffd2f94",
+      "title": "Schneider Electric Modicon M340 Controller and Communication Modules",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-04",
       "source": "CISA",
       "publishedAt": "2026-09-17T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-211-07.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "db3fa7d650f99fb54d12825123af3e8d3738e791",
-      "title": "Schneider Electric PowerChute Serial Shutdown",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-07",
-      "source": "CISA",
-      "publishedAt": "2026-09-17T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-260-07.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "71d5bf6cebfb18be72700f308891c2fdf53a0cf3",
-      "title": "ABB Ability Edgenius",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-06",
-      "source": "CISA",
-      "publishedAt": "2026-09-17T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-260-06.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "f0f31e31142383be68b711f0868a450c893ce9d1",
-      "title": "Mitsubishi Electric GX Works3 and Motion Control Setting",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-02",
-      "source": "CISA",
-      "publishedAt": "2026-09-17T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-260-02.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "dd2def04c3cf984d4dcc7f78ff2a48ca4243fb59",
-      "title": "Hitachi Energy FACTS Control Platform (FCP)",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-03",
-      "source": "CISA",
-      "publishedAt": "2026-09-17T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-260-03.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "791b4ca0f8580834484b856a5b9b93f717c92426",
-      "title": "Bransys ELD",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-01",
-      "source": "CISA",
-      "publishedAt": "2026-09-17T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-260-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-260-04.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -2122,12 +2089,67 @@
       "imageUrl": null
     },
     {
-      "id": "ec27fbd93a6503155e32893d6b8e77c83ffd2f94",
-      "title": "Schneider Electric Modicon M340 Controller and Communication Modules",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-04",
+      "id": "791b4ca0f8580834484b856a5b9b93f717c92426",
+      "title": "Bransys ELD",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-01",
       "source": "CISA",
       "publishedAt": "2026-09-17T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-260-04.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-260-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "dd2def04c3cf984d4dcc7f78ff2a48ca4243fb59",
+      "title": "Hitachi Energy FACTS Control Platform (FCP)",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-03",
+      "source": "CISA",
+      "publishedAt": "2026-09-17T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-260-03.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "f0f31e31142383be68b711f0868a450c893ce9d1",
+      "title": "Mitsubishi Electric GX Works3 and Motion Control Setting",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-02",
+      "source": "CISA",
+      "publishedAt": "2026-09-17T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-260-02.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "71d5bf6cebfb18be72700f308891c2fdf53a0cf3",
+      "title": "ABB Ability Edgenius",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-06",
+      "source": "CISA",
+      "publishedAt": "2026-09-17T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-260-06.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "db3fa7d650f99fb54d12825123af3e8d3738e791",
+      "title": "Schneider Electric PowerChute Serial Shutdown",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-07",
+      "source": "CISA",
+      "publishedAt": "2026-09-17T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-260-07.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "9c048ce76ec08ef6e6558968a481bd8d03f60ec7",
+      "title": "Mitsubishi Electric CC-Link IE TSN Communication Protocol (Update A)",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-07",
+      "source": "CISA",
+      "publishedAt": "2026-09-17T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-211-07.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -2197,28 +2219,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://krebsonsecurity.com/wp-content/uploads/2024/06/radaris-home.png"
-    },
-    {
-      "id": "f4f47b28bdeaef4cc65a97d4441fee977e2a4af0",
-      "title": "Using Cyber Decoys to Strengthen Detection and Response",
-      "url": "https://www.cisa.gov/resources-tools/resources/using-cyber-decoys-strengthen-detection-and-response",
-      "source": "CISA",
-      "publishedAt": "2026-09-16T12:00:00.000Z",
-      "summary": "&lt;div class=&quot;OutlineElement Ltr SCXW53093809 BCX8&quot;&gt; &lt;p&gt;CISA developed this guidance to help defensive teams at varying levels of cybersecurity maturity plan an",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "4af60684766ebeaa6f69d3603e92371f45b56462",
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/09/16/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "source": "CISA",
-      "publishedAt": "2026-09-16T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA has added two new vulnerabilities to its &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities (KEV) ",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": null
     },
     {
       "id": "f88800a961270b582fb1272afbab4881aeb57b4c",
