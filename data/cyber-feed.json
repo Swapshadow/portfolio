@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T19:11:18.805Z",
+  "generatedAt": "2026-09-29T23:31:32.514Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -120,6 +120,17 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQDuuJUT-WU7XzUYYoKEDtFKt7QAra8I4G0ptQRyveku8G6fD6R0aSWw32hi-2fd0L28qUxjqJoTlQoJbLiBYH6NBOVYirQZ9LfH-UvD8JG5uiL_m4ZkBVnPLiArcivCsdMNegW1XGxFEzas4cwkzFVeY4r22qTqSp2U1Fo3Nw7urOlnWRKGFHW8pW91E/s1600/ms-invite.jpg"
     },
     {
+      "id": "c740499c3b9d42043b421b80f4629e49595b7049",
+      "title": "Exploitation de \"faiblesses\", surveillance trop légère… Ce que révèle l'enquête de l'Anssi sur les vols de données du fisc",
+      "url": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/exploitation-de-faiblesses-surveillance-trop-legere-ce-que-revele-l-enquete-de-l-anssi-sur-les-vols-de-donnees-du-fisc_8215049.html",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-29T17:15:13.000Z",
+      "summary": "Le pirate informatique a utilisé plusieurs dizaines de comptes d'agents de la direction générale des finances publiques, dont les identifiants ont …",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/a0b9e229837bc6311400e03b8a805f387b3dc0ad/_xlarge.jpeg"
+    },
+    {
       "id": "1c7b6f9bb750cc4ca23ec00023825116b30ddce1",
       "title": "Piratage du site des impôts : un rapport officiel détaille les failles qui ont permis le vol des données de centaines de milliers de Français",
       "url": "https://www.lemonde.fr/pixels/article/2026/09/29/piratage-du-site-des-impots-un-rapport-officiel-detaille-les-failles-qui-ont-permis-le-vol-des-donnees-de-centaines-de-milliers-de-francais_6785671_4408996.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -129,17 +140,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://img.lemde.fr/2026/09/11/0/0/5899/3932/1440/960/60/0/08fdeab_ftp-1-mque7vcbsh5w-2026-09-11t093551z-1542309202-rc2xgna9qn8n-rtrmadp-3-france-budget.JPG"
-    },
-    {
-      "id": "1d432af45c6eb96f2a6069723ed6e4f2a76ee95e",
-      "title": "Des mots de passe volés ont suffi, et personne n’a rien vu : l’ANSSI dissèque le piratage de la DGFiP",
-      "url": "https://www.numerama.com/cyberguerre/2343289-des-mots-de-passe-voles-ont-suffi-et-personne-na-rien-vu-lanssi-disseque-le-piratage-de-la-dgfip.html?amp%3Butm_source=flipboard&amp%3Butm_content=directlink&amp%3Butm_campaign=2343289",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-29T16:25:00.000Z",
-      "summary": "Des identifiants volés, des accès trop ouverts et une exfiltration de données passée inaperçue. Dans un rapport publié le 29 septembre 2026, l’ANSSI …",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2023/04/sans-titre-2023-04-04t154412588.jpg?resize=1600%2C900&amp%3Bkey=608cb521"
     },
     {
       "id": "e05194aede574f5fbbbaab4354c1c3426b885ca3",
@@ -260,6 +260,17 @@
       "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-272-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "e253784b761fd2b59e2bbb3eff3b79d5faf03364",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/09/29/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "source": "CISA",
+      "publishedAt": "2026-09-29T12:00:00.000Z",
+      "summary": "&lt;p&gt;CISA has added one new vulnerability to its &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities (KEV) Ca",
+      "type": "CVE",
+      "severity": "Critique",
       "imageUrl": null
     },
     {
@@ -2260,17 +2271,6 @@
       "source": "Cyberveille Santé",
       "publishedAt": "2026-09-18T00:45:42.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de lecture hors limites dans l'analyseur de paquets du &lt;strong&gt;bus de cluster&lt;/strong&gt; de Redis, chargé du traitement des paquets",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "64b3585c20dbf530d130328b4fe6fa6cc193bbcb",
-      "title": "Acronis - CVE-2026-87886",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/acronis-cve-2026-87886-2026-09-18",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-09-18T00:43:34.000Z",
-      "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité de &lt;strong&gt;permissions de fichiers par défaut incorrectes&lt;/strong&gt; dans les modules Linux d'Acronis Backup pour cPanel &amp;amp; ",
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": null
