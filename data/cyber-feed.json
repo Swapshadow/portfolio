@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T23:32:27.207Z",
+  "generatedAt": "2026-10-01T04:48:52.980Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -76,6 +76,50 @@
   ],
   "items": [
     {
+      "id": "507ffcd748faae5fef78d89c5faa75b5ac6fdb90",
+      "title": "Citrix NetScaler Post-Exploitation Payload Creates Superuser, Maps Web Shell to CSS-Like URLs",
+      "url": "https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-01T04:35:34.000Z",
+      "summary": "Threat actors have been observed exploiting a critical pre-authentication command injection vulnerability in Citrix NetScaler ADC and NetScaler Gateway to drop web shells and attem",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAuODp7WTARNyJa6hiyuveQ1LUgYlaYQXGDDfRAYUA7Zkwwb7vMriA7VIh5HmBJwWWR0kALhQkijvT43ke2ajjOQHk6YxQb2rAgsB0PYcbMKPdm-JezjILBH8j3kY29iATKhZLQhVIyAjwNj9XFBTeenqPCHM1AzKMKRCVlMME3jQs5yIYSoVtrbRnVSY7/s1600/citrix-css-shell.jpg"
+    },
+    {
+      "id": "1c65cd107d94bb3dcb4afd2426ba61e70701d7b1",
+      "title": "Personne n'est à l'abri ! L'ANSSI et la Dinum victimes d'une fuite de données",
+      "url": "https://www.clubic.com/actualite-632056-personne-n-est-a-l-abri-l-anssi-et-la-dinum-victime-d-une-fuite-de-donnees.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-01T04:19:00.000Z",
+      "summary": "Même les services de l'État censés se battre contre la cybercriminalité sont vulnérables. La preuve avec l'ANSSI et la Dinum.",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/4d9fd108e714018315b4b50db313519d7e8e16d1/_xlarge.jpeg"
+    },
+    {
+      "id": "fc4a0a2a1cd287da8f8d28e723908620b60a1bf7",
+      "title": "ENQUETE. Cybersécurité : l'embarrassant blocage législatif qui empêche la France d'être bien protégée",
+      "url": "https://www.franceinfo.fr/enquetes-franceinfo/enquete-cybersecurite-l-embarrassant-blocage-legislatif-qui-empeche-la-france-d-etre-bien-protegee_8216545.html",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-01T04:00:02.000Z",
+      "summary": "C'est un blocage législatif aux conséquences désastreuses. La France n'a toujours pas transposé la directive européenne NIS 2 sur la cybersécurité. …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/fdb4ab75e014f819e5d9ec439a0352ddb025bd78/_xlarge.jpeg"
+    },
+    {
+      "id": "ad4251abc7670431b6b6f3b65371ad9561843e3c",
+      "title": "Cyberattaques : pourquoi la France est si vulnérable",
+      "url": "https://www.radiofrance.fr/franceinter/podcasts/revelations/revelations-partie-1-6059739?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-01T04:00:00.000Z",
+      "summary": "La France est-elle une passoire en matière de protection de nos données personnelles ? La question se pose après les cyberattaques à répétition qui …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/radiofrance.fr/892d32b9c4051d012f18473e87048eec0281bc65/_xlarge.webp"
+    },
+    {
       "id": "0053642a5fcf98f4861e4477b10133745fdf5db3",
       "title": "Alaxione : une nouvelle vente de données revendiquée",
       "url": "https://www.zataz.com/alaxione-une-nouvelle-vente-de-donnees-revendiquee/",
@@ -140,17 +184,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://www.zataz.com/wp-content/uploads/Politique_cnil.jpg"
-    },
-    {
-      "id": "47d2a895f5ef23a4a291f511ec14c8f0e44c3040",
-      "title": "Un prestataire de Carrefour victime d'une cyberattaque, quelles données sont concernées ?",
-      "url": "https://www.capital.fr/economie-politique/un-prestataire-de-carrefour-victime-d-une-cyberattaque-quelles-donnees-sont-concernees-1530625?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-30T20:32:17.000Z",
-      "summary": "Carrefour a été victime d’une cyberattaque qui a entraîné une fuite de nombreuses données des clients de l’enseigne comme les prénoms, les noms, les …",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/capital.fr/0d198b5c5ec227cb8e0f0f431e912c606b093a7c/_xlarge.jpeg"
     },
     {
       "id": "17dd01271524cf89693d0bb29b81381495437b63",
@@ -250,6 +283,17 @@
       "type": "NEWS",
       "severity": "Élevée",
       "imageUrl": "https://www.dhnet.be/resizer/v2/FQ3J3T5IZRAN5GZSBWIPR4N4OM.jpeg?auth=fd59f93763a77bac3926bdbeaf6dbc3939fc60210145e6f9c6c59dd1df411a5b&amp%3Bwidth=1200&amp%3Bheight=630&amp%3Bquality=85&amp%3Bfocal=3000%2C2000"
+    },
+    {
+      "id": "0fd7dca2893f198a85c8092b97dfbc7b531c4ab2",
+      "title": "C'est le plus gros vol de l'année : 351 millions de dollars en cryptomonnaies auraient été dérobés par des hackers nord-coréens",
+      "url": "https://www.science-et-vie.com/technos-et-futur/cest-le-plus-gros-vol-de-lannee-351-millions-de-dollars-en-cryptomonnaies-auraient-ete-derobes-par-des-hackers-nord-coreens-260905.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-30T13:30:53.000Z",
+      "summary": "La plateforme Bitget a perdu 351 millions de dollars en cryptomonnaies le 24 septembre 2026. Des pirates informatiques liés à la Corée du Nord …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.science-et-vie.com/wp-content/uploads/scienceetvie/2026/09/pexels-ds-stories-7267544-scaled.jpg"
     },
     {
       "id": "5e9cd0806d916fe54c7bc3cfc9bc1bec5ef42001",
@@ -384,17 +428,6 @@
       "imageUrl": "https://www.zataz.com/wp-content/uploads/Stealer_sfr.jpg"
     },
     {
-      "id": "a6bb7e0606f700d5f8aa9588b97d9b8f1d184271",
-      "title": "Identifiants volés, protections défaillantes : Comment les lacunes de la DGFiP ont permis à un hacker de siphonner les données de ses usagers",
-      "url": "https://www.usine-digitale.fr/cybersecurite/identifiants-voles-protections-defaillantes-comment-les-lacunes-de-la-dgfip-ont-permis-a-un-hacker-de-siphonner-les-donnees-de-ses-usagers.L554QQ4X3NCF3EZCUUQJHR5Y4E.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-30T08:54:39.000Z",
-      "summary": "Dans son rapport publié le 23 septembre, l’Anssi revient sur les intrusions ayant permis le vol de données concernant près de 353 000 particuliers et …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://cloudfront-eu-central-1.images.arcpublishing.com/infopro/YMKPBP62JJAH7FGWXSVEWB7GIY.jpg"
-    },
-    {
       "id": "804916747708ca8256ae633fe5b9da173dab6373",
       "title": "FFRandonnée : 1,43 million de fiches proposées à la vente ?",
       "url": "https://www.zataz.com/ffrandonnee-143-million-de-fiches-proposees-a-la-vente/",
@@ -494,6 +527,17 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0Po53IuyRAhsYzbs5KKPp_UBpklONBiOzoLWgXrklvrgDn5xnpjuRjU8UYoyLuImSmiPtOHQK3ExgQk5zhxlqsAcUmTLRFowkQXzan2RD955Gw-sumsvmwzLBTViUBRhyphenhyphenHCnETV23Qbt01RwaovTe1ogMeMYDSGxmF5n84NKZOB3EiWz6VAHUlfDm5YE/s1600/openssl-memory.jpg"
     },
     {
+      "id": "a787388d56fb37fa252814217c00751b07231dfa",
+      "title": "Carrefour victime d'une fuite de données: si vous êtes client, voici les risques que vous courez",
+      "url": "https://rmc.bfmtv.com/conso/arnaques/carrefour-victime-d-une-fuite-de-donnees-si-vous-etes-client-voici-les-risques-que-vous-courez_AN-202609300294.html?amp%3Butm_content=topic%2Ffr-actualit%C3%A9s",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-09-30T07:37:25.000Z",
+      "summary": "Carrefour, par le biais de l'un de ses prestataires de livraison, a été victime d'une cyberattaque et d'une fuite des données de ses clients. Quelles …",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/QWfXwf-t5PfbLVAw2Qr5fnnvAgw=/0x131:2048x1283/2048x0/images/Carrefour-2285487.jpg"
+    },
+    {
       "id": "0b9158b1882b283e2ea786687cd2ff912a1132df",
       "title": "GhostTrack : L’outil OSINT qui transforme votre terminal en bureau de détective",
       "url": "https://android-mt.ouest-france.fr/news/decryptage/ghosttrack-par-hunx-loutil-osint-qui-transforme-votre-terminal-en-bureau-de-detective/223912/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -558,17 +602,6 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcFl1djJdJQkamdMtV0xibSpzc4ahUKNoVKtVoDSeKFJAYUkH2SnmxalYIJpaVZ9cywBJqyUflBrXWbhTIzpwL51iIyfINyH7z7YUHqDl3IbAJJmpCANlw8YvFFtmLa3T2es4rdE70Jd9tEUYAbuWFuXVBsx6Ar2radG2ZhgkqjBA5ZErCm0xVhNPv6d3F/s1600/watch-exploit.jpg"
-    },
-    {
-      "id": "26a0cfb891d5adcf69203aa84363084732cbdbd4",
-      "title": "Cyberattaque contre les impôts : comment des failles ordinaires ont permis le vol de centaines de milliers de données",
-      "url": "https://www.ladepeche.fr/2026/09/30/cyberattaque-contre-les-impots-comment-des-failles-ordinaires-ont-permis-le-vol-de-centaines-de-milliers-de-donnees-13575289.php?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-30T04:31:06.000Z",
-      "summary": "Dans un rapport rendu public le 29 septembre, l'Anssi revient sur la cyberattaque qui a frappé la Direction générale des finances publiques entre mai …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://images.ladepeche.fr/api/v1/images/view/6abc3035ca4724bd570e296c/hd/image.jpg?v=1"
     },
     {
       "id": "feaad33fefef38cc424cc168fb14eda82cf4f952",
@@ -780,17 +813,6 @@
       "imageUrl": "https://ic-cdn.flipboard.com/euronews.com/f0ea07d527620a73c591fbccdfa2e8b55c42f8b9/_xlarge.jpeg"
     },
     {
-      "id": "414f2476f4a879a9d5ae8fb7383ae8c159b923cd",
-      "title": "Piratage des impôts : l’ANSSI révèle comment les hackers sont passés sous les radars pendant des semaines",
-      "url": "https://frenchbreaches.com/blog/piratage-des-impots-lanssi-revele-comment-les-hackers-sont-passes-sous-les-radars-pendant-des-semaines?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-29T15:20:00.000Z",
-      "summary": "L’ANSSI détaille le piratage de la DGFiP : comptes compromis, exfiltrations non détectées et centaines de milliers de victimes.",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://frenchbreaches.com/social-image/assets/uploads/blog/blog_4b4fa7a9cc3cff62f55ecbd2.webp"
-    },
-    {
       "id": "e2c538e24ae57cbf2c82cf6503465eedae7604fb",
       "title": "Kiteworks Fixes Critical Flaw Found During Nine-Hour Precautionary Shutdown",
       "url": "https://thehackernews.com/2026/09/kiteworks-fixes-critical-flaw-found.html",
@@ -899,17 +921,6 @@
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
-    },
-    {
-      "id": "6c11fa395d86b11e30e22e56be860e8e83261b8b",
-      "title": "Apple corrige une faille zero-day sur iPhone, iPad et Mac, installez vite la mise à jour",
-      "url": "https://www.01net.com/actualites/apple-corrige-faille-zero-day-iphone-ipad-mac.html?amp%3Butm_content=topic%2Ffr-ipad",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-09-29T10:00:00.000Z",
-      "summary": "Apple vient de corriger une faille de sécurité au sein de CoreGraphics, un composant utilisé sur iPhone, iPad et Mac. La cible n’a qu’à ouvrir un …",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/7dd7ba24c3b737cf23807e59bbadde8aac3d8094/_xlarge.jpeg"
     },
     {
       "id": "7e41f77e3fecb97494dcec3e8a1cae4a1719b6e4",
@@ -1779,17 +1790,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/0a7b286155b50450ecbce550b4b98e7f0e786e98-2766x1556.jpg?auto=format&amp%3Bfit=crop&amp%3Bcrop=focalpoint&amp%3Bw=1920&amp%3Bh=1080&amp%3Bq=75"
-    },
-    {
-      "id": "422174f750698dbad4e9e978962937a5b18a2188",
-      "title": "17,000 URLs Reveal How ClickFix Turns Trusted Websites Into Malware Traps: Report by CTM360",
-      "url": "https://thehackernews.com/2026/09/17000-urls-reveal-how-clickfix-turns.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-24T09:14:21.000Z",
-      "summary": "ClickFix has become the most common way attackers get into enterprise networks, and it does it without an exploit, an attachment, or a file on disk. Our new global threat report tr",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOah63YM6pjk2RAIcCXy-NSbO_uPPCSp4DsR-9-jeGLCRZCd9E1QSd0_b4c6xc5wFp_ncqCH3LPtBR_C1auF3Fid-DNSCtQh9eEArgNe0syhvA4I9EdDU454uAqieiAGyyI-dXW5AsA5X4zsbhTpHKjXfIbgM35i4MOC7Jcbk5SiILRU9_BgcV2H-_BxI/s1600/ctm360.jpg"
     },
     {
       "id": "9c6e2485d400f8958ae9ac850ec181df8bb7d572",
