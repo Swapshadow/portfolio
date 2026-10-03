@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T11:16:36.234Z",
+  "generatedAt": "2026-10-03T15:54:26.395Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,7 +17,7 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 117
+      "items": 112
     },
     {
       "name": "Exploit-DB",
@@ -76,6 +76,50 @@
   ],
   "items": [
     {
+      "id": "c52f806c26846577f90bdeda8e2e8001f3e780d5",
+      "title": "MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics",
+      "url": "https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-03T14:38:46.000Z",
+      "summary": "The U.K.'s domestic intelligence and security agency has warned that more than 100 academics have helped China boost its intelligence gathering efforts on behalf of Beijing's state",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8KoVLnFX9RE7BlsBeUJOBw_ZTBGsbwsb8-BY7UjzndcwMCcGmakXl6gOYzYAf_D46lO0rs6ud3i8PmehY4hbb4B8lcXCMUj4UtcZpzaox7_y3waVRwVPmRYvOd-dB5AaIXL3lmBAkQp0ZIwcES5__hiZlqeoqkp0IjqjRWe2mUUY1HiYVYVtK7bs9oPYJ/s1600/china-fund.jpg"
+    },
+    {
+      "id": "6a9c69b72a531270b6c945c7ffec5fedb4986b2a",
+      "title": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
+      "url": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-03T14:36:33.000Z",
+      "summary": "The suspected China-linked threat actor known as Warlock is still continuing to weaponize Microsoft SharePoint vulnerabilities, likely both old and new, in attacks targeting organi",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCZSaqs29yWFrct8zgOikM9e4CS0xuAXppzGJ1tskKpKC2gbGuITsYlHYNcnXDMvrFpPuAVS_ZlyEF8Obp7Mgw7CUXe4UsKP3pNEvZWNfszKQVxogslYpoWBZG-QQbEvmS6SDcbgVtXiFFGIEjreD_HSkCYZTfcwL1Rt90qDbbPj946SbMX0FR5CEKRt_H/s1600/sharepoint-ransomware.jpg"
+    },
+    {
+      "id": "3892c0d5e5f6cf240d6f0fcbffea9084a8174720",
+      "title": "\"Ma vie est en danger\": l'appel aux dons du hacker Rui Pinto, menacé de mort depuis les \"Football Leaks\"",
+      "url": "https://rmcsport.bfmtv.com/football/ma-vie-est-en-danger-l-appel-aux-dons-du-hacker-rui-pinto-menace-de-mort-depuis-les-football-leaks_AV-202610030232.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-03T12:15:01.000Z",
+      "summary": "Sous protection spéciale depuis août 2020, le lanceur d'alerte Rui Pinto s'apprête à perdre ce statut. Craignant pour sa vie, l'homme à l'origine des …",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/jagAAfLxr-WuLy5ZKdBDav3ZYoY=/219x410:1915x1364/images/Le-hacker-Rui-Pinto-a-l-origine-des-Football-Leaks-en-septembre-2020-1672370.jpg"
+    },
+    {
+      "id": "1a4c52c190133674be96154307555ef3eb81e5a3",
+      "title": "Un Suisse arrêté, il avait 300'000 fichiers pédocriminels",
+      "url": "https://www.lematin.ch/story/france-un-suisse-arrete-il-avait-300-000-fichiers-pedocriminels-103643472?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-03T11:59:17.000Z",
+      "summary": "L'homme de 55 ans interpellé près de Mulhouse administrait un forum d'échange de contenus pédocriminels sur le darkweb.",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/lematin.ch/1f77c1b22e5e097729be641193336185fc751b97/_large.jpeg"
+    },
+    {
       "id": "b0de6429c978eea9c9994e288a803043bc7c5f4e",
       "title": "Football Leaks : les avocats du hacker Rui Pinto dénoncent la fin de son programme de protection",
       "url": "https://www.lequipe.fr/Football/Actualites/Football-leaks-les-avocats-du-hacker-rui-pinto-denoncent-la-fin-de-son-programme-de-protection/1723061?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -98,15 +142,15 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhT6JJFsgFmlQyQC0ZFye5jB8OydQuNv7BQYFdVh0meweGiJD5bXisFLalhMTHPTfkPkbOewEeAepAz9Pd1mOIRy_1q67d4J-ougj5reZ4j9PjmpzIgk7wAr8HGlY4Mk8o3js2s_6Wpa0z4IC55ozyl4Yc60OEFjU1U8FXz8562V3IYFnoikN16KsrVu1w/s1600/py-report.jpg"
     },
     {
-      "id": "aa7412c1a193deb1d9e03f6c46db90dc05219abd",
-      "title": "Un homme de 55 ans arrêté à Mulhouse pour échange de contenus pédocriminels sur le darkweb, près de 300.000 fichiers retrouvés",
-      "url": "https://www.bfmtv.com/alsace/un-homme-de-55-ans-arrete-a-mulhouse-pour-echange-de-contenus-pedocriminels-sur-le-darkweb-pres-de-300-000-fichiers-retrouves_AN-202610030182.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "id": "fcf97b0f4e9cbaad0bf24984ed38240e2e3cc563",
+      "title": "Après 1000 cyberattaques, un pirate de 16 ans a été arrêté : il était à la tête du gang KillSec",
+      "url": "https://www.01net.com/actualites/apres-1000-cyberattaques-pirate-16-ans-arrete-tete-gang-killsec.html?amp%3Butm_content=topic%2Ffr-technologie",
       "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-03T09:25:07.000Z",
-      "summary": "L'homme administrait un forum sur lequel se trouvaient plusieurs centaines d'utilisateurs. 300.000 fichiers à caractère pédocriminel ont été …",
+      "publishedAt": "2026-10-03T09:00:53.000Z",
+      "summary": "La police européenne a démantelé KillSec, un redoutable gang de pirates impliqué dans 1000 cyberattaques. Selon Europol, le chef présumé de …",
       "type": "NEWS",
       "severity": "Info",
-      "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/u33mTaVldaX65mykRjUO_bpGLx8=/0x147:2048x1299/2048x0/images/Dark-web-2237116.jpg"
+      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/c51efccf086707fd3b2fc754b7fe84d1c7081103/_xlarge.jpeg"
     },
     {
       "id": "b508e69f22b8df4c76d1202cdfbd4cd5541042fd",
@@ -118,17 +162,6 @@
       "type": "LEAK",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/01net.com/1edbe2c1029b7b2654e594fa994dda784d444846/_xlarge.jpeg"
-    },
-    {
-      "id": "736645920d8aec04a0d39447a13c7e648cb23eba",
-      "title": "La princesse Claire, le roi Philippe : la famille royale, elle aussi, victime d’arnaques (vidéo)",
-      "url": "https://soirmag.lesoir.be/774636/article/2026-10-03/la-princesse-claire-le-roi-philippe-la-famille-royale-elle-aussi-victime?amp%3Butm_content=topic%2Ffr-people",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-03T06:00:00.000Z",
-      "summary": "La princesse Claire et le prince Laurent ont été victimes de phishing. Le procès des escrocs présumés a actuellement lieu à Louvain. Au début de …",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://leseng.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_extra_big/2025/09/18/node_774636/33785213/public/2025/09/18/49250673.jpeg?itok=ZrjRvysI1791012556"
     },
     {
       "id": "ad10fdf9dd23a64fc86a6aec4f7fad811514467c",
@@ -186,15 +219,15 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiypcfC3W6keUc31zSJympZfpI6eLwDhyphenhyphen4uy_0M3VFljfoSn2pjzBmS3yyAZTzILPxi_sXeOx2jyeu6mdSPKqjiFv7LAMd2mn6Q8GvIRq6yVXUoQm5MiXeEs96i9IT-ZCP2W7hAzR08B9JOuOJv8NNI7o7DfCSa7cplzrsT_x_0R0dPVSQxKmdLP8NvAsnp/s1600/dell.jpg"
     },
     {
-      "id": "e5da0e2c63cc950e781e404ab8c01d55139f1568",
-      "title": "Plus de 18 millions de joueurs concernés: le jeu \"Minecraft\" aurait été victime d'une importante fuite de données",
-      "url": "https://www.bfmtv.com/tech/cybersecurite/plus-de-18-millions-de-joueurs-concernes-le-jeu-minecraft-aurait-ete-victime-d-une-importante-fuite-de-donnees_AV-202610020715.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "id": "cb406c5242c01ce48d17f6604031c2cf8bb6d88c",
+      "title": "Images pédocriminelles sur le dark web : 300 000 fichiers découverts, un Suisse de 55 ans arrêté en Alsace et incarcéré",
+      "url": "https://www.leparisien.fr/haut-rhin-68/images-pedocriminelles-sur-le-dark-web-300-000-fichiers-decouverts-un-suisse-de-55-ans-arrete-en-alsace-et-incarcere-02-10-2026-2HH5PDBFSVBVHLP67DSFXJYUIY.php?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
       "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-02T16:20:34.000Z",
-      "summary": "Sur un forum spécialisé du dark web, deux pirates ont annoncé avoir récupéré les données de 18 millions de joueurs de \"Minecraft\". Des logiciels …",
+      "publishedAt": "2026-10-02T16:46:20.000Z",
+      "summary": "L’homme a été identifié et localisé par l’antenne de l’Unité nationale cyber (UNC) de la section de recherches de Metz. Il n’avait pas d’antécédents …",
       "type": "LEAK",
       "severity": "Info",
-      "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/oUPzeSv4e5xXFNewas8S9kSlSKs=/0x0:2048x1152/2048x0/images/Minecraft-1863749.jpg"
+      "imageUrl": "https://www.leparisien.fr/resizer/DMNHgjS7B9Z1mXy_ig-Jp3jEVXY=/1600x900/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/DR4MN6SKPNTVXVIJ3MS7JTZU24.jpg"
     },
     {
       "id": "8b7891c58f17652d4c0bc2eaa1a4cf86cc9cb56e",
@@ -228,6 +261,17 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/22defb12e6a3f41e18fb9e39eff753fdd4575f54/_xlarge.jpeg"
+    },
+    {
+      "id": "0bfb7f4ee576d3f29bc4c3bf42c052fa96284cf9",
+      "title": "LDLC a été piraté : gare aux faux messages dans les prochaines semaines",
+      "url": "https://www.numerama.com/cyberguerre/2345779-ldlc-a-ete-pirate-gare-aux-faux-messages-dans-les-prochaines-semaines.html?amp%3Butm_source=flipboard&amp%3Butm_content=directlink&amp%3Butm_campaign=2345779",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-02T13:26:35.000Z",
+      "summary": "Le revendeur informatique lyonnais a prévenu ses clients qu’un acteur malveillant avait pu consulter une partie de leurs données personnelles. Les …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/10/design-sans-titre-2026-10-02t152144599.png?resize=1600%2C900&amp%3Bkey=85011721"
     },
     {
       "id": "133aa06d6265a21f2f00d00c09076d7138173807",
@@ -670,15 +714,15 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbdAzWwJ7WC6PL7vtBZDUWfVyYu9iIBlT3X5gZn-Yl9aRuZAEeW3RjEU81RQWsvH_7og6v7-somVgG-fR35drKy6bxLMcHdpJQAi6ydXw-m3oMxZ1hlDC7kr8Wsu0dOfRt6ZLEasAsYNGq-pzmQiBNWMbEBzqa9zYdAu16NtgIfDe3PpOvCVzGj6yFqmet/s1600/wordpress-exploit.jpg"
     },
     {
-      "id": "69fe720f51cd13e16c957418038622630ecf61f5",
-      "title": "Cyberdéfense : IA, vol de données, menaces russes, comment la France s’est dotée d’une armée numérique de 4 900 cybercombattants",
-      "url": "https://france3-regions.franceinfo.fr/occitanie/haute-garonne/toulouse/cyberdefense-ia-vol-de-donnees-menaces-russes-comment-la-france-s-est-dotee-d-une-armee-numerique-de-4-900-cybercombattants-3425291.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "id": "09c10b2a5fcf6759a1496e923990054c8ed11fc2",
+      "title": "Identifiants, adresses mail, mots de passe compromis… Après le fisc, l'Anssi et Tracfin victimes à leur tour de cyberattaques",
+      "url": "https://www.lesechos.fr/tech-medias/hightech/apres-le-fisc-le-gendarme-cyber-de-letat-et-dautres-organismes-publics-victimes-a-leur-tour-de-piratages-2254618?amp%3Butm_content=topic%2Ffr-technologie",
       "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-01T14:36:15.000Z",
-      "summary": "Arnaud Coustillière a créé dès 2011 le premier commandement cyber de l'Armée française. De passage à Toulouse le 29 septembre 2026 pour la Mêlée …",
+      "publishedAt": "2026-10-01T14:00:49.000Z",
+      "summary": "Les cyberattaques se multiplient, touchant désormais jusqu'à l'Anssi et à l'organisme chargé d'élaborer sa stratégie numérique. Si leur ampleur est …",
       "type": "NEWS",
       "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/3ce4fbb299ec345f213ca01ef61125bfaf285502/_large.jpeg"
+      "imageUrl": "https://media.lesechos.com/api/v1/images/view/6abe81ba8034e90bf60beb94/1280x720/0210836554209-web-tete.jpg"
     },
     {
       "id": "18dab5f7d56b877cf9c88f3ed98db1dfbe893e0e",
@@ -824,17 +868,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwJsDvv_9QEV86mmDsIBPpGS2Kt2o8WPu2L6kUb9IExDqX-2lDKksEMMJp3NqFwDUqplX6JCeUpJfI_8rt_febX1CjMorRii_RpDccPPynWQHW_abdrNSWj774Ad0XH-RmiP-Lzki-Btsu6mh1cUsIffeSIOfUQ29qEJJwBTsaL-olM3GK18D2LYoxJlg/s1600/chain.png.jpg"
     },
     {
-      "id": "5560dc085faba5c8b81319c7ce02c7a53d292e7e",
-      "title": "Facturation électronique : une fuite touche une plateforme agréée, des données bancaires ont été piratées",
-      "url": "https://www.01net.com/actualites/facturation-electronique-fuite-donnees-frappe-plateforme-agreee-coordonnees-bancaires-piratees.html?amp%3Butm_content=topic%2Ffr-actualit%C3%A9s",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-01T11:30:54.000Z",
-      "summary": "VosFactures, une plateforme agréée pour la facturation électronique en France, a été piratée. Un cybercriminel inconnu a pu consulter une copie de la …",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/b20dea84f1512c5c950c1849302524369f3901e5/_xlarge.jpeg"
-    },
-    {
       "id": "151a29abafedf7aa945993fa967fe9588a2e74a6",
       "title": "OpenAI Disrupts Reasoning Extraction Campaign Linked to Moonshot AI Associates",
       "url": "https://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html",
@@ -844,17 +877,6 @@
       "type": "NEWS",
       "severity": "Moyenne",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVoOullmVukPDhwbQ10zXHA-IqDVeMp55dybdLAhT-kkPDdJADbw8BETggWjHN3WF4HHpXLV8RDk4jHLVYlS9wWxZcbHMtEGGfGu-dGv2lFRzv3lJ1csgozieAguSQeE2Nhw5ZXBi1YIjaBbF5Al_kakh4wNXfjr4PJ-Q4QZxaHm4_Lha_aMxdQ3NPKRm0/s1600/moonshot.jpg"
-    },
-    {
-      "id": "09c10b2a5fcf6759a1496e923990054c8ed11fc2",
-      "title": "Identifiants, adresses mail, mots de passe compromis… Après le fisc, l'Anssi et Tracfin victimes à leur tour de cyberattaques",
-      "url": "https://www.lesechos.fr/tech-medias/hightech/apres-le-fisc-le-gendarme-cyber-de-letat-et-dautres-organismes-publics-victimes-a-leur-tour-de-piratages-2254618?amp%3Butm_content=topic%2Ffr-technologie",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-01T10:37:34.000Z",
-      "summary": "Les cyberattaques se multiplient, touchant désormais jusqu'à l'Anssi et à l'organisme chargé d'élaborer sa stratégie numérique. Si leur ampleur est …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://media.lesechos.com/api/v1/images/view/6abe81ba8034e90bf60beb94/1280x720/0210836554209-web-tete.jpg"
     },
     {
       "id": "4ebceff073c124c7a2d911dc3f2f062da0e244a6",
@@ -2032,28 +2054,6 @@
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": null
-    },
-    {
-      "id": "6e0af5cbe81520b864586734856ac6eec959fa17",
-      "title": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
-      "url": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-27T07:47:57.000Z",
-      "summary": "Two critical vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway that allow remote code execution have been exploited in the wild, Citrix confirmed on September 27. It re",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrnnWi_EE_zogEngdPWZDYXQTXqcArqvXtXYDj7_yLDzfVamEw9Nx7taRyM1SQf8-78qtxnt3nhNzcn36WnzYwZvFDQNvglCilw0Ltb4NjVkjjC8GH2nOUTnxIBPvRn8JVPcXJaidmbU0A6z-1RiX_OKgcpkzvL6xV7aM_YpQj6XdYIfalQH3h6o3b7pQ/s1600/citrix-zero-day.jpg"
-    },
-    {
-      "id": "4938ae60f0b9d136554451427c996e63705da3c6",
-      "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
-      "url": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-26T18:22:52.000Z",
-      "summary": "The Psychedelic Stealer malware distributed via compromised Ukrainian websites using ClickFix-style Cloudflare verification checks is part of a wider malware-as-a-service (MaaS) pl",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlKEfNLMvV7mEVtxmw1nS48l0bWRxvhvRH5MHdn20FjDTm6B0_5okfLjQ49AamYo9DPVC1aV1O2bl11Vd8776ziWsV96tcxQviDK0RjOnGK_Dyx_Zs2e2VBjgChf91_H2cHH0u_UoyAGlGlJkKnozWFqf-sxmXNW0QlnfY3Ilgdkg3p4qG7p3Z0SmdnJMq/s1600/stealer-malware.jpg"
     },
     {
       "id": "ba7e129a4860defb683528433f8d859ee8dc1f55",
