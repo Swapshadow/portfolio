@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T14:38:00.811Z",
+  "generatedAt": "2026-10-16T19:25:12.190Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,7 +17,7 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 121
+      "items": 116
     },
     {
       "name": "Exploit-DB",
@@ -76,6 +76,138 @@
   ],
   "items": [
     {
+      "id": "8eb690c9a0f34d89e7e73c59ef528ddbf4060bc6",
+      "title": "« On y consacre davantage de ressources que pendant la guerre froide... » : le coût méconnu des attaques hybrides de la Russie contre l'Europe",
+      "url": "https://www.lesechos.fr/monde/europe/guerre-hybride-russe-contre-leurope-un-impact-economique-massif-et-sous-estime-2257490?amp%3Butm_content=topic%2Ffr-technologie",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-16T18:50:47.000Z",
+      "summary": "Les attaques hybrides russes coûtent cher à l'Europe. Une première étude britannique estime leur coût à au moins 2,3 milliards par an depuis 2022. …",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://ic-cdn.flipboard.com/lesechos.com/de0cdd4f4be97769ccad1bc172ea4dd084edd0c2/_xlarge.jpeg"
+    },
+    {
+      "id": "ab4081759ba724250d35ca5001628e95b98b61db",
+      "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
+      "url": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-16T17:48:45.000Z",
+      "summary": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's K",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqmitTMm5t8BBKfynqzFAKqJSzh_s7fQczmMm5u95RLUUzuWMubd5DeM8e8EH6YOpP-_gvbYwn8Cd3flsL-nGIupBw5HOo49Orr7J2rqhI99J7U4LcXW6shlxd3w0zFAng1mLw5xGb-F9GRmpDK82GC1-Dcb1gPcvkgl4wVi0-QTEGalDwPmelGE0TtNU/s1600/openbsd.jpg"
+    },
+    {
+      "id": "276e076f6b6522f431730dfecafc4ec7a8ba04d4",
+      "title": "Ce serait \"considérer que notre sécurité ne vaut pas grand-chose\": Emmanuel Macron réagit à la proposition de Marine Le Pen de suspendre les aides à l’Ukraine",
+      "url": "https://www.bfmtv.com/politique/video-ce-serait-considerer-que-notre-securite-ne-vaut-pas-grand-chose-emmanuel-macron-reagit-a-la-proposition-de-marine-le-pen-de-suspendre-les-aides-a-l-ukraine_VN-202610160754.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-16T17:35:03.000Z",
+      "summary": "Face à la volonté affichée par Marine Le Pen de suspendre l’aide à l’Ukraine si elle accédait à l’Élysée, Volodymyr Zelensky a souligné que Kiev …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/h_FO8QN_pvy9S7aQjerG54J-R1k=/0x0:1280x720/1280x0/images/Ce-serait-considerer-que-notre-securite-ne-vaut-pas-grand-chose-Emmanuel-Macron-reagit-a-la-proposition-de-Marine-Le-Pen-de-suspendre-les-aides-a-l-Ukraine-2366898.jpg"
+    },
+    {
+      "id": "b9e07c6af8d62fa253531002f701408fa6b2dbe8",
+      "title": "Rochefort : collectivités et entreprises, attention aux cyberattaques",
+      "url": "https://www.sudouest.fr/economie/cybersecurite/rochefort-collectivites-et-entreprises-attention-aux-cyberattaques-31100382.php?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-16T17:30:00.000Z",
+      "summary": "Rançongiciels, vols de données, plantages informatiques, les cyberattaques sont devenues une menace majeure pour les collectivités locales et les …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/sudouest.fr/0acadf1d11511a089842cc6be4f9ac9ce933ccb7/_xlarge.jpeg"
+    },
+    {
+      "id": "2054aca37a32a71e2697c15c4d88e987948a14e5",
+      "title": "Union européenne : qu’est-ce qui va changer pour les victimes d’arnaques en ligne ?",
+      "url": "https://www.lesoir.be/777356/article/2026-10-16/union-europeenne-quest-ce-qui-va-changer-pour-les-victimes-darnaques-en-ligne?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-16T17:12:03.000Z",
+      "summary": "La justice européenne vient de trancher : les banques devront désormais rembourser immédiatement les victimes d’arnaques en ligne, même si elles ont …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://leseng.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_extra_big/2024/03/31/node_777356/33815350/public/2024/03/31/15082870.jpeg?itok=JB5U_xvW1792170917"
+    },
+    {
+      "id": "443f271c14d60c23989c18185199d4ec8e4403e3",
+      "title": "Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor",
+      "url": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-16T16:43:39.000Z",
+      "summary": "Attackers repeatedly changed the files that AOMEI Backupper fetches from the vendor's own update servers, in windows of five to ten minutes at a time between May and July 2026, so ",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhuPumyjeBRpQZo5_3mvqZ2_kXuPiOK02cH-ARofYrny0mQ2-rv55w7yBxMTBe3ymCW7c77quZ4xlkdDG9FcEhBYFr7GWmbyPE_1K1xqU0mvT-h51Z8hLg-LnWl32MeOy-aumsGO9-j8VSOSOfVUDB2k1vWOpEdyGEWV9ipF4kf3HVP1Au2ClbkYtAJrc/s1600/backup-hacked.jpg"
+    },
+    {
+      "id": "917b58e6d7cbd3e1d6bec20091809c5437747c01",
+      "title": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing",
+      "url": "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-16T16:16:44.000Z",
+      "summary": "Cybersecurity researchers have disclosed details of an advanced persistent threat (APT) spear-phishing campaign that has targeted individuals affiliated with Taiwan research organi",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPclyw7bJ19im5Qmzj9jgFlsM4XJqPK6hyphenhyphenRDCcQ0bnpWrteeTWgPNlip5T0P_oj_AC6V3osZ2xIpYipKjXWQw3BfFEQ1n28dleNCLRi7difLnPLY8Yc-oJ6BCVZ1V0VBpF_ZNu36qM_yCvyvbgBsSfh2AXq-IBIk7QjnBSR_T7s8ajMCOkIEhA5YGeYWg4/s1600/google-phish.jpg"
+    },
+    {
+      "id": "c9fc271b341d06059dc7bafc5168791a60877b98",
+      "title": "Comment sécuriser son réseau Wi-Fi ?",
+      "url": "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/bonnes-pratiques/comment-securiser-son-reseau-wi-fi",
+      "source": "Cybermalveillance",
+      "publishedAt": "2026-10-16T15:52:49.000Z",
+      "summary": "Sécuriser son réseau Wi-Fi est essentiel pour protéger son environnement numérique domestique. Voici 10 bonnes pratiques à adopter pour la sécurité de votre réseau.",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "497c4e5283be11895dc05303ca3b26f06308f2e0",
+      "title": "100% Pro, le t-shirt de chantier que tout le monde s’arrache",
+      "url": "https://www.leparisien.fr/video/actualites/societe/comment-ce-t-shirt-douvrier-est-devenu-un-objet-mode-16-10-2026-AXDKSYFU2VAK7APAGQ6TFFQB5E.php?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-16T15:06:09.000Z",
+      "summary": "Il suffit de se promener et de tomber par hasard sur l’un des nombreux chantiers de la capitale, puis de scruter les ouvriers s’affairer à travers …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.leparisien.fr/resizer/IfsWl9vOA7umQhqtpJWAkVlpdoM=/1600x900/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/M47MPDPGNVG2FEYHIZPYPKHH4E.jpg"
+    },
+    {
+      "id": "681d0c9a3f6a2fe0b91983af9c45d9d5806543cc",
+      "title": "« Hameçonnage, piratage, escroquerie… Personne n’est à l’abri » : dans l’Orne, une journée dédiée à la cybersécurité",
+      "url": "https://www.ouest-france.fr/societe/cyberattaque/hameconnage-piratage-escroquerie-personne-nest-a-labri-dans-lorne-une-journee-dediee-a-la-cybersecurite-d695d6f4-c93d-11f1-ad87-e24a1a2986e9?amp%3Butm_medium=fluxrss&amp%3Butm_campaign=banquedecontenu",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-16T14:55:54.000Z",
+      "summary": "Le cinéma de L’Aigle (Orne) va accueillir, jeudi 22 octobre 2026, une journée dédiée à la cybersécurité. Clément Domingo, hacker éthique, va animer …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/60bf94444001b5cba382e845293774ebb6e6c103/_xlarge.jpeg"
+    },
+    {
+      "id": "50fba94d070ad0357d54045b119c68cb66557204",
+      "title": "Cyberattaque : Le site de LR affiche un appel à manifester le 17 octobre après un piratage",
+      "url": "https://www.20minutes.fr/politique/4255004-20261016-cyberattaque-site-lr-affiche-appel-manifester-17-octobre-apres-piratage?at_medium=display&amp%3Bat_campaign=149",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-16T14:16:32.000Z",
+      "summary": "Les militants de droite ont dû s’étrangler en se connectant ce vendredi matin au site du parti Les Républicains. La page affichait en effet un appel …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://img.20mn.fr/uv2_Ns05TeC6tnaFmb6asSk/1444x920_conference-de-presse-de-bruno-retailleau-president-du-parti-les-republicains-et-candidat-du-parti-a-l-election-presidentielle-2027-sur-le-pouvoir-d-achat-au-siege-du-parti-a-paris-le-15-septembre-2026-paris-france-15-septembre-2026-conference-de-presse-donnee-par-bruno-retailleau-president-des-republicains-et-candidat-du-parti-a-l-election-presidentielle-francaise-de-2027-sur-le-pouvoir-d-achat-au-siege-du-parti-a-paris-le-15-septembre-2026-paris-france-15-09-2026-harsin-confpressebretailleaupouvoirdachat047-credit-isa-harsin-sipa-2609152210"
+    },
+    {
+      "id": "2c59d12ee8d09d9a11b3b4d7d7113cefb2b5c92e",
+      "title": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
+      "url": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-16T14:03:04.000Z",
+      "summary": "OpenAI has disclosed seven new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior, including one case where its research model, after not havi",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhkqmj8WR1EBIXlf0-PIfEmv-3uEk-0FU-SrKAaQyn33syLPFRar-jwks7o70PVBvmNd05CwdNSVPXRq3bN6ED0jREr__oFnSFjS1emRZoEfvsfw8UlSspGcSWLLKJcgUhDuzV814VaFSecnEzNhvhTbemuVizjA46o3g-d7hZj1F-Fmn6sqssQyMeayXC/s1600/openai-smart.jpg"
+    },
+    {
       "id": "281ccd94cc0d1fd9b3f2c50b38706b73d77c56a4",
       "title": "Des agents IA Codex et DeepSeek ont piraté plusieurs centaines de serveurs",
       "url": "https://android-mt.ouest-france.fr/news/des-agents-ia-codex-et-deepseek-ont-pirate-plusieurs-centaines-de-serveurs/226354/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -85,28 +217,6 @@
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/facddf88589dfbe07f061d1e8704e7c3519a49d1/_xlarge.jpeg"
-    },
-    {
-      "id": "1417de5971724adb2dfb74511bf0947994bb88ca",
-      "title": "Beyond Gravity : la Chine soupçonnée après une cyberattaque",
-      "url": "https://www.rts.ch/info/suisse/2026/article/beyond-gravity-la-chine-soupconnee-apres-une-cyberattaque-29387289.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-16T13:27:43.000Z",
-      "summary": "Une cyberattaque visant le groupe spatial public Beyond Gravity a été révélée au début du mois. Selon SRF, les soupçons se portent sur la Chine. Des …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://img.rts.ch/articles/2026/image/ae08ede6-29387313.image?w=1200&amp%3Bh=630"
-    },
-    {
-      "id": "40d9e7b191d908124131eface20a12c4f3155d1a",
-      "title": "«Un tournant» : la justice européenne contraint les banques à rembourser les victimes d’arnaque, même en cas de négligence grave",
-      "url": "https://www.lefigaro.fr/conjoncture/un-tournant-la-justice-europeenne-contraint-les-banques-a-rembourser-les-victimes-d-arnaque-meme-en-cas-de-negligence-grave-20261016?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-16T12:51:03.000Z",
-      "summary": "Dans un arrêt rendu jeudi, la Cour de justice de l’UE impose le remboursement immédiat des paiements non autorisés, sous un jour ouvrable. Ce que ça …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://i.f1g.fr/media/cms/1200x630_crop/2026/10/16/793a366a55d7a2859427611c1eb7fa38e4426840015f5e565f5140a726ea8f62.jpg"
     },
     {
       "id": "771b99475df1ee87d14d76de662973e3fae896ec",
@@ -131,17 +241,6 @@
       "imageUrl": "https://media.larepubliquedespyrenees.fr/31099149/1200x-1/rep-1486-hd41230.jpg"
     },
     {
-      "id": "2e69da752b0fa943a796c436c26ea906c24d8d42",
-      "title": "Quand \"la publicité en ligne est détournée à grande échelle pour établir le profil de millions d’utilisateurs\": des chercheurs ont découvert comment une agence de pub sert à espionner des internautes",
-      "url": "https://www.bfmtv.com/tech/cybersecurite/quand-la-publicite-en-ligne-est-detournee-a-grande-echelle-pour-etablir-le-profil-de-millions-d-utilisateurs-des-chercheurs-ont-decouvert-comment-une-agence-de-pub-sert-a-espionner-des-internautes_AV-202610160486.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-16T12:14:06.000Z",
-      "summary": "Des chercheurs canadiens de Citizen Lab, une unité appartenant à l'université de Toronto, ont alerté sur les méfaits d'une agence de publicité …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/3HQEwXyhcK7IsfHMALfXVGJT3Fs=/0x41:800x491/800x0/images/-50956.jpg"
-    },
-    {
       "id": "32dab10286e952a6641c2a7448d0a5be06fa867b",
       "title": "Arnaque au faux support Microsoft, des chercheurs lèvent le voile sur un réseau criminel actif depuis près de dix ans",
       "url": "https://www.clubic.com/actualite-634537-arnaque-au-faux-support-microsoft-des-chercheurs-levent-le-voile-sur-un-reseau-criminel-actif-depuis-pres-de-dix-ans.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -153,15 +252,37 @@
       "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/9e884e2ca838615dbc053b21dfc4a94ce138436d/_xlarge.jpeg"
     },
     {
-      "id": "b0431271939bdcf449bf9b468172685baca36290",
-      "title": "Le site des Républicains victime d'un piratage, un appel à rejoindre les manifestations du 17 octobre affiché",
-      "url": "https://www.bfmtv.com/politique/les-republicains/le-site-des-republicains-victime-d-un-piratage-un-appel-a-rejoindre-les-manifestations-du-17-octobre-lance_AN-202610160477.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-16T11:53:56.000Z",
-      "summary": "Le site internet des Républicains a été victime d'une cyberattaque ce vendredi. Des pirates ont revendiqué l'opération. L'entourage de Bruno …",
-      "type": "NEWS",
+      "id": "03ba1e479272e8fc15e755edfc65a78a450746f3",
+      "title": "Cyber Threat Actors Use a Variety of Techniques to Target Election and Campaign Officials",
+      "url": "https://www.cisa.gov/resources-tools/resources/cyber-threat-actors-use-variety-techniques-target-election-and-campaign-officials",
+      "source": "CISA",
+      "publishedAt": "2026-10-16T12:00:00.000Z",
+      "summary": "&lt;p&gt;CISA and the Federal Bureau of Investigation (FBI) released a &lt;a href=&quot;https://www.ic3.gov/PSA/2026/PSA261016&quot; target=&quot;_blank&quot;&gt;Public Service Ann",
+      "type": "CVE",
+      "severity": "Moyenne",
+      "imageUrl": null
+    },
+    {
+      "id": "52cacec0e0d445c3e7c698c0bdb864ca46f670f1",
+      "title": "Key Practices for Incident Readiness and Response in Super Intelligence Training and Evaluation",
+      "url": "https://www.cisa.gov/resources-tools/resources/key-practices-incident-readiness-and-response-super-intelligence-training-and-evaluation",
+      "source": "CISA",
+      "publishedAt": "2026-10-16T12:00:00.000Z",
+      "summary": "&lt;p&gt;The National Institute of Standards and Technology (NIST), National Security Agency’s Super Intelligence Security Center (NSA SISC) and Cybersecurity and Infrastructure Se",
+      "type": "CVE",
       "severity": "Info",
-      "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/V9EuZiJj0b5TkU2E4pryW1gH960=/13x151:2045x1294/2032x0/images/Le-logo-du-parti-Les-Republicains-2271043.jpg"
+      "imageUrl": null
+    },
+    {
+      "id": "5602af7f332078921fda6b1b5621c4d4c7a0d86f",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "source": "CISA",
+      "publishedAt": "2026-10-16T12:00:00.000Z",
+      "summary": "&lt;p&gt;CISA has added two new vulnerabilities to its &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities (KEV) ",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": null
     },
     {
       "id": "e495173a09ead7ac9cde005b1c10589693bcc191",
@@ -173,6 +294,17 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/liberation.fr/33e1eacf17e03a261cb9f17f8b04836cf9deb70d/_xlarge.jpeg"
+    },
+    {
+      "id": "b4d7b0fc45afd9b9454fb1423b8b8fff9dd5fc08",
+      "title": "Supermarchés piratés, la faille des frigos était connue depuis août, et le mot de passe se calculait avec la date du jour",
+      "url": "https://www.capital.fr/economie-politique/supermarches-pirates-la-faille-des-frigos-etait-connue-depuis-aout-et-le-mot-de-passe-se-calculait-avec-la-date-du-jour-1531046?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-16T11:36:28.000Z",
+      "summary": "Des centaines de supermarchés ont été ciblés par une cyberattaque, dans la nuit du 11 au 12 octobre 2026. Des failles avaient néanmoins été dénoncés …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/capital.fr/ac573f93da2adb05ff810722a2da7db3d816744d/_xlarge.jpeg"
     },
     {
       "id": "c68818c71879cebe16c354f0018b1b33ff2b5b5a",
@@ -208,9 +340,20 @@
       "imageUrl": "https://www.leparisien.fr/resizer/N1ML-9qbUaB-HMf_yrvvXEOCrwA=/1600x900/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/NM27BLWY4JHNZDVX35QRR5QGXE.jpg"
     },
     {
-      "id": "52d48e5c09f2887ccc2af328a8451938d9309ece",
+      "id": "40d9e7b191d908124131eface20a12c4f3155d1a",
+      "title": "«Un tournant» : la justice européenne contraint les banques à rembourser les victimes d’arnaque, même en cas de négligence grave",
+      "url": "https://www.lefigaro.fr/conjoncture/un-tournant-la-justice-europeenne-contraint-les-banques-a-rembourser-les-victimes-d-arnaque-meme-en-cas-de-negligence-grave-20261016?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-16T10:36:32.000Z",
+      "summary": "Dans un arrêt rendu jeudi, la Cour de justice de l’UE impose le remboursement immédiat des paiements non autorisés, sous un jour ouvrable. Ce que ça …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://i.f1g.fr/media/cms/1200x630_crop/2026/10/16/793a366a55d7a2859427611c1eb7fa38e4426840015f5e565f5140a726ea8f62.jpg"
+    },
+    {
+      "id": "7da053b31c0c34633fe3ac5d28aaccae2fe904b1",
       "title": "« Un scénario cauchemardesque » : ce virus infecte votre smartphone sans que vous ne puissiez rien y faire",
-      "url": "https://www.01net.com/actualites/un-scenario-cauchemardesque-ce-virus-infecte-votre-smartphone-sans-que-vous-ne-puissiez-rien-y-faire.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "url": "https://www.01net.com/actualites/un-scenario-cauchemardesque-ce-virus-infecte-votre-smartphone-sans-que-vous-ne-puissiez-rien-y-faire.html?amp%3Butm_content=topic%2Ffr-technologie",
       "source": "Cybercriminalité FR",
       "publishedAt": "2026-10-16T09:59:51.000Z",
       "summary": "Une cyberattaque intitulée « AdFection » vient d’être épinglée par des chercheurs. L’attaque consiste à installer un logiciel espion sur un …",
@@ -261,17 +404,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/lematin.ch/6c50b6744714d7603cb74af809717c574870e172/_xlarge.jpeg"
-    },
-    {
-      "id": "9c77455f3d6c4b6ccbb841eb79899714eee3592c",
-      "title": "La revue de presse : l'Europe, on en a besoin et elle a besoin de sous - RTBF Actus",
-      "url": "https://www.rtbf.be/article/la-revue-de-presse-l-europe-on-en-a-besoin-et-elle-a-besoin-de-sous-11801124?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-16T07:44:11.000Z",
-      "summary": "\"Dank u, EU\" Het Nieuwsblad. Face au phishing, la Cour de Justice de l’Union Européenne a rendu une décision importante et utile. Celle-ci estime …",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://static-content.rtbf.be/article/image/1920x1080/7/8/1/8cb0230c15b1594eee5de323519bc10f.jpg"
     },
     {
       "id": "80761090c86b7a544d71073d532e15a3eed1f553",
@@ -505,17 +637,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8jHVMYXIjddaTrqHbBuPm3mQ6G_g8qlALwitmiIRM9OplZpPxLPDFet7ySOV0OVxPj6cW1oz0K6rydDvGYQGalR1jSt10bz8kti4dWnM0d3NnUBjuymD77_cReujy6AXmFgJgQQvl2qeICur3VHf5vYyOrxz8OFM-bEunzmK9PGDzCzzTVFVEdQyswYho/s1600/threatsday-oct.jpg"
     },
     {
-      "id": "7ddb081d9c033d3633af33aadaa68122720c19fc",
-      "title": "« Je suis écœuré » : dans l’Orne, ce supermarché a dû jeter 26 000 € de denrées à cause de la cyberattaque",
-      "url": "https://www.ouest-france.fr/societe/cyberattaque/je-suis-ecure-dans-lorne-ce-supermarche-a-du-jeter-26-000-euros-de-denrees-a-cause-de-la-cyberattaque-c803718c-c87a-11f1-9522-1f9ae0711c0a?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-15T17:02:16.000Z",
-      "summary": "Le magasin Carrefour Market de Domfront-en-Poiraie (Orne) fait partie des centaines de supermarchés qui ont été touchés par une cyberattaque, lundi …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/53d6a5a15159a934f8f4f4608fd7431efd6106d8/_xlarge.jpeg"
-    },
-    {
       "id": "3f8e4d090167362b9d8fd4d2df48db6a6a623d64",
       "title": "Entre craintes de bulle IA et poussée chinoise, la nervosité gagne les géants des semi-conducteurs en Bourse",
       "url": "https://www.latribune.fr/article/tech/12378902228501/entre-craintes-de-bulle-ia-et-poussee-chinoise-la-nervosite-gagne-les-geants-des-semi-conducteurs-en-bourse?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -549,6 +670,17 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjX-Vi04Qyk2-RKyXrnolcZ8TTBRKY43kIB_B7l-1Na3Xta_ed00DJtXclvIdp65s6Sdf3ksabzWKXmYTmKwx9xAlROi6eas704naXFtyx93xru04krAQ9kViM9rjKSgKhdMR0weIs4xOd7htm_gI_7CLg-N16wjCKt59vAoC-3UpMFJf8QawlMkfpRh745/s1600/winrar-hacker.jpg"
     },
     {
+      "id": "91d48f5ce443af82d1de01a28f8c1a5b4a547421",
+      "title": "Les banques devront immédiatement rembourser les victimes de phishing, même en cas de négligence : \"C'est une bombe\"",
+      "url": "https://www.lalibre.be/economie/mes-finances/2026/10/15/la-banque-doit-rembourser-immediatement-la-victime-de-phishing-meme-en-cas-de-negligence-cest-une-bombe-MOXXUIFHW5FJ7EAWDECHXZZVLQ/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-15T15:50:38.000Z",
+      "summary": "C'est ce qui ressort de l'arrêt de la Cour de Justice européenne. \"C'est une bombe pour les banques\", estime Me Lennsens. C'est un arrêt qui va être …",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://ic-cdn.flipboard.com/lalibre.be/79b6f46bda618b11a15a47b6fd694a3f75a46e54/_xlarge.jpeg"
+    },
+    {
       "id": "cddc815acb6aca8841d2ef809b1bd9cf0516e9a6",
       "title": "La découverte d'une faille « critique » sur PS5 lui rapporte 50 000 dollars, et la colère des internautes — Frandroid",
       "url": "https://www.frandroid.com/marques/sony/3286555_la-decouverte-dune-faille-critique-sur-ps5-lui-rapporte-50-000-dollars-et-la-colere-des-internautes?amp%3Butm_source=flipboard&amp%3Butm_content=directlink&amp%3Butm_campaign=3286555",
@@ -580,6 +712,17 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/GuP9BdlJzYEAr8ZDSVUIVhNHnlE=/0x14:1152x662/1152x0/images/Un-rayon-de-supermarche-vide-lundi-12-octobre-2363589.jpg"
+    },
+    {
+      "id": "48879f00ce289590e5b5b942f8a563638263a3d7",
+      "title": "Terrifiant : ces pubs piégées installent des logiciels espions à votre insu sans le moindre clic, si vous faites partie des cibles",
+      "url": "https://www.presse-citron.net/pubs-piegees-installent-logiciels-espions/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-15T13:43:35.000Z",
+      "summary": "Citizen Lab vient de découvrir une toute nouvelle catégorie d’attaque appelée AdFection qui utilise les publicités en ligne pour identifier une …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/presse-citron.net/0079876abd8c69e0a7d543b45873844668dadfcd/_large.jpeg"
     },
     {
       "id": "5b5c96ed852b3c4d388cb005c3e9344a1239cda6",
@@ -637,50 +780,6 @@
       "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/fdc4efa5564467643c054501537fab144ef49a34/_xlarge.jpeg"
     },
     {
-      "id": "a45fd105e61451b93e0fcd80bcb8f946e8e2a88d",
-      "title": "Thermo Fisher Torrent Suite Software",
-      "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-288-01",
-      "source": "CISA",
-      "publishedAt": "2026-10-15T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsma-26-288-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "981593a812441bb696934cddb99e7733c0d0a7a1",
-      "title": "J4Care dcm4che",
-      "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-288-02",
-      "source": "CISA",
-      "publishedAt": "2026-10-15T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsma-26-288-02.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "65410802273c180c65e467885df6c231e44321e9",
-      "title": "Guangzhou Juan IoT Technology EseeCloud",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-288-02",
-      "source": "CISA",
-      "publishedAt": "2026-10-15T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-288-02.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "c5533c54cb56b31981874c880428c9783269e5d5",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/10/15/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "source": "CISA",
-      "publishedAt": "2026-10-15T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA has added one new vulnerability to its&amp;nbsp;&lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
       "id": "ce7e28bac362fb3a570627e13c970616b099c0fe",
       "title": "Eclipse Foundation Eclipse Milo",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-288-01",
@@ -698,6 +797,50 @@
       "source": "CISA",
       "publishedAt": "2026-10-15T12:00:00.000Z",
       "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-280-01_DrupalCompatible.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "c5533c54cb56b31981874c880428c9783269e5d5",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/10/15/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "source": "CISA",
+      "publishedAt": "2026-10-15T12:00:00.000Z",
+      "summary": "&lt;p&gt;CISA has added one new vulnerability to its&amp;nbsp;&lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "65410802273c180c65e467885df6c231e44321e9",
+      "title": "Guangzhou Juan IoT Technology EseeCloud",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-288-02",
+      "source": "CISA",
+      "publishedAt": "2026-10-15T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-288-02.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "981593a812441bb696934cddb99e7733c0d0a7a1",
+      "title": "J4Care dcm4che",
+      "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-288-02",
+      "source": "CISA",
+      "publishedAt": "2026-10-15T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsma-26-288-02.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "a45fd105e61451b93e0fcd80bcb8f946e8e2a88d",
+      "title": "Thermo Fisher Torrent Suite Software",
+      "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-288-01",
+      "source": "CISA",
+      "publishedAt": "2026-10-15T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsma-26-288-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -758,26 +901,15 @@
       "imageUrl": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/10/ollage-22.png?resize=1600%2C900&amp%3Bkey=fb88668f"
     },
     {
-      "id": "c461033d9656969283350e46ea95271380a21e70",
-      "title": "\"Madame Le Pen ne maîtrise pas bien certains détails\": Volodymyr Zelensky répond à la candidate du RN, qui souhaite couper les aides à l'Ukraine si elle gagne en 2027",
-      "url": "https://www.bfmtv.com/international/europe/ukraine/madame-le-pen-ne-maitrise-pas-bien-certains-details-volodymyr-zelensky-repond-a-la-candidate-du-rn-qui-souhaite-couper-les-aides-a-l-ukraine-si-elle-gagne-en-2027_AN-202610150400.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-15T09:36:27.000Z",
-      "summary": "Face à la volonté affichée par Marine Le Pen de suspendre l’aide à l’Ukraine si elle accédait à l’Élysée, Volodymyr Zelensky souligne que Kiev …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/hpjiS1UA3gE1IjhwgZ_7YyG3JEI=/0x37:2048x1189/2048x0/images/Le-president-ukrainien-Volodymyr-Zelensky-donne-une-conference-de-presse-au-siege-de-France-Televisions-a-Paris-le-27-mars-2025-2057671.jpg"
-    },
-    {
       "id": "ab48c733b23516670aee79ec14f8e3644ebfbbe6",
-      "title": "Bonne nouvelle pour les victimes d’arnaques en ligne : ils devront désormais être « immédiatement » remboursés par la banque",
+      "title": "Bonne nouvelle pour les victimes d’arnaques en ligne : elles devront désormais être « immédiatement » remboursés par la banque",
       "url": "https://www.rtl.be/actu/belgique/economie/bonne-nouvelle-pour-les-victimes-darnaques-en-ligne-ils-devront-desormais-etre/2026-10-15/article/803423?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
       "source": "Cybercriminalité FR",
       "publishedAt": "2026-10-15T09:28:02.000Z",
       "summary": "Bonne nouvelle pour les citoyens belges : les banques sont tenues de rembourser immédiatement aux victimes de phishing le montant des paiements non …",
       "type": "NEWS",
       "severity": "Élevée",
-      "imageUrl": "https://rtleng.rosselcdn.net/sites/default/files/dpistyles_v2/FirstImageUrl/2026/07/11/803423/4731349/public/2026/07/11/90830743.jpeg?itok=4Jjqcq4N1792068606"
+      "imageUrl": "https://rtleng.rosselcdn.net/sites/default/files/dpistyles_v2/FirstImageUrl/2026/07/11/803423/4731349/public/2026/07/11/90830743.jpeg?itok=4Jjqcq4N1792081137"
     },
     {
       "id": "f0c851c6d5622034f1bd34ea4959bfc840f764e5",
@@ -789,17 +921,6 @@
       "type": "NEWS",
       "severity": "Moyenne",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiddFchlm_nV3vywI0BM2-8IaZb-wHXwE8DplGqZYkRmcYkeXiSLfVmnVAU-jM4yikWW7SWokanh_S4hq88cVHjAnaWDGkl3VVAtPdv9SHWp0MNb0CIOAA-I73EuwwUSE-wNMnXEzbIdDYorJn2hIuBZQ5Jh_5I2IntiXuUYZz3sKax-wfRoaxy_pD9kGx0/s1600/ghost-git.jpg"
-    },
-    {
-      "id": "a72a4af8f6bcb775df645ab412773df287460d53",
-      "title": "Audiences TV : plus de 2 millions de supporters devant la magnifique victoire du PSG devant Canal +",
-      "url": "https://www.leparisien.fr/culture-loisirs/tv/audiences-tv-plus-de-2-millions-de-supporters-devant-la-magnifique-victoire-du-psg-devant-canal-15-10-2026-4OX4HQFBFRFWBBIBAWKT7NVXCI.php?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-15T07:56:21.000Z",
-      "summary": "« La France a un incroyable talent » a attiré plus de 2,5 millions de fidèles et passe devant la série « Hacker » de TF 1. Avec « La France a un …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.leparisien.fr/resizer/7kekqbt0WiDU96M_zlLOOCoVVFs=/1600x900/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/B2QI4VPQKZH6ZD26SOEE4HBVVU.jpg"
     },
     {
       "id": "0d5bfb0dc4ed7bb89c913762c99da954cb68d40e",
@@ -1000,28 +1121,6 @@
       "imageUrl": null
     },
     {
-      "id": "48bf60318d0075c3f625a0050711f4b7d3a83ba4",
-      "title": "64': Menace russe: demain, la guerre? Partie 1",
-      "url": "https://information.tv5monde.com/international/video/64-menace-russe-demain-la-guerre-partie-1-2841635?amp%3Butm_content=topic%2Ffr-ukraine",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-14T20:02:39.000Z",
-      "summary": "TV5Monde se mobilise pour prendre le temps de vous décrypter un grand sujet d'actualité et de notre époque. Aujourd'hui: guerre hybride, …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://information.tv5monde.com/sites/tv5-info/files/styles/seo_1200/public/2026-10/field_media_tv5_jwplayer_field-3061888-6682767.jpg?itok=WuyigkNb"
-    },
-    {
-      "id": "8807257ecdcb8628cc733a1b50a5386c40376369",
-      "title": "Les prix risquent de flamber en supermarché... Michel-Edouard Leclerc lance un avertissement",
-      "url": "https://www.capital.fr/economie-politique/les-prix-risquent-de-flamber-en-supermarche-michel-edouard-leclerc-lance-un-avertissement-1530996?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-14T19:23:29.000Z",
-      "summary": "Invité à réagir sur la vague de cyberattaques qui a touché de nombreux supermarchés français en début de semaine, Michel-Edouard Leclerc a aussi mis …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/capital.fr/0d7a62ea3d3d064c79fc0ff0090e5d62d88242ff/_xlarge.jpeg"
-    },
-    {
       "id": "c6a5551a7cd9cb2fdc7c37ec2b7ef9f3ba36be71",
       "title": "Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability",
       "url": "https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html",
@@ -1163,17 +1262,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_bop9V2vtfHPW4Obd0zupOPpNFCd9N5HtVwWVs9u-njx8RuEgOkAh75uRjWLS_h3zHQ847m7xc01PkVAdKhyphenhyphen5Pkg2Pb_qthWVQe-9lcpKclCOq3ZDpQ2iSfRSFCQQU8gxyBl6lWEjTKWZHn9LiNSq2rQ4_nUIM6Sjcqv5fwgVRnFpiuxpYDfhrkbikLE/s1600/case.jpg"
-    },
-    {
-      "id": "cf1822f1298734f5e719b4391195485032ed51a2",
-      "title": "Cyberattaque des supermarchés : un test inédit révèle qu'il a suffi de 28 minutes à l'IA Claude pour pirater les frigos connectés",
-      "url": "https://www.latribune.fr/article/tech/informatique/31185267173248/cyberattaque-des-supermarches-un-test-inedit-revele-quil-a-suffi-de-28-minutes-a-lia-claude-pour-pirater-les-frigos-connectes?amp%3Butm_content=topic%2Ffr-technologie",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-14T10:58:25.000Z",
-      "summary": "Selon nos informations, une IA grand public a réussi à reproduire en moins d'une demi-heure, sur un équipement Danfoss, les manœuvres du pirate qui a …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/latribune.fr/39f1b516c83175e105f4027a787baae512a56e96/_xlarge.jpeg"
     },
     {
       "id": "ed01e7d20361cdd5264d7d382925f0a225b9b120",
@@ -1550,17 +1638,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGjfJJaKUMdLoNBTH2AYUmelL_XonLcf93p8hSgMXRbLGJwReAYV-BUZ2jpBPuvUQktW0PTKi1-21oFnBJF8PfECgT7t5r-S-iMUxjrdoWPf3EDxa2IVrQYjT98HG6s-LfPlJqm8mArrfEOEZS_scT7EYG8eXxMrUaII0UaQ3kAmWDJ3mRTR4JyIJhj-5S/s1600/grindr-data.jpg"
     },
     {
-      "id": "d75f40f332c339e5310e02e648df8afebac52638",
-      "title": "Inductive Automation Ignition Software",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-286-01",
-      "source": "CISA",
-      "publishedAt": "2026-10-13T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-286-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
       "id": "8d00e71c28238f0b16e6147096a07fcaae351501",
       "title": "Swann Communications SWIFI-SE2KIC",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-286-02",
@@ -1591,6 +1668,17 @@
       "summary": "&lt;p&gt;CISA has added two new vulnerabilities to its &lt;a href=&quot;https://www.cisa.gov/known-exploited-vulnerabilities-catalog&quot;&gt;Known Exploited Vulnerabilities (KEV) ",
       "type": "CVE",
       "severity": "Critique",
+      "imageUrl": null
+    },
+    {
+      "id": "d75f40f332c339e5310e02e648df8afebac52638",
+      "title": "Inductive Automation Ignition Software",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-286-01",
+      "source": "CISA",
+      "publishedAt": "2026-10-13T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-286-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
       "imageUrl": null
     },
     {
@@ -1759,28 +1847,6 @@
       "imageUrl": null
     },
     {
-      "id": "afbc61951262ec6f1455e792dd24c9567ed48142",
-      "title": "⚡ Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More",
-      "url": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-12T15:16:26.000Z",
-      "summary": "Some meetings last longer than it took attackers to jump on a newly disclosed security flaw this week. Within hours, they were already testing it. That's not much time to read the ",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiv97S5d5aYZZRto-_3AfPjT2TmAcI0KYQm4zY7cXyf1hz-GHIcmuL9wF5IIzmg3D7_F-yh6Z9qtamVwEikSKd3tuy5eGo_mN2Qw-O602x4Abiwuf5Q9G72nX4ZOeFRly8woPJ8EBn2USmFIdDUVg6P-3f8nUPDTbcqrAF5JWsu_NRWTvz6EF5YVVqPrbvY/s1600/cy-cap.jpg"
-    },
-    {
-      "id": "ff81b6dd9694f05a5f6252f28dd42e70cecbc6a6",
-      "title": "Bring Your Own Agent: Your Employees' Assistants Are Already Logged In",
-      "url": "https://thehackernews.com/2026/10/bring-your-own-agent-your-employees.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-12T11:55:00.000Z",
-      "summary": "The personal AI agents rollout is going about as smoothly as expected: Amazon now blocks Meta's Muse because it doesn't identify itself as a bot while browsing; Instinct keeps rais",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyfIDT5M3MmWcxPZrWKZ_8EOy_WZY9iQHv9CQrAKcSZ7_EAadHyWzg9Aa5zQizJiwjNNLp6TDGShed4uvK0iq0d5TQHOV4wqah_jnbuJK-gFuObDCjO_bhwobK9PlO-CmK92s9PueGqpPI_puFGDAS_t4evoyjokLRlaXbql9cGN3d7POdsiXyUYvicVs/s1600/bring.jpg"
-    },
-    {
       "id": "8c00d52185152d33059f1993b21734adcbf33034",
       "title": "Une cyberattaque dérègle le froid des supermarchés",
       "url": "https://www.zataz.com/une-cyberattaque-deregle-le-froid-des-supermarches/",
@@ -1790,28 +1856,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://www.zataz.com/wp-content/uploads/froid_hack.jpg"
-    },
-    {
-      "id": "fb744c03a2a4ddd33a8c0282b04f8775bdb538dd",
-      "title": "Ledger Finds Unauthorized Hardware Implant in CryptoBilis-Sold Wallet Amid Fund Theft Reports",
-      "url": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-12T11:21:48.000Z",
-      "summary": "Cryptocurrency hardware maker Ledger has temporarily paused sales of its products via CryptoBilis following reports of stolen funds linked to devices sold by the reseller. On Frida",
-      "type": "NEWS",
-      "severity": "Moyenne",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4nzJQQovkKtR-dl3ihW4VRAfIxiKwNwwVEHyH06we8iIkQbaxVqhryWIwB9MflLHfBYAd_opklCfnkLxg-GKqB2yt4CisdNcf2lRvOoaYHo9Pa6m1OWatzNsFHmY1ICBH_0P2XX4ykgFE7Gqviz0C0_8J0Qqz36_3gygDyHbot9z5obuYEHunIFsZmPQV/s1600/ledgers.jpg"
-    },
-    {
-      "id": "e7ed23df9a52d781ba056c933dd2a581959111e6",
-      "title": "Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch",
-      "url": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-12T10:36:56.000Z",
-      "summary": "Threat actors have been observed exploiting a recently disclosed critical security flaw in SonicWall Secure Mobile Access (SMA) 1000 appliances within days of public disclosure. Th",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglEbu7YOWX4lrTm_x8p2FnL6B7z2hhGC0fKWPBSCVJqTt8l0rbcXFhQinT3ja0sVyx7hObbCQlmem9y4-wsxrwU6mtgsBIJjvH7rgC8n5w8DpEcv7G1N_u4dtOzA3qxVk22FPvly-ZmjsLJKdJqgTsKPtMHpit1oq-fk7jPFN1gTHLeJdF2JQRZ8yuwjxv/s1600/sonics.jpg"
     },
     {
       "id": "b623005dbda5949da0e4ca9291c54e71558574bf",
@@ -2111,12 +2155,12 @@
       "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/4420c630cb05b3c60a6adc8bcef8a317d63d788a-3000x1676.png?auto=format&amp%3Bfit=crop&amp%3Bcrop=focalpoint&amp%3Bw=1200&amp%3Bh=675&amp%3Bq=75"
     },
     {
-      "id": "77e67ac982c1b8dd87991aa9100808885c79cfb3",
-      "title": "Red Lion Controls N-Tron 700 Series (Update A)",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-281-01",
+      "id": "434342b4a54936fff82ddd0f7a29d2e881e70072",
+      "title": "Grid Protection Alliance openPDC and openHistorian",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-281-02",
       "source": "CISA",
       "publishedAt": "2026-10-08T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-281-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-281-02.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -2133,12 +2177,12 @@
       "imageUrl": null
     },
     {
-      "id": "434342b4a54936fff82ddd0f7a29d2e881e70072",
-      "title": "Grid Protection Alliance openPDC and openHistorian",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-281-02",
+      "id": "77e67ac982c1b8dd87991aa9100808885c79cfb3",
+      "title": "Red Lion Controls N-Tron 700 Series (Update A)",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-281-01",
       "source": "CISA",
       "publishedAt": "2026-10-08T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-281-02.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-281-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -2228,50 +2272,6 @@
       "publishedAt": "2026-10-08T00:30:44.000Z",
       "summary": "&lt;p&gt;Il s'agit d'une vulnérabilité dans l'&lt;strong&gt;API REST de Patroni&lt;/strong&gt; de &lt;strong&gt;Splunk Enterprise&lt;/strong&gt;. Cette API est exposée sur un &lt;s",
       "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "70af19eb5e3cd4cb1a294fd8e77f764c861b3792",
-      "title": "CyrusOne - 373,460 breached accounts",
-      "url": "https://haveibeenpwned.com/Breach/CyrusOne",
-      "source": "Have I Been Pwned",
-      "publishedAt": "2026-10-07T23:19:16.000Z",
-      "summary": "In August 2026, &lt;a href=\"https://cybernews.com/security/shinyhunters-cyrusone-breach-data-center/\" target=\"_blank\" rel=\"noopener\"&gt;data centre operator CyrusOne was the target",
-      "type": "LEAK",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "da4c011db820be71ddae5a79cb53c8411a93cad0",
-      "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
-      "url": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
-      "source": "Krebs on Security",
-      "publishedAt": "2026-10-07T13:48:45.000Z",
-      "summary": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with the FBI to identify",
-      "type": "NEWS",
-      "severity": "Moyenne",
-      "imageUrl": "https://krebsonsecurity.com/wp-content/uploads/2026/10/Jeppesen.png"
-    },
-    {
-      "id": "fe4d044dad74bdf4f4ae220c68d0a8c97fb2605e",
-      "title": "Les ateliers du samedi à la MMI",
-      "url": "https://popsciences.universite-lyon.fr/agenda/les-ateliers-du-samedi-a-la-mmi/?amp%3Butm_content=topic%2Ffr-cryptographie",
-      "source": "Cryptographie FR",
-      "publishedAt": "2026-10-07T08:03:22.000Z",
-      "summary": "La Maison des mathématiques et de l’informatique – MMI – vous propose un atelier à faire en famille (ou pas) sur des thèmes variés. Une belle …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "bef21f5d15fc8f534396890268f94eb0161d493e",
-      "title": "Double Counter - 274,922 breached accounts",
-      "url": "https://haveibeenpwned.com/Breach/DoubleCounter",
-      "source": "Have I Been Pwned",
-      "publishedAt": "2026-10-07T05:42:24.000Z",
-      "summary": "In October 2026, the Discord server protection service &lt;a href=\"https://doublecounter.gg/blog/security-incident-october-2026\" target=\"_blank\" rel=\"noopener\"&gt;Double Counter su",
-      "type": "LEAK",
       "severity": "Élevée",
       "imageUrl": null
     }
