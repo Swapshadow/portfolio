@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T08:43:57.517Z",
+  "generatedAt": "2026-10-24T13:52:28.694Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -41,7 +41,7 @@
       "name": "Zataz",
       "url": "https://www.zataz.com/rss/zataz-news.rss",
       "status": "ok",
-      "items": 10
+      "items": 0
     },
     {
       "name": "Cybercriminalité FR",
@@ -75,6 +75,72 @@
     }
   ],
   "items": [
+    {
+      "id": "0b78bf71bd8dcfaedb36d8c298b3c8df71e5f58e",
+      "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+      "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-24T11:09:29.000Z",
+      "summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python Brotli and brotlicffi packages, and Envoy p",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxIIerJT3LOMCGn3nXAnmhaHzJlJnVJCso1COluq8t3WuF4IpNARa_Asl5nEhRUDTEcR89kwzo5vGmP5IyNbj1ncdaCpkhqcHUODHAd3khanaE-7N8Vb0NyEJkmPmNkhSpJtLCLgi9srDRhZLtM5n8UDI58F797ZJaVzC7JzjPLfca4NpxZr_7tCX8RIk/s1600/br-nodejs.jpg"
+    },
+    {
+      "id": "6dfc941f6207c1b6e32f81264c911528cbb8aa6c",
+      "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
+      "url": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-24T11:03:33.000Z",
+      "summary": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a mal",
+      "type": "LEAK",
+      "severity": "Moyenne",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipiDo2Yur6TXZHLped9EQgORAH65rC4APGTaq_EZzlDnspAaULTQCKblBC0FeIah7nOCKTiQa2Oi8cyx-bbxHj042Km9oYAf2s78XmStFxzPBTSQ_oqv4ZcWGEkUP1wo5JfJ1UDrWQpAtz8ZHd9i3ZbGWWe8s6CMeUU_nObp5tCEywMWGovqFh9NA1H8Sv/s1600/lite.jpg"
+    },
+    {
+      "id": "085a7dad1b07fd9fd8ed081a22a6a1e02c367632",
+      "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
+      "url": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-24T10:36:33.000Z",
+      "summary": "Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads t",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhROXFilBwGnS1Jb3AQ6nIinoxB1mh-7gsbdRfToYn8VReagY7IMb3CCVyZkzPFEfOHIkwnRxmOSeM30Gxp7e9uRzvuvEqQTmIMPilPM_IfujygTv6OfExi8kWoEhF42lBKok_gzwD4Md_daCMvVOtlf2pQT7mgtYuJA0TzJnhkM4PCycgKpf0XxIBQmI57/s1600/google-ai.jpg"
+    },
+    {
+      "id": "390aa1d383aefb0b754a31018d3b52a9fbbc4a3a",
+      "title": "« Ce genre d’attaque va se produire, il faut s’y préparer » : face à la Russie, les entreprises sur le pied de (cyber) guerre",
+      "url": "https://www.challenges.fr/la-verticale-cyber/ce-genre-dattaque-va-se-produire-il-faut-sy-preparer-face-a-la-russie-les-entreprises-sur-le-pied-de-cyber-guerre_646493?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-24T10:00:00.000Z",
+      "summary": "MENACE RUSSE - Pourtant éloignée de Moscou, la France pourrait voir ses infrastructures paralysées par les hackers liés au Kremlin, et a déjà subi …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/challenges.fr/8f6457d94e2257ce532fc5dd9295cab09f8935f8/_xlarge.jpeg"
+    },
+    {
+      "id": "685fc88a8d4c57ff6d09c7b7af775d66362b0791",
+      "title": "Dans l'Allier, pas d'embellie sur le bois dans un contexte qui met en danger toute une filière - La Montagne",
+      "url": "https://www.lamontagne.fr/cerilly-03350/economie/dans-l-allier-pas-d-embellie-sur-le-bois-dans-un-contexte-qui-met-en-danger-toute-une-filiere_15064955/?at_account=lamontagne-montlu.bsky.social&amp%3Bat_content=d3x&amp%3Bat_creation=bluesky&amp%3Butm_source=flipboard&amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-24T09:31:00.000Z",
+      "summary": "Sur le ton de la plaisanterie, certains ont évoqué l’œuvre malfaisante de hackers. Les responsables de l’ONF ont simplement évoqué une panne …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://img.centrefrance.com/JLoBKoWkuEXlPvBOLwL7ZgemhwdmGTZuWIthqOj-oKM/rs:fit:657:438:1:0/bG9jYWw6Ly8vMDAvMDAvMDcvODQvMDMvMjAwMDAwNzg0MDMyNA.webp"
+    },
+    {
+      "id": "c845f63746c2a48b009d32592b9bd877dff7983b",
+      "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
+      "url": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-24T09:04:24.000Z",
+      "summary": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuy-T7iQPeiRqkJd7yhxd2WVQzxURRnLyHG9yz5fUXxIhjUW-bv_yAAt13dnTE1ecuh1w6cRjenRXL3In2b55rL22lXnBhpKrVvS9c5Qb6Bv0TeQPLeAXYoafNYnqYxYQwWnZBCO3e8ZW-HS8Y2GMbQuGz58-_wG7gT6Pcok3j53J4iiZ7jw6kLoGGtWU/s1600/popcorn.jpg"
+    },
     {
       "id": "f97417622dd99400b816faebe9e5c79c8463a715",
       "title": "Les Knicks reconnaissent une « erreur » après avoir piégé leurs employés",
@@ -252,17 +318,6 @@
       "imageUrl": "https://img.lemde.fr/2026/09/28/0/0/6000/4000/1440/960/60/0/2999c3c_ftp-1-7zr8zd1xr2fv-2026-09-28t100120z-966632141-rc2asna406p4-rtrmadp-3-britain-politics-labour.JPG"
     },
     {
-      "id": "c8eca98f292803edd3470e5bfd020fec236816d4",
-      "title": "Brief Spécial | Des frigos piratés au vol de données, comment gérer sa cybersécurité?",
-      "url": "https://omny.fm/shows/le-brief/brief-sp-cial-des-frigos-pirat-s-au-vol-de-donn-es-comment-g-rer-sa-cybers-curit?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-23T14:30:00.000Z",
-      "summary": "Vol de mot de passe, accès aux mails et au réseau interne, piratage du système informatique et même demande de rançon... Sur les neuf premiers mois …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://omny.fm/shows/le-brief/brief-sp-cial-des-frigos-pirat-s-au-vol-de-donn-es-comment-g-rer-sa-cybers-curit/image.jpg?t=1792679340&amp%3Bsize=wideShare"
-    },
-    {
       "id": "4d6ffab87ac5cfcad812e9e9ab9d75db0cf50a77",
       "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
       "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
@@ -272,17 +327,6 @@
       "type": "LEAK",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSk-Q06Dd5YyYmXWMt9b860DzGRKbTae_QwvoZDKNICaEznAj2AUurJmv6vPnpcH7qqDjauFZWWx7GX1RN93BLaU9Rqgiqe9j1iQRg2Vqcz3HpSqgesA6oS-GrMTyx4CTzwOD7C_z205k57ZpT70Gv4RXi-65X-nyI04wpA3raJ5nh46pN5ox42cyLnHjv/s1600/1000117358.jpg"
-    },
-    {
-      "id": "752664cdf08b7ba260c7731d62ee5b7c9e6fc805",
-      "title": "Technostress : une faille pour l’ingénierie sociale",
-      "url": "https://www.zataz.com/technostress-une-faille-pour-lingenierie-sociale/",
-      "source": "Zataz",
-      "publishedAt": "2026-10-23T12:56:16.000Z",
-      "summary": "Technostress et ingénierie sociale : comment la surcharge numérique peut fragiliser la vigilance face aux manipulations.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/techno_stress.jpg"
     },
     {
       "id": "5a79837ca323cea3d2c7eeac9d64fe74387a32d1",
@@ -362,17 +406,6 @@
       "imageUrl": "https://image.jeuxvideo.com/medias-crop-1200-675/179275/1792749154-3166-card.jpg"
     },
     {
-      "id": "f75bdaee87867ec38f32dcbe980a94eb10650bca",
-      "title": "Piratage de la FFTir : la Fédération confirme le vol",
-      "url": "https://www.zataz.com/piratage-de-la-fftir-la-federation-confirme-le-vol/",
-      "source": "Zataz",
-      "publishedAt": "2026-10-23T10:41:26.000Z",
-      "summary": "FFTir : la Fédération confirme une cyberattaque, le vol de 64 000 photos et de milliers de documents personnels.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/fuite_fftir2.jpg"
-    },
-    {
       "id": "3f3b61de7a2a5561fbbdce7349d6e0ddce0827b9",
       "title": "Une vulnérabilité critique affecte les instances GitLab auto-hébergées sur 12 ans de versions, des correctifs publiés",
       "url": "https://www.usine-digitale.fr/cybersecurite/une-vulnerabilite-critique-affecte-les-instances-gitlab-auto-hebergees-sur-12-ans-de-versions-des-correctifs-publies.2VCFX5BK4JGM3JAHKWE4ZNTJ4Y.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -382,17 +415,6 @@
       "type": "CVE",
       "severity": "Info",
       "imageUrl": "https://cloudfront-eu-central-1.images.arcpublishing.com/infopro/IS6ZXLT34NFGHHY2NDRQ4GJEP4.jpg"
-    },
-    {
-      "id": "362289b8e4b196d5f52229860b4593719651bd84",
-      "title": "Fraude bancaire : deux mails pour installer la peur",
-      "url": "https://www.zataz.com/fraude-bancaire-deux-mails-pour-installer-la-peur/",
-      "source": "Zataz",
-      "publishedAt": "2026-10-23T10:27:14.000Z",
-      "summary": "Alerte ZATAZ : deux faux mails bancaires, des milliers d'euros en jeu et une fraude téléphonique décryptée.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/faux00_tel.jpg"
     },
     {
       "id": "4fd040192a509bee9fc68c95af5d27a9f7218da8",
@@ -437,17 +459,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1nl6HARmLzzb4BlklarhKxB1F2U6dwKebASj9-Ow-WI6otLzFoATEY-icF7OCAgwHqRzwNhs9jHY2S7e4ZGRHykrIzedvLxQlAyen6jQsOoY_L80gd0Lrjy3-3xzlHavaxahxsI1o13_r2MRRDwbQrtslkXfbITBGcp_736F1sPVq7dR8Rnq_JSVQP3A/s1600/ai-wallet.jpg"
-    },
-    {
-      "id": "129e31dd6d667785568340aacf7870d80e763191",
-      "title": "Les données de 587 000 Français piratées : une cyberattaque frappe à nouveau la Fédération française de tir",
-      "url": "https://www.01net.com/actualites/donnees-587-000-francais-piratees-cyberattaque-frappe-nouveau-federation-francaise-de-tir.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-23T08:00:50.000Z",
-      "summary": "Pour la deuxième fois en un an, la Fédération française de tir a été piratée. Un cybercriminel a mis la main sur les données de près de 587 000 …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/c6c3e48c9a913643ea5f76bf06fc4c04f3d0531b/_xlarge.jpeg"
     },
     {
       "id": "37fe7b69f787703ba5b36ccce7a51014cc3ce22e",
@@ -670,6 +681,17 @@
       "imageUrl": null
     },
     {
+      "id": "4aa8935e3cbd125a28e1d05d281518ca278527ac",
+      "title": "DTAM, Fédération des chasseurs... La faille mondiale de cybersécurité a aussi impacté les sites de Saint-Pierre-et-Miquelon - Outre-mer La 1ère",
+      "url": "https://la1ere.franceinfo.fr/saintpierremiquelon/dtam-federation-des-chasseurs-la-faille-mondiale-de-cybersecurite-a-aussi-impacte-les-sites-de-saint-pierre-et-miquelon-1750701.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-22T21:00:01.000Z",
+      "summary": "L'Agence nationale de la sécurité des systèmes d'information (ANSSI) a donné l'alerte après la découverte de failles critiques dans un protocole de …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/ca3933113b8654cf92a7ca3b5ef8c6c79b7ec38d/_xlarge.webp"
+    },
+    {
       "id": "70c4fb50f8418b6c23b271b84016af939323fdb8",
       "title": "Cybercriminalité en Afrique : coup de filet historique d'Interpol qui interpelle 1 462 suspects dans 21 pays",
       "url": "https://video.lefigaro.fr/figaro/international/cybercriminalite-en-afrique-coup-de-filet-historique-d-interpol-qui-interpelle-1-462-suspects-dans-21-pays-20261022?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -769,15 +791,15 @@
       "imageUrl": null
     },
     {
-      "id": "f900054b216c4b17e5c4d1bc94d3e6dcd8ef872f",
-      "title": "Des pirates informatiques utilisent Claude et Grok pour automatiser des attaques contre des banques",
-      "url": "https://www.parismatch.com/actu/societe/des-pirates-informatiques-utilisent-claude-et-grok-pour-automatiser-des-attaques-contre-des-banques-277876?at_medium=affiliate&amp%3Bat_campaign=Flipboard",
+      "id": "e1dbddefcd8261a545a562bd4e806ff6f9514f69",
+      "title": "Cyberattaques : deux failles de sécurité critiques ne seront jamais corrigées sur des millions de sites web",
+      "url": "https://www.capital.fr/conso/cyberattaques-deux-failles-de-securite-critiques-ne-seront-jamais-corrigees-sur-des-millions-de-sites-web-1531190?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
       "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-22T14:36:28.000Z",
-      "summary": "Des intelligences artificielles conversationnelles ont été orchestrées comme une véritable équipe de hackers, capable de mener des piratages à grande …",
+      "publishedAt": "2026-10-22T14:33:38.000Z",
+      "summary": "Deux failles de sécurité critiques menacent des millions de sites web utilisant le langage de programmation PHP. Si des correctifs sont disponibles …",
       "type": "NEWS",
       "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/parismatch.com/ea9dc3caae8e94bee78427abcb7eb5da3735939d/_xlarge.jpeg"
+      "imageUrl": "https://ic-cdn.flipboard.com/capital.fr/1cffa019e900a497b50788bc4044f3c7e1aced25/_xlarge.jpeg"
     },
     {
       "id": "4efb9ca12bfc7ce1c083d9658dc890d454939e48",
@@ -1187,17 +1209,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBGpr0x4Dn4VV8YVCO_s3CzzGvwmVUceHbt0llcvrzvBmWFaJcu9E9v3WntJGdez3PZ-53GAVSRiYc5FdSOgmyeCSXvpL2t5nCjhzJC50kTLhQygW8cCeFHqtZtDYHsG7Vx2uf1vVdobBbKJ5fcCKSNZDKpV00GRQKVlD444srM9L4rcPnTe28nABZ3pon/s1600/chinese-ai.jpg"
     },
     {
-      "id": "772790e2c427e0cc3971542ee8f1929af2c957ef",
-      "title": "Faille informatique mondiale: voici les consignes de la Confédération",
-      "url": "https://www.blick.ch/fr/suisse/php-les-consignes-de-la-confederation-sur-la-faille-informatique/r53h52m?amp%3Butm_content=topic%2Ffr-technologie",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-22T03:08:25.000Z",
-      "summary": "Les sites web, boutiques en ligne et portails d’information développés en PHP sont vulnérables aux cyberattaques. Des sites aux quatre coins du monde …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ocdn.eu/pulscms-transforms/1/-yIktkuTURBXy9mNWU2OTE2NC01NTZlLTRjZjMtOWE4Ni0yOTBiNjYwOTNmZGMuanBlZ5KTBc0CWM0BO5MJpjE5NWRiNQY/j8rous76b0l.jpg"
-    },
-    {
       "id": "b872931402e88f0a6ea3ce91a6c4372e98302719",
       "title": "Node.js - CVE-2026-111497",
       "url": "https://cyberveille.esante.gouv.fr/alertes/nodejs-cve-2026-111497-2026-10-22",
@@ -1352,17 +1363,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig4Pkd5r0GeWGSaCoHaEsZVVoh5Y6xBkFvMTGYKvD5oONYnczQGAUqpjD6eCiA6sxiiel6Zs0kPiBEWOZJ21URkE59iJm-LDUFPYwPEf8o8d8lnyiMOR53H7IeXGKn3tTG9pusA-HKwYo0n04WQ1m8kg8dxIWEtxFGMDiBzrV-zzqAH2R2OVT2E1ViX_U/s1600/git-rce.jpg"
     },
     {
-      "id": "2f2be27924b0a9904d3e39de1ff9c901986980e9",
-      "title": "Arrêtée pour avoir bloqué un robot de livraison Uber",
-      "url": "https://www.zataz.com/arretee-pour-avoir-bloque-un-robot-de-livraison-uber/",
-      "source": "Zataz",
-      "publishedAt": "2026-10-21T18:04:11.000Z",
-      "summary": "Une manifestante arrêtée pour avoir bloqué un robot Uber et dénoncé l'automatisation des emplois.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/urber_robot.jpg"
-    },
-    {
       "id": "002d19712e677b747c524d67cb690146ab480afb",
       "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
       "url": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
@@ -1396,50 +1396,6 @@
       "imageUrl": "https://krebsonsecurity.com/wp-content/uploads/2026/10/shutterstock-codeonscreenphp.png"
     },
     {
-      "id": "abe2904eda27292e4c6a3c14d4b9e0b4c5513df5",
-      "title": "Panne chez Orange et Sosh !",
-      "url": "https://www.zataz.com/panne-chez-orange-et-sosh/",
-      "source": "Zataz",
-      "publishedAt": "2026-10-21T15:21:36.000Z",
-      "summary": "Ce mercredi 21 octobre 2026, une importante panne perturbe le réseau mobile d'Orange et de sa marque low cost Sosh.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/Orange_panne_2g.jpg"
-    },
-    {
-      "id": "4c4b1beaa8acdf9d844b79ac70db0ccad4e3e108",
-      "title": "Musique IA et faux streams : 18 mois de prison",
-      "url": "https://www.zataz.com/musique-ia-et-faux-streams-18-mois-de-prison/",
-      "source": "Zataz",
-      "publishedAt": "2026-10-21T14:42:22.000Z",
-      "summary": "Musique IA, faux comptes et royalties détournées : 18 mois de prison pour un fraudeur.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/ia_musique_fraude.jpg"
-    },
-    {
-      "id": "93184f3b177a8d57367701f2e81b9bbbcf3e49ac",
-      "title": "LibreOffice et OpenOffice piégés par des tableurs",
-      "url": "https://www.zataz.com/libreoffice-et-openoffice-pieges-par-des-tableurs/",
-      "source": "Zataz",
-      "publishedAt": "2026-10-21T14:28:13.000Z",
-      "summary": "LibreOffice et OpenOffice : des tableurs piégés exécutent du code Java. Correctifs et protections à connaître.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/tableau_hack.jpg"
-    },
-    {
-      "id": "b34907b19b5cd42484e11fe5264a297f764a3d8d",
-      "title": "Claude transmet une fausse piste à la police",
-      "url": "https://www.zataz.com/claude-transmet-une-fausse-piste-a-la-police/",
-      "source": "Zataz",
-      "publishedAt": "2026-10-21T14:20:12.000Z",
-      "summary": "Claude a envoyé une fausse piste à la police de Philadelphie pendant un test interne mené par Anthropic.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/cobra_ia.jpg"
-    },
-    {
       "id": "dc53a1ddbbf7bdb8ccb19f9a1ee32b3a444c6a3d",
       "title": "PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge",
       "url": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
@@ -1460,17 +1416,6 @@
       "type": "NEWS",
       "severity": "Moyenne",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkkBWQk1mVx_ybLuq6r6miCGLiZJUyA_-tPpzi5cyWpcmN_WX43NqfOoH-Tc5VaAh1rVA78waqQ9hx4j-jNwq1GX9bbZjezpx1Q28YcxlBPqnxMbbHd15spg63hSVS0sidhyR9wTg6Aq7ijZJdNIfdY_jev1_K4KJR-6yIoCLlD6cbkGwVY3SUke5IuXS5/s1600/chrome-clickfix-warning.jpg"
-    },
-    {
-      "id": "93e5db1fe463bf9d791ed5a8e0d48a9a1fc7c62a",
-      "title": "PHP2Shell : deux failles critiques menacent les serveurs web",
-      "url": "https://www.zataz.com/php2shell-deux-failles-critiques-menacent-les-serveurs-web/",
-      "source": "Zataz",
-      "publishedAt": "2026-10-21T12:55:11.000Z",
-      "summary": "Deux failles PHP2Shell critiques menacent les serveurs web. Versions concernées, risques et mesures de sécurité.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/php2shell.jpg"
     },
     {
       "id": "f44d5361ad7e7dcd678652347f17e2ac568a64a5",
@@ -1537,17 +1482,6 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-PokIxnQKc5RkxwrgRCR7Aaw8sjbkT1F4TQWCIG2V_rhQVKp8CJgtivgF5Zns45rObi0Tf-e9FDBXdX0L7OUshol00GvpiQhAi3SUAa72DV-bjeDu2oNzET9uV_cIQV2U9jSXGC2qiWWOr00M1ZYPAtcaWJNSn2_IH_BwPWVaUEqqjpmUSgfhIvRUdbY/s1600/tor-ssh.jpg"
-    },
-    {
-      "id": "ee88b9d20f72b6936223fe602bf41331d97e0e9f",
-      "title": "Arnaque au bitcoin : un réseau piloté depuis des prisons",
-      "url": "https://www.zataz.com/arnaque-au-bitcoin-un-reseau-pilote-depuis-des-prisons/",
-      "source": "Zataz",
-      "publishedAt": "2026-10-21T09:43:47.000Z",
-      "summary": "Arnaque au bitcoin : une femme arrêtée et un réseau d'escroquerie lié à deux prisons.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/bitcoin_prison.jpg"
     },
     {
       "id": "868153c36c4b16759bf9e26f3a6b29dc8a797406",
@@ -2089,50 +2023,6 @@
       "imageUrl": null
     },
     {
-      "id": "2473f59bac5070c50dd593106e5e6126fc3ff531",
-      "title": "WhatsApp Hid Instructions in Help Pages Telling Its AI Chatbot Not to Recommend Privacy Regulators",
-      "url": "https://thehackernews.com/2026/10/whatsapp-hid-instructions-in-help-pages.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-20T11:41:06.000Z",
-      "summary": "WhatsApp's help pages carried hidden instructions for its support chatbot that told it not to recommend a data protection authority or regulator to users who could no longer delete",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTtrA7WSHbxSgTUKrOz8Swz6vdK1sarnVj8fCSEjFPdIMyLbOCOIytF60D82szAQpXLHR0mXI3j4zcIobCRS2g8ZI6GkbuLTHkoM4OmkUAWD0P1D1KyYuYrSxWvbq7Yy6zJ-B03VGWxy49q1BUF4owk5gUAVBBd6g2v7xl28TT_ax7Il5ixELfwcBawpA/s1600/whatsapp-chatbot.jpg"
-    },
-    {
-      "id": "78bc7f5166f12511ca2b3801c8190200b82f4148",
-      "title": "What Security Teams Can Do To Tame Wild Code",
-      "url": "https://thehackernews.com/2026/10/what-security-teams-can-do-to-tame-wild.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-20T11:33:04.000Z",
-      "summary": "A sales manager builds an AI-assisted workflow to route leads. It connects to customer records, summarizes inbound requests, and posts updates to a shared channel. The workflow sav",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7Q3156iY5WJRnphGSZ5PuIiMopF0sG7ku3FR-WROda9fE4jCSIOQpClG1HOBRCvbuqDyLHgsC0N3UFjowgnXzZN4T1mDpkQbTz2gX7z4NRZsfoEpimVlZ7hevcXmeTfpOt1iFrHqvLXubegNIRz15gjlQNHIBBYzQVAmy8MNAGiZs6OXIEuWNntLwTlI/s1600/tines-main.jpg"
-    },
-    {
-      "id": "20e21cae950430f2d02db5ae1b5a234734c91a6c",
-      "title": "Go Issues Emergency Update Blocking Eight CA Keys Over Undisclosed Security Concerns",
-      "url": "https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-20T11:32:59.000Z",
-      "summary": "Go 1.27.3 and Go 1.26.10, released on October 20, make Go's certificate verifier reject any certificate chain that passes through one of eight intermediate certificate authority ke",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgh12Jum-ReZMOyqaMubiLlMwx4-uDVxEJkD6-CJabWhHfCKV-Csw7P4MoeRX85Ag-3rxZMftHE6KGcdh059DoOPvF1Mirv05BQsflmg8RroWBt_t00BGTHsdhqkmVWVuRHKAs56AhNfdsq_YH0QWrMJ1z4dFT3I3xOK7Dwqu7aPp_P7tFSxQ-bzqyz8e4/s1600/go-certs.jpg"
-    },
-    {
-      "id": "7ccf0cd496c44a23d5fef4c1a4d0cf5ead2cd1e1",
-      "title": "Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader",
-      "url": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-20T11:06:25.000Z",
-      "summary": "The Russia-linked state-sponsored threat actor tracked as APT28 (aka BlueDelta, Fancy Bear, and Forest Blizzard) has been attributed to attacks targeting two member states of the N",
-      "type": "LEAK",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNLZ-1vEmoCyztDVMziqJlhZPTZfW4mOe-qDn6OxDQ-K2LVZTvqhoOe3MIip5bDJfiJd7e3HLcq4S-0xb2SlfWbEqp4vlvbOnQDSP5edsQIxHFtYSCt1qM7XZksq0NPZ9AGesx0YzqHsTeWUuPUTysC5dbuDOvKIjQW0DJvkg1UG9KLH2Doglq7WtgyiRM/s1600/russia-nato.jpg"
-    },
-    {
       "id": "dd04d3af540e42b11768e0cf529f4c218d386f7f",
       "title": "Assurance Retraite - 70,372 breached accounts",
       "url": "https://haveibeenpwned.com/Breach/AssuranceRetraite",
@@ -2274,6 +2164,116 @@
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": null
+    },
+    {
+      "id": "e72847cf697b9b8d20694d2bc6b891057388868f",
+      "title": "IBM - CVE-2026-102917",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/ibm-cve-2026-102917-2026-10-19",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-10-19T01:15:55.000Z",
+      "summary": "&lt;p&gt;Il s’agit d’une vulnérabilité de &lt;strong&gt;gestion des privilèges&lt;/strong&gt; dans le système d’exploitation &lt;strong&gt;IBM i&lt;/strong&gt;.&lt;/p&gt; &lt;p&gt;",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "5ba8b42689bfb7402d1831cc5107baf3f9e7a14c",
+      "title": "MariaDB - CVE-2026-92262",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/mariadb-cve-2026-92262-2026-10-19",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-10-19T01:13:54.000Z",
+      "summary": "&lt;p&gt;Il s’agit d’une vulnérabilité dans le &lt;strong&gt;préfixe de contournement #mysql50#&lt;/strong&gt; du serveur &lt;strong&gt;MariaDB&lt;/strong&gt;.&lt;/p&gt; &lt;p&gt;M",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "254c8f7b0c3aef29bc14a95f501df027ad8ec63b",
+      "title": "Wazuh - CVE-2026-74040",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/wazuh-cve-2026-74040-2026-10-19",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-10-19T01:11:50.000Z",
+      "summary": "&lt;p&gt;Il s’agit d’une vulnérabilité dans la fonction &lt;strong&gt;process_files_from_worker&lt;/strong&gt; du composant &lt;strong&gt;MasterHandler&lt;/strong&gt; du &lt;strong",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "3ea8f50dc96b81b9d183b72521c56f64198c9c7e",
+      "title": "Multiples vulnérabilités dans les produits F5 (19 octobre 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1341/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits F5. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "68577e4f03a430e0e84cb9a63cbf6dc943f3282b",
+      "title": "Multiples vulnérabilités dans Microsoft Edge (19 octobre 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1342/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un problème de sécu",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "b37b3976dc2c362adfc268753779a0491dea9e34",
+      "title": "Gîtes de France - 117,574 breached accounts",
+      "url": "https://haveibeenpwned.com/Breach/GitesDeFrance",
+      "source": "Have I Been Pwned",
+      "publishedAt": "2026-10-18T04:50:13.000Z",
+      "summary": "In May 2026, the French holiday rental network &lt;a href=\"https://www.cyberattaque.org/gites-de-france-les-reservations-de-389-000-clients-dans-une-fuite-de-donnees/\" target=\"_bla",
+      "type": "LEAK",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "c9fc271b341d06059dc7bafc5168791a60877b98",
+      "title": "Comment sécuriser son réseau Wi-Fi ?",
+      "url": "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/bonnes-pratiques/comment-securiser-son-reseau-wi-fi",
+      "source": "Cybermalveillance",
+      "publishedAt": "2026-10-16T15:52:49.000Z",
+      "summary": "Sécuriser son réseau Wi-Fi est essentiel pour protéger son environnement numérique domestique. Voici 10 bonnes pratiques à adopter pour la sécurité de votre réseau.",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "f71f67dcd0d95e7ce71c5d27a4b34b04e7ba879f",
+      "title": "CISA Urges Patching Critical Vulnerability in BeyondTrust Remote Support",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-urges-patching-critical-vulnerability-beyondtrust-remote-support",
+      "source": "CISA",
+      "publishedAt": "2026-10-16T12:00:00.000Z",
+      "summary": "&lt;p&gt;CISA is aware of critical authentication bypass vulnerability &lt;a href=&quot;https://www.cve.org/CVERecord?id=CVE-2026-102764&quot; target=&quot;_blank&quot;&gt;CVE-2026",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": null
+    },
+    {
+      "id": "d526de14a4d95512a1ad57ea500acf03ca091ce4",
+      "title": "Quantum Alliance se forme alors que des avertissements indiquent que 6,4 millions de bitcoins sont menacés par une future menace quantique",
+      "url": "https://www.coindesk.com/fr/tech/2026/10/16/experts-agree-quantum-computers-could-put-satoshi-s-bitcoin-at-risk-but-not-on-what-s-next?amp%3Butm_content=CoinDesk%2Fmagazine%2FCOINDESK+Fran%C3%A7ais",
+      "source": "Cryptographie FR",
+      "publishedAt": "2026-10-16T10:52:26.000Z",
+      "summary": "Neuf entreprises cryptographiques ont lancé l'Alliance Quantique pour se préparer conjointement aux attaques quantiques, mais elles ne s'accordent …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/5163083009ada58cbe961b561eb5fc8b73427097-3014x1454.png?auto=format&amp%3Bfit=crop&amp%3Bcrop=focalpoint&amp%3Bw=1200&amp%3Bh=675&amp%3Bq=75"
+    },
+    {
+      "id": "80761090c86b7a544d71073d532e15a3eed1f553",
+      "title": "IDEMIA Secure Transactions : sécuriser les transactions bancaires à l’ère du quantique",
+      "url": "https://www.bfmtv.com/economie/professionnels/focus-entreprises/idemia-secure-transactions-securiser-les-transactions-bancaires-a-l-ere-du-quantique_AB-202610160040.html?amp%3Butm_content=topic%2Ffr-cryptographie",
+      "source": "Cryptographie FR",
+      "publishedAt": "2026-10-16T07:00:00.000Z",
+      "summary": "L’arrivée prochaine de l’informatique quantique menace de rendre obsolètes les algorithmes de sécurité actuels. Face à ce défi technologique, IDEMIA …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/3nWqnQLBertamBs1wJoNtO8g4Oc=/0x0:1600x900/1600x0/images/IDEMIA-Secure-Transactions-2365817.jpg"
     }
   ]
 }
