@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T13:00:51.670Z",
+  "generatedAt": "2026-10-25T17:28:03.111Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,7 +17,7 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 116
+      "items": 106
     },
     {
       "name": "Exploit-DB",
@@ -76,6 +76,50 @@
   ],
   "items": [
     {
+      "id": "cc576483eef1ab2fba980213ab6ab033b2e6c407",
+      "title": "Le PCF, victime d’une cyberattaque, appelle ses adhérents à la vigilance",
+      "url": "https://www.humanite.fr/societe/pcf/le-pcf-victime-dune-cyberattaque-appelle-ses-adherents-a-la-vigilance?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-25T16:47:44.000Z",
+      "summary": "Le Parti communiste français a annoncé vendredi 23 octobre une fuite de son fichier d’adhérents et de sympathisants, dont l’ampleur reste à …",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/humanite.fr/926616bfd2dc8ea3178f69bd6bc4902538820224/_xlarge.jpeg"
+    },
+    {
+      "id": "020e8231df5c0902a73d5058ab35f1757434be81",
+      "title": "Phishing : des chiffres et une décision de justice qui mettent les banques sous pression",
+      "url": "https://www.lalibre.be/economie/entreprises-startup/2026/10/25/phishing-des-chiffres-et-une-decision-de-justice-qui-mettent-les-banques-sous-pression-D42PT5KF2RBRXKR62RV7UARYPA/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-25T14:46:53.000Z",
+      "summary": "La fraude sur les paiements bancaires est décuplée par l'IA. Un arrêt récent de la Cour de justice européenne rappelle au secteur financier son …",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://ic-cdn.flipboard.com/lalibre.be/1ef4fe0246cb473ade3310c8ff9f32c2d155cdba/_xlarge.jpeg"
+    },
+    {
+      "id": "8f35ee4dda3128f932c95576d31d84fd507d25d4",
+      "title": "Croix gammées et financement illégal : la cyberattaque qui embarrasse l’extrême droite allemande",
+      "url": "https://www.lesoir.be/778999/article/2026-10-25/croix-gammees-et-financement-illegal-la-cyberattaque-qui-embarrasse-lextreme?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-25T14:13:17.000Z",
+      "summary": "La fuite massive de plus de 420.000 mails issus de l’AfD révèle des propos racistes, antisémites et relance une affaire de financement illégal datant …",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://leseng.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_extra_big/2026/10/25/node_778999/33834870/public/2026/10/25/109836984.jpeg?itok=zEDIQCoC1792941445"
+    },
+    {
+      "id": "652cd9c3c4148bcdd519946561a948c0f5ae0d9b",
+      "title": "A L'Aigle, intervention d'un chercheur pour alerter les lycéens sur les dangers d'Internet",
+      "url": "https://actu.fr/normandie/l-aigle_61214/a-l-aigle-intervention-d-un-chercheur-pour-alerter-les-lyceens-sur-les-dangers-d-internet_64968952.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-25T12:26:01.000Z",
+      "summary": "Mots de passe, réseaux sociaux, phishing ou identité numérique…Une classe de seconde du lycée Napoléon de L'Aigle (Orne) a reçu les conseils d'un …",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://static.actu.fr/uploads/2026/10/811a0000e1da6751a0000e1da491a0v.jpeg"
+    },
+    {
       "id": "986a55a39bcb8cf3f688acb43a32bedfcfe06fba",
       "title": "Un hacker revendique une fuite de 4,1 millions de données chez Renaissance, le parti dément toute « intrusion »",
       "url": "https://www.leparisien.fr/politique/un-hacker-revendique-une-fuite-de-41-millions-de-donnees-chez-renaissance-le-parti-dement-toute-intrusion-25-10-2026-IGEGGHH35NHKBGY6MZTZAGH724.php?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -98,15 +142,26 @@
       "imageUrl": "https://photos.tf1info.fr/images/1280/720/smartphone-reconditionne-1-4d7900-0@1x.jpeg?overlayImage=bG9nby10ZjFpbmZvLWRlZmF1bHQucG5n&amp%3BoverlayWidth=18&amp%3BoverlayGravity=northwest&amp%3Bs=78c802"
     },
     {
-      "id": "2af2a1dc7b3f20b9ffddeeb9a45de8e67068f8df",
+      "id": "218c0d10929c11f283bc97985b6e605aedfe1ee6",
       "title": "Caméra cachée, serrure, logiciel espion : ce que Claude Code peut vraiment vérifier à l’hôtel",
-      "url": "https://pix-geeks.com/camera-cachee-serrure-logiciel-espion-claude-code-verifier-hotel/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "url": "https://pix-geeks.com/camera-cachee-serrure-logiciel-espion-claude-code-verifier-hotel/?amp%3Butm_content=topic%2Ffr-technologie",
       "source": "Cybercriminalité FR",
       "publishedAt": "2026-10-25T12:00:03.000Z",
       "summary": "Un thread viral promet de transformer Claude Code en détecteur de caméras cachées, de logiciels espions et de serrures vulnérables. Certaines …",
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/pix-geeks.com/5c2444567da67320abdc45783785c33031a488b0/_xlarge.jpeg"
+    },
+    {
+      "id": "068e5ff33bc4ec69b69f8b698251582017c32a3b",
+      "title": "Un pirate affirme vendre un fichier de 905 000 plaques d’immatriculation avec noms et adresses",
+      "url": "https://www.capital.fr/conso/un-pirate-affirme-vendre-un-fichier-de-905-000-plaques-dimmatriculation-avec-noms-et-adresses-1531255?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-25T11:50:04.000Z",
+      "summary": "Le samedi 24 octobre, un cybercriminel, utilisant le pseudonyme ChimeraZ, a revendiqué la fuite de 905 000 plaques d'immatriculation françaises, avec …",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/capital.fr/4981fae04dbe6611d7f7acf6633cb641fc0543cd/_xlarge.jpeg"
     },
     {
       "id": "3c592271ba8034e5c38c4cda4fc09082b3f29514",
@@ -140,6 +195,17 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://cdn.unitycms.io/images/1mH1oglj4QoAyLzW21lvNn.jpg?op=ocroped&amp%3Bval=1200%2C600%2C1000%2C750%2C75%2C0&amp%3Bsum=zPZnRSJR7rE"
+    },
+    {
+      "id": "2faeda605c39fd9e55ae8b0728aabafedd247fa4",
+      "title": "Cet antivirus est le top du top pour les Mac et il coûte une bouchée de pain",
+      "url": "https://www.iphon.fr/post/antivirus-top-mac-bouchee-pain?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-25T10:03:05.000Z",
+      "summary": "Entre les virus, les malwares et le phishing, les hackers ne manquent pas de moyens pour pirater vos appareils et s’accaparer vos précieuses données. …",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://ic-cdn.flipboard.com/iphon.fr/aebdb176a630eba2e84bb6d38c4667a666986963/_xlarge.jpeg"
     },
     {
       "id": "6aa30ae82f9c4edbbdd209e5c35735e1739781d3",
@@ -263,17 +329,6 @@
       "imageUrl": "https://ic-cdn.flipboard.com/challenges.fr/8f6457d94e2257ce532fc5dd9295cab09f8935f8/_xlarge.jpeg"
     },
     {
-      "id": "685fc88a8d4c57ff6d09c7b7af775d66362b0791",
-      "title": "Dans l'Allier, pas d'embellie sur le bois dans un contexte qui met en danger toute une filière - La Montagne",
-      "url": "https://www.lamontagne.fr/cerilly-03350/economie/dans-l-allier-pas-d-embellie-sur-le-bois-dans-un-contexte-qui-met-en-danger-toute-une-filiere_15064955/?at_account=lamontagne-montlu.bsky.social&amp%3Bat_content=d3x&amp%3Bat_creation=bluesky&amp%3Butm_source=flipboard&amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-24T09:31:00.000Z",
-      "summary": "Sur le ton de la plaisanterie, certains ont évoqué l’œuvre malfaisante de hackers. Les responsables de l’ONF ont simplement évoqué une panne …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://img.centrefrance.com/JLoBKoWkuEXlPvBOLwL7ZgemhwdmGTZuWIthqOj-oKM/rs:fit:657:438:1:0/bG9jYWw6Ly8vMDAvMDAvMDcvODQvMDMvMjAwMDAwNzg0MDMyNA.webp"
-    },
-    {
       "id": "841da23c658d301d3349e738d9e5f477f44e12c9",
       "title": "Point Vision : des données de patients dérobées",
       "url": "https://www.zataz.com/point-vision-des-donnees-de-patients-derobees/",
@@ -349,17 +404,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://leseng.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_extra_big/2026/10/19/node_778805/33821810/public/2026/10/19/108738606.jpeg?itok=CoYAv85N1792788772"
-    },
-    {
-      "id": "eb9c5ea3abcc8cde748c5a54a0975051f27273e2",
-      "title": "Le Parti communiste français victime d'une cyberattaque",
-      "url": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/le-parti-communiste-francais-victime-d-une-cyberattaque_8251381.html",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-23T19:13:00.000Z",
-      "summary": "Le PCF a été alertée d'une fuite de données touchant son fichier des adhérents et sympathisants. Le parti a porté plainte. Une nouvelle cyberattaque a …",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/29fc4e447f4d1cd733fab4e0677766de34b50372/_xlarge.jpeg"
     },
     {
       "id": "b4d21f32fe0cebafc90f4424a5527b725dfef040",
@@ -527,17 +571,6 @@
       "imageUrl": "https://img-api.mac4ever.com/1200/0/84a418ef25_vous-jouez-a-street-fighter-6-votre-compte-capcom-a-surement-fuite.webp"
     },
     {
-      "id": "9aa479edb62d0fea4613a41c24a659a266d3b0c5",
-      "title": "Faites-vous partie des 11,7 millions de joueurs concernés par la fuite de données chez Capcom ? Voici comment le savoir",
-      "url": "https://www.jeuxvideo.com/news/2110534/faites-vous-partie-des-11-7-millions-de-joueurs-concernes-par-la-fuite-de-donnees-chez-capcom-voici-comment-le-savoir.htm?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-23T10:50:08.000Z",
-      "summary": "Capcom a été victime d'une cyberattaque d'envergure ciblant les bases de données du service Capcom ID. Plus de 11,7 millions de comptes ont vu leurs …",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://image.jeuxvideo.com/medias-crop-1200-675/179275/1792749154-3166-card.jpg"
-    },
-    {
       "id": "f75bdaee87867ec38f32dcbe980a94eb10650bca",
       "title": "Piratage de la FFTir : la Fédération confirme le vol",
       "url": "https://www.zataz.com/piratage-de-la-fftir-la-federation-confirme-le-vol/",
@@ -646,17 +679,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://img.frandroid.com/images.frandroid.com/wp-content/uploads/2026/10/dns-illustration.jpg?resize=1600%2C900&amp%3Bkey=f52337e7"
-    },
-    {
-      "id": "d6fd4094da4ae69abebec801e5eb12079dabfd06",
-      "title": "Securitoo : comment protéger ses données personnelles sur tous ses appareils ?",
-      "url": "https://www.clubic.com/actualite-634471-securitoo-comment-proteger-ses-donnees-personnelles-sur-tous-ses-appareils.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-23T06:30:00.000Z",
-      "summary": "Entre les tentatives de phishing, les logiciels malveillants, les publicités qui traquent nos habitudes… Protéger sa vie numérique est devenu un …",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/be1e1628feb9500f2d426ca4cd2fbd31fabe8f7e/_xlarge.png"
     },
     {
       "id": "3c8805a96a85d520b16fa912ffe715907cb4c062",
@@ -835,17 +857,6 @@
       "imageUrl": null
     },
     {
-      "id": "70c4fb50f8418b6c23b271b84016af939323fdb8",
-      "title": "Cybercriminalité en Afrique : coup de filet historique d'Interpol qui interpelle 1 462 suspects dans 21 pays",
-      "url": "https://video.lefigaro.fr/figaro/international/cybercriminalite-en-afrique-coup-de-filet-historique-d-interpol-qui-interpelle-1-462-suspects-dans-21-pays-20261022?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-22T20:06:36.000Z",
-      "summary": "L’opération «Serengeti III» présentée par Interpol dans un communiqué daté du 22 octobre a permis l’arrestation de 1462 suspects dans 21 pays entre …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://i.f1g.fr/media/ext/1200x630_crop/api-video-public.lefigaro.fr/assets/9f/ee/d5/9feed5de923d3f4a8ac0b933179ebab0.jpeg"
-    },
-    {
       "id": "a0312c2faf148a17dd4ddcf6a303c4facb68d6d3",
       "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
       "url": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
@@ -899,17 +910,6 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdNNyKzD2udgIl0X434MI2ucEwGFB_B-QqyjMnMuvTfwZv7clEo3n0ASA_aEQtUmQ7wqPSREwq1Cvi3iQLtubfUkK7p017Q6SrliTkwHiJyhfDIzahdof71Mxs4LXqJWoLkAnwikxy2KmZ1pkMg5Qto-RwPnvQx71Ol4G7sO20eeVNr_pfstT2WbDg3Nk/s1600/linux-rce.jpg"
-    },
-    {
-      "id": "21b4cf0ecd3a1cc4f52cb8acf91814ee0bcff58f",
-      "title": "Une nouvelle vague de tentatives d'arnaques sur la messagerie Whatsapp",
-      "url": "https://information.tv5monde.com/economie/une-nouvelle-vague-de-tentatives-darnaques-sur-la-messagerie-whatsapp-2842729?amp%3Butm_content=topic%2Ffr-%C3%A9conomie",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-22T16:26:47.000Z",
-      "summary": "Sur Whatsapp, une nouvelle vague de tentatives d'arnaques virales se propage, de nombreux utilisateurs indiquant avoir reçu un message les incitant à …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://information.tv5monde.com/sites/tv5-info/files/styles/seo_1200/public/2026-10/field_media_image-3064095-fc65aeef76b7205518d4ec2c03252ff47567c173.jpg?itok=KEsV8sjc"
     },
     {
       "id": "3d3be6beb077a524ca8f2ea7201de203f73b875d",
