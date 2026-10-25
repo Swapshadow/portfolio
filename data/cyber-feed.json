@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T20:25:52.233Z",
+  "generatedAt": "2026-10-25T00:03:58.705Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -23,7 +23,7 @@
       "name": "Exploit-DB",
       "url": "https://www.exploit-db.com/rss.xml",
       "status": "ok",
-      "items": 50
+      "items": 0
     },
     {
       "name": "The Hacker News",
@@ -75,6 +75,39 @@
     }
   ],
   "items": [
+    {
+      "id": "cd778efdf7a1bd2151d4eb0eabc417bc68d797e1",
+      "title": "Chimeraz revendique des fuites visant trois partis français, dont celui du groupe présidentiel",
+      "url": "https://www.zataz.com/chimeraz-revendique-des-fuites-visant-trois-partis-francais/",
+      "source": "Zataz",
+      "publishedAt": "2026-10-24T23:00:29.000Z",
+      "summary": "Chimeraz revendique des données annoncées comme volées aux partis politiques de Renaissance, LFI et du PCF.",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://www.zataz.com/wp-content/uploads/Chimeraz_politiques.jpg"
+    },
+    {
+      "id": "91bffe5c62b5cc4244e60274a218fb737443e64b",
+      "title": "Piratage au Parti communiste, le fichier de 190 000 adhérents et sympathisants est dans la nature",
+      "url": "https://www.capital.fr/economie-politique/piratage-au-parti-communiste-le-fichier-de-190-000-adherents-et-sympathisants-est-dans-la-nature-1531250?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-24T21:00:59.000Z",
+      "summary": "Le Parti communiste français (PCF) a annoncé avoir fait l'objet d'une fuite de données, concernant environ 190 000 adhérents et sympathisants. Ces …",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/capital.fr/ab0e4698ba28ba3599b722dffee0fc0ff9bea248/_xlarge.jpeg"
+    },
+    {
+      "id": "5f6d2193a2ccf426d6a0d906f0e2099d0b3a18aa",
+      "title": "WhatsApp en Afrique : piratages et arnaques se multiplient",
+      "url": "https://www.france24.com/fr/vid%C3%A9o/20261024-whatsapp-en-afrique-piratages-et-arnaques-se-multiplient?amp%3Butm_content=topic%2Ffr-actualit%C3%A9s",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-24T20:20:44.000Z",
+      "summary": "En Afrique, WhatsApp est devenu un outil essentiel pour communiquer, travailler et faire du commerce. Mais les tentatives de piratage et les escroqueries inquiètent de plus en plus",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://s.france24.com/media/display/cc0737b8-cfe7-11f1-86a0-bdb9616e85cf/w:1280/p:16x9/FR-20261024-215119-215755-CS.jpg"
+    },
     {
       "id": "334a5a4ff49dfa03336f4a3075b999652874a6de",
       "title": "De l’affaire Cahuzac à la cyberattaque de la DGFiP : Amélie Verdier, la patronne du fisc qui traverse les tempêtes au sommet de l’État",
@@ -846,17 +879,6 @@
       "imageUrl": null
     },
     {
-      "id": "e1dbddefcd8261a545a562bd4e806ff6f9514f69",
-      "title": "Cyberattaques : deux failles de sécurité critiques ne seront jamais corrigées sur des millions de sites web",
-      "url": "https://www.capital.fr/conso/cyberattaques-deux-failles-de-securite-critiques-ne-seront-jamais-corrigees-sur-des-millions-de-sites-web-1531190?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-22T14:33:38.000Z",
-      "summary": "Deux failles de sécurité critiques menacent des millions de sites web utilisant le langage de programmation PHP. Si des correctifs sont disponibles …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/capital.fr/1cffa019e900a497b50788bc4044f3c7e1aced25/_xlarge.jpeg"
-    },
-    {
       "id": "4efb9ca12bfc7ce1c083d9658dc890d454939e48",
       "title": "La cybersécurité et l'IA au cœur des enjeux d'Orange",
       "url": "https://www.lagazettefrance.fr/article/orange-la-cybersecurite-et-l-ia-au-c-ur-des-enjeux-d-orange?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -877,17 +899,6 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgztarCkWkHIW3EBCYV1Uaoz1pLURW3sA5E381ALhft79JhEp71NrhOngLJTWtoT1EL-mI7G6sz0geVq0clphhNqFhyphenhyphen6zPdTK1KYcNAPR43HvdicTavSv5eFTsMTVh36gi570aIN265ZJnbfwvMcWSIriWeU_28JWsofVj-9k1qQdKddXoDeh6dNeWy2ViE/s1600/interpol-1.jpg"
-    },
-    {
-      "id": "75a4bb7744dcd1dce7e37f737661c523cf783436",
-      "title": "WordPress et des millions de sites web menacés par deux failles de sécurité critiques",
-      "url": "https://siecledigital.fr/2026/10/22/wordpress-et-des-millions-de-sites-web-menaces-par-deux-failles-de-securite-critiques/?amp%3Butm_content=topic%2Ffr-technologie",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-22T13:10:46.000Z",
-      "summary": "Deux failles de sécurité critiques découvertes grâce à l'IA menacent des millions de sites web utilisant PHP, notamment WordPress. Des correctifs ont …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://siecledigital.fr/wp-content/uploads/2026/10/5121875481-1.jpg"
     },
     {
       "id": "e35ccee8ffef168385f254247bae27490b182b36",
@@ -1396,17 +1407,6 @@
       "imageUrl": null
     },
     {
-      "id": "3a7e9f2bf8b430e3f061dd2116f00092484d6760",
-      "title": "[remote] PHP2Shell (CVE-2026-109618) - PHP core versions after v5.4 - RCE",
-      "url": "https://www.exploit-db.com/exploits/52704",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-10-22T00:00:00.000Z",
-      "summary": "PHP2Shell (CVE-2026-109618) - PHP core versions after v5.4 - RCE",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": null
-    },
-    {
       "id": "383ae66bab980bc105e4531beb642186e0dcbba0",
       "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
       "url": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
@@ -1493,17 +1493,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://www.zataz.com/wp-content/uploads/tableau_hack.jpg"
-    },
-    {
-      "id": "b34907b19b5cd42484e11fe5264a297f764a3d8d",
-      "title": "Claude transmet une fausse piste à la police",
-      "url": "https://www.zataz.com/claude-transmet-une-fausse-piste-a-la-police/",
-      "source": "Zataz",
-      "publishedAt": "2026-10-21T14:20:12.000Z",
-      "summary": "Claude a envoyé une fausse piste à la police de Philadelphie pendant un test interne mené par Anthropic.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/cobra_ia.jpg"
     },
     {
       "id": "dc53a1ddbbf7bdb8ccb19f9a1ee32b3a444c6a3d",
@@ -1902,116 +1891,6 @@
       "imageUrl": null
     },
     {
-      "id": "f30e8efba35360bf32322c073edacbb01ae563a7",
-      "title": "[webapps] pizzafy-1.0 - SQLi",
-      "url": "https://www.exploit-db.com/exploits/52703",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-10-21T00:00:00.000Z",
-      "summary": "pizzafy-1.0 - SQLi",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "22b33c299124508a7dc96f10c0eec57a30c906ac",
-      "title": "[remote] South River Technologies Titan MFT Server 26.0.0 - code execution",
-      "url": "https://www.exploit-db.com/exploits/52701",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-10-21T00:00:00.000Z",
-      "summary": "South River Technologies Titan MFT Server 26.0.0 - code execution",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "4505dbe5fba821e37596a241d6d39ff57731dd21",
-      "title": "[remote] Synametrics Syncrify 6.2 - command execution",
-      "url": "https://www.exploit-db.com/exploits/52700",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-10-21T00:00:00.000Z",
-      "summary": "Synametrics Syncrify 6.2 - command execution",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "27c7ccfc443b639e199de9169dd6296b2750d8ef",
-      "title": "[webapps] Keycloak 26.7.2 - Unauthenticated Account Takeover",
-      "url": "https://www.exploit-db.com/exploits/52699",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-10-21T00:00:00.000Z",
-      "summary": "Keycloak 26.7.2 - Unauthenticated Account Takeover",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "5747680860a628d71ce87d12e196420e6704f8f3",
-      "title": "[webapps] Open eClass 3.15 - RCE",
-      "url": "https://www.exploit-db.com/exploits/52698",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-10-21T00:00:00.000Z",
-      "summary": "Open eClass 3.15 - RCE",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": null
-    },
-    {
-      "id": "6e920a2e256ae1fb527d54d29f36d6d78e843eea",
-      "title": "[webapps] Automotive Shop Management System 1.0 - SQLi",
-      "url": "https://www.exploit-db.com/exploits/52697",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-10-21T00:00:00.000Z",
-      "summary": "Automotive Shop Management System 1.0 - SQLi",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "e9a405de87f1d1be3c131a889895214a219e0026",
-      "title": "[remote] Edimax BR-6478AC firmware v2.20 - authenticated command injection",
-      "url": "https://www.exploit-db.com/exploits/52696",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-10-21T00:00:00.000Z",
-      "summary": "Edimax BR-6478AC firmware v2.20 - authenticated command injection",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "f9d4f8ad21176069faca4062196c8c92cff62a01",
-      "title": "[remote] Exasol Database 7.1.30 - command execution",
-      "url": "https://www.exploit-db.com/exploits/52695",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-10-21T00:00:00.000Z",
-      "summary": "Exasol Database 7.1.30 - command execution",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "f5df05281606185c182d21f6275c413594bd0c7e",
-      "title": "[remote] Parasoft Continuous Testing Platform 10.7.5 - JSP command execution",
-      "url": "https://www.exploit-db.com/exploits/52694",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-10-21T00:00:00.000Z",
-      "summary": "Parasoft Continuous Testing Platform 10.7.5 - JSP command execution",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "f56766d7c9cd42332dcb986028a8a0348225ea13",
-      "title": "[remote] ProSoft RLX-IFH24E v2.2.44 - Unsigned Firmware Upgrade Package Executed as Root",
-      "url": "https://www.exploit-db.com/exploits/52693",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-10-21T00:00:00.000Z",
-      "summary": "ProSoft RLX-IFH24E v2.2.44 - Unsigned Firmware Upgrade Package Executed as Root",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
       "id": "4a5af93e216bbfae6c2a5c9fc1ce586d834eeca4",
       "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
       "url": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
@@ -2271,6 +2150,127 @@
       "source": "Cyberveille Santé",
       "publishedAt": "2026-10-19T01:17:48.000Z",
       "summary": "&lt;p&gt;Il s’agit d’une vulnérabilité dans la fonction de &lt;strong&gt;conversion d’un compte personnel en organisation&lt;/strong&gt; de &lt;strong&gt;Docker Hub&lt;/strong&gt;.",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "e72847cf697b9b8d20694d2bc6b891057388868f",
+      "title": "IBM - CVE-2026-102917",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/ibm-cve-2026-102917-2026-10-19",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-10-19T01:15:55.000Z",
+      "summary": "&lt;p&gt;Il s’agit d’une vulnérabilité de &lt;strong&gt;gestion des privilèges&lt;/strong&gt; dans le système d’exploitation &lt;strong&gt;IBM i&lt;/strong&gt;.&lt;/p&gt; &lt;p&gt;",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "5ba8b42689bfb7402d1831cc5107baf3f9e7a14c",
+      "title": "MariaDB - CVE-2026-92262",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/mariadb-cve-2026-92262-2026-10-19",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-10-19T01:13:54.000Z",
+      "summary": "&lt;p&gt;Il s’agit d’une vulnérabilité dans le &lt;strong&gt;préfixe de contournement #mysql50#&lt;/strong&gt; du serveur &lt;strong&gt;MariaDB&lt;/strong&gt;.&lt;/p&gt; &lt;p&gt;M",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "254c8f7b0c3aef29bc14a95f501df027ad8ec63b",
+      "title": "Wazuh - CVE-2026-74040",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/wazuh-cve-2026-74040-2026-10-19",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-10-19T01:11:50.000Z",
+      "summary": "&lt;p&gt;Il s’agit d’une vulnérabilité dans la fonction &lt;strong&gt;process_files_from_worker&lt;/strong&gt; du composant &lt;strong&gt;MasterHandler&lt;/strong&gt; du &lt;strong",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "3ea8f50dc96b81b9d183b72521c56f64198c9c7e",
+      "title": "Multiples vulnérabilités dans les produits F5 (19 octobre 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1341/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits F5. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "68577e4f03a430e0e84cb9a63cbf6dc943f3282b",
+      "title": "Multiples vulnérabilités dans Microsoft Edge (19 octobre 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1342/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un problème de sécu",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "b37b3976dc2c362adfc268753779a0491dea9e34",
+      "title": "Gîtes de France - 117,574 breached accounts",
+      "url": "https://haveibeenpwned.com/Breach/GitesDeFrance",
+      "source": "Have I Been Pwned",
+      "publishedAt": "2026-10-18T04:50:13.000Z",
+      "summary": "In May 2026, the French holiday rental network &lt;a href=\"https://www.cyberattaque.org/gites-de-france-les-reservations-de-389-000-clients-dans-une-fuite-de-donnees/\" target=\"_bla",
+      "type": "LEAK",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "c9fc271b341d06059dc7bafc5168791a60877b98",
+      "title": "Comment sécuriser son réseau Wi-Fi ?",
+      "url": "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/bonnes-pratiques/comment-securiser-son-reseau-wi-fi",
+      "source": "Cybermalveillance",
+      "publishedAt": "2026-10-16T15:52:49.000Z",
+      "summary": "Sécuriser son réseau Wi-Fi est essentiel pour protéger son environnement numérique domestique. Voici 10 bonnes pratiques à adopter pour la sécurité de votre réseau.",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "f71f67dcd0d95e7ce71c5d27a4b34b04e7ba879f",
+      "title": "CISA Urges Patching Critical Vulnerability in BeyondTrust Remote Support",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-urges-patching-critical-vulnerability-beyondtrust-remote-support",
+      "source": "CISA",
+      "publishedAt": "2026-10-16T12:00:00.000Z",
+      "summary": "&lt;p&gt;CISA is aware of critical authentication bypass vulnerability &lt;a href=&quot;https://www.cve.org/CVERecord?id=CVE-2026-102764&quot; target=&quot;_blank&quot;&gt;CVE-2026",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": null
+    },
+    {
+      "id": "d526de14a4d95512a1ad57ea500acf03ca091ce4",
+      "title": "Quantum Alliance se forme alors que des avertissements indiquent que 6,4 millions de bitcoins sont menacés par une future menace quantique",
+      "url": "https://www.coindesk.com/fr/tech/2026/10/16/experts-agree-quantum-computers-could-put-satoshi-s-bitcoin-at-risk-but-not-on-what-s-next?amp%3Butm_content=CoinDesk%2Fmagazine%2FCOINDESK+Fran%C3%A7ais",
+      "source": "Cryptographie FR",
+      "publishedAt": "2026-10-16T10:52:26.000Z",
+      "summary": "Neuf entreprises cryptographiques ont lancé l'Alliance Quantique pour se préparer conjointement aux attaques quantiques, mais elles ne s'accordent …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/5163083009ada58cbe961b561eb5fc8b73427097-3014x1454.png?auto=format&amp%3Bfit=crop&amp%3Bcrop=focalpoint&amp%3Bw=1200&amp%3Bh=675&amp%3Bq=75"
+    },
+    {
+      "id": "80761090c86b7a544d71073d532e15a3eed1f553",
+      "title": "IDEMIA Secure Transactions : sécuriser les transactions bancaires à l’ère du quantique",
+      "url": "https://www.bfmtv.com/economie/professionnels/focus-entreprises/idemia-secure-transactions-securiser-les-transactions-bancaires-a-l-ere-du-quantique_AB-202610160040.html?amp%3Butm_content=topic%2Ffr-cryptographie",
+      "source": "Cryptographie FR",
+      "publishedAt": "2026-10-16T07:00:00.000Z",
+      "summary": "L’arrivée prochaine de l’informatique quantique menace de rendre obsolètes les algorithmes de sécurité actuels. Face à ce défi technologique, IDEMIA …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/3nWqnQLBertamBs1wJoNtO8g4Oc=/0x0:1600x900/1600x0/images/IDEMIA-Secure-Transactions-2365817.jpg"
+    },
+    {
+      "id": "84aef008673814fc82e59056f22647842496f713",
+      "title": "OpenNMS - CVE-2026-111235",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/opennms-cve-2026-111235-2026-10-16",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-10-16T00:24:03.000Z",
+      "summary": "&lt;p&gt;Il s’agit d’une vulnérabilité dans les &lt;strong&gt;chaînes de filtres Spring Security&lt;/strong&gt; de l’&lt;strong&gt;API REST&lt;/strong&gt; (&lt;strong&gt;/rest/&lt;",
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": null
