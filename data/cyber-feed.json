@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T03:54:21.621Z",
+  "generatedAt": "2026-10-26T09:53:00.267Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,7 +17,7 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 106
+      "items": 105
     },
     {
       "name": "Exploit-DB",
@@ -76,6 +76,83 @@
   ],
   "items": [
     {
+      "id": "465a34880a4949b1a2858232ac0c4a485e2b1af9",
+      "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
+      "url": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-26T08:35:51.000Z",
+      "summary": "Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then rep",
+      "type": "NEWS",
+      "severity": "Moyenne",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKwJ8hpTcgaV_VMCyzQDPQQOPlZmmE3Fg-XAOrUfFazMKgVGEoT7OHQgWhyJLhCpHO6Hvp35u_YZGBfyGXAuJfpwP4BriicsNfvhPXjq4BzNyULVQPzNCWzmSIGnDLN7P2RNW2sfm15qZxLrVzpDg8FvOcGTZBhMsBFPH3IhiV1k3NdGAHFRC7kkKaOMMn/s1600/contoso.jpg"
+    },
+    {
+      "id": "0adf565d988363c0bac1e393de8b90b279d3c43c",
+      "title": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
+      "url": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-26T07:49:46.000Z",
+      "summary": "An automated campaign is using stolen GitHub tokens to plant workflows that print a repository's secrets into its GitHub Actions logs, which the attackers then download before dele",
+      "type": "NEWS",
+      "severity": "Moyenne",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipCbP2hnS9ddXqMz9cNIAMEQZWy2qX45MZnYfIuO_Zszamhl_FS7ViRp4CZcjHS6uu6A4jR_S4vBzHzoMNtAb0CbaGxHxj2F07wuKWHfSbsFUov-4dsQWUNJZwfGbnfThW1sAQZ61y5ibqyhlW1iBmbWeSwE1gKHsigRRXaql9P96aFANb3al6vno7fuA/s1600/github-secrets.jpg"
+    },
+    {
+      "id": "0c6dddf0ab3b89c8441a5f12114027e175dcfd9a",
+      "title": "850 000 plaques d’immatriculation en vente avec le nom et l’adresse des propriétaires : gare aux fausses amendes",
+      "url": "https://www.lesnumeriques.com/voitures-co/850-000-plaques-d-immatriculation-en-vente-avec-le-nom-et-l-adresse-des-proprietaires-gare-aux-fausses-amendes-n263777.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-26T07:30:00.000Z",
+      "summary": "Une immatriculation, un nom, un portable, une adresse de domicile : un cybercriminel affirme détenir près de 850 000 plaques françaises ainsi …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://cdn.lesnumeriques.com/optim/news/26/263777/d240ebe8-fausses-amendes-en-vue-un-pirate-vend-les-plaques-d-immatriculation-et-adresses-de-850-000-automobilistes-francais__1200_678__0-94-3008-1673.jpg"
+    },
+    {
+      "id": "ed08f12ba8ce6692b7e1a47c0bd8d84de782f5e0",
+      "title": "Codex et Claude Code peuvent être piégés par un fichier dans vos téléchargements",
+      "url": "https://www.clubic.com/actualite-635896-codex-et-claude-code-peuvent-etre-pieges-par-un-fichier-dans-vos-telechargements.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-26T07:15:00.000Z",
+      "summary": "Un fichier texte posé dans le dossier Téléchargements d’un client a poussé son agent de codage à installer un paquet npm malveillant. Les chercheurs …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/03b644fb57af9c4060a1245ca8e2e012208337df/_xlarge.jpeg"
+    },
+    {
+      "id": "877c6317ca82741e91307258e6fbe4b4192cab5f",
+      "title": "Après le PCF et LFI, le parti d’Emmanuel Macron visé par le même pirate, qui revendique 4,1 millions de données",
+      "url": "https://www.capital.fr/economie-politique/apres-le-pcf-et-lfi-le-parti-demmanuel-macron-vise-par-le-meme-pirate-qui-revendique-41-millions-de-donnees-1531265?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-26T07:01:41.000Z",
+      "summary": "En l’espace de quelques jours, plusieurs partis politiques ont été ciblés par un même hacker. Après le PCF ou encore LFI, un pirate se cachant sous …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/capital.fr/e91423850c0c1aab872b822737420c4590ba44b6/_xlarge.jpeg"
+    },
+    {
+      "id": "146dd7217cba410fe7d8a22447776e90c990c0ca",
+      "title": "Cyberattaques : votre petite entreprise est-elle vraiment prête à y faire face ?",
+      "url": "https://www.clubic.com/actualite-634936-cyberattaques-votre-petite-entreprise-est-elle-vraiment-prete-a-y-faire-face.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-26T06:30:00.000Z",
+      "summary": "Votre activité se développe et vous passez progressivement d’un projet parallèle à une véritable activité professionnelle dont dépendent vos revenus. …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/83ddc31a43dd64f3a3a31e879eaff7ee08321aad/_xlarge.png"
+    },
+    {
+      "id": "e2cd54fa72b6c4140b2a74c50b07e08462d387d1",
+      "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
+      "url": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-26T06:03:48.000Z",
+      "summary": "A malicious instruction file sitting in a developer's Downloads folder tried to make their AI coding agent install a known-malicious npm package, security firm Forever Security sai",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6cUQufM8zcABLKEfGt5xpGX34mUnThXvptS6o1GfAv8Ak_FO__f-rsT0GPf1Nro1NSRQuUsEGJl1boXq5Rt-IMFOnHunESsqj4sfJ_ypu9qhRgva3V0OqPN04FAKvOw0Y0KeKUvgG_RzWvA7u6piuPvLIaTJG2mbeWRRgFJB2vziZdJbkU1dN2nfwBf8/s1600/codex.png"
+    },
+    {
       "id": "ec61ef88bc61dbc34281834b80969e015cff7063",
       "title": "Ce que l’on sait des cyberattaques qui ont touché LFI, Renaissance et le Parti communiste",
       "url": "https://www.huffingtonpost.fr/politique/article/ce-que-l-on-sait-des-cyberattaques-qui-ont-touche-lfi-renaissance-et-le-parti-communiste_344918.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -110,11 +187,11 @@
     },
     {
       "id": "83f0cb8fb63bd49cb25891e40c3f7b168b30197d",
-      "title": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
+      "title": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity",
       "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
       "source": "The Hacker News",
       "publishedAt": "2026-10-25T17:19:46.000Z",
-      "summary": "Threat actors have been observed using agentic artificial intelligence (AI) platforms for post-exploitation activity following the abuse of the PHP2Shell vulnerabilities tracked as",
+      "summary": "In an update, Palo Alto Networks Unit 42 said it's retracting its earlier assessment that the post-compromise activity targeting the European government agency involved the exploit",
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzK2qokKedMIUzd876s0EWaLDb7qw-DMzlFWKvmfgCzMKZ2KVvdpZ-298SoEm1_PP6aoEBc6q1LAydnANGur1FbFNmXmhlo6zHtRFvgRcbx-LOoDoM_-JI-_7XkkM4r5q3LQH1SdfirarXTGeiu16d5YMDSeYs8tfJn5ITfRQ4DThbqkq66b4WdDQcOJqf/s1600/php2shell-exploit.jpg"
@@ -161,7 +238,7 @@
       "summary": "La fuite massive de plus de 420.000 mails issus de l’AfD révèle des propos racistes, antisémites et relance une affaire de financement illégal datant …",
       "type": "LEAK",
       "severity": "Info",
-      "imageUrl": "https://leseng.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_extra_big/2026/10/25/node_778999/33834870/public/2026/10/25/109836984.jpeg?itok=zEDIQCoC1792941445"
+      "imageUrl": "https://leseng.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_extra_big/2026/10/25/node_778999/33834870/public/2026/10/25/109836984.jpeg?itok=zEDIQCoC1792958282"
     },
     {
       "id": "652cd9c3c4148bcdd519946561a948c0f5ae0d9b",
@@ -173,17 +250,6 @@
       "type": "NEWS",
       "severity": "Élevée",
       "imageUrl": "https://static.actu.fr/uploads/2026/10/811a0000e1da6751a0000e1da491a0v.jpeg"
-    },
-    {
-      "id": "986a55a39bcb8cf3f688acb43a32bedfcfe06fba",
-      "title": "Un hacker revendique une fuite de 4,1 millions de données chez Renaissance, le parti dément toute « intrusion »",
-      "url": "https://www.leparisien.fr/politique/un-hacker-revendique-une-fuite-de-41-millions-de-donnees-chez-renaissance-le-parti-dement-toute-intrusion-25-10-2026-IGEGGHH35NHKBGY6MZTZAGH724.php?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-25T12:12:37.000Z",
-      "summary": "Un hacker a revendiqué la fuite de 4,1 millions de données provenant de Renaissance, ce que le parti macroniste dément. Il s’agit du même pirate que …",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://www.leparisien.fr/resizer/8ANK-jC3G_8SfH5URVG2iMDqgtY=/1600x900/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/SJRUSLN3KBASXEBTYYNNXZ7WKM.jpg"
     },
     {
       "id": "4dbf6d296267337296cdd774eee63b9adb54eee7",
@@ -307,17 +373,6 @@
       "imageUrl": "https://www.zataz.com/wp-content/uploads/Chimeraz_politiques.jpg"
     },
     {
-      "id": "91bffe5c62b5cc4244e60274a218fb737443e64b",
-      "title": "Piratage au Parti communiste, le fichier de 190 000 adhérents et sympathisants est dans la nature",
-      "url": "https://www.capital.fr/economie-politique/piratage-au-parti-communiste-le-fichier-de-190-000-adherents-et-sympathisants-est-dans-la-nature-1531250?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-24T21:00:59.000Z",
-      "summary": "Le Parti communiste français (PCF) a annoncé avoir fait l'objet d'une fuite de données, concernant environ 190 000 adhérents et sympathisants. Ces …",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/capital.fr/ab0e4698ba28ba3599b722dffee0fc0ff9bea248/_xlarge.jpeg"
-    },
-    {
       "id": "5f6d2193a2ccf426d6a0d906f0e2099d0b3a18aa",
       "title": "WhatsApp en Afrique : piratages et arnaques se multiplient",
       "url": "https://www.france24.com/fr/vid%C3%A9o/20261024-whatsapp-en-afrique-piratages-et-arnaques-se-multiplient?amp%3Butm_content=topic%2Ffr-actualit%C3%A9s",
@@ -345,7 +400,7 @@
       "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
       "source": "The Hacker News",
       "publishedAt": "2026-10-24T11:09:29.000Z",
-      "summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python Brotli and brotlicffi packages, and Envoy p",
+      "summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, Microsoft's .NET, the Python Brotli and brotlicffi pac",
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxIIerJT3LOMCGn3nXAnmhaHzJlJnVJCso1COluq8t3WuF4IpNARa_Asl5nEhRUDTEcR89kwzo5vGmP5IyNbj1ncdaCpkhqcHUODHAd3khanaE-7N8Vb0NyEJkmPmNkhSpJtLCLgi9srDRhZLtM5n8UDI58F797ZJaVzC7JzjPLfca4NpxZr_7tCX8RIk/s1600/br-nodejs.jpg"
@@ -414,7 +469,7 @@
       "summary": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it",
       "type": "NEWS",
       "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuy-T7iQPeiRqkJd7yhxd2WVQzxURRnLyHG9yz5fUXxIhjUW-bv_yAAt13dnTE1ecuh1w6cRjenRXL3In2b55rL22lXnBhpKrVvS9c5Qb6Bv0TeQPLeAXYoafNYnqYxYQwWnZBCO3e8ZW-HS8Y2GMbQuGz58-_wG7gT6Pcok3j53J4iiZ7jw6kLoGGtWU/s1600/popcorn.jpg"
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0sIO412EzdDtlngPmg_icDaIn3Mb1ODDcIEPLJMLpatt8TkMHFUFK63rBJVBb72s6uV_KvpRPfKISPfLtznJpsy7_HLaxigKAZP3hvqiGF-gkqKqYi-6tEvyPV_UhUpRGf1bREenTlzt7o9OIs4LfdXy9VekUesPsb5OWcVr7X-JlCeieU0V419GJ3rNY/s1600/popcorn-botnet.jpg"
     },
     {
       "id": "eea1aa8e0eaf643423f106942fbf174bb12aea13",
@@ -582,17 +637,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxH9YdfH7FHfSBJt7wrnd1P2hTQG6_2rpkp3YBqp2Yd49nYy4-a0zmvk5mqKlXH4DWfRO4Q4MmzLG4_t19me5rErcvoEpGJ5Q8LYty_GXXys63QC8HlO3G2jRC9f5vJd1BDiOp4APzxV4rSbFOZY80zIUmxvJ8V6isB-eDy9e9tVWaLR53fpPO80mzn_BH/s1600/uk-russia.jpg"
     },
     {
-      "id": "2e41bbb8acd441bb9adc408f3702dc78a4d1fe4e",
-      "title": "Plus de 11 millions de comptes concernés : Capcom a subi une cyberattaque d’envergure",
-      "url": "https://www.presse-citron.net/plus-de-11-millions-de-comptes-concernes-capcom-a-subi-une-cyberattaque-denvergure/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-23T11:00:58.000Z",
-      "summary": "Le studio de jeu vidéo Capcom a indiqué avoir été victime d’un piratage. 11 millions de comptes sont concernés.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/presse-citron.net/2b730904ad78af2c80d100c8453ee09bd9df1bef/_large.jpeg"
-    },
-    {
       "id": "f75bdaee87867ec38f32dcbe980a94eb10650bca",
       "title": "Piratage de la FFTir : la Fédération confirme le vol",
       "url": "https://www.zataz.com/piratage-de-la-fftir-la-federation-confirme-le-vol/",
@@ -679,17 +723,6 @@
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3SkRCDhjMsUS2FZ9ES40x39o7u2jdwMQDcq4NC75CsC2Xjji94ZZt_0Jgzdxmbf92n3razC07QvKJ-VT65axzIbXWoYrHytaQhNRBdYEMgmb1Fki-gR2NKY1TXuhpb9lcCemaPSqu8E0Q6KVczRNa97_7tj5Vyt0wngICj6GnWEHphW8fpaSybzKAa-pV/s1600/phpshell.jpg"
-    },
-    {
-      "id": "d5f9f00117105eafc7d8b8a248a5e2baf1846e7c",
-      "title": "« L’attaquant a récupéré 64 000 photos d’identité » : la Fédération française de tir victime d’une cyberattaque massive",
-      "url": "https://www.presse-citron.net/lattaquant-a-recupere-64-000-photos-didentite-la-federation-francaise-de-tir-victime-dune-cyberattaque-massive/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-23T07:30:04.000Z",
-      "summary": "Une cyberattaque d’ampleur a touché la Fédération française de tir. Des milliers de photos et de documents ont été dérobés.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/presse-citron.net/057fc62f8bf536c85b97fc1fffae914fa47b7f49/_large.jpeg"
     },
     {
       "id": "0dd5f2da7f8b34c9765a5e73d33d2fdc779d6998",
@@ -1693,17 +1726,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNWLuogjq0EVRQo6oTMUucF21anDW9Jpvs5w98qm-I6hOqH4fU1ZeHA1DqNilI_drxE548BnZD4vkXfB3KmWXAm4xfU3KU3j38LI-ZXhB03kZy4rWc9qiQqSED6vVjxihA1-uM_46qlXjjDchlvKmtgFG-ym3oosqXFEED6w2mG_Zb-yHjq4IIPcFDeX13/s1600/cisa-patch.jpg"
     },
     {
-      "id": "50fc70c95153e4a9cda52e6f5a5f24506fce04b2",
-      "title": "Hackers Hid Vasilek Backdoor in VMware Tools During 2-Year Russian Healthcare Intrusion",
-      "url": "https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-21T06:05:15.000Z",
-      "summary": "A Belarus-aligned hacktivist group spent nearly two years within the network of a Russian healthcare organization. According to a report published by Russian cybersecurity firm Sol",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwNHgVe_6hmXG-V6Nx8pk56jDEW1WRCKtvvG9RHugoj65LqTTVGLvgl1Eh1E7ClmyMDn9k4RrF7Yp1kteZvZ_r7v9IxQPG_Eif3nk_13gz_MSddPcBtJdLKFwYAPa4BKMN5FdZLvvTIjahr4aTdiiLeQMuVzrj8Ff9wvgmUCW_6_OyfXPSGIEEIxZgdtQ-/s1600/vmware-healthcare.jpg"
-    },
-    {
       "id": "bf4b8aff1b7b20a4ad7f770788c9ad906589e97a",
       "title": "Apache - CVE-2026-101356",
       "url": "https://cyberveille.esante.gouv.fr/alertes/apache-cve-2026-101356-2026-10-21",
@@ -2043,28 +2065,6 @@
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
-    },
-    {
-      "id": "4a5af93e216bbfae6c2a5c9fc1ce586d834eeca4",
-      "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
-      "url": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-20T17:09:53.000Z",
-      "summary": "The private keys of eight eMudhra intermediate certificate authority (CA) certificates are compromised, Mozilla and Google's Chrome Root Program confirms on October 20. An intermed",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJOWLzgriXXM626bAOaX_LEoNH97Ab_XV4oQ0GxBeY3-PqkdXdcae52-wrl8r0LipTFBsvl4R7Y5j6jFsiG_9V8ZAwHOkAlsZaRcOAswStHhAG1FYm9W6kjA4FmOz0bXgVXO6LyEs9Fv75UrRFphZEzhXodKdTlYzfPK8sqW3DpxKBnD7OFQfqJJ_ay2c/s1600/ecert.jpg"
-    },
-    {
-      "id": "9d237a1b56b3b2920442148d727ced2b0068d909",
-      "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
-      "url": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-20T15:38:52.000Z",
-      "summary": "Cybersecurity researchers have released a proof-of-concept (PoC) exploit for a recently patched critical security flaw impacting Fortinet FortiSIEM that could result in arbitrary c",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3BuJLxcpzxzxwpUcwsPb7L-gNCeXeyuPtNysOMHtf06VmANCx2DR3O52Puw9AQwUu0C8ccQ77MF_l0bAf4zL-hrvYO8jSHs6Km0Xz6-Q4yYm1thRvJ-y59qLRX9Qni0zD161qJ53oCgzEIo3NjOLKtgOrIAbOMsAhITOhL9qoy2v9D6tRU26m0fBoMDhJ/s1600/fort-poc.jpg"
     },
     {
       "id": "6e6826a95188560c79502fa455e2dba8a75c8231",
