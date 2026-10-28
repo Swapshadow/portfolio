@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T08:01:03.408Z",
+  "generatedAt": "2026-10-28T16:28:21.444Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,7 +17,7 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 110
+      "items": 115
     },
     {
       "name": "Exploit-DB",
@@ -76,6 +76,259 @@
   ],
   "items": [
     {
+      "id": "19369717d9d1d9e34e98c008913bbd7179be51fc",
+      "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
+      "url": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-28T16:02:45.000Z",
+      "summary": "Cybersecurity researchers have disclosed details of what appears to be an artificial intelligence (AI)-assisted attack orchestrated by a suspected China-nexus threat actor that has",
+      "type": "LEAK",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgl3PPkqzXf7YyMcnwdBu5XWlOwWtUonf15z0n79qMtIOVTb4LNfKdnl7tUK-45_2boP9r2ZKuHmX6e1BZLmo-LYF-rUwH8gtNrynFuaX4rlNh20UXPvtIfC85BcKcHXK1qei6uOJyImSjTfO537yljJve0Y_zMlfFfhBl0mKPfppWhkfojtGlYgxLjdSO0/s1600/php-united.jpg"
+    },
+    {
+      "id": "43cd91f293313faf2aa68ebfd3e20f829143504b",
+      "title": "« Un bug éternel » : cette faille critique se cache dans le démarrage de la plupart des serveurs du monde, et la corriger relève du casse-tête",
+      "url": "https://www.numerama.com/cyberguerre/2362669-un-bug-eternel-cette-faille-critique-se-cache-dans-le-demarrage-de-la-plupart-des-serveurs-du-monde-et-la-corriger-releve-du-casse-tete.html?amp%3Butm_source=flipboard&amp%3Butm_content=directlink&amp%3Butm_campaign=2362669",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-28T15:50:57.000Z",
+      "summary": "Une vulnérabilité critique dans EDK2, le code sur lequel repose le démarrage de l’immense majorité des serveurs, permet d’exécuter du code avant même …",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/10/design-sans-titre-2026-10-28t155341549.png?resize=1600%2C900&amp%3Bkey=88c1e30a"
+    },
+    {
+      "id": "ff04ee6442a6b3232eb60d52db4473bbcc270677",
+      "title": "Franck Kié (Cyber Africa Forum) : « Dans la cybersécurité, l’investissement le plus important reste le capital humain »",
+      "url": "https://www.lopinion.fr/economie/franck-kie-cyber-africa-forum-dans-la-cybersecurite-linvestissement-le-plus-important-reste-le-capital-humain?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-28T15:30:00.000Z",
+      "summary": "Les faits - Franck Kié est commissaire général du Cyber Africa Forum, qui aura lieu à Cotonou, au Bénin, les 16 et 17 novembre. Face à des attaques de …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://beymedias.brightspotcdn.com/dims4/default/2042bbc/2147483647/strip/true/crop/3000x1458+0+51/resize/1440x700!/quality/90/?url=http%3A%2F%2Fl-opinion-brightspot.s3.amazonaws.com%2F0e%2Ff2%2F9e3adc6c87c61e39332e33023a01%2Fcyber-securite-pays-reuters.jpg"
+    },
+    {
+      "id": "dbc348ce1787c409cc8ec7e8bc66a324b92f9f41",
+      "title": "230 000 comptes clients piratés : la compagnie des transports strasbourgeois victime d'une vaste cyberattaque",
+      "url": "https://france3-regions.franceinfo.fr/grand-est/bas-rhin/strasbourg-0/230-000-comptes-clients-pirates-la-compagnie-des-transports-strasbourgeois-victime-d-une-vaste-cyberattaque-3440568.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-28T15:03:23.000Z",
+      "summary": "Les données de 40 % des comptes clients ont été piratées sur le site internet de la CTS à Strasbourg (Bas-Rhin). La compagnie de transport appelle à …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/9ffc51b53e7e83dbde62744f301dcb2089c3761e/_large.jpeg"
+    },
+    {
+      "id": "1c2e5e6947d439b0e2a8450674fa5e5d56298be9",
+      "title": "Vous ne parvenez plus à accéder à MyMinfin et d'autres services ? Le SPF Finances visé par une cyberattaque",
+      "url": "https://www.dhnet.be/actu/belgique/2026/10/28/vous-ne-parvenez-plus-a-acceder-a-myminfin-et-dautres-services-le-spf-finances-vise-par-une-cyberattaque-FXSVQOHL3ZGWHBTCVA4X5YU3WU/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-28T13:37:22.000Z",
+      "summary": "Rien n'indique qu'une fuite de données ait eu lieu ou que des données aient été dérobées, précise le SPF. Les services numériques du SPF Finances font …",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://www.dhnet.be/resizer/v2/AOQRKJHLIREFXPEPZYBN63JC5A.jpg?auth=e5d808f26f206e31b8e91113d6bddc14e03978102d28a0b9a955dcceee7e3064&amp%3Bwidth=1200&amp%3Bheight=630&amp%3Bquality=85&amp%3Bfocal=549%2C367"
+    },
+    {
+      "id": "b41423a44c660fa49ec36cc24ac7f32a4045b140",
+      "title": "Cyberattaque contre les clients Starlink : une campagne de pubs malveillantes vient d'être découverte",
+      "url": "https://www.01net.com/actualites/cyberattaque-contre-les-clients-starlink-une-campagne-de-pubs-malveillantes-vient-detre-decouverte.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-28T13:00:34.000Z",
+      "summary": "Une entreprise israélienne aurait détourné un système publicitaire en ligne pour suivre des personnes à grande échelle, notamment dans plusieurs pays …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/f957b4538eb509fdf00de566e6a5b2cf56faaa67/_xlarge.jpeg"
+    },
+    {
+      "id": "4fb66db97217853183e0a8e2a3788b950d3700df",
+      "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
+      "url": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-28T12:48:03.000Z",
+      "summary": "Threat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intelligence firm Defused Cyber. The vulnerabi",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBB03AGS7veiAqQ7-xPeadzhhaRvDmhOlLgQcDN0y-r1na_us5yomWjBEXCbwbw8OW_o8SSGjjqk4VZFQ4ZxLiWKQPZxlcBkzJ5lv3OlEV0rOETUKyQzWoZ74LGpSjOjrScmk1rVf0OhRmDACHG3jwSDfBnnta75I_3s_nuoWGZmcfg7NZfHBp_PEIl8aj/s1600/oracle-hack.jpg"
+    },
+    {
+      "id": "fddfb4378f52be1177a8e0793169667f647f7b60",
+      "title": "Etats-Unis: la Commission électorale, garante de la transparence des dépenses pour les élections de mi-mandats, a été victime d'une cyberattaque",
+      "url": "https://www.bfmtv.com/tech/cybersecurite/etats-unis-la-commission-electorale-americaine-garante-de-la-transparence-des-depenses-pour-les-elections-de-mi-mandats-a-ete-victime-d-une-cyberattaque_AV-202610280520.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-28T12:38:47.000Z",
+      "summary": "L'organisme chargé de contrôler et rendre public les fonds utilisés pour les différents candidats aux élections de mi-mandats a dû mettre certains de …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/g-Zh8R62LKqlV3G76oeKOFOzO2s=/0x0:2032x1143/2032x0/images/Donald-Trump-2365062.jpg"
+    },
+    {
+      "id": "cb2195a8b016486c3813058ebc1b9a55f8471104",
+      "title": "Critical 16-Year-Old UEFI Flaw Can Run Code Before Secure Boot on Network-Booting Servers",
+      "url": "https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-28T11:50:00.000Z",
+      "summary": "A critical 16-year-old flaw in EDK II, the open-source code that most hardware makers use to build UEFI firmware, can allow an attacker to run code on a machine before its operatin",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoVVx2e6mg8LPbhDYmtubHewVD_9BI7UcctCMSwwG-h4SuOyZJOvIyTre_g9Ggo6sLw6Bjrse_1FsqKKThyiIvc5CbuYqq4caYCtUciHGg33wReFQgOjJuTX5FrnSS3OZTd_yjXt03l_kxwIX-NshU9A8wpANSdQwOWkDKzy31QdXkCD6UP21dOpfbjhg/s1600/server-bios.jpg"
+    },
+    {
+      "id": "81e750daa33b2f583f424dac6687dbaec3281974",
+      "title": "Wazuh and AI for Enhanced SOC Workflows",
+      "url": "https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-28T11:30:00.000Z",
+      "summary": "Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on A",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjo5_lgjV0zvHt5XW8CcCjQnBc_cvxOxrGxsrliXv3s9c6RD-Aw7eXOlNrp78QHxSnVO5yBgphx7KqCjkjje3YbwCFUtXUdLN4xA-sW_zVoFsK7au37XZxUPyoDRlhCIGsxc2at70I_FexwVKgdyub-XuuvwIZCy1o6hoCU50o7lhHWDSgktrcsrXkN9p8/s1600/wazuh.png"
+    },
+    {
+      "id": "02f7b29f108295bcab408e9e801d4cc36dc189c6",
+      "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
+      "url": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-28T11:15:51.000Z",
+      "summary": "Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security featu",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3z7SDPF49VtrfeTS8qZD9-Rv1ne3ZUL2KLJZklOlASYXMnjBQXmmIYZ-wAC9PR248ntUBTyZLq2G6TPVYLZ-aEN7fDFc4pcEhSbt_vj36JTbujGJ2UHTbxFDUOiDvYDyKl7NpCvSMlySdqWjPhyphenhyphenFUNTkC38Ej0biyWHeF1u4kFHCe4tkJjgCW6RCHttx_/s1600/adobe-main.jpg"
+    },
+    {
+      "id": "8c7b837c0c8c0b1608efea2cc32b97e449d3f11f",
+      "title": "Votre iPhone a besoin de cette mise à jour urgente pour réparer plus de 160 failles de sécurité",
+      "url": "https://www.journaldugeek.com/2026/10/28/votre-iphone-a-besoin-de-cette-mise-a-jour-urgente-pour-reparer-plus-de-160-failles-de-securite/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-28T11:01:20.000Z",
+      "summary": "Apple a publié une mise à jour pour l’iPhone et l’iPad, qui corrige plus de 160 failles de sécurité. Certaines sont très dangereuses, mais aucune de …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/journaldugeek.com/d3fb432505d30ee47ff5ddec70bbfd3f6b55efa9/_xlarge.jpeg"
+    },
+    {
+      "id": "4f811d3a1956a28c085a9df8b348e9dca52130e5",
+      "title": "Plaques volées : les faux SMS d’amende visent les conducteurs",
+      "url": "https://www.24matins.fr/plaques-volees-les-faux-sms-damende-visent-les-conducteurs-1423097?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-28T11:00:18.000Z",
+      "summary": "Un pirate dit avoir récupéré 847 064 plaques françaises avec des données personnelles. Le risque immédiat, ce sont des faux messages d’amende très …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/24matins.fr/edaec96832391fb23816c9301b496a804870093e/_xlarge.webp"
+    },
+    {
+      "id": "1990efe30bb97f380a1c46dd468c976855297a0f",
+      "title": "\"C'est un incident grave\" : Warhorse Studios (Kingdom Come Deliverance) victime d'une cyberattaque d'envergure",
+      "url": "https://www.gamekult.com/actualite/c-est-un-incident-grave-warhorse-studios-kingdom-come-deliverance-victime-d-une-cyberattaque-d-envergure-3050872629.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-28T10:49:00.000Z",
+      "summary": "Hier, mardi 28 octobre, Warhorse Studios (l'équipe polonaise responsable de la licence Kingdom Come : Deliverance) a signalé avoir subi une …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://cdn.gamekult.com/optim/images/news/30/3050872629/c-est-un-incident-grave-warhorse-studios-kingdom-come-deliverance-victime-d-une-cyberattaque-d-envergure-f1e1b47c__w1920.png"
+    },
+    {
+      "id": "560dd001e2f254940d8342fc3493dfdd18a4f270",
+      "title": "« C'est un incident très sérieux » Le studio derrière Kingdom Come Deliverance victime d'un hack d'envergure, quelles conséquences ?",
+      "url": "https://www.gameblog.fr/jeu-video/ed/news/kingdcom-come-deliverance-2-studio-cyberattaque-725697",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-28T10:48:54.000Z",
+      "summary": "Le studio Warhorse derrière Kingdom Come Deliverance a récemment confirmé avoir été dangereusement affecté par une cyberattaque, pour quelles …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://cdn-uploads.gameblog.fr/img/news/725697_6ae1d27497f90.jpg"
+    },
+    {
+      "id": "2fb9a8a39ae90f7f9536b02336c4c81cc43f7bcb",
+      "title": "Une fausse boutique TikTok est l'arnaque par hameçonnage la plus bloquée par Surfshark, voici comment l'éviter - ZDNET",
+      "url": "https://www.zdnet.fr/actualites/une-fausse-boutique-tiktok-est-larnaque-par-hameconnage-la-plus-bloquee-par-surfshark-voici-comment-leviter-506684.htm",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-28T10:43:51.000Z",
+      "summary": "Selon Surfshark, les tentatives de hameçonnage bloquées ont augmenté de 83 % en six mois, principalement à cause d’une boutique TikTok. Voici comment …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.zdnet.fr/wp-content/uploads/zdnet/2026/10/tiktok-use-scaled.webp"
+    },
+    {
+      "id": "02999664dbdd5e46a161cf37809c8e6950819ed1",
+      "title": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed",
+      "url": "https://thehackernews.com/2026/10/american-organizations-under-attack.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-28T10:30:00.000Z",
+      "summary": "Modern phishing campaigns can compromise American businesses without relying on traditional credential theft. Attackers can abuse legitimate cloud services, authentication mechanis",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgf2g4rsWnZ5eQP03cr-4e99MQStvJmuaTTi91WESG3ua1ddAW73T6X22gyaspj2SirqH-1bSAU9VkOg2F1Kh9TLmPc4jYsNAlD72S2XzCeTTRHSiN3B7is7roWwIMcIm__yRu8SkUBbyeWxAEBo5Fe-bbACZWRuoxZqv_pysQ9iMsZRHPCD_clJZsNIDs/s1600/anyrun-main.jpg"
+    },
+    {
+      "id": "a2be8fca1a54750e3eb61f6d9ff41b7aabc27915",
+      "title": "Un cybercriminel annonce avoir piraté 905.000 plaques d’immatriculation : quels sont les risques pour les automobilistes ? | TF1 Info",
+      "url": "https://www.tf1info.fr/justice-faits-divers/videos/video-un-cybercriminel-annonce-avoir-pirate-905-000-plaques-d-immatriculation-quels-sont-les-risques-pour-les-automobilistes-60241-2472480.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-28T10:20:10.000Z",
+      "summary": "Un cybercriminel annonce avoir piraté 905.000 plaques d’immatriculation : quels sont les risques pour les automobilistes ? Un cybercriminel annonce …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://photos.tf1info.fr/images/1280/720/piratage-de-905-000-plaques-d-immatriculation-quels-sont-les-risques-pour-les-automobilistes-c261c3-0@1x.jpeg?overlayImage=bG9nby10ZjFpbmZvLWRlZmF1bHQucG5n&amp%3BoverlayWidth=18&amp%3BoverlayGravity=northwest&amp%3Bs=78c802"
+    },
+    {
+      "id": "79339772e07aff367c898e7e6ae15b1b0b8b9022",
+      "title": "L’application LCL est en panne ce mercredi matin : les signalements se multiplient",
+      "url": "https://www.numerama.com/cyberguerre/2362209-lapplication-lcl-est-en-panne-ce-mercredi-matin-les-signalements-se-multiplient.html?amp%3Butm_source=flipboard&amp%3Butm_content=directlink&amp%3Butm_campaign=2362209",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-28T09:21:18.000Z",
+      "summary": "De nombreux clients de LCL signalent depuis ce matin des difficultés pour utiliser l’application mobile de la banque. Les signalements sont en hausse …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.numerama.com/wp-content/uploads/2026/10/Lcl_logo.svg_.webp"
+    },
+    {
+      "id": "18d986690c6b49846c761815b3ea7e19097558dc",
+      "title": "Cyberattaque contre Engie : une fuite de données touche les clients en France",
+      "url": "https://www.01net.com/actualites/cyberattaque-contre-engie-fuite-donnees-touche-clients-france.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-28T08:59:43.000Z",
+      "summary": "Engie a prévenu certains de ses clients d’un « acte de cyber-malveillance ». La cyberattaque a exposé les données personnelles d’une partie des …",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/310d81950c734e6cdc9f2657a92e8e6a2266407d/_xlarge.jpeg"
+    },
+    {
+      "id": "bdc5fe63753383e0f562468bdccd17eea7b02c0d",
+      "title": "Vu plus de 70 millions de fois, ce show Netflix en 6 épisodes est porté par une véritable légende d'Hollywood",
+      "url": "https://www.purepeople.com/article/vu-plus-de-70-millions-de-fois-ce-show-netflix-en-6-episodes-est-porte-par-une-veritable-legende-dhollywood_a555581/1?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-10-28T08:35:00.000Z",
+      "summary": "Avec plus de 73 millions de vues sur Netflix, la mini-série à suspense \"Zero Day\" s'est imposée parmi les succès de la plateforme, portée par Robert …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://static1.purepeople.com/uploads/3b/60/30/f7/2b7cc2c40ce631a5-1200x630-1.jpg"
+    },
+    {
+      "id": "2d7a9b1a7160d4467900715f21f3b624648589a5",
+      "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
+      "url": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-28T08:15:07.000Z",
+      "summary": "An unreleased Anthropic AI model found security flaws in Chrome, Safari, Android, Windows, and Linux and chained them into working proof-of-concept exploits, the company said in it",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSMl2C6S6mb-smamI35fLYotcPaercI_2PIgtuF78Q7PtQcFvFUKXkModTW4nRCh6FC7Xht2BltSGImRS2QNR4Lnc22S7UBU9V_0UDcZi2iDNXSlCJDqD4ApmJPqA_boFokj_9dTWKdzhjIgNt_Y47zumx_c5vrcJn5Vd-Xaowafv4HGCzCcqgDV4GGpo/s1600/hacker-chain.jpg"
+    },
+    {
+      "id": "cca73d5f1e563394ae664f9409d10394265151ec",
+      "title": "FBI Seizes Virtualine Domain Over Alleged Criminal Hosting and Bitcoin Money Laundering",
+      "url": "https://thehackernews.com/2026/10/fbi-seizes-virtualine-domain-over.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-10-28T07:37:50.000Z",
+      "summary": "The U.S. Department of Justice (DoJ) on Tuesday announced the seizure of a domain associated with a bulletproof hosting provider (BPH) named Virtualine. The move was in response to",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAdfKblTUCEDUoHzYpHPcEPzHO6qKTr01uG2-x7YyIT5t_-xeFc27zuZ3yOK76rkhz-J8y_Z4MqmydEQUtiCEvry_2H43qaSJXDrWRbM1gs8wDVTBgi_NzxIXsGBMoX8zlzISFlvcJ8NdNSyeMIZh8z-aHkXCyBDPJ2l195Ji1XgnVu_A0Yhh3H2QvEyiA/s1600/servers.jpg"
+    },
+    {
       "id": "b0da1021d899884dc60fddff84e01a699c32aa5e",
       "title": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
       "url": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html",
@@ -85,17 +338,6 @@
       "type": "LEAK",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguDDZZalFBPLgf4YxDU_9FK46XXVkU3x0GKHeZHFd2WTdJ0cK5n1KCWDEOIvSgzHP4R14xmwLygLnnmyuBEVcHRVO7b9nIUZVcp5ehxIgFGrPyXZ3hZGwNa2bg8k4e_kkSHa2tyo05yPortQqRR_9g3yr-T0k0Tga9_26Pr0rs_MNIU8RndHMeq9r5Rr0/s1600/gmo.jpg"
-    },
-    {
-      "id": "d967a94498f43ed446f3fc407a9778a656b6cb28",
-      "title": "Antivirus : le prix de la première année cache parfois une forte hausse au renouvellement",
-      "url": "https://www.lesnumeriques.com/antivirus/prix-antivirus-2026-tarifs-renouvellements-et-appareils-couverts-a248923.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-28T07:00:00.000Z",
-      "summary": "Combien coûte un antivirus en 2026 ? Ce guide compare les prix de première année, les renouvellements, le nombre d’appareils couverts et les …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://cdn.lesnumeriques.com/optim/article/24/248923/cd9aa837-meilleurs-antivirus-pas-chers-2026-comparatif-avis-et-offres_png__1200_678__overflow.jpg"
     },
     {
       "id": "d9d5c973ff7dcc86df7f40a01b1b4bc5622c6f5e",
@@ -135,7 +377,7 @@
       "title": "Inquiétude des services de renseignement européens sur la persistance de la menace iranienne en Europe",
       "url": "https://www.lemonde.fr/international/article/2026/10/28/inquietude-des-services-de-renseignement-europeens-sur-la-persistance-de-la-menace-iranienne-en-europe_6801523_3210.html?amp%3Butm_content=topic%2Ffr-actualit%C3%A9s",
       "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-28T04:00:38.000Z",
+      "publishedAt": "2026-10-28T04:00:26.000Z",
       "summary": "Projets d’assassinats, incendies criminels, actes de sabotage, cyberattaques… Une menace iranienne durable et globale pèserait aujourd’hui sur les …",
       "type": "NEWS",
       "severity": "Info",
@@ -153,15 +395,191 @@
       "imageUrl": "https://ic-cdn.flipboard.com/rfi.fr/fd16245f3aa33bb3cb6038abce0ab3ab206dbd45/_xlarge.jpeg"
     },
     {
-      "id": "6cb68f9b9ab2a729242e562d8931d1384cdc8789",
-      "title": "De premières cyberattaques exploitant les failles PHP ont été repérées, le gouvernement américain sonne l’alarme",
-      "url": "https://www.lefigaro.fr/secteur/high-tech/de-premieres-cyberattaques-exploitant-les-failles-php-ont-ete-reperees-le-gouvernement-americain-sonne-l-alarme-20261027?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-27T19:36:41.000Z",
-      "summary": "Des rapports préliminaires ont fait état de tentatives d’intrusion exploitant les failles de ce code informatique essentiel à l’internet mondial, …",
+      "id": "3c732b4ff022947892069435664abc30bd6bb176",
+      "title": "Google - CVE-2026-118348",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/google-cve-2026-118348-2026-10-28",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-10-28T01:18:21.000Z",
+      "summary": "&lt;p&gt;Il s’agit d’une vulnérabilité dans &lt;strong&gt;Skia&lt;/strong&gt;, la &lt;strong&gt;bibliothèque graphique 2D&lt;/strong&gt; utilisée par &lt;strong&gt;Google Chrome&lt",
       "type": "CVE",
       "severity": "Élevée",
-      "imageUrl": "https://i.f1g.fr/media/cms/1200x630_crop/2026/10/27/2fd8036ba588ba0eaa09d10c54c57794cbe189d99b593a5fa6e510107de3d65b.JPG"
+      "imageUrl": null
+    },
+    {
+      "id": "3790476599d18e7bd841bd702d68c71b3d85a4a2",
+      "title": "Mozilla - CVE-2026-117870",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/mozilla-cve-2026-117870-2026-10-28",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-10-28T01:17:29.000Z",
+      "summary": "&lt;p&gt;Il s’agit d’une vulnérabilité dans le &lt;strong&gt;moteur JavaScript&lt;/strong&gt; de &lt;strong&gt;Firefox&lt;/strong&gt;, &lt;strong&gt;Firefox ESR&lt;/strong&gt; et &",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "c9eb1df28fa3f83e4609f3609976493cadc9e561",
+      "title": "TeamViewer - CVE-2026-111585",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/teamviewer-cve-2026-111585-2026-10-28",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-10-28T01:15:59.000Z",
+      "summary": "&lt;p&gt;Il s’agit d’une vulnérabilité dans le &lt;strong&gt;composant de traitement de l’écran&lt;/strong&gt; en &lt;strong&gt;contrôle à distance&lt;/strong&gt; des clients &lt;s",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "e0d5b81849028c9e0f3befefc9b5816339b3338e",
+      "title": "Veeam - CVE-2026-108142",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/veeam-cve-2026-108142-2026-10-28",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-10-28T01:15:17.000Z",
+      "summary": "&lt;p&gt;Il s’agit d’une vulnérabilité dans le &lt;strong&gt;service CDP Coordinator&lt;/strong&gt; de &lt;strong&gt;Veeam Backup &amp;amp; Replication&lt;/strong&gt;.&lt;/p&gt; &l",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "d751b4a5e3da678e5f5a4bc1c8e915ae6b626354",
+      "title": "Dell - CVE-2026-94346",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/dell-cve-2026-94346-2026-10-28",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-10-28T01:14:31.000Z",
+      "summary": "&lt;p&gt;Il s’agit d’une vulnérabilité de type &lt;strong&gt;traversée de répertoire&lt;/strong&gt; (path traversal) dans &lt;strong&gt;Dell PowerProtect Data Domain Virtual Editio",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "9a083e96fe99078ba8e2de094cc5d585fb1dab45",
+      "title": "Multiples vulnérabilités dans Metabase (28 octobre 2026)",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1403/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-10-28T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Metabase. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "a4a3a9df7187094e624729559f6a81336aca1814",
+      "title": "Multiples vulnérabilités dans les produits Veeam (28 octobre 2026)",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1399/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-10-28T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Veeam. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance,",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "4ffbfc1a0a325dac304ebee7cf4545262433b0e0",
+      "title": "Multiples vulnérabilités dans Palo Alto Networks PAN-OS (28 octobre 2026)",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1402/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-10-28T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Palo Alto Networks PAN-OS. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance. Palo Alto ",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "52b08e5a82356030714b6ee4254343e5d33dffb0",
+      "title": "Vulnérabilité dans CPython (28 octobre 2026)",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1397/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-10-28T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans CPython. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "5347258f68b88d986a98b94b31fad62f5bd50339",
+      "title": "Multiples vulnérabilités dans Google Chrome (28 octobre 2026)",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1398/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-10-28T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "47d1254563a145335e1b9cb2ee09800b0cfcc9c2",
+      "title": "Multiples vulnérabilités dans Mitel OpenScape Endpoint Management (28 octobre 2026)",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1404/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-10-28T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Mitel OpenScape Endpoint Management. Elles permettent à un attaquant de provoquer une élévation de privilèges et un contourneme",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "2501d0469a19d930588a76bc650fcb7593e2e5dc",
+      "title": "Vulnérabilité dans les produits Belden (28 octobre 2026)",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1407/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-10-28T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans les produits Belden. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "e840d7a0d33816c18f641dcede6950cfa305cc1e",
+      "title": "Vulnérabilité dans Axis Camera Station Pro (28 octobre 2026)",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1408/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-10-28T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans Axis Camera Station Pro. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données.",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "4119b67cf889b33e9125e7e0a105fc5a6d1e1777",
+      "title": "Multiples vulnérabilités dans Docker Desktop (28 octobre 2026)",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1401/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-10-28T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Docker Desktop. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement ",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "0f018c21276bd965982d787f787fd794cb302306",
+      "title": "Multiples vulnérabilités dans Microsoft Edge (28 octobre 2026)",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1405/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-10-28T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un contournement de",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "12526e5788c86774a8bfd7010e9ae99a41175963",
+      "title": "Vulnérabilité dans Samba (28 octobre 2026)",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1400/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-10-28T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans Samba. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un c",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "d70999611b7503832c8ee065a756dfa9191c15cd",
+      "title": "Multiples vulnérabilités dans les produits Mozilla (28 octobre 2026)",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1406/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-10-28T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distanc",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
     },
     {
       "id": "39155633cd3a567aac2d311a27955c27520c3ea3",
@@ -239,17 +657,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": null
-    },
-    {
-      "id": "4ba3a08738944b4fa52855b12a92e2e0c45aafae",
-      "title": "Même hébergé en local, un modèle d’IA d’Alibaba a tenté d’envoyer un fichier vers Pékin",
-      "url": "https://www.numerama.com/cyberguerre/2361731-meme-heberge-en-local-un-modele-dia-dalibaba-a-tente-denvoyer-un-fichier-vers-pekin.html?amp%3Butm_source=flipboard&amp%3Butm_content=directlink&amp%3Butm_campaign=2361731",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-27T15:09:09.000Z",
-      "summary": "Lors d’un test mené par l’entreprise d’IA Cohere sur ses propres serveurs, un modèle Qwen3.8 d’Alibaba a tenté, sans qu’on le lui demande, de déposer …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/04/design-sans-titre-2026-04-13t102810038.jpg?resize=1600%2C900&amp%3Bkey=02f94235"
     },
     {
       "id": "03ae6c120acdd5b3f53cc7b0a339c35df3bdbf6a",
@@ -384,17 +791,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwoWz3Ex4w0TebsrzDSdna5WAjqoQx5EHWC1kY3db9VgMg6FrGK6VbncVA9b3tKdPnqlR6qmdwsq7CT1f-Cp57WpH6lpfoF-5zb_Xg-ahdsNxO4OUTsdDVeO_8s7SQFLp54SrsWlWrZn-37sAcqv1ZeG_7Yc62vQ5X9Tq-MlIEm6EOQOiTkQVlcy9F4VG4/s1600/korean-malware.jpg"
     },
     {
-      "id": "2a0718e6e0f436b79903110847df453a6b1d8d2f",
-      "title": "Ce bug vieux de 16 ans met en danger des millions de routeurs et il pourrait ne jamais être corrigé",
-      "url": "https://www.phonandroid.com/ce-bug-vieux-de-16-ans-met-en-danger-des-millions-de-routeurs-et-il-pourrait-ne-jamais-etre-corrige.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-27T11:12:31.000Z",
-      "summary": "Un chercheur en cybersécurité dévoile une faille affectant de nombreux routeurs à travers le monde. Elle concerne un composant de Broadcom, qui dit …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://wp-pa.phonandroid.com/uploads/2026/10/Routeur-Wi-Fi.jpg"
-    },
-    {
       "id": "7f00caa0a0cb132cc8126b4e0317b34471bd5fe4",
       "title": "L’IA chinoise open source Qwen vous espionne-t-elle pour le compte de Pékin ? Ce test inquiète",
       "url": "https://pix-geeks.com/ia-chinoise-open-source-qwen-espionne-pekin/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -461,17 +857,6 @@
       "imageUrl": null
     },
     {
-      "id": "cb8d50db1ebf7524afec2a7fc6e3f8b2875f5071",
-      "title": "Des hackers prorusses affirment détenir les données bancaires de 25 000 clients La Poste Mobile : « on a tout, les RIB, les pièces d'identité »",
-      "url": "https://www.gameblog.fr/trends/des-hackers-prorusses-affirment-detenir-les-donnees-bancaires-de-25-000-clients-la-poste-mobile-on-a-tout-les-rib-les-pieces-didentite-725547",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-27T07:00:00.000Z",
-      "summary": "25 000 clients, un IBAN visible, un site hors service... La Poste Mobile dans la tourmente après une double revendication de piratage. Vol réel ou …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://cdn-uploads.gameblog.fr/img/trends/725547_6ae054fbc528c.jpg"
-    },
-    {
       "id": "9d92f5732775a6ee8532936b5d9dd4ee26168c10",
       "title": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
       "url": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",
@@ -492,17 +877,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://img.lemde.fr/2026/08/13/0/0/3000/2000/1440/960/60/0/b209c70_upload-1-ua9i0nzqv5fp-papier-482.jpg"
-    },
-    {
-      "id": "e8099df7eecfe9277ef8da6c6ce06ceb43d52543",
-      "title": "\"Bonjour, pourrais-tu voter pour...\" : attention à cette nouvelle arnaque WhatsApp",
-      "url": "https://www.bfmtv.com/replay-emissions/bfm-premiere/video-bonjour-pourrais-tu-voter-pour-attention-a-cette-nouvelle-arnaque-whats-app_VN-202610270120.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-27T06:00:07.000Z",
-      "summary": "Il peut permettre à un pirate de prendre le contrôle de votre compte et de vos données.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/u_W6yqDEECA2FuxXOvYzTW1a7gc=/0x0:1280x720/1280x0/images/Bonjour-pourrais-tu-voter-pour-attention-a-cette-nouvelle-arnaque-WhatsApp-2372765.jpg"
     },
     {
       "id": "ef4acc1eee8fd9db1249f785dd87703891fe6791",
@@ -725,28 +1099,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWGYEqFaRxRywsWzBt-2T2G_Jpdp4zy3iV7qI1alNGRaBf_8TMdzRQQb335GhASkVoXD3q9mGkiLjAog4ez9d7DHhl88lkNVvuhI74KiKZP0zZpb2O8yyqyDw12WoYTiGaq1AVfG9TfGcdNhP-DmRwuKJ4Pj4mr9rEo-TVLYxYSpmUogJUSFZFL_VaduQ/s1600/php-windows.jpg"
     },
     {
-      "id": "1d8635f20e49cfd3e5608c9dfdca2725a042f783",
-      "title": "Les données de 905 000 plaques d'immatriculation françaises ont fuité, gare aux arnaques aux fausses amendes et aux assurances",
-      "url": "https://www.phonandroid.com/les-donnees-de-905-000-plaques-dimmatriculation-francaises-ont-fuite-gare-aux-arnaques-aux-fausses-amendes-et-aux-assurances.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-26T17:01:29.000Z",
-      "summary": "Un pirate a mis en vente un fichier contenant les données personnelles liées à 905 000 plaques d’immatriculation françaises. Des escrocs peuvent se …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://wp-pa.phonandroid.com/uploads/2026/06/Plaque-immatriculation.jpg"
-    },
-    {
-      "id": "574864657cad84f3f66ab42ca32c74e5e17c6ae5",
-      "title": "Mise en examen du patron de Telegram, enquête contre Elon Musk, une magistrate du pôle parisien cybercriminalité explique ses combats à l'université de Corte",
-      "url": "https://france3-regions.franceinfo.fr/corse/mise-en-examen-du-patron-de-telegram-enquete-contre-elon-musk-une-magistrate-du-pole-parisien-cybercriminalite-explique-ses-combats-a-l-universite-de-corte-3439527.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-26T16:31:40.000Z",
-      "summary": "Invitée de la conférence annuelle sur la cybercriminalité de l'université de Corte, la vice-procureure du pôle cyber du parquet de Paris Johanna …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/cd9bc7efa34d79c57b7b88879892e26e93ed5b57/_large.jpeg"
-    },
-    {
       "id": "2b77b7f3cd9ec7e26c1171796936c21e814727cc",
       "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
       "url": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
@@ -758,28 +1110,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGj3R5UeJnb_pAG2XH5cEGUzKbzeRHLNAES48EgHC8ssOnuDbDOqJA9ydPHJqmxYONu2lCeu42YOv_e_XA2RtX5jVGsMkQY0QAGrzoqmY4qU6NnWrPTfX0V-U68B9Z80KHLJvZDtUeSm4dvkp06oJ9JmgJvr7CDYZ-48fwAOENt31Lrcpr4M6O_4x6ovLZ/s1600/support.jpg"
     },
     {
-      "id": "5dbf408d8f1abb632a6939bdb9c8c8ca3deac57b",
-      "title": "Failles PHP : une première cyberattaque vient de réussir, et ce n'est qu'un début",
-      "url": "https://www.01net.com/actualites/failles-php-une-premiere-cyberattaque-vient-de-reussir-et-ce-nest-quun-debut.html?amp%3Butm_content=topic%2Ffr-technologie",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-26T15:00:24.000Z",
-      "summary": "Pendant plusieurs jours, les failles critiques « PHP2Shell » n’ont donné lieu qu’à des tentatives ratées et à des opérations de reconnaissance de …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/19e1c2e45d28e38aca3cb9adaf670dc41bc70f33/_xlarge.jpeg"
-    },
-    {
-      "id": "6b1fd0ccfd421a05073724f64a29a3935211fffb",
-      "title": "On a tapé notre adresse mail sur Have I Been Pwned : Voici ce qu’on a découvert",
-      "url": "https://www.20minutes.fr/high-tech/4257680-20261026-tape-adresse-mail-have-i-been-pwned-voici-decouvert?amp%3Butm_content=topic%2Ffr-technologie",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-26T14:37:48.000Z",
-      "summary": "On utilise généralement la même adresse mail pendant des années pour créer des comptes, faire des achats en ligne ou souscrire des abonnements. Mais …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://img.20mn.fr/IRS7nb2AQJ68CzArF4-10ik/1444x920_hacker-illustration-photo-de-victor-de-schwanberg-science-pho-vsc-science-phototheque-via-afp"
-    },
-    {
       "id": "746d6f955ca0efd0451fea295099df2e14867564",
       "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
       "url": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
@@ -789,17 +1119,6 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjztmxBbaYZEAd_HSv1heMQm8UuLym1h7XcN8NrgWjJmaoghOIR2O1rHwQzunUd9jlQn4R_8ft4Y0K9xLQOhs2xM8vVh1eHoEsZIFonHd7K6TA1cd0aIJ6jK-K2RNVBCwMfQwq7WWpuFtB8inWvubRjIEw_9fetsRFllw-fsAAnjCnpMCqFIL28ovMhJwbd/s1600/recap2monday.jpg"
-    },
-    {
-      "id": "079179feeb4a80911ac9bdc48b458b873dee3bb0",
-      "title": "Un pirate revendique avoir volé des données à La France insoumise, au Parti communiste et à Renaissance",
-      "url": "https://www.lemonde.fr/pixels/article/2026/10/26/un-pirate-revendique-avoir-vole-des-donnees-a-la-france-insoumise-au-parti-communiste-et-a-renaissance_6800789_4408996.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-26T13:34:16.000Z",
-      "summary": "Le hackeur, très actif ces derniers mois sur un forum de discussion pour cyberdélinquants, est coutumier des piratages crapuleux. Trois partis visés, …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://img.lemde.fr/2024/10/10/1/0/3008/2005/1440/960/60/0/c815b80_1728546853501-papier-271-37.jpg"
     },
     {
       "id": "013cef064da1797d32b53b8d3f7c6f1532fecb11",
@@ -824,28 +1143,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5xq9w5oCep_lu7UpdVExPO7yRQ1tMz0YkxljYR_LmwG3WKowZ2CtLPh4F6kASJ7Xu0xJKy4uVzlwj7fPEO3fgKUELS4BqUtDZvGh1P-iqRslXNCLdkcJMCBGSKvJeqrrkeZdfPO9Wmv_v2VqdYEZVavTHw-QHUhli9QYGVhASuSRt3DETy8JMBz1D-kE/s1600/wasm.jpg"
     },
     {
-      "id": "73d929aa838e18e7e89f079ce703f7615f5b54f1",
-      "title": "Frigos piratés dans les supermarchés : le Pentagone s’invite dans l’enquête française",
-      "url": "https://www.capital.fr/economie-politique/frigos-pirates-dans-les-supermarches-le-pentagone-sinvite-dans-lenquete-francaise-1531277?amp%3Butm_content=topic%2Ffr-actualit%C3%A9s",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-26T11:31:21.000Z",
-      "summary": "Aux Etats-Unis, des pannes à répétition sur des réfrigérateurs de magasins ont été observées aux quatre coins du pays. Des pannes qui rappellent le …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/capital.fr/3755ba7f22319b6b100ca7afa1ce1275e08ce537/_xlarge.jpeg"
-    },
-    {
-      "id": "3919400d36d04fdbea412a295fff2fa0d79236e1",
-      "title": "Vous pouvez lancer vos jeux Steam directement sur une PS5 (à vos risques et périls)",
-      "url": "https://www.journaldugeek.com/2026/10/26/vous-pouvez-lancer-vos-jeux-steam-directement-sur-une-ps5-a-vos-risques-et-perils/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-26T11:30:32.000Z",
-      "summary": "Un petit malin a réussi à transformer sa PlayStation 5 pour pouvoir accueillir des jeux Steam. Un piratage encore balbutiant, mais qui pourrait …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/journaldugeek.com/061c880654dced668d067c5fb26827d4dd924e79/_xlarge.jpeg"
-    },
-    {
       "id": "b81bb8687fad6b8ee5d59a10de0479c13613fb7f",
       "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
       "url": "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html",
@@ -855,28 +1152,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhH3sLtMeyrqaZo1e2DoGlQohJtAM96DKv9JxQVxynJVNyJ_76dwQQAvkcN2xeos8NtStnH6A3B4bOwtFvdsNSxdBkR6so5s66iBb0ApIhIJ2cs3hVCYdh6oOnO4K_kwKOJsDSqL4wsPrOJ48x3VmSXiQwpcxm_ULL7En-Xw_9Rc1sEFQvCdb9Sr0NwUH0/s1600/Misses.jpg"
-    },
-    {
-      "id": "5942b8fc933949ae241d7467003855fdb7381b0a",
-      "title": "Drapeau nazi et financement illégal : en Allemagne, un piratage de données embarrasse l’AfD",
-      "url": "https://www.liberation.fr/international/europe/drapeau-nazi-et-financement-illegal-en-allemagne-un-piratage-de-donnees-embarrasse-lafd-20261026_433A2AFRINHKZJ7YKC2N4FVECM/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-26T11:18:49.000Z",
-      "summary": "Des hackers ont dévoilé près de 421 000 courriels internes au parti d’extrême droite. Les échanges révèlent les propos racistes et antisémites tenus …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/liberation.fr/a2fed9316fa9666282ef3985c2baad9f4ff3f247/_xlarge.jpeg"
-    },
-    {
-      "id": "0cbc86e753ca1a26ce9b284ffdfda2af02376c01",
-      "title": "À Brugelette, la criminalité reste stable mais les cambriolages et la N56 inquiètent toujours",
-      "url": "https://www.dhnet.be/regions/tournai-ath-mouscron/pays-vert/2026/10/26/a-brugelette-la-criminalite-reste-stable-mais-les-cambriolages-et-la-n56-inquietent-toujours-SIBXO4TFPBHQNFYHXXOYMQ4DVQ/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-10-26T10:59:00.000Z",
-      "summary": "Environ 250 faits ont été recensés en 2025. La zone de police pointe aussi la progression de la cybercriminalité et prévoit de renforcer les …",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://www.dhnet.be/resizer/v2/D46UBRPFU5BKXDMVLPUO42RKGM.jpg?auth=9d9f8ae156621b7b12f7b090b0a2c79c996d8b998f8c193734ebc83be447bbd3&amp%3Bwidth=1200&amp%3Bheight=630&amp%3Bquality=85&amp%3Bfocal=793%2C504"
     },
     {
       "id": "720bb135b4696f38b7aef3f66f69ee8bfa678bf2",
@@ -1363,17 +1638,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1nl6HARmLzzb4BlklarhKxB1F2U6dwKebASj9-Ow-WI6otLzFoATEY-icF7OCAgwHqRzwNhs9jHY2S7e4ZGRHykrIzedvLxQlAyen6jQsOoY_L80gd0Lrjy3-3xzlHavaxahxsI1o13_r2MRRDwbQrtslkXfbITBGcp_736F1sPVq7dR8Rnq_JSVQP3A/s1600/ai-wallet.jpg"
     },
     {
-      "id": "37fe7b69f787703ba5b36ccce7a51014cc3ce22e",
-      "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
-      "url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-23T07:40:45.000Z",
-      "summary": "Threat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a Mirai botnet variant called Pota",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3SkRCDhjMsUS2FZ9ES40x39o7u2jdwMQDcq4NC75CsC2Xjji94ZZt_0Jgzdxmbf92n3razC07QvKJ-VT65axzIbXWoYrHytaQhNRBdYEMgmb1Fki-gR2NKY1TXuhpb9lcCemaPSqu8E0Q6KVczRNa97_7tj5Vyt0wngICj6GnWEHphW8fpaSybzKAa-pV/s1600/phpshell.jpg"
-    },
-    {
       "id": "3c8805a96a85d520b16fa912ffe715907cb4c062",
       "title": "Traefik - CVE-2026-114639",
       "url": "https://cyberveille.esante.gouv.fr/alertes/traefik-cve-2026-114639-2026-10-23",
@@ -1440,28 +1704,6 @@
       "imageUrl": null
     },
     {
-      "id": "c60adb6510cd75c1634e0dc1d7049de05d0b7090",
-      "title": "Multiples vulnérabilités dans les produits HPE Aruba Networking (23 octobre 2026)",
-      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1369/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-10-23T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits HPE Aruba Networking. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitra",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "a0f8c4f64b0a7844a6336bea30d1f45922274a23",
-      "title": "Vulnérabilité dans Mattermost Server (23 octobre 2026)",
-      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1368/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-10-23T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans Mattermost Server. Elle permet à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
       "id": "dc1c70807935d3ccbf11d0bf503826b10dc14512",
       "title": "Multiples vulnérabilités dans Microsoft Edge (23 octobre 2026)",
       "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1371/",
@@ -1479,17 +1721,6 @@
       "source": "CERT-FR",
       "publishedAt": "2026-10-23T00:00:00.000Z",
       "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian LTS. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une a",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "ad870935c0a9537816624f97a468a3d14b08bf9b",
-      "title": "Multiples vulnérabilités dans les produits Tenable (23 octobre 2026)",
-      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1370/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-10-23T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Tenable. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1550,72 +1781,6 @@
       "imageUrl": null
     },
     {
-      "id": "a0312c2faf148a17dd4ddcf6a303c4facb68d6d3",
-      "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
-      "url": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-22T19:05:35.000Z",
-      "summary": "Right now, there is probably an AI agent running on a laptop somewhere in your network. It stores API keys and database passwords, can access your internal systems, and works witho",
-      "type": "LEAK",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyT7lik0MCxUa_ALE00qK-x8qCQiM7doEPBK3sl90Y0J4N6zpBNzLI5ixKwtXItAzgHOIz9t-YerpeISJ7WcT7VJLyfWphEU4cHrm3CHpIwnsIcKT64fwNVkACsm7GxDnXqzqR4M5QXkLuUkUWxPEI5PhAI65_sXtcb2jW-0OhuVHC3n5vQnPVBrT_D5g/s1600/bit.jpg"
-    },
-    {
-      "id": "e9f4b82d25b6aa06bd67131c4afdf36d7b655bac",
-      "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
-      "url": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-22T19:05:17.000Z",
-      "summary": "Attackers are exploiting a zero-day SQL injection flaw in Arista's VeloCloud Orchestrator (VCO), the central management system for VeloCloud SD-WAN networks, the company said in an",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEio5jLAiZnSHOwYGjf-F6s4HR4ileDOwAkHiX9NyW30mGUqSzgdwGVdTzCTYkgmeoGtTRaSVm-h2IBwvJ9xd84OU2t3YXd8hf5PwlGdjh6VlcYZoCNkx6Yt0FY_JlVcM3AtXI4LQyidnOE86NMVwOGcztaFtV2Qq21X1pRQi6jxiITnQIoO14XLiOWaufI/s1600/velo.jpg"
-    },
-    {
-      "id": "98c57f2bd4b762803729958b432f191292867936",
-      "title": "eMudhra to Exit Global SSL/TLS Business After 8 Intermediate CA Keys Found Easily Guessable",
-      "url": "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-22T18:12:43.000Z",
-      "summary": "eMudhra, an Indian certificate authority (CA), will withdraw from its global SSL/TLS certificate business, its board decided on Thursday. The decision came five days after a resear",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5DGeZCzWnHOoA87UbpfzGUlpU9xBK1x5tJsYlWOoKtyEkTRjaN4cW_lMOKdtiSXVPhVMd6JhOMRhvFOxvn853LcLaCBSNK-_m4CDIDGt048SdHQQqu63ZSZ09Ymc3UhqD_TZoLaCM6eIJL6TSYbBVINceAi4paPvjxJ4i9uN3CKZQ2s5bT4Dc_jAcv8I/s1600/ssl.jpg"
-    },
-    {
-      "id": "191fbb423060f8c19a187c9746b87b4e980da5d6",
-      "title": "ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More",
-      "url": "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-22T17:45:44.000Z",
-      "summary": "This week has already been rough for cybersecurity. Critical PHP and GitLab RCE flaws, serious Linux security bugs, compromised eMudhra certificates, a Node.js RCE flaw, a hacked L",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjt9NuQgzmDAqircHtb2OEO9jXuNXIfpmc6cywt44gLVoKRSyrTtwqh2DaQkZ_BCrux5hLbZ9-uU9fR7Q6oFE7cjYOJB6aF1zqIJrrgT9A5RVRZguNYHZCk7-LBEAY7GxyR9KoCwwdPF9UowRvnZBvSN4X24RJXEQBRg3F1Mi5ktvXfNWWsUXlVnHLUmYd6/s1600/threatsday-oct-main.jpg"
-    },
-    {
-      "id": "7fa6b6a6a9ec6c0c8df9d64d829643355c67818e",
-      "title": "Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes",
-      "url": "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-22T17:01:53.000Z",
-      "summary": "Linux servers running KSMBD, the kernel's built-in SMB server, are exposed to two publicly reported remote code execution flaws rated 9.0 by Trend Micro's Zero Day Initiative, with",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdNNyKzD2udgIl0X434MI2ucEwGFB_B-QqyjMnMuvTfwZv7clEo3n0ASA_aEQtUmQ7wqPSREwq1Cvi3iQLtubfUkK7p017Q6SrliTkwHiJyhfDIzahdof71Mxs4LXqJWoLkAnwikxy2KmZ1pkMg5Qto-RwPnvQx71Ol4G7sO20eeVNr_pfstT2WbDg3Nk/s1600/linux-rce.jpg"
-    },
-    {
-      "id": "3d3be6beb077a524ca8f2ea7201de203f73b875d",
-      "title": "Meta Ordered to Pay $25 Billion After Court Finds 43 Million Privacy Violations",
-      "url": "https://thehackernews.com/2026/10/meta-ordered-to-pay-25-billion-after.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-22T16:12:31.000Z",
-      "summary": "Social media giant Meta was ordered to pay 25 billion in penalties by a New Mexico court on Wednesday as part of a data privacy lawsuit that sprang from the company's Cambridge Ana",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj49OFtokFF7N2TVBrjY_XC7E-OBiaU7QI0bBuS8sRk2RCrhj7g_hQWeTxWJjF_fFyMXXSd6ZhiZc2M_K6Wq9-LSRnNzrWiL8eV0IXlA-iTrkt-UbQ8K6DMLYAjEqy1fOgxJkHiGerU_cRfBVIwhLLWGRiWUdp1Kc0cKZaGxRXz27_vWwuaQrDHppXS_N1Y/s1600/mark.jpg"
-    },
-    {
       "id": "6361f1dfa7bea4a3a3f3962608a7534ee8de4e6b",
       "title": "Cybermalveillance.gouv.fr lance une AlerteCyber concernant deux failles de sécurité critiques dans PHP",
       "url": "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/alertecyber-failles-securite-php",
@@ -1625,17 +1790,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": null
-    },
-    {
-      "id": "e934778dc885be5a0966734731ad5291d08d4b4e",
-      "title": "INTERPOL Arrests 1,462 Suspects, Disrupts 10,909 Cybercrime Networks in Global Crackdown",
-      "url": "https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-22T13:38:22.000Z",
-      "summary": "INTERPOL on Thursday announced that a coordinated law enforcement action has disrupted 10,909 malicious networks and recovered more than $105 million in illicit funds. In tandem, t",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgztarCkWkHIW3EBCYV1Uaoz1pLURW3sA5E381ALhft79JhEp71NrhOngLJTWtoT1EL-mI7G6sz0geVq0clphhNqFhyphenhyphen6zPdTK1KYcNAPR43HvdicTavSv5eFTsMTVh36gi570aIN265ZJnbfwvMcWSIriWeU_28JWsofVj-9k1qQdKddXoDeh6dNeWy2ViE/s1600/interpol-1.jpg"
     },
     {
       "id": "e35ccee8ffef168385f254247bae27490b182b36",
@@ -1957,83 +2111,6 @@
       "imageUrl": null
     },
     {
-      "id": "dbed209ed0e0be270d0222ab346bd7cb48064c93",
-      "title": "Multiples vulnérabilités dans ISC BIND (22 octobre 2026)",
-      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1365/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-10-22T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans ISC BIND. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à dist",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "5d2efc3280bcdc5abc6eb809e27cc06a2a8b7ac6",
-      "title": "Multiples vulnérabilités dans Node (22 octobre 2026)",
-      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1367/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-10-22T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Node.js. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un contour",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "5c6791f713fd19656fd9ca992c6f1c96fb141aa3",
-      "title": "Multiples vulnérabilités dans GitLab (22 octobre 2026)",
-      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1363/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-10-22T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans GitLab. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteint",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "28413bf15fe2fae9aedb86d0534ac1365d15d48e",
-      "title": "Multiples vulnérabilités dans les produits Splunk (22 octobre 2026)",
-      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1366/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-10-22T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Splunk. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une attei",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "e5263184beefd697c5fa60c29aa71b25e821c83e",
-      "title": "Multiples vulnérabilités dans les produits Cisco (22 octobre 2026)",
-      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1360/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-10-22T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance,",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "143bab19ff46aa2a44038acd98ca7c7d82b198f4",
-      "title": "Vulnérabilité dans les produits Mozilla (22 octobre 2026)",
-      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1361/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-10-22T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans les produits Mozilla. Elle permet à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "f476c4c9e2537c8615a869f332a69f7a13d5a9c5",
-      "title": "Multiples vulnérabilités dans les produits SolarWinds (22 octobre 2026)",
-      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1364/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-10-22T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits SolarWinds. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une falsif",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
       "id": "3a7e9f2bf8b430e3f061dd2116f00092484d6760",
       "title": "[remote] PHP2Shell (CVE-2026-109618) - PHP core versions after v5.4 - RCE",
       "url": "https://www.exploit-db.com/exploits/52704",
@@ -2177,17 +2254,6 @@
       "imageUrl": null
     },
     {
-      "id": "9623ba60d4bfe278d3623b798bfa68155ea06ca9",
-      "title": "Multiples vulnérabilités dans PHP (21 octobre 2026)",
-      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1359/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-10-21T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans PHP. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
       "id": "611b77a7262bcb6dee8ac916a29f7b62f30cd1af",
       "title": "[Màj] Multiples vulnérabilités dans PHP (21 octobre 2026)",
       "url": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-014/",
@@ -2205,72 +2271,6 @@
       "source": "Exploit-DB",
       "publishedAt": "2026-10-21T00:00:00.000Z",
       "summary": "pizzafy-1.0 - SQLi",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "22b33c299124508a7dc96f10c0eec57a30c906ac",
-      "title": "[remote] South River Technologies Titan MFT Server 26.0.0 - code execution",
-      "url": "https://www.exploit-db.com/exploits/52701",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-10-21T00:00:00.000Z",
-      "summary": "South River Technologies Titan MFT Server 26.0.0 - code execution",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "4505dbe5fba821e37596a241d6d39ff57731dd21",
-      "title": "[remote] Synametrics Syncrify 6.2 - command execution",
-      "url": "https://www.exploit-db.com/exploits/52700",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-10-21T00:00:00.000Z",
-      "summary": "Synametrics Syncrify 6.2 - command execution",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "27c7ccfc443b639e199de9169dd6296b2750d8ef",
-      "title": "[webapps] Keycloak 26.7.2 - Unauthenticated Account Takeover",
-      "url": "https://www.exploit-db.com/exploits/52699",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-10-21T00:00:00.000Z",
-      "summary": "Keycloak 26.7.2 - Unauthenticated Account Takeover",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "5747680860a628d71ce87d12e196420e6704f8f3",
-      "title": "[webapps] Open eClass 3.15 - RCE",
-      "url": "https://www.exploit-db.com/exploits/52698",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-10-21T00:00:00.000Z",
-      "summary": "Open eClass 3.15 - RCE",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": null
-    },
-    {
-      "id": "6e920a2e256ae1fb527d54d29f36d6d78e843eea",
-      "title": "[webapps] Automotive Shop Management System 1.0 - SQLi",
-      "url": "https://www.exploit-db.com/exploits/52697",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-10-21T00:00:00.000Z",
-      "summary": "Automotive Shop Management System 1.0 - SQLi",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "e9a405de87f1d1be3c131a889895214a219e0026",
-      "title": "[remote] Edimax BR-6478AC firmware v2.20 - authenticated command injection",
-      "url": "https://www.exploit-db.com/exploits/52696",
-      "source": "Exploit-DB",
-      "publishedAt": "2026-10-21T00:00:00.000Z",
-      "summary": "Edimax BR-6478AC firmware v2.20 - authenticated command injection",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
