@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T11:42:17.896Z",
+  "generatedAt": "2026-11-03T19:14:18.929Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,13 +17,13 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 106
+      "items": 111
     },
     {
       "name": "Exploit-DB",
       "url": "https://www.exploit-db.com/rss.xml",
       "status": "ok",
-      "items": 0
+      "items": 50
     },
     {
       "name": "The Hacker News",
@@ -76,15 +76,301 @@
   ],
   "items": [
     {
-      "id": "1867c359fd96113c717ca8e53a131e7696048f0e",
-      "title": "Geert Baudewijns (Secutec) : \"Nos fausses publicités permettent aux banque d'identifier les fraudeurs et les victimes d'arnaque\"",
-      "url": "https://www.journaldunet.com/cybersecurite/1557511-on-diffuse-de-fausses-publicites-pour-identifier-les-potentiels-fraudeurs-et-victimes-d-arnaques-au-profit-des-banques/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-11-03T11:18:09.000Z",
-      "summary": "Le négociateur de cyber-rançons belge et PDG de Secutec, Geert Baudewijns, précise comment son entreprise de cybersécurité aide les banques à …",
+      "id": "f3e2eb16530ad626ce3ff78adbdecb5a804c50d0",
+      "title": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
+      "url": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-11-03T18:46:38.000Z",
+      "summary": "Customers of the mSecure password manager are being urged to act now to protect the confidential information they store in it, possibly by changing passwords, resetting two-factor ",
       "type": "NEWS",
       "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/journaldunet.com/9302c5db8aec42751cd6d4e08802dd06629cacc7/_xlarge.jpeg"
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtvbYhodewxI1TOMjVp0GKUmMdudVKH27My8auvMEvDbCkd_JBzdJjjBb99j2a2a9R1wgkOaTdLcM_9FEmpyweVquFetLeyfzSC5UgpukK8Ukw7keJb5HwmTnPP1qWT2QzVX3FKLtBKLDFnuMrzmfgW5dwYf6SJHZHqSDj_eYGdap3ECOMMI1Em6_oS_0/s1600/msecure.jpg"
+    },
+    {
+      "id": "5675a02bfcce37411ecdadeed554bb67cc41b2b1",
+      "title": "Faux entretien d'embauche, logiciels malveillants, détournement d'IA : Binance révèle l'effarant mode opératoire du piratage record",
+      "url": "https://www.lesechos.fr/finance-marches/marches-financiers/faux-entretien-dembauche-logiciels-malveillants-detournement-dia-binance-revele-leffarant-mode-operatoire-du-piratage-record-2260878?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-11-03T18:21:43.000Z",
+      "summary": "Les hackers avaient préparé leur attaque dès le mois de juin, soit plus de quatre mois avant de déclencher le piratage le plus important de …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://media.lesechos.com/api/v1/images/view/6aea2647e1b59720b60a6e2e/1280x720/02101818267009-web-tete.jpg"
+    },
+    {
+      "id": "97d4e06e3ce2570d4976f6eba865acaddd5938d4",
+      "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
+      "url": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-11-03T18:16:19.000Z",
+      "summary": "Blockchain infrastructure provider Chainstack on Tuesday disclosed that it was targeted in a cyber attack that allowed an unauthorized party to gain access to some parts of its inf",
+      "type": "LEAK",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMgLc61q6cTompbBY4lS-pqinmS1_3vYBYH7OVnnFTmOZfMk8R7houuqUmnMhUs-gTI-55HwieAaPuCI_zhc0XNw74PhfZVbCjWexPUUugMc1crPvP6uQsic7o3GDy5KXbYJE8LtXqdban8cTcfnn9AxRgOkR0w5_bQx-pHTR1A5-ttEHcpqGkgYajjSiA/s1600/chainstack.png"
+    },
+    {
+      "id": "d66f44901864b82652d9a11c9312707bf874f16f",
+      "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
+      "url": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-11-03T16:55:58.000Z",
+      "summary": "Binance on Tuesday said the record-setting theft of $6.43 billion in assets from the world's largest cryptocurrency exchange was the culmination of a \"sophisticated, multi-stage ca",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZCMCR8h3YCPcfY8Fbe54ckYKh_YUt_Yd7v82dAHobZtMNlQl_JVKWUX4OUPwR0dEmYsLNfeKsW6rUthk8pYRVhIddbPXx86sHCcNBRL9E-9LJTPrYSYwJ_V66EwGJNFeoWgDPbjcGfeJ4w2qn_gfTjXBoNAnfWq4GZ8rq7VOhnqt4QlItYEBr3Zar7XL1/s1600/bin.jpg"
+    },
+    {
+      "id": "692d551bcf31987c1153435b756b21b0c2e939c9",
+      "title": "Une pharmacie de Strasbourg victime d'une cyberattaque, des données sensibles menacées : voici quoi faire",
+      "url": "https://actu.fr/grand-est/strasbourg_67482/une-pharmacie-de-strasbourg-victime-d-une-cyberattaque-des-donnees-sensibles-menacees-voici-quoi-faire_65009457.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-11-03T16:48:10.000Z",
+      "summary": "Une pharmacie du centre-ville de Strasbourg a subi une cyberattaque. Un pirate revendique les données de 110 000 patients. Voici les précautions à …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://static.actu.fr/uploads/2026/11/pharmacie-cigogne-strasbourg.jpeg"
+    },
+    {
+      "id": "67fd6857eacf8a99bd5f93291fa75b60870e05b9",
+      "title": "\"Lorsque les rayons des magasins seront vides, et que des entreprises auront fait faillite\": le directeur de la cybersécurité britannique craint une \"hausse sans précédent\" de cyberattaques venues de Russie et de Chine d'ici 2028",
+      "url": "https://www.bfmtv.com/tech/cybersecurite/lorsque-les-rayons-des-magasins-seront-vides-et-que-des-entreprises-auront-fait-faillite-le-directeur-de-la-cybersecurite-britannique-craint-une-hausse-sans-precedent-de-cyberattaques-venues-de-russie-et-de-chine-d-ici-2028_AD-202611030721.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-11-03T16:31:53.000Z",
+      "summary": "Dans son rapport annuel, le Centre national britannique de cybersécurité a indiqué que nos voisins d'outre-manche doivent se préparer à une vague …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/XtoFsgFrdo93Z_kQnl0r2VzZNEU=/8x2:1192x668/1184x0/images/La-Grande-Bretagne-pourrait-etre-victime-de-nombreuses-cyberattaques-menees-par-la-Chine-et-la-Russie-d-ici-2028-2377264.jpg"
+    },
+    {
+      "id": "f8c9c747cee79998b3573f732db80b6e166da3b5",
+      "title": "Cyberattaque dans les supermarchés : qui va payer les milliers d'euros de marchandises détruites ? \"Pour certains, c'est une perte sèche\"",
+      "url": "https://www.dhnet.be/conso/consommation/2026/11/03/cyberattaque-dans-les-supermarches-qui-va-payer-les-milliers-deuros-de-marchandises-detruites-pour-certains-cest-une-perte-seche-Z7GUUS6JCZEPXB7EDEHAXJTVPI/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-11-03T16:28:08.000Z",
+      "summary": "Au lendemain de la cyberattaque qui a touché des dizaines de supermarchés belges, les magasins tentent de retrouver une situation normale. Mais pour …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.dhnet.be/resizer/v2/ATHOTTCFTFBCFD4VTJNEIUKREI.jpg?auth=fc3baaed0b236e9bd0f71b0f562cb3d23d609059bf7825a22828fc30a60245f2&amp%3Bwidth=1200&amp%3Bheight=630&amp%3Bquality=85&amp%3Bfocal=1000%2C613"
+    },
+    {
+      "id": "ca7b50af8a01868e6e43994ee4d4e04f4f05e06a",
+      "title": "Corée du Sud: enquête sur la fuite en ligne de données personnelles du président",
+      "url": "https://www.aol.com/articles/cor%C3%A9e-sud-enqu%C3%AAte-fuite-ligne-162403000.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-11-03T16:24:03.000Z",
+      "summary": "Comment les informations personnelles du couple le plus important de Corée du Sud ont-elles pu être accessibles durant cinq mois sur un site de cybersécurité VirusTotal, qui permet",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/aol.com/374922d8058286d1d03ceaff336582c5d885ba2e/_xlarge.jpeg"
+    },
+    {
+      "id": "bab2fd076af7f972d1f5bab870f80ed9153376e6",
+      "title": "Cyberattaques contre les frigos : « l’alimentation est une cible pour la guerre hybride »",
+      "url": "https://www.lopinion.fr/economie/cyberattaques-contres-des-frigos-lalimentation-est-une-cible-pour-la-guerre-hybride?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-11-03T16:15:00.000Z",
+      "summary": "Les faits - En moins d’un mois, les systèmes connectés de régulation du froid des supermarchés de nombreux pays européens ont été attaqués, causant …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://beymedias.brightspotcdn.com/dims4/default/84bf5ed/2147483647/strip/true/crop/982x477+0+28/resize/1440x700!/quality/90/?url=http%3A%2F%2Fl-opinion-brightspot.s3.amazonaws.com%2Fb2%2Fcb%2F63b27195497ea4058942200813e5%2F20230304-stephane-linou-credit-s-biteau-10-1024x683.jpg"
+    },
+    {
+      "id": "c7d5e62c245ffe015388455b1d4ee25f516d4a3b",
+      "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
+      "url": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-11-03T15:59:19.000Z",
+      "summary": "Barracuda has disclosed details of two vulnerabilities affecting its products that, if chained together, could allow an attacker to bypass authorization controls and gain root acce",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCvGJCkYjldhAvsjMo47UqxGOTfVY1zCcjZQzgebkO8j1__fa0cFOn3CAV1jPTUpzwDDISQKPQP5eVGOl9BzRLBX7KlWuU2HMpzuHRWV2wyaItDwYgPu0X7m3qE5V1kgFzKZ1QYcRBcZyDqkUTFberiOWXBfV_-suYC1QQWq_TwBMeyme4F0FsOZnpijhC/s1600/barracuda.png"
+    },
+    {
+      "id": "fa029fffcc174a453adfa939fdca9ca260e99d0b",
+      "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
+      "url": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-11-03T15:41:53.000Z",
+      "summary": "Google on Monday warned that threat actors are hijacking enterprise access to Large Language Models (LLMs) to fraudulently leverage expensive computing resources and AI services. T",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvqwPJPXsflyvqykVK3Pd1lLXLzEJ6vpLudxQUyYbWkS4nQ0dr9dhcSlMCPwgqfAkyadPSj28XReqkeiymKG5RAZMWpx5Hqhg_XI0HNp3jRMRpaO-wVIRbyJyS8MaaqDNOxXvk8aUENx_aiNMqrqm9SWjtJVpXR2uaP-LNp5deG4U_4YvSxpPKtdJLRNoh/s1600/llmjacking.png"
+    },
+    {
+      "id": "09bea9e05aeb1619389af87483e52a7e648d1742",
+      "title": "Alertes à la bombe, \"déstabilisation\" et \"sabotage\" : que s'est-il passé ce mardi à bord de plusieurs avions ?",
+      "url": "https://www.lalibre.be/economie/conjoncture/2026/11/03/cest-un-signal-tres-clair-de-destabilisation-de-sabotage-et-dhuile-sur-le-feu-que-sest-il-passe-ce-mardi-a-bord-de-plusieurs-avions-UGJMDRRMO5F3RERCDD435DUJEM/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-11-03T15:33:28.000Z",
+      "summary": "Des alertes à la bombe ont fait dérouter plusieurs avions ce mardi. Des incidents qui soulèvent des questions sur de possibles opérations de …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/lalibre.be/ea38a9ddc5012fa7228e64c844c584507a5b0318/_xlarge.jpeg"
+    },
+    {
+      "id": "5791e4d42132c2c57811b0ad8e999d52d961878a",
+      "title": "Attention ! Apple signale une nouvelle vague d’espionnage contre ses appareils : la France est-elle concernée ?",
+      "url": "https://www.journaldugeek.com/2026/11/03/attention-apple-signale-une-nouvelle-vague-despionnage-contre-ses-appareils-la-france-est-elle-concernee/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-11-03T15:32:32.000Z",
+      "summary": "Apple envoie une nouvelle campagne d’alerte à des utilisateurs dont les appareils ont été ciblés par des logiciels espions mercenaires. En Allemagne, …",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://ic-cdn.flipboard.com/journaldugeek.com/cb3de933a069d4e42a9ace3df412f58c3f712dfb/_xlarge.jpeg"
+    },
+    {
+      "id": "74c84f8e12a3435f8f8bfe89928460c2ca1c4ea8",
+      "title": "Royaume-Uni : des cyberattaques d'IA contre les infrastructures critiques probables d'ici 2028",
+      "url": "https://fr.euronews.com/2026/11/03/royaume-uni-des-cyberattaques-dia-contre-les-infrastructures-critiques-probables-dici-2028?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-11-03T15:22:19.000Z",
+      "summary": "Les criminels et des États hostiles utilisent de plus en plus l'intelligence artificielle pour renforcer leurs cyberattaques, des technologies obsolètes exposant des services essen",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://ic-cdn.flipboard.com/euronews.com/00f02472de58f46033a16a74127c7eb80c0e48a9/_xlarge.jpeg"
+    },
+    {
+      "id": "f6be231b29855eba9ce20d708a8abea74cd7fc94",
+      "title": "cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes",
+      "url": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-11-03T15:16:32.000Z",
+      "summary": "An attacker broke into the update system of the cPGuard security tool on November 2 and used it to send a malicious script to customers' Linux servers. The script installed a backd",
+      "type": "NEWS",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtc3HOtWwxZPk7V8yva9o6Oe5lWAPX8KZsWHG27ohycqrb04wAKSDSSdk6ta6y284N9gT6Ab6QKIWwTPss2bBK4PtS3Fm7gSI9QG5kec2AvEgQPjQnc0YlhlUQx0uZKt2ygn576BQ3aburL-IhrMRFVm1vEpTR5ol06R0BtjySvifD05Q_dQGUPvyPLxs/s1600/cpgaurd.png"
+    },
+    {
+      "id": "af6167fa59dd912856221e090495d14e5569681a",
+      "title": "Cyberattaque contre les écoles vaudoises: un adolescent de 16 ans a été interpellé - Le Temps",
+      "url": "https://www.letemps.ch/articles/cyberattaque-contre-les-ecoles-vaudoises-un-adolescent-de-16-ans-a-ete-interpelle",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-11-03T14:57:52.000Z",
+      "summary": "Un adolescent de 16 ans a été interpellé dans le cadre de la cyberattaque contre le support informatique des gymnases et écoles professionnelles du …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://letemps-17455.kxcdn.com/photos/0a074cb1-5ccc-4401-bc2c-f2de6e9b081a/medium"
+    },
+    {
+      "id": "946474e37720df5fbb7f43977aaa0e0cf959321c",
+      "title": "Présidentielle 2027 : La cyberattaque de la primaire socialiste était-elle bidon ?",
+      "url": "https://www.20minutes.fr/politique/4260056-20261103-presidentielle-2027-cyberattaque-primaire-socialiste-bidon?at_medium=display&amp%3Bat_campaign=149",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-11-03T14:55:33.000Z",
+      "summary": "Le 9 octobre dernier était organisée la primaire de la gauche, un vote en ligne ouvert à tous qui devait déterminer lequel des candidats se …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://img.20mn.fr/L0cUJll-SWKpRRDJMbEScSk/1444x920_une-erreur-interne-du-serveur-cloudflare-s-affiche-sur-un-telephone-mobile-avec-une-erreur-en-arriere-plan-sur-cette-illustration-photo-prise-a-bruxelles-en-belgique-le-19-novembre-2025-jonathan-raa-sipa-usa-uniquement-a-des-fins-editoriales-uniquement-65588918-jonathan-raa-2511190028"
+    },
+    {
+      "id": "2cae5f1ffbaf6bafb77fc36b736d826f34e6c787",
+      "title": "Il examine son téléviseur et soupçonne Samsung de l'écouter via les appareils connectés : les pubs trop ciblées avaient éveillé ses soupçons",
+      "url": "https://www.science-et-vie.com/technos-et-futur/il-examine-son-televiseur-et-soupconne-samsung-de-lecouter-via-les-appareils-connectes-les-pubs-trop-ciblees-avaient-eveille-ses-soupcons-265127.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-11-03T13:40:49.000Z",
+      "summary": "En bref Résumer l’article Fin octobre 2026, le hacker log4j révèle sur X qu'un téléviseur Samsung de 2025 capterait les bruits domestiques pour cibler …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://sf.science-et-vie.com/wp-content/uploads/scienceetvie/2026/10/televiseur-ecoute-1200x660.jpg"
+    },
+    {
+      "id": "257355f8926150cafbcff088930df4f13493f347",
+      "title": "Des hackers piratent des panneaux publicitaires d’autoroute dans 5 pays pour diffuser du porno",
+      "url": "https://www.journaldugeek.com/2026/11/03/des-hackers-piratent-des-panneaux-publicitaires-dautoroute-dans-5-pays-pour-diffuser-du-porno/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-11-03T12:03:38.000Z",
+      "summary": "Des automobilistes qui s’arrêtent sur l’autoroute pour filmer un panneau publicitaire porno : le piratage d’écrans LED a frappé en Égypte, en …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/journaldugeek.com/ff888324805e45d1a73a289c955f620196ce0b64/_xlarge.jpeg"
+    },
+    {
+      "id": "6f7324b8392f46632fe07619069b0595a3044c36",
+      "title": "Subnet Solutions PowerSYSTEM Center",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-307-01",
+      "source": "CISA",
+      "publishedAt": "2026-11-03T12:00:00.000Z",
+      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-307-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "bdf25399f0512472851b03eda7e81f5a159e2951",
+      "title": "Nouvelle cyberattaque visant des réfrigérateurs : plus de dix pays européens concernés",
+      "url": "https://information.tv5monde.com/economie/nouvelle-cyberattaque-visant-des-refrigerateurs-reunion-durgence-en-italie-2844261?amp%3Butm_content=topic%2Ffr-technologie",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-11-03T11:47:09.000Z",
+      "summary": "L’Allemagne et la Roumanie ont rejoint la liste des plus de dix pays européens touchés lundi par une cyberattaque présumée ayant visé les …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://information.tv5monde.com/sites/tv5-info/files/styles/seo_1200/public/2026-11/field_media_image-3067029-bbcfcb2797dd3560e0b697f445bff92b89a33c13.jpg?itok=MICzOztl"
+    },
+    {
+      "id": "d8129f33c531ba1efa7154933308dbf54d2e5dc6",
+      "title": "\"Il faut parfois oser contredire le patron\" : ces experts en intelligence économique qui voient venir les crises",
+      "url": "https://www.lexpress.fr/economie/emploi/management/il-faut-parfois-oser-contredire-le-patron-ces-experts-en-intelligence-economique-qui-voient-venir-VSWUGTT3YBEJTDIEJEVJNO4TXM/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-11-03T11:30:00.000Z",
+      "summary": "Management. Espionnage, cyberattaques, erreurs stratégiques... Ces spécialistes de l’intelligence économique sollicités par les entreprises traquent …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/lexpress.fr/5fec7bb2320bc7a8552a34bcd8da3794f508c3ba/_xlarge.jpeg"
+    },
+    {
+      "id": "b027161cb9a9988a1ffd564d0899fd603450723d",
+      "title": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
+      "url": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-11-03T11:23:53.000Z",
+      "summary": "Fixed kernels for a use-after-free vulnerability in the Linux kernel's IPv4 TCP code are now available for Red Hat Enterprise Linux 8, 9, and 10, while Ubuntu's fixes for its three",
+      "type": "CVE",
+      "severity": "Critique",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdf8UfDHsjH9VaJGtYT5WgjtJ1G5YRMkjPWNeKn-hw05sM9ny0kW9L2eIc3UCiIQ7qmc_TmfrenS1WH8KiRBjln2hQS0X7DUlykxdHrzDgg4uoiHpiOf3fVTOnUuOt4618z3PN7hw1AfUch_y0Tot3ubTga5LEfyWnATkzegfQBSWxMbzNzJaGY18QqC8/s1600/linux-rce.jpg"
+    },
+    {
+      "id": "e23eec89165fe79706034e0b9e823b76da573b79",
+      "title": "Frigos piratés dans des supermarchés : de nouvelles attaques en Europe et un mystère qui demeure",
+      "url": "https://www.lexpress.fr/monde/europe/frigos-pirates-dans-des-supermarches-de-nouvelles-attaques-en-europe-et-un-mystere-qui-demeure-IZKRSF4ETBDTLMBXQC6XVB3WXU/?amp%3Butm_content=topic%2Ffr-actualit%C3%A9s",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-11-03T11:23:19.000Z",
+      "summary": "Tech. Des dizaines de supermarchés européens ont été victimes, lundi, de nouveaux piratages de leurs installations frigorifiques. Les auteurs et les …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/lexpress.fr/660b4e8e9d66b0c41fed82911ddbd888b5f87c42/_xlarge.jpeg"
+    },
+    {
+      "id": "a4efcf8e8ca621d806332771a2d9c35d62642a0b",
+      "title": "The 4 Elements of Exposure Prioritization and How to Operationalize Them",
+      "url": "https://thehackernews.com/2026/11/the-4-elements-of-exposure.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-11-03T11:18:20.000Z",
+      "summary": "Your team is remediating more vulnerabilities than ever, yet your breach risk has barely changed. You’re spending too much time and effort on exposures attackers may never exploit,",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiK5J_qkmStJVdWJYvNtd4lb2cRfPMaSvu1dEKp8tXOjw71kt_fRGGfdPr60HL5agJ8NMBYO5sH7jVvzMWXlLW1fq0xilaF0GyLQHCznSjHeos7sdP_Xwmd6OWyzKv8Yq8m-Z0Hn3x15GBU8AySu2A27OlIWiuAW9ch0iZuXxTpELRSQ6uRdW9nLK4uXQg/s1600/picus-main.png"
+    },
+    {
+      "id": "b3e1ff21bad3a1695f1e75a0dd14107067d7587f",
+      "title": "Russia-Aligned Gorbag Hackers Exploit WinRAR Flaw to Deploy Data-Stealing Malware",
+      "url": "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-11-03T11:00:45.000Z",
+      "summary": "A Russia-aligned threat actor known as Gorbag has been observed using simple information stealer malware in attacks targeting Ukrainian organizations. \"Active since at least Februa",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqyPfrBB7GYTnYsvVj2TxCv0pPwFh_PkVpdQcxuspKgQfbsX1p2kDSdokIyPqLsxSfBCkFPiTATfZxZRbouqkoqfEESL7CgA-MyXD61eQFluiQtdFZDyXQc_3EUAg71JWIHxq9MPVLrwwegvUVuiViE8AxsKH6iBVypWazO0wmCoaC3-D1Ih9Yw3vwN1FJ/s1600/russia-hackers.jpg"
+    },
+    {
+      "id": "e7d73f0b0243a336a67629340f0fc16035dbeb80",
+      "title": "L'effet GTA 6 est tel qu'il pousse un géant de l'IA à faire de gros changements pour éviter le pire",
+      "url": "https://www.gameblog.fr/jeu-video/ed/news/gta-6-restriction-anthropic-ia-clonage-jeux-726009",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-11-03T11:00:24.000Z",
+      "summary": "À l'approche imminente de GTA 6, un géant de l'IA impose de grands changements pour éviter d'énormes problèmes juridiques qui pourrait lui coûter …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://cdn-uploads.gameblog.fr/img//_6a96bdb806c72.jpg"
     },
     {
       "id": "631d7e80166aa15933fb796ff95e0ddbdf9abdd1",
@@ -109,39 +395,6 @@
       "imageUrl": "https://cdn.lesnumeriques.com/optim/news/26/266719/79544156-apple-met-en-garde-des-utilisateurs-d-iphone-cibles-par-des-logiciels-espions__1200_678__0-233-3000-1808_wtmk.webp"
     },
     {
-      "id": "c8e64556c010d1fd2ab36ee80fa044a72fe3ae48",
-      "title": "Cyberattaque contre frigos de supermarchés dans neuf pays européens",
-      "url": "https://fr.euronews.com/2026/11/03/cyberattaque-contre-frigos-de-supermarches-dans-neuf-pays-europeens?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-11-03T10:14:53.000Z",
-      "summary": "Le 2 novembre, des cyberattaques présumées ont touché au total neuf pays et ont mis les réfrigérateurs en mode décongélation, dont la Belgique, l'Estonie, la Finlande, l'Irlande et",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/euronews.com/4bd14b9c9e188f7ebbf4a1068a6757187290f13c/_xlarge.jpeg"
-    },
-    {
-      "id": "ad22ba9d232d99bd6f6a91ebedffb15eb731550f",
-      "title": "La situation s'est normalisée dans plusieurs chaînes de supermarchés après l'attaque d'installations frigorifiques | VRT NWS: le site d'information de référence",
-      "url": "https://www.vrt.be/vrtnws/fr/2026/11/03/la-situation-s_est-normalisee-dans-plusieurs-chaines-de-supermar/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-11-03T10:00:40.000Z",
-      "summary": "Les magasins Delhaize touchés lundi par une cyberattaque de leurs installations frigorifiques sont à nouveau pleinement opérationnels et leur …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://images.vrt.be/vrtnws_share/2026/11/03/bc233a5c-74a6-4a48-9dba-b7f7937b139c.jpg"
-    },
-    {
-      "id": "1df141a173878db6b7d501404140d3d82b1e3f40",
-      "title": "Après la France, les cyberattaques contre les frigos de supermarchés s’étendent à plusieurs pays européens",
-      "url": "https://www.usine-digitale.fr/cybersecurite/apres-la-france-les-cyberattaques-contre-les-frigos-de-supermarches-setendent-a-plusieurs-pays-europeens.6XWNJASFO5HNXK2M72GRJ3H4WM.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-11-03T08:56:09.000Z",
-      "summary": "Des magasins de plusieurs pays européens, dont la Belgique, l’Irlande et les Pays-Bas, ont signalé des perturbations de leurs installations …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://cloudfront-eu-central-1.images.arcpublishing.com/infopro/WDZP4DXB6JA5LE7N7MLKKY6R74.jpg"
-    },
-    {
       "id": "610ad06dca96ad29606b7b1138d0f377985d2d63",
       "title": "Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets",
       "url": "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html",
@@ -151,6 +404,28 @@
       "type": "CVE",
       "severity": "Critique",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrr1rJlr2nztz8jEunAWtVXHyOHkJY2_KdeweNWBqwF18rmhPiFItEQ-yCex1vVsps856ArIDl7unaWJNiribZ9DgkmQ3o4pLa1BKQrjKEeFR63z4csXnBHah5wIp7H5xuUB7b1UIp06nk6BzLuxFW5aWh2g-PoLoZ74RjMOEUX7XdrDsHM1yFbjGHBzK8/s1600/btcpay.jpg"
+    },
+    {
+      "id": "9119d8d86faa09eca9b22bf5085f9694bd16d6e5",
+      "title": "Spywares : Apple alerte les utilisateurs d’iPhone dans 99 pays",
+      "url": "https://www.mac4ever.com/securite/198836-spywares-apple-alerte-les-utilisateurs-d-iphone-dans-99-pays?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-11-03T08:17:00.000Z",
+      "summary": "Apple vient de lancer une nouvelle vague d’alertes de sécurité auprès de ses utilisateurs dans 99 pays. La firme soupçonne des tentatives …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://img-api.mac4ever.com/1200/0/e5f8bca939_apple-spyware-pegasus.webp"
+    },
+    {
+      "id": "0672408d9c0d617a9e79a47d2547068536d88076",
+      "title": "Apple conseil à des responsables allemands de se méfier de leur iPhone",
+      "url": "https://www.iphon.fr/post/iphone-apple-alerte-politiques-allemands-piratage?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-11-03T07:49:17.000Z",
+      "summary": "Le ministre allemand du Numérique a confirmé l'information.",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/iphon.fr/c950f8e6ffe4fb13b8dbe845e398aecc27bcac81/_xlarge.jpeg"
     },
     {
       "id": "0b5e098495df70b18da7ac252bcefe0b6aa2cda5",
@@ -195,39 +470,6 @@
       "type": "LEAK",
       "severity": "Élevée",
       "imageUrl": null
-    },
-    {
-      "id": "dff2d9ea3dd98bb0df73397c232175e5345ddd34",
-      "title": "\"On perd toute notre marchandise\" : des supermarchés européens touchés par des cyberattaques",
-      "url": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/on-perd-toute-notre-marchandise-des-supermarches-europeens-touches-par-des-cyberattaques_8265320.html",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-11-03T06:44:58.000Z",
-      "summary": "En octobre, une cyberattaque de grande ampleur avait touché des dizaines de supermarchés français. Les hackers avaient réussi à débrancher à distance …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/56ea244d3fe41e93bb70ece8743147df887fc121/_xlarge.jpeg"
-    },
-    {
-      "id": "c69fb011708060b4bde0f28d1e1445e3dd59fb23",
-      "title": "Des hackers sèment le chaos sur des panneaux publicitaires dans plusieurs pays",
-      "url": "https://www.blick.ch/fr/suisse/cyberattaque-du-porno-envahit-des-panneaux-publicitaires/ssfx0b4?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-11-03T06:36:25.000Z",
-      "summary": "Du porno à la place des publicités: dans plusieurs pays, des écrans LED installés dans l'espace public ont été piratés. Un groupe de hackers …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ocdn.eu/pulscms-transforms/1/sQZktkuTURBXy8yMjk1ZDM2YS1iODNjLTQ1NTQtYjBmNC0xZDdkZDY5M2RjN2Eud2VicJKTBc0CWM0BO5MJpmFiYmMwOQY/o1zi73q904.jpg"
-    },
-    {
-      "id": "4917a2639ae4b616a0facecdc6e0bb06c45a02f5",
-      "title": "Frigos piratés : les angles morts cyber des enseignes en Europe",
-      "url": "https://www.frenchweb.fr/frigos-pirates-les-installations-locales-angle-mort-de-la-cybersecurite-des-enseignes/900000015?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-11-03T06:14:55.000Z",
-      "summary": "Trois semaines après les attaques contre des supermarchés français, de nouveaux incidents frappent le froid commercial en Europe. Des installations …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.frenchweb.fr/wp-content/uploads/editorial/4040493c0bb6099465868d143ba8ef19aeb9b7bd73389699573f3954e3b6d7c7.webp"
     },
     {
       "id": "0c741de4a198fdafa77cd1ed1d4debefd15e2894",
@@ -285,6 +527,61 @@
       "imageUrl": "https://krebsonsecurity.com/wp-content/uploads/2026/11/xcpe-map.png"
     },
     {
+      "id": "d3fa233921469ae40f13b34bda09364f54e5b4f0",
+      "title": "Barracuda - CVE-2026-116606",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/barracuda-cve-2026-116606-2026-11-03",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-11-03T02:18:24.000Z",
+      "summary": "&lt;p&gt;Il s’agit d’une vulnérabilité dans la &lt;strong&gt;fonction d’import de configuration&lt;/strong&gt; de l’appliance Barracuda ESG.&lt;/p&gt; &lt;p&gt;Barracuda Email Secu",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "4bcfe651f619fb9ad7789ab6283b08e19c7fa72a",
+      "title": "Zyxel - CVE-2026-107441",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/zyxel-cve-2026-107441-2026-11-03",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-11-03T02:17:21.000Z",
+      "summary": "&lt;p&gt;Il s’agit d’une vulnérabilité dans le &lt;strong&gt;programme CGI&lt;/strong&gt; du &lt;strong&gt;micrologiciel&lt;/strong&gt; des switchs Zyxel GS1900.&lt;/p&gt; &lt;p&gt",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "42f366dc5a438ba0d4560c94cc7cf5128918b7d3",
+      "title": "Linux - CVE-2026-98432",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/linux-cve-2026-98432-2026-11-03",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-11-03T02:16:22.000Z",
+      "summary": "&lt;p&gt;Il s’agit d’une vulnérabilité dans la &lt;strong&gt;gestion des connexions TCP IPv4&lt;/strong&gt; du &lt;strong&gt;noyau Linux&lt;/strong&gt;.&lt;/p&gt; &lt;p&gt;Le noyau",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "e61dc090a144c66d75435a7ad5b43a0d743aa9cf",
+      "title": "Google Android - CVE-2026-58825",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/google-android-cve-2026-58825-2026-11-03",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-11-03T02:15:20.000Z",
+      "summary": "&lt;p&gt;Il s’agit d’une vulnérabilité dans le &lt;strong&gt;noyau Android&lt;/strong&gt;, dans plusieurs fonctions du fichier &lt;strong&gt;kernel/fork.c&lt;/strong&gt;.&lt;/p&gt;",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "34d4aa7e9dbce38fbb84890155be29e88ed73325",
+      "title": "Zohocorp - CVE-2026-18199",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/zohocorp-cve-2026-18199-2026-11-03",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-11-03T02:14:15.000Z",
+      "summary": "&lt;p&gt;Il s’agit d’une vulnérabilité dans le &lt;strong&gt;traitement côté serveur&lt;/strong&gt; de données saisies dans Password Manager Pro et PAM360.&lt;/p&gt; &lt;p&gt;Manag",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
       "id": "4dd0b1a8f69f63e66d738eb500c9915fd1ae82ff",
       "title": "Pyongyang nie avoir commis le piratage record de Binance",
       "url": "https://www.lagazettefrance.fr/article/pyongyang-nie-avoir-commis-le-piratage-record-de-binance?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -294,6 +591,61 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://www.lagazettefrance.fr/cache/thumb_discover_1200/media/2026/11/D68G79K.jpg"
+    },
+    {
+      "id": "b917efcaa1b48efb6316ebd711a34015b1f80d21",
+      "title": "Multiples vulnérabilités dans NetApp ONTAP 9 (03 novembre 2026)",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1446/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-11-03T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans NetApp ONTAP 9. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "54496fa8cff53be779625210d00981d349bff10a",
+      "title": "Multiples vulnérabilités dans GLPI (03 novembre 2026)",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1444/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-11-03T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans GLPI. Elles permettent à un attaquant de provoquer une élévation de privilèges, une injection de code indirecte à distance (XSS",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "c95979e5af752c8c243590dbfedc3848650178f1",
+      "title": "Multiples vulnérabilités dans PostgreSQL (03 novembre 2026)",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1445/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-11-03T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans PostgreSQL. Elles permettent à un attaquant de provoquer une injection SQL (SQLi), un contournement de la politique de sécurité",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "0c780a6a619ba602347b31c0ff3cb7e7beed8e8e",
+      "title": "Multiples vulnérabilités dans Xen (03 novembre 2026)",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1447/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-11-03T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Xen. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et une atteinte à l'intégrité d",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
+    },
+    {
+      "id": "e7f64d42a6358a95fa5457760b7496097517a342",
+      "title": "Multiples vulnérabilités dans Google Android (03 novembre 2026)",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1443/",
+      "source": "CERT-FR",
+      "publishedAt": "2026-11-03T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Google Android. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une",
+      "type": "CVE",
+      "severity": "Info",
+      "imageUrl": null
     },
     {
       "id": "f79ce89b5ab6108ad6d91723a6f086ca238558e2",
@@ -307,37 +659,15 @@
       "imageUrl": "https://s.france24.com/media/display/ad59bf0a-21fc-11ec-b52b-005056a90284/w:1280/p:16x9/300921-kim-sister-m.jpg"
     },
     {
-      "id": "27eaa1104c73872cb865727920324b141e90f583",
-      "title": "Ce que l'on sait du piratage des réfrigérateurs de supermarchés en Europe",
-      "url": "https://www.france24.com/fr/europe/20261102-ce-que-sait-piratage-r%C3%A9frig%C3%A9rateurs-supermarch%C3%A9s-europe?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "id": "deb9d22b7e8e8ea9462d377cd4b9f9b0ad4dd11b",
+      "title": "Une nouvelle cyberattaque frappe des réfrigérateurs de supermarchés, dans huit pays d’Europe",
+      "url": "https://www.huffingtonpost.fr/international/article/une-nouvelle-cyberattaque-frappe-des-refrigerateurs-de-supermarches-dans-huit-pays-d-europe_350759.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
       "source": "Cybercriminalité FR",
-      "publishedAt": "2026-11-02T20:10:09.000Z",
-      "summary": "Après la France, plusieurs dizaines de supermarchés européens ont été victimes, lundi, d'une cyberattaque visant leurs installations frigorifiques. En cause, des équipements parfoi",
+      "publishedAt": "2026-11-02T18:48:52.000Z",
+      "summary": "Cette fois-ci, la France n’a pas été ciblée comme elle l’avait été le 12 octobre dernier. C’est une nouvelle cyberattaque de grande ampleur visant des …",
       "type": "NEWS",
       "severity": "Info",
-      "imageUrl": "https://s.france24.com/media/display/05ef4c26-d6e7-11f1-8541-bf1914cabd52/w:1280/p:16x9/AP26306457417754.jpg"
-    },
-    {
-      "id": "4ee9b6510c81f45195d990c4f70faa4c3fa1de05",
-      "title": "Cyberattaque dans les supermarchés : « Je m’attends à ce que la situation s’aggrave à l’avenir »",
-      "url": "https://www.lesoir.be/780517/article/2026-11-02/cyberattaque-dans-les-supermarches-je-mattends-ce-que-la-situation-saggrave?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-11-02T18:30:57.000Z",
-      "summary": "Des expertes en cybersécurité estiment que l’attaque visant des supermarchés belges symbolise une menace de plus en plus importante, portée par …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://leseng.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_extra_big/2026/07/28/node_780517/33633483/public/2026/07/28/93149506.jpeg?itok=62iSBtbG1793702053"
-    },
-    {
-      "id": "2d52689289ff89964fc043c90d8be2f73b424350",
-      "title": "Cyberattaque dans les supermarchés: que faut-il craindre pour les produits, les prix et la confiance des clients? \"On peut attendre de grosses promos\"",
-      "url": "https://www.dhnet.be/conso/consommation/2026/11/02/cyberattaque-dans-les-supermarches-que-faut-il-craindre-pour-les-produits-les-prix-et-la-confiance-des-clients-on-peut-attendre-de-grosses-promos-ZSWOHZW6QRCNXGFSZKRTT4K3UM/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-11-02T17:38:03.000Z",
-      "summary": "Des frigos connectés facilitent la gestion du froid, mais exposent aussi les magasins à des attaques. Deux experts décryptent les enjeux pour les …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.dhnet.be/resizer/v2/4VJAK6PZRNCAHLFJQU5XLXDSLA.jpg?auth=ac1424b22645b76e622795def24c252f6b8db8ef99a3e691c9213a22074f6b66&amp%3Bwidth=1200&amp%3Bheight=630&amp%3Bquality=85&amp%3Bfocal=480%2C275"
+      "imageUrl": "https://ic-cdn.flipboard.com/huffingtonpost.fr/9452c0607a5caf0b6dc59eb14dc330b44241329e/_xlarge.jpeg"
     },
     {
       "id": "fa2786b2478718f2015d0b5eba21329c79094d3e",
@@ -349,39 +679,6 @@
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj03NmPVHpoxRjXKDh7s6v2Dav4D-MCSLBTLalEb9ScH_lLc4yQJWOW8QfTIBePp7Pcgo1qrq6MYuQvNeyb0LCvWO4E4e7BLQKEj-g3Z2LImj4CXV-UUGfVd-vVL0NGtxMMn50klhOLlyI3p6DXhIFf-LkMsST7LK4kh3gIjqlvBwOUgbKTq8-hRdvmfz46/s1600/rcap.jpg"
-    },
-    {
-      "id": "bd5f67042e0ca25676ebd94e27fa033279f995f4",
-      "title": "L'inquiétude grandit en Europe face aux cyberattaques contre des supermarchés",
-      "url": "https://www.rfi.fr/fr/europe/20261102-l-inqui%C3%A9tude-grandit-en-europe-face-aux-cyberattaques-contre-des-supermarch%C3%A9s?amp%3Butm_content=topic%2Ffr-technologie",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-11-02T16:52:37.000Z",
-      "summary": "Plusieurs pays européens sont touchés par des cyberattaques visant des supermarchés : la Belgique, le Luxembourg, l’Estonie, l’Irlande et la Suède. Des congélateurs auraient été pi",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/rfi.fr/f5f79fd0894d4895dd34123b830c7ff64ffdf7ed/_xlarge.jpeg"
-    },
-    {
-      "id": "76da50a84f79e94cac04b32c9ba1aab4d0d965e4",
-      "title": "Cyberattaques : des supermarchés européens dénoncent des attaques informatiques",
-      "url": "https://www.france24.com/fr/vid%C3%A9o/20261102-cyberattaques-des-supermarch%C3%A9s-europ%C3%A9ens-d%C3%A9noncent-des-attaques-informatiques?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-11-02T16:52:19.000Z",
-      "summary": "Les supermarchés de plusieurs pays européens ont vu la température de leurs réfrigérateurs s'envoler et gâcher la nourriture, lundi 2 novembre, en raison d'une cyberattaque semblab",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://s.france24.com/media/display/65634940-d6d9-11f1-a1fd-d18c5759e759/w:1280/p:16x9/FR-20261102-161923-162112-CS.jpg"
-    },
-    {
-      "id": "ca05513d53a11d2b3be4e6755dd0e2fe03b58f7e",
-      "title": "Une cyberattaque frappe des réfrigérateurs à travers l'Europe",
-      "url": "https://brut-5857f8.brut.media/fr/articles/une-cyberattaque-frappe-des-refrigerateurs-a-travers-l-europe",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-11-02T16:50:00.000Z",
-      "summary": "Les supermarchés de plusieurs pays européens ont vu la température de leurs réfrigérateurs s'envoler et gâcher la nourriture, lundi, en raison d'une cyberattaque similaire à celle ",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://cdn.prod.website-files.com/6638f8a6eb6d568220f98b00/6ae8bf0a0e70fb4011f48fc3_6ae8be5b0e70fb4011f46183_2026-11-02T121001Z_1385424107_RC2NFOAXIJQY_RTRMADP_3_EUROPE-CYBERATTACK.jpeg"
     },
     {
       "id": "7dc9ed437b9fae1e4241b2a960643800650c204e",
@@ -417,17 +714,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkbU6vLZjF0nlz7vqN6UVf3kN1IcdUfIpAmVWlh2II4gGbMMmSuiE1S8HLzP4JV-ImeCa64hU-cEaa-yGXWqUO_XHOurKtEw61DFvjGOJhM7gHpRPpegBcCFYrXkd59wGX-PoV6zm7z7uq6PpXjc4GLhDRzcinR5IIjcOVZEVl8FMQ0v0Dt3CV9sRxZNk/s1600/android-tv-botnet.jpg"
     },
     {
-      "id": "fcc5634fa0e1907c1ea08958d02bd40a2d8ef9f3",
-      "title": "Congélateurs réglés à 70 °C : les pirates des frigos frappent à nouveau dans toute l’Europe (et c’est pire)",
-      "url": "https://www.journaldugeek.com/2026/11/02/congelateurs-regles-a-70-c-les-pirates-des-frigos-frappent-a-nouveau-dans-toute-leurope-et-cest-pire/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-11-02T15:43:56.000Z",
-      "summary": "Dans la nuit du dimanche 1er au lundi 2 novembre 2026, les installations frigorifiques de supermarchés ont été modifiées à distance en Belgique, au …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/journaldugeek.com/653e52c91821ac50602617426248cb261c097200/_xlarge.jpeg"
-    },
-    {
       "id": "27be5844e47db34c806b5d3f3abd78624972fcba",
       "title": "DarkBlinders Compromises Israeli Target and Iraqi Kurdish Government Cloud Environment",
       "url": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
@@ -448,28 +734,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/presse-citron.net/2057c735e61d699a6ccfa11ed4da7997750dce45/_large.jpeg"
-    },
-    {
-      "id": "807df414c2f54656eaa7a3f1c1ddaee72f695952",
-      "title": "\"Vers 3h du matin, la température des congélateurs a augmenté soudainement\": en Belgique, des installations frigorifiques de Carrefour, Ikea et Delhaize victimes d'une cyberattaque",
-      "url": "https://www.bfmtv.com/tech/cybersecurite/vers-3h-du-matin-la-temperature-des-congelateurs-a-augmente-soudainement-en-belgique-des-installations-frigorifiques-de-carrefour-ikea-et-delhaize-victimes-d-une-cyberattaque_AD-202611020545.html?amp%3Butm_content=topic%2Ffr-actualit%C3%A9s",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-11-02T13:38:01.000Z",
-      "summary": "Quelques semaines après la cyberattaque ayant affecté les frigos d'une centaine de magasins en France, la Belgique est confrontée à un incident …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/AvRT9J1E4xHz8TDscI8TozNl8tI=/0x112:1200x787/1200x0/images/Carrefour-Belgique-2376433.jpg"
-    },
-    {
-      "id": "878803919366eb602cec55781911ea6582be092e",
-      "title": "Après avoir aspiré vos données, ce virus demande à une IA d’évaluer votre valeur financière avant de s’autodétruire",
-      "url": "https://www.lesnumeriques.com/intelligence-artificielle/utiliser-l-ia-pour-savoir-si-l-on-est-une-cible-assez-rentable-pour-etre-piratee-voici-le-nouveau-malware-volta-sur-windows-n266672.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-11-02T13:23:00.000Z",
-      "summary": "Un nouveau malware Windows baptisé VOLTA-AUTODOXER pille toutes les données du PC avant de demander à l’IA Claude d’évaluer la valeur financière de …",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://cdn.lesnumeriques.com/optim/news/26/266672/b71a9462-utiliser-l-ia-pour-savoir-si-vous-etes-une-cible-assez-rentable-pour-etre-piratee-voici-le-nouveau-malware-volta-sur-windows__1200_678__0-422-6000-3572.webp"
     },
     {
       "id": "bf30dc2e2aa83860d8291297e5d69c8e47d269cf",
@@ -527,17 +791,6 @@
       "imageUrl": "https://ic-cdn.flipboard.com/01net.com/6700dada3c237b1f99de43c1c53bfc7f236e33b8/_xlarge.jpeg"
     },
     {
-      "id": "6f323bb6401283868468fe7159149e7d4e65a6ec",
-      "title": "La PS5 s'offre une nouvelle mise à jour d'urgence, voici tout ce qu'elle apporte",
-      "url": "https://www.gameblog.fr/jeu-video/ed/news/ps5-maj-securite-26-07-14-22-00-725979",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-11-02T10:55:06.000Z",
-      "summary": "La PS5 vient à nouveau de recevoir une mise à jour d'urgence en réaction aux derniers développements en termes de sécurité pour la console de Sony, …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://cdn-uploads.gameblog.fr/img/good_deal/684111_67e26de9abbe8.jpg"
-    },
-    {
       "id": "0ff1f24153ad3a25b0aac2379e5af3fee735e9c0",
       "title": "Government Linux Servers Targeted With SysGoRAT and Suspected AI-Generated Scripts",
       "url": "https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html",
@@ -547,39 +800,6 @@
       "type": "NEWS",
       "severity": "Moyenne",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYHKbP_7yOsvpwAldBMCL3QkCJ9SbUVrJz1Tr_RB6m3O99Gj73H0fX20hIbzKujRWB-1qkBCWv1UEJEbrTe1NFYpPkTm0OoNqJe7OdJoZa1HcZDT2On3mUT0igQeCOsMnWw_ZfT-HsLx6B8R84XYHHg4mUI2hPzM15ggddQCFAAmzChzC5Of90LInW8RB8/s1600/artex.jpg"
-    },
-    {
-      "id": "61196fc754bcd782bfd4366c87486dcb87304695",
-      "title": "Piratage de la Switch 2 : jeux natifs sur Mac et iPhone, émulation PC… Nintendo est dans une mauvaise passe",
-      "url": "https://www.numerama.com/cyberguerre/2365507-piratage-de-la-switch-2-jeux-natifs-sur-mac-et-iphone-emulation-pc-nintendo-est-dans-une-mauvaise-passe.html?amp%3Butm_source=flipboard&amp%3Butm_content=directlink&amp%3Butm_campaign=2365507",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-11-02T10:44:47.000Z",
-      "summary": "Depuis le 22 octobre, un jailbreak de la Nintendo Switch 2 permet de copier ses jeux, leurs mises à jour et ses sauvegardes pour les émuler sur PC ou …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2025/06/switch2-4.jpg?resize=1600%2C900&amp%3Bkey=95088abe"
-    },
-    {
-      "id": "f08382f87ef7c19569c186c6286e2552676a282e",
-      "title": "Une apparente traite d'êtres humains derrière les centres d'arnaques en ligne démantelés à Madagascar - Outre-mer La 1ère",
-      "url": "https://la1ere.franceinfo.fr/mayotte/une-apparente-traite-d-etres-humains-derriere-les-centres-d-arnaques-en-ligne-demanteles-a-madagascar-1753881.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-11-02T08:23:47.000Z",
-      "summary": "Les centres d'arnaques en ligne démantelés entre août et septembre à Madagascar étaient opérés depuis le Cambodge par un groupe criminel. Une …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/bec84ea21029473f250681f518879bf6e2b86e01/_xlarge.webp"
-    },
-    {
-      "id": "763395082ac5d00d45009e0c0fb0d80a4fd8df12",
-      "title": "Des panneaux publicitaires diffusent du porno en pleine rue après une cyberattaque internationale",
-      "url": "https://www.clubic.com/actualite-637033-des-panneaux-publicitaires-diffusent-du-porno-en-pleine-rue-apres-une-cyberattaque-internationale.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-11-02T06:00:00.000Z",
-      "summary": "Sur l’axe du 26-Juillet, à Gizeh, des automobilistes se sont arrêtés pour filmer un écran publicitaire géant sur lequel des pirates diffusaient une …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/f0e7ae0ada404f53b6f7d63831c249c3071ce2ff/_xlarge.jpeg"
     },
     {
       "id": "77aa1dd4df4495f8f28404a771844c946e6cafcb",
@@ -967,6 +1187,17 @@
       "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/ce4a5f5d2f9963f09c67742eea4e0ea2fc35db8c/_xlarge.jpeg"
     },
     {
+      "id": "f3c236d808ca19c05252fae5ea86726f11b400f0",
+      "title": "Cryptomonnaies : la plateforme Binance victime d'un piratage massif estimé à 6,3 milliards de dollars | TF1 Info",
+      "url": "https://www.tf1info.fr/international/cryptomonnaies-la-plateforme-binance-victime-d-un-piratage-massif-estime-a-6-3-milliards-de-dollars-2472851.html?amp%3Butm_content=topic%2Ffr-cryptographie",
+      "source": "Cryptographie FR",
+      "publishedAt": "2026-10-30T06:21:24.000Z",
+      "summary": "Les montants pourraient être astronomiques. La plateforme d'échanges de cryptomonnaies Binance a annoncé, jeudi 29 octobre, qu'elle avait été victime …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://photos.tf1info.fr/images/1280/720/la-plateforme-de-cryptomonnaies-binance-2026-3aa870-0@1x.jpeg?overlayImage=bG9nby10ZjFpbmZvLWRlZmF1bHQucG5n&amp%3BoverlayWidth=18&amp%3BoverlayGravity=northwest&amp%3Bs=78c802"
+    },
+    {
       "id": "6edfe63bfd5cb8b63f1773befbff8a75d5ca27bb",
       "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
       "url": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
@@ -1031,6 +1262,17 @@
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": null
+    },
+    {
+      "id": "80fa8e01b70ee6bafd3033f8f11063b000e24761",
+      "title": "Cryptomonnaies : Binance promet de couvrir les pertes du piratage record, la Corée du Nord soupçonnée",
+      "url": "https://information.tv5monde.com/economie/cryptomonnaies-binance-sefforce-de-limiter-limpact-dun-piratage-record-63-milliards-de-dollars-2843711?amp%3Butm_content=topic%2Ffr-cryptographie",
+      "source": "Cryptographie FR",
+      "publishedAt": "2026-10-30T00:52:50.000Z",
+      "summary": "Le géant des cryptomonnaies Binance a promis vendredi de couvrir l'intégralité des pertes de ses clients après un piratage au préjudice estimé à un …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://information.tv5monde.com/sites/tv5-info/files/styles/seo_1200/public/2026-10/field_media_image-3065991-Part-GTY-1496426892-1-1-1.jpg?itok=44HDadWi"
     },
     {
       "id": "fb22b6b14a5ad9d760eb66360775f701b504e5fe",
@@ -1174,17 +1416,6 @@
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
-    },
-    {
-      "id": "fb962494433ecfb3b3551f924c0748afd8836254",
-      "title": "Cryptomonnaies : Binance fait état d’une cyberattaque massive estimée à 6,3 milliards de dollars, le Bitcoin en chute",
-      "url": "https://www.leparisien.fr/economie/le-bitcoin-en-chute-apres-un-piratage-dune-des-principales-plateformes-dechange-30-10-2026-DUSTOHBPRBBHPI7CSMHO6GRDEE.php?amp%3Butm_content=topic%2Ffr-cryptographie",
-      "source": "Cryptographie FR",
-      "publishedAt": "2026-10-29T23:11:48.000Z",
-      "summary": "La plateforme d’échange de cryptomonnaies Binance a dit enquêter sur une potentielle cyberattaque, sans confirmer le piratage. Le cours du bitcoin …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.leparisien.fr/resizer/BAzrtQDmMG3-QqEXOSMZIxfQ6eo=/1600x900/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/OV7VMUJJ5RDZJN24EE553SG3YA.jpg"
     },
     {
       "id": "563a9a4b26c678688a9d59a583d6b0128807659b",
@@ -1341,50 +1572,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJ7hXo0MoiQiXCSLnOj0h2YUqDhIHl13Le4XxOU3UxV7X2mm4_YGJKOT6akyW58uRaMhslGN6NY9B_1u7V-y_fy0kYJHKoVA-yBWVt53xqBk06_syRpASgWezvnVIZs9goRlwNrp_HMVj_Pu8rzXmIsfJBV1YzhJ8IAd-1g7FFVhFWqc9HegTk4Jok5kR9/s1600/github.gif"
     },
     {
-      "id": "7cc6f86bc4810726e970ed252f29839f9c36dcff",
-      "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
-      "url": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-29T09:05:39.000Z",
-      "summary": "An attacker tried to exploit a critical GitLab vulnerability on the Alpine Linux project's own GitLab server a week after GitLab released a fix, Alpine Linux said on 28 October. Th",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh65eroK1pQacKJwqeGmgp2sDta1mgCrPuNMXiwAgTi-FVZNc1V4D7qooFFc-V-XNOJzYpjYk28Y_kIkoHMNJfnQ5h2gI0-bOWlVOt9VJ9oZUpRsBzYLsSMe3oNRTfZe53dtpezOOq1MHmWhEhAigbyOMLx4jWAbcvvImY39jY1h4FMS4_OUqSDF-kZJvQ/s1600/linux-gitlab.jpg"
-    },
-    {
-      "id": "01ede536572bb40b4bead73adbbdcee8adf55250",
-      "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
-      "url": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-29T08:24:22.000Z",
-      "summary": "Hackers exploited a critical Cisco Catalyst SD-WAN flaw, fixed in February, to plant custom malware inside the systems that control an organization's SD-WAN network. The malware, c",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDuVB5nQJHwAnAATDQxAqD8KtWk7IpNvBqXQq6RPkqJ72joLVDp5dUDDdYmRHlrbUhJQpaQQ59p245XjotvW2DNx_fKk7cPp0wJUsK0z5IQY2jXA1oP-YcYKLtSdBXnZJDNECWOzX9tP3-12cKXJm2A1KKoBsu9CEiOYKbgJDVqvQt7YRF8Fzd706YumA/s1600/cisco-sdwan.jpg"
-    },
-    {
-      "id": "0e67994c1d75b8b9f3ec9a3612f3c09301803368",
-      "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
-      "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-29T06:22:33.000Z",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catal",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcr5vMvEpNtC6AAPL85NwoZLwafJYuuIYKlofAez4dmACEH-0VI-icaKusP2b9HgxcJC2AMyZkdGNfVOyXQCWqjK-_vIvw1OjptUH_maUL82An7MRxEnZQ62JZqPqwuTp6QQ8TWq4y0SRqUb6KhdXLYRJMyUHg2cQBzez3g-0G8jh2ujIgx-6FqQdWBuFr/s1600/esx-audit.jpg"
-    },
-    {
-      "id": "d13eba1ef5673ce706f54ab14d19c0e0a78aeb5f",
-      "title": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
-      "url": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-29T05:50:17.000Z",
-      "summary": "Palo Alto Networks on Wednesday warned that threat actors are exploiting the recently patched PHP2Shell vulnerabilities against publicly-accessible management interfaces. \"Active e",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9wRucatO6j8IYS9drMJNn_BtgvNwY739pg33a6-50h33cCXnqi4unW5RppMfzO6TLjMdDQ-XICWN6uKTU6ai_SyLBeD8k4SdO7Kx2-QJeMbz0LSEMZkuKZls2dMSNoJmkY5nSc2SOduiSkVpKY9uFjCG0gU73hMvSyyqMANymiqb012-Z_rVUUUJtQQ5C/s1600/php-palo.jpg"
-    },
-    {
       "id": "27eafa3afc6d0f0750cfb21f7c29a390a4438da0",
       "title": "Jenkins - CVE-2026-117612",
       "url": "https://cyberveille.esante.gouv.fr/alertes/jenkins-cve-2026-117612-2026-10-29",
@@ -1451,28 +1638,6 @@
       "imageUrl": null
     },
     {
-      "id": "f75453a6b2c98d0b8cc471351a5f3578fb8b3bb5",
-      "title": "Vulnérabilité dans les produits NetApp (29 octobre 2026)",
-      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1410/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-10-29T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans les produits NetApp. Elle permet à un attaquant de provoquer une élévation de privilèges.",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "9a03155c3839c5701a5bc83575d188226a4c5d60",
-      "title": "Multiples vulnérabilités dans Veeam Backup for Microsoft 365 (29 octobre 2026)",
-      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1411/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-10-29T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Veeam Backup for Microsoft 365. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
       "id": "895ce6af3f521f814ed1f1a7fe93a93ee0b497ba",
       "title": "Multiples vulnérabilités dans Elastic Cloud Enterprise (29 octobre 2026)",
       "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1419/",
@@ -1512,17 +1677,6 @@
       "source": "CERT-FR",
       "publishedAt": "2026-10-29T00:00:00.000Z",
       "summary": "De multiples vulnérabilités ont été découvertes dans les produits Juniper Networks. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire ",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "3358458c6ddd6a266adc067bd43bbdc4dee538e4",
-      "title": "Vulnérabilité dans Mattermost Server (29 octobre 2026)",
-      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1409/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-10-29T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans Mattermost Server. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -1570,61 +1724,6 @@
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
-    },
-    {
-      "id": "f51731afe24f38ea4fc20106d3b1c399e1a4e0ff",
-      "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
-      "url": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-28T18:08:33.000Z",
-      "summary": "The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train that has been put to use for zero-day e",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXuRyHXVM1n6S9Z49nYkM2dmJjKwuZx2RAre0CQSpB202GteLj8keMogqzR7ZVIv7YRc9udBHU7-oCpnpzL6nLaez3ypbVr9cVmiH9zFwJVApy5cev84W725y38auaUdkCQGN3zvngCivMUl-SYV1jnJu9eHduaYeBzro4cdmFHIQJfBQN4RvcC-fUTrs1/s1600/si.jpg"
-    },
-    {
-      "id": "193fe9fde5da9665f19f48e82f7aaba7157a06e6",
-      "title": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
-      "url": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-28T17:08:09.000Z",
-      "summary": "Third-party Android app stores can now apply to Google for permission to install apps with one tap, without Android's usual confirmation screens, and to update them in the backgrou",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJGjoQXY31UWoQz0bfvFTDRKy4lDpdbhqOJFgOspdG5AcGZNlsme3byg1-XnmyLsx7HQrxb0iojoqyoeO0KDhEDWbLxzQLceuQwSlD8TXgkhzoRCyFepV0PcOwNee4lCypBnYFiZ4DhJ_ZojQ0HyRuCGGqFVAwBxMqdzkOHL2I1tLTUctLATvKl7MMONo/s1600/android-app-install.jpg"
-    },
-    {
-      "id": "94875b6c9c3f573deecdaaead3cd86e512ec5eab",
-      "title": "Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win",
-      "url": "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-28T16:23:34.000Z",
-      "summary": "A chain of logic flaws, with no memory corruption, can turn a malicious web page into code running on a Windows computer outside Microsoft Edge's sandbox, a security researcher has",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAGi2cGlEYo6PNV9aaEulhQB9MtbWjCBFhi3MugyJf4kGwtSPjq9F9wxhlptAUKuipSCQ0_NhE5eyEbHzMWnT6hVLsXtqrIQImq0QndxbKoKMz_gzxJonZa2jnvwHGEqjN_J7uyi5BPaqlGmtMn1y9xzJQywFZB_FNgKV-GR7qtBQfVmrLxdoUlyhPTiA/s1600/edge.jpg"
-    },
-    {
-      "id": "19369717d9d1d9e34e98c008913bbd7179be51fc",
-      "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
-      "url": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-28T16:02:45.000Z",
-      "summary": "Cybersecurity researchers have disclosed details of what appears to be an artificial intelligence (AI)-assisted attack orchestrated by a suspected China-nexus threat actor that has",
-      "type": "LEAK",
-      "severity": "Élevée",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgl3PPkqzXf7YyMcnwdBu5XWlOwWtUonf15z0n79qMtIOVTb4LNfKdnl7tUK-45_2boP9r2ZKuHmX6e1BZLmo-LYF-rUwH8gtNrynFuaX4rlNh20UXPvtIfC85BcKcHXK1qei6uOJyImSjTfO537yljJve0Y_zMlfFfhBl0mKPfppWhkfojtGlYgxLjdSO0/s1600/php-united.jpg"
-    },
-    {
-      "id": "4fb66db97217853183e0a8e2a3788b950d3700df",
-      "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
-      "url": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-28T12:48:03.000Z",
-      "summary": "Threat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intelligence firm Defused Cyber. The vulnerabi",
-      "type": "CVE",
-      "severity": "Critique",
-      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBB03AGS7veiAqQ7-xPeadzhhaRvDmhOlLgQcDN0y-r1na_us5yomWjBEXCbwbw8OW_o8SSGjjqk4VZFQ4ZxLiWKQPZxlcBkzJ5lv3OlEV0rOETUKyQzWoZ74LGpSjOjrScmk1rVf0OhRmDACHG3jwSDfBnnta75I_3s_nuoWGZmcfg7NZfHBp_PEIl8aj/s1600/oracle-hack.jpg"
     },
     {
       "id": "babf5c3319a8192b97023c5f313af932d626e198",
@@ -1690,28 +1789,6 @@
       "summary": "&lt;p&gt;Il s’agit d’une vulnérabilité de type &lt;strong&gt;traversée de répertoire&lt;/strong&gt; (path traversal) dans &lt;strong&gt;Dell PowerProtect Data Domain Virtual Editio",
       "type": "CVE",
       "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "2501d0469a19d930588a76bc650fcb7593e2e5dc",
-      "title": "Vulnérabilité dans les produits Belden (28 octobre 2026)",
-      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1407/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-10-28T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans les produits Belden. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "e840d7a0d33816c18f641dcede6950cfa305cc1e",
-      "title": "Vulnérabilité dans Axis Camera Station Pro (28 octobre 2026)",
-      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1408/",
-      "source": "CERT-FR",
-      "publishedAt": "2026-10-28T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans Axis Camera Station Pro. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données.",
-      "type": "CVE",
-      "severity": "Info",
       "imageUrl": null
     },
     {
@@ -2100,17 +2177,6 @@
       "imageUrl": null
     },
     {
-      "id": "b0d4a95584febc965b7d31c37c1d26f315128828",
-      "title": "Managing AI Token Consumption for Operational Resilience",
-      "url": "https://www.cisa.gov/resources-tools/resources/managing-ai-token-consumption-operational-resilience",
-      "source": "CISA",
-      "publishedAt": "2026-10-22T12:00:00.000Z",
-      "summary": "&lt;p&gt;CISA, the Canadian Centre for Cyber Security (Cyber Centre), and partners are releasing joint guidance, &lt;a href=&quot;https://www.cyber.gc.ca/en/guidance/managing-ai-to",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
       "id": "d3078253dc36c6232507d147762e560f3b8127f9",
       "title": "Siemens SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-11",
@@ -2155,12 +2221,12 @@
       "imageUrl": null
     },
     {
-      "id": "6892a70021aa02587a21091eedf3441f5c1bb22f",
-      "title": "Siemens PSS(R)SINCAL",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-06",
+      "id": "b0d4a95584febc965b7d31c37c1d26f315128828",
+      "title": "Managing AI Token Consumption for Operational Resilience",
+      "url": "https://www.cisa.gov/resources-tools/resources/managing-ai-token-consumption-operational-resilience",
       "source": "CISA",
       "publishedAt": "2026-10-22T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-295-06.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
+      "summary": "&lt;p&gt;CISA, the Canadian Centre for Cyber Security (Cyber Centre), and partners are releasing joint guidance, &lt;a href=&quot;https://www.cyber.gc.ca/en/guidance/managing-ai-to",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
@@ -2205,72 +2271,6 @@
       "source": "CISA",
       "publishedAt": "2026-10-22T12:00:00.000Z",
       "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-295-03.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "4fc25160d949f7831aaed58a4c24cb129c20a0b2",
-      "title": "Siemens RUGGEDCOM CROSSBOW Station Access Controller",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-15",
-      "source": "CISA",
-      "publishedAt": "2026-10-22T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-295-15.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "8ea386c7b754c9ebeb9b866e7b76f2425d02785b",
-      "title": "Siemens SIMATIC S7 PLCs Web Server",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-14",
-      "source": "CISA",
-      "publishedAt": "2026-10-22T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-295-14.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "805f9612ad3732e372a704392785024ab8dede21",
-      "title": "Siemens SENTRON 3NA COM Fuse",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-05",
-      "source": "CISA",
-      "publishedAt": "2026-10-22T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-295-05.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "2e1aa6439c9790a3e80ea31930a4346203486d48",
-      "title": "Kiloview E3 NDI Encoder",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-01",
-      "source": "CISA",
-      "publishedAt": "2026-10-22T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-295-01.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "4669c5b45e788d6b9ce30a5f3d128b50a2da2802",
-      "title": "Siemens SIMATIC S7-1500 TM MFP",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-16",
-      "source": "CISA",
-      "publishedAt": "2026-10-22T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-295-16.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
-      "type": "CVE",
-      "severity": "Info",
-      "imageUrl": null
-    },
-    {
-      "id": "4efe8a13f3b571876ec2868c00af159ab0b21f26",
-      "title": "Siemens Industrial Edge Devices",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-17",
-      "source": "CISA",
-      "publishedAt": "2026-10-22T12:00:00.000Z",
-      "summary": "&lt;p&gt;&lt;a href=&quot;https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-295-17.json&quot;&gt;&lt;strong&gt;View CSAF&lt;/strong&gt;&lt;/a&gt;&lt;/p&",
       "type": "CVE",
       "severity": "Info",
       "imageUrl": null
