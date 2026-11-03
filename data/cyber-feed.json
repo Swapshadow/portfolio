@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T20:01:31.445Z",
+  "generatedAt": "2026-11-03T03:20:31.964Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,7 +17,7 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 111
+      "items": 106
     },
     {
       "name": "Exploit-DB",
@@ -76,31 +76,64 @@
   ],
   "items": [
     {
-      "id": "1b3be9b1aeac58d55601aa702d58d5b349999049",
-      "title": "Supermarchés: des réfrigérateurs cibles de cyberattaques à travers l’Europe",
-      "url": "https://www.bfmtv.com/international/europe/irlande/video-supermarches-des-refrigerateurs-cibles-de-cyberattaques-a-travers-l-europe_VN-202611020877.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-11-02T19:26:28.000Z",
-      "summary": "Les réfrigérateurs des supermarchés de plusieurs pays européens ont été ciblés par une cyberattaque, ce lundi 2 novembre. Des magasins ont été …",
+      "id": "6d151047ab545993c44136f81e885bf63a6d84a5",
+      "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
+      "url": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
+      "source": "Krebs on Security",
+      "publishedAt": "2026-11-03T02:24:31.000Z",
+      "summary": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly ",
       "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/O1g8Ihg9X8ADx0NR9__TmzXKR3o=/0x0:1280x720/1280x0/images/Supermarches-des-refrigerateurs-cibles-de-cyberattaques-a-travers-l-Europe-2376647.jpg"
+      "severity": "Élevée",
+      "imageUrl": "https://krebsonsecurity.com/wp-content/uploads/2026/11/xcpe-map.png"
     },
     {
-      "id": "deb9d22b7e8e8ea9462d377cd4b9f9b0ad4dd11b",
-      "title": "Une nouvelle cyberattaque frappe des réfrigérateurs de supermarchés, dans huit pays d’Europe",
-      "url": "https://www.huffingtonpost.fr/international/article/une-nouvelle-cyberattaque-frappe-des-refrigerateurs-de-supermarches-dans-huit-pays-d-europe_350759.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "id": "4dd0b1a8f69f63e66d738eb500c9915fd1ae82ff",
+      "title": "Pyongyang nie avoir commis le piratage record de Binance",
+      "url": "https://www.lagazettefrance.fr/article/pyongyang-nie-avoir-commis-le-piratage-record-de-binance?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
       "source": "Cybercriminalité FR",
-      "publishedAt": "2026-11-02T18:48:52.000Z",
-      "summary": "Cette fois-ci, la France n’a pas été ciblée comme elle l’avait été le 12 octobre dernier. C’est une nouvelle cyberattaque de grande ampleur visant des …",
+      "publishedAt": "2026-11-03T01:53:02.000Z",
+      "summary": "La Corée du Nord a balayé mardi les affirmations du FBI selon lesquelles elle serait derrière le piratage record de 6,3 milliards de dollars sur la …",
       "type": "NEWS",
       "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/huffingtonpost.fr/9452c0607a5caf0b6dc59eb14dc330b44241329e/_xlarge.jpeg"
+      "imageUrl": "https://www.lagazettefrance.fr/cache/thumb_discover_1200/media/2026/11/D68G79K.jpg"
     },
     {
-      "id": "6a47740e6199f8aacecd966355965e58023c687d",
+      "id": "e3616b66ee685cb4ca07cb3fdc6793abf56c9a54",
+      "title": "Piratage de Binance: la Corée du Nord qualifie les accusations du FBI de «grave provocation politique»",
+      "url": "https://www.aol.com/articles/piratage-binance-cor%C3%A9e-nord-qualifie-224457000.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-11-02T22:44:57.000Z",
+      "summary": "Kim Yo-jong a déclaré dans un communiqué diffusé par l'agence de presse d'État KCNA que les affirmations du FBI relevaient d'une « rhétorique absurde n'apportant rien de nouveau »,",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/aol.com/368ad593a62f6cbd76bfeabc93a0150f89f596d3/_xlarge.jpeg"
+    },
+    {
+      "id": "7265ce0c09375dcd2615303b406c263b3b49ab85",
+      "title": "Ordonnances, numéros de Sécu, mutuelle, des pirates revendiquent le vol de 436 000 dossiers de pharmacies",
+      "url": "https://www.capital.fr/conso/ordonnances-numeros-de-secu-mutuelle-des-pirates-revendiquent-le-vol-de-436-000-dossiers-de-pharmacies-1531512?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-11-02T21:20:08.000Z",
+      "summary": "Après les supermarchés il y a quelques jours, des hackers s’attaquent désormais à des pharmacies. En seulement deux jours, trois officines ont été …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/capital.fr/9add8b6daa6be7e11c74328b8ed955f296052a3c/_xlarge.jpeg"
+    },
+    {
+      "id": "27eaa1104c73872cb865727920324b141e90f583",
+      "title": "Ce que l'on sait du piratage des réfrigérateurs de supermarchés en Europe",
+      "url": "https://www.france24.com/fr/europe/20261102-ce-que-sait-piratage-r%C3%A9frig%C3%A9rateurs-supermarch%C3%A9s-europe?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-11-02T20:10:09.000Z",
+      "summary": "Après la France, plusieurs dizaines de supermarchés européens ont été victimes, lundi, d'une cyberattaque visant leurs installations frigorifiques. En cause, des équipements parfoi",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://s.france24.com/media/display/05ef4c26-d6e7-11f1-8541-bf1914cabd52/w:1280/p:16x9/AP26306457417754.jpg"
+    },
+    {
+      "id": "4a6954b3ce681afc5639b0718914f7ef888a7e04",
       "title": "Auto-Planning victime d’un piratage : 14 millions de plaques d’immatriculation potentiellement concernées",
-      "url": "https://www.leparisien.fr/high-tech/auto-planning-victime-dun-piratage-14-millions-de-plaques-dimmatriculation-potentiellement-concernees-02-11-2026-V5VCX7GG35AELPF7Q3Z2TYTPLQ.php?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "url": "https://www.leparisien.fr/high-tech/auto-planning-victime-dun-piratage-14-millions-de-plaques-dimmatriculation-potentiellement-concernees-02-11-2026-V5VCX7GG35AELPF7Q3Z2TYTPLQ.php?amp%3Butm_content=topic%2Ffr-technologie",
       "source": "Cybercriminalité FR",
       "publishedAt": "2026-11-02T17:56:38.000Z",
       "summary": "Ce service en ligne, spécialisé dans la prise de rendez-vous notamment pour les contrôles techniques, a été victime d’une cyberattaque. Les hackers …",
@@ -109,26 +142,37 @@
       "imageUrl": "https://ic-cdn.flipboard.com/leparisien.fr/39192595e1e3e6221b6bd1c5bbc6b362e51e38db/_xlarge.jpeg"
     },
     {
-      "id": "8ffe2ddf8e03ae192a781ff1be812966a2a981c6",
-      "title": "Une cyberattaque frappe des réfrigérateurs à travers l'Europe",
-      "url": "https://brut-5857f8.brut.media/fr/articles/une-cyberattaque-frappe-des-refrigerateurs-a-travers-l-europe?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "id": "6bcc3b5583500b7b48ce74276b3b18257c0d83fc",
+      "title": "Attaque d’installations frigorifiques : « Aucun problème d’approvisionnement », dit Bernard Quintin (MR)",
+      "url": "https://www.lesoir.be/780511/article/2026-11-02/attaque-dinstallations-frigorifiques-aucun-probleme-dapprovisionnement-dit?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
       "source": "Cybercriminalité FR",
-      "publishedAt": "2026-11-02T17:40:32.000Z",
-      "summary": "Les supermarchés de plusieurs pays européens ont vu la température de leurs réfrigérateurs s'envoler et gâcher la nourriture, lundi, en raison d'une cyberattaque similaire à celle ",
+      "publishedAt": "2026-11-02T17:44:07.000Z",
+      "summary": "Les perturbations touchant ce lundi plusieurs dizaines de magasins en Belgique ne menacent pas l’approvisionnement, selon Bernard Quintin (MR). Le …",
       "type": "NEWS",
       "severity": "Info",
-      "imageUrl": "https://cdn.prod.website-files.com/6638f8a6eb6d568220f98b00/6ae8bf0a0e70fb4011f48fc3_6ae8be5b0e70fb4011f46183_2026-11-02T121001Z_1385424107_RC2NFOAXIJQY_RTRMADP_3_EUROPE-CYBERATTACK.jpeg"
+      "imageUrl": "https://leseng.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_extra_big/2026/11/02/node_780511/33852933/public/2026/11/02/111366246.jpeg?itok=-lrNRIXk1793641462"
     },
     {
-      "id": "bb9d38e3efedcf28d7e172cb45766b8c697b26b6",
-      "title": "Cyberattaques contre les installations frigorifiques des supermarchés en Belgique: pourquoi sont-elles ciblées? 5 chiffres pour comprendre",
-      "url": "https://www.moustique.be/notre-epoque/nos-explications/2026/11/02/cyberattaques-contre-les-installations-frigorifiques-des-supermarches-en-belgique-pourquoi-sont-elles-ciblees-5-chiffres-pour-comprendre-QV7DBRNVBBB23AWXTUT4OALD5A/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "id": "2d52689289ff89964fc043c90d8be2f73b424350",
+      "title": "Cyberattaque dans les supermarchés: que faut-il craindre pour les produits, les prix et la confiance des clients? \"On peut attendre de grosses promos\"",
+      "url": "https://www.dhnet.be/conso/consommation/2026/11/02/cyberattaque-dans-les-supermarches-que-faut-il-craindre-pour-les-produits-les-prix-et-la-confiance-des-clients-on-peut-attendre-de-grosses-promos-ZSWOHZW6QRCNXGFSZKRTT4K3UM/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
       "source": "Cybercriminalité FR",
-      "publishedAt": "2026-11-02T17:30:00.000Z",
-      "summary": "Des installations frigorifiques en Belgique auraient été la cible d’une cyberattaque dans la nuit de dimanche à lundi. Mais derrière cette opération, …",
+      "publishedAt": "2026-11-02T17:38:03.000Z",
+      "summary": "Des frigos connectés facilitent la gestion du froid, mais exposent aussi les magasins à des attaques. Deux experts décryptent les enjeux pour les …",
       "type": "NEWS",
       "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/moustique.be/964fcddaaa30dec82b7a6cc9cba8ad7633eb4336/_xlarge.jpeg"
+      "imageUrl": "https://www.dhnet.be/resizer/v2/4VJAK6PZRNCAHLFJQU5XLXDSLA.jpg?auth=ac1424b22645b76e622795def24c252f6b8db8ef99a3e691c9213a22074f6b66&amp%3Bwidth=1200&amp%3Bheight=630&amp%3Bquality=85&amp%3Bfocal=480%2C275"
+    },
+    {
+      "id": "cf3765a42ba762d77200bf9dc019b847f131650d",
+      "title": "Les réfrigérateurs de dizaines de magasins en Europe ciblés par une cyberattaque",
+      "url": "https://www.radiofrance.fr/franceinter/podcasts/l-info-de-france-inter/les-refrigerateurs-de-dizaines-de-magasins-en-europe-ont-ete-cibles-par-une-cyberattaque-2440631?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-11-02T17:30:00.000Z",
+      "summary": "Les supermarchés de plusieurs pays européens ont vu la température de leurs réfrigérateurs s'envoler et gâcher la nourriture, ce lundi, en raison …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/radiofrance.fr/5c1bb5633d5563a60f83c36aeca0a6109d41400f/_xlarge.webp"
     },
     {
       "id": "929aee7923287a189cf945691d3c69bd330c5b60",
@@ -142,6 +186,17 @@
       "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/Le18pk4bRqVWcPSVpQkX1HXO2wo=/0x13:2048x1165/2048x0/images/Installation-frigorifique-supermarche-2376540.jpg"
     },
     {
+      "id": "2bffb1d2269468f9af95404bc7f678474c4883fb",
+      "title": "Des cyberattaques contre des réfrigérateurs et des congélateurs visent plusieurs supermarchés en Europe",
+      "url": "https://www.lemonde.fr/international/article/2026/11/02/des-cyberattaques-contre-des-refrigerateurs-et-des-congelateurs-visent-plusieurs-supermarches-en-europe_6805296_3210.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-11-02T17:02:40.000Z",
+      "summary": "En Belgique, en Suède, en Finlande, en Estonie, au Luxembourg et en Irlande, des pirates ont pris, dans la nuit du 1ᵉʳ au 2 novembre, le contrôle de …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://img.lemde.fr/2026/11/02/142/0/6000/4000/1440/960/60/0/4a61c7c_ftp-1-6omov40kw5r1-afp-d66n24h.jpg"
+    },
+    {
       "id": "fa2786b2478718f2015d0b5eba21329c79094d3e",
       "title": "⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
       "url": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
@@ -153,6 +208,39 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj03NmPVHpoxRjXKDh7s6v2Dav4D-MCSLBTLalEb9ScH_lLc4yQJWOW8QfTIBePp7Pcgo1qrq6MYuQvNeyb0LCvWO4E4e7BLQKEj-g3Z2LImj4CXV-UUGfVd-vVL0NGtxMMn50klhOLlyI3p6DXhIFf-LkMsST7LK4kh3gIjqlvBwOUgbKTq8-hRdvmfz46/s1600/rcap.jpg"
     },
     {
+      "id": "bd5f67042e0ca25676ebd94e27fa033279f995f4",
+      "title": "L'inquiétude grandit en Europe face aux cyberattaques contre des supermarchés",
+      "url": "https://www.rfi.fr/fr/europe/20261102-l-inqui%C3%A9tude-grandit-en-europe-face-aux-cyberattaques-contre-des-supermarch%C3%A9s?amp%3Butm_content=topic%2Ffr-technologie",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-11-02T16:52:37.000Z",
+      "summary": "Plusieurs pays européens sont touchés par des cyberattaques visant des supermarchés : la Belgique, le Luxembourg, l’Estonie, l’Irlande et la Suède. Des congélateurs auraient été pi",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/rfi.fr/f5f79fd0894d4895dd34123b830c7ff64ffdf7ed/_xlarge.jpeg"
+    },
+    {
+      "id": "76da50a84f79e94cac04b32c9ba1aab4d0d965e4",
+      "title": "Cyberattaques : des supermarchés européens dénoncent des attaques informatiques",
+      "url": "https://www.france24.com/fr/vid%C3%A9o/20261102-cyberattaques-des-supermarch%C3%A9s-europ%C3%A9ens-d%C3%A9noncent-des-attaques-informatiques?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-11-02T16:52:19.000Z",
+      "summary": "Les supermarchés de plusieurs pays européens ont vu la température de leurs réfrigérateurs s'envoler et gâcher la nourriture, lundi 2 novembre, en raison d'une cyberattaque semblab",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://s.france24.com/media/display/65634940-d6d9-11f1-a1fd-d18c5759e759/w:1280/p:16x9/FR-20261102-161923-162112-CS.jpg"
+    },
+    {
+      "id": "ca05513d53a11d2b3be4e6755dd0e2fe03b58f7e",
+      "title": "Une cyberattaque frappe des réfrigérateurs à travers l'Europe",
+      "url": "https://brut-5857f8.brut.media/fr/articles/une-cyberattaque-frappe-des-refrigerateurs-a-travers-l-europe",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-11-02T16:50:00.000Z",
+      "summary": "Les supermarchés de plusieurs pays européens ont vu la température de leurs réfrigérateurs s'envoler et gâcher la nourriture, lundi, en raison d'une cyberattaque similaire à celle ",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://cdn.prod.website-files.com/6638f8a6eb6d568220f98b00/6ae8bf0a0e70fb4011f48fc3_6ae8be5b0e70fb4011f46183_2026-11-02T121001Z_1385424107_RC2NFOAXIJQY_RTRMADP_3_EUROPE-CYBERATTACK.jpeg"
+    },
+    {
       "id": "7dc9ed437b9fae1e4241b2a960643800650c204e",
       "title": "Après la cyberattaque des réfrigérateurs, l’Europe s’inquiète de la vulnérabilité des champs photovoltaïques",
       "url": "https://www.lefigaro.fr/societes/apres-la-cyberattaque-des-refrigerateurs-l-europe-s-inquiete-de-la-vulnerabilite-des-champs-photovoltaiques-20261102?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -162,17 +250,6 @@
       "type": "CVE",
       "severity": "Info",
       "imageUrl": "https://i.f1g.fr/media/cms/1200x630_crop/2026/11/02/36822918acda0d9e62695ff63be7cb176afecc212fc8faaebee304df40930421.jpg"
-    },
-    {
-      "id": "18eb721b6d16b1e6e4ab227f5599d81958a90af8",
-      "title": "Frigos piratés : après la France, de nouvelles cyberattaques perturbent des chaînes de supermarchés en Europe",
-      "url": "https://www.lesechos.fr/industrie-services/conso-distribution/frigos-pirates-apres-la-france-de-nouvelles-cyberattaques-perturbent-des-chaines-de-supermarches-en-europe-2260560?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-11-02T16:23:40.000Z",
-      "summary": "Des incidents semblables à l'attaque qui a affecté en octobre des supermarchés français ont notamment été constatés en Belgique, où le parquet …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://media.lesechos.com/api/v1/images/view/6ae8b911779b9ef3bb007d9a/1280x720/02101782248219-web-tete.jpg"
     },
     {
       "id": "f6f07d57bbadd67063f0df5ea8c50439761763a5",
@@ -197,28 +274,6 @@
       "imageUrl": "https://ic-cdn.flipboard.com/journaldugeek.com/653e52c91821ac50602617426248cb261c097200/_xlarge.jpeg"
     },
     {
-      "id": "1c06db18645b9bf3e8046fddae1f7d8c11596e86",
-      "title": "Attaque chez Delhaize &amp; Co: \"On peut redouter qu'il y ait un danger d'une plus grande ampleur, lié à un Etat\"",
-      "url": "https://www.lalibre.be/economie/entreprises-startup/2026/11/02/attaque-chez-delhaize-co-on-peut-redouter-quil-y-ait-un-danger-dune-plus-grande-ampleur-lie-a-un-etat-QPMUK4EJPFD5JNV46DZU333QNA/?amp%3Butm_content=topic%2Ffr-technologie",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-11-02T15:29:00.000Z",
-      "summary": "\"L'attaque des frigos\" qui a touché de nombreuses enseignes en Belgique laisse une question majeure en suspens : pour quelle raison ? Pour \"se faire …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/lalibre.be/97fc9a35fb6d5443ce815dc02c2a2edfabef403d/_xlarge.jpeg"
-    },
-    {
-      "id": "150e27a22c839e77a09249a6658b4aecee273ca4",
-      "title": "Cyberattaque d’installations frigorifiques : le parquet fédéral ouvre une enquête",
-      "url": "https://www.lesoir.be/780475/article/2026-11-02/cyberattaque-dinstallations-frigorifiques-le-parquet-federal-ouvre-une-enquete?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-11-02T15:09:23.000Z",
-      "summary": "Plusieurs chaînes de supermarchés, telles Delhaize, Carrefour, Intermarché ou Spar, ont indiqué lundi matin avoir subi des « incidents informatiques …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://leseng.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_extra_big/2026/11/02/node_780475/33852660/public/2026/11/02/111343430.jpeg?itok=TpcSLyc61793632194"
-    },
-    {
       "id": "27be5844e47db34c806b5d3f3abd78624972fcba",
       "title": "DarkBlinders Compromises Israeli Target and Iraqi Kurdish Government Cloud Environment",
       "url": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
@@ -239,17 +294,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/presse-citron.net/2057c735e61d699a6ccfa11ed4da7997750dce45/_large.jpeg"
-    },
-    {
-      "id": "9c58fb0e031c6b874d0ba3a98facb367b78bc5b5",
-      "title": "Cyberattaques sur des frigos : des supermarchés touchés dans plusieurs pays d'Europe",
-      "url": "https://www.boursier.com/actualites/economie/cyberattaques-sur-des-frigos-des-supermarches-touches-dans-plusieurs-pays-d-europe-55428.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-11-02T13:49:00.000Z",
-      "summary": "Après la France en octobre, des chaînes de distribution en Belgique, en Suède, en Estonie et en Irlande ont signalé lundi des intrusions dans leurs …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://cdn-static.boursier.com/illustrations/photos/l_attaques-frigo-europe.jpg"
     },
     {
       "id": "511e9263ace781466826a771f237756d6f7950dc",
@@ -274,17 +318,6 @@
       "imageUrl": "https://io-fsly-bfmtv.cdn.nextradiotv.com/AvRT9J1E4xHz8TDscI8TozNl8tI=/0x112:1200x787/1200x0/images/Carrefour-Belgique-2376433.jpg"
     },
     {
-      "id": "e22bea777c412b0f882322a60a453c6763272d92",
-      "title": "Europe : cyberattaque massive contre des frigos de supermarchés ce lundi",
-      "url": "https://video.lefigaro.fr/figaro/conso/europe-cyberattaque-massive-contre-des-frigos-de-supermarches-ce-lundi-20261102?amp%3Butm_content=topic%2Ffr-actualit%C3%A9s",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-11-02T13:26:47.000Z",
-      "summary": "Trois semaines après un incident similaire en France, des milliers de frigos de supermarchés ont été touchés par une cyberattaque dans la nuit du …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://i.f1g.fr/media/ext/1200x630_crop/api-video-public.lefigaro.fr/assets/a0/51/f0/a051f0ad08a87053231ee9bbf2affa6a.jpeg"
-    },
-    {
       "id": "878803919366eb602cec55781911ea6582be092e",
       "title": "Après avoir aspiré vos données, ce virus demande à une IA d’évaluer votre valeur financière avant de s’autodétruire",
       "url": "https://www.lesnumeriques.com/intelligence-artificielle/utiliser-l-ia-pour-savoir-si-l-on-est-une-cible-assez-rentable-pour-etre-piratee-voici-le-nouveau-malware-volta-sur-windows-n266672.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -294,17 +327,6 @@
       "type": "NEWS",
       "severity": "Élevée",
       "imageUrl": "https://cdn.lesnumeriques.com/optim/news/26/266672/b71a9462-utiliser-l-ia-pour-savoir-si-vous-etes-une-cible-assez-rentable-pour-etre-piratee-voici-le-nouveau-malware-volta-sur-windows__1200_678__0-422-6000-3572.webp"
-    },
-    {
-      "id": "ad486a0ecd51a5245b5d4c16807715a9216af8ff",
-      "title": "Cybercrime. La Corée du Nord est passée maîtresse dans l’art du vol de cryptomonnaies",
-      "url": "https://www.courrierinternational.com/article/cybercrime-la-coree-du-nord-est-passee-maitresse-dans-l-art-du-vol-de-cryptomonnaies_284134?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-11-02T12:51:51.000Z",
-      "summary": "Propulsé “leader mondial” du piratage de cryptomonnaies après son dernier vol record, Pyongyang est désormais reconnu par la communauté …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/courrierinternational.com/645f412aaa1068ddc42885f31df48506d43bbb9d/_xlarge.jpeg"
     },
     {
       "id": "0a3dffb0401f215c59b2396b537f0f1f7a1d948a",
@@ -395,6 +417,17 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYHKbP_7yOsvpwAldBMCL3QkCJ9SbUVrJz1Tr_RB6m3O99Gj73H0fX20hIbzKujRWB-1qkBCWv1UEJEbrTe1NFYpPkTm0OoNqJe7OdJoZa1HcZDT2On3mUT0igQeCOsMnWw_ZfT-HsLx6B8R84XYHHg4mUI2hPzM15ggddQCFAAmzChzC5Of90LInW8RB8/s1600/artex.jpg"
     },
     {
+      "id": "61196fc754bcd782bfd4366c87486dcb87304695",
+      "title": "Piratage de la Switch 2 : jeux natifs sur Mac et iPhone, émulation PC… Nintendo est dans une mauvaise passe",
+      "url": "https://www.numerama.com/cyberguerre/2365507-piratage-de-la-switch-2-jeux-natifs-sur-mac-et-iphone-emulation-pc-nintendo-est-dans-une-mauvaise-passe.html?amp%3Butm_source=flipboard&amp%3Butm_content=directlink&amp%3Butm_campaign=2365507",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-11-02T10:44:47.000Z",
+      "summary": "Depuis le 22 octobre, un jailbreak de la Nintendo Switch 2 permet de copier ses jeux, leurs mises à jour et ses sauvegardes pour les émuler sur PC ou …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2025/06/switch2-4.jpg?resize=1600%2C900&amp%3Bkey=95088abe"
+    },
+    {
       "id": "8ecb8ef74dc5331c8a949c01e963183fad79ec01",
       "title": "Après le hockey, le basket suisse victime d'une cyberattaque",
       "url": "https://www.20min.ch/fr/story/la-federation-confirme-apres-le-hockey-le-basket-suisse-victime-d-une-cyberattaque-103660607?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -417,17 +450,6 @@
       "imageUrl": "https://ic-cdn.flipboard.com/euronews.com/144c468a1b3d6b16ace41fa9878470619c0a5faa/_xlarge.jpeg"
     },
     {
-      "id": "203d9f4905ee701077f4c26bef4a85e1432c7b66",
-      "title": "Après la cyberattaque, la municipalité de Cholet retrouve ses lignes de téléphones mais reste en « mode dégradé »",
-      "url": "https://www.ouest-france.fr/societe/cyberattaque/apres-la-cyberattaque-la-municipalite-de-cholet-retrouve-ses-lignes-de-telephones-c5389534-d696-11f1-84f3-5611f158a658?amp%3Butm_medium=fluxrss&amp%3Butm_campaign=banquedecontenu",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-11-02T08:42:13.000Z",
-      "summary": "La municipalité de Cholet (Maine-et-Loire) vient de retrouver ses lignes téléphoniques. Depuis vendredi 30 octobre 2026, la collectivité est …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/a51e722c176340d256e3004b846fe00b0154b1fa/_xlarge.jpeg"
-    },
-    {
       "id": "f08382f87ef7c19569c186c6286e2552676a282e",
       "title": "Une apparente traite d'êtres humains derrière les centres d'arnaques en ligne démantelés à Madagascar - Outre-mer La 1ère",
       "url": "https://la1ere.franceinfo.fr/mayotte/une-apparente-traite-d-etres-humains-derriere-les-centres-d-arnaques-en-ligne-demanteles-a-madagascar-1753881.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -437,17 +459,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/bec84ea21029473f250681f518879bf6e2b86e01/_xlarge.webp"
-    },
-    {
-      "id": "3065a8db4853011637ae54044700298719b8de88",
-      "title": "Des hackers ont pris le contrôle de panneaux publicitaires dans plusieurs pays, voici ce qu'ils ont affiché - PaperGeek",
-      "url": "https://www.papergeek.fr/des-hackers-ont-pris-le-controle-de-panneaux-publicitaires-dans-plusieurs-pays-voici-ce-quils-ont-affiche-2472842?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-11-02T07:55:44.000Z",
-      "summary": "Des hackers ont réussi à pirater de nombreux panneaux publicitaires, répartis dans plusieurs pays. Ces derniers y ont diffusé du contenu… plutôt …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://static.papergeek.fr/2026/11/A1.jpg"
     },
     {
       "id": "a5d664894a5834e6c8e02ea3a260dcba862e3d3a",
@@ -481,6 +492,61 @@
       "type": "NEWS",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhd5V8QVweKn56_SnTCKZkhmOip6paz9noBrJn7znyZqUtFbOEaLuALQUNlmjcSAb7RIUW8GDETB6J0kFpQQe6vq7wAjk3ogxKUeQ0-2rKeO6TveLdqHNs9KnTN6zC6rwPzWE2IBWMokqQOUzAA0XPM2BWHTUTE7_U7XDfUGKTDIC1PYttxHGnAq_Kr_hMq/s1600/hacker-ai.jpg"
+    },
+    {
+      "id": "2127dba44d710695641e25d0dc019537945517b4",
+      "title": "pgAdmin - CVE-2026-116241",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/pgadmin-cve-2026-116241-2026-11-02",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-11-02T03:30:05.000Z",
+      "summary": "&lt;p&gt;Il s’agit d’une vulnérabilité dans l’outil &lt;strong&gt;Import/Export Data&lt;/strong&gt; de &lt;strong&gt;pgAdmin 4&lt;/strong&gt;.&lt;/p&gt; &lt;p&gt;pgAdmin 4 est une ",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "339c236fae5e2db0bf35aad2b5a201f08938976e",
+      "title": "Dell - CVE-2026-91913",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/dell-cve-2026-91913-2026-11-02",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-11-02T03:26:58.000Z",
+      "summary": "&lt;p&gt;Il s’agit d’une vulnérabilité dans la console &lt;strong&gt;Dell OpenManage Enterprise&lt;/strong&gt;.&lt;/p&gt; &lt;p&gt;Dell OpenManage Enterprise est une console de sup",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "ee388016a37465b565b2509d6c48921acef461ea",
+      "title": "WSO2 - CVE-2025-11969",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/wso2-cve-2025-11969-2026-11-02",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-11-02T03:25:32.000Z",
+      "summary": "&lt;p&gt;Il s’agit d’une vulnérabilité dans les &lt;strong&gt;System REST APIs&lt;/strong&gt; de &lt;strong&gt;WSO2 API Manager&lt;/strong&gt;.&lt;/p&gt; &lt;p&gt;WSO2 API Manager ",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "53ec44ee8b5e72119259b9135db359bb1a8f8786",
+      "title": "OpenSearch - CVE-2026-63393",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/opensearch-cve-2026-63393-2026-11-02",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-11-02T03:24:24.000Z",
+      "summary": "&lt;p&gt;Il s’agit d’une vulnérabilité dans le plugin &lt;strong&gt;OpenSearch SQL&lt;/strong&gt;.&lt;/p&gt; &lt;p&gt;OpenSearch SQL est un plugin du moteur libre de recherche et d",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
+    },
+    {
+      "id": "19cedc2e25c338e8383c54f6455a4aa75ed8d703",
+      "title": "JetBrains - CVE-2026-118697",
+      "url": "https://cyberveille.esante.gouv.fr/alertes/jetbrains-cve-2026-118697-2026-11-02",
+      "source": "Cyberveille Santé",
+      "publishedAt": "2026-11-02T02:29:36.000Z",
+      "summary": "&lt;p&gt;Il s’agit d’une vulnérabilité dans le service d’arrière-plan &lt;strong&gt;jetbrainsd&lt;/strong&gt;, installé par la &lt;strong&gt;Toolbox App&lt;/strong&gt; et par les &",
+      "type": "CVE",
+      "severity": "Élevée",
+      "imageUrl": null
     },
     {
       "id": "150bc3c2737d4931fe3c51f9ff89b81d093fa2f2",
@@ -2208,72 +2274,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://ic-cdn.flipboard.com/journaldunet.com/df501de68f30c9ed9bf6090dc73c82ed820ec4c3/_xlarge.jpeg"
-    },
-    {
-      "id": "bf18e2b6e0227207444482ee6aac6981318da159",
-      "title": "Lazarus déploie deux nouveaux malwares et adopte la cryptographie post-quantique",
-      "url": "https://www.clubic.com/actualite-635407-lazarus-deploie-deux-nouveaux-malwares-et-adopte-la-cryptographie-post-quantique.html?amp%3Butm_content=topic%2Ffr-cryptographie",
-      "source": "Cryptographie FR",
-      "publishedAt": "2026-10-22T04:50:00.000Z",
-      "summary": "Les pirates nord-coréens de Lazarus chiffrent maintenant la livraison de leurs logiciels espions avec un algorithme conçu pour résister aux …",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/6a6a0fb950b8780420b404a8e0792634c128fb3f/_xlarge.jpeg"
-    },
-    {
-      "id": "b872931402e88f0a6ea3ce91a6c4372e98302719",
-      "title": "Node.js - CVE-2026-111497",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/nodejs-cve-2026-111497-2026-10-22",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-10-22T02:12:46.000Z",
-      "summary": "&lt;p&gt;Il s’agit d’une vulnérabilité dans le &lt;strong&gt;décodeur Brotli&lt;/strong&gt; intégré à &lt;strong&gt;Node.js&lt;/strong&gt;.&lt;/p&gt; &lt;p&gt;Node.js est un enviro",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "42a00f0c6708e5fbc784da4270d0879c9431a549",
-      "title": "Roundcube - CVE-2026-114716",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/roundcube-cve-2026-114716-2026-10-22",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-10-22T02:12:01.000Z",
-      "summary": "&lt;p&gt;Il s’agit d’une vulnérabilité dans la fonction &lt;strong&gt;extract_inline_images()&lt;/strong&gt; de la classe &lt;strong&gt;rcmail_sendmail&lt;/strong&gt; de &lt;strong",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "0310f8dc72edc340112f6d2af8d6296d3c0dfa9f",
-      "title": "HAProxy - CVE-2026-110354",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/haproxy-cve-2026-110354-2026-10-22",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-10-22T02:11:01.000Z",
-      "summary": "&lt;p&gt;Il s’agit d’une vulnérabilité dans l’&lt;strong&gt;analyseur HTTP/1&lt;/strong&gt; (multiplexeur &lt;strong&gt;H1&lt;/strong&gt;) de &lt;strong&gt;HAProxy&lt;/strong&gt;.&",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "d1875385dd5995c910c6280306198e5f0951be6d",
-      "title": "GitLab - CVE-2026-110264",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/gitlab-cve-2026-110264-2026-10-22",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-10-22T02:08:54.000Z",
-      "summary": "&lt;p&gt;Il s’agit d’une vulnérabilité dans le &lt;strong&gt;compilateur d’expressions régulières&lt;/strong&gt; du moteur &lt;strong&gt;Onigmo&lt;/strong&gt;, intégré à &lt;strong",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
-    },
-    {
-      "id": "22b08d86064c8ab60035ef6c3610b8a4d14bab8a",
-      "title": "Cisco - CVE-2026-76466",
-      "url": "https://cyberveille.esante.gouv.fr/alertes/cisco-cve-2026-76466-2026-10-22",
-      "source": "Cyberveille Santé",
-      "publishedAt": "2026-10-22T02:07:33.000Z",
-      "summary": "&lt;p&gt;Il s’agit d’une vulnérabilité dans le &lt;strong&gt;service de base de données&lt;/strong&gt; de &lt;strong&gt;Cisco Expressway Series&lt;/strong&gt;.&lt;/p&gt; &lt;p&gt;C",
-      "type": "CVE",
-      "severity": "Élevée",
-      "imageUrl": null
     }
   ]
 }
