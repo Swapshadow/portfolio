@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T23:22:27.330Z",
+  "generatedAt": "2026-11-23T06:25:34.880Z",
   "sources": [
     {
       "name": "CERT-FR",
@@ -17,13 +17,13 @@
       "name": "Cyberveille Santé",
       "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml",
       "status": "ok",
-      "items": 109
+      "items": 101
     },
     {
       "name": "Exploit-DB",
       "url": "https://www.exploit-db.com/rss.xml",
       "status": "ok",
-      "items": 0
+      "items": 50
     },
     {
       "name": "The Hacker News",
@@ -76,6 +76,50 @@
   ],
   "items": [
     {
+      "id": "6ae6dbd1259d76d6f68aa677619af5017866969f",
+      "title": "Logiciels dépassés, agents IA de plus en plus menaçants : l’énergie en première ligne face aux cyberattaques",
+      "url": "https://www.lexpress.fr/environnement/logiciels-depasses-agents-ia-de-plus-en-plus-menacants-lenergie-en-premiere-ligne-face-aux-WVODWJ5KZFH5XOZ6JY7SUFN5LA/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-11-23T04:45:00.000Z",
+      "summary": "Energie. Il y a un an, des pirates s'infiltraient dans une trentaine d'installations polonaises. Le black-out a été évité de justesse. Mais …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/lexpress.fr/3150736750df9d67fea01914bbc4c1e87573bc53/_xlarge.jpeg"
+    },
+    {
+      "id": "c0a74662e1c50c171de4460a990ee9bbd05ed962",
+      "title": "Les arnaques via WhatsApp deviennent de plus en plus pernicieuses: voici comment se protéger - Le Temps",
+      "url": "https://www.letemps.ch/cyber/cybersecurite/les-arnaques-via-whatsapp-deviennent-de-plus-en-plus-pernicieuses-voici-comment-se-proteger?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-11-23T04:00:08.000Z",
+      "summary": "Utilisateurs de WhatsApp, soyez sur vos gardes. Depuis plusieurs semaines, de nombreux organismes de cybersécurité mettent en garde contre une …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://letemps-17455.kxcdn.com/photos/b0e129ed-ce4e-4688-982f-8566b40dfe39/medium"
+    },
+    {
+      "id": "460041be26741aa26176860c2f25487a7c09147f",
+      "title": "Ledger : un pirate piège d&#8217;autres pirates avec un faux fichier",
+      "url": "https://www.zataz.com/ledger-un-pirate-piege-dautres-pirates-avec-un-faux-fichier/",
+      "source": "Zataz",
+      "publishedAt": "2026-11-23T01:31:54.000Z",
+      "summary": "Sur un forum pirate, une prétendue nouvelle fuite de données Ledger dissimule un piège. ZATAZ a suivi la manœuvre.",
+      "type": "LEAK",
+      "severity": "Info",
+      "imageUrl": "https://www.zataz.com/wp-content/uploads/PWN_piege.jpg"
+    },
+    {
+      "id": "1aef2ea48b2040e278c884cef47497dec67d1bba",
+      "title": "Cyberattaque à Chambourcy : INC Ransom revendique l&#8217;attaque",
+      "url": "https://www.zataz.com/cyberattaque-a-chambourcy-inc-ransom-revendique-lattaque/",
+      "source": "Zataz",
+      "publishedAt": "2026-11-23T00:36:24.000Z",
+      "summary": "Cyberattaque à Chambourcy : INC Ransom revendique l'intrusion. ZATAZ révèle des documents de police municipale exposés.",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://www.zataz.com/wp-content/uploads/INC_chambourcy.jpg"
+    },
+    {
       "id": "62a00a4dbc7756ee38da710ff214dc579967e649",
       "title": "Guadeloupe : une cyberattaque de « grande ampleur » touche le CHU",
       "url": "https://www.ouest-france.fr/societe/cyberattaque/guadeloupe-une-cyberattaque-de-grande-ampleur-touche-le-chu-5dbe2338-e6bd-11f1-bd4e-6f30b8f49e21?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
@@ -84,7 +128,7 @@
       "summary": "Le CHU de la Guadeloupe a informé avoir été victime d’une cyberattaque de grande ampleur dimanche 22 novembre dans la matinée. Une partie de …",
       "type": "NEWS",
       "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/8a9dc5d8b4ad10039f5b5ec02b0f889d9a7e51dd/_xlarge.jpeg"
+      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/a3de5a6d860217ad9e6e249d0cc8cc221f41fd8a/_xlarge.jpeg"
     },
     {
       "id": "ce7572e383a50cf23dc51de27d55932ccbfa66c8",
@@ -131,9 +175,9 @@
       "imageUrl": "https://cdn.lesnumeriques.com/optim/news/26/268132/23a7b965-nordvpn-en-promotion-le-surcout-de-premium-vaut-il-vraiment-la-peine__1200_678__overflow.webp"
     },
     {
-      "id": "bb6b7addedb7518cda9ba540709c2240bb1a9248",
+      "id": "7e592c02bd7c8de79c42b799759c83681adaa47e",
       "title": "Le FBI piraté : les hackers auraient mis la main sur des données cruciales",
-      "url": "https://www.phonandroid.com/le-fbi-pirate-les-hackers-auraient-mis-la-main-sur-des-donnees-cruciales.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "url": "https://www.phonandroid.com/le-fbi-pirate-les-hackers-auraient-mis-la-main-sur-des-donnees-cruciales.html?amp%3Butm_content=topic%2Ffr-technologie",
       "source": "Cybercriminalité FR",
       "publishedAt": "2026-11-22T12:42:11.000Z",
       "summary": "Certains systèmes du Federal Bureau of Investigation (FBI) auraient été compromis. Les pirates auraient réussi à mettre la main sur une immense base …",
@@ -307,15 +351,15 @@
       "imageUrl": "https://ic-cdn.flipboard.com/sudouest.fr/d63e35d061d9cee05057384a7f00fb931be62d43/_xlarge.jpeg"
     },
     {
-      "id": "8700c23f7d97b31e98bdf22303a78e8b603d0198",
-      "title": "États-Unis : le FBI et le ministère de l’Agriculture victimes de piratages informatiques, des données sensibles visées ?",
-      "url": "https://www.ouest-france.fr/societe/cyberattaque/etats-unis-le-fbi-et-le-ministere-de-lagriculture-victimes-de-piratages-informatiques-des-donnees-sensibles-visees-3b92ccb8-e583-11f1-bd4e-6f30b8f49e21?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "id": "bd838f047f435dab3c38947e9404f78b43cc5140",
+      "title": "Cyberattaque aux États-Unis : le ministère de l’Agriculture et le FBI visés par des piratages informatiques",
+      "url": "https://www.sudouest.fr/economie/cybersecurite/cyberattaque-aux-etats-unis-le-ministere-de-l-agriculture-et-le-fbi-vises-par-des-piratages-informatiques-31602821.php?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
       "source": "Cybercriminalité FR",
-      "publishedAt": "2026-11-21T09:01:25.000Z",
-      "summary": "La police fédérale américaine ainsi qu’un ministère ont été victimes d’incidents relevant de cyberattaques ces dernières heures, d’après plusieurs …",
+      "publishedAt": "2026-11-21T09:25:41.000Z",
+      "summary": "Le ministère de l’Agriculture et la police fédérale (FBI) des États-Unis ont été victimes de piratages informatiques, ont rapporté les médias …",
       "type": "NEWS",
       "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/ouest-france.fr/29cbcd6de137bd2c473d93ccc558febda5309cdf/_xlarge.jpeg"
+      "imageUrl": "https://ic-cdn.flipboard.com/sudouest.fr/535d774f146a2f45fbc951606c43f8c46d92d769/_xlarge.jpeg"
     },
     {
       "id": "16a6e6790c0840c078be481748648318524432fe",
@@ -349,17 +393,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://s.france24.com/media/display/b8952830-e1ac-11f1-a475-5f54d898a954/w:1280/p:16x9/main-enigma.jpg"
-    },
-    {
-      "id": "7470c875fd2841860d65d77ae87f2cc712bc5d6c",
-      "title": "Cyberattaques russes : des journalistes et un député français visés par une nouvelle campagne de phishing",
-      "url": "https://www.clubic.com/actualite-640396-cyberattaques-russes-des-journalistes-et-un-depute-francais-vises-par-une-nouvelle-campagne-de-phishing.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-11-21T08:26:00.000Z",
-      "summary": "Une unité du FSB, le service de sécurité russe, a envoyé des liens piégés sur Signal et Telegram à des journalistes du Monde, au député Éric Bothorel …",
-      "type": "NEWS",
-      "severity": "Élevée",
-      "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/bf1422c7fc68683102cc6769f51c30ef91457f1d/_xlarge.jpeg"
     },
     {
       "id": "007d99bae88c9679cd988b25fe150f14eefb63df",
@@ -481,6 +514,17 @@
       "type": "LEAK",
       "severity": "Info",
       "imageUrl": "https://www.zataz.com/wp-content/uploads/recap-news-zataz-1.jpg"
+    },
+    {
+      "id": "4b029c81a1d26ec5ff14f5502c3625d0ce6801b7",
+      "title": "Toujours touchée par la cyberattaque, l’académie de Toulouse absente des statistiques nationales : la saisie des évaluations vire au \"travail inutile\" pour un syndicat",
+      "url": "https://france3-regions.franceinfo.fr/occitanie/tarn/albi/toujours-touchee-par-la-cyberattaque-l-academie-de-toulouse-absente-des-statistiques-nationales-la-saisie-des-evaluations-vire-au-travail-inutile-pour-un-syndicat-3452850.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-11-20T16:00:23.000Z",
+      "summary": "Après la cyberattaque qui a perturbé les outils numériques de l’Éducation nationale, la FSU-SNUIpp du Tarn juge inutile la saisie des évaluations …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://ic-cdn.flipboard.com/franceinfo.fr/e961b7a96eeff2e786dbfa8602ff99d138515e54/_large.jpeg"
     },
     {
       "id": "67f00bf2d16c78ec94168c896e5f2fefbb756b85",
@@ -626,6 +670,17 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGn0ym0Vqfakc2h3h2W6AT6gf5qd6RPkfrgV-Z2UgwDErad91v-nJoIu3OYwEC3IvLQ6rVGm6FIQypMcoTahAgL5_62ipKE1aQsZvqGsdJzu_4ZGaiFlCYKEpg1N5z3FRSk7O5n4uRlfDuNz7i99Ls9z1Ysee3iV4OCMTxG2rF8YLgCtfTOL2KA-hSQXY/s1600/INT.png"
     },
     {
+      "id": "26ee88e259420f531a1cbf2083772775c84c4a93",
+      "title": "Aux États-Unis, l'IA est soupçonnée d'être à l'origine de pannes informatiques en série",
+      "url": "https://siecledigital.fr/2026/11/20/aux-etats-unis-lia-est-soupconnee-detre-a-lorigine-de-pannes-informatiques-en-serie/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
+      "source": "Cybercriminalité FR",
+      "publishedAt": "2026-11-20T11:10:13.000Z",
+      "summary": "Les pannes informatiques se multiplient aux États-Unis et l'intelligence artificielle pourrait aggraver la situation en fragilisant des …",
+      "type": "NEWS",
+      "severity": "Info",
+      "imageUrl": "https://siecledigital.fr/wp-content/uploads/2026/11/0289627458.jpg"
+    },
+    {
       "id": "9fa30f9abcba78d4a7a57472db210a1dce735425",
       "title": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
       "url": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
@@ -646,17 +701,6 @@
       "type": "CVE",
       "severity": "Élevée",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrMm7M_HyuVDt9NknngHSgyfGKu0DR8VTc_GYL-tr_hMhTmi3EAZnM8x5byJQRYEqcUAZlDTR_Xi4RcMm4lidmk9UR_iyTWpDa5Mn6xRBoNwAf3auen2u6guKxnvoIrcQOfq7Mm1clmsyBMYVcjaOqVFYiN4mXgYSyR5_DUSrmVOLDK5mQeAS8BBB3X5-5/s1600/cisco-cyberattacks.jpg"
-    },
-    {
-      "id": "d914359c0f3433ab451e2ec340eaada018d08bf2",
-      "title": "Après le piratage du fisc et des frigos, Sébastien Lecornu dévoile son plan de cybersécurité pour la France",
-      "url": "https://www.clubic.com/actualite-640228-apres-le-piratage-du-fisc-et-des-frigos-sebastien-lecornu-devoile-son-plan-de-cybersecurite-pour-la-france.html?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-11-20T09:57:00.000Z",
-      "summary": "Après une année 2026 marquée par plusieurs cyberattaques d'ampleur, l'État essaie de réagir. Sébastien Lecornu a dévoilé jeudi un plan de …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/clubic.com/2b4be66ea30fa624a7198c76fb7a42127dbbcc7d/_xlarge.jpeg"
     },
     {
       "id": "068917703f24565f6413a88a99042da67d376a35",
@@ -681,17 +725,6 @@
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTSAI-N-DRII1YA3I98ZVnKnG0SMgm97oEAqyiSXZB23DPwzvTk3figFLsTCKsMJRxRhjKEPFblxfcOuB_UXc_OAXJRiVI07Jxjn-CebJVHiRQ5sc43AifBpUPNfU5-LRD6QEGbX7Vnt_HAmJZiLojS32PtNWwIWeideJZnIpgjrstJ0Iy84lYd47bePk/s1600/chinese-vmware.jpg"
     },
     {
-      "id": "be323efa1bd961c97ae7190d18f59af8d19ae5ed",
-      "title": "« Rien ne laisse à penser que les choses vont s’arranger » : face aux cyberattaques IA, la France contre-attaque",
-      "url": "https://www.01net.com/actualites/rien-ne-laisse-penser-choses-arranger-face-cyberattaques-ia-france-contre-attaque.html?amp%3Butm_content=01net%2Fmagazine%2F01net",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-11-20T09:05:50.000Z",
-      "summary": "Le Premier ministre Sébastien Lecornu tire la sonnette d’alarme. Face à une menace cyber « particulièrement grave et inédite », dopée par …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/01net.com/7bd4240ce807a7b958318bd03311f89de6f65255/_xlarge.jpeg"
-    },
-    {
       "id": "d12b7ea6787d0ddeab1444a0b956c80273ccaae0",
       "title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
       "url": "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html",
@@ -712,17 +745,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://cdn.revolution-energetique.com/uploads/2026/11/turbine-pelton-autriche-wikimedia-1024x806.jpg"
-    },
-    {
-      "id": "12ca13820f2ba05c33bc9065066731e3cd477f53",
-      "title": "Hacker son appareil photo avec l’IA : Caira veut rendre la pratique officielle",
-      "url": "https://phototrend.fr/2026/11/caira-creative-sandbox-hack-ia/?amp%3Butm_content=topic%2Ffr-cybercriminalit%C3%A9",
-      "source": "Cybercriminalité FR",
-      "publishedAt": "2026-11-20T06:04:00.000Z",
-      "summary": "La start-up londonienne veut offrir un cadre officiel aux photographes qui modifient leur appareil avec Claude ou ChatGPT, avec un hackathon en …",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://ic-cdn.flipboard.com/phototrend.fr/89bf4be23ba06eafaca12243fd829872a53a29e7/_xlarge.jpeg"
     },
     {
       "id": "c77ac440eabdbe174d09f52177110f0396276918",
@@ -1020,28 +1042,6 @@
       "type": "NEWS",
       "severity": "Info",
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEEFyvreIQgAheXoKRJxLcNgyzFh0rlydmiMfaOBIlmM7zGPc_71mCSG6zWGlpFcRQg59gVUw6NbpmFiNKIcDB3AqVA5eKpjYExWhMu-uBD_W5xu1wiYRtX5MklAgxeuHOBJOI8H9LmaIoXv7IrvFMVHvVhor06lj_ljcIDjIDAPYJ8w01X-BTA51EpOU/s1600/php-after-shell.jpg"
-    },
-    {
-      "id": "dc9f3cf1b3b30587c6fafbd6afcdf786f1e354e0",
-      "title": "Un SMS blaster aurait perturbé 10 000 mobiles",
-      "url": "https://www.zataz.com/un-sms-blaster-aurait-perturbe-10-000-mobiles/",
-      "source": "Zataz",
-      "publishedAt": "2026-11-19T16:43:51.000Z",
-      "summary": "À Tokyo, un suspect est arrêté après une opération de SMS blaster ayant perturbé plus de 10 000 téléphones.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/sms_blaster_ninja.jpg"
-    },
-    {
-      "id": "5120b4f0262bc16ed5f286d0a2a9dd134a4afb1c",
-      "title": "Un SMS blaster découvert dans une voiture",
-      "url": "https://www.zataz.com/un-sms-blaster-decouvert-dans-une-voiture/",
-      "source": "Zataz",
-      "publishedAt": "2026-11-19T16:33:54.000Z",
-      "summary": "Un SMS blaster découvert dans une voiture est associé à neuf victimes et à des SMS frauduleux se faisant passer pour la police.",
-      "type": "NEWS",
-      "severity": "Info",
-      "imageUrl": "https://www.zataz.com/wp-content/uploads/sms_blaster_titre.jpg"
     },
     {
       "id": "80066cd46b3ad1c4aac0b69cf881a7f31192c899",
